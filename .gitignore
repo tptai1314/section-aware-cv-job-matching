@@ -1,0 +1,23 @@
+# data
+data/raw/*
+data/interim/*
+data/processed/*
+data/labels/*
+!data/**/.gitkeep
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# experiment outputs
+outputs/
+results/
+*.csv.tmp
+
+# ide / os
+.idea/
+.vscode/
+.DS_Store

@@ -1,0 +1,37 @@
+seed: 42
+
+data:
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  labels_path: data/labels/labels.csv
+
+embedding:
+  model_name: sentence-transformers/all-MiniLM-L6-v2
+  dim: 384
+  device: cpu
+  frozen: true
+
+sections:
+  # rule-based section names used for splitting CV/JD
+  skills: ["kỹ năng", "skills"]
+  experience: ["kinh nghiệm", "experience"]
+  education: ["học vấn", "education"]
+  summary: ["tóm tắt", "summary"]
+
+matching:
+  method: section_aware   # bm25 | single_vector | chunk_max_sim | section_aware
+  pairing: cross           # fixed | cross
+  aggregation: max         # max | mean
+
+acceleration:
+  two_stage: false
+  top_k_retrieve: 100
+  quantization: null       # null | int8
+  pca_dim: null            # null | int
+
+evaluation:
+  metrics: [ndcg@10, mrr, spearman]
+  label_scale: [0, 1, 2, 3]
+  query: jd
+  candidate: cv
