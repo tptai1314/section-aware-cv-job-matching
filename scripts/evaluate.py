@@ -1,8 +1,9 @@
-"""End-to-end evaluation: JSONL -> embed -> rank -> metrics.
+"""End-to-end evaluation: JSONL -> rank -> metrics.
 
 Usage:
     python scripts/evaluate.py --method section_aware --pairing cross
-    python scripts/evaluate.py --method single_vector --embedder mock
+    python scripts/evaluate.py --method bm25
+    python scripts/evaluate.py --method chunk_max_sim
 """
 
 from __future__ import annotations
@@ -11,50 +12,17 @@ import argparse
 import sys
 import time
 from pathlib import Path
-from typing import Dict, List, Sequence, Tuple
+from typing import Sequence
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT / "src") not in sys.path:
     sys.path.insert(0, str(REPO_ROOT / "src"))
 
-from cvjd.evaluation.metrics import compute_metrics
-from cvjd.io import load_documents, load_queries
-from cvjd.models.embedding import create_embedder
-from cvjd.models.matching import rank_all
-
-
-def evaluate(
-    rankings: Dict[str, List[Tuple[str, float]]],
-    queries,
-    k: int = 10,
-) -> Dict[str, float]:
-    """Average NDCG@k, MRR, Spearman over labeled queries."""
-    totals: Dict[str, float] = {}
-    count = 0
-    for query in queries:
-        label_by_cv = dict(zip(query.cv_ids, query.relevance))
-        ranked = rankings[query.jd_id]
-        labeled = [
-            (score, label_by_cv[cv_id])
-            for cv_id, score in ranked
-            if label_by_cv.get(cv_id, -1) >= 0
-        ]
-        if not labeled:
-            continue
-        scores = [s for s, _ in labeled]
-        labels = [r for _, r in labeled]
-        metrics = compute_metrics(
-            ranked_relevances=labels,
-            scores=scores if len(labeled) >= 2 else None,
-            labels=labels if len(labeled) >= 2 else None,
-            k=k,
-        )
-        for name, value in metrics.items():
-            totals[name] = totals.get(name, 0.0) + value
-        count += 1
-    if count == 0:
-        raise ValueError("no labeled queries to evaluate")
-    return {name: value / count for name, value in totals.items()}
+from cvjd.evaluation.metrics import evaluate_rankings  # noqa: E402
+from cvjd.io import load_documents, load_queries  # noqa: E402
+from cvjd.models.bm25 import rank_all_bm25  # noqa: E402
+from cvjd.models.embedding import create_embedder  # noqa: E402
+from cvjd.models.matching import rank_all  # noqa: E402
 
 
 def main(argv: Sequence[str] | None = None) -> None:
@@ -63,7 +31,7 @@ def main(argv: Sequence[str] | None = None) -> None:
     parser.add_argument("--embedder", default="mock", choices=["mock", "st"])
     parser.add_argument(
         "--method", default="section_aware",
-        choices=["section_aware", "single_vector"],
+        choices=["section_aware", "single_vector", "chunk_max_sim", "bm25"],
     )
     parser.add_argument("--pairing", default="cross", choices=["fixed", "cross"])
     parser.add_argument("--aggregation", default="mean", choices=["max", "mean"])
@@ -74,22 +42,27 @@ def main(argv: Sequence[str] | None = None) -> None:
     jds = list(load_documents(args.data_dir / "raw" / "jds.jsonl").values())
     queries = load_queries(args.data_dir / "labels" / "queries.jsonl")
 
-    embedder = create_embedder(args.embedder)
+    embedder = None if args.method == "bm25" else create_embedder(args.embedder)
 
     start = time.perf_counter()
-    rankings = rank_all(
-        jds, cvs, embedder,
-        method=args.method,
-        pairing=args.pairing,
-        aggregation=args.aggregation,
-    )
+    if args.method == "bm25":
+        rankings = rank_all_bm25(jds, cvs)
+        pairing_info = ""
+    else:
+        rankings = rank_all(
+            jds, cvs, embedder,
+            method=args.method,
+            pairing=args.pairing,
+            aggregation=args.aggregation,
+        )
+        pairing_info = f" pairing={args.pairing} agg={args.aggregation}"
     elapsed = time.perf_counter() - start
 
-    metrics = evaluate(rankings, queries, k=args.k)
+    metrics = evaluate_rankings(rankings, queries, k=args.k)
 
     print(
-        f"embedder={args.embedder} method={args.method} "
-        f"pairing={args.pairing} agg={args.aggregation}"
+        f"embedder={args.embedder if embedder else '-'} method={args.method}"
+        f"{pairing_info}"
     )
     print(f"{'query':>10}  {'NDCG@' + str(args.k):>8}  {'MRR':>6}  {'Spearman':>9}")
     print(

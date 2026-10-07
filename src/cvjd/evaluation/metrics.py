@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import math
-from typing import Dict, Sequence
+from typing import Dict, Mapping, Sequence, Tuple
+
+from ..schema import Query
 
 
 def dcg_at_k(relevances: Sequence[float], k: int) -> float:
@@ -91,3 +93,43 @@ def compute_metrics(
     if scores is not None and labels is not None:
         result["spearman"] = spearman(scores, labels)
     return result
+
+
+def evaluate_rankings(
+    rankings: Mapping[str, Sequence[Tuple[str, float]]],
+    queries: Sequence[Query],
+    k: int = 10,
+    threshold: float = 1.0,
+) -> Dict[str, float]:
+    """Mean NDCG@k, MRR and Spearman over queries with at least one label.
+
+    Unlabeled candidates (label -1) are dropped before scoring.
+    """
+    totals: Dict[str, float] = {}
+    count = 0
+    for query in queries:
+        if query.jd_id not in rankings:
+            raise ValueError(f"missing ranking for query {query.jd_id}")
+        label_by_cv = dict(zip(query.cv_ids, query.relevance))
+        labeled = [
+            (score, label_by_cv[cv_id])
+            for cv_id, score in rankings[query.jd_id]
+            if label_by_cv.get(cv_id, -1) >= 0
+        ]
+        if not labeled:
+            continue
+        scores = [score for score, _ in labeled]
+        labels = [label for _, label in labeled]
+        metrics = compute_metrics(
+            ranked_relevances=labels,
+            scores=scores if len(labeled) >= 2 else None,
+            labels=labels if len(labeled) >= 2 else None,
+            k=k,
+            threshold=threshold,
+        )
+        for name, value in metrics.items():
+            totals[name] = totals.get(name, 0.0) + value
+        count += 1
+    if count == 0:
+        raise ValueError("no labeled queries to evaluate")
+    return {name: value / count for name, value in totals.items()}

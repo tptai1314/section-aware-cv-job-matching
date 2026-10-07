@@ -7,13 +7,14 @@ from typing import Dict, Iterable, List, Literal, Sequence, Tuple
 import numpy as np
 
 from ..schema import Document
+from .chunking import rank_all_chunk
 from .embedding import Embedder
 
 FULL_KEY = "_full"
 
 Pairing = Literal["fixed", "cross"]
 Aggregation = Literal["max", "mean"]
-Method = Literal["section_aware", "single_vector"]
+Method = Literal["section_aware", "single_vector", "chunk_max_sim"]
 
 SectionVectors = Dict[str, np.ndarray]
 CorpusEmbeddings = Dict[str, SectionVectors]
@@ -101,6 +102,8 @@ def score_pair(
         return cosine(jd_emb[FULL_KEY], cv_emb[FULL_KEY])
     if method == "section_aware":
         return aggregate(section_components(jd_emb, cv_emb, pairing), aggregation)
+    if method == "chunk_max_sim":
+        raise ValueError("chunk_max_sim is only supported through rank_all")
     raise ValueError(f"unknown method: {method!r}")
 
 
@@ -126,7 +129,11 @@ def rank_all(
     method: Method = "section_aware",
     pairing: Pairing = "cross",
     aggregation: Aggregation = "mean",
+    chunk_max_tokens: int = 64,
+    chunk_overlap: int = 16,
 ) -> Dict[str, List[Tuple[str, float]]]:
+    if method == "chunk_max_sim":
+        return rank_all_chunk(jds, cvs, embedder, chunk_max_tokens, chunk_overlap)
     jd_embeddings = embed_corpus(jds, embedder)
     cv_embeddings = embed_corpus(cvs, embedder)
     return {

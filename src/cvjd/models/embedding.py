@@ -60,7 +60,10 @@ class SentenceTransformerEmbedder:
                 "sentence-transformers is required for SentenceTransformerEmbedder"
             ) from e
         self.model = SentenceTransformer(model_name, device=device)
-        self.dim = int(self.model.get_sentence_embedding_dimension())
+        getter = getattr(self.model, "get_embedding_dimension", None)
+        if getter is None:
+            getter = self.model.get_sentence_embedding_dimension
+        self.dim = int(getter())
 
     def encode(self, texts: Iterable[str]) -> np.ndarray:
         texts = list(texts)

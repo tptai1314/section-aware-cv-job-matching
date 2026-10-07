@@ -9,6 +9,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
+from cvjd.models.chunking import chunk_text, max_similarity  # noqa: E402
 from cvjd.models.embedding import MockEmbedder  # noqa: E402
 from cvjd.models.matching import (  # noqa: E402
     FULL_KEY,
@@ -141,3 +142,55 @@ def test_rank_all_covers_every_jd():
         assert {cv_id for cv_id, _ in ranking} == {"cv_1", "cv_2"}
     assert rankings["jd_1"][0][0] == "cv_1"
     assert rankings["jd_2"][0][0] == "cv_1"
+
+def test_chunk_text_short_text_single_chunk():
+    assert chunk_text("a b c", max_tokens=10, overlap=2) == ["a b c"]
+    assert chunk_text("", max_tokens=10, overlap=2) == []
+
+
+def test_chunk_text_windows_cover_tail():
+    text = "w1 w2 w3 w4 w5 w6"
+    chunks = chunk_text(text, max_tokens=4, overlap=2)
+    assert chunks == ["w1 w2 w3 w4", "w3 w4 w5 w6"]
+
+
+def test_chunk_text_rejects_bad_params():
+    with pytest.raises(ValueError):
+        chunk_text("a b", max_tokens=0, overlap=0)
+    with pytest.raises(ValueError):
+        chunk_text("a b", max_tokens=4, overlap=4)
+
+
+def test_chunk_max_sim_ranks_matching_cv_first():
+    jds = [_jd("jd_1", "python sql kubernetes")]
+    cvs = [_cv("cv_1", "python sql kubernetes"), _cv("cv_2", "cooking recipes")]
+    rankings = rank_all(jds, cvs, MockEmbedder(dim=128), method="chunk_max_sim")
+    assert rankings["jd_1"][0][0] == "cv_1"
+    assert rankings["jd_1"][0][1] >= rankings["jd_1"][1][1]
+
+
+def test_max_similarity_zero_on_empty():
+    import numpy as np
+
+    assert max_similarity([], [np.ones(4)]) == 0.0
+    assert max_similarity([np.zeros(4)], [np.ones(4)]) == 0.0
+
+
+def test_bm25_ranks_matching_cv_first():
+    from cvjd.models.bm25 import rank_all_bm25
+
+    jds = [_jd("jd_1", "kubernetes deployment")]
+    cvs = [
+        _cv("cv_1", "java spring"),
+        _cv("cv_2", "python pandas"),
+        _cv("cv_3", "javascript react"),
+        _cv("cv_4", "cooking recipes"),
+        _cv("cv_5", "kubernetes docker deployment"),
+    ]
+    rankings = rank_all_bm25(jds, cvs)
+    assert rankings["jd_1"][0][0] == "cv_5"
+
+
+def test_score_pair_rejects_chunk_method():
+    with pytest.raises(ValueError, match="chunk_max_sim"):
+        score_pair({}, {}, method="chunk_max_sim")
