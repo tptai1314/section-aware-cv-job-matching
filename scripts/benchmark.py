@@ -24,48 +24,10 @@ if str(REPO_ROOT / "src") not in sys.path:
 
 from cvjd.evaluation.metrics import evaluate_rankings  # noqa: E402
 from cvjd.io import load_documents, load_queries  # noqa: E402
-from cvjd.models.bm25 import BM25Ranker  # noqa: E402
-from cvjd.models.chunking import embed_chunks, max_similarity  # noqa: E402
 from cvjd.models.embedding import create_embedder  # noqa: E402
-from cvjd.models.matching import embed_corpus, rank_query  # noqa: E402
+from cvjd.models.factory import METHODS, prepare_ranker  # noqa: E402
 
-ALL_METHODS = ["bm25", "single_vector", "section_aware", "chunk_max_sim"]
-
-RankOne = Callable[[str], List[Tuple[str, float]]]
-
-
-def _sorted_scores(scored: List[Tuple[str, float]]) -> List[Tuple[str, float]]:
-    return sorted(scored, key=lambda item: (-item[1], item[0]))
-
-
-def prepare_ranker(
-    method: str,
-    jds,
-    cvs,
-    embedder,
-    pairing: str,
-    aggregation: str,
-    chunk_max_tokens: int = 64,
-    chunk_overlap: int = 16,
-) -> RankOne:
-    if method == "bm25":
-        ranker = BM25Ranker(cvs)
-        jd_by_id = {jd.doc_id: jd for jd in jds}
-        return lambda jd_id: ranker.rank(jd_by_id[jd_id])
-
-    if method == "chunk_max_sim":
-        jd_chunks = embed_chunks(jds, embedder, chunk_max_tokens, chunk_overlap)
-        cv_chunks = embed_chunks(cvs, embedder, chunk_max_tokens, chunk_overlap)
-        return lambda jd_id: _sorted_scores([
-            (cv_id, max_similarity(jd_chunks[jd_id], cv_chunks[cv_id]))
-            for cv_id in cv_chunks
-        ])
-
-    jd_emb = embed_corpus(jds, embedder)
-    cv_emb = embed_corpus(cvs, embedder)
-    return lambda jd_id: rank_query(
-        jd_emb[jd_id], cv_emb, method=method, pairing=pairing, aggregation=aggregation
-    )
+ALL_METHODS = list(METHODS)
 
 
 def _rss_mb() -> float:
@@ -82,12 +44,25 @@ def benchmark_method(
     aggregation: str,
     k: int,
     repeats: int,
+    extra: Dict[str, object] | None = None,
 ) -> Dict[str, object]:
+    extra = extra or {}
     rss_before = _rss_mb()
     start = time.perf_counter()
-    rank_one = prepare_ranker(method, jds, cvs, embedder, pairing, aggregation)
+    rank_one = prepare_ranker(
+        method, jds, cvs, embedder, pairing=pairing, aggregation=aggregation, **extra
+    )
     build_s = time.perf_counter() - start
     rss_after_build = _rss_mb()
+
+    params = ""
+    if method == "single_pca":
+        params = f"pca_dim={extra.get('pca_dim')}"
+    elif method == "two_stage":
+        params = (
+            f"top_k={extra.get('top_k_retrieve')}"
+            f",stage1={extra.get('stage1_compression')}"
+        )
 
     for jd in jds:
         rank_one(jd.doc_id)
@@ -105,6 +80,7 @@ def benchmark_method(
     metrics = evaluate_rankings(rankings, queries, k=k)
     return {
         "method": method,
+        "params": params,
         "pairing": pairing if method == "section_aware" else "",
         "aggregation": aggregation if method == "section_aware" else "",
         "build_s": round(build_s, 4),
@@ -129,6 +105,12 @@ def main(argv: Sequence[str] | None = None) -> None:
     parser.add_argument("--aggregation", default="mean", choices=["max", "mean"])
     parser.add_argument("--k", type=int, default=10)
     parser.add_argument("--repeats", type=int, default=3)
+    parser.add_argument("--pca-dim", type=int, default=64)
+    parser.add_argument("--top-k-retrieve", type=int, default=10)
+    parser.add_argument(
+        "--stage1-compression", default="none",
+        choices=["none", "pca", "int8"],
+    )
     parser.add_argument("--out", type=Path, default=REPO_ROOT / "results" / "benchmark.csv")
     args = parser.parse_args(argv)
 
@@ -145,12 +127,17 @@ def main(argv: Sequence[str] | None = None) -> None:
     embedder = create_embedder(args.embedder) if needs_embeddings else None
 
     rows = []
+    extra = {
+        "pca_dim": args.pca_dim,
+        "top_k_retrieve": args.top_k_retrieve,
+        "stage1_compression": args.stage1_compression,
+    }
     for method in methods:
         print(f"benchmarking {method} ...")
         rows.append(benchmark_method(
             method, jds, cvs, queries, embedder,
             pairing=args.pairing, aggregation=args.aggregation,
-            k=args.k, repeats=args.repeats,
+            k=args.k, repeats=args.repeats, extra=extra,
         ))
 
     args.out.parent.mkdir(parents=True, exist_ok=True)

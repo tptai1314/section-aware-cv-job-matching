@@ -20,22 +20,24 @@ if str(REPO_ROOT / "src") not in sys.path:
 
 from cvjd.evaluation.metrics import evaluate_rankings  # noqa: E402
 from cvjd.io import load_documents, load_queries  # noqa: E402
-from cvjd.models.bm25 import rank_all_bm25  # noqa: E402
 from cvjd.models.embedding import create_embedder  # noqa: E402
-from cvjd.models.matching import rank_all  # noqa: E402
+from cvjd.models.factory import METHODS, build_rankings  # noqa: E402
 
 
 def main(argv: Sequence[str] | None = None) -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data-dir", type=Path, default=REPO_ROOT / "data")
     parser.add_argument("--embedder", default="mock", choices=["mock", "st"])
-    parser.add_argument(
-        "--method", default="section_aware",
-        choices=["section_aware", "single_vector", "chunk_max_sim", "bm25"],
-    )
+    parser.add_argument("--method", default="section_aware", choices=list(METHODS))
     parser.add_argument("--pairing", default="cross", choices=["fixed", "cross"])
     parser.add_argument("--aggregation", default="mean", choices=["max", "mean"])
     parser.add_argument("--k", type=int, default=10)
+    parser.add_argument("--pca-dim", type=int, default=64)
+    parser.add_argument("--top-k-retrieve", type=int, default=10)
+    parser.add_argument(
+        "--stage1-compression", default="none",
+        choices=["none", "pca", "int8"],
+    )
     args = parser.parse_args(argv)
 
     cvs = list(load_documents(args.data_dir / "raw" / "cvs.jsonl").values())
@@ -45,19 +47,19 @@ def main(argv: Sequence[str] | None = None) -> None:
     embedder = None if args.method == "bm25" else create_embedder(args.embedder)
 
     start = time.perf_counter()
-    if args.method == "bm25":
-        rankings = rank_all_bm25(jds, cvs)
-        pairing_info = ""
-    else:
-        rankings = rank_all(
-            jds, cvs, embedder,
-            method=args.method,
-            pairing=args.pairing,
-            aggregation=args.aggregation,
-        )
-        pairing_info = f" pairing={args.pairing} agg={args.aggregation}"
+    rankings = build_rankings(
+        args.method, jds, cvs, embedder,
+        pairing=args.pairing, aggregation=args.aggregation,
+        pca_dim=args.pca_dim,
+        top_k_retrieve=args.top_k_retrieve,
+        stage1_compression=args.stage1_compression,
+    )
     elapsed = time.perf_counter() - start
 
+    pairing_info = (
+        f" pairing={args.pairing} agg={args.aggregation}"
+        if args.method == "section_aware" else ""
+    )
     metrics = evaluate_rankings(rankings, queries, k=args.k)
 
     print(
