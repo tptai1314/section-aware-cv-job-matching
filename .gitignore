@@ -17,6 +17,15 @@ outputs/
 results/
 *.csv.tmp
 
+# generated artifacts
+data/chroma/
+logs/
+
+# secrets / local config
+.env
+.env.*
+!.env.example
+
 # ide / os
 .idea/
 .vscode/

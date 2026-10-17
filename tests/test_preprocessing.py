@@ -1,6 +1,5 @@
 """Tests for the rule-based section splitter."""
 
-import importlib.util
 import sys
 from pathlib import Path
 
@@ -15,15 +14,7 @@ from cvjd.data.preprocessing import (  # noqa: E402
     sections_to_dict,
     split_sections,
 )
-from cvjd.schema import Section  # noqa: E402
-
-
-def _load_script(name: str):
-    path = ROOT / "scripts" / f"{name}.py"
-    spec = importlib.util.spec_from_file_location(name, path)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
+from cvjd.schema import Document, Section  # noqa: E402
 
 
 @pytest.mark.parametrize("heading,expected", [
@@ -94,19 +85,44 @@ def test_resplit_document_preserves_identity_fields():
     assert set(rebuilt.sections) == {"summary", "skills"}
 
 
-def test_mock_documents_round_trip_through_splitter():
-    mock = _load_script("make_mock_data")
-    cvs, jds, _, _ = mock.build_mock(n_cvs=6, n_jds=3, seed=11)
-    for doc in cvs + jds:
-        rebuilt = resplit_document(doc)
-        original_names = sorted(
-            doc.sections,
-            key=lambda n: doc.sections[n].order,
-        )
-        rebuilt_names = sorted(
-            rebuilt.sections,
-            key=lambda n: rebuilt.sections[n].order,
-        )
-        assert original_names == rebuilt_names, doc.doc_id
-        for name in original_names:
-            assert doc.sections[name].text.strip() == rebuilt.sections[name].text.strip()
+@pytest.mark.parametrize("raw_text,expected", [
+    (
+        "PROFILE\nData Scientist with 3 years of experience.\n\n"
+        "TECHNICAL SKILLS\npython, sql\n\n"
+        "WORK EXPERIENCE\n- 2020-2023: Dev at FPT\n\n"
+        "ACADEMIC BACKGROUND\n- Bachelor degree, Computer Science",
+        [
+            ("summary", "Data Scientist with 3 years of experience.", "PROFILE"),
+            ("skills", "python, sql", "TECHNICAL SKILLS"),
+            ("experience", "- 2020-2023: Dev at FPT", "WORK EXPERIENCE"),
+            ("education", "- Bachelor degree, Computer Science", "ACADEMIC BACKGROUND"),
+        ],
+    ),
+    (
+        "TÓM TẮT\nKỹ sư dữ liệu với 3 năm kinh nghiệm.\n\n"
+        "KỸ NĂNG\npython, sql\n\n"
+        "KINH NGHIỆM LÀM VIỆC\n- 2019-2021: Dev tại Viettel\n\n"
+        "TRÌNH ĐỘ HỌC VẤN\n- Cử nhân khoa học máy tính",
+        [
+            ("summary", "Kỹ sư dữ liệu với 3 năm kinh nghiệm.", "TÓM TẮT"),
+            ("skills", "python, sql", "KỸ NĂNG"),
+            ("experience", "- 2019-2021: Dev tại Viettel", "KINH NGHIỆM LÀM VIỆC"),
+            ("education", "- Cử nhân khoa học máy tính", "TRÌNH ĐỘ HỌC VẤN"),
+        ],
+    ),
+])
+def test_resplit_document_round_trip(raw_text, expected):
+    sections = {
+        name: Section(name, text, heading, order)
+        for order, (name, text, heading) in enumerate(expected)
+    }
+    doc = Document(doc_id="cv_x", doc_type="cv", lang="en",
+                   raw_text=raw_text, sections=sections)
+    rebuilt = resplit_document(doc)
+    assert rebuilt.doc_id == doc.doc_id
+    assert rebuilt.raw_text == doc.raw_text
+    got = [
+        (s.name, s.text, s.heading_raw)
+        for s in sorted(rebuilt.sections.values(), key=lambda s: s.order)
+    ]
+    assert got == expected

@@ -1,30 +1,36 @@
-# Section-aware Multi-vector CV–JD Matching
+# Hệ thống AI Matching CV–JD (Section-aware)
 
-Đề tài nghiên cứu sự đánh đổi giữa chất lượng xếp hạng và hiệu năng của so khớp CV–JD bằng biểu diễn đa vector theo section trên dữ liệu nội bộ của hệ thống tuyển dụng: mỗi hồ sơ (CV) và mỗi mô tả công việc (JD) được tách thành các section (kinh nghiệm, kỹ năng, học vấn, v.v.), mỗi section được nhúng thành một vector riêng, điểm tương ứng giữa CV và JD được tổng hợp qua cách ghép cặp section để tạo bảng xếp hạng ứng viên; đề tài là nghiên cứu ứng dụng – thực nghiệm, không đề xuất thuật toán mới, mà đo lường đồng thời chất lượng xếp hạng (NDCG, MRR), chi phí tính toán (latency, RAM) và khả năng giải thích của điểm thành phần, so với các baseline BM25, single-vector, chunk max-sim và upper bound là cross-encoder.
+Hệ thống gợi ý/ghép cặp hồ sơ ứng viên (CV) với mô tả công việc (JD) cho nền tảng tuyển dụng freelancer Frevia.
+Điểm cốt lõi: mỗi tài liệu được tách thành các **section** (kỹ năng, kinh nghiệm, học vấn…), **mỗi section được nhúng thành một vector riêng**,
+sau đó điểm phù hợp giữa CV và JD được tính bằng cách so khớp các section và tổng hợp lại thành một bảng xếp hạng.
 
-## Câu hỏi nghiên cứu và giả thuyết
+- **Query = JD**, **Candidate = CV**. Với mỗi JD, hệ thống xếp hạng các CV ứng viên phù hợp nhất.
+- Chạy hoàn toàn trên **CPU**, dùng embedding có sẵn (BGE-M3) — không cần huấn luyện model.
+- Hỗ trợ matching **hai chiều**: tìm CV cho JD (client → freelancer) và tìm JD cho CV (freelancer → client).
 
-| RQ | Câu hỏi | Giả thuyết |
-|---|---|---|
-| RQ1 | Section-aware có xếp hạng tốt hơn single-vector và chunk max-sim không? | **H1:** NDCG@10 của section-aware không thấp hơn hai baseline, đồng thời sinh ra điểm thành phần theo section giải thích được vì sao một CV được xếp hạng cao. |
-| RQ2 | Section-aware đạt gần cross-encoder/LLM đến mức nào và rẻ hơn bao nhiêu? | **H2:** Section-aware nhanh hơn và tốn ít RAM hơn rõ rệt, trong khi NDCG@10 chỉ chênh nhẹ so với cross-encoder. |
-| RQ3 | Kỹ thuật tăng tốc (hai tầng, lượng tử hoá/PCA) làm giảm chất lượng bao nhiêu? | **H3:** Pipeline hai tầng giảm latency đáng kể nhưng mất rất ít chất lượng xếp hạng. |
-| RQ4 | Ghép cặp chéo giữa section CV và section JD có tốt hơn ghép cặp cố định không? | **H4:** Ghép cặp chéo cho kết quả tốt hơn, đặc biệt khi các section CV–JD không tương ứng một-một. |
+## Cách hoạt động
 
-## Phạm vi
+1. **Tách section** — mỗi CV/JD được chia thành các section theo quy tắc, mỗi section + toàn văn được nhúng thành vector.
+2. **Indexing** — các vector được lưu vào ChromaDB để truy hồi nhanh.
+3. **Retrieval** — dùng vector toàn văn để lấy ra pool ứng viên tiềm năng (top-K).
+4. **Matching** — tính điểm tương đồng theo từng section, ghép cặp và tổng hợp thành điểm semantic.
+5. **Hybrid ranking** — kết hợp điểm semantic với các tiêu chí có cấu trúc (kỹ năng, kinh nghiệm, ngân sách, ưu tiên)
+   và lọc ràng buộc cứng (trạng thái, quyền) để ra kết quả cuối cùng.
+6. **Giải thích & phục vụ** — AI service (FastAPI + LLM Qwen) trả về kết quả kèm giải thích dựa trên bằng chứng.
 
-- **Không train model mới.** Mọi mô hình đều là embedding có sẵn, frozen (không fine-tune).
-- **384 chiều**, chạy hoàn toàn trên **CPU**, không cần GPU.
-- Dữ liệu nội bộ đồ án, không dùng dataset bên ngoài.
-- Chỉ đánh giá thực nghiệm: so sánh, ablation, phân tích đánh đổi chất lượng – hiệu năng.
+## Thành phần chính
 
-## Đơn vị ranking
+| Thành phần | Mô tả |
+|---|---|
+| Embedding | BGE-M3 (dense 1024 chiều, đa ngôn ngữ), frozen |
+| Vector store | ChromaDB (`frevia_cvs`, `frevia_jobs`) |
+| Nguồn dữ liệu | PostgreSQL (read-only) |
+| Ghép cặp section | `fixed` (cùng tên) hoặc `cross` (so mọi section, lấy max) |
+| Tổng hợp điểm | `mean` hoặc `max` qua các section |
+| Ranking | Hybrid: semantic + skills + experience + budget + preferences |
+| AI service | FastAPI + Ollama (Qwen) cho giải thích/rerank |
 
-- **Query = JD** (mô tả công việc cần tìm người phù hợp).
-- **Candidate = CV** (hồ sơ ứng viên).
-- Với mỗi JD, hệ thống xếp hạng toàn bộ CV trong tập ứng viên.
-
-## Thang nhãn
+## Thang điểm phù hợp
 
 Nhãn đánh giá mức độ phù hợp giữa một cặp (JD, CV) theo thang **0–3**:
 
@@ -34,3 +40,13 @@ Nhãn đánh giá mức độ phù hợp giữa một cặp (JD, CV) theo thang 
 | 1 | Hơi phù hợp |
 | 2 | Phù hợp |
 | 3 | Rất phù hợp |
+
+## Chạy nhanh
+
+```powershell
+python scripts/db_export.py           # export dữ liệu từ Postgres
+python scripts/index_chroma.py        # nhúng + index vào ChromaDB
+python scripts/recommend.py --direction jd2cv --query jd:1 --top-k 10
+```
+
+Xem chi tiết luồng hoạt động đầy đủ tại [docs/WORKFLOW.md](docs/WORKFLOW.md).

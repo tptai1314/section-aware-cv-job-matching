@@ -1,6 +1,5 @@
 """Round-trip tests: schema objects -> JSONL -> schema objects."""
 
-import importlib.util
 import sys
 from pathlib import Path
 
@@ -21,14 +20,6 @@ from cvjd.io import (  # noqa: E402
     save_queries,
 )
 from cvjd.schema import Document, Pair, Query, Section  # noqa: E402
-
-
-def _load_script(name: str):
-    path = ROOT / "scripts" / f"{name}.py"
-    spec = importlib.util.spec_from_file_location(name, path)
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
 
 
 def _fixture_docs():
@@ -114,30 +105,3 @@ def test_duplicate_doc_id_rejected(tmp_path):
     )
     with pytest.raises(ValueError, match="duplicate doc_id"):
         load_documents(path)
-
-
-def test_mock_generator_round_trip(tmp_path):
-    mock = _load_script("make_mock_data")
-    cvs, jds, pairs, queries = mock.build_mock(
-        n_cvs=5, n_jds=3, seed=7, noise=0.2, coverage=0.8
-    )
-
-    save_documents(tmp_path / "cvs.jsonl", cvs)
-    save_documents(tmp_path / "jds.jsonl", jds)
-    save_pairs(tmp_path / "pairs.jsonl", pairs)
-    save_queries(tmp_path / "queries.jsonl", queries)
-
-    assert load_documents(tmp_path / "cvs.jsonl") == {d.doc_id: d for d in cvs}
-    assert load_documents(tmp_path / "jds.jsonl") == {d.doc_id: d for d in jds}
-    assert load_pairs(tmp_path / "pairs.jsonl") == pairs
-    assert load_queries(tmp_path / "queries.jsonl") == queries
-
-    cv_ids = {d.doc_id for d in cvs}
-    jd_ids = {d.doc_id for d in jds}
-    for pair in pairs:
-        assert pair.cv_id in cv_ids and pair.jd_id in jd_ids
-        assert -1 <= pair.label <= 3
-    for query in queries:
-        assert query.jd_id in jd_ids
-        assert len(query.cv_ids) == len(query.relevance)
-        assert set(query.cv_ids) == cv_ids

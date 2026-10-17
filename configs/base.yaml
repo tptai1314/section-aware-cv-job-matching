@@ -4,11 +4,10 @@ data:
   raw_dir: data/raw
   interim_dir: data/interim
   processed_dir: data/processed
-  labels_path: data/labels/labels.csv
 
 embedding:
-  model_name: sentence-transformers/all-MiniLM-L6-v2
-  dim: 384
+  model_name: BAAI/bge-m3   # dense 1024-dim, multilingual (plan.cv.md §10)
+  dim: 1024
   device: cpu
   frozen: true
 
@@ -24,14 +23,17 @@ matching:
   pairing: cross           # fixed | cross
   aggregation: max         # max | mean
 
-acceleration:
-  two_stage: false
-  top_k_retrieve: 100
-  quantization: null       # null | int8
-  pca_dim: null            # null | int
+retrieval:
+  pool_size: 100           # candidate pool từ full-text vector
+  top_k: 10
+  status: READY
+  keyword_alpha: 0.5       # trọng số semantic khi fusion với keyword (B5)
 
-evaluation:
-  metrics: [ndcg@10, mrr, spearman]
-  label_scale: [0, 1, 2, 3]
-  query: jd
-  candidate: cv
+ranking:
+  # S_hybrid = Σ w_i * S_i, chuẩn hoá [0,1] (plan §7.2)
+  weights:
+    semantic: 0.40
+    skills: 0.30
+    experience: 0.15
+    budget: 0.10
+    preferences: 0.05
