@@ -21,6 +21,9 @@ class Settings:
     recommend_pool_size: int = 100
     recommend_top_k: int = 10
     internal_api_key: str | None = None
+    # Fail-closed cho production: nếu bật mà chưa có INTERNAL_API_KEY -> chặn mọi
+    # request tới /internal/* (design §8). Mặc định tắt để dev/test chạy được.
+    internal_api_key_required: bool = False
     # Hàng đợi xử lý file (docs/DESIGN_processing_queue.md §5)
     # worker_enabled mặc định False khi dựng Settings trực tiếp (test không muốn
     # thread nền); load_settings() đặt True theo env (prod bật).
@@ -86,6 +89,7 @@ def load_settings(env: dict | None = None) -> Settings:
         recommend_pool_size=_env_int(env, "RECOMMEND_POOL_SIZE", 100),
         recommend_top_k=_env_int(env, "RECOMMEND_TOP_K", 10),
         internal_api_key=env.get("INTERNAL_API_KEY", "").strip() or None,
+        internal_api_key_required=_env_bool(env, "INTERNAL_API_KEY_REQUIRED", False),
         processing_db_path=env.get("PROCESSING_DB_PATH", "").strip() or None,
         processing_files_dir=env.get("PROCESSING_FILES_DIR", "").strip() or None,
         processing_worker_enabled=_env_bool(env, "PROCESSING_WORKER_ENABLED", True),

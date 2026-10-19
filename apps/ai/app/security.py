@@ -23,11 +23,19 @@ _warned = False
 
 
 def require_internal_token(request: Request) -> None:
-    """Dependency FastAPI: chặn request thiếu/sai `X-Internal-Token`."""
+    """Dependency FastAPI: chặn request thiếu/sai `X-Internal-Token`.
+
+    - Có `INTERNAL_API_KEY`: bắt buộc header khớp (401 nếu sai).
+    - Không có khoá + `INTERNAL_API_KEY_REQUIRED=1`: **fail closed** — 503, không
+      cho request nào lọt qua (design §8: production bắt buộc đặt khoá).
+    - Không có khoá + không bật required: dev/test — cảnh báo 1 lần rồi cho qua.
+    """
     global _warned
     settings: Settings = request.app.state.settings
     expected = (settings.internal_api_key or "").strip()
     if not expected:
+        if settings.internal_api_key_required:
+            raise errors.internal_key_not_configured()
         if not _warned:
             logging.getLogger("app.security").warning(
                 "INTERNAL_API_KEY chưa cấu hình: /internal/* đang mở (chỉ dùng cho dev)."

@@ -305,3 +305,27 @@ class JobStatusResponse(BaseModel):
     updated_at: float
     finished_at: float | None = None
     duration_ms: int | None = None
+
+
+class JobStatsResponse(BaseModel):
+    """Số liệu queue cho `/internal/jobs/stats` (design §8)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    counts: dict[str, int] = Field(default_factory=dict)
+    queue_depth: dict[str, int] = Field(default_factory=dict)
+    duration_ms: dict[str, float | int | None] = Field(default_factory=dict)
+    oldest_pending_age_s: float | None = None
+    failed_total: int = 0
+
+
+class JobReconcileResponse(BaseModel):
+    """Kết quả `POST /internal/jobs/reconcile` (design P6)."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    requeued: int = 0  # số job PROCESSING kẹt được đưa về PENDING (hoặc FAILED)
+    failed: int = 0
+    pending: int = 0
+    processing: int = 0
+    stale_after_s: int

@@ -205,6 +205,66 @@ def test_internal_key_required_when_configured(tmp_path):
         assert ok.status_code == 202
 
 
+def test_internal_key_required_fails_closed_when_missing(tmp_path):
+    """INTERNAL_API_KEY_REQUIRED=1 mà thiếu khoá -> từ chối (503), không chỉ cảnh báo."""
+    app = create_app(make_settings(tmp_path, internal_api_key_required=True))
+    with TestClient(app) as client:
+        r = client.post(
+            "/internal/jobs",
+            data={"document_type": "jd", "document_id": "jd_n", "text": LONG_TEXT},
+        )
+        assert r.status_code == 503
+        assert r.json()["detail"] == "INTERNAL_KEY_NOT_CONFIGURED"
+
+
+def test_stats_endpoint(client):
+    r = client.get("/internal/jobs/stats")
+    assert r.status_code == 200
+    body = r.json()
+    assert body["counts"]["PENDING"] == 0
+    assert body["queue_depth"] == {"PENDING": 0, "PROCESSING": 0}
+    assert body["duration_ms"]["count"] == 0
+    assert body["oldest_pending_age_s"] is None
+
+    client.post("/internal/jobs", data={"document_type": "jd", "document_id": "jd_s",
+                                        "text": LONG_TEXT})
+    body = client.get("/internal/jobs/stats").json()
+    assert body["counts"]["PENDING"] == 1
+    assert body["queue_depth"]["PENDING"] == 1
+    assert body["oldest_pending_age_s"] is not None
+
+
+def test_reconcile_requeues_stuck_job(client, store):
+    """Job kẹt PROCESSING quá hạn -> reconcile đưa về PENDING (design P6)."""
+    created = client.post(
+        "/internal/jobs",
+        data={"document_type": "jd", "document_id": "jd_stuck", "text": LONG_TEXT},
+    ).json()
+    claimed = store.claim_next()
+    assert claimed is not None and claimed.status == "PROCESSING"
+    # giả lập worker chết giữa chừng: đẩy updated_at lùi lại (cùng file DB với app)
+    then = time.time() - 10_000
+    store._conn.execute(
+        "UPDATE processing_jobs SET updated_at=? WHERE id=?", (then, claimed.id)
+    )
+    store._conn.commit()
+
+    r = client.post("/internal/jobs/reconcile")
+    assert r.status_code == 200
+    body = r.json()
+    assert body["requeued"] == 1
+    assert body["failed"] == 0
+    assert body["pending"] == 1
+    assert body["stale_after_s"] == 300
+
+    status = client.get(f"/internal/jobs/{created['job_id']}").json()
+    assert status["status"] == PENDING
+    assert status["attempt_count"] == 1  # giữ nguyên lượt đã thử
+
+    # idempotent: chạy lại không còn job kẹt
+    assert client.post("/internal/jobs/reconcile").json()["requeued"] == 0
+
+
 def test_end_to_end_job_becomes_ready(tmp_path, monkeypatch):
     """Worker thread that: POST -> PENDING -> ... -> READY (progress 100)."""
 

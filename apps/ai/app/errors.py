@@ -66,3 +66,12 @@ def job_source_required(detail: str = "JOB_SOURCE_REQUIRED", message: str | None
         detail,
         message or "Job thiếu nguồn nội dung: cần `file` (upload) hoặc `text` (đã trích xuất)",
     )
+
+
+def internal_key_not_configured() -> ApiError:
+    """Fail-closed khi `INTERNAL_API_KEY_REQUIRED=1` mà chưa đặt khoá (design §8)."""
+    return ApiError(
+        503,
+        "INTERNAL_KEY_NOT_CONFIGURED",
+        "AI service yêu cầu INTERNAL_API_KEY (INTERNAL_API_KEY_REQUIRED=1) nhưng chưa cấu hình",
+    )

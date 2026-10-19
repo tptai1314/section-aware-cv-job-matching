@@ -553,6 +553,44 @@ async def create_processing_job(
     )
 
 
+@router.get("/internal/jobs/stats", response_model=schemas.JobStatsResponse)
+def processing_job_stats(request: Request):
+    """Số liệu queue cho vận hành/báo cáo (design §8, plan §12.3).
+
+    Khai báo TRƯỚC `/internal/jobs/{job_id}` để không bị route động "nuốt".
+    """
+    store: store_mod.SqliteProcessingStore = request.app.state.processing_store
+    return schemas.JobStatsResponse(**store.stats())
+
+
+@router.post("/internal/jobs/reconcile", response_model=schemas.JobReconcileResponse)
+def reconcile_processing_jobs(request: Request):
+    """Đưa job `PROCESSING` kẹt quá hạn về `PENDING` (design P6) — idempotent.
+
+    Dùng khi worker bị tắt hoặc vừa restart sau sự cố: quét job kẹt, đánh thức
+    worker cho các job `PENDING` còn lại.
+    """
+    settings: Settings = request.app.state.settings
+    store: store_mod.SqliteProcessingStore = request.app.state.processing_store
+    worker = request.app.state.processing_worker
+
+    failed_before = store.stats()["counts"][store_mod.FAILED]
+    requeued = store.requeue_stale(settings.job_stale_seconds, settings.job_max_attempts)
+    failed = store.stats()["counts"][store_mod.FAILED] - failed_before
+    depth = store.queue_depth()
+    if worker.is_alive():  # worker chưa chạy thì DB vẫn giữ job, start() sẽ tự claim
+        for record in store.list_active():
+            if record.status == store_mod.PENDING:
+                worker.submit(record.id)
+    return schemas.JobReconcileResponse(
+        requeued=requeued,
+        failed=failed,
+        pending=depth[store_mod.PENDING],
+        processing=depth[store_mod.PROCESSING],
+        stale_after_s=settings.job_stale_seconds,
+    )
+
+
 @router.get("/internal/jobs/{job_id}", response_model=schemas.JobStatusResponse)
 def get_processing_job(job_id: str, request: Request):
     """Trạng thái xử lý để NestJS poll `/api/cvs/:id/processing-status`."""

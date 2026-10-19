@@ -279,6 +279,37 @@ def test_queue_depth_does_not_create_db(tmp_path):
     assert not path.exists()  # healthcheck không được sinh file DB
 
 
+def test_stats_counts_durations_and_no_db_file(tmp_path):
+    path = tmp_path / "never_used.db"
+    store = SqliteProcessingStore(path)
+    empty = store.stats()
+    assert empty["counts"] == {PENDING: 0, PROCESSING: 0, READY: 0, FAILED: 0, CANCELLED: 0}
+    assert empty["duration_ms"] == {"count": 0, "avg": None, "p50": None, "p95": None}
+    assert empty["oldest_pending_age_s"] is None
+    assert not path.exists()  # chỉ đọc số liệu thì không tạo file DB
+
+    store = make_store(tmp_path)
+    done, _ = create_cv(store, doc_id="cv_done")
+    store.claim_next()
+    store.mark_ready(done.id)
+    broken, _ = create_cv(store, doc_id="cv_broken")
+    store.claim_next()
+    store.mark_failed(broken.id, "PARSING: X: y")
+    waiting, _ = create_cv(store, doc_id="cv_waiting")
+
+    stats = store.stats()
+    assert stats["counts"][READY] == 1
+    assert stats["counts"][FAILED] == 1
+    assert stats["counts"][PENDING] == 1
+    assert stats["failed_total"] == 1
+    assert stats["duration_ms"]["count"] == 1  # chỉ tính job READY
+    assert stats["duration_ms"]["p50"] == stats["duration_ms"]["avg"]
+    assert stats["queue_depth"] == {PENDING: 1, PROCESSING: 0}
+    # oldest pending = created_at của job còn chờ
+    assert 0 <= stats["oldest_pending_age_s"] < 60
+    assert waiting.id
+
+
 def test_queue_depth_counts_pending_and_processing(tmp_path):
     store = make_store(tmp_path)
     create_cv(store, doc_id="cv_a")

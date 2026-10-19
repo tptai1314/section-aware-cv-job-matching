@@ -189,6 +189,8 @@ Khác biệt nhỏ so với bảng §3.2 (do nhu cầu thực tế của worker)
 | `GET` | `/internal/jobs/{job_id}` | — | `{job_id, status, step, progress, attempt_count, max_attempts, last_error, warnings[], created_at, updated_at, finished_at, duration_ms}` |
 | `DELETE` | `/internal/jobs/{job_id}` | — | trạng thái sau hủy (`CANCELLED`); `409` nếu job không còn `PENDING` |
 | `POST` | `/internal/jobs/{job_id}/retry` | — | `PENDING` (attempt reset); `409` nếu job không ở `FAILED` |
+| `GET` | `/internal/jobs/stats` | — | `{counts, queue_depth, duration_ms{p50,p95,avg,count}, oldest_pending_age_s, failed_total}` — metric cho plan §12.3 |
+| `POST` | `/internal/jobs/reconcile` | — | `{requeued, failed, pending, processing, stale_after_s}` — quét job `PROCESSING` kẹt quá `JOB_STALE_SECONDS` (P6, idempotent) |
 
 Quy tắc nguồn nội dung (đã hiện thực trong `routes.create_processing_job`):
 
@@ -333,14 +335,15 @@ Xoá/hạn quyền ──────────► /internal/index/delete     
 ## 8. Bảo mật & quan sát
 
 **Bảo mật (plan §15):**
-- Mọi endpoint `/internal/*` (gồm `/internal/jobs*`) đi qua `require_internal_token`; `security.py` hiện **chỉ cảnh báo** khi `INTERNAL_API_KEY` chưa cấu hình ⇒ dev/test vẫn chạy được, nhưng **production bắt buộc đặt khoá mạnh** (đã có test `test_internal_key_required_when_configured`).
+- Mọi endpoint `/internal/*` (gồm `/internal/jobs*`) đi qua `require_internal_token`. Khi có `INTERNAL_API_KEY`: thiếu/sai `X-Internal-Token` → `401`.
+- **Fail-closed cho production:** `INTERNAL_API_KEY_REQUIRED=1` + thiếu khoá → mọi request `/internal/*` nhận `503 INTERNAL_KEY_NOT_CONFIGURED` (thay vì chỉ cảnh báo). Mặc định `0` để dev/test chạy được. (`security.py`, test `test_internal_key_required_fails_closed_when_missing`.)
 - Nội dung file/CV: không ghi vào log (chỉ log `job_id`, `doc`, `step`, `duration`); file tạm xóa sau khi xử lý (`text.temp_file` đã dùng context manager).
 - Xem nội dung CV/JD là dữ liệu không đáng tin: đã có sẵn `clean_text`/prompt chống injection — `text.py` + `llm.py` làm rồi, pipeline chỉ không làm nặng thêm.
 - Quyền: job chỉ được tạo cho `ownerId` người dùng; `visibility` ghi vào metadata Chroma như hiện tại (`access_where()`).
 
 **Quan sát:**
 - Log 1 dòng/job ở mức `warning`/`error` với `job_id`, `doc_type:doc_id`, `step`, `status`, `attempts`, `duration_ms`, `error?` (`logging` chuẩn, không ghi nội dung CV).
-- Metric tối thiểu (để plan §12.3 báo cáo): `queue_depth`, `jobs_failed_total`, `processing_duration_p50/p95` — lấy từ record, không cần hệ metric riêng giai đoạn này.
+- Metric tối thiểu (để plan §12.3 báo cáo): `GET /internal/jobs/stats` → `counts` theo trạng thái, `queue_depth`, `duration_ms` (p50/p95/avg, chỉ trên job `READY`), `oldest_pending_age_s`, `failed_total` — lấy từ record, không cần hệ metric riêng giai đoạn này.
 - `/readyz` đã thêm check store: trả `{status, queue_depth, processing, worker_alive}` (đếm job `PENDING`/`PROCESSING`; không tạo file DB nếu chưa từng có job).
 
 ---
@@ -354,7 +357,8 @@ Xoá/hạn quyền ──────────► /internal/index/delete     
 | **P3** | Endpoint `/internal/jobs*` + test API | ✅ `routes.py` (§4.1), `tests/test_processing_routes.py` — dùng chung `require_internal_token` của `/internal/*` (khi `INTERNAL_API_KEY` được cấu hình) |
 | **P4** | NestJS: `POST /api/cvs/upload` async + `GET .../processing-status` | ⛔ **ngoài repo này** (hợp đồng ở §4.2 đã sẵn) |
 | **P5** | Backend PG (`DocumentProcessingJob`) + `FOR UPDATE SKIP LOCKED` | ⏳ chờ OQ1 (quyền ghi PG) |
-| **P6** | Reconcile tự động outbox → `PENDING`, metric | ⏳ tuỳ chọn (outbox hiện có vẫn chạy) |
+| **P6** | Reconcile + metric | 🟡 **một phần**: ✅ metric `GET /internal/jobs/stats`, ✅ `POST /internal/jobs/reconcile` (quét job kẹt); ⏳ reconcile tự động outbox → `PENDING` vẫn thuộc `sync_worker --reconcile` hiện có |
+| **P7** | Fail-closed `/internal/*`: `INTERNAL_API_KEY_REQUIRED=1` | ✅ `security.py` + `config.py` (test fail-closed) |
 
 **Definition of Done ứng với phần này**
 
@@ -364,7 +368,9 @@ Xoá/hạn quyền ──────────► /internal/index/delete     
 - [x] Retry có giới hạn + `last_error` + chống trùng theo bản ghi (§5.2)
 - [x] Worker chết giữa chừng → requeue, không kẹt `PROCESSING` (P1, có test)
 - [x] `/internal/jobs*` yêu cầu API key khi `INTERNAL_API_KEY` được cấu hình (P3)
-- [ ] `content_hash` dùng để **bỏ qua embed lại** (hiện chỉ ghi nhận) — tối ưu sau
+- [x] `/readyz` + `/internal/jobs/stats` cho vận hành (P6)
+- [x] Fail-closed khi production thiếu khoá nội bộ (P7)
+- [ ] `content_hash` dùng để **bỏ qua embed lại** (hiện chỉ ghi nhận) — tối ưu sau (OQ6)
 
 ---
 

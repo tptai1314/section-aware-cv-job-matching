@@ -21,6 +21,7 @@ kiện *truy xuất* và chỉ được ghi `READY` khi job hoàn tất (pipelin
 from __future__ import annotations
 
 import json
+import math
 import sqlite3
 import threading
 import time
@@ -188,6 +189,24 @@ def format_error(step: str, code: str, message: str) -> str:
     return f"{step}: {code}: {message}"[:ERROR_MAX_CHARS]
 
 
+def _percentiles(values: list[int]) -> dict[str, Any]:
+    """p50/p95/avg theo nearest-rank trên danh sách `duration_ms` (đã sort)."""
+    if not values:
+        return {"count": 0, "avg": None, "p50": None, "p95": None}
+    ordered = sorted(values)
+
+    def _rank(ratio: float) -> int:
+        idx = math.ceil(ratio * len(ordered)) - 1
+        return ordered[min(max(idx, 0), len(ordered) - 1)]
+
+    return {
+        "count": len(ordered),
+        "avg": round(sum(ordered) / len(ordered), 1),
+        "p50": _rank(0.50),
+        "p95": _rank(0.95),
+    }
+
+
 class SqliteProcessingStore:
     """`ProcessingStore` trên SQLite — an toàn cho 1 process nhiều thread.
 
@@ -352,6 +371,50 @@ class SqliteProcessingStore:
         for row in rows:
             counts[row["status"]] = int(row["n"])
         return counts
+
+    def stats(self) -> dict[str, Any]:
+        """Số liệu tổng hợp cho `/internal/jobs/stats` (thiết kế §8, plan §12.3).
+
+        `duration_ms` chỉ tính trên job `READY` (thời gian xử lý **thành công**) —
+        job `FAILED` có `duration_ms` bằng thời gian tới lúc lỗi nên trộn vào p50/p95
+        sẽ làm sai chỉ số chất lượng. `failed_total` là *số job đang ở FAILED*
+        (không phải bộ đếm tích luỹ — job retry thành công sẽ giảm số này).
+        """
+        empty = {
+            "counts": {status: 0 for status in STATUSES},
+            "queue_depth": {PENDING: 0, PROCESSING: 0},
+            "duration_ms": _percentiles([]),
+            "oldest_pending_age_s": None,
+            "failed_total": 0,
+        }
+        with self._lock:
+            if self._conn is None and not self.path.exists():
+                return empty
+            conn = self._ensure_conn()
+            counts = {status: 0 for status in STATUSES}
+            for row in conn.execute(
+                "SELECT status, COUNT(*) AS n FROM processing_jobs GROUP BY status"
+            ):
+                counts[row["status"]] = int(row["n"])
+            durations = [
+                int(row["duration_ms"])
+                for row in conn.execute(
+                    "SELECT duration_ms FROM processing_jobs "
+                    "WHERE status=? AND duration_ms IS NOT NULL",
+                    (READY,),
+                )
+            ]
+            oldest = conn.execute(
+                "SELECT MIN(created_at) AS t FROM processing_jobs WHERE status=?",
+                (PENDING,),
+            ).fetchone()["t"]
+        return {
+            "counts": counts,
+            "queue_depth": {PENDING: counts[PENDING], PROCESSING: counts[PROCESSING]},
+            "duration_ms": _percentiles(durations),
+            "oldest_pending_age_s": (round(time.time() - oldest, 1) if oldest else None),
+            "failed_total": counts[FAILED],
+        }
 
     # ------------------------------------------------------------------ #
     # Chuyển trạng thái (plan §9.3)

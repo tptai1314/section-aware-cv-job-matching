@@ -263,6 +263,8 @@ cùng `JobRequirement`, `CandidateProfile`, `DEFAULT_WEIGHTS`.
 | `GET /internal/jobs/{job_id}` | Trạng thái job: `status`, `step`, `progress`, `attempt_count`, `last_error`, `warnings` |
 | `DELETE /internal/jobs/{job_id}` | Hủy job còn `PENDING` (dọn file tạm); `409` nếu đã xử lý |
 | `POST /internal/jobs/{job_id}/retry` | Retry thủ công job `FAILED` (reset attempt) |
+| `GET /internal/jobs/stats` | Số liệu queue: `counts`, `queue_depth`, `duration_ms` (p50/p95/avg trên job `READY`), `oldest_pending_age_s`, `failed_total` |
+| `POST /internal/jobs/reconcile` | Quét job `PROCESSING` kẹt quá `JOB_STALE_SECONDS` → `PENDING` (idempotent; dùng khi worker tắt/restart) |
 
 ### 8.2.1 Endpoint gộp: xếp hạng + giải thích trong 1 call
 `POST /internal/recommend` với `explain: true` sẽ: truy hồi → xếp hạng hybrid → gọi LLM giải thích cho **top-N** candidate
@@ -288,8 +290,10 @@ rồi trả về tất cả trong một response. Không cần gọi `/internal/
   chuyển đổi ghi file `.docx` cạnh đó.
 
 ### 8.5 Bảo mật (`app/security.py`)
-- Các route `/internal/*` bảo vệ bằng header `X-Internal-Token` so với `INTERNAL_API_KEY`
-  (dùng `hmac.compare_digest`).
+- Các route `/internal/*` (gồm `/internal/jobs*`) bảo vệ bằng header `X-Internal-Token` so với
+  `INTERNAL_API_KEY` (dùng `hmac.compare_digest`); sai/thiếu → `401`.
+- **Fail-closed production:** `INTERNAL_API_KEY_REQUIRED=1` mà chưa có `INTERNAL_API_KEY` →
+  mọi request `/internal/*` trả `503 INTERNAL_KEY_NOT_CONFIGURED` (không chỉ cảnh báo như dev).
 
 ### 8.6 Hàng đợi & trạng thái xử lý file (`app/processing/`)
 Chi tiết thiết kế: [`docs/DESIGN_processing_queue.md`](DESIGN_processing_queue.md).
@@ -304,6 +308,8 @@ Chi tiết thiết kế: [`docs/DESIGN_processing_queue.md`](DESIGN_processing_q
 - Upload CV: `POST /internal/jobs` (multipart `file`) → `202`; JD: `text` thẳng (bỏ `EXTRACTING`).
 - Xoá `READY`/`CANCELLED` thì xoá file tạm; job `FAILED` giữ file để retry thủ công.
 - Bật/tắt worker: `PROCESSING_WORKER_ENABLED` (mặc định **bật** khi chạy qua env; `Settings` dựng tay trong test thì tắt).
+- Vận hành: `/readyz` trả `{status, queue_depth, processing, worker_alive}`;
+  `GET /internal/jobs/stats` cho metric; `POST /internal/jobs/reconcile` gỡ job kẹt thủ công.
 
 ---
 
@@ -326,6 +332,7 @@ Hàng đợi xử lý (`apps/ai/.env`): `PROCESSING_DB_PATH` (mặc định `dat
 `PROCESSING_FILES_DIR` (`data/processing_files`), `PROCESSING_WORKER_ENABLED` (`1`),
 `JOB_MAX_ATTEMPTS` (`3`), `JOB_STALE_SECONDS` (`300`), `JOB_POLL_INTERVAL_S` (`1.0`),
 `JOB_RETRY_BASE_DELAY_S` (`1.0`).
+`INTERNAL_API_KEY_REQUIRED` (`0`) — đặt `1` ở production để fail-closed khi thiếu `INTERNAL_API_KEY`.
 
 ### 9.3 Dependencies
 - `requirements.txt` (lõi) và `apps/ai/requirements.txt` (service) **tách riêng**.
@@ -367,6 +374,8 @@ docker run -p 8000:8000 --env-file .env frevia-ai
 #   GET    /internal/jobs/{job_id}              -> status/step/progress
 #   DELETE /internal/jobs/{job_id}              (chỉ khi PENDING)
 #   POST   /internal/jobs/{job_id}/retry        (chỉ khi FAILED)
+#   GET    /internal/jobs/stats                 (metric queue)
+#   POST   /internal/jobs/reconcile             (gỡ job PROCESSING kẹt)
 ```
 
 > Worker nền chỉ chạy khi `PROCESSING_WORKER_ENABLED` bật (mặc định khi chạy qua env).
@@ -401,5 +410,7 @@ pytest apps/ai/tests         # tests AI service
   [`docs/DESIGN_processing_queue.md`](DESIGN_processing_queue.md)). Còn lại:
   - **P4** NestJS (`POST /api/cvs/upload` async + `GET /api/cvs/:id/processing-status`) — repo khác.
   - **P5** Backend PostgreSQL cho `DocumentProcessingJob` — chờ quyền ghi PG (hiện dùng SQLite).
-  - Skip embed theo `content_hash` khi version không đổi (hiện chỉ ghi nhận) và metric/alerting.
+  - **P6** Reconcile tự động từ outbox → `PENDING` (hiện có `POST /internal/jobs/reconcile` thủ công
+    + `GET /internal/jobs/stats` cho metric; alerting vẫn ngoài phạm vi).
+  - Skip embed theo `content_hash` khi version không đổi (hiện chỉ ghi nhận).
 - Endpoints **NestJS** và **frontend UI** — không nằm trong repo này.
