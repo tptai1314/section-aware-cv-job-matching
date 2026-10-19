@@ -32,11 +32,13 @@ class ProcessingWorker:
         llm,
         *,
         index_fn=None,
+        index_lookup=None,
     ) -> None:
         self.store = store
         self.settings = settings
         self.llm = llm
         self.index_fn = index_fn
+        self.index_lookup = index_lookup
         self._queue: queue.Queue = queue.Queue()
         self._stop = threading.Event()
         self._thread: threading.Thread | None = None
@@ -93,7 +95,8 @@ class ProcessingWorker:
     def execute(self, job: JobRecord) -> None:
         try:
             record = pipeline_mod.run(
-                job, self.store, self.settings, self.llm, index_fn=self.index_fn
+                job, self.store, self.settings, self.llm,
+                index_fn=self.index_fn, index_lookup=self.index_lookup,
             )
             store_mod.remove_source_file(record)  # READY -> file tạm hết vai trò
         except pipeline_mod.PermanentError as exc:

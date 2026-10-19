@@ -34,6 +34,9 @@ class Settings:
     job_stale_seconds: int = 300
     job_poll_interval_s: float = 1.0
     job_retry_base_delay_s: float = 1.0
+    # OQ6: khi lần chạy trước đã index xong (doc, version) và text không đổi thì bỏ
+    # qua gọi lại LLM + nhúng lại — retry không tốn thêm token/thời gian (§5.2).
+    skip_reembed: bool = True
 
 
 REQUIRED_ENV = ("OLLAMA_URL", "OLLAMA_MODEL")
@@ -97,4 +100,5 @@ def load_settings(env: dict | None = None) -> Settings:
         job_stale_seconds=max(1, _env_int(env, "JOB_STALE_SECONDS", 300)),
         job_poll_interval_s=max(0.01, _env_float(env, "JOB_POLL_INTERVAL_S", 1.0)),
         job_retry_base_delay_s=max(0.0, _env_float(env, "JOB_RETRY_BASE_DELAY_S", 1.0)),
+        skip_reembed=_env_bool(env, "PROCESSING_SKIP_REEMBED", True),
     )

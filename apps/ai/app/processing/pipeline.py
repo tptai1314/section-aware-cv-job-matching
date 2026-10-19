@@ -140,6 +140,18 @@ def _from_api_error(exc: errors.ApiError) -> JobError:
     return TransientError(exc.detail, exc.message)
 
 
+def _index_present(lookup, job: JobRecord, settings: Settings) -> bool:
+    """Gọi `lookup(settings, doc_type, doc_id, version)` — lỗi thì coi như chưa có."""
+    try:
+        return bool(lookup(settings, job.document_type, job.document_id, job.version))
+    except Exception as exc:  # noqa: BLE001 — moi loi khi doc index -> coi nhu chua co
+        logger.warning(
+            "không kiểm tra được index cũ của %s:%s v%d (%s: %s) — sẽ index lại",
+            job.document_type, job.document_id, job.version, type(exc).__name__, exc,
+        )
+        return False
+
+
 def run(
     job: JobRecord,
     store: store_mod.SqliteProcessingStore,
@@ -147,16 +159,22 @@ def run(
     llm,
     *,
     index_fn=None,
+    index_lookup=None,
 ) -> JobRecord:
     """Chạy hết một job đã claim (status PROCESSING); cập nhật store qua checkpoint.
 
     `index_fn(documents, settings, version=...)` mặc định là `recommend.index`
     (nhúng BGE-M3 + upsert Chroma + payload store) — inject được cho test.
 
+    `index_lookup(settings, doc_type, doc_id, version)` trả True khi bản ghi đã
+    được index đầy đủ ở lần chạy trước; mặc định `recommend.existing_ready_document`
+    (OQ6). Khi hash text không đổi và index còn nguyên -> bỏ qua PARSING + EMBEDDING.
+
     Nâng cấp TransientError/PermanentError cho worker xử lý retry (không tự đổi
     trạng thái tại đây để mọi transition đi qua store — kiểm soát tập trung theo §2.2).
     """
     index_fn = index_fn or recommend_mod.index
+    index_lookup = index_lookup or recommend_mod.existing_ready_document
     warnings: list[str] = []
 
     try:
@@ -168,7 +186,21 @@ def run(
             raise errors.cv_text_empty()
 
         content_hash = hashlib.sha256(cleaned.encode("utf-8")).hexdigest()
+        unchanged = job.content_hash == content_hash
         store.set_content_hash(job.id, content_hash)
+
+        if (
+            settings.skip_reembed
+            and unchanged
+            and _index_present(index_lookup, job, settings)
+        ):
+            logger.info(
+                "job=%s doc=%s:%s v%d đã index sẵn với text không đổi — bỏ qua parse + embed",
+                job.id, job.document_type, job.document_id, job.version,
+            )
+            warnings.append("REUSED_INDEX")
+            store.set_step(job.id, store_mod.STEP_FINALIZING)
+            return store.mark_ready(job.id, warnings=warnings)
 
         store.set_step(job.id, store_mod.STEP_PARSING)
         payload = parse_payload(job, cleaned, settings, llm, warnings)

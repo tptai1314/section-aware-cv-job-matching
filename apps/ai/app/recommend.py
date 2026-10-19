@@ -11,6 +11,7 @@ BGE-M3 của AI service. Không truy cập DB/quyền ownership — phần đó 
 
 from __future__ import annotations
 
+import logging
 import sys
 import threading
 from collections.abc import Mapping, Sequence
@@ -32,7 +33,10 @@ from .index_store import DocumentStore
 _lock = threading.Lock()
 _services: dict[str, MatchingService] = {}
 _stores: dict[str, DocumentStore] = {}
+_clients: dict[str, Any] = {}
 _stateless: MatchingService | None = None
+
+logger = logging.getLogger("app.recommend")
 
 
 def get_stateless_service() -> MatchingService:
@@ -48,15 +52,29 @@ def _key(settings) -> str:
     return settings.chroma_path or "__memory__"
 
 
+def get_client(settings):
+    """Chroma client dùng chung cho mỗi `chroma_path` (tạo collection nếu thiếu).
+
+    Tách khỏi `get_service` để kiểm tra index cũ (OQ6) không phải nạp embedder
+    BGE-M3 — nhờ vậy đường "bỏ qua nhúng lại" thật sự rẻ.
+    """
+    key = _key(settings)
+    with _lock:
+        client = _clients.get(key)
+        if client is None:
+            client = chroma_mod.build_client(settings.chroma_path)
+            chroma_mod.ensure_collections(client)
+            _clients[key] = client
+        return client
+
+
 def build_service(settings) -> MatchingService:
     """Dựng MatchingService thật: Chroma (persistent/ephemeral) + embedder BGE-M3."""
     from .embeddings import get_embedder
 
-    client = chroma_mod.build_client(settings.chroma_path)
-    chroma_mod.ensure_collections(client)
     embedder = get_embedder(settings.embed_model, settings.embed_device)
     return MatchingService(
-        client,
+        get_client(settings),
         embedder,
         embed_model=settings.embed_model,
         config=load_config(),
@@ -87,7 +105,42 @@ def reset_cache() -> None:
     with _lock:
         _services.clear()
         _stores.clear()
+        _clients.clear()
         _stateless = None
+
+
+def existing_ready_document(
+    settings, doc_type: str, doc_id: str, version: int
+) -> bool:
+    """`(doc_type, doc_id, version)` đã được index ĐẦY ĐỦ ở lần chạy trước? (OQ6)
+
+    Dùng cho pipeline: nếu bản ghi đã có vector `READY` trong Chroma **và** payload
+    trong `DocumentStore` thì bỏ qua gọi lại LLM + nhúng lại.
+
+    Thứ tự ghi trong `index()` là Chroma TRƯỚC rồi payload SAU ⇒ payload có mặt
+    nghĩa là lần upsert Chroma trước đó đã chạy xong (không phải trạng thái dở
+    dang vài section). Mọi lỗi khi kiểm tra (Chroma lock, thiếu collection...)
+    đều trả False để index lại — an toàn hơn là bỏ qua nhầm.
+    """
+    try:
+        client = get_client(settings)
+        records = chroma_mod.get_document(client, doc_type, doc_id, version=version)
+    except Exception as exc:  # noqa: BLE001 — loi doc Chroma -> coi nhu chua index
+        logger.warning(
+            "không kiểm tra được index cũ %s:%s v%d (%s: %s) — sẽ index lại",
+            doc_type, doc_id, version, type(exc).__name__, exc,
+        )
+        return False
+    if not records:
+        return False
+    if any((rec.get("metadata") or {}).get("status") != "READY" for rec in records):
+        return False  # chỉ vector READY mới dùng được cho truy hồi (design §3.4)
+    try:
+        return get_store(settings).get(doc_id) is not None
+    except Exception as exc:  # noqa: BLE001 — loi doc payload store -> index lai
+        logger.warning("không đọc được payload store cho %s (%s) — sẽ index lại",
+                       doc_id, type(exc).__name__)
+        return False
 
 
 def _record(document: Mapping[str, Any]) -> dict[str, Any] | None:
@@ -298,4 +351,5 @@ def _to_items(recommendations) -> list[dict[str, Any]]:
     ]
 
 
-__all__ = ["delete", "get_service", "get_store", "index", "recommend", "reset_cache"]
+__all__ = ["delete", "existing_ready_document", "get_client", "get_service", "get_store",
+           "index", "recommend", "reset_cache"]

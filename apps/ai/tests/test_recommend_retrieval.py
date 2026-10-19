@@ -178,3 +178,79 @@ def test_retrieval_respects_visibility(client, fake_backend):
     ).json()["results"]
     assert "cv_priv" in {item["id"] for item in owner}
 
+
+# ---- OQ6: kiem tra index da san (`existing_ready_document`) ----
+
+
+@pytest.fixture()
+def idx_backend(monkeypatch):
+    """Chroma ephemeral + payload store in-memory, khong nap embedder BGE-M3."""
+    chroma_client = chroma.build_client(None)
+    chroma.ensure_collections(chroma_client)
+    store = rec.DocumentStore(None)
+    monkeypatch.setattr(rec, "get_client", lambda settings: chroma_client)
+    monkeypatch.setattr(rec, "get_store", lambda settings: store)
+    return chroma_client, store
+
+
+def _index_vector(chroma_client, doc_id: str, version: int = 1, status: str = "READY"):
+    chroma.upsert_vectors(
+        chroma_client,
+        "cv",
+        doc_id,
+        [("skills", "python", [0.1] * 32)],  # cung chieu voi MockEmbedder(32) cua file nay
+        embed_model="mock",
+        version=version,
+        status=status,
+    )
+
+
+def _store_payload(store, doc_id: str):
+    store.upsert([{"id": doc_id, "type": "cv", "payload": {"skills": [{"name": "python"}]}}])
+
+
+def test_existing_ready_document_true_when_vector_and_payload(idx_backend):
+    chroma_client, store = idx_backend
+    _index_vector(chroma_client, "cv_ok")
+    _store_payload(store, "cv_ok")
+    assert rec.existing_ready_document(make_settings(), "cv", "cv_ok", 1) is True
+
+
+def test_existing_ready_document_false_without_vectors(idx_backend):
+    _, store = idx_backend
+    _store_payload(store, "cv_payload_only")
+    assert rec.existing_ready_document(make_settings(), "cv", "cv_payload_only", 1) is False
+
+
+def test_existing_ready_document_false_without_payload(idx_backend):
+    chroma_client, _ = idx_backend
+    _index_vector(chroma_client, "cv_vector_only")
+    assert rec.existing_ready_document(make_settings(), "cv", "cv_vector_only", 1) is False
+
+
+def test_existing_ready_document_false_for_non_ready_status(idx_backend):
+    chroma_client, store = idx_backend
+    _index_vector(chroma_client, "cv_pending", status="PENDING")
+    _store_payload(store, "cv_pending")
+    assert rec.existing_ready_document(make_settings(), "cv", "cv_pending", 1) is False
+
+
+def test_existing_ready_document_false_for_other_version(idx_backend):
+    chroma_client, store = idx_backend
+    _index_vector(chroma_client, "cv_ver", version=1)
+    _store_payload(store, "cv_ver")
+    assert rec.existing_ready_document(make_settings(), "cv", "cv_ver", 1) is True
+    assert rec.existing_ready_document(make_settings(), "cv", "cv_ver", 2) is False
+
+
+def test_existing_ready_document_false_on_chroma_error(idx_backend, monkeypatch):
+    chroma_client, store = idx_backend
+    _index_vector(chroma_client, "cv_broken")
+    _store_payload(store, "cv_broken")
+
+    def boom(*args, **kwargs):
+        raise RuntimeError("chroma bi lock")
+
+    monkeypatch.setattr(chroma, "get_document", boom)
+    assert rec.existing_ready_document(make_settings(), "cv", "cv_broken", 1) is False
+

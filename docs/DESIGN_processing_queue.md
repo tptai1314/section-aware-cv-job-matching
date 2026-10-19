@@ -44,7 +44,7 @@ test ở `apps/ai/tests/test_processing_{store,worker,routes}.py`.
 | 1 | Không có state machine (chỉ có `READY` làm filter Chroma) | `processing/store.py`: `PENDING → PROCESSING → READY/FAILED/CANCELLED` + `step`, có test transitions/claim/retry |
 | 2 | `POST /api/v1/ai/analyze-cv` chặn tới 180s (Ollama timeout) | `POST /internal/jobs` trả `202` ngay; worker nền xử lý; poll `GET /internal/jobs/{job_id}` |
 | 3 | Không có bảng job & endpoint trạng thái | `SqliteProcessingStore` (`data/processing.db`) + `GET /internal/jobs/{job_id}` (§4.1) |
-| 4 | `content_hash` chưa dùng để quyết định embed lại | Đã *tính & lưu* vào job (`set_content_hash`); chống trùng theo `(document_type, document_id, version)`. **Skip theo hash vẫn là tối ưu để sau** |
+| 4 | `content_hash` dùng để bỏ qua embed lại | Đã *tính & lưu* vào job (`set_content_hash`); chống trùng theo `(document_type, document_id, version)`. **Khi hash không đổi VÀ `(doc, version)` vẫn còn index đầy đủ (vector `READY` + payload store) → bỏ qua `PARSING` + `EMBEDDING`** (OQ6, `PROCESSING_SKIP_REEMBED`, warning `REUSED_INDEX`) |
 | 5 | Batch là CLI thủ công (`db_export.py` → `index_chroma.py`) | Upload/`/internal/jobs` tự trigger worker, không cần chạy tay |
 | 6 | NestJS/frontend chưa có đường async | Hợp đồng NestJS đã chốt (§4.2) — triển khai ở repo khác (P4) |
 
@@ -252,8 +252,10 @@ lifespan:
 1. claim job                        -> PROCESSING / step=RECEIVED, attempt_count += 1
 2. content-hash: sha256(text đã chuẩn hoá) -> job.content_hash (audit/observability)
    Chống trùng ở mức job (§5.2): cùng (document_type, document_id, version) không tạo
-   bản mới; NestJS tăng `version` khi nội dung đổi. (Bỏ qua embed lại theo hash khi
-   version không đổi là tối ưu để sau — plan §9.4.)
+   bản mới; NestJS tăng `version` khi nội dung đổi. **Bỏ qua embed lại (OQ6):** nếu hash
+   không đổi VÀ `(doc, version)` vẫn còn index đầy đủ (vector `READY` + payload store)
+   → nhảy thẳng `FINALIZING`, thêm warning `REUSED_INDEX`, không gọi lại LLM; tắt bằng
+   `PROCESSING_SKIP_REEMBED=0`.
 3. EXTRACTING   đọc file đã lưu (`Path.read_bytes` + `text.classify`, kiểm tra DOCX)
                 + `text.extract_text` (worker là thread riêng nên không cần threadpool)
                 - chars < 50        -> lỗi vĩnh viễn "CV_TEXT_EMPTY"
@@ -370,7 +372,7 @@ Xoá/hạn quyền ──────────► /internal/index/delete     
 - [x] `/internal/jobs*` yêu cầu API key khi `INTERNAL_API_KEY` được cấu hình (P3)
 - [x] `/readyz` + `/internal/jobs/stats` cho vận hành (P6)
 - [x] Fail-closed khi production thiếu khoá nội bộ (P7)
-- [ ] `content_hash` dùng để **bỏ qua embed lại** (hiện chỉ ghi nhận) — tối ưu sau (OQ6)
+- [x] `content_hash` dùng để **bỏ qua embed lại** khi text không đổi + index còn nguyên (OQ6, có test)
 
 ---
 
@@ -383,4 +385,4 @@ Xoá/hạn quyền ──────────► /internal/index/delete     
 | **OQ3** | JD gửi `text` thẳng (bỏ `EXTRACTING`)? | **Có** — `document_type=jd` bắt buộc `text`; CV cũng nhận `text` đã trích | — |
 | **OQ4** | Giữ `analyze-cv` đồng bộ hay async-only? | **Giữ song song** (`POST /api/v1/ai/analyze-cv` không đổi) cho dev/fixture; async là `/internal/jobs` | Có thể deprecate khi NestJS chuyển hẳn |
 | **OQ5** | Ollama sập → `FAILED` hay `READY` fallback? | **Retry tạm thời 3 lượt → `FAILED`** (không fallback structured), có retry thủ công | Nếu cần fallback §8.5: thêm nhánh riêng + warning |
-| **OQ6** | `content_hash` dùng để skip re-embed? | **Chỉ ghi nhận** ở bản này; chống trùng theo `(document_type, document_id, version)` | Tối ưu sau khi biết tần suất re-upload cùng version |
+| **OQ6** | `content_hash` dùng để skip re-embed? | **Đã dùng**: hash không đổi + `(doc, version)` còn index đầy đủ (vector `READY` + payload) → bỏ qua `PARSING`+`EMBEDDING`, warning `REUSED_INDEX`; tắt bằng `PROCESSING_SKIP_REEMBED=0` | Nếu Chroma/payload store từng bị lệch (xóa tay), job sẽ index lại bình thường |

@@ -1,6 +1,7 @@
 """Test worker + pipeline: happy path, retry tạm thời, lỗi vĩnh viễn, stale (§5–§6)."""
 
 import dataclasses
+import hashlib
 import time
 
 import pytest
@@ -76,6 +77,147 @@ def test_run_once_happy_path(tmp_path, monkeypatch):
     assert document["owner_id"] == "freelancer_001"
     assert document["visibility"] == "public"
     assert seen["version"] == 1
+
+
+def prime_content_hash(store, job, text: str = LONG_TEXT) -> str:
+    """Gia lap 'lan chay truoc da hash text nhung chua xong': PENDING + content_hash."""
+    cleaned = pipeline_mod.text_mod.merge_broken_lines(
+        pipeline_mod.text_mod.clean_text(text)
+    )
+    digest = hashlib.sha256(cleaned.encode("utf-8")).hexdigest()
+    store.claim_next()  # -> PROCESSING (set_content_hash doi trang thai nay)
+    store.set_content_hash(job.id, digest)
+    store.requeue(job.id)  # -> PENDING, giu nguyen content_hash
+    return digest
+
+
+def test_skip_reembed_when_index_already_ready(tmp_path, monkeypatch):
+    """OQ6: text khong doi + index con nguyen -> khong goi LLM, khong nhung lai."""
+    store = make_store(tmp_path)
+    job, _ = store.create(
+        document_type="cv", document_id="cv_reuse", source_kind="text", text=LONG_TEXT
+    )
+    digest = prime_content_hash(store, job)
+
+    def must_not_parse(*args, **kwargs):
+        raise AssertionError("phai bo qua parse khi index da san")
+
+    monkeypatch.setattr(pipeline_mod, "parse_payload", must_not_parse)
+    worker = ProcessingWorker(
+        store,
+        make_settings(),
+        llm=None,
+        index_fn=lambda *a, **k: pytest.fail("khong duoc index lai"),
+        index_lookup=lambda settings, doc_type, doc_id, version: True,
+    )
+
+    assert worker.run_once() is True
+    record = store.get(job.id)
+    assert record.status == READY
+    assert record.step == store_mod.STEP_FINALIZING
+    assert record.content_hash == digest
+    assert record.warnings == ["REUSED_INDEX"]
+    assert record.duration_ms is not None
+    assert record.attempt_count == 2  # lan claim thu 2 (lan dau da bi requeue)
+
+
+def test_no_skip_when_index_missing(tmp_path, monkeypatch):
+    """Index khong con (da bi xoa / chua tung upsert) -> phai parse + index lai."""
+    store = make_store(tmp_path)
+    job, _ = store.create(
+        document_type="cv", document_id="cv_noidx", source_kind="text", text=LONG_TEXT
+    )
+    prime_content_hash(store, job)
+    seen = {"parsed": 0, "indexed": 0}
+
+    def counting_parse(job, cleaned, settings, llm, warnings):
+        seen["parsed"] += 1
+        return fake_payload(job, cleaned, settings, llm, warnings)
+
+    def counting_index(documents, settings, version=1):
+        seen["indexed"] += 1
+        return {"indexed": len(documents)}
+
+    monkeypatch.setattr(pipeline_mod, "parse_payload", counting_parse)
+    worker = ProcessingWorker(
+        store, make_settings(), llm=None, index_fn=counting_index,
+        index_lookup=lambda settings, doc_type, doc_id, version: False,
+    )
+    assert worker.run_once() is True
+    assert seen == {"parsed": 1, "indexed": 1}
+    assert store.get(job.id).warnings == []
+
+
+def test_no_skip_when_text_changed(tmp_path, monkeypatch):
+    """File/text moi lam hash doi -> luon parse + index lai du index con."""
+    store = make_store(tmp_path)
+    job, _ = store.create(
+        document_type="cv", document_id="cv_changed", source_kind="text", text=LONG_TEXT
+    )
+    prime_content_hash(store, job, text="Senior Java developer, 10 nam kinh nghiem.")
+
+    parsed = {"count": 0}
+
+    def counting_parse(job, cleaned, settings, llm, warnings):
+        parsed["count"] += 1
+        return fake_payload(job, cleaned, settings, llm, warnings)
+
+    monkeypatch.setattr(pipeline_mod, "parse_payload", counting_parse)
+    worker = ProcessingWorker(
+        store,
+        make_settings(),
+        llm=None,
+        index_fn=lambda docs, s, version=1: {"indexed": len(docs)},
+        index_lookup=lambda settings, doc_type, doc_id, version: True,
+    )
+    assert worker.run_once() is True
+    assert store.get(job.id).status == READY
+    assert parsed["count"] == 1
+    assert store.get(job.id).warnings == []
+
+
+def test_no_skip_when_disabled(tmp_path, monkeypatch):
+    """PROCESSING_SKIP_REEMBED=0 -> luon parse lai du index con nguyen."""
+    store = make_store(tmp_path)
+    job, _ = store.create(
+        document_type="cv", document_id="cv_off", source_kind="text", text=LONG_TEXT
+    )
+    prime_content_hash(store, job)
+    monkeypatch.setattr(pipeline_mod, "parse_payload", fake_payload)
+    worker = ProcessingWorker(
+        store,
+        make_settings(skip_reembed=False),
+        llm=None,
+        index_fn=lambda docs, s, version=1: {"indexed": len(docs)},
+        index_lookup=lambda settings, doc_type, doc_id, version: True,
+    )
+    assert worker.run_once() is True
+    record = store.get(job.id)
+    assert record.status == READY
+    assert record.warnings == []
+
+
+def test_lookup_error_falls_back_to_reindex(tmp_path, monkeypatch):
+    """Lookup loi (Chroma lock...) -> coi nhu chua index, khong lam job FAILED."""
+    store = make_store(tmp_path)
+    job, _ = store.create(
+        document_type="cv", document_id="cv_err", source_kind="text", text=LONG_TEXT
+    )
+    prime_content_hash(store, job)
+    monkeypatch.setattr(pipeline_mod, "parse_payload", fake_payload)
+
+    def boom(settings, doc_type, doc_id, version):
+        raise RuntimeError("chroma bi lock")
+
+    worker = ProcessingWorker(
+        store,
+        make_settings(),
+        llm=None,
+        index_fn=lambda docs, s, version=1: {"indexed": len(docs)},
+        index_lookup=boom,
+    )
+    assert worker.run_once() is True
+    assert store.get(job.id).status == READY
 
 
 def test_job_with_file_source_cleans_up_after_ready(tmp_path, monkeypatch):

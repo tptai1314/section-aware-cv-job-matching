@@ -310,6 +310,9 @@ Chi tiết thiết kế: [`docs/DESIGN_processing_queue.md`](DESIGN_processing_q
 - Bật/tắt worker: `PROCESSING_WORKER_ENABLED` (mặc định **bật** khi chạy qua env; `Settings` dựng tay trong test thì tắt).
 - Vận hành: `/readyz` trả `{status, queue_depth, processing, worker_alive}`;
   `GET /internal/jobs/stats` cho metric; `POST /internal/jobs/reconcile` gỡ job kẹt thủ công.
+- Bỏ qua embed lại (OQ6): nếu text không đổi và `(doc, version)` còn index đầy đủ
+  (vector `READY` + payload) thì job `READY` ngay với warning `REUSED_INDEX` — retry không
+  tốn thêm lượt LLM. Tắt bằng `PROCESSING_SKIP_REEMBED=0`.
 
 ---
 
@@ -331,7 +334,7 @@ Chi tiết thiết kế: [`docs/DESIGN_processing_queue.md`](DESIGN_processing_q
 Hàng đợi xử lý (`apps/ai/.env`): `PROCESSING_DB_PATH` (mặc định `data/processing.db`),
 `PROCESSING_FILES_DIR` (`data/processing_files`), `PROCESSING_WORKER_ENABLED` (`1`),
 `JOB_MAX_ATTEMPTS` (`3`), `JOB_STALE_SECONDS` (`300`), `JOB_POLL_INTERVAL_S` (`1.0`),
-`JOB_RETRY_BASE_DELAY_S` (`1.0`).
+`JOB_RETRY_BASE_DELAY_S` (`1.0`), `PROCESSING_SKIP_REEMBED` (`1`).
 `INTERNAL_API_KEY_REQUIRED` (`0`) — đặt `1` ở production để fail-closed khi thiếu `INTERNAL_API_KEY`.
 
 ### 9.3 Dependencies
@@ -412,5 +415,6 @@ pytest apps/ai/tests         # tests AI service
   - **P5** Backend PostgreSQL cho `DocumentProcessingJob` — chờ quyền ghi PG (hiện dùng SQLite).
   - **P6** Reconcile tự động từ outbox → `PENDING` (hiện có `POST /internal/jobs/reconcile` thủ công
     + `GET /internal/jobs/stats` cho metric; alerting vẫn ngoài phạm vi).
-  - Skip embed theo `content_hash` khi version không đổi (hiện chỉ ghi nhận).
+- Bỏ qua embed theo `content_hash` (OQ6) — ✅ đã làm: text không đổi + `(doc, version)` còn
+  index đầy đủ thì job `READY` ngay, không gọi lại LLM (`PROCESSING_SKIP_REEMBED=0` để tắt).
 - Endpoints **NestJS** và **frontend UI** — không nằm trong repo này.
