@@ -18,6 +18,13 @@
 #     POST /internal/index           (upsert tài liệu đã trích xuất vào Chroma)
 #     POST /internal/recommend       (hybrid §7: stateless nếu có candidates,
 #                                     ngược lại retrieval Chroma + payload store)
+#     POST /internal/jobs            (multipart: file CV | text JD) -> 202 {job_id}
+#     GET  /internal/jobs/{job_id}   (status/step/progress)
+#     DELETE /internal/jobs/{job_id} (hủy job PENDING)
+#     POST /internal/jobs/{job_id}/retry (retry job FAILED)
+#
+# Lưu ý dữ liệu: mount volume cho /app/data để giữ `processing.db`, file upload tạm
+# và index Chroma qua các lần restart (ví dụ: -v frevia_data:/app/data).
 #
 # Build context = repo root (vì copy thêm `src/` package cvjd + `configs/`).
 

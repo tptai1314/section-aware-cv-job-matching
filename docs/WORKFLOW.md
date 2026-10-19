@@ -259,6 +259,10 @@ cùng `JobRequirement`, `CandidateProfile`, `DEFAULT_WEIGHTS`.
 | `POST /internal/recommend` | Gợi ý (`app/recommend.py`): stateless hoặc retrieval. Thêm `explain: true` để gộp luôn giải thích LLM |
 | `POST /internal/explain` | Giải thích LLM riêng cho một cặp (job, cv) |
 | `POST /internal/rerank` | Chấm lại danh sách candidate bằng LLM theo rubric 0–100 |
+| `POST /internal/jobs` | **Hàng đợi xử lý nền** (`app/processing/`): nhận file/text → `202 {job_id, status: PENDING}` → worker nền extract → parse LLM → index |
+| `GET /internal/jobs/{job_id}` | Trạng thái job: `status`, `step`, `progress`, `attempt_count`, `last_error`, `warnings` |
+| `DELETE /internal/jobs/{job_id}` | Hủy job còn `PENDING` (dọn file tạm); `409` nếu đã xử lý |
+| `POST /internal/jobs/{job_id}/retry` | Retry thủ công job `FAILED` (reset attempt) |
 
 ### 8.2.1 Endpoint gộp: xếp hạng + giải thích trong 1 call
 `POST /internal/recommend` với `explain: true` sẽ: truy hồi → xếp hạng hybrid → gọi LLM giải thích cho **top-N** candidate
@@ -287,6 +291,20 @@ rồi trả về tất cả trong một response. Không cần gọi `/internal/
 - Các route `/internal/*` bảo vệ bằng header `X-Internal-Token` so với `INTERNAL_API_KEY`
   (dùng `hmac.compare_digest`).
 
+### 8.6 Hàng đợi & trạng thái xử lý file (`app/processing/`)
+Chi tiết thiết kế: [`docs/DESIGN_processing_queue.md`](DESIGN_processing_queue.md).
+
+| Module | Vai trò |
+|---|---|
+| `processing/store.py` | State machine + `SqliteProcessingStore` (`data/processing.db`): create/chống trùng, `claim_next` atomic, `set_step`, `mark_ready/failed`, `requeue` (backoff qua `next_attempt_at`), `retry`, `cancel`, `requeue_stale` |
+| `processing/pipeline.py` | `EXTRACTING → PARSING → EMBEDDING → FINALIZING`; tái dùng `text.py`, prompt + `normalize_cv/normalize_job` (`routes.py`), `recommend.index()`; phân loại lỗi *vĩnh viễn* vs *tạm thời* |
+| `processing/worker.py` | `ProcessingWorker` — 1 thread daemon khởi động trong `lifespan` (`main.py`), `run_once()` claim 1 job; retry backoff 1s/2s/4s; chết → `requeue_stale` khi khởi động lại |
+
+- Trạng thái: `PENDING → PROCESSING → READY | FAILED | CANCELLED`; `step` để hiển thị tiến độ.
+- Upload CV: `POST /internal/jobs` (multipart `file`) → `202`; JD: `text` thẳng (bỏ `EXTRACTING`).
+- Xoá `READY`/`CANCELLED` thì xoá file tạm; job `FAILED` giữ file để retry thủ công.
+- Bật/tắt worker: `PROCESSING_WORKER_ENABLED` (mặc định **bật** khi chạy qua env; `Settings` dựng tay trong test thì tắt).
+
 ---
 
 ## 9. Hệ thống cấu hình
@@ -303,6 +321,11 @@ rồi trả về tất cả trong một response. Không cần gọi `/internal/
 
 ### 9.2 Biến môi trường (`.env` / `.env.example`)
 `DATABASE_URL`, `INTERNAL_API_KEY`, `OLLAMA_URL`, `OLLAMA_MODEL`, `CHROMA_PATH`.
+
+Hàng đợi xử lý (`apps/ai/.env`): `PROCESSING_DB_PATH` (mặc định `data/processing.db`),
+`PROCESSING_FILES_DIR` (`data/processing_files`), `PROCESSING_WORKER_ENABLED` (`1`),
+`JOB_MAX_ATTEMPTS` (`3`), `JOB_STALE_SECONDS` (`300`), `JOB_POLL_INTERVAL_S` (`1.0`),
+`JOB_RETRY_BASE_DELAY_S` (`1.0`).
 
 ### 9.3 Dependencies
 - `requirements.txt` (lõi) và `apps/ai/requirements.txt` (service) **tách riêng**.
@@ -338,8 +361,16 @@ cd apps/ai
 docker build -t frevia-ai .
 docker run -p 8000:8000 --env-file .env frevia-ai
 # sau đó gọi: POST /internal/embeddings, /internal/index, /internal/recommend,
-#             POST /api/v1/ai/analyze-cv
+#             POST /api/v1/ai/analyze-cv (đồng bộ, cho dev/test)
+# Hàng đợi xử lý nền (NestJS gọi):
+#   POST   /internal/jobs                       (multipart: file CV | text JD)
+#   GET    /internal/jobs/{job_id}              -> status/step/progress
+#   DELETE /internal/jobs/{job_id}              (chỉ khi PENDING)
+#   POST   /internal/jobs/{job_id}/retry        (chỉ khi FAILED)
 ```
+
+> Worker nền chỉ chạy khi `PROCESSING_WORKER_ENABLED` bật (mặc định khi chạy qua env).
+> Nếu để trống `CHROMA_PATH`, index là ephemeral — job vẫn `READY` nhưng mất khi restart.
 
 ### Kiểm thử
 ```powershell
@@ -358,11 +389,17 @@ pytest apps/ai/tests         # tests AI service
 | **JSONL thô** | `data/raw/{cvs,jds}.jsonl`, `manifest.json` | Export từ Postgres |
 | **Outbox** | `data/outbox.jsonl` + `*.jsonl.cursor` | Hàng đợi sync PG→Chroma |
 | **Payload AI service** | `<chroma_path>.documents.jsonl` | Structured data cạnh Chroma |
+| **Job xử lý (queue)** | `data/processing.db` (+ WAL) | State machine job; SQLite vì PG đang read-only |
+| **File upload tạm** | `data/processing_files/{uuid}.{pdf,docx,…}` | Xoá sau `READY`/`CANCELLED`; job `FAILED` giữ lại để retry |
 
 ---
 
 ## 12. Hạn chế hiện tại
 
-- **Hàng đợi/trạng thái xử lý file (queue/status)** — chưa triển khai. AI service đã trích xuất được
-  **PDF/DOCX/OCR** khi upload (`apps/ai/app/text.py`), nhưng chưa có pipeline xử lý nền.
+- **Hàng đợi/trạng thái xử lý file (queue/status)** — ✅ đã triển khai trong AI service
+  (`apps/ai/app/processing/`, endpoints `/internal/jobs*`, thiết kế ở
+  [`docs/DESIGN_processing_queue.md`](DESIGN_processing_queue.md)). Còn lại:
+  - **P4** NestJS (`POST /api/cvs/upload` async + `GET /api/cvs/:id/processing-status`) — repo khác.
+  - **P5** Backend PostgreSQL cho `DocumentProcessingJob` — chờ quyền ghi PG (hiện dùng SQLite).
+  - Skip embed theo `content_hash` khi version không đổi (hiện chỉ ghi nhận) và metric/alerting.
 - Endpoints **NestJS** và **frontend UI** — không nằm trong repo này.

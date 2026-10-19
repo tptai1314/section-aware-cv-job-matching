@@ -106,8 +106,12 @@ def _record(document: Mapping[str, Any]) -> dict[str, Any] | None:
     return record
 
 
-def index(documents: Sequence[Mapping[str, Any]], settings) -> dict[str, Any]:
-    """Index payload đã trích xuất: upsert vector (Chroma) + lưu payload."""
+def index(documents: Sequence[Mapping[str, Any]], settings, version: int = 1) -> dict[str, Any]:
+    """Index payload đã trích xuất: upsert vector (Chroma) + lưu payload.
+
+    `version` là document_version của job (vector id `cv:123:v{n}:skills` — upsert
+    version mới tự xoá version cũ trong `upsert_document`).
+    """
     records = [record for record in (_record(d) for d in documents) if record]
     if not records:
         return {"indexed": 0, "stats": {}}
@@ -123,7 +127,7 @@ def index(documents: Sequence[Mapping[str, Any]], settings) -> dict[str, Any]:
         for record in records
         if record.get("owner_id") or record.get("visibility")
     }
-    stats = get_service(settings).index(docs, meta=meta)
+    stats = get_service(settings).index(docs, version=version, meta=meta)
     stored = get_store(settings).upsert(records)
     return {"indexed": stored, "stats": stats}
 

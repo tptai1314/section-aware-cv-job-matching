@@ -8,8 +8,11 @@ from contextlib import asynccontextmanager
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
 
-from . import errors, llm as llm_mod, routes
+from . import errors, routes
+from . import llm as llm_mod
 from .config import Settings, load_settings
+from .processing.store import make_store
+from .processing.worker import ProcessingWorker
 
 
 def create_app(settings: Settings | None = None) -> FastAPI:
@@ -17,15 +20,24 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     logging.basicConfig(level=settings.log_level)
 
     llm_client = llm_mod.OllamaClient(settings)
+    processing_store = make_store(settings)
+    processing_worker = ProcessingWorker(processing_store, settings, llm_client)
 
     @asynccontextmanager
     async def lifespan(app: FastAPI):
-        yield
-        llm_client.close()
+        if settings.processing_worker_enabled:
+            processing_worker.start()
+        try:
+            yield
+        finally:
+            processing_worker.stop()
+            llm_client.close()
 
     app = FastAPI(title="frevia-ai", version="1.0.0", lifespan=lifespan)
     app.state.settings = settings
     app.state.llm = llm_client
+    app.state.processing_store = processing_store
+    app.state.processing_worker = processing_worker
 
     app.include_router(routes.router)
 

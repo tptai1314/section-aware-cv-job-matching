@@ -19,6 +19,8 @@ results/
 
 # generated artifacts
 data/chroma/
+data/processing.db*
+data/processing_files/
 logs/
 
 # secrets / local config

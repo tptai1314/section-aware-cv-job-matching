@@ -270,3 +270,38 @@ class IndexDeleteResponse(BaseModel):
 
     deleted: int
     stats: dict = Field(default_factory=dict)
+
+
+# ---- Hàng đợi xử lý file (docs/DESIGN_processing_queue.md §4) ----
+
+
+class JobCreateResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    job_id: str
+    status: str = Field(pattern="^(PENDING|PROCESSING|READY|FAILED|CANCELLED)$")
+    document_type: Literal["cv", "jd"]
+    document_id: str
+    version: int = Field(ge=1, le=1000)
+    deduplicated: bool = False  # True: dùng lại job đã có cho cùng bản ghi
+    created_at: float
+
+
+class JobStatusResponse(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    job_id: str
+    status: str = Field(pattern="^(PENDING|PROCESSING|READY|FAILED|CANCELLED)$")
+    step: str
+    progress: int = Field(ge=0, le=100)  # % cho UI (design §4.2)
+    attempt_count: int = 0
+    max_attempts: int = 3
+    last_error: str | None = None
+    warnings: list[str] = Field(default_factory=list)
+    document_type: Literal["cv", "jd"]
+    document_id: str
+    version: int
+    created_at: float
+    updated_at: float
+    finished_at: float | None = None
+    duration_ms: int | None = None

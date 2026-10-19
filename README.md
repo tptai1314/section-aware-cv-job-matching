@@ -29,6 +29,7 @@ sau đó điểm phù hợp giữa CV và JD được tính bằng cách so kh�
 | Tổng hợp điểm | `mean` hoặc `max` qua các section |
 | Ranking | Hybrid: semantic + skills + experience + budget + preferences |
 | AI service | FastAPI + Ollama (Qwen) cho giải thích/rerank |
+| Hàng đợi xử lý file | AI service xử lý nền CV/JD upload (`PENDING → PROCESSING → READY/FAILED`, có `step`/`progress` để poll) — [thiết kế](docs/DESIGN_processing_queue.md) |
 
 ## Thang điểm phù hợp
 

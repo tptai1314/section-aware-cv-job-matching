@@ -1,16 +1,23 @@
-"""Các router: analyze-cv / extract-cv, extract-job, embeddings."""
+"""Các router: analyze-cv / extract-cv, extract-job, embeddings, jobs (hàng đợi xử lý)."""
 
 from __future__ import annotations
 
+import json
 import time
+import uuid
+from pathlib import Path
 
-from fastapi import APIRouter, Depends, File, Request, UploadFile
+from fastapi import APIRouter, Depends, File, Form, Request, UploadFile
 from starlette.concurrency import run_in_threadpool
 
 from . import embeddings as emb_mod
-from . import errors, explain as explain_mod, llm as llm_mod, normalize, schemas, text as text_mod
+from . import errors, normalize, schemas
+from . import explain as explain_mod
+from . import llm as llm_mod
 from . import recommend as recommend_mod
+from . import text as text_mod
 from .config import Settings
+from .processing import store as store_mod
 from .security import require_internal_token
 
 router = APIRouter(dependencies=[Depends(require_internal_token)])
@@ -417,3 +424,174 @@ async def recommend(body: schemas.RecommendRequest, request: Request):
         explain_top_n=body.explain_top_n,
     )
     return schemas.RecommendResponse(direction=body.direction, results=results)
+
+
+# --------------------------------------------------------------------------- #
+# Hàng đợi xử lý file (docs/DESIGN_processing_queue.md §4; plan §9.3, §10.1)
+# --------------------------------------------------------------------------- #
+
+
+def _status_response(record: store_mod.JobRecord, settings: Settings) -> schemas.JobStatusResponse:
+    warnings: list[str] = []
+    if record.warnings:
+        try:
+            warnings = json.loads(record.warnings) if isinstance(record.warnings, str) else list(record.warnings)
+        except (TypeError, ValueError):
+            warnings = []
+    return schemas.JobStatusResponse(
+        job_id=record.id,
+        status=record.status,
+        step=record.step,
+        progress=store_mod.progress_for(record.status, record.step),
+        attempt_count=record.attempt_count,
+        max_attempts=settings.job_max_attempts,
+        last_error=record.last_error,
+        warnings=[str(w) for w in warnings],
+        document_type=record.document_type,
+        document_id=record.document_id,
+        version=record.version,
+        created_at=record.created_at,
+        updated_at=record.updated_at,
+        finished_at=record.finished_at,
+        duration_ms=record.duration_ms,
+    )
+
+
+@router.post("/internal/jobs", response_model=schemas.JobCreateResponse, status_code=202)
+async def create_processing_job(
+    request: Request,
+    document_type: str = Form(...),
+    document_id: str = Form(...),
+    version: int = Form(1),
+    owner_id: str | None = Form(default=None),
+    visibility: str | None = Form(default=None),
+    title: str | None = Form(default=None),
+    text: str | None = Form(default=None),
+    file: UploadFile | None = File(default=None),
+):
+    """Nộp job xử lý nền: CV (file upload hoặc text đã trích) / JD (text).
+
+    Idempotency (design §5.2): job đã có cho cùng (document_type, document_id,
+    version) được dùng lại — không tạo bản trùng.
+    """
+    settings: Settings = request.app.state.settings
+    store: store_mod.SqliteProcessingStore = request.app.state.processing_store
+    worker = request.app.state.processing_worker
+
+    doc_type = (document_type or "").strip().lower()
+    if doc_type not in store_mod.DOC_TYPES:
+        raise errors.invalid_document_type()
+    doc_id = (document_id or "").strip()
+    if not doc_id or len(doc_id) > 100:
+        raise errors.bad_request("DOCUMENT_ID_INVALID", "`document_id` phải 1–100 ký tự")
+    if not (0 < version <= 1000):
+        raise errors.bad_request("VERSION_INVALID", "`version` phải trong khoảng 1–1000")
+    if visibility is not None and visibility.strip().lower() not in store_mod.VISIBILITIES:
+        raise errors.bad_request(
+            "VISIBILITY_INVALID", "`visibility` phải là public | private | unlisted"
+        )
+    visibility = visibility.strip().lower() if visibility else None
+    title = (title or "").strip()[:150] or None
+
+    source_kind, source_ref, raw_text = "text", None, None
+    if doc_type == "jd":
+        if file is not None:
+            raise errors.bad_request(
+                "JD_FILE_NOT_ALLOWED", "JD gửi dạng text (form field `text`), không nhận file"
+            )
+        if not text or len(text.strip()) < 10:
+            raise errors.job_source_required("JD_TEXT_REQUIRED", "JD cần `text` >= 10 ký tự")
+        raw_text = text[:100_000]
+    elif file is not None:
+        raw, kind = await text_mod.read_upload(file, settings)  # magic bytes + giới hạn size
+        files_dir = Path(settings.processing_files_dir or "data/processing_files")
+        files_dir.mkdir(parents=True, exist_ok=True)
+        path = files_dir / f"{uuid.uuid4().hex}.{kind or 'bin'}"
+        path.write_bytes(raw)
+        source_kind, source_ref = "file", str(path)
+    elif text and len(text.strip()) >= 10:
+        raw_text = text[:100_000]  # CV đã trích xuất sẵn (bỏ bước EXTRACTING)
+    else:
+        raise errors.job_source_required(
+            "CV_SOURCE_REQUIRED", "CV cần `file` (upload) hoặc `text` (đã trích xuất)"
+        )
+
+    existing = store.get_by_doc(doc_type, doc_id, version)
+    try:
+        record, deduplicated = store.create(
+            document_type=doc_type,
+            document_id=doc_id,
+            version=version,
+            owner_id=(owner_id or "").strip()[:100] or None,
+            visibility=visibility,
+            source_kind=source_kind,
+            source_ref=source_ref,
+            text=raw_text,
+            title=title,
+        )
+    except ValueError as exc:
+        if source_ref:
+            Path(source_ref).unlink(missing_ok=True)  # không để file mồ côi khi lỗi
+        raise errors.bad_request("JOB_INVALID", str(exc)) from exc
+
+    # file tạm không thuộc job dùng lại (dedup) hoặc của job bị thay nguồn (requeue)
+    if source_ref and record.source_ref != source_ref:
+        Path(source_ref).unlink(missing_ok=True)
+    if existing and existing.source_ref and existing.source_ref != record.source_ref:
+        Path(existing.source_ref).unlink(missing_ok=True)
+    if record.status == store_mod.PENDING:
+        worker.submit(record.id)  # đánh thức worker (vẫn PENDING trong DB nếu chưa chạy)
+
+    return schemas.JobCreateResponse(
+        job_id=record.id,
+        status=record.status,
+        document_type=record.document_type,
+        document_id=record.document_id,
+        version=record.version,
+        deduplicated=deduplicated,
+        created_at=record.created_at,
+    )
+
+
+@router.get("/internal/jobs/{job_id}", response_model=schemas.JobStatusResponse)
+def get_processing_job(job_id: str, request: Request):
+    """Trạng thái xử lý để NestJS poll `/api/cvs/:id/processing-status`."""
+    settings: Settings = request.app.state.settings
+    store: store_mod.SqliteProcessingStore = request.app.state.processing_store
+    record = store.get(job_id)
+    if record is None:
+        raise errors.job_not_found()
+    return _status_response(record, settings)
+
+
+@router.delete("/internal/jobs/{job_id}", response_model=schemas.JobStatusResponse)
+def cancel_processing_job(job_id: str, request: Request):
+    """Hủy job còn chờ (PENDING). Job đang xử lý không dừng giữa chừng."""
+    settings: Settings = request.app.state.settings
+    store: store_mod.SqliteProcessingStore = request.app.state.processing_store
+    record = store.get(job_id)
+    if record is None:
+        raise errors.job_not_found()
+    try:
+        record = store.cancel(job_id)
+    except store_mod.TransitionError as exc:
+        raise errors.job_conflict("JOB_NOT_CANCELLABLE", str(exc)) from exc
+    store_mod.remove_source_file(record)
+    return _status_response(record, settings)
+
+
+@router.post("/internal/jobs/{job_id}/retry", response_model=schemas.JobStatusResponse)
+def retry_processing_job(job_id: str, request: Request):
+    """Retry thủ công job FAILED (attempt reset, design §2.2)."""
+    settings: Settings = request.app.state.settings
+    store: store_mod.SqliteProcessingStore = request.app.state.processing_store
+    worker = request.app.state.processing_worker
+    record = store.get(job_id)
+    if record is None:
+        raise errors.job_not_found()
+    try:
+        record = store.retry(job_id)
+    except store_mod.TransitionError as exc:
+        raise errors.job_conflict("JOB_NOT_RETRYABLE", str(exc)) from exc
+    worker.submit(record.id)
+    return _status_response(record, settings)

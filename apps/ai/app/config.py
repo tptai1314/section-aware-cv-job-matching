@@ -1,5 +1,5 @@
-from dataclasses import dataclass
 import os
+from dataclasses import dataclass
 
 
 @dataclass(frozen=True)
@@ -21,6 +21,16 @@ class Settings:
     recommend_pool_size: int = 100
     recommend_top_k: int = 10
     internal_api_key: str | None = None
+    # Hàng đợi xử lý file (docs/DESIGN_processing_queue.md §5)
+    # worker_enabled mặc định False khi dựng Settings trực tiếp (test không muốn
+    # thread nền); load_settings() đặt True theo env (prod bật).
+    processing_db_path: str | None = None
+    processing_files_dir: str | None = None
+    processing_worker_enabled: bool = False
+    job_max_attempts: int = 3
+    job_stale_seconds: int = 300
+    job_poll_interval_s: float = 1.0
+    job_retry_base_delay_s: float = 1.0
 
 
 REQUIRED_ENV = ("OLLAMA_URL", "OLLAMA_MODEL")
@@ -41,6 +51,16 @@ def _env_bool(env: dict, name: str, default: bool) -> bool:
     if not raw:
         return default
     return raw in ("1", "true", "yes", "on")
+
+
+def _env_float(env: dict, name: str, default: float) -> float:
+    raw = env.get(name, "").strip()
+    if not raw:
+        return default
+    try:
+        return float(raw)
+    except ValueError:
+        return default
 
 
 def load_settings(env: dict | None = None) -> Settings:
@@ -66,4 +86,11 @@ def load_settings(env: dict | None = None) -> Settings:
         recommend_pool_size=_env_int(env, "RECOMMEND_POOL_SIZE", 100),
         recommend_top_k=_env_int(env, "RECOMMEND_TOP_K", 10),
         internal_api_key=env.get("INTERNAL_API_KEY", "").strip() or None,
+        processing_db_path=env.get("PROCESSING_DB_PATH", "").strip() or None,
+        processing_files_dir=env.get("PROCESSING_FILES_DIR", "").strip() or None,
+        processing_worker_enabled=_env_bool(env, "PROCESSING_WORKER_ENABLED", True),
+        job_max_attempts=max(1, _env_int(env, "JOB_MAX_ATTEMPTS", 3)),
+        job_stale_seconds=max(1, _env_int(env, "JOB_STALE_SECONDS", 300)),
+        job_poll_interval_s=max(0.01, _env_float(env, "JOB_POLL_INTERVAL_S", 1.0)),
+        job_retry_base_delay_s=max(0.0, _env_float(env, "JOB_RETRY_BASE_DELAY_S", 1.0)),
     )

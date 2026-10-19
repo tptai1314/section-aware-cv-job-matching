@@ -42,3 +42,27 @@ def unauthorized() -> ApiError:
 
 def llm_timeout() -> ApiError:
     return ApiError(504, "LLM_TIMEOUT", "Xử lý vượt quá thời gian cho phép")
+
+
+def job_not_found() -> ApiError:
+    return ApiError(404, "JOB_NOT_FOUND", "Không tìm thấy job xử lý theo id này")
+
+
+def job_conflict(detail: str, message: str) -> ApiError:
+    return ApiError(409, detail, message)
+
+
+def bad_request(detail: str, message: str) -> ApiError:
+    return ApiError(400, detail, message)
+
+
+def invalid_document_type() -> ApiError:
+    return ApiError(422, "INVALID_DOCUMENT_TYPE", "`document_type` phải là `cv` hoặc `jd`")
+
+
+def job_source_required(detail: str = "JOB_SOURCE_REQUIRED", message: str | None = None) -> ApiError:
+    return ApiError(
+        422,
+        detail,
+        message or "Job thiếu nguồn nội dung: cần `file` (upload) hoặc `text` (đã trích xuất)",
+    )
