@@ -55,7 +55,13 @@ def create_app(settings: Settings | None = None) -> FastAPI:
     @app.get("/readyz")
     async def readyz(request: Request):
         ok = request.app.state.llm.ping()
-        return {"status": "ok" if ok else "unavailable"}
+        depth = request.app.state.processing_store.queue_depth()
+        return {
+            "status": "ok" if ok else "unavailable",
+            "queue_depth": depth.get("PENDING", 0),
+            "processing": depth.get("PROCESSING", 0),
+            "worker_alive": request.app.state.processing_worker.is_alive(),
+        }
 
     return app
 

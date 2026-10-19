@@ -83,13 +83,13 @@ test ở `apps/ai/tests/test_processing_{store,worker,routes}.py`.
 
 | Từ | Đến | Ai gây ra | Điều kiện |
 |---|---|---|---|
-| *(mới)* | `PENDING` | API `POST /internal/jobs` (NestJS gọi) | file hợp lệ, `size ≤ max_upload_mb`, không có job đang `PENDING/PROCESSING` cho cùng `doc_id + version` |
+| *(mới)* | `PENDING` | API `POST /internal/jobs` (NestJS gọi) | nguồn hợp lệ, `size ≤ max_upload_mb`. **Chống trùng theo UNIQUE `(document_type, document_id, version)`**: nếu đã có bản ghi thì *dùng lại* (`deduplicated=true`) — `PENDING/PROCESSING` trả nguyên trạng; `READY` cũng trả nguyên trạng (muốn index lại phải **tăng `version`**); `FAILED`/`CANCELLED` thì *requeue* với nguồn mới + reset attempt |
 | `PENDING` | `PROCESSING` | Worker (claim job) | atomic claim (xem §5.3) |
 | `PROCESSING` | `READY` | Worker | mọi bước xong, index thành công |
-| `PROCESSING` | `PROCESSING` | Worker | retry có lỗi tạm thời: `attempt_count += 1`, quay về chờ, backoff |
+| `PROCESSING` | `PENDING` | Worker | lỗi **tạm thời** và còn lượt: ghi `next_attempt_at = now + backoff`, `attempt_count` đã +1 lúc claim (§5.1) |
 | `PROCESSING` | `FAILED` | Worker | lỗi vĩnh viễn **hoặc** `attempt_count ≥ max_attempts` |
 | `FAILED` | `PENDING` | API `POST /internal/jobs/:id/retry` (thủ công) | reset `attempt_count` |
-| `PENDING` | `CANCELLED` | API `DELETE /internal/jobs/:id` (tuỳ chọn) | chưa có worker claim |
+| `PENDING` | `CANCELLED` | API `DELETE /internal/jobs/:id` | chưa có worker claim (job `PROCESSING` → `409`) |
 
 Không có đường `FAILED → READY` trực tiếp: mọi xử lý lại đều qua `PENDING` để giữ thống nhất log.
 
@@ -141,30 +141,33 @@ Bảng **`DocumentProcessingJob`**:
 | Kiểu | Trường | Ghi chú |
 |---|---|---|
 | uuid/text | `id` | PK |
-| text | `documentType` | `cv` \| `jd` |
-| text | `documentId` | ID nghiệp vụ bên NestJS |
-| int | `documentVersion` | bump khi CV/job đổi |
+| text | `document_type` | `cv` \| `jd` |
+| text | `document_id` | ID nghiệp vụ bên NestJS |
+| int | `version` | bump khi CV/job đổi; cũng là version vector ghi vào Chroma (`v{n}`) |
 | text | `status` | `PENDING/PROCESSING/READY/FAILED/CANCELLED` |
 | text | `step` | §2.3 |
-| int | `attemptCount` | mặc định 0 |
-| text | `lastError` | cắt ngắn ~2000 ký tự |
-| text | `contentHash` | sha256 của text đã chuẩn hoá — dùng để bỏ qua embed lại |
-| text | `sourceRef` | đường dẫn file tạm / object key |
-| uuid | `ownerId`, text `visibility` | để ghi metadata Chroma khớp `access_where()` |
-| int | `payloadVersion` | version vector sẽ ghi (`v{n}` trong `vector_id`) |
-| timestamp | `createdAt/updatedAt/startedAt/finishedAt` | |
-| int | `durationMs` | đo p50/p95 thời gian xử lý |
+| int | `attempt_count` | mặc định 0 |
+| real | `next_attempt_at` | mốc thời gian job `PENDING` được claim lại (backoff retry) |
+| text | `last_error` | cắt ngắn ~2000 ký tự |
+| text | `content_hash` | sha256 của text đã chuẩn hoá — dùng để bỏ qua embed lại |
+| text | `source_kind` + `source_ref` | `file` (đường dẫn file tạm) \| `text` |
+| text | `text`, `title` | nội dung gửi thẳng (JD / CV đã trích) + tiêu đề |
+| text | `owner_id`, `visibility` | để ghi metadata Chroma khớp `access_where()` |
+| text | `warnings` | JSON array (`TRUNCATED`, `OCR_...`, section rỗng…) |
+| real | `created_at/updated_at/started_at/finished_at` + int `duration_ms` | `duration_ms` dùng cho p50/p95 |
 
 **Index/uniqueness:**
-- `UNIQUE (documentType, documentId, documentVersion)` → 2 job trùng cho cùng bản ghi bị loại ngay khi `create`.
-- index `(status, createdAt)` cho `claim_next()`.
-- index `(documentType, documentId)` cho endpoint poll theo tài liệu.
+- `UNIQUE (document_type, document_id, version)` → chống trùng ngay ở `create` (§2.2).
+- index `(status, next_attempt_at, created_at)` cho `claim_next()`.
+- `get_by_doc(document_type, document_id, version)` dùng chính unique index trên (phục vụ idempotency/requeue).
 
 ### 3.3 Backend B — SQLite (cho repo hiện tại)
 
 Repo này dùng PostgreSQL **read-only** (README: *"Nguồn dữ liệu PostgreSQL — read-only"*), chưa có quyền ghi.
 
-→ `SqliteStore`: 1 file `data/processing.db`, schema **giống hệt** §3.2 (đổi tên cột về snake_case), cùng interface. Lý do chọn SQLite thay JSONL: cần `UPDATE` có điều kiện (atomic claim) và truy vấn theo `status` — JSONL không làm được an toàn.
+→ `SqliteStore`: 1 file `data/processing.db` (WAL), cột snake_case theo §3.2, cùng interface. Lý do chọn SQLite thay JSONL: cần `UPDATE` có điều kiện (atomic claim) và truy vấn theo `status` — JSONL không làm được an toàn. Kết nối **lazy** (chỉ mở khi có job thật) để healthcheck/`create_app` không sinh file rác.
+
+Khác biệt nhỏ so với bảng §3.2 (do nhu cầu thực tế của worker): thêm `next_attempt_at` (backoff), `source_kind` (`file`|`text`), `text`/`title` (nguồn gửi thẳng), `warnings`; dùng `version` cho cả `documentVersion` lẫn `payloadVersion` (một giá trị, xem §3.4).
 
 **Khi nào chuyển sang Backend A:** khi NestJS cần đọc trạng thái trực tiếp từ PG (không qua AI service) hoặc cần xử lý lại sau khi service restart với data share giữa nhiều instance. Việc chuyển chỉ là thay 1 dòng construct store — không đổi logic pipeline.
 
@@ -210,7 +213,7 @@ Quy tắc nguồn nội dung (đã hiện thực trong `routes.create_processing
 
 ### 4.3 Tương thích ngược
 
-Giữ nguyên `POST /api/v1/ai/analyze-cv` (đồng bộ) cho: dev, test fixture (`apps/ai/scripts/make_fixture.py`), và tài liệu nhỏ. Endpoint async mới là `POST /internal/jobs`. Hai đường dùng chung exact pipeline (§5.2) — khác nhau chỉ ở việc chạy đồng bộ hay qua queue.
+Giữ nguyên `POST /api/v1/ai/analyze-cv` (đồng bộ) cho: dev, test fixture (`apps/ai/scripts/make_fixture.py`), và tài liệu nhỏ. Endpoint async mới là `POST /internal/jobs`. Hai đường **dùng chung các khối** (`text.py`, prompt + `normalize_cv/normalize_job` trong `routes.py`) nhưng là **hai code path riêng**: `analyze-cv` trả payload trực tiếp, **không** ghi job và **không** index Chroma; pipeline nền (§5.2) làm thêm `recommend.index()` + trạng thái. Vì vậy sửa logic extract/parse cần cập nhật cả hai nơi (hoặc chuyển hẳn sang pipeline chung ở giai đoạn sau).
 
 ---
 
@@ -249,7 +252,8 @@ lifespan:
    Chống trùng ở mức job (§5.2): cùng (document_type, document_id, version) không tạo
    bản mới; NestJS tăng `version` khi nội dung đổi. (Bỏ qua embed lại theo hash khi
    version không đổi là tối ưu để sau — plan §9.4.)
-3. EXTRACTING   text.read_upload + extract_text (worker chạy trong thread riêng, không cần threadpool)
+3. EXTRACTING   đọc file đã lưu (`Path.read_bytes` + `text.classify`, kiểm tra DOCX)
+                + `text.extract_text` (worker là thread riêng nên không cần threadpool)
                 - chars < 50        -> lỗi vĩnh viễn "CV_TEXT_EMPTY"
                 - chars > max_llm_chars -> cắt + warning TRUNCATED (đã có)
                 - file nguồn biến mất -> lỗi vĩnh viễn "SOURCE_MISSING"
@@ -335,9 +339,9 @@ Xoá/hạn quyền ──────────► /internal/index/delete     
 - Quyền: job chỉ được tạo cho `ownerId` người dùng; `visibility` ghi vào metadata Chroma như hiện tại (`access_where()`).
 
 **Quan sát:**
-- Log 1 dòng JSON/job: `{ts, job_id, doc_type, doc_id, version, step, status, attempts, duration_ms, error?}` → `logs/processing_YYYYMMDD.log`.
+- Log 1 dòng/job ở mức `warning`/`error` với `job_id`, `doc_type:doc_id`, `step`, `status`, `attempts`, `duration_ms`, `error?` (`logging` chuẩn, không ghi nội dung CV).
 - Metric tối thiểu (để plan §12.3 báo cáo): `queue_depth`, `jobs_failed_total`, `processing_duration_p50/p95` — lấy từ record, không cần hệ metric riêng giai đoạn này.
-- `/readyz` hiện chỉ ping Ollama (`main.py:43`) → thêm check store + queue depth.
+- `/readyz` đã thêm check store: trả `{status, queue_depth, processing, worker_alive}` (đếm job `PENDING`/`PROCESSING`; không tạo file DB nếu chưa từng có job).
 
 ---
 
@@ -347,7 +351,7 @@ Xoá/hạn quyền ──────────► /internal/index/delete     
 |---|---|---|
 | **P1** | `ProcessingStore` (SQLite) + state machine + unit test transitions/claim/retry | ✅ `app/processing/store.py`, `tests/test_processing_store.py` |
 | **P2** | Pipeline worker tái dùng `text/llm/recommend_mod` + checkpoint `step` | ✅ `app/processing/pipeline.py`, `worker.py`, `tests/test_processing_worker.py` |
-| **P3** | Endpoint `/internal/jobs*` + test API | ✅ `routes.py` (§4.1), `tests/test_processing_routes.py` — chặn bằng `INTERNAL_API_KEY` như toàn bộ `/internal/*` |
+| **P3** | Endpoint `/internal/jobs*` + test API | ✅ `routes.py` (§4.1), `tests/test_processing_routes.py` — dùng chung `require_internal_token` của `/internal/*` (khi `INTERNAL_API_KEY` được cấu hình) |
 | **P4** | NestJS: `POST /api/cvs/upload` async + `GET .../processing-status` | ⛔ **ngoài repo này** (hợp đồng ở §4.2 đã sẵn) |
 | **P5** | Backend PG (`DocumentProcessingJob`) + `FOR UPDATE SKIP LOCKED` | ⏳ chờ OQ1 (quyền ghi PG) |
 | **P6** | Reconcile tự động outbox → `PENDING`, metric | ⏳ tuỳ chọn (outbox hiện có vẫn chạy) |

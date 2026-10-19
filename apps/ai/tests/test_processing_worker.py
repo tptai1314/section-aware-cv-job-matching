@@ -121,6 +121,8 @@ def test_transient_failure_retries_until_max_attempts(tmp_path, monkeypatch):
         assert record.attempt_count == attempt
         assert "LLM_UNAVAILABLE" in record.last_error
         assert record.step == store_mod.STEP_PARSING
+        # last_error phai ghi DUNG buoc gay loi (thiet ke §2.3), khong phai buoc luc claim
+        assert record.last_error.startswith(f"{store_mod.STEP_PARSING}: LLM_UNAVAILABLE:")
 
     assert worker.run_once() is True  # lan thu 3 -> het luot
     record = store.get(job.id)

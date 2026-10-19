@@ -54,6 +54,20 @@ def client(tmp_path):
     return TestClient(app)
 
 
+def test_readyz_reports_queue_depth_and_worker(client):
+    """/readyz thêm check store + queue depth (design §8)."""
+    r = client.get("/readyz")
+    assert r.status_code == 200
+    body = r.json()
+    assert body["status"] in ("ok", "unavailable")
+    assert body["queue_depth"] == 0
+    assert body["worker_alive"] is False  # fixture dựng app, không chạy lifespan
+
+    client.post("/internal/jobs", data={"document_type": "jd", "document_id": "jd_r",
+                                        "text": LONG_TEXT})
+    assert client.get("/readyz").json()["queue_depth"] == 1
+
+
 def test_create_jd_job_returns_202(client):
     r = client.post(
         "/internal/jobs",

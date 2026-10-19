@@ -334,6 +334,25 @@ class SqliteProcessingStore:
             ).fetchall()
             return [_row_to_record(row) for row in rows]
 
+    def queue_depth(self) -> dict[str, int]:
+        """Số job PENDING/PROCESSING cho `/readyz` (thiết kế §8).
+
+        Nếu DB chưa từng được mở và file chưa tồn tại thì KHÔNG tạo file chỉ để đếm
+        (healthcheck không được sinh rác) — khi đó chắc chắn chưa có job nào.
+        """
+        with self._lock:
+            if self._conn is None and not self.path.exists():
+                return {PENDING: 0, PROCESSING: 0}
+            rows = self._ensure_conn().execute(
+                "SELECT status, COUNT(*) AS n FROM processing_jobs "
+                "WHERE status IN (?, ?) GROUP BY status",
+                (PENDING, PROCESSING),
+            ).fetchall()
+        counts = {PENDING: 0, PROCESSING: 0}
+        for row in rows:
+            counts[row["status"]] = int(row["n"])
+        return counts
+
     # ------------------------------------------------------------------ #
     # Chuyển trạng thái (plan §9.3)
     # ------------------------------------------------------------------ #

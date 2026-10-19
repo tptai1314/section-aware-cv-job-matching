@@ -105,10 +105,15 @@ class ProcessingWorker:
             self._fail(job, "INTERNAL", f"{type(exc).__name__}: {exc}", transient=True)
 
     def _fail(self, job: JobRecord, code: str, message: str, *, transient: bool) -> None:
-        error = format_error(job.step, code, message)
+        # `job` là bản ghi lúc claim: pipeline đã kịp `set_step` sang bước khác nên
+        # `job.step` lúc này đã cũ -> đọc lại để `last_error` ghi ĐÚNG bước gây lỗi (§2.3).
+        current = self.store.get(job.id) or job
+        error = format_error(current.step, code, message)
         max_attempts = self.settings.job_max_attempts
-        if transient and job.attempt_count < max_attempts:
-            delay = self.settings.job_retry_base_delay_s * (2 ** (job.attempt_count - 1))
+        if transient and current.attempt_count < max_attempts:
+            delay = self.settings.job_retry_base_delay_s * (
+                2 ** max(0, current.attempt_count - 1)
+            )
             record = self.store.requeue(job.id, delay_s=delay, last_error=error)
             logger.warning(
                 "job=%s doc=%s:%s lỗi tạm thời (%s), thử lại lần %d sau %.1fs: %s",

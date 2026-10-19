@@ -270,3 +270,21 @@ def test_list_active(tmp_path):
     assert active_ids == {first.id, second.id}  # PENDING + PROCESSING
     store.claim_next()
     assert {r.id for r in store.list_active()} == {first.id, second.id}
+
+
+def test_queue_depth_does_not_create_db(tmp_path):
+    path = tmp_path / "never_used.db"
+    store = SqliteProcessingStore(path)
+    assert store.queue_depth() == {PENDING: 0, PROCESSING: 0}
+    assert not path.exists()  # healthcheck không được sinh file DB
+
+
+def test_queue_depth_counts_pending_and_processing(tmp_path):
+    store = make_store(tmp_path)
+    create_cv(store, doc_id="cv_a")
+    create_cv(store, doc_id="cv_b")
+    assert store.queue_depth() == {PENDING: 2, PROCESSING: 0}
+    first = store.claim_next()
+    assert store.queue_depth() == {PENDING: 1, PROCESSING: 1}
+    store.mark_failed(first.id, "PARSING: X: y")
+    assert store.queue_depth() == {PENDING: 1, PROCESSING: 0}  # FAILED không tính
