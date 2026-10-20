@@ -1,0 +1,746 @@
+% !TEX program = xelatex
+% =====================================================================
+%  KIẾN TRÚC HỆ THỐNG
+%  "Hệ thống ghép cặp CV - Việc làm theo section"
+%  (Section-Aware CV-Job Matching + hàng đợi xử lý file nền)
+%
+%  Biên dịch:  xelatex kien_truc_he_thong.tex      (MiKTeX / TeX Live)
+%  Lưu ý: bắt buộc XeLaTeX (fontspec) để hiển thị đúng tiếng Việt.
+% =====================================================================
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+% Tiếng Việt không có dấu ngắt từ tự nhiên trong XeLaTeX -> nới giãn một chút
+% để tránh các dòng tràn ra ngoài lề.
+\setlength{\emergencystretch}{3em}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont[Scale=0.85]{Consolas}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,calc,automata,shapes.geometric}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!70!black,
+            citecolor=green!40!black]{hyperref}
+
+% ---------------- màu + style dùng chung cho sơ đồ ----------------
+\definecolor{cblue}{HTML}{2B6CB0}
+\definecolor{cbluel}{HTML}{EAF2FB}
+\definecolor{cgreen}{HTML}{276749}
+\definecolor{cgreenl}{HTML}{E6F4EC}
+\definecolor{corange}{HTML}{B7791F}
+\definecolor{corangel}{HTML}{FBF3E0}
+\definecolor{cpurple}{HTML}{6B46C1}
+\definecolor{cpurplel}{HTML}{F0E9FA}
+\definecolor{cred}{HTML}{C53030}
+\definecolor{credl}{HTML}{FDE8E8}
+\definecolor{cgray}{HTML}{4A5568}
+\definecolor{cgrayl}{HTML}{EDF2F7}
+
+\tikzset{
+  svc/.style   = {draw=cblue, line width=0.7pt, rounded corners=3pt, fill=cbluel,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  infra/.style = {draw=cgreen, line width=0.7pt, rounded corners=3pt, fill=cgreenl,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  store/.style = {draw=corange, line width=0.7pt, rounded corners=3pt, fill=corangel,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  llm/.style   = {draw=cpurple, line width=0.7pt, rounded corners=3pt, fill=cpurplel,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  fail/.style  = {draw=cred, line width=0.7pt, rounded corners=3pt, fill=credl,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  box/.style   = {draw=black!45, rounded corners=2pt, fill=white, inner sep=3.5pt,
+                  font=\scriptsize, align=center},
+  band/.style  = {draw=black!35, rounded corners=4pt, fill=black!4, inner sep=6pt,
+                  align=left},
+  arr/.style   = {-{Stealth[length=2.2mm]}, semithick},
+  arrl/.style  = {-{Stealth[length=2.4mm]}, thick},
+  arrd/.style  = {-{Stealth[length=2.2mm]}, semithick, dashed, black!60},
+  lbl/.style   = {font=\tiny, align=center, inner sep=1.5pt},
+  actor/.style = {draw=black!55, fill=cgrayl, rounded corners=2pt, minimum width=2.1cm,
+                  minimum height=0.7cm, font=\scriptsize, align=center},
+  st/.style    = {state, minimum size=1.2cm, font=\scriptsize, align=center, inner sep=1pt},
+}
+
+\title{\textbf{KIẾN TRÚC HỆ THỐNG}\\[4pt]
+       \large Hệ thống ghép cặp CV -- Việc làm theo section\\
+       \normalsize (Section-Aware CV--Job Matching) kèm hàng đợi xử lý file nền}
+\author{Nhóm nghiên cứu: .........................\\
+        \small Giáo viên hướng dẫn: ........................}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Tài liệu mô tả kiến trúc phần mềm của hệ thống ghép cặp ``sơ yếu lý lịch (CV) --
+việc làm (JD)'' theo từng \emph{phần (section)} của văn bản, gồm hai tiến trình lớn:
+(1) \textbf{AI service} viết bằng Python/FastAPI, đảm nhận trích xuất văn bản, phân tích
+bằng mô hình ngôn ngữ lớn (LLM), sinh embedding theo section, lưu vector và xếp hạng
+hybrid (semantic + từ khóa + ràng buộc có cấu trúc); và (2) \textbf{API chính} viết bằng
+NestJS, đảm nhận nghiệp vụ người dùng và \emph{gọi} AI service. Trọng tâm của tài liệu là
+\textbf{hàng đợi xử lý file nền} (background processing queue) cho phép người dùng upload
+CV và nhận trạng thái xử lý từng bước thay cho lời gọi đồng bộ ``treo'' hàng chục giây.
+Tài liệu gồm: sơ đồ tổng thể, sơ đồ lớp module, máy trạng thái job, sơ đồ chuỗi lời gọi
+(bước upload bất đồng bộ), mô hình dữ liệu vector theo section và luồng xếp hạng
+hybrid; phần cuối nêu hướng nghiên cứu khoa học đề xuất.
+\end{abstract}
+
+\tableofcontents
+
+% =====================================================================
+\section{Tổng quan hệ thống}
+% =====================================================================
+
+Hệ thống có hai tiến trình chính (hai mã nguồn khác nhau) và một số thành phần hạ tầng:
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{API chính (NestJS, TypeScript)} --- backend nghiệp vụ: xác thực, hồ sơ
+        người dùng, tin tuyển dụng, hợp đồng, thanh toán. Là nơi duy nhất được phép
+        đọc/ghi \textbf{PostgreSQL} (nguồn dữ liệu gốc).
+  \item \textbf{AI service (Python, FastAPI)} --- microservice nội bộ, \emph{không} có
+        quyền ghi PostgreSQL: trích xuất PDF/DOCX, phân tích cấu trúc bằng
+        \texttt{qwen3:4b} (chạy local qua Ollama), sinh embedding \texttt{BAAI/bge-m3},
+        lưu vector vào \textbf{ChromaDB}, xếp hạng và giải thích bằng LLM.
+  \item \textbf{ChromaDB} --- cơ sở vector (HNSW, cosine) persistent trên đĩa.
+  \item \textbf{SQLite} --- bảng \texttt{processing.db} lưu \emph{trạng thái job xử lý
+        file} (hàng đợi nền). Lý do dùng SQLite: ở giai đoạn này AI service chỉ được cấp
+        quyền \emph{đọc} PostgreSQL; giao diện \texttt{ProcessingStore} được thiết kế để
+        sau này thay bằng \texttt{PostgresProcessingStore} mà không đổi pipeline.
+  \item \textbf{Outbox + \texttt{sync\_worker}} --- cơ chế đồng bộ \emph{một chiều}
+        PostgreSQL $\rightarrow$ Chroma: các bản ghi CV/JD trong DB được đẩy sang vector
+        store để phục vụ truy hồi.
+\end{itemize}
+
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.9cm and 1.1cm, font=\scriptsize]
+  % -------- dải 0: ứng dụng --------
+  \node[svc]   (web)     at (0,0)     {Web / Mobile\\(Next.js)};
+  \node[svc]   (nest)    at (5.5,0)   {API chính\\NestJS + Prisma};
+  \node[infra] (pg)      at (16,0)    {PostgreSQL\\(nguồn gốc)};
+
+  % -------- dải 1: xử lý --------
+  \node[svc]   (api)     at (5.5,-2.3){AI Service\\FastAPI \texttt{/internal/*}};
+  \node[svc]   (worker)  at (7,-4.6)  {Worker nền (1 thread)\\claim $\to$ pipeline $\to$ ghi kết quả};
+  \node[store] (sqlite)  at (12,-4.6) {SQLite\\bảng \texttt{jobs}};
+  \node[store] (sync)    at (16,-2.2) {\texttt{sync\_worker}\\(đọc outbox)};
+
+  % -------- dải 2: hạ tầng --------
+  \node[llm]   (ollama)  at (3.3,-7.4){Ollama\\LLM \texttt{qwen3:4b}};
+  \node[llm]   (bge)     at (7.6,-7.4){Embedder\\BGE-M3 (CPU)};
+  \node[infra] (chroma)  at (12.2,-7.4){ChromaDB\\vector theo section};
+  \node[store] (files)   at (16.2,-7.4){File tạm\\(PDF/DOCX)};
+
+  % -------- luồng chính --------
+  \draw[arr] (web)   -- node[lbl,above]{HTTP/REST} (nest);
+  \draw[arr] (nest)  -- node[lbl,right]{giao job,\\poll trạng thái,\\recommend} (api);
+  \draw[arr,<->] (nest) -- node[lbl,above]{CRUD; outbox} (pg);
+  \draw[arr] (pg)   -- node[lbl,right]{\texttt{outbox.jsonl}} (sync);
+  \draw[arr] (sync) -- node[lbl,right]{index / xoa vector} (chroma);
+  \draw[arr] (api)  -- node[lbl,left]{khoi tao} (worker);
+  \draw[arr] (worker) -- node[lbl,above]{claim, checkpoint, READY} (sqlite);
+  \draw[arr] (worker) -- node[lbl,left]{parse JSON} (ollama);
+  \draw[arr] (worker) -- node[lbl,left]{nhung section} (bge);
+  \draw[arr] (worker) -- node[lbl,below,sloped]{upsert vector} (chroma);
+  \draw[arr] (worker) -- node[lbl,above,sloped]{luu / xoa} (files);
+\end{tikzpicture}}
+\caption{Tổng quan hệ thống: API chính (NestJS) điều phối, AI service (FastAPI) xử lý
+và xếp hạng, dữ liệu vector nằm ở ChromaDB, trạng thái job nằm ở SQLite.}
+\label{fig:tongthe}
+\end{figure}
+
+Hai thành phần \emph{giao tiếp} với nhau chỉ qua HTTP nội bộ, được bảo vệ bằng
+\texttt{INTERNAL\_API\_KEY} (che dấu \texttt{/internal/*} khỏi Internet). Nhờ đó AI
+service có thể thay đổi độc lập (thêm model, thêm queue) mà không ảnh hưởng API chính.
+
+% =====================================================================
+\section{Kiến trúc bên trong AI service}
+% =====================================================================
+
+AI service được chia thành bốn lớp phụ trách rõ ràng (Hình~\ref{fig:module}), theo
+nguyên tắc \emph{API chỉ điều phối, nghiệp vụ nằm ở lớp giữa, lớp dưới lo hạ tầng}.
+Thư viện lõi \texttt{src/cvjd} (Python package \texttt{cvjd}) độc lập với web framework
+để có thể chạy benchmark từ dòng lệnh.
+
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.35cm, font=\scriptsize]
+  % ---- lop API ----
+  \node[band, minimum width=16.4cm] (b1) at (0,0) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b1.west)
+        {Lớp 1 -- API \& an ninh (\texttt{apps/ai/app})};
+  \foreach \x/\txt in {-6.2/{\texttt{routes.py}\\17 endpoint},
+                      -1.9/{\texttt{schemas.py}\\Pydantic v2},
+                      2.2/{\texttt{security.py}\\API key, fail-closed},
+                      6.4/{\texttt{errors.py}\\mã lỗi + HTTP},
+                      10.2/{\texttt{main.py}\\lifespan, CORS, worker}}
+     \node[box, fill=cbluel] at (\x,-1.15) {\txt};
+  \node[box, fill=cbluel] at (13.6,-1.15) {\texttt{\_\_init\_\_.py}\\cấu hình app};
+
+  % ---- lop nghiep vu ----
+  \node[band, minimum width=16.4cm] (b2) at (0,-2.75) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b2.west)
+        {Lớp 2 -- Nghiệp vụ};
+  \foreach \x/\txt in {-6.4/{\texttt{text.py}\\magic bytes, PDF/DOCX/OCR},
+                      -2.5/{\texttt{normalize.py}\\chuẩn hoá CV/JD},
+                      1.2/{\texttt{llm.py}\\client Ollama},
+                      4.6/{\texttt{embeddings.py}\\BGE-M3},
+                      8.4/{\texttt{recommend.py}\\xếp hạng hybrid},
+                      12.4/{\texttt{explain.py}\\giải thích + rerank}}
+     \node[box, fill=cbluel] at (\x,-3.9) {\txt};
+
+  % ---- lop hang doi & luu tru ----
+  \node[band, minimum width=16.4cm] (b3) at (0,-5.5) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b3.west)
+        {Lớp 3 -- Hàng đợi xử lý \& lưu trữ};
+  \foreach \x/\txt in {-6.4/{\texttt{processing/worker.py}\\thread nền, retry, backoff},
+                      -2.5/{\texttt{processing/pipeline.py}\\4 bước EXTRACT$\to$FINALIZE},
+                      1.2/{\texttt{processing/store.py}\\SQLite, máy trạng thái},
+                      5.4/{\texttt{index\_store.py}\\payload JSONL},
+                      9.2/{\texttt{cvjd.storage.chroma}\\upsert / query vector}}
+     \node[box, fill=corangel] at (\x,-6.65) {\txt};
+
+  % ---- thu vien loi ----
+  \node[band, minimum width=16.4cm] (b4) at (0,-8.3) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b4.west)
+        {Lớp 4 -- Thư viện lõi \texttt{src/cvjd}};
+  \foreach \x/\txt in {-6.4/{\texttt{schema.py}, \texttt{io.py}\\dạng dữ liệu, JSONL},
+                      -2.5/{\texttt{data/}\\payload, preprocessing},
+                      1.2/{\texttt{models/}\\BM25, chunking, embedding, matching},
+                      5.4/{\texttt{ranking/}\\engine, hybrid, structured, constraints},
+                      9.2/{\texttt{retrieval/}, \texttt{storage/}\\retriever, chroma, outbox}}
+     \node[box, fill=cgreenl] at (\x,-9.45) {\txt};
+
+  % ---- quan he giua cac lop ----
+  \draw[arrd] ([yshift=0.4cm]b1.south) -- ([yshift=-0.4cm]b2.north)
+        node[lbl, right, xshift=0.3cm]{gọi hàm nghiệp vụ};
+  \draw[arrd] ([yshift=0.4cm]b2.south) -- ([yshift=-0.4cm]b3.north)
+        node[lbl, right, xshift=0.3cm]{worker gọi pipeline; recommend gọi Chroma};
+  \draw[arrd] ([yshift=0.4cm]b3.south) -- ([yshift=-0.4cm]b4.north)
+        node[lbl, right, xshift=0.3cm]{tái sử dụng thư viện lõi};
+\end{tikzpicture}}
+\caption{Các lớp module của AI service. Lớp ngoài tiếp nhận HTTP, lớp nghiệp vụ xử lý
+văn bản/LLM, lớp hàng đợi lo việc chạy nền, thư viện lõi chứa các mô hình và thứ tự
+xếp hạng (có thể chạy riêng từ CLI để benchmark).}
+\label{fig:module}
+\end{figure}
+
+Hai đường xử lý ``đồng bộ'' và ``nền'' dùng chung các khối nghiệp vụ nên kết quả phân
+tích là như nhau (Hình~\ref{fig:2duong}).
+
+\begin{figure}[htbp]
+\centering
+\resizebox{0.92\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.8cm and 0.9cm, font=\scriptsize]
+  % --- duong dong bo ---
+  \node[box, fill=cbluel, font=\scriptsize\bfseries] (s0) at (0,0)
+        {\texttt{POST /api/v1/ai/analyze-cv}\\(đồng bộ, dev/fixture)};
+  \node[box, fill=cbluel] (s1) at (5.2,0) {\texttt{text.py}\\đọc file, làm sạch};
+  \node[box, fill=cbluel] (s2) at (9.6,0) {\texttt{llm.py} + \texttt{normalize}\\parse JSON (qwen3:4b)};
+  \node[box, fill=white]  (s3) at (14.4,0) {JSON trả về\\(không lưu, không index)};
+
+  % --- duong nen ---
+  \node[box, fill=corangel, font=\scriptsize\bfseries] (q0) at (0,-2.4)
+        {\texttt{POST /internal/jobs}\\(bất đồng bộ, 202)};
+  \node[box, fill=corangel] (q1) at (5.2,-2.4) {EXTRACTING\\(worker)};
+  \node[box, fill=corangel] (q2) at (9.6,-2.4) {PARSING + EMBEDDING\\(LLM + BGE-M3)};
+  \node[box, fill=cgreenl]  (q3) at (14.4,-2.4) {INDEX $\to$ READY\\(Chroma + payload)};
+
+  \draw[arr] (s0) -- (s1); \draw[arr] (s1) -- (s2); \draw[arr] (s2) -- (s3);
+  \draw[arr] (q0) -- (q1); \draw[arr] (q1) -- (q2); \draw[arr] (q2) -- (q3);
+  \draw[arr] (s1) -- node[lbl,right]{dùng chung} (q1);
+  \draw[arr] (s2) -- (q2);
+\end{tikzpicture}}
+\caption{Hai đường xử lý dùng chung khối trích xuất và LLM: đường đồng bộ
+\texttt{analyze-cv} chỉ trả JSON, đường hàng đợi còn nhúng và index vector để phục vụ
+truy hồi sau đó.}
+\label{fig:2duong}
+\end{figure}
+
+% =====================================================================
+\section{Hàng đợi xử lý file nền (phần lõi)}
+% =====================================================================
+
+\subsection{Vấn đề}
+
+Việc phân tích một CV mất 10--40~giây (trích xuất PDF, gọi LLM sinh JSON, nhúng 5--8
+section). Nếu để HTTP đồng bộ ``treo'' chừng đó thời gian thì trình duyệt/người dùng dễ
+bị timeout và NestJS cũng bị chiếm kết nối. Giải pháp: \textbf{hàng đợi job nền}
+\begin{enumerate}[leftmargin=1.6em]
+  \item Client gửi file $\to$ nhận ngay \texttt{202 Accepted} kèm \texttt{job\_id};
+  \item Worker chạy nền xử lý từng job, cập nhật \emph{step} + \emph{progress};
+  \item Client poll trạng thái và hiển thị ``Đang trích xuất $\to$ Đang phân tích
+        $\to$ Đang nhúng $\to$ Hoàn tất''.
+\end{enumerate}
+
+\subsection{Máy trạng thái của job}
+
+Mỗi job có \emph{trạng thái} (\texttt{status}) và \emph{bước đang chạy}
+(\texttt{step}) là hai chiều độc lập: trạng thái nói ``job đang đi tới đâu về mặt vòng
+đời'', bước nói ``đang ở khâu nào'' để hiển thị tiến độ (Hình~\ref{fig:state}).
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=1.5cm and 1.8cm, font=\scriptsize]
+  \node[st, fill=cbluel, draw=cblue]  (p)     at (0,0)    {PENDING};
+  \node[st, fill=corangel, draw=corange] (pr)  at (5,0)    {PROCESSING};
+  \node[st, fill=cgreenl, draw=cgreen, accepting] (r) at (10,1.7) {READY};
+  \node[st, fill=credl, draw=cred]    (f)     at (10,-1.7){FAILED};
+  \node[st, fill=cgrayl, draw=cgray]  (c)     at (5,-3.6) {CANCELLED};
+
+  \draw[arr] (p)  -- node[lbl,above]{\texttt{claim()} (attempts $+1$)} (pr);
+  \draw[arr] (pr) -- node[lbl,right]{\texttt{mark\_ready()}} (r);
+  \draw[arr] (pr) -- node[lbl,right]{lỗi vĩnh viễn\\hoặc hết lượt thử} (f);
+  \draw[arr] (pr) to[bend right=25] node[lbl,below]{lỗi tạm thời: backoff $2^{n}\cdot\Delta$} (p);
+  \draw[arr] (f)  to[bend right=30] node[lbl,below]{\texttt{POST /jobs/\{id\}/retry}} (p);
+  \draw[arr] (p)  -- node[lbl,left]{hủy} (c);
+  \draw[arr] (pr) to[bend left=22] node[lbl,above,sloped]{hủy} (c);
+  \draw[arr] (pr) edge[loop above, min distance=0.55cm]
+        node[lbl,above]{checkpoint \texttt{set\_step()}} (pr);
+\end{tikzpicture}
+\caption{Máy trạng thái job xử lý file. \texttt{READY} là trạng thái hấp thụ (job hoàn
+tất); \texttt{FAILED} vẫn giữ file gốc để có thể retry thủ công.}
+\label{fig:state}
+\end{figure}
+
+Bên trong \texttt{PROCESSING}, pipeline chạy tuần tự bốn bước, mỗi bước ghi \emph{checkpoint}
+vào DB nên nếu service chết giữa chừng thì ta biết chính xác job đang ở đâu:
+
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=0.9cm, font=\scriptsize]
+  \foreach \i/\nm/\pc in {0/{RECEIVED}/5, 1/{EXTRACTING}/25, 2/{PARSING}/55,
+                          3/{EMBEDDING}/85, 4/{FINALIZING}/95} {
+    \node[box, fill=cbluel, minimum width=2.4cm] (s\i) at ({\i*3.0},0) {\nm\\[1pt]
+          \tiny tiến độ \pc\%};
+  }
+  \draw[arr] (s0) -- (s1); \draw[arr] (s1) -- (s2);
+  \draw[arr] (s2) -- (s3); \draw[arr] (s3) -- (s4);
+  \node[lbl, below=0.25cm of s1, text=cgray]{magic bytes, \texttt{extract\_text}, làm sạch};
+  \node[lbl, below=0.25cm of s2, text=cgray]{prompt $\to$ JSON (LLM)};
+  \node[lbl, below=0.25cm of s3, text=cgray]{nhúng từng section (BGE-M3)};
+  \node[lbl, below=0.25cm of s4, text=cgray]{upsert Chroma + payload, \texttt{mark\_ready()}};
+\end{tikzpicture}
+\caption{Các bước bên trong \texttt{PROCESSING} và mức tiến độ tương ứng được ghi vào
+\texttt{step}/\texttt{progress}.}
+\label{fig:steps}
+\end{figure}
+
+\subsection{Luồng bất đồng bộ khi upload CV}
+
+Hình~\ref{fig:sequence} mô tả toàn bộ lời gọi khi người dùng upload CV: từ HTTP request
+đến khi job chuyển sang \texttt{READY} và client poll được kết quả.
+
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[font=\scriptsize]
+  \foreach \i/\nm in {0/{Trình duyệt}, 1/{NestJS API}, 2/{AI Service (HTTP)},
+                      3/{Worker (thread)}, 4/{SQLite}, 5/{Ollama + BGE-M3}}{
+    \node[actor] (a\i) at ({\i*3.7},0) {\nm};
+    \draw[dashed, black!40] (a\i.south) -- ++(0,-11.2);
+  }
+  \draw[arr] ($(a0)+(0,-0.9)$) -- node[lbl,above]{1. \texttt{POST /api/cvs/upload} (PDF + JD text)} ($(a1)+(0,-0.9)$);
+  \draw[arr] ($(a1)+(0,-1.7)$) -- ++(1.35,0) -- node[lbl,right]{2. validate, lưu row CV (đang xử lý)} ++(0,-0.5) -- ++(-1.35,0);
+  \draw[arr] ($(a1)+(0,-2.5)$) -- node[lbl,above]{3. \texttt{POST /internal/jobs} (file, documentId, version)} ($(a2)+(0,-2.5)$);
+  \draw[arr] ($(a2)+(0,-3.3)$) -- ++(-1.35,0) -- node[lbl,left]{4. \texttt{INSERT} job \texttt{PENDING}; lưu file tạm} ++(0,-0.5) -- ++(1.35,0);
+  \draw[arr] ($(a2)+(0,-4.3)$) -- node[lbl,above]{5. \texttt{202 Accepted \{job\_id\}}} ($(a1)+(0,-4.3)$);
+  \draw[arr] ($(a3)+(0,-5.1)$) -- node[lbl,above]{6. \texttt{claim}: \texttt{PENDING}$\to$\texttt{PROCESSING}} ($(a4)+(0,-5.1)$);
+  \draw[arr] ($(a3)+(0,-5.9)$) -- ++(1.35,0) -- node[lbl,right]{7. EXTRACTING: đọc file, làm sạch} ++(0,-0.5) -- ++(-1.35,0);
+  \draw[arr] ($(a3)+(0,-6.9)$) -- node[lbl,above]{8. PARSING: prompt $\to$ JSON (\texttt{qwen3:4b})} ($(a5)+(0,-6.9)$);
+  \draw[arr] ($(a3)+(0,-7.7)$) -- node[lbl,above]{9. EMBEDDING: vector từng section} ($(a5)+(0,-7.7)$);
+  \draw[arr] ($(a3)+(0,-8.5)$) -- node[lbl,above]{10. upsert vector + payload; \texttt{mark\_ready()}} ($(a4)+(0,-8.5)$);
+  \draw[arr] ($(a1)+(0,-9.3)$) -- node[lbl,above]{11. poll \texttt{GET /internal/jobs/\{id\}}} ($(a2)+(0,-9.3)$);
+  \draw[arr] ($(a2)+(0,-10.1)$) -- node[lbl,above]{12. \texttt{\{status: READY, result\}}} ($(a1)+(0,-10.1)$);
+  \draw[arr] ($(a1)+(0,-10.7)$) -- node[lbl,above]{13. hiển thị CV đã xử lý} ($(a0)+(0,-10.7)$);
+\end{tikzpicture}}
+\caption{Chuỗi lời gọi của luồng upload bất đồng bộ. Toàn bộ bước 6--10 chạy nền trong
+cùng process FastAPI; API chính chỉ poll trạng thái.}
+\label{fig:sequence}
+\end{figure}
+
+\subsection{Độ tin cậy}
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Phân loại lỗi:} lỗi \emph{vĩnh viễn} (file hỏng, text rỗng, sai định
+        dạng) $\to$ \texttt{FAILED} ngay, không thử lại; lỗi \emph{tạm thời} (Ollama
+        timeout, Chroma khóa database) $\to$ worker thử lại với backoff
+        $2^{n}\cdot\Delta$ đến \texttt{JOB\_MAX\_ATTEMPTS} (mặc định 3).
+  \item \textbf{Phát hiện job ``kẹt'':} nếu \texttt{PROCESSING} quá
+        \texttt{JOB\_STALE\_SECONDS} (300~s) mà không cập nhật thì worker tự đưa job về
+        \texttt{PENDING}; endpoint \texttt{POST /internal/jobs/reconcile} cho phép vận
+        hành viên gỡ kẹt thủ công.
+  \item \textbf{Không mất job khi restart:} SQLite là nguồn sự thật duy nhất; khi khởi
+        động lại service, các job còn \texttt{PENDING} trong DB sẽ được worker xử lý tiếp.
+  \item \textbf{Bỏ qua nhúng lại (idempotent):} nếu nội dung text không đổi
+        (\texttt{content\_hash} khớp) \emph{và} vector của phiên bản đó vẫn còn nguyên
+        trong Chroma + payload còn trong store thì job chuyển thẳng sang \texttt{READY}
+        với cảnh báo \texttt{REUSED\_INDEX} --- retry không tiêu tốn thêm lượt LLM.
+  \item \textbf{Quan sát được:} \texttt{GET /internal/jobs/stats} trả về số job theo
+        trạng thái, độ sâu hàng đợi, số lượt retry và phân vị thời gian xử lý;
+        \texttt{GET /readyz} báo trạng thái worker cho giám sát.
+\end{itemize}
+
+% =====================================================================
+\section{Mô hình dữ liệu vector theo section}
+% =====================================================================
+
+Điểm đặc biệt của hệ thống là mỗi tài liệu \emph{không} được nhúng thành một vector duy
+nhất mà tách theo section (kỹ năng, kinh nghiệm, dự án, học vấn, tóm tắt) cộng thêm một
+vector cho toàn văn. Nhờ đó khi so một JD với một CV, ta so được ``yêu cầu kỹ năng''
+trùng với ``phần kỹ năng'' thay vì so toàn văn mơ hồ.
+
+\begin{figure}[htbp]
+\centering
+\resizebox{0.95\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.55cm and 1.1cm, font=\scriptsize]
+  \node[box, fill=cbluel, minimum width=3.2cm] (doc) at (0,-1.9)
+        {\textbf{CV id=1234, version=1}\\(payload đã phân tích)};
+  \foreach \i/\nm in {0/{skills}, 1/{experience}, 2/{projects},
+                      3/{education}, 4/{summary}, 5/{\_full}} {
+    \node[box, fill=cgreenl, minimum width=2.1cm] (sec\i) at (5.4,{-0.8*\i}) {\nm};
+    \draw[arr] (doc.east) -- (sec\i.west);
+  }
+  \node[infra, minimum height=4.6cm, minimum width=3.6cm] (col) at (10.4,-2)
+        {Collection \texttt{frevia\_cvs}\\[2pt]
+         \texttt{cv:1234:v1:skills}\\
+         \texttt{cv:1234:v1:experience}\\
+         \texttt{cv:1234:v1:projects}\\
+         \texttt{cv:1234:v1:education}\\
+         \texttt{cv:1234:v1:summary}\\
+         \texttt{cv:1234:v1:\_full}};
+  \foreach \i in {0,1,2,3,4,5} \draw[arr] (sec\i) -- ([xshift=-1.4cm]col.west |- sec\i);
+  \node[store, minimum width=3.4cm] (js) at (15.2,-2.6)
+        {\texttt{.documents.jsonl}\\(payload + owner + visibility)};
+  \draw[arr] (col) -- node[lbl,above]{ghi cùng lúc} (js);
+\end{tikzpicture}}
+\caption{Mỗi CV/JD sinh ra một ``bó'' vector theo section. Vector ID có dạng
+\texttt{type:id:v*n*:section}, metadata gắn kèm gồm \texttt{content\_hash},
+\texttt{status=READY}, \texttt{owner\_id}, \texttt{visibility}.}
+\label{fig:vector}
+\end{figure}
+
+Khi phiên bản tài liệu tăng (\texttt{version}$+1$) thì upsert sẽ tự xoá các vector cũ
+cùng \texttt{document\_id} và thay bằng bộ mới; metadata \texttt{status=READY} đảm bảo
+chỉ vector đã hoàn chỉnh mới được dùng cho truy hồi.
+
+% =====================================================================
+\section{Luồng xếp hạng hybrid}
+% =====================================================================
+
+Khi NestJS gọi \texttt{POST /internal/recommend}, AI service thực hiện: truy hồi top-$P$
+ứng viên từ Chroma, tính điểm semantic theo section, gộp với điểm từ khóa BM25, cộng
+điểm theo ràng buộc có cấu trúc, rồi (tuỳ chọn) để LLM chấm lại và giải thích.
+
+\begin{figure}[htbp]
+\centering
+\resizebox{0.9\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.75cm and 1.2cm, font=\scriptsize]
+  \node[box, fill=cbluel] (q) at (0,0)
+        {Query (một JD hoặc CV)};
+  \node[box, fill=cbluel] (emb) at (-3.2,-1.6) {Nhúng query\\BGE-M3};
+  \node[box, fill=cbluel] (kw) at (3.2,-1.6) {BM25\\(\texttt{rank\_bm25})};
+  \node[infra] (ch) at (-3.2,-3.4) {Chroma: truy hồi\\top-$P$ (cosine, theo section)};
+  \node[box, fill=corangel] (fu) at (0,-5.2)
+        {Gộp chuẩn hoá min--max:\\$\text{score}=\alpha\cdot\tilde{s}_{sem}+(1-\alpha)\cdot\tilde{s}_{kw}$};
+  \node[box, fill=cgreenl] (st) at (0,-7)
+        {Điểm có cấu trúc: độ phủ kỹ năng,\\số năm kinh nghiệm, ngân sách, sở thích};
+  \node[box, fill=cgreenl] (con) at (0,-8.6) {Lọc ràng buộc cứng (constraints)};
+  \node[llm] (rr) at (0,-10.2) {LLM rerank (rubric 0--100) --- tuỳ chọn};
+  \node[llm] (ex) at (0,-11.7) {LLM giải thích top-$N$ (evidence-grounded) --- tuỳ chọn};
+  \node[box, fill=cbluel, font=\scriptsize\bfseries] (out) at (0,-13.2)
+        {Trả về top-$k$ JSON: id, score, breakdown, explanation};
+
+  \draw[arr] (q) -- (emb); \draw[arr] (q) -- (kw);
+  \draw[arr] (emb) -- (ch);
+  \draw[arr] (ch) |- node[lbl,above]{semantic scores} (fu.west);
+  \draw[arr] (kw.east) -- ++(2.6,0) |- node[lbl,above]{keyword scores} (fu.east);
+  \draw[arr] (fu) -- (st); \draw[arr] (st) -- (con);
+  \draw[arr] (con) -- (rr); \draw[arr] (rr) -- (ex); \draw[arr] (ex) -- (out);
+\end{tikzpicture}}
+\caption{Luồng xếp hạng hybrid. Các bước cuối (rerank, explain) là tuỳ chọn vì mỗi ứng
+viên tốn thêm một lượt gọi LLM.}
+\label{fig:rank}
+\end{figure}
+
+\subsection{Công thức chính}
+
+\begin{align}
+  s_{\text{sem}}(q,d) &= \operatorname{agg}_{x\in S_q}\ \max_{y\in S_d}\ \cos\big(e(x),\,e(y)\big)
+      \label{eq:sem}\\
+  s(q,d) &= \alpha\cdot\widetilde{s}_{\text{sem}}(q,d) + (1-\alpha)\cdot\widetilde{s}_{\text{kw}}(q,d)
+      \label{eq:fuse}
+\end{align}
+
+Trong đó $S_q,S_d$ là tập section của truy vấn và tài liệu, $e(\cdot)$ là vector BGE-M3,
+$\operatorname{agg}$ là phép gộp theo section (\texttt{mean} hoặc \texttt{max}), hàm
+$\widetilde{\cdot}$ là chuẩn hoá min--max trên tập ứng viên; $\alpha$ là tham số pha trộn
+(có thể ghi đè theo từng request). Hai phương án đối chiếu là \emph{single-vector}
+(một vector toàn văn, $|S|=1$) và \emph{BM25 thuần} ($\alpha=0$).
+
+% =====================================================================
+\section{Hợp đồng API (tóm tắt)}
+% =====================================================================
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}llp{8.6cm}@{}}
+\toprule
+\textbf{Method \& Path} & \textbf{Trạng thái} & \textbf{Vai trò} \\
+\midrule
+\texttt{POST /api/v1/ai/analyze-cv} & 200 & Phân tích CV đồng bộ (trả JSON, không lưu) \\
+\texttt{POST /internal/extract-cv}  & 200 & Trích xuất + phân tích CV (nội bộ) \\
+\texttt{POST /internal/extract-job} & 200 & Trích xuất + phân tích JD (nội bộ) \\
+\texttt{POST /internal/index}       & 200 & Nhúng + upsert vector cho danh sách payload \\
+\texttt{POST /internal/index/delete}& 200 & Xoá vector theo id/type \\
+\texttt{POST /internal/recommend}   & 200 & Xếp hạng hybrid (kèm \texttt{explain}) \\
+\texttt{POST /internal/explain}     & 200 & Giải thích 1 cặp (job, cv) bằng LLM \\
+\texttt{POST /internal/rerank}      & 200 & Chấm lại theo rubric 0--100 \\
+\texttt{POST /internal/embeddings}  & 200 & Sinh vector thô cho danh sách chuỗi \\
+\midrule
+\texttt{POST /internal/jobs}        & 202 & Tạo job xử lý file (multipart) $\to$ \texttt{job\_id} \\
+\texttt{GET  /internal/jobs/\{id\}}  & 200 & Trạng thái + tiến độ + cảnh báo \\
+\texttt{DELETE /internal/jobs/\{id\}}& 200 & Hủy job chưa xong \\
+\texttt{POST /internal/jobs/\{id\}/retry} & 200 & Đưa job \texttt{FAILED} về \texttt{PENDING} \\
+\texttt{GET  /internal/jobs/stats}  & 200 & Số job theo trạng thái, hàng đợi, phân vị thời gian \\
+\texttt{POST /internal/jobs/reconcile} & 200 & Gỡ job kẹt (idempotent) \\
+\midrule
+\texttt{GET /healthz}, \texttt{GET /readyz} & 200 & Sống/khỏe (ping Ollama, độ sâu hàng đợi) \\
+\bottomrule
+\end{tabular}
+\caption{Các endpoint của AI service. Mọi đường \texttt{/internal/*} đều bắt buộc
+\texttt{X-Internal-Api-Key} khi bật \texttt{INTERNAL\_API\_KEY\_REQUIRED=1}.}
+\label{tab:api}
+\end{table}
+
+Mẫu phản hồi tiêu biểu của job (rút gọn):
+
+\begin{verbatim}
+{
+  "job_id": "j_9f2c...", "status": "PROCESSING",
+  "document_type": "cv", "document_id": "1234", "version": 3,
+  "step": "PARSING", "progress": 55,
+  "attempt_count": 1, "warnings": [],
+  "duration_ms": null, "result": null
+}
+\end{verbatim}
+
+% =====================================================================
+\section{Cấu hình \& công nghệ}
+% =====================================================================
+
+\begin{table}[htbp]
+\centering\footnotesize
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Nhóm} & \textbf{Thành phần} & \textbf{Lựa chọn} & \textbf{Lý do} \\
+\midrule
+Web frontend & Framework & Next.js & (repo riêng) \\
+API nghiệp vụ & Backend & NestJS + Prisma & (repo riêng) \\
+AI service & Ngôn ngữ & Python 3.13 + FastAPI & Async, OpenAPI tự sinh \\
+LLM & Mô hình & \texttt{qwen3:4b} (Ollama) & Không mất dữ liệu ra ngoài \\
+Embedding & Mô hình & \texttt{BAAI/bge-m3} (1024 chiều, CPU) & Đa ngôn ngữ, nhiều chức năng \\
+Vector store & Cơ sở & ChromaDB persistent (HNSW, cosine) & Nhúng thư viện, đơn giản \\
+Job store & Cơ sở & SQLite (WAL) & PG đang chỉ đọc; interface để chuyển Postgres \\
+Từ khóa & Thuật toán & BM25 (\texttt{rank\_bm25}) & Baseline kinh điển, giải thích được \\
+Kiểm thử & Công cụ & pytest, ruff & 138 test tự động \\
+\bottomrule
+\end{tabular}
+\caption{Công nghệ chính của AI service.}
+\label{tab:stack}
+\end{table}
+
+Các biến môi trường quan trọng của hàng đợi (mặc định trong dấu ngoặc):
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}llp{7.6cm}@{}}
+\toprule
+\textbf{Biến} & \textbf{Mặc định} & \textbf{Vai trò} \\
+\midrule
+\texttt{OLLAMA\_MODEL} & -- (bắt buộc) & Mô hình LLM dùng cho parse/explain/rerank \\
+\texttt{EMBED\_MODEL} & \texttt{BAAI/bge-m3} & Mô hình sinh embedding \\
+\texttt{CHROMA\_PATH} & \texttt{None} & Nơi lưu Chroma; \texttt{None} = bộ nhớ (dùng cho test) \\
+\texttt{INTERNAL\_API\_KEY\_REQUIRED} & \texttt{0} & Bật = ``fail-closed'' khi chưa cấu hình key \\
+\texttt{PROCESSING\_WORKER\_ENABLED} & \texttt{0} & Bật worker nền trong process FastAPI \\
+\texttt{PROCESSING\_DB\_PATH} & \texttt{data/processing.db} & Đường dẫn SQLite của hàng đợi \\
+\texttt{PROCESSING\_FILES\_DIR} & \texttt{data/processing\_files} & Thư mục file tạm \\
+\texttt{JOB\_MAX\_ATTEMPTS} & 3 & Số lượt thử tối đa cho lỗi tạm thời \\
+\texttt{JOB\_STALE\_SECONDS} & 300 & Ngưỡng coi job \texttt{PROCESSING} là kẹt \\
+\texttt{JOB\_RETRY\_BASE\_DELAY\_S} & 1.0 & Hệ số backoff $2^{n}\cdot\Delta$ \\
+\texttt{PROCESSING\_SKIP\_REEMBED} & 1 & Bật bỏ qua nhúng lại khi nội dung không đổi \\
+\bottomrule
+\end{tabular}
+\caption{Cấu hình hàng đợi xử lý (xem đầy đủ tại \texttt{apps/ai/.env.example}).}
+\label{tab:env}
+\end{table}
+
+% =====================================================================
+\section{Kiểm thử \& đánh giá}
+% =====================================================================
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Kiểm thử tự động:} 138 test pytest bao phủ: trích xuất văn bản, chuẩn hoá
+        payload, xếp hạng hybrid, giải thích/rerank (LLM giả lập), máy trạng thái job,
+        worker (retry, backoff, job kẹt, hủy), hợp đồng API. Chroma dùng \emph{ephemeral
+        client} + \texttt{MockEmbedder} nên test chạy nhanh, không tải model thật.
+  \item \textbf{Kiểm soát chất lượng mã:} \texttt{ruff} cho mã mới; tài liệu thiết kế
+        (\texttt{docs/DESIGN\_processing\_queue.md}) được cập nhật đồng bộ với mã.
+  \item \textbf{Đánh giá chất lượng ghép cặp:} dùng bộ chỉ số chuẩn của truy hồi
+        thông tin --- Precision@k, Recall@k, nDCG@k, MRR, MAP --- trên tập có nhãn
+        (xem mục sau).
+\end{itemize}
+
+% =====================================================================
+\section{Đề xuất hướng nghiên cứu khoa học}
+% =====================================================================
+
+\subsection{Câu hỏi nghiên cứu}
+
+\begin{enumerate}[leftmargin=1.5em]
+  \item \textbf{RQ1 --- Giá trị của việc tách theo section:} xếp hạng theo multi-vector
+        từng section có tốt hơn nhúng toàn văn (single-vector) và BM25 thuần hay không?
+  \item \textbf{RQ2 --- Pha trộn semantic -- từ khóa:} giá trị $\alpha$ nào tối ưu
+        (\texttt{eq.~\ref{eq:fuse}}) trên dữ liệu tiếng Việt/kép Việt -- Anh?
+  \item \textbf{RQ3 --- Vai trò của LLM ở cuối pipeline:} rerank theo rubric và giải
+        thích evidence-grounded có cải thiện thứ tự xếp hạng và độ tin cậy của người
+        dùng không (đo bằng LLM-as-judge và khảo sát người thật)?
+  \item \textbf{RQ4 --- Chi phí -- hiệu năng:} hàng đợi nền với bỏ qua nhúng lại
+        (\texttt{content\_hash}) tiết kiệm bao nhiêu thời gian/token so với xử lý đồng bộ
+        và xử lý lại toàn bộ?
+\end{enumerate}
+
+\subsection{Ma trận thí nghiệm đề xuất}
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Nhóm biến} & \textbf{Tùy chọn} & \textbf{Chỉ số} \\
+\midrule
+Phương pháp & BM25; single-vector; section-aware (mean/max); chunk max-sim & nDCG@10, MRR \\
+Tham số & $\alpha\in\{0,0.3,0.5,0.7,1.0\}$; pool $P\in\{50,100,200\}$ & nDCG@10, độ trễ \\
+Embedding & bge-m3; multilingual-e5-small; MiniLM đa ngôn ngữ & nDCG@10, thời gian nhúng \\
+Tầng LLM & không rerank; rerank; rerank + explain & MRR, điểm LLM-as-judge (1--5) \\
+Hàng đợi & đồng bộ; nền toàn bộ; nền + skip re-embed & thời gian phản hồi, token/ job \\
+\bottomrule
+\end{tabular}
+\caption{Ma trận thí nghiệm (mỗi cấu hình chạy 3 lần, lấy trung bình).}
+\label{tab:exp}
+\end{table}
+
+\subsection{Dữ liệu \& quy trình}
+
+\begin{itemize}[leftmargin=1.2em]
+  \item Bộ dữ liệu công khai (Kaggle: \emph{Resume Dataset}, \emph{Job Descriptions})
+        và dữ liệu nội bộ đã có sẵn pipeline đồng bộ từ PostgreSQL sang Chroma;
+        yêu cầu tối thiểu 500 cặp CV--JD có nhãn ``phù hợp / không phù hợp''.
+  \item Chia $70/10/20$ (train/dev/test); tham số $\alpha$, pool, ngưỡng lọc ràng buộc
+        được tinh chỉnh trên dev, chỉ chốt một lần trên test.
+  \item Đánh giá con người: 3--5 người đánh giá top-10 gợi ý theo thang 1--5 cho
+        \emph{mức độ phù hợp} và \emph{mức độ hữu ích của phần giải thích}.
+\end{itemize}
+
+\subsection{Lộ trình 12 tuần (đề xuất)}
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}clp{9.4cm}@{}}
+\toprule
+\textbf{Tuần} & \textbf{Giai đoạn} & \textbf{Nội dung} \\
+\midrule
+1--2   & Chuẩn bị   & Đọc tài liệu, dựng bộ dữ liệu có nhãn, hoàn tất baseline BM25 \\
+3--5   & Thí nghiệm & Chạy section-aware vs single-vector (RQ1), tinh chỉnh $\alpha$ (RQ2) \\
+6--8   & LLM        & Thí nghiệm rerank + explain, đánh giá LLM-as-judge (RQ3) \\
+9--10  & Hệ thống   & Đo chi phí hàng đợi vs đồng bộ, đo độ trễ đầu-cuối (RQ4) \\
+11--12 & Viết       & Viết báo cáo, vẽ biểu đồ, chuẩn bị slide thuyết trình \\
+\bottomrule
+\end{tabular}
+\caption{Lộ trình nghiên cứu đề xuất.}
+\label{tab:timeline}
+\end{table}
+
+\subsection{Rủi ro \& biện pháp}
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}lp{9.6cm}@{}}
+\toprule
+\textbf{Rủi ro} & \textbf{Biện pháp} \\
+\midrule
+Thiếu dữ liệu có nhãn & Dùng dữ liệu công khai + gán nhãn thủ công theo mẫu rubric; dùng
+                       LLM-assisted labeling rồi kiểm tra chéo 20\% \\
+LLM chấm không nhất quán & Chạy 3 lần, tính đồng thuận (kappa); chốt prompt cố định \\
+Ollama/BGE-M3 chậm trên CPU & Giữ worker 1 thread, đo riêng từng bước, dùng pool nhỏ; nếu
+                       cần chuyển sang GPU/API embedding \\
+Kết quả không có ý nghĩa thống kê & Kiểm định Wilcoxon signed-rank giữa các cấu hình \\
+\bottomrule
+\end{tabular}
+\caption{Rủi ro dự kiến.}
+\label{tab:risk}
+\end{table}
+
+\subsection{Tài liệu tham khảo chính}
+
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item Chen, J. et al. (2024). \emph{BGE M3-Embedding: Multi-Lingual, Multi-Functionality,
+        Multi-Granularity Text Embeddings Through Self-Knowledge Distillation}. ACL Findings.
+  \item Robertson, S. \& Zaragoza, H. (2009). \emph{The Probabilistic Relevance Framework:
+        BM25 and Beyond}. Foundations and Trends in IR.
+  \item Karpukhin, V. et al. (2020). \emph{Dense Passage Retrieval for Open-Domain Question
+        Answering}. EMNLP.
+  \item Nogueira, R. \& Cho, K. (2019). \emph{Passage Re-ranking with BERT}. arXiv:1901.04085.
+  \item Zheng, L. et al. (2023). \emph{Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena}.
+        NeurIPS Datasets and Benchmarks.
+  \item Tài liệu thiết kế nội bộ: \texttt{docs/DESIGN\_processing\_queue.md},
+        \texttt{docs/WORKFLOW.md}, \texttt{plan.md} (trong repo).
+\end{itemize}
+
+% =====================================================================
+\section*{Phụ lục: cấu trúc thư mục liên quan}
+% =====================================================================
+\addcontentsline{toc}{section}{Phụ lục: cấu trúc thư mục liên quan}
+
+\begin{verbatim}
+section-aware-cv-job-matching/
+├── apps/ai/                     # AI service (FastAPI)
+│   ├── app/
+│   │   ├── main.py              # lifespan, worker thread, /healthz, /readyz
+│   │   ├── routes.py            # 17 endpoint (analyze-cv, /internal/*)
+│   │   ├── schemas.py           # Pydantic models
+│   │   ├── security.py          # API key + fail-closed
+│   │   ├── text.py              # PDF/DOCX/OCR, magic bytes, làm sạch
+│   │   ├── llm.py               # client Ollama (retry, timeout)
+│   │   ├── embeddings.py        # BGE-M3 (+ MockEmbedder cho test)
+│   │   ├── normalize.py         # chuẩn hoá CV/JD -> payload
+│   │   ├── recommend.py         # xếp hạng hybrid, index, explain
+│   │   ├── explain.py           # giải thích + rerank bằng LLM
+│   │   ├── index_store.py       # payload JSONL cạnh Chroma
+│   │   └── processing/          # hang doi nen
+│   │       ├── store.py         # SQLite + may trang thai job
+│   │       ├── pipeline.py      # 4 buoc EXTRACTING -> FINALIZING
+│   │       └── worker.py        # thread nen, retry, backoff, stale
+│   ├── tests/                   # 135 test pytest
+│   └── .env.example
+├── src/cvjd/                    # thu vien loi (chay duoc tu CLI)
+│   ├── schema.py, io.py
+│   ├── data/                    # payload, preprocessing
+│   ├── models/                  # bm25, chunking, embedding, matching
+│   ├── ranking/                 # engine, hybrid, structured, constraints
+│   ├── retrieval/               # retriever
+│   └── storage/                 # chroma, postgres, outbox
+└── docs/
+    ├── DESIGN_processing_queue.md
+    ├── WORKFLOW.md
+    └── kien_truc_he_thong.tex   # tai lieu nay
+\end{verbatim}
+
+\end{document}
