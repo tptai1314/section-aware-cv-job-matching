@@ -1,0 +1,33 @@
+\begin{table*}[t]
+\centering\small
+\caption{Comparative retrieval and ranking performance across all experimental configurations on the bilingual freelance benchmark. Metrics evaluated at rank cutoffs $K \in \{5, 10\}$.}
+\label{tab:main_results}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+\textbf{Experimental Configuration} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{Recall@10} & \textbf{Latency} \\
+\midrule
+\multicolumn{7}{l}{\textit{\textbf{Direction 1: Client $\rightarrow$ Freelancer (JD $\rightarrow$ CV, 27 queries)}}} \\
+Baseline 1: BM25 (Lexical)          & 0.5557 & 0.5920 & 0.7322 & 0.3187 & 0.3473 & 11.6\,ms \\
+Baseline 2: Single-Vector (Dense)    & 0.4265 & 0.4664 & 0.4441 & 0.2097 & 0.2110 & \textbf{0.8\,ms} \\
+Baseline 3: Chunk Max-Sim           & 0.4006 & 0.4547 & 0.3509 & 0.1802 & 0.2473 & 59.8\,ms \\
+Section-Aware (Fixed Pairing)       & 0.6056 & 0.6679 & 0.6111 & 0.6181 & 0.6691 & \textbf{0.8\,ms} \\
+Section-Aware (Cross Pairing)       & 0.6876 & 0.7224 & 0.7598 & 0.5144 & 0.5779 & 10.6\,ms \\
+Section-Aware (Weighted)            & 0.6850 & 0.6953 & 0.7312 & 0.6017 & 0.5959 & 11.0\,ms \\
+Hybrid (Section + BM25 + Rules)     & \textbf{0.9430} & \textbf{0.9542} & \textbf{1.0000} & \textbf{0.9212} & \textbf{0.8160} & 31.9\,ms \\
+Full Pipeline (+ LLM Cascade)       & \textbf{1.0000} & \textbf{0.9690} & \textbf{1.0000} & \textbf{0.9621} & \textbf{0.8160} & 30.6\,ms \\
+\midrule
+\multicolumn{7}{l}{\textit{\textbf{Direction 2: Freelancer $\rightarrow$ Job (CV $\rightarrow$ JD, 20 queries)}}} \\
+Baseline 1: BM25 (Lexical)          & 0.4177 & 0.4533 & 0.3010 & 0.2043 & 0.0697 & 7.7\,ms \\
+Baseline 2: Single-Vector (Dense)    & 0.3750 & 0.4373 & 0.3279 & 0.1994 & 0.0808 & \textbf{1.0\,ms} \\
+Baseline 3: Chunk Max-Sim           & 0.3789 & 0.4248 & 0.2359 & 0.1886 & 0.0518 & 171.8\,ms \\
+Section-Aware (Fixed Pairing)       & 0.5703 & 0.6298 & 0.4808 & 0.4458 & 0.1844 & \textbf{1.1\,ms} \\
+Section-Aware (Cross Pairing)       & 0.6328 & 0.6770 & 0.4531 & 0.3664 & 0.1236 & 13.6\,ms \\
+Section-Aware (Weighted)            & \textbf{0.6522} & \textbf{0.6970} & 0.4530 & 0.3902 & 0.1244 & 14.1\,ms \\
+Hybrid (Section + BM25 + Rules)     & 0.5029 & 0.4937 & 0.4525 & 0.3363 & 0.1353 & 33.9\,ms \\
+Full Pipeline (+ LLM Cascade)       & 0.5606 & 0.5249 & \textbf{0.5175} & 0.3731 & 0.1353 & 34.8\,ms \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}
+

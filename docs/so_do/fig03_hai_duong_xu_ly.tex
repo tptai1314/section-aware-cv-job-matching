@@ -1,0 +1,28 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{0.92\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.8cm and 0.9cm, font=\scriptsize]
+  % --- duong dong bo ---
+  \node[box, fill=cbluel, font=\scriptsize\bfseries] (s0) at (0,0)
+        {\texttt{POST /api/v1/ai/analyze-cv}\\(đồng bộ, dev/fixture)};
+  \node[box, fill=cbluel] (s1) at (5.2,0) {\texttt{text.py}\\đọc file, làm sạch};
+  \node[box, fill=cbluel] (s2) at (9.6,0) {\texttt{llm.py} + \texttt{normalize}\\parse JSON (qwen3:4b)};
+  \node[box, fill=white]  (s3) at (14.4,0) {JSON trả về\\(không lưu, không index)};
+
+  % --- duong nen ---
+  \node[box, fill=corangel, font=\scriptsize\bfseries] (q0) at (0,-2.4)
+        {\texttt{POST /internal/jobs}\\(bất đồng bộ, 202)};
+  \node[box, fill=corangel] (q1) at (5.2,-2.4) {EXTRACTING\\(worker)};
+  \node[box, fill=corangel] (q2) at (9.6,-2.4) {PARSING + EMBEDDING\\(LLM + BGE-M3)};
+  \node[box, fill=cgreenl]  (q3) at (14.4,-2.4) {INDEX $\to$ READY\\(Chroma + payload)};
+
+  \draw[arr] (s0) -- (s1); \draw[arr] (s1) -- (s2); \draw[arr] (s2) -- (s3);
+  \draw[arr] (q0) -- (q1); \draw[arr] (q1) -- (q2); \draw[arr] (q2) -- (q3);
+  \draw[arr] (s1) -- node[lbl,right]{dùng chung} (q1);
+  \draw[arr] (s2) -- (q2);
+\end{tikzpicture}}
+\caption{Hai đường xử lý dùng chung khối trích xuất và LLM: đường đồng bộ
+\texttt{analyze-cv} chỉ trả JSON, đường hàng đợi còn nhúng và index vector để phục vụ
+truy hồi sau đó.}
+\label{fig:2duong}
+\end{figure}

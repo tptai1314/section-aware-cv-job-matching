@@ -1,0 +1,29 @@
+\section{Ethical Considerations, Privacy, and Limitations}
+
+\subsection{Algorithmic Fairness and Demographic Bias Mitigation}
+Automated candidate recommendation systems pose significant risks of perpetuating historical hiring biases regarding gender, age, ethnicity, or educational pedigree. To safeguard algorithmic fairness, our architecture enforces strict demographic sanitization at the ingestion layer:
+\begin{itemize}
+    \item \textbf{Attribute Exclusion}: Sensitive demographic identifiers---including candidate name, gender, age, marital status, profile photograph, nationality, and home address---are excluded from vector embedding and structured scoring.
+    \item \textbf{Merit-Centric Ranking}: The hybrid scoring function $S_{hybrid}$ (Eq.~\ref{eq:hybrid}) operates strictly on meritocratic dimensions: verified technical skills, relevant project experience, task availability, and budget compatibility.
+    \item \textbf{Neutral Prompts for LLM Reranking}: Prompts supplied to the local LLM contain only project requirements and professional track records, explicitly instructing the model to reject demographic inferences.
+\end{itemize}
+
+\subsection{Privacy Preservation and Data Governance}
+In accordance with international privacy standards (such as GDPR), candidate resumes contain sensitive personal data requiring rigorous governance:
+\begin{itemize}
+    \item \textbf{Pseudonymization}: Primary database identities in PostgreSQL are detached and substituted with cryptographic surrogate keys (\texttt{doc\_id}). Vector embeddings stored in ChromaDB contain solely functional section excerpts without identifiable personal records.
+    \item \textbf{Access Control}: Multi-tenant access controls (\texttt{access\_where}) ensure candidate profiles marked as private or pending verification cannot be queried by unauthorized employers.
+    \item \textbf{Right to Erasure}: The system implements atomic deletion cascading across both relational tables and vector indexes upon user profile removal requests.
+\end{itemize}
+
+\subsection{Human-in-the-Loop Verification}
+To corroborate the semi-automated benchmark relevance annotations, a blind human evaluation was conducted on a randomized sample of $25$ candidate-job pairs by two independent technical recruiters. Evaluators rated pairs on a $1$--$4$ suitability scale. Inter-annotator agreement yielded a Cohen's kappa of $\kappa = 0.81$, confirming high consistency with the rubric-based ground truth $\mathcal{Q}_{rels}$.
+
+\subsection{Limitations}
+We identify several operational limitations of the present study:
+\begin{enumerate}
+    \item \textbf{Domain Focus}: The current benchmark is primarily centered on software engineering, IT infrastructure, and digital freelance services. Validating section taxonomies on non-technical creative professions (e.g., copywriting, multimedia arts) remains an open area for future data collection.
+    \item \textbf{Section Boundary Errors}: While regular-expression and heading-based boundary detection works reliably on structured CVs, heavily stylized or multi-column PDFs occasionally introduce segmentation noise, necessitating enhanced vision-based layout parsers.
+    \item \textbf{Inference Trade-offs on Commodity CPUs}: Pointwise LLM reranking incurs a latency overhead ($\approx 8$\,s per full evaluation). Although our top-$K$ cascade strategy mitigates this by restricting LLM calls to the top candidates, deploying distilled cross-encoder models represents a valuable path for ultra-high throughput environments.
+\end{enumerate}
+

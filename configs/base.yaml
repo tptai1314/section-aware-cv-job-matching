@@ -21,7 +21,12 @@ sections:
 matching:
   method: section_aware   # bm25 | single_vector | chunk_max_sim | section_aware
   pairing: cross           # fixed | cross
-  aggregation: max         # max | mean
+  aggregation: max         # max | mean | weighted
+  section_weights:
+    skills: 0.40
+    experience: 0.35
+    education: 0.15
+    summary: 0.10
 
 retrieval:
   pool_size: 100           # candidate pool từ full-text vector

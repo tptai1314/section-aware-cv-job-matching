@@ -6,6 +6,11 @@
 %
 %  Biên dịch:  xelatex kien_truc_he_thong.tex      (MiKTeX / TeX Live)
 %  Lưu ý: bắt buộc XeLaTeX (fontspec) để hiển thị đúng tiếng Việt.
+%
+%  Sơ đồ:   8 hình TikZ đã được tách ra thư mục so_do/ (mỗi hình một file
+%           .tex, file này chỉ \input{so_do/figXX_...}); caption/label nằm
+%           cùng file hình nên mọi \ref vẫn hoạt động.
+%  Ảnh PNG: python so_do/build_png.py  ->  so_do/png/figXX_....png (200 dpi)
 % =====================================================================
 \documentclass[a4paper,11pt]{article}
 
@@ -87,8 +92,10 @@ NestJS, đảm nhận nghiệp vụ người dùng và \emph{gọi} AI service. 
 \textbf{hàng đợi xử lý file nền} (background processing queue) cho phép người dùng upload
 CV và nhận trạng thái xử lý từng bước thay cho lời gọi đồng bộ ``treo'' hàng chục giây.
 Tài liệu gồm: sơ đồ tổng thể, sơ đồ lớp module, máy trạng thái job, sơ đồ chuỗi lời gọi
-(bước upload bất đồng bộ), mô hình dữ liệu vector theo section và luồng xếp hạng
-hybrid; phần cuối nêu hướng nghiên cứu khoa học đề xuất.
+(bước upload bất đồng bộ), mô hình dữ liệu vector theo section, và \textbf{luồng ghép cặp
+(matching) trình bày theo dạng dễ hiểu}: bốn bước từ tìm ứng viên đến trả kết quả, cách
+tính điểm mức độ hợp, và hai chiều ghép cặp \texttt{jd2cv}/\texttt{cv2jd}; phần cuối nêu
+hướng nghiên cứu khoa học đề xuất.
 \end{abstract}
 
 \tableofcontents
@@ -117,44 +124,7 @@ Hệ thống có hai tiến trình chính (hai mã nguồn khác nhau) và một
         store để phục vụ truy hồi.
 \end{itemize}
 
-\begin{figure}[htbp]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tikzpicture}[node distance=0.9cm and 1.1cm, font=\scriptsize]
-  % -------- dải 0: ứng dụng --------
-  \node[svc]   (web)     at (0,0)     {Web / Mobile\\(Next.js)};
-  \node[svc]   (nest)    at (5.5,0)   {API chính\\NestJS + Prisma};
-  \node[infra] (pg)      at (16,0)    {PostgreSQL\\(nguồn gốc)};
-
-  % -------- dải 1: xử lý --------
-  \node[svc]   (api)     at (5.5,-2.3){AI Service\\FastAPI \texttt{/internal/*}};
-  \node[svc]   (worker)  at (7,-4.6)  {Worker nền (1 thread)\\claim $\to$ pipeline $\to$ ghi kết quả};
-  \node[store] (sqlite)  at (12,-4.6) {SQLite\\bảng \texttt{jobs}};
-  \node[store] (sync)    at (16,-2.2) {\texttt{sync\_worker}\\(đọc outbox)};
-
-  % -------- dải 2: hạ tầng --------
-  \node[llm]   (ollama)  at (3.3,-7.4){Ollama\\LLM \texttt{qwen3:4b}};
-  \node[llm]   (bge)     at (7.6,-7.4){Embedder\\BGE-M3 (CPU)};
-  \node[infra] (chroma)  at (12.2,-7.4){ChromaDB\\vector theo section};
-  \node[store] (files)   at (16.2,-7.4){File tạm\\(PDF/DOCX)};
-
-  % -------- luồng chính --------
-  \draw[arr] (web)   -- node[lbl,above]{HTTP/REST} (nest);
-  \draw[arr] (nest)  -- node[lbl,right]{giao job,\\poll trạng thái,\\recommend} (api);
-  \draw[arr,<->] (nest) -- node[lbl,above]{CRUD; outbox} (pg);
-  \draw[arr] (pg)   -- node[lbl,right]{\texttt{outbox.jsonl}} (sync);
-  \draw[arr] (sync) -- node[lbl,right]{index / xoa vector} (chroma);
-  \draw[arr] (api)  -- node[lbl,left]{khoi tao} (worker);
-  \draw[arr] (worker) -- node[lbl,above]{claim, checkpoint, READY} (sqlite);
-  \draw[arr] (worker) -- node[lbl,left]{parse JSON} (ollama);
-  \draw[arr] (worker) -- node[lbl,left]{nhung section} (bge);
-  \draw[arr] (worker) -- node[lbl,below,sloped]{upsert vector} (chroma);
-  \draw[arr] (worker) -- node[lbl,above,sloped]{luu / xoa} (files);
-\end{tikzpicture}}
-\caption{Tổng quan hệ thống: API chính (NestJS) điều phối, AI service (FastAPI) xử lý
-và xếp hạng, dữ liệu vector nằm ở ChromaDB, trạng thái job nằm ở SQLite.}
-\label{fig:tongthe}
-\end{figure}
+\input{so_do/fig01_tong_the}
 
 Hai thành phần \emph{giao tiếp} với nhau chỉ qua HTTP nội bộ, được bảo vệ bằng
 \texttt{INTERNAL\_API\_KEY} (che dấu \texttt{/internal/*} khỏi Internet). Nhờ đó AI
@@ -169,101 +139,12 @@ nguyên tắc \emph{API chỉ điều phối, nghiệp vụ nằm ở lớp gi�
 Thư viện lõi \texttt{src/cvjd} (Python package \texttt{cvjd}) độc lập với web framework
 để có thể chạy benchmark từ dòng lệnh.
 
-\begin{figure}[htbp]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tikzpicture}[node distance=0.35cm, font=\scriptsize]
-  % ---- lop API ----
-  \node[band, minimum width=16.4cm] (b1) at (0,0) {};
-  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b1.west)
-        {Lớp 1 -- API \& an ninh (\texttt{apps/ai/app})};
-  \foreach \x/\txt in {-6.2/{\texttt{routes.py}\\17 endpoint},
-                      -1.9/{\texttt{schemas.py}\\Pydantic v2},
-                      2.2/{\texttt{security.py}\\API key, fail-closed},
-                      6.4/{\texttt{errors.py}\\mã lỗi + HTTP},
-                      10.2/{\texttt{main.py}\\lifespan, CORS, worker}}
-     \node[box, fill=cbluel] at (\x,-1.15) {\txt};
-  \node[box, fill=cbluel] at (13.6,-1.15) {\texttt{\_\_init\_\_.py}\\cấu hình app};
-
-  % ---- lop nghiep vu ----
-  \node[band, minimum width=16.4cm] (b2) at (0,-2.75) {};
-  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b2.west)
-        {Lớp 2 -- Nghiệp vụ};
-  \foreach \x/\txt in {-6.4/{\texttt{text.py}\\magic bytes, PDF/DOCX/OCR},
-                      -2.5/{\texttt{normalize.py}\\chuẩn hoá CV/JD},
-                      1.2/{\texttt{llm.py}\\client Ollama},
-                      4.6/{\texttt{embeddings.py}\\BGE-M3},
-                      8.4/{\texttt{recommend.py}\\xếp hạng hybrid},
-                      12.4/{\texttt{explain.py}\\giải thích + rerank}}
-     \node[box, fill=cbluel] at (\x,-3.9) {\txt};
-
-  % ---- lop hang doi & luu tru ----
-  \node[band, minimum width=16.4cm] (b3) at (0,-5.5) {};
-  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b3.west)
-        {Lớp 3 -- Hàng đợi xử lý \& lưu trữ};
-  \foreach \x/\txt in {-6.4/{\texttt{processing/worker.py}\\thread nền, retry, backoff},
-                      -2.5/{\texttt{processing/pipeline.py}\\4 bước EXTRACT$\to$FINALIZE},
-                      1.2/{\texttt{processing/store.py}\\SQLite, máy trạng thái},
-                      5.4/{\texttt{index\_store.py}\\payload JSONL},
-                      9.2/{\texttt{cvjd.storage.chroma}\\upsert / query vector}}
-     \node[box, fill=corangel] at (\x,-6.65) {\txt};
-
-  % ---- thu vien loi ----
-  \node[band, minimum width=16.4cm] (b4) at (0,-8.3) {};
-  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b4.west)
-        {Lớp 4 -- Thư viện lõi \texttt{src/cvjd}};
-  \foreach \x/\txt in {-6.4/{\texttt{schema.py}, \texttt{io.py}\\dạng dữ liệu, JSONL},
-                      -2.5/{\texttt{data/}\\payload, preprocessing},
-                      1.2/{\texttt{models/}\\BM25, chunking, embedding, matching},
-                      5.4/{\texttt{ranking/}\\engine, hybrid, structured, constraints},
-                      9.2/{\texttt{retrieval/}, \texttt{storage/}\\retriever, chroma, outbox}}
-     \node[box, fill=cgreenl] at (\x,-9.45) {\txt};
-
-  % ---- quan he giua cac lop ----
-  \draw[arrd] ([yshift=0.4cm]b1.south) -- ([yshift=-0.4cm]b2.north)
-        node[lbl, right, xshift=0.3cm]{gọi hàm nghiệp vụ};
-  \draw[arrd] ([yshift=0.4cm]b2.south) -- ([yshift=-0.4cm]b3.north)
-        node[lbl, right, xshift=0.3cm]{worker gọi pipeline; recommend gọi Chroma};
-  \draw[arrd] ([yshift=0.4cm]b3.south) -- ([yshift=-0.4cm]b4.north)
-        node[lbl, right, xshift=0.3cm]{tái sử dụng thư viện lõi};
-\end{tikzpicture}}
-\caption{Các lớp module của AI service. Lớp ngoài tiếp nhận HTTP, lớp nghiệp vụ xử lý
-văn bản/LLM, lớp hàng đợi lo việc chạy nền, thư viện lõi chứa các mô hình và thứ tự
-xếp hạng (có thể chạy riêng từ CLI để benchmark).}
-\label{fig:module}
-\end{figure}
+\input{so_do/fig02_lop_module}
 
 Hai đường xử lý ``đồng bộ'' và ``nền'' dùng chung các khối nghiệp vụ nên kết quả phân
 tích là như nhau (Hình~\ref{fig:2duong}).
 
-\begin{figure}[htbp]
-\centering
-\resizebox{0.92\textwidth}{!}{%
-\begin{tikzpicture}[node distance=0.8cm and 0.9cm, font=\scriptsize]
-  % --- duong dong bo ---
-  \node[box, fill=cbluel, font=\scriptsize\bfseries] (s0) at (0,0)
-        {\texttt{POST /api/v1/ai/analyze-cv}\\(đồng bộ, dev/fixture)};
-  \node[box, fill=cbluel] (s1) at (5.2,0) {\texttt{text.py}\\đọc file, làm sạch};
-  \node[box, fill=cbluel] (s2) at (9.6,0) {\texttt{llm.py} + \texttt{normalize}\\parse JSON (qwen3:4b)};
-  \node[box, fill=white]  (s3) at (14.4,0) {JSON trả về\\(không lưu, không index)};
-
-  % --- duong nen ---
-  \node[box, fill=corangel, font=\scriptsize\bfseries] (q0) at (0,-2.4)
-        {\texttt{POST /internal/jobs}\\(bất đồng bộ, 202)};
-  \node[box, fill=corangel] (q1) at (5.2,-2.4) {EXTRACTING\\(worker)};
-  \node[box, fill=corangel] (q2) at (9.6,-2.4) {PARSING + EMBEDDING\\(LLM + BGE-M3)};
-  \node[box, fill=cgreenl]  (q3) at (14.4,-2.4) {INDEX $\to$ READY\\(Chroma + payload)};
-
-  \draw[arr] (s0) -- (s1); \draw[arr] (s1) -- (s2); \draw[arr] (s2) -- (s3);
-  \draw[arr] (q0) -- (q1); \draw[arr] (q1) -- (q2); \draw[arr] (q2) -- (q3);
-  \draw[arr] (s1) -- node[lbl,right]{dùng chung} (q1);
-  \draw[arr] (s2) -- (q2);
-\end{tikzpicture}}
-\caption{Hai đường xử lý dùng chung khối trích xuất và LLM: đường đồng bộ
-\texttt{analyze-cv} chỉ trả JSON, đường hàng đợi còn nhúng và index vector để phục vụ
-truy hồi sau đó.}
-\label{fig:2duong}
-\end{figure}
+\input{so_do/fig03_hai_duong_xu_ly}
 
 % =====================================================================
 \section{Hàng đợi xử lý file nền (phần lõi)}
@@ -287,85 +168,19 @@ Mỗi job có \emph{trạng thái} (\texttt{status}) và \emph{bước đang ch�
 (\texttt{step}) là hai chiều độc lập: trạng thái nói ``job đang đi tới đâu về mặt vòng
 đời'', bước nói ``đang ở khâu nào'' để hiển thị tiến độ (Hình~\ref{fig:state}).
 
-\begin{figure}[htbp]
-\centering
-\begin{tikzpicture}[node distance=1.5cm and 1.8cm, font=\scriptsize]
-  \node[st, fill=cbluel, draw=cblue]  (p)     at (0,0)    {PENDING};
-  \node[st, fill=corangel, draw=corange] (pr)  at (5,0)    {PROCESSING};
-  \node[st, fill=cgreenl, draw=cgreen, accepting] (r) at (10,1.7) {READY};
-  \node[st, fill=credl, draw=cred]    (f)     at (10,-1.7){FAILED};
-  \node[st, fill=cgrayl, draw=cgray]  (c)     at (5,-3.6) {CANCELLED};
-
-  \draw[arr] (p)  -- node[lbl,above]{\texttt{claim()} (attempts $+1$)} (pr);
-  \draw[arr] (pr) -- node[lbl,right]{\texttt{mark\_ready()}} (r);
-  \draw[arr] (pr) -- node[lbl,right]{lỗi vĩnh viễn\\hoặc hết lượt thử} (f);
-  \draw[arr] (pr) to[bend right=25] node[lbl,below]{lỗi tạm thời: backoff $2^{n}\cdot\Delta$} (p);
-  \draw[arr] (f)  to[bend right=30] node[lbl,below]{\texttt{POST /jobs/\{id\}/retry}} (p);
-  \draw[arr] (p)  -- node[lbl,left]{hủy} (c);
-  \draw[arr] (pr) to[bend left=22] node[lbl,above,sloped]{hủy} (c);
-  \draw[arr] (pr) edge[loop above, min distance=0.55cm]
-        node[lbl,above]{checkpoint \texttt{set\_step()}} (pr);
-\end{tikzpicture}
-\caption{Máy trạng thái job xử lý file. \texttt{READY} là trạng thái hấp thụ (job hoàn
-tất); \texttt{FAILED} vẫn giữ file gốc để có thể retry thủ công.}
-\label{fig:state}
-\end{figure}
+\input{so_do/fig04_may_trang_thai}
 
 Bên trong \texttt{PROCESSING}, pipeline chạy tuần tự bốn bước, mỗi bước ghi \emph{checkpoint}
 vào DB nên nếu service chết giữa chừng thì ta biết chính xác job đang ở đâu:
 
-\begin{figure}[htbp]
-\centering
-\begin{tikzpicture}[node distance=0.9cm, font=\scriptsize]
-  \foreach \i/\nm/\pc in {0/{RECEIVED}/5, 1/{EXTRACTING}/25, 2/{PARSING}/55,
-                          3/{EMBEDDING}/85, 4/{FINALIZING}/95} {
-    \node[box, fill=cbluel, minimum width=2.4cm] (s\i) at ({\i*3.0},0) {\nm\\[1pt]
-          \tiny tiến độ \pc\%};
-  }
-  \draw[arr] (s0) -- (s1); \draw[arr] (s1) -- (s2);
-  \draw[arr] (s2) -- (s3); \draw[arr] (s3) -- (s4);
-  \node[lbl, below=0.25cm of s1, text=cgray]{magic bytes, \texttt{extract\_text}, làm sạch};
-  \node[lbl, below=0.25cm of s2, text=cgray]{prompt $\to$ JSON (LLM)};
-  \node[lbl, below=0.25cm of s3, text=cgray]{nhúng từng section (BGE-M3)};
-  \node[lbl, below=0.25cm of s4, text=cgray]{upsert Chroma + payload, \texttt{mark\_ready()}};
-\end{tikzpicture}
-\caption{Các bước bên trong \texttt{PROCESSING} và mức tiến độ tương ứng được ghi vào
-\texttt{step}/\texttt{progress}.}
-\label{fig:steps}
-\end{figure}
+\input{so_do/fig05_pipeline_4_buoc}
 
 \subsection{Luồng bất đồng bộ khi upload CV}
 
 Hình~\ref{fig:sequence} mô tả toàn bộ lời gọi khi người dùng upload CV: từ HTTP request
 đến khi job chuyển sang \texttt{READY} và client poll được kết quả.
 
-\begin{figure}[htbp]
-\centering
-\resizebox{\textwidth}{!}{%
-\begin{tikzpicture}[font=\scriptsize]
-  \foreach \i/\nm in {0/{Trình duyệt}, 1/{NestJS API}, 2/{AI Service (HTTP)},
-                      3/{Worker (thread)}, 4/{SQLite}, 5/{Ollama + BGE-M3}}{
-    \node[actor] (a\i) at ({\i*3.7},0) {\nm};
-    \draw[dashed, black!40] (a\i.south) -- ++(0,-11.2);
-  }
-  \draw[arr] ($(a0)+(0,-0.9)$) -- node[lbl,above]{1. \texttt{POST /api/cvs/upload} (PDF + JD text)} ($(a1)+(0,-0.9)$);
-  \draw[arr] ($(a1)+(0,-1.7)$) -- ++(1.35,0) -- node[lbl,right]{2. validate, lưu row CV (đang xử lý)} ++(0,-0.5) -- ++(-1.35,0);
-  \draw[arr] ($(a1)+(0,-2.5)$) -- node[lbl,above]{3. \texttt{POST /internal/jobs} (file, documentId, version)} ($(a2)+(0,-2.5)$);
-  \draw[arr] ($(a2)+(0,-3.3)$) -- ++(-1.35,0) -- node[lbl,left]{4. \texttt{INSERT} job \texttt{PENDING}; lưu file tạm} ++(0,-0.5) -- ++(1.35,0);
-  \draw[arr] ($(a2)+(0,-4.3)$) -- node[lbl,above]{5. \texttt{202 Accepted \{job\_id\}}} ($(a1)+(0,-4.3)$);
-  \draw[arr] ($(a3)+(0,-5.1)$) -- node[lbl,above]{6. \texttt{claim}: \texttt{PENDING}$\to$\texttt{PROCESSING}} ($(a4)+(0,-5.1)$);
-  \draw[arr] ($(a3)+(0,-5.9)$) -- ++(1.35,0) -- node[lbl,right]{7. EXTRACTING: đọc file, làm sạch} ++(0,-0.5) -- ++(-1.35,0);
-  \draw[arr] ($(a3)+(0,-6.9)$) -- node[lbl,above]{8. PARSING: prompt $\to$ JSON (\texttt{qwen3:4b})} ($(a5)+(0,-6.9)$);
-  \draw[arr] ($(a3)+(0,-7.7)$) -- node[lbl,above]{9. EMBEDDING: vector từng section} ($(a5)+(0,-7.7)$);
-  \draw[arr] ($(a3)+(0,-8.5)$) -- node[lbl,above]{10. upsert vector + payload; \texttt{mark\_ready()}} ($(a4)+(0,-8.5)$);
-  \draw[arr] ($(a1)+(0,-9.3)$) -- node[lbl,above]{11. poll \texttt{GET /internal/jobs/\{id\}}} ($(a2)+(0,-9.3)$);
-  \draw[arr] ($(a2)+(0,-10.1)$) -- node[lbl,above]{12. \texttt{\{status: READY, result\}}} ($(a1)+(0,-10.1)$);
-  \draw[arr] ($(a1)+(0,-10.7)$) -- node[lbl,above]{13. hiển thị CV đã xử lý} ($(a0)+(0,-10.7)$);
-\end{tikzpicture}}
-\caption{Chuỗi lời gọi của luồng upload bất đồng bộ. Toàn bộ bước 6--10 chạy nền trong
-cùng process FastAPI; API chính chỉ poll trạng thái.}
-\label{fig:sequence}
-\end{figure}
+\input{so_do/fig06_chuoi_loi_goi}
 
 \subsection{Độ tin cậy}
 
@@ -398,93 +213,143 @@ nhất mà tách theo section (kỹ năng, kinh nghiệm, dự án, học vấn,
 vector cho toàn văn. Nhờ đó khi so một JD với một CV, ta so được ``yêu cầu kỹ năng''
 trùng với ``phần kỹ năng'' thay vì so toàn văn mơ hồ.
 
-\begin{figure}[htbp]
-\centering
-\resizebox{0.95\textwidth}{!}{%
-\begin{tikzpicture}[node distance=0.55cm and 1.1cm, font=\scriptsize]
-  \node[box, fill=cbluel, minimum width=3.2cm] (doc) at (0,-1.9)
-        {\textbf{CV id=1234, version=1}\\(payload đã phân tích)};
-  \foreach \i/\nm in {0/{skills}, 1/{experience}, 2/{projects},
-                      3/{education}, 4/{summary}, 5/{\_full}} {
-    \node[box, fill=cgreenl, minimum width=2.1cm] (sec\i) at (5.4,{-0.8*\i}) {\nm};
-    \draw[arr] (doc.east) -- (sec\i.west);
-  }
-  \node[infra, minimum height=4.6cm, minimum width=3.6cm] (col) at (10.4,-2)
-        {Collection \texttt{frevia\_cvs}\\[2pt]
-         \texttt{cv:1234:v1:skills}\\
-         \texttt{cv:1234:v1:experience}\\
-         \texttt{cv:1234:v1:projects}\\
-         \texttt{cv:1234:v1:education}\\
-         \texttt{cv:1234:v1:summary}\\
-         \texttt{cv:1234:v1:\_full}};
-  \foreach \i in {0,1,2,3,4,5} \draw[arr] (sec\i) -- ([xshift=-1.4cm]col.west |- sec\i);
-  \node[store, minimum width=3.4cm] (js) at (15.2,-2.6)
-        {\texttt{.documents.jsonl}\\(payload + owner + visibility)};
-  \draw[arr] (col) -- node[lbl,above]{ghi cùng lúc} (js);
-\end{tikzpicture}}
-\caption{Mỗi CV/JD sinh ra một ``bó'' vector theo section. Vector ID có dạng
-\texttt{type:id:v*n*:section}, metadata gắn kèm gồm \texttt{content\_hash},
-\texttt{status=READY}, \texttt{owner\_id}, \texttt{visibility}.}
-\label{fig:vector}
-\end{figure}
+\input{so_do/fig07_vector_theo_section}
 
 Khi phiên bản tài liệu tăng (\texttt{version}$+1$) thì upsert sẽ tự xoá các vector cũ
 cùng \texttt{document\_id} và thay bằng bộ mới; metadata \texttt{status=READY} đảm bảo
 chỉ vector đã hoàn chỉnh mới được dùng cho truy hồi.
 
 % =====================================================================
-\section{Luồng xếp hạng hybrid}
+\section{Luồng ghép cặp CV -- việc làm}
 % =====================================================================
 
-Khi NestJS gọi \texttt{POST /internal/recommend}, AI service thực hiện: truy hồi top-$P$
-ứng viên từ Chroma, tính điểm semantic theo section, gộp với điểm từ khóa BM25, cộng
-điểm theo ràng buộc có cấu trúc, rồi (tuỳ chọn) để LLM chấm lại và giải thích.
+Đây là phần lõi của hệ thống: cho một người dùng, tìm ra những ứng viên (hoặc tin
+tuyển dụng) phù hợp nhất.
 
-\begin{figure}[htbp]
-\centering
-\resizebox{0.9\textwidth}{!}{%
-\begin{tikzpicture}[node distance=0.75cm and 1.2cm, font=\scriptsize]
-  \node[box, fill=cbluel] (q) at (0,0)
-        {Query (một JD hoặc CV)};
-  \node[box, fill=cbluel] (emb) at (-3.2,-1.6) {Nhúng query\\BGE-M3};
-  \node[box, fill=cbluel] (kw) at (3.2,-1.6) {BM25\\(\texttt{rank\_bm25})};
-  \node[infra] (ch) at (-3.2,-3.4) {Chroma: truy hồi\\top-$P$ (cosine, theo section)};
-  \node[box, fill=corangel] (fu) at (0,-5.2)
-        {Gộp chuẩn hoá min--max:\\$\text{score}=\alpha\cdot\tilde{s}_{sem}+(1-\alpha)\cdot\tilde{s}_{kw}$};
-  \node[box, fill=cgreenl] (st) at (0,-7)
-        {Điểm có cấu trúc: độ phủ kỹ năng,\\số năm kinh nghiệm, ngân sách, sở thích};
-  \node[box, fill=cgreenl] (con) at (0,-8.6) {Lọc ràng buộc cứng (constraints)};
-  \node[llm] (rr) at (0,-10.2) {LLM rerank (rubric 0--100) --- tuỳ chọn};
-  \node[llm] (ex) at (0,-11.7) {LLM giải thích top-$N$ (evidence-grounded) --- tuỳ chọn};
-  \node[box, fill=cbluel, font=\scriptsize\bfseries] (out) at (0,-13.2)
-        {Trả về top-$k$ JSON: id, score, breakdown, explanation};
+\subsection{Từ file tải lên đến kết quả ghép cặp}
 
-  \draw[arr] (q) -- (emb); \draw[arr] (q) -- (kw);
-  \draw[arr] (emb) -- (ch);
-  \draw[arr] (ch) |- node[lbl,above]{semantic scores} (fu.west);
-  \draw[arr] (kw.east) -- ++(2.6,0) |- node[lbl,above]{keyword scores} (fu.east);
-  \draw[arr] (fu) -- (st); \draw[arr] (st) -- (con);
-  \draw[arr] (con) -- (rr); \draw[arr] (rr) -- (ex); \draw[arr] (ex) -- (out);
-\end{tikzpicture}}
-\caption{Luồng xếp hạng hybrid. Các bước cuối (rerank, explain) là tuỳ chọn vì mỗi ứng
-viên tốn thêm một lượt gọi LLM.}
-\label{fig:rank}
-\end{figure}
+Trước khi ghép cặp được, tài liệu phải đi qua một chuỗi xử lý để biến văn bản thô thành
+dữ liệu máy ``hiểu'' được. Hình~\ref{fig:fullflow} mô tả toàn bộ chuỗi đó, gồm tám bước
+chia làm hai giai đoạn: \textbf{xử lý tài liệu} (bước 1--7) và \textbf{ghép cặp}
+(bước 8).
 
-\subsection{Công thức chính}
+\input{so_do/fig08a_luong_day_du}
+
+Tám bước được giải thích như sau:
+
+\begin{enumerate}[leftmargin=1.6em]
+  \item \textbf{Tải lên.} Người dùng gửi một CV hoặc một tin tuyển dụng. Hệ thống nhận
+        file PDF, DOCX (hoặc chữ dán trực tiếp) và lưu tạm lại để xử lý về sau.
+  \item \textbf{Trích xuất chữ.} Hệ thống đọc nội dung chữ ra khỏi file: PDF đọc bằng
+        thư viện \texttt{pypdf}, DOCX đọc bằng \texttt{python-docx}, file scan (ảnh) thì
+        đọc bằng OCR. Sau đó dọn dẹp ký tự rác, gộp những dòng bị ngắt giữa câu.
+  \item \textbf{Phân tích bằng AI.} Một mô hình ngôn ngữ chạy \emph{nội bộ} (không gửi
+        dữ liệu ra ngoài) đọc đoạn chữ và rút ra thông tin có cấu trúc: kỹ năng, kinh
+        nghiệm, học vấn, dự án, tóm tắt (với CV) hoặc kỹ năng yêu cầu, trách nhiệm, ngân
+        sách (với tin tuyển dụng).
+  \item \textbf{Chuẩn hoá.} Máy sửa lại cho thống nhất: ngày tháng về đúng một dạng, bỏ
+        các mục trùng lặp, và \emph{kiểm tra dẫn chứng} --- chỉ giữ những thông tin thật
+        sự xuất hiện trong văn bản gốc.
+  \item \textbf{Tách thành từng phần.} Thay vì coi cả tài liệu là một khối, hệ thống
+        chia thành các \emph{phần} riêng: kỹ năng, kinh nghiệm, học vấn, tóm tắt\dots{}
+        và thêm một phần ``toàn văn'' gộp tất cả.
+  \item \textbf{Chuyển thành vector.} Mỗi phần được mô hình BGE-M3 chuyển thành một dãy
+        số (vector) đại diện cho \emph{ý nghĩa} của phần đó. Nhờ vậy máy so sánh được
+        ``giống nhau về nghĩa'' chứ không chỉ giống mặt chữ.
+  \item \textbf{Lưu vào kho vector.} Các dãy số được lưu lại, kèm theo trạng thái (đã
+        xử lý xong), chủ sở hữu và mức hiển thị. Một tài liệu sinh ra \emph{nhiều} vector
+        --- một cho mỗi phần.
+  \item \textbf{Ghép cặp.} Khi cần tìm ứng viên, hệ thống dùng lại các vector đã lưu,
+        so từng phần với nhau, cộng điểm chi tiết rồi trả về danh sách phù hợp nhất.
+\end{enumerate}
+
+\subsection{Các bước trong phần ghép cặp}
+
+Bước 8 ở trên được mở rộng thành bốn bước nhỏ (Hình~\ref{fig:matching}), đi từ trên
+xuống dưới:
+
+\begin{enumerate}[leftmargin=1.6em]
+  \item \textbf{Tìm ứng viên phù hợp.} Nếu bên gọi chưa có danh sách ứng viên, hệ thống
+        tự tìm trong kho dữ liệu đã lưu, xếp theo mức giống nhau về nội dung và chỉ giữ
+        những hồ sơ mà người dùng được phép xem. Nếu bên gọi \emph{đã} có danh sách sẵn
+        thì bỏ qua bước này.
+  \item \textbf{Chấm điểm mức độ hợp.} Hệ thống so nội dung của hai bên \emph{theo từng
+        phần}: phần kỹ năng so với phần kỹ năng, phần kinh nghiệm so với phần kinh
+        nghiệm\dots{} thay vì so cả văn bản một cách chung chung. Nhờ vậy điểm số sát ý
+        nghĩa hơn.
+  \item \textbf{Cộng điểm chi tiết.} Ngoài mức hợp về nội dung, hệ thống cộng thêm điểm
+        theo các yếu tố rõ ràng: mức đáp ứng kỹ năng, số năm kinh nghiệm, ngân sách và
+        sở thích (xem Mục~\ref{sec:hai-chieu} và~\ref{subsec:diem}).
+  \item \textbf{Lọc và xếp hạng.} Cuối cùng hệ thống loại những hồ sơ không còn hợp lệ
+        (đã xoá, không đúng người xem, chưa sẵn sàng), sắp xếp theo điểm giảm dần và trả
+        về danh sách phù hợp nhất.
+\end{enumerate}
+
+Bước \textbf{giải thích bằng AI} là tuỳ chọn: khi bật, máy sẽ tự viết lý do vì sao một
+ứng viên được xem là hợp, giúp người dùng tin tưởng kết quả hơn.
+
+\input{so_do/fig08_luong_ghep_cap}
+
+\subsection{Điểm mức độ hợp được tính thế nào?}
+\label{subsec:diem}
+
+Điểm cuối cùng là trung bình có trọng số của năm phần, mỗi phần nằm trong khoảng
+$0$--$1$:
+
+\begin{center}\small
+\begin{tabular}{@{}lc l@{}}
+\toprule
+\textbf{Phần} & \textbf{Trọng số} & \textbf{Ý nghĩa} \\
+\midrule
+Mức hợp nội dung & $0.40$ & Hai tài liệu giống nhau đến đâu \\
+Kỹ năng          & $0.30$ & Ứng viên có đủ kỹ năng tin tuyển dụng yêu cầu không \\
+Kinh nghiệm      & $0.15$ & Số năm kinh nghiệm so với yêu cầu \\
+Ngân sách        & $0.10$ & Khoảng lương/ngân sách hai bên có giao nhau không \\
+Sở thích         & $0.05$ & Hình thức làm việc, địa điểm\dots{} có khớp không \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Chi tiết công thức:
 
 \begin{align}
-  s_{\text{sem}}(q,d) &= \operatorname{agg}_{x\in S_q}\ \max_{y\in S_d}\ \cos\big(e(x),\,e(y)\big)
-      \label{eq:sem}\\
+  c_k(q,d) &= \max_{y\in S_d}\ \cos\big(e(x_k),\,e(y)\big),
+      \qquad x_k\in S_q \label{eq:sec}\\
+  s_{\text{sem}}(q,d) &= \operatorname{agg}_{k}\ c_k(q,d), \qquad
+      \operatorname{agg}\in\{\max,\operatorname{mean}\} \label{eq:sem}\\
   s(q,d) &= \alpha\cdot\widetilde{s}_{\text{sem}}(q,d) + (1-\alpha)\cdot\widetilde{s}_{\text{kw}}(q,d)
-      \label{eq:fuse}
+      \label{eq:fuse}\\
+  S_{\text{hybrid}} &= \frac{\sum_i w_i\,S_i}{\sum_i w_i}, \qquad
+      (w_{sem},w_{sk},w_{exp},w_{bud},w_{pref}) = (0.40,\,0.30,\,0.15,\,0.10,\,0.05)
+      \label{eq:hybrid}
 \end{align}
 
-Trong đó $S_q,S_d$ là tập section của truy vấn và tài liệu, $e(\cdot)$ là vector BGE-M3,
-$\operatorname{agg}$ là phép gộp theo section (\texttt{mean} hoặc \texttt{max}), hàm
-$\widetilde{\cdot}$ là chuẩn hoá min--max trên tập ứng viên; $\alpha$ là tham số pha trộn
-(có thể ghi đè theo từng request). Hai phương án đối chiếu là \emph{single-vector}
-(một vector toàn văn, $|S|=1$) và \emph{BM25 thuần} ($\alpha=0$).
+Trong đó $S_q,S_d$ là tập section của hai tài liệu, $e(\cdot)$ là vector BGE-M3, $c_k$
+là điểm của từng phần, $\widetilde{\cdot}$ là chuẩn hoá min--max trên tập ứng viên, và
+$\alpha$ là tham số pha trộn giữa mức hợp nội dung và mức khớp từ khóa (mặc định $0.5$).
+Phép so theo phần ở Công thức~\eqref{eq:sec} là \texttt{cross} (lấy phần giống nhất);
+chế độ \texttt{fixed} thay bằng việc so \emph{đúng} phần cùng tên.
+
+\subsection{Hai chiều ghép cặp}
+\label{sec:hai-chieu}
+
+Hệ thống chạy được cả hai chiều trên cùng một mã nguồn (Hình~\ref{fig:bidirectional}):
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Tìm CV cho tin tuyển dụng} (\texttt{jd2cv}): đầu vào là một tin tuyển
+        dụng, kết quả là danh sách CV phù hợp nhất.
+  \item \textbf{Tìm việc cho CV} (\texttt{cv2jd}): đầu vào là một CV, kết quả là danh
+        sách tin tuyển dụng phù hợp nhất.
+\end{itemize}
+
+\input{so_do/fig09_hai_chieu}
+
+Điểm giống nhau: công thức chấm điểm, cách lọc và cách giải thích \emph{hoàn toàn như
+nhau}. Điểm khác nhau duy nhất là \emph{vai trò} của hai tài liệu --- tin tuyển dụng
+luôn đóng vai ``bên yêu cầu'', CV luôn đóng vai ``bên đáp ứng'' --- và kho dữ liệu được
+tra cứu (CV hay tin tuyển dụng). Nhờ vậy chỉ cần viết và kiểm thử một lần.
+
+
 
 % =====================================================================
 \section{Hợp đồng API (tóm tắt)}
@@ -740,7 +605,15 @@ section-aware-cv-job-matching/
 └── docs/
     ├── DESIGN_processing_queue.md
     ├── WORKFLOW.md
-    └── kien_truc_he_thong.tex   # tai lieu nay
+    ├── kien_truc_he_thong.tex   # tai lieu nay (chi \input so do)
+    └── so_do/                   # 10 so do TikZ tach rieng
+        ├── fig01_tong_the.tex … fig07_vector_theo_section.tex
+        ├── fig08a_luong_day_du.tex       # luong day du: upload -> tra ket qua
+        ├── fig08_luong_ghep_cap.tex      # 4 buoc trong phan ghep cap
+        ├── fig09_hai_chieu.tex           # jd2cv vs cv2jd
+        ├── build_png.py         # sinh PNG cho tung so do
+        ├── png/                 # anh PNG da sinh (200 dpi)
+        └── _build/              # PDF trung gian (xoa duoc)
 \end{verbatim}
 
 \end{document}

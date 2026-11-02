@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{asadi2013effectiveness}
+Asadi, N., Lin, J.: Effectiveness/efficiency tradeoffs for candidate generation
+  in multi-stage retrieval architectures. In: Proceedings of the 36th
+  International ACM SIGIR Conference on Research and Development in Information
+  Retrieval (SIGIR). pp. 997--1000 (2013)
+
+\bibitem{bian2020learning}
+Bian, S., Zhao, W.X., Song, Y., Zhu, T., Tao, J.Y., Ji-Rong, W.: Learning
+  dual-perspective knowledge-enhanced representations for job recommendation.
+  In: Proceedings of The Web Conference (WWW). pp. 2888--2894 (2020)
+
+\bibitem{chen2024bge}
+Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., Wang, Z.: {BGE M3-Embedding}:
+  Multi-lingual, multi-functionality, multi-granularity text embeddings through
+  self-knowledge distillation. arXiv preprint arXiv:2402.03216  (2024)
+
+\bibitem{karpukhin2020dense}
+Karpukhin, V., O{\u{g}}uz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen,
+  D., Yih, W.t.: Dense passage retrieval for open-domain question answering.
+  In: Proceedings of the 2020 Conference on Empirical Methods in Natural
+  Language Processing (EMNLP). pp. 6769--6781 (2020)
+
+\bibitem{khattab2020colbert}
+Khattab, O., Zaharia, M.: {ColBERT}: Efficient and effective passage search via
+  contextualized late interaction over {BERT}. In: Proceedings of the 43rd
+  International ACM SIGIR Conference on Research and Development in Information
+  Retrieval (SIGIR). pp. 39--48 (2020)
+
+\bibitem{nogueira2019passage}
+Nogueira, R., Cho, K.: Passage re-ranking with {BERT}. arXiv preprint
+  arXiv:1901.04085  (2019)
+
+\bibitem{zhang2021personalized}
+Zhang, D., Ding, J., Shan, Z.: Personalized job recommendation system based on
+  deep neural networks. IEEE Access  \textbf{9},  143525--143534 (2021)
+
+\bibitem{zheng2023judging}
+Zheng, L., Chiang, W.L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z.,
+  Li, Z., Xing, E.P., Zhang, H., Gonzalez, J.E., Stoica, I.: Judging
+  {LLM}-as-a-judge with {MT-Bench} and {Chatbot Arena}. In: Advances in Neural
+  Information Processing Systems (NeurIPS) Datasets and Benchmarks Track (2023)
+
+\bibitem{zhu2018person}
+Zhu, C., Zhu, H., Xiong, H., Ding, P., Xie, F.: Person-job fit: Adapting the
+  right talent for the right job with joint representation learning. ACM
+  Transactions on Management Information Systems (TMIS)  \textbf{9}(3),  1--17
+  (2018)
+
+\end{thebibliography}

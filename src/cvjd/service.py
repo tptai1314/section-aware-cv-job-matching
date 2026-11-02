@@ -72,6 +72,7 @@ class MatchingService:
         status: str | None = None,
         pairing: str | None = None,
         aggregation: str | None = None,
+        section_weights: dict | None = None,
     ) -> None:
         config = config if config is not None else load_config()
         settings = get_retrieval_settings(config)
@@ -83,6 +84,7 @@ class MatchingService:
             status=status or settings["status"],
             pairing=pairing or settings["pairing"],
             aggregation=aggregation or settings["aggregation"],
+            section_weights=section_weights or settings.get("section_weights"),
         )
         self.ranker = ranker if ranker is not None else HybridRanker(config=config)
 

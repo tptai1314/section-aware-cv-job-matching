@@ -1,0 +1,6 @@
+\section{Conclusion and Future Work}
+
+In this work, we introduced a section-aware multi-vector retrieval and hybrid ranking architecture for bidirectional CV--Job recommendation in freelance platforms. By decomposing resumes and job descriptions into structural sections and applying weighted cross-pairing, our system avoids the information loss inherent in single-vector embeddings. Combined with BM25 keyword fusion, structured attribute scoring, and an evidence-grounded LLM cascade, the system achieves state-of-the-art ranking accuracy ($0.9542$ nDCG@10, $1.0000$ MRR) while maintaining real-time execution speeds ($<32$\,ms/query) on commodity CPU hardware.
+
+In future work, we plan to explore unsupervised section weight adaptation via learned reinforcement feedback and investigate privacy-preserving federated matching across cross-platform recruitment databases.
+

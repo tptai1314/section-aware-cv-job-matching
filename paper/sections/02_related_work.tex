@@ -1,0 +1,11 @@
+\section{Related Work}
+
+\subsection{Dense and Multi-Vector Information Retrieval}
+Dense retrieval using dual-encoder architectures has revolutionized information retrieval~\cite{karpukhin2020dense}. State-of-the-art multilingual embedding models, such as BGE-M3~\cite{chen2024bge}, provide robust multi-functionality across sentence and document scales. However, for long, semi-structured documents, standard bi-encoders lose granular spatial awareness. Token-level late interaction models like ColBERT~\cite{khattab2020colbert} maintain multi-vector token representations, but introduce substantial index storage overhead and query-time compute costs. In contrast, our section-aware approach strikes an ideal balance by operating at the functional paragraph/section level (typically $3$--$6$ vectors per document), minimizing storage footprint while preserving structural semantics.
+
+\subsection{CV and Job Recommendation}
+Automated candidate screening and job recommendation systems have evolved from rule-based keyword filters to graph neural networks and hybrid recommenders~\cite{zhu2018person,bian2020learning}. Recent literature emphasizes the necessity of structured skill extraction and experience matching~\cite{zhang2021personalized}. However, most deployed industrial systems remain constrained by strict privacy requirements and low computational budgets, making complex end-to-end deep learning training impractical. Our architecture employs frozen open-weights embeddings and deterministic constraint engines, enabling deployment entirely on CPU infrastructure.
+
+\subsection{LLMs for Reranking and Explainability}
+Recent advancements have showcased the remarkable zero-shot ranking capabilities of Large Language Models~\cite{nogueira2019passage,zheng2023judging}. Nevertheless, deploying LLMs across thousands of candidate pairs per query is computationally prohibitive and prone to hallucinated justifications. To mitigate this, modern systems leverage multi-stage cascade architectures~\cite{asadi2013effectiveness}: fast retrieval filters candidates down to a small pool ($K \le 10$), whereupon LLMs perform rubric-guided reranking and extract grounded quotes from source texts.
+

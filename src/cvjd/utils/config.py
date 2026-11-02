@@ -95,5 +95,6 @@ def get_retrieval_settings(config: dict | None = None) -> dict:
         "keyword_alpha": float(retrieval.get("keyword_alpha", 0.5)),
         "pairing": str(matching.get("pairing", "cross")),
         "aggregation": str(matching.get("aggregation", "mean")),
+        "section_weights": matching.get("section_weights"),
     }
 

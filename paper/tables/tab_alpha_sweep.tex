@@ -1,0 +1,21 @@
+\begin{table}[htbp]
+\centering\small
+\caption{Sensitivity analysis of the semantic fusion parameter $\alpha$ (Eq.~\ref{eq:fuse}) on JD $\rightarrow$ CV ranking metrics.}
+\label{tab:alpha}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}cccccp{5.5cm}@{}}
+\toprule
+\textbf{Semantic Weight $\alpha$} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{Behavioral Analysis} \\
+\midrule
+$\alpha = 0.0$ & 0.8705 & 0.9077 & 0.9815 & 0.7877 & Pure BM25 + Business Rules (zero semantic signal) \\
+$\alpha = 0.2$ & 0.9083 & 0.9294 & 0.9630 & 0.8475 & Semantic embeddings begin bridging lexical gap \\
+$\alpha = 0.4$ & 0.9323 & 0.9466 & 1.0000 & 0.8929 & Substantial retrieval recall gain \\
+$\mathbf{\alpha = 0.5}$ & \textbf{0.9430} & \textbf{0.9542} & \textbf{1.0000} & \textbf{0.9212} & \textbf{Optimal operational baseline} \\
+$\mathbf{\alpha = 0.6}$ & \textbf{0.9578} & \textbf{0.9546} & \textbf{1.0000} & \textbf{0.9260} & \textbf{Peak nDCG@5 and MAP across test set} \\
+$\alpha = 0.8$ & 0.9566 & 0.9431 & 1.0000 & 0.9283 & Minor regression due to relaxed keyword precision \\
+$\alpha = 1.0$ & 0.9405 & 0.9356 & 1.0000 & 0.9162 & Pure Semantic + Business Rules (zero lexical signal) \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}
+

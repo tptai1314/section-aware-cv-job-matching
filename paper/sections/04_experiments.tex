@@ -1,0 +1,32 @@
+\section{Experimental Setup}
+
+\subsection{Dataset and Annotation Protocol}
+Experiments are conducted on the \textbf{Frevia-Bench} bilingual (English and Vietnamese) recruitment benchmark exported from the Frevia staging environment, comprising $169$ anonymized freelancer profiles and $210$ active project descriptions. 
+
+To establish ground-truth relevance assessments ($\mathcal{Q}_{rels}$), test queries were annotated across a $4$-level relevance scale defined by the domain recruitment rubric:
+\begin{itemize}
+    \item \textbf{Grade 3 (Highly Relevant)}: Strong skill coverage ($\ge 75\%$), exact domain alignment, and verified experience compliance.
+    \item \textbf{Grade 2 (Relevant)}: Moderate skill coverage ($45\%$--$74\%$) or transferable domain experience.
+    \item \textbf{Grade 1 (Partially Relevant)}: Low skill overlap ($20\%$--$44\%$) or secondary skill adjacency.
+    \item \textbf{Grade 0 (Irrelevant)}: Incompatible domain or disjoint technical stack.
+\end{itemize}
+The resulting benchmark comprises $27$ diverse JD $\rightarrow$ CV queries and $20$ CV $\rightarrow$ JD queries.
+
+\subsection{Baseline Configurations}
+We benchmark eight distinct algorithmic variants:
+\begin{enumerate}
+    \item \textbf{Baseline 1 (BM25)}: Pure lexical retrieval using Okapi BM25 on raw text.
+    \item \textbf{Baseline 2 (Single-Vector)}: Dense bi-encoder Cosine similarity over the full document embedding $\mathbf{v}_{full}$.
+    \item \textbf{Baseline 3 (Chunk Max-Sim)}: Documents segmented into overlapping 64-token chunks; score computed via maximum pairwise token similarity.
+    \item \textbf{Section-Aware (Fixed)}: Same-named section matching with mean aggregation.
+    \item \textbf{Section-Aware (Cross)}: Cross-section maximal pairing with mean aggregation.
+    \item \textbf{Section-Aware (Weighted)}: Cross-section pairing with non-uniform domain weights.
+    \item \textbf{Hybrid}: Combined section-aware, BM25, and structured attribute scoring ($\alpha = 0.5$).
+    \item \textbf{Full Pipeline}: Hybrid ranking followed by top-10 cascade LLM reranking.
+\end{enumerate}
+
+\subsection{Evaluation Metrics and Significance Testing}
+Following standard TREC and RecSys conventions, we report \textbf{nDCG@5}, \textbf{nDCG@10}, Mean Reciprocal Rank (\textbf{MRR}), Mean Average Precision (\textbf{MAP}), \textbf{Recall@10} (evaluated at binary relevance threshold $\text{Grade} \ge 2$), and average query latency in milliseconds. To verify that performance gains are not artifacts of sampling variance, pairwise improvements are assessed via the two-tailed \textbf{Wilcoxon signed-rank test} at significance level $\alpha = 0.01$.
+
+\subsection{Reproducibility and Hyperparameters}
+Experiments run entirely on an Intel Core i7 CPU with 16\,GB RAM without GPU dependencies. Dense embeddings utilize the pre-trained multilingual \texttt{BAAI/bge-m3} bi-encoder ($d=1024$, frozen parameters). Vector similarity indexing is managed by ChromaDB (HNSW, space=cosine, $M=16, efConstruction=100$). The hybrid fusion weights are set to $w_{sem}=0.40, w_{skills}=0.30, w_{exp}=0.15, w_{budget}=0.10, w_{pref}=0.05$. In the cascade tier, pointwise reranking and grounded explanation are conducted using Qwen 4B with greedy decoding ($T=0$) under a strict JSON output schema.

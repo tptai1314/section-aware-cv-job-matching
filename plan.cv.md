@@ -1436,10 +1436,10 @@ Chỉ tuyên bố đóng góp đã được hỗ trợ bởi kết quả thực 
 - [ ] Có thể thử nghiệm Qwen reranking độc lập.
 - [ ] Giao diện hiển thị recommendation.
 - [ ] Có feedback và log.
-- [ ] Có benchmark retrieval/ranking.
-- [ ] Có ablation study.
-- [ ] Có tài liệu triển khai.
-- [ ] Có kết quả thực nghiệm cho paper.
+- [x] Có benchmark retrieval/ranking.
+- [x] Có ablation study.
+- [x] Có tài liệu triển khai.
+- [x] Có kết quả thực nghiệm cho paper.
 
 ---
 

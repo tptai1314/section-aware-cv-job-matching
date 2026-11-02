@@ -70,6 +70,7 @@ class ChromaRetriever:
         status: str = "READY",
         pairing: str = "cross",
         aggregation: str = "mean",
+        section_weights: dict[str, float] | None = None,
     ) -> None:
         self.client = client
         self.embedder = embedder
@@ -77,6 +78,7 @@ class ChromaRetriever:
         self.status = status
         self.pairing = pairing
         self.aggregation = aggregation
+        self.section_weights = section_weights
 
     # ------------------------------------------------------------------ #
     # Indexing
@@ -225,6 +227,7 @@ class ChromaRetriever:
         candidate_ids,
         pairing: str | None = None,
         aggregation: str | None = None,
+        section_weights: dict[str, float] | None = None,
     ) -> dict[str, RetrievalResult]:
         """Điểm semantic theo section cho danh sách candidate (đã có sẵn pool)."""
         query_sections = _section_vectors(query_doc, self.embedder)
@@ -237,7 +240,11 @@ class ChromaRetriever:
             components = section_components(
                 query_sections, vectors, pairing=pairing or self.pairing
             )
-            semantic = aggregate(components, aggregation or self.aggregation)
+            semantic = aggregate(
+                components,
+                aggregation or self.aggregation,
+                section_weights=section_weights or self.section_weights,
+            )
             results[doc_id] = RetrievalResult(doc_id, semantic, components)
         return results
 
@@ -251,11 +258,17 @@ class ChromaRetriever:
         aggregation: str | None = None,
         candidate_ids=None,
         where: dict | None = None,
+        section_weights: dict[str, float] | None = None,
     ) -> list[RetrievalResult]:
         """Full-text pool -> section-aware semantic score -> top-k."""
         pool = self.candidate_pool(query_doc, doc_type, pool_size, where=where)
         scored = self.section_scoring(
-            query_doc, doc_type, [c["doc_id"] for c in pool], pairing, aggregation
+            query_doc,
+            doc_type,
+            [c["doc_id"] for c in pool],
+            pairing,
+            aggregation,
+            section_weights=section_weights,
         )
         distance_by_id = {c["doc_id"]: c["distance"] for c in pool}
         ranked = [

@@ -1,0 +1,63 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.35cm, font=\scriptsize]
+  % ---- lop API ----
+  \node[band, minimum width=16.4cm] (b1) at (0,0) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b1.west)
+        {Lớp 1 -- API \& an ninh (\texttt{apps/ai/app})};
+  \foreach \x/\txt in {-6.2/{\texttt{routes.py}\\17 endpoint},
+                      -1.9/{\texttt{schemas.py}\\Pydantic v2},
+                      2.2/{\texttt{security.py}\\API key, fail-closed},
+                      6.4/{\texttt{errors.py}\\mã lỗi + HTTP},
+                      10.2/{\texttt{main.py}\\lifespan, CORS, worker}}
+     \node[box, fill=cbluel] at (\x,-1.15) {\txt};
+  \node[box, fill=cbluel] at (13.6,-1.15) {\texttt{\_\_init\_\_.py}\\cấu hình app};
+
+  % ---- lop nghiep vu ----
+  \node[band, minimum width=16.4cm] (b2) at (0,-2.75) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b2.west)
+        {Lớp 2 -- Nghiệp vụ};
+  \foreach \x/\txt in {-6.4/{\texttt{text.py}\\magic bytes, PDF/DOCX/OCR},
+                      -2.5/{\texttt{normalize.py}\\chuẩn hoá CV/JD},
+                      1.2/{\texttt{llm.py}\\client Ollama},
+                      4.6/{\texttt{embeddings.py}\\BGE-M3},
+                      8.4/{\texttt{recommend.py}\\xếp hạng hybrid},
+                      12.4/{\texttt{explain.py}\\giải thích + rerank}}
+     \node[box, fill=cbluel] at (\x,-3.9) {\txt};
+
+  % ---- lop hang doi & luu tru ----
+  \node[band, minimum width=16.4cm] (b3) at (0,-5.5) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b3.west)
+        {Lớp 3 -- Hàng đợi xử lý \& lưu trữ};
+  \foreach \x/\txt in {-6.4/{\texttt{processing/worker.py}\\thread nền, retry, backoff},
+                      -2.5/{\texttt{processing/pipeline.py}\\4 bước EXTRACT$\to$FINALIZE},
+                      1.2/{\texttt{processing/store.py}\\SQLite, máy trạng thái},
+                      5.4/{\texttt{index\_store.py}\\payload JSONL},
+                      9.2/{\texttt{cvjd.storage.chroma}\\upsert / query vector}}
+     \node[box, fill=corangel] at (\x,-6.65) {\txt};
+
+  % ---- thu vien loi ----
+  \node[band, minimum width=16.4cm] (b4) at (0,-8.3) {};
+  \node[font=\bfseries\footnotesize, anchor=west] at ([xshift=0.1cm]b4.west)
+        {Lớp 4 -- Thư viện lõi \texttt{src/cvjd}};
+  \foreach \x/\txt in {-6.4/{\texttt{schema.py}, \texttt{io.py}\\dạng dữ liệu, JSONL},
+                      -2.5/{\texttt{data/}\\payload, preprocessing},
+                      1.2/{\texttt{models/}\\BM25, chunking, embedding, matching},
+                      5.4/{\texttt{ranking/}\\engine, hybrid, structured, constraints},
+                      9.2/{\texttt{retrieval/}, \texttt{storage/}\\retriever, chroma, outbox}}
+     \node[box, fill=cgreenl] at (\x,-9.45) {\txt};
+
+  % ---- quan he giua cac lop ----
+  \draw[arrd] ([yshift=0.4cm]b1.south) -- ([yshift=-0.4cm]b2.north)
+        node[lbl, right, xshift=0.3cm]{gọi hàm nghiệp vụ};
+  \draw[arrd] ([yshift=0.4cm]b2.south) -- ([yshift=-0.4cm]b3.north)
+        node[lbl, right, xshift=0.3cm]{worker gọi pipeline; recommend gọi Chroma};
+  \draw[arrd] ([yshift=0.4cm]b3.south) -- ([yshift=-0.4cm]b4.north)
+        node[lbl, right, xshift=0.3cm]{tái sử dụng thư viện lõi};
+\end{tikzpicture}}
+\caption{Các lớp module của AI service. Lớp ngoài tiếp nhận HTTP, lớp nghiệp vụ xử lý
+văn bản/LLM, lớp hàng đợi lo việc chạy nền, thư viện lõi chứa các mô hình và thứ tự
+xếp hạng (có thể chạy riêng từ CLI để benchmark).}
+\label{fig:module}
+\end{figure}

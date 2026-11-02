@@ -1,0 +1,23 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=1.5cm and 1.8cm, font=\scriptsize]
+  \node[st, fill=cbluel, draw=cblue]  (p)     at (0,0)    {PENDING};
+  \node[st, fill=corangel, draw=corange] (pr)  at (5,0)    {PROCESSING};
+  \node[st, fill=cgreenl, draw=cgreen, accepting] (r) at (10,1.7) {READY};
+  \node[st, fill=credl, draw=cred]    (f)     at (10,-1.7){FAILED};
+  \node[st, fill=cgrayl, draw=cgray]  (c)     at (5,-3.6) {CANCELLED};
+
+  \draw[arr] (p)  -- node[lbl,above]{\texttt{claim()} (attempts $+1$)} (pr);
+  \draw[arr] (pr) -- node[lbl,right]{\texttt{mark\_ready()}} (r);
+  \draw[arr] (pr) -- node[lbl,right]{lỗi vĩnh viễn\\hoặc hết lượt thử} (f);
+  \draw[arr] (pr) to[bend right=25] node[lbl,below]{lỗi tạm thời: backoff $2^{n}\cdot\Delta$} (p);
+  \draw[arr] (f)  to[bend right=30] node[lbl,below]{\texttt{POST /jobs/\{id\}/retry}} (p);
+  \draw[arr] (p)  -- node[lbl,left]{hủy} (c);
+  \draw[arr] (pr) to[bend left=22] node[lbl,above,sloped]{hủy} (c);
+  \draw[arr] (pr) edge[loop above, min distance=0.55cm]
+        node[lbl,above]{checkpoint \texttt{set\_step()}} (pr);
+\end{tikzpicture}
+\caption{Máy trạng thái job xử lý file. \texttt{READY} là trạng thái hấp thụ (job hoàn
+tất); \texttt{FAILED} vẫn giữ file gốc để có thể retry thủ công.}
+\label{fig:state}
+\end{figure}

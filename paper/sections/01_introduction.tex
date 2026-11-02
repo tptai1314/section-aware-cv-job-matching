@@ -1,0 +1,26 @@
+\section{Introduction}
+
+Online freelance marketplaces connect independent domain specialists with corporate clients. A seamless recruitment lifecycle requires accurate, \emph{bidirectional matching}: recommending relevant jobs to freelancers (CV $\rightarrow$ JD) and shortlisting qualified candidates for employers (JD $\rightarrow$ CV). Unlike traditional full-time employment where general role titles dominate, freelance projects are highly task-oriented, demanding precise skill sets, concrete past project experience, and budget compatibility.
+
+Traditional automated screening systems generally fall into two paradigms:
+\begin{enumerate}
+    \item \textbf{Lexical search (e.g., BM25)}: Relies on exact keyword overlap. While highly explainable and sensitive to specialized technical terms, lexical matching suffers from vocabulary mismatch (e.g., ``K8s'' vs. ``Kubernetes'', ``PostgreSQL'' vs. ``Postgres'') and ignores conceptual depth.
+    \item \textbf{Dense bi-encoder retrieval (Single-Vector)}: Maps the entire document into a single continuous latent space. While dense retrieval captures semantic proximity, aggregating hundreds of words from varied sections into a single vector leads to the \emph{representation bottleneck}: prominent narrative summary text often overshadows critical missing technical skills or mismatched experience durations.
+\end{enumerate}
+
+To overcome these challenges, we propose a \textbf{Section-Aware Multi-Vector and Hybrid Ranking Architecture}. We argue that resumes and job descriptions inherently exhibit structured functional semantics: skills, work experience, education, and project summaries serve vastly different roles during candidate screening. By representing each document as a collection of section-specific vectors and aligning them dynamically, the system preserves local signals while maintaining holistic semantic context. Furthermore, we combine multi-vector retrieval with structured business rules and a lightweight Large Language Model (LLM) cascade for evidence-grounded reranking.
+
+To empirically investigate this architecture, our study addresses four core \textbf{Research Questions (RQs)}:
+\begin{itemize}
+    \item \textbf{RQ1 (Section Granularity)}: Does functional section-aware multi-vector representation outperform whole-document single-vector embedding and sliding-window chunking in retrieval quality?
+    \item \textbf{RQ2 (Semantic-Lexical Fusion)}: What is the optimal balance parameter $\alpha$ between dense semantic similarity and BM25 lexical precision in bidirectional matching?
+    \item \textbf{RQ3 (Structured Constraint Integration)}: How effectively does hybrid multi-criteria fusion address non-semantic recruitment requirements (skill coverage, experience thresholds, budget feasibility)?
+    \item \textbf{RQ4 (LLM Cascade \& Grounded Explainability)}: Does pointwise LLM reranking improve the top ranks, and does evidence grounding prevent hallucinations in recruitment explanations?
+\end{itemize}
+
+The primary measurable contributions of this paper are:
+\begin{itemize}
+    \item \textbf{Frevia-Bench Benchmark}: We construct and release a realistic bilingual (English and Vietnamese) recruitment benchmark consisting of $169$ CVs, $210$ JDs, and $47$ test queries annotated across a $4$-level relevance rubric, verified with an inter-annotator agreement of Cohen's $\kappa = 0.81$.
+    \item \textbf{Section-Aware Multi-Vector Formulation}: We demonstrate that cross-pairing section retrieval outperforms single-vector retrieval by \textbf{$+25.6\%$} in nDCG@10 ($0.7224$ vs. $0.4664$) with statistical significance ($p < 0.01$, Wilcoxon signed-rank test), while running $5\times$ faster than token-chunking baselines.
+    \item \textbf{Production-Ready Hybrid Engine}: We present a unified hybrid scoring engine achieving \textbf{$0.9542$} nDCG@10 and an MRR of \textbf{$1.0000$}, alongside a two-stage LLM cascade reaching \textbf{$1.0000$} nDCG@5 at sub-32\,ms query latency on commodity CPUs.
+\end{itemize}

@@ -1,0 +1,29 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{0.95\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.55cm and 1.1cm, font=\scriptsize]
+  \node[box, fill=cbluel, minimum width=3.2cm] (doc) at (0,-1.9)
+        {\textbf{CV id=1234, version=1}\\(payload đã phân tích)};
+  \foreach \i/\nm in {0/{skills}, 1/{experience}, 2/{projects},
+                      3/{education}, 4/{summary}, 5/{\_full}} {
+    \node[box, fill=cgreenl, minimum width=2.1cm] (sec\i) at (5.4,{-0.8*\i}) {\nm};
+    \draw[arr] (doc.east) -- (sec\i.west);
+  }
+  \node[infra, minimum height=4.6cm, minimum width=3.6cm] (col) at (10.4,-2)
+        {Collection \texttt{frevia\_cvs}\\[2pt]
+         \texttt{cv:1234:v1:skills}\\
+         \texttt{cv:1234:v1:experience}\\
+         \texttt{cv:1234:v1:projects}\\
+         \texttt{cv:1234:v1:education}\\
+         \texttt{cv:1234:v1:summary}\\
+         \texttt{cv:1234:v1:\_full}};
+  \foreach \i in {0,1,2,3,4,5} \draw[arr] (sec\i) -- ([xshift=-1.4cm]col.west |- sec\i);
+  \node[store, minimum width=3.4cm] (js) at (15.2,-2.6)
+        {\texttt{.documents.jsonl}\\(payload + owner + visibility)};
+  \draw[arr] (col) -- node[lbl,above]{ghi cùng lúc} (js);
+\end{tikzpicture}}
+\caption{Mỗi CV/JD sinh ra một ``bó'' vector theo section. Vector ID có dạng
+\texttt{type:id:v*n*:section}, metadata gắn kèm gồm \texttt{content\_hash},
+\texttt{status=READY}, \texttt{owner\_id}, \texttt{visibility}.}
+\label{fig:vector}
+\end{figure}
