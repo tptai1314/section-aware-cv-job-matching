@@ -18,8 +18,16 @@ from collections.abc import Mapping, Sequence
 from pathlib import Path
 from typing import Any
 
-_SRC = Path(__file__).resolve().parents[3] / "src"
-if str(_SRC) not in sys.path:  # cho phép import cvjd khi chạy ngoài PYTHONPATH
+# Cho phép import cvjd khi chạy ngoài PYTHONPATH hoặc trong Docker container
+_CURR = Path(__file__).resolve()
+_SRC = None
+for _p in _CURR.parents:
+    _candidate = _p / "src"
+    if (_candidate / "cvjd").is_dir():
+        _SRC = _candidate
+        break
+
+if _SRC and str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 
 from cvjd.data import document_from_payload
