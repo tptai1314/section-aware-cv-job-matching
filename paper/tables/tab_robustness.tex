@@ -1,0 +1,14 @@
+\begin{table}[t]
+\centering
+\caption{Robustness evaluation under Vietnamese diacritic omission (unaccented typing). Section-aware multi-vector matching maintains high precision with zero tokenization fragmentation.}
+\label{tab:robustness}
+\begin{tabular}{lccc}
+\hline
+\textbf{Model} & \textbf{Accented nDCG@10} & \textbf{Unaccented nDCG@10} & \textbf{$\Delta$ (\%)} \\
+\hline
+BM25 (\texttt{pyvi}) & 0.5901 & 0.6592 & +11.71\% \\
+Single-Vector (BGE-M3) & 0.3912 & 0.4123 & +5.38\% \\
+\textbf{Section-Aware (Ours)} & \textbf{0.4455} & \textbf{0.5201} & \textbf{+16.75\%} \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.8)  2 NOV 2026 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.8)  4 NOV 2026 02:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -330,32 +330,39 @@ Package: array 2026/02/24 v2.7b Tabular extension package (FMi)
 \backup@length=\skip57
 \ar@cellbox=\box104
 )
+(C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip58
+\multirow@cntb=\count331
+\multirow@dima=\skip59
+\bigstrutjot=\dimen199
+)
 (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2026/03/01 v3.2d Micro-typographical refinements (RS)
 
 (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count331
+\etb@tempcnta=\count332
 )
 \MT@toks=\toks28
 \MT@tempbox=\box105
-\MT@count=\count332
+\MT@count=\count333
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1084.
 LaTeX Info: Redefining \leftprotrusion on input line 1085.
 \MT@prot@toks=\toks29
 LaTeX Info: Redefining \rightprotrusion on input line 1104.
 LaTeX Info: Redefining \textls on input line 1449.
-\MT@outer@kern=\dimen199
+\MT@outer@kern=\dimen256
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count333
+\MT@listname@count=\count334
 
 (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2026/03/01 v3.2d Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
-\MT@outer@space=\skip58
+\MT@outer@space=\skip60
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
@@ -425,14 +432,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count334
+\c@section@level=\count335
 ) (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen256
-\Hy@linkcounter=\count335
-\Hy@pagecounter=\count336
+\@linkdim=\dimen257
+\Hy@linkcounter=\count336
+\Hy@pagecounter=\count337
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-06-17 v7.01r Hyperref: PDFDocEncoding definition (HO)
@@ -442,7 +449,7 @@ Now handling font encoding PD1 ...
 (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count337
+\Hy@SavedSpaceFactor=\count338
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-06-17 v7.01r Hyperref: PDF Unicode definition (HO)
@@ -457,14 +464,14 @@ Package hyperref Info: Plain pages OFF on input line 4214.
 Package hyperref Info: Backreferencing OFF on input line 4219.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4466.
-\c@Hy@tempcnt=\count338
+\c@Hy@tempcnt=\count339
 
 (C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4805.
-\XeTeXLinkMargin=\dimen257
+\XeTeXLinkMargin=\dimen258
 
 (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -473,9 +480,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count339
-\Field@Width=\dimen258
-\Fld@charsize=\dimen259
+\Fld@menulength=\count340
+\Field@Width=\dimen259
+\Fld@charsize=\dimen260
 Package hyperref Info: Hyper figures OFF on input line 6091.
 Package hyperref Info: Link nesting OFF on input line 6096.
 Package hyperref Info: Hyper index ON on input line 6099.
@@ -483,16 +490,16 @@ Package hyperref Info: backreferencing OFF on input line 6106.
 Package hyperref Info: Link coloring ON on input line 6109.
 Package hyperref Info: Link coloring with OCG OFF on input line 6116.
 Package hyperref Info: PDF/A mode OFF on input line 6121.
-\Hy@abspage=\count340
-\c@Item=\count341
-\c@Hfootnote=\count342
+\Hy@abspage=\count341
+\c@Item=\count342
+\c@Hfootnote=\count343
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2026-06-17 v7.01r Hyperref driver for pdfTeX
-\Fld@listcount=\count343
-\c@bookmark@seq@number=\count344
+\Fld@listcount=\count344
+\c@bookmark@seq@number=\count345
 
 (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.s
 ty
@@ -505,50 +512,50 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip59
+\Hy@SectionHShift=\skip61
 )
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 20
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 21
 .
  (C:\Program Files\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (C:\Program Files\MiKTeX\tex/latex/l3kernel\l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count345
+\l__color_backend_stack_int=\count346
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count346
-\scratchdimen=\dimen260
+\scratchcounter=\count347
+\scratchdimen=\dimen261
 \scratchbox=\box106
-\nofMPsegments=\count347
-\nofMParguments=\count348
+\nofMPsegments=\count348
+\nofMParguments=\count349
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count349
-\MPscratchDim=\dimen261
-\MPnumerator=\count350
-\makeMPintoPDFobject=\count351
+\MPscratchCnt=\count350
+\MPscratchDim=\dimen262
+\MPnumerator=\count351
+\makeMPintoPDFobject=\count352
 \everyMPtoPDFconversion=\toks31
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -558,13 +565,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 20.
-Package microtype Info: Applying patch `item' on input line 20.
-Package microtype Info: Applying patch `toc' on input line 20.
-Package microtype Info: Applying patch `eqnum' on input line 20.
-Package microtype Info: Applying patch `footnote' on input line 20.
-Package microtype Info: Applying patch `verbatim' on input line 20.
-LaTeX Info: Redefining \microtypesetup on input line 20.
+LaTeX Info: Redefining \microtypecontext on input line 21.
+Package microtype Info: Applying patch `item' on input line 21.
+Package microtype Info: Applying patch `toc' on input line 21.
+Package microtype Info: Applying patch `eqnum' on input line 21.
+Package microtype Info: Applying patch `footnote' on input line 21.
+Package microtype Info: Applying patch `verbatim' on input line 21.
+LaTeX Info: Redefining \microtypesetup on input line 21.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -577,41 +584,41 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-Package hyperref Info: Link coloring ON on input line 20.
+Package hyperref Info: Link coloring ON on input line 21.
  (main.out) (main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-3.
+4.
  (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3
-3.
+4.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-33.
+34.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-33.
+34.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 33.
+(Font)              <10> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 33.
+(Font)              <7> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 33.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
+(Font)              <5> on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -620,7 +627,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\ASUS\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
 
 
 (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -630,7 +637,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
-3.
+4.
 
 (C:\Program Files\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -659,68 +666,158 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 {C:/Users/ASUS/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
 es/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips
 /lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Pro
-gram Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Program Files/MiKTeX/fonts/
-enc/dvips/lm/lm-mathsy.enc}]
-Overfull \hbox (13.23329pt too wide) in paragraph at lines 15--16
-\T1/lmr/m/n/10 rep-re-sen-ta-tion out-per-form whole-document single-vector em-
-bed-ding and sliding-
- []
-
-
-Overfull \hbox (3.95023pt too wide) in paragraph at lines 24--25
-\T1/lmr/m/n/10 nDCG@10 ($\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 722
-4$ \T1/lmr/m/n/10 vs. $\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 4664$
-\T1/lmr/m/n/10 ) with sta-tis-ti-cal sig-nif-i-cance ($\OML/lmm/m/it/10 p < \OT
-1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 01$\T1/lmr/m/n/10 , Wilcoxon
- []
-
-[2]) (sections/02_related_work.tex
+gram Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [2{C:/Program Files/MiKTeX/fo
+nts/enc/dvips/lm/lm-mathsy.enc}]) (sections/02_related_work.tex
 Overfull \hbox (1.8049pt too wide) in paragraph at lines 4--5
 \T1/lmr/m/n/10 re-trieval [[]]. State-of-the-art mul-ti-lin-gual em-bed-ding mo
 d-els, such as BGE-M3 [[]],
  []
 
-) (sections/03_methodology.tex [3]
-<figures/fig07_vector_theo_section.png, id=70, 504.08325pt x 167.30505pt>
+[3]) (sections/03_methodology.tex
+<figures/fig07_vector_theo_section.png, id=66, 504.08325pt x 167.30505pt>
 File: figures/fig07_vector_theo_section.png Graphic file (type png)
 <use figures/fig07_vector_theo_section.png>
 Package pdftex.def Info: figures/fig07_vector_theo_section.png  used on input l
-ine 7.
+ine 11.
 (pdftex.def)             Requested size: 305.4704pt x 101.38707pt.
- [4{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./figures/fig07_
-vector_theo_section.png (PNG copy)>])
-(sections/04_experiments.tex [5]
-Overfull \hbox (24.76237pt too wide) in paragraph at lines 29--30
+
+Overfull \hbox (0.95543pt too wide) in paragraph at lines 18--19
+\T1/lmr/m/n/10 gen-er-ates frozen dense rep-re-sen-ta-tions, and up-dates Chro-
+maDB in-dexes asyn-
+ []
+
+[4{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./figures/fig07_v
+ector_theo_section.png (PNG copy)>]
+Overfull \hbox (42.67047pt too wide) detected at line 63
+[][][][]\OT1/lmr/m/n/10 (\OMS/lmsy/m/n/10 T\OT1/lmr/m/n/10 ) = []\OML/lmm/m/it/
+10 ;  S[] \OT1/lmr/m/n/10 = 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 8 \OMS/lmsy/m/n/
+10 ^^A []\OT1/lmr/m/n/10 ([]) + 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 2 \OMS/lmsy/
+m/n/10 ^^A []\OT1/lmr/m/n/10 ([])\OML/lmm/m/it/10 :
+ []
+
+[5] (tables/tab_design_decisions.tex)) (sections/04_experiments.tex [6]
+(tables/tab_language_distribution.tex)
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 19.
+
+Overfull \hbox (64.94434pt too wide) in paragraph at lines 28--29
+[]\T1/lmr/bx/n/10 Baseline 4 (Cross-Encoder)\T1/lmr/m/n/10 : Deep cross-attenti
+on scor-ing via \T1/lmtt/m/n/10 ms-marco-MiniLM-L-6-v2\T1/lmr/m/n/10 . 
+ []
+
+[7]
+Overfull \hbox (24.76237pt too wide) in paragraph at lines 36--37
 \T1/lmr/m/n/10 Following stan-dard TREC and Rec-Sys con-ven-tions, we re-port \
 T1/lmr/bx/n/10 nDCG@5\T1/lmr/m/n/10 , \T1/lmr/bx/n/10 nDCG@10\T1/lmr/m/n/10 ,
  []
 
 ) (sections/05_results.tex
-Overfull \hbox (4.80313pt too wide) in paragraph at lines 32--1
-\T1/lmr/m/n/10 ing is man-aged by Chro-maDB (HNSW, space=cosine, $\OML/lmm/m/it
-/10 M \OT1/lmr/m/n/10 = 16\OML/lmm/m/it/10 ; efConstruction \OT1/lmr/m/n/10 =
+Overfull \hbox (23.97012pt too wide) in paragraph at lines 39--1
+\T1/lmr/m/n/10 in-dex-ing is han-dled by Chro-maDB (HNSW, space=cosine, $\OML/l
+mm/m/it/10 M \OT1/lmr/m/n/10 = 16\OML/lmm/m/it/10 ; efConstruction \OT1/lmr/m/n
+/10 =
  []
 
-[6] (tables/tab_main_results.tex) [7]
-Overfull \hbox (15.3217pt too wide) in paragraph at lines 13--14
-\T1/lmr/m/n/10 window seg-men-ta-tion dis-rupts syn-tac-tic clauses and tech-ni
--cal acronyms, whereas
+(tables/tab_main_results.tex)
+Overfull \hbox (45.4929pt too wide) in paragraph at lines 11--12
+[]\T1/lmr/bx/n/10 Single-Vector Base-line\T1/lmr/m/n/10 : Base-line 2 yields $\
+OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 4664$ \T1/lmr/m/n/10 nDCG@10 
+(95% CI: $\OT1/lmr/m/n/10 [0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 3991\OML/lmm/m/it
+/10 ; \OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 5378]$\T1/lmr/m/n/10 )
+
  []
 
-(tables/tab_alpha_sweep.tex) [8]
-Overfull \hbox (22.00616pt too wide) in paragraph at lines 43--44
-[]\T1/lmr/bx/n/10 Evidence-Grounded Jus-ti-fi-ca-tion\T1/lmr/m/n/10 : The LLM p
-ro-duced the fol-low-ing grounded
+[8]
+Overfull \hbox (8.2696pt too wide) in paragraph at lines 16--17
+[]\T1/lmr/m/n/10 Section-Aware (Cross) vs. Single-Vector: $\OML/lmm/m/it/10 t \
+OT1/lmr/m/n/10 = 3\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 9890\OML/lmm/m/it/10 ; p \O
+T1/lmr/m/n/10 = 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 00048$\T1/lmr/m/n/10 ; Wilco
+xon
  []
 
-) (sections/05b_ethics_and_limitations.tex [9]) (sections/06_conclusion.tex
-[10]) (main.bbl
-Underfull \hbox (badness 4995) in paragraph at lines 35--37
+
+Overfull \hbox (1.72316pt too wide) in paragraph at lines 20--21
+\T1/lmr/m/n/10 nDCG@10 while re-quir-ing $\OT1/lmr/m/n/10 59\OML/lmm/m/it/10 :\
+OT1/lmr/m/n/10 8$\T1/lmr/m/n/10 ms per query. Sliding-window chunk-ing breaks
+ []
+
+(tables/tab_alpha_sweep.tex) [9] (tables/tab_ablation.tex)
+Overfull \hbox (14.95905pt too wide) in paragraph at lines 40--41
+[]\T1/lmr/bx/n/10 Contribution of Se-man-tic Rep-re-sen-ta-tions\T1/lmr/m/n/10 
+: Com-bin-ing Rules-Only ($\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 8
+494$
+ []
+
+[10]
+Overfull \hbox (78.14241pt too wide) in paragraph at lines 44--45
+\T1/lmr/m/n/10 lected la-bels, we bench-marked the core pipelines on \T1/lmtt/m
+/n/10 cnamuangtoun/resume-job-description-fit
+ []
+
+(tables/tab_public_benchmark.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--4
+[]\T1/lmr/bx/n/9 Table 6. []\T1/lmr/m/n/9 Cross-dataset gen-er-al-iz-abil-ity o
+n pub-lic bench-mark
+ []
+
+
+Overfull \hbox (85.83522pt too wide) in paragraph at lines 7--17
+ [][] 
+ []
+
+) [11] (tables/tab_bilingual_results.tex)
+Overfull \hbox (2.11078pt too wide) in paragraph at lines 85--86
+\T1/lmr/m/n/10 the high-est rank-ing pre-ci-sion on both mono-lin-gual En-glish
+ ($\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 7553$ \T1/lmr/m/n/10 nDCG
+@10,
+ []
+
+
+Overfull \hbox (26.0072pt too wide) in paragraph at lines 86--87
+\T1/lmr/m/n/10 tech-ni-cal en-tity to-kens, lex-i-cal BM25 re-tains lo-cal-ized
+ pre-ci-sion ($\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 6547$ \T1/lmr
+/m/n/10 nDCG@10).
+ []
+
+[12] (tables/tab_robustness.tex
+Overfull \hbox (8.35487pt too wide) in paragraph at lines 5--14
+ [][] 
+ []
+
+)
+Underfull \vbox (badness 2582) has occurred while \output is active []
+
+ [13]
+Overfull \hbox (3.9975pt too wide) in paragraph at lines 100--101
+\T1/lmr/m/n/10 tion fil-ters ($\OML/lmm/m/it/10 S[]$\T1/lmr/m/n/10 ) sub-stan-t
+ially im-prove em-ployer can-di-date screen-ing (where
+ []
+
+) (sections/05b_ethics_and_limitations.tex [14]
+Overfull \hbox (13.10423pt too wide) in paragraph at lines 13--14
+\T1/lmr/m/n/10 iden-ti-ties are de-tached and re-placed with cryp-to-graphic su
+r-ro-gate keys (\T1/lmtt/m/n/10 doc_id\T1/lmr/m/n/10 ).
+ []
+
+
+Overfull \hbox (0.23753pt too wide) in paragraph at lines 13--14
+\T1/lmr/m/n/10 In ad-di-tion to Anglo-Saxon to-kens, all Viet-namese per-sonal 
+iden-ti-fiers (PII)---
+ []
+
+
+Overfull \hbox (34.42848pt too wide) in paragraph at lines 24--25
+\T1/lmr/m/n/10 com-pletely in-de-pen-dent ex-ter-nal pub-lic bench-mark (\T1/lm
+tt/m/n/10 resume-job-description-fit\T1/lmr/m/n/10 )
+ []
+
+[15]) (sections/06_conclusion.tex) (main.bbl [16]
+Underfull \hbox (badness 3758) in paragraph at lines 40--42
 []\T1/lmr/m/n/9 Nogueira, R., Cho, K.: Pas-sage re-ranking with BERT. arXiv pre
 print
  []
 
-) [11] (main.aux)
+) [17] (main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
@@ -729,33 +826,34 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 500670C41BC7A001E2848FEF56037AF7;642.
  ) 
 Here is how much of TeX's memory you used:
- 13376 strings out of 467392
- 209381 string characters out of 5415751
- 682030 words of memory out of 5000000
- 42413 multiletter control sequences out of 15000+600000
- 710272 words of font info for 95 fonts, out of 8000000 for 9000
+ 13511 strings out of 467392
+ 212440 string characters out of 5415751
+ 690479 words of memory out of 5000000
+ 42499 multiletter control sequences out of 15000+600000
+ 713259 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,10n,79p,1890b,576s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/M
-iKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/lm/lmbx9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX
-/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/l
-m/lmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/Progra
-m Files/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/lm/lmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts/type1/publ
-ic/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/f
-onts/type1/public/lm/lmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/l
-msy9.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program 
-Files/MiKTeX/fonts/type1/public/lm/lmtt9.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/lm/lmtti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/s
-ymbols/msbm10.pfb>
-Output written on main.pdf (11 pages, 518667 bytes).
+ 74i,12n,79p,1890b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
+blic/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:
+/Program Files/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTe
+X/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi5.pfb><C:/Prog
+ram Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/lm/lmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi9
+.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files
+/MiKTeX/fonts/type1/public/lm/lmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts
+/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy
+10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Program Fil
+es/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/
+public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt9.pfb><C:/Program Files/MiKT
+eX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (17 pages, 596316 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 13838 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 369 PDF objects out of 1000 (max. 8388607)
+ 103 named destinations out of 1000 (max. 500000)
+ 14350 words of extra memory for PDF output out of 14400 (max. 10000000)
 

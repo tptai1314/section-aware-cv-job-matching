@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 \providecommand{\doi}[1]{https://doi.org/#1}
@@ -30,6 +30,11 @@ Khattab, O., Zaharia, M.: {ColBERT}: Efficient and effective passage search via
   contextualized late interaction over {BERT}. In: Proceedings of the 43rd
   International ACM SIGIR Conference on Research and Development in Information
   Retrieval (SIGIR). pp. 39--48 (2020)
+
+\bibitem{huggingface_resume_fit}
+Namuangtoun, C.: Resume and job description fit benchmark dataset.
+  \url{https://huggingface.co/datasets/cnamuangtoun/resume-job-description-fit}
+  (2024)
 
 \bibitem{nogueira2019passage}
 Nogueira, R., Cho, K.: Passage re-ranking with {BERT}. arXiv preprint

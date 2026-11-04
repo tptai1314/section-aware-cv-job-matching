@@ -1,6 +1,10 @@
 \section{Proposed System Architecture}
 
-The proposed system comprises five functional tiers: (1) Ingestion \& Segmentation, (2) Multi-Vector Indexing, (3) Section-Aware Retrieval, (4) Hybrid Multi-Criteria Fusion, and (5) LLM Cascade Reranking. Fig.~\ref{fig:arch} illustrates the document alignment workflow.
+\subsection{Formal Problem Formulation}
+Let $\mathcal{D}$ denote the universe of recruitment documents partitioned into job descriptions $\mathcal{J}$ and candidate resumes $\mathcal{C}$. Given a query document $D_q \in \mathcal{D}$ and candidate corpus $\mathcal{C}_{cand} = \{D_1, D_2, \dots, D_N\}$, the objective of bidirectional matching is to compute a ranking permutation $\pi$ over $\mathcal{C}_{cand}$ that maximizes ranking relevance ($nDCG@K$) with respect to ground-truth relevance grades $\mathbf{y}_q \in \{0, 1, 2, 3\}^N$:
+\begin{equation}
+    \pi^* = \arg\max_{\pi} \text{nDCG}@K\big( \pi(\mathcal{C}_{cand}), \mathbf{y}_q \big).
+\end{equation}
 
 \begin{figure}[t]
 \centering
@@ -9,56 +13,57 @@ The proposed system comprises five functional tiers: (1) Ingestion \& Segmentati
 \label{fig:arch}
 \end{figure}
 
+The architecture decouples processing into two operational pipelines:
+\begin{itemize}
+    \item \textbf{Offline Pipeline (Indexing \& Sync)}: Extracts canonical metadata, segments raw text into functional sections via rule-based boundary detection, generates frozen dense representations, and updates ChromaDB indexes asynchronously.
+    \item \textbf{Online Pipeline (Serving \& Explanation)}: Executes two-stage candidate retrieval, computes cross-section similarity matrices, applies hybrid constraint fusion, and generates evidence-grounded justifications on demand.
+\end{itemize}
+
 \subsection{Section Decomposition and Multi-Vector Representation}
-Given an incoming document $D$ (either a CV or a JD), the text ingestion pipeline extracts canonical metadata and segments raw text into $M$ functional sections using rule-based heading boundary detection:
+Given document $D$, the parser segments raw text into $M$ functional sections using heading boundary patterns:
 \begin{equation}
-    D = \Big\{ \big(s_1, T_1\big), \big(s_2, T_2\big), \dots, \big(s_M, T_M\big), \big(\text{full}, T_{raw}\big) \Big\}
+    D = \Big\{ \big(s_1, T_1\big), \big(s_2, T_2\big), \dots, \big(s_M, T_M\big), \big(\text{full}, T_{raw}\big) \Big\},
 \end{equation}
-where $s_m \in \{\text{skills}, \text{experience}, \text{education}, \text{summary}\}$. Each section $T_m$ as well as the full raw text $T_{raw}$ is mapped into a $d$-dimensional vector space via a frozen bi-encoder $\mathcal{E}(\cdot)$:
+where $s_m \in \{\text{skills}, \text{experience}, \text{education}, \text{summary}, \text{projects}\}$. Each section text $T_m$ as well as full text $T_{raw}$ is mapped into a $d$-dimensional vector space via a frozen bi-encoder $\mathcal{E}(\cdot)$:
 \begin{equation}
     \mathbf{v}_m = \mathcal{E}(T_m) \in \mathbb{R}^d, \quad \mathbf{v}_{full} = \mathcal{E}(T_{raw}) \in \mathbb{R}^d, \quad \|\mathbf{v}\|_2 = 1.
 \end{equation}
-Vectors are indexed into a persistent ChromaDB instance configured with Hierarchical Navigable Small World (HNSW) cosine graphs.
 
-\subsection{Section Matching and Aggregation Functions}
-For a query document $D_q$ and candidate document $D_c$, we evaluate section-level cosine similarity:
+\subsection{Section Matching and Dynamic Renormalization}
+For query $D_q$ and candidate $D_c$, section similarity uses cosine metric:
 \begin{equation}
     \text{sim}(\mathbf{u}, \mathbf{w}) = \frac{\mathbf{u} \cdot \mathbf{w}}{\|\mathbf{u}\|_2 \|\mathbf{w}\|_2}.
 \end{equation}
-We define two pairing paradigms:
+To accommodate non-standard document structures where technical proficiencies are described in narrative work history rather than dedicated skill sections, we employ \textbf{Cross-Section Pairing}:
+\begin{equation}
+    c(s_m) = \max_{s_k \in D_c} \text{sim}\big(\mathbf{v}_q^{s_m}, \mathbf{v}_c^{s_k}\big).
+\end{equation}
+
+When documents omit optional sections (\textit{e.g.}, junior profiles lacking formal project portfolios, or freelance JDs lacking degree requirements), applying fixed zero-imputation would penalize valid candidates unfairly. We resolve this via \textbf{Dynamic Weight Renormalization}:
+\begin{equation}
+    S_{sem} = \frac{\sum_{m \in \mathcal{S}_{\text{matched}}} w_m \cdot c(s_m)}{\sum_{m \in \mathcal{S}_{\text{matched}}} w_m},
+\end{equation}
+where $\mathcal{S}_{\text{matched}}$ is restricted strictly to active query sections, calibrated with baseline domain weights ($w_{\text{skills}} = 0.35, w_{\text{exp}} = 0.35, w_{\text{proj}} = 0.15, w_{\text{edu}} = 0.10, w_{\text{sum}} = 0.05$).
+
+\subsection{Hybrid Ranking Engine: Two-Tier Separation}
+\label{sec:hybrid}
+To preserve clear semantics, the system enforces a strict two-tier separation between \textit{eligibility constraints} and \textit{competency ranking}:
 \begin{itemize}
-    \item \textbf{Fixed Pairing}: Restricts comparison exclusively to sections sharing the identical label:
+    \item \textbf{Tier 1: Eligibility Hard Filters}: Candidates are pre-filtered based on non-competency market boundaries (active account status, public privacy permissions, task availability, and budget upper-bound constraints).
+    \item \textbf{Tier 2: Competency Ranking}: Surviving candidates are scored via unified hybrid fusion:
     \begin{equation}
-        c(s_m) = \text{sim}\big(\mathbf{v}_q^{s_m}, \mathbf{v}_c^{s_m}\big) \quad \text{if } s_m \in D_c \text{ else } 0.
-    \end{equation}
-    \item \textbf{Cross Pairing}: Allows each query section to select its maximal alignment across all candidate sections, accommodating varied formatting styles:
-    \begin{equation}
-        c(s_m) = \max_{s_k \in D_c} \text{sim}\big(\mathbf{v}_q^{s_m}, \mathbf{v}_c^{s_k}\big).
+        S_{hybrid} = \alpha \cdot S_{sem} + (1 - \alpha) \cdot \big[ w_{skl} S_{skills} + w_{exp} S_{exp} + w_{pref} S_{pref} \big].
+        \label{eq:hybrid}
     \end{equation}
 \end{itemize}
 
-To synthesize the section similarity vector $\mathbf{c} = [c(s_1), \dots, c(s_M)]$, we evaluate three aggregation operators:
-\begin{align}
-    \text{Mean: } & S_{sem} = \frac{1}{|\mathbf{c}|} \sum_{m} c(s_m), \\
-    \text{Max: } & S_{sem} = \max_{m} c(s_m), \\
-    \text{Weighted: } & S_{sem} = \frac{\sum_{m} w_m \cdot c(s_m)}{\sum_{m} w_m},
-\end{align}
-where $w_m$ designates domain importance ($w_{\text{skills}} = 0.40$, $w_{\text{experience}} = 0.35$, $w_{\text{education}} = 0.15$, $w_{\text{summary}} = 0.10$).
-
-\subsection{Hybrid Ranking Engine}
-\label{sec:hybrid}
-To incorporate non-semantic constraints, we formulate a two-step hybrid fusion mechanism. First, we fuse the semantic score $S_{sem}$ with the normalized BM25 lexical score $S_{lex}$ via parameter $\alpha \in [0, 1]$:
+\textbf{Asymmetric Skill Coverage vs. Symmetric Jaccard}: Rather than penalizing qualified candidates who possess auxiliary skills beyond the job specification, $S_{skills}$ evaluates asymmetric requirement recall over normalized skill aliases:
 \begin{equation}
-    S_{fused} = \alpha \cdot S_{sem} + (1 - \alpha) \cdot S_{lex}.
-    \label{eq:fuse}
+    \text{Cov}(\mathcal{T}) = \frac{\sum_{t \in \mathcal{T}} \mathbb{I}(t \in \mathcal{C}_{skills}) \cdot w_t}{\sum_{t \in \mathcal{T}} w_t}, \quad S_{skills} = 0.8 \cdot \text{Cov}(\text{MustHave}) + 0.2 \cdot \text{Cov}(\text{NiceToHave}).
 \end{equation}
-Second, the fused retrieval score is integrated with structured business attributes:
-\begin{equation}
-    S_{hybrid} = w_{sem} S_{fused} + w_{skl} S_{skills} + w_{exp} S_{exp} + w_{bdg} S_{budget} + w_{prf} S_{pref},
-    \label{eq:hybrid}
-\end{equation}
-where $\sum w_i = 1.0$ (empirically set to $0.40, 0.30, 0.15, 0.10, 0.05$). $S_{skills}$ evaluates weighted required and optional skill set coverage, $S_{exp}$ checks candidate experience against the job's minimum threshold, $S_{budget}$ penalizes budget-rate mismatches, and $S_{pref}$ enforces availability and work preferences.
+When candidates lack more than $50\%$ of mandatory must-have skills, a multiplicative penalty factor $\gamma = \text{Cov}(\text{MustHave})$ is applied to prevent compensation by non-essential criteria.
 
-\subsection{Cascade LLM Reranking and Grounded Explainability}
-For candidates qualifying in the top-$K$ ($K=10$), an on-premise Qwen 4B model performs pointwise reranking based on a strict multi-attribute rubric ($0$--$100$ scale: required skills $40$, priority skills $20$, experience $20$, responsibilities $10$, extras $10$). Crucially, to prevent hallucinations, the prompt mandates verifiable evidence: each verdict (\texttt{hit}, \texttt{missing}, \texttt{unknown}) must cite an exact verbatim substring from the source CV or JD. Claims lacking source grounding are invalidated by the system post-processor.
+\subsection{Architectural Decisions and Empirical Rationales}
+Table~\ref{tab:design_decisions} summarizes the architectural choices governing the pipeline.
 
+\input{tables/tab_design_decisions.tex}

@@ -1,5 +1,6 @@
 # One-click LaTeX build script for paper
-Write-Host "Compiling main.tex..." -ForegroundColor Cyan
+Set-Location $PSScriptRoot
+Write-Host "Compiling main.tex in $PSScriptRoot..." -ForegroundColor Cyan
 
 pdflatex -interaction=nonstopmode main.tex
 bibtex main

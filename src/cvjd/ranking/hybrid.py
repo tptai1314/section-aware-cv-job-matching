@@ -10,6 +10,7 @@ nghiên cứu qua `profile_from_document`), nên module này không embed lại 
 
 from __future__ import annotations
 
+import unicodedata
 from collections.abc import Sequence
 from dataclasses import dataclass, field
 
@@ -30,14 +31,55 @@ OPTIONAL_BONUS = 0.2
 
 _ALIASES = {
     "node": "node.js",
+    "nodejs": "node.js",
     "javascript": "js",
     "typescript": "ts",
     "reactjs": "react",
     "react.js": "react",
+    "vuejs": "vue",
+    "vue.js": "vue",
     "nextjs": "next.js",
     "nestjs": "nest",
     "postgresql": "postgres",
+    "golang": "go",
+    "angularjs": "angular",
+    "k8s": "kubernetes",
+    "py": "python",
+    # Ánh xạ Việt - Anh thuật ngữ IT
+    "lập trình web": "web development",
+    "lap trinh web": "web development",
+    "phát triển web": "web development",
+    "phat trien web": "web development",
+    "lập trình di động": "mobile development",
+    "lap trinh di dong": "mobile development",
+    "lập trình mobile": "mobile development",
+    "khoa học dữ liệu": "data science",
+    "khoa hoc du lieu": "data science",
+    "học máy": "machine learning",
+    "hoc may": "machine learning",
+    "trí tuệ nhân tạo": "artificial intelligence",
+    "tri tue nhan tao": "artificial intelligence",
+    "quản trị cơ sở dữ liệu": "database administration",
+    "quan tri co so du lieu": "database administration",
+    "kiểm thử phần mềm": "software testing",
+    "kiem thu phan mem": "software testing",
+    "kiểm thử tự động": "automation testing",
+    "kiem thu tu dong": "automation testing",
+    "phân tích dữ liệu": "data analytics",
+    "phan tich du lieu": "data analytics",
+    "thiết kế giao diện": "ui/ux design",
+    "thiet ke giao dien": "ui/ux design",
+    "thiết kế đồ họa": "graphic design",
+    "thiet ke do hoa": "graphic design",
+    "tiếng anh giao tiếp": "english communication",
+    "tieng anh giao tiep": "english communication",
 }
+
+
+def strip_accents(text: str) -> str:
+    """Loại bỏ dấu tiếng Việt để so khớp tương đồng không dấu."""
+    nfkd = unicodedata.normalize("NFD", text)
+    return "".join(c for c in nfkd if unicodedata.category(c) != "Mn").replace("đ", "d").replace("Đ", "D")
 
 
 @dataclass(frozen=True)
@@ -77,18 +119,24 @@ class CandidateProfile:
 
 def normalize_skill(name: str) -> str:
     """Chuẩn hoá tên kỹ năng để so khớp (alias + lowercase + collapse)."""
-    key = " ".join(str(name).lower().split())
+    norm = unicodedata.normalize("NFC", str(name).strip().lower())
+    key = " ".join(norm.split())
     return _ALIASES.get(key, key)
 
 
 def _match(a: str, b: str) -> bool:
     x, y = normalize_skill(a), normalize_skill(b)
-    if x == y:
+    if x == y or strip_accents(x) == strip_accents(y):
         return True
     # con trỏ theo token duy nhất (tránh "java" ~ "javascript")
     ax = {t for t in x.replace("-", " ").split() if t}
     bx = {t for t in y.replace("-", " ").split() if t}
-    return bool(ax and bx and ax <= bx or bx <= ax)
+    if ax and bx and (ax <= bx or bx <= ax):
+        return True
+    # Thử đối sánh không dấu
+    ax_no_acc = {strip_accents(t) for t in ax}
+    bx_no_acc = {strip_accents(t) for t in bx}
+    return bool(ax_no_acc and bx_no_acc and (ax_no_acc <= bx_no_acc or bx_no_acc <= ax_no_acc))
 
 
 def _coverage(skills: Sequence[SkillItem], targets: Sequence[SkillItem]) -> float:

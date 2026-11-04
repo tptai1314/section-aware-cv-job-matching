@@ -1,0 +1,19 @@
+% Auto-generated: Design Decisions, Rationales, and Empirical Evidence
+\begin{table*}[t]
+\centering\small
+\caption{System Design Decisions, Alternatives Considered, Architectural Rationales, and Empirical Evidence.}
+\label{tab:design_decisions}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Design Decision} & \textbf{Alternative Considered} & \textbf{Architectural Rationale} & \textbf{Empirical Evidence} \\ \midrule
+\textbf{Multi-Vector Sectioning} & Flat Single-Vector / Chunking & Prevents semantic dilution of sparse technical skills & $+25.6\%$ nDCG@10 over single-vector ($p < 0.001$) \\
+\textbf{Cross-Section Pairing} & Fixed Same-Name Matching & Maps skills embedded inside experience/project text & $+2.7\%$ nDCG@10 over fixed; $26\%$ CVs lack dedicated skill header \\
+\textbf{Dynamic Renormalization} & Zero-Imputation & Prevents penalizing junior CVs lacking optional sections & Preserves score calibration when sections are omitted \\
+\textbf{Skill Coverage Scoring} & Symmetric Jaccard & Evaluates requirement recall without penalizing auxiliary skills & Ablation shows $S_{skills}$ is vital ($-26.13\%$ drop when omitted) \\
+\textbf{Two-Stage Retrieval ($K=100$)} & Full Brute-Force Scanning & Retains $>85\%$ coarse recall while ensuring sub-30\,ms latency & $14.25\times$ speedup at $N=5,000$ candidates ($25.2$\,ms vs. $360.1$\,ms) \\
+\textbf{Grounded Explanation} & End-to-End Generative LLM & Generates claims directly from score breakdown & $95.41\%$ verbatim groundedness; $4.59\%$ hallucination rate \\ \bottomrule
+\end{tabular}%
+}
+\end{table*}
+

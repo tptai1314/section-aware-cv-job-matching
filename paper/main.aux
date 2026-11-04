@@ -16,37 +16,55 @@
 \@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{3}{section.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Dense and Multi-Vector Information Retrieval}{3}{subsection.2.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}CV and Job Recommendation}{3}{subsection.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}LLMs for Reranking and Explainability}{3}{subsection.2.3}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Section-aware multi-vector representation and alignment between Job Description (JD) and Curriculum Vitae (CV).}}{4}{figure.1}\protected@file@percent }
 \newlabel{fig:arch}{{1}{4}{Section-aware multi-vector representation and alignment between Job Description (JD) and Curriculum Vitae (CV)}{figure.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}LLMs for Reranking and Explainability}{4}{subsection.2.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Proposed System Architecture}{4}{section.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Section Decomposition and Multi-Vector Representation}{4}{subsection.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Section Matching and Aggregation Functions}{4}{subsection.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Hybrid Ranking Engine}{5}{subsection.3.3}\protected@file@percent }
-\newlabel{sec:hybrid}{{3.3}{5}{Hybrid Ranking Engine}{subsection.3.3}{}}
-\newlabel{eq:fuse}{{9}{5}{Hybrid Ranking Engine}{equation.9}{}}
-\newlabel{eq:hybrid}{{10}{5}{Hybrid Ranking Engine}{equation.10}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Cascade LLM Reranking and Grounded Explainability}{5}{subsection.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Formal Problem Formulation}{4}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Section Decomposition and Multi-Vector Representation}{5}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Section Matching and Dynamic Renormalization}{5}{subsection.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Hybrid Ranking Engine: Two-Tier Separation}{5}{subsection.3.4}\protected@file@percent }
+\newlabel{sec:hybrid}{{3.4}{5}{Hybrid Ranking Engine: Two-Tier Separation}{subsection.3.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces System Design Decisions, Alternatives Considered, Architectural Rationales, and Empirical Evidence.}}{6}{table.1}\protected@file@percent }
+\newlabel{tab:design_decisions}{{1}{6}{System Design Decisions, Alternatives Considered, Architectural Rationales, and Empirical Evidence}{table.1}{}}
+\newlabel{eq:hybrid}{{7}{6}{Hybrid Ranking Engine: Two-Tier Separation}{equation.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Architectural Decisions and Empirical Rationales}{6}{subsection.3.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4}Experimental Setup}{6}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Dataset and Annotation Protocol}{6}{subsection.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Baseline Configurations}{6}{subsection.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Evaluation Metrics and Significance Testing}{6}{subsection.4.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Comparative retrieval and ranking performance across all experimental configurations on the bilingual freelance benchmark. Metrics evaluated at rank cutoffs $K \in \{5, 10\}$.}}{7}{table.1}\protected@file@percent }
-\newlabel{tab:main_results}{{1}{7}{Comparative retrieval and ranking performance across all experimental configurations on the bilingual freelance benchmark. Metrics evaluated at rank cutoffs $K \in \{5, 10\}$}{table.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Reproducibility and Hyperparameters}{7}{subsection.4.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Empirical Results and Discussion}{7}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Main Benchmark Comparison}{7}{subsection.5.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Answer to RQ1: Superiority of Functional Section Granularity}{7}{subsection.5.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Answer to RQ2: Semantic-Lexical Fusion Dynamics ($\alpha $ Sweep)}{8}{subsection.5.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Sensitivity analysis of the semantic fusion parameter $\alpha $ (Eq.~\ref {eq:fuse}) on JD $\rightarrow $ CV ranking metrics.}}{8}{table.2}\protected@file@percent }
-\newlabel{tab:alpha}{{2}{8}{Sensitivity analysis of the semantic fusion parameter $\alpha $ (Eq.~\ref {eq:fuse}) on JD $\rightarrow $ CV ranking metrics}{table.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Answer to RQ3: Resolving Non-Semantic Business Constraints}{9}{subsection.5.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Answer to RQ4: Explainable LLM Cascade and Qualitative Analysis}{9}{subsection.5.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Ethical Considerations, Privacy, and Limitations}{9}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Algorithmic Fairness and Demographic Bias Mitigation}{9}{subsection.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Privacy Preservation and Data Governance}{10}{subsection.6.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Human-in-the-Loop Verification}{10}{subsection.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Limitations}{10}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets and Annotation Protocols}{6}{subsection.4.1}\protected@file@percent }
+\citation{huggingface_resume_fit}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Language distribution of Frevia-Bench (169 CVs, 210 JDs) under the code-mixed threshold ($\ge 20\%$ token co-occurrence).}}{7}{table.2}\protected@file@percent }
+\newlabel{tab:lang_dist}{{2}{7}{Language distribution of Frevia-Bench (169 CVs, 210 JDs) under the code-mixed threshold ($\ge 20\%$ token co-occurrence)}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Baseline Configurations}{7}{subsection.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Evaluation Metrics and Significance Testing}{8}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Reproducibility and Execution Environment}{8}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Empirical Results and Discussion}{8}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Main Benchmark Comparison on Frevia-Bench}{8}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Answer to RQ1: Comparative Performance of Section Granularity}{8}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparative retrieval and ranking performance across all experimental configurations on the bilingual freelance benchmark. Metrics evaluated at rank cutoffs $K \in \{5, 10\}$.}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:main_results}{{3}{9}{Comparative retrieval and ranking performance across all experimental configurations on the bilingual freelance benchmark. Metrics evaluated at rank cutoffs $K \in \{5, 10\}$}{table.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Answer to RQ2: Semantic-Lexical Fusion and Cross-Validation}{9}{subsection.5.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Sensitivity analysis of the semantic fusion parameter $\alpha $ (Eq.~\ref {eq:hybrid}) on JD $\rightarrow $ CV ranking metrics.}}{10}{table.4}\protected@file@percent }
+\newlabel{tab:alpha}{{4}{10}{Sensitivity analysis of the semantic fusion parameter $\alpha $ (Eq.~\ref {eq:hybrid}) on JD $\rightarrow $ CV ranking metrics}{table.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Ablation analysis of hybrid matching components on \texttt  {Frevia-Bench} ($N=47$).}}{10}{table.5}\protected@file@percent }
+\newlabel{tab:ablation}{{5}{10}{Ablation analysis of hybrid matching components on \texttt {Frevia-Bench} ($N=47$)}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Answer to RQ3: Component Ablation of Hybrid Matching}{10}{subsection.5.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Cross-dataset generalizability on public benchmark \texttt  {cnamuangtoun/resume-job-description-fit} ($1,759$ test pairs, $71$ job queries).}}{11}{table.6}\protected@file@percent }
+\newlabel{tab:public_benchmark}{{6}{11}{Cross-dataset generalizability on public benchmark \texttt {cnamuangtoun/resume-job-description-fit} ($1,759$ test pairs, $71$ job queries)}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Cross-Dataset Generalizability on Independent Public Benchmark}{11}{subsection.5.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Analysis of the CV $\rightarrow $ JD Direction and Theoretical Recall Ceilings}{11}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}LLM Explanation Fidelity and Latency Profile}{12}{subsection.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}Coarse Retrieval Recall and Scalability Stress-Testing}{12}{subsection.5.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Answer to RQ5: Cross-Lingual Retrieval and Linguistic Robustness}{12}{subsection.5.9}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Retrieval performance sliced across language pairs on Frevia-Bench.}}{13}{table.7}\protected@file@percent }
+\newlabel{tab:bilingual_results}{{7}{13}{Retrieval performance sliced across language pairs on Frevia-Bench}{table.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Robustness evaluation under Vietnamese diacritic omission (unaccented typing). Section-aware multi-vector matching maintains high precision with zero tokenization fragmentation.}}{13}{table.8}\protected@file@percent }
+\newlabel{tab:robustness}{{8}{13}{Robustness evaluation under Vietnamese diacritic omission (unaccented typing). Section-aware multi-vector matching maintains high precision with zero tokenization fragmentation}{table.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.10}Practical Implications and Lessons Learned}{14}{subsection.5.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Ethical Considerations, Privacy, and Limitations}{14}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Algorithmic Fairness and Quantitative Perturbation Testing}{14}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Privacy Preservation and Data Governance}{15}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Human Evaluation and Inter-Annotator Reliability}{15}{subsection.6.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Limitations and Critical Discussion}{15}{subsection.6.4}\protected@file@percent }
 \bibstyle{splncs04}
 \bibdata{references}
 \bibcite{asadi2013effectiveness}{1}
@@ -54,9 +72,10 @@
 \bibcite{chen2024bge}{3}
 \bibcite{karpukhin2020dense}{4}
 \bibcite{khattab2020colbert}{5}
-\bibcite{nogueira2019passage}{6}
-\bibcite{zhang2021personalized}{7}
-\bibcite{zheng2023judging}{8}
-\bibcite{zhu2018person}{9}
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion and Future Work}{11}{section.7}\protected@file@percent }
-\gdef \@abspage@last{11}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion and Future Work}{16}{section.7}\protected@file@percent }
+\bibcite{huggingface_resume_fit}{6}
+\bibcite{nogueira2019passage}{7}
+\bibcite{zhang2021personalized}{8}
+\bibcite{zheng2023judging}{9}
+\bibcite{zhu2018person}{10}
+\gdef \@abspage@last{17}

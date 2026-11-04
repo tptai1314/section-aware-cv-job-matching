@@ -66,6 +66,8 @@ class SentenceTransformerEmbedder:
         self.model = SentenceTransformer(
             model_name, device=device, trust_remote_code=trust_remote_code
         )
+        if hasattr(self.model, "max_seq_length") and self.model.max_seq_length > 512:
+            self.model.max_seq_length = 512
         getter = getattr(self.model, "get_embedding_dimension", None)
         if getter is None:
             getter = self.model.get_sentence_embedding_dimension
@@ -73,8 +75,11 @@ class SentenceTransformerEmbedder:
 
     def encode(self, texts: Iterable[str]) -> np.ndarray:
         texts = list(texts)
+        if not texts:
+            return np.zeros((0, self.dim), dtype=np.float32)
         vectors = self.model.encode(
             texts,
+            batch_size=64,
             convert_to_numpy=True,
             normalize_embeddings=True,
             show_progress_bar=False,
