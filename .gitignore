@@ -17,7 +17,25 @@ outputs/
 results/
 *.csv.tmp
 
+# generated artifacts
+data/chroma/
+data/processing.db*
+data/processing_files/
+logs/
+
+# secrets / local config
+.env
+.env.*
+!.env.example
+
 # ide / os
 .idea/
 .vscode/
 .DS_Store
+
+# latex build artifacts (giữ docs/*.pdf và docs/so_do/png/)
+docs/*.aux
+docs/*.log
+docs/*.out
+docs/*.toc
+docs/so_do/_build/

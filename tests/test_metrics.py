@@ -1,106 +1,68 @@
-"""Known-value tests for NDCG@k, MRR, Spearman."""
-
-import math
-import sys
-from pathlib import Path
+"""Tests for IR and ranking evaluation metrics (P@K, Recall@K, nDCG@K, MRR, MAP)."""
 
 import pytest
 
-ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "src"))
-
-from cvjd.evaluation.metrics import (  # noqa: E402
-    compute_metrics,
+from cvjd.ranking.metrics import (
+    aggregate_metrics,
+    average_precision,
     dcg_at_k,
-    mrr,
+    evaluate_query,
     ndcg_at_k,
-    spearman,
+    precision_at_k,
+    recall_at_k,
+    reciprocal_rank,
 )
 
 
-def test_dcg_known_values():
-    assert dcg_at_k([0, 0], 10) == 0.0
-    assert dcg_at_k([1], 10) == pytest.approx(1.0)
-    assert dcg_at_k([3, 2, 1], 3) == pytest.approx(
-        7.0 / 1 + 3.0 / math.log2(3) + 1.0 / math.log2(4)
-    )
-    assert dcg_at_k([1, 2, 3, 4], 2) == pytest.approx(dcg_at_k([1, 2], 2))
+def test_precision_at_k():
+    qrels = {"doc1": 3, "doc2": 2, "doc3": 1, "doc4": 0}
+    # doc1 (rel>=2: yes), doc3 (no), doc2 (yes), doc4 (no)
+    ranked = ["doc1", "doc3", "doc2", "doc4"]
+    assert precision_at_k(ranked, qrels, k=2, threshold=2) == 0.5  # 1 out of 2
+    assert precision_at_k(ranked, qrels, k=4, threshold=2) == 0.5  # 2 out of 4
+    assert precision_at_k(ranked, qrels, k=1, threshold=2) == 1.0  # 1 out of 1
 
 
-def test_dcg_rejects_nonpositive_k():
-    with pytest.raises(ValueError):
-        dcg_at_k([1], 0)
+def test_recall_at_k():
+    qrels = {"doc1": 3, "doc2": 2, "doc3": 0}
+    # total relevant = 2 (doc1, doc2)
+    assert recall_at_k(["doc1", "doc3"], qrels, k=2, threshold=2) == 0.5
+    assert recall_at_k(["doc1", "doc2"], qrels, k=2, threshold=2) == 1.0
+    assert recall_at_k([], qrels, k=5, threshold=2) == 0.0
 
 
-def test_ndcg_perfect_ranking():
-    assert ndcg_at_k([3, 2, 1, 0], 10) == pytest.approx(1.0)
-    assert ndcg_at_k([1, 1], 10) == pytest.approx(1.0)
+def test_reciprocal_rank():
+    qrels = {"doc1": 0, "doc2": 3, "doc3": 2}
+    assert reciprocal_rank(["doc1", "doc2", "doc3"], qrels, threshold=2) == 0.5
+    assert reciprocal_rank(["doc2", "doc1"], qrels, threshold=2) == 1.0
+    assert reciprocal_rank(["doc1"], qrels, threshold=2) == 0.0
 
 
-def test_ndcg_worst_ranking():
-    value = ndcg_at_k([0, 0, 3], 10)
-    assert 0.0 < value < 1.0
-    assert value == pytest.approx(
-        (2.0**3 - 1.0) / math.log2(4) / ((2.0**3 - 1.0) / math.log2(2))
-    )
+def test_ndcg_at_k_perfect_ranking():
+    qrels = {"d1": 3, "d2": 2, "d3": 1, "d4": 0}
+    assert ndcg_at_k(["d1", "d2", "d3", "d4"], qrels, k=4) == pytest.approx(1.0)
 
 
-def test_ndcg_no_relevant_items_is_zero():
-    assert ndcg_at_k([0, 0, 0], 10) == 0.0
+def test_ndcg_at_k_inverted_ranking():
+    qrels = {"d1": 3, "d2": 0}
+    perfect = ndcg_at_k(["d1", "d2"], qrels, k=2)
+    inverted = ndcg_at_k(["d2", "d1"], qrels, k=2)
+    assert perfect == pytest.approx(1.0)
+    assert 0.0 < inverted < 1.0
 
 
-def test_ndcg_respects_k():
-    assert ndcg_at_k([1, 1, 0], 3) == pytest.approx(1.0)
-    assert ndcg_at_k([1, 0, 1], 1) == pytest.approx(1.0)
-    assert ndcg_at_k([1, 0, 1], 3) < 1.0
+def test_average_precision():
+    qrels = {"d1": 2, "d2": 0, "d3": 2}
+    # d1 hit at 1 (p=1/1), d2 miss at 2, d3 hit at 3 (p=2/3) -> map = (1 + 2/3) / 2 = 5/6 = 0.8333
+    ap = average_precision(["d1", "d2", "d3"], qrels, threshold=2)
+    assert pytest.approx(ap, abs=1e-4) == 5.0 / 6.0
 
 
-def test_mrr():
-    assert mrr([0, 1, 0]) == pytest.approx(0.5)
-    assert mrr([0, 0, 1]) == pytest.approx(1.0 / 3.0)
-    assert mrr([2, 1]) == pytest.approx(1.0)
-    assert mrr([0, 0, 0]) == 0.0
-    assert mrr([1, 0], threshold=2) == 0.0
-    assert mrr([2], threshold=2) == pytest.approx(1.0)
+def test_evaluate_query_and_aggregate():
+    qrels = {"d1": 3, "d2": 2, "d3": 0}
+    res = evaluate_query(["d1", "d3", "d2"], qrels, threshold=2)
+    assert "ndcg@10" in res
+    assert "mrr" in res
+    agg = aggregate_metrics([res, res])
+    assert agg["mrr"] == res["mrr"]
 
-
-def test_spearman_identical_and_reversed():
-    assert spearman([1, 2, 3], [1, 2, 3]) == pytest.approx(1.0)
-    assert spearman([1, 2, 3], [3, 2, 1]) == pytest.approx(-1.0)
-
-
-def test_spearman_with_ties():
-    assert spearman([1, 1, 2], [2, 2, 1]) == pytest.approx(-1.0)
-    assert spearman([1, 1, 2], [5, 5, 9]) == pytest.approx(1.0)
-
-
-def test_spearman_constant_input_is_zero():
-    assert spearman([1, 1, 1], [1, 2, 3]) == 0.0
-
-
-def test_spearman_length_mismatch():
-    with pytest.raises(ValueError):
-        spearman([1, 2], [1])
-
-
-def test_spearman_fewer_than_two_items():
-    assert spearman([], []) == 0.0
-    assert spearman([1], [2]) == 0.0
-
-
-def test_compute_metrics_keys():
-    result = compute_metrics(
-        ranked_relevances=[3, 1, 0],
-        scores=[0.9, 0.5, 0.2],
-        labels=[3, 1, 0],
-        k=10,
-    )
-    assert set(result) == {"ndcg@10", "mrr", "spearman"}
-    assert result["ndcg@10"] == pytest.approx(1.0)
-    assert result["mrr"] == pytest.approx(1.0)
-    assert result["spearman"] == pytest.approx(1.0)
-
-
-def test_compute_metrics_without_scores_omits_spearman():
-    result = compute_metrics(ranked_relevances=[0, 1], k=10)
-    assert set(result) == {"ndcg@10", "mrr"}

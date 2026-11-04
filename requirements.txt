@@ -1,10 +1,8 @@
 numpy
 pyyaml
 pytest
+psycopg[binary]
+python-dotenv
 sentence-transformers
 rank_bm25
-scikit-learn
-matplotlib
-seaborn
-pandas
-psutil
+chromadb

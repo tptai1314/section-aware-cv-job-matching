@@ -1,0 +1,619 @@
+% !TEX program = xelatex
+% =====================================================================
+%  KIẾN TRÚC HỆ THỐNG
+%  "Hệ thống ghép cặp CV - Việc làm theo section"
+%  (Section-Aware CV-Job Matching + hàng đợi xử lý file nền)
+%
+%  Biên dịch:  xelatex kien_truc_he_thong.tex      (MiKTeX / TeX Live)
+%  Lưu ý: bắt buộc XeLaTeX (fontspec) để hiển thị đúng tiếng Việt.
+%
+%  Sơ đồ:   8 hình TikZ đã được tách ra thư mục so_do/ (mỗi hình một file
+%           .tex, file này chỉ \input{so_do/figXX_...}); caption/label nằm
+%           cùng file hình nên mọi \ref vẫn hoạt động.
+%  Ảnh PNG: python so_do/build_png.py  ->  so_do/png/figXX_....png (200 dpi)
+% =====================================================================
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2cm,right=2cm]{geometry}
+% Tiếng Việt không có dấu ngắt từ tự nhiên trong XeLaTeX -> nới giãn một chút
+% để tránh các dòng tràn ra ngoài lề.
+\setlength{\emergencystretch}{3em}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Arial}
+\setmonofont[Scale=0.85]{Consolas}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{caption}
+\captionsetup{font=small,labelfont=bf}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,fit,calc,automata,shapes.geometric}
+\usepackage[colorlinks=true,linkcolor=blue!50!black,urlcolor=blue!70!black,
+            citecolor=green!40!black]{hyperref}
+
+% ---------------- màu + style dùng chung cho sơ đồ ----------------
+\definecolor{cblue}{HTML}{2B6CB0}
+\definecolor{cbluel}{HTML}{EAF2FB}
+\definecolor{cgreen}{HTML}{276749}
+\definecolor{cgreenl}{HTML}{E6F4EC}
+\definecolor{corange}{HTML}{B7791F}
+\definecolor{corangel}{HTML}{FBF3E0}
+\definecolor{cpurple}{HTML}{6B46C1}
+\definecolor{cpurplel}{HTML}{F0E9FA}
+\definecolor{cred}{HTML}{C53030}
+\definecolor{credl}{HTML}{FDE8E8}
+\definecolor{cgray}{HTML}{4A5568}
+\definecolor{cgrayl}{HTML}{EDF2F7}
+
+\tikzset{
+  svc/.style   = {draw=cblue, line width=0.7pt, rounded corners=3pt, fill=cbluel,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  infra/.style = {draw=cgreen, line width=0.7pt, rounded corners=3pt, fill=cgreenl,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  store/.style = {draw=corange, line width=0.7pt, rounded corners=3pt, fill=corangel,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  llm/.style   = {draw=cpurple, line width=0.7pt, rounded corners=3pt, fill=cpurplel,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  fail/.style  = {draw=cred, line width=0.7pt, rounded corners=3pt, fill=credl,
+                  inner sep=4pt, font=\scriptsize, align=center},
+  box/.style   = {draw=black!45, rounded corners=2pt, fill=white, inner sep=3.5pt,
+                  font=\scriptsize, align=center},
+  band/.style  = {draw=black!35, rounded corners=4pt, fill=black!4, inner sep=6pt,
+                  align=left},
+  arr/.style   = {-{Stealth[length=2.2mm]}, semithick},
+  arrl/.style  = {-{Stealth[length=2.4mm]}, thick},
+  arrd/.style  = {-{Stealth[length=2.2mm]}, semithick, dashed, black!60},
+  lbl/.style   = {font=\tiny, align=center, inner sep=1.5pt},
+  actor/.style = {draw=black!55, fill=cgrayl, rounded corners=2pt, minimum width=2.1cm,
+                  minimum height=0.7cm, font=\scriptsize, align=center},
+  st/.style    = {state, minimum size=1.2cm, font=\scriptsize, align=center, inner sep=1pt},
+}
+
+\title{\textbf{KIẾN TRÚC HỆ THỐNG}\\[4pt]
+       \large Hệ thống ghép cặp CV -- Việc làm theo section\\
+       \normalsize (Section-Aware CV--Job Matching) kèm hàng đợi xử lý file nền}
+\author{Nhóm nghiên cứu: .........................\\
+        \small Giáo viên hướng dẫn: ........................}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\noindent Tài liệu mô tả kiến trúc phần mềm của hệ thống ghép cặp ``sơ yếu lý lịch (CV) --
+việc làm (JD)'' theo từng \emph{phần (section)} của văn bản, gồm hai tiến trình lớn:
+(1) \textbf{AI service} viết bằng Python/FastAPI, đảm nhận trích xuất văn bản, phân tích
+bằng mô hình ngôn ngữ lớn (LLM), sinh embedding theo section, lưu vector và xếp hạng
+hybrid (semantic + từ khóa + ràng buộc có cấu trúc); và (2) \textbf{API chính} viết bằng
+NestJS, đảm nhận nghiệp vụ người dùng và \emph{gọi} AI service. Trọng tâm của tài liệu là
+\textbf{hàng đợi xử lý file nền} (background processing queue) cho phép người dùng upload
+CV và nhận trạng thái xử lý từng bước thay cho lời gọi đồng bộ ``treo'' hàng chục giây.
+Tài liệu gồm: sơ đồ tổng thể, sơ đồ lớp module, máy trạng thái job, sơ đồ chuỗi lời gọi
+(bước upload bất đồng bộ), mô hình dữ liệu vector theo section, và \textbf{luồng ghép cặp
+(matching) trình bày theo dạng dễ hiểu}: bốn bước từ tìm ứng viên đến trả kết quả, cách
+tính điểm mức độ hợp, và hai chiều ghép cặp \texttt{jd2cv}/\texttt{cv2jd}; phần cuối nêu
+hướng nghiên cứu khoa học đề xuất.
+\end{abstract}
+
+\tableofcontents
+
+% =====================================================================
+\section{Tổng quan hệ thống}
+% =====================================================================
+
+Hệ thống có hai tiến trình chính (hai mã nguồn khác nhau) và một số thành phần hạ tầng:
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{API chính (NestJS, TypeScript)} --- backend nghiệp vụ: xác thực, hồ sơ
+        người dùng, tin tuyển dụng, hợp đồng, thanh toán. Là nơi duy nhất được phép
+        đọc/ghi \textbf{PostgreSQL} (nguồn dữ liệu gốc).
+  \item \textbf{AI service (Python, FastAPI)} --- microservice nội bộ, \emph{không} có
+        quyền ghi PostgreSQL: trích xuất PDF/DOCX, phân tích cấu trúc bằng
+        \texttt{qwen3:4b} (chạy local qua Ollama), sinh embedding \texttt{BAAI/bge-m3},
+        lưu vector vào \textbf{ChromaDB}, xếp hạng và giải thích bằng LLM.
+  \item \textbf{ChromaDB} --- cơ sở vector (HNSW, cosine) persistent trên đĩa.
+  \item \textbf{SQLite} --- bảng \texttt{processing.db} lưu \emph{trạng thái job xử lý
+        file} (hàng đợi nền). Lý do dùng SQLite: ở giai đoạn này AI service chỉ được cấp
+        quyền \emph{đọc} PostgreSQL; giao diện \texttt{ProcessingStore} được thiết kế để
+        sau này thay bằng \texttt{PostgresProcessingStore} mà không đổi pipeline.
+  \item \textbf{Outbox + \texttt{sync\_worker}} --- cơ chế đồng bộ \emph{một chiều}
+        PostgreSQL $\rightarrow$ Chroma: các bản ghi CV/JD trong DB được đẩy sang vector
+        store để phục vụ truy hồi.
+\end{itemize}
+
+\input{so_do/fig01_tong_the}
+
+Hai thành phần \emph{giao tiếp} với nhau chỉ qua HTTP nội bộ, được bảo vệ bằng
+\texttt{INTERNAL\_API\_KEY} (che dấu \texttt{/internal/*} khỏi Internet). Nhờ đó AI
+service có thể thay đổi độc lập (thêm model, thêm queue) mà không ảnh hưởng API chính.
+
+% =====================================================================
+\section{Kiến trúc bên trong AI service}
+% =====================================================================
+
+AI service được chia thành bốn lớp phụ trách rõ ràng (Hình~\ref{fig:module}), theo
+nguyên tắc \emph{API chỉ điều phối, nghiệp vụ nằm ở lớp giữa, lớp dưới lo hạ tầng}.
+Thư viện lõi \texttt{src/cvjd} (Python package \texttt{cvjd}) độc lập với web framework
+để có thể chạy benchmark từ dòng lệnh.
+
+\input{so_do/fig02_lop_module}
+
+Hai đường xử lý ``đồng bộ'' và ``nền'' dùng chung các khối nghiệp vụ nên kết quả phân
+tích là như nhau (Hình~\ref{fig:2duong}).
+
+\input{so_do/fig03_hai_duong_xu_ly}
+
+% =====================================================================
+\section{Hàng đợi xử lý file nền (phần lõi)}
+% =====================================================================
+
+\subsection{Vấn đề}
+
+Việc phân tích một CV mất 10--40~giây (trích xuất PDF, gọi LLM sinh JSON, nhúng 5--8
+section). Nếu để HTTP đồng bộ ``treo'' chừng đó thời gian thì trình duyệt/người dùng dễ
+bị timeout và NestJS cũng bị chiếm kết nối. Giải pháp: \textbf{hàng đợi job nền}
+\begin{enumerate}[leftmargin=1.6em]
+  \item Client gửi file $\to$ nhận ngay \texttt{202 Accepted} kèm \texttt{job\_id};
+  \item Worker chạy nền xử lý từng job, cập nhật \emph{step} + \emph{progress};
+  \item Client poll trạng thái và hiển thị ``Đang trích xuất $\to$ Đang phân tích
+        $\to$ Đang nhúng $\to$ Hoàn tất''.
+\end{enumerate}
+
+\subsection{Máy trạng thái của job}
+
+Mỗi job có \emph{trạng thái} (\texttt{status}) và \emph{bước đang chạy}
+(\texttt{step}) là hai chiều độc lập: trạng thái nói ``job đang đi tới đâu về mặt vòng
+đời'', bước nói ``đang ở khâu nào'' để hiển thị tiến độ (Hình~\ref{fig:state}).
+
+\input{so_do/fig04_may_trang_thai}
+
+Bên trong \texttt{PROCESSING}, pipeline chạy tuần tự bốn bước, mỗi bước ghi \emph{checkpoint}
+vào DB nên nếu service chết giữa chừng thì ta biết chính xác job đang ở đâu:
+
+\input{so_do/fig05_pipeline_4_buoc}
+
+\subsection{Luồng bất đồng bộ khi upload CV}
+
+Hình~\ref{fig:sequence} mô tả toàn bộ lời gọi khi người dùng upload CV: từ HTTP request
+đến khi job chuyển sang \texttt{READY} và client poll được kết quả.
+
+\input{so_do/fig06_chuoi_loi_goi}
+
+\subsection{Độ tin cậy}
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Phân loại lỗi:} lỗi \emph{vĩnh viễn} (file hỏng, text rỗng, sai định
+        dạng) $\to$ \texttt{FAILED} ngay, không thử lại; lỗi \emph{tạm thời} (Ollama
+        timeout, Chroma khóa database) $\to$ worker thử lại với backoff
+        $2^{n}\cdot\Delta$ đến \texttt{JOB\_MAX\_ATTEMPTS} (mặc định 3).
+  \item \textbf{Phát hiện job ``kẹt'':} nếu \texttt{PROCESSING} quá
+        \texttt{JOB\_STALE\_SECONDS} (300~s) mà không cập nhật thì worker tự đưa job về
+        \texttt{PENDING}; endpoint \texttt{POST /internal/jobs/reconcile} cho phép vận
+        hành viên gỡ kẹt thủ công.
+  \item \textbf{Không mất job khi restart:} SQLite là nguồn sự thật duy nhất; khi khởi
+        động lại service, các job còn \texttt{PENDING} trong DB sẽ được worker xử lý tiếp.
+  \item \textbf{Bỏ qua nhúng lại (idempotent):} nếu nội dung text không đổi
+        (\texttt{content\_hash} khớp) \emph{và} vector của phiên bản đó vẫn còn nguyên
+        trong Chroma + payload còn trong store thì job chuyển thẳng sang \texttt{READY}
+        với cảnh báo \texttt{REUSED\_INDEX} --- retry không tiêu tốn thêm lượt LLM.
+  \item \textbf{Quan sát được:} \texttt{GET /internal/jobs/stats} trả về số job theo
+        trạng thái, độ sâu hàng đợi, số lượt retry và phân vị thời gian xử lý;
+        \texttt{GET /readyz} báo trạng thái worker cho giám sát.
+\end{itemize}
+
+% =====================================================================
+\section{Mô hình dữ liệu vector theo section}
+% =====================================================================
+
+Điểm đặc biệt của hệ thống là mỗi tài liệu \emph{không} được nhúng thành một vector duy
+nhất mà tách theo section (kỹ năng, kinh nghiệm, dự án, học vấn, tóm tắt) cộng thêm một
+vector cho toàn văn. Nhờ đó khi so một JD với một CV, ta so được ``yêu cầu kỹ năng''
+trùng với ``phần kỹ năng'' thay vì so toàn văn mơ hồ.
+
+\input{so_do/fig07_vector_theo_section}
+
+Khi phiên bản tài liệu tăng (\texttt{version}$+1$) thì upsert sẽ tự xoá các vector cũ
+cùng \texttt{document\_id} và thay bằng bộ mới; metadata \texttt{status=READY} đảm bảo
+chỉ vector đã hoàn chỉnh mới được dùng cho truy hồi.
+
+% =====================================================================
+\section{Luồng ghép cặp CV -- việc làm}
+% =====================================================================
+
+Đây là phần lõi của hệ thống: cho một người dùng, tìm ra những ứng viên (hoặc tin
+tuyển dụng) phù hợp nhất.
+
+\subsection{Từ file tải lên đến kết quả ghép cặp}
+
+Trước khi ghép cặp được, tài liệu phải đi qua một chuỗi xử lý để biến văn bản thô thành
+dữ liệu máy ``hiểu'' được. Hình~\ref{fig:fullflow} mô tả toàn bộ chuỗi đó, gồm tám bước
+chia làm hai giai đoạn: \textbf{xử lý tài liệu} (bước 1--7) và \textbf{ghép cặp}
+(bước 8).
+
+\input{so_do/fig08a_luong_day_du}
+
+Tám bước được giải thích như sau:
+
+\begin{enumerate}[leftmargin=1.6em]
+  \item \textbf{Tải lên.} Người dùng gửi một CV hoặc một tin tuyển dụng. Hệ thống nhận
+        file PDF, DOCX (hoặc chữ dán trực tiếp) và lưu tạm lại để xử lý về sau.
+  \item \textbf{Trích xuất chữ.} Hệ thống đọc nội dung chữ ra khỏi file: PDF đọc bằng
+        thư viện \texttt{pypdf}, DOCX đọc bằng \texttt{python-docx}, file scan (ảnh) thì
+        đọc bằng OCR. Sau đó dọn dẹp ký tự rác, gộp những dòng bị ngắt giữa câu.
+  \item \textbf{Phân tích bằng AI.} Một mô hình ngôn ngữ chạy \emph{nội bộ} (không gửi
+        dữ liệu ra ngoài) đọc đoạn chữ và rút ra thông tin có cấu trúc: kỹ năng, kinh
+        nghiệm, học vấn, dự án, tóm tắt (với CV) hoặc kỹ năng yêu cầu, trách nhiệm, ngân
+        sách (với tin tuyển dụng).
+  \item \textbf{Chuẩn hoá.} Máy sửa lại cho thống nhất: ngày tháng về đúng một dạng, bỏ
+        các mục trùng lặp, và \emph{kiểm tra dẫn chứng} --- chỉ giữ những thông tin thật
+        sự xuất hiện trong văn bản gốc.
+  \item \textbf{Tách thành từng phần.} Thay vì coi cả tài liệu là một khối, hệ thống
+        chia thành các \emph{phần} riêng: kỹ năng, kinh nghiệm, học vấn, tóm tắt\dots{}
+        và thêm một phần ``toàn văn'' gộp tất cả.
+  \item \textbf{Chuyển thành vector.} Mỗi phần được mô hình BGE-M3 chuyển thành một dãy
+        số (vector) đại diện cho \emph{ý nghĩa} của phần đó. Nhờ vậy máy so sánh được
+        ``giống nhau về nghĩa'' chứ không chỉ giống mặt chữ.
+  \item \textbf{Lưu vào kho vector.} Các dãy số được lưu lại, kèm theo trạng thái (đã
+        xử lý xong), chủ sở hữu và mức hiển thị. Một tài liệu sinh ra \emph{nhiều} vector
+        --- một cho mỗi phần.
+  \item \textbf{Ghép cặp.} Khi cần tìm ứng viên, hệ thống dùng lại các vector đã lưu,
+        so từng phần với nhau, cộng điểm chi tiết rồi trả về danh sách phù hợp nhất.
+\end{enumerate}
+
+\subsection{Các bước trong phần ghép cặp}
+
+Bước 8 ở trên được mở rộng thành bốn bước nhỏ (Hình~\ref{fig:matching}), đi từ trên
+xuống dưới:
+
+\begin{enumerate}[leftmargin=1.6em]
+  \item \textbf{Tìm ứng viên phù hợp.} Nếu bên gọi chưa có danh sách ứng viên, hệ thống
+        tự tìm trong kho dữ liệu đã lưu, xếp theo mức giống nhau về nội dung và chỉ giữ
+        những hồ sơ mà người dùng được phép xem. Nếu bên gọi \emph{đã} có danh sách sẵn
+        thì bỏ qua bước này.
+  \item \textbf{Chấm điểm mức độ hợp.} Hệ thống so nội dung của hai bên \emph{theo từng
+        phần}: phần kỹ năng so với phần kỹ năng, phần kinh nghiệm so với phần kinh
+        nghiệm\dots{} thay vì so cả văn bản một cách chung chung. Nhờ vậy điểm số sát ý
+        nghĩa hơn.
+  \item \textbf{Cộng điểm chi tiết.} Ngoài mức hợp về nội dung, hệ thống cộng thêm điểm
+        theo các yếu tố rõ ràng: mức đáp ứng kỹ năng, số năm kinh nghiệm, ngân sách và
+        sở thích (xem Mục~\ref{sec:hai-chieu} và~\ref{subsec:diem}).
+  \item \textbf{Lọc và xếp hạng.} Cuối cùng hệ thống loại những hồ sơ không còn hợp lệ
+        (đã xoá, không đúng người xem, chưa sẵn sàng), sắp xếp theo điểm giảm dần và trả
+        về danh sách phù hợp nhất.
+\end{enumerate}
+
+Bước \textbf{giải thích bằng AI} là tuỳ chọn: khi bật, máy sẽ tự viết lý do vì sao một
+ứng viên được xem là hợp, giúp người dùng tin tưởng kết quả hơn.
+
+\input{so_do/fig08_luong_ghep_cap}
+
+\subsection{Điểm mức độ hợp được tính thế nào?}
+\label{subsec:diem}
+
+Điểm cuối cùng là trung bình có trọng số của năm phần, mỗi phần nằm trong khoảng
+$0$--$1$:
+
+\begin{center}\small
+\begin{tabular}{@{}lc l@{}}
+\toprule
+\textbf{Phần} & \textbf{Trọng số} & \textbf{Ý nghĩa} \\
+\midrule
+Mức hợp nội dung & $0.40$ & Hai tài liệu giống nhau đến đâu \\
+Kỹ năng          & $0.30$ & Ứng viên có đủ kỹ năng tin tuyển dụng yêu cầu không \\
+Kinh nghiệm      & $0.15$ & Số năm kinh nghiệm so với yêu cầu \\
+Ngân sách        & $0.10$ & Khoảng lương/ngân sách hai bên có giao nhau không \\
+Sở thích         & $0.05$ & Hình thức làm việc, địa điểm\dots{} có khớp không \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Chi tiết công thức:
+
+\begin{align}
+  c_k(q,d) &= \max_{y\in S_d}\ \cos\big(e(x_k),\,e(y)\big),
+      \qquad x_k\in S_q \label{eq:sec}\\
+  s_{\text{sem}}(q,d) &= \operatorname{agg}_{k}\ c_k(q,d), \qquad
+      \operatorname{agg}\in\{\max,\operatorname{mean}\} \label{eq:sem}\\
+  s(q,d) &= \alpha\cdot\widetilde{s}_{\text{sem}}(q,d) + (1-\alpha)\cdot\widetilde{s}_{\text{kw}}(q,d)
+      \label{eq:fuse}\\
+  S_{\text{hybrid}} &= \frac{\sum_i w_i\,S_i}{\sum_i w_i}, \qquad
+      (w_{sem},w_{sk},w_{exp},w_{bud},w_{pref}) = (0.40,\,0.30,\,0.15,\,0.10,\,0.05)
+      \label{eq:hybrid}
+\end{align}
+
+Trong đó $S_q,S_d$ là tập section của hai tài liệu, $e(\cdot)$ là vector BGE-M3, $c_k$
+là điểm của từng phần, $\widetilde{\cdot}$ là chuẩn hoá min--max trên tập ứng viên, và
+$\alpha$ là tham số pha trộn giữa mức hợp nội dung và mức khớp từ khóa (mặc định $0.5$).
+Phép so theo phần ở Công thức~\eqref{eq:sec} là \texttt{cross} (lấy phần giống nhất);
+chế độ \texttt{fixed} thay bằng việc so \emph{đúng} phần cùng tên.
+
+\subsection{Hai chiều ghép cặp}
+\label{sec:hai-chieu}
+
+Hệ thống chạy được cả hai chiều trên cùng một mã nguồn (Hình~\ref{fig:bidirectional}):
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Tìm CV cho tin tuyển dụng} (\texttt{jd2cv}): đầu vào là một tin tuyển
+        dụng, kết quả là danh sách CV phù hợp nhất.
+  \item \textbf{Tìm việc cho CV} (\texttt{cv2jd}): đầu vào là một CV, kết quả là danh
+        sách tin tuyển dụng phù hợp nhất.
+\end{itemize}
+
+\input{so_do/fig09_hai_chieu}
+
+Điểm giống nhau: công thức chấm điểm, cách lọc và cách giải thích \emph{hoàn toàn như
+nhau}. Điểm khác nhau duy nhất là \emph{vai trò} của hai tài liệu --- tin tuyển dụng
+luôn đóng vai ``bên yêu cầu'', CV luôn đóng vai ``bên đáp ứng'' --- và kho dữ liệu được
+tra cứu (CV hay tin tuyển dụng). Nhờ vậy chỉ cần viết và kiểm thử một lần.
+
+
+
+% =====================================================================
+\section{Hợp đồng API (tóm tắt)}
+% =====================================================================
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}llp{8.6cm}@{}}
+\toprule
+\textbf{Method \& Path} & \textbf{Trạng thái} & \textbf{Vai trò} \\
+\midrule
+\texttt{POST /api/v1/ai/analyze-cv} & 200 & Phân tích CV đồng bộ (trả JSON, không lưu) \\
+\texttt{POST /internal/extract-cv}  & 200 & Trích xuất + phân tích CV (nội bộ) \\
+\texttt{POST /internal/extract-job} & 200 & Trích xuất + phân tích JD (nội bộ) \\
+\texttt{POST /internal/index}       & 200 & Nhúng + upsert vector cho danh sách payload \\
+\texttt{POST /internal/index/delete}& 200 & Xoá vector theo id/type \\
+\texttt{POST /internal/recommend}   & 200 & Xếp hạng hybrid (kèm \texttt{explain}) \\
+\texttt{POST /internal/explain}     & 200 & Giải thích 1 cặp (job, cv) bằng LLM \\
+\texttt{POST /internal/rerank}      & 200 & Chấm lại theo rubric 0--100 \\
+\texttt{POST /internal/embeddings}  & 200 & Sinh vector thô cho danh sách chuỗi \\
+\midrule
+\texttt{POST /internal/jobs}        & 202 & Tạo job xử lý file (multipart) $\to$ \texttt{job\_id} \\
+\texttt{GET  /internal/jobs/\{id\}}  & 200 & Trạng thái + tiến độ + cảnh báo \\
+\texttt{DELETE /internal/jobs/\{id\}}& 200 & Hủy job chưa xong \\
+\texttt{POST /internal/jobs/\{id\}/retry} & 200 & Đưa job \texttt{FAILED} về \texttt{PENDING} \\
+\texttt{GET  /internal/jobs/stats}  & 200 & Số job theo trạng thái, hàng đợi, phân vị thời gian \\
+\texttt{POST /internal/jobs/reconcile} & 200 & Gỡ job kẹt (idempotent) \\
+\midrule
+\texttt{GET /healthz}, \texttt{GET /readyz} & 200 & Sống/khỏe (ping Ollama, độ sâu hàng đợi) \\
+\bottomrule
+\end{tabular}
+\caption{Các endpoint của AI service. Mọi đường \texttt{/internal/*} đều bắt buộc
+\texttt{X-Internal-Api-Key} khi bật \texttt{INTERNAL\_API\_KEY\_REQUIRED=1}.}
+\label{tab:api}
+\end{table}
+
+Mẫu phản hồi tiêu biểu của job (rút gọn):
+
+\begin{verbatim}
+{
+  "job_id": "j_9f2c...", "status": "PROCESSING",
+  "document_type": "cv", "document_id": "1234", "version": 3,
+  "step": "PARSING", "progress": 55,
+  "attempt_count": 1, "warnings": [],
+  "duration_ms": null, "result": null
+}
+\end{verbatim}
+
+% =====================================================================
+\section{Cấu hình \& công nghệ}
+% =====================================================================
+
+\begin{table}[htbp]
+\centering\footnotesize
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Nhóm} & \textbf{Thành phần} & \textbf{Lựa chọn} & \textbf{Lý do} \\
+\midrule
+Web frontend & Framework & Next.js & (repo riêng) \\
+API nghiệp vụ & Backend & NestJS + Prisma & (repo riêng) \\
+AI service & Ngôn ngữ & Python 3.13 + FastAPI & Async, OpenAPI tự sinh \\
+LLM & Mô hình & \texttt{qwen3:4b} (Ollama) & Không mất dữ liệu ra ngoài \\
+Embedding & Mô hình & \texttt{BAAI/bge-m3} (1024 chiều, CPU) & Đa ngôn ngữ, nhiều chức năng \\
+Vector store & Cơ sở & ChromaDB persistent (HNSW, cosine) & Nhúng thư viện, đơn giản \\
+Job store & Cơ sở & SQLite (WAL) & PG đang chỉ đọc; interface để chuyển Postgres \\
+Từ khóa & Thuật toán & BM25 (\texttt{rank\_bm25}) & Baseline kinh điển, giải thích được \\
+Kiểm thử & Công cụ & pytest, ruff & 138 test tự động \\
+\bottomrule
+\end{tabular}
+\caption{Công nghệ chính của AI service.}
+\label{tab:stack}
+\end{table}
+
+Các biến môi trường quan trọng của hàng đợi (mặc định trong dấu ngoặc):
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}llp{7.6cm}@{}}
+\toprule
+\textbf{Biến} & \textbf{Mặc định} & \textbf{Vai trò} \\
+\midrule
+\texttt{OLLAMA\_MODEL} & -- (bắt buộc) & Mô hình LLM dùng cho parse/explain/rerank \\
+\texttt{EMBED\_MODEL} & \texttt{BAAI/bge-m3} & Mô hình sinh embedding \\
+\texttt{CHROMA\_PATH} & \texttt{None} & Nơi lưu Chroma; \texttt{None} = bộ nhớ (dùng cho test) \\
+\texttt{INTERNAL\_API\_KEY\_REQUIRED} & \texttt{0} & Bật = ``fail-closed'' khi chưa cấu hình key \\
+\texttt{PROCESSING\_WORKER\_ENABLED} & \texttt{0} & Bật worker nền trong process FastAPI \\
+\texttt{PROCESSING\_DB\_PATH} & \texttt{data/processing.db} & Đường dẫn SQLite của hàng đợi \\
+\texttt{PROCESSING\_FILES\_DIR} & \texttt{data/processing\_files} & Thư mục file tạm \\
+\texttt{JOB\_MAX\_ATTEMPTS} & 3 & Số lượt thử tối đa cho lỗi tạm thời \\
+\texttt{JOB\_STALE\_SECONDS} & 300 & Ngưỡng coi job \texttt{PROCESSING} là kẹt \\
+\texttt{JOB\_RETRY\_BASE\_DELAY\_S} & 1.0 & Hệ số backoff $2^{n}\cdot\Delta$ \\
+\texttt{PROCESSING\_SKIP\_REEMBED} & 1 & Bật bỏ qua nhúng lại khi nội dung không đổi \\
+\bottomrule
+\end{tabular}
+\caption{Cấu hình hàng đợi xử lý (xem đầy đủ tại \texttt{apps/ai/.env.example}).}
+\label{tab:env}
+\end{table}
+
+% =====================================================================
+\section{Kiểm thử \& đánh giá}
+% =====================================================================
+
+\begin{itemize}[leftmargin=1.2em]
+  \item \textbf{Kiểm thử tự động:} 138 test pytest bao phủ: trích xuất văn bản, chuẩn hoá
+        payload, xếp hạng hybrid, giải thích/rerank (LLM giả lập), máy trạng thái job,
+        worker (retry, backoff, job kẹt, hủy), hợp đồng API. Chroma dùng \emph{ephemeral
+        client} + \texttt{MockEmbedder} nên test chạy nhanh, không tải model thật.
+  \item \textbf{Kiểm soát chất lượng mã:} \texttt{ruff} cho mã mới; tài liệu thiết kế
+        (\texttt{docs/DESIGN\_processing\_queue.md}) được cập nhật đồng bộ với mã.
+  \item \textbf{Đánh giá chất lượng ghép cặp:} dùng bộ chỉ số chuẩn của truy hồi
+        thông tin --- Precision@k, Recall@k, nDCG@k, MRR, MAP --- trên tập có nhãn
+        (xem mục sau).
+\end{itemize}
+
+% =====================================================================
+\section{Đề xuất hướng nghiên cứu khoa học}
+% =====================================================================
+
+\subsection{Câu hỏi nghiên cứu}
+
+\begin{enumerate}[leftmargin=1.5em]
+  \item \textbf{RQ1 --- Giá trị của việc tách theo section:} xếp hạng theo multi-vector
+        từng section có tốt hơn nhúng toàn văn (single-vector) và BM25 thuần hay không?
+  \item \textbf{RQ2 --- Pha trộn semantic -- từ khóa:} giá trị $\alpha$ nào tối ưu
+        (\texttt{eq.~\ref{eq:fuse}}) trên dữ liệu tiếng Việt/kép Việt -- Anh?
+  \item \textbf{RQ3 --- Vai trò của LLM ở cuối pipeline:} rerank theo rubric và giải
+        thích evidence-grounded có cải thiện thứ tự xếp hạng và độ tin cậy của người
+        dùng không (đo bằng LLM-as-judge và khảo sát người thật)?
+  \item \textbf{RQ4 --- Chi phí -- hiệu năng:} hàng đợi nền với bỏ qua nhúng lại
+        (\texttt{content\_hash}) tiết kiệm bao nhiêu thời gian/token so với xử lý đồng bộ
+        và xử lý lại toàn bộ?
+\end{enumerate}
+
+\subsection{Ma trận thí nghiệm đề xuất}
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Nhóm biến} & \textbf{Tùy chọn} & \textbf{Chỉ số} \\
+\midrule
+Phương pháp & BM25; single-vector; section-aware (mean/max); chunk max-sim & nDCG@10, MRR \\
+Tham số & $\alpha\in\{0,0.3,0.5,0.7,1.0\}$; pool $P\in\{50,100,200\}$ & nDCG@10, độ trễ \\
+Embedding & bge-m3; multilingual-e5-small; MiniLM đa ngôn ngữ & nDCG@10, thời gian nhúng \\
+Tầng LLM & không rerank; rerank; rerank + explain & MRR, điểm LLM-as-judge (1--5) \\
+Hàng đợi & đồng bộ; nền toàn bộ; nền + skip re-embed & thời gian phản hồi, token/ job \\
+\bottomrule
+\end{tabular}
+\caption{Ma trận thí nghiệm (mỗi cấu hình chạy 3 lần, lấy trung bình).}
+\label{tab:exp}
+\end{table}
+
+\subsection{Dữ liệu \& quy trình}
+
+\begin{itemize}[leftmargin=1.2em]
+  \item Bộ dữ liệu công khai (Kaggle: \emph{Resume Dataset}, \emph{Job Descriptions})
+        và dữ liệu nội bộ đã có sẵn pipeline đồng bộ từ PostgreSQL sang Chroma;
+        yêu cầu tối thiểu 500 cặp CV--JD có nhãn ``phù hợp / không phù hợp''.
+  \item Chia $70/10/20$ (train/dev/test); tham số $\alpha$, pool, ngưỡng lọc ràng buộc
+        được tinh chỉnh trên dev, chỉ chốt một lần trên test.
+  \item Đánh giá con người: 3--5 người đánh giá top-10 gợi ý theo thang 1--5 cho
+        \emph{mức độ phù hợp} và \emph{mức độ hữu ích của phần giải thích}.
+\end{itemize}
+
+\subsection{Lộ trình 12 tuần (đề xuất)}
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}clp{9.4cm}@{}}
+\toprule
+\textbf{Tuần} & \textbf{Giai đoạn} & \textbf{Nội dung} \\
+\midrule
+1--2   & Chuẩn bị   & Đọc tài liệu, dựng bộ dữ liệu có nhãn, hoàn tất baseline BM25 \\
+3--5   & Thí nghiệm & Chạy section-aware vs single-vector (RQ1), tinh chỉnh $\alpha$ (RQ2) \\
+6--8   & LLM        & Thí nghiệm rerank + explain, đánh giá LLM-as-judge (RQ3) \\
+9--10  & Hệ thống   & Đo chi phí hàng đợi vs đồng bộ, đo độ trễ đầu-cuối (RQ4) \\
+11--12 & Viết       & Viết báo cáo, vẽ biểu đồ, chuẩn bị slide thuyết trình \\
+\bottomrule
+\end{tabular}
+\caption{Lộ trình nghiên cứu đề xuất.}
+\label{tab:timeline}
+\end{table}
+
+\subsection{Rủi ro \& biện pháp}
+
+\begin{table}[htbp]
+\centering\small
+\begin{tabular}{@{}lp{9.6cm}@{}}
+\toprule
+\textbf{Rủi ro} & \textbf{Biện pháp} \\
+\midrule
+Thiếu dữ liệu có nhãn & Dùng dữ liệu công khai + gán nhãn thủ công theo mẫu rubric; dùng
+                       LLM-assisted labeling rồi kiểm tra chéo 20\% \\
+LLM chấm không nhất quán & Chạy 3 lần, tính đồng thuận (kappa); chốt prompt cố định \\
+Ollama/BGE-M3 chậm trên CPU & Giữ worker 1 thread, đo riêng từng bước, dùng pool nhỏ; nếu
+                       cần chuyển sang GPU/API embedding \\
+Kết quả không có ý nghĩa thống kê & Kiểm định Wilcoxon signed-rank giữa các cấu hình \\
+\bottomrule
+\end{tabular}
+\caption{Rủi ro dự kiến.}
+\label{tab:risk}
+\end{table}
+
+\subsection{Tài liệu tham khảo chính}
+
+\begin{itemize}[leftmargin=1.2em, itemsep=2pt]
+  \item Chen, J. et al. (2024). \emph{BGE M3-Embedding: Multi-Lingual, Multi-Functionality,
+        Multi-Granularity Text Embeddings Through Self-Knowledge Distillation}. ACL Findings.
+  \item Robertson, S. \& Zaragoza, H. (2009). \emph{The Probabilistic Relevance Framework:
+        BM25 and Beyond}. Foundations and Trends in IR.
+  \item Karpukhin, V. et al. (2020). \emph{Dense Passage Retrieval for Open-Domain Question
+        Answering}. EMNLP.
+  \item Nogueira, R. \& Cho, K. (2019). \emph{Passage Re-ranking with BERT}. arXiv:1901.04085.
+  \item Zheng, L. et al. (2023). \emph{Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena}.
+        NeurIPS Datasets and Benchmarks.
+  \item Tài liệu thiết kế nội bộ: \texttt{docs/DESIGN\_processing\_queue.md},
+        \texttt{docs/WORKFLOW.md}, \texttt{plan.md} (trong repo).
+\end{itemize}
+
+% =====================================================================
+\section*{Phụ lục: cấu trúc thư mục liên quan}
+% =====================================================================
+\addcontentsline{toc}{section}{Phụ lục: cấu trúc thư mục liên quan}
+
+\begin{verbatim}
+section-aware-cv-job-matching/
+├── apps/ai/                     # AI service (FastAPI)
+│   ├── app/
+│   │   ├── main.py              # lifespan, worker thread, /healthz, /readyz
+│   │   ├── routes.py            # 17 endpoint (analyze-cv, /internal/*)
+│   │   ├── schemas.py           # Pydantic models
+│   │   ├── security.py          # API key + fail-closed
+│   │   ├── text.py              # PDF/DOCX/OCR, magic bytes, làm sạch
+│   │   ├── llm.py               # client Ollama (retry, timeout)
+│   │   ├── embeddings.py        # BGE-M3 (+ MockEmbedder cho test)
+│   │   ├── normalize.py         # chuẩn hoá CV/JD -> payload
+│   │   ├── recommend.py         # xếp hạng hybrid, index, explain
+│   │   ├── explain.py           # giải thích + rerank bằng LLM
+│   │   ├── index_store.py       # payload JSONL cạnh Chroma
+│   │   └── processing/          # hang doi nen
+│   │       ├── store.py         # SQLite + may trang thai job
+│   │       ├── pipeline.py      # 4 buoc EXTRACTING -> FINALIZING
+│   │       └── worker.py        # thread nen, retry, backoff, stale
+│   ├── tests/                   # 135 test pytest
+│   └── .env.example
+├── src/cvjd/                    # thu vien loi (chay duoc tu CLI)
+│   ├── schema.py, io.py
+│   ├── data/                    # payload, preprocessing
+│   ├── models/                  # bm25, chunking, embedding, matching
+│   ├── ranking/                 # engine, hybrid, structured, constraints
+│   ├── retrieval/               # retriever
+│   └── storage/                 # chroma, postgres, outbox
+└── docs/
+    ├── DESIGN_processing_queue.md
+    ├── WORKFLOW.md
+    ├── kien_truc_he_thong.tex   # tai lieu nay (chi \input so do)
+    └── so_do/                   # 10 so do TikZ tach rieng
+        ├── fig01_tong_the.tex … fig07_vector_theo_section.tex
+        ├── fig08a_luong_day_du.tex       # luong day du: upload -> tra ket qua
+        ├── fig08_luong_ghep_cap.tex      # 4 buoc trong phan ghep cap
+        ├── fig09_hai_chieu.tex           # jd2cv vs cv2jd
+        ├── build_png.py         # sinh PNG cho tung so do
+        ├── png/                 # anh PNG da sinh (200 dpi)
+        └── _build/              # PDF trung gian (xoa duoc)
+\end{verbatim}
+
+\end{document}

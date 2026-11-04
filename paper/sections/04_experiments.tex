@@ -1,0 +1,39 @@
+\section{Experimental Setup}
+
+\subsection{Datasets and Annotation Protocols}
+To rigorously assess the generalizability and robustness of the proposed matching architecture without risk of insular evaluation, experiments are conducted across \textbf{two distinct benchmarks}:
+
+\begin{enumerate}
+    \item \textbf{Frevia-Bench (Bilingual Production Benchmark)}: Extracted from the Frevia recruitment platform, comprising $169$ anonymized freelancer CVs and $210$ real-world project descriptions (JDs) in Vietnamese and English. To model realistic multilingual platform behavior where early database seeds are often skewed toward English technical documentation, a structured subset of documents was translated into Vietnamese and code-mixed representations using neural machine translation followed by manual validation by bilingual recruitment specialists. Relevance judgments ($\mathcal{Q}_{rels}$) span $47$ standard queries ($27$ JD $\rightarrow$ CV and $20$ CV $\rightarrow$ JD) across a $4$-level rubric:
+    \begin{itemize}
+        \item \textbf{Grade 3 (Highly Relevant)}: Strong skill coverage ($\ge 75\%$), exact domain alignment, and verified experience compliance.
+        \item \textbf{Grade 2 (Relevant)}: Moderate skill coverage ($45\%$--$74\%$) or transferable domain experience.
+        \item \textbf{Grade 1 (Partially Relevant)}: Low skill overlap ($20\%$--$44\%$) or secondary skill adjacency.
+        \item \textbf{Grade 0 (Irrelevant)}: Disjoint technical domain or conflicting seniority.
+    \end{itemize}
+    
+    Table~\ref{tab:lang_dist} details the linguistic composition of Frevia-Bench. A document is categorized as \textit{Code-Mixed} if informative tokens from both English and Vietnamese each constitute at least $20\%$ of total language tokens ($\rho_{vi} \ge 0.20$ and $\rho_{en} \ge 0.20$); otherwise, it is categorized as purely Vietnamese ($\rho_{vi} \ge 0.80$) or English ($\rho_{en} \ge 0.80$).
+
+    \input{tables/tab_language_distribution.tex}
+
+    \item \textbf{Public Benchmark (\texttt{resume-job-description-fit})}: To provide an independent, un-biased external validation and eliminate concerns of circularity, we evaluate on the public benchmark by \cite{huggingface_resume_fit} comprising $1,759$ test candidate-job pairs spanning $71$ unique job queries and $477$ candidate resumes. Relevance ground-truth is independently categorized into $3$ tiers: \textit{No Fit} (Grade 0), \textit{Potential Fit} (Grade 1), and \textit{Good Fit} (Grade 2).
+\end{enumerate}
+
+\subsection{Baseline Configurations}
+We benchmark eight distinct algorithmic variants:
+\begin{enumerate}
+    \item \textbf{Baseline 1 (BM25 / TF-IDF)}: Lexical retrieval using Okapi BM25 and sublinear TF-IDF term weighting. To guarantee a fair baseline for Vietnamese text, raw text is normalized to Unicode NFC and segmented into compound words using \texttt{pyvi} (\textit{e.g.}, ``lap\_trinh\_vien'', ``kinh\_nghiem'') alongside bilingual character tokenization.
+    \item \textbf{Baseline 2 (Single-Vector)}: Dense bi-encoder Cosine similarity over the full document embedding $\mathbf{v}_{full}$.
+    \item \textbf{Baseline 3 (Chunk Max-Sim)}: Documents segmented into overlapping 64-token chunks; score computed via maximum pairwise token similarity.
+    \item \textbf{Baseline 4 (Cross-Encoder)}: Deep cross-attention scoring via \texttt{ms-marco-MiniLM-L-6-v2}.
+    \item \textbf{Section-Aware (Fixed)}: Same-named section matching with mean aggregation.
+    \item \textbf{Section-Aware (Cross)}: Cross-section maximal pairing with mean aggregation.
+    \item \textbf{Section-Aware (Weighted)}: Cross-section pairing with non-uniform domain weights.
+    \item \textbf{Hybrid \& Full Cascade}: Hybrid fusion ($\alpha \cdot S_{sem} + (1-\alpha) \cdot S_{rules}$) followed by top-$K$ local LLM reranking.
+\end{enumerate}
+
+\subsection{Evaluation Metrics and Significance Testing}
+Following standard TREC and RecSys conventions, we report \textbf{nDCG@5}, \textbf{nDCG@10}, Mean Reciprocal Rank (\textbf{MRR}), Mean Average Precision (\textbf{MAP}), \textbf{Recall@10}, and Spearman rank correlation ($\rho$). To verify that performance gains are statistically meaningful and not artifacts of query sampling variance, pairwise differences are evaluated via two-tailed \textbf{paired $t$-tests} and \textbf{Wilcoxon signed-rank tests} at significance level $\alpha = 0.01$. We further report $95\%$ empirical confidence intervals derived from $1,000$ bootstrap resamples.
+
+\subsection{Reproducibility and Execution Environment}
+Experiments execute entirely on standard commodity hardware (Intel Core i7 CPU, 16\,GB RAM) without requiring GPU accelerators. Dense representations are produced via \texttt{BAAI/bge-m3} ($1024$-d) and \texttt{all-MiniLM-L6-v2} ($384$-d). Vector indexing is handled by ChromaDB (HNSW, space=cosine, $M=16, efConstruction=100$). The local LLM reranker utilizes Qwen 4B / DeepSeek via Ollama with greedy decoding ($T=0$) enforcing strict JSON schemas.

@@ -1,0 +1,37 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{0.96\textwidth}{!}{%
+\begin{tikzpicture}[
+    font=\small,
+    inb/.style = {draw=cblue, line width=0.9pt, rounded corners=5pt, fill=cbluel,
+                  minimum width=3.0cm, minimum height=1.0cm, align=center, inner sep=5pt},
+    outb/.style = {draw=cgreen, line width=0.9pt, rounded corners=5pt, fill=cgreenl,
+                  minimum width=3.4cm, minimum height=1.0cm, align=center, inner sep=5pt},
+    mid/.style = {draw=corange, line width=0.9pt, rounded corners=5pt, fill=corangel,
+                  minimum width=4.4cm, minimum height=1.6cm, align=center, inner sep=5pt},
+    fa/.style = {-{Stealth[length=2.4mm]}, thick},
+    fl/.style = {font=\footnotesize, align=center, inner sep=2pt},
+  ]
+
+  % -------- chieu 1 --------
+  \node[inb]  (i1) at (0,0)     {\textbf{Một tin tuyển dụng}};
+  \node[mid]  (m1) at (5.4,0)   {\textbf{Hệ thống tìm \& chấm điểm}\\công thức giống nhau\\cho cả hai chiều};
+  \node[outb] (o1) at (11.0,0)  {\textbf{Danh sách CV}\\\small phù hợp nhất};
+
+  % -------- chieu 2 --------
+  \node[inb]  (i2) at (0,-3.0)  {\textbf{Một CV}};
+  \node[outb] (o2) at (11.0,-3.0) {\textbf{Danh sách tin tuyển dụng}\\\small phù hợp nhất};
+
+  \draw[fa] (i1) -- node[fl,above]{\texttt{jd2cv}} (m1);
+  \draw[fa] (m1) -- (o1);
+  \draw[fa] (i2) -- (m1);
+  \draw[fa] (m1) -- (o2);
+
+  % -------- ghi chu --------
+  \node[fl, text=cgray] at (5.4,-4.3)
+        {Chỉ khác nhau ở \textbf{vai trò}: tin tuyển dụng luôn là ``bên yêu cầu'', CV luôn là ``bên đáp ứng''.};
+\end{tikzpicture}}
+\caption{Hai chiều ghép cặp dùng chung một cách tính điểm: một tin tuyển dụng đi tìm
+CV, và một CV đi tìm tin tuyển dụng.}
+\label{fig:bidirectional}
+\end{figure}

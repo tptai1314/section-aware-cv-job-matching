@@ -3,17 +3,34 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 from typing import Dict, List, Sequence, Tuple
 
 from rank_bm25 import BM25Okapi
 
+try:
+    from pyvi import ViTokenizer
+except ImportError:
+    ViTokenizer = None
+
 from ..schema import Document
 
-_TOKEN_RE = re.compile(r"[a-z0-9]+")
+_TOKEN_RE = re.compile(
+    r"[a-z0-9àáảãạăằắẳẵặâầấẩẫậèéẻẽẹêềếểễệìíỉĩịòóỏõọôồốổỗộơờớởỡợùúủũụưừứửữựỳýỷỹỵđ_]+",
+    re.I,
+)
 
 
 def tokenize(text: str) -> List[str]:
-    return _TOKEN_RE.findall(text.lower())
+    if not text:
+        return []
+    norm_text = unicodedata.normalize("NFC", text)
+    if ViTokenizer is not None:
+        try:
+            norm_text = ViTokenizer.tokenize(norm_text)
+        except Exception:
+            pass
+    return _TOKEN_RE.findall(norm_text.lower())
 
 
 class BM25Ranker:

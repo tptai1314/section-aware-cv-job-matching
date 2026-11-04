@@ -1,0 +1,62 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    font=\small,
+    st/.style = {draw=cblue, line width=0.9pt, rounded corners=5pt, fill=cbluel,
+                 text width=2.9cm, minimum height=1.9cm, align=center, inner sep=4pt},
+    ll/.style = {draw=cpurple, line width=0.9pt, rounded corners=5pt, fill=cpurplel,
+                 text width=2.9cm, minimum height=1.9cm, align=center, inner sep=4pt},
+    db/.style = {draw=corange, line width=0.9pt, rounded corners=5pt, fill=corangel,
+                 text width=2.9cm, minimum height=1.9cm, align=center, inner sep=4pt},
+    mm/.style = {draw=cgreen, line width=1.0pt, rounded corners=5pt, fill=cgreenl,
+                 text width=2.9cm, minimum height=1.9cm, align=center, inner sep=4pt},
+    fa/.style = {-{Stealth[length=2.6mm]}, thick},
+    fl/.style = {font=\scriptsize, align=center, inner sep=2pt, text=cgray},
+  ]
+
+  % ================== HANG 1: xu ly tai lieu ==================
+  \node[st] (up) at (0,0)
+        {\textbf{1. Tải lên}\\người dùng gửi\\CV / tin tuyển dụng\\(PDF, DOCX, chữ)};
+  \node[st] (ex) at (4.0,0)
+        {\textbf{2. Trích xuất chữ}\\đọc nội dung file:\\PDF, DOCX,\\ảnh scan thì OCR};
+  \node[ll] (pa) at (8.0,0)
+        {\textbf{3. Phân tích bằng AI}\\máy đọc chữ, rút ra\\kỹ năng, kinh nghiệm,\\học vấn, tóm tắt\dots};
+  \node[ll] (no) at (12.0,0)
+        {\textbf{4. Chuẩn hoá}\\sửa ngày tháng,\\bỏ trùng, kiểm tra\\dẫn chứng};
+
+  % ================== HANG 2: index + matching ==================
+  \node[st] (se) at (0,-4.4)
+        {\textbf{5. Tách thành phần}\\kỹ năng / kinh nghiệm\\/ học vấn / tóm tắt\\+ toàn văn};
+  \node[ll] (em) at (4.0,-4.4)
+        {\textbf{6. Chuyển thành vector}\\mỗi phần $\to$ một dãy số\\đại diện cho ý nghĩa\\(BGE-M3)};
+  \node[db] (ch) at (8.0,-4.4)
+        {\textbf{7. Lưu vào kho vector}\\một tài liệu $\to$\\nhiều vector, kèm\\trạng thái \& chủ sở hữu};
+  \node[mm] (rc) at (12.0,-4.4)
+        {\textbf{8. Ghép cặp}\\so từng phần,\\cộng điểm, xếp hạng\\$\to$ trả kết quả};
+
+  % ================== canh noi ==================
+  \draw[fa] (up) -- (ex);
+  \draw[fa] (ex) -- (pa);
+  \draw[fa] (pa) -- (no);
+  \draw[fa] (no.south) -- ++(0,-0.6) -- (-2.0,-2.2) -- (-2.0,-3.8) -- (up.south |- 0,-3.8) -- (se.west);
+  \draw[fa] (se) -- (em);
+  \draw[fa] (em) -- (ch);
+  \draw[fa] (ch) -- (rc);
+
+  % ================== nhan hai giai doan ==================
+  \node[fl, text=cblue] at (6.0,1.15)
+        {\textbf{Giai đoạn 1 --- xử lý tài liệu (chỉ làm một lần, khi tài liệu mới được tải lên)}};
+  \node[fl, text=cgreen] at (6.0,-3.25)
+        {\textbf{Giai đoạn 2 --- ghép cặp (làm mỗi khi cần tìm ứng viên)}};
+
+  % ================== ghi chu duoi ==================
+  \node[fl] at (6.0,-6.0)
+        {Bước 1--7 biến văn bản thô thành các vector đã lưu sẵn;
+         bước 8 dùng lại các vector đó để tìm ứng viên phù hợp.};
+\end{tikzpicture}}
+\caption{Luồng đầy đủ từ khi tài liệu được tải lên đến khi ghép cặp. Giai đoạn~1
+(bước 1--7) xử lý và lưu trữ tài liệu một lần; giai đoạn~2 (bước 8) dùng lại dữ liệu đã
+lưu để ghép cặp và trả kết quả.}
+\label{fig:fullflow}
+\end{figure}

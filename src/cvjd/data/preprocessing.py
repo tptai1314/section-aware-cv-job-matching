@@ -3,20 +3,27 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 from typing import Dict, List, Optional
 
 from ..schema import Document, Section
 
 _HEADING_RULES = [
     ("summary", re.compile(
-        r"^(?:tóm tắt(?: bản thân)?|summary|profile|professional summary)$", re.I)),
+        r"^(?:tóm tắt(?: bản thân)?|tom tat(?: ban than)?|giới thiệu(?: bản thân)?|gioi thieu(?: ban than)?"
+        r"|mục tiêu(?: nghề nghiệp)?|muc tieu(?: nghe nghiep)?|thông tin chung|thong tin chung"
+        r"|về tôi|ve toi|summary|profile|professional summary|about me|objective)$", re.I)),
     ("skills", re.compile(
-        r"^(?:kỹ năng(?: chuyên môn)?|skills?|technical skills|chuyên môn)$", re.I)),
+        r"^(?:kỹ năng(?: chuyên môn)?|ky nang(?: chuyen mon)?|chuyên môn|chuyen mon|năng lực|nang luc"
+        r"|skills?|technical skills|chuyên môn|core skills|core competencies|expertise|tech skills)$", re.I)),
     ("experience", re.compile(
-        r"^(?:kinh nghiệm(?: làm việc)?|experiences?|work experiences?"
-        r"|employment(?: history)?)$", re.I)),
+        r"^(?:kinh nghiệm(?: làm việc)?|kinh nghiem(?: lam viec)?|lịch sử (?:công tác|làm việc)"
+        r"|lich su (?:cong tac|lam viec)|quá trình làm việc|qua trinh lam viec"
+        r"|kinh nghiệm thực tế|kinh nghiem thuc te|dự án đã làm|du an da lam"
+        r"|experiences?|work experiences?|employment(?: history)?|work history)$", re.I)),
     ("education", re.compile(
-        r"^(?:học vấn|trình độ học vấn|education|academic background)$", re.I)),
+        r"^(?:học vấn|hoc van|trình độ học vấn|trinh do hoc van|bằng cấp|bang cap|đào tạo|dao tao"
+        r"|trình độ|trinh do|chứng chỉ|chung chi|certifications?|education|academic background|qualifications)$", re.I)),
 ]
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -26,7 +33,7 @@ _MAX_HEADING_WORDS = 8
 
 def normalize_heading(heading: str) -> Optional[str]:
     """Map a heading to a normalized section name, or None when unknown."""
-    cleaned = heading.strip().rstrip(":：").strip()
+    cleaned = unicodedata.normalize("NFC", heading.strip().rstrip(":：").strip())
     if not cleaned:
         return None
     for name, pattern in _HEADING_RULES:

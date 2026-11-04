@@ -1,0 +1,38 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[node distance=0.9cm and 1.1cm, font=\scriptsize]
+  % -------- dải 0: ứng dụng --------
+  \node[svc]   (web)     at (0,0)     {Web / Mobile\\(Next.js)};
+  \node[svc]   (nest)    at (5.5,0)   {API chính\\NestJS + Prisma};
+  \node[infra] (pg)      at (16,0)    {PostgreSQL\\(nguồn gốc)};
+
+  % -------- dải 1: xử lý --------
+  \node[svc]   (api)     at (5.5,-2.3){AI Service\\FastAPI \texttt{/internal/*}};
+  \node[svc]   (worker)  at (7,-4.6)  {Worker nền (1 thread)\\claim $\to$ pipeline $\to$ ghi kết quả};
+  \node[store] (sqlite)  at (12,-4.6) {SQLite\\bảng \texttt{jobs}};
+  \node[store] (sync)    at (16,-2.2) {\texttt{sync\_worker}\\(đọc outbox)};
+
+  % -------- dải 2: hạ tầng --------
+  \node[llm]   (ollama)  at (3.3,-7.4){Ollama\\LLM \texttt{qwen3:4b}};
+  \node[llm]   (bge)     at (7.6,-7.4){Embedder\\BGE-M3 (CPU)};
+  \node[infra] (chroma)  at (12.2,-7.4){ChromaDB\\vector theo section};
+  \node[store] (files)   at (16.2,-7.4){File tạm\\(PDF/DOCX)};
+
+  % -------- luồng chính --------
+  \draw[arr] (web)   -- node[lbl,above]{HTTP/REST} (nest);
+  \draw[arr] (nest)  -- node[lbl,right]{giao job,\\poll trạng thái,\\recommend} (api);
+  \draw[arr,<->] (nest) -- node[lbl,above]{CRUD; outbox} (pg);
+  \draw[arr] (pg)   -- node[lbl,right]{\texttt{outbox.jsonl}} (sync);
+  \draw[arr] (sync) -- node[lbl,right]{index / xoa vector} (chroma);
+  \draw[arr] (api)  -- node[lbl,left]{khoi tao} (worker);
+  \draw[arr] (worker) -- node[lbl,above]{claim, checkpoint, READY} (sqlite);
+  \draw[arr] (worker) -- node[lbl,left]{parse JSON} (ollama);
+  \draw[arr] (worker) -- node[lbl,left]{nhung section} (bge);
+  \draw[arr] (worker) -- node[lbl,below,sloped]{upsert vector} (chroma);
+  \draw[arr] (worker) -- node[lbl,above,sloped]{luu / xoa} (files);
+\end{tikzpicture}}
+\caption{Tổng quan hệ thống: API chính (NestJS) điều phối, AI service (FastAPI) xử lý
+và xếp hạng, dữ liệu vector nằm ở ChromaDB, trạng thái job nằm ở SQLite.}
+\label{fig:tongthe}
+\end{figure}

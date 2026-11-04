@@ -121,6 +121,19 @@ def test_aggregate_max_and_mean():
     assert aggregate({}, "mean") == 0.0
 
 
+def test_aggregate_weighted():
+    components = {"skills": 0.8, "summary": 0.2}
+    # default weights: skills=0.4, summary=0.1 -> total=0.5 -> (0.8*0.4 + 0.2*0.1)/0.5 = 0.68
+    weighted = aggregate(components, "weighted")
+    assert pytest.approx(weighted, abs=1e-4) == 0.68
+    custom = aggregate(
+        components,
+        "weighted",
+        section_weights={"skills": 0.9, "summary": 0.1},
+    )
+    assert pytest.approx(custom, abs=1e-4) == 0.74
+
+
 def test_rank_query_sorted_descending():
     docs = [
         _jd("jd_1", "python sql"),

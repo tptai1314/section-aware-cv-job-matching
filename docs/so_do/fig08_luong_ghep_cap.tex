@@ -1,0 +1,78 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{0.94\textwidth}{!}{%
+\begin{tikzpicture}[
+    node distance=0.85cm and 0.9cm,
+    font=\small,
+    bx/.style = {draw=cblue, line width=0.9pt, rounded corners=5pt, fill=cbluel,
+                   minimum width=6.6cm, minimum height=1.0cm, align=center,
+                   inner sep=5pt},
+    choice/.style = {draw=corange, line width=0.9pt, rounded corners=5pt, fill=corangel,
+                   minimum width=6.6cm, minimum height=1.0cm, align=center,
+                   inner sep=5pt},
+    opt/.style = {draw=cpurple, line width=0.9pt, dashed, rounded corners=5pt, fill=cpurplel,
+                   minimum width=4.4cm, minimum height=0.95cm, align=center,
+                   inner sep=5pt},
+    end/.style = {draw=cgreen, line width=1.0pt, rounded corners=5pt, fill=cgreenl,
+                   minimum width=6.6cm, minimum height=1.0cm, align=center,
+                   inner sep=5pt, font=\small\bfseries},
+    fa/.style = {-{Stealth[length=2.4mm]}, thick},
+    fl/.style = {font=\footnotesize, align=center, inner sep=2pt},
+  ]
+
+  % ---------- luong chinh ----------
+  \node[bx] (in)   at (0,0)
+        {\textbf{Bắt đầu}\\Người dùng tìm ứng viên cho một tin / tìm việc cho một CV};
+
+  \node[choice] (has) at (0,-2.0)
+        {\textbf{Đã có sẵn danh sách ứng viên?}};
+
+  \node[bx] (find) at (-4.4,-4.2)
+        {\textbf{Tìm ứng viên phù hợp}\\đọc dữ liệu đã lưu, lọc những hồ sơ người dùng được xem};
+
+  \node[choice] (score1) at (0,-6.3)
+        {\textbf{Chấm điểm mức độ hợp}};
+
+  \node[bx] (score2) at (0,-8.3)
+        {\textbf{Cộng điểm chi tiết}\\
+         kỹ năng, kinh nghiệm, ngân sách, sở thích};
+
+  \node[bx] (filter) at (0,-10.3)
+        {\textbf{Lọc theo điều kiện bắt buộc}\\chỉ giữ hồ sơ còn hợp lệ và được phép xem};
+
+  \node[end] (out) at (0,-12.3)
+        {\textbf{Xếp hạng và trả kết quả}\\danh sách phù hợp nhất kèm lý do};
+
+  % ---------- nhanh phu ----------
+  \node[bx] (skip) at (4.9,-4.2)
+        {\textbf{Dùng danh sách có sẵn}\\bỏ qua bước tìm kiếm};
+
+  \node[opt] (expl) at (4.9,-10.3)
+        {\textbf{Giải thích bằng AI}\\\emph{(tuỳ chọn)}};
+
+  % ---------- canh noi ----------
+  \draw[fa] (in) -- (has);
+  \draw[fa] (has.west) -- node[fl,above]{Chưa có} ++(-4.4,0) |- (find.north);
+  \draw[fa] (has.east) -- node[fl,above]{Đã có} ++(4.9,0) |- (skip.north);
+  \draw[fa] (find.south) -- ++(0,-0.5) -- (0,-5.35) -- (score1.north);
+  \draw[fa] (skip.south) -- ++(0,-0.5) -- (0,-5.35);
+  \draw[fa] (score1) -- (score2);
+  \draw[fa] (score2) -- (filter);
+  \draw[fa] (filter) -- (out);
+  \draw[fa, dashed] (out.east) -- node[fl,right]{nếu cần} (expl.south);
+
+  % ---------- ghi chu nhanh ----------
+  \node[fl, text=cgray, below=0.08cm of find]
+        {tìm theo nội dung, xếp theo độ giống cao nhất};
+  \node[fl, text=cgray, below=0.08cm of skip]
+        {dùng điểm đã tính trước đó};
+  \node[fl, text=cgray, below=0.08cm of score1]
+        {so nội dung từng phần: kỹ năng với kỹ năng, kinh nghiệm với kinh nghiệm\dots};
+  \node[fl, text=cgray, below=0.08cm of expl]
+        {máy tự viết lý do vì sao hợp};
+\end{tikzpicture}}
+\caption{Luồng ghép cặp CV--việc làm. Hệ thống tìm ứng viên, chấm điểm mức độ hợp,
+lọc theo điều kiện bắt buộc rồi trả về danh sách phù hợp nhất; bước giải thích bằng AI
+là tuỳ chọn.}
+\label{fig:matching}
+\end{figure}

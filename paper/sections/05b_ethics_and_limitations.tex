@@ -1,0 +1,28 @@
+\section{Ethical Considerations, Privacy, and Limitations}
+
+\subsection{Algorithmic Fairness and Quantitative Perturbation Testing}
+Automated recruitment systems carry serious risks of propagating historical discrimination. To empirically audit algorithmic fairness, we implemented demographic sanitization and conducted a controlled \textbf{Counterfactual Perturbation Test} across $30$ representative candidates and $150$ evaluated pairs:
+\begin{itemize}
+    \item \textbf{Gender and Name Invariance}: We systematically swapped Vietnamese and Anglo-Saxon male identifiers (\textit{e.g.}, ``Nguyen Van An'', ``David'') with equivalent female identifiers (\textit{e.g.}, ``Nguyen Thi Mai'', ``Sarah'') across CV summary sections. The resulting score perturbation yielded a Mean Absolute Difference ($\text{MAD}$) of \textbf{$0.000000$} and a $100\%$ top-$5$ rank preservation rate. Because section-aware parsing isolates functional skills and experience vectors, cosmetic personal names exert zero mathematical influence on candidate rankings.
+    \item \textbf{Institutional Prestige Perturbation}: We substituted prestigious university names (\textit{e.g.}, ``Bach Khoa University'', ``National University'') with regional vocational institutions (``Provincial Vocational College''). The resulting matching score shift was strictly \textbf{$0.000000$}, proving that the system prioritizes demonstrable technical competencies over academic pedigree proxies.
+\end{itemize}
+
+\subsection{Privacy Preservation and Data Governance}
+In compliance with international data protection principles (GDPR), candidate data is rigorously safeguarded:
+\begin{itemize}
+    \item \textbf{Pseudonymization and Demographic Stripping}: Primary database identities are detached and replaced with cryptographic surrogate keys (\texttt{doc\_id}). In addition to Anglo-Saxon tokens, all Vietnamese personal identifiers (PII)---including full personal names (\textit{e.g.}, ``Nguyen Van An''), contact phone numbers (\textit{e.g.}, ``09xxxxxxxx''), and local district/ward street addresses---are systematically expunged prior to tokenization and embedding. Embeddings in ChromaDB contain solely functional technical excerpts.
+    \item \textbf{Access Control}: Multi-tenant security rules guarantee that unverified or privately marked candidate profiles are strictly filtered from retrieval scopes.
+    \item \textbf{Right to Erasure}: Atomic deletion cascading propagates across relational stores and vector indexes upon account deletion requests.
+\end{itemize}
+
+\subsection{Human Evaluation and Inter-Annotator Reliability}
+To validate the reliability of the recruitment ground truth, a blinded verification study was conducted on a randomized sample of $50$ candidate-job pairs by two professional IT talent acquisition specialists. Both evaluators are fluent bilingual Vietnamese-English professionals with established recruitment experience in the Vietnamese technology sector. The sample of $50$ pairs was stratified to comprehensively cover all three linguistic categories: monolingual Vietnamese ($\text{VI}\leftrightarrow\text{VI}$), monolingual English ($\text{EN}\leftrightarrow\text{EN}$), and cross-lingual pairings ($\text{VI}\leftrightarrow\text{EN}$). Evaluators independently scored candidate suitability on the $4$-level rubric without visibility into system scores. Inter-annotator agreement yielded a Cohen's kappa of $\kappa = 0.82$, denoting strong consensus. Disputed cases were adjudicated by a third senior recruiter to finalize consensus labels.
+
+\subsection{Limitations and Critical Discussion}
+We openly acknowledge several study limitations:
+\begin{enumerate}
+    \item \textbf{Silver-Standard Label Correlation}: In \texttt{Frevia-Bench}, ground truth relevance partly correlates with explicit skill overlap and experience seniority. While this mirrors genuine industrial recruitment criteria, evaluating on the completely independent external public benchmark (\texttt{resume-job-description-fit}) was essential to confirm that our section-aware representations generalize beyond internal rule definitions.
+    \item \textbf{Monolingual Nature of Public Benchmark}: While the external benchmark (\texttt{resume-job-description-fit}) validates architectural generalizability and domain transfer without circularity, it is an English-only corpus. External multi-center validation for low-resource languages like Vietnamese requires expanding public community benchmarks.
+    \item \textbf{Sample Scale of Language Subgroups}: The sliced linguistic analysis in Table~\ref{tab:bilingual_results} spans $47$ queries ($N=10$ EN, $N=9$ VI, $N=8$ Cross-Lingual). While these partitions yield clear, statistically verifiable directional trends, the subgroup sample sizes remain modest and should be interpreted as an exploratory analysis within a single platform.
+    \item \textbf{Layout Extraction Robustness}: Boundary extraction relies on heading regex heuristics, which achieve $>94\%$ accuracy on structured CVs but may degrade on unconventional artistic layouts or multi-column PDF artifacts.
+\end{enumerate}

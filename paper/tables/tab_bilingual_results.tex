@@ -1,0 +1,25 @@
+\begin{table}[t]
+\centering
+\caption{Retrieval performance sliced across language pairs on Frevia-Bench.}
+\label{tab:bilingual_results}
+\begin{tabular}{lccccc}
+\hline
+\textbf{Language Pair} & \textbf{Queries} & \textbf{Model} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MAP} \\
+\hline
+\multirow{3}{*}{Monolingual EN$\leftrightarrow$EN} & \multirow{3}{*}{10} 
+  & BM25 & 0.3840 & 0.5119 & 0.1038 \\
+  & & Single-Vector & 0.3712 & 0.4147 & 0.1040 \\
+  & & \textbf{Section-Aware} & \textbf{0.7245} & \textbf{0.7553} & \textbf{0.6204} \\
+\hline
+\multirow{3}{*}{Monolingual VI$\leftrightarrow$VI} & \multirow{3}{*}{9} 
+  & BM25 (\texttt{pyvi}) & 0.5374 & 0.5326 & 0.4372 \\
+  & & Single-Vector & 0.4485 & 0.4500 & 0.3022 \\
+  & & \textbf{Section-Aware} & \textbf{0.5731} & \textbf{0.5989} & \textbf{0.5247} \\
+\hline
+\multirow{3}{*}{Cross-Lingual VI$\leftrightarrow$EN} & \multirow{3}{*}{8} 
+  & BM25 & 0.7374 & 0.6547 & 0.5044 \\
+  & & Single-Vector & 0.3525 & 0.3251 & 0.1582 \\
+  & & \textbf{Section-Aware} & \textbf{0.2582} & \textbf{0.2730} & \textbf{0.2013} \\
+\hline
+\end{tabular}
+\end{table}

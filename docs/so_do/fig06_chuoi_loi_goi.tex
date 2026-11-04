@@ -1,0 +1,27 @@
+\begin{figure}[htbp]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[font=\scriptsize]
+  \foreach \i/\nm in {0/{Trình duyệt}, 1/{NestJS API}, 2/{AI Service (HTTP)},
+                      3/{Worker (thread)}, 4/{SQLite}, 5/{Ollama + BGE-M3}}{
+    \node[actor] (a\i) at ({\i*3.7},0) {\nm};
+    \draw[dashed, black!40] (a\i.south) -- ++(0,-11.2);
+  }
+  \draw[arr] ($(a0)+(0,-0.9)$) -- node[lbl,above]{1. \texttt{POST /api/cvs/upload} (PDF + JD text)} ($(a1)+(0,-0.9)$);
+  \draw[arr] ($(a1)+(0,-1.7)$) -- ++(1.35,0) -- node[lbl,right]{2. validate, lưu row CV (đang xử lý)} ++(0,-0.5) -- ++(-1.35,0);
+  \draw[arr] ($(a1)+(0,-2.5)$) -- node[lbl,above]{3. \texttt{POST /internal/jobs} (file, documentId, version)} ($(a2)+(0,-2.5)$);
+  \draw[arr] ($(a2)+(0,-3.3)$) -- ++(-1.35,0) -- node[lbl,left]{4. \texttt{INSERT} job \texttt{PENDING}; lưu file tạm} ++(0,-0.5) -- ++(1.35,0);
+  \draw[arr] ($(a2)+(0,-4.3)$) -- node[lbl,above]{5. \texttt{202 Accepted \{job\_id\}}} ($(a1)+(0,-4.3)$);
+  \draw[arr] ($(a3)+(0,-5.1)$) -- node[lbl,above]{6. \texttt{claim}: \texttt{PENDING}$\to$\texttt{PROCESSING}} ($(a4)+(0,-5.1)$);
+  \draw[arr] ($(a3)+(0,-5.9)$) -- ++(1.35,0) -- node[lbl,right]{7. EXTRACTING: đọc file, làm sạch} ++(0,-0.5) -- ++(-1.35,0);
+  \draw[arr] ($(a3)+(0,-6.9)$) -- node[lbl,above]{8. PARSING: prompt $\to$ JSON (\texttt{qwen3:4b})} ($(a5)+(0,-6.9)$);
+  \draw[arr] ($(a3)+(0,-7.7)$) -- node[lbl,above]{9. EMBEDDING: vector từng section} ($(a5)+(0,-7.7)$);
+  \draw[arr] ($(a3)+(0,-8.5)$) -- node[lbl,above]{10. upsert vector + payload; \texttt{mark\_ready()}} ($(a4)+(0,-8.5)$);
+  \draw[arr] ($(a1)+(0,-9.3)$) -- node[lbl,above]{11. poll \texttt{GET /internal/jobs/\{id\}}} ($(a2)+(0,-9.3)$);
+  \draw[arr] ($(a2)+(0,-10.1)$) -- node[lbl,above]{12. \texttt{\{status: READY, result\}}} ($(a1)+(0,-10.1)$);
+  \draw[arr] ($(a1)+(0,-10.7)$) -- node[lbl,above]{13. hiển thị CV đã xử lý} ($(a0)+(0,-10.7)$);
+\end{tikzpicture}}
+\caption{Chuỗi lời gọi của luồng upload bất đồng bộ. Toàn bộ bước 6--10 chạy nền trong
+cùng process FastAPI; API chính chỉ poll trạng thái.}
+\label{fig:sequence}
+\end{figure}

@@ -13,11 +13,18 @@ from .embedding import Embedder
 FULL_KEY = "_full"
 
 Pairing = Literal["fixed", "cross"]
-Aggregation = Literal["max", "mean"]
+Aggregation = Literal["max", "mean", "weighted"]
 Method = Literal["section_aware", "single_vector", "chunk_max_sim"]
 
 SectionVectors = Dict[str, np.ndarray]
 CorpusEmbeddings = Dict[str, SectionVectors]
+
+DEFAULT_SECTION_WEIGHTS: Dict[str, float] = {
+    "skills": 0.40,
+    "experience": 0.35,
+    "education": 0.15,
+    "summary": 0.10,
+}
 
 
 def embed_corpus(
@@ -82,12 +89,26 @@ def section_components(
     return components
 
 
-def aggregate(components: Dict[str, float], aggregation: Aggregation = "mean") -> float:
+def aggregate(
+    components: Dict[str, float],
+    aggregation: Aggregation = "mean",
+    section_weights: Dict[str, float] | None = None,
+) -> float:
     if not components:
         return 0.0
-    values = list(components.values())
     if aggregation == "max":
-        return float(max(values))
+        return float(max(components.values()))
+    if aggregation == "weighted":
+        weights = section_weights if section_weights is not None else DEFAULT_SECTION_WEIGHTS
+        total_w = 0.0
+        weighted_sum = 0.0
+        for name, score in components.items():
+            w = weights.get(name.lower(), 0.1)
+            weighted_sum += score * w
+            total_w += w
+        if total_w > 0.0:
+            return float(weighted_sum / total_w)
+    values = list(components.values())
     return float(sum(values) / len(values))
 
 
@@ -97,11 +118,16 @@ def score_pair(
     method: Method = "section_aware",
     pairing: Pairing = "cross",
     aggregation: Aggregation = "mean",
+    section_weights: Dict[str, float] | None = None,
 ) -> float:
     if method == "single_vector":
         return cosine(jd_emb[FULL_KEY], cv_emb[FULL_KEY])
     if method == "section_aware":
-        return aggregate(section_components(jd_emb, cv_emb, pairing), aggregation)
+        return aggregate(
+            section_components(jd_emb, cv_emb, pairing),
+            aggregation,
+            section_weights=section_weights,
+        )
     if method == "chunk_max_sim":
         raise ValueError("chunk_max_sim is only supported through rank_all")
     raise ValueError(f"unknown method: {method!r}")
@@ -113,10 +139,21 @@ def rank_query(
     method: Method = "section_aware",
     pairing: Pairing = "cross",
     aggregation: Aggregation = "mean",
+    section_weights: Dict[str, float] | None = None,
 ) -> List[Tuple[str, float]]:
     """Score one JD against all CVs, best first (ties broken by cv_id)."""
     scored = [
-        (cv_id, score_pair(jd_emb, emb, method, pairing, aggregation))
+        (
+            cv_id,
+            score_pair(
+                jd_emb,
+                emb,
+                method,
+                pairing,
+                aggregation,
+                section_weights=section_weights,
+            ),
+        )
         for cv_id, emb in cv_embs.items()
     ]
     return sorted(scored, key=lambda item: (-item[1], item[0]))
@@ -131,12 +168,20 @@ def rank_all(
     aggregation: Aggregation = "mean",
     chunk_max_tokens: int = 64,
     chunk_overlap: int = 16,
+    section_weights: Dict[str, float] | None = None,
 ) -> Dict[str, List[Tuple[str, float]]]:
     if method == "chunk_max_sim":
         return rank_all_chunk(jds, cvs, embedder, chunk_max_tokens, chunk_overlap)
     jd_embeddings = embed_corpus(jds, embedder)
     cv_embeddings = embed_corpus(cvs, embedder)
     return {
-        jd_id: rank_query(jd_embeddings[jd_id], cv_embeddings, method, pairing, aggregation)
+        jd_id: rank_query(
+            jd_embeddings[jd_id],
+            cv_embeddings,
+            method,
+            pairing,
+            aggregation,
+            section_weights=section_weights,
+        )
         for jd_id in jd_embeddings
     }

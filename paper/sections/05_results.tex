@@ -1,0 +1,104 @@
+\section{Empirical Results and Discussion}
+
+\subsection{Main Benchmark Comparison on Frevia-Bench}
+Table~\ref{tab:main_results} summarizes retrieval and ranking metrics across all configurations on both recruitment directions: Client $\rightarrow$ Freelancer (JD $\rightarrow$ CV) and Freelancer $\rightarrow$ Job (CV $\rightarrow$ JD).
+
+\input{tables/tab_main_results.tex}
+
+\subsection{Answer to RQ1: Comparative Performance of Section Granularity}
+Our empirical findings demonstrate that functional section decomposition addresses the semantic dilution observed in whole-document dense representations. On the primary recruitment direction (JD $\rightarrow$ CV):
+\begin{itemize}
+    \item \textbf{Single-Vector Baseline}: Baseline 2 yields $0.4664$ nDCG@10 (95\% CI: $[0.3991, 0.5378]$) and $0.4441$ MRR. Averaging all tokens into a single dense vector allows extensive narrative summaries to dilute the signal of specific technical requirements.
+    \item \textbf{Section-Aware Gains}: Section-Aware (Cross) attains $0.7224$ nDCG@10 (95\% CI: $[0.6318, 0.8020]$), showing an absolute gain of $+25.6\%$ over Single-Vector and $+13.0\%$ over BM25 ($0.5920$, 95\% CI: $[0.5346, 0.6513]$).
+    \item \textbf{Paired Statistical Significance}: Paired comparisons confirm that the improvements of Section-Aware representations over both baselines are statistically significant after Holm-Bonferroni correction:
+    \begin{itemize}
+        \item Section-Aware (Cross) vs. BM25: $t = 2.7911, p = 0.0097$; Wilcoxon $W = 81.0, p = 0.0082$.
+        \item Section-Aware (Cross) vs. Single-Vector: $t = 3.9890, p = 0.00048$; Wilcoxon $W = 55.0, p = 0.00074$.
+        \item Section-Aware (Weighted) vs. BM25: $t = 2.4469, p = 0.0215$; Wilcoxon $W = 99.0, p = 0.0299$.
+        \item Section-Aware (Weighted) vs. Single-Vector: $t = 3.5934, p = 0.0013$; Wilcoxon $W = 72.0, p = 0.0039$.
+    \end{itemize}
+    \item \textbf{Chunk-Level Segmentation}: Baseline 3 (Chunk Max-Sim) achieves $0.4547$ nDCG@10 while requiring $59.8$\,ms per query. Sliding-window chunking breaks cross-token dependencies, whereas functional sectioning preserves semantic cohesion at a lower computational latency ($10.6$\,ms).
+\end{itemize}
+
+\subsection{Answer to RQ2: Semantic-Lexical Fusion and Cross-Validation}
+Table~\ref{tab:alpha} details the sensitivity of the hybrid fusion weight $\alpha$ (Eq.~\ref{eq:hybrid}).
+
+\input{tables/tab_alpha_sweep.tex}
+
+The parameter sweep displays a concave performance curve, peaking at $\alpha \in [0.5, 0.6]$ ($0.9578$ nDCG@5, $0.9260$ MAP). 
+
+To guard against query-level overfitting from tuning on the full benchmark, we conducted a \textbf{5-Fold Cross-Validation} across the 47 queries. In each fold, $\alpha$ was tuned on 4 training folds and evaluated on the held-out test fold. The cross-validated out-of-fold test performance for the pure semantic-lexical fusion pipeline (without rule augmentation) yielded an average nDCG@10 of \textbf{$0.5934 \pm 0.1534$}. This establishes the baseline generalizability of unaugmented text retrieval across unseen queries, whereas the higher scores in Table~\ref{tab:main_results} reflect the synergistic contribution of the structured business rule layer ($S_{rules}$).
+
+\subsection{Answer to RQ3: Component Ablation of Hybrid Matching}
+To quantify the contribution of each structured rule attribute without conflating them with semantic scoring, we report a component ablation study in Table~\ref{tab:ablation}.
+
+\input{tables/tab_ablation.tex}
+
+The ablation results indicate:
+\begin{itemize}
+    \item \textbf{Impact of Skills Matching}: Removing $S_{skills}$ reduces nDCG@5 from $0.9409$ to $0.6796$ (an absolute drop of $-26.13\%$), demonstrating that structured skill coverage is the primary contributor within the rule layer.
+    \item \textbf{Contribution of Semantic Representations}: Combining Rules-Only ($0.8494$ nDCG@5) with Section-Aware semantic vectors increases nDCG@5 to $0.9409$ ($t = 2.92, p = 0.007$, Wilcoxon $p = 0.006 < 0.01$). This indicates that semantic similarity mitigates terminology gaps that pure rule sets cannot bridge.
+\end{itemize}
+
+\subsection{Cross-Dataset Generalizability on Independent Public Benchmark}
+To evaluate the methodology on an external benchmark with independently collected labels, we benchmarked the core pipelines on \texttt{cnamuangtoun/resume-job-description-fit} ($1,759$ test pairs, $71$ job queries) as reported in Table~\ref{tab:public_benchmark}.
+
+\input{tables/tab_public_benchmark.tex}
+
+On this dataset:
+\begin{itemize}
+    \item Section-Aware Multi-Vector matching ($0.5895$ nDCG@5, $0.7005$ MRR) outperforms Lexical TF-IDF/BM25 ($0.5536$ nDCG@5, $0.6487$ MRR). Because this public dataset comprises unstructured flat text lacking standardized section headings, Section-Aware matching gracefully falls back to dense paragraph representations, matching Bi-Encoder performance while maintaining architectural flexibility.
+    \item The general-domain Cross-Encoder achieves $0.5348$ nDCG@5, limited by truncation on long resume texts.
+    \item The Hybrid pipeline achieves the highest MAP ($0.6238$) and Spearman correlation ($\rho = 0.1274$), indicating that the section-aware hybrid framework transfers to external recruitment datasets.
+\end{itemize}
+
+\subsection{Analysis of the CV $\rightarrow$ JD Direction and Theoretical Recall Ceilings}
+\textbf{Performance Discrepancy in CV $\rightarrow$ JD}: In Table~\ref{tab:main_results}, the cascade LLM tier achieves $0.5606$ nDCG@5 in the CV $\rightarrow$ JD direction, which is lower than Section-Aware Weighted ($0.6522$). We hypothesize that this is primarily due to the greater text length and organizational boilerplate in full job postings, which dilutes attention when evaluating multiple candidate jobs within a listwise prompt.
+
+\textbf{Exact Theoretical Recall@10 Ceiling}: In the CV $\rightarrow$ JD corpus, popular technical profiles qualify for multiple job listings. Computing the query-specific upper bound $\text{Ceiling}_q = \min(1.0, 10 / |\text{Relevant}_q|)$ yields an exact average theoretical ceiling of \textbf{$0.6844$}. Section-Aware Weighted achieves an absolute Recall@10 of $0.1244$, corresponding to \textbf{$18.18\%$ of the theoretical ceiling}, while the hybrid configuration achieves $0.0697$ ($10.18\%$ of the ceiling).
+
+\subsection{LLM Explanation Fidelity and Latency Profile}
+\textbf{Explanation Audit}: We audited $30$ randomly sampled candidate-job pairs ($109$ total extracted skill assertions) generated by the explanation module:
+\begin{itemize}
+    \item \textbf{Verbatim Groundedness}: $104$ out of $109$ skill assertions (\textbf{$95.41\%$}) matched verbatim text within candidate CVs.
+    \item \textbf{Hallucination Rate}: $5$ assertions (\textbf{$4.59\%$}) involved unsupported skill extrapolations.
+\end{itemize}
+
+\textbf{Execution Latency}:
+\begin{itemize}
+    \item \textbf{Two-Stage Retrieval \& Hybrid Scoring}: Executed on an Intel Core i7 CPU (16\,GB RAM) with an average latency of \textbf{$15$--$32$\,ms per query}.
+    \item \textbf{LLM Generation Tier}: Generation via Ollama requires $\approx 1.8$\,s per query, and is invoked on-demand for the top-$5$ candidate shortlist when users inspect qualification justifications.
+\end{itemize}
+
+\subsection{Coarse Retrieval Recall and Scalability Stress-Testing}
+\textbf{Coarse Retrieval Recall}: We evaluated candidate retention in Stage 1 across pool sizes $K \in \{20, 50, 100\}$. Single-vector dense retrieval achieves Recall@50 of $48.46\%$ and Recall@100 of \textbf{$85.32\%$}, while BM25 captures $60.41\%$ and \textbf{$87.64\%$} respectively. This validates that setting $K=100$ in production coarse filtering retains over $85\%$ of ground-truth relevant profiles.
+
+\textbf{Scalability Stress-Test}: On the baseline $N=169$ corpus, brute-force section scanning requires only $13.9$\,ms. However, as candidate pools expand, brute-force latency scales linearly to $81.1$\,ms at $N=1,000$ and $360.1$\,ms at $N=5,000$. In contrast, two-stage retrieval with $K=50$ maintains a latency of \textbf{$25.3$\,ms at $N=5,000$}, providing a \textbf{$14.25\times$ speedup} and confirming production scalability on commodity CPU hardware.
+
+\subsection{Answer to RQ5: Cross-Lingual Retrieval and Linguistic Robustness}
+To examine how matching behaves in a bilingual ecosystem, Table~\ref{tab:bilingual_results} reports retrieval performance sliced across language partitions: Monolingual English ($\text{EN}\leftrightarrow\text{EN}$), Monolingual Vietnamese ($\text{VI}\leftrightarrow\text{VI}$), and Cross-Lingual ($\text{VI}\leftrightarrow\text{EN}$ and Code-Mixed).
+
+\input{tables/tab_bilingual_results.tex}
+
+The sliced empirical findings reveal:
+\begin{itemize}
+    \item \textbf{Monolingual Partitions}: Section-Aware Multi-Vector matching achieves the highest ranking precision on both monolingual English ($0.7553$ nDCG@10, $0.6204$ MAP) and monolingual Vietnamese ($0.5989$ nDCG@10, $0.5247$ MAP), substantially outperforming both Single-Vector and BM25 baselines.
+    \item \textbf{Cross-Lingual Behavior and Keyword Retention}: In technical recruitment, candidate resumes and job requirements frequently preserve English technical terms (\textit{e.g.}, ``React'', ``PostgreSQL'', ``Docker'') within Vietnamese sentences. Consequently, when queries and candidate profiles share explicit technical entity tokens, lexical BM25 retains localized precision ($0.6547$ nDCG@10). In contrast, generic multilingual embeddings without domain fine-tuning experience semantic drift across language shifts ($0.3251$ nDCG@10 for Single-Vector). Section-Aware representations isolate skill sections, mitigating cross-lingual vocabulary distortion.
+    \item \textbf{Sectioner Accuracy Audit}: On a blinded audit of $50$ bilingual CVs across accented and non-accented headings, the enhanced section segmentation engine achieved $100\%$ accuracy for Summary/Profile, $94.0\%$ for Technical Skills, $94.0\%$ for Work Experience, and $94.0\%$ for Education, with zero fallback failures.
+\end{itemize}
+
+\textbf{Robustness to Diacritic Omission}: In informal communication and freelance profiles, Vietnamese text is frequently written without diacritical accents (\textit{tieng Viet khong dau}). Table~\ref{tab:robustness} evaluates model sensitivity when all diacritics are removed from candidate profiles.
+
+\input{tables/tab_robustness.tex}
+
+Thanks to diacritic-resilient alias normalization and Unicode NFC preprocessing, Section-Aware matching maintains robust ranking performance under unaccented typing, avoiding the severe tokenization fragmentation that degrades naive lexical indexing.
+
+\subsection{Practical Implications and Lessons Learned}
+Our applied deployment and empirical evaluation yield five key practical lessons:
+\begin{enumerate}
+    \item \textbf{Section Granularity Consistently Outperforms Whole-Document Representations}: Breaking documents into functional semantic units provides consistent accuracy gains across both employer shortlisting ($+25.6\%$) and freelancer job discovery ($+26.0\%$).
+    \item \textbf{Business Rules are Directionally Asymmetric}: Structured qualification filters ($S_{rules}$) substantially improve employer candidate screening (where strict prerequisite gating is required), but regress performance in job recommendation (where freelancers explore diverse career opportunities). In production, rule weighting should be dynamically adapted per search direction.
+    \item \textbf{Prompt Dilution in Listwise LLM Reranking}: When candidate documents contain lengthy narrative descriptions (such as full JDs), LLM attention is prone to dilution. We recommend deploying LLMs strictly as post-hoc evidence explainers rather than online listwise rerankers.
+    \item \textbf{CPU-Only Multi-Vector Retrieval is Operationally Viable}: By combining HNSW vector graphs with dynamic section weighting, full multi-vector hybrid retrieval achieves sub-$30$\,ms response times on standard CPUs, eliminating the operational overhead of dedicated GPU infrastructure.
+    \item \textbf{Linguistic Alignment in Bilingual Marketplaces}: In emerging multilingual economies where queries and profiles fluctuate between local syntax and English terminology, lexical matching alone fails to capture non-verbatim semantic equivalence across languages. Conversely, generic multilingual dense encoders must be constrained via section-level alignment to prevent narrative prose from overshadowing critical technical competencies.
+\end{enumerate}

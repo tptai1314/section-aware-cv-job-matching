@@ -1,0 +1,29 @@
+\section{Introduction}
+
+Digital recruitment and freelance marketplaces are essential drivers of the modern knowledge economy. In emerging markets such as Vietnam, platforms like \textbf{Frevia} connect independent domain professionals with businesses seeking specialized talent. Unlike conventional full-time hiring where standardized job titles often suffice, freelance platforms operate on dynamic, project-based engagements. Consequently, matching must be effective in both directions: shortlisting qualified freelancers for client projects (JD $\rightarrow$ CV) and recommending relevant opportunities to independent workers (CV $\rightarrow$ JD).
+
+Deploying automated matching in production introduces unique practical challenges:
+\begin{enumerate}
+    \item \textbf{Bilingual and Code-Switching Data}: In Vietnam's tech industry, resumes and job specifications heavily mix Vietnamese syntax with English technical terminology (\textit{e.g.}, ``Lap trinh backend voi Golang va Kubernetes'').
+    \item \textbf{Semantic Dilution in Whole Documents}: Resumes span multiple pages containing heterogeneous information. Mapping an entire CV into a single continuous vector (Single-Vector dense retrieval) causes narrative summaries to overshadow sparse but mandatory technical skills.
+    \item \textbf{Operational Resource Constraints}: Commercial freelance platforms operate under strict service-level agreements (SLAs) without the budget for expensive GPU inference clusters. Solutions must run efficiently on commodity multi-core CPUs.
+\end{enumerate}
+
+Rather than proposing complex, unverified neural architectures, this paper adopts an applied engineering and empirical research perspective: we introduce a **production-viable, section-aware multi-vector matching pipeline** tailored for real-world recruitment platforms. By segmenting documents into functional units (skills, work history, education, projects) and aligning them dynamically, the system preserves local requirement signals without fine-tuning proprietary models. We combine multi-vector representations with structured business rules and a post-hoc grounded explanation module powered by a local Large Language Model (LLM).
+
+This study investigates five core \textbf{Research Questions (RQs)}:
+\begin{itemize}
+    \item \textbf{RQ1 (Section Granularity)}: Does functional section-aware multi-vector representation outperform whole-document dense embedding and sliding-window chunking?
+    \item \textbf{RQ2 (Semantic-Lexical Fusion)}: How does the fusion balance $\alpha$ between dense semantic similarity and BM25 lexical precision behave across queries?
+    \item \textbf{RQ3 (Structured Constraint Integration)}: How does hybrid multi-criteria fusion affect retrieval quality in employer vs. job-seeker directions?
+    \item \textbf{RQ4 (Explainability \& Faithfulness)}: Can post-hoc LLM explanations produce verifiable, hallucination-free justifications grounded in candidate records?
+    \item \textbf{RQ5 (Bilingual \& Cross-Lingual Robustness)}: How does matching accuracy generalize across monolingual (EN-EN, VI-VI) versus cross-lingual (VI-EN) pairings, and how resilient is the pipeline to informal unaccented typing?
+\end{itemize}
+
+The measurable contributions of this applied paper are:
+\begin{itemize}
+    \item \textbf{Frevia-Bench Benchmark}: We release a bilingual (English-Vietnamese) recruitment benchmark derived from real platform data, containing $169$ CVs, $210$ JDs, and $47$ test queries with multi-graded relevance, audited by bilingual human recruiters ($\kappa = 0.82$).
+    \item \textbf{Systematic Empirical Findings}: We demonstrate that section-aware representation achieves a $+25.6\%$ nDCG@10 gain over single-vector retrieval ($p < 0.01$). Crucially, we identify a valuable practical insight: while structured rule layers substantially assist client-side candidate shortlisting, they do not benefit freelancer job exploration, which favors pure semantic alignment.
+    \item \textbf{Linguistic \& Cross-Lingual Analysis}: We evaluate performance sliced by language pairs and demonstrate that while pure lexical search (BM25) degrades on cross-lingual pairings, section-aware dense retrieval maintains consistent semantic alignment and exhibits resilience to Vietnamese diacritic omission.
+    \item \textbf{Cost-Effective Production Pipeline}: We document a production pipeline running entirely on commodity CPUs with sub-$32$\,ms query latency and incremental outbox synchronization.
+\end{itemize}

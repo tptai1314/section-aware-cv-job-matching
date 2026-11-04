@@ -10,6 +10,9 @@ import numpy as np
 
 _TOKEN_RE = re.compile(r"[a-z0-9]+")
 
+# BGE-M3: dense 1024-dim, multilingual, up to 8192 tokens (plan.cv.md §10).
+BGE_M3_MODEL_ID = "BAAI/bge-m3"
+
 
 class Embedder(Protocol):
     """Anything that maps a list of texts to an (n, dim) float32 matrix."""
@@ -52,6 +55,7 @@ class SentenceTransformerEmbedder:
         self,
         model_name: str = "sentence-transformers/all-MiniLM-L6-v2",
         device: str = "cpu",
+        trust_remote_code: bool = False,
     ) -> None:
         try:
             from sentence_transformers import SentenceTransformer
@@ -59,7 +63,11 @@ class SentenceTransformerEmbedder:
             raise ImportError(
                 "sentence-transformers is required for SentenceTransformerEmbedder"
             ) from e
-        self.model = SentenceTransformer(model_name, device=device)
+        self.model = SentenceTransformer(
+            model_name, device=device, trust_remote_code=trust_remote_code
+        )
+        if hasattr(self.model, "max_seq_length") and self.model.max_seq_length > 512:
+            self.model.max_seq_length = 512
         getter = getattr(self.model, "get_embedding_dimension", None)
         if getter is None:
             getter = self.model.get_sentence_embedding_dimension
@@ -67,8 +75,11 @@ class SentenceTransformerEmbedder:
 
     def encode(self, texts: Iterable[str]) -> np.ndarray:
         texts = list(texts)
+        if not texts:
+            return np.zeros((0, self.dim), dtype=np.float32)
         vectors = self.model.encode(
             texts,
+            batch_size=64,
             convert_to_numpy=True,
             normalize_embeddings=True,
             show_progress_bar=False,
@@ -80,5 +91,9 @@ def create_embedder(name: str = "mock", **kwargs) -> Embedder:
     if name == "mock":
         return MockEmbedder(**kwargs)
     if name in ("st", "sentence-transformers"):
+        return SentenceTransformerEmbedder(**kwargs)
+    if name in ("bge-m3", "bge"):
+        kwargs.setdefault("model_name", BGE_M3_MODEL_ID)
+        kwargs.setdefault("trust_remote_code", True)
         return SentenceTransformerEmbedder(**kwargs)
     raise ValueError(f"unknown embedder: {name!r}")

@@ -1,0 +1,19 @@
+\begin{figure}[htbp]
+\centering
+\begin{tikzpicture}[node distance=0.9cm, font=\scriptsize]
+  \foreach \i/\nm/\pc in {0/{RECEIVED}/5, 1/{EXTRACTING}/25, 2/{PARSING}/55,
+                          3/{EMBEDDING}/85, 4/{FINALIZING}/95} {
+    \node[box, fill=cbluel, minimum width=2.4cm] (s\i) at ({\i*3.0},0) {\nm\\[1pt]
+          \tiny tiến độ \pc\%};
+  }
+  \draw[arr] (s0) -- (s1); \draw[arr] (s1) -- (s2);
+  \draw[arr] (s2) -- (s3); \draw[arr] (s3) -- (s4);
+  \node[lbl, below=0.25cm of s1, text=cgray]{magic bytes, \texttt{extract\_text}, làm sạch};
+  \node[lbl, below=0.25cm of s2, text=cgray]{prompt $\to$ JSON (LLM)};
+  \node[lbl, below=0.25cm of s3, text=cgray]{nhúng từng section (BGE-M3)};
+  \node[lbl, below=0.25cm of s4, text=cgray]{upsert Chroma + payload, \texttt{mark\_ready()}};
+\end{tikzpicture}
+\caption{Các bước bên trong \texttt{PROCESSING} và mức tiến độ tương ứng được ghi vào
+\texttt{step}/\texttt{progress}.}
+\label{fig:steps}
+\end{figure}
