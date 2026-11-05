@@ -12,18 +12,20 @@ _HEADING_RULES = [
     ("summary", re.compile(
         r"^(?:tóm tắt(?: bản thân)?|tom tat(?: ban than)?|giới thiệu(?: bản thân)?|gioi thieu(?: ban than)?"
         r"|mục tiêu(?: nghề nghiệp)?|muc tieu(?: nghe nghiep)?|thông tin chung|thong tin chung"
-        r"|về tôi|ve toi|summary|profile|professional summary|about me|objective)$", re.I)),
+        r"|về tôi|ve toi|summary|profile|professional summary|about me|objective|professional summary \(tóm tắt\))$", re.I)),
     ("skills", re.compile(
         r"^(?:kỹ năng(?: chuyên môn)?|ky nang(?: chuyen mon)?|chuyên môn|chuyen mon|năng lực|nang luc"
-        r"|skills?|technical skills|chuyên môn|core skills|core competencies|expertise|tech skills)$", re.I)),
+        r"|công nghệ|cong nghe|tech stack|kỹ năng & tech stack|ky nang & tech stack|kỹ năng & required tech"
+        r"|skills?|technical skills|core skills|core competencies|expertise|tech skills)$", re.I)),
     ("experience", re.compile(
         r"^(?:kinh nghiệm(?: làm việc)?|kinh nghiem(?: lam viec)?|lịch sử (?:công tác|làm việc)"
         r"|lich su (?:cong tac|lam viec)|quá trình làm việc|qua trinh lam viec"
-        r"|kinh nghiệm thực tế|kinh nghiem thuc te|dự án đã làm|du an da lam"
-        r"|experiences?|work experiences?|employment(?: history)?|work history)$", re.I)),
+        r"|kinh nghiệm thực tế|kinh nghiem thuc te|dự án đã làm|du an da lam|kinh nghiệm \(work experience\)"
+        r"|experiences?|work experiences?|employment(?: history)?|work history|exp|work exp)$", re.I)),
     ("education", re.compile(
         r"^(?:học vấn|hoc van|trình độ học vấn|trinh do hoc van|bằng cấp|bang cap|đào tạo|dao tao"
-        r"|trình độ|trinh do|chứng chỉ|chung chi|certifications?|education|academic background|qualifications)$", re.I)),
+        r"|trình độ|trinh do|chứng chỉ|chung chi|trình độ học vấn \(education\)"
+        r"|certifications?|education|academic background|qualifications|edu|certs?)$", re.I)),
 ]
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")

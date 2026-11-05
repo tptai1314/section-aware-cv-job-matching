@@ -96,3 +96,22 @@ def test_rank_documents_uses_profiles_and_components():
     ranked = HybridRanker().rank_documents(job_doc, results, {"cv_x": cv_doc})
     assert ranked[0].doc_id == "cv_x"
     assert ranked[0].section_components == {"skills": 0.8}
+
+
+def test_rank_with_calibration():
+    from cvjd.ranking.hybrid import CandidateProfile, JobRequirement, SkillItem
+
+    req = JobRequirement(required_skills=[SkillItem("React")])
+    c1 = CandidateProfile(skills=[SkillItem("React")])
+    c2 = CandidateProfile(skills=[SkillItem("React")])
+
+    ranker = HybridRanker()
+    ranked = ranker.rank(
+        req,
+        [("c1", 0.70, c1), ("c2", 0.72, c2)],
+        calibrate_scores=True,
+    )
+    cand_dict = {c.doc_id: c for c in ranked}
+    assert cand_dict["c2"].semantic == 1.0
+    assert cand_dict["c1"].semantic == 0.0
+

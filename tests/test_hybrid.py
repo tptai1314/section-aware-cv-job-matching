@@ -149,3 +149,53 @@ def test_profile_and_job_from_document_bridge():
     req = job_from_document(jd)
     assert req.required_skills[0].name == "react"
     assert req.min_years_experience == 2.0
+
+
+def test_normalize_skill_vietnamese_english_aliases():
+    assert normalize_skill("cơ sở dữ liệu") == "database"
+    assert normalize_skill("co so du lieu") == "database"
+    assert normalize_skill("kỹ sư phần mềm") == "software engineer"
+    assert normalize_skill("lập trình backend") == "backend development"
+    assert normalize_skill("phần mềm") == "software"
+    assert normalize_skill("ci cd") == "ci/cd"
+    assert normalize_skill("Docker Container") == "docker"
+    assert normalize_skill("Tailwind CSS") == "tailwind css"
+
+
+def test_skills_score_must_have_penalty():
+    job = JobRequirement(
+        required_skills=[SkillItem(name="React"), SkillItem(name="Node.js"), SkillItem(name="Postgres"), SkillItem(name="Docker")]
+    )
+    # Candidate matches 1 out of 4 (req = 0.25 < 0.5)
+    cand = CandidateProfile(skills=[SkillItem(name="React")])
+    score_normal = skills_score(cand, job, must_have_penalty=False)
+    score_penalized = skills_score(cand, job, must_have_penalty=True)
+    assert score_normal == 0.8 * 0.25 + 0.2 * 0.25  # 0.25
+    assert score_penalized == score_normal * 0.25  # 0.0625
+    assert score_penalized < score_normal
+
+
+def test_hybrid_score_renormalize_missing():
+    # Job only has skills and semantic, no budget/preferences/experience requirements
+    job = JobRequirement(
+        required_skills=[SkillItem(name="React")],
+        semantic_base=0.8,
+        min_years_experience=None,
+        budget=None,
+        preferences={},
+    )
+    cand = CandidateProfile(
+        skills=[SkillItem(name="React")],
+        years_experience=None,
+        budget=None,
+        preferences={},
+    )
+    # Default without renormalize: budget(1.0) and pref(1.0) inject arbitrary weight
+    out_default = hybrid_score(job, cand, renormalize_missing=False)
+    assert "overall" in out_default
+
+    # With renormalize_missing=True: active weights are semantic (0.4) and skills (0.3)
+    out_renorm = hybrid_score(job, cand, renormalize_missing=True)
+    # Semantic=0.8, skills=1.0 -> (0.4*0.8 + 0.3*1.0) / (0.4 + 0.3) = 0.62 / 0.7 = 0.8857
+    expected = (0.40 * 0.8 + 0.30 * 1.0) / (0.40 + 0.30)
+    assert abs(out_renorm["overall"] - expected) < 1e-6

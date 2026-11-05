@@ -413,14 +413,15 @@ Code-Mixed (VI+EN) & {cv_counts['code_mixed']} & {cv_counts['code_mixed']/169*10
     cv_embs = embed_corpus(bilingual_cvs.values(), embedder)
     jd_embs = embed_corpus(bilingual_jds.values(), embedder)
 
-    bm25_cv = BM25Ranker(list(bilingual_cvs.values()))
+    bm25_cv = BM25Ranker(list(bilingual_cvs.values()), tokenize_mode="pyvi")
+    bm25_ws_cv = BM25Ranker(list(bilingual_cvs.values()), tokenize_mode="whitespace")
 
     # 4. Sliced Evaluation by Language Pairs (JD -> CV queries)
     jd2cv_qrels = qrels_data["jd2cv"]
     results_by_slice = {
-        "en_en": {"bm25": [], "single": [], "section": []},
-        "vi_vi": {"bm25": [], "single": [], "section": []},
-        "cross": {"bm25": [], "single": [], "section": []},
+        "en_en": {"bm25": [], "bm25_ws": [], "single": [], "section": []},
+        "vi_vi": {"bm25": [], "bm25_ws": [], "single": [], "section": []},
+        "cross": {"bm25": [], "bm25_ws": [], "single": [], "section": []},
     }
 
     vi_jd_qids = {"jd_1", "jd_4", "jd_11", "jd_216", "jd_217", "jd_218", "jd_220", "jd_221", "jd_223"}
@@ -438,11 +439,17 @@ Code-Mixed (VI+EN) & {cv_counts['code_mixed']} & {cv_counts['code_mixed']/169*10
         else:
             q_slice = "cross"
 
-        # 1. BM25
+        # 1a. BM25 (pyvi)
         ranked_bm25 = [cid for cid, _ in bm25_cv.rank(q_doc)]
         ndcg5_bm25 = ndcg_at_k(ranked_bm25, q_qrels, k=5)
         ndcg10_bm25 = ndcg_at_k(ranked_bm25, q_qrels, k=10)
         map_bm25 = average_precision(ranked_bm25, q_qrels, threshold=2)
+
+        # 1b. BM25 (whitespace naive baseline)
+        ranked_bm25_ws = [cid for cid, _ in bm25_ws_cv.rank(q_doc)]
+        ndcg5_bm25_ws = ndcg_at_k(ranked_bm25_ws, q_qrels, k=5)
+        ndcg10_bm25_ws = ndcg_at_k(ranked_bm25_ws, q_qrels, k=10)
+        map_bm25_ws = average_precision(ranked_bm25_ws, q_qrels, threshold=2)
 
         # 2. Single-Vector Dense
         scored_single = [
@@ -465,6 +472,7 @@ Code-Mixed (VI+EN) & {cv_counts['code_mixed']} & {cv_counts['code_mixed']/169*10
         map_sec = average_precision(ranked_sec, q_qrels, threshold=2)
 
         results_by_slice[q_slice]["bm25"].append((ndcg5_bm25, ndcg10_bm25, map_bm25))
+        results_by_slice[q_slice]["bm25_ws"].append((ndcg5_bm25_ws, ndcg10_bm25_ws, map_bm25_ws))
         results_by_slice[q_slice]["single"].append((ndcg5_single, ndcg10_single, map_single))
         results_by_slice[q_slice]["section"].append((ndcg5_sec, ndcg10_sec, map_sec))
 
@@ -478,6 +486,10 @@ Code-Mixed (VI+EN) & {cv_counts['code_mixed']} & {cv_counts['code_mixed']/169*10
         bm25_n10 = float(np.mean([x[1] for x in data["bm25"]]))
         bm25_map = float(np.mean([x[2] for x in data["bm25"]]))
 
+        bm25_ws_n5 = float(np.mean([x[0] for x in data["bm25_ws"]]))
+        bm25_ws_n10 = float(np.mean([x[1] for x in data["bm25_ws"]]))
+        bm25_ws_map = float(np.mean([x[2] for x in data["bm25_ws"]]))
+
         single_n5 = float(np.mean([x[0] for x in data["single"]]))
         single_n10 = float(np.mean([x[1] for x in data["single"]]))
         single_map = float(np.mean([x[2] for x in data["single"]]))
@@ -489,11 +501,13 @@ Code-Mixed (VI+EN) & {cv_counts['code_mixed']} & {cv_counts['code_mixed']/169*10
         slice_summary[slc] = {
             "n_queries": n_queries,
             "bm25_ndcg5": bm25_n5, "bm25_ndcg10": bm25_n10, "bm25_map": bm25_map,
+            "bm25_ws_ndcg5": bm25_ws_n5, "bm25_ws_ndcg10": bm25_ws_n10, "bm25_ws_map": bm25_ws_map,
             "single_ndcg5": single_n5, "single_ndcg10": single_n10, "single_map": single_map,
             "section_ndcg5": sec_n5, "section_ndcg10": sec_n10, "section_map": sec_map,
         }
         print(f"Slice [{slc.upper()}] (N={n_queries}):")
-        print(f"  BM25:          nDCG@5={bm25_n5:.4f}, nDCG@10={bm25_n10:.4f}, MAP={bm25_map:.4f}")
+        print(f"  BM25 (pyvi):   nDCG@5={bm25_n5:.4f}, nDCG@10={bm25_n10:.4f}, MAP={bm25_map:.4f}")
+        print(f"  BM25 (ws):     nDCG@5={bm25_ws_n5:.4f}, nDCG@10={bm25_ws_n10:.4f}, MAP={bm25_ws_map:.4f}")
         print(f"  Single-Vector: nDCG@5={single_n5:.4f}, nDCG@10={single_n10:.4f}, MAP={single_map:.4f}")
         print(f"  Section-Aware: nDCG@5={sec_n5:.4f}, nDCG@10={sec_n10:.4f}, MAP={sec_map:.4f}")
 

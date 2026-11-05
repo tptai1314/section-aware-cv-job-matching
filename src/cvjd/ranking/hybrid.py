@@ -45,11 +45,59 @@ _ALIASES = {
     "angularjs": "angular",
     "k8s": "kubernetes",
     "py": "python",
+    "docker container": "docker",
+    "mongo": "mongodb",
+    "amazon web services": "aws",
+    "google cloud": "gcp",
+    "google cloud platform": "gcp",
+    "ms azure": "azure",
+    "microsoft azure": "azure",
+    "tailwind": "tailwind css",
+    "tailwindcss": "tailwind css",
+    "tailwind.css": "tailwind css",
+    "restful api": "rest api",
+    "restful": "rest api",
+    "restful apis": "rest api",
+    "ci cd": "ci/cd",
+    "cicd": "ci/cd",
     # Ánh xạ Việt - Anh thuật ngữ IT
+    "cơ sở dữ liệu": "database",
+    "co so du lieu": "database",
+    "csdl": "database",
+    "hệ cơ sở dữ liệu": "database management system",
+    "he co so du lieu": "database management system",
+    "hệ quản trị cơ sở dữ liệu": "database management system",
+    "he quan tri co so du lieu": "database management system",
+    "cơ sở dữ liệu quan hệ": "relational database",
+    "co so du lieu quan he": "relational database",
+    "cơ sở dữ liệu phi quan hệ": "nosql database",
+    "co so du lieu phi quan he": "nosql database",
     "lập trình web": "web development",
     "lap trinh web": "web development",
     "phát triển web": "web development",
     "phat trien web": "web development",
+    "lập trình backend": "backend development",
+    "lap trinh backend": "backend development",
+    "phát triển backend": "backend development",
+    "phat trien backend": "backend development",
+    "lập trình frontend": "frontend development",
+    "lap trinh frontend": "frontend development",
+    "phát triển frontend": "frontend development",
+    "phat trien frontend": "frontend development",
+    "lập trình fullstack": "fullstack development",
+    "lap trinh fullstack": "fullstack development",
+    "phát triển fullstack": "fullstack development",
+    "phat trien fullstack": "fullstack development",
+    "kỹ sư phần mềm": "software engineer",
+    "ky su phan mem": "software engineer",
+    "phát triển phần mềm": "software development",
+    "phat trien phan mem": "software development",
+    "phần mềm": "software",
+    "phan mem": "software",
+    "hệ điều hành": "operating system",
+    "he dieu hanh": "operating system",
+    "mạng máy tính": "computer network",
+    "mang may tinh": "computer network",
     "lập trình di động": "mobile development",
     "lap trinh di dong": "mobile development",
     "lập trình mobile": "mobile development",
@@ -57,6 +105,23 @@ _ALIASES = {
     "khoa hoc du lieu": "data science",
     "học máy": "machine learning",
     "hoc may": "machine learning",
+    "học sâu": "deep learning",
+    "hoc sau": "deep learning",
+    "xử lý ngôn ngữ tự nhiên": "natural language processing",
+    "xu ly ngon ngu tu nhien": "natural language processing",
+    "nlp": "natural language processing",
+    "thị giác máy tính": "computer vision",
+    "thi giac may tinh": "computer vision",
+    "điện toán đám mây": "cloud computing",
+    "dien toan dam may": "cloud computing",
+    "quản lý dự án": "project management",
+    "quan ly du an": "project management",
+    "bảo mật thông tin": "information security",
+    "bao mat thong tin": "information security",
+    "an toàn thông tin": "information security",
+    "an toan thong tin": "information security",
+    "an ninh mạng": "cybersecurity",
+    "an ninh mang": "cybersecurity",
     "trí tuệ nhân tạo": "artificial intelligence",
     "tri tue nhan tao": "artificial intelligence",
     "quản trị cơ sở dữ liệu": "database administration",
@@ -158,8 +223,16 @@ def _coverage(skills: Sequence[SkillItem], targets: Sequence[SkillItem]) -> floa
     return min(covered / total, 1.0)
 
 
-def skills_score(cv: CandidateProfile, job: JobRequirement) -> float:
-    """S_skills: 80% bắt buộc + 20% ưu tiên (nếu không có bắt buộc, 100% ưu tiên)."""
+def skills_score(
+    cv: CandidateProfile,
+    job: JobRequirement,
+    must_have_penalty: bool = False,
+) -> float:
+    """S_skills: 80% bắt buộc + 20% ưu tiên (nếu không có bắt buộc, 100% ưu tiên).
+    
+    Khi `must_have_penalty=True`, nếu ứng viên thiếu trên 50% kỹ năng bắt buộc (req < 0.5),
+    áp dụng hệ số phạt nhân tử gamma = req để tránh việc bù đắp bởi tiêu chí phụ (paper §3.4).
+    """
     required = list(job.required_skills)
     optional = list(job.optional_skills)
     if not required and not optional:
@@ -169,7 +242,10 @@ def skills_score(cv: CandidateProfile, job: JobRequirement) -> float:
 
     req = _coverage(cv.skills, required)
     opt = _coverage(cv.skills, optional) if optional else req
-    return REQUIRED_BONUS * req + OPTIONAL_BONUS * opt
+    base = REQUIRED_BONUS * req + OPTIONAL_BONUS * opt
+    if must_have_penalty and req < 0.5:
+        base *= req
+    return float(min(max(base, 0.0), 1.0))
 
 
 def experience_score(cv: CandidateProfile, job: JobRequirement) -> float:
@@ -228,20 +304,50 @@ def hybrid_score(
     job: JobRequirement,
     cv: CandidateProfile,
     weights: dict[str, float] | None = None,
+    renormalize_missing: bool = False,
+    must_have_penalty: bool = False,
 ) -> dict[str, float]:
-    """Trả {overall} + từng component, mỗi component clamp về [0,1]."""
+    """Trả {overall} + từng component, mỗi component clamp về [0,1].
+
+    Khi `renormalize_missing=True`, các tiêu chí không áp dụng (ví dụ cả 2 bên
+    đều không quy định ngân sách hoặc sở thích, hoặc job không yêu cầu kinh nghiệm)
+    sẽ được loại bỏ và tái chuẩn hoá trọng số trên các tiêu chí còn lại thay vì
+    gán điểm mặc định 1.0 làm sai lệch phân phối.
+    """
     w = dict(weights or DEFAULT_WEIGHTS)
     components = {
         "semantic": min(max(float(job.semantic_base), 0.0), 1.0),
-        "skills": skills_score(cv, job),
+        "skills": skills_score(cv, job, must_have_penalty=must_have_penalty),
         "experience": experience_score(cv, job),
         "budget": budget_score(cv, job),
         "preferences": preferences_score(cv, job),
     }
-    overall = sum(w.get(name, 0.0) * score for name, score in components.items())
-    weights_sum = sum(w.values())
-    if weights_sum > 0.0:
-        overall /= weights_sum
+
+    if renormalize_missing:
+        # Xác định các thành phần thực sự có dữ liệu
+        active_keys = ["semantic", "skills"]
+        if job.min_years_experience is not None and job.min_years_experience > 0:
+            active_keys.append("experience")
+        if not (
+            (job.budget is None or (job.budget.min is None and job.budget.max is None))
+            and (cv.budget is None or (cv.budget.min is None and cv.budget.max is None))
+        ):
+            active_keys.append("budget")
+        if bool(job.preferences):
+            active_keys.append("preferences")
+
+        active_w = {k: w.get(k, 0.0) for k in active_keys}
+        total_w = sum(active_w.values())
+        if total_w > 0.0:
+            overall = sum(active_w[k] * components[k] for k in active_keys) / total_w
+        else:
+            overall = components["semantic"]
+    else:
+        overall = sum(w.get(name, 0.0) * score for name, score in components.items())
+        weights_sum = sum(w.values())
+        if weights_sum > 0.0:
+            overall /= weights_sum
+
     return {"overall": float(min(max(overall, 0.0), 1.0)), **components}
 
 

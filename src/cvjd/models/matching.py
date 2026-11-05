@@ -67,10 +67,13 @@ def section_components(
     jd_emb: SectionVectors,
     cv_emb: SectionVectors,
     pairing: Pairing = "cross",
+    renormalize_missing: bool = True,
 ) -> Dict[str, float]:
     """Per-section similarity of one (JD, CV) pair.
 
     fixed: each JD section is compared only with the same-name CV section.
+           When `renormalize_missing=True`, missing sections in CV are omitted
+           so downstream `aggregate` dynamically renormalizes over active matched sections.
     cross: each JD section takes its best match among all CV sections.
     """
     jd_names = [n for n in jd_emb if n != FULL_KEY]
@@ -80,7 +83,10 @@ def section_components(
     for name in jd_names:
         if pairing == "fixed":
             other = cv_emb.get(name)
-            components[name] = cosine(jd_emb[name], other) if other is not None else 0.0
+            if other is not None:
+                components[name] = cosine(jd_emb[name], other)
+            elif not renormalize_missing:
+                components[name] = 0.0
         else:
             components[name] = max(
                 (cosine(jd_emb[name], cv_emb[other]) for other in cv_names),
@@ -119,12 +125,18 @@ def score_pair(
     pairing: Pairing = "cross",
     aggregation: Aggregation = "mean",
     section_weights: Dict[str, float] | None = None,
+    renormalize_missing: bool = True,
 ) -> float:
     if method == "single_vector":
         return cosine(jd_emb[FULL_KEY], cv_emb[FULL_KEY])
     if method == "section_aware":
         return aggregate(
-            section_components(jd_emb, cv_emb, pairing),
+            section_components(
+                jd_emb,
+                cv_emb,
+                pairing,
+                renormalize_missing=renormalize_missing,
+            ),
             aggregation,
             section_weights=section_weights,
         )
@@ -140,6 +152,7 @@ def rank_query(
     pairing: Pairing = "cross",
     aggregation: Aggregation = "mean",
     section_weights: Dict[str, float] | None = None,
+    renormalize_missing: bool = True,
 ) -> List[Tuple[str, float]]:
     """Score one JD against all CVs, best first (ties broken by cv_id)."""
     scored = [
@@ -152,6 +165,7 @@ def rank_query(
                 pairing,
                 aggregation,
                 section_weights=section_weights,
+                renormalize_missing=renormalize_missing,
             ),
         )
         for cv_id, emb in cv_embs.items()
@@ -169,6 +183,7 @@ def rank_all(
     chunk_max_tokens: int = 64,
     chunk_overlap: int = 16,
     section_weights: Dict[str, float] | None = None,
+    renormalize_missing: bool = True,
 ) -> Dict[str, List[Tuple[str, float]]]:
     if method == "chunk_max_sim":
         return rank_all_chunk(jds, cvs, embedder, chunk_max_tokens, chunk_overlap)
@@ -182,6 +197,7 @@ def rank_all(
             pairing,
             aggregation,
             section_weights=section_weights,
+            renormalize_missing=renormalize_missing,
         )
         for jd_id in jd_embeddings
     }

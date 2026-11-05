@@ -58,9 +58,10 @@ To preserve clear semantics, the system enforces a strict two-tier separation be
 \end{itemize}
 
 \textbf{Asymmetric Skill Coverage vs. Symmetric Jaccard}: Rather than penalizing qualified candidates who possess auxiliary skills beyond the job specification, $S_{skills}$ evaluates asymmetric requirement recall over normalized skill aliases:
-\begin{equation}
-    \text{Cov}(\mathcal{T}) = \frac{\sum_{t \in \mathcal{T}} \mathbb{I}(t \in \mathcal{C}_{skills}) \cdot w_t}{\sum_{t \in \mathcal{T}} w_t}, \quad S_{skills} = 0.8 \cdot \text{Cov}(\text{MustHave}) + 0.2 \cdot \text{Cov}(\text{NiceToHave}).
-\end{equation}
+\begin{align}
+    \text{Cov}(\mathcal{T}) &= \frac{\sum_{t \in \mathcal{T}} \mathbb{I}(t \in \mathcal{C}_{skills}) \cdot w_t}{\sum_{t \in \mathcal{T}} w_t}, \\
+    S_{skills} &= 0.8 \cdot \text{Cov}(\text{MustHave}) + 0.2 \cdot \text{Cov}(\text{NiceToHave}).
+\end{align}
 When candidates lack more than $50\%$ of mandatory must-have skills, a multiplicative penalty factor $\gamma = \text{Cov}(\text{MustHave})$ is applied to prevent compensation by non-essential criteria.
 
 \subsection{Architectural Decisions and Empirical Rationales}

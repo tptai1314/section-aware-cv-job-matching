@@ -114,9 +114,15 @@ class HybridRanker:
         semantic: float,
         doc_id: str = "",
         section_components: dict[str, float] | None = None,
+        renormalize_missing: bool = False,
     ) -> RankedCandidate:
         req = replace(requirement, semantic_base=clamp01(semantic))
-        breakdown = hybrid_score(req, profile, self.weights)
+        breakdown = hybrid_score(
+            req,
+            profile,
+            self.weights,
+            renormalize_missing=renormalize_missing,
+        )
         return RankedCandidate(
             doc_id=doc_id,
             score=breakdown["overall"],
@@ -128,13 +134,37 @@ class HybridRanker:
             section_components=dict(section_components or {}),
         )
 
-    def rank(self, requirement: JobRequirement, items, top_k: int | None = None):
+    def rank(
+        self,
+        requirement: JobRequirement,
+        items,
+        top_k: int | None = None,
+        calibrate_scores: bool = False,
+        renormalize_missing: bool = False,
+    ):
         """`items`: iterable (doc_id, semantic, profile[, section_components])."""
+        item_list = list(items)
+        if calibrate_scores and item_list:
+            raw_sems = [float(it[1]) for it in item_list]
+            cal_sems = min_max(raw_sems)
+            item_list = [
+                (it[0], cal_sems[i], it[2], it[3] if len(it) > 3 else None)
+                for i, it in enumerate(item_list)
+            ]
         ranked: list[RankedCandidate] = []
-        for item in items:
+        for item in item_list:
             doc_id, semantic, profile = item[0], item[1], item[2]
             components = item[3] if len(item) > 3 else None
-            ranked.append(self.score(requirement, profile, semantic, doc_id, components))
+            ranked.append(
+                self.score(
+                    requirement,
+                    profile,
+                    semantic,
+                    doc_id,
+                    components,
+                    renormalize_missing=renormalize_missing,
+                )
+            )
         ranked.sort(key=lambda c: (-c.score, c.doc_id))
         return ranked[:top_k] if top_k else ranked
 

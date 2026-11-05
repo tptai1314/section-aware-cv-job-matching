@@ -40,6 +40,12 @@ Namuangtoun, C.: Resume and job description fit benchmark dataset.
 Nogueira, R., Cho, K.: Passage re-ranking with {BERT}. arXiv preprint
   arXiv:1901.04085  (2019)
 
+\bibitem{tinix2026vietnamese}
+{Tinix AI}: Vietnamese job descriptions: A large-scale dataset for labor market
+  intelligence and recommendation.
+  \url{https://huggingface.co/datasets/tinixai/vietnamese-job-descriptions}
+  (2026)
+
 \bibitem{zhang2021personalized}
 Zhang, D., Ding, J., Shan, Z.: Personalized job recommendation system based on
   deep neural networks. IEEE Access  \textbf{9},  143525--143534 (2021)

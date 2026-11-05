@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.8)  4 NOV 2026 02:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.10.8)  6 NOV 2026 02:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -575,7 +575,10 @@ LaTeX Info: Redefining \microtypesetup on input line 21.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: No font expansion.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -651,14 +654,9 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 2.
-
-Overfull \hbox (2.41585pt too wide) in paragraph at lines 2--3
-[]\T1/lmr/m/n/9 Matching free-lance can-di-date pro-files (Cur-ricu-lum Vi-tae,
- CV)
- []
-
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 4
 .
+
 (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )) (sections/01_introduction.tex [1
@@ -667,154 +665,31 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 es/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips
 /lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Pro
 gram Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}] [2{C:/Program Files/MiKTeX/fo
-nts/enc/dvips/lm/lm-mathsy.enc}]) (sections/02_related_work.tex
-Overfull \hbox (1.8049pt too wide) in paragraph at lines 4--5
-\T1/lmr/m/n/10 re-trieval [[]]. State-of-the-art mul-ti-lin-gual em-bed-ding mo
-d-els, such as BGE-M3 [[]],
- []
-
-[3]) (sections/03_methodology.tex
+nts/enc/dvips/lm/lm-mathsy.enc}]) (sections/02_related_work.tex [3])
+(sections/03_methodology.tex
 <figures/fig07_vector_theo_section.png, id=66, 504.08325pt x 167.30505pt>
 File: figures/fig07_vector_theo_section.png Graphic file (type png)
 <use figures/fig07_vector_theo_section.png>
 Package pdftex.def Info: figures/fig07_vector_theo_section.png  used on input l
 ine 11.
 (pdftex.def)             Requested size: 305.4704pt x 101.38707pt.
-
-Overfull \hbox (0.95543pt too wide) in paragraph at lines 18--19
-\T1/lmr/m/n/10 gen-er-ates frozen dense rep-re-sen-ta-tions, and up-dates Chro-
-maDB in-dexes asyn-
- []
-
-[4{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./figures/fig07_v
-ector_theo_section.png (PNG copy)>]
-Overfull \hbox (42.67047pt too wide) detected at line 63
-[][][][]\OT1/lmr/m/n/10 (\OMS/lmsy/m/n/10 T\OT1/lmr/m/n/10 ) = []\OML/lmm/m/it/
-10 ;  S[] \OT1/lmr/m/n/10 = 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 8 \OMS/lmsy/m/n/
-10 ^^A []\OT1/lmr/m/n/10 ([]) + 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 2 \OMS/lmsy/
-m/n/10 ^^A []\OT1/lmr/m/n/10 ([])\OML/lmm/m/it/10 :
- []
-
-[5] (tables/tab_design_decisions.tex)) (sections/04_experiments.tex [6]
-(tables/tab_language_distribution.tex)
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 19.
-
-Overfull \hbox (64.94434pt too wide) in paragraph at lines 28--29
-[]\T1/lmr/bx/n/10 Baseline 4 (Cross-Encoder)\T1/lmr/m/n/10 : Deep cross-attenti
-on scor-ing via \T1/lmtt/m/n/10 ms-marco-MiniLM-L-6-v2\T1/lmr/m/n/10 . 
- []
-
-[7]
-Overfull \hbox (24.76237pt too wide) in paragraph at lines 36--37
-\T1/lmr/m/n/10 Following stan-dard TREC and Rec-Sys con-ven-tions, we re-port \
-T1/lmr/bx/n/10 nDCG@5\T1/lmr/m/n/10 , \T1/lmr/bx/n/10 nDCG@10\T1/lmr/m/n/10 ,
- []
-
-) (sections/05_results.tex
-Overfull \hbox (23.97012pt too wide) in paragraph at lines 39--1
-\T1/lmr/m/n/10 in-dex-ing is han-dled by Chro-maDB (HNSW, space=cosine, $\OML/l
-mm/m/it/10 M \OT1/lmr/m/n/10 = 16\OML/lmm/m/it/10 ; efConstruction \OT1/lmr/m/n
-/10 =
- []
-
-(tables/tab_main_results.tex)
-Overfull \hbox (45.4929pt too wide) in paragraph at lines 11--12
-[]\T1/lmr/bx/n/10 Single-Vector Base-line\T1/lmr/m/n/10 : Base-line 2 yields $\
-OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 4664$ \T1/lmr/m/n/10 nDCG@10 
-(95% CI: $\OT1/lmr/m/n/10 [0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 3991\OML/lmm/m/it
-/10 ; \OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 5378]$\T1/lmr/m/n/10 )
-
- []
-
-[8]
-Overfull \hbox (8.2696pt too wide) in paragraph at lines 16--17
-[]\T1/lmr/m/n/10 Section-Aware (Cross) vs. Single-Vector: $\OML/lmm/m/it/10 t \
-OT1/lmr/m/n/10 = 3\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 9890\OML/lmm/m/it/10 ; p \O
-T1/lmr/m/n/10 = 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 00048$\T1/lmr/m/n/10 ; Wilco
-xon
- []
-
-
-Overfull \hbox (1.72316pt too wide) in paragraph at lines 20--21
-\T1/lmr/m/n/10 nDCG@10 while re-quir-ing $\OT1/lmr/m/n/10 59\OML/lmm/m/it/10 :\
-OT1/lmr/m/n/10 8$\T1/lmr/m/n/10 ms per query. Sliding-window chunk-ing breaks
- []
-
-(tables/tab_alpha_sweep.tex) [9] (tables/tab_ablation.tex)
-Overfull \hbox (14.95905pt too wide) in paragraph at lines 40--41
-[]\T1/lmr/bx/n/10 Contribution of Se-man-tic Rep-re-sen-ta-tions\T1/lmr/m/n/10 
-: Com-bin-ing Rules-Only ($\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 8
-494$
- []
-
-[10]
-Overfull \hbox (78.14241pt too wide) in paragraph at lines 44--45
-\T1/lmr/m/n/10 lected la-bels, we bench-marked the core pipelines on \T1/lmtt/m
-/n/10 cnamuangtoun/resume-job-description-fit
- []
-
-(tables/tab_public_benchmark.tex
+ [4{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc} <./figures/fig07_
+vector_theo_section.png (PNG copy)>] [5]
+(tables/tab_design_decisions.tex)) (sections/04_experiments.tex [6]
+(tables/tab_language_distribution.tex) [7]) (sections/05_results.tex [8]
+(tables/tab_main_results.tex) (tables/tab_bilingual_results.tex) [9] [10]
+(tables/tab_alpha_sweep.tex) [11] (tables/tab_ablation.tex)
+(tables/tab_robustness.tex) [12] (tables/tab_public_benchmark.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--4
-[]\T1/lmr/bx/n/9 Table 6. []\T1/lmr/m/n/9 Cross-dataset gen-er-al-iz-abil-ity o
-n pub-lic bench-mark
+[]\T1/lmr/bx/n/9 (+20) Table 8. []\T1/lmr/m/n/9 (+20) Cross-dataset gen-er-al-i
+z-abil-ity on pub-lic bench-mark
  []
 
-
-Overfull \hbox (85.83522pt too wide) in paragraph at lines 7--17
- [][] 
- []
-
-) [11] (tables/tab_bilingual_results.tex)
-Overfull \hbox (2.11078pt too wide) in paragraph at lines 85--86
-\T1/lmr/m/n/10 the high-est rank-ing pre-ci-sion on both mono-lin-gual En-glish
- ($\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 7553$ \T1/lmr/m/n/10 nDCG
-@10,
- []
-
-
-Overfull \hbox (26.0072pt too wide) in paragraph at lines 86--87
-\T1/lmr/m/n/10 tech-ni-cal en-tity to-kens, lex-i-cal BM25 re-tains lo-cal-ized
- pre-ci-sion ($\OT1/lmr/m/n/10 0\OML/lmm/m/it/10 :\OT1/lmr/m/n/10 6547$ \T1/lmr
-/m/n/10 nDCG@10).
- []
-
-[12] (tables/tab_robustness.tex
-Overfull \hbox (8.35487pt too wide) in paragraph at lines 5--14
- [][] 
- []
-
-)
-Underfull \vbox (badness 2582) has occurred while \output is active []
-
- [13]
-Overfull \hbox (3.9975pt too wide) in paragraph at lines 100--101
-\T1/lmr/m/n/10 tion fil-ters ($\OML/lmm/m/it/10 S[]$\T1/lmr/m/n/10 ) sub-stan-t
-ially im-prove em-ployer can-di-date screen-ing (where
- []
-
-) (sections/05b_ethics_and_limitations.tex [14]
-Overfull \hbox (13.10423pt too wide) in paragraph at lines 13--14
-\T1/lmr/m/n/10 iden-ti-ties are de-tached and re-placed with cryp-to-graphic su
-r-ro-gate keys (\T1/lmtt/m/n/10 doc_id\T1/lmr/m/n/10 ).
- []
-
-
-Overfull \hbox (0.23753pt too wide) in paragraph at lines 13--14
-\T1/lmr/m/n/10 In ad-di-tion to Anglo-Saxon to-kens, all Viet-namese per-sonal 
-iden-ti-fiers (PII)---
- []
-
-
-Overfull \hbox (34.42848pt too wide) in paragraph at lines 24--25
-\T1/lmr/m/n/10 com-pletely in-de-pen-dent ex-ter-nal pub-lic bench-mark (\T1/lm
-tt/m/n/10 resume-job-description-fit\T1/lmr/m/n/10 )
- []
-
-[15]) (sections/06_conclusion.tex) (main.bbl [16]
-Underfull \hbox (badness 3758) in paragraph at lines 40--42
-[]\T1/lmr/m/n/9 Nogueira, R., Cho, K.: Pas-sage re-ranking with BERT. arXiv pre
-print
+) [13] [14]) (sections/05b_ethics_and_limitations.tex [15])
+(sections/06_conclusion.tex [16]) (main.bbl
+Underfull \hbox (badness 2644) in paragraph at lines 40--42
+[]\T1/lmr/m/n/9 (+20) Nogueira, R., Cho, K.: Pas-sage re-ranking with BERT. arX
+iv preprint
  []
 
 ) [17] (main.aux)
@@ -826,13 +701,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 500670C41BC7A001E2848FEF56037AF7;642.
  ) 
 Here is how much of TeX's memory you used:
- 13511 strings out of 467392
- 212440 string characters out of 5415751
- 690479 words of memory out of 5000000
- 42499 multiletter control sequences out of 15000+600000
- 713259 words of font info for 96 fonts, out of 8000000 for 9000
+ 13875 strings out of 467392
+ 216397 string characters out of 5415751
+ 687976 words of memory out of 5000000
+ 42512 multiletter control sequences out of 15000+600000
+ 743164 words of font info for 272 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,12n,79p,1890b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,13n,79p,1890b,644s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbsy10.pfb><C:/Program Files/
 MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/pu
 blic/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:
@@ -848,12 +723,11 @@ gram Files/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Program Files/MiKTeX/fonts
 /type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy
 10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy7.pfb><C:/Program Fil
 es/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Program Files/MiKTeX/fonts/type1/
-public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb>
-<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt9.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (17 pages, 596316 bytes).
+public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt9.pfb><
+C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on main.pdf (17 pages, 577971 bytes).
 PDF statistics:
- 369 PDF objects out of 1000 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 14350 words of extra memory for PDF output out of 14400 (max. 10000000)
+ 374 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 60430 words of extra memory for PDF output out of 61914 (max. 10000000)
 

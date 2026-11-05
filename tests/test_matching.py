@@ -134,6 +134,22 @@ def test_aggregate_weighted():
     assert pytest.approx(custom, abs=1e-4) == 0.74
 
 
+def test_fixed_pairing_dynamic_renormalization_missing_section():
+    jd_doc = _doc("jd_1", "jd", {"skills": "python sql", "education": "computer science degree"})
+    cv_doc = _doc("cv_1", "cv", {"skills": "python sql"})
+    emb = embed_corpus([jd_doc, cv_doc], MockEmbedder(dim=128))
+
+    # With renormalize_missing=True, missing "education" in CV is omitted from components
+    components = section_components(emb["jd_1"], emb["cv_1"], pairing="fixed", renormalize_missing=True)
+    assert "education" not in components
+    assert "skills" in components
+
+    # Aggregated score is not diluted by zero-imputation of missing education
+    score = aggregate(components, aggregation="weighted")
+    assert score == pytest.approx(components["skills"])
+
+
+
 def test_rank_query_sorted_descending():
     docs = [
         _jd("jd_1", "python sql"),

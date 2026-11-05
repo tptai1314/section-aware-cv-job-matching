@@ -1,5 +1,6 @@
 import os
 from dataclasses import dataclass
+from pathlib import Path
 
 
 @dataclass(frozen=True)
@@ -70,6 +71,16 @@ def _env_float(env: dict, name: str, default: float) -> float:
 
 
 def load_settings(env: dict | None = None) -> Settings:
+    if env is None:
+        try:
+            from dotenv import load_dotenv
+            _env_file = Path(__file__).resolve().parent.parent / ".env"
+            if _env_file.is_file():
+                load_dotenv(_env_file)
+            else:
+                load_dotenv()
+        except ImportError:
+            pass
     env = env if env is not None else os.environ
     missing = sorted(name for name in REQUIRED_ENV if not env.get(name, "").strip())
     if missing:
