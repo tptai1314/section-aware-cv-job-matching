@@ -1,6 +1,6 @@
 \section{Introduction}
 
-Digital recruitment and freelance marketplaces are essential drivers of the modern knowledge economy. In emerging markets such as Vietnam, platforms like \textbf{Frevia} connect independent domain professionals with businesses seeking specialized talent. Unlike conventional full-time hiring where standardized job titles often suffice, freelance platforms operate on dynamic, project-based engagements. Consequently, matching must be effective in both directions: shortlisting qualified freelancers for client projects (JD $\rightarrow$ CV) and recommending relevant opportunities to independent workers (CV $\rightarrow$ JD).
+Digital recruitment and freelance marketplaces are essential drivers of the modern knowledge economy. In emerging markets such as Vietnam, tech talent platforms connect independent domain professionals with businesses seeking specialized talent. Unlike conventional full-time hiring where standardized job titles often suffice, freelance platforms operate on dynamic, project-based engagements. Consequently, matching must be effective in both directions: shortlisting qualified candidates for client projects (JD $\rightarrow$ CV) and recommending relevant opportunities to independent workers (CV $\rightarrow$ JD).
 
 Deploying automated matching in production introduces unique practical challenges:
 \begin{enumerate}
@@ -21,7 +21,7 @@ This study investigates four core \textbf{Research Questions (RQs)}:
 
 The measurable contributions of this applied paper are:
 \begin{itemize}
-    \item \textbf{Frevia-Bench Benchmark}: We release a bilingual (English-Vietnamese) recruitment benchmark derived from real platform data, containing $169$ CVs, $210$ JDs, and $47$ test queries with multi-graded relevance, audited by bilingual human recruiters ($\kappa = 0.82$).
+    \item \textbf{VietResume-Bench Benchmark}: We construct and release an open-science, reproducible bilingual recruitment benchmark derived from public Hugging Face corpora (\texttt{tinixai/vietnamese-job-descriptions} and \texttt{lhoestq/resumes-raw-pdf-for-ocr}), containing $1,585$ authentic candidate CVs, $60$ detailed IT job descriptions across $10$ specialization domains, and $3$-tier multi-graded ground truth labels ($3,000$ validated pairs) with balanced language slicing ($\text{VI}\leftrightarrow\text{VI}$, $\text{VI}\leftrightarrow\text{EN}$ cross-lingual, and code-mixed).
     \item \textbf{Systematic Empirical Findings}: We demonstrate that section-aware representation achieves a $+25.6\%$ nDCG@10 gain over single-vector retrieval ($p < 0.01$). Crucially, we identify a valuable practical insight: while structured rule layers substantially assist client-side candidate shortlisting, they do not benefit freelancer job exploration, which favors pure semantic alignment.
     \item \textbf{Linguistic \& Cross-Lingual Analysis}: We evaluate performance sliced by language pairs and demonstrate that while pure lexical search (BM25) degrades on cross-lingual pairings, section-aware dense retrieval maintains consistent semantic alignment and exhibits resilience to Vietnamese diacritic omission.
     \item \textbf{Cost-Effective Production Pipeline}: We document a production pipeline running entirely on commodity CPUs with sub-$32$\,ms query latency and incremental outbox synchronization.

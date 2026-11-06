@@ -46,6 +46,7 @@ class Document:
     lang: Lang
     raw_text: str
     sections: dict[str, Section] = field(default_factory=dict)
+    metadata: dict = field(default_factory=dict)
     schema_version: str = SCHEMA_VERSION
 
 

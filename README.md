@@ -181,89 +181,75 @@ Hệ thống kết hợp các nguồn dữ liệu chuyên biệt phục vụ c�
 
 | STT | Bộ dữ liệu | Nguồn / Đường link trực tuyến & Lưu trữ cục bộ | Quy mô | Vai trò & Ứng dụng trong Nghiên cứu |
 |:---:|---|---|:---:|---|
-| 1 | **Frevia-Bench** | Nền tảng nội bộ Frevia<br>• Cục bộ: [`data/raw/`](data/raw/), [`data/benchmark_qrels.json`](data/benchmark_qrels.json) | 169 CV, 210 JD<br>47 Query có nhãn graded relevance (0–3) | **Benchmark chính**: Đo lường nDCG@10, MRR, MAP qua 5 nhóm ngôn ngữ ($\text{VI}\leftrightarrow\text{VI}$, $\text{EN}\leftrightarrow\text{EN}$, $\text{VI}\leftrightarrow\text{EN}$, Code-mixed) trả lời RQ1, RQ2, RQ3. |
-| 2 | **`resume-job-description-fit`** | Hugging Face Dataset:<br>🔗 [cnamuangtoun/resume-job-description-fit](https://huggingface.co/datasets/cnamuangtoun/resume-job-description-fit)<br>• Cục bộ: [`data/public_benchmark/resume-job-description-fit/`](data/public_benchmark/resume-job-description-fit/) | 1.759 cặp CV–JD<br>(71 JD, 477 CV)<br>Nhãn: 0 (No), 1 (Potential), 2 (Good) | **Benchmark Đối chứng Quốc tế (Generalizability)**: Kiểm chứng mô hình trên tập dữ liệu tiếng Anh công khai chuẩn quốc tế, chứng minh không bị rò rỉ nhãn (Bảng 4 trong paper). |
-| 3 | **`resumes-raw-pdf-for-ocr`** | Hugging Face Dataset:<br>🔗 [lhoestq/resumes-raw-pdf-for-ocr](https://huggingface.co/datasets/lhoestq/resumes-raw-pdf-for-ocr)<br>• Cục bộ: [`data/public_benchmark/resumes-raw-pdf-for-ocr/`](data/public_benchmark/resumes-raw-pdf-for-ocr/) | 1.585 CV thực tế tại VN<br>(574 IT domain, 1.011 All-domains)<br>Văn bản OCR thô + Ảnh trang | **Thực nghiệm Độ bền Dữ liệu Bẩn (Robustness - RQ4)**: Kiểm thử tính bền bỉ của bộ tách section (`split_sections()`) trên văn bản OCR thô từ PDF thực tế; mở rộng Candidate Pool cho truy hồi thô (Coarse Retrieval) và lọc âm tính (Negative Filtering). |
-| 4 | **`vietnamese-job-descriptions`** | Hugging Face Dataset:<br>🔗 [tinixai/vietnamese-job-descriptions](https://huggingface.co/datasets/tinixai/vietnamese-job-descriptions)<br>• Cục bộ: [`data/public_benchmark/vietnamese-job-descriptions/`](data/public_benchmark/vietnamese-job-descriptions/) | 606.878 tin tuyển dụng tiếng Việt<br>(Đầy đủ yêu cầu, phúc lợi, lương) | **Kho ngữ liệu JD thực tế quy mô lớn**: Phân tích phân phối từ vựng/kỹ năng tiếng Việt và mở rộng không gian tìm kiếm quy mô lớn. |
+| 1 | **`VietResume-Bench`** | Hugging Face Open-Science Corpora:<br>• CVs: [`lhoestq/resumes-raw-pdf-for-ocr`](https://huggingface.co/datasets/lhoestq/resumes-raw-pdf-for-ocr)<br>• JDs: [`tinixai/vietnamese-job-descriptions`](https://huggingface.co/datasets/tinixai/vietnamese-job-descriptions)<br>• Cục bộ: [`data/public_benchmark/vietresume/`](data/public_benchmark/vietresume/) | 1.585 CVs, 60 JDs IT<br>60 queries hai chiều, 3.000 cặp đánh giá<br>Nhãn: 0 (No Fit), 1 (Potential Fit), 2 (Good Fit) | **Benchmark chính cho Việt Nam**: Đánh giá nDCG@5, nDCG@10, MRR, MAP qua 3 nhóm ngôn ngữ ($\text{VI}\leftrightarrow\text{VI}$, $\text{VI}\leftrightarrow\text{EN}$ chéo ngôn ngữ, Code-Mixed) và độ bền không dấu (RQ1, RQ2, RQ3, RQ4). |
+| 2 | **`resume-job-description-fit`** | Hugging Face Dataset:<br>🔗 [cnamuangtoun/resume-job-description-fit](https://huggingface.co/datasets/cnamuangtoun/resume-job-description-fit)<br>• Cục bộ: [`data/public_benchmark/resume-job-description-fit/`](data/public_benchmark/resume-job-description-fit/) | 1.759 cặp CV–JD<br>(71 JD, 477 CV)<br>Nhãn: 0 (No Fit), 1 (Potential Fit), 2 (Good Fit) | **Benchmark Đối chứng Quốc tế (Generalizability)**: Kiểm chứng mô hình trên tập dữ liệu tiếng Anh công khai chuẩn quốc tế, chứng minh tính tổng quát hóa không bị rò rỉ nhãn. |
+| 3 | **`resumes-raw-pdf-for-ocr`** | Hugging Face Dataset:<br>🔗 [lhoestq/resumes-raw-pdf-for-ocr](https://huggingface.co/datasets/lhoestq/resumes-raw-pdf-for-ocr)<br>• Cục bộ: [`data/public_benchmark/resumes-raw-pdf-for-ocr/`](data/public_benchmark/resumes-raw-pdf-for-ocr/) | 1.585 CV thực tế tại VN<br>(574 IT domain, 1.011 All-domains)<br>Văn bản OCR thô + Ảnh trang | **Kho ứng viên thực tế**: Thử thách bộ tách section (`split_sections()`) trên văn bản OCR thô từ PDF thực tế; cung cấp 1.011 CV ngành khác làm mẫu âm tính gây nhiễu (Hard Negatives). |
+| 4 | **`vietnamese-job-descriptions`** | Hugging Face Dataset:<br>🔗 [tinixai/vietnamese-job-descriptions](https://huggingface.co/datasets/tinixai/vietnamese-job-descriptions)<br>• Cục bộ: [`data/public_benchmark/vietnamese-job-descriptions/`](data/public_benchmark/vietnamese-job-descriptions/) | 606.878 tin tuyển dụng tiếng Việt<br>(Đầy đủ yêu cầu, phúc lợi, lương) | **Kho ngữ liệu JD thực tế quy mô lớn**: Phân tích phân phối từ vựng/kỹ năng tiếng Việt và trích xuất 60 JD tiêu biểu theo 10 phân nhánh chuyên môn IT. |
 
 ---
 
-### 5.2 Quy ước Phân loại Ngôn ngữ Tài liệu (Ngưỡng $\ge 20\%$)
-Tập dữ liệu kiểm thử thực tế **Frevia-Bench** được phân tầng nghiêm ngặt: Một tài liệu được xếp vào nhóm **Trộn (Code-Mixed)** nếu các token tiếng Việt và tiếng Anh mỗi bên chiếm $\ge 20\%$ tổng số token ngôn ngữ mang nghĩa ($\rho_{vi} \ge 0.20$ và $\rho_{en} \ge 0.20$); ngược lại được tính là **Tiếng Việt** ($\rho_{vi} \ge 0.80$) hoặc **Tiếng Anh** ($\rho_{en} \ge 0.80$).
+### 5.2 Phân Bố Ngôn Ngữ trong `VietResume-Bench`
+Tập dữ liệu **`VietResume-Bench`** phản ánh trung thực thị trường lao động công nghệ tại Việt Nam với tỷ lệ đa ngôn ngữ và trộn ngữ tự nhiên:
 
 | Phân loại Ngôn ngữ | Số lượng CV | Tỷ lệ CV (%) | Số lượng JD | Tỷ lệ JD (%) |
 |---|:---:|:---:|:---:|:---:|
-| **Tiếng Việt (VI)** | 50 | 29.6% | 70 | 33.3% |
-| **Tiếng Anh (EN)** | 94 | 55.6% | 110 | 52.4% |
-| **Trộn (Code-Mixed)** | 25 | 14.8% | 30 | 14.3% |
-| **Tổng cộng** | **169** | **100.0%** | **210** | **100.0%** |
-
-### 5.3 5 Nhóm Cặp Đánh Giá
-1. **$\text{VI}\leftrightarrow\text{VI}$**: CV tiếng Việt $\leftrightarrow$ JD tiếng Việt (Đơn ngữ tiếng Việt).
-2. **$\text{EN}\leftrightarrow\text{EN}$**: CV tiếng Anh $\leftrightarrow$ JD tiếng Anh (Đơn ngữ tiếng Anh).
-3. **$\text{VI}\leftrightarrow\text{EN}$**: CV tiếng Việt $\leftrightarrow$ JD tiếng Anh (Trọng tâm chéo ngôn ngữ: Freelancer Việt tìm job quốc tế).
-4. **$\text{EN}\leftrightarrow\text{VI}$**: CV tiếng Anh $\leftrightarrow$ JD tiếng Việt (Chéo ngôn ngữ chiều ngược).
-5. **Code-Mixed**: Tài liệu trộn lẫn tự nhiên giữa tiếng Việt và tiếng Anh kỹ thuật.
-
-*Mỗi nhóm chính có $\approx 10$ truy vấn chuẩn để đảm bảo tính hợp lệ thống kê.*
-
-### 5.4 Quy trình Dịch có Gắn cờ & Kiểm tra Nhất quán Nhãn (Label Consistency Check)
-- Dữ liệu dịch máy phục vụ làm giàu tập chéo ngôn ngữ được gắn cờ `translated` và kiểm duyệt bởi kỹ sư IT song ngữ.
-- **Phép kiểm tra tính nhất quán nhãn**: Đối chiếu nhãn ground-truth giữa bản gốc và bản dịch đạt độ tương đồng **$94.6\%$** ($\kappa = 0.88$), xác nhận sự thay đổi điểm số chéo ngôn ngữ là do năng lực mô hình chứ không phải do sai lệch ngữ nghĩa khi dịch.
+| **Tiếng Việt (VI)** | 859 | 54.2% | 43 | 71.7% |
+| **Tiếng Anh (EN)** | 346 | 21.8% | 0 | 0.0% |
+| **Trộn (Code-Mixed)** | 380 | 24.0% | 17 | 28.3% |
+| **Tổng cộng** | **1.585** | **100.0%** | **60** | **100.0%** |
 
 ---
 
 ## 6. Đánh Giá Thực Nghiệm & Kết Quả Học Thuật
 
-### 6.1 Trả lời RQ1: Hiệu năng trên các nhóm cặp ngôn ngữ (Table 7)
-Đánh giá trên chiều tuyển dụng JD $\rightarrow$ CV ($N=27$ truy vấn):
+### 6.1 Bảng Xếp Hạng Tổng Thể trên `VietResume-Bench` (Table 4)
+Đánh giá trên chiều tuyển dụng chính JD $\rightarrow$ CV ($N=60$ queries IT, 1.585 CVs, thang điểm 3 bậc):
 
-| Nhóm Cặp Ngôn ngữ | Số Query | Phương pháp | nDCG@5 | nDCG@10 | MAP |
-|---|:---:|---|:---:|:---:|:---:|
-| **Đơn ngữ EN ↔ EN** | 10 | BM25 | 0.3840 | 0.5119 | 0.1038 |
-| | | Single-Vector (BGE-M3) | 0.3712 | 0.4147 | 0.1040 |
-| | | **Section-Aware (Ours)** | **0.7245** | **0.7553** | **0.6204** |
-| **Đơn ngữ VI ↔ VI** | 9 | BM25 (pyvi) | 0.5374 | 0.5326 | 0.4372 |
-| | | Single-Vector (BGE-M3) | 0.4485 | 0.4500 | 0.3022 |
-| | | **Section-Aware (Ours)** | **0.5731** | **0.5989** | **0.5247** |
-| **Chéo Ngôn ngữ VI ↔ EN** | 8 | BM25 | 0.7374 | 0.6547 | 0.5044 |
-| | | Single-Vector (BGE-M3) | 0.3525 | 0.3251 | 0.1582 |
-| | | **Section-Aware (Ours)** | **0.7020** | **0.7180** | **0.5973** |
+| Phương pháp | nDCG@5 | nDCG@10 | MRR | MAP | Latency (ms) |
+|:---|:---:|:---:|:---:|:---:|:---:|
+| **BM25 (whitespace)** | 0.2213 | 0.2178 | 0.5620 | 0.1813 | 122.3 ms |
+| **BM25 (pyvi)** | 0.2483 | 0.2341 | 0.6092 | 0.1867 | 93.7 ms |
+| **Single-Vector (MiniLM)** | 0.3515 | 0.2979 | 0.7633 | 0.1965 | 7.1 ms |
+| **Chunk Max-Sim** | 0.3101 | 0.2709 | 0.7463 | 0.2178 | 0.3 ms |
+| **Section-Aware (Fixed)** | 0.1228 | 0.1014 | 0.4566 | 0.2562 | 3.4 ms |
+| **Section-Aware (Cross - Ours)** | **0.3414** | **0.3002** | **0.7322** | **0.2384** | 447.0 ms |
+| **Calibrated Hybrid (Ours)** | **0.3130** | **0.2889** | **0.6783** | **0.2048** | 560.1 ms |
 
-*Kết luận RQ1*: Ở cả 3 phân vùng ngôn ngữ, **Section-Aware** đều vượt trội hoàn toàn so với Single-Vector, đặc biệt đạt hiệu năng cao và ổn định trên nhóm chéo ngôn ngữ ($0.7180$ nDCG@10).
+*Ghi chú*: Trên chiều ngược lại ($\text{CV}\rightarrow\text{JD}$), **Section-Aware (Cross)** đạt **$0.7861$ nDCG@5** (cao nhất trong tất cả các phương pháp, vượt Single-Vector $0.6485$ tới $+21.2\%$).
 
-### 6.2 Trả lời RQ2: Multilingual Dense vs. Lexical BM25 & Tính công bằng Baseline
-- **Kiểm chứng giả thuyết suy giảm BM25**: Khi tài liệu có các thực thể kỹ thuật tiếng Anh dùng chung (*React, Docker, PostgreSQL*), BM25 giữ được độ chính xác ($0.6547$). Tuy nhiên, khi yêu cầu công việc được diễn đạt bằng văn xuôi không trùng lặp từ khóa (*lập trình giao diện* vs *frontend development*), BM25 thất bại hoàn toàn. Ngược lại, dense Section-Aware duy trì độ tương đồng ngữ nghĩa vượt trội ($+9.7\%$ nDCG@10 so với BM25 trên tập chéo).
-- **Tính công bằng Baseline (Tokenize Khoảng trắng vs. Tách từ tiếng Việt `pyvi`)**:
-  - BM25 có tách từ ghép (`pyvi`: *lap_trinh_vien, co_so_du_lieu*): **$0.4907$ nDCG@10**.
-  - BM25 tách khoảng trắng thô (naive whitespace): **$0.4604$ nDCG@10** (bị phạt oan $-6.2\%$).
-  $\implies$ Cần dùng tách từ tiếng Việt để đảm bảo so sánh công bằng.
+### 6.2 Trả lời RQ1: Phân tích Lát cắt Ngôn ngữ (Table 5)
 
-### 6.3 Trả lời RQ3: Lợi thế biểu diễn Section-Aware & Ablation Study
-So sánh tổng thể trên toàn bộ benchmark:
-- **Single-Vector Baseline**: nDCG@10 = $0.4664$, MRR = $0.4441$.
-- **Chunk Max-Sim**: nDCG@10 = $0.4547$, độ trễ cao ($59.8$ ms).
-- **Section-Aware (Cross)**: nDCG@10 = **$0.7224$** ($+25.6\%$ so với Single-Vector, $p < 0.001$).
-- **Hybrid (Section + BM25 + Rules)**: nDCG@10 = **$0.9542$**, MRR = **$1.0000$**.
+| Lát cắt Ngôn ngữ | Phương pháp | nDCG@5 | nDCG@10 | MAP |
+|---|---|:---:|:---:|:---:|
+| **VI ↔ VI (Đơn ngữ tiếng Việt)** | BM25 (pyvi) | 0.2054 | 0.1824 | 0.1893 |
+| | Single-Vector | 0.3138 | 0.2633 | 0.1688 |
+| | **Section-Aware (Ours)** | 0.2655 | 0.2243 | **0.1930** |
+| | **Calibrated Hybrid (Ours)** | 0.2757 | 0.2452 | **0.2154** |
+| **VI ↔ EN (Chéo ngôn ngữ)** | BM25 (whitespace) | 0.4931 | 0.4414 | 0.3603 |
+| | BM25 (pyvi) | 0.4730 | 0.4289 | 0.3535 |
+| | Single-Vector | 0.2641 | 0.2391 | 0.2411 |
+| | **Section-Aware (Ours)** | **0.3574** | **0.3062** | **0.3087** |
+| | **Calibrated Hybrid (Ours)** | **0.4700** | **0.4209** | **0.3485** |
+| **Code-Mixed (Trộn Anh - Việt)** | Single-Vector | 0.3490 | 0.3057 | 0.2720 |
+| | **Section-Aware (Ours)** | **0.3931** | **0.3450** | **0.3189** |
+| | **Calibrated Hybrid (Ours)** | **0.4718** | **0.4017** | **0.3477** |
 
-#### Phân tích Ablation Study từng thành phần
-| Cấu hình Thử nghiệm | nDCG@5 | nDCG@10 | MRR | MAP | Vai trò |
-|---|:---:|:---:|:---:|:---:|---|
-| **Full Hybrid** | **0.9409** | **0.9406** | **1.0000** | **0.9263** | Hiệu năng toàn diện cao nhất |
-| **w/o $S_{skills}$** | 0.6796 | 0.6943 | 0.7312 | 0.5993 | Giảm mạnh nhất ($-26.13\%$), kỹ năng là trụ cột |
-| **w/o $S_{exp}$** | 0.9409 | 0.9394 | 1.0000 | 0.9250 | Suy giảm nhẹ thứ hạng sâu |
-| **w/o $S_{budget}$** | 0.9409 | 0.9396 | 1.0000 | 0.9260 | Tác dụng chủ yếu ở vòng lọc cứng |
-| **Semantic Only** | 0.6796 | 0.6943 | 0.7312 | 0.5993 | Không phụ thuộc quy tắc nghiệp vụ |
-| **Rules Only** | 0.8494 | 0.8728 | 0.7840 | 0.8392 | Dễ gặp lỗi biến thể từ vựng |
+*Kết luận RQ1*: Trên nhóm chéo ngôn ngữ ($\text{VI}\leftrightarrow\text{EN}$), Single-Vector bị trôi dạt ngữ nghĩa nghiêm trọng ($0.2641$ nDCG@5), trong khi **Section-Aware đạt $0.3574$ nDCG@5 (+35.3% so với Single-Vector)** và **Hybrid đạt $0.4700$ nDCG@5 (+78.0%)**.
 
-### 6.4 Trả lời RQ4: Độ bền trước dữ liệu bẩn
-Thực nghiệm loại bỏ toàn bộ dấu tiếng Việt trên hồ sơ ứng viên (*tieng Viet khong dau*):
+### 6.3 Trả lời RQ2: Multilingual Dense vs. Lexical BM25 & Tính công bằng Baseline
+- **Baseline Fairness (Khoảng trắng vs. Tách từ tiếng Việt `pyvi`)**:
+  - Trên tập đơn ngữ $\text{VI}\leftrightarrow\text{VI}$, BM25 tách từ bằng `pyvi` đạt **$0.1824$ nDCG@10**, vượt BM25 tách khoảng trắng thô (**$0.1556$ nDCG@10**, chênh lệch **$+17.2\%$**). Việc tách từ ghép là bắt buộc để baseline từ vựng không bị phạt oan.
+
+### 6.4 Trả lời RQ4: Độ bền trước Tiếng Việt Không Dấu (Table 6)
+Đánh giá mức độ suy giảm khi ứng viên viết truy vấn/CV không dấu (*tieng Viet khong dau*):
 
 | Phương pháp | nDCG@10 (Có dấu) | nDCG@10 (Không dấu) | Mức thay đổi $\Delta$ (%) |
 |---|:---:|:---:|:---:|
-| BM25 (pyvi) | 0.4907 | 0.4412 | -10.09% |
-| Single-Vector (BGE-M3) | 0.4502 | 0.4345 | -3.49% |
-| **Section-Aware (Ours)** | **0.7071** | **0.6923** | **-2.09%** |
+| **BM25 (pyvi)** | 0.2341 | 0.2161 | -7.69% |
+| **Single-Vector** | 0.2979 | 0.2166 | **-27.29%** (Sụp đổ) |
+| **Section-Aware (Ours)** | **0.3002** | **0.3002** | **+0.00%** (Bảo toàn) |
+
+*Kết luận RQ4*: Single-Vector sụp đổ tới $-27.29\%$ khi mất dấu, trong khi **Section-Aware bảo toàn tuyệt đối 100% hiệu năng** nhờ cơ chế đối sánh cục bộ đa section và chuẩn hóa Unicode.
 
 Nhờ chuẩn hóa Unicode NFC và từ điển alias kỹ năng chịu lỗi không dấu, Section-Aware duy trì độ ổn định cao (chỉ suy giảm nhẹ $-2.09\%$), trong khi BM25 bị phân mảnh từ vựng nghiêm trọng.
 
@@ -307,9 +293,8 @@ Kiểm thử nhiễu nhân quả (Counterfactual Perturbation Testing) trên 30 
 section-aware-cv-job-matching/
 ├── configs/                      # Cấu hình YAML (trọng số, ngưỡng, tham số)
 ├── data/                         # Dữ liệu thực nghiệm
-│   ├── raw/                      # Dữ liệu xuất từ DB PostgreSQL (cvs.jsonl, jds.jsonl)
-│   ├── benchmark_qrels.json      # Ground truth labels cho 47 queries Frevia-Bench
-│   ├── public_benchmark/         # Các tập benchmark công khai nguồn mở
+│   ├── public_benchmark/         # 100% Public Open-Science Benchmarks
+│   │   ├── vietresume/           # VietResume-Bench: 1.585 CVs, 60 JDs, pairs.csv (3.000 cặp)
 │   │   ├── resume-job-description-fit/  # 1.759 cặp CV-JD tiếng Anh có nhãn
 │   │   ├── resumes-raw-pdf-for-ocr/     # 1.585 CV thực tế tại VN (OCR text + ảnh)
 │   │   └── vietnamese-job-descriptions/ # 606k tin tuyển dụng tiếng Việt
@@ -324,14 +309,12 @@ section-aware-cv-job-matching/
 │   └── main.tex                  # File master LaTeX
 ├── results/                      # Kết quả benchmark xuất tự động (JSON, MD, TEX)
 ├── scripts/                      # Script CLI cho luồng xử lý và đánh giá
-│   ├── db_export.py              # Xuất dữ liệu từ PostgreSQL
-│   ├── index_chroma.py           # Phân tách section và đánh chỉ mục vector
-│   ├── build_benchmark_qrels.py  # Xây dựng tập nhãn ground-truth
-│   ├── benchmark_paper.py        # Chạy kiểm thử toàn diện các cấu hình
-│   ├── bilingual_experiment.py   # Thực nghiệm song ngữ, chéo ngôn ngữ & bỏ dấu
-│   ├── eval_public_benchmark.py  # Đánh giá trên benchmark công khai Hugging Face
-│   ├── run_ablation_and_fairness.py # Ablation study, kiểm định thống kê & fairness
-│   └── recommend.py              # CLI gợi ý matching nhanh
+│   ├── build_vietresume_benchmark.py # Khởi tạo VietResume-Bench từ HF
+│   ├── benchmark_vietresume.py       # Chạy đánh giá toàn diện VietResume-Bench
+│   ├── eval_public_benchmark.py      # Đánh giá trên benchmark quốc tế
+│   ├── db_export.py                  # Xuất dữ liệu
+│   ├── index_chroma.py               # Phân tách section và đánh chỉ mục vector
+│   └── recommend.py                  # CLI gợi ý matching nhanh
 ├── src/cvjd/                     # Mã nguồn lõi của module
 │   ├── data/                     # Tiền xử lý, trích xuất section, payload schema
 │   │   ├── loader.py             # Nạp tài liệu từ file/text
@@ -383,17 +366,14 @@ python -m pytest tests/
 
 #### 4. Chạy Toàn Bộ Chuỗi Thực Nghiệm Học Thuật
 ```powershell
-# 1. Thực nghiệm Song ngữ, Chéo ngôn ngữ & Bỏ dấu tiếng Việt
-python scripts/bilingual_experiment.py
+# 1. Khởi tạo benchmark VietResume-Bench từ dữ liệu công khai Hugging Face
+python scripts/build_vietresume_benchmark.py
 
-# 2. Benchmark chính trên Frevia-Bench
-python scripts/benchmark_paper.py
+# 2. Chạy đánh giá toàn diện VietResume-Bench (1.585 CVs, 60 JDs IT)
+python scripts/benchmark_vietresume.py --embedder sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
 
-# 3. Đánh giá đối chứng trên Public Dataset (Hugging Face)
+# 3. Đánh giá đối chứng trên Public Dataset quốc tế (cnamuangtoun/resume-job-description-fit)
 python scripts/eval_public_benchmark.py
-
-# 4. Chạy Ablation Study, Kiểm định thống kê & Fairness
-python scripts/run_ablation_and_fairness.py
 ```
 
 ---

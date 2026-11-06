@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering\small
+\caption{Main ranking performance on \texttt{VietResume-Bench} (1,585 CVs, 60 JDs, 3-tier graded relevance).}
+\label{tab:vietresume_main}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lccccc@{}}
+\hline
+\textbf{Method} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{Latency (ms)} \\
+\hline
+BM25 (whitespace) & 0.2213 & 0.2178 & 0.5620 & 0.1813 & 122.3 \\
+BM25 (pyvi) & 0.2483 & 0.2341 & 0.6092 & 0.1867 & 93.7 \\
+Single-Vector & 0.3515 & 0.2979 & 0.7633 & 0.1965 & 7.1 \\
+Chunk Max-Sim & 0.3101 & 0.2709 & 0.7463 & 0.2178 & 0.3 \\
+Section-Aware (Fixed) & 0.1228 & 0.1014 & 0.4566 & 0.2562 & 3.4 \\
+\textbf{Section-Aware (Cross)} & \textbf{0.3414} & \textbf{0.3002} & \textbf{0.7322} & \textbf{0.2384} & 447.0 \\
+\textbf{Calibrated Hybrid (Ours)} & \textbf{0.3130} & \textbf{0.2889} & \textbf{0.6783} & \textbf{0.2048} & 560.1 \\
+\hline
+\end{tabular}%
+}
+\end{table}

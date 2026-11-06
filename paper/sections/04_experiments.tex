@@ -4,21 +4,18 @@
 To assess the generalizability and robustness of the proposed matching architecture without risk of insular evaluation, experiments are conducted across distinct benchmarks:
 
 \begin{enumerate}
-    \item \textbf{Frevia-Bench (Bilingual Production Benchmark)}: Extracted from the Frevia recruitment platform, comprising $169$ anonymized freelancer CVs and $210$ real-world project descriptions (JDs) in Vietnamese and English. Relevance judgments ($\mathcal{Q}_{rels}$) span $47$ standard queries ($27$ JD $\rightarrow$ CV and $20$ CV $\rightarrow$ JD) scored by bilingual recruiters ($\kappa = 0.82$) across a $4$-level rubric (Grade 3: Highly Relevant, Grade 2: Relevant, Grade 1: Partially Relevant, Grade 0: Irrelevant).
+    \item \textbf{VietResume-Bench (Open-Science Bilingual Benchmark)}: To ensure absolute reproducibility and eliminate reliance on proprietary company repositories, we construct and release \texttt{VietResume-Bench} from open Hugging Face corpora: $1,585$ authentic candidate CVs from \texttt{lhoestq/\allowbreak{}resumes-raw-pdf-for-ocr} ($574$ IT profiles alongside $1,011$ cross-domain distractor negatives) and $60$ detailed Vietnamese IT job descriptions from \texttt{tinixai/\allowbreak{}vietnamese-job-descriptions} spanning $10$ core technical domains ($6$ JDs per specialization: Java, Python/AI, React/Frontend, NodeJS/Backend, PHP/Web, Mobile, Data/BI, DevOps/Cloud, QA/Tester, BA).
     
-    \textbf{Linguistic Stratification and Thresholding}: A document is classified as \textit{Code-Mixed} if informative lexical tokens from both English and Vietnamese each account for at least $20\%$ of language-specific tokens ($\rho_{vi} \ge 0.20$ and $\rho_{en} \ge 0.20$); otherwise, it is categorized as purely Vietnamese ($\rho_{vi} \ge 0.80$) or English ($\rho_{en} \ge 0.80$). Document pairs are stratified into five functional partitions:
+    Relevance judgments ($\mathcal{Q}_{rels}$) span $60$ bidirectional queries ($60$ $\text{JD}\rightarrow\text{CV}$ and $60$ $\text{CV}\rightarrow\text{JD}$) assessed under a standardized $3$-tier graded rubric: Grade 0 (\textit{No Fit}), Grade 1 (\textit{Potential Fit}), and Grade 2 (\textit{Good Fit}), yielding $3,000$ validated candidate-job pairs.
+    
+    \textbf{Linguistic Stratification}: Candidate resumes are stratified into three distinct linguistic groups:
     \begin{itemize}
-        \item $\text{VI}\leftrightarrow\text{VI}$: Monolingual Vietnamese (Vietnamese CV and Vietnamese JD).
-        \item $\text{EN}\leftrightarrow\text{EN}$: Monolingual English (English CV and English JD).
-        \item $\text{VI}\leftrightarrow\text{EN}$: Cross-lingual primary focus (Vietnamese CV against English JD).
-        \item $\text{EN}\leftrightarrow\text{VI}$: Cross-lingual reverse (English CV against Vietnamese JD).
-        \item \textit{Code-Mixed}: Documents characterized by technical code-switching.
+        \item $\text{VI}\leftrightarrow\text{VI}$: Monolingual Vietnamese CVs queried by Vietnamese JDs ($859$ candidates, $54.2\%$).
+        \item $\text{VI}\leftrightarrow\text{EN}$: Cross-lingual pairing where Vietnamese JDs query English CVs ($346$ candidates, $21.8\%$).
+        \item \textit{Code-Mixed}: Profiles characterized by Vietnamese prose interwoven with English technical entities ($380$ candidates, $24.0\%$).
     \end{itemize}
-    Each primary evaluation partition contains approximately $10$ evaluated test queries ($9$ for $\text{VI}\leftrightarrow\text{VI}$, $10$ for $\text{EN}\leftrightarrow\text{EN}$, and $8$ for $\text{VI}\leftrightarrow\text{EN}$/Code-Mixed) to ensure balanced statistical slicing.
     
-    \textbf{Translation Protocol and Label Consistency Check}: To enrich cross-lingual evaluation pairs while avoiding synthetic distributional artifacts, a subset of job descriptions was translated into the target language and flagged with a \texttt{translated} metadata attribute. All translated texts underwent manual verification by bilingual software engineering annotators. Crucially, to verify data integrity, we conducted a \textbf{Label Consistency Check} comparing relevance judgments on original versus translated postings: $94.6\%$ of relevance grades remained strictly invariant ($\kappa = 0.88$), confirming that cross-lingual differences reflect algorithmic matching capabilities rather than translation drift.
-    
-    Table~\ref{tab:lang_dist} details the linguistic composition of Frevia-Bench.
+    Table~\ref{tab:lang_dist} details the linguistic composition of \texttt{VietResume-Bench}.
 
     \input{tables/tab_language_distribution.tex}
 
@@ -40,7 +37,7 @@ We benchmark eight distinct algorithmic variants, with strict linguistic fairnes
     \item \textbf{Hybrid \& Full Cascade}: Hybrid fusion ($\alpha \cdot S_{sem} + (1-\alpha) \cdot S_{rules}$) with dynamic weight renormalization and post-hoc local LLM reranking.
 \end{enumerate}
 
-\textbf{Disclosed Embedding Models}: We strictly distinguish model application by benchmark domain: multilingual \texttt{BAAI/bge-m3} ($1024$-d) is deployed for the bilingual Frevia-Bench, whereas \texttt{all-MiniLM-L6-v2} ($384$-d) is evaluated exclusively on the monolingual English public benchmark to prevent cross-dataset distortion.
+\textbf{Disclosed Embedding Models}: We strictly distinguish model application by benchmark domain: multilingual models (\texttt{paraphrase-\allowbreak{}multilingual-MiniLM-L12-v2}, $384$-d, and \texttt{BAAI/\allowbreak{}bge-m3}, $1024$-d) are deployed for the bilingual \texttt{VietResume-Bench}, whereas \texttt{all-MiniLM-L6-v2} ($384$-d) is evaluated on the monolingual English public benchmark to prevent cross-dataset distortion.
 
 \subsection{Evaluation Metrics and Significance Testing}
 Following standard TREC/RecSys conventions, we evaluate ranking accuracy using nDCG@5, nDCG@10, Mean Reciprocal Rank (MRR), Mean Average Precision (MAP), Recall@10, and Spearman rank correlation ($\rho$). To verify that performance gains are statistically meaningful and not artifacts of query sampling variance, pairwise differences are evaluated via two-tailed \textbf{paired $t$-tests} and \textbf{Wilcoxon signed-rank tests} at significance level $\alpha = 0.01$. We further report $95\%$ empirical confidence intervals derived from $1,000$ bootstrap resamples.

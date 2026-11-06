@@ -1,0 +1,16 @@
+\begin{table}[t]
+\centering\small
+\caption{Robustness to diacritic removal on \texttt{VietResume-Bench} (RQ4).}
+\label{tab:vietresume_robustness}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{@{}lccc@{}}
+\hline
+\textbf{Method} & \textbf{nDCG@10 (Accented)} & \textbf{nDCG@10 (Unaccented)} & \textbf{Change $\Delta$ (\%)} \\
+\hline
+BM25 (pyvi) & 0.2341 & 0.2161 & -7.69\% \\
+Single-Vector & 0.2979 & 0.2166 & -27.29\% \\
+\textbf{Section-Aware (Ours)} & \textbf{0.3002} & \textbf{0.3002} & \textbf{+0.00\%} \\
+\hline
+\end{tabular}%
+}
+\end{table}

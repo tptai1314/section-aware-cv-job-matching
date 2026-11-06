@@ -89,11 +89,16 @@ class SentenceTransformerEmbedder:
 
 def create_embedder(name: str = "mock", **kwargs) -> Embedder:
     if name == "mock":
+        kwargs.pop("device", None)
         return MockEmbedder(**kwargs)
     if name in ("st", "sentence-transformers"):
         return SentenceTransformerEmbedder(**kwargs)
     if name in ("bge-m3", "bge"):
         kwargs.setdefault("model_name", BGE_M3_MODEL_ID)
         kwargs.setdefault("trust_remote_code", True)
+        return SentenceTransformerEmbedder(**kwargs)
+    # Support arbitrary Hugging Face sentence-transformers model names
+    if "/" in name or "minilm" in name.lower() or "bge" in name.lower():
+        kwargs.setdefault("model_name", name)
         return SentenceTransformerEmbedder(**kwargs)
     raise ValueError(f"unknown embedder: {name!r}")

@@ -33,50 +33,46 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Datasets and Annotation Protocols}{6}{subsection.4.1}\protected@file@percent }
 \citation{huggingface_resume_fit}
 \citation{tinix2026vietnamese}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Language distribution of Frevia-Bench (169 CVs, 210 JDs) under the code-mixed threshold ($\ge 20\%$ token co-occurrence).}}{7}{table.2}\protected@file@percent }
-\newlabel{tab:lang_dist}{{2}{7}{Language distribution of Frevia-Bench (169 CVs, 210 JDs) under the code-mixed threshold ($\ge 20\%$ token co-occurrence)}{table.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Baseline Configurations and Fairness Controls}{8}{subsection.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Language distribution of \texttt  {VietResume-Bench} (1,585 CVs, 60 JDs) under the code-mixed threshold ($\ge 20\%$ token co-occurrence).}}{7}{table.2}\protected@file@percent }
+\newlabel{tab:lang_dist}{{2}{7}{Language distribution of \texttt {VietResume-Bench} (1,585 CVs, 60 JDs) under the code-mixed threshold ($\ge 20\%$ token co-occurrence)}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Baseline Configurations and Fairness Controls}{7}{subsection.4.2}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Evaluation Metrics and Significance Testing}{8}{subsection.4.3}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Comparative retrieval and ranking performance across all experimental configurations on the bilingual freelance benchmark. Metrics evaluated at rank cutoffs $K \in \{5, 10\}$.}}{9}{table.3}\protected@file@percent }
-\newlabel{tab:main_results}{{3}{9}{Comparative retrieval and ranking performance across all experimental configurations on the bilingual freelance benchmark. Metrics evaluated at rank cutoffs $K \in \{5, 10\}$}{table.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Reproducibility and Execution Environment}{9}{subsection.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Reproducibility and Execution Environment}{8}{subsection.4.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Main ranking performance on \texttt  {VietResume-Bench} (1,585 CVs, 60 JDs, 3-tier graded relevance).}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:vietresume_main}{{3}{9}{Main ranking performance on \texttt {VietResume-Bench} (1,585 CVs, 60 JDs, 3-tier graded relevance)}{table.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Sliced performance across language groups on \texttt  {VietResume-Bench} (RQ1 \& RQ2).}}{9}{table.4}\protected@file@percent }
+\newlabel{tab:vietresume_bilingual}{{4}{9}{Sliced performance across language groups on \texttt {VietResume-Bench} (RQ1 \& RQ2)}{table.4}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Empirical Results and Discussion}{9}{section.5}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Main Benchmark Comparison on Frevia-Bench}{9}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Main Benchmark Comparison on VietResume-Bench}{9}{subsection.5.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Answer to RQ1: Matching Discrepancy Across Language Partitions}{9}{subsection.5.2}\protected@file@percent }
 \newlabel{sec:rq1}{{5.2}{9}{Answer to RQ1: Matching Discrepancy Across Language Partitions}{subsection.5.2}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Retrieval performance sliced across language pairs on Frevia-Bench.}}{10}{table.4}\protected@file@percent }
-\newlabel{tab:bilingual_results}{{4}{10}{Retrieval performance sliced across language pairs on Frevia-Bench}{table.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Answer to RQ2: Multilingual Dense Embeddings vs. Lexical Matching (BM25)}{10}{subsection.5.3}\protected@file@percent }
 \newlabel{sec:rq2}{{5.3}{10}{Answer to RQ2: Multilingual Dense Embeddings vs. Lexical Matching (BM25)}{subsection.5.3}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Sensitivity analysis of the semantic fusion parameter $\alpha $ (Eq.~\ref {eq:hybrid}) on JD $\rightarrow $ CV ranking metrics.}}{11}{table.5}\protected@file@percent }
-\newlabel{tab:alpha}{{5}{11}{Sensitivity analysis of the semantic fusion parameter $\alpha $ (Eq.~\ref {eq:hybrid}) on JD $\rightarrow $ CV ranking metrics}{table.5}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Answer to RQ3: Section-Aware Multi-Vector Granularity across Languages}{11}{subsection.5.4}\protected@file@percent }
-\newlabel{sec:rq3}{{5.4}{11}{Answer to RQ3: Section-Aware Multi-Vector Granularity across Languages}{subsection.5.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Ablation analysis of hybrid matching components on \texttt  {Frevia-Bench} ($N=47$).}}{12}{table.6}\protected@file@percent }
-\newlabel{tab:ablation}{{6}{12}{Ablation analysis of hybrid matching components on \texttt {Frevia-Bench} ($N=47$)}{table.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Robustness evaluation under Vietnamese diacritic omission (unaccented typing). Section-aware multi-vector matching maintains high precision without tokenization fragmentation.}}{12}{table.7}\protected@file@percent }
-\newlabel{tab:robustness}{{7}{12}{Robustness evaluation under Vietnamese diacritic omission (unaccented typing). Section-aware multi-vector matching maintains high precision without tokenization fragmentation}{table.7}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Answer to RQ4: System Robustness to Real-World Noisy Data}{12}{subsection.5.5}\protected@file@percent }
-\newlabel{sec:rq4}{{5.5}{12}{Answer to RQ4: System Robustness to Real-World Noisy Data}{subsection.5.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.4}Answer to RQ3: Section-Aware Multi-Vector Granularity across Languages}{10}{subsection.5.4}\protected@file@percent }
+\newlabel{sec:rq3}{{5.4}{10}{Answer to RQ3: Section-Aware Multi-Vector Granularity across Languages}{subsection.5.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Robustness to diacritic removal on \texttt  {VietResume-Bench} (RQ4).}}{11}{table.5}\protected@file@percent }
+\newlabel{tab:vietresume_robustness}{{5}{11}{Robustness to diacritic removal on \texttt {VietResume-Bench} (RQ4)}{table.5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.5}Answer to RQ4: System Robustness to Real-World Noisy Data}{11}{subsection.5.5}\protected@file@percent }
+\newlabel{sec:rq4}{{5.5}{11}{Answer to RQ4: System Robustness to Real-World Noisy Data}{subsection.5.5}{}}
 \citation{huggingface_resume_fit}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Cross-dataset generalizability on public benchmark \texttt  {resume-job-description-fit} ($1,759$ test pairs, $71$ job queries).}}{13}{table.8}\protected@file@percent }
-\newlabel{tab:public_benchmark}{{8}{13}{Cross-dataset generalizability on public benchmark \texttt {resume-job-description-fit} ($1,759$ test pairs, $71$ job queries)}{table.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Cross-Dataset Generalizability on Independent Public Benchmark}{13}{subsection.5.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Analysis of the CV $\rightarrow $ JD Direction and Theoretical Recall Ceilings}{13}{subsection.5.7}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}LLM Explanation Fidelity and Latency Profile}{14}{subsection.5.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Practical Implications and Lessons Learned}{14}{subsection.5.9}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {6}Ethical Considerations, Privacy, and Limitations}{15}{section.6}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Algorithmic Fairness and Quantitative Perturbation Testing}{15}{subsection.6.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Privacy Preservation and Data Governance}{15}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Cross-dataset generalizability on public benchmark \texttt  {resume-job-description-fit} ($1,759$ test pairs, $71$ job queries).}}{12}{table.6}\protected@file@percent }
+\newlabel{tab:public_benchmark}{{6}{12}{Cross-dataset generalizability on public benchmark \texttt {resume-job-description-fit} ($1,759$ test pairs, $71$ job queries)}{table.6}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.6}Cross-Dataset Generalizability on Independent Public Benchmark}{12}{subsection.5.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.7}Analysis of the CV $\rightarrow $ JD Direction and Theoretical Recall Ceilings}{12}{subsection.5.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.8}LLM Explanation Fidelity and Latency Profile}{12}{subsection.5.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.9}Practical Implications and Lessons Learned}{13}{subsection.5.9}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {6}Ethical Considerations, Privacy, and Limitations}{13}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Algorithmic Fairness and Quantitative Perturbation Testing}{13}{subsection.6.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Privacy Preservation and Data Governance}{14}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Human Evaluation and Inter-Annotator Reliability}{14}{subsection.6.3}\protected@file@percent }
 \citation{tinix2026vietnamese}
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Human Evaluation and Inter-Annotator Reliability}{16}{subsection.6.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Limitations and Critical Discussion}{16}{subsection.6.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion and Future Work}{16}{section.7}\protected@file@percent }
 \bibstyle{splncs04}
 \bibdata{references}
 \bibcite{asadi2013effectiveness}{1}
 \bibcite{bian2020learning}{2}
 \bibcite{chen2024bge}{3}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Limitations and Critical Discussion}{15}{subsection.6.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion and Future Work}{15}{section.7}\protected@file@percent }
 \bibcite{karpukhin2020dense}{4}
 \bibcite{khattab2020colbert}{5}
 \bibcite{huggingface_resume_fit}{6}
@@ -85,4 +81,4 @@
 \bibcite{zhang2021personalized}{9}
 \bibcite{zheng2023judging}{10}
 \bibcite{zhu2018person}{11}
-\gdef \@abspage@last{17}
+\gdef \@abspage@last{16}

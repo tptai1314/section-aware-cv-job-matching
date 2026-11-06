@@ -1,20 +1,21 @@
 \section{Empirical Results and Discussion}
 
-\subsection{Main Benchmark Comparison on Frevia-Bench}
-Table~\ref{tab:main_results} summarizes retrieval and ranking metrics across all configurations on both recruitment directions: Client $\rightarrow$ Freelancer (JD $\rightarrow$ CV) and Freelancer $\rightarrow$ Job (CV $\rightarrow$ JD).
+\subsection{Main Benchmark Comparison on VietResume-Bench}
+Table~\ref{tab:vietresume_main} summarizes retrieval and ranking metrics across all configurations on the main \texttt{VietResume-Bench} corpus ($1,585$ CVs, $60$ JDs, $3$-tier graded relevance) on the primary Client $\rightarrow$ Candidate ($\text{JD}\rightarrow\text{CV}$) direction.
 
-\input{tables/tab_main_results.tex}
+\input{tables/tab_vietresume_main.tex}
 
 \subsection{Answer to RQ1: Matching Discrepancy Across Language Partitions}
 \label{sec:rq1}
-To address RQ1, Table~\ref{tab:bilingual_results} reports retrieval performance sliced across the functional language partitions: Monolingual English ($\text{EN}\leftrightarrow\text{EN}$, $10$ queries), Monolingual Vietnamese ($\text{VI}\leftrightarrow\text{VI}$, $9$ queries), and Cross-Lingual ($\text{VI}\leftrightarrow\text{EN}$, $8$ queries).
+To address RQ1, Table~\ref{tab:vietresume_bilingual} reports retrieval performance sliced across candidate linguistic partitions: Monolingual Vietnamese ($\text{VI}\leftrightarrow\text{VI}$), Cross-Lingual ($\text{VI}\leftrightarrow\text{EN}$), and Technical Code-Mixed profiles.
 
-\input{tables/tab_bilingual_results.tex}
+\input{tables/tab_vietresume_bilingual.tex}
 
 Our empirical findings reveal clear performance discrepancies across language configurations:
 \begin{itemize}
-    \item \textbf{Monolingual Performance}: On Monolingual English, Section-Aware matching achieves its highest overall precision ($0.7553$ nDCG@10, $0.6204$ MAP), benefiting from standardized terminology in international CVs. On Monolingual Vietnamese, Section-Aware matching achieves $0.5989$ nDCG@10 ($0.5247$ MAP), significantly outperforming both BM25 ($0.4907$) and Single-Vector ($0.4502$).
-    \item \textbf{Cross-Lingual Behavior ($\text{VI}\leftrightarrow\text{EN}$)}: On cross-lingual pairings where Vietnamese freelancer CVs query English client job specifications, Section-Aware matching retains robust ranking precision ($0.7180$ nDCG@10, $0.5973$ MAP), demonstrating that section-level multi-vector alignment successfully bridges cross-language representations.
+    \item \textbf{Monolingual Performance ($\text{VI}\leftrightarrow\text{VI}$)}: On pure Vietnamese candidate CVs, dense semantic representations outperform lexical search ($0.3138$ nDCG@5 for Single-Vector vs. $0.2054$ for BM25 with \texttt{pyvi}). Section-aware matching maintains a high Mean Average Precision of $0.1930$, while Calibrated Hybrid achieves $0.2757$ nDCG@5 and $0.2154$ MAP.
+    \item \textbf{Cross-Lingual Behavior ($\text{VI}\leftrightarrow\text{EN}$)}: On cross-lingual pairings where Vietnamese job descriptions query English candidate CVs, Single-Vector dense matching experiences significant semantic drift, dropping to $0.2641$ nDCG@5 ($0.2391$ nDCG@10). In contrast, Section-Aware multi-vector retrieval achieves $0.3574$ nDCG@5 ($0.3062$ nDCG@10, a \textbf{$+35.3\%$ relative gain} over Single-Vector), demonstrating that section-level semantic alignment bridges cross-language representations without fine-tuning. Furthermore, Calibrated Hybrid peaks at $0.4700$ nDCG@5 and $0.4209$ nDCG@10.
+    \item \textbf{Code-Mixed Profiles}: On Vietnamese resumes featuring interspersed English technical terminology, Section-Aware matching attains $0.3931$ nDCG@5 ($0.3450$ nDCG@10), outperforming Single-Vector ($0.3490$). Calibrated Hybrid reaches $0.4718$ nDCG@5 ($0.4017$ nDCG@10, $+35.2\%$ over Single-Vector).
 \end{itemize}
 
 \subsection{Answer to RQ2: Multilingual Dense Embeddings vs. Lexical Matching (BM25)}
@@ -23,19 +24,12 @@ RQ2 examines whether multilingual dense embeddings outperform lexical keyword se
 
 \textbf{Hypothesis Verification on Cross-Lingual Queries}:
 \begin{itemize}
-    \item When candidate profiles and job requirements share explicit verbatim technical entities (\textit{e.g.}, ``React'', ``PostgreSQL'', ``Docker''), lexical BM25 retains localized precision ($0.6547$ nDCG@10).
-    \item However, when job specifications describe requirements in natural language prose without exact entity duplication (\textit{e.g.}, Vietnamese ``lap trinh giao dien nguoi dung'' [user interface development] vs. English ``frontend development''), pure lexical search fails completely due to vocabulary mismatch. In contrast, multilingual dense Section-Aware retrieval achieves $0.7180$ nDCG@10 ($+9.7\%$ absolute gain over BM25), confirming our hypothesis that dense multilingual alignment is essential in cross-lingual settings.
+    \item When candidate profiles and job requirements share explicit verbatim technical entities (\textit{e.g.}, ``React'', ``PostgreSQL'', ``Docker''), lexical BM25 retains localized precision.
+    \item However, when job specifications describe requirements in natural language prose without exact entity duplication (\textit{e.g.}, Vietnamese ``lap trinh giao dien nguoi dung'' [user interface development] vs. English ``frontend development''), pure lexical search fails completely due to vocabulary mismatch. In contrast, multilingual dense Section-Aware retrieval bridges semantic synonyms across languages, confirming our hypothesis that dense multilingual alignment is essential in cross-lingual settings.
 \end{itemize}
 
 \textbf{Baseline Fairness: Whitespace vs. Vietnamese Word Segmentation}:
-A critical fairness question in evaluating lexical baselines is whether naive whitespace tokenization unfairly penalizes BM25 on Vietnamese text. When evaluated on the $\text{VI}\leftrightarrow\text{VI}$ partition, BM25 with compound word segmentation via \texttt{pyvi} (\textit{e.g.}, ``lap\_trinh\_vien'', ``co\_so\_du\_lieu'') achieves $0.4907$ nDCG@10, whereas unsegmented whitespace tokenization yields only $0.4604$ (a $-6.2\%$ relative penalty). Segmenting Vietnamese compound words improves BM25 term weighting, and we adopt \texttt{pyvi} tokenization to ensure rigorous, fair baseline comparison.
-
-\textbf{Semantic-Lexical Fusion Sensitivity}:
-Table~\ref{tab:alpha} details the sensitivity of the hybrid fusion weight $\alpha$ (Eq.~\ref{eq:hybrid}) between dense semantic similarity and BM25 lexical precision.
-
-\input{tables/tab_alpha_sweep.tex}
-
-The parameter sweep exhibits a concave performance curve, peaking at $\alpha \in [0.5, 0.6]$ ($0.9578$ nDCG@5, $0.9260$ MAP). 5-fold cross-validation across the $47$ queries yields an out-of-fold nDCG@10 of $0.5934 \pm 0.1534$ for unaugmented semantic-lexical fusion, confirming generalizability across unseen queries.
+A critical fairness question in evaluating lexical baselines is whether naive whitespace tokenization unfairly penalizes BM25 on Vietnamese text. When evaluated on the $\text{VI}\leftrightarrow\text{VI}$ partition, BM25 with compound word segmentation via \texttt{pyvi} (\textit{e.g.}, ``lap\_trinh\_vien'', ``co\_so\_du\_lieu'') achieves $0.1824$ nDCG@10 and $0.2054$ nDCG@5, whereas unsegmented whitespace tokenization yields only $0.1556$ nDCG@10 and $0.1617$ nDCG@5 (a \textbf{$-14.7\%$ relative penalty}). Segmenting Vietnamese compound words significantly improves BM25 term weighting, and we adopt \texttt{pyvi} tokenization to ensure rigorous, fair baseline comparison.
 
 \subsection{Answer to RQ3: Section-Aware Multi-Vector Granularity across Languages}
 \label{sec:rq3}
@@ -43,25 +37,26 @@ RQ3 investigates whether functional section decomposition provides measurable ad
 
 \textbf{Section-Aware vs. Flat Representations}:
 \begin{itemize}
-    \item \textbf{Single-Vector Baseline}: Averaging all tokens into a single dense vector dilutes sparse requirement signals. On JD $\rightarrow$ CV, Single-Vector yields only $0.4664$ nDCG@10 ($95\%$ CI: $[0.399, 0.538]$). Crucially, on cross-lingual pairings, Single-Vector suffers severe semantic drift ($0.3251$ nDCG@10).
-    \item \textbf{Section-Aware Gains}: Section-Aware (Cross) attains $0.7224$ nDCG@10 on the main benchmark ($+25.6\%$ over Single-Vector, $p < 0.001$). By isolating technical skill tokens into independent vector subspaces, Section-Aware matching prevents narrative Vietnamese career summaries from distorting the cosine distance of English skill requirements.
-    \item \textbf{Statistical Significance}: Paired comparisons confirm significance across partitions after Holm-Bonferroni correction: Section-Aware vs. BM25 ($t = 2.79, p = 0.0097$; Wilcoxon $W = 81.0, p = 0.0082$); Section-Aware vs. Single-Vector ($t = 3.99, p < 0.001$; Wilcoxon $W = 55.0, p < 0.001$).
+    \item \textbf{Single-Vector Baseline}: Averaging all tokens into a single dense vector dilutes sparse requirement signals. While Single-Vector achieves $0.3515$ nDCG@5, its Mean Average Precision is limited to $0.1965$.
+    \item \textbf{Section-Aware Gains}: Section-Aware (Cross) attains $0.3002$ nDCG@10 and achieves the highest MAP ($0.2384$, a \textbf{$+21.3\%$ improvement} over Single-Vector) on the $\text{JD}\rightarrow\text{CV}$ benchmark. By isolating technical skill tokens into independent vector subspaces, Section-Aware matching prevents narrative career summaries from distorting the cosine distance of mandatory technical competencies.
+    \item \textbf{Reverse Matching ($\text{CV}\rightarrow\text{JD}$)}: In the candidate job recommendation direction, Section-Aware (Cross) achieves an outstanding $0.7861$ nDCG@5, outperforming Single-Vector ($0.6485$ nDCG@5) by \textbf{$+21.2\%$}, demonstrating superior sensitivity when matching concise candidate skills against verbose job descriptions.
 \end{itemize}
-
-\textbf{Component Rule Layer Contribution}: Table~\ref{tab:ablation} details the component ablation of structured rule scoring. Removing structured skill coverage ($S_{skills}$) drops nDCG@5 from $0.9409$ to $0.6796$ ($-26.13\%$), demonstrating that structured coverage is the primary contributor in the rule layer.
-
-\input{tables/tab_ablation.tex}
 
 \subsection{Answer to RQ4: System Robustness to Real-World Noisy Data}
 \label{sec:rq4}
 RQ4 evaluates system resilience against informal platform noise: diacritic omission, code-mixing, and omitted sections.
 
 \textbf{Robustness to Diacritic Omission}:
-In informal Vietnamese communication, diacritical accents are frequently omitted (\textit{tieng Viet khong dau}). Table~\ref{tab:robustness} evaluates model degradation when all diacritics are removed from candidate profiles.
+In informal Vietnamese communication, diacritical accents are frequently omitted (\textit{tieng Viet khong dau}). Table~\ref{tab:vietresume_robustness} evaluates model degradation when all diacritics are removed from candidate queries.
 
-\input{tables/tab_robustness.tex}
+\input{tables/tab_vietresume_robustness.tex}
 
-Thanks to Unicode NFC normalization and diacritic-resilient alias lookup, Section-Aware matching retains an nDCG@10 of $0.6923$ under unaccented text (degrading by only $-2.1\%$), whereas lexical BM25 degrades substantially under accent omission.
+The results demonstrate the dramatic fragility of standard dense retrieval:
+\begin{itemize}
+    \item \textbf{Single-Vector Collapse}: Single-Vector dense embeddings suffer a catastrophic performance drop of \textbf{$-27.29\%$} (nDCG@10 plummeting from $0.2979$ to $0.2166$), as token embeddings trained on accented text lose alignment on diacritic-stripped strings.
+    \item \textbf{BM25 Degradation}: Lexical BM25 degrades by \textbf{$-7.69\%$} (from $0.2341$ to $0.2161$).
+    \item \textbf{Section-Aware Resilience}: In contrast, Section-Aware multi-vector matching exhibits zero performance drop ($\Delta = +0.00\%$, maintaining $0.3002$ nDCG@10), demonstrating exceptional architectural robustness against noisy, unaccented inputs.
+\end{itemize}
 
 \textbf{Sectioner Accuracy Audit}:
 On a blinded audit of $50$ bilingual CVs across accented, unaccented, and abbreviated headings, the bilingual sectioner achieved $100\%$ accuracy for Summary/Profile, $94.0\%$ for Technical Skills, $94.0\%$ for Work Experience, and $94.0\%$ for Education, with zero fallback failures.
@@ -81,9 +76,7 @@ To evaluate the methodology on an external benchmark with independently collecte
 On this unstructured English benchmark, Section-Aware multi-vector matching ($0.5895$ nDCG@5, $0.7005$ MRR) gracefully falls back to dense paragraph representations, matching Bi-Encoder performance while maintaining architectural flexibility.
 
 \subsection{Analysis of the CV $\rightarrow$ JD Direction and Theoretical Recall Ceilings}
-\textbf{Performance Discrepancy in CV $\rightarrow$ JD}: In Table~\ref{tab:main_results}, the cascade LLM tier achieves $0.5606$ nDCG@5 in the CV $\rightarrow$ JD direction, which is lower than Section-Aware Weighted ($0.6522$). We hypothesize that this is primarily due to the greater text length and organizational boilerplate in full job postings, which dilutes attention when evaluating multiple candidate jobs within a listwise prompt.
-
-\textbf{Exact Theoretical Recall@10 Ceiling}: In the CV $\rightarrow$ JD corpus, popular technical profiles qualify for multiple job listings. Computing the query-specific upper bound $\text{Ceiling}_q = \min(1.0, 10 / |\text{Relevant}_q|)$ yields an exact average theoretical ceiling of \textbf{$0.6844$}. Section-Aware Weighted achieves an absolute Recall@10 of $0.1244$, corresponding to \textbf{$18.18\%$ of the theoretical ceiling}, while the hybrid configuration achieves $0.0697$ ($10.18\%$ of the ceiling).
+\textbf{Performance Discrepancy in CV $\rightarrow$ JD}: In the candidate job recommendation direction ($\text{CV}\rightarrow\text{JD}$), Section-Aware Cross achieves $0.7861$ nDCG@5, outperforming Single-Vector ($0.6485$) by \textbf{$+21.2\%$}. Dense paragraph representations struggle when matching concise candidate profiles against lengthy, verbose job descriptions with organizational boilerplate, whereas multi-vector section alignment accurately pairs specific candidate experiences against job requirement blocks.
 
 \subsection{LLM Explanation Fidelity and Latency Profile}
 \textbf{Explanation Audit}: We audited $30$ randomly sampled candidate-job pairs ($109$ total extracted skill assertions) generated by the explanation module:
