@@ -15,6 +15,8 @@ Tài liệu này ghi lại kết quả thẩm định kỹ thuật, thống kê 
 | **Ngôn ngữ** | 100% Tiếng Anh (English Monolingual) |
 | **Ghi chú về Dataset Card** | Uploader chỉ tải lên 2 file `train.csv` và `test.csv`, **không kèm theo Dataset Card hay văn bản quy định gán nhãn chính thức**. Trong nghiên cứu, 3 nhãn chuỗi được xử lý khách quan theo thang đo Ordinal IR: `No Fit` $\rightarrow 0$, `Potential Fit` $\rightarrow 1$, `Good Fit` $\rightarrow 2$. |
 | **Định dạng lưu trữ** | `train.csv` (6.241 dòng, 1,29 MB) và `test.csv` (1.759 dòng, 1,41 MB) |
+| **Lịch sử Git log hằng số** | Trọng số section ($0.40/0.35/0.15/0.10$) được đưa vào cấu hình tại commit `55c22ae` (03/11/2026). Tham số hòa trộn $\alpha=0.60$ và $\beta=0.60$ được chọn theo trực giác ban đầu và sau đó được kiểm chứng độc lập trên tập train. |
+| **Nguồn gốc Taxonomy** | Bộ từ điển 615 khái niệm kỹ năng kỹ thuật chuẩn hóa (`skills_taxonomy.json`) là ontology độc lập, không gắn với nhãn của train hay test. |
 
 ---
 
@@ -245,4 +247,46 @@ Hòa trộn $S_{\text{final}} = \beta S_{\text{retrieval}} + (1-\beta) S_{\text{
 
 ---
 
-*Báo cáo được thực thi và xác nhận hoàn toàn trên bộ dữ liệu công khai bởi các script `scripts/run_scientific_benchmark.py`, `scripts/measure_rigorous_latency.py`, và `scripts/train_sensitivity_analysis.py`.*
+## 13. Đánh Giá Đối Chứng Trên 76 Query Sạch Của Tập Huấn Luyện (Clean Train Benchmark)
+
+Thực hiện theo kế hoạch phân tích cố định đã đăng ký trước (Pre-registered plan tại `docs/PRE_REGISTERED_TRAIN_EVAL_PLAN.md`, commit `d22eb66`). Loại trừ toàn bộ 204 JDs đã dùng cho dev-luật parser (168 JDs), đo ground-truth parser (25 JDs), và quét độ nhạy tham số (50 JDs), giữ lại **76 queries sạch hoàn toàn (1.829 cặp CV--JD)**:
+
+### 1. Tỷ lệ ký tự rơi vào section chức năng (Functional Character Coverage):
+* **Văn bản CVs (547 CVs)**: Trung bình **95.32%** ký tự (Trung vị: **99.00%**) thuộc về các section chức năng (`skills`, `experience`, `education`, `summary`). Tỷ lệ đoạn mở đầu (`preamble`) chỉ chiếm trung bình **2.00%**. Tỷ lệ Fallback đạt **0.00%** (0 / 547 CVs).
+* **Văn bản JDs (76 JDs)**: Trung bình **30.71%** ký tự (Trung vị: **0.00%**) có heading chức năng; phần lớn JDs mở đầu bằng văn bản mô tả doanh nghiệp/vai trò chung chiếm trung bình **67.72%** (`preamble`).
+
+### 2. Kết quả xếp hạng trên 76 Query Sạch:
+* **Setting A (Toàn bộ 76 queries)**:
+  * Single-Vector Flat: nDCG@10 = 0.6540, MRR = 0.7269, MAP = 0.6503, P@5 = 0.4500.
+  * Section-Aware MiniLM: nDCG@10 = 0.6890, MRR = 0.7492, MAP = 0.6892, P@5 = 0.4763.
+  * Calibrated Hybrid: nDCG@10 = 0.6914, MRR = 0.7632, MAP = 0.6822, P@5 = 0.4553.
+  * Dense + BM25 ($L_0$): nDCG@10 = 0.7043, MRR = 0.7794, MAP = 0.6924, P@5 = 0.4895.
+  * Parameter-Free RRF: nDCG@10 = 0.6227, MRR = 0.6942, MAP = 0.6048, P@5 = 0.4605.
+* **Setting B (Filtered $\text{rel}\ge 1$, $N=71$ queries)**:
+  * Single-Vector Flat: nDCG@10 = 0.7001, MRR = 0.7781, MAP = 0.6961.
+  * Section-Aware MiniLM: nDCG@10 = 0.7376, MRR = 0.8020, MAP = 0.7377.
+  * Calibrated Hybrid: nDCG@10 = 0.7401, MRR = 0.8170, MAP = 0.7303.
+  * Dense + BM25: nDCG@10 = 0.7539, MRR = 0.8343, MAP = 0.7411.
+* **Kiểm định thống kê cặp (Setting A & B)**:
+  * RQ1 (Section-Aware vs Single-Vector): Setting A có $\bar{\Delta} = +0.0351$, 95% CI $[+0.0024, +0.0658]$, raw $p=0.0379$, nhưng sau hiệu chỉnh Holm thì $p_{\text{adj}} = 0.1517 > 0.05 \implies$ **tương đương thống kê**, hoàn toàn nhất quán với kết luận trên tập test.
+  * RRF vs Calibrated Hybrid: $\bar{\Delta} = -0.0687$, 95% CI $[-0.0996, -0.0387]$, raw $p < 0.0001$, Holm $p = 0.0003 \implies$ **RRF kém hơn Calibrated Hybrid có ý nghĩa thống kê**.
+
+---
+
+## 14. Đánh Giá Ngoại Vi Trên Bộ Dữ Liệu `med2425/resume-job-fit-merged-v1`
+
+* **Nguồn gốc & Bản chất**: Dataset do Mohamed Douali phát hành (2026), kết hợp `cnamuangtoun` và `kens1ang` để tạo các cặp ghép ứng viên dense candidate pool và được gán nhãn tự động bởi **Qwen2.5-32B** (LLM Recruiter ở temperature = 0).
+* **Tập kiểm chứng phụ (Miền IT chuyên biệt)**: Lọc các cặp thỏa mãn `resume_domain` $\in \{\text{software}, \text{data}, \text{ai}\}$ và `jd_domain` $\in \{\text{software}, \text{data}, \text{ai}\}$:
+  * Quy mô: **41 JDs, 277 CVs, 8.575 cặp CV--JD** (mật độ pool rất dày: ~209 ứng viên/query).
+* **Kết quả đối sánh dưới nhãn LLM Recruiter**:
+  * Floor Random: nDCG@10 = 0.2350, MRR = 0.5748, MAP = 0.4179.
+  * BM25 / TF-IDF: nDCG@10 = 0.5427, MRR = 0.9129, MAP = 0.6052.
+  * MiniLM Single-Vector: nDCG@10 = 0.5393, MRR = 0.8189, MAP = 0.6323.
+  * MiniLM Section-Aware: nDCG@10 = 0.5136, MRR = 0.7859, MAP = 0.6132 (Kiểm định cặp với Single-Vector: $\bar{\Delta} = -0.0257$, 95% Bootstrap CI $[-0.0780, +0.0242]$, paired $t$ $p=0.3588 \implies$ tương đương thống kê).
+  * Dense + BM25 ($L_0$): nDCG@10 = 0.5879, MRR = 0.8892, MAP = 0.6438.
+  * **Calibrated Hybrid ($L_0$ + Taxonomy)**: nDCG@10 = **0.6242**, MRR = **0.9142**, MAP = **0.6814**, P@5 = **0.7805** ($\Delta = +0.0849$ so với Single-Vector, $\Delta = +0.0363$ so với Dense+BM25).
+  * *Nhận định*: Trong môi trường candidate pool rất lớn (~209 ứng viên/query) với nhãn do mô hình LLM tuyển dụng gán, việc kết hợp Dense + BM25 + Taxonomy Coverage thể hiện sức mạnh vượt trội rõ nét trong việc cô lập các ứng viên đạt chuẩn kỹ năng chuyên môn.
+
+---
+
+*Báo cáo được thực thi và xác nhận hoàn toàn trên bộ dữ liệu công khai bởi các script `scripts/run_scientific_benchmark.py`, `scripts/measure_rigorous_latency.py`, `scripts/run_clean_train_benchmark.py`, và `scripts/evaluate_med2425_llm_benchmark.py`.*
