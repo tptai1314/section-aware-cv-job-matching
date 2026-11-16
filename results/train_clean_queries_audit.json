@@ -1,0 +1,13 @@
+{
+  "total_train_jds": 280,
+  "dev_jds_count": 168,
+  "eval_jds_count": 25,
+  "sensitivity_jds_count": 50,
+  "total_touched_jds": 204,
+  "clean_train_jds_count": 76,
+  "clean_pairs_count": 1829,
+  "clean_jds_ge_5_candidates": 72,
+  "clean_jds_ge_10_candidates": 45,
+  "clean_jds_pos_th1": 71,
+  "clean_jds_pos_th2": 31
+}
