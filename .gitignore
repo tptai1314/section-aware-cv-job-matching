@@ -45,3 +45,9 @@ docs/*.log
 docs/*.out
 docs/*.toc
 docs/so_do/_build/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc

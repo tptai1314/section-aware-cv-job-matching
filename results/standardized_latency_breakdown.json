@@ -1,59 +1,141 @@
 {
   "hardware": "Intel Core i7 CPU (Multi-core, 16GB RAM), PyTorch CPU (No GPU)",
-  "pool_size": 25,
+  "pool_size_n": 25,
+  "protocol": "Multi-trial profiling with 10 warm-ups and 15-20 repetitions. Fast matrix operations averaged over 100 inner iterations to eliminate timer resolution jitter.",
   "metrics": {
     "BM25 / TF-IDF (Lexical)": {
-      "t_index_ms": 0.35,
-      "t_query_ms": 0.28,
-      "t_rank_ms": 0.281,
-      "notes": "Sparse inverted index dot product"
+      "t_index_ms": 0.64,
+      "t_query_ms": 0.72,
+      "t_query_iqr": [
+        0.52,
+        1.03
+      ],
+      "t_rank_ms": 0.163,
+      "t_rank_iqr": [
+        0.159,
+        0.165
+      ],
+      "t_online_ms": 0.88,
+      "notes": "Sparse term dot product on inverted index"
     },
     "Single-Vector Dense (MiniLM)": {
-      "t_index_ms": 23.75,
-      "t_query_ms": 19.47,
-      "t_rank_ms": 0.054,
+      "t_index_ms": 19.25,
+      "t_query_ms": 29.78,
+      "t_query_iqr": [
+        28.46,
+        30.11
+      ],
+      "t_rank_ms": 0.004,
+      "t_rank_iqr": [
+        0.004,
+        0.004
+      ],
+      "t_online_ms": 29.79,
       "notes": "Dense matrix multiplication (384-dim)"
     },
     "Section-Aware Dense (Ours)": {
-      "t_index_ms": 42.76,
-      "t_query_ms": 19.47,
-      "t_rank_ms": 0.149,
+      "t_index_ms": 84.85,
+      "t_query_ms": 29.78,
+      "t_query_iqr": [
+        28.46,
+        30.11
+      ],
+      "t_rank_ms": 0.121,
+      "t_rank_iqr": [
+        0.095,
+        0.134
+      ],
+      "t_online_ms": 29.9,
       "notes": "Dynamic weighted cross-section cosine"
     },
     "BGE-M3 Flat (Long-Context)": {
-      "t_index_ms": 4382.56,
-      "t_query_ms": 1240.0,
-      "t_rank_ms": 0.005,
+      "t_index_ms": 3012.9,
+      "t_query_ms": 1646.12,
+      "t_query_iqr": [
+        972.63,
+        2965.03
+      ],
+      "t_rank_ms": 0.007,
+      "t_rank_iqr": [
+        0.007,
+        0.008
+      ],
+      "t_online_ms": 1646.13,
       "notes": "1024-dim dense matrix multiplication"
     },
     "BGE-M3 Section-Aware": {
-      "t_index_ms": 4810.2,
-      "t_query_ms": 1240.0,
-      "t_rank_ms": 0.171,
+      "t_index_ms": 3314.19,
+      "t_query_ms": 1646.12,
+      "t_query_iqr": [
+        972.63,
+        2965.03
+      ],
+      "t_rank_ms": 0.134,
+      "t_rank_iqr": [
+        0.086,
+        0.155
+      ],
+      "t_online_ms": 1646.25,
       "notes": "1024-dim section-level weighted cosine"
     },
     "Calibrated Hybrid (Ours)": {
-      "t_index_ms": 43.26,
-      "t_query_ms": 20.25,
-      "t_rank_ms": 3.478,
+      "t_index_ms": 85.49,
+      "t_query_ms": 30.75,
+      "t_query_iqr": [
+        30.13,
+        31.14
+      ],
+      "t_rank_ms": 2.694,
+      "t_rank_iqr": [
+        2.634,
+        2.713
+      ],
+      "t_online_ms": 33.44,
       "notes": "MinMax query fusion + taxonomy coverage"
     },
     "Parameter-Free RRF + Taxonomy": {
-      "t_index_ms": 43.26,
-      "t_query_ms": 20.25,
-      "t_rank_ms": 3.895,
+      "t_index_ms": 85.49,
+      "t_query_ms": 30.75,
+      "t_query_iqr": [
+        30.13,
+        31.14
+      ],
+      "t_rank_ms": 2.828,
+      "t_rank_iqr": [
+        2.766,
+        2.849
+      ],
+      "t_online_ms": 33.57,
       "notes": "Reciprocal Rank Fusion (k=60) + taxonomy"
     },
     "2-Stage: Hybrid -> CE (Top-10)": {
       "t_index_ms": "--",
-      "t_query_ms": 20.25,
-      "t_rank_ms": 433.61,
-      "notes": "Top-10 cross-encoder CPU neural forward pass"
+      "t_query_ms": 30.75,
+      "t_query_iqr": [
+        30.13,
+        31.14
+      ],
+      "t_rank_ms": 426.88,
+      "t_rank_iqr": [
+        424.88,
+        427.43
+      ],
+      "t_online_ms": 457.63,
+      "notes": "Stage 1 candidate generation + Top-10 cross-attention"
     },
     "Full Cross-Encoder (Upper Bound)": {
       "t_index_ms": "--",
       "t_query_ms": "--",
-      "t_rank_ms": 1174.67,
+      "t_query_iqr": [
+        "--",
+        "--"
+      ],
+      "t_rank_ms": 1178.05,
+      "t_rank_iqr": [
+        1173.02,
+        1189.0
+      ],
+      "t_online_ms": 1178.05,
       "notes": "Full N=25 concatenation neural inference on CPU"
     }
   }

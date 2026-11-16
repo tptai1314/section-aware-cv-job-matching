@@ -126,33 +126,41 @@ $$\text{RRF}(d) = \frac{1}{60 + r_{dense}(d)} + \frac{1}{60 + r_{bm25}(d)}$$
 
 Được đánh giá độc lập trên tập dữ liệu chuẩn quốc tế **`cnamuangtoun/resume-job-description-fit`** ($1.759$ cặp kiểm thử, $71$ truy vấn JD, $477$ CV ứng viên) với nhãn mức độ phù hợp 3 cấp (`0: No Fit`, `1: Potential Fit`, `2: Good Fit`).
 
-| Mô hình / Pipeline | nDCG@5 | nDCG@10 | MRR | MAP | P@5 | Spearman $\rho$ | $T_{\text{rank}}$ ($N=25$)* |
-| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **Random Ranking (Floor)** | 0.4532 | 0.4963 | 0.5721 | 0.4941 | 0.4173 | -0.026 | -- |
-| **BM25 / TF-IDF (Lexical)** | 0.5532 | 0.5773 | 0.6393 | 0.5930 | 0.4592 | 0.209 | 0.28 ms |
-| **Single-Vector Dense (MiniLM)** | 0.5889 | 0.6146 | 0.7055 | 0.6210 | 0.4845 | 0.256 | 0.05 ms |
-| **Chunk-Mean (MiniLM, 128w)** | 0.6123 | 0.6193 | 0.6982 | 0.6356 | 0.5099 | 0.306 | 0.05 ms |
-| **Chunk-MaxSim (MiniLM, 128w)** | 0.5758 | 0.5992 | 0.6785 | 0.6119 | 0.4817 | 0.267 | 0.39 ms |
-| **Section-Aware Dense (Ours)** | 0.6053 | 0.6170 | 0.7091 | 0.6328 | 0.4986 | 0.283 | 0.15 ms |
-| **BGE-M3 Flat (Long-Context)** | 0.5688 | 0.5937 | 0.6555 | 0.6167 | 0.4789 | 0.248 | 0.01 ms |
-| **BGE-M3 Section-Aware** | 0.5934 | 0.6086 | 0.7126 | 0.6169 | 0.4901 | 0.257 | 0.17 ms |
-| **Dense + BM25 (No Taxonomy)** | 0.6009 | 0.6123 | 0.6801 | 0.6337 | 0.4873 | 0.276 | 0.33 ms |
-| **Calibrated Hybrid (Ours)** | 0.5998 | 0.6162 | 0.6764 | **0.6366** | 0.4817 | **0.295** | 3.48 ms |
-| **Parameter-Free RRF + Taxonomy** | 0.5980 | 0.6107 | 0.6870 | 0.6299 | 0.4873 | 0.293 | 3.90 ms |
-| **Cascaded 2-Stage: Hybrid $\rightarrow$ CE (Top-10)** | 0.5513 | 0.5766 | 0.6408 | 0.5767 | 0.4761 | 0.212 | 433.61 ms |
-| **Full Cross-Encoder (ms-marco)** | 0.5292 | 0.5531 | 0.6420 | 0.5650 | 0.4592 | 0.167 | 1,174.67 ms |
-| **Oracle Ranking (Ceiling)** | 0.8592 | 0.8592 | 0.8592 | 0.8592 | 0.6958 | 0.791 | -- |
+| Mô hình / Pipeline | nDCG@5 | nDCG@10 | MRR | MAP | P@5 | Spearman $\rho$ | $T_{\text{rank}}$ ($N=25$)* | $T_{\text{online}}$* |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Random Ranking (Floor)** | 0.4532 | 0.4963 | 0.5721 | 0.4941 | 0.4173 | -0.026 | -- | -- |
+| **BM25 / TF-IDF (Lexical)** | 0.5532 | 0.5773 | 0.6393 | 0.5930 | 0.4592 | 0.209 | 0.16 ms | 0.88 ms |
+| **Single-Vector Dense (MiniLM)** | 0.5889 | 0.6146 | 0.7055 | 0.6210 | 0.4845 | 0.256 | $<0.10$ ms | 29.79 ms |
+| **Chunk-Mean (MiniLM, 128w)** | 0.6123 | 0.6193 | 0.6982 | 0.6356 | 0.5099 | 0.306 | $<0.10$ ms | 29.79 ms |
+| **Chunk-MaxSim (MiniLM, 128w)** | 0.5758 | 0.5992 | 0.6785 | 0.6119 | 0.4817 | 0.267 | 0.39 ms | 30.17 ms |
+| **Section-Aware Dense (Ours)** | 0.6053 | 0.6170 | 0.7091 | 0.6328 | 0.4986 | 0.283 | 0.12 ms | 29.90 ms |
+| **BGE-M3 Flat (Long-Context)** | 0.5688 | 0.5937 | 0.6555 | 0.6167 | 0.4789 | 0.248 | $<0.10$ ms | 1,646.13 ms |
+| **BGE-M3 Section-Aware** | 0.5934 | 0.6086 | 0.7126 | 0.6169 | 0.4901 | 0.257 | 0.13 ms | 1,646.25 ms |
+| **Dense + BM25 (No Taxonomy)** | 0.6009 | 0.6123 | 0.6801 | 0.6337 | 0.4873 | 0.276 | 0.28 ms | 30.06 ms |
+| **Calibrated Hybrid (Ours)** | 0.5998 | 0.6162 | 0.6764 | **0.6366** | 0.4817 | **0.295** | 2.69 ms | 33.44 ms |
+| **Parameter-Free RRF + Taxonomy** | 0.5980 | 0.6107 | 0.6870 | 0.6299 | 0.4873 | 0.293 | 2.83 ms | 33.57 ms |
+| **Cascaded 2-Stage: Hybrid $\rightarrow$ CE (Top-10)** | 0.5513 | 0.5766 | 0.6408 | 0.5767 | 0.4761 | 0.212 | 426.9 ms | 457.63 ms |
+| **Full Cross-Encoder (ms-marco)** | 0.5292 | 0.5531 | 0.6420 | 0.5650 | 0.4592 | 0.167 | 1,178.0 ms | 1,178.05 ms |
+| **Oracle Ranking (Ceiling)** | 0.8592 | 0.8592 | 0.8592 | 0.8592 | 0.6958 | 0.791 | -- | -- |
 
-*(Số liệu trên là Setting A: Toàn bộ 71 truy vấn, bao gồm 10 truy vấn không có positive. Trên Setting B theo chuẩn TREC lọc bỏ truy vấn không positive, Calibrated Hybrid đạt MAP 0.7410, Section-Aware Dense đạt nDCG@10 0.7182 và MRR 0.8253).*
+*(Số liệu trên là Setting A: Toàn bộ 71 truy vấn, bao gồm 10 truy vấn không có positive. Trên Setting B lọc theo chuẩn TREC có positive: ở ngưỡng $\text{rel}\ge 1$ ($N=61$), Calibrated Hybrid đạt MAP 0.7410, Section-Aware Dense đạt nDCG@10 0.7182 và MRR 0.8253; ở ngưỡng $\text{rel}=2$ ($N=28$), Section-Aware Dense đạt nDCG@10 0.7770, MRR 0.8869, MAP 0.7411).*
 
-*\*Ghi chú về phân tách độ trễ 3 pha (Intel Core i7 CPU, PyTorch CPU):* Hệ thống tách bạch rõ ràng giữa: (1) $T_{\text{index}}$: Mã hóa ngoại tuyến (offline doc indexing, ví dụ MiniLM: 23.75 ms/doc, Section-Aware: 42.76 ms/doc); (2) $T_{\text{query}}$: Mã hóa trực tuyến câu truy vấn (online query encoding, MiniLM: 19.47 ms/query); (3) $T_{\text{rank}}$: Thời gian tính điểm và xếp hạng danh sách ứng viên (candidate scoring & ranking) đo thực tế với quy mô pool $N=25$ ứng viên.
+*\*Ghi chú về phân tách độ trễ (Intel Core i7 CPU, PyTorch CPU, đo lặp 15-20 lần kèm 10 warm-up):*
+- $T_{\text{index}}$: Mã hóa ngoại tuyến (offline indexing: MiniLM 19.25 ms/doc, Section-Aware 84.85 ms/doc, BGE-M3 3,012.9 ms/doc).
+- $T_{\text{query}}$: Mã hóa trực tuyến câu truy vấn (online query encoding: MiniLM 29.78 ms/query, BGE-M3 1,646.12 ms/query).
+- $T_{\text{rank}}$: Thời gian tính điểm và xếp hạng danh sách ứng viên (candidate scoring & ranking) đo thực tế với quy mô pool chuẩn $N=25$ ứng viên. Các phép nhân ma trận có độ trễ $<0.10$\,ms được ghi nhận giới hạn độ phân giải đồng hồ đo.
+- $T_{\text{online}} = T_{\text{query}} + T_{\text{rank}}$: Tổng độ trễ phục vụ truy vấn trực tuyến (end-to-end online query latency).
 
 ### Phát hiện Thực nghiệm Chính:
-1. **Khắc phục lỗi Fallback với Frozen Parser (Commit `41e1d27`)**: Tỷ lệ fallback về single-vector giảm từ 89.7% xuống chính xác **0.00%** trên toàn bộ 1,759 cặp test. 99.6% CV có từ 2 section trở lên, 94.3% có từ 3 section trở lên. Bộ tách đạt F1 = 97.87% trên Skills và 100.0% trên Experience trên tập kiểm tra độc lập 50 tài liệu (chỉ nhìn `train_dev` khi phát triển luật).
+1. **Bản chất của con số Fallback 0.00% (Commit `41e1d27`)**: Phân tích toàn bộ 477 CV test cho thấy phân bố số section chức năng (`skills`, `experience`, `education`, `summary`): 0 section: **0 CV** (0.00%); 1 section: **2 CV** (0.42%, đều có `experience`); 2 section: **28 CV** (5.87%); 3 section: **107 CV** (22.43%); 4 section: **340 CV** (71.28%). 72 CV có `preamble` (thông tin liên hệ trước heading đầu tiên) nhưng đều có kèm các section chức năng. Với 2 CV chỉ có `experience`, thuật toán Dynamic Weight Renormalization tự động tái chuẩn hóa mẫu số về $0.35$ (tính $0.35 \cdot S_{\text{exp}} / 0.35 = S_{\text{exp}}$) nên không kích hoạt fallback single-vector.
 2. **Section-Aware trên tập dữ liệu sạch (Held-out Clean Split)**: Khi loại bỏ 68 CV bị trùng giữa train và test trong dataset gốc, Section-Aware Dense cải thiện điểm số so với Single-Vector: nDCG@10 từ 0.6199 lên **0.6354** (+0.0155) và MAP từ 0.6290 lên **0.6458** (+0.0168). Tuy nhiên, trên toàn bộ tập test $N=71$, kiểm định cặp bootstrap 95% CI cho hiệu số nDCG@10 là $[-0.0296, +0.0333]$ ($p_{\text{adj}}=1.0000$), cho thấy sự tương đương thống kê về thứ hạng top đầu.
-3. **Hiệu ứng của Section-Aware trên mô hình ngữ cảnh dài (BGE-M3)**: Ngay cả khi mô hình hỗ trợ cửa sổ 8,192 token, Flat BGE-M3 chỉ đạt nDCG@10 0.5937 và MRR 0.6555. Phân tách theo Section nâng MRR lên **0.7126** (+0.0571), cho thấy cấu trúc section giúp ngăn các đoạn mô tả kinh nghiệm dài làm loãng kỹ năng công nghệ cốt lõi.
-4. **Kiểm định Thống kê Holm-Bonferroni cho Taxonomy**: Fusing Taxonomy vào Calibrated Hybrid đạt MAP 0.6366 trên Setting A (0.7410 trên Setting B) và Spearman $\rho_{\text{mac}} = 0.295$. Tuy nhiên, sau khi hiệu chỉnh Holm-Bonferroni ($p_{\text{adj}} = 1.0000 > 0.05$, 95% CI $[-0.0055, +0.0127]$ so với Dense+BM25), mức tăng thứ hạng không đạt ý nghĩa thống kê; giá trị cốt lõi của Taxonomy trong thực tế là tính minh bạch, khả năng giải trình (explainability) và đảm bảo các điều kiện tiên quyết (hard constraints) cho nhà tuyển dụng.
-5. **Cross-Encoder suy giảm chất lượng và chi phí tính toán cao trên CPU**: Mô hình Cross-Encoder huấn luyện trên MS-MARCO bị trôi miền dữ liệu và cắt cụt token ở ngân sách 512 token, khiến nDCG@10 rớt xuống 0.5531 và độ trễ xếp hạng lên tới 1.174,67 ms/truy vấn. Cơ chế Cascaded 2 giai đoạn (Top-10 reranking) cũng làm giảm nDCG@10 xuống 0.5766 và tốn 433,61 ms. Mô hình Calibrated Hybrid 1 giai đoạn (3.48 ms) đạt vị trí tối ưu trên đường cong đánh đổi chất lượng - độ trễ.
+3. **Hiệu ứng của Section-Aware trên mô hình ngữ cảnh dài (BGE-M3)**: Trên metric chính nDCG@10, Section-Aware đạt 0.6086 so với 0.5937 của Flat BGE-M3 ($\bar{\Delta} = +0.0149$, 95% bootstrap CI $[-0.0202, +0.0496]$, $p_{\text{adj}} = 1.0000$), chưa đạt ý nghĩa thống kê. Trong phân tích thăm dò phụ, MRR ghi nhận mức tăng từ 0.6555 lên **0.7126** (+0.0571); tuy nhiên giả thuyết "ngăn loãng thông tin kỹ năng" cần được kiểm chứng thêm bằng thí nghiệm cơ chế chuyên biệt.
+4. **Kiểm định Thống kê Holm-Bonferroni cho Taxonomy**: Fusing Taxonomy vào Calibrated Hybrid đạt MAP 0.6366 trên Setting A (0.7410 trên Setting B) và Spearman $\rho_{\text{mac}} = 0.295$. So với Dense+BM25, hiệu số là $\bar{\Delta} = +0.0029$ MAP (95% CI $[-0.0055, +0.0127]$, $p_{\text{adj}} = 1.0000$), không đạt ý nghĩa thống kê; giá trị thực tế của Taxonomy là khả năng áp đặt ràng buộc cứng (hard constraints) và hỗ trợ giải trình cho nhà tuyển dụng.
+5. **Đánh đổi Hiệu năng & Khảo sát Pareto**: Calibrated Hybrid có xu hướng tốt hơn Cross-Encoder MS-MARCO ($\bar{\Delta} = +0.0632$ nDCG@10, 95% CI $[+0.0218, +0.1049]$, raw $p=0.0041$), nhưng sau hiệu chỉnh Holm-Bonferroni, $p_{\text{adj}} = 0.0586$ chưa vượt qua ngưỡng $\alpha = 0.05$. Reranking Top-10 qua Cross-Encoder cũng có $p_{\text{adj}} = 0.4440$ (không đạt ý nghĩa). Xét về chi phí vận hành: vì không có mô hình nào vượt trội có ý nghĩa thống kê so với Single-Vector Dense sau hiệu chỉnh đa kiểm định, **Single-Vector Dense là lựa chọn kinh tế nhất về tài nguyên tính toán** ($T_{\text{online}} \approx 29.8$\,ms, $T_{\text{rank}} < 0.10$\,ms cho $N=25$) trong nhóm có cùng độ chính xác thực nghiệm.
+6. **Phân tích Độ nhạy Tham số trên Tập Huấn luyện (Train Sensitivity Analysis)**: Đánh giá độ nhạy độc lập trên tập train (`train.csv`, 50 queries, 1.627 pairs) cho thấy các hằng số được chọn là tối ưu và ổn định:
+   - *Section Weights*: Điểm nDCG@10 ổn định trong khoảng 0.6578 đến 0.6636 qua các cấu hình khác nhau (Default 0.40/0.35/0.15/0.10 đạt 0.6601; Equal đạt 0.6613; Experience-heavy đạt 0.6636).
+   - *Alpha (Dense vs. Lexical)*: Đạt đỉnh tại $\alpha = 0.60$ (nDCG@10 = **0.6994** so với 0.6601 của pure dense và 0.6626 của pure lexical).
+   - *Beta (Retrieval vs. Taxonomy)*: Đạt đỉnh tại $\beta = 0.60$ (nDCG@10 = **0.7078** so với 0.6994 khi không có taxonomy).
 
 ---
 

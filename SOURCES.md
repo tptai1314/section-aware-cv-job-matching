@@ -95,6 +95,18 @@ Thống kê thực hiện bởi bộ tách section chuẩn hóa duy nhất (`cvj
 | **Đa Section ($\ge 2$ Section)** | **99.6%** (475/477) | -- | **28.2%** (20/71) | -- |
 | **Đa Section ($\ge 3$ Section)** | **94.3%** (450/477) | -- | **7.0%** (5/71) | -- |
 
+### Phân Bố Số Lượng Section & Kiểm Tra Tỷ Lệ Fallback 0.00%
+Khảo sát toàn bộ 477 CV kiểm thử duy nhất cho thấy:
+* **0 section chức năng**: **0 CVs (0.00%)**.
+* **1 section chức năng**: **2 CVs (0.42%)** (cả 2 CV này chỉ có mục `experience`).
+* **2 section chức năng**: **28 CVs (5.87%)**.
+* **3 section chức năng**: **107 CVs (22.43%)**.
+* **4 section chức năng đầy đủ**: **340 CVs (71.28%)**.
+
+*Phần mở đầu (preamble)*: Có 72 CV (15.09%) chứa đoạn văn bản mở đầu trước heading đầu tiên, nhưng 100% trong số này đều có ít nhất 1 section chức năng sau đó; **không có bất kỳ CV nào chỉ chứa duy nhất preamble**.
+
+*Cơ chế Dynamic Weight Renormalization*: Khi một CV chỉ có 1 section chức năng (ví dụ `experience` với trọng số chuẩn 0.35), hệ thống tự động chuẩn hóa mẫu số: $\frac{0.35 \cdot S_{\text{exp}}}{0.35} = S_{\text{exp}}$. Điểm số được tính trực tiếp từ vector section đó mà không cần kích hoạt fallback về single-vector toàn văn. Do đó, tỷ lệ fallback trên tập test chính thức là **chính xác 0.00%**.
+
 > **Lưu ý về mâu thuẫn số liệu trước đây**:
 > Các bản thảo sơ khởi trước đây từng ghi nhận tỷ lệ xuất hiện từ khóa section dựa trên tìm kiếm regex toàn văn (tìm chữ "skills", "experience" rải rác trong văn bản mà không xét cấu trúc tiêu đề). Khi đưa vào pipeline trích xuất thực tế, lỗi dính heading HTML (`SummaryHighly`, `SkillsAccounting`) từng khiến 89.7% CV rơi vào fallback. Bộ tách mới tại commit `41e1d27` đã khắc phục lỗi này: **99.6% CV nhận diện thành công $\ge 2$ section chức năng**, đưa tỷ lệ fallback về chính xác 0.00%.
 >
@@ -119,28 +131,118 @@ Trong tập kiểm thử gồm 71 JDs:
 * Ở ngưỡng $= 2$: có **43 / 71 queries (60.6%)** không có bất kỳ ứng viên nào đạt `Good Fit`.
 
 ### Đối chiếu kết quả giữa 2 phương án:
-1. **Phương án A (All 71 Queries - Đánh giá toàn diện)**:
-   * Tính trung bình qua toàn bộ 71 queries; các query không có positive nhận điểm $0.0$.
-   * Trần Oracle đạt **0.8592** (ở ngưỡng $\ge 1$) và **0.3944** (ở ngưỡng $= 2$).
-   * Sàn Random: MRR **0.5721**, MAP **0.4941**.
-   * Single-Vector: nDCG@10 **0.6146**, MRR **0.7055**, MAP **0.6210**.
-   * Section-Aware Dense: nDCG@10 **0.6170**, MRR **0.7091**, MAP **0.6328**.
-   * Calibrated Hybrid: nDCG@10 **0.6162**, MRR **0.6764**, MAP **0.6366**.
-2. **Phương án B (Filtered Queries - Chuẩn TREC Standard)**:
-   * Chỉ tính trên các queries có ít nhất 1 positive ($N=61$ cho $\ge 1$, $N=28$ cho $= 2$).
-   * Trần Oracle đạt tuyệt đối **1.0000** cho nDCG@10, MRR, MAP.
-   * Single-Vector: nDCG@10 **0.7153**, MRR **0.8211**, MAP **0.7228**.
-   * Section-Aware Dense: nDCG@10 **0.7182**, MRR **0.8253**, MAP **0.7365**.
-   * Calibrated Hybrid: nDCG@10 **0.7173**, MRR **0.7873**, MAP **0.7410**.
+
+#### 1. Phương án A (All 71 Queries - Đánh giá toàn diện):
+* Tính trung bình qua toàn bộ 71 queries; các query không có positive nhận điểm $0.0$.
+* Trần Oracle đạt **0.8592** (ở ngưỡng $\ge 1$) và **0.3944** (ở ngưỡng $= 2$).
+* Sàn Random: MRR **0.5721**, MAP **0.4941**.
+* Single-Vector MiniLM: nDCG@10 **0.6146**, MRR **0.7055**, MAP **0.6210**.
+* Section-Aware MiniLM: nDCG@10 **0.6170**, MRR **0.7091**, MAP **0.6328**.
+* Calibrated Hybrid: nDCG@10 **0.6162**, MRR **0.6764**, MAP **0.6366**.
+
+#### 2. Phương án B (Filtered Queries - Chuẩn TREC Standard):
+Chỉ đánh giá trên các queries có ít nhất 1 positive candidate ($N=61$ cho $\text{rel} \ge 1$ và $N=28$ cho $\text{rel} = 2$). Trần Oracle đạt tuyệt đối **1.0000** cho nDCG@10, MRR, MAP.
+
+| Phương Pháp / Cấu Hình | Ngưỡng $\text{rel} \ge 1$ ($N=61$) nDCG@10 | $\text{rel} \ge 1$ MRR | $\text{rel} \ge 1$ MAP | Ngưỡng $\text{rel} = 2$ ($N=28$) nDCG@10 | $\text{rel} = 2$ MRR | $\text{rel} = 2$ MAP |
+| :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Floor: Random Ranking** | 0.5743 | 0.6639 | 0.5741 | 0.6094 | 0.6566 | 0.5561 |
+| **BM25 / TF-IDF (Lexical)** | 0.6720 | 0.7441 | 0.6903 | 0.7011 | 0.7423 | 0.6779 |
+| **MiniLM Single-Vector (Flat)** | 0.7153 | 0.8211 | 0.7228 | 0.7443 | 0.8214 | 0.6798 |
+| **MiniLM Chunk-Mean** | 0.7208 | 0.8126 | 0.7398 | 0.7631 | 0.8107 | 0.7316 |
+| **MiniLM Chunk-MaxSim** | 0.6974 | 0.7898 | 0.7122 | 0.7224 | 0.7474 | 0.6822 |
+| **MiniLM Section-Aware (Pure)** | 0.7182 | 0.8253 | 0.7365 | 0.7770 | 0.8869 | 0.7411 |
+| **BGE-M3 Single-Vector** | 0.6910 | 0.7630 | 0.7178 | 0.7170 | 0.7381 | 0.6704 |
+| **BGE-M3 Section-Aware** | 0.7084 | 0.8294 | 0.7181 | 0.7740 | 0.9405 | 0.7101 |
+| **Dense + BM25 ($L_0$ Baseline)** | 0.7127 | 0.7916 | 0.7376 | 0.7689 | 0.8801 | 0.7422 |
+| **Calibrated Hybrid** | 0.7173 | 0.7873 | 0.7410 | 0.7794 | 0.8492 | 0.7522 |
+| **Parameter-Free RRF** | 0.7109 | 0.7996 | 0.7332 | 0.7632 | 0.8456 | 0.7383 |
+| **2-Stage Rerank (Top-10 CE)** | 0.6711 | 0.7459 | 0.6712 | 0.7168 | 0.7560 | 0.6492 |
+| **Full Cross-Encoder ($N=25$)** | 0.6437 | 0.7473 | 0.6577 | 0.6715 | 0.7351 | 0.6222 |
+| **Ceiling: Oracle Ranking** | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 | 1.0000 |
 
 ---
 
-## 10. Kiểm Định Ý Nghĩa Thống Kê & Phá Đồng Hạng (Fair Tie-breaking)
+## 10. Kiểm Định Ý Nghĩa Thống Kê & Ma Trận Triệt Tiêu Taxonomy 2 Chiều (2D Ablation)
 
 * **Cơ chế phá đồng hạng**: Sử dụng kỳ vọng toán học qua $50$ lần xáo trộn ngẫu nhiên các phần tử có điểm số bằng nhau (jittered uniform perturbation) để loại bỏ hoàn toàn thiên vị thứ tự index trong file CSV.
 * **Kiểm định Cặp Bootstrap 95% CI & Paired $t$-test (Section-Aware vs Single-Vector nDCG@10)**: $\bar{\Delta} = +0.0024$, 95% Bootstrap CI: $[-0.0296, +0.0333]$, $t = 0.150$, raw $p = 0.8811$, Holm-Bonferroni adjusted $p = 1.0000$ (Wilcoxon signed-rank $p = 0.4184$). Khoảng tin cậy bao gồm 0 $\implies$ tương đương thống kê (statistical parity) về thứ hạng ứng viên top đầu trên tập test đầy đủ.
 * **Kiểm định Cặp Bootstrap 95% CI & Paired $t$-test (Calibrated Hybrid vs Dense+BM25 MAP)**: $\bar{\Delta} = +0.0029$, 95% Bootstrap CI: $[-0.0055, +0.0127]$, $t = 0.611$, raw $p = 0.5430$, Holm-Bonferroni adjusted $p = 1.0000$ (Wilcoxon signed-rank $p = 0.3402$). Khoảng tin cậy bao gồm 0 $\implies$ việc bổ sung Taxonomy không tạo ra mức tăng thứ hạng có ý nghĩa thống kê; giá trị thực tiễn cốt lõi nằm ở tính minh bạch, khả năng giải trình (explainability) và đảm bảo các điều kiện tiên quyết (hard constraints) cho nhà tuyển dụng.
 
+### Ma Trận Triệt Tiêu Taxonomy 2 Chiều (Hàm Điểm $\times$ Tầng Quan Hệ):
+So khớp đối chiếu với baseline $L_0$ (Dense + BM25, không dùng taxonomy):
+
+| Cấu Hình Tầng Taxonomy | Hàm Điểm (Scoring Function) | nDCG@10 | MAP | $\Delta$ MAP | Raw $p$-val | Holm $p$-val | Ý Nghĩa ($\alpha=0.05$) |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Baseline $L_0$** | Dense + BM25 (No Taxonomy) | 0.6123 | 0.6337 | -- | -- | -- | -- |
+| **Layer $L_1$** | Symmetric Jaccard | 0.5910 | 0.5977 | -0.0360 | 0.1651 | 0.6393 | Không |
+| **Layer $L_1+L_2$** | Symmetric Jaccard | 0.5913 | 0.5959 | -0.0378 | 0.1542 | 0.6393 | Không |
+| **Layer $L_1$** | Asymmetric Coverage | 0.5773 | 0.5888 | -0.0449 | 0.1077 | 0.6393 | Không |
+| **Layer $L_1+L_2$** | Asymmetric Coverage | 0.5783 | 0.5896 | -0.0441 | 0.1080 | 0.6393 | Không |
+| **Layer $L_1+L_2+L_3$** | Asymmetric Coverage (Must/Nice) | 0.5775 | 0.5892 | -0.0446 | 0.1066 | 0.6393 | Không |
+| **Calibrated Hybrid** | 0.60 Retrieval + 0.40 Coverage | 0.6162 | 0.6366 | +0.0029 | 0.5430 | 0.6393 | Không |
+
 ---
 
-*Báo cáo được thực thi và xác nhận hoàn toàn trên bộ dữ liệu công khai bởi script `scripts/run_comprehensive_audit.py`.*
+## 11. Phân Tích Độ Nhạy Siêu Tham Số Trên Tập Huấn Luyện (Train Sensitivity Analysis)
+
+Nhằm đảm bảo tính minh bạch phương pháp luận và tránh rò rỉ tập kiểm thử (test leakage), toàn bộ khảo sát độ nhạy siêu tham số được thực thi độc lập và độc quyền trên **`train.csv`** (50 queries, 479 CVs, 1.627 cặp CV–JD, `seed=42`):
+
+### 1. Độ nhạy Trọng số Section (Section Weights):
+Khảo sát phân bổ trọng số giữa các section chức năng (Skills / Experience / Education / Summary):
+* **Default (0.40 / 0.35 / 0.15 / 0.10)**: nDCG@10 = **0.6601**, MAP = 0.6930.
+* **Equal (0.25 / 0.25 / 0.25 / 0.25)**: nDCG@10 = **0.6613**, MAP = 0.6921.
+* **Skills-Heavy (0.60 / 0.20 / 0.10 / 0.10)**: nDCG@10 = **0.6578**, MAP = 0.6869.
+* **Experience-Heavy (0.20 / 0.60 / 0.10 / 0.10)**: nDCG@10 = **0.6636**, MAP = 0.6937.
+* **Core Only (0.50 / 0.50 / 0.00 / 0.00)**: nDCG@10 = **0.6578**, MAP = 0.6898.
+
+*Nhận xét*: Biên độ dao động của nDCG@10 nằm trong phạm vi cực hẹp ($\pm 0.005$), chứng minh mô hình Section-Aware không bị phụ thuộc vào một cấu hình trọng số heuristically duy nhất.
+
+### 2. Quét Tham số Kết hợp Dense--Lexical ($\alpha$ Sweep):
+Hòa trộn $S_{\text{retrieval}} = \alpha S_{\text{dense}} + (1-\alpha) S_{\text{bm25}}$:
+* $\alpha = 0.0$ (Thuần BM25): nDCG@10 = 0.6626, MAP = 0.6952.
+* $\alpha = 0.2$: nDCG@10 = 0.6884, MAP = 0.7186.
+* $\alpha = 0.4$: nDCG@10 = 0.6946, MAP = 0.7224.
+* $\alpha = 0.5$: nDCG@10 = 0.6951, MAP = 0.7193.
+* **$\alpha = 0.6$ (Đỉnh thực nghiệm trên train)**: nDCG@10 = **0.6994**, MAP = 0.7193.
+* $\alpha = 0.7$: nDCG@10 = 0.6882, MAP = 0.7127.
+* $\alpha = 0.8$: nDCG@10 = 0.6870, MAP = 0.7122.
+* $\alpha = 1.0$ (Thuần Dense): nDCG@10 = 0.6601, MAP = 0.6930.
+
+### 3. Quét Tham số Trọng số Retrieval--Taxonomy ($\beta$ Sweep):
+Hòa trộn $S_{\text{final}} = \beta S_{\text{retrieval}} + (1-\beta) S_{\text{taxonomy}}$:
+* $\beta = 0.4$: nDCG@10 = 0.7070, MAP = 0.7210.
+* $\beta = 0.5$: nDCG@10 = 0.7074, MAP = 0.7205.
+* **$\beta = 0.6$ (Đỉnh thực nghiệm trên train)**: nDCG@10 = **0.7078**, MAP = 0.7209.
+* $\beta = 0.7$: nDCG@10 = 0.7054, MAP = 0.7238.
+* $\beta = 0.8$: nDCG@10 = 0.7009, MAP = 0.7238.
+* $\beta = 1.0$ (Không dùng Taxonomy): nDCG@10 = 0.6994, MAP = 0.7193.
+
+---
+
+## 12. Đo Lường Độ Trễ Chuẩn Hóa Đa Lần Lặp (Standardized Latency Profile)
+
+Đo đạc trên môi trường Intel Core i7 CPU (Multi-core, 16GB RAM), PyTorch CPU (không GPU), pool size $N=25$ ứng viên / query. Giao thức đo: **10 lần khởi động (warm-up)**, **15--20 lần lặp độc lập**, các phép toán ma trận nhanh được lấy trung bình qua 100 lần lặp nội bộ nhằm triệt tiêu nhiễu phân giải đồng hồ hệ thống.
+
+*Định nghĩa độ trễ*:
+* $T_{\text{index}}$: Thời gian offline mã hóa/chỉ mục trước 1 CV.
+* $T_{\text{query}}$: Thời gian online mã hóa văn bản truy vấn JD lúc nhận request.
+* $T_{\text{rank}}$: Thời gian tính ma trận tương đồng và sắp xếp $N=25$ ứng viên.
+* $T_{\text{online}}$: Tổng độ trễ phục vụ người dùng cuối trực tuyến ($T_{\text{online}} = T_{\text{query}} + T_{\text{rank}}$).
+
+| Phương Pháp / Cấu Hình | $T_{\text{index}}$ (ms/CV) | $T_{\text{query}}$ (ms) [IQR] | $T_{\text{rank}}$ (ms, $N=25$) [IQR] | $T_{\text{online}}$ (ms) | Đặc Điểm Vận Hành |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **BM25 / TF-IDF** | 0.64 | 0.72 [0.52, 1.03] | 0.16 [0.16, 0.17] | 0.88 | Sparse inverted dot-product |
+| **Single-Vector MiniLM** | 19.25 | 29.78 [28.46, 30.11] | 0.004* [0.004, 0.004] | 29.79 | Dense 384-dim matrix multiply |
+| **Section-Aware MiniLM** | 84.85 | 29.78 [28.46, 30.11] | 0.12 [0.10, 0.13] | 29.90 | Dynamic cross-section cosine |
+| **BGE-M3 Flat** | 3012.90 | 1646.12 [972.63, 2965.03] | 0.007* [0.007, 0.008] | 1646.13 | 1024-dim dense matrix multiply |
+| **BGE-M3 Section-Aware** | 3314.19 | 1646.12 [972.63, 2965.03] | 0.13 [0.09, 0.16] | 1646.25 | 1024-dim section weighted cosine |
+| **Calibrated Hybrid** | 85.49 | 30.75 [30.13, 31.14] | 2.69 [2.63, 2.71] | 33.44 | MinMax fusion + taxonomy match |
+| **Parameter-Free RRF** | 85.49 | 30.75 [30.13, 31.14] | 2.83 [2.77, 2.85] | 33.57 | RRF rank sort + taxonomy match |
+| **2-Stage Top-10 CE** | -- | 30.75 [30.13, 31.14] | 426.88 [424.88, 427.43] | 457.63 | Stage 1 candidate gen + Top-10 CE |
+| **Full Cross-Encoder** | -- | -- | 1178.05 [1173.02, 1189.00] | 1178.05 | Full $N=25$ neural cross-attention |
+
+*\*Lưu ý: Các giá trị $T_{\text{rank}} < 0.10$ ms phản ánh phép nhân ma trận thuần túy trong RAM được tối ưu hóa vectorized. Độ trễ trực tuyến thực tế $T_{\text{online}}$ bị chi phối $98\%$ bởi thời gian mã hóa truy vấn $T_{\text{query}}$ ($\approx 30$ ms với MiniLM và $\approx 1646$ ms với BGE-M3).*
+
+---
+
+*Báo cáo được thực thi và xác nhận hoàn toàn trên bộ dữ liệu công khai bởi các script `scripts/run_scientific_benchmark.py`, `scripts/measure_rigorous_latency.py`, và `scripts/train_sensitivity_analysis.py`.*
