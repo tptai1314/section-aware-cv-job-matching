@@ -1,0 +1,175 @@
+{
+    "output": {
+        "justification": [
+            "Attended a preferred university (Fast University) which aligns with company's educational preferences.",
+            "Held a leadership position as a team lead, indicating capacity for managing and mentoring a business development team.",
+            "Documented experience in using Microsoft Office and CRM tools, which aligns with the JD requirements.",
+            "Involved in strategic tasks like designing company portfolios, indicating some strategic thinking ability."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 8
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 7
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "account management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 7.26
+            }
+        },
+        "personal_info": {
+            "name": "Zarwa Shahid",
+            "email": "shahidzarwa4@gmail.com",
+            "phone": "0306-1538612",
+            "current_position": "Business Development Executive",
+            "current_company": "Tecspine",
+            "employment_start_date_current_company": "2023",
+            "first_company_start_date": "2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/zarwa-shahid-926986208/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 49,
+            "sales process management": 24,
+            "negotiation skills": 23,
+            "account management": 4
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Strong negotiation and strategic thinking skills"
+        ],
+        "resume": "Zarwa  Shahid  \nBusiness  Development  Executive  \n \n \n \nContact  \nJohar Town,  \nLahore  \n0306 -1538612  \nshahidzarwa4@gmail.com  \nhttps://www.linkedin.com/in/zarwa - \nshahid -926986208/  \n \n \nEducation  \nFast  University  (2022)  \nSuperior  Group  of colleges  (2017)  \n \n \n \nLicense and  \nCertification  \ne-commerce  Affiliate  Marketing  \n(Ecommerce Pro)  \neCommerce  Sales  & Marketing  Funnels  \n(Ecommerce Pro)  \nFacebook  Advertising  for eCommerce  \n(Ecommerce Pro)  \neCommerce Google Ads  \n(Ecommerce Pro)  \nWordPress  WooCommerce  \n(Ecommerce  Pro)  \n \n \n \nKey  Skills  \nMarketing  \nLead Generation  \nProposal Writing  \nSocial  Media  \nPlanning  \nWordPress  \nExcellent  Communication  \nIT Sales  Objective  \nI am a dedicated team member who tries his best to achieve revenue  \nexpectations and aims to reach his goals. I take great pride in my  \ncommunication skills, attention to detail, ability to multitask, and  \nreliability. I am hard -working and punctual. I can make prob lem-solving  \ndecisions swiftly. I'm looking for opportunities to learn and acquire new  \nskills  so I can improve  my skills for  a thriving  career  in the IT industry.  \n \n \nExperience  \n2022  \u2013 2023  \nBusiness  Development  Executive  @ Software  Pro \nSoftware Pro is part of a leading technology group from New York USA. \nAs their  BD executive,  I am responsible  for driving  company  sales  by \nsourcing  new clients  and creating  long -term  value  for their  business  via \nBD platforms.  \n \n2023  \u2013 (part  time)  \nBusiness  Development  Executive  @ IT Cado  LLC  \n\u2022 Hired  as an experienced  then  promoted  to business  development  \nexecutive as Team lead.  \n\u2022 Trained  internees  for lead  generation  and Upwork  bidding  \n\u2022 Used  HubSpot  and Salesforce  to manage  leads  \n\u2022 Canva  expert  | Designed  various  proposals  for clients  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira  for client  \ncommunication  \n \n     (2023 - full time)  \n    Business  Development  Executive  @Tecspine  \n      \n\u2022 Hired  as an experienced  then  promoted  to business  development \nexecutive as Team lead.  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira for client  \n \n             "
+    },
+    "details": {
+        "name": "Zarwa Shahid",
+        "number": "03061538612",
+        "skills": [
+            "WordPress",
+            "HubSpot",
+            "Salesforce",
+            "Canva",
+            "Skype",
+            "Slack",
+            "Basecamp",
+            "Jira"
+        ],
+        "email_id": "shahidzarwa4@gmail.com",
+        "location": "Johar Town, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2022",
+                "university": "Fast University",
+                "degree_title": ""
+            },
+            {
+                "end_date": "2017",
+                "university": "Superior Group of colleges",
+                "degree_title": ""
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "e-commerce Affiliate Marketing",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "eCommerce Sales & Marketing Funnels",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Facebook Advertising for eCommerce",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "eCommerce Google Ads",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "WordPress WooCommerce",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zarwa-shahid-926986208/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zarwa Shahid is a dedicated Business Development Executive with experience in driving sales and managing client relationships. He has a strong technical skill set, including proficiency in WordPress, HubSpot, and Salesforce, and is committed to achieving business goals through effective lead generation and marketing strategies.",
+        "employment_history": [
+            {
+                "details": "Responsible for driving company sales by sourcing new clients and creating long-term value for their business via BD platforms.",
+                "end_date": "2023",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2022",
+                "company_name": "Software Pro"
+            },
+            {
+                "details": "Promoted to business development executive as Team lead. Trained internees for lead generation and Upwork bidding. Used HubSpot and Salesforce to manage leads. Designed various proposals for clients.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2023",
+                "company_name": "IT Cado LLC"
+            },
+            {
+                "details": "Promoted to business development executive as Team lead. Responsible for designing and managing company portfolios.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2023",
+                "company_name": "Tecspine"
+            }
+        ]
+    }
+}

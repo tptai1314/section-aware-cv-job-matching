@@ -1,0 +1,221 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks direct business development experience; their background is predominantly in AI and engineering.",
+            "Limited evidence of strategic planning in business development as required by the role.",
+            "No explicit mention of skills in Market Research, Negotiation, or Sales Strategy.",
+            "No indication of skills in SEO or Data Analysis specific to business context."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 1
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 1
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.4699999999999998,
+                "micro_scores": 1.36
+            }
+        },
+        "personal_info": {
+            "name": "M Shahum Sultan",
+            "email": "shahumsultan@hotmail.com",
+            "phone": "+923234700766",
+            "current_position": "AI Engineer",
+            "current_company": "EzyTeams",
+            "employment_start_date_current_company": "06-2024",
+            "first_company_start_date": "07-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "LinkedIn"
+                },
+                {
+                    "website_name": "GitHub",
+                    "url": "GitHub"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 47,
+            "strategic planning": 53
+        },
+        "micro_dict": {
+            "market research": 29,
+            "negotiation": 28,
+            "sales strategy": 12,
+            "seo": 13,
+            "data analysis": 18
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "M SHAHUM SULTAN\n+923234700766\u2022shahumsultan@hotmail.com\u2022Lahore, Pakistan\u2022Open to Remote\u2022Open to Relocate\u2022LinkedIn\u2022GitHub\n\u2022Website\nMachine Learning Engineer\nExperienced Machine Learning Engineer with a robust background in developing and implementing advanced AI solutions\nacross various domains. Skilled in creating sophisticated recommendation systems, predictive models, and natural language\nprocessing applications. Proven expertise in using cutting-edge technologies such as FastAPI, NeuralProphet, PandasAI,\nRasa, Nvidia Omniverse, and Unreal Engine to deliver impactful, data-driven insights and enhanced user experiences.\nDemonstrated ability to manage AI projects and mentor interns, fostering a collaborative and innovative environment.\nProfessional Experience\nEzyTeams, United States (Remote)\nAI Engineer, CaliforniaJun 2024 - Present\nDeveloped a Predictive Health Score Model for Insurance Customers: Created an advanced predictive analysis model to\nforecast the future health scores of insurance customers, enabling brokers to gain deeper insights into customer trends and\nmake informed decisions.\nConducted research on extracting field names and values from PDF documents to streamline data retrieval and integration\nwith ACCORD forms, enhancing data storage and usability across the software and how AI can help in identifying the\nentities and their values.\nExarta Labs, Pakistan\nAI Engineer, LahoreMar 2023 - Present\nDeveloped a Session-Based Recommendation System: Created an advanced recommendation system tailored for e-\ncommerce platforms, enhancing user experience and engagement through personalized suggestions.\nImplemented Time Series Forecasting with NeuralProphet: Utilized NeuralProphet to accurately predict future sales\ntrends, enabling data-driven decision-making and strategic planning.\nLeveraged OpenAI and PandasAI for Analytics: Combined the power of OpenAI and PandasAI to generate insightful\nanalytics and visually compelling graphs through natural language queries, simplifying data interaction.\nCreated a Seamless Shopping Assistant with Rasa: Designed an intelligent shopping assistant using Rasa, streamlining\nthe user experience by providing real-time assistance and recommendations.\nDeveloped a 3D Chatbot with Nvidia\u2019s Omniverse and Unreal Engine: Engineered a chatbot integrated into a 3D\nenvironment using Nvidia\u2019s Omniverse and Unreal Engine, offering users an immersive and interactive representation of\ntheir requirements.\nEnhanced Chatbot Capabilities with RAG and Nvidia NVM: Implemented a Retrieval-Augmented Generation (RAG)\nsystem utilizing Nvidia NVM to extend the chatbot's ability to answer questions beyond its initial training scope.\nGained Leadership Experience by Managing AI Interns: Acquired management skills by overseeing AI interns, crafting\ncoding tasks to deepen their understanding of AI principles and practices.\nCybervision International, Pakistan\nWeb Developer, IslamabadJan 2020 - Aug 2021\nDeveloped web applications using PHP technology\nProficient in both backend and frontend development, possessing comprehensive skills in crafting robust, scalable\nbackend solutions and elegant, user-centric frontend interfaces.\nDesigned and implemented a comprehensive Learning Management System tailored to the needs of a government\norganization, optimizing user experience and administrative efficiency.\nDemonstrated leadership and management capabilities by mentoring and guiding interns, fostering their professional\ndevelopment and contributing to team success.\nFacilitated direct communication with a client to design and customize a Google Form in a language specific to their\nneeds, ensuring clear and effective data collection processes.\nExecute product deployments with meticulous attention to detail, prioritizing thorough client needs assessment to\nguarantee alignment and satisfaction.\nAKSA-SDS, Pakistan\nPHP Developer, IslamabadJul 2018 - Jan 2019\nWorked with a team of 10 engineers on developing web based products using PHP technology.\nGained knowledge of Laravel and its basic workings.Education\nUniversity of Kent, Canterbury, United Kingdom, M.Sc in Artificial Intelligence, (GPA: Merit), Sep 2021 - Sep 2022\nFinal Project: Content Based Photograph Indexing using YOLOv4\nCourses: Cognitive Neural Networks | Natural Computation | Data Mining | AI Systems Implementation | Programming\nfor AI | Internet of Things | Digital Forensics\nBahria University, Islamabad, B.Sc in Software Engineering, 2015 - Jul 2020\nFinal Project: Automatic Car Seat Adjustment using Android\nCourses: Web Development | Database Management Systems | Mobile Development | Computer Graphics | Artificial\nIntelligence | Project Management | Data Encryption and Security | Data Structure and Algorithms\nCore Competencies\nProgramming LanguagesPython, Java, C++, ReactJS, SQL, PHP 7, HTML, CSS, Bootstrap\nAI and ML FrameworksOpenAI, Neural Prophet, Nvidia CUDA, OpenCV, PyTorch, TensorFlow, Keras, Scikit-Learn,\nPandas, NumPy, Recommender Systems, Forecasting, Predictive Analysis, Machine Learning\nSoft SkillsTeamwork, Leadership Skills\nLanguagesEnglish, Urdu\nProjects\nUniversity of Kent, Easy Find, Canterbury, United Kingdom, Link Jan 2022 - Sep 2022\nMaster's final year project focused on the development and implementation of an advanced object detection model.\nUtilized cutting-edge techniques to analyze and process images stored on personal computer systems, demonstrating\nproficiency in computer vision methodologies and project management.\nPrivate, Paw Track, Pakistan, Link Jan 2024Present\nDeveloped PawTrack, a comprehensive pet management application for tracking pets\u2019 information and location.\nEnabled user registration of pets and maintenance of detailed pet records within the app.\nImplemented a critical feature allowing pets to be marked as lost, enhancing the app\u2019s functionality.\nFacilitated pet recovery by allowing anyone to scan the pet\u2019s collar tag to access information and notify the owner.\nEnhanced user experience and pet safety by simplifying the process of reuniting lost pets with their owners.\nCertifications\nIntroduction to Artificial Intelligence, IBM Sep 2020\nFundamentals of Java, Bahria University Sep 2016\nMobile Game Development using Unity 3D, Bahria University Aug 2016\nEthical Hacking Training, Bahria University Nov 2019\nWeb Design, Bahria University Apr 2019"
+    },
+    "details": {
+        "name": "M SHAHUM SULTAN",
+        "number": "923234700766",
+        "skills": [
+            "Python",
+            "Java",
+            "C++",
+            "ReactJS",
+            "SQL",
+            "PHP 7",
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "OpenAI",
+            "Neural Prophet",
+            "Nvidia CUDA",
+            "OpenCV",
+            "PyTorch",
+            "TensorFlow",
+            "Keras",
+            "Scikit-Learn",
+            "Pandas",
+            "NumPy"
+        ],
+        "email_id": "shahumsultan@hotmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Easy Find",
+                "description": "Master's final year project focused on the development and implementation of an advanced object detection model."
+            },
+            {
+                "title": "Paw Track",
+                "description": "Developed PawTrack, a comprehensive pet management application for tracking pets\u2019 information and location."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "09-2022",
+                "university": "University of Kent, Canterbury, United Kingdom",
+                "degree_title": "M.Sc in Artificial Intelligence"
+            },
+            {
+                "end_date": "07-2020",
+                "university": "Bahria University, Islamabad",
+                "degree_title": "B.Sc in Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Introduction to Artificial Intelligence",
+                "issuing_organization": "IBM",
+                "date_of_issuance": "09-2020"
+            },
+            {
+                "certification_name": "Fundamentals of Java",
+                "issuing_organization": "Bahria University",
+                "date_of_issuance": "09-2016"
+            },
+            {
+                "certification_name": "Mobile Game Development using Unity 3D",
+                "issuing_organization": "Bahria University",
+                "date_of_issuance": "08-2016"
+            },
+            {
+                "certification_name": "Ethical Hacking Training",
+                "issuing_organization": "Bahria University",
+                "date_of_issuance": "11-2019"
+            },
+            {
+                "certification_name": "Web Design",
+                "issuing_organization": "Bahria University",
+                "date_of_issuance": "04-2019"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github",
+                "website_name": "GitHub"
+            }
+        ],
+        "executive_summary": "M Shahum Sultan is an experienced Machine Learning Engineer with a strong background in developing and implementing advanced AI solutions across various domains. He possesses expertise in creating recommendation systems, predictive models, and natural language processing applications, utilizing cutting-edge technologies such as FastAPI, NeuralProphet, and Rasa.",
+        "employment_history": [
+            {
+                "details": "Developed a Predictive Health Score Model for Insurance Customers, enabling brokers to gain deeper insights into customer trends.",
+                "end_date": "Present",
+                "location": "California",
+                "job_title": "AI Engineer",
+                "start_date": "06-2024",
+                "company_name": "EzyTeams"
+            },
+            {
+                "details": "Created an advanced recommendation system tailored for e-commerce platforms, enhancing user experience and engagement.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "AI Engineer",
+                "start_date": "03-2023",
+                "company_name": "Exarta Labs"
+            },
+            {
+                "details": "Developed web applications using PHP technology and designed a comprehensive Learning Management System.",
+                "end_date": "08-2021",
+                "location": "Islamabad",
+                "job_title": "Web Developer",
+                "start_date": "01-2020",
+                "company_name": "Cybervision International"
+            },
+            {
+                "details": "Worked with a team of engineers on developing web-based products using PHP technology.",
+                "end_date": "01-2019",
+                "location": "Islamabad",
+                "job_title": "PHP Developer",
+                "start_date": "07-2018",
+                "company_name": "AKSA-SDS"
+            }
+        ]
+    }
+}

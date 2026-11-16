@@ -1,0 +1,156 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 3 short-term positions in sales and marketing which may not fully meet the requirement for managing complex sales cycles.",
+            "The candidate holds a Bachelor's degree in Business Administration, meeting the educational requirement.",
+            "No evidence of proficiency in Microsoft Office Suite is explicitly listed on the resume.",
+            "The candidate lacks demonstrated strategic thinking experience appropriate for high-stake negotiations or business development leadership."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales process management",
+                    "score": 3
+                },
+                {
+                    "criteria": "account management",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.23,
+                "micro_scores": 3.15
+            }
+        },
+        "personal_info": {
+            "name": "Shoaib Salman",
+            "email": "Shoaibsalman.network@gmail.com",
+            "phone": "03209495779",
+            "current_position": ".",
+            "current_company": ".",
+            "employment_start_date_current_company": "07-2022",
+            "first_company_start_date": "04-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 77,
+            "strategic thinking": 23
+        },
+        "micro_dict": {
+            "sales process management": 85,
+            "account management": 15
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proven track record in managing complex sales cycles",
+            "Strong negotiation and strategic thinking skills",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Proficiency in Microsoft Office Suite",
+            "5+ years of experience in business development or a related role"
+        ],
+        "resume": "70-2-C1 COLLEGE ROAD\nTOWNSHIP LAHORE\nE-mail\n:\n \nShoaibsalman.network@gmail.com\nPhone\n:\n \n03209495779\nWORK\nEXPERIENCE\nAMCO PAINT INDUSTRIES\nJULY 2022 \u2014 SEPTEMBER 2022\nBOURBON CLOTHING\nDECEMBER 2021 \u2014 MARCH 2022\nKarvan-e-News Agency\nApril 2021 \u2014 June 2021\nSales & Marketing\nMaintain relationship with clients\nManage company image in a cohesive way to achieve our marketing goals.\nUnderstand business objectives and design.\nSocial Media Strategist\nDesign and implement social media strategy to align with business goals.\nSupport scheduling and posting content on all platforms.\nProduct marketing copy to promote our products.\nDevelop related content for multiple platforms, such as product descriptions and\nvideo marketing.\nJunior Business Developer\nMaintain relationship with clients\nManage company image in a cohesive way to achieve our marketing goals.\nUnderstand business objectives and design.\nProvide competitive analysis on various companies marketing offerings.\nUnderstand company business model.\nCERTIFICATION\nHAFIZ-E-QURAN      (2007-2010)\nEDUCATION\nBACHELOR IN BUSINESS\nADMINISTRATION\n2018 \u2014 2022\nICS\n2016 \u2014 2018\nMATRICULATION (SCIENCE)\n2014 \u2014 2016\nUNIVERSITY OF CENTRAL PUNJAB\nCONCORDIA COLLEGE\nKIPSCHOOL\nSKILLS\nMarketing Management\nSocial Media Marketing\nSocial Media Strategist\nBusiness Development\nREFERENCES\nReferences available upon request.\nSHOAIB SALMAN\nSHOAIB SALMAN\n1SHOAIB SALMAN\n2"
+    },
+    "details": {
+        "name": "Shoaib Salman",
+        "number": "03209495779",
+        "skills": [
+            "Marketing Management",
+            "Social Media Marketing",
+            "Social Media Strategist",
+            "Business Development"
+        ],
+        "email_id": "shoaibsalman.network@gmail.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "University of Central Punjab",
+                "degree_title": "Bachelor in Business Administration"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "Concordia College",
+                "degree_title": "ICS"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Kipschool",
+                "degree_title": "Matriculation (Science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Hafiz-e-Quran",
+                "issuing_organization": "",
+                "date_of_issuance": "01-2010"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Shoaib Salman is a dedicated professional with a background in business administration and extensive experience in marketing and social media strategy. He has demonstrated his ability to manage client relationships and develop effective marketing strategies across various platforms.",
+        "employment_history": [
+            {
+                "details": "Maintain relationship with clients and manage company image to achieve marketing goals.",
+                "end_date": "09-2022",
+                "location": "",
+                "job_title": "Sales & Marketing",
+                "start_date": "07-2022",
+                "company_name": "Amco Paint Industries"
+            },
+            {
+                "details": "Design and implement social media strategy to align with business goals and support content scheduling and posting.",
+                "end_date": "03-2022",
+                "location": "",
+                "job_title": "Social Media Strategist",
+                "start_date": "12-2021",
+                "company_name": "Bourbon Clothing"
+            },
+            {
+                "details": "Maintain client relationships and provide competitive analysis on marketing offerings.",
+                "end_date": "06-2021",
+                "location": "",
+                "job_title": "Junior Business Developer",
+                "start_date": "04-2021",
+                "company_name": "Karvan-e-News Agency"
+            }
+        ]
+    }
+}

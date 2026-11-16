@@ -1,0 +1,137 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not meet the 3+ years of experience requirement in SEO and digital marketing, as his experience seems more sales-oriented than SEO-focused.",
+            "The candidate has a Master's degree in Business Administration which satisfies the educational requirement.",
+            "Proficiency in Microsoft Office is mentioned among the skills, partially meeting the proficiency in Microsoft Office and CRM systems requirement.",
+            "The resume lacks explicit demonstration of strong analytical and strategic thinking skills particularly in SEO contexts."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "client engagement",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3+ years of experience in SEO and digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office and CRM systems",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "Khuram Khan",
+            "email": "kay.khuram@gmail.com",
+            "phone": "+923349747255",
+            "current_position": "Business Development Specialist",
+            "current_company": "Infinite Group",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "12-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "client engagement": 100
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "3+ years of experience in SEO and digital marketing",
+            "Master's degree in Business Administration or related field",
+            "Strong analytical and strategic thinking skills",
+            "Proficiency in Microsoft Office and CRM systems"
+        ],
+        "resume": "Khuram Khan \nBusiness Development Specialist \nI have 10 years of experience in sales and marketing, I can develop a team to generate business. \nkay.khuram@gmail.com \n+923349747255 \nWapda Town, Lahore, Pakistan \nWORK EXPERIENCE \nBusiness Development Specialist \nIn\ufb01nite Group \n06/2022 - 09/2022\n, \n \nLahore, Pakistan \nIt's a Software Development, Digital Media Marketing and Business\nProcess Outsourcing Company. \nBidding on Upwork, Guru and Fiverr. \nLinkedIn Sales Navigator to generate business leads \nEmail marketing \nInternational Sales Executive \nPachem Global \n01/2022 - 06/2022\n, \n \nPetrochemical manufacturing and trading company. \nLead generation in Latin America Markets \nLinkedIn Communication to develop business \nDatabase Management for long term relationship \nSales Manager \nBuksh Leather \n02/2020 - 03/2021\n, \n \nIt's glove manufacturing and welding equipment trading company\nworking in Pakistan and UAE. \nGenerate database and make cold calling \nMeet procurement managers to generate business \nCustomer Relationship Management to increase revenue. \nMarketing Executive \nLeathertex Group \n12/2013 - 01/2017\n, \n \nProtective Equipment Manufacturer and Leather Tannery. \n30 plus customers management from Europe \nProduct development for business expansion \nPreparation for exhibitions and trade shows \nEDUCATION \nMaster of Business Administration \nUniversity of Management and Technology \nSKILLS \nMicrosoft O\ufb03ce \nSAP Business Pro \nOutlook \nVOLUNTEER EXPERIENCE \nRegistered Member \nAl-Khidmat Foundation Pakistan \n09/2023 - Present\n, \n \nORGANIZATIONS \nLoopTex\n (12/2012 - 12/2013)\n \nTechnology Upgradation and Skill Development\nCompany\n (05/2012 - 10/2012)\n \nHONOR AWARDS \nInclusive Education Seminar\n (12/2010)\n \nName of the institution that issued/awarded it \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nSUPPORTED CAUSES \nWorld Food Programme by UN \nINTERESTS \nSocial Media \nBook Reading \nWorkout and exercise \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Khuram Khan",
+        "number": "923349747255",
+        "skills": [
+            "Microsoft Office",
+            "SAP Business Pro",
+            "Outlook"
+        ],
+        "email_id": "kay.khuram@gmail.com",
+        "location": "Wapda Town, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2013",
+                "university": "University of Management and Technology",
+                "degree_title": "Master of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/kaykhuram",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Khuram Khan is a seasoned Business Development Specialist with 10 years of experience in sales and marketing, skilled in generating business leads and managing customer relationships across various industries.",
+        "employment_history": [
+            {
+                "details": "Bidding on Upwork, Guru and Fiverr. LinkedIn Sales Navigator to generate business leads. Email marketing.",
+                "end_date": "09-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Specialist",
+                "start_date": "06-2022",
+                "company_name": "Infinite Group"
+            },
+            {
+                "details": "Lead generation in Latin America Markets. LinkedIn Communication to develop business. Database Management for long term relationship.",
+                "end_date": "06-2022",
+                "location": "",
+                "job_title": "International Sales Executive",
+                "start_date": "01-2022",
+                "company_name": "Pachem Global"
+            },
+            {
+                "details": "Generate database and make cold calling. Meet procurement managers to generate business. Customer Relationship Management to increase revenue.",
+                "end_date": "03-2021",
+                "location": "",
+                "job_title": "Sales Manager",
+                "start_date": "02-2020",
+                "company_name": "Buksh Leather"
+            },
+            {
+                "details": "30 plus customers management from Europe. Product development for business expansion. Preparation for exhibitions and trade shows.",
+                "end_date": "01-2017",
+                "location": "",
+                "job_title": "Marketing Executive",
+                "start_date": "12-2013",
+                "company_name": "Leathertex Group"
+            }
+        ]
+    }
+}

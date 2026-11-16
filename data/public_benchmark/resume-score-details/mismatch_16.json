@@ -1,0 +1,176 @@
+{
+    "output": {
+        "justification": [
+            "The resume doesn't show any relevant digital marketing or social media marketing experience, indicating a lack of applicable experience for the role.",
+            "Bachelor's in Electrical Engineering does not align with job requirement of a business or marketing degree.",
+            "Strong project management and communication skills are mentioned but not directly related to digital marketing.",
+            "No familiarity with Google Analytics and CRM tools is evident in the resume.",
+            "LinkedIn URL is provided for further insight into candidate's professional network."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 5
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.64,
+                "micro_scores": 5.0
+            }
+        },
+        "personal_info": {
+            "name": "Najam Ul Saqib Ahmed Tariq",
+            "email": "najum_tariq@yahoo.com",
+            "phone": "+92-342-1975606",
+            "current_position": "Manager Procurement, Warehouse and Packaging",
+            "current_company": "Engro Corporation",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "10-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/najumtariq"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 44,
+            "digital marketing experience": 24,
+            "client relationship": 32
+        },
+        "micro_dict": {
+            "project management": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Familiarity with Google Analytics and CRM tools"
+        ],
+        "resume": "Najam Ul Saqib\nAhmed Tariq \nCerti\ufb01ed Electrical Engineer \nAssiduous and passionate engineer with 4 years of\nprofessional experience in corporate sector and \nmilitary. \nnajum_tariq@yahoo.com \n+92-342-1975606 \nLahore, Pakistan \nlinkedin.com/in/najumtariq \nWORK EXPERIENCE \nManager Procurement, Warehouse and Packaging \nEngro Corporation \n05/2022 - Present\n, \n \nEngro Eximp Agriproduct (Private) Ltd \nReview & approval of local and foreign purchase orders along with contacts.\nImprovement of procedures to meet deadlines and targets for e\ufb03cient \ufb02ow of\nwork. Managing and developing long-lasting supplier relationships for e\ufb03cient\nand effective work\ufb02ow. Fetching new vendors to diversify the current scope of\nprocurement and packaging. \nPlanning & maintaining the in\ufb02ux and out\ufb02ux requirements of spares in\nwarehouse stocks as per departmental requirements. Reducing down-time of\nplant through effective availability of stocks and spares. Assess, manage, and\nmitigate risk for operational smoothness, along with crafting negotiation\nstrategies for closing deals with minimum terms. \nLead the major projects including: Improvisation from SAP Hana to OneSap,\nCommissioning of Buhler's Sortex S6 Ultravision on site, and Enabling scrap\nsale of PKR 10 Million. \nO\ufb03cer In-Charge / Administrative Engineer \nPakistan Army \n10/2018 - 04/2022\n, \n \nCorps of EME \nRepair of high-tech classi\ufb01ed military equipment and judicious formulation of\nrequired funds along with their justi\ufb01cation to undertake forecasted and\nbacklogged repairs. \nForecasting and meeting supply-demand of the projects; and maintaining the\nstock level of spares up to the desired level for sustenance repair.\nProcurement of equipment and collaboration with local and international\nvendors to source required items from the open market at a much lower rate\nthan the original equipment manufacturer's cost. \nImprovement of o\ufb03ce-wide procedures, including work\ufb02ows, for e\ufb03cient\nprocurement of goods and services. Purchase orders, rate running contracts,\nand revalidation management. \nManaging resources, keeping them engaged, planning, and assigning the\nworkload; Ensuring timely completion of tasks. Providing all types of\nadministrative support to subordinates in order to achieve deadlines or\ntargets. Training resources to be effective and replaced in their role.\nMaintained the vigilance standards of security and administration for\ncontrolling overall law and order situation. \nPerformed a number of operation-oriented administrative tasks, managed an\nequitable distribution of workforce among ongoing projects and took\nnecessary approvals from the higher chain of command for the execution of\nthe same. \nEDUCATION \nMasters in Electrical Engineering \nNational University of Science and Technology \n10/2020 - Present\n, \n \nIn Progress \nBachelors in Electrical Engineering \nNational University of Science and Technology \n07/2014 - 06/2018\n, \n \n3.19/4 \nSKILLS \nC++ / C / Java \nProteus \nMatLab \nArduino \nSAP \nOracle \nMs O\ufb03ce \nINTERNSHIP \nService Industries Ltd\n (07/2016 - 09/2016)\n \nLearned the whole process of fabrication and production of\npolyurethane soles through Desma, Guzberti, and Guzbi systems.\nInspected and analyzed different PLCs and motors operating on the\nfactory \ufb02oor, especially in the electrical and electronics departments. \nPakistan Telecommunication Company Ltd\n (07/2015 - 09/2015)\n \nWorked in Main Distribution Frame to understand the interface\nbetween the subscriber cables coming from the local network and\nthe switching equipment in the exchange. \nGujranwala Electric Power Company Ltd\n (08/2017 - 09/2017)\n \nWorked and maintained all the relays, current transformers, and\npotential transformers connected across yards of 132 KV. \nTRAININGS \nBasic Military Training (Pakistan Army)\n (11/2018 - 05/2019)\n \nPhysical and technical training, Time management workshop, stress\nmanagement workshop, military equipment training, professional\ngrooming, and discipline. \nAlcotan user and maintenance course (Instalaza - Spain)\n (10/2019 - 10/2019)\n \nSystem Introduction, Software and Hardware Interface, Handling and\npractice of Sub Caliber Device, Simulator and Practice on equipment. \nPilot 4D M4 advance training on system (Seica - Italy)\n (06/2019 - 07/2019)\n \nMachine Basic Introduction, GUI based VIVA, Standard Operating\nProcedures and instructions, System Calibration, PCBs Reverse\nEngineering, PCBs Analysis through Image Acquisition, Components\naddition, Net list learning, Test Program and Debugging. \nHONORS & AWARDS \nAward of Appreciation - NUST Volunteer Club \nFull Professional Pro\ufb01ciency \nFauji Foundation\u2019s Excellence Scholarship - Bsc \nFull Professional Pro\ufb01ciency \nHigh Achiever Award - SSC & HSSC \nFull Professional Pro\ufb01ciency \nCERTIFICATES \nMicrosoft O\ufb03ce Specialist \nPEC Registered Engineer \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Najam Ul Saqib Ahmed Tariq",
+        "number": "923421975606",
+        "skills": [
+            "C++",
+            "C",
+            "Java",
+            "Proteus",
+            "MatLab",
+            "Arduino",
+            "SAP",
+            "Oracle",
+            "Ms Office"
+        ],
+        "email_id": "najum_tariq@yahoo.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Improvisation from SAP Hana to OneSap",
+                "description": "Led the project to transition from SAP Hana to OneSap."
+            },
+            {
+                "title": "Commissioning of Buhler's Sortex S6 Ultravision",
+                "description": "Oversaw the commissioning of Buhler's Sortex S6 Ultravision on site."
+            },
+            {
+                "title": "Enabling scrap sale",
+                "description": "Facilitated the sale of scrap worth PKR 10 Million."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "National University of Science and Technology",
+                "degree_title": "Bachelors in Electrical Engineering"
+            },
+            {
+                "end_date": "Present",
+                "university": "National University of Science and Technology",
+                "degree_title": "Masters in Electrical Engineering"
+            }
+        ],
+        "achievements": [
+            "Award of Appreciation - NUST Volunteer Club",
+            "Fauji Foundation\u2019s Excellence Scholarship - Bsc",
+            "High Achiever Award - SSC & HSSC"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Microsoft Office Specialist",
+                "issuing_organization": "Microsoft",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "PEC Registered Engineer",
+                "issuing_organization": "PEC",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/najumtariq",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Najam Ul Saqib Ahmed Tariq is a dedicated electrical engineer with 4 years of professional experience in procurement and administrative roles within the corporate sector and military. He possesses strong technical skills in various programming languages and software, demonstrating a commitment to efficiency and excellence in his projects.",
+        "employment_history": [
+            {
+                "details": "Review & approval of local and foreign purchase orders, managing supplier relationships, and improving procedures for efficient workflow.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Manager Procurement, Warehouse and Packaging",
+                "start_date": "05-2022",
+                "company_name": "Engro Corporation"
+            },
+            {
+                "details": "Repair of high-tech classified military equipment, procurement of equipment, and maintaining stock levels for sustenance repair.",
+                "end_date": "04-2022",
+                "location": "Pakistan",
+                "job_title": "Officer In-Charge / Administrative Engineer",
+                "start_date": "10-2018",
+                "company_name": "Pakistan Army"
+            }
+        ]
+    }
+}

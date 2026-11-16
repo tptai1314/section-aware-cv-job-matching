@@ -1,0 +1,171 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks direct and proven experience specifically in digital marketing roles which impacts Leadership and Digital Marketing Experience scores.",
+            "Resume shows strong sales and business development experience but lacks specialized mentions of Google Analytics and CRM Software, affecting micro scores in those areas.",
+            "No explicit mention of hands-on experience with SEO/SEM or social media marketing which are crucial requirements, hence no relevance is found to judge these criteria.",
+            "Education from a recognized university but no direct correlation with internal document focus on university rank preferred by the company."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 3
+                },
+                {
+                    "criteria": "seo/sem",
+                    "score": 3
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 2
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 2
+                },
+                {
+                    "criteria": "content development",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.6,
+                "micro_scores": 2.91
+            }
+        },
+        "personal_info": {
+            "name": "Ali Ahmad",
+            "email": "aliahmed2312@gmail.com",
+            "phone": "03128800078",
+            "current_position": "Business Development Manager",
+            "current_company": "IKONIC",
+            "employment_start_date_current_company": "04-2023",
+            "first_company_start_date": "07-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/aliahmad"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 80,
+            "digital marketing experience": 20
+        },
+        "micro_dict": {
+            "social media marketing": 6,
+            "seo/sem": 7,
+            "google analytics": 11,
+            "project management": 26,
+            "crm software expertise": 40,
+            "content development": 10
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Familiarity with Google Analytics and CRM tools",
+            "Proven work experience in social media marketing and SEO/SEM"
+        ],
+        "resume": "Ali Ahmad \nBusiness Development Manager \nI am a skilled business development manager with expertise in strategy, sales, negotiations, and\nmanaging the complete sales cycle. I am also experienced in key account management. I am seeking a\nchallenging position in an organization where I can contribute to achieving organizational goals while\nfurther developing my professional skills to reach my full potential. \naliahmed2312@gmail.com \n03128800078 \nLahore, Pakistan \nEDUCATION \nBachelor of Business Administration \nFAST NUCES \n08/2016 - 08/2020\n, \n \nLahore \nWORK EXPERIENCE \nBusiness Development Manager \nIKONIC \n04/2023 - Present\n, \n \nMy role includes managing the Business Development team,\nhandling the meetings that they book & e\ufb00ectuation of the\ncomplete sales cycle as well as handling active LinkedIn\ncampaigns. \nSenior Business Development Executive \nE-Sparks \n01/2021 - 04/2023\n, \n \nMy role included reaching out to prospects on Freelancing\nwebsites (Upwork, Freelancer etc) as well as LinkedIn,\nprobing to understand their pain points. Managing elements\nof strategy, sales, negotiations & e\ufb00ectuation of the\ncomplete sales cycle. \nWelcome Team Advisor \nGiant Group \n09/2020 - 12/2020\n, \n \nLahore, Pakistan \nMy role was to answer all in-bound queries via call or live\nchat, \nprovide best advice and promote the bene\ufb01ts of Giant\nGroup's range of services in line with agreed parameters as\nwell as following up with prospects. \nIntern \nICI Pakistan Limited \n07/2019 - 08/2019\n, \n \nLahore \nInterned in the Polyester wing of ICI in the \ufb01nance\ndepartment & reconciled their balance sheets as well as did\ncomplete \ufb01nancial analysis of their competitors. \nIntern \nCoca Cola \n07/2018 - 08/2018\n, \n \nLahore \nInterned in the commercial department & learned about\ncampaign strategies including product speci\ufb01c campaigns as\nwell as product placement in the racks & the usage of\nbillboards \nSKILLS \nMicrosoft O\ufb03ce (Word/Excel/PowerPoint) \nProject Bidding \nRequirement Gathering \nAccount Management \nBusiness Development \nSales Process \nLeadership \nSales Strategies \nNegotiation Skills \nProblem Solving Skills \nPressure Handling \nResearch \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nTasks \nTasks \nTasks \nTasks \nTasks "
+    },
+    "details": {
+        "name": "Ali Ahmad",
+        "number": "03128800078",
+        "skills": [
+            "Microsoft Office (Word/Excel/PowerPoint)",
+            "Project Bidding",
+            "Requirement Gathering",
+            "Account Management",
+            "Business Development",
+            "Sales Process",
+            "Sales Strategies",
+            "Negotiation Skills",
+            "Research"
+        ],
+        "email_id": "aliahmed2312@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2020",
+                "university": "FAST NUCES",
+                "degree_title": "Bachelor of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Ali Ahmad is a skilled business development manager with expertise in managing sales cycles, strategy, and negotiations. He has a strong background in business development and account management, seeking to contribute to organizational goals while furthering his professional skills.",
+        "employment_history": [
+            {
+                "details": "Managing the Business Development team, handling meetings, and executing the complete sales cycle as well as managing active LinkedIn campaigns.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "04-2023",
+                "company_name": "IKONIC"
+            },
+            {
+                "details": "Reaching out to prospects on freelancing websites and LinkedIn, managing strategy, sales, negotiations, and the complete sales cycle.",
+                "end_date": "04-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Senior Business Development Executive",
+                "start_date": "01-2021",
+                "company_name": "E-Sparks"
+            },
+            {
+                "details": "Answering inbound queries via call or live chat, providing advice, and promoting services.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Welcome Team Advisor",
+                "start_date": "09-2020",
+                "company_name": "Giant Group"
+            },
+            {
+                "details": "Interned in the finance department, reconciling balance sheets and conducting financial analysis.",
+                "end_date": "08-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2019",
+                "company_name": "ICI Pakistan Limited"
+            },
+            {
+                "details": "Interned in the commercial department, learning about campaign strategies and product placement.",
+                "end_date": "08-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2018",
+                "company_name": "Coca Cola"
+            }
+        ]
+    }
+}

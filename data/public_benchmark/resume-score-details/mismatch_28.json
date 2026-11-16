@@ -1,0 +1,161 @@
+{
+    "output": {
+        "justification": [
+            "The resume shows no evidence of leadership experience, as the candidate's background is more focused on a technical role rather than heading teams or projects.",
+            "The relevant experience is not aligned with the job description because the candidate is a Data Scientist and UI/UX Developer, while the role requires B2B sales and strategic business development skills in IT and manufacturing.",
+            "The resume provides no evidence of market research skills; the work experiences listed do not involve market analysis or segment identification.",
+            "Communication skills cannot be directly assessed from the resume as there is no indicator of sales or client engagement.",
+            "There is no mention of IT and manufacturing sector knowledge; the candidate's expertise is in data analytics and UX design, which are not relevant to the core sectors required."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "experience",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 0
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 1
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.33,
+                "micro_scores": 0.57
+            }
+        },
+        "personal_info": {
+            "name": "Dawood Siddique",
+            "email": "dawoodsiddique469@gmail.com",
+            "phone": "+92 303 7307931",
+            "current_position": "Data Scientist",
+            "current_company": "Cubic Solution inc.",
+            "employment_start_date_current_company": "03-2024",
+            "first_company_start_date": "02-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/dawood-siddique-82b8871b3"
+                }
+            ]
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 33,
+            "experience": 67
+        },
+        "micro_dict": {
+            "market research": 41,
+            "communication skills": 57,
+            "it and manufacturing sector knowledge": 2
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Strong proficiency in Microsoft Office Suite",
+            "Proven ability to develop and implement successful business strategies",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "Data Scientist with deep interest in Time Series Analysis.\nCurrently learning and working on projects related to Financial\nEngineering. Seeking to leverage my skills in UI/UX design to\ncreate innovative solution.Dawood Siddique\nData Scientist \nExperienceSummary\nEducation\nSkills\nContactWork as UI/UX Developer along\nwith the developer and senior\nmanagement. Work on project\nlike Zoolingo\nBy Stanford, Coursera\nTensorFlow, Python, Scikit-Learn, Xgboost, Data Analytics, Data\nVisualisationUI/UX Developer\nComsats University\nLahore Campus\nGoogle Data Analytics\nCertificateAppix Developer\nJan 2021 - Feb 2025\nBy Google\n+92 303 7307931\ndawoodsiddique469@gmail.comLahore, PakistanFeb 2019 - Dec 2020\nMachine Learning\nSpecialisation Working with research group on\nhow to analyse Financial\nResearch Market for high\nfrequency tradingData Scientist\nMar 2024 - Current\nwww.linkedin.com/in/dawood-siddique-82b8871b3Cubic Solution inc."
+    },
+    "details": {
+        "name": "Dawood Siddique",
+        "number": "923037307931",
+        "skills": [
+            "TensorFlow",
+            "Python",
+            "Scikit-Learn",
+            "Xgboost",
+            "Data Analytics",
+            "Data Visualisation"
+        ],
+        "email_id": "dawoodsiddique469@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Zoolingo",
+                "description": "Worked as UI/UX Developer on the project."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "02-2025",
+                "university": "Coursera",
+                "degree_title": "Google Data Analytics Certificate"
+            },
+            {
+                "end_date": "12-2020",
+                "university": "Comsats University Lahore Campus",
+                "degree_title": "Machine Learning Specialisation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Google Data Analytics Certificate",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/dawood-siddique-82b8871b3",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Dawood Siddique is a skilled Data Scientist with a strong foundation in machine learning and data analytics. He has experience working on projects related to financial engineering and UI/UX design, showcasing his technical expertise in various programming languages and tools.",
+        "employment_history": [
+            {
+                "details": "Worked as UI/UX Developer along with the developer and senior management.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "UI/UX Developer",
+                "start_date": "02-2019",
+                "company_name": "Cubic Solution inc."
+            },
+            {
+                "details": "Working with research group on how to analyse Financial Research Market for high frequency trading.",
+                "end_date": "Current",
+                "location": "Lahore, Pakistan",
+                "job_title": "Data Scientist",
+                "start_date": "03-2024",
+                "company_name": "N/A"
+            }
+        ]
+    }
+}

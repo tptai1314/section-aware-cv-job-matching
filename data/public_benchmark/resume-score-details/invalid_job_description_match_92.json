@@ -1,0 +1,47 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Muhammad Hassan  Ishaq  \n hassanch4686@outlook.com  \nShujaAbad,Multan  \nCell  # 0301 -7706019  \nAbridge  \nTo learn more and polish my skills in an environment that can \nhelp to achieve organization goals.  To become an efficient part \nof management so as to contribute towards the achievement \nof its goals as well as nourishing and nurturing my skills to make \nme a real asset for the organization.  \nPersonal Information  \nFull Name      Hassan  Ishaq  \nFather Name                                      Muhammad Ishaq  \nDate of Birth              20 March 1992  \nMarital Status              Single  \nGender               Male  \nReligious               Islam  \nNationality              Pakistan  \nWork Experiences   \n\u2756 Total 5 Years Of working experience  in FMCG  Industry  \n\u2756 4 Years In Distribution of (CoCa Cola Beverages Company) \nMultan, Continue \u2026 \n\u2756 Having 5 Years of Working in Distribution sales Matters  \n\u2756 Also  Having Internship Certificate In Finance  Department  at \nPEL Company  Education / Course  \n\u2756 M.Sc (Eco)                \n\u2756  From, Bahauddin Zakariya  University Multan, Pakistan  \n\u2756 Bachelor Degree  \nFrom, Bahauddin Zakariya University Multan , Pakistan  \n\u2756 Intermediate   (F.Sc ) \nFrom, Punjab College of Information Technology, Multan  \n\u2756 High School Certificate  \nBISE, Multan, Pakistan  \nTrainings/ Cerificates  \n\u2756 Internship in Finance  by (PEL) \n\u2756 Freelancing ( DigiSkills.pk ) by (MITT )(VU) \n\u2756 Digital Marketing  (DigiSkills .pk) by (MITT) (VU)  \n\u2756 Red Recognition Award (CCI)  \nStrength / Skills  \no Strong inter -personal and Concentrate communication skills  \no Demonstrate ability to present ideas  \no Ability to easily understand new concepts in minimum \nrefractory time.  \no High motivation  & adaptability  \no Self Starter and quick learner  \no Well known about MS Office ,G-suite,CRM,Salesforce & \nERP Software  \no Well Known about Sales & Marketing Operations     \nLanguages  \nUrdu,English,Punjabi  \n\u25aa I hereby declare that the information furnished \nabove is true to the best of my knowledge.   \n\u25aa Reference Should be furnished on demand  ",
+        "macro_dict": {
+            "project management experience": 100
+        },
+        "micro_dict": {
+            "pre-sales consulting": 4,
+            "solution architecture": 15,
+            "agile methodologies": 37,
+            "quality management systems": 23,
+            "powerbi": 21
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Strong understanding of Agile and SCRUM methodologies",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV"
+        ],
+        "resume": "Muhammad Hassan  Ishaq  \n hassanch4686@outlook.com  \nShujaAbad,Multan  \nCell  # 0301 -7706019  \nAbridge  \nTo learn more and polish my skills in an environment that can \nhelp to achieve organization goals.  To become an efficient part \nof management so as to contribute towards the achievement \nof its goals as well as nourishing and nurturing my skills to make \nme a real asset for the organization.  \nPersonal Information  \nFull Name      Hassan  Ishaq  \nFather Name                                      Muhammad Ishaq  \nDate of Birth              20 March 1992  \nMarital Status              Single  \nGender               Male  \nReligious               Islam  \nNationality              Pakistan  \nWork Experiences   \n\u2756 Total 5 Years Of working experience  in FMCG  Industry  \n\u2756 4 Years In Distribution of (CoCa Cola Beverages Company) \nMultan, Continue \u2026 \n\u2756 Having 5 Years of Working in Distribution sales Matters  \n\u2756 Also  Having Internship Certificate In Finance  Department  at \nPEL Company  Education / Course  \n\u2756 M.Sc (Eco)                \n\u2756  From, Bahauddin Zakariya  University Multan, Pakistan  \n\u2756 Bachelor Degree  \nFrom, Bahauddin Zakariya University Multan , Pakistan  \n\u2756 Intermediate   (F.Sc ) \nFrom, Punjab College of Information Technology, Multan  \n\u2756 High School Certificate  \nBISE, Multan, Pakistan  \nTrainings/ Cerificates  \n\u2756 Internship in Finance  by (PEL) \n\u2756 Freelancing ( DigiSkills.pk ) by (MITT )(VU) \n\u2756 Digital Marketing  (DigiSkills .pk) by (MITT) (VU)  \n\u2756 Red Recognition Award (CCI)  \nStrength / Skills  \no Strong inter -personal and Concentrate communication skills  \no Demonstrate ability to present ideas  \no Ability to easily understand new concepts in minimum \nrefractory time.  \no High motivation  & adaptability  \no Self Starter and quick learner  \no Well known about MS Office ,G-suite,CRM,Salesforce & \nERP Software  \no Well Known about Sales & Marketing Operations     \nLanguages  \nUrdu,English,Punjabi  \n\u25aa I hereby declare that the information furnished \nabove is true to the best of my knowledge.   \n\u25aa Reference Should be furnished on demand  "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

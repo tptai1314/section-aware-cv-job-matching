@@ -1,0 +1,149 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks mention of SEO or digital marketing experience, which is crucial for the role.",
+            "Sales experience is evident, but primarily from business development rather than SEO specialization.",
+            "Skills related to Excel or CRM systems are not explicitly mentioned in the resume.",
+            "Leadership roles in past positions align somewhat with responsibilities in the JD."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3+ years of experience in SEO and digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office and CRM systems",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 5.0
+            }
+        },
+        "personal_info": {
+            "name": "Hassan Saeed",
+            "email": "hassansaeed3328@gmail.com",
+            "phone": "+923053328700",
+            "current_position": "Business Development Manager",
+            "current_company": "HOMI SOLUTIONS",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "05-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "market analysis": 100
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "3+ years of experience in SEO and digital marketing",
+            "Proficiency in Microsoft Office and CRM systems",
+            "Strong analytical and strategic thinking skills"
+        ],
+        "resume": "HASSAN SAEED\nBusiness De velopment Manager\nCONTACT\nAddress :Sadiq Abad\nMobile Number :+923053328700\nEmail ID :hassansaeed3328@gmail.com\nDate Of Birth: 02-Sep-1996\nGender :Male\nNationality :Pakistan\nMarital Status:Married\nLanguages:English\nSKILLS\nFreelancing Project Management\nBusiness Development\nREFERENCE\nName :Oneeb Arif\nDetail :InvoZone - Development Lead\nEmail :Oneeb@invozone.com\nMobile :03051234640\nName :Raheel Ahmed\nDetail :CodFelix - Project Manager\nEmail :raheelahmed121@gmail.com\nMobile :03053661152\nWORK EXPERIENCE\nHOMI SOLUTIONS\nBusiness Development Manager\nDuration : 06-2022 - Till Today\nDEVBUNCH\nBusiness Development Team Lead\nDuration : 09-2021 - 06-2022\nLeading Executives and managing all business clients\nINVOZONE\nBusiness Development Executive\nDuration : 03-2021 - 08-2021\nMy core responsibilities was to lock the client from several freelancing platforms,\nCommunication with clients, Follow up the client, Understading project scope, Schedule\nmeeting with Technical person, Manage the lead using slack\nCODFELIX\nBusiness Developer\nDuration : 05-2020 - 02-2021\nSending proposals to the client on Upwork, Respond to client, Non Technical Calls,\nDeveloper's Engagement, Client Locking\nEDUCATION\nBISE BAHAWALPUR\nMTB H/S School, SDK - Matriculation\nGrades - 74 %\nYear of passing : 2011\nPBTE LAHORE\nGCT college, RYK. - Intermediate\nGrades - 75 %\nYear of passing : 2014\nKFUEIT, RYK\n- BS Information Technology\nGrades - 3.00 CGPA\nYear of passing : 2020\nPROJECTS\nCUSTOME MAP API\nBusiness Developer\nDuration : 01-2022 -\nTeam Size - 4\nNFT METAVERSE\nBusiness Developer\nDuration : 01-2022 -\nTeam Size - 4\nACHIEVEMENTS\nMOS 2013\nProject Hunting"
+    },
+    "details": {
+        "name": "Hassan Saeed",
+        "number": "923053328700",
+        "skills": [
+            "Freelancing",
+            "Project Management",
+            "Business Development"
+        ],
+        "email_id": "hassansaeed3328@gmail.com",
+        "location": "Sadiq Abad",
+        "projects": [
+            {
+                "title": "CUSTOME MAP API",
+                "description": "Business Developer"
+            },
+            {
+                "title": "NFT METAVERSE",
+                "description": "Business Developer"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "2011",
+                "university": "MTB H/S School, SDK",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "2014",
+                "university": "GCT college, RYK",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "2020",
+                "university": "KFUEIT, RYK",
+                "degree_title": "BS Information Technology"
+            }
+        ],
+        "achievements": [
+            "MOS 2013",
+            "Project Hunting"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Hassan Saeed is a skilled Business Development Manager with extensive experience in freelancing and project management. He has a strong background in business development, having worked with various companies to enhance client engagement and project execution.",
+        "employment_history": [
+            {
+                "details": "Leading Executives and managing all business clients",
+                "end_date": "Till Today",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2022",
+                "company_name": "HOMI SOLUTIONS"
+            },
+            {
+                "details": "Leading Executives and managing all business clients",
+                "end_date": "06-2022",
+                "location": "",
+                "job_title": "Business Development Team Lead",
+                "start_date": "09-2021",
+                "company_name": "DEVBUNCH"
+            },
+            {
+                "details": "Locking clients from several freelancing platforms, communication with clients, follow up, understanding project scope, scheduling meetings with technical personnel, managing leads using Slack",
+                "end_date": "08-2021",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "03-2021",
+                "company_name": "INVOZONE"
+            },
+            {
+                "details": "Sending proposals to clients on Upwork, responding to clients, non-technical calls, developer's engagement, client locking",
+                "end_date": "02-2021",
+                "location": "",
+                "job_title": "Business Developer",
+                "start_date": "05-2020",
+                "company_name": "CODFELIX"
+            }
+        ]
+    }
+}

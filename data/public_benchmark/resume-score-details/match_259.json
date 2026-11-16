@@ -1,0 +1,181 @@
+{
+    "output": {
+        "justification": [
+            "The candidate showcases leadership by leading various teams and driving recruitment efforts at Odetta.ai.",
+            "The candidate has ample work experience in business development, however, the current experience duration is just under 3 years, as the candidate does not meet the specified minimum years in a strict sense.",
+            "The resume lacks evidence of specific MS Office Suite skills, especially Excel and Word, which are crucial for the job role.",
+            "Communication skills are demonstrated through leadership roles and coaching experiences mentioned on the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 3
+                },
+                {
+                    "criteria": "ms word",
+                    "score": 3
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.2299999999999995,
+                "micro_scores": 5.2
+            }
+        },
+        "personal_info": {
+            "name": "Hafsa Naeem",
+            "email": "hafsa.naeem1024@gmail.com",
+            "phone": "+92 307 7089974",
+            "current_position": "Business Development",
+            "current_company": "Odetta.ai",
+            "employment_start_date_current_company": "11-2018",
+            "first_company_start_date": "11-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/hafsanaeem92"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "experience": 77,
+            "communication skills": 23
+        },
+        "micro_dict": {
+            "ms excel": 17,
+            "ms word": 39,
+            "verbal and written communication": 44
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Excellent communication skills",
+            "3-5 years of experience in business development or related fields"
+        ],
+        "resume": "Hafsa Naeem \nBusiness Development\nProfessional \nDynamic BD Professional with a growth mindset\n& B2B expertise across US tech startups \nhafsa.naeem1024@gmail.com \n+92 307 7089974 \nLahore, Pakistan \nlinkedin.com/in/hafsanaeem92 \nWORK EXPERIENCE \nBusiness Development \nOdetta.ai \n11/2018 - Present\n, \n \nLahore, Pakistan \nOdetta is a US-based online outsourcing platform with a mission to empower\nwomen across MESA \nWorking with U.S. tech industry leaders across several sectors, such\nas Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce &\nVCs \nSelling data solutions like lead generation, data annotation,\nmarketing automation, candidate sourcing & more \nClosing deals with Fortune 500 U.S. companies and growing our\nclient base from 35 to 150+ in 2020-2021 \nRecruitment Lead \nOdetta.ai \n03/2019 - 12/2021\n, \n \nLahore, Pakistan \nOdetta ranks #25 on Forbes Best U.S. Startup Employers in 2022,\nunder my leadership \nLead recruitment drives; exploring, shortlisting & interviewing top\ntier talent from the entire MESA region \nMentoring and coaching our team \nLead Virtual Assistant \nOdetta.ai \n05/2019 - 12/2020\n, \n \nLahore, Pakistan \nFirst employee to be promoted to VA role \nLead a team of 2 VAs for our CEO \nQuality Controller/Project Manager \nOdetta.ai \n12/2018 - 12/2020\n, \n \nLahore, Pakistan \nLead a team of 15-20 people for data collection/enrichment\nprojects for US Venture Capital \ufb01rms \nManaged data categorization projects for software companies \nLead a team of 50 annotators for data annotation projects of AI\ncompanies \nRan sales campaigns & CRM for startups in healthcare, aerospace,\n\ufb01ntech, and advisory \ufb01rms \nEDUCATION \nMasters of Business Administration \nNational University of Computer and Emerging\nSciences \n09/2021 - Present\n, \n \nLahore, Pakistan \nMarketing \nBusiness Analytics \nSKILLS \nProject Management \nPower BI \nLeadership \nDigital Marketing \nCRM \nCold Outreach \nLead Generation \nCandidate Sourcing \nB2B Sales \nACHIEVEMENTS \nStar Employee \nOnly Employee at Odetta to be a Sales Lead, First VA, VA\nLead & Recruitment Lead for 2 years \nCERTIFICATES \nBusiness Analysis Foundations: Competencies\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nBusiness Analytics: Sales Data\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nDecision-Making Strategies\n (07/2022 - Present)\n \nIssued by National Association of State Boards of\nAccountancy \nData Analytics for Business Professionals\n (07/2022 - Present)\n \nIssued by LinkedIn Learning \nPERSONAL PROJECT \nYouth Tech\n (10/2021 - Present)\n \nCo-Founder & Business Advisor @ Youth Tech, a growing\nstartup o\ufb00ering outsourcing solutions to tech companies. \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nINTERESTS \nData Analytics \nEntrepreneurship \nBusiness Mentoring \nPhotography \nHealth & Fitness \nTech & Innovation \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Hafsa Naeem",
+        "number": "923077089974",
+        "skills": [
+            "Project Management",
+            "Power BI",
+            "Digital Marketing",
+            "CRM",
+            "Cold Outreach",
+            "Lead Generation",
+            "Candidate Sourcing",
+            "B2B Sales"
+        ],
+        "email_id": "hafsa.naeem1024@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Youth Tech",
+                "description": "Co-Founder & Business Advisor @ Youth Tech, a growing startup offering outsourcing solutions to tech companies."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "Present",
+                "university": "National University of Computer and Emerging Sciences",
+                "degree_title": "Masters of Business Administration"
+            }
+        ],
+        "achievements": [
+            "Star Employee",
+            "Only Employee at Odetta to be a Sales Lead, First VA, VA Lead & Recruitment Lead for 2 years"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Business Analysis Foundations: Competencies",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Business Analytics: Sales Data",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Decision-Making Strategies",
+                "issuing_organization": "National Association of State Boards of Accountancy",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Data Analytics for Business Professionals",
+                "issuing_organization": "LinkedIn Learning",
+                "date_of_issuance": "07-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hafsanaeem92",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hafsa Naeem is a dynamic business development professional with extensive experience in B2B sales and project management, particularly within the US tech startup ecosystem. She has demonstrated a strong ability to lead teams and drive growth, significantly expanding client bases and enhancing operational efficiencies.",
+        "employment_history": [
+            {
+                "details": "Working with U.S. tech industry leaders across several sectors, such as Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce & VCs. Selling data solutions like lead generation, data annotation, marketing automation, candidate sourcing & more. Closing deals with Fortune 500 U.S. companies and growing our client base from 35 to 150+ in 2020-2021.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development",
+                "start_date": "11-2018",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead recruitment drives; exploring, shortlisting & interviewing top tier talent from the entire MESA region. Mentoring and coaching our team.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Recruitment Lead",
+                "start_date": "03-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "First employee to be promoted to VA role. Lead a team of 2 VAs for our CEO.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Lead Virtual Assistant",
+                "start_date": "05-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead a team of 15-20 people for data collection/enrichment projects for US Venture Capital firms. Managed data categorization projects for software companies. Lead a team of 50 annotators for data annotation projects of AI companies. Ran sales campaigns & CRM for startups in healthcare, aerospace, fintech, and advisory firms.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Quality Controller/Project Manager",
+                "start_date": "12-2018",
+                "company_name": "Odetta.ai"
+            }
+        ]
+    }
+}

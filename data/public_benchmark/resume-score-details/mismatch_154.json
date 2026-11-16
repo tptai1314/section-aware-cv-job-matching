@@ -1,0 +1,144 @@
+{
+    "output": {
+        "justification": [
+            "Hassan has leadership experience as a Growth Executive and Lead Generation Associate, but lacks explicit strategic planning responsibilities.",
+            "Has 4 years of experience in roles related to sales and business development, but not in a leadership capacity as required.",
+            "No indication of expertise in sales strategy or business analytics tools (GA4, Power BI) are mentioned.",
+            "Does not meet the minimum requirement of 5+ years in business development in a leadership role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales strategy",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.33,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Hassan Arslan",
+            "email": "hha7222@gmail.com",
+            "phone": "03153111574",
+            "current_position": "Growth Executive",
+            "current_company": "Techilab",
+            "employment_start_date_current_company": "08-2022",
+            "first_company_start_date": "09-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 55,
+            "business development experience": 23,
+            "strategic planning": 22
+        },
+        "micro_dict": {
+            "sales strategy": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "5+ years of business development experience in a leadership role",
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "Hassan Arslan\nGrowth Executive at Techilab\nExperienced Lead Generation with a demonstrated Industry of working Game, Digital Marketing,\nWeb App Developing, Medical, VR&AR, etc Lead Generation work on Linkedin SalesNavigator\nZoominfo, oxylead, Data.com, Lead,Contact Info\n03153111574\ue145\nhha7222@gmail.com\u2709\nBabu Sabu\nBund Road Lahore\nLahore, Pakistan\ue021\n Academics\ue233\nTitle Institute Score Date\nMatriculation Central Model School , Lahore 60% 2012\n Experience   Less than 1 Year \ue067\n2 months\n3.3 years\n7 monthsCompany Designation Duration\nTechilab Growth Executive Aug 2022 - Present\nGenITeam Lead Generation Associate Apr 2019 - Aug 2022\nAvicenna Enterprise Solutions Data Analyst Sep 2018 - Apr 2019\n Work History\ue032\nTechilab Aug 2022 - Present  (2 months)\nGrowth Executive Lahore, Pakistan\n Lead Generation from different sources (Linkedin, Zoominfo, Data.com, Redscraper, Leadscraper, Lead411)\n Perform all data entry-related tasks including sorting, proofing, updating, mailing, and storing.\n Data collection, prospect analysis\n Compile, sort, verify and correct data to be entered.\n Email Marketing (Salesforce, Mailchimp, ActiveCampaign)\n LinkedIn Marketing\n Review data for completeness and accuracy.\n Manage filing and routing of source documents after entry.\n Maintain records of work completed.\n Update data in appropriate databases in an accurate and timely manner so as to avoid backlogging.\n Process and resolve data inquiries by searching and reviewing databases.\nGenITeam Apr 2019 - Aug 2022  (3.3 years)\nLead Generation Associate Lahore, Pakistan\n Lead Generation from different sources (Linkedin, Zoominfo, Data.com, Redscraper, Leadscraper, Lead411)\n Perform all data entry-related tasks including sorting, proofing, updating, mailing, and storing.\n Data collection, prospect analysis\n Compile, sort, verify and correct data to be entered.\n Email Marketing (Salesforce, Mailchimp, ActiveCampaign)\n LinkedIn Marketing\n Review data for completeness and accuracy.\n Manage filing and routing of source documents after entry.\n Maintain records of work completed.\n Update data in appropriate databases in an accurate and timely manner so as to avoid backlogging.\n Process and resolve data inquiries by searching and reviewing databases.\nAvicenna Enterprise Solutions Sep 2018 - Apr 2019  (7 months)\nData Analyst Lahore, Pakistan\nLead Generation from different sources. (Linkedin, Oxyleads, Zoominfo, Lead411)\nEmail Generation from different sources. (Linkedin, Oxyleads, Zoominfo, Lead411)\nMaintain data files accurately.\nCompile, sort, verify and correct data to be entered.\nManage filing and routing of source documents after entry.\nMaintain records of work completed.\n Functional Areas*\nSales & Business Development\nMarketing\nData Entry\nLead Generation\nEmail Marketing (Salesforce, Mailchimp, A\nctiveCampaign)\nLinkedIn Marketing Hobbies\ue007\nGames\nBooks Reading\nInternet Searching\n"
+    },
+    "details": {
+        "name": "Hassan Arslan",
+        "number": "03153111574",
+        "skills": [
+            "Lead Generation",
+            "Data Entry",
+            "Email Marketing (Salesforce)",
+            "Email Marketing (Mailchimp)",
+            "Email Marketing (ActiveCampaign)",
+            "LinkedIn Marketing",
+            "Data Collection",
+            "Prospect Analysis",
+            "Data Verification"
+        ],
+        "email_id": "hha7222@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2012",
+                "university": "Central Model School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hassanarslan",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/hassanarslan",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Hassan Arslan is a growth executive with extensive experience in lead generation and data analysis across various industries including digital marketing and web app development. He has a strong proficiency in email marketing and data management tools, demonstrating a commitment to enhancing business development efforts.",
+        "employment_history": [
+            {
+                "details": "Lead Generation from different sources (Linkedin, Zoominfo, Data.com, Redscraper, Leadscraper, Lead411). Perform all data entry-related tasks including sorting, proofing, updating, mailing, and storing. Data collection, prospect analysis. Compile, sort, verify and correct data to be entered. Email Marketing (Salesforce, Mailchimp, ActiveCampaign). LinkedIn Marketing. Review data for completeness and accuracy. Manage filing and routing of source documents after entry. Maintain records of work completed. Update data in appropriate databases in an accurate and timely manner so as to avoid backlogging. Process and resolve data inquiries by searching and reviewing databases.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Growth Executive",
+                "start_date": "08-2022",
+                "company_name": "Techilab"
+            },
+            {
+                "details": "Lead Generation from different sources (Linkedin, Zoominfo, Data.com, Redscraper, Leadscraper, Lead411). Perform all data entry-related tasks including sorting, proofing, updating, mailing, and storing. Data collection, prospect analysis. Compile, sort, verify and correct data to be entered. Email Marketing (Salesforce, Mailchimp, ActiveCampaign). LinkedIn Marketing. Review data for completeness and accuracy. Manage filing and routing of source documents after entry. Maintain records of work completed. Update data in appropriate databases in an accurate and timely manner so as to avoid backlogging. Process and resolve data inquiries by searching and reviewing databases.",
+                "end_date": "08-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Lead Generation Associate",
+                "start_date": "04-2019",
+                "company_name": "GenITeam"
+            },
+            {
+                "details": "Lead Generation from different sources (Linkedin, Oxyleads, Zoominfo, Lead411). Email Generation from different sources (Linkedin, Oxyleads, Zoominfo, Lead411). Maintain data files accurately. Compile, sort, verify and correct data to be entered. Manage filing and routing of source documents after entry. Maintain records of work completed.",
+                "end_date": "04-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Data Analyst",
+                "start_date": "09-2018",
+                "company_name": "Avicenna Enterprise Solutions"
+            }
+        ]
+    }
+}

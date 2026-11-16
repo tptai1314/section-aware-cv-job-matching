@@ -1,0 +1,198 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a leadership role as CR in university, suggesting some capacity in leadership roles, but lacks professional leadership experience, warranting a moderate score.",
+            "Relevant experience in IT and software development doesn't align with business development, resulting in a low score for relevant experience.",
+            "The resume does not mention specific communication skills and knowing it's crucial for business development, it significantly lowers the score.",
+            "No direct data analysis experience or education mentioned. Skills in software suggest potential but don't align directly with the job needs.",
+            "Education in Information Technology doesn't match the business or marketing field required for this role.",
+            "The candidate does not demonstrate specific IT and manufacturing industry knowledge which is essential for the role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "communication skills",
+                    "score": 2
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.15,
+                "micro_scores": 2.59
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Afzal",
+            "email": "afzalj166@gmail.com",
+            "phone": "+92 3052281739",
+            "current_position": "Freelancer",
+            "current_company": ".",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "05-2022",
+            "urls": [
+                {
+                    "website_name": "GitHub",
+                    "url": "https://github.com/afzal155"
+                },
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/afzal-jutt-7333321b5/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 15,
+            "experience": 85
+        },
+        "micro_dict": {
+            "communication skills": 41,
+            "data analysis": 18,
+            "it and manufacturing sector knowledge": 41
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": "Muhammad  Afzal  \nNationality:  Pakistani  (+92)  3052281739   Date  of birth:  28/11/1997  \nGender:  Male  Email  address:  afzalj166@gmail.com  \nWebsite:  https://github.com/afzal155  Whatsapp  Messenger  : +923052281739  \nLinkedIn  : https://www.linkedin.com/in/afzal -jutt-7333321b5/   \n \n \n \n \n \n \n \n \n \n \n \n  Address : Madina  Town  Head  Marala  District  Sialkot,  51480  Sialkot  (Pakistan)  \n \nOBJECTIVE  \nI am passionate about mobile application development. I will utilize my experience and skills, while making a  \nsignifi cant contribution  to the success  of the company  and leads  the company  toward  accomplishments  \n \n \nWORK  EXPERIENCE  \nMobile  Application  Developer  \nFreelancer  ( Facebook,  Fiver  ) [ 05/04/2022  \u2013 Current  ] \nCity:  Sialkot  \nCountry:  Pakistan  \n \nFrom the last 2 years, I had started the journey of mobile application development. I have 3 months of  \nfreelancing  experience  in mobile  application  development.  \n \nEDUCATION  AND TRAINING  \nBS (Hons.)  Information  Technology  \nUniversity  of Sialkot  [ 29/09/2018  \u2013 04/08/2022  ] \nAddress: 1-Km Main \u060c Daska Rd, Sialkot, Punjab, 51040 Sialkot (Pakistan)  \nhttps://www.uskt.edu.pk/  \nFinal  grade  : 3.47 out of 4 CGPA  \n \nIntermediate  in Science  \nArmy Public  College, Sialkot  Cant [ 14/09/2015  \u2013 11/08/2017  ] \nAddress:  GHF8+GWR,  Sabir  Kamal  Rd, Sialkot  Cantonment,  Sialkot,  Punjab,  51310  Sialkot  (Pakistan)  \nhttps://apsacssectt.edu.pk/  \nFinal  grade  : 47%  out of 100%  \n \nMatriculation  in Science  \nArmy  Public  School  & College  [ 14/08/2013  \u2013 06/06/2015  ] \nAddress: MF3H+GPP, Marala headworks  Rd, Canal Colony, Sialkot, Punjab, 51310 Sialkot (Pakistan)  \nhttps://apsacssectt.edu.pk/  \nFinal  grade  : 64%  out of 100%  \n \n \nLANGUAGE  SKILLS   \n \nMother  tongue(s):  Urdu  | Punjabi  \nOther  language(s):  \nEnglish  \nLISTENING  B1 READING  B2 WRITING  A2 \nSPOKEN  PRODUCTION  A2 SPOKEN  INTERACTION  A1 \n \nDIGITAL  SKILLS   \nMy Digital  Skills  \n \nTools  \nMicrosoft  Office / Postman(Basic  API tests)  / Android  Development  (Kotlin,  Java)  / Adobe  Illustrator  / Flutter  \nFramework  / Pycharm  IDE / QT Designer  / IDEs:  Android  Studio,  Eclipse,  Visual  Studio  / Adobe  Photoshop  \n \nProgramming  Languages  \nJava  / C++ / Kotlin  / Python  / C# / Basic  Flutter  / Html / CSS / Js   \n \nSkills  ( Mobile  Application  Development  ) \nRetrofi t 2 / Rest  APIs  / SQLite  database  / Volley  Library  / SQL  server  database  with PHP  / Google fi rebase  \ndatabase  / Picasso  / Glide  / Git \n \nPROJECTS   \nAsthma  Prediction  App \nA user  enters  his disease  details  and gets results  on the basis  of the doctor's  precautions.  Doctor  add precautions  \ndetails  in doctor  panel  \n \nAlpha  Math  Quiz  Game  \nSelect  answer  after  adding  or subtracting  numbers  \n \nIslamic VU  Earn (Admin / User)  \nNetwork  Marketing  based  related  level  by level  earning  app \n \nSinging  Game  \nIn this app user  guess  the name  of singer  on the basis  of his or her song  \n \nQuiz  App \nCreate  quiz,  attempt  quiz and get scores  (O\ufb04ine) \n \nHabib  Chat  App \nConvert  web apps  to mobile  application  \n \nCentro De  Venta  ( FYP ) \nCentro De Venta is derived from the Spanish word sale hub. We created 2 applications for this project. We  \ncreated 1 desktop  application using the python language and a mobile application using java in android studio.  \nActually, our project is related to business in  which we include items from the food mart.  We add some additional  \nalgorithms  to both  applications   \n \nMANAGEMENT  AND LEADERSHIP  SKILLS   \nClass  Representative   \n \n \n \n \n \nI am CR of my class  from  the second  semester  and handle  all responsibilities  of my class  \n \nFYP Team  Leader  \nI am the team  leader  of our Final  Year  Project  \n \nHOBBIES  AND INTERESTS   \nHobbies  \n\u25e6 Traveling  \n\u25e6 Coding  \n\u25e6 Listening  Music  \n\u25e6 Learning  New  Things  \n \nREFERENCE   \nReference  will be given  on demand  if needed  "
+    },
+    "details": {
+        "name": "Muhammad Afzal",
+        "number": "3052281739",
+        "skills": [
+            "Android Development (Kotlin, Java)",
+            "Microsoft Office",
+            "Postman",
+            "Adobe Illustrator",
+            "Flutter Framework",
+            "Pycharm IDE",
+            "QT Designer",
+            "Android Studio",
+            "Eclipse",
+            "Visual Studio",
+            "Adobe Photoshop",
+            "Java",
+            "C++",
+            "Kotlin",
+            "Python",
+            "C#",
+            "Flutter",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Retrofit 2",
+            "Rest APIs",
+            "SQLite database",
+            "Volley Library",
+            "SQL server database with PHP",
+            "Google Firebase database",
+            "Picasso",
+            "Glide",
+            "Git"
+        ],
+        "email_id": "afzalj166@gmail.com",
+        "location": "Madina Town Head Marala District Sialkot, 51480 Sialkot (Pakistan)",
+        "projects": [
+            {
+                "title": "Asthma Prediction App",
+                "description": "A user enters his disease details and gets results on the basis of the doctor's precautions."
+            },
+            {
+                "title": "Alpha Math Quiz Game",
+                "description": "Select answer after adding or subtracting numbers."
+            },
+            {
+                "title": "Islamic VU Earn (Admin / User)",
+                "description": "Network Marketing based related level by level earning app."
+            },
+            {
+                "title": "Singing Game",
+                "description": "In this app user guess the name of singer on the basis of his or her song."
+            },
+            {
+                "title": "Quiz App",
+                "description": "Create quiz, attempt quiz and get scores (Offline)."
+            },
+            {
+                "title": "Habib Chat App",
+                "description": "Convert web apps to mobile application."
+            },
+            {
+                "title": "Centro De Venta (FYP)",
+                "description": "Created 1 desktop application using Python and a mobile application using Java in Android Studio."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "08-2022",
+                "university": "University of Sialkot",
+                "degree_title": "BS (Hons.) Information Technology"
+            },
+            {
+                "end_date": "08-2017",
+                "university": "Army Public College, Sialkot Cant",
+                "degree_title": "Intermediate in Science"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "Army Public School & College",
+                "degree_title": "Matriculation in Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "github.com/afzal155",
+                "website_name": "GitHub"
+            },
+            {
+                "url": "linkedin.com/in/afzal-jutt-7333321b5/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Afzal is a dedicated mobile application developer with a strong foundation in Android development using Kotlin and Java. He has experience in various programming languages and tools, showcasing his technical skills through multiple projects and freelance work.",
+        "employment_history": [
+            {
+                "details": "Freelancing in mobile application development for various clients.",
+                "end_date": "Current",
+                "location": "Sialkot, Pakistan",
+                "job_title": "Mobile Application Developer",
+                "start_date": "04-2022",
+                "company_name": "Freelancer (Facebook, Fiverr)"
+            }
+        ]
+    }
+}

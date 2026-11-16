@@ -1,0 +1,142 @@
+{
+    "output": {
+        "justification": [
+            "Zubair has shown leadership in their role as a Business Development Executive, particularly in defining roles and processes.",
+            "Experience in business development with Paymob aligns with the requirement of handling business development tasks.",
+            "The resume shows CRM experience, meeting one of the job's key requirements and proficiency in Excel for reports.",
+            "InnovateCorp prefers graduates from COMSATS, but the candidate graduated from NED University. However, they have relevant experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.890000000000001,
+                "micro_scores": 8.0
+            }
+        },
+        "personal_info": {
+            "name": "Zubair Ahmed",
+            "email": "za05760@gmail.com",
+            "phone": "03310211624",
+            "current_position": "Business Development Executive",
+            "current_company": "Paymob",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "01-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 89,
+            "client relations": 11
+        },
+        "micro_dict": {
+            "crm systems": 100
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "Proven track record in lead generation and client engagement"
+        ],
+        "resume": "Zubair Ahmed \nBusiness Development Executive \nA prospective Marketing and Business Analyst, a recipient of Management Sciences from NED University of Engineering & Technology,\nwho endeavors to pose and respond with a results-oriented business attitude in developing creative marketing collateral for diverse\nprojects. Establishes clear standards and enforces protocols for consistent, high-quality results by utilizing interpersonal skills, data\nanalytical skills, excellent time management and problem-solving skills. \nza05760@gmail.com \n03310211624 \nR-280, Sheet 51, Block B, Saima Arabian Villas, Karachi. \nWORK EXPERIENCE \nBusiness Development Executive \nPaymob \n2021 - Present\n, \n \nKarachi \nDe\ufb01ned and integrated roles, responsibilities and processes for\nbusiness team and data management organization. \nCreated spreadsheets using Microsoft Excel for daily, weekly and\nmonthly reporting. \nDeveloped and executed strategic initiatives to implement key\nchanges and improvements in business development and sales\nprograms. \nUsed critical thinking to break down problems, evaluate solutions\nand make decisions. \nMarket Research Analyst \nPrecision Engineering Equipment FZE \n2019 - 2021\n, \n \nKarachi \nWorked closely with product development teams to create and\nmaintain marketing materials for sales presentations and client\nmeetings in the industry. \nAnalyzed pre-season marketing plans to generate better sales and\ncommunicate with customers through calling/emailing. \nDeveloped marketing strategies and resolved problems to drive\nsales, through CRM and managed database information of market. \nUtilized di\ufb00erent tools to analyze marketing and \ufb01nancial trends such\nas, SQL, Excel, & Power BI and suggested measures to reduce costs\nand improve business processes. \nInternship \nUnilever Pakistan \n2019\n, \n \nKarachi \nAnalyzing and scrutinizing the company's requirements for ongoing\nprojects and contracts. \nUpdate and manage internal database for future vendor\u2019s selection\nand their terms, this information is helpful for upcoming projects. \nDeveloped and strengthened supplier relationships. \nEDUCATION \nBS - Management Science \nNED University of Engineering & Technology \n2022\n, \n \nKarachi \nSKILLS \nProblem Solving & Business Analytics \nProduct Development & Strategist \nCRM \nBusiness Communication & Reporting \nSQL \nDigital Marketing \nMarket Research Analyst \nData Science Enthusiast \nLeadership skill \nProject & Brand Management \nHubSpot \nSalesforce \nGood Negociation \nPython \nData Visualization \nTableau \nPower BI \nPERSONAL PROJECTS \nCPEC \n- \nFinal Year Project \nAnalyzing the logistic infrastructure development of Pakistan\nafter CPEC and how it will revamp or rehabilitate the\ninfrastructure of Pakistan by developing the Special\nEconomic Zones. We analyze the di\ufb00erent industrial data in\neach province of Pakistan and the impact of SEZs that will\nreshape the industry economy in Pakistan \nMidas Safety Pakistan \n- \nCourse Project \nProject in Midas Safety Pakistan (Karachi Unit) where I\nidenti\ufb01ed the process involved in manufacturing their\nproducts i.e., Gloves and Safety Sleeves. I basically analyzed\nMidas\u2019s supply chain drivers and examined the use \nof\ninformation technology. \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Zubair Ahmed",
+        "number": "03310211624",
+        "skills": [
+            "SQL",
+            "Excel",
+            "Python",
+            "Power BI",
+            "Tableau",
+            "HubSpot",
+            "Salesforce"
+        ],
+        "email_id": "za05760@gmail.com",
+        "location": "Karachi",
+        "projects": [
+            {
+                "title": "CPEC - Final Year Project",
+                "description": "Analyzing the logistic infrastructure development of Pakistan after CPEC."
+            },
+            {
+                "title": "Midas Safety Pakistan - Course Project",
+                "description": "Analyzed Midas\u2019s supply chain drivers and examined the use of information technology."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "NED University of Engineering & Technology",
+                "degree_title": "BS - Management Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zubairahmed",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zubair Ahmed is a dedicated Business Development Executive with a strong background in marketing and business analysis. He possesses technical skills in SQL, Excel, Python, and various data visualization tools, demonstrating a commitment to driving business improvements and strategic initiatives.",
+        "employment_history": [
+            {
+                "details": "Defined and integrated roles, responsibilities and processes for business team and data management organization. Created spreadsheets using Microsoft Excel for daily, weekly and monthly reporting. Developed and executed strategic initiatives to implement key changes and improvements in business development and sales programs.",
+                "end_date": "Present",
+                "location": "Karachi",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2021",
+                "company_name": "Paymob"
+            },
+            {
+                "details": "Worked closely with product development teams to create and maintain marketing materials for sales presentations and client meetings. Analyzed pre-season marketing plans to generate better sales and communicate with customers through calling/emailing. Developed marketing strategies and resolved problems to drive sales, through CRM and managed database information of market.",
+                "end_date": "12-2021",
+                "location": "Karachi",
+                "job_title": "Market Research Analyst",
+                "start_date": "01-2019",
+                "company_name": "Precision Engineering Equipment FZE"
+            },
+            {
+                "details": "Analyzing and scrutinizing the company's requirements for ongoing projects and contracts. Updated and managed internal database for future vendor\u2019s selection and their terms, this information is helpful for upcoming projects. Developed and strengthened supplier relationships.",
+                "end_date": "12-2019",
+                "location": "Karachi",
+                "job_title": "Internship",
+                "start_date": "01-2019",
+                "company_name": "Unilever Pakistan"
+            }
+        ]
+    }
+}

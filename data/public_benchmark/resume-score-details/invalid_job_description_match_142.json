@@ -1,0 +1,52 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "SubhanFalak\nBusiness Development Executive\nContact Info\nLanguagesProfessional SkillsProfile Info\nEducation History\nWork ExperienceI have worked with different international clients and customers,\nmaintaining a healthy relationship with both. I have vast experience\nin customer services and selling products & services. Moreover, I\nhave expertise in bidding on Upwork & Fiverr, professional email\nwriting, and content writing.\nEmail\nAddressPhone\n+92 316 458 4589\nSubhanfalak2.0@gmail.com\nLahore, Pakistan2019 - Present\nInstitute of Chartered\nAccountants of Pakistan, Lahore2015 - 2017\nMuhammadan Anglo\nOriental College, LahoreChartered Accountancy F.Sc (Pre Engg.)\nI have worked at Premier BPO as a Tele- Sales Representative for a\nUS-based life insurance campaign, briefing the customers about the\ncompany's plans & services and transferring the calls to closers for\ninterested customers.Hobbies\nTraveling\nBadminton\nTable Tennis\nPhotography\nLearning Languages\nUrdu\nEnglish\nSaraiki\nPashto\nPunjabi\nFrenchCreative\nVigilance\nPunctuality\nVersatility\nTeam Work\nProfessionalism\nStrong Work Ethic\nConflict Resolution\nEmail Handling\nWorked as a Customer Service Specialist for a US-based company\n(Speedtalk Mobile), providing assistance to customers by answering\ntheir questions and resolving queries via calls and emails.\nAlso worked as a Parts Ordering Officer for a US-based company\n(NuBrakes). My job was to order the right parts (Brake Shoes & Pads)\nfor any booked appointment.I am currently working as a Business Development Executive for this\nIT start-up. My duties include bidding on Upwork & Fiverr, arranging\n& leading meetings with clients, negotiating, and email handling.\nApart from my duties, I have designed several product catalogs and\nsocial media posts. From writing scripts to voiceovers, I have\ncreated several product videos to give this start-up a boost.May 2022 - Present GlobizITech Enterprises Pvt. Ltd.Business Development Executive\nApr 2020 - May 2021 Mindbridge Pvt. Ltd.Customer Service SpecialistJun 2021 - Feb 2022 Premier BPO, Inc.Tele Sales Representative",
+        "macro_dict": {
+            "leadership": 36,
+            "project management experience": 5,
+            "technical expertise": 48,
+            "client relationship management": 11
+        },
+        "micro_dict": {
+            "pre-sales consulting": 45,
+            "solution architecture": 8,
+            "quality management systems": 2,
+            "powerbi": 45
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "10+ years of industry experience in project management and data analytics",
+            "Master's degree in Computer Science, Business Administration, or related field",
+            "Experience in managing enterprise data warehouse projects",
+            "Strong understanding of Agile and SCRUM methodologies",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV"
+        ],
+        "resume": "SubhanFalak\nBusiness Development Executive\nContact Info\nLanguagesProfessional SkillsProfile Info\nEducation History\nWork ExperienceI have worked with different international clients and customers,\nmaintaining a healthy relationship with both. I have vast experience\nin customer services and selling products & services. Moreover, I\nhave expertise in bidding on Upwork & Fiverr, professional email\nwriting, and content writing.\nEmail\nAddressPhone\n+92 316 458 4589\nSubhanfalak2.0@gmail.com\nLahore, Pakistan2019 - Present\nInstitute of Chartered\nAccountants of Pakistan, Lahore2015 - 2017\nMuhammadan Anglo\nOriental College, LahoreChartered Accountancy F.Sc (Pre Engg.)\nI have worked at Premier BPO as a Tele- Sales Representative for a\nUS-based life insurance campaign, briefing the customers about the\ncompany's plans & services and transferring the calls to closers for\ninterested customers.Hobbies\nTraveling\nBadminton\nTable Tennis\nPhotography\nLearning Languages\nUrdu\nEnglish\nSaraiki\nPashto\nPunjabi\nFrenchCreative\nVigilance\nPunctuality\nVersatility\nTeam Work\nProfessionalism\nStrong Work Ethic\nConflict Resolution\nEmail Handling\nWorked as a Customer Service Specialist for a US-based company\n(Speedtalk Mobile), providing assistance to customers by answering\ntheir questions and resolving queries via calls and emails.\nAlso worked as a Parts Ordering Officer for a US-based company\n(NuBrakes). My job was to order the right parts (Brake Shoes & Pads)\nfor any booked appointment.I am currently working as a Business Development Executive for this\nIT start-up. My duties include bidding on Upwork & Fiverr, arranging\n& leading meetings with clients, negotiating, and email handling.\nApart from my duties, I have designed several product catalogs and\nsocial media posts. From writing scripts to voiceovers, I have\ncreated several product videos to give this start-up a boost.May 2022 - Present GlobizITech Enterprises Pvt. Ltd.Business Development Executive\nApr 2020 - May 2021 Mindbridge Pvt. Ltd.Customer Service SpecialistJun 2021 - Feb 2022 Premier BPO, Inc.Tele Sales Representative"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,194 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has project management experience specifically as a Business Development Manager but lacks the advertised years in experience.",
+            "The resume showcases some client relationship management but no direct experience in solutions architecture or pre-sales consulting.",
+            "No references or evidence of managing cross-functional teams, RFP preparation, or substantial team leadership skills.",
+            "The educational background does not match the preferred university list, potentially affecting hiring consideration."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 2
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 2
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.1499999999999995,
+                "micro_scores": 2.39
+            }
+        },
+        "personal_info": {
+            "name": "Azeem Bari",
+            "email": "azeem.bari@hotmail.com",
+            "phone": "+92-323-764-3200",
+            "current_position": "Business Development Manager",
+            "current_company": "Projects",
+            "employment_start_date_current_company": "06-2016",
+            "first_company_start_date": "06-2010",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/azeem-bari-2638951b/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 40,
+            "project management experience": 20,
+            "technical expertise": 35,
+            "client relationship management": 5
+        },
+        "micro_dict": {
+            "pre-sales consulting": 33,
+            "solution architecture": 28,
+            "quality management systems": 39
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "10+ years of industry experience in project management and data analytics"
+        ],
+        "resume": " \nA Z E E M  B A R I  \nB U S I N E S S  D E V E L O P M E N T  M A N A G E R   \n O B J E C T I V E   \n  \nResults-driven, highly-accomplished, and focused Business Development Manager with 7 years\u2019 \nexperience charting growth paths to attain a sound position in a Top Tier company and rally its market \nshare. \nE D U C A T I O N  \u2014 E X P E R I E N C E    \n \n \n \n \n2014-2017 \nLahore school of \nEconomics  \nMBA (Professionals) \nCGPA: 3.3 \nMajors: Marketing & \nFinance \nEconomics  \nBBA(Hons.) \nCGPA: 3.15 \nMajors: Marketing & Media  Division \u2022 Posco International Corp. (South Korea) \n\uf0a7 Supplied / Financed the supply of Excavators to FWO  \no (US $ 20 Million) \n\uf0a7 Developed a new venture of Dry Batteries (DAEWOO \nBATTERY) with Treet Corporation \no (Supply of Batteries + TOT+ Royalty Based \nProject) \n\uf0a7 Secured the contract for the supply of Balancers for Pak \nSuzuki \no (OEM Automotive Biz) \n\uf0a7 Supplied LNG Cargo to Pakistan LNG Limited \no (Approx. US $ 30 Million) \n\uf0a7 (US $ 63 Million) Secured the contract of Paper Packaging \nPlant PM 8 (Century Papers). \no (US $ 63 Million) \n  \nAlso Worked on \n\uf0a7 Automated Metering Infrastructure at IESCO \n\uf0a7 AI Based Tourism System Pakistan Railways \n\uf0a7 Improved Telecommunication System Pakistan Railways \n\uf0a7 Intelligent Transportation BRT Peshawar \n\uf0a7 Construction of IT Tower under loan from Korean Exim \nBank with Ministry of IT \n\uf0a7 Investment and Construction of upcoming LNG Terminals \nin Pakistan \n\uf0a7 SAP ARIBA for Tendering at PSO \n \n2016- Present  \nBusiness Development Manager (Pakistan) \u2022 Projects \n\uf0a7 Secured Bahria Town Grid Station Project (Hyundai \u2013 PEL) \no (US $ 8 Million) \n \n \n2010-2014 \nLahore school of EXPERIENCE \n \n \n \n \n \n2014-2016 \nBusiness Development Manager (Pakistan) \u2022 Chemicals \nDivision \u2022 Daewoo International Corporation (South \nKorea) \n\uf0a7 Long Term contract (Annual basis) supply of Acetic Acid to \nLOTTE CHEMICALS \no (US $ 2 million / month) \n2012 \nInternee \u2022 Supply Chain \u2022 Rafhan Maize / INGREDION \nUSA \n\uf0a7 Learnt SAP Module for the management of ordering, \nwarehouse management, transportation \n2010 \nInternee \u2022 Sales \u2022 PTCL \n\uf0a7 Management of One Stop Shop \n\uf0a7 Sales of PTCL Devices \n\uf0a7 Retail Outlets Management \n \n \uf0a7 Key Account Management \n \n \n In House Learning Platform : \n\uf0a7 Enterprise Risk Management \n\uf0a7 Trade Contract \n\uf0a7 Foreign Exchange \n\uf0a7 Trade Finance \n\uf0a7 International Trade \n\uf0a7 Trade Accounting \n\uf0a7 Business with ESG \n  \n \n \n \n  \n \n \n\uf0a7 Inside Sales \n\uf0a7 Project Management \n\uf0a7 Bid Preparation \n\uf0a7 Costing \n\uf0a7 Team Management \n\uf0a7 ERP Systems \n\uf0a7 Negotiation \n\uf0a7 Market Analysis \n\uf0a7 Proposal  \n\uf0a7 New Business Setup \n\uf0a7 Financing  K E Y  S K I L L S  \u2014 \nTRAININGS\nHouse 186, Ahmedyar \nBlock, Mustafa Town, \nWahdat Road, Lahore \nazeem.bari@hotmail.com\n  \n+92-323-764-3200\nhttps://www.linkedin.co\nm/in/azeem-bari-263895\n1b/"
+    },
+    "details": {
+        "name": "Azeem Bari",
+        "number": "923237643200",
+        "skills": [
+            "SAP",
+            "ERP Systems",
+            "Project Management",
+            "Bid Preparation",
+            "Costing",
+            "Market Analysis",
+            "Negotiation",
+            "Team Management",
+            "Inside Sales",
+            "New Business Setup",
+            "Financing"
+        ],
+        "email_id": "azeem.bari@hotmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Bahria Town Grid Station Project",
+                "description": "Secured project worth US $ 8 Million."
+            },
+            {
+                "title": "Automated Metering Infrastructure",
+                "description": "Worked on project for IESCO."
+            },
+            {
+                "title": "AI Based Tourism System",
+                "description": "Contributed to project for Pakistan Railways."
+            },
+            {
+                "title": "Intelligent Transportation",
+                "description": "Involved in BRT Peshawar project."
+            },
+            {
+                "title": "Construction of IT Tower",
+                "description": "Worked under loan from Korean Exim Bank."
+            },
+            {
+                "title": "Investment and Construction of LNG Terminals",
+                "description": "Engaged in upcoming LNG terminals in Pakistan."
+            },
+            {
+                "title": "SAP ARIBA for Tendering",
+                "description": "Utilized for tendering at PSO."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "Lahore School of Economics",
+                "degree_title": "MBA (Professionals)"
+            },
+            {
+                "end_date": "05-2014",
+                "university": "Lahore School of Economics",
+                "degree_title": "BBA (Hons)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/azeem-bari-2638951b/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Azeem Bari is a results-driven Business Development Manager with 7 years of experience in securing high-value projects and contracts across various sectors, including chemicals and infrastructure. He possesses strong technical skills in SAP and ERP systems, and has successfully led multiple projects that contribute to significant revenue growth.",
+        "employment_history": [
+            {
+                "details": "Secured contracts for various projects including LNG supply and automotive components.",
+                "end_date": "Present",
+                "location": "Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2016",
+                "company_name": "Posco International Corp."
+            },
+            {
+                "details": "Managed long-term supply contracts and developed new business opportunities.",
+                "end_date": "05-2016",
+                "location": "Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2014",
+                "company_name": "Daewoo International Corporation"
+            },
+            {
+                "details": "Gained experience in supply chain management and SAP module.",
+                "end_date": "08-2012",
+                "location": "USA",
+                "job_title": "Internee",
+                "start_date": "06-2012",
+                "company_name": "Rafhan Maize / INGREDION"
+            },
+            {
+                "details": "Managed sales operations and retail outlets.",
+                "end_date": "08-2010",
+                "location": "Pakistan",
+                "job_title": "Internee",
+                "start_date": "06-2010",
+                "company_name": "PTCL"
+            }
+        ]
+    }
+}

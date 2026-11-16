@@ -1,0 +1,149 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has attained a Master's degree in Business Administration, majoring in Marketing and Finance, from Lahore School of Economics, which is recognized by the company based on internal preferences.",
+            "The candidate's experience includes managing key accounts and communicating with clients, which aligns moderately with the lead generation requirement though lacks specific lead generation strategies using digital marketing.",
+            "The candidate is skilled in MS Office but lacks skills in C++, HTML, and CSS which are critical for the role as per the job description.",
+            "The candidate has excellent communication skills as stated in their resume and meets the minimum requirement in this aspect."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 2
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.66,
+                "micro_scores": 2.88
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Ehtisham",
+            "email": "ehtishamrana246@gmail.com",
+            "phone": "03214334386",
+            "current_position": "Research Executive \u2013 Client Sales & Services",
+            "current_company": "Access Retail Private Limited",
+            "employment_start_date_current_company": "10-2022",
+            "first_company_start_date": "07-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/muhammad-ehtisham-7966b7100"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 66,
+            "innovation and adaptability": 34
+        },
+        "micro_dict": {
+            "c++, html, css": 56,
+            "digital marketing skills": 44
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Strong communication and interpersonal skills",
+            "Proficiency in at least one programming language"
+        ],
+        "resume": "  MUHAMMAD  EHTISHAM  \nAddress: 20/B Railway Officers Colony Walton Cantt Lahore  \nCell: 03214334386 |ehtishamrana246@gmail.com  \nDate of Birth: 01/11/1996  \nLinkedIn  Profile: https://www.linkedin.com/in/muhammad -ehtisham -\n7966b7100  \nEDUCATION & QUALIFICATIONS  \nMaster of Business Administration  May 2022  \nMajor (Marketing & Finance)   \nLahore School of Economics  \nBach elor of Business Administration  (Honors)  May 2019 \nMajor (Marketing ) Minor ( Media)  \nLahore School of Economics   \nPROFESSIONAL EXPERIENCE         \nAccess Retail Private Limited  October 2022 \u2013Present  \nResearch Executive \u2013 Client Sales & Services  \n\u2022 Managing one of the key accounts.  \n\u2022 Communication with the client.  \n\u2022 Prepare retail audit reports and decks for the client.  \nImpex Advertisers  July 2019\u2013March 2020  \nKey Accounts Manager  \n\u2022 Managing Key Accounts.  \n\u2022 Contact and meet clients.  \n\u2022 Contact potential clients.  \n \nPROJECTS  \nMarketing Research: This project focused on finding the impact of seasonality on the consumption of coffee in Pakistani \nmarket and how can Nescafe reduce its impact.  \nMarketing Management Practices : The project focused on the key issues with the brand and why its perception has \nchanged over the period of time.  \nExport Marketing: Our research focused on the launch of Jafferjees a Pakistan brand in US market. The macroeconomic \nand m icroeconomic factors which will affect the brand in the US market and how they can cope up with that market and \nestablish their brand.  \nSales Force Management : The project had four phases. In first phase we visited a wholesale market (Akbari Mandi), then \nwe visited a manufacturer (Rinkoli). In third phase we visited a distributor (Halaros). In the final phase we chose a small \nbusiness and revamped it by implementing the strategies we learned throughout the course  \nAdditional Experience  \n\u2022 Teaching Assistant, Lahore School of Economics  \nHONORS & AWARDS  \n\u2022 Got second position in LACAS Urain Ge 2017 Youth Studio Singing Competition  \n\u2022 Participated in Annual Play of Lahore School Dramatics Society  \nSKILLS & INTERESTS  \n\u2022 Fluent in English, Urdu  \n\u2022 Adept at using MS Office.  \n\u2022 Excellent communication skills and comfortable with working in a team  \n\u2022 Event Management  \n\u2022 Singing, Reading, Traveling, Cooking and Acting.  \n"
+    },
+    "details": {
+        "name": "Muhammad Ehtisham",
+        "number": "03214334386",
+        "skills": [
+            "MS Office"
+        ],
+        "email_id": "ehtishamrana246@gmail.com",
+        "location": "20/B Railway Officers Colony Walton Cantt Lahore",
+        "projects": [
+            {
+                "title": "Marketing Research",
+                "description": "This project focused on finding the impact of seasonality on the consumption of coffee in Pakistani market and how can Nescafe reduce its impact."
+            },
+            {
+                "title": "Marketing Management Practices",
+                "description": "The project focused on the key issues with the brand and why its perception has changed over the period of time."
+            },
+            {
+                "title": "Export Marketing",
+                "description": "Our research focused on the launch of Jafferjees a Pakistan brand in US market."
+            },
+            {
+                "title": "Sales Force Management",
+                "description": "The project had four phases involving visits to a wholesale market, manufacturer, distributor, and revamping a small business."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Lahore School of Economics",
+                "degree_title": "Master of Business Administration"
+            },
+            {
+                "end_date": "05-2019",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelor of Business Administration (Honors)"
+            }
+        ],
+        "achievements": [
+            "Got second position in LACAS Urain Ge 2017 Youth Studio Singing Competition",
+            "Participated in Annual Play of Lahore School Dramatics Society"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-ehtisham-7966b7100",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Ehtisham is a dedicated professional with a strong background in marketing and finance, holding an MBA from the Lahore School of Economics. He has experience in client sales and services, managing key accounts, and conducting marketing research projects. His technical skills include proficiency in MS Office, and he has demonstrated his capabilities through various academic and professional achievements.",
+        "employment_history": [
+            {
+                "details": "Managing one of the key accounts, communication with the client, and preparing retail audit reports and decks for the client.",
+                "end_date": "Present",
+                "location": "Access Retail Private Limited",
+                "job_title": "Research Executive \u2013 Client Sales & Services",
+                "start_date": "10-2022",
+                "company_name": "Access Retail Private Limited"
+            },
+            {
+                "details": "Managing Key Accounts, contacting and meeting clients, and reaching out to potential clients.",
+                "end_date": "03-2020",
+                "location": "Impex Advertisers",
+                "job_title": "Key Accounts Manager",
+                "start_date": "07-2019",
+                "company_name": "Impex Advertisers"
+            }
+        ]
+    }
+}

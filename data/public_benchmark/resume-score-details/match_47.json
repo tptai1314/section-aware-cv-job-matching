@@ -1,0 +1,137 @@
+{
+    "output": {
+        "justification": [
+            "- The resume shows leadership experience as a Business Development Team Lead, aligning with the job requirement.",
+            "- Above-average experience in similar roles over the past years, though not top-tier universities, which are prioritized by the company.",
+            "- Does not specifically highlight use of Stata, a preferred tool in the job description.",
+            "- MS Office proficiency is mentioned, aligning with the minimum requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms word",
+                    "score": 9
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in MS Office Suite and data analysis tools",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.15,
+                "micro_scores": 8.03
+            }
+        },
+        "personal_info": {
+            "name": "Ahmad Ali",
+            "email": "mhrali01@gmail.com",
+            "phone": "",
+            "current_position": "Business Development Team Lead",
+            "current_company": "DHives",
+            "employment_start_date_current_company": "04-2023",
+            "first_company_start_date": "09-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/maharali1/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 15,
+            "experience": 85
+        },
+        "micro_dict": {
+            "ms word": 3,
+            "verbal and written communication": 97
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Proficiency in MS Office Suite and data analysis tools"
+        ],
+        "resume": "04/2023 - Present\n04/2022 - 03/2023\n09/2021 - 03/2022\n10/2022 - 08/2021\n2017 - 2021SUMMARY\nI have hands-on experience in Business Development for the Software industry. Excellent at\u00a0cross-functional teamwork  \nskills when collaborating with internal and external teams to generate\u00a0business, assist expansion and generate\u00a0income  \nthrough freelancing\u00a0platforms. Skilled in identifying potential clients and collaborating with the software engineering  \nteams in order to land jobs successfully and play a part in growing the business.\nEXPERIENCE\nBusiness Development Team Lead\nDHives\nBusiness Development Executive\nBusiness Development Executive\nBusiness Development Executive\nGrowth Hacking Solutions\nAccount Executive\nLak Citrus\nEDUCATION\nBSCS\nCOMSATS University Islamabad\nSKILLS\nBusiness Development Business Strategy Sales Pipeline Management Trello\nAppointment Scheduling Team Management MS O\ufb03ce G-Suite\ue069 q eAHMAD ALI\nBusiness Development Team Lead\nmhrali01@gmail.comhttps://www.linkedin.com/in/maharal\ni1/Lahore, Punjab, Pakistan"
+    },
+    "details": {
+        "name": "AHMAD ALI",
+        "number": "03124843384",
+        "skills": [
+            "Business Development",
+            "Business Strategy",
+            "Sales Pipeline Management",
+            "Trello",
+            "MS Office",
+            "G-Suite"
+        ],
+        "email_id": "mhrali01@gmail.com",
+        "location": "Lahore, Punjab, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "COMSATS University Islamabad",
+                "degree_title": "BSCS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maharali1",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmad Ali is a skilled Business Development Team Lead with extensive experience in the software industry, adept at collaborating with cross-functional teams to drive business growth and client acquisition.",
+        "employment_history": [
+            {
+                "details": "Led business development initiatives and collaborated with software engineering teams to secure projects.",
+                "end_date": "03-2023",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Team Lead",
+                "start_date": "04-2022",
+                "company_name": "DHives"
+            },
+            {
+                "details": "Focused on generating leads and managing client relationships to enhance business opportunities.",
+                "end_date": "03-2022",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2021",
+                "company_name": "Growth Hacking Solutions"
+            },
+            {
+                "details": "Engaged in business development activities to expand the client base and increase revenue.",
+                "end_date": "08-2021",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2022",
+                "company_name": "Lak Citrus"
+            }
+        ]
+    }
+}

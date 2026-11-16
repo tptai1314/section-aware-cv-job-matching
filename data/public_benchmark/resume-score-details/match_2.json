@@ -1,0 +1,191 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has leadership experience evident from leading improvements in customer support processes and achieving sales targets, aligning with the leadership requirement in the job description.",
+            "Relevant experience is visible through account management and customer relationship positions; however, specific experience in managing CRM and ERP systems like Salesforce and SAP ERP is not mentioned.",
+            "The candidate lacks explicit mention of strategic thinking through methodologies or frameworks, which is crucial since they are tasked with market expansion and strategy execution.",
+            "While the candidate possesses data analysis skills from report generation and market trend analysis, proficiency in Vistex, Salesforce, and SAP ERP is not illustrated."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 2
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.8500000000000005,
+                "micro_scores": 2.88
+            }
+        },
+        "personal_info": {
+            "name": "Ali Imran Sherwani",
+            "email": "emransherwani@gmail.com",
+            "phone": "03004793703",
+            "current_position": "Business Development Manager",
+            "current_company": "ETS Devices",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "10-2010",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/ali-imran-sherwani-a35"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 14,
+            "experience": 57,
+            "strategic thinking": 29
+        },
+        "micro_dict": {
+            "data analysis": 5,
+            "sap erp": 27,
+            "salesforce": 68
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce",
+            "5+ years of experience in sales or key account management",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in data analysis and forecasting tools"
+        ],
+        "resume": "Business Development Manager\nWork HistoryContact\nLinkedIn\nhttps://www.linkedin.com\n/in/ali-imran-sherwani-a35\nSkillsAli Imran Sherwani\nAccomplished Development Manager with innovative leadership style\nand expertise in brand positioning strategies. Outstanding sales and\nmarketing talents to manage product-related budgets. Great\ninfluencing and communication strengths.\nBusiness Development Manager\nETS Devices , Lahore , Pakistan\nReached out to potential customers via telephone,\nemail, and in-person inquiries.\nPerform BIDS on different portal like Unison, SamGov\n& GSA eBuy for US Federal Government\nAchieved sales goals and service targets by\ncultivating and securing new customer relationships.\nIdentified and pursued valuable business\nopportunities to generate new company revenue\nand improve bottom line profit.\nGenerated new business with marketing initiatives\nand strategic plans.\nEstablished relationships with key decision-makers\nwithin customer's organization to promote growth\nand retention.\nDeveloped process to analyze customer feedback\nto incorporate insights into product development\nstrategies.\nNegotiated and closed long-term agreements with\nnew clients in assigned territory.\nPerformed client research and identified\nopportunities for account growth, account\npenetration and market expansion.2022-06  -\nCurrent\nCustomer Success Manager\nSemalt , Lahore , Paksitan\nManaged over 50 Calls per Day\nLead Generation for SEO Services (Search Engine2018-05  -\n2022-05Address\nLahore, Pakistan 54000\nPhone\n03004793703\nE-mail\nemransherwani@gmail.com\nCampaign development\nStaff Management\nVerbal and written\ncommunication\nQuality control\nBusiness development and\nplanning\nMicrosoft Word\nMicrosoft Excel\nPower Point\nRelationship building and\nrapportOptimization) from USA , CANADA , AUSTRALIA\nLed process improvement and problem-solving\nefforts to create standard procedures and\nescalation policy for customer support team.\nMonitored metrics and developed actionable\ninsights to improve efficiency and performance.\nConducted training and mentored team members\nto promote productivity, accuracy, and\ncommitment to friendly service.\nPlayed instrumental role in client satisfaction by\nworking with operational teams for proper resolution\nof service issues.\nConducted periodic user training sessions to support\ncustomer understanding and product feature\nutilization.\nAssisted customers with onboarding and product\nsetup to foster successful adoption and usage.\nCollaborated with sales and product teams to\naddress customer success objectives.\nGenerated reports and communicated results to\nstakeholders to provide insights into customer\nsuccess.\nAdministration Officer\nMicroTech Industeries , Lahore , Pakistan\nPrepared agendas and took notes at meetings to\narchive proceedings.\nScreened and transferred incoming calls, took down\nmessages, and transmitted information and\ndocuments to internal personnel.\nAided colleagues, managers, and customers\nthrough regular communication and assistance.\nProcessed purchase orders, service contracts and\nfinancial reports.\nCreated, prepared, and delivered reports to various\ndepartments.\nSet priorities and problem-solved workflow issues to\nmaintain rapport with customers and managers.\nManaged daily payment processing and drafted\nrelated financial documents.\nEntered and maintained departmental records in\ncompany database.2016-09  -\n2018-04EducationComputerized office activities, maintained customer\ncommunications, and tracked records through\ndelivery.\nCUSTOMER SERVICES REPRESENTATIVE\nMobilink , Lahore , Pakistan\nProviding introductory information to new customers\nEnsuring that customers are satisfied with products or\nservices\nFollowing up with clients or customers to check that\nthey're still satisfied with any purchases\nLetting customers or clients know about additional\nproducts or services\nEscalating queries and concerns\nTroubleshooting common issues with a product or\nservice\nResolve issues of the customer timely2014-02  -\n2016-03\nSALES ENGINEER\nUNITED TECHNIKS , Sialkot , Pakistan\nManaged technical integration, systems engineering\nprogram management, customer support and\nprogram management.\nPrepared cost estimates and bid documents by\nstudying customer RFPs and consulting with project\nmanagers.\nSubmitted booking forecasts, monthly highlights and\nCRM entries.\nGained customer acceptance by demonstrating\ncost reductions and operations improvements.\nContributes to sales engineering effectiveness by\nidentifying short-term and long-range issues and\nrecommending courses of action.\nDelivered technical sales presentations to prospects\nand presented benefits and value of products.\nAnalyzed market trends, competitor performance\nand product strengths.2010-10  -\n2013-12\nElectrical Engineering\nUniversity of Lahore  - Lahore2005-09  -\n2010-10Certifications\nMOBILE SWITCHING CENTRE(MSC) 2006-06\nBASE STATION SYSTEM(BSS 2007-02\nHLR (HOME LOCATION REGISTER) 2007-03\nBasic MS Excel 2016-11"
+    },
+    "details": {
+        "name": "Ali Imran Sherwani",
+        "number": "03004793703",
+        "skills": [
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Power Point"
+        ],
+        "email_id": "emransherwani@gmail.com",
+        "location": "Lahore, Pakistan 54000",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "10-2010",
+                "university": "University of Lahore",
+                "degree_title": "Electrical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "MOBILE SWITCHING CENTRE(MSC)",
+                "issuing_organization": "",
+                "date_of_issuance": "06-2006"
+            },
+            {
+                "certification_name": "BASE STATION SYSTEM(BSS)",
+                "issuing_organization": "",
+                "date_of_issuance": "02-2007"
+            },
+            {
+                "certification_name": "HLR (HOME LOCATION REGISTER)",
+                "issuing_organization": "",
+                "date_of_issuance": "03-2007"
+            },
+            {
+                "certification_name": "Basic MS Excel",
+                "issuing_organization": "",
+                "date_of_issuance": "11-2016"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ali-imran-sherwani-a35",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ali Imran Sherwani is an accomplished Development Manager with a strong background in business development and customer success. He has demonstrated expertise in managing customer relationships and achieving sales goals through innovative strategies and effective communication. His technical skills include proficiency in Microsoft Office applications, which he utilizes to enhance operational efficiency and drive business growth.",
+        "employment_history": [
+            {
+                "details": "Reached out to potential customers via telephone, email, and in-person inquiries. Performed BIDS on different portals like Unison, SamGov & GSA eBuy for US Federal Government. Achieved sales goals and service targets by cultivating and securing new customer relationships. Identified and pursued valuable business opportunities to generate new company revenue and improve bottom line profit. Generated new business with marketing initiatives and strategic plans. Established relationships with key decision-makers within customer's organization to promote growth and retention. Developed process to analyze customer feedback to incorporate insights into product development strategies. Negotiated and closed long-term agreements with new clients in assigned territory. Performed client research and identified opportunities for account growth, account penetration and market expansion.",
+                "end_date": "Current",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2022",
+                "company_name": "ETS Devices"
+            },
+            {
+                "details": "Managed over 50 Calls per Day. Lead Generation for SEO Services (Search Engine Optimization) from USA, CANADA, AUSTRALIA. Led process improvement and problem-solving efforts to create standard procedures and escalation policy for customer support team. Monitored metrics and developed actionable insights to improve efficiency and performance. Conducted training and mentored team members to promote productivity, accuracy, and commitment to friendly service. Played instrumental role in client satisfaction by working with operational teams for proper resolution of service issues. Conducted periodic user training sessions to support customer understanding and product feature utilization. Assisted customers with onboarding and product setup to foster successful adoption and usage. Collaborated with sales and product teams to address customer success objectives. Generated reports and communicated results to stakeholders to provide insights into customer success.",
+                "end_date": "05-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Success Manager",
+                "start_date": "05-2018",
+                "company_name": "Semalt"
+            },
+            {
+                "details": "Prepared agendas and took notes at meetings to archive proceedings. Screened and transferred incoming calls, took down messages, and transmitted information and documents to internal personnel. Aided colleagues, managers, and customers through regular communication and assistance. Processed purchase orders, service contracts and financial reports. Created, prepared, and delivered reports to various departments. Set priorities and problem-solved workflow issues to maintain rapport with customers and managers. Managed daily payment processing and drafted related financial documents. Entered and maintained departmental records in company database.",
+                "end_date": "04-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Administration Officer",
+                "start_date": "09-2016",
+                "company_name": "MicroTech Industries"
+            },
+            {
+                "details": "Providing introductory information to new customers. Ensuring that customers are satisfied with products or services. Following up with clients or customers to check that they're still satisfied with any purchases. Letting customers or clients know about additional products or services. Escalating queries and concerns. Troubleshooting common issues with a product or service. Resolve issues of the customer timely.",
+                "end_date": "03-2016",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Services Representative",
+                "start_date": "02-2014",
+                "company_name": "Mobilink"
+            },
+            {
+                "details": "Managed technical integration, systems engineering program management, customer support and program management. Prepared cost estimates and bid documents by studying customer RFPs and consulting with project managers. Submitted booking forecasts, monthly highlights and CRM entries. Gained customer acceptance by demonstrating cost reductions and operations improvements. Contributes to sales engineering effectiveness by identifying short-term and long-range issues and recommending courses of action. Delivered technical sales presentations to prospects and presented benefits and value of products. Analyzed market trends, competitor performance and product strengths.",
+                "end_date": "12-2013",
+                "location": "Sialkot, Pakistan",
+                "job_title": "Sales Engineer",
+                "start_date": "10-2010",
+                "company_name": "UNITED TECHNIKS"
+            }
+        ]
+    }
+}

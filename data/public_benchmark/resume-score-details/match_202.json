@@ -1,0 +1,163 @@
+{
+    "output": {
+        "justification": [
+            "The candidate meets the 3+ years of experience in sales and client relationship management as they have held relevant roles since May 2021, totaling 2.5 years, which is slightly shy of the stated requirement.",
+            "The candidate has relevant experience in business development and sales but lacks explicit SEO and digital marketing roles.",
+            "The candidate graduated from the Punjab University College of Information Technology, which is a reputable institution preferred by the company.",
+            "The resume does not mention direct experience with SEO or PPC, which is a critical requirement for the role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship management",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "team management",
+                    "score": 7
+                },
+                {
+                    "criteria": "client engagement",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in sales and client relationship management",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in SEO and digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 7.41
+            }
+        },
+        "personal_info": {
+            "name": "Samha Ahmed",
+            "email": "samhaahmed39@gmail.com",
+            "phone": "+923324817353",
+            "current_position": "Business Development Executive",
+            "current_company": "Rolustech",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "05-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "client relationship management": 100
+        },
+        "micro_dict": {
+            "team management": 59,
+            "client engagement": 41
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Proven track record in sales and client relationship management",
+            "3+ years of experience in SEO and digital marketing"
+        ],
+        "resume": "SAMHA\nAHMED\nAddress: Lahore, Pakistan \u2013 Phone: +923324817353\nEmail:\nsamhaahmed39@gmail.com\nOBJECTIVE\nTo work in a challenging environment where I can better utilize my skills and enhance my experience in\nthe domain of sales and business development.\nWORK EXPERIENCE\nBUSINESS DEVELOPMENT EXECUTIVE\nRolustech\n(September 2021 \u2013 Present)\nBUSINESS DEVELOPMENT EXECUTIVE\nTxLabz\n(May 2021 \u2013 September 2021)\nASSOCIATE PROJECT MANAGER\nTxLabz\n(June 2021 \u2013 September 2021)\nEDUCATION\nBS INFORMATION TECHNOLOGY\n(2017\u20132021)\nPunjab University College of Information Technology, Lahore\n(OOP, DSA, DB, Web, Android, SQA)\nF.SC PRE-ENGINEERING\n(2015 \u2013 2017)\nPunjab College of Science, Lahore\n(Chemistry, Physics, Mathematics)\nPercentage: 80%\nMATRICULATION\n(2013 \u2013 2015)\nWapda Girls High School, Lahore\n(Computer, Mathematics, Physics, Chemistry)\nPercentage: 93%PERSONAL SKILLS\n\u25cf\nStrong interpersonal skills\n\u25cf\nE\ufb00ective Listening\n\u25cf\nAbility to negotiate\n\u25cf\nAbility to Multitask\n\u25cf\nAttention to details\n\u25cf\nProfessional behavior\n\u25cf\nTime and resource \nmanagement\n\u25cf\nE\ufb00ective Decision making\nORGANIZATIONAL/ MANAGERIAL SKILLS\n\u25cf\nBusiness intelligence and marketing skills\n\u25cf\nHands-on experience in Upwork bidding and utilization of freelancing platforms for lead\ngeneration\n\u25cf\nKnowledge of all the stages of a sales cycle\n\u25cf\nExperience with CRM systems\n\u25cf\nStrong knowledge of lead generation using email campaigns and popular marketing tools\n\u25cf\nAbility to analyze market trends and suggest new ideas/strategies for improving sales\n\u25cf\nAbility to interact and e\ufb00ectively communicate with people from diverse backgrounds\n\u25cf\nStrong persuasion skills that help in maximizing customer satisfaction\n\u25cf\nGood at creating and goal setting and meeting goals, decision making, managing\nappointments, team management, and strategic thinking\nSEMESTER PROJECTS\nCAMPUS MANAGEMENT SYSTEM\nSubject: Programming Fundamentals, It was developed in C++.\nNGO DATABASE SYSTEM\nSubject: Database System. It was developed in ORACLE using PHP, HTML, and CSS.\nLUDO GAME\nSubject: OOAD (Object-Oriented Analysis and Design). It was developed in JAVA.\nONLINE ART GALLERY\nSubject: Web Development. It was developed using HTML, CSS, Bootstrap, JavaScript, AJAX,\nJQUERY, and JSON.FINAL YEAR PROJECT\nPU E-BUS TRACKING APPLICATION\nIt is an application that will provide Real-time Bus locations to the students. It is an\nAndroid-based project. The application has two modules; one is for drivers, the other for\nstudents. When a driver opens the app, his real-time location in Firebase is saved. When\na student opens the app, nearby buses within a 3km of radius are shown to the student.\nWe have also developed a Website for admins who can remove or add buses.\nTools for Android: Java, XML, Gradle, and Firebase Database.\nTools for Web: HTML5, CSS3, JavaScript, jQuery, React, Python and MySQL."
+    },
+    "details": {
+        "name": "Samha Ahmed",
+        "number": "923324817353",
+        "skills": [
+            "C++",
+            "ORACLE",
+            "PHP",
+            "HTML",
+            "CSS",
+            "JAVA",
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "jQuery",
+            "React",
+            "Python",
+            "MySQL",
+            "XML",
+            "Gradle",
+            "Firebase Database"
+        ],
+        "email_id": "samhaahmed39@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Campus Management System",
+                "description": "Developed in C++."
+            },
+            {
+                "title": "NGO Database System",
+                "description": "Developed in ORACLE using PHP, HTML, and CSS."
+            },
+            {
+                "title": "Ludo Game",
+                "description": "Developed in JAVA."
+            },
+            {
+                "title": "Online Art Gallery",
+                "description": "Developed using HTML, CSS, Bootstrap, JavaScript, AJAX, jQuery, and JSON."
+            },
+            {
+                "title": "PU E-Bus Tracking Application",
+                "description": "Android-based application providing real-time bus locations."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "Punjab University College of Information Technology, Lahore",
+                "degree_title": "BS Information Technology"
+            },
+            {
+                "end_date": "05-2017",
+                "university": "Punjab College of Science, Lahore",
+                "degree_title": "F.Sc Pre-Engineering"
+            },
+            {
+                "end_date": "05-2015",
+                "university": "Wapda Girls High School, Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Samha Ahmed is a skilled business development executive with a strong background in information technology. She has experience in various programming languages and technologies, demonstrating her technical proficiency in software development and project management.",
+        "employment_history": [
+            {
+                "details": "Business Development Executive at Rolustech.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2021",
+                "company_name": "Rolustech"
+            },
+            {
+                "details": "Business Development Executive at TxLabz.",
+                "end_date": "09-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "05-2021",
+                "company_name": "TxLabz"
+            },
+            {
+                "details": "Associate Project Manager at TxLabz.",
+                "end_date": "09-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Associate Project Manager",
+                "start_date": "06-2021",
+                "company_name": "TxLabz"
+            }
+        ]
+    }
+}

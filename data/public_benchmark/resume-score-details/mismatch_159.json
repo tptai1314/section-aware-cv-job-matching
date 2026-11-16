@@ -1,0 +1,210 @@
+{
+    "output": {
+        "justification": [
+            "The resume reflects strong technical skills but does not indicate any leadership or business development experience which is crucial for this role.",
+            "No mention of relevant strategic planning experience according to job requirements.",
+            "Without details of work in market research, negotiation or sales strategy, micro scores fall low in these areas.",
+            "The resume leans heavily towards technical prowess in data science and machine learning, which is not aligned with the job description's focus on sales and strategic skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 1
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 1
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 1
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.3,
+                "micro_scores": 1.36
+            }
+        },
+        "personal_info": {
+            "name": "MUHAMMAD HASEEB JAVAID",
+            "email": "haseebj345@gmail.com",
+            "phone": "+92 3137701944",
+            "current_position": "AI/ML Engineer",
+            "current_company": "RAPIDEV",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "11-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "nuhammad-haseeb-javaid"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 30,
+            "business development experience": 44,
+            "strategic planning": 26
+        },
+        "micro_dict": {
+            "market research": 26,
+            "negotiation": 5,
+            "sales strategy": 33,
+            "seo": 27,
+            "data analysis": 9
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "5+ years of business development experience in a leadership role",
+            "Proficiency in business analytics and digital strategy",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "MUHAMMAD HASEEB JAVAID\nMachine Learning Engineer | Data Scientist\nhaseebj345@gmail.com /ne(+92) 3137701944 Islamabad, Pakistan /\u2640nednmuhammad-haseeb-javaid\nWith 3 years of experience in machine learning, computer vision, data science, NLP, and Python programming, I am\npassionate about enhancing my skills and reaching new heights in the software \ufb01eld. I am con\ufb01dent in my ability to\ncontribute e\ufb00ectively to your team, leveraging my expertise in Python programming and cutting-edge technologies to\ndevelop and implement machine learning models and data-driven solutions.\nWORK EXPERIENCE\nAI/ML Engineer\nRAPIDEV\n\u1f4cMay 2022 \u2013 March 2024 Islamabad, Pakistan\n\u2022Developed and Deployed Weapon Detection System\n- Data Collection\n- Data Preprocessing of Images\n- Data Annotation on CVAT/Robo\ufb02ow\n- Custom Model Fine-tuning on YoloV5.\n- Conversion of custom pre-trained model to TensorRT (engine \ufb01le).\n- Build and manage the end-to-end NVIDIA DeepStream AI pipeline.\n- AI service Deployment on SMART servers from Dev, Staging to Production\nServer.\nThe application comprises two core services: the Recorder Service,\ndedicated to capturing real-time feeds from CCTV cameras or drone\ncameras, and the Deepstreamer Service, which employs three TensorRT\nmodels\u2014Crowd Detection, Prescriptive Detection, and Drone Detection.\nThe Deepstreamer Service conducts advanced object detection, identifying\nboth Military and Non-Military objects in CCTV camera or drone feeds.\nNotably, it specializes in crowd pattern analysis, enhancing situational\nawareness for security and safety.\n\u2022Developed Object Detection System for high-resolution imagery\n- Data Collection of high-resolution satellite imagery.\n- Data Preprocessing like crop of images using SAHI.\n- Data Annotation on CVAT.\n- Custom Model Fine-tuning (1280) on YoloV5.\n- Build and manage the end-to-end FAST API pipeline.\n- AI service Deployment on SMART servers from Dev, Staging to Production\nServer.\nThe reconnaissance detection model implemented in this pipeline utilizes\nthe SAHI slice prediction technique on raster images to discern various\nvehicle types, including civilian vehicles, military vehicles, military trucks,\nand military tanks. Subsequently, the model outputs bounding boxes around\nthe detected vehicles. To enhance the practical applicability of the results,\nall bounding boxes are transformed into geo boxes using the geographical\ndata embedded in the raster image. The pipeline is developed using FastAPI.\n\u2022Facial Recognition System Facial Recognition\nSystem is implemented and deployed to track and detect anomalies on live\ncamera feed, where vector database was used to store embeddings. For\nthat, I used the retinaface pre-trained model for face detection.\n\u2022Developed and Deployed Smoke & Fire Detection System\nFor Fire and smoke detection, I trained a model for \ufb01re detection. For that,\nwe gathered images of \ufb01re and smoke.\n\u2022Developed and Deployed Drone Detection System\nTrained YOLOV8 on our own created drone dataset and created its micro\nservice (API) using Fast API dockeriezed it and deployed on GPU Server.SKILLS\nPython C++ R language\nDocker Machine Learning\nDeep Learning Computer Vision\nImage Processing NLP\nFlask API Fast API RoboFlow\nCVAT Label Studio\nNumpy Pandas Matplotlib\nOpenCV Scikit-learn\nTensor\ufb02ow Pytorch\nEDUCATION\nMaster of sciences in Data\nScience MS(DS)\nFAST National University of Computer\nand Emerging Sciences (NUCES)\n\u1f4c2020 \u2013 2023 Islamabad, Pakistan\nB.S. Computer Science\nInternational Islamic University\nIslamabad (IIUI)\n\u1f4c2014 \u2013 2019 Islamabad, Pakistan\nLANGUAGES\nEnglish\nProfessional\nUrdu\nProfessional\nINTERPERSONAL\n\u2022Attention to detail\n\u2022Problem solving\n\u2022Reliable and trustworthy\n\u2022Flexible and eager to learn\n\u2022Collaborative Team-player\u2022Worked on Deployment and Improvement of ANPR System and Pedestrian\nDetection and Counting System\nWorked on live feed for number plate detection and text extraction using\nPaddleOCR and EasyOCR. Applied di\ufb00erent image preprocessing for text\nextraction. Worked on pedestrian detection and counting on live feed.\nTechnologies used\nDeepFace, Detectron2, MTCNN, RetinaNet, faceNet, YOLOv5, YOLOv8,\nGSteamer, DeepSteamer, PaddleOCR, YOLT, SAHI, ImageNet, RESNET,\nInceptionv3, FAST API, Flask API, OpenCV\nPython developer\nNESL-IT (SMC PVT) LTD\n\u1f4cNovember 2021 \u2013 April 2022 Rawalpindi, Pakistan\n\u2022Pro\ufb01cient in utilizing the Segment Anything Model (SAM) for image\nsegmentation tasks and computer vision applications.\n\u2022Developed and managed data analytic tool for link analysis. The python\nlibraries which used for analysis pyVis andHoloViews .\n\u2022worked on data annonation tool namley CVAT androbo\ufb02ow for the\nannotation of satellite images and 2d image data.\n\u2022Devepled an Fast API to detect the objects in satellite images.\n\u2022Worked on SAS planet tool for the collection of high-resolution satellite\nimagery .\n\u2022Experienced in geospatial data manipulation and analysis using Python\nlibraries such as GeoPandas, Rasterio, and Shapely.\n\u2022Developed all API in Docker.\n\u2022Have the knowledge the JIRA and Scrum.\n\u2022Made the documentation and reports for the testing and projects\n\u2022Managed the collection of data, and designed/implemented scripts to clean\nand prepare the data for model training.\n\u2022Tested and \ufb01ne-tuned deep learning algorithms/models.CERTIFICATIONS\n\u2022AWS Machine Learning Foundations\n\u2022Building Systems with the ChatGPT\nAPI\n\u2022LangChain Chat with Your Data\n\u2022Building and Evaluating Advanced\nRAG\n\u2022Vector Databases: from\nEmbeddings to Applications\nPUBLICATION\nReal Time Algorithm for Detecting\nRoad Surface Condition Using\nMachine Learning Approach"
+    },
+    "details": {
+        "name": "Muhammad Haseeb Javaid",
+        "number": "923137701944",
+        "skills": [
+            "Python",
+            "C++",
+            "R",
+            "Docker",
+            "Machine Learning",
+            "Deep Learning",
+            "Computer Vision",
+            "Image Processing",
+            "NLP",
+            "Flask API",
+            "Fast API",
+            "RoboFlow",
+            "CVAT",
+            "Label Studio",
+            "Numpy",
+            "Pandas",
+            "Matplotlib",
+            "OpenCV",
+            "Scikit-learn",
+            "Tensorflow",
+            "Pytorch"
+        ],
+        "email_id": "haseebj345@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2023",
+                "university": "FAST National University of Computer and Emerging Sciences (NUCES)",
+                "degree_title": "Master of sciences in Data Science MS(DS)"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "International Islamic University Islamabad (IIUI)",
+                "degree_title": "B.S. Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [
+            {
+                "title": "Real Time Algorithm for Detecting Road Surface Condition Using Machine Learning Approach",
+                "publication_venue": ""
+            }
+        ],
+        "certifications": [
+            {
+                "certification_name": "AWS Machine Learning Foundations",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Building Systems with the ChatGPT API",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "LangChain Chat with Your Data",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Building and Evaluating Advanced RAG",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Vector Databases: from Embeddings to Applications",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-haseeb-javaid",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Haseeb Javaid is a skilled Machine Learning Engineer and Data Scientist with three years of experience in machine learning, computer vision, and data science. He has a strong proficiency in Python programming and has successfully developed and deployed various AI systems, showcasing his expertise in cutting-edge technologies.",
+        "employment_history": [
+            {
+                "details": "Developed and deployed various AI systems including weapon detection, object detection, and facial recognition systems. Managed end-to-end AI service deployment and worked on high-resolution imagery analysis.",
+                "end_date": "03-2024",
+                "location": "Islamabad, Pakistan",
+                "job_title": "AI/ML Engineer",
+                "start_date": "05-2022",
+                "company_name": "RAPIDEV"
+            },
+            {
+                "details": "Utilized Segment Anything Model for image segmentation and developed data analytic tools. Worked on data annotation and geospatial data manipulation.",
+                "end_date": "04-2022",
+                "location": "Rawalpindi, Pakistan",
+                "job_title": "Python Developer",
+                "start_date": "11-2021",
+                "company_name": "NESL-IT (SMC PVT) LTD"
+            }
+        ]
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "output": {
+        "justification": [
+            "Resume heavily focuses on data science rather than business development, lacking relevance.",
+            "No specific leadership experience highlighted in relation to job description expectations.",
+            "Relevant tools like CRM and Excel not mentioned. Main skills focus on data, not business processes.",
+            "Resume does not reference sales processes or business development experience.",
+            "No mention of a Bachelor's degree in Business Administration or related field."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 1
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 3
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.34,
+                "micro_scores": 1.52
+            }
+        },
+        "personal_info": {
+            "name": "Dawood Siddique",
+            "email": "dawoodsiddique469@gmail.com",
+            "phone": "+92 303 7307931",
+            "current_position": "Data Scientist",
+            "current_company": "Cubic Solution inc.",
+            "employment_start_date_current_company": "03-2024",
+            "first_company_start_date": "01-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/dawood-siddique-82b8871b3"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 34,
+            "business development experience": 50,
+            "strategic planning": 16
+        },
+        "micro_dict": {
+            "market research": 16,
+            "seo": 80,
+            "data analysis": 4
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in business analytics and digital strategy",
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": "Data Scientist with deep interest in Time Series Analysis.\nCurrently learning and working on projects related to Financial\nEngineering. Seeking to leverage my skills in UI/UX design to\ncreate innovative solution.Dawood Siddique\nData Scientist \nExperienceSummary\nEducation\nSkills\nContactWork as UI/UX Developer along\nwith the developer and senior\nmanagement. Work on project\nlike Zoolingo\nBy Stanford, Coursera\nTensorFlow, Python, Scikit-Learn, Xgboost, Data Analytics, Data\nVisualisationUI/UX Developer\nComsats University\nLahore Campus\nGoogle Data Analytics\nCertificateAppix Developer\nJan 2021 - Feb 2025\nBy Google\n+92 303 7307931\ndawoodsiddique469@gmail.comLahore, PakistanFeb 2019 - Dec 2020\nMachine Learning\nSpecialisation Working with research group on\nhow to analyse Financial\nResearch Market for high\nfrequency tradingData Scientist\nMar 2024 - Current\nwww.linkedin.com/in/dawood-siddique-82b8871b3Cubic Solution inc."
+    },
+    "details": {
+        "name": "Dawood Siddique",
+        "number": "923037307931",
+        "skills": [
+            "TensorFlow",
+            "Python",
+            "Scikit-Learn",
+            "Xgboost",
+            "Data Analytics",
+            "Data Visualisation"
+        ],
+        "email_id": "dawoodsiddique469@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Zoolingo",
+                "description": "Worked as UI/UX Developer on the project."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "02-2025",
+                "university": "Coursera",
+                "degree_title": "Google Data Analytics Certificate"
+            },
+            {
+                "end_date": "12-2020",
+                "university": "Comsats University Lahore Campus",
+                "degree_title": "Machine Learning Specialisation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Google Data Analytics Certificate",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/dawood-siddique-82b8871b3",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Dawood Siddique is a skilled Data Scientist with a strong foundation in machine learning and data analytics. He has experience working on projects related to financial engineering and UI/UX design, showcasing his technical expertise in various programming languages and tools.",
+        "employment_history": [
+            {
+                "details": "Worked as UI/UX Developer along with the developer and senior management.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "UI/UX Developer",
+                "start_date": "02-2019",
+                "company_name": "Cubic Solution inc."
+            },
+            {
+                "details": "Working with research group on how to analyse Financial Research Market for high frequency trading.",
+                "end_date": "Current",
+                "location": "Lahore, Pakistan",
+                "job_title": "Data Scientist",
+                "start_date": "03-2024",
+                "company_name": "N/A"
+            }
+        ]
+    }
+}

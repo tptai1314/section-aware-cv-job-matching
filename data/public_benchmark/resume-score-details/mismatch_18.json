@@ -1,0 +1,173 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not have specific experience as a Digital Marketing Strategist, which impacts the relevant experience score.",
+            "The candidate has demonstrated leadership in various roles, especially in management positions, leading small teams, and handling responsibilities in administration and HR.",
+            "Despite possessing a certification in Digital Marketing and SEO from LUMS, the resume does not show direct experience using Google Analytics, CRM tools, or running digital marketing campaigns.",
+            "There is no evidence of direct experience with Google Analytics or CRM software in past roles, impacting the micro scores."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "google analytics",
+                    "score": 2
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.45,
+                "micro_scores": 3.52
+            }
+        },
+        "personal_info": {
+            "name": "Naseem Ahmed Khan Awan",
+            "email": "naseemawan@aol.com",
+            "phone": "+923009499055",
+            "current_position": "Administration & Facilities Associate",
+            "current_company": "Medznmore Pvt Ltd.",
+            "employment_start_date_current_company": "02-2022",
+            "first_company_start_date": "09-2014",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 13,
+            "digital marketing experience": 34,
+            "client relationship": 53
+        },
+        "micro_dict": {
+            "google analytics": 24,
+            "crm software expertise": 76
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills",
+            "Familiarity with Google Analytics and CRM tools"
+        ],
+        "resume": "NASEEM AHMED KHAN AWAN  \nADMINISTRA TION  & FACILITIES  ASSOCIATE  \u2013 MEDZNMORE  PVT  LTD.  \n                                60 ALI BLOCK, AWAN TOWN LAHORE            / +923009499055  \n naseemawan@aol.com  \nPERSONAL STATEMENT  \nI am an energetic,  highly efficient and diligent  and organized manager with six years of experience in a \nbroad range of industries from Engineering services to the Education sectors. My primary strengths are in \nadministration, customer service, Human Resource Management, pr oblem solving, team management and \nmarketing. As a strong believer in attention to detail and efficiency, I have developed a excellent professional \ntrack Record.  \nInterests:  Outside of work I love spending time with my motorbikes and their rides. I am also passionate about protecting \nwildlife & social works.  \n \nMEDZNMORE PVT LTD. - LAHORE  \nAdministration & Facilities Associate \u2013 Administration, HR, Procurement, Security            February  2022 \u2013 Date  \nOVERALL TASKS:  Prepare  documents to put out tenders for contractors  - Project  manage, supervise and coordinate the \nwork of contractors  - Investigate  the availability and suitability of options for new premises  - Calculate  and compare costs \nfor required goods or services to achi eve maximum value for money  - Plan  for future development in line with strategic \nbusiness objectives  - Manage  and lead change to ensure minimum disruption to core activities  - Direct , coordinate and plan \nessential services such as reception, security, maintenance, mail, archiving, cleaning, catering, waste disposal and recycling  \n- Ensure  buildings meet health and safety requirements and that facilities comply with legislation  - Keep  staff safe  - Plan  best \nallocation and utilisation of space an d resources for new buildings, or re -organising of current premises  - Check  that agreed \nwork by staff or contractors has been completed satisfactorily and follow up on any deficiencies  - Coordinate  and lead one \nor more teams to cover various areas of respo nsibility  - Use performance management techniques to monitor and \ndemonstrate achievement of agreed service levels and to lead on improvement  - Respond  appropriately to emergencies or \nurgent issues as they arise and deal with the consequences.  \nHUMAN RESOURC E MANAGEMENT:  Orientating  new employees and training existing employees  - Monitoring  employee \nperformance  - Ensuring  that all employees are organized and satisfied in their work environment  - Overseeing  the health \nand safety of all employees  - Implementing  systematic staff development procedures  - Providing  counseling on policies and \nprocedures  - Communicating  with staf f about issues affecting their performance  - Ensuring  accurate and proper record -\nkeeping of employee information in paper and digital format  - Deal  with grievances and implement disciplinary procedures  - \nPlan  and sometimes deliver training, including new s taff inductions.  \nPROCUREMENT:  Overseeing  and supervising employees and all activities of the purchasing of Lahore office  - Preparing  \nplans for the purchase of equipment, services, and supplies  - Following  and enforcing the company's procurement policies \nand procedures  - Managing  inventories and maintaining accurate purchase and pricing records  - Maintaining  good supplier \nrelations and negotiating contracts  - Researching  and evaluating prospective suppliers  - Preparing  budgets, cost analyses, \nand reports.  \nSECURITY:  Patrolling  and securing the area  - Monitoring  and analyzing CCTV camera footage  - Protecting  the company\u2019s \nassets relative to theft, assault, fire and other safety issues  - Responding  to alarms and emergencie s - Communicating  any \nirregularities with management  - Keeping  an incident report record  - Following  procedures for various initiatives including \nfire prevention, traffic control and accident investigations  - Checking  visitors in and out of the area  - Esco rting  visitors around \nthe premises  - Ensuring  compliance with government regulations.  \nADMINISTRATION:  Monitoring  and maintaining office equipment and inventory supplies; orders replacement supplies as \nneeded  - Creating,  updating, and maintaining records and databases  - Preparing  reports on expenses, office budgets, and \nother expenditures  - Supporting  department managers  and staff - Preparing  travel arrangements for office staff  - \nOverseeing  and preparing expense reports and budgets  - Coordinating  building and maintenance issues for general repair \n(heating and air conditioning, security, etc.) and updating (carpet cleaning, painting, etc.)  - Organizing  special functions and \nsocial events  - Preparing  correspondence, documen tation, or presentation materials.  \n \nLACAS SCHOOL NETWORK - LAHORE  \nBranch Administrator \u2013 Administration , HR, Procurement, Security               September 2021 \u2013 February 2022  \nHUMAN RESOURCE MANAGEMENT:  Orientating  new employees and training existing employees - Monitoring  employee \nperformance - Ensuring  that all employees are organized and satisfied in their work environment - Overseeing  the health \nand safety of all employees - Implementing  systematic staff develop ment procedures - Providing  counseling on policies and \nprocedures - Communicating  with staff about issues affecting their performance - Ensuring  accurate and proper record -\nkeeping of employee information in paper and digital format - Deal  with grievances a nd implement disciplinary procedures - \nPlan  and sometimes deliver training, including new staff inductions.  \nPROCUREMENT:  Overseeing  and supervising employees and all activities of the purchasing in School - Preparing  plans \nfor the purchase of equipment, se rvices, and supplies - Following  and enforcing the company's procurement policies and \nprocedures - Managing  inventories and maintaining accurate purchase and pricing records - Maintaining  good supplier \nrelations and negotiating contracts - Researching  and evaluating prospective suppliers - Preparing  budgets, cost analyses, \nand reports.  \nSECURITY:  Patrolling  and securing the area - Monitoring  and analyzing CCTV camera footage - Protecting  the company\u2019s \nassets relative to theft, assault, fire and other safety issues - Responding  to alarms and emergencies - Communicating  any \nirregularities with management - Keeping  an incident report record - Following  procedures for various initiatives incl uding \nfire prevention, traffic control and accident investigations - Checking  visitors in and out of the area - Escorting  visitors around \nthe premises - Ensuring  compliance with government regulations.  \nADMINISTRATION:  Monitoring  and maintaining office equi pment and inventory supplies; orders replacement supplies as \nneeded - Creating,  updating, and maintaining records and databases - Preparing  reports on expenses, office budgets, and \nother expenditures - Supporting  department managers, staff, and Headmistres s - Preparing  travel arrangements for office \nstaff and School students; overseeing and preparing expense reports and budgets - Coordinating  building and maintenance \nissues for general repair (heating and air conditioning, security, etc.) and updating (carpet cleaning, painting, etc.). -  \nOrganizing  special functions and social events - Preparing  correspondence, documentation, or presentation materials.  \n \nLahore University of Management Sciences (LUMS) - LAHORE  \nSenior Officer \u2013 Office of Student Affairs               September 2017 \u2013 October 2021  \nSupervise  daily repair and maintenance activities of the assigned building  - Handle  resident queries and suggesting \nappropriate solutions on immediate basis  - Coordinate  with other departments for resolving problems related to repair and \nmaintenance  - Prepare  daily observation and maintenance reports  - Manage  housekeeping of the building  - Manage  and \nupdating Occupancy sheet of assigned hostel building  - Conduct  student\u2019s check in and checkout\u2019s in an efficient and error \nfree manner, imposing fines on residents for any violation  - Ensure  discipline and adherence to housing policies and \nprocedures by the residents  - Prepare  damages list of the building & any other task assigned by the manager  - Handling  \nillegal activities like drugs, smoking, etc  - Supervising  all typ es of student queries.  \n \nMcDonald\u2019s - LAHORE  \nTrainee Manager \u2013 Restaurant                       August 2016 \u2013 April 2017  \nExcelled  in every store position and regularly backed up front -line staff to keep expertise fresh and relevant  - Networked  \nand built a strong presence with peers to facilitate customers  - Aligned  team actions with company policies and industry \nstandards  - Responded  to customer concerns in a swift and knowledgeable manner to maintain satisfaction  - Undertook  \nmanagement respons ibilities during absence of the manager  - Explained  services and products to customers in a friendly \nand engaging way  - Established  open and professional relationships with team members which facilitated communication, \nquickly resolving issues and conflict s.  \nAdmission Advisors Pvt. Ltd - LAHORE  \nAdministration Officer              June 2015 \u2013 July 2016  \nAssist  and support sales and marketing teams to maximize revenues  - Answer  and respond to customer inquiries  - Build  \ncustomer relationships  - Assist  and suppo rt accounts department in financial operations  - Ensure  timely completion of \nfinancial and other administrative tasks  - Manage  databases and document processes and systems implemented.  \n \nDESCON ENGINEERING LIMITED - LAHORE  \nRecruitment & Selection                      September 2014 \u2013 May 2015  \nExecution  team member of GRADUATE ENGINEERING TRAINING PROGRAM (GETP) recruitment panel  - End to End \nrecruitment process from application submission, shortlisting of candidates, designing assessment center strategy, \nexecuting testing center, conducting exams of 8000 people in 2 days  - Shortlisting  of candidates based on test results, \nconducting the interviews of the candidates.  \nQATAR SHUTDOWNS  \nCoordination  of QATAR Shutdowns  - Managed  the Interviews of Engin eers for QATAR Shutdowns  - Managed  the \ninterviews of the Engineers for QATAR Petroleum  - Generating  the joining letters of internees.  \nCorp. HR Operations  \nTo execute all types of movements across the company including devising salary conversions, assignment s rates, and \nother related activities  - To develop and maintain a human resource data bank while working on HRIS  - Carrying  out all \ntransformations for employees in the database from respective business areas & support departments in HRIS  - Custodian  \nof em ployee databank.  \nMANPOWER SERVICES  \nManaged  the flight of the overseas going employees  - Making  the cases of the overseas going employees  - Getting  them \nready for the flight.  \n \nLAHORE LEADS UNIVERSITY, LAHORE  \nMASTER of PHILOSOPHY (MPHIL)                                                                Completed October 2020  \nThesis \u2013 Artificial Intelligence in Human Resource Management                           \nSpecialization in Human Resource Management  \nCOMSATS UNIVERSITY, LAHORE  \nBACHELORS OF B USINESS ADMINISTRATION                    Completed  March 2014  \n \nCertification of SEO, Digital Marketing From LUMS - Workshop of Microsoft Excel - Workshop of Email Etiquettes - Experience \nin managing my own workload - Excellent keyboard skills with comprehensive knowledge of MS office & Internet - Willingness \nand proven capability to work alone if required - Ability to work under pressure and meet deadlines, getting things right the \nfirst time - Having a flexible and proactive approach to work - Self-confidence and ability to demonstrate initiative - Ability to \ngrasp things quickly and easily - Enthusiastic, energetic with a positive, can -do attitude \u2013 Keen observer.  \n"
+    },
+    "details": {
+        "name": "Naseem Ahmed Khan Awan",
+        "number": "923009499055",
+        "skills": [
+            "Administration",
+            "Human Resource Management",
+            "Procurement",
+            "Security",
+            "Project Management"
+        ],
+        "email_id": "naseemawan@aol.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "10-2020",
+                "university": "Lahore University of Management Sciences (LUMS)",
+                "degree_title": "Master of Philosophy (MPhil) in Human Resource Management"
+            },
+            {
+                "end_date": "03-2014",
+                "university": "COMSATS University, Lahore",
+                "degree_title": "Bachelors of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "SEO, Digital Marketing",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Workshop of Microsoft Excel",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Workshop of Email Etiquettes",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/naseemawan",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Naseem Ahmed Khan Awan is an experienced Administration and Facilities Associate with a strong background in Human Resource Management, Procurement, and Security. With over six years of experience across various industries, he demonstrates a commitment to efficiency and attention to detail in his professional endeavors.",
+        "employment_history": [
+            {
+                "details": "Prepare documents to put out tenders for contractors, project manage, supervise and coordinate the work of contractors, investigate the availability and suitability of options for new premises, calculate and compare costs for required goods or services, manage and lead change to ensure minimum disruption to core activities.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Administration & Facilities Associate",
+                "start_date": "02-2022",
+                "company_name": "Medznmore Pvt Ltd."
+            },
+            {
+                "details": "Orientating new employees and training existing employees, monitoring employee performance, ensuring that all employees are organized and satisfied in their work environment, overseeing the health and safety of all employees.",
+                "end_date": "02-2022",
+                "location": "Lahore",
+                "job_title": "Branch Administrator",
+                "start_date": "09-2021",
+                "company_name": "LACAS School Network"
+            },
+            {
+                "details": "Supervise daily repair and maintenance activities of the assigned building, handle resident queries, coordinate with other departments for resolving problems related to repair and maintenance.",
+                "end_date": "10-2021",
+                "location": "Lahore",
+                "job_title": "Senior Officer",
+                "start_date": "09-2017",
+                "company_name": "Lahore University of Management Sciences (LUMS)"
+            },
+            {
+                "details": "Assist and support sales and marketing teams to maximize revenues, answer and respond to customer inquiries, build customer relationships.",
+                "end_date": "07-2016",
+                "location": "Lahore",
+                "job_title": "Administration Officer",
+                "start_date": "06-2015",
+                "company_name": "Admission Advisors Pvt. Ltd."
+            },
+            {
+                "details": "Execution team member of Graduate Engineering Training Program (GETP) recruitment panel, end to end recruitment process from application submission to conducting interviews.",
+                "end_date": "05-2015",
+                "location": "Lahore",
+                "job_title": "Recruitment & Selection",
+                "start_date": "09-2014",
+                "company_name": "Descon Engineering Limited"
+            }
+        ]
+    }
+}

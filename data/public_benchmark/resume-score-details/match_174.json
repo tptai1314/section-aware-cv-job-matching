@@ -1,0 +1,187 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not display relevant project management experience or data analytics expertise required for the role.",
+            "There is no indication of experience with data management tools such as PowerBI which is crucial per the job description.",
+            "Lack of detailed history to demonstrate 10+ years of relevant industry experience or a relevant master's degree.",
+            "No evidence of understanding Agile or SCRUM methodologies."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 1
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 2
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 1
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 1
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                },
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.33,
+                "micro_scores": 1.19
+            }
+        },
+        "personal_info": {
+            "name": "Sadoon Zahid",
+            "email": "",
+            "phone": "",
+            "current_position": "Sales Manager",
+            "current_company": "Repstack",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "01-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 33,
+            "project management experience": 67
+        },
+        "micro_dict": {
+            "data management": 5,
+            "pre-sales consulting": 19,
+            "solution architecture": 18,
+            "agile methodologies": 24,
+            "powerbi": 34
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+            "10+ years of industry experience in project management and data analytics",
+            "Experience in managing enterprise data warehouse projects",
+            "Master's degree in Computer Science, Business Administration, or related field",
+            "Strong understanding of Agile and SCRUM methodologies"
+        ],
+        "resume": "SALES MANAGER\nCERTIFICATIONS\nOutbound CallsS A D O O N  Z A H I D\nEDUCATIONAL HISTORY\nSKILLS SUMMARYHubSpot Sales\ncertificate\nCommunication\nskills \nProblem Solving \nTime efficiency Salesforce \nActive Listener\nAppointment\nsetter Attained 200% plus sales attainment\nthroughout my tenure.\nCompleting daily assigned kpis and mentoring\nthe new hiresSENIOR SALES EXECUTIVEIbex Global ( DGS).ACCOUNT EXECUTIVE Keeptruckin\nJan, 2022 - APT 2022Attained 327% sales attainment in probation\nCompleting daily assigned kpis and\nscheduling demosSALES MANAGERRepstack\nGot Enrolled in RSA\nCompleted GHL Trainings\nCompleted HubSpot Sales Certifications\nCreated Looms and Presentations\nWorked as sales manager for USA based Client YauheniAPR 22 - CURRENT\nJAN 22 - APR 22\nJAN 17- MAY 21Acca\nOXFORD BROOKES\nUNIVERSITY\nGCE O/A Levels\nBEACONHOUSE SCHOOL\nMaster Sales\nProgram\nAdvanced Customer\nObjection Handling"
+    },
+    "details": {
+        "name": "S A D O O N Z A H I D",
+        "number": "03124843384",
+        "skills": [
+            "HubSpot Sales",
+            "Salesforce",
+            "Advanced Customer Objection Handling"
+        ],
+        "email_id": "sadoonzahid@example.com",
+        "location": "USA",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2021",
+                "university": "OXFORD BROOKES UNIVERSITY",
+                "degree_title": "Acca"
+            },
+            {
+                "end_date": "01-2022",
+                "university": "BEACONHOUSE SCHOOL",
+                "degree_title": "GCE O/A Levels"
+            }
+        ],
+        "achievements": [
+            "Attained 200% plus sales attainment throughout tenure",
+            "Attained 327% sales attainment in probation"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "HubSpot Sales certificate",
+                "issuing_organization": "HubSpot",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Master Sales Program",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Advanced Customer Objection Handling",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sadoonzahid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/sadoonzahid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "S A D O O N Z A H I D is a results-driven sales manager with a proven track record of exceeding sales targets and mentoring new hires. With expertise in HubSpot Sales and Salesforce, he has consistently achieved high sales attainment rates and completed various sales training programs.",
+        "employment_history": [
+            {
+                "details": "Worked as sales manager for USA based Client Yauheni, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "CURRENT",
+                "location": "USA",
+                "job_title": "SALES MANAGER",
+                "start_date": "04-2022",
+                "company_name": "Repstack"
+            },
+            {
+                "details": "Attained 327% sales attainment in probation, completed daily assigned KPIs and scheduled demos.",
+                "end_date": "04-2022",
+                "location": "USA",
+                "job_title": "ACCOUNT EXECUTIVE",
+                "start_date": "01-2022",
+                "company_name": "Keeptruckin"
+            },
+            {
+                "details": "Attained 200% plus sales attainment throughout tenure, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "05-2021",
+                "location": "USA",
+                "job_title": "SENIOR SALES EXECUTIVE",
+                "start_date": "01-2017",
+                "company_name": "Ibex Global (DGS)"
+            }
+        ]
+    }
+}

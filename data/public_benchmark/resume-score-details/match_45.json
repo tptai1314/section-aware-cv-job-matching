@@ -1,0 +1,149 @@
+{
+    "output": {
+        "justification": [
+            "Leadership: Candidate has held positions such as Business Development Officer and Customer Executive, indicating potential for leadership, although not strongly emphasized in resume.",
+            "Experience: Limited direct experience in sales management or key account management, mostly in business development roles.",
+            "Sales Management: Experience in business development but lacks specific mention of managing sales functions or key accounts.",
+            "Stakeholder Management: No direct evidence of stakeholder management capabilities.",
+            "Applicant does not meet several key requirements for the job role, such as 5+ years of relevant experience and proficiency in required tools like Power BI, Salesforce or Vistex."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 4
+                },
+                {
+                    "criteria": "stakeholder management",
+                    "score": 2
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 0
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.41,
+                "micro_scores": 1.1
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza Bajwa",
+            "email": "bajwa101@gmail.com",
+            "phone": "205622861",
+            "current_position": "Business Development Officer",
+            "current_company": "HBl",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "10-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 36,
+            "experience": 33,
+            "strategic thinking": 31
+        },
+        "micro_dict": {
+            "sales management": 17,
+            "stakeholder management": 21,
+            "salesforce": 46,
+            "vistex": 16
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Proficiency in data analysis and forecasting tools",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": " \n \n \nCurriculum Vitae\nPERSONAL INFORMATION\n \nAli \nRaza \n \n \n \nState Life Housing Society\n \n+\n92\n \n03\n205622861\n \nA\nli\nstar\nbajwa\nSex\n \nMale \nNationality \n \n \nEDUCATION AND TRAINING\n \n \n \n \nR\nELEVANT\n \nSKILLS\n \n \nEXPERIENCE\n \n \nH\nOBBIES\n \n \nB.Com (August 2017)\n \nAllama Iqbal Open University\n \nBachelor Of Commerce\nIntermediate (January 2014)\n \nAllama Iqbal Open University\nHigher Secondary School Certification\nMatric (August 2011)\n \nAllama\n \nIqbal Open University\nSecondary\n \nSchool Certification\n \n \n \n \n\uf0b7\n \nProblem Solving \n\uf0b7\n \nHandling Pressure \n\uf0b7\n \nLeadership \n\uf0b7\n \nFriendly\nA\nug\n \n20\n2\n1\n \n-\n \nPresent\n \n \nHBl\n \nBusiness Development Officer\nOct \n2019 \n-\n \nSep \n2020\n \n \n \n \nUfone\n \n \nCustomer \nExecutive\nJan 201\n8\n \n-\n \nJune 20\n1\n9\n \n \nPCB Level 1 Cricket Certified\n \nGarrison College, Model T own Green\nJan 201\n0\n \n-\n \nP\nresent\n \n \nCoaching\n \n \nChief Selector Garrison University\n \n \n \n \nSports\n \nPlaying Cricket, Fast Bowler, Middle Order Batsman\nPlayed\n  \nUnder 19 Cricket  T ournament\nPlayed few matches from Wapda Department\n \nWatching Tv\n \nWatching Sports, Movies, Tv Serials\n \nGames\n \n \nPlaying Games, Grand Theft Auto\nCurriculum Vitae\n \nRaza \nBajwa \n \nState Life Housing Society\n, Lahore, Pakistan\n \n205622861\n \n \nbajwa\n101\n@\ngmail\n.com\n \n \nNationality \nPakistani\n \nLanguages \nEnglish, \nUrdu, Punjabi\n \nAllama Iqbal Open University\n \nBachelor Of Commerce\n \nAllama Iqbal Open University\n \nHigher Secondary School Certification\n \nIqbal Open University\n \nSchool Certification\n \nProblem Solving \n \nHandling Pressure \n \nLeadership \n \nFriendly\n \n\uf0b7\n \nFlexible Exceptional Time Management\n\uf0b7\n \nSelf Confident\n \n\uf0b7\n \nPatience\n \n\uf0b7\n \nCalm\n \nBusiness Development Officer\n \nExecutive\n \nOfficer\n \nPCB Level 1 Cricket Certified\n \nCoach\n \nGarrison College, Model T own Green\ns\n, Punjab Society\n \n \nChief Selector Garrison University\n, Model T own Greens, \nF\nace\n \nFresh\n \nPlaying Cricket, Fast Bowler, Middle Order Batsman\n \nUnder 19 Cricket  T ournament\n \nfrom Lahore Zone \n \nPlayed few matches from Wapda Department\n \nWatching Tv\n \nWatching Sports, Movies, Tv Serials\n \nPlaying Games, Grand Theft Auto\n \n \n \nAli\n \nRaza\n \nBajwa\n \n \n \n \n \n \n \n \n \n \n \nFlexible Exceptional Time Management\n "
+    },
+    "details": {
+        "name": "Ali Raza Bajwa",
+        "number": "03205622861",
+        "skills": [
+            "Business Development",
+            "Customer Service"
+        ],
+        "email_id": "bajwa101@gmail.com",
+        "location": "State Life Housing Society, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2017",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Bachelor Of Commerce"
+            },
+            {
+                "end_date": "01-2014",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Higher Secondary School Certification"
+            },
+            {
+                "end_date": "08-2011",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Secondary School Certification"
+            }
+        ],
+        "achievements": [
+            "PCB Level 1 Cricket Certified"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "PCB Level 1 Cricket Certified",
+                "issuing_organization": "Garrison College, Model Town Green",
+                "date_of_issuance": "01-2010"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Ali Raza Bajwa is a dedicated professional with a background in business development and customer service, holding a Bachelor of Commerce degree. He has demonstrated his commitment to excellence through his certification in cricket coaching and has experience in various roles within the corporate sector.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer responsible for driving sales and managing client relationships.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Officer",
+                "start_date": "10-2019",
+                "company_name": "HBL"
+            },
+            {
+                "details": "Customer Executive focused on providing exceptional service and support to customers.",
+                "end_date": "06-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Executive",
+                "start_date": "01-2018",
+                "company_name": "Ufone"
+            }
+        ]
+    }
+}

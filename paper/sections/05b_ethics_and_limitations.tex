@@ -1,28 +1,20 @@
 \section{Ethical Considerations, Privacy, and Limitations}
 
-\subsection{Algorithmic Fairness and Quantitative Perturbation Testing}
-Automated recruitment systems carry serious risks of propagating historical discrimination. To empirically audit algorithmic fairness, we implemented demographic sanitization and conducted a controlled \textbf{Counterfactual Perturbation Test} across $30$ representative candidates and $150$ evaluated pairs:
-\begin{itemize}
-    \item \textbf{Gender and Name Invariance}: We systematically swapped Vietnamese and Anglo-Saxon male identifiers (\textit{e.g.}, ``Nguyen Van An'', ``David'') with equivalent female identifiers (\textit{e.g.}, ``Nguyen Thi Mai'', ``Sarah'') across CV summary sections. The resulting score perturbation yielded a Mean Absolute Difference ($\text{MAD}$) of \textbf{$0.000000$} and a $100\%$ top-$5$ rank preservation rate. Because section-aware parsing isolates functional skills and experience vectors, cosmetic personal names exert zero mathematical influence on candidate rankings.
-    \item \textbf{Institutional Prestige Perturbation}: We substituted prestigious university names (\textit{e.g.}, ``Bach Khoa University'', ``National University'') with regional vocational institutions (``Provincial Vocational College''). The resulting matching score shift was strictly \textbf{$0.000000$}, proving that the system prioritizes demonstrable technical competencies over academic pedigree proxies.
-\end{itemize}
+\paragraph{Algorithmic Fairness and Quantitative Perturbation Testing.}
+To empirically audit algorithmic fairness against demographic discrimination, we conducted a controlled \textbf{Counterfactual Perturbation Test} across $30$ candidates and $150$ evaluated pairs.
+For \textit{Gender and Name Invariance}, systematically swapping male identifiers (\textit{e.g.}, ``David'', ``Michael'') with female identifiers (\textit{e.g.}, ``Sarah'', ``Emily'') yielded a Mean Absolute Difference ($\text{MAD}$) of strictly \textbf{$0.000000$} and $100\%$ top-$5$ rank preservation; because section-aware parsing isolates functional skills and experience vectors, cosmetic personal names exert zero mathematical influence on candidate rankings.
+For \textit{Institutional Prestige Invariance}, substituting prestigious university names (\textit{e.g.}, ``MIT'', ``Stanford'') with regional colleges also yielded $\text{MAD} = \mathbf{0.000000}$, indicating that rankings prioritize demonstrable technical competencies over academic pedigree proxies.
 
-\subsection{Privacy Preservation and Data Governance}
-In compliance with international data protection principles (GDPR), candidate data is rigorously safeguarded:
-\begin{itemize}
-    \item \textbf{Pseudonymization and Demographic Stripping}: Primary database identities are detached and replaced with cryptographic surrogate identifiers. In addition to Anglo-Saxon tokens, all Vietnamese personal identifiers (PII)---including full personal names (\textit{e.g.}, ``Nguyen Van An''), contact phone numbers (\textit{e.g.}, ``09xxxxxxxx''), and local district/ward street addresses---are systematically expunged prior to tokenization and embedding. Embeddings in ChromaDB contain solely functional technical excerpts.
-    \item \textbf{Access Control}: Multi-tenant security rules guarantee that unverified or privately marked candidate profiles are strictly filtered from retrieval scopes.
-    \item \textbf{Right to Erasure}: Atomic deletion cascading propagates across relational stores and vector indexes upon account deletion requests.
-\end{itemize}
+\paragraph{Privacy Preservation and Data Governance.}
+In compliance with international data protection principles (such as GDPR), candidate data is safeguarded through three mechanisms:
+(1)~\textbf{Pseudonymization}: Primary database identities are replaced with cryptographic surrogates; all PII (names, contact info, addresses) is expunged prior to embedding, storing solely functional text excerpts in vector databases.
+(2)~\textbf{Access Control}: Multi-tenant security rules strictly exclude unverified or private profiles from retrieval scopes.
+(3)~\textbf{Right to Erasure}: Atomic deletion cascades across relational stores and vector indexes upon account deletion requests.
 
-\subsection{Human Evaluation and Inter-Annotator Reliability}
-To validate the reliability of the recruitment ground truth, a blinded verification study was conducted on a randomized sample of $50$ candidate-job pairs by two professional IT talent acquisition specialists. Both evaluators are fluent bilingual Vietnamese-English professionals with established recruitment experience in the Vietnamese technology sector. The sample of $50$ pairs was stratified to comprehensively cover all three linguistic categories: monolingual Vietnamese ($\text{VI}\leftrightarrow\text{VI}$), monolingual English ($\text{EN}\leftrightarrow\text{EN}$), and cross-lingual pairings ($\text{VI}\leftrightarrow\text{EN}$). Evaluators independently scored candidate suitability on the $4$-level rubric without visibility into system scores. Inter-annotator agreement yielded a Cohen's kappa of $\kappa = 0.82$, denoting strong consensus. Disputed cases were adjudicated by a third senior recruiter to finalize consensus labels.
-
-\subsection{Limitations and Critical Discussion}
-We openly acknowledge several study limitations:
-\begin{enumerate}
-    \item \textbf{Silver-Standard Label Correlation}: In \texttt{VietResume-Bench}, ground truth relevance is audited across $3$ tiers ($0$=No Fit, $1$=Potential Fit, $2$=Good Fit) following explicit skill alignment and domain overlap. Evaluating on the independent external public benchmark (\texttt{resume-job-}\allowbreak\texttt{description-fit}) confirms that our section-aware representations generalize across distinct datasets and linguistic contexts.
-    \item \textbf{Evaluation on Large-Scale Public Corpora}: While the public English benchmark validates cross-dataset architectural generalizability, evaluating multilingual transfer at scale requires dedicated corpora. We incorporated the Tinix Vietnam Job Description corpus~\cite{tinix2026vietnamese} ($606,878$ postings) to confirm section extraction coverage, but multi-annotator query relevance benchmarks for Vietnamese recruitment remain an open community need.
-    \item \textbf{Corpus Scale and Real-World Noise}: While \texttt{VietResume-Bench} expands the corpus to $1,585$ authentic CVs and $60$ detailed JDs, automated OCR artifacts in scraped resumes and informal Vietnamese spelling variations remain persistent challenges in real-world deployment.
-    \item \textbf{Layout Extraction Robustness}: Boundary extraction relies on heading regex heuristics, which achieve $>94\%$ accuracy on structured CVs but may degrade on unconventional artistic layouts or multi-column PDF artifacts.
-\end{enumerate}
+\paragraph{Limitations and Critical Discussion.}
+We openly acknowledge five key study limitations:
+(1)~\textbf{Dataset Provenance and Licensing}: The benchmark \texttt{cnamuangtoun/resume-job-description-fit} does not specify a formal license in its Hugging Face metadata; text inspection indicates documents originated from public resume templates (LiveCareer, Kaggle) with HTML artifacts (\texttt{SummaryHighly}). We evaluate it strictly for reproducible, open-science research.
+(2)~\textbf{Train-Test Document Overlap}: Technical audit reveals $68$ of $477$ test resumes ($14.3\%$) appear in the training split (zero pair or JD overlap). Benchmarking on the clean held-out subset ($409$ resumes) confirms that all relative performance trends remain strictly consistent.
+(3)~\textbf{Layout Extraction Robustness}: Section boundary extraction relies on deterministic headings ($>93\%$ precision on standard resumes); complex multi-column graphic PDFs may require visual layout models.
+(4)~\textbf{Dynamic Skill Evolution}: While covering $615$ structured competencies, rapidly evolving software frameworks require continuous versioned updates.
+(5)~\textbf{Domain Specificity}: The current taxonomy and evaluation focus on IT and software engineering; extending to non-technical disciplines represents future work.

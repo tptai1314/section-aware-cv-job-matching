@@ -1,0 +1,448 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not have a degree in Business Administration, Marketing, or a related field, but in Computer Science, which is different from the job's targeted field.",
+            "The resume indicates no direct B2B sales experience, which is a critical requirement as per the job description.",
+            "There is no evident experience in market research or IT and manufacturing industry knowledge, crucial for the position.",
+            "Microsoft Office proficiency is not explicitly mentioned among the skills listed."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 4
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.45,
+                "micro_scores": 2.81
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Ansaf",
+            "email": "muhammadansaf109@gmail.com",
+            "phone": "+92.322.6033637",
+            "current_position": "Project Manager",
+            "current_company": "DevSpiral Pvt Ltd",
+            "employment_start_date_current_company": "12-2020",
+            "first_company_start_date": "01-2016",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/f128207-ansaf-25857ab4"
+                },
+                {
+                    "website_name": "App Store - Share WiFi app",
+                    "url": "https://apps.apple.com/us/app/wifilink-share-wifi/id1512596298#?platform=iphone"
+                },
+                {
+                    "website_name": "App Store - Aploze Streaming App",
+                    "url": "https://apps.apple.com/is/app/aploze/id1623627881"
+                },
+                {
+                    "website_name": "App Store - BLK Bomb Entertainment App",
+                    "url": "https://apps.apple.com/pk/app/blk-bomb-entertainment/id1572619472"
+                },
+                {
+                    "website_name": "App Store - Use MUAH Barber App",
+                    "url": "https://apps.apple.com/us/app/muah-app/id1556425255"
+                },
+                {
+                    "website_name": "App Store - ChickFillet Food App",
+                    "url": "https://apps.apple.com/gb/app/chickfillet/id1566704246?ign-mpt=uo%3D2"
+                },
+                {
+                    "website_name": "App Store - AWUA Car Wash App",
+                    "url": "https://apps.apple.com/pk/app/awuaplus/id1482286887"
+                },
+                {
+                    "website_name": "App Store - CountryPizza - iOS",
+                    "url": "https://apps.apple.com/app/id1567882145"
+                },
+                {
+                    "website_name": "Google Play - CountryPizza - Android",
+                    "url": "https://play.google.com/store/apps/details?id=com.devspiral.countrypizzaa"
+                },
+                {
+                    "website_name": "Google Play - V4Vegan",
+                    "url": "https://play.google.com/store/apps/details?id=com.oranjeclick.veganapp"
+                },
+                {
+                    "website_name": "Google Play - ArenaHeroes App",
+                    "url": "https://play.google.com/store/apps/details?id=com.devspiral.arenaheroes"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 45,
+            "experience": 55
+        },
+        "micro_dict": {
+            "market research": 37,
+            "b2b sales": 1,
+            "communication skills": 18,
+            "it and manufacturing sector knowledge": 44
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite",
+            "5+ years of experience in business development or sales",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": "NATIONAL UNIVERSITY                                   Of Computer & Emerging Sciences  \n   \n    \n                                 Contact No. +92.322.6033637  Email muhammadansaf109@gmail.com  ansafrashid@yahoo.com   Linked In Profile https://www.linkedin.com/in/f128207-ansaf-25857ab4       Education National University of Computer and Emerging Sciences. BS (Computer Science), 2016.  Majors:  iOS Apps, iPad Apps, Android Apps, Database Systems, Data Warehousing, Design and Analysis of Algorithm, Software Engineering, Software Quality Assurance, Software Testing, REST Application Program Interface, Fundamental of Computer Vision, Wireless Networks, Data Structure, Operating System, UML, OOP. Punjab College of Science, Faisalabad. F.S.c \u2013 Pre-Engineering \u2013 2012. Sandal College Faisalabad. Matric \u2013 2010. Projects iOS Applications (Swift) I have worked on many IOS Mobile Applications in Swift language. Like as SabeelApp, Grow More, SpeakShare App, TicTocTroc, EmbassyApp, BarberApp, Uber App, HealthHolistic App, RT App, MyBuddyApp, CryptoStream, BattleGround App, Sort App, TwoHeads App, TrendzApp,  FoodApp, HelloBlue, Awua CarWash, Swiftly, Readbolt, Magazine App, EasyStitch, Quick express, Book App, Daily Deals, KeepZeStuff, Retrospective Health Journel, Guest Me Inn, Bahrian Pharma, Sabeel App, Swipe Halal Food App, Halal Hive and as well many other applications. Android Applications (Android JAVA) I have worked on many Android Applications in Java language. Like as SabeelApp, GrowMore App, Food App, BattleGround App, AutoFollwer App, MyBuddyApp, BlockFolioApp, Technical Support App, Trendz App, HelloBlue, Awua CarWash, Swiftly, Readbolt, Magazine App, EasyStitch, Quick express, Daily Deals, KeepZeStuff, Retrospective Health Journel, Bahrian Pharma, Sabeel App, Swipe Halal, Halal Hive and many other apps.  Activities, Honors & Awards:  iOS Developer, Android Developer and Participant in 101         Battel, Speed Programming, FAST-NUCES Faisalabad. Skills & Tools  Programming Languages: Swift 5.1, Swift 5.0, Swift 4.2, Swift 4.0, Swift 3.0, Android JAVA, REST API\u2019s Node js, Mongo DB, SQL DB Development, Java, C++, HTML5, CSS, PHP, Java Script IDE Tools:  XCode, Android Studio, Visual Studio, Eclipse, PHP Storm, XAMPP Server, Wamp Server, Oracle, MS SQL Server and Unity 3D Experience\u2019s \u2022 DevSpiral Pvt Ltd.              Project Manager               December 2020 \u2013 Present (1 Year 8 months)                Faisalabad, Punjab, Pakistan \u2022 OranjeClick Pvt Ltd.              Sr. iOS Developer               May 2018 \u2013 November 2020 (2 years 7 months)                Islamabad, Punjab, Pakistan \u2022 SwipeHalal Pvt Ltd.              iOS App Developer               January 2016 \u2013 April 2018 (2 years 4 months)                Lahore, Punjab, Pakistan  NATIONAL UNIVERSITY                                   Of Computer & Emerging Sciences  \n   \nMy Live Apps Portfolio  1. Share WiFi app. Free and Paid versions with multilingual support: https://apps.apple.com/us/app/wifilink-share-wifi/id1512596298#?platform=iphone  2. Aploze Streaming App: https://apps.apple.com/is/app/aploze/id1623627881 3. BLK Bomb Entertainment App: https://apps.apple.com/pk/app/blk-bomb- entertainment/id1572619472 4. Use MUAH Barber App: https://apps.apple.com/us/app/muah-app/id1556425255  5. ChickFillet Food App: https://apps.apple.com/gb/app/chickfillet/id1566704246?ign- mpt=uo%3D2  6. AWUA Car Wash App: https://apps.apple.com/pk/app/awuaplus/id1482286887  7. CountryPizza - iOS (Resturant App): https://apps.apple.com/app/id1567882145 8. CountryPizza - Android (Resturant App): https://play.google.com/store/apps/details?id=com.devspiral.countrypizzaa 9. V4Vegan (Resturant App): https://play.google.com/store/apps/details?id=com.oranjeclick.veganapp  10. ArenaHeroes App: https://play.google.com/store/apps/details?id=com.devspiral.arenaheroes  And much more apps ........  "
+    },
+    "details": {
+        "name": "Muhammad Ansaf",
+        "number": "923226033637",
+        "skills": [
+            "Swift 5.1",
+            "Swift 5.0",
+            "Swift 4.2",
+            "Swift 4.0",
+            "Swift 3.0",
+            "Android JAVA",
+            "REST API\u2019s",
+            "Node js",
+            "Mongo DB",
+            "SQL DB Development",
+            "Java",
+            "C++",
+            "HTML5",
+            "CSS",
+            "PHP",
+            "Java Script",
+            "XCode",
+            "Android Studio",
+            "Visual Studio",
+            "Eclipse",
+            "PHP Storm",
+            "XAMPP Server",
+            "Wamp Server",
+            "Oracle",
+            "MS SQL Server",
+            "Unity 3D"
+        ],
+        "email_id": "muhammadansaf109@gmail.com",
+        "location": "Faisalabad, Punjab, Pakistan",
+        "projects": [
+            {
+                "title": "SabeelApp",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Grow More",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "SpeakShare App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "TicTocTroc",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "EmbassyApp",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "BarberApp",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Uber App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "HealthHolistic App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "RT App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "MyBuddyApp",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "CryptoStream",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "BattleGround App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Sort App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "TwoHeads App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "TrendzApp",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "FoodApp",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "HelloBlue",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Awua CarWash",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Swiftly",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Readbolt",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Magazine App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "EasyStitch",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Quick express",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Book App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Daily Deals",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "KeepZeStuff",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Retrospective Health Journel",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Guest Me Inn",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Bahrian Pharma",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Swipe Halal Food App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Halal Hive",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "Sabeel App",
+                "description": "iOS Mobile Application developed in Swift."
+            },
+            {
+                "title": "SabeelApp",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "GrowMore App",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Food App",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "BattleGround App",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "AutoFollwer App",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "MyBuddyApp",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "BlockFolioApp",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Technical Support App",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Trendz App",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "HelloBlue",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Awua CarWash",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Swiftly",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Readbolt",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Magazine App",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "EasyStitch",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Quick express",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Daily Deals",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "KeepZeStuff",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Retrospective Health Journel",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Bahrian Pharma",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Swipe Halal",
+                "description": "Android Mobile Application developed in Java."
+            },
+            {
+                "title": "Halal Hive",
+                "description": "Android Mobile Application developed in Java."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2016",
+                "university": "National University of Computer and Emerging Sciences",
+                "degree_title": "BS (Computer Science)"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Punjab College of Science, Faisalabad",
+                "degree_title": "F.S.c \u2013 Pre-Engineering"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Sandal College Faisalabad",
+                "degree_title": "Matric"
+            }
+        ],
+        "achievements": [
+            "iOS Developer",
+            "Android Developer",
+            "Participant in 101 Battle, Speed Programming, FAST-NUCES Faisalabad"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/f128207-ansaf-25857ab4",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Ansaf is a skilled software developer with expertise in iOS and Android application development. He has a strong background in various programming languages and tools, showcasing his ability to create innovative mobile applications. His experience includes project management and development roles in reputable companies.",
+        "employment_history": [
+            {
+                "details": "Project Manager at DevSpiral Pvt Ltd.",
+                "end_date": "Present",
+                "location": "Faisalabad, Punjab, Pakistan",
+                "job_title": "Project Manager",
+                "start_date": "12-2020",
+                "company_name": "DevSpiral Pvt Ltd."
+            },
+            {
+                "details": "Sr. iOS Developer at OranjeClick Pvt Ltd.",
+                "end_date": "11-2020",
+                "location": "Islamabad, Punjab, Pakistan",
+                "job_title": "Sr. iOS Developer",
+                "start_date": "05-2018",
+                "company_name": "OranjeClick Pvt Ltd."
+            },
+            {
+                "details": "iOS App Developer at SwipeHalal Pvt Ltd.",
+                "end_date": "04-2018",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "iOS App Developer",
+                "start_date": "01-2016",
+                "company_name": "SwipeHalal Pvt Ltd."
+            }
+        ]
+    }
+}

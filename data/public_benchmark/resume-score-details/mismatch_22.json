@@ -1,0 +1,211 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks specific leadership positions within the telecommunications or engineering field relevant to the job description.",
+            "There is no direct mention of relevant telecommunications or engineering project management experience, despite project manager roles in different fields.",
+            "No specific technological skills such as Huawei Technologies, 5G integration, or network troubleshooting are listed.",
+            "Strong communication skills are evident through the resume, but there is a lack of technical alignment with telecommunications engineering roles."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "huawei technologies",
+                    "score": 0
+                },
+                {
+                    "criteria": "network troubleshooting",
+                    "score": 0
+                },
+                {
+                    "criteria": "project scheduling",
+                    "score": 3
+                },
+                {
+                    "criteria": "site audit",
+                    "score": 0
+                },
+                {
+                    "criteria": "5g nr integration",
+                    "score": 0
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 7
+                },
+                {
+                    "criteria": "problem solving",
+                    "score": 4
+                },
+                {
+                    "criteria": "team coordination",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong leadership and communication skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.17,
+                "micro_scores": 1.38
+            }
+        },
+        "personal_info": {
+            "name": "Rida e Noor Fareed",
+            "email": "ria.noor8@gmail.com",
+            "phone": "+92 3244431807",
+            "current_position": "Senior Sales Development Representative",
+            "current_company": "Tkxel",
+            "employment_start_date_current_company": "06-2021",
+            "first_company_start_date": "09-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/rida-fareed-34590b181/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Job Title: Senior Wireless Integration Engineer\n\n#### Company: FutureNet Solutions\n\n**Location**: Islamabad, Pakistan\n\n**Job Summary**:  \nAs a Senior Wireless Integration Engineer, you will join FutureNet Solutions to lead and oversee telecommunication projects across multiple regions. Your responsibilities will include managing cross-functional teams, integrating wireless networks, and coordinating with field teams to ensure quality and timely delivery.\n\n**Key Responsibilities**:\n- Provide remote delivery services for multiple countries, conducting both pre-integration checks and post-integration validations.\n- Oversee the integration of 2G, 3G, 4G, 5G NR wireless sites using advanced tools such as Web CME, Cloud CME, and MML commands.\n- Coordinate with field teams to supervise installations and resolve on-site technical issues.\n- Prepare and manage project schedules and ensure completion in line with client specifications.\n- Perform site audits and equipment testing, including Huawei BTS and transmission nodes.\n- Act as a key technical support contact for troubleshooting and logical problem resolution.\n\n**Skills & Qualifications**:\n- Bachelor\u2019s degree in Telecommunications Engineering or a related field.\n- 8+ years of experience in wireless and telecommunications engineering.\n- Strong knowledge of GSM, UMTS, LTE, NR technologies, and network troubleshooting.\n- Proficiency in Huawei and Nokia RAN-SRAN equipment.\n- Excellent leadership, communication, and project management skills.\n- Ability to work independently and handle multiple projects under tight deadlines.\n\n**Salary**: Competitive salary with benefits commensurate with experience.\n\n**How to Apply**: Submit your CV and a cover letter detailing your relevant experience to careers@futurenetsolutions.com by [Deadline].",
+        "macro_dict": {
+            "leadership": 53,
+            "project management experience": 31,
+            "communication skills": 16
+        },
+        "micro_dict": {
+            "huawei technologies": 18,
+            "network troubleshooting": 20,
+            "project scheduling": 6,
+            "site audit": 16,
+            "5g nr integration": 16,
+            "communication skills": 8,
+            "problem solving": 2,
+            "team coordination": 14
+        },
+        "additional_info": "FutureNet Solutions actively seeks candidates from top engineering institutions such as BUITEMS and NUST, with a preference for candidates holding professional engineering certifications. Our hiring process includes technical assessments and multiple interview stages. We offer relocation assistance for qualified candidates and provide both on-site and remote work options based on project needs.",
+        "minimum_requirements": [
+            "Strong leadership and communication skills"
+        ],
+        "resume": "Rida e Noor\nFareed\nPersonal Info\nEmail\nria.noor8@gmail.com\nPhone\n+92 3244431807\nLinkedIn\nhttps://www .linkedin.com/in/rida-fareed-\n34590b181/\nSkills\nSoftware\nLanguages\nCommunication\nPresentation\nSocial media\nmarketing\nContent writing\nMicrosoft of fice\nVisual studio\nMicrosoft visio\nCanva\nTrello\nSalesforce\nlusha\nZoominfo\nEnglish language\nUrdu languageMotivated Computer Science Graduate, experienced Digital marketeer , and Freelancer project\nmanager for an international venture. Highly ef fective in Project management. Exceptional\ninterpersonal, communication, and multitasking abilities. Prepared to deliver first-rate results.\nWork History\nEducation2021-06  \u00a0\n- presentSenior Sales Development Representative\nTkxel, Lahore\nGenerate high-value, well-qualified sales meetings from marketing inbound\nleads.\nCollaborate with Demand Generation to drive continuous improvement in\nlead quality , conversion rates, and pipeline generation.\nWork closely with Sales and Marketing on projects that help drive revenue\ngrowth.\nConduct outreaches on ideal customer personas through discovery calls &\nemail campaigns.\nAchieve monthly quotas of demos and qualified opportunities.\nContribute to Marketing Collateral including (but not limited to) writing\nBlogs, Preparing Case Studies, V ideo Creation, and Impromptu\nPresentations.\u00a0\nProvide training to the new SDR team.\nPrepare SFDC reporting and dashboarding for the management.\n2021-04  \u00a0\n- 2021-06Internship Social Media Marketing\nSucsel (LAAM), Lahore\nPart of their creative department handled SMM.\nResponsible for Post creations and social media campaigns.\n2020-1 1 \u00a0\n- 2021-03Freelancer Project Manager (remote)\nOne Source LLC, Muscat\nDeliever e-commerce platform [omansouq.om]\nDevelop a detailed project plan to track progress.\nResolved all issues professionally and in a timely manner .\nEstablish and maintain relationships with consultants and third parties.\nWorked collaboratively in a team environment.\n2019-09  \u00a0\n- 2020-02Freelancer - Social Media Marketeer\nSuave Solutions, Lahore\nCreates posts for social media campaigns.\n2019-07  \u00a0\n- 2019-09Internee Social Media Marketeer\nSuave Solutions , Lahore\nCreates marketing and social media posts.\nContent ideation, ensuring brand consistency .\n2015-09  \u00a0\n- 2020-12Computer Sciences , Bachelor's Degree\nUniversity of Lahore, Lahore\n2013-09  \u00a0\n- 2015-09Pre-Engineering, Intermediate\nPunjab Group Of College, Lahore\n2012-03  \u00a0\n- 2013-04Biology , Matriculation\nDivisional Public School, Lahore\nVolunteering\nCertificates2018-10  \u00a0 Organizer in IEEE international conference\n2017-12  \u00a0 Organizer in event about cyber security\nContent Marketing and SEO Fundamentals\nCertification of attendance at LUMS\nYear 2018\nCertificate of Appreciation for Participation\nParticipated in NUCES-ACM Geek-W eek at F AST\nYear 2016"
+    },
+    "details": {
+        "name": "Rida Fareed",
+        "number": "923244431807",
+        "skills": [
+            "Microsoft Office",
+            "Visual Studio",
+            "Microsoft Visio",
+            "Canva",
+            "Trello",
+            "Salesforce",
+            "Lusha",
+            "Zoominfo"
+        ],
+        "email_id": "ria.noor8@gmail.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2020",
+                "university": "University of Lahore",
+                "degree_title": "Bachelor's Degree in Computer Sciences"
+            },
+            {
+                "end_date": "09-2015",
+                "university": "Punjab Group Of College",
+                "degree_title": "Intermediate in Pre-Engineering"
+            },
+            {
+                "end_date": "04-2013",
+                "university": "Divisional Public School",
+                "degree_title": "Matriculation in Biology"
+            }
+        ],
+        "achievements": [
+            "Organizer in IEEE international conference (10-2018)",
+            "Organizer in event about cyber security (12-2017)",
+            "Certificate of attendance in Content Marketing and SEO Fundamentals at LUMS (Year 2018)",
+            "Certificate of Appreciation for Participation in NUCES-ACM Geek-Week at FAST (Year 2016)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Content Marketing and SEO Fundamentals",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "2018"
+            },
+            {
+                "certification_name": "Certificate of Appreciation for Participation",
+                "issuing_organization": "NUCES-ACM",
+                "date_of_issuance": "2016"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/rida-fareed-34590b181/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Rida Fareed is a motivated Computer Science graduate with experience in digital marketing and project management. She has a strong technical skill set, including proficiency in various software and tools, and has demonstrated her ability to drive revenue growth and manage projects effectively.",
+        "employment_history": [
+            {
+                "details": "Generate high-value, well-qualified sales meetings from marketing inbound leads. Collaborate with Demand Generation to drive continuous improvement in lead quality, conversion rates, and pipeline generation. Work closely with Sales and Marketing on projects that help drive revenue growth. Conduct outreaches on ideal customer personas through discovery calls & email campaigns. Achieve monthly quotas of demos and qualified opportunities. Contribute to Marketing Collateral including writing Blogs, Preparing Case Studies, Video Creation, and Impromptu Presentations. Provide training to the new SDR team. Prepare SFDC reporting and dashboarding for the management.",
+                "end_date": "present",
+                "location": "Lahore",
+                "job_title": "Senior Sales Development Representative",
+                "start_date": "06-2021",
+                "company_name": "Tkxel"
+            },
+            {
+                "details": "Part of their creative department handled SMM. Responsible for Post creations and social media campaigns.",
+                "end_date": "06-2021",
+                "location": "Lahore",
+                "job_title": "Internship Social Media Marketing",
+                "start_date": "04-2021",
+                "company_name": "Sucsel (LAAM)"
+            },
+            {
+                "details": "Delivered e-commerce platform [omansouq.om]. Developed a detailed project plan to track progress. Resolved all issues professionally and in a timely manner. Established and maintained relationships with consultants and third parties. Worked collaboratively in a team environment.",
+                "end_date": "03-2021",
+                "location": "Muscat",
+                "job_title": "Freelancer Project Manager (remote)",
+                "start_date": "11-2020",
+                "company_name": "One Source LLC"
+            },
+            {
+                "details": "Created posts for social media campaigns.",
+                "end_date": "02-2020",
+                "location": "Lahore",
+                "job_title": "Freelancer - Social Media Marketeer",
+                "start_date": "09-2019",
+                "company_name": "Suave Solutions"
+            },
+            {
+                "details": "Created marketing and social media posts. Content ideation, ensuring brand consistency.",
+                "end_date": "09-2019",
+                "location": "Lahore",
+                "job_title": "Internee Social Media Marketeer",
+                "start_date": "07-2019",
+                "company_name": "Suave Solutions"
+            }
+        ]
+    }
+}

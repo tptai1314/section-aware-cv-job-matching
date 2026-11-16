@@ -1,0 +1,208 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive experience in business development, which aligns with lead generation and strategic insights roles in the job description.",
+            "The candidate lacks explicit programming skills in C++, HTML, or CSS, which are desired in the JD.",
+            "The candidate demonstrates good experience with CRM systems, lead generation, and team management, relevant to the role's requirements.",
+            "There is insufficient evidence in the resume of experience with specific digital marketing tools or business intelligence tools like Power BI, SQL, and Tableau."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 3
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.51,
+                "micro_scores": 4.19
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Ahmad",
+            "email": "ahmadimtiaz04@gmail.com",
+            "phone": "+923444920455",
+            "current_position": "Associate Manager Business Development",
+            "current_company": "Stackup Solutions",
+            "employment_start_date_current_company": "12-2022",
+            "first_company_start_date": "06-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/ahmadimtiaz"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 20,
+            "experience": 11,
+            "innovation and adaptability": 69
+        },
+        "micro_dict": {
+            "business intelligence tools (power bi, sql, tableau)": 53,
+            "digital marketing skills": 22,
+            "project management": 25
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Proficiency in at least one programming language",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Strong communication and interpersonal skills"
+        ],
+        "resume": "Muhammad  Ahmad  \n609-F, Johar Town , Lahore, Pakistan  \n+923444920455  \nahmadimtiaz04@gmail.com   \nEducation  \n \n2018  BS (Hons) Biotechnology  \n Forman Christian College (A Chartered University), Lahore  \n2014  A Levels  \n Mus\u2019ab School System, Johar Town, Lahore  \n2012  O Levels  \n Mus\u2019ab School System, Johar Town, Lahore  \n \nProfessional Experience  \n \nDec 2022 \u2013 Jul 2023  Associate Manager Business Development  \n   Stackup Solutions  \n\uf0b7 Lead  and managed  the business development department to \ngenerate leads converting to clients, sought out different \navenues for business growth, and increased the digital presence \nof the company  \n\uf0b7 Created and optimized  strategies for different job platforms and \nportals to  generate prospects, leading to conversi on into clients  \n\uf0b7 Created and optimized email campaigns and kept 60% and \nabove open rates across all campaigns  \n\uf0b7 Collaborated with the operational developers to onboard new \nclients and provide them quality service  \n\uf0b7 Conducted training sessions for the team on sa les, business \ndevelopment and revenue generation and provided them with \nrelevant courses  \n\uf0b7 Delivered $15000+ revenue in Q2 with the team  \n \nAug 2022  \u2013 Nov 2022   Assistant Manager Sales & Business Development  \n   Yellow Beam Technologies  \n\uf0b7 Creation and optimizatio n of IT, social media, mobile and web \ndevelopment & customer support profiles  \n\uf0b7 Training the team on the operating platforms  \n\uf0b7 Generating leads through LinkedIn  \n\uf0b7 Generating the leads through Upwork  \n\uf0b7 Setting up and managing email campaigns for direct client \nacqui sition  in the relevant niche  \n\uf0b7 Client communication  \n \nDec 2021  \u2013 Aug 2022    Assistant Manager Business Development  \n   Trans Global Services (TGS)  \n\uf0b7 Created the company profiles and portfolios from scratch for \nplatforms like Upwork, Fiverr & Linkedin.  \n\uf0b7 Set the directions and strategies for profiling and built the BD \ndepartment for customer support projects  with the head of \nBusiness development.  \n\uf0b7 Training new team members  \n\uf0b7 Quality checks for the team  \n\uf0b7 Set up Email campaigns with the team  \n\uf0b7 Managed client communication and sales closing  \uf0b7 Worked with the operations and man agement to onboard new \nprojects  \n\uf0b7 Performed client success role to make sure the client is satisfied \nin the first month of onboarding  \n\uf0b7 Delivered $5000 worth of recurring project revenue in Q1 &  Q2 \nfor a newly created profile  \n \nSep 2021 - Dec 2021  Business Development Team Lead  \n   Digitech Outsourcing Solution  \n\uf0b7 Team training on platforms like Upwork and LinkedIn  \n\uf0b7 Defined the direction and set the quarterly target with the \nmanager  \n\uf0b7 Managed and worked with the team to deliver the targets for the \nlast quarter  \n\uf0b7 Delivered $11,000 worth of recurring revenue and upsold the \nclient whereby taking the project revenue up to $30,000/month.  \n \nSep 2020 - Sep 2021  Business Development Executive  \n   Digitech  Outsourcing Solution  \n\uf0b7 Managed the entire  profiling and  bidding process on platforms \nlike Upwork, Fiverr, Freelancer, Guru  \n\uf0b7 Generated leads through LinkedIn in the relevant industry  \n\uf0b7 Client communication and sale closing on the platforms  \n\uf0b7 Working with the oper ations and key accounts to successfully \nonboard the project  \n\uf0b7 Delivered $15,000 worth of recurring project revenue with the \nteam in the 4th quarter  \n\uf0b7 Delivered $10,000 worth of recurring project revenue with the \nteam in the 2021 Q1, Q2 & Q3  \n \nMar 2019 - Sep 202 0 Customer Service Executive  \n   Digitech Outsourcing Solution  \n\uf0b7 Provided customer support for a variety of US projects including:  \no E-commerce stores (Email, Live chat, order management \nthrough Shopify)  \no Airbnb Hosts (Guest communication, booking \nmanagement, cleaner and handymen schedule \nmanagement)  \n \nJun 2018 \u2013 Mar 2019  Customer Support Representative  \n  Abacus Consulting  \n\uf0b7 Provided support via emails for Careem customers  \n\uf0b7 Handled the email tickets through Zendesk  \n   \nProjects and Research Papers  \n \n\uf0b7 Market Aptness i n FCCU students  \n \nCo-Curricular Activities  \n \nOct 2015   IEO Ambassador in 3rd Annual Education Fair 2015  \nApril 2016   Volunteered at Cultural Fest \u201816  \n \nSkills  & Interests  \n \uf09f Languages: English, Urdu  \n\uf09f Microsoft : Word, Excel, PowerPoint , Outlook  \n\uf09f G\u2019suite ; Gmail, Google Calendar, Google Meet, G\u2019sheets/Docs  \n\uf09f CRM s: Zendesk, Freshdesk, Salesforce, Hubspot, IGMS, Odoo  \n\uf09f Platform s: Upwork, Fiverr, Freelancer & LinkedIn  \n\uf09f Client communication and management  \n\uf09f Team Management and cross teams\u2019 collaboration  \n\uf09f Strategy deve lopment and optimization  \n "
+    },
+    "details": {
+        "name": "Muhammad Ahmad",
+        "number": "923444920455",
+        "skills": [
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Microsoft PowerPoint",
+            "Microsoft Outlook",
+            "G Suite",
+            "Zendesk",
+            "Freshdesk",
+            "Salesforce",
+            "Hubspot",
+            "IGMS",
+            "Odoo",
+            "Upwork",
+            "Fiverr",
+            "Freelancer",
+            "LinkedIn"
+        ],
+        "email_id": "ahmadimtiaz04@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Market Aptness in FCCU students",
+                "description": "Research project on market aptness."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "Forman Christian College (A Chartered University)",
+                "degree_title": "BS (Hons) Biotechnology"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Mus\u2019ab School System",
+                "degree_title": "A Levels"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Mus\u2019ab School System",
+                "degree_title": "O Levels"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadahmad",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Ahmad is a skilled business development professional with a strong background in managing teams and generating leads across various platforms. He has demonstrated expertise in optimizing strategies for client acquisition and enhancing digital presence for companies.",
+        "employment_history": [
+            {
+                "details": "Lead and managed the business development department to generate leads converting to clients, sought out different avenues for business growth, and increased the digital presence of the company.",
+                "end_date": "07-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Associate Manager Business Development",
+                "start_date": "12-2022",
+                "company_name": "Stackup Solutions"
+            },
+            {
+                "details": "Creation and optimization of IT, social media, mobile and web development & customer support profiles. Training the team on the operating platforms and generating leads through LinkedIn and Upwork.",
+                "end_date": "11-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Manager Sales & Business Development",
+                "start_date": "08-2022",
+                "company_name": "Yellow Beam Technologies"
+            },
+            {
+                "details": "Created the company profiles and portfolios from scratch for platforms like Upwork, Fiverr & LinkedIn. Managed client communication and sales closing, delivering $5000 worth of recurring project revenue.",
+                "end_date": "08-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Manager Business Development",
+                "start_date": "12-2021",
+                "company_name": "Trans Global Services (TGS)"
+            },
+            {
+                "details": "Team training on platforms like Upwork and LinkedIn. Delivered $11,000 worth of recurring revenue and upsold the client, increasing project revenue to $30,000/month.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Team Lead",
+                "start_date": "09-2021",
+                "company_name": "Digitech Outsourcing Solution"
+            },
+            {
+                "details": "Managed the entire profiling and bidding process on platforms like Upwork, Fiverr, Freelancer, Guru. Delivered $15,000 worth of recurring project revenue in the 4th quarter.",
+                "end_date": "09-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2020",
+                "company_name": "Digitech Outsourcing Solution"
+            },
+            {
+                "details": "Provided customer support for a variety of US projects including e-commerce stores and Airbnb hosts.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Executive",
+                "start_date": "03-2019",
+                "company_name": "Digitech Outsourcing Solution"
+            },
+            {
+                "details": "Provided support via emails for Careem customers and handled email tickets through Zendesk.",
+                "end_date": "03-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Support Representative",
+                "start_date": "06-2018",
+                "company_name": "Abacus Consulting"
+            }
+        ]
+    }
+}

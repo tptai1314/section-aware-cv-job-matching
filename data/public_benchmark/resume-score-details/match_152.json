@@ -1,0 +1,196 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has substantial 10 years of experience in relevant sales and key account management roles.",
+            "Strong leadership experience demonstrated in multiple roles, especially in high-pressure environments.",
+            "Does not explicitly list experience with Vistex, but has vast experience with sales tools such as Salesforce.",
+            "Skills like 'Management' and 'Corporate Sales' imply proficiency in strategic planning but not explicitly stated.",
+            "The candidate's education aligns with preferences but neither institution is preferred by the company."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 9
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                },
+                {
+                    "criteria": "stakeholder management",
+                    "score": 8
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 7
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 9
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.75,
+                "micro_scores": 7.6
+            }
+        },
+        "personal_info": {
+            "name": "Muneeb Ahmed Malik",
+            "email": "Muneeb.malik2408@gmail.com",
+            "phone": "03111333980",
+            "current_position": "Manager (RO Plant)",
+            "current_company": "Aqua Mine",
+            "employment_start_date_current_company": "01-2020",
+            "first_company_start_date": "01-2010",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 7,
+            "experience": 34,
+            "strategic thinking": 59
+        },
+        "micro_dict": {
+            "sales management": 38,
+            "data analysis": 22,
+            "stakeholder management": 16,
+            "sap erp": 5,
+            "salesforce": 7,
+            "vistex": 12
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "5+ years of experience in sales or key account management",
+            "Experience with CRM and ERP systems such as SAP and Salesforce",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Teamwork\nResearch\nCommunication\nManagement\n 03111333980, 0345-4736789\nMuneeb.malik2408@gmail.com,\nMuneeb.malik606@gmail.com\n81-D1, Nespak Society, Lahore\nAbout Me\nExperienceEducationSkills Personal Skills\nContactAn accomplished & dynamic professional with 10 years of experience and a strong\nbackground that plays a vital role in developing, managing, growing and retaining key\naccounts for a wide range of organizations. Service-centric leader dedicated to fueling\nrevenue, enhancing customer experience and achieving top brand loyalty.Highly adept at\nperforming high- pressure and time-consuming environments including full aspects of sales.\nSecured high-value accounts through\nconsultative selling.\nOffered each customer top-notch,\npersonal service and polite support to\nboost sales and customer satisfaction.Manage and adhere to all PSQCA-related\nlaws and regulations.\n Manage and Support the accreditation of\nthe plant.Corporate Sales Manager (July 2022-\nContinue )- Sign InMBA-Executive (2014-2016) -\nSpecialization: Marketing/Management,\n      IAS-PU Lhore\nGraduate-Post Production(Animations)\n(2009-2010), Specialization: CGI -Artist VFX,\nApplications: Motion Graphics, ,3d MAX auto\ndesk adobe illustrator-NCA Lahore\nMuneeb Ahmed Malik\nBUSINESS DEVELOPMENT MANAGER/\nKEY ACCOUNT MANAGER\nAccount Development\nHigh-impact sales presentations\nRevenue Increase\nServices optimization\nB to B sales expert\n \nManager (RO Plant) -(January 2020-\nContinue)-Aqua MineImplemented up-selling strategies such\nas recommending accessories and\ncomplementary purchases to boost\nrevenue.\nIdentified and capitalized on lucrative\nsales opportunities, successfully included\nnew corporate clients.\nCorporate Accounts Management\nYa SAT Sales and Business Development\nDeveloped successful online sales\noperations from\nscratch by establishing and following\nstrategic vision, mission and operational\nplansAchieved sales goals and service targets\nby leveraging interpersonal\ncommunication skills and product\nknowledge to cultivate and secure new\ncustomer relationships.\nOffered each customer top-notch,\npersonal service and polite support to\nboost sales and customer satisfaction.\nBuilt reputation by providing reliable\nbackhaul connectivity services to\nPakistan's leading ISPs and telecom\noperators.\nProduced and submitted weekly reports\noutlining progress against KPI objectives.\nExceeded targets by building, directing\nand motivating a high-performing sales\nteam.Key Account Manager (2015-2020 )-\nTransworld Associates\nAssistant Manager Sales & Business\nDevelopment (March 2020-\nDecember 2020), Infinit Connections\nPresents and promotes the Infinit\nbrand; creates new avenues for\nrevenue growth using both direct and\nindirect channels.\nCollaborates closely with marketing\nand product development teams; the\npurpose is to create a campaign path\nfor the marketing strategy that is\nstrongly aligned with the key selling\npoints and attributes of the\ncompany\u2019s new product\nSales Associate (2011-2014\nSupernet (Pvt.) LimitedDirect SaleS & Service Executive\n(2010-2011)-Wateen Telecom\nCollaborated with internal market price\npoints and set structures to achieve profit\ntargets.\nWorked with stakeholders to formulate a\nbusiness direction for presentation and\npromotion of products.\nPlayed an instrumental role in closing\ncorporate deals SOHO, SME'S Packages.\nMonitored customer buying trends, market\nconditions and competitor actions to\nadjuststrategies and achieve sales goal\nReference \nReferences will be furnished uponrequest.\nBusiness Development Manager\nMarkiTech -Locatemotion(SenSights.AI )\n(January 2021- 2022)\nHelped Industries into Digital\nTransformation & Business Process\nOutsourcingProviding Management and direction to\nthe Operations Team.\n Manage the work of suppliers onsite\nand ensure their work meets all\nrequirements and standards of work. \n Management All over Production of the\nPlant alone.\n Respond to Plant needs after hours.\n Offered technical assistance as\nneeded.\nMonitored budget costs and planning\nto ensure compliance.\nHandled the entire supply chain and\npurchases by myself."
+    },
+    "details": {
+        "name": "Muneeb Ahmed Malik",
+        "number": "03111333980",
+        "skills": [
+            "B to B sales expert",
+            "High-impact sales presentations",
+            "Revenue Increase",
+            "Services optimization",
+            "Corporate Accounts Management",
+            "Sales and Business Development"
+        ],
+        "email_id": "Muneeb.malik2408@gmail.com",
+        "location": "81-D1, Nespak Society, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2016",
+                "university": "IAS-PU Lahore",
+                "degree_title": "MBA-Executive (Specialization: Marketing/Management)"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "NCA Lahore",
+                "degree_title": "Graduate-Post Production (Animations) (Specialization: CGI -Artist VFX)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muneebahmedmalik",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/muneebahmedmalik",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Muneeb Ahmed Malik is a seasoned business development and key account manager with over 10 years of experience in driving revenue growth and managing corporate accounts. He has a strong background in B to B sales and has successfully implemented strategies to enhance customer satisfaction and optimize services.",
+        "employment_history": [
+            {
+                "details": "Implemented up-selling strategies and identified lucrative sales opportunities, successfully including new corporate clients.",
+                "end_date": "Continue",
+                "location": "",
+                "job_title": "Corporate Sales Manager",
+                "start_date": "07-2022",
+                "company_name": "MarkiTech - Locatemotion (SenSights.AI)"
+            },
+            {
+                "details": "Managed operations and provided technical assistance, ensuring compliance with budget costs and planning.",
+                "end_date": "01-2022",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2021",
+                "company_name": "Aqua Mine"
+            },
+            {
+                "details": "Achieved sales goals and service targets by leveraging interpersonal communication skills and product knowledge.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Assistant Manager Sales & Business Development",
+                "start_date": "03-2020",
+                "company_name": "Infinit Connections"
+            },
+            {
+                "details": "Developed successful online sales operations and exceeded targets by building and motivating a high-performing sales team.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Key Account Manager",
+                "start_date": "01-2015",
+                "company_name": "Transworld Associates"
+            },
+            {
+                "details": "Collaborated with stakeholders to formulate business direction and monitored customer buying trends to achieve sales goals.",
+                "end_date": "12-2014",
+                "location": "",
+                "job_title": "Sales Associate",
+                "start_date": "01-2011",
+                "company_name": "Supernet (Pvt.) Limited"
+            },
+            {
+                "details": "Worked with internal market price points and set structures to achieve profit targets.",
+                "end_date": "12-2011",
+                "location": "",
+                "job_title": "Direct Sales & Service Executive",
+                "start_date": "01-2010",
+                "company_name": "Wateen Telecom"
+            }
+        ]
+    }
+}

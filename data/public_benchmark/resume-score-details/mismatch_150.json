@@ -1,0 +1,185 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has relevant leadership experience as a Business Development Head, managing teams and projects indicating good leadership skills.",
+            "The digital marketing experience is moderately relevant, with experience as a Digital Marketing Executive and similar roles showing some alignment with the job requirements.",
+            "The resume showcases experience in handling client relationships during various roles, though not entirely in a digital marketing context.",
+            "Skills in social media marketing and handling CRM tools are present, and there is some familiarity with project management from past roles."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 7
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 7
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                },
+                {
+                    "criteria": "content development",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": true
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.49,
+                "micro_scores": 6.699999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Fahad Amjad",
+            "email": "fahadali008@gmail.com",
+            "phone": "+92 3322293271",
+            "current_position": "Business Development Head",
+            "current_company": "Prismatic Technologies Pvt Ltd",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "09-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 45,
+            "digital marketing experience": 51,
+            "client relationship": 4
+        },
+        "micro_dict": {
+            "social media marketing": 56,
+            "google analytics": 1,
+            "project management": 15,
+            "content development": 28
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Familiarity with Google Analytics and CRM tools",
+            "Strong project management and communication skills"
+        ],
+        "resume": "FAHAD  AMJAD  \n \n14 H / A -1, Aitchison Housing Society,  Mobile:  +92 3322293271   \nLahore, Pakistan  Email: fahadali008@gmail.com  \nDate  of Birth:  06/06/1986  \n \n \nPERSONAL  STATEMENT  \n \nAn innovative Business Development head  with strong leadership experience and particular expertise in the creation of \nsuccessful business strategies to achieve sales growth. Possesses the proven ability to direct and enhance commercial \noperations skilled in the management and expansion of k ey client relationships, strong communication and negotiation \nskills and focus on sales team to maximize business opportunities.  \n \n \nEMPLOYMENT  HISTORY  \n \nBusiness  Development  Head  - Prismatic  Technologies  Pvt Ltd | (Sep 2021  \u2013 Sep 2022 ) \n \nKey Responsibilities  \n \n\u2022 Responsible  for monitoring  the performance  of the sales  team  by establishing  a system  of reports  and \ncommunications  involving  sales  reports . \n\u2022 Lead and manage small to medium projects independently . \n\u2022 Work with Business groups to gather and document business needs and processes  \n\u2022 Advises customers on best practices for CRM processes, user interface and architecture  \n\u2022 Develops and manages project plans that encompass the complete project life cycle (i.e. project requirements, \ndevelopment, qual ity assurance, deployment etc.)  \n\u2022 Creates the functional and technical specifications documentation for the project . \n\u2022 Writes specifications for customizations, data migration, and system integrations . \n\u2022 Configure and customize the CRM system based on design spe cifications . \n\u2022 Works with the cross -functional areas to secure resources and ensure resources are used effectively . \n\u2022 Measures and monitors progress to ensure that a project is delivered on time, within budget, and meets or \nexceeds expectations . \n\u2022 Organize  & perform  Outdoor  customer  site visits  (initial  visit,  demonstration,  negotiation,  etc.) \n\u2022 Track  all business  development  activities,  analyze  quarterly  progress  and suggest  new strategies  based  on \nfindings.  \n\u2022 Manage  and be responsible  for the sales  and marketing  team,  their performance,  schedules,  and sales  \nachievements.  \n \nSales  Executive  - Toss down  Technologies  Pvt Ltd | (Jan 2020 \u2013 April 2021 ) \n \nKey Responsibilities  \n \n\u25cf Tossdown provides E -commerce Solutions which includes (Web, App, Digital Services \nand Ordering  Management  System)  for Restaurants  and Multinational.  \n\u25cf Researching  organizations  and individuals  online  to identify  new leads  through  Social  \nmedia. Contacting Potential clients via email or phone to establish rapport and setup  \nmeetings.  \n\u25cf Contacting  clients  to inform  them  about  new developments  in the company's  products.  \n\u25cf Developing  quotes  and proposals.  \n\u25cf Negotiating  and renegotiating  by phone,  email  and in person.   \nMedia  Manager  / Sales  - Mehboob  Steel  Traders  (Lahore)  | (Jan 2019  \u2013 Jan 2020)  \n \nKey Responsibilities  \n \n\u25cf Working as a media manager under the umbrella of MA Group of Companies which have 6 \ncompanies.  \n\u25cf The company  provides  Import  and Export  services,  Digital  marketing  services,  SEO,  Web  designing,  \ncustom  software  development,  and ERP solutions.  \n\u25cf Design their digital marketing strategy which includes (Facebook, YouTube and other platforms to  \ncreate  online  presence)  \n\u25cf Contacting  Potential  clients  via email  or phone  to establish  rapport  and setup  meetings.  \n\u25cf Supervise  web designers  to make  their company  profile  and websites.  \n\u25cf Script  making  for (documentary  and testimonial  videos)  of their clients.  \n\u25cf Handling  and negotiating  with the Chinese  clients  about  Steel  material,  machinery,  stainless  steel pipes,  \nMS pipe,  accessories  and other  queries  given  by clients.  \n \nMarketing  Manager  - H&H Marketing Associates (Lahore) | (Sep 2018 \u2013 Nov 2018)  \n \nKey Responsibilities  \n \n\u25cf (H&H)  working  as a B2B which  provides  packaging  solutions  for Food  & Beverages,  Pharmaceutical  and \ncosmetic  industries.  \n\u25cf My role is to provide packaging solutions for industries which includes: (Industrial Machinery, Packaging \nMaterial & Raw Material, Aluminum Tube, PE Tube, Plastic Laminate Tubes, Pet Bottles, Labels, Tapes \nand some allied products.  \n\u25cf I also represent the following compani es which are a part of (H&H) Tubex Packaging (Pvt.) Ltd., Alpha  \nContainers Industries, PCCL Labels (Pvt.) Ltd. Karachi,  Shanghai Sunway International Trade Co., Ltd.,  \nChina . \n\u25cf The following clients I work with: Seatle Pharma Pakistan (Pvt) Ltd, Shezan Intern ational, Al fazal \nPharma, Biocos cosmetics, Shama ghee cooking oil etc.  \n \n \n \nDigital  Marketing  Executive  - Internet  Media  (Karachi)  | (Sep 2013  \u2013 Feb 2015 ) \n \nKey Responsibilities  \n \n\u25cf Translating  client\u2019s  goals  and objectives  into actionable  and measurable  digital  marketing  programs.  \n\u25cf Creating  an inbound  and outbound  digital  marketing  strategy.  \n\u25cf Manage  updates  and strategy  for the brand\u2019s  social  & digital  presence  focusing  on platforms  that \nare relevant  to our client\u2019s  business  objectives  (e.g. Twitter,  Facebook,  Google+,  LinkedIn  etc.) \n\u25cf  Managing the social media activities for PTCL: Evo Nitro, PTCL Broadband, 3G Evo 3.1Mbps,  \nEvo Wingle, Evo Cloud, MyPtcl, New Landline Offer, Epic New Year Offer, PTCL 3G Offer,  \n4Mbps  for all, EVO  Summer  Offer,  CharJI  offer,  1Mbps  Double  offer  and recently  CharJI  Wingle  \nand Cloud.  \n\u25cf Handling  the customer's  query  related  to product  or services  on social  media.  \n\u25cf Monitoring  social  media  channels  for trends  and opportunities.  \n\u25cf Viral  marketing  campaigns  on a weekly  basis  for brand  awareness.   \nEDUCATION  AND  QUALIFICATIONS  \n \nCoventry  University,  United  Kingdom  | Passing  year:  (2012)  \n  MA Advertising  & Marketing  \n \n  Mohammad Ali Jinnah University, Karachi  | Passing year: (2010)   \n  BBA (HONS) Marketing and Finance  \n \nSM Govt.  College  Karachi  | Passing  year:  (2006 )  \nIntermediate  in Commerce  \n \n Gulistan Shah Abdul Latif School, Karachi  | Passing year: (2004)  \n  S.S.C  (computer  science)  \n \n \nSKILLS  AND  INTERESTS  \n \n\u2022 Solution  Selling.  \n\u2022 Key Account Management.  \n\u2022 Sales  Forecasting  and Product  Forecasting.  \n\u2022 Strong Analytical Skills, Creative and Team Player.  \n\u2022 Pro-efficient  in using  various  business -related  computer  applications.  \n\u2022 Excellent  spoken  and written  communication  skills.  \n\u2022 Customer  Service  Management.  \n\u2022 Identifying  Sales  Opportunities.  \n\u2022 International  Business  Exposure.  \n\u2022 Good  organization  and planning  skills.  \n\u2022 Ability  to work  under  pressure.  \n \n \nREFERENCES  \n \nReferences  will be provided  upon  request.  "
+    },
+    "details": {
+        "name": "Fahad Amjad",
+        "number": "923322293271",
+        "skills": [
+            "CRM",
+            "Digital Marketing",
+            "Web Designing",
+            "SEO",
+            "Project Management",
+            "E-commerce Solutions",
+            "Social Media Management",
+            "Sales Management"
+        ],
+        "email_id": "fahadali008@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2012",
+                "university": "Coventry University, United Kingdom",
+                "degree_title": "MA Advertising & Marketing"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Mohammad Ali Jinnah University, Karachi",
+                "degree_title": "BBA (HONS) Marketing and Finance"
+            },
+            {
+                "end_date": "06-2006",
+                "university": "SM Govt. College Karachi",
+                "degree_title": "Intermediate in Commerce"
+            },
+            {
+                "end_date": "06-2004",
+                "university": "Gulistan Shah Abdul Latif School, Karachi",
+                "degree_title": "S.S.C (computer science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/fahad-amjad",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Fahad Amjad is an innovative Business Development Head with extensive experience in creating successful business strategies to achieve sales growth. He possesses proven abilities in directing and enhancing commercial operations, managing key client relationships, and leading sales teams to maximize business opportunities.",
+        "employment_history": [
+            {
+                "details": "Responsible for monitoring the performance of the sales team by establishing a system of reports and communications involving sales reports. Lead and manage small to medium projects independently. Work with Business groups to gather and document business needs and processes. Advises customers on best practices for CRM processes, user interface and architecture. Develops and manages project plans that encompass the complete project life cycle (i.e. project requirements, development, quality assurance, deployment etc.). Creates the functional and technical specifications documentation for the project. Writes specifications for customizations, data migration, and system integrations. Configure and customize the CRM system based on design specifications. Works with the cross-functional areas to secure resources and ensure resources are used effectively. Measures and monitors progress to ensure that a project is delivered on time, within budget, and meets or exceeds expectations. Organize & perform Outdoor customer site visits (initial visit, demonstration, negotiation, etc.). Track all business development activities, analyze quarterly progress and suggest new strategies based on findings. Manage and be responsible for the sales and marketing team, their performance, schedules, and sales achievements.",
+                "end_date": "09-2022",
+                "location": "Lahore",
+                "job_title": "Business Development Head",
+                "start_date": "09-2021",
+                "company_name": "Prismatic Technologies Pvt Ltd"
+            },
+            {
+                "details": "Tossdown provides E-commerce Solutions which includes (Web, App, Digital Services and Ordering Management System) for Restaurants and Multinational. Researching organizations and individuals online to identify new leads through Social media. Contacting Potential clients via email or phone to establish rapport and setup meetings. Contacting clients to inform them about new developments in the company's products. Developing quotes and proposals. Negotiating and renegotiating by phone, email and in person.",
+                "end_date": "04-2021",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Toss down Technologies Pvt Ltd"
+            },
+            {
+                "details": "Working as a media manager under the umbrella of MA Group of Companies which have 6 companies. The company provides Import and Export services, Digital marketing services, SEO, Web designing, custom software development, and ERP solutions. Design their digital marketing strategy which includes (Facebook, YouTube and other platforms to create online presence). Contacting Potential clients via email or phone to establish rapport and setup meetings. Supervise web designers to make their company profile and websites. Script making for (documentary and testimonial videos) of their clients. Handling and negotiating with the Chinese clients about Steel material, machinery, stainless steel pipes, MS pipe, accessories and other queries given by clients.",
+                "end_date": "01-2020",
+                "location": "Lahore",
+                "job_title": "Media Manager / Sales",
+                "start_date": "01-2019",
+                "company_name": "Mehboob Steel Traders"
+            },
+            {
+                "details": "(H&H) working as a B2B which provides packaging solutions for Food & Beverages, Pharmaceutical and cosmetic industries. My role is to provide packaging solutions for industries which includes: (Industrial Machinery, Packaging Material & Raw Material, Aluminum Tube, PE Tube, Plastic Laminate Tubes, Pet Bottles, Labels, Tapes and some allied products). I also represent the following companies which are a part of (H&H) Tubex Packaging (Pvt.) Ltd., Alpha Containers Industries, PCCL Labels (Pvt.) Ltd. Karachi, Shanghai Sunway International Trade Co., Ltd., China. The following clients I work with: Seatle Pharma Pakistan (Pvt) Ltd, Shezan International, Al fazal Pharma, Biocos cosmetics, Shama ghee cooking oil etc.",
+                "end_date": "11-2018",
+                "location": "Lahore",
+                "job_title": "Marketing Manager",
+                "start_date": "09-2018",
+                "company_name": "H&H Marketing Associates"
+            },
+            {
+                "details": "Translating client\u2019s goals and objectives into actionable and measurable digital marketing programs. Creating an inbound and outbound digital marketing strategy. Manage updates and strategy for the brand\u2019s social & digital presence focusing on platforms that are relevant to our client\u2019s business objectives (e.g. Twitter, Facebook, Google+, LinkedIn etc.). Managing the social media activities for PTCL: Evo Nitro, PTCL Broadband, 3G Evo 3.1Mbps, Evo Wingle, Evo Cloud, MyPtcl, New Landline Offer, Epic New Year Offer, PTCL 3G Offer, 4Mbps for all, EVO Summer Offer, CharJI offer, 1Mbps Double offer and recently CharJI Wingle and Cloud. Handling the customer's query related to product or services on social media. Monitoring social media channels for trends and opportunities. Viral marketing campaigns on a weekly basis for brand awareness.",
+                "end_date": "02-2015",
+                "location": "Karachi",
+                "job_title": "Digital Marketing Executive",
+                "start_date": "09-2013",
+                "company_name": "Internet Media"
+            }
+        ]
+    }
+}

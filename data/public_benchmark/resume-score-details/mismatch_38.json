@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks a formal Bachelor's degree in Business Administration, which is a minimum requirement.",
+            "Experience in business development as a Business Development Officer aligns with the required experience but lacks detail and leadership roles.",
+            "No explicit mention of strategic planning or strategic roles in past experiences relevant to a Business Development Manager role.",
+            "Possesses negotiation skills and experience in the banking sector, somewhat relevant but not fully aligned with the sales strategy in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 3
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 6
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 5
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.56,
+                "micro_scores": 3.6299999999999994
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza",
+            "email": "razaa694@gmail.com",
+            "phone": "+92-332-8707574",
+            "current_position": "Business Development Officer",
+            "current_company": "Allied Bank",
+            "employment_start_date_current_company": "Not provided",
+            "first_company_start_date": "Not provided",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 78,
+            "strategic planning": 22
+        },
+        "micro_dict": {
+            "market research": 26,
+            "negotiation": 24,
+            "sales strategy": 18,
+            "seo": 13,
+            "data analysis": 19
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": " \n \n \nObjective: - \nTo pursue  career  in a progressive  organization  that  provides  opportunities  \nfor career growth and professional development in order to groom the overall  \npersonality.  \n Personal  Information: - \nFather\u2019s  Name  Muhammad  Essa  \nDate  of Birth  10-02-1993  \nCNIC  No. 35102 -2529071 -3 \n \nDomicile  Kasur  (Punjab)  \n \nReligion  Islam  \n \nGender  Male  \n \nMarital  Status  Married  \n \n \nAcademic  Record: - \n \nDegree  Division  Year  Passing  Board/University  \nMatriculation  2nd 2009  BISE  Lahore  \nI.Com  1st 2012  BISE  Lahore  \nB.Com  2nd 2014  Punjab  University  \nM.A  Physical  Education  1st 2017  University  of Sargodha  \nURRICULUM  \nITAE  \nAAALLLIII RRRAAAZZZAAA \nPostal  Address:  Bahmani  Wala  Khurd,  Kasur  \nCell:  +92 -332 -8707574  \nE-Mail:  razaa694@gmail.com  \nComputer  Skills: - \n \n\u27a2 Diploma  in Computer  Sciences  DOM  \n \n\u27a2 Typing  Speed  40wpm  \n \nExperience: - \n \n\u27a2 . 02 Years  experience  as \u201cBusiness  Development  Officer\u201d  at Allied  Bank Kasur.  \n \n\u27a2 01 Year  experience  as a \u201cRelationship  Manager\u201d  at JS Bank  Kasur.  \n \n\u27a2 01 Year  experience        as  a  \u201c ACCOUNTANT     \u201don word       at  C ontinental Biscuits in \nkasur . \n \nLanguage: - \n \n\u27a2 English  \n \n\u27a2 Urdu  \n \n\u27a2 Punjabi  \n \nPersonal  Qualities: - \n \n\u27a2 Work  well  under  pressure  \n \n\u27a2 Work  well  as team  member  \n \n\u27a2 Strong  Organization,  Problem  Solving  \n \nReference: - \n \n\u27a2 Will  be furnished  on demand  \n"
+    },
+    "details": {
+        "name": "Raza Ali",
+        "number": "923328707574",
+        "skills": [
+            "Computer Sciences",
+            "Typing Speed 40wpm"
+        ],
+        "email_id": "razaa694@gmail.com",
+        "location": "Bahmani Wala Khurd, Kasur",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "University of Sargodha",
+                "degree_title": "M.A Physical Education"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Punjab University",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "BISE Lahore",
+                "degree_title": "I.Com"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "BISE Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/razaali",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Raza Ali is a dedicated professional with experience in business development and relationship management, possessing strong technical skills in computer sciences and typing. He has a solid educational background with a Master's degree in Physical Education and has worked in various roles in the banking and accounting sectors.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer at Allied Bank, responsible for client acquisition and relationship management.",
+                "end_date": "11-2024",
+                "location": "Kasur",
+                "job_title": "Business Development Officer",
+                "start_date": "11-2022",
+                "company_name": "Allied Bank"
+            },
+            {
+                "details": "Relationship Manager at JS Bank, focusing on customer service and financial solutions.",
+                "end_date": "11-2021",
+                "location": "Kasur",
+                "job_title": "Relationship Manager",
+                "start_date": "11-2020",
+                "company_name": "JS Bank"
+            },
+            {
+                "details": "Accountant at Continental Biscuits, managing financial records and transactions.",
+                "end_date": "11-2020",
+                "location": "Kasur",
+                "job_title": "Accountant",
+                "start_date": "11-2019",
+                "company_name": "Continental Biscuits"
+            }
+        ]
+    }
+}

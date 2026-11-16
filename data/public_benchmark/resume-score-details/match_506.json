@@ -1,0 +1,162 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not detail any lead generation or business intelligence experience required by the job description.",
+            "There is no mention of business intelligence tools like Power BI, SQL, or Tableau which are mandatory.",
+            "The educational background does not align with the preferred institutions by Innovate Connections Inc.",
+            "The skills summary lacks any programming languages, BI tools knowledge, or digital marketing expertise as mentioned in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 0
+                },
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "S A D O O N  Z A H I D",
+            "email": "None",
+            "phone": "None",
+            "current_position": "Sales Manager",
+            "current_company": "Repstack",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "01-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "innovation and adaptability": 100
+        },
+        "micro_dict": {
+            "c++, html, css": 37,
+            "business intelligence tools (power bi, sql, tableau)": 63
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "3+ years of experience in lead generation or business intelligence",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Proficiency in at least one programming language"
+        ],
+        "resume": "SALES MANAGER\nCERTIFICATIONS\nOutbound CallsS A D O O N  Z A H I D\nEDUCATIONAL HISTORY\nSKILLS SUMMARYHubSpot Sales\ncertificate\nCommunication\nskills \nProblem Solving \nTime efficiency Salesforce \nActive Listener\nAppointment\nsetter Attained 200% plus sales attainment\nthroughout my tenure.\nCompleting daily assigned kpis and mentoring\nthe new hiresSENIOR SALES EXECUTIVEIbex Global ( DGS).ACCOUNT EXECUTIVE Keeptruckin\nJan, 2022 - APT 2022Attained 327% sales attainment in probation\nCompleting daily assigned kpis and\nscheduling demosSALES MANAGERRepstack\nGot Enrolled in RSA\nCompleted GHL Trainings\nCompleted HubSpot Sales Certifications\nCreated Looms and Presentations\nWorked as sales manager for USA based Client YauheniAPR 22 - CURRENT\nJAN 22 - APR 22\nJAN 17- MAY 21Acca\nOXFORD BROOKES\nUNIVERSITY\nGCE O/A Levels\nBEACONHOUSE SCHOOL\nMaster Sales\nProgram\nAdvanced Customer\nObjection Handling"
+    },
+    "details": {
+        "name": "S A D O O N Z A H I D",
+        "number": "03124843384",
+        "skills": [
+            "HubSpot Sales",
+            "Salesforce",
+            "Advanced Customer Objection Handling"
+        ],
+        "email_id": "sadoonzahid@example.com",
+        "location": "USA",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2021",
+                "university": "OXFORD BROOKES UNIVERSITY",
+                "degree_title": "Acca"
+            },
+            {
+                "end_date": "01-2022",
+                "university": "BEACONHOUSE SCHOOL",
+                "degree_title": "GCE O/A Levels"
+            }
+        ],
+        "achievements": [
+            "Attained 200% plus sales attainment throughout tenure",
+            "Attained 327% sales attainment in probation"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "HubSpot Sales certificate",
+                "issuing_organization": "HubSpot",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Master Sales Program",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Advanced Customer Objection Handling",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sadoonzahid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/sadoonzahid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "S A D O O N Z A H I D is a results-driven sales manager with a proven track record of exceeding sales targets and mentoring new hires. With expertise in HubSpot Sales and Salesforce, he has consistently achieved high sales attainment rates and completed various sales training programs.",
+        "employment_history": [
+            {
+                "details": "Worked as sales manager for USA based Client Yauheni, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "CURRENT",
+                "location": "USA",
+                "job_title": "SALES MANAGER",
+                "start_date": "04-2022",
+                "company_name": "Repstack"
+            },
+            {
+                "details": "Attained 327% sales attainment in probation, completed daily assigned KPIs and scheduled demos.",
+                "end_date": "04-2022",
+                "location": "USA",
+                "job_title": "ACCOUNT EXECUTIVE",
+                "start_date": "01-2022",
+                "company_name": "Keeptruckin"
+            },
+            {
+                "details": "Attained 200% plus sales attainment throughout tenure, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "05-2021",
+                "location": "USA",
+                "job_title": "SENIOR SALES EXECUTIVE",
+                "start_date": "01-2017",
+                "company_name": "Ibex Global (DGS)"
+            }
+        ]
+    }
+}

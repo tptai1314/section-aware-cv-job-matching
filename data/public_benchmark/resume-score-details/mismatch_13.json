@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "Saba has demonstrated experience handling business development in multiple sectors, including B2B sales, satisfying relevant experience needs.",
+            "Leadership opportunities were evident in team handling and project management experiences in previous roles.",
+            "Although relevant skills in HTML and CSS are present, higher proficiency in B2B tools like Excel was expected.",
+            "The University attended is not a preferred institution as per the internal documentation."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 8
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.630000000000001,
+                "micro_scores": 6.02
+            }
+        },
+        "personal_info": {
+            "name": "Saba Ahsan",
+            "email": "saba.ahsan1116@gmail.com",
+            "phone": "+923314770528",
+            "current_position": "Business Development Executive",
+            "current_company": "Rendream",
+            "employment_start_date_current_company": "06-2023",
+            "first_company_start_date": "07-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "LinkedIn"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 37,
+            "experience": 29,
+            "strategic thinking": 34
+        },
+        "micro_dict": {
+            "b2b sales": 1,
+            "data analysis": 87,
+            "it and manufacturing sector knowledge": 12
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": "SABA AHSAN\nBusiness Development Executivesaba.ahsan1116@gmail.com\n+923314770528\nMughal Pura, Lahore\nPROFILE\nI am currently working as a \nBusiness Development Executive. \nI look forward to joining a \nfull-time position in a dynamic and \nprogressive organization where I \ncan polish my skills by learning \nfrom diverse experiences for \ncontinuous professional growth.\nLINKS\nLinkedIn\nSKILLS\nCSS\n HTML \n WordPress\nLinkedIn Reach-Out \nCompetitor Analysis\nEmail Marketing\nLead Generation\nData Extraction \nCompetitor Analysis \nClient Dealing\nMonthly Performance Report\n Client Hunting \nLANGUAGES\nEnglish \nUrdu\nHOBBIES\nReading\nTraveling\nLearning Languages \nPhotographyEMPLOYMENT HISTORY\nBusiness Development Executive at Rendream, Lahore\nJun, 2023 - Present\n\u2022Dealing with International Clients\n\u2022Client relationship Expert\n\u2022Market analysis, segmentation (growth hacking), and lead \ngeneration\n\u2022Cold calling, closing deals, and acquiring new clients.\n\u2022Daily dealing with the CEO, CFO, and Corporate owners.\n\u2022Setting new appointments and approaching new clients\nBusiness Development Executive at InvoZone, Lahore\nApr, 2022 - May, 2023\n\u2022B2B & B2C\n\u2022Client Dealing\n\u2022Lead hunter\n\u2022Handle Team of Business Development\n\u2022Manage Projects and Clients\n\u2022Analytical thinking and problem-solving\n\u2022Organizational skills to achieve the desired outcome\n\u2022Expert in communication skills\n\u2022Ability to manage all critical situations\n\u2022Strong communication and presentation skills\n\u2022Ability to Attend networking activities to research and connect with \nprospective clients\nBusiness Development Executive at TechNerds Agency, Lahore\nJul, 2021 - Apr, 2022\n\u2022Business Leads searching\n\u2022Project and team management\n\u2022Manages the development of new sales leads through a variety of \nplatforms\n\u2014 Digital & Social Media Intern at Cortexom Innovations\nApr, 2021 - Jun, 2021\nAmal Academy Career Prep Fellowship at Stanford University\nJul, 2020 - Aug, 2020\nEDUCATION\nBS Computer Science at NCBA&E, DHA Campus, Lahore\nSep, 2016 - Sep, 2020\n\u2022GPA 3.07\n\u2022Best Class Representative\n\u2022Best Student Reward in the whole Batch\nHSSC (I.C.S) at Govt. College for Women, Lahore\nAug, 2014 - Aug, 2016\nSSC (Science Group) at BISE, Lahore\nAug, 2012 - Aug, 2014"
+    },
+    "details": {
+        "name": "Saba Ahsan",
+        "number": "923314770528",
+        "skills": [
+            "CSS",
+            "HTML",
+            "WordPress",
+            "Email Marketing",
+            "Lead Generation",
+            "Data Extraction"
+        ],
+        "email_id": "saba.ahsan1116@gmail.com",
+        "location": "Mughal Pura, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "09-2020",
+                "university": "NCBA&E, DHA Campus, Lahore",
+                "degree_title": "BS Computer Science"
+            }
+        ],
+        "achievements": [
+            "Best Class Representative",
+            "Best Student Reward in the whole Batch"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saba Ahsan is a dedicated Business Development Executive with a strong background in technical skills such as CSS, HTML, and WordPress. She has demonstrated expertise in email marketing, lead generation, and data extraction, contributing to her success in managing client relationships and driving business growth.",
+        "employment_history": [
+            {
+                "details": "Dealing with International Clients, Client relationship Expert, Market analysis, segmentation (growth hacking), and lead generation, Cold calling, closing deals, and acquiring new clients, Daily dealing with the CEO, CFO, and Corporate owners, Setting new appointments and approaching new clients.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "06-2023",
+                "company_name": "Rendream"
+            },
+            {
+                "details": "B2B & B2C, Client Dealing, Lead hunter, Handle Team of Business Development, Manage Projects and Clients.",
+                "end_date": "05-2023",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "04-2022",
+                "company_name": "InvoZone"
+            },
+            {
+                "details": "Business Leads searching, Project and team management, Manages the development of new sales leads through a variety of platforms.",
+                "end_date": "04-2022",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2021",
+                "company_name": "TechNerds Agency"
+            },
+            {
+                "details": "Internship focused on digital and social media strategies.",
+                "end_date": "06-2021",
+                "location": "Lahore",
+                "job_title": "Digital & Social Media Intern",
+                "start_date": "04-2021",
+                "company_name": "Cortexom Innovations"
+            }
+        ]
+    }
+}

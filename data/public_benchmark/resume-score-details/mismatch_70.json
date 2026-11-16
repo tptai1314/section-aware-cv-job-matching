@@ -1,0 +1,140 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has strategic planning experience, managing sales and marketing operations at InvoZone.",
+            "Candidate lacks specific experience in strategic planning at a senior management level as outlined in the job description.",
+            "Candidate demonstrates experience in business development and relevant platforms, but lacks high-stakes negotiation or strategy involvement mentioned in the JD.",
+            "Candidate possesses some market research skills as evidenced by lead generation and managing marketing plans across platforms."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 6
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 5.34
+            }
+        },
+        "personal_info": {
+            "name": "Fahad Malik",
+            "email": "Fahadmalik614@yahoo.com",
+            "phone": "+92 (324)7006815",
+            "current_position": "Business Developer",
+            "current_company": "InvoZone",
+            "employment_start_date_current_company": "10-2021",
+            "first_company_start_date": "06-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "LinkedIn URL"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "strategic planning": 100
+        },
+        "micro_dict": {
+            "market research": 34,
+            "negotiation": 66
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "         Fahad Malik      \n                                                                     (Business Development Executive ) \n \nFahadmalik614@yahoo.com  \n \n+92  (324)7006815    March 4, 1998  \n               LinkedIn URL  \n \n \nWhy  Fahad ? \n\uf0a7 Proficient  and dynamic  professional having deep -rooted proficiency across sales and marketing operations oversight, \nstrategic planning, customer service, brand awareness, and product selling. Innovative strategist, astute at developing & \nimplementing advanced tools, processes, strategies, and techniques  \n\uf0a7 High -performing team player with exceptional skills in delivering exceptional client quires  and establishing relationships. \nAdept at determining clients\u2019 needs and selling best -suited stacks for my clients , thus exceeding expectations  \n  \nCORE  STRENGTHS  & ENABLING  SKILLS  \n \n\uf0a7 Sales  & Marketing  \uf0a7 Customer  Service  \uf0a7 Team  Coordination  \uf0a7 Business Developer  \n\uf0a7 Trello / Slack  \uf0a7 Sales  Generation  \uf0a7 Problem  Resolution  \uf0a7 LinkedIn  \n\uf0a7 Mirro / Discord  \uf0a7 Lead Generation  \uf0a7 Technical  & Analytical  \uf0a7 MS Office  Suite  \n\uf0a7 Brand  & Product  Awareness  \uf0a7 Project Management  \uf0a7 Decision  Making  \uf0a7 Five rr & Upwork  \nPROFESSIONAL  EXPERIENCE  \n \n10-2021 -Present    Business Developer , InvoZone, Lahore.  \n\u25aa Managed overall day -to-day sales and marketing operations on U pwork/Fiverr. Formulated and executed growth -focused \nstrategic sales and marketing plans aimed at promoting awareness and boosting sales  \n \n\u25aa Leveraged strong technical skills to manage digital mark eting across platform \u2013 LinkedIn . Contr ibuted to generating attractive \ncontent and ad for  corporate\u2019s social media account to generate more lead and sales  \n \n\u25aa Welcomed and greeted clients on multiple tech events , communicated to determine needs, and recommended best -suited \nstacks like blockchain/Unreal Engine/Unity/Web3 etc . Acted as a focal point of contact for clients aimed at determining and \naddressing concerns rapidly  \n \n \n06/2021 -09/2021 -Business D eveloper , Moving Panda Studio, Lahore.  \nBusiness development, Lead Generation, Client Communication , Project Management,  \n \n01/2020 -05/2020 -Intern , Coca -Cola, Multan.  \nMaintain daily sales/purchase through Marketing.  \n \n  \n \nPROFESSIONAL  QUALIFICATION  \n \n01/2017 - 06/2021  \nBachelors of Business Administration (BBA) , NCBA&E, Multan.  \nMajor: Marketing   \n \n09/2014 \u201309/2016  \n Intermediate, Rise College, Multan. Pr ogram: I.Com  \n \n \n \n \n \n \nCanal Park Near Tra fco House, Gulberg 2 , Lahore,  Pakistan  \n"
+    },
+    "details": {
+        "name": "Fahad Malik",
+        "number": "3247006815",
+        "skills": [
+            "Sales & Marketing",
+            "Customer Service",
+            "Business Developer",
+            "Trello",
+            "Slack",
+            "Sales Generation",
+            "Lead Generation",
+            "MS Office Suite",
+            "Project Management"
+        ],
+        "email_id": "Fahadmalik614@yahoo.com",
+        "location": "Canal Park Near Trafic House, Gulberg 2, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "NCBA&E, Multan",
+                "degree_title": "Bachelors of Business Administration (BBA)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/fahadmalik",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Fahad Malik is a dynamic business development executive with a strong background in sales and marketing operations. He has demonstrated proficiency in managing digital marketing strategies and client communications, contributing to significant lead generation and sales growth.",
+        "employment_history": [
+            {
+                "details": "Managed overall day-to-day sales and marketing operations on Upwork/Fiverr. Formulated and executed growth-focused strategic sales and marketing plans aimed at promoting awareness and boosting sales. Leveraged strong technical skills to manage digital marketing across platforms.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Developer",
+                "start_date": "10-2021",
+                "company_name": "InvoZone"
+            },
+            {
+                "details": "Business development, Lead Generation, Client Communication, Project Management.",
+                "end_date": "09-2021",
+                "location": "Lahore",
+                "job_title": "Business Developer",
+                "start_date": "06-2021",
+                "company_name": "Moving Panda Studio"
+            },
+            {
+                "details": "Maintain daily sales/purchase through Marketing.",
+                "end_date": "05-2020",
+                "location": "Multan",
+                "job_title": "Intern",
+                "start_date": "01-2020",
+                "company_name": "Coca-Cola"
+            }
+        ]
+    }
+}

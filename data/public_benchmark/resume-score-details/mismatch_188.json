@@ -1,0 +1,200 @@
+{
+    "output": {
+        "justification": [
+            "The candidate, Faizan Moazzam, possesses relevant skills in marketing and leadership, proven by his experience as Marketing Executive at Chaplet International and President of University of Lahore's LB-IETS Society.",
+            "His BBA degree in Supply Chain Management aligns with the requirement for a Bachelor\u2019s degree in Business Administration or related field, fulfilling the educational criteria.",
+            "Experience in B2B sales and marketing is supported by his role at Chaplet International, focusing on marketing strategies and lead generation, but lacks specific IT and manufacturing sector knowledge.",
+            "Proficiency in Microsoft Office Suite is indicated on the resume, particularly with experience in Microsoft Excel at Silk Bank, meeting the job's requirement for MS Office proficiency."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 7
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 9
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Microsoft Office Suite Proficiency",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor\u2019s Degree in Required Field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.09,
+                "micro_scores": 6.63
+            }
+        },
+        "personal_info": {
+            "name": "Faizan Moazzam",
+            "email": "faizan.moazzam11@gmail.com",
+            "phone": "+923008894449",
+            "current_position": "Marketing Executive",
+            "current_company": "Chaplet International",
+            "employment_start_date_current_company": "07-2022",
+            "first_company_start_date": "07-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 13,
+            "experience": 4,
+            "strategic thinking": 83
+        },
+        "micro_dict": {
+            "b2b sales": 16,
+            "communication skills": 26,
+            "data analysis": 27,
+            "it and manufacturing sector knowledge": 31
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Marketing, or a related field"
+        ],
+        "resume": "FAIZAN  MOAZZAM  +923008894449  \nfaizan.moazzam11@gmail.com  \n \n \n  \n \nOBJECTIVE  \nSeeking job in an organization where I can  \ngrow  in terms  of knowledge,  skills  and \nattitude, and put to an effective use of my  \nskills.  \n \n \nEDUCATIONAL  \nBACKGROUND  \n \nThe University  of Lahore  \nBachelors in Business Administration  \nBBA  (4 years  program)  2018 -2022  \n(Supply  chain  Management)  (CGPA  3.94) \n \nGovernment  College  Lahore  \nIntermediate FSC  \n \nDHA  senior  school Lahore  \nMatriculation.   \nSEMINARS/CERTIFICATES  \n \n\uf0b7 SAP \u2013 MM Certification  \nEXD Lahore (March 2022 - July  2022 ) \nAttended  a seminar  by Microsoft  on \ninterview  preparation  and personal  branding.  \nParticipated in Uol case Study Competition.  \nParticipated  in FCCU  Poster  Competition  \n2021 . \nParticipated in UOL Quiz Competition 2019  \nCompleted a certification on Fundamentals  \nof Machine Learning from Duke University  \n(Coursera).  \nPROJECTS  \n\uf0b7 Participated in CFA Institute Research \nChallenge 2021 -2022.  \n\uf0b7 Worked as an Operations head in managing \nThe theatrical play, \u201cThe Last Dance\u201d by \nMadaari Films.  \n\uf0b7 Managed the event, \u201cPolo for Peace 2019\u201d.  \n\uf0b7 Project on L\u2019Or\u00e9al Paris Operations \nManagement  \n\uf0b7 Analyzed  the gap of LU biscuits marketing \nstrategies . \nSKILLS  \n\uf0b7 Proficient in spoken and writing English, \nUrdu and to some extent Punjabi.  \n\uf0b7 Have knowledge of Basics of Word press, \nSEO and Social media marketing. Have \nknowledge of MS -Office.  \n\uf0b7 A responsible person and take great joy in \ndoing the task provided. Active \nparticipant, leading and taking everyone  \nside by side . EXPERIENCE  \nChaplet International (July 2022 - Present)  \n\uf0b7 I\u2019m currently working as a Marketing Executive.  \n\uf0b7 My tasks consists of making new marketing strategies , \nPlanning the social media campaigns , doing R & D and \nbranding of the company . I\u2019m also managing different \nplatforms f or the company like Ali Baba, generating leads and \nensuring brand alignment to increase  brand awareness.  \nBulleh Shah Packages (February 2022 -March 2022)  \n\uf0b7 Worked as an intern in the Financial controlling department \nfor 6 weeks.  \n\uf0b7 Worked closely with the payables section which coordinates \nwith the purchase and supply chain section of the company.  \n\uf0b7 Worked on SAP and learnt about the importance of  an ERP \nsystem in a business.  Got to know about the different entries \nrelated to SAP and p osting of bills.  \nDawn  Bread  (August  2021 -September  2021)  \nWorked as an intern for 8 weeks, Worked in the Supply Chain  \nDepartment  of Dawn  Bread.  \nLearnt about all the functions of Supply Chain and Procurement \nProcess in the FMCG  industry. Learnt about the Order \nmanagement system, Vehicle  timing sheet and the Tray \nmanagement sheet. Co -ordinated data  from  all the warehouses  \nand managed the  data.  \nWorked  on Excel  and made  summaries  of the data from  \ndifferent  warehouses. Worked on the Materials Master sheet  \nand got an overview  of SAP and its importance  at Dawn.  \nVisited the production  units of Dawn  bread.  \nPepsiCo  (June  2021 \u2013August 2021)  \nWorked  as an intern  for 6 Weeks.  \nWorked  with cross  functional  teams  at the marketing  \ndepartment  of PepsiCo.  \nWas assigned  a project  on Marketing  of Aquafina  19 L, \nevaluated  the current  strategies  and identified  the gap. As part \nof our project,  did research  by developing  a survey  on \n\u201cAnalyzing  the consumer  preferences  and promotional  \nactivities for Aquafina19 litre  bulk water bottle in domestic,  \ncorporate  and retail  sector\u201d.  After  analyzing  the results  \nrecommended  effective  marketing  campaigns  to the company.  \nSilk bank  (July  2019 \u2013August  2019)  \nWorked as  an intern,  at Silk bank for  8 weeks.  \nAnswered incoming calls,  took down messages and provided  \ninformation.  Kept  physical  files and digitalized  records,  \norganized for easy updating and retrieval by authorized team  \nmembers.  Worked on MS. Excel and managed the data. Dealt \nwith the  customers  and worked  on the documenta tion of \naccount  opening  forms.  \nUniversity of Lahore -LB-IETS Society (2019 -2022)  \n\uf0b7 Worked as the President of the Lb -Iets society at the University \nof Lahore.  \n\uf0b7 Worked in the Human resource, Marketing and Operations \ndomains and conducted interviews, worked on branding of the \nsociety, member development and satisfaction.  Worked in the \nProcurement domain and managed different vendors.  \n\uf0b7 Managed and organized a workshop on Digital Marketing. \nManaged and organized the QS raking seminar at the \nUniversity of Lahore. Organized a seminar on Entrepreneurial \nventures and the role of Marketing and the Life Style Expo \n2019 which went on for 3 days.  "
+    },
+    "details": {
+        "name": "Faizan Moazzam",
+        "number": "923008894449",
+        "skills": [
+            "SAP",
+            "MS Office",
+            "WordPress",
+            "SEO",
+            "Social Media Marketing",
+            "Machine Learning"
+        ],
+        "email_id": "faizan.moazzam11@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "CFA Institute Research Challenge 2021-2022",
+                "description": "Participated in the research challenge."
+            },
+            {
+                "title": "The Last Dance",
+                "description": "Managed the theatrical play as Operations head."
+            },
+            {
+                "title": "Polo for Peace 2019",
+                "description": "Managed the event."
+            },
+            {
+                "title": "L\u2019Or\u00e9al Paris Operations Management",
+                "description": "Project on operations management."
+            },
+            {
+                "title": "LU Biscuits Marketing Strategies",
+                "description": "Analyzed marketing strategies."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "The University of Lahore",
+                "degree_title": "BBA (Supply Chain Management)"
+            }
+        ],
+        "achievements": [
+            "CGPA 3.94 in BBA",
+            "Participated in UOL Case Study Competition",
+            "Participated in FCCU Poster Competition 2021",
+            "Participated in UOL Quiz Competition 2019"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "SAP \u2013 MM Certification",
+                "issuing_organization": "EXD Lahore",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Fundamentals of Machine Learning",
+                "issuing_organization": "Duke University (Coursera)",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/faizanmoazzam",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Faizan Moazzam is a dedicated marketing executive with a strong educational background in business administration and supply chain management. He possesses technical skills in SAP, MS Office, WordPress, SEO, and social media marketing, complemented by hands-on experience in various internships and projects.",
+        "employment_history": [
+            {
+                "details": "Currently working as a Marketing Executive, responsible for creating marketing strategies, planning social media campaigns, conducting research and development, and managing branding efforts.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Marketing Executive",
+                "start_date": "07-2022",
+                "company_name": "Chaplet International"
+            },
+            {
+                "details": "Interned in the Financial Controlling department, focusing on payables and learning about ERP systems.",
+                "end_date": "03-2022",
+                "location": "",
+                "job_title": "Intern",
+                "start_date": "02-2022",
+                "company_name": "Bulleh Shah Packages"
+            },
+            {
+                "details": "Interned in the Supply Chain Department, learning about procurement processes and data management.",
+                "end_date": "09-2021",
+                "location": "",
+                "job_title": "Intern",
+                "start_date": "08-2021",
+                "company_name": "Dawn Bread"
+            },
+            {
+                "details": "Interned in the marketing department, working on a project for Aquafina marketing strategies.",
+                "end_date": "08-2021",
+                "location": "",
+                "job_title": "Intern",
+                "start_date": "06-2021",
+                "company_name": "PepsiCo"
+            },
+            {
+                "details": "Interned at Silk Bank, managing data and customer documentation.",
+                "end_date": "08-2019",
+                "location": "",
+                "job_title": "Intern",
+                "start_date": "07-2019",
+                "company_name": "Silk Bank"
+            }
+        ]
+    }
+}

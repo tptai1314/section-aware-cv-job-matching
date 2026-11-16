@@ -1,0 +1,122 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks direct professional experience in business development or sales roles.",
+            "Educational background does not align with preferred universities, and the field is IT rather than Business Administration.",
+            "Skills listed do not specifically include strategic thinking or proven negotiation skills.",
+            "Proficiency in Microsoft Office Suite is not explicitly mentioned."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "account management",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.930000000000001,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Usama Khalid",
+            "email": "maxfury3003@gmail.com",
+            "phone": "+923064993003",
+            "current_position": "IT Professional",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 93,
+            "strategic thinking": 7
+        },
+        "micro_dict": {
+            "account management": 100
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Strong negotiation and strategic thinking skills",
+            "Proven track record in managing complex sales cycles"
+        ],
+        "resume": "Usama Khalid\nIT Professional\nContact\nPhone\n+923064993003\nAddress\nFarooq Colony House # 7\nStreet # 7 Chishtian \nEmail\nmaxfury3003@gmail.com\nExpertise\nReferencesBootstrapHTML5\nSQL serverC++\nCSS3\nWill be furnished on\ndemand.Objective\nTo take long-term career-oriented employment to invest\nall my education Qualification, Professional Experience\nand to undertake Responsibility to widen the scope of\nlearning practically to the optimum benefits of the\nOrganization and entire Development of my career.\nExperience\nFreshEducational\nBS Information Technology | 2017 \u2013 2021\nThe Islamia University of Bahawalpur\nCGPA: 3.43/ 4.00\nMatric: Science Education | 2013 \u2013 2015\nBISE Bahawalpur\nPercentage: 69.2%FSC Pre-Engineering. | 2015\u2013 2017\nBISE Bahawalpur\nPercentage: 74.18%\nLanguages\nEnglish\nPunjabi\nURDUPersonal Information\nDate of Birth:\n19 August , 2000\nMarital Status: Single\nReligion: ISLAMCNIC: 31102-0923246-3\nPersonal Skills\nCritical Thinking\nTime Management\nLeadership\nTeam ManagementPythonMS Information Security | 2021 \u2013 2023\nThe Islamia University of Bahawalpur\nContinue"
+    },
+    "details": {
+        "name": "Usama Khalid",
+        "number": "923064993003",
+        "skills": [
+            "Bootstrap",
+            "HTML5",
+            "SQL server",
+            "C++",
+            "CSS3",
+            "Python"
+        ],
+        "email_id": "maxfury3003@gmail.com",
+        "location": "Farooq Colony House # 7, Street # 7 Chishtian",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "The Islamia University of Bahawalpur",
+                "degree_title": "BS Information Technology"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "BISE Bahawalpur",
+                "degree_title": "Matric: Science Education"
+            },
+            {
+                "end_date": "06-2017",
+                "university": "BISE Bahawalpur",
+                "degree_title": "FSC Pre-Engineering"
+            },
+            {
+                "end_date": "12-2023",
+                "university": "The Islamia University of Bahawalpur",
+                "degree_title": "MS Information Security"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Usama Khalid is an IT professional with a strong educational background in Information Technology and Information Security. He possesses technical skills in various programming languages and frameworks, demonstrating a commitment to advancing his career in the tech industry.",
+        "employment_history": []
+    }
+}

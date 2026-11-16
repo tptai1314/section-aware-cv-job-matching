@@ -1,0 +1,174 @@
+{
+    "output": {
+        "justification": [
+            "Leadership experience demonstrated through team leader roles at S.T.A.R.S Corporation and Final Year Project at university.",
+            "Relevant experience includes significant lead generation and business development roles, directly aligning with the job description requirements.",
+            "Skills in C++, HTML, and CSS match the programming requirements of the job description.",
+            "Experience with CRM systems like Salesforce supports the role's CRM and data management skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 8
+                },
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm and data management",
+                    "score": 8
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.6,
+                "micro_scores": 6.800000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Reham Shah",
+            "email": "reham.altaf2@gmail.com",
+            "phone": "+923328079859",
+            "current_position": "Business Development Executive",
+            "current_company": "THD Infinity",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "07-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/reham-shah-a72b46172"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 60,
+            "innovation and adaptability": 40
+        },
+        "micro_dict": {
+            "c++, html, css": 28,
+            "business intelligence tools (power bi, sql, tableau)": 38,
+            "crm and data management": 30,
+            "digital marketing skills": 2,
+            "project management": 2
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Strong communication and interpersonal skills",
+            "3+ years of experience in lead generation or business intelligence",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Proficiency in at least one programming language"
+        ],
+        "resume": "Reham Shah  \n \n \n             +923328079859                                          reham.altaf2@gmail.com @gmail.com  \nValencia  Town Lahore, Pakistan                    linkedin.com/in/reham -shah -a72b46172  \n \nB2B Sales Development        Client Liaison                            Online Bidding  \n \nBusiness Development Executive    July 2020 \u2013 Current  \n \n\u2756 Building and maintaining  successful  relationships with prospects and existing  clients . \n\u2756 Collaborating with executives on business Strategy to determine objectives . \n\u2756 Generated Top rated Client\u2019s Leads through freelancing Platforms like Upwork, \nFreelancers, Fiverr,   LinkedIn.  \n\u2756 Maximized productivity by analyzing protocols and identifying areas for improvement.  \n\u2756 Engaged with customers to effectively build rapport and lasting relationships. Solved \ncustomer challenges by  offering relevant products and services.  \n\u2756 Provided positive first impressions to welcome existing, new and potential customers.  \n\u2756 Helped develop ed Sales Automation process & Lead generation automation  \n\u2756 Handl ed Client Projects related to Software Development.  \n\u2756 Worked with CRM's like Salesforce  & Odoo . \n \nExperiences : \n \n Business Development officer at Kodex Technologies        (July 2020 to Sep 2020)  \n \n\u2756 Worked as a Bidder on multiple freelancing platform . \n\u2756 Worked on Linkedin Lead Generation . \n\u2756 Handled Client Projects related to Software Development . \n \nBusiness Development Executive at S.T.A.R.S Pvt.(.Ltd )      (Oct 2020 to April 2021)  \n \n\u2756 Worked as Bidder on multiple freelancing platform . \n\u2756 Worked on LinkedIn  Lead Generation . \n\u2756 Handled Client Projects related to Software Development.  \n\u2756 Technical  Required Gathering.  \n\u2756 Created Scope of Documents, DTLs . \n \nSales Development Representative at TkXel                        (May 2021 to October 2021)  \n \u2756 Sending  email to Market Qualif ied Leads.  \n\u2756 Converting MQLS into Discovery Call.  \n\u2756 Scheduling Zoom Meeting with clients.  \n\u2756 Maintain client\u2019s data on Salesforce CRM.  \n\u2756 Follow Ups to existing Leads.  \n \nBusiness Development Executive at THD Infinity   (Nov 2021 to present)  \n \n\u2756 Bidding on software development projects  over  Upwork  platfrom . \n\u2756 Scheduling Discovery call.  \n\u2756 Technical Requirement Gathering, Product analysis.  \n\u2756 Creating SOW  Document . \n\u2756 Creating DTLS and helping developer understand the client needs.  \n\u2756 Follow ups  with existing clients and generating new Leads.    \n \nAcademic Qualification:  \n \nComputer sciences - Bahria  University,  Lahore - 2016 -2020  \n \nSoft & Tech Skills:  \n\u2756 Good Communication Skills , verbal & written . \n\u2756 Experienced in dealing with US based clients . \n\u2756 Team Leader  at S.T.A.R.S Corporation.  \n\u2756 Familiar  in variety of development technologies and concepts including C++, Java, \nHTML/CSS, Agile/Scrum, Busines s Intelligence . \n\u2756 Web & Graphics Course  (NexxusBerry) . \n\u2756 Team lead for the Final Year  Project . \n \nAchievements : \n \n\u2756 Bahria Got Talent bulc  (Singing) . \n\u2756 Secured 2nd Position in Debate  Competition at Bahria University . \n\u2756 Employee of the Month at S.T.A.R.S . \n \nReferences:  \n \nUsman Farooqi, Business Manager at Kodex Technologies  \nUsmanfarooqi22@email,  +92 3214445372  \n \n "
+    },
+    "details": {
+        "name": "Reham Shah",
+        "number": "923328079859",
+        "skills": [
+            "C++",
+            "Java",
+            "HTML/CSS",
+            "Agile/Scrum",
+            "Business Intelligence",
+            "Salesforce",
+            "Odoo"
+        ],
+        "email_id": "reham.altaf2@gmail.com",
+        "location": "Valencia Town Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2020-12",
+                "university": "Bahria University",
+                "degree_title": "Computer Sciences"
+            }
+        ],
+        "achievements": [
+            "Secured 2nd Position in Debate Competition at Bahria University",
+            "Employee of the Month at S.T.A.R.S"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/reham-shah-a72b46172",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Reham Shah is a skilled business development executive with a strong background in software development and client relations. She has demonstrated expertise in various programming languages and tools, contributing to successful project management and lead generation efforts across multiple freelancing platforms.",
+        "employment_history": [
+            {
+                "details": "Building and maintaining successful relationships with prospects and existing clients. Collaborating with executives on business strategy to determine objectives. Generated top-rated client leads through freelancing platforms like Upwork, Freelancers, Fiverr, LinkedIn. Maximized productivity by analyzing protocols and identifying areas for improvement. Engaged with customers to effectively build rapport and lasting relationships. Solved customer challenges by offering relevant products and services. Provided positive first impressions to welcome existing, new and potential customers. Helped develop sales automation process & lead generation automation. Handled client projects related to software development. Worked with CRMs like Salesforce & Odoo.",
+                "end_date": "Current",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2020",
+                "company_name": "THD Infinity"
+            },
+            {
+                "details": "Worked as a Bidder on multiple freelancing platforms. Worked on LinkedIn lead generation. Handled client projects related to software development.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Officer",
+                "start_date": "07-2020",
+                "company_name": "Kodex Technologies"
+            },
+            {
+                "details": "Worked as Bidder on multiple freelancing platforms. Worked on LinkedIn lead generation. Handled client projects related to software development. Technical requirement gathering. Created scope of documents, DTLs.",
+                "end_date": "04-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2020",
+                "company_name": "S.T.A.R.S Pvt.(Ltd)"
+            },
+            {
+                "details": "Sending email to market qualified leads. Converting MQLs into discovery calls. Scheduling Zoom meetings with clients. Maintain client\u2019s data on Salesforce CRM. Follow-ups to existing leads.",
+                "end_date": "10-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Development Representative",
+                "start_date": "05-2021",
+                "company_name": "TkXel"
+            }
+        ]
+    }
+}

@@ -115,6 +115,7 @@ class HybridRanker:
         doc_id: str = "",
         section_components: dict[str, float] | None = None,
         renormalize_missing: bool = False,
+        must_have_penalty: bool = False,
     ) -> RankedCandidate:
         req = replace(requirement, semantic_base=clamp01(semantic))
         breakdown = hybrid_score(
@@ -122,6 +123,7 @@ class HybridRanker:
             profile,
             self.weights,
             renormalize_missing=renormalize_missing,
+            must_have_penalty=must_have_penalty,
         )
         return RankedCandidate(
             doc_id=doc_id,

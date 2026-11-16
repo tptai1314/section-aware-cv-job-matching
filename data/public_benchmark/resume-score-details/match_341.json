@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrates leadership potential through their experience managing outbound sales activities and collaborating with sales managers, though there is limited evidence of team leadership.",
+            "The candidate has several years of sales experience but the emphasis was more on B2C sales and not specifically in digital marketing or SEO.",
+            "The candidate's experience in client engagement is evident through their proactive approach in identifying and qualifying sales leads and maintaining customer relationships, though not explicitly tied to SEO or digital marketing.",
+            "Team Management skills are not clearly indicated in the resume, which affects the micro score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "team management",
+                    "score": 4
+                },
+                {
+                    "criteria": "client engagement",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office and CRM systems",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in SEO and digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in sales and client relationship management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.08,
+                "micro_scores": 5.08
+            }
+        },
+        "personal_info": {
+            "name": "Mariam Hassan",
+            "email": "maryamnaqvi31@gmail.com",
+            "phone": "+92 335 0622804",
+            "current_position": "Sales Development Representative",
+            "current_company": "Container Xchange",
+            "employment_start_date_current_company": "10-2021",
+            "first_company_start_date": "09-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 46,
+            "experience": 23,
+            "client relationship management": 31
+        },
+        "micro_dict": {
+            "team management": 64,
+            "client engagement": 36
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office and CRM systems",
+            "3+ years of experience in SEO and digital marketing",
+            "Strong analytical and strategic thinking skills",
+            "Proven track record in sales and client relationship management",
+            "Master's degree in Business Administration or related field"
+        ],
+        "resume": "ABOUT ME\nResults-oriented Sales\nProfessional con\u0000nuing to reach or\nexceed quota and lead\nexpecta\u0000ons by e\ufb00ec\u0000vely\nbuilding rapport, resul\u0000ng in\nincreased market share. Detail-\noriented and me\u0000culously\norganized. Self-mo\u0000vated team\nplayer who is adaptable, energe\u0000c\nand eager to grow the business.\nLANGUAGES\nENGLISH\nURDUWORK EXPERIENCE\nHamburg, Germany\nOct 2021 - PresentResearching, iden\u0000fying and qualifying new sales opportuni\u0000es\nReaching out to poten\u0000al customers and being the \ufb01rst contact\nperson to drive the outbound sales ac\u0000vi\u0000es (phone calls, emails,\nnetworks)\nPreselec\u0000ng and iden\u0000fying decision-makers, demonstra\u0000ng the\nvalue proposi\u0000on and se\u0000ng up demo calls with the sales team\nDeveloping a deep understanding of the customer\u2019s needs and\nworking on the con\u0000nuous op\u0000miza\u0000on of the lead quali\ufb01ca\u0000on\nand customer approach together with the marke\u0000ng team\nWorking together with the Sales Managers mastering the CRM\nsystem (Pipedrive) to report on all important ac\u0000vi\u0000es and\ninsights gathered throughout the whole sales process\nLehi, UT\nJun 2020 - Aug 2021Cold dialing Canada and US states to provide text message\nmarke\u0000ng along with other related features.\nChicago, IL\nSep 2019 - May 2020Cold dialing US and Canada states to provide Social media\nmanagement tool Bringing poten\u0000al customers on the table by\ncrea\u0000ng need of the product, booking demo appointments and\ndeveloping an opportunity for the Account Execu\u0000ves\nLahore, Pakistan\nSep 2018 - Aug 2019B2C\nHandled phone calls and sold cable, phone, internet, and home\nsecurity such as premium channels, and interna\u0000onal calling,\nachieving sales goals and milestones for US home services.\nEDUCATION\nLahore, Pakistan\n2019Majors in Adver\u0000sement and Public Rela\u0000ons\nSKILLS\nSTRONG COMMUNICATION STRATEGIC ACCOUNT DEVELOPEMNET\nLEAD PROSPECTING CUSTOMER HANDLING\nPROJECT MANAGEMENTCONTAINER\nXCHANGESales Development Representa\u0000ve\nPODIUM Sales Development Representa\u0000ve\nSPROUT SOCIAL Sales Devlopment Representa\u0000ve\nIBEX GLOBAL Inbound Sales Execu\u0000ve\nFORMAN CHRISTIAN\nCOLLEGEBachelor of ArtsMARIAM\nHASSAN\nSALES SPECIALISTHouse 20, Block D Gulshan E Lahore.\nLahore, Pakistan, Lahore, 54770,\nPakistan\n+92 335 0622804\nmaryamnaqvi31@gmail.com"
+    },
+    "details": {
+        "name": "Mariam Hassan",
+        "number": "923350622804",
+        "skills": [
+            "Pipedrive",
+            "Sales Development",
+            "Social Media Management",
+            "Text Message Marketing"
+        ],
+        "email_id": "maryamnaqvi31@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "Forman Christian College",
+                "degree_title": "Bachelor of Arts"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mariam-hassan",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Mariam Hassan is a results-oriented sales specialist with a strong background in sales development and customer handling. She has demonstrated her ability to exceed quotas and effectively build rapport with clients, contributing to increased market share. With experience in various sales roles, she is adept at utilizing CRM systems and optimizing lead qualification processes.",
+        "employment_history": [
+            {
+                "details": "Researching, identifying and qualifying new sales opportunities, reaching out to potential customers, and driving outbound sales activities.",
+                "end_date": "Present",
+                "location": "Hamburg, Germany",
+                "job_title": "Sales Development Representative",
+                "start_date": "10-2021",
+                "company_name": "Unknown"
+            },
+            {
+                "details": "Cold dialing Canada and US states to provide text message marketing along with other related features.",
+                "end_date": "08-2021",
+                "location": "Lehi, UT",
+                "job_title": "Sales Development Representative",
+                "start_date": "06-2020",
+                "company_name": "Unknown"
+            },
+            {
+                "details": "Cold dialing US and Canada states to provide social media management tools, booking demo appointments and developing opportunities for Account Executives.",
+                "end_date": "05-2020",
+                "location": "Chicago, IL",
+                "job_title": "Sales Development Representative",
+                "start_date": "09-2019",
+                "company_name": "Unknown"
+            },
+            {
+                "details": "Handled phone calls and sold cable, phone, internet, and home security services, achieving sales goals for US home services.",
+                "end_date": "08-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Inbound Sales Executive",
+                "start_date": "09-2018",
+                "company_name": "IBEX Global"
+            }
+        ]
+    }
+}

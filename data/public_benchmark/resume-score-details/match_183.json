@@ -1,0 +1,206 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has limited leadership experience as a Sports President and Manager Outsourcing but unclear if this aligns with industry leadership.",
+            "Relevant experience is graded by significant history in sales-related roles, but many tasks do not directly correlate with key account management.",
+            "No specific evidence of proficiency with SAP ERP or Vistex, though experienced in Salesforce and similar tools.",
+            "Candidate lacks degree in required field and minimal evidence of role in key account management."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 6
+                },
+                {
+                    "criteria": "stakeholder management",
+                    "score": 5
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 3
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.8,
+                "micro_scores": 3.8499999999999996
+            }
+        },
+        "personal_info": {
+            "name": "HARIS ZAFAR",
+            "email": "harisz848@gmail.com",
+            "phone": "+923070496353",
+            "current_position": "Business Development sales & Support",
+            "current_company": "Programmers force",
+            "employment_start_date_current_company": "05-2023",
+            "first_company_start_date": "10-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 70,
+            "experience": 20,
+            "strategic thinking": 10
+        },
+        "micro_dict": {
+            "sales management": 15,
+            "stakeholder management": 20,
+            "sap erp": 30,
+            "vistex": 35
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Proficiency in data analysis and forecasting tools",
+            "5+ years of experience in sales or key account management",
+            "Bachelor's degree in Business Administration or related field",
+            "Experience with CRM and ERP systems such as SAP and Salesforce"
+        ],
+        "resume": " \n \n \n \n \n \nDate of Birth: 27/11/2001  \n \nHometown: Lahore  \nEmail  Address: \nharisz848@gmail.com  \nContact  Number:  +923070496353  HARIS ZAFAR  \nEDUCATION  & QUALIFICATIONS  \nUniversity of Management and Technology  2022  \nAssociate Degree Program of Computer Science  \nGarrison College for Boys  2019  \nPre-Engineering  \nEXPERIENCE  \nProgrammers force                                                                                 May 2023 - Present  \n   Business Development sales & Support  \n\u25cf Working closely with staff across departments to implement growth strategies.  \n\u25cf Developing and implementing sales strategies, client service and retention plans, and \nanalysing sales data to inform or update marketing strategies.  \n\u25cf Working on a SAAS/web  based project Restful API  and Integrations . \nCrecentech Systems                                                  February 2023 \u2013 April 2023 (3 months)   \nClient Operation Coordinator \u2013 Project Manager  \n\u25cf Responsible for engaging with multiple project stakehold ers and keeping check and \nbalance of the work deadlines.  \n\u25cf Commun icating with the clients , generating their reports , offering them with budget -\nfriendly options for the work, and meeting their expectations through the \ncoordinated efforts of the internal team.  \nSystems Limited                               November  2021 - February  2023  (1 year and 4 m onths)  \nBusiness Development Executive  \n\u25cf Part of the telesales team and responsible for communicating with international clients.  \n\u25cf Worked as a Sales Audito r responsible for reviewing the sales dat a, removing  any \nerrors or exceptions, and ensuring  that sale logs are clean and closed.  \n\u25cf Working  for an  Australian  based company to  promote and ensure  sales to customers.   \nHi-Tech Solution                                                               July 2020 \u2013 June  2021  (11 months)  \nManager  Outsourcing  \n\u25cf Outsourced several campaigns including US Energy, UK Energy.  \n\u25cf Created proposal requests and budget planning for small to big  projects.  \n\u25cf Managed a team of employees and ensured that they are delivering the projects to the \ncustomers on time.  \nLumico Logistics                      October 2019 \u2013 April 2020  (7 months ) \n  Account Executive  \n\u25cf Creating detailed business plans to reach predetermined goals and quotas. Managing the \nentire sales cycle from finding a potential client to securing a deal. Unearthing new sales \nopportunities through networking and turning them into long -term partnerships.  \n\u25cf Dealing with different prospect's to del iver their shipments and deciding the freight rates .  \n\u25cf Negotiate agreements and keep records of sales and data . \nRESEARCH & PROJECTS  \nStudent Attendance System  \n\u25cf Proposed a system using QR Code which displays  student attendance during the lecture.  \nWeb -Development  \n\u25cf Developed a Bitcoin Website for Crypto  \n\u25cf Developed a Construction Website for a fictional furniture company (WeBuild)  \nDid Charity Based Social Work  with different affiliated organizations.  \nHONORS &  AWARDS  \n\u25cf Best player Football in Sports Tournament conducted at UMT Campus .  \n\u25cf Badminton Semi -Finalist in the Sports Fest Competition held at UMT Campus .  \n\u25cf Awarded  merit  scholarship  throughout  FSC. \nEXTRACURRICULAR ACTIVITIES  \n \n\u25cf Sports President and Athletics Captain at Garrison College for Boys (2019).  \n\u25cf Joined a Computer Course to learn more about Softwares.  \n\u25cf Appointed as Teacher Assistant at UMT (2021).  \nSKILLS & INTERESTS  \n\u25cf Fluent in English and Urdu.  \n\u25cf Adept at using MS Office.  \n\u25cf Professional Software Skills.  \n\u25cf Intermediate skills in Web Development.  \n\u25cf Marketing skills for Online Promotions.  \n\u25cf Excellent communication skills and comfortable with working in a team .  \nCRM SOFTWARE AND TOOLS  \n \nExperienced in:  \n\u25cf Intercom  \n\u25cf Zoho CRM  \n\u25cf Podio  \n\u25cf Zendesk  \n\u25cf Slack  \n\u25cf Salesforce  \n\u25cf Greenbot  \n\u25cf Dataforce ASAP  \n\u25cf Batchleads  \n\u25cf Launch Control  \n\u25cf Smrtphone Logs  \n\u25cf 3CX \n\u25cf Callrail  "
+    },
+    "details": {
+        "name": "Haris Zafar",
+        "number": "923070496353",
+        "skills": [
+            "Python",
+            "Web Development",
+            "SAAS",
+            "Restful API",
+            "Intercom",
+            "Zoho CRM",
+            "Podio",
+            "Zendesk",
+            "Slack",
+            "Salesforce",
+            "Greenbot",
+            "Dataforce ASAP",
+            "Batchleads",
+            "Launch Control",
+            "Smrtphone Logs",
+            "3CX",
+            "Callrail"
+        ],
+        "email_id": "harisz848@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Student Attendance System",
+                "description": "Proposed a system using QR Code which displays student attendance during the lecture."
+            },
+            {
+                "title": "Bitcoin Website",
+                "description": "Developed a Bitcoin Website for Crypto."
+            },
+            {
+                "title": "Construction Website",
+                "description": "Developed a Construction Website for a fictional furniture company (WeBuild)."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "University of Management and Technology",
+                "degree_title": "Associate Degree Program of Computer Science"
+            },
+            {
+                "end_date": "04-2019",
+                "university": "Garrison College for Boys",
+                "degree_title": "Pre-Engineering"
+            }
+        ],
+        "achievements": [
+            "Best player Football in Sports Tournament conducted at UMT Campus",
+            "Badminton Semi-Finalist in the Sports Fest Competition held at UMT Campus",
+            "Awarded merit scholarship throughout FSC."
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hariszafar",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Haris Zafar is a dedicated professional with a strong background in business development and technical skills in programming and web development. He has experience in managing projects, implementing sales strategies, and working with various CRM tools. Haris has demonstrated his ability to engage with clients and deliver results in fast-paced environments.",
+        "employment_history": [
+            {
+                "details": "Working closely with staff across departments to implement growth strategies. Developing and implementing sales strategies, client service and retention plans, and analysing sales data to inform or update marketing strategies. Working on a SAAS/web based project Restful API and Integrations.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Business Development sales & Support",
+                "start_date": "05-2023",
+                "company_name": "Programmers force"
+            },
+            {
+                "details": "Responsible for engaging with multiple project stakeholders and keeping check and balance of the work deadlines. Communicating with the clients, generating their reports, offering them with budget-friendly options for the work, and meeting their expectations through the coordinated efforts of the internal team.",
+                "end_date": "04-2023",
+                "location": "",
+                "job_title": "Client Operation Coordinator \u2013 Project Manager",
+                "start_date": "02-2023",
+                "company_name": "Crecentech Systems"
+            },
+            {
+                "details": "Part of the telesales team and responsible for communicating with international clients. Worked as a Sales Auditor responsible for reviewing the sales data, removing any errors or exceptions, and ensuring that sale logs are clean and closed. Working for an Australian based company to promote and ensure sales to customers.",
+                "end_date": "02-2023",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2021",
+                "company_name": "Systems Limited"
+            },
+            {
+                "details": "Outsourced several campaigns including US Energy, UK Energy. Created proposal requests and budget planning for small to big projects. Managed a team of employees and ensured that they are delivering the projects to the customers on time.",
+                "end_date": "06-2021",
+                "location": "",
+                "job_title": "Manager Outsourcing",
+                "start_date": "07-2020",
+                "company_name": "Hi-Tech Solution"
+            },
+            {
+                "details": "Creating detailed business plans to reach predetermined goals and quotas. Managing the entire sales cycle from finding a potential client to securing a deal. Unearthing new sales opportunities through networking and turning them into long-term partnerships. Dealing with different prospects to deliver their shipments and deciding the freight rates. Negotiate agreements and keep records of sales and data.",
+                "end_date": "04-2020",
+                "location": "",
+                "job_title": "Account Executive",
+                "start_date": "10-2019",
+                "company_name": "Lumico Logistics"
+            }
+        ]
+    }
+}

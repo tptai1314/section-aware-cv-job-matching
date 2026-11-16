@@ -1,0 +1,229 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has experience leading teams but lacks explicit experience in business development or relevant leadership roles.",
+            "The candidate lacks direct business development experience as stated in the job description.",
+            "There are no specific mentions of sales strategy experience in the candidate's resume, although there are references to meetings and client discussions.",
+            "The resume does not mention any experience with SEO or related digital marketing strategies.",
+            "The candidate's experience is primarily technical and in development roles, rather than business and strategy focused."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales strategy",
+                    "score": 2
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.34,
+                "micro_scores": 1.72
+            }
+        },
+        "personal_info": {
+            "name": "Waseem Abbas",
+            "email": "waseemw921@gmail.com",
+            "phone": "ne923006455558",
+            "current_position": "Product Manager",
+            "current_company": "Powersoft 19",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2017",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/waseem-abbas-3a53b3112/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 78,
+            "business development experience": 22
+        },
+        "micro_dict": {
+            "sales strategy": 72,
+            "seo": 28
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy",
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": "WASEEM ABBAS\nMOBILE APPLICATION DEVELOPER\nwaseemw921@gmail.com /ne923006455558 Johar Town, Lahore Punjab, Pakistan\n\u1f517www.waseemw921.blogspot.com /\u2640nednhttps:/ /www.linkedin.com/in/waseem-abbas-3a53b3112/\nMY LIFE PHILOSOPHY\n\u201c\u201cTo learn what to know, and to know\nwhat to learn \u201d\nEDUCATION\nBS Computer Science\nUniversity of Engineering and Technology,\nLahore\n\u1f4cSept 2015 \u2013 June 2019\nFlaws Detection for Bioinformatics APIs\nIntermediate ICS\nPunjab Group of Colleges\n\u1f4cSept 2013 \u2013 March 2015\nSTRENGTHS\nHardworking Smart Worker\nInnovator Creative Thinker\nMotivator & Leader\nSKILLS\nIOS (MS Project IOS (Scrum)\nIOS (Kanban) IOS (Agile)\nIOS Auto layout and Constraints\nAPIs, REST, JSON, and getting Web Content\nFirebase and Cloud Storage\nRealm and Coredata\nMapkit and Google Map\nQR, NFC, Beacon and BLE\nGit and Version Control MVC Design\nthreding Core Graphics\nCore Animation AR/VR Vuforia\noculus rift HoloLens React Native\nSwift Graphic and animation Latex\nWordPress JAVA JS\nAdobe Photoshop Adobe Illustrator\nAdobe DreamweaverEXPERIENCE\nProduct Manager\nPowersoft 19\n\u1f4cJanuary 2022 \u2013 Present Lahore, Punjab\n\u2022Performed meeting with client to discuss the requirements.\n\u2022Verifying the features in the product.\n\u2022Managed cross-functional team and stakeholder. communication, and\noversaw product development from inception to implementation.\n\u2022Assigning the tasks to the teams members.\n\u2022Identi\ufb01ed an area of the client product funnel that was under\nperforming, and recommended improvements.\n\u2022Led a team of 2 full-time employees and 4 contractors, and formed\nstrong relationships with stakeholders.\nMobile App Developer\nPowersoft 19\n\u1f4cOctober 2020 \u2013 Present Lahore,Punjab\n\u2022Developed Wallet system with multiples features in React and Node\n\u2022Developed organization wallet hybrid (React Native) app with the\nfollowing major features.: \u2022Threads, Camera, , Rest API, Designing,\nRealm, Scrolling and pagination, Materialization and Reachability\n\u2022Developed Attendance system with multiples features\n\u2022Developed Cup detection AR application using VUforia in unity.\n\u2022Developed Car Engine and other aspects AR application using\nVUforia in unity.\n\u2022Developed Aircraft detection AR application using VUforia in unity.\n\u2022Developed Paint detection AR application using VUforia.\n\u2022Developed car detection then play video AR application using\nVUforia in unity.\n\u2022Working on organic chemistry Application to identify compound and\nelement.\nIOS Developer\nPowersoft 19\n\u1f4cFebruary 2020 \u2013 October 2020 Lahore,Punjab\n\u2022Developed Attendance system project(Haazri) in Swift with the\nfollowing major features.:\n\u2022Online and o\ufb04ine database, Threads WiFi, NFC, QR, Camera,\nCalendar, Rest API, UIKit, Coredata, Realm, Alamo\ufb01re, Materialization\nand Reachability\n\u2022Prepared requirement document of Attendance system project.\n\u2022Prepared design document of Attendance system project.\n\u2022Developing location based buy and sell products system (PLX) in\nswift with the following feature:\n\u2022Online and o\ufb04ine database, Threads WiFi, Google Map, Camera,\nRest API, UIKit, Alamo\ufb01re, Materialization and ReachabilityACHIEVEMENTS\n\u1f3cAmbassador\nIEEE MadC\nMember of Admission committee\nPunjab Group of College\n\u1f3cWinner ROBO WAR\nAt Fiesta 2017\n\u1f3cVolunteering\nNFC, Round Table Conference at\nPlan9\u2022Prepared requirement speci\ufb01cation document of PLX project.\n\u2022Prepared design document of PLX project.\n\u2022Update the EPub Book App GDME with the following features.\n\u2022Add speak feature, Add video feature, Add image open feature,\nOpen Hyperlink and open it.\n\u2022Update the Gas Detection App EPermit as per client requirement.\nIOS Developer\nSystem Today\n\u1f4cOctober 2019 \u2013 February 2020 Lahore,Punjab\nIOS Developer\nAsian Sol\n\u1f4cNovember 2018 \u2013 May 2019 Lahore,Punjab\nAndroid Application Developer\nPNY Training at Plan9\n\u1f4cjanuary 2017 \u2013 March 2017 Lahore,Punjab\n\u2022Basic Noti\ufb01cation Application for Android Mobiles\nGraphics Designer\nJournal Post at Plan9\n\u1f4cMay 2017 \u2013 July 2017 Lahore, Punjab\nPROJECTS\nFlaws Detection in Bioinformatics APIs\nFinal year project\n\u1f4cSeptember 2018 - June 2019\n\u2022Final year project of our degree.\n\u2022detection and correction of Anti-Patterns in di\ufb00erent Bio-Informatics\nREST API\u2019s\n\u2022Developed in C sharp\nNature, Birds and Dog Sound IOS App\n\u1f4cOctober 2019 - January 2020\n\u2022Developed a Sounds apps with the use of JSON\nDaily Sales record System\nWeb and Mobile App\n\u1f4cFor Client Septwmber 2018 - present\n\u2022User can record daily sales activities\n\u2022Backup of data facility is available Bio-Informatics REST API\u2019s\nBaby names, SMS, poetry and computery key Apps\n\u1f4cjune 2019 - December 2019\n\u2022fetched data of apps save from sql liteSWAD: Speci\ufb01cation of Web-Services Anti-Pattern\nDetection\nUET, Lahore\n\u1f4cJanuary 2017 - December 2017\n\u2022An extension developed for Sparx Systems Enterprise Architect that\ndetects 9 di\ufb00erent Anti-Patterns from REST API\u2019s or even from code.\n\u2022tool used NLP to \ufb01nd out those Anti-Patterns.\n\u2022C sharp Win Forms Technology was used in the development"
+    },
+    "details": {
+        "name": "Waseem Abbas",
+        "number": "923006455558",
+        "skills": [
+            "IOS (MS Project)",
+            "IOS (Scrum)",
+            "IOS (Kanban)",
+            "IOS (Agile)",
+            "IOS Auto layout and Constraints",
+            "APIs",
+            "REST",
+            "JSON",
+            "Firebase",
+            "Cloud Storage",
+            "Realm",
+            "Coredata",
+            "Mapkit",
+            "Google Map",
+            "QR",
+            "NFC",
+            "Beacon",
+            "BLE",
+            "Git",
+            "Version Control",
+            "MVC Design",
+            "Threading",
+            "Core Graphics",
+            "Core Animation",
+            "AR/VR",
+            "Vuforia",
+            "Oculus Rift",
+            "HoloLens",
+            "React Native",
+            "Swift",
+            "Graphic and animation",
+            "Latex",
+            "WordPress",
+            "JAVA",
+            "JS",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe Dreamweaver"
+        ],
+        "email_id": "waseemw921@gmail.com",
+        "location": "Johar Town, Lahore Punjab, Pakistan",
+        "projects": [
+            {
+                "title": "Flaws Detection in Bioinformatics APIs",
+                "description": "Final year project of our degree."
+            },
+            {
+                "title": "Nature, Birds and Dog Sound IOS App",
+                "description": "Developed a Sounds apps with the use of JSON."
+            },
+            {
+                "title": "Daily Sales record System",
+                "description": "User can record daily sales activities."
+            },
+            {
+                "title": "Baby names, SMS, poetry and computery key Apps",
+                "description": "Fetched data of apps save from sql lite."
+            },
+            {
+                "title": "SWAD: Speci\ufb01cation of Web-Services Anti-Pattern Detection",
+                "description": "An extension developed for Sparx Systems Enterprise Architect that detects 9 different Anti-Patterns from REST API\u2019s or even from code."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "University of Engineering and Technology, Lahore",
+                "degree_title": "BS Computer Science"
+            },
+            {
+                "end_date": "03-2015",
+                "university": "Punjab Group of Colleges",
+                "degree_title": "Intermediate ICS"
+            }
+        ],
+        "achievements": [
+            "Ambassador IEEE MadC",
+            "Winner ROBO WAR at Fiesta 2017",
+            "Member of Admission committee Punjab Group of College",
+            "Volunteering NFC, Round Table Conference at Plan9"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/waseem-abbas-3a53b3112",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "waseemw921.blogspot.com",
+                "website_name": "Blog"
+            }
+        ],
+        "executive_summary": "Waseem Abbas is a skilled mobile application developer with a strong background in iOS and Android development, proficient in various programming languages and frameworks. He has demonstrated expertise in managing product development and leading teams, showcasing his technical capabilities through numerous successful projects.",
+        "employment_history": [
+            {
+                "details": "Performed meeting with client to discuss the requirements. Verifying the features in the product. Managed cross-functional team and stakeholder communication, and oversaw product development from inception to implementation. Assigning the tasks to the teams members. Identified an area of the client product funnel that was under performing, and recommended improvements. Led a team of 2 full-time employees and 4 contractors, and formed strong relationships with stakeholders.",
+                "end_date": "Present",
+                "location": "Lahore, Punjab",
+                "job_title": "Product Manager",
+                "start_date": "01-2022",
+                "company_name": "Powersoft 19"
+            },
+            {
+                "details": "Developed Wallet system with multiple features in React and Node. Developed organization wallet hybrid (React Native) app with major features including Threads, Camera, Rest API, Designing, Realm, Scrolling and pagination, Materialization and Reachability. Developed Attendance system with multiple features. Developed various AR applications using Vuforia in Unity.",
+                "end_date": "Present",
+                "location": "Lahore,Punjab",
+                "job_title": "Mobile App Developer",
+                "start_date": "10-2020",
+                "company_name": "Powersoft 19"
+            },
+            {
+                "details": "Developed Attendance system project (Haazri) in Swift with features including Online and offline database, Threads WiFi, NFC, QR, Camera, Calendar, Rest API, UIKit, Coredata, Realm, Alamo\ufb01re, Materialization and Reachability. Prepared requirement and design documents for the Attendance system project.",
+                "end_date": "10-2020",
+                "location": "Lahore,Punjab",
+                "job_title": "IOS Developer",
+                "start_date": "02-2020",
+                "company_name": "Powersoft 19"
+            },
+            {
+                "details": "Developed Attendance system project in Swift. Prepared requirement and design documents for the project. Worked on location-based buy and sell products system in Swift.",
+                "end_date": "02-2020",
+                "location": "Lahore,Punjab",
+                "job_title": "IOS Developer",
+                "start_date": "10-2019",
+                "company_name": "System Today"
+            },
+            {
+                "details": "Developed basic Notification Application for Android Mobiles.",
+                "end_date": "03-2017",
+                "location": "Lahore,Punjab",
+                "job_title": "Android Application Developer",
+                "start_date": "01-2017",
+                "company_name": "PNY Training at Plan9"
+            },
+            {
+                "details": "Worked as a Graphics Designer.",
+                "end_date": "07-2017",
+                "location": "Lahore, Punjab",
+                "job_title": "Graphics Designer",
+                "start_date": "05-2017",
+                "company_name": "Journal Post at Plan9"
+            }
+        ]
+    }
+}

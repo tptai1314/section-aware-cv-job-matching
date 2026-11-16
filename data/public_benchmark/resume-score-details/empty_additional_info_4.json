@@ -1,0 +1,177 @@
+{
+    "output": {
+        "justification": [
+            "The candidate shows limited experience in professional environments, mostly in internships, which impacts the relevant experience and leadership scores.",
+            "Proficiency in MATLAB, AutoCAD, and Python is a minimum requirement; the candidate only has beginner-level skills in these areas impacting the micro scores.",
+            "The resume lacks evidence of direct experience in power generation or telecommunications projects, failing to fully meet key job requirements.",
+            "The candidate has demonstrated some project management skills in academic settings which contributes to a macro score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "matlab",
+                    "score": 4
+                },
+                {
+                    "criteria": "autocad",
+                    "score": 3
+                },
+                {
+                    "criteria": "circuit design",
+                    "score": 5
+                },
+                {
+                    "criteria": "telemetry systems",
+                    "score": 3
+                },
+                {
+                    "criteria": "renewable energy systems",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in MATLAB, AutoCAD, and Python",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with power generation or telecommunications",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 3.69
+            }
+        },
+        "personal_info": {
+            "name": "Maryam Bibi",
+            "email": "maryambashir4306@gmail.com",
+            "phone": "+92-312-5373472",
+            "current_position": "",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "08-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Electrical Engineer - Communication & Sustainable Energy\n\nJoin **Innovate Power Solutions Inc.** as an Electrical Engineer focusing on communication systems and sustainable energy solutions. We are looking for a dynamic individual passionate about advancing eco-friendly technologies and delivering high-quality results. This role will involve designing, developing, and implementing cutting-edge electrical systems across diverse projects, from power generation to renewable energy applications.\n\n#### Key Responsibilities:\n- Design and implement electrical systems with a focus on sustainable energy solutions.\n- Collaborate with cross-functional teams to develop communication systems.\n- Utilize MATLAB, AutoCAD, and Python for system analysis and design.\n- Oversee the project lifecycle from conception to completion ensuring quality and efficiency.\n- Conduct data analysis to improve system performance and reliability.\n\n#### Preferred Qualifications:\n- Proven experience in power generation and telecommunication projects.\n- Strong skills in MATLAB, AutoCAD, and Python.\n- Demonstrable understanding of communication protocols and network design.\n- History of successful project completion in dynamic work environments.\n\n#### Benefits:\n- A supportive and innovative work environment.\n- Opportunities for professional growth and development.\n- Competitive salary and comprehensive benefits package.",
+        "macro_dict": {
+            "project management": 100
+        },
+        "micro_dict": {
+            "matlab": 9,
+            "autocad": 10,
+            "circuit design": 11,
+            "telemetry systems": 32,
+            "renewable energy systems": 38
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Proficiency in MATLAB, AutoCAD, and Python",
+            "Experience with power generation or telecommunications"
+        ],
+        "resume": "Maryam  Bibi \nElectrical  Engineer  (Power)  \nmaryambashir4306@gmail.com  | +92-312-5373472  \n \n \n \n \nProfile  \nWith a strong passion for Control Systems, Robotics, Automation, and \nMachine Learning, I am highly motivated to pursue opportunities that \nallow  me to develop  my skills  in these  fields.  Although  my proficiency  in \nMATLAB, Python, and C++ is currently at a beginner level, I am eager  \nto learn  and committed  to excelling  in these  exciting  and dynamic  \nareas. \n \n \nExperience  \n1. Heavy mechanical complex  1stAug2022 -30thAug2022 \nInternee (4 Weeks)  \n2. ZIMCO international corporation  1stJune2022 -30thJuly2022 \nInternee (8 Weeks)  \n3. Hardware analyst at STECNOVA  1st Aug2021 - 30thAug2021 \nInternee (4 Weeks)  \n \nEducation  \nMaster  \nUniversity  of Engineering  and Technology,  Taxila        Sep 2023 - Present \nBachelor\u2019s  \nUniversity  of Engineering  and Technology,  Taxila  Oct 2019  \u2013 Aug2023  \nCGPA:  3.05/4.00  (76%)  \nIntermediate  (Pre-Engineering ) \nMashal  Degree  College  for Women\u2019s  Wah Cantt  Sep 2017  - Jul 2019  \nMarks:  856/1100  (77%)  \nMatriculation  Jun 2015  - Apr 2017  \nGovernment  Girls Higher  Secondary  School  Usman  Khattar \nMarks: 834/1100 (75%)  \n \n \nFinal  Year  Project  in BS \nDesign  and Fabrication  of Smart  Switches  based  upon  IOT. \n. Developed  smart  switches  utilizing  IoT technology.  \n. Enabled  remote  control  of electrical  appliances  via a smartphone  app. \n. Promoted  energy  efficiency  and convenience  for users.  \n. Implemented  features  to monitor  and optimize  power  usage.  \n \nProjects  Oct 2019  \u2013 2023  \nAcademic  Projects:  \nFollowing  are some  projects  I\u2019ve made  during  my degree:  \n1- Overload  Current  Protection  of a Transformer  \n2- Design  & fabrication  of Digital  Multimeter  using  PIC 16f877A \nmicrocontroller.  \n3- Design  & fabrication  of Hand  Gesture  Controlled  Robot  using  Arduino.  \n4- Amplitude  and Frequency  modulation  using  MATLAB.  \n5- Pi model  of single -phase  medium  transmission  line Personal  Details  \nDOB:  July 10,2001  \n \nPakistani  \n \nSkills  \n \n PCB Designing \n Arduino  \n Analysis Tool  \n \n Circuit  Designing \n MATLAB  \n \nSocieties:  \n \n Work as a member of \nUmeed -E-Subh  welfare  society.  \n \n Managed  multiple  events  for \ngeneral societies of university.  \n \n Management  Head,  SIEP  UET \nTaxila  \n General  member  IEEE  student \nbranch UET Taxila  \n"
+    },
+    "details": {
+        "name": "Maryam Bibi",
+        "number": "923125373472",
+        "skills": [
+            "MATLAB",
+            "Python",
+            "C++",
+            "PCB Designing",
+            "Arduino",
+            "Circuit Designing"
+        ],
+        "email_id": "maryambashir4306@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "Design and Fabrication of Smart Switches based upon IOT",
+                "description": "Developed smart switches utilizing IoT technology."
+            },
+            {
+                "title": "Overload Current Protection of a Transformer",
+                "description": ""
+            },
+            {
+                "title": "Design & fabrication of Digital Multimeter using PIC 16f877A microcontroller",
+                "description": ""
+            },
+            {
+                "title": "Design & fabrication of Hand Gesture Controlled Robot using Arduino",
+                "description": ""
+            },
+            {
+                "title": "Amplitude and Frequency modulation using MATLAB",
+                "description": ""
+            },
+            {
+                "title": "Pi model of single-phase medium transmission line",
+                "description": ""
+            }
+        ],
+        "education": [
+            {
+                "end_date": "09-2023",
+                "university": "University of Engineering and Technology, Taxila",
+                "degree_title": "Master"
+            },
+            {
+                "end_date": "08-2023",
+                "university": "University of Engineering and Technology, Taxila",
+                "degree_title": "Bachelor\u2019s"
+            },
+            {
+                "end_date": "07-2019",
+                "university": "Mashal Degree College for Women\u2019s Wah Cantt",
+                "degree_title": "Intermediate (Pre-Engineering)"
+            },
+            {
+                "end_date": "04-2017",
+                "university": "Government Girls Higher Secondary School Usman Khattar",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Maryam Bibi is an aspiring electrical engineer specializing in Control Systems, Robotics, Automation, and Machine Learning. She possesses foundational skills in MATLAB, Python, and C++, and has completed various projects that demonstrate her commitment to developing her technical expertise in these dynamic fields.",
+        "employment_history": [
+            {
+                "details": "Internee",
+                "end_date": "08-2022",
+                "location": "",
+                "job_title": "Internee",
+                "start_date": "08-2022",
+                "company_name": "Heavy mechanical complex"
+            },
+            {
+                "details": "Internee",
+                "end_date": "07-2022",
+                "location": "",
+                "job_title": "Internee",
+                "start_date": "06-2022",
+                "company_name": "ZIMCO international corporation"
+            },
+            {
+                "details": "Internee",
+                "end_date": "08-2021",
+                "location": "",
+                "job_title": "Hardware analyst",
+                "start_date": "08-2021",
+                "company_name": "STECNOVA"
+            }
+        ]
+    }
+}

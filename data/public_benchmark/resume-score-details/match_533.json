@@ -1,0 +1,168 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has considerable leadership experience, but it's mainly in customer relationship management, not in managing multiple key accounts or strategic initiatives as required.",
+            "There is over 5 years in sales and business development roles, largely focused on relationship management, which is somewhat relevant but not directly aligned with key account management in retail and hospitality.",
+            "The resume shows some data analysis experience with Microsoft Office tools, but lacks mention of advanced tools like SAP ERP or Vistex.",
+            "Proficiency in data analysis tools like Power BI, SAP ERP, and Vistex is mentioned as essential in the job description but is absent in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 2
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.38,
+                "micro_scores": 2.7
+            }
+        },
+        "personal_info": {
+            "name": "Zain Ul Abideen",
+            "email": "zaini1@live.com",
+            "phone": "+92 310 0003060",
+            "current_position": "Business Development Executive",
+            "current_company": "PREMA - AT TAHUR LTD",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "01-2007",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/zain-ul-abideen-67b85827"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 38,
+            "strategic thinking": 62
+        },
+        "micro_dict": {
+            "data analysis": 35,
+            "sap erp": 56,
+            "vistex": 9
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "5+ years of experience in sales or key account management",
+            "Proficiency in data analysis and forecasting tools"
+        ],
+        "resume": "Milat Road DHA 3, Lahore https://www.linkedin.com/in/zain-ul-abideen-67b85827zaini1@live.com +92 310 0003060\nScan and Data Entry of all receiving & payable instruments.\nCo-ordinates with Accounts & Branch Manager on New Account Openings.\nReviews & Process the Cheques as per Policy of Bank.Assisting Relationship Manager and managing team.\nAcquire New Business from Market.\nMake daily sales contact with customer & prospect through appointment drop-in, \nvisit, telephone and Email.Serves as \ufb01nancial advisor for banking multi products.\nAcquire New Business from Market for Personal Loan, Credit Card and Accounts.\n Provides information/feedbacks for every customers query.Works with Sales Manager to book new customers for the Bank by cross seIling cash \nmanagement, FX, trade, insurance and asset products to generate fee based revenue \nand to capture current accounts and deposits.\nResponsibIe fo r quality & soundness of Sourced Emergeng Corporate Accounts \n(KYC reviews,monitoring for due diligence, anti- money laundering procedures)Handling the SALES PROJECT in customer engagement center.\nProviding Exceptional customer service experience untiI car delivered and till aftersales.\nBooking test drives to increase customer footfall in showroom.\nHandling aftersales calls for service appointment/complaint/survey/feedback.E\ufb00ectively manage client relationships and provide key strategi c guidance.\nLead the internal teams on account programs and projects to ensure all work is done\non strategy and meets client's requirements and expectations.\nManage the client throughout the life of projects and programs.Actively sourcing new business from the market .\nE\ufb00ectively managing client relationships and providing them \nexceptional customer service.\nMaintaining relationahip with sales & merchanding team for timely delevery.\nDARS OPERATORBUSINESS DEVELOPMENT EXECUTIVE\n2007\n20082013\n2014\nBANK AL FALAH - LAHORE, PAKISTANMASHREQ BANK - DUBAI, UAE\nASSITANT TEAM LEADERCUSTOMER RELATIONSHIP EXECUTIVE \n2008\n2012 2014\n2020 \nBARCLAYS - DUBAI, UAE AL FUTTAIM MOTORS - DUBAI, UAE\nACHIVEM ENT S\nProblem Solving\nHanding Pressure\nTime Management\nTeam Management\nTeamworkPRO SKILLSMicrosoft O\ufb03ce\nMicrosoft Word\nMicrosoft Powerpoint\nAdobe PhotoshopTECHN ICAL SKILLSSKILLSExperienced Customer Relationship \nExecutive with a demonstrated history \nof working in the retail industry. Skilled \nin Portfolio Management, Business \nRelationship Management, Banking, \nand Sales.ABOUT ME\nEDUCATION\nBACHELOR OF ART  - 2005-2007\nUniversity of the Punjab \nLahore, Pakistan \nLANGUAGESStar of the Year              2011\nNational Skills Award    2017\nEmployee of th Month Certi\ufb01cates\nEnglish\nArabic Tagalog (Filipino)Urdu Punjabi\nSENIOR RELATIONSHIP OFFICERBUSINESS DEVELOPMENT EXECUTIVEBUSINESS DEVELOPMENT EXECUTIVE\n2012\n201320212021\nPres ent\nABU DHABI COMMERCIAL BANK - DUBAI, UAENEXTBRIDGE - LAHORE, PAKISTANPREMA - AT TAHUR LTD - LAHORE, PAKISTANEXPERIENC E\nZain\nUl Abideen\n"
+    },
+    "details": {
+        "name": "Zain Ul Abideen",
+        "number": "923100003060",
+        "skills": [
+            "Microsoft Office",
+            "Microsoft Word",
+            "Microsoft Powerpoint",
+            "Adobe Photoshop"
+        ],
+        "email_id": "zaini1@live.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "07-2007",
+                "university": "University of the Punjab",
+                "degree_title": "Bachelor of Art"
+            }
+        ],
+        "achievements": [
+            "Star of the Year 2011",
+            "National Skills Award 2017",
+            "Employee of the Month Certificates"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zain-ul-abideen-67b85827",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zain Ul Abideen is an experienced customer relationship executive with a strong background in the retail industry, skilled in portfolio management, business relationship management, banking, and sales.",
+        "employment_history": [
+            {
+                "details": "Scan and Data Entry of all receiving & payable instruments. Co-ordinates with Accounts & Branch Manager on New Account Openings. Reviews & Process the Cheques as per Policy of Bank. Assisting Relationship Manager and managing team. Acquire New Business from Market. Make daily sales contact with customer & prospect through appointment drop-in, visit, telephone and Email. Serves as financial advisor for banking multi products. Acquire New Business from Market for Personal Loan, Credit Card and Accounts. Provides information/feedbacks for every customers query. Works with Sales Manager to book new customers for the Bank by cross selling cash management, FX, trade, insurance and asset products to generate fee based revenue and to capture current accounts and deposits. Responsible for quality & soundness of Sourced Emerging Corporate Accounts (KYC reviews, monitoring for due diligence, anti-money laundering procedures). Handling the SALES PROJECT in customer engagement center. Providing Exceptional customer service experience until car delivered and till aftersales. Booking test drives to increase customer footfall in showroom. Handling aftersales calls for service appointment/complaint/survey/feedback. Effectively manage client relationships and provide key strategic guidance. Lead the internal teams on account programs and projects to ensure all work is done on strategy and meets client's requirements and expectations. Manage the client throughout the life of projects and programs. Actively sourcing new business from the market. Effectively managing client relationships and providing them exceptional customer service. Maintaining relationship with sales & merchandising team for timely delivery.",
+                "end_date": "Present",
+                "location": "Dubai, UAE",
+                "job_title": "Senior Relationship Officer",
+                "start_date": "01-2021",
+                "company_name": "Abu Dhabi Commercial Bank"
+            },
+            {
+                "details": "Business Development Executive role focusing on customer relationship management and sales.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2020",
+                "company_name": "Nextbridge"
+            },
+            {
+                "details": "Business Development Executive role with responsibilities in customer engagement and sales.",
+                "end_date": "12-2014",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2014",
+                "company_name": "Prema - At Tahur Ltd"
+            },
+            {
+                "details": "Customer Relationship Executive role with a focus on banking products and customer service.",
+                "end_date": "12-2013",
+                "location": "Dubai, UAE",
+                "job_title": "Customer Relationship Executive",
+                "start_date": "01-2012",
+                "company_name": "Barclays"
+            },
+            {
+                "details": "Assistant Team Leader role with responsibilities in customer service and team management.",
+                "end_date": "12-2011",
+                "location": "Dubai, UAE",
+                "job_title": "Assistant Team Leader",
+                "start_date": "01-2008",
+                "company_name": "Mashreq Bank"
+            },
+            {
+                "details": "Business Development Executive role with a focus on acquiring new business and managing client relationships.",
+                "end_date": "12-2007",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2007",
+                "company_name": "Bank Al Falah"
+            }
+        ]
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "output": {
+        "justification": [
+            "The candidate's leadership skills are not highly relevant to the job description, focusing more on technical roles than leadership roles.",
+            "The candidate lacks significant experience in business development or sales, as majority of experience is in technical roles such as AI engineering and programming.",
+            "No mention of IT and Manufacturing sector knowledge in resume, which is crucial as per job description.",
+            "Proficiency in Microsoft Office Suite is not highlighted in resume, focusing instead on technical languages and other tools."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.03,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Syeda Attqa Batool",
+            "email": "attqa.sc@gmail.com",
+            "phone": "0321-6550451",
+            "current_position": "AI Engineer",
+            "current_company": "Cedar Financial",
+            "employment_start_date_current_company": "06-2024",
+            "first_company_start_date": "10-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 42,
+            "experience": 39,
+            "strategic thinking": 19
+        },
+        "micro_dict": {
+            "it and manufacturing sector knowledge": 100
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales",
+            "Strong proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Marketing, or a related field"
+        ],
+        "resume": "Syeda Attqa Batool  \n \n0321 -6550451 | attqa.sc@gmail.com  \nProfile  \nExperienced AI Engineer and Python Developer with a strong track record in designing and implementing \nmachine learning models, developing intelligent chatbots, and creating dynamic dashboards. Expertise in \nleveraging OCR technologies, conducting RPA system  audits, and building predictive analytics solutions. \nProficient in Python, Azure AI, and Streamlit, with a deep commitment to optimizing processes, \nenhancing efficiency, and driving innovation in AI -driven projects.  \n \nExperience  \nAI ENGINEER | CEDAR FINANCIAL | JUN\u201924 \u2013 PRESENT  \n\u00b7 Working on a project to optimize the debt collection process using Markov Decision Processes (MDP ). \n\u00b7 Working on fine -tuning a LLM  specifically for the Cedar chatbot . \n\u00b7 Led Optical Character Recognition (OCR) projects utilizing Azure AI to automate data extraction . \n\u00b7 Conduct ing audits of existing Robotic Process Automation (RPA) system s. \n\u00b7 Developed interactive dashboards using Stream lit  to provide insightful visualizations . \nML ENGINEER | NEXT GENERATION TECH. SOLUTION | NOV\u201923 \u2013 MAY\u201924  \n\u00b7 Served  as an ML Engineer for the renowned international client, Steve Madden.  \n\u00b7 Contributed to the creation of a sophisticated chatbot for Steve Madden . \n\u00b7 Developed predictive models for forecasting sales of Steve Madden shoes and bags . \n\u00b7 Proficient in working collaboratively with cross -functional teams.  \nPYTHON DEVELOPER | SHARP BRAINS LIMITED | DEC \u201921 \u2013 OCT\u201923  \n\u00b7 Customized Odoo ERP to align with specific business requirements  and enhancing functionality . \n\u00b7 Designed and implemented Python -based applications, ensuring adherence to best practices.  \n\u00b7 Managed databases for application support, including integration, querying, and troubleshooting.  \n\u00b7 Developed automation tools to streamline workflows and reduce manual tasks . \n\u00b7 Worked closely with clients to gather requirements, provide updates, and address feedback.  \nDATA ANAL YST | RizTek  | OCT \u201921 \u2013 MAY \u201922 \n\u00b7 Analyzed discrepancies in hotel payment and room availability data to ensure accuracy . \n\u00b7 Extracted detailed reports from the hotel\u2019s portal for comprehensive data analysis.  \n\u00b7 Analyzed data from the database using SQL to identify trends, patterns, and issues.  \n\u00b7 Utilized Python for data manipulation and visualization to support decision -making . \n \nEducation   \nMASTERS OF ARTIFICIAL INTELLIGENCE | AUG \u201924 \u2013 CONTINUE | LUMS  \nBACHELOR OF ELECTRICAL ENGINEERING| AUG\u201917 \u2013 AUG\u201921  | LCWU  \n  \nSkills & Abilities  \n\u00b7 Machine Learning  \n\u00b7 Deep Learning  \n\u00b7 Natural Language Processing  \n\u00b7 Programming Skills  \u00b7 Predictive Analysis    \n\u00b7 Project Management  \n\u00b7 Problem -Solving  \n\u00b7 MATLAB  \u00b7 Technical Knowledge  \n\u00b7 Client Relationship Management  \n\u00b7 C++, Java and Python  \n\u00b7 Data Structures  \n \nCertifications  \n\u00b7 Azure AI Engineer Associate  \u2013 Continued  \n\u00b7 IBM AI Developer Professional Certificate \u2013 Continued  \n\u00b7 Diploma in Computer Science (6 months) \u2013 ITM Program, Systems Limited Feb\u201923  \n\u00b7 Specialization in MERN Stack Development \u2013 ITM Program, Systems Limited Feb\u201923  \n\u00b7 Python \u2013 Programming for Everybody \u2013 University of Michigan Nov\u201921   "
+    },
+    "details": {
+        "name": "Syeda Attqa Batool",
+        "number": "03216550451",
+        "skills": [
+            "Python",
+            "Azure AI",
+            "Streamlit",
+            "Machine Learning",
+            "Deep Learning",
+            "Natural Language Processing",
+            "C++",
+            "Java",
+            "Data Structures"
+        ],
+        "email_id": "attqa.sc@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2024",
+                "university": "LUMS",
+                "degree_title": "Masters of Artificial Intelligence"
+            },
+            {
+                "end_date": "08-2021",
+                "university": "LCWU",
+                "degree_title": "Bachelor of Electrical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Azure AI Engineer Associate",
+                "issuing_organization": "Continued",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "IBM AI Developer Professional Certificate",
+                "issuing_organization": "Continued",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Diploma in Computer Science",
+                "issuing_organization": "ITM Program, Systems Limited",
+                "date_of_issuance": "02-2023"
+            },
+            {
+                "certification_name": "Specialization in MERN Stack Development",
+                "issuing_organization": "ITM Program, Systems Limited",
+                "date_of_issuance": "02-2023"
+            },
+            {
+                "certification_name": "Python \u2013 Programming for Everybody",
+                "issuing_organization": "University of Michigan",
+                "date_of_issuance": "11-2021"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Syeda Attqa Batool is an experienced AI Engineer and Python Developer with a strong track record in designing and implementing machine learning models, developing intelligent chatbots, and creating dynamic dashboards. She possesses expertise in leveraging OCR technologies and conducting RPA system audits, demonstrating a commitment to optimizing processes and driving innovation in AI-driven projects.",
+        "employment_history": [
+            {
+                "details": "Working on a project to optimize the debt collection process using Markov Decision Processes (MDP). Working on fine-tuning a LLM specifically for the Cedar chatbot. Led Optical Character Recognition (OCR) projects utilizing Azure AI to automate data extraction. Conducting audits of existing Robotic Process Automation (RPA) systems. Developed interactive dashboards using Streamlit to provide insightful visualizations.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "AI Engineer",
+                "start_date": "06-2024",
+                "company_name": "Cedar Financial"
+            },
+            {
+                "details": "Served as an ML Engineer for the renowned international client, Steve Madden. Contributed to the creation of a sophisticated chatbot for Steve Madden. Developed predictive models for forecasting sales of Steve Madden shoes and bags.",
+                "end_date": "05-2024",
+                "location": "",
+                "job_title": "ML Engineer",
+                "start_date": "11-2023",
+                "company_name": "Next Generation Tech. Solution"
+            },
+            {
+                "details": "Customized Odoo ERP to align with specific business requirements and enhancing functionality. Designed and implemented Python-based applications, ensuring adherence to best practices. Managed databases for application support, including integration, querying, and troubleshooting. Developed automation tools to streamline workflows and reduce manual tasks. Worked closely with clients to gather requirements, provide updates, and address feedback.",
+                "end_date": "10-2023",
+                "location": "",
+                "job_title": "Python Developer",
+                "start_date": "12-2021",
+                "company_name": "Sharp Brains Limited"
+            },
+            {
+                "details": "Analyzed discrepancies in hotel payment and room availability data to ensure accuracy. Extracted detailed reports from the hotel\u2019s portal for comprehensive data analysis. Analyzed data from the database using SQL to identify trends, patterns, and issues. Utilized Python for data manipulation and visualization to support decision-making.",
+                "end_date": "05-2022",
+                "location": "",
+                "job_title": "Data Analyst",
+                "start_date": "10-2021",
+                "company_name": "RizTek"
+            }
+        ]
+    }
+}

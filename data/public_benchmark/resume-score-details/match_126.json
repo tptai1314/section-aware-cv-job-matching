@@ -1,0 +1,157 @@
+{
+    "output": {
+        "justification": [
+            "The resume shows experience with overseeing sales cycles, meeting KPIs, and mentoring new hires, which matches the leadership and experience required by the job description.",
+            "The candidate has Salesforce and HubSpot Sales certifications, but there's no mention of Microsoft Office proficiency, which is a minimum requirement.",
+            "No mention of negotiation skills or account management experience was found, which are crucial according to the job description.",
+            "The educational background doesn't include preferred universities such as FAST NUCES or LUMS."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation skills",
+                    "score": 3
+                },
+                {
+                    "criteria": "account management",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.84,
+                "micro_scores": 3.4299999999999997
+            }
+        },
+        "personal_info": {
+            "name": "Sadon Zahid",
+            "email": "",
+            "phone": "",
+            "current_position": "Sales Manager",
+            "current_company": "Repstack",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "01-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 76,
+            "experience": 4,
+            "strategic thinking": 20
+        },
+        "micro_dict": {
+            "negotiation skills": 57,
+            "account management": 43
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office Suite"
+        ],
+        "resume": "SALES MANAGER\nCERTIFICATIONS\nOutbound CallsS A D O O N  Z A H I D\nEDUCATIONAL HISTORY\nSKILLS SUMMARYHubSpot Sales\ncertificate\nCommunication\nskills \nProblem Solving \nTime efficiency Salesforce \nActive Listener\nAppointment\nsetter Attained 200% plus sales attainment\nthroughout my tenure.\nCompleting daily assigned kpis and mentoring\nthe new hiresSENIOR SALES EXECUTIVEIbex Global ( DGS).ACCOUNT EXECUTIVE Keeptruckin\nJan, 2022 - APT 2022Attained 327% sales attainment in probation\nCompleting daily assigned kpis and\nscheduling demosSALES MANAGERRepstack\nGot Enrolled in RSA\nCompleted GHL Trainings\nCompleted HubSpot Sales Certifications\nCreated Looms and Presentations\nWorked as sales manager for USA based Client YauheniAPR 22 - CURRENT\nJAN 22 - APR 22\nJAN 17- MAY 21Acca\nOXFORD BROOKES\nUNIVERSITY\nGCE O/A Levels\nBEACONHOUSE SCHOOL\nMaster Sales\nProgram\nAdvanced Customer\nObjection Handling"
+    },
+    "details": {
+        "name": "S A D O O N Z A H I D",
+        "number": "03124843384",
+        "skills": [
+            "HubSpot Sales",
+            "Salesforce",
+            "Advanced Customer Objection Handling"
+        ],
+        "email_id": "sadoonzahid@example.com",
+        "location": "USA",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2021",
+                "university": "OXFORD BROOKES UNIVERSITY",
+                "degree_title": "Acca"
+            },
+            {
+                "end_date": "01-2022",
+                "university": "BEACONHOUSE SCHOOL",
+                "degree_title": "GCE O/A Levels"
+            }
+        ],
+        "achievements": [
+            "Attained 200% plus sales attainment throughout tenure",
+            "Attained 327% sales attainment in probation"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "HubSpot Sales certificate",
+                "issuing_organization": "HubSpot",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Master Sales Program",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Advanced Customer Objection Handling",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sadoonzahid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/sadoonzahid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "S A D O O N Z A H I D is a results-driven sales manager with a proven track record of exceeding sales targets and mentoring new hires. With expertise in HubSpot Sales and Salesforce, he has consistently achieved high sales attainment rates and completed various sales training programs.",
+        "employment_history": [
+            {
+                "details": "Worked as sales manager for USA based Client Yauheni, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "CURRENT",
+                "location": "USA",
+                "job_title": "SALES MANAGER",
+                "start_date": "04-2022",
+                "company_name": "Repstack"
+            },
+            {
+                "details": "Attained 327% sales attainment in probation, completed daily assigned KPIs and scheduled demos.",
+                "end_date": "04-2022",
+                "location": "USA",
+                "job_title": "ACCOUNT EXECUTIVE",
+                "start_date": "01-2022",
+                "company_name": "Keeptruckin"
+            },
+            {
+                "details": "Attained 200% plus sales attainment throughout tenure, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "05-2021",
+                "location": "USA",
+                "job_title": "SENIOR SALES EXECUTIVE",
+                "start_date": "01-2017",
+                "company_name": "Ibex Global (DGS)"
+            }
+        ]
+    }
+}

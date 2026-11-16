@@ -61,7 +61,7 @@ def test_score_is_weighted_sum_of_components():
     )
     assert abs(candidate.score - expected) < 1e-9
     assert candidate.semantic == 0.25
-    assert candidate.skills == 1.0  # không yêu cầu kỹ năng -> phủ đầy
+    assert candidate.skills == 0.0  # không yêu cầu kỹ năng -> 0.0 bắt buộc phải có skill
 
 
 def test_rank_orders_and_breaks_ties_by_id():

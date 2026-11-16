@@ -1,0 +1,214 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has considerable leadership experience managing multiple projects, but lacks explicit technical expertise in software development methodologies.",
+            "No specific mention of experience in managing enterprise data warehouse projects.",
+            "Strong project management skills demonstrated through numerous large-scale projects at previous companies.",
+            "Lacks specific experience in pre-sales, solution architecture, and client relationship management within data management and analytics projects."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 4
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 6
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 3
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.55,
+                "micro_scores": 4.5600000000000005
+            }
+        },
+        "personal_info": {
+            "name": "Shahan Ahmad",
+            "email": "shahanahmad.sa@gmail.com",
+            "phone": "+923335216195",
+            "current_position": "Sr. Relationship Manager (AVP)",
+            "current_company": "United Bank Limited (UBL)",
+            "employment_start_date_current_company": "02-2017",
+            "first_company_start_date": "12-2007",
+            "urls": [
+                {
+                    "website_name": "LinkedIn Profile",
+                    "url": "http://linkedin.com/in/shahan-ahmad-221b3b78"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 22,
+            "project management experience": 35,
+            "technical expertise": 24,
+            "client relationship management": 19
+        },
+        "micro_dict": {
+            "data management": 60,
+            "solution architecture": 16,
+            "powerbi": 24
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Master's degree in Computer Science, Business Administration, or related field",
+            "Experience in managing enterprise data warehouse projects",
+            "10+ years of industry experience in project management and data analytics",
+            "Strong understanding of Agile and SCRUM methodologies"
+        ],
+        "resume": "Shahan Ahmad  \nshahanahmad.sa@gmail.com  | +923335216195  \n                               LinkedIn Profile:  http://linkedin.com/in/shahan -ahmad -221b3b78  \n \n \n \n \nProfessional Summary  \nGoal oriented professional with experience spanning  across  international and local trade finance  to relationship and project \nmanagement seeking to further enhance my career within technology, digital inclusion and  financial sector . \n \nWork Experience  \n \nRelationship Management | Digital Financial Inclusion | Project Management | Cash Management | Product Development - Planning  \n \nUnited Bank Limited (UBL)  February  2017 \u2013 Present  \nSr. Relationship Manager  (AVP)  \u2013 Financial Institutions Department  \n\uf0b7 Managing cash management and Product implementation of North region business po rtfolio of approximately PKR 300  Billion for \nNon -Banking Financial Institutions majorly Waseela bank, U bank, Tameer  bank, khushhali bank and ZTBL.   \n\uf0b7 Monitoring Bank to Bank business related to all trade transactions responsible for bank guarantee portfolio of approximately PKR \n9 Billion . \n\uf0b7 Leading client management across project s related guarantees for CPEC and Non -CPEC customers . \n\uf0b7 Managing proactive relationship management for clients across industries including likes of ZTE, Huawei, SinoHydro, Powerchin a, \nSinoTec, CRCC, Harbin Ele ctric, Xinjiang Road and Bridge, CRBC, China Ghzouba, CCECC, COPHC, China Petroleum Pipeline Bureau, \nChina Three Gorges and agents of foreign companies Like Marubeni, Maxus Power, MCC, Kestral Trading, Raviana, Atecs, Sino \nTrans Logistics, Asean Internatio nal, ALIT, CMEC, Poly technologies, CETC based in Pakistan . \n\uf0b7 Major Highlights:  Conducted overall structuring, financial analysis and management of projects including Safe City Project, Suki -\nKinari  Project, Port Qasim Power Plant Project, New Islamabad Airport construction project, Pak -Qatar LNG project, Kohala Hydro \nPower Project, Tarbela -4 project . \n\uf0b7 Led and Implemented the following Key Digital S olutions  and P rojects  for various clients:  \n1.  R5 proje ct of Jazz involving product, IT digital and Finance team providing un -interrupted VPN services of API for jazz cash   \nretailers and franchisees .  \n2.  Successfully closed project mandate for Khushhali Bank`s borrowers direct deposit on UBL counters.  \n3.  Success fully implemented project of VPN API services for Telenor Bank for collection and disbursement of funds.  \n4.  Currently working for onboarding PMN`s Munsalik Portal for providing digital solutions through UBL for cash management \nof MFPs. Digital inclusion of one link project for Munsalik where in UBL will be settling bank.  \n5.  Currently working on high scope project, app -to-Wallet  integration between Jazz and UBL which is a pioneering digital \nproduct initiated by UBL.  \n6.  Currently working on integration of SECP on line portal with UBL system for updating of documents related to company \nregistration, a requirement by the bank during the process of account opening. ( API Based ) \n \n \nMCB Bank Limited      September 2015 \u2013 January 2017  \nAssistant Manager \u2013 Trade Finance Department  \n\uf0b7 Managing Corporate and Government sector clients responsible for trade portfolio of approximately PKR 4 Billion.  \n\uf0b7 Ensuring timely and accurate Issuance and Payments of Import Letter of Credit (L/C) for key clients  \n\uf0b7 Handling Export Transactions ser vices for the department across various projects  \n\uf0b7 Developing and handling encashment of foreign Letter of Guarantees (L/G)  \n \nUnited Bank Limited (UBL)  September 2013 \u2013 August 2015  \nImports Incharge  \u2013 Trade Finance Department  \n\uf0b7 Managing payment portfolio of PKR 2.5 Billion ensuring corporate transactio ns for clients across industries including Telecom, Oil \n& Gas and Construction  \n\uf0b7 Ensuring timely and accurate reporting of clients import  activities to SBP on a monthly basis  \n\uf0b7 Leading treasury rate negotiations to ensu re highest revenue for the bank  \n \nHabib Bank Limited (HBL)  December 2007 \u2013 August 2013  \nImports Trade Officer \u2013 Trade Department  \n\uf0b7 Liaising across key departments to ensure timely transaction approvals for clients  \n\uf0b7 Responsible for FE allocation/financial approv als from SBP for establishment of Import Letter of Credits for Public Sector clients  \n\uf0b7 Developing and retiring import contracts and L/Cs following thorough review of import documents including foreign and local \ndocuments and Lodgment/Retirement so all requir ements are met  \n\uf0b7 Monitoring market and financial indicators (like FOREX) on a regular basis to ensure spot and forward cover from treasury to \nensure effective payments from corporate clients  \n \n \n \n \n \n \nMAX Telecom      July 2005 \u2013 July 2007  \nCustomer Relations Manager  \n \n\uf0b7 Managing and handling client queries, requests, orders and complaints including  Legal Complaints (TIO -Tele -communication \nIndustry of Ombudsman) to ensure highest level of customer satisfaction is met  \n\uf0b7 Quarterly reviews of the processes to plan and implement any process improvement through recurrent trainings and change \nin strategy.  \n\uf0b7 Liaising and managing business with an Australian services provider Telstra . \n\uf0b7 Leading sales team by ensuring performance gaps are met through regular statistics and analys is. \n \n \nEducation  \n \nSZABIST, Islamabad     May 2004  \u2013 June 2005  \nMasters in Business Administration (E -MBA)  \n \nPunjab University, Lahore  May  2002  \u2013 June 2004 \nBachelors of Arts \u2013 Sociology, Statistics and English  \n \nTrainings  & Workshops  \n\uf0b7 Global Trade Finance Workshop    Karachi, May 2018  \n3 days workshop on Trade Finance product sales and marketing conducted by International Finance Cooperation (World Bank)  \n\uf0b7 Basic Banking Training & Banking Operations   Islamabad, 2008  \n\uf0b7 Four months extensive, classroom followed by on the job rotational training HBL Management Development Institute (MDI)  \n\uf0b7 Project Management:  \nOngoing  project management certification in order to add the same against the skill set.  \n \nSkills , Interest s & Personal Strengths  \n\uf0b7 Proficient with MS computer systems and software\u2019s.  \n\uf0b7 Risk Management, Budgeting.  \n\uf0b7 Expertise with key Banking software including SWIFT, MISYS, Symbols and TI  \n\uf0b7 Project management.  \n\uf0b7 Stakeholder Engagement & Management.  \n\uf0b7 Planning and forecasting . \n\uf0b7 Strong interpersonal / communication / Conflict resolution / Problem solving / Crisis Manage ment skills.  \n\uf0b7 Strong convincing power, innovative and ability to work in multi -cultural teams.  \n \n \n \n \n \n "
+    },
+    "details": {
+        "name": "Shahan Ahmad",
+        "number": "923335216195",
+        "skills": [
+            "MS computer systems",
+            "SWIFT",
+            "MISYS",
+            "Symbols",
+            "TI",
+            "Project management"
+        ],
+        "email_id": "shahanahmad.sa@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "R5 project of Jazz",
+                "description": "Involving product, IT digital and Finance team providing uninterrupted VPN services of API for jazz cash retailers and franchisees."
+            },
+            {
+                "title": "Khushhali Bank's borrowers direct deposit",
+                "description": "Successfully closed project mandate on UBL counters."
+            },
+            {
+                "title": "VPN API services for Telenor Bank",
+                "description": "Successfully implemented project for collection and disbursement of funds."
+            },
+            {
+                "title": "Munsalik Portal",
+                "description": "Currently working for onboarding PMN's Munsalik Portal for providing digital solutions through UBL."
+            },
+            {
+                "title": "App-to-Wallet integration between Jazz and UBL",
+                "description": "Currently working on high scope project, a pioneering digital product initiated by UBL."
+            },
+            {
+                "title": "Integration of SECP online portal with UBL system",
+                "description": "Currently working on updating documents related to company registration."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2005",
+                "university": "SZABIST, Islamabad",
+                "degree_title": "Masters in Business Administration (E-MBA)"
+            },
+            {
+                "end_date": "06-2004",
+                "university": "Punjab University, Lahore",
+                "degree_title": "Bachelors of Arts \u2013 Sociology, Statistics and English"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Project Management Certification",
+                "issuing_organization": "Ongoing",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/shahan-ahmad-221b3b78",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Shahan Ahmad is a goal-oriented professional with extensive experience in relationship management, digital financial inclusion, and project management within the banking sector. He has successfully managed significant portfolios and led various digital solutions and projects, demonstrating a strong technical skill set in banking software and project management.",
+        "employment_history": [
+            {
+                "details": "Managing cash management and product implementation of North region business portfolio of approximately PKR 300 Billion for Non-Banking Financial Institutions.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Sr. Relationship Manager (AVP) \u2013 Financial Institutions Department",
+                "start_date": "02-2017",
+                "company_name": "United Bank Limited (UBL)"
+            },
+            {
+                "details": "Managing Corporate and Government sector clients responsible for trade portfolio of approximately PKR 4 Billion.",
+                "end_date": "01-2017",
+                "location": "",
+                "job_title": "Assistant Manager \u2013 Trade Finance Department",
+                "start_date": "09-2015",
+                "company_name": "MCB Bank Limited"
+            },
+            {
+                "details": "Managing payment portfolio of PKR 2.5 Billion ensuring corporate transactions for clients across industries.",
+                "end_date": "08-2015",
+                "location": "",
+                "job_title": "Imports Incharge \u2013 Trade Finance Department",
+                "start_date": "09-2013",
+                "company_name": "United Bank Limited (UBL)"
+            },
+            {
+                "details": "Liaising across key departments to ensure timely transaction approvals for clients.",
+                "end_date": "08-2013",
+                "location": "",
+                "job_title": "Imports Trade Officer \u2013 Trade Department",
+                "start_date": "12-2007",
+                "company_name": "Habib Bank Limited (HBL)"
+            },
+            {
+                "details": "Managing and handling client queries, requests, orders and complaints including Legal Complaints to ensure highest level of customer satisfaction.",
+                "end_date": "07-2007",
+                "location": "",
+                "job_title": "Customer Relations Manager",
+                "start_date": "07-2005",
+                "company_name": "MAX Telecom"
+            }
+        ]
+    }
+}

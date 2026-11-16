@@ -1,0 +1,138 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks clear leadership experience in a business development context.",
+            "Relevant business development is limited and not strongly documented.",
+            "No concrete negotiation or data analysis skills are demonstrated in the resume.",
+            "Educational background does not include top-tier university per Fictional Company standards."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.23,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Waleed Ahmed",
+            "email": "waleed.ahmed4566@gmail.com",
+            "phone": "0320-9278278",
+            "current_position": "Lead Generation",
+            "current_company": "East Hire",
+            "employment_start_date_current_company": "Continue",
+            "first_company_start_date": "01-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 43,
+            "business development experience": 37,
+            "strategic planning": 20
+        },
+        "micro_dict": {
+            "negotiation": 13,
+            "data analysis": 87
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "5+ years of business development experience in a leadership role",
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": "    WALEED AHME D                           CV CUR RICULUM VITAE  \n         \n        Cell #         0320-9278278  \n           Add :          H.NO. 103C/2ST NO 31 RASHEED PURA  MUGHALPURA LAHORE .  \n, \n                                           \n       OBJECTIVE      \n        Looking forward to lead an organization to its next leve l through skillful management and by utilizing my knowledge to the best of my abilities for             \n          learning more in the related field for development and growth of my professional career to achieve higher Standards of perfor mance.  \n \n      KEY SKILLS  \n \n\uf0b7     Communication  \n\uf0b7     Problem solving  \n \n      PERSONAL DATA  \n \n      Father's Name                                  NASEEM AHMAD  \n      Date of Birth                                     10-FEBRUARY -1997  \n      Religion                                             Islam  \n      Marital State                                      Single  \n      Nationality                                         Pakistani  \n      N.I.C. #                                              35201 -3375663 -3 \n      Email                                                 waleed.ahmed4566 @gmail.com  \n \n      QUALIFICATION  \n       \n \n     PROFESSIONAL  QUALIFICATION  \n \n     EXPERIANCE  \nEAST HIRE  LEAD GENERATION & BUSINESS \nDEVELOPMENT  Continue  \n \n \n    COMPUTER SKILL S \n \n\uf0b7       Internet Browsing (Email)  \n\uf0b7       Link\u2019s Searching of Companies  \n \n       \n      LANGUAGES  \n \n\uf0b7       Urdu, English  \n \n     . \n \nREFERNCE  \n \n                               Shall be furnished on demand.  CERTIFICATE / DEGREE  YEAR  Board / UNIVERSITY  \nMatriculation (Science)  2014 BISE, LAHORE  \nCERTIFICATE / DEGREE  YEAR  Board / UNIVERSITY  \nI.COM  2016 BISE,  LAHORE  \nB.COM  2020  BISE,LAHORE  \n JOB TITTLE  DURATION  \nIMPERIAL AUTO STORE LAHORE  ACCOUNT ASSISTANT  1 YEAR  \nSHAHEEN COMPLEX  MARKETING DEPARTMENT  3 MONTHS  \nTALENT INBOX .CO.UK  LEAD  GENERATION SPECIA LIST  2 YEAR  "
+    },
+    "details": {
+        "name": "Waleed Ahmed",
+        "number": "03209278278",
+        "skills": [
+            "Internet Browsing",
+            "Link\u2019s Searching of Companies"
+        ],
+        "email_id": "waleed.ahmed4566@gmail.com",
+        "location": "H.NO. 103C/2ST NO 31 RASHEED PURA MUGHALPURA LAHORE",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2014",
+                "university": "BISE, LAHORE",
+                "degree_title": "Matriculation (Science)"
+            },
+            {
+                "end_date": "05-2016",
+                "university": "BISE, LAHORE",
+                "degree_title": "I.COM"
+            },
+            {
+                "end_date": "05-2020",
+                "university": "BISE, LAHORE",
+                "degree_title": "B.COM"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Waleed Ahmed is a dedicated professional with experience in lead generation and business development, possessing strong technical skills in internet browsing and company link searching.",
+        "employment_history": [
+            {
+                "details": "Account Assistant",
+                "end_date": "05-2021",
+                "location": "Lahore",
+                "job_title": "Account Assistant",
+                "start_date": "05-2020",
+                "company_name": "Imperial Auto Store"
+            },
+            {
+                "details": "Marketing Department",
+                "end_date": "08-2020",
+                "location": "Lahore",
+                "job_title": "Marketing Intern",
+                "start_date": "05-2020",
+                "company_name": "Shaheen Complex"
+            },
+            {
+                "details": "Lead Generation Specialist",
+                "end_date": "05-2023",
+                "location": "UK",
+                "job_title": "Lead Generation Specialist",
+                "start_date": "05-2021",
+                "company_name": "Talent Inbox"
+            }
+        ]
+    }
+}

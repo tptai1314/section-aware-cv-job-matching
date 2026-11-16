@@ -1,0 +1,143 @@
+{
+    "output": {
+        "justification": [
+            "Macro score for Leadership is low due to lack of explicit leadership roles mentioned in the resume.",
+            "Macro score for Business Development Experience is moderate; the candidate has distribution and sales experience in FMCG but lacks detailed business development roles.",
+            "No explicit mention of negotiation and sales strategy skills; Training in Digital Marketing and CRM indicates some strategic understanding.",
+            "Data Analysis skills are not explicitly showcased, though there is mention of CRM and Salesforce knowledge."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 4
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.92,
+                "micro_scores": 4.35
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Hassan Ishaq",
+            "email": "hassanch4686@outlook.com",
+            "phone": "0301-7706019",
+            "current_position": ".",
+            "current_company": "Coca Cola Beverages Company",
+            "employment_start_date_current_company": "09-2019",
+            "first_company_start_date": "09-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 36,
+            "business development experience": 64
+        },
+        "micro_dict": {
+            "negotiation": 4,
+            "sales strategy": 35,
+            "data analysis": 61
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "Muhammad Hassan  Ishaq  \n hassanch4686@outlook.com  \nShujaAbad,Multan  \nCell  # 0301 -7706019  \nAbridge  \nTo learn more and polish my skills in an environment that can \nhelp to achieve organization goals.  To become an efficient part \nof management so as to contribute towards the achievement \nof its goals as well as nourishing and nurturing my skills to make \nme a real asset for the organization.  \nPersonal Information  \nFull Name      Hassan  Ishaq  \nFather Name                                      Muhammad Ishaq  \nDate of Birth              20 March 1992  \nMarital Status              Single  \nGender               Male  \nReligious               Islam  \nNationality              Pakistan  \nWork Experiences   \n\u2756 Total 5 Years Of working experience  in FMCG  Industry  \n\u2756 4 Years In Distribution of (CoCa Cola Beverages Company) \nMultan, Continue \u2026 \n\u2756 Having 5 Years of Working in Distribution sales Matters  \n\u2756 Also  Having Internship Certificate In Finance  Department  at \nPEL Company  Education / Course  \n\u2756 M.Sc (Eco)                \n\u2756  From, Bahauddin Zakariya  University Multan, Pakistan  \n\u2756 Bachelor Degree  \nFrom, Bahauddin Zakariya University Multan , Pakistan  \n\u2756 Intermediate   (F.Sc ) \nFrom, Punjab College of Information Technology, Multan  \n\u2756 High School Certificate  \nBISE, Multan, Pakistan  \nTrainings/ Cerificates  \n\u2756 Internship in Finance  by (PEL) \n\u2756 Freelancing ( DigiSkills.pk ) by (MITT )(VU) \n\u2756 Digital Marketing  (DigiSkills .pk) by (MITT) (VU)  \n\u2756 Red Recognition Award (CCI)  \nStrength / Skills  \no Strong inter -personal and Concentrate communication skills  \no Demonstrate ability to present ideas  \no Ability to easily understand new concepts in minimum \nrefractory time.  \no High motivation  & adaptability  \no Self Starter and quick learner  \no Well known about MS Office ,G-suite,CRM,Salesforce & \nERP Software  \no Well Known about Sales & Marketing Operations     \nLanguages  \nUrdu,English,Punjabi  \n\u25aa I hereby declare that the information furnished \nabove is true to the best of my knowledge.   \n\u25aa Reference Should be furnished on demand  "
+    },
+    "details": {
+        "name": "Hassan Ishaq",
+        "number": "03017706019",
+        "skills": [
+            "MS Office",
+            "G-suite",
+            "CRM",
+            "Salesforce",
+            "ERP Software"
+        ],
+        "email_id": "hassanch4686@outlook.com",
+        "location": "ShujaAbad, Multan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2015",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "M.Sc (Eco)"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "Bachelor Degree"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Punjab College of Information Technology, Multan",
+                "degree_title": "Intermediate (F.Sc)"
+            },
+            {
+                "end_date": "06-2008",
+                "university": "BISE, Multan, Pakistan",
+                "degree_title": "High School Certificate"
+            }
+        ],
+        "achievements": [
+            "Red Recognition Award (CCI)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Internship in Finance",
+                "issuing_organization": "PEL",
+                "date_of_issuance": "06-2019"
+            },
+            {
+                "certification_name": "Freelancing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Hassan Ishaq is a dedicated professional with 5 years of experience in the FMCG industry, specializing in distribution sales. He holds a Master's degree in Economics and has completed various certifications in finance and digital marketing. Hassan is proficient in several software tools including MS Office, G-suite, CRM, Salesforce, and ERP Software, making him a valuable asset in sales and marketing operations.",
+        "employment_history": [
+            {
+                "details": "Worked in distribution sales for Coca Cola Beverages Company, managing sales operations and client relationships.",
+                "end_date": "Present",
+                "location": "Multan",
+                "job_title": "Sales Executive",
+                "start_date": "01-2019",
+                "company_name": "Coca Cola Beverages Company"
+            }
+        ]
+    }
+}

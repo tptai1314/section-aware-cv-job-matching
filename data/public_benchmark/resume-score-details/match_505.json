@@ -1,0 +1,188 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is based on the candidate's role in mentoring and facilitating continuous professional development within teams during their current role at Tossdown Technologies.",
+            "Relevant experience is evaluated considering the candidate's 3 years of experience in business development and digital marketing sectors, which is slightly below the preferred 5+ years.",
+            "Salesforce score is determined based on familiarity with HubSpot, a CRM tool mentioned in the resume, though no specific mention of Salesforce was found.",
+            "Market research score reflects the candidate's role in conducting market research at Tossdown Technologies, which aligns with job responsibilities."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "sales experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 4
+                },
+                {
+                    "criteria": "market research",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.949999999999999,
+                "micro_scores": 6.96
+            }
+        },
+        "personal_info": {
+            "name": "Saad A. Mubarak",
+            "email": "saadali.frt@gmail.com",
+            "phone": "+92 323 4217884",
+            "current_position": "BI & Digital Marketing Executive",
+            "current_company": "tossdown Technologies Pvt. Ltd.",
+            "employment_start_date_current_company": "12-2020",
+            "first_company_start_date": "02-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/saadmali346"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "leadership": 37,
+            "sales experience": 42,
+            "analytical skills": 21
+        },
+        "micro_dict": {
+            "salesforce": 26,
+            "market research": 74
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Demonstrated ability in team leadership and mentoring",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": "Saad A. Mubarak \nBI & Digital Marketing Executive \nsaadali.frt@gmail.com \n+92 323 4217884 \nLahore \nlinkedin.com/in/saadmali346 \nI am an experienced marketer with the 3 years of experience in the Business Development, Business Intelligence, and Digital Marketing\nsectors. I very much believe in teamwork, problem-solving, leadership, and adaptability like a movie director who believes in someone's\nidea and adapts that idea; works with the team on the idea; leads the team, gets directions from the team, and solves their team\nproblem, and complete the vision. \nEDUCATION \nMS Marketing \nNational College of Business Administration\n& Economics \n03/2021 - Present\n, \n \nBachelor of Commerce in Information\nTechnology \nUniversity of the Punjab \n06/2017 - 10/2019\n, \n \nLahore \nWORK EXPERIENCE \nBI & Digital Marketing Executive \ntossdown Technologies Pvt. Ltd. \n12/2020 - Present\n, \n \nLahore \nI am working in the Growth Team where I look over\nmarket research, which includes scrapping and\nvisualizing data of di\ufb00erent businesses per the niche. \nI'm working on the digital marketing end where mostly I\nput my e\ufb00orts into Email marketing. In Email marketing,\nI run automated email campaigns and drip campaigns\nfrom Hubspot \nI am also looking over to martech automation where I\nlook over to top and middle of the marketing funnel. \nBusiness Development Executive \nMatrix Tech LLC \n11/2019 - 10/2020\n, \n \nLahore \nMatrix was a contact center that sold SEO services to the\nUSA market. \nI sent email marketing campaigns to their prospective\naudience to drive tra\ufb03c and generate leads. \nI used to work on keyword research of clients and also\ncontact leads through di\ufb00erent mediums and also I did\ndialing over there. \nDocument Processing Executive \nSystem Limited \n02/2019 - 11/2019\n, \n \nLahore \nI was in their Business Process Outsourcing department,\nwhere I worked on their Land Project. \nI used to compile and complete the data as per property\ntype. \nI also performed a Quality Check on the Property \ufb01le. \nSKILLS \nMarket Research \nBusiness Development \nData Visualization \nMarketing Automation \nLead Generation \nEmail Marketing \nHubSpot \nSendinBlue \nMailChimp \nWeb Scrapping \nSearch Engine Marketing \nSocial Media Marketing \nSearch Engine Optimization (SEO) \nKeyword Research \nPROJECTS \nMarketing Automation Specialist for RevvLab\n (07/2022 - Present)\n \nI'm working their marketing as a consultant for setting up the\nautomation for their di\ufb00erent brands. \nBusiness Engagement Project for Outreach Hawks\n (04/2022 - Present)\n \nI am working there as a Business Engagement Executive with\ntheir team. I handle their Upwork account and run email\nmarketing campaigns for them. \nEmail Marketing Project for Echlipse\n (09/2021 - 02/2022)\n \nI worked there as a Marketing Executive and used to scrape data\nfor them as per their niche. I ran email campaigns for them,\nwhich included marketing emails and drip campaigns. \nCERTIFICATIONS \nThe Fundamentals of Digital Marketing \nAdvanced Google Analytics \nGoogle Analytics for Beginners \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nINTERESTS \nMovies \nDirection \nCricket \nTasks \nTasks \nTasks "
+    },
+    "details": {
+        "name": "Saad A. Mubarak",
+        "number": "923234217884",
+        "skills": [
+            "Market Research",
+            "Data Visualization",
+            "Marketing Automation",
+            "Lead Generation",
+            "Email Marketing",
+            "HubSpot",
+            "SendinBlue",
+            "MailChimp",
+            "Web Scrapping",
+            "Search Engine Marketing",
+            "Social Media Marketing",
+            "Search Engine Optimization (SEO)",
+            "Keyword Research"
+        ],
+        "email_id": "saadali.frt@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Marketing Automation Specialist for RevvLab",
+                "description": "Consultant for setting up marketing automation for different brands."
+            },
+            {
+                "title": "Business Engagement Project for Outreach Hawks",
+                "description": "Handles Upwork account and runs email marketing campaigns."
+            },
+            {
+                "title": "Email Marketing Project for Echlipse",
+                "description": "Scraped data and ran email campaigns including marketing emails and drip campaigns."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "10-2019",
+                "university": "University of the Punjab",
+                "degree_title": "Bachelor of Commerce in Information Technology"
+            },
+            {
+                "end_date": "Present",
+                "university": "National College of Business Administration & Economics",
+                "degree_title": "MS Marketing"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "The Fundamentals of Digital Marketing",
+                "issuing_organization": "Google",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Advanced Google Analytics",
+                "issuing_organization": "Google",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Google Analytics for Beginners",
+                "issuing_organization": "Google",
+                "date_of_issuance": "MM-YYYY"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/saadmali346",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saad A. Mubarak is a BI and Digital Marketing Executive with over three years of experience in business development, business intelligence, and digital marketing. He specializes in market research, data visualization, and marketing automation, demonstrating a strong technical skill set in email marketing and various marketing tools.",
+        "employment_history": [
+            {
+                "details": "Working in the Growth Team focusing on market research, data scraping, and visualizing data. Responsible for email marketing campaigns and martech automation.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "BI & Digital Marketing Executive",
+                "start_date": "12-2020",
+                "company_name": "tossdown Technologies Pvt. Ltd."
+            },
+            {
+                "details": "Sent email marketing campaigns to drive traffic and generate leads for SEO services. Conducted keyword research and contacted leads.",
+                "end_date": "10-2020",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2019",
+                "company_name": "Matrix Tech LLC"
+            },
+            {
+                "details": "Worked in the Business Process Outsourcing department, compiling and completing data as per property type and performing quality checks.",
+                "end_date": "11-2019",
+                "location": "Lahore",
+                "job_title": "Document Processing Executive",
+                "start_date": "02-2019",
+                "company_name": "System Limited"
+            }
+        ]
+    }
+}

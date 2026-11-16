@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 55,
+            "experience": 45
+        },
+        "micro_dict": {
+            "seo strategy development": 19,
+            "team management": 34,
+            "client engagement": 35,
+            "market analysis": 12
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field",
+            "Proficiency in Microsoft Office and CRM systems",
+            "3+ years of experience in SEO and digital marketing"
+        ],
+        "resume": "Sure, here's a random text:\n\nThe sky was a peculiar shade of periwinkle, as if dipped in a dream world of pastel hues. Beneath it, the rolling hills seemed to sway gently in the breeze, carpets of green and gold blending into one another. A lone hawk circled high above, its silhouette carving fluid shapes against the expansive open.\n\n\"Did you ever wonder,\" said Jack, adjusting his old, weathered hat, \"if these hills have secrets buried deep within 'em? Lost treasures, ancient relics, echoes of the past just waiting to be discovered.\"\n\nSarah chuckled softly, her eyes following the hawk's flight. \"You've been reading too many adventure novels again,\" she teased, nudging him playfully. \"But it\u2019s a nice thought. All this land, so much history hidden beneath the soil.\"\n\nJack smiled, patting the metal detector slung across his back. \"Well, there\u2019s only one way to find out.\"\n\nThe fields, meanwhile, stretched into infinity, unaware of the two dreamers and their musings. Somewhere far off, the sound of a distant train whistle floated on the wind, a ghostly reminder of time's passage.\n\nfj83#89vnm&2!zigzag-pattern@44tree-fox#apple7.\n\nAnd so the day unfolded like a storybook, each page filled with the promise of discovery, mystery, and the simple beauty of an unhurried adventure."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

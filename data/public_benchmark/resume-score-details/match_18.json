@@ -1,0 +1,173 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 5 years of relevant experience in distribution sales, as required by the job description.",
+            "There is no specific mention of lead generation experience, but strong interpersonal and communication skills are stated.",
+            "Experience with CRM, MS Office, and Salesforce is mentioned, aligning with the job's requirements for CRM software proficiency.",
+            "The candidate's educational background does not include a degree from a leading business school, which is preferred by InnovateCorp."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 4
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 7
+                },
+                {
+                    "criteria": "market research",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.83,
+                "micro_scores": 5.6000000000000005
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Hassan Ishaq",
+            "email": "hassanch4686@outlook.com",
+            "phone": "0301 -7706019",
+            "current_position": "Distribution Sales",
+            "current_company": "CoCa Cola Beverages Company",
+            "employment_start_date_current_company": "07-2019",
+            "first_company_start_date": "07-2015",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 35,
+            "experience": 15,
+            "client relations": 18,
+            "strategic planning": 32
+        },
+        "micro_dict": {
+            "lead generation": 4,
+            "crm systems": 32,
+            "market research": 29,
+            "project management": 35
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proven track record in lead generation and client engagement",
+            "5+ years of relevant experience in business development",
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Muhammad Hassan  Ishaq  \n hassanch4686@outlook.com  \nShujaAbad,Multan  \nCell  # 0301 -7706019  \nAbridge  \nTo learn more and polish my skills in an environment that can \nhelp to achieve organization goals.  To become an efficient part \nof management so as to contribute towards the achievement \nof its goals as well as nourishing and nurturing my skills to make \nme a real asset for the organization.  \nPersonal Information  \nFull Name      Hassan  Ishaq  \nFather Name                                      Muhammad Ishaq  \nDate of Birth              20 March 1992  \nMarital Status              Single  \nGender               Male  \nReligious               Islam  \nNationality              Pakistan  \nWork Experiences   \n\u2756 Total 5 Years Of working experience  in FMCG  Industry  \n\u2756 4 Years In Distribution of (CoCa Cola Beverages Company) \nMultan, Continue \u2026 \n\u2756 Having 5 Years of Working in Distribution sales Matters  \n\u2756 Also  Having Internship Certificate In Finance  Department  at \nPEL Company  Education / Course  \n\u2756 M.Sc (Eco)                \n\u2756  From, Bahauddin Zakariya  University Multan, Pakistan  \n\u2756 Bachelor Degree  \nFrom, Bahauddin Zakariya University Multan , Pakistan  \n\u2756 Intermediate   (F.Sc ) \nFrom, Punjab College of Information Technology, Multan  \n\u2756 High School Certificate  \nBISE, Multan, Pakistan  \nTrainings/ Cerificates  \n\u2756 Internship in Finance  by (PEL) \n\u2756 Freelancing ( DigiSkills.pk ) by (MITT )(VU) \n\u2756 Digital Marketing  (DigiSkills .pk) by (MITT) (VU)  \n\u2756 Red Recognition Award (CCI)  \nStrength / Skills  \no Strong inter -personal and Concentrate communication skills  \no Demonstrate ability to present ideas  \no Ability to easily understand new concepts in minimum \nrefractory time.  \no High motivation  & adaptability  \no Self Starter and quick learner  \no Well known about MS Office ,G-suite,CRM,Salesforce & \nERP Software  \no Well Known about Sales & Marketing Operations     \nLanguages  \nUrdu,English,Punjabi  \n\u25aa I hereby declare that the information furnished \nabove is true to the best of my knowledge.   \n\u25aa Reference Should be furnished on demand  "
+    },
+    "details": {
+        "name": "Hassan Ishaq",
+        "number": "03017706019",
+        "skills": [
+            "MS Office",
+            "G-suite",
+            "CRM",
+            "Salesforce",
+            "ERP Software"
+        ],
+        "email_id": "hassanch4686@outlook.com",
+        "location": "ShujaAbad, Multan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2015",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "M.Sc (Eco)"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "Bachelor Degree"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Punjab College of Information Technology, Multan",
+                "degree_title": "Intermediate (F.Sc)"
+            },
+            {
+                "end_date": "06-2008",
+                "university": "BISE, Multan, Pakistan",
+                "degree_title": "High School Certificate"
+            }
+        ],
+        "achievements": [
+            "Red Recognition Award (CCI)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Internship in Finance",
+                "issuing_organization": "PEL",
+                "date_of_issuance": "06-2019"
+            },
+            {
+                "certification_name": "Freelancing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Hassan Ishaq is a dedicated professional with 5 years of experience in the FMCG industry, specializing in distribution sales. He holds a Master's degree in Economics and has completed various certifications in finance and digital marketing. Hassan is proficient in several software tools including MS Office, G-suite, CRM, Salesforce, and ERP Software, making him a valuable asset in sales and marketing operations.",
+        "employment_history": [
+            {
+                "details": "Worked in distribution sales for Coca Cola Beverages Company, managing sales operations and client relationships.",
+                "end_date": "Present",
+                "location": "Multan",
+                "job_title": "Sales Executive",
+                "start_date": "01-2019",
+                "company_name": "Coca Cola Beverages Company"
+            }
+        ]
+    }
+}

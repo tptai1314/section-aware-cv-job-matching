@@ -1,0 +1,160 @@
+{
+    "output": {
+        "justification": [
+            "Leadership experience is not evident in the resume. No examples of leading teams or projects are provided.",
+            "The relevant experience is not aligned with the job description. The candidate has SEO and sales experience, not project management or data analytics.",
+            "Technical expertise is scarce in terms of data management or analytics tools mentioned in the job description.",
+            "There is no evidence of CRM or pre-sales consulting experience which is important for the role.",
+            "Data management and analytics experience is not evident in the resume. The candidate\u2019s experience is primarily in SEO and sales.",
+            "No pre-sales consulting experience is mentioned in the resume, which is critical for the job description.",
+            "The candidate does not demonstrate experience in solution architecture.",
+            "There is no mention of Agile methodologies, a preferred skill in the job description.",
+            "Quality management systems are missing from the resume, with the candidate focusing on SEO strategies.",
+            "PowerBi or equivalent tools are not mentioned in the technical skills of the candidate."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 2
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 2
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 1
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 1
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 1
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 1
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.32,
+                "micro_scores": 1.2200000000000002
+            }
+        },
+        "personal_info": {
+            "name": "Subhan Tariq",
+            "email": "subhantariq893@live.com",
+            "phone": "+92 331 4404135",
+            "current_position": "Support Manager",
+            "current_company": "Semalt Digital Agency",
+            "employment_start_date_current_company": "09-2016",
+            "first_company_start_date": "09-2016",
+            "urls": [
+                {
+                    "website_name": "Facebook",
+                    "url": "https://web.facebook.com/SubhaX25"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 20,
+            "project management experience": 39,
+            "technical expertise": 29,
+            "client relationship management": 12
+        },
+        "micro_dict": {
+            "data management": 22,
+            "pre-sales consulting": 0,
+            "solution architecture": 21,
+            "agile methodologies": 2,
+            "quality management systems": 28,
+            "powerbi": 27
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "10+ years of industry experience in project management and data analytics"
+        ],
+        "resume": "Semalt Digital Agency\nSupport Manager ( Johar Town )\nRecommended changes to website architecture, content, and linking to improve SEO positions\nfor target keywords.\nManaged SEO campaign expenses, estimated monthly costs and reconciled discrepancies to\nmaximize the budget.\nPlanned, ran, and analyzed client PPC initiatives and campaigns to increase sales, generate\nleads and promote brand awareness.\nResearched and implemented search engine optimization recommendations in accordance\nwith the development methodology.\nProduced and submitted weekly reports outlining progress against KPI objectives.\nBuilt, implemented, and updated effective SEO strategies.\nCodified office structures and processes to promote teamwork and performance.\nMaintained accurate, current, and compliant financial records by monitoring and addressing\nvariances.\nEstablished and administered annual budget with effective controls to prevent overages,\nminimize burn rate, and support sustainability objectives.\nMaintained knowledge of current market trends and algorithm updates of top search engines.\nCompleted keyword research to target clients based on keyword targeting.\nMaximized strategic approaches by keeping a close eye on performance and making\nappropriate adjustments.\nHelped clients develop website portals and social media pages to promote businesses.\nUtilized search engine optimization and emphasized the importance of link building.\nApplied performance data to evaluate and improve operations, target current business\nconditions, and forecast needs.\nHandled complaints, provided appropriate solutions and alternatives within appropriate\ntimeframes, and followed up to achieve resolution.\nResearched and analyzed competitor websites and advertising links to gain insight into new\nstrategies.\nProposed technical feasibility solutions for new system designs and suggested options for\nperformance improvement of technical components.\nManaged department call volume of 100+ calls per day and coordinated department schedules\nto maximize coverage during peak hours.\nHelped employees with day-to-day work and complex problems by applying motivational and\nanalytical strategies.CONTACT\nINFORMATION\nPhone Number :\n +92 331 4404135 \n +92 324 3271794\nEmail Address;\nSubhantariq893@live.com\nsubhantaruq892@gmail.com\nHome Address;  Ganj  Bazar,\nMughalpura, Lahore, Pakistan\nFacebook;\nhttps://web.facebook.com/SubhaX252010-2014 | Art High school ABOUT ME\nEDUCATION\nAllama Iqbal Open University (AIOU)\nP.E.C.H.S High School Karachi Block 6 2020 - 2024 | Faculty of Arts (FA) Lahore Proven skills in increasing customer engagement and business visibility in\nonline searches through successful SEO approaches. Experienced in\ndeveloping marketing initiatives, increasing business success, and boost\nsales. Excellent analytical, organizational, and decision-making abilities.\nExperienced digital marketing with over 3 years of experience in Semalt\nExcellent reputation for resolving problems and improving customer\nsatisfaction. Highly motivated Sales Associate with extensive customer\nservice and sales experience. Outgoing sales professional with a track\nrecord of driving increased sales, improving buying experience, and\nelevating company profile with the target market. Consistently recognized\nfor sales performance and excellence in customer service.SALES AND\nMARKETING\nSubhan\nTariq\nEXPERIENCE\nSince 2019 till 2021 JuneMilvik Mobile Pakistan \nInbound & outbound Agent ( Model Town )\nDelivered exceptional customer service to every customer by\nleveraging extensive knowledge of products and services and creating\nwelcoming, positive experiences.\nUsed computer databases to keep track of phone calls, confidential\nnotes about conversations, and customer contact information.\nResponded to customer requests, offering excellent support and\ntailored recommendations to address needs.\nAchieved and consistently exceeded revenue quota through product\nand service promotion during routine calls.\nMemorized scripts to achieve easy conversational flow in interactions\nwith potential customers\nEnhanced productivity by staying on top of call scripts and maintaining\ncontrol over the direction of conversations.\nUsed Microsoft Word and other software tools to create documents\nand other communications.\nMaintained user account data by initiating account access and\nestablishing in database.\nAnswered phone with a friendly greeting to create a positive outbound\n& inbound calling experience for customers.\nEngaged with customers to effectively build rapport and lasting\nrelationships.\nIncreased sales by offering advice on purchases and promoting\nadditional products.\nUfone Franchise \nRetail sales store activities ( Garhi Shahu )\nExceeded goals through effective task prioritization and a great work\nethic.\nManaged team of 3 to 6 employees, overseeing hiring, training, and\nprofessional growth of employees.\nResolved problems, improved operations, and provided exceptional\nservice.\nUsed critical thinking to break down problems, evaluate solutions and\nmake decisions.\nWorked to maintain outstanding attendance record, consistently\narriving to work ready to start immediately.\nIncreased sales by offering advice on purchases and promoting\nadditional products.\nTracked stock using company inventory management software.\nPrepared sims for sales floor by pricing or tagging.\nLANGUAGES\nmicrosoft office\nCRM System\nSEO & PPC\nComputer Skills\nGoogle Analytics \nemail writing CONTACT\nINFORMATION\nPhone Number :\n +92 331 4404135 \n +92 324 3271794\nEmail Address;\nSubhantariq893@live.com\nsubhantaruq892@gmail.com\nFacebook;\nhttps://web.facebook.com/SubhaX25EXPERIENCE \nWORK\n2016 -\n20172018 -\n2019\nEnglish\nPunjabi\nUrdu\nSindhi \nPortuguese\nHindi \nSKILLS "
+    },
+    "details": {
+        "name": "Subhan Tariq",
+        "number": "923314404135",
+        "skills": [
+            "SEO",
+            "PPC",
+            "Google Analytics",
+            "Microsoft Office",
+            "CRM System",
+            "Email Writing"
+        ],
+        "email_id": "subhantariq893@live.com",
+        "location": "Ganj Bazar, Mughalpura, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "Allama Iqbal Open University (AIOU)",
+                "degree_title": "Faculty of Arts (FA)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "web.facebook.com/SubhaX25",
+                "website_name": "Facebook"
+            }
+        ],
+        "executive_summary": "Subhan Tariq is a skilled digital marketing professional with over 3 years of experience in SEO and PPC strategies. He has a proven track record of enhancing customer engagement and business visibility through effective online marketing initiatives. Subhan is adept at utilizing tools like Google Analytics and Microsoft Office to drive results and improve operations.",
+        "employment_history": [
+            {
+                "details": "Delivered exceptional customer service, managed inbound and outbound calls, and exceeded revenue quotas through effective product promotion.",
+                "end_date": "06-2021",
+                "location": "Model Town",
+                "job_title": "Inbound & Outbound Agent",
+                "start_date": "2019",
+                "company_name": "Milvik Mobile Pakistan"
+            },
+            {
+                "details": "Managed retail sales activities, trained employees, and resolved customer issues while exceeding sales goals.",
+                "end_date": "2019",
+                "location": "Garhi Shahu",
+                "job_title": "Retail Sales Associate",
+                "start_date": "2018",
+                "company_name": "Ufone Franchise"
+            }
+        ]
+    }
+}

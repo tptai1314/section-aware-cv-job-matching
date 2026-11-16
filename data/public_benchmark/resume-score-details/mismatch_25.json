@@ -1,0 +1,130 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not detail any experience in digital marketing or use of tools like Google Analytics, SEO/SEM, or CRM as required by the job description.",
+            "Lack of educational qualifications in Business Administration, Marketing, or related fields as the education section only lists Matriculation.",
+            "No mentioned experience in social media marketing or specific digital channels which are core to the job role.",
+            "No evidence of leadership roles or client relationship management which strongly ties to the macro criteria."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 5.0
+            }
+        },
+        "personal_info": {
+            "name": "Sohaib Afzal",
+            "email": "sohaibafzal96@gmail.com",
+            "phone": "+92-320-141-7186",
+            "current_position": "Lead Generation Specialist",
+            "current_company": "Techverx",
+            "employment_start_date_current_company": "03-2021",
+            "first_company_start_date": "07-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "client relationship": 100
+        },
+        "micro_dict": {
+            "project management": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "2+ years of experience in digital marketing",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Familiarity with Google Analytics and CRM tools",
+            "Proven work experience in social media marketing and SEO/SEM"
+        ],
+        "resume": " \n \nSOHAIB AFZAL  \n \n \n \nLAHORE,  PAKISTAN  \u2666 +92-320-141-7186  \u2666 sohaibafzal96@gmail.com  \n \nPROFESSIONAL  SUMMARY  \nSkilled Lead Generation  leader offering experience in leading operations and enhancing revenue  through \ngenerating leads and developing pipeline. Bringing expertise in using persuasive abilities and creative \ntechniques to find potential customers, finding n ew business through LinkedIn , following up leads and \nconducting research to identify the potential prospects , alon g with excellent interpersonal \ncommunication, relations hip-building and team leadership abilities.  \n \n \n\u25cf Outstanding communication skills  \n\u25cf Research  \n\u25cf Problem -solving  \n\u25cf New Business Development  \n\u25cf Database Management  \n\u25cf Team  collaboration  \n \n \nTechverx , 03/2021  to Current  \nLead Generation Specialist  SKILLS  \n\u25cf Administrative support  \n\u25cf Scheduling  \n\u25cf Recordkeeping  \n\u25cf Product and service sales  \n\u25cf Team  building  expertise  \n \n \nWORK  HISTORY  \n \n\u25cf Identified, qualified, and secured business opportunities; coordinated business generation activities;  \ndeveloped  customized targeted sales strategies.  \n\u25cf Identified and pursued valuable business opportunities.  \n\u25cf Developed and executed strategic initiatives to implement key changes and improvements in business  \ndevelopment.  \n\u25cf Built business relationships with current and potential clients.  \n\u25cf Procured new clients through networking websites, direct contact, word -of-mout h, and collaboration  \nwith the marketing department.  \n\u25cf Build pipeline and designed client reach campaigns which helped retain old prospects and increased  \nsales  by significant difference.  \n\u25cf Understood  client  needs  and offered  solutions  and support;  answering  potential  client  questions  and \nfollow -up questions.  \n\u25cf Collaborated with sales and leadership to secure, retain, and grow accounts.  \n\u25cf Created and maintained list/database (Excel, Hub Spot ) of prospect clients and their information.  \n\u25cf Collaborated with management on sales goals, planning, and forecasting; maintaining short - and \nlong-term business development plans.  \n\u25cf Attended networking activities to research and connect with prospective clients.  \n\u25cf Reviewed clients' feedback and implemented necessary changes.  Khan Brother\u2019s , 12/2018 to 03 /2020  \nManager  \n\u25cf Serves customers by completing account transactions.  \n\u25cf Provides account services to customers by receiving payments.  \n\u25cf Records  transactions  by preparing  currency transaction reports.  \n\u25cf Receiving the working cash for the  day and counting it before the shift begins.  \n\u25cf To answer  queries  and to assist  customers  with products  related  issues.  \n\u25cf To carry  out specialized  tasks  like staff training, inventory management and also sales handling.  \n\u25cf To prepare  communication,  reports,  and other products  by operating  Microsoft  Word, and Excel.  \n\u25cf To oversee  the clerical  support  function  based  on specific  requirements  \n \n \nIHOP , 07/2017  to 12/2018  \nSelf-employed & Owner  \n\u25cf Encourage the team for good customer service  \n\u25cf Manage Finances Keenly  \n\u25cf Ensure Communication Amongst The Staff  \n\u25cf Doing Industry Analysis  \n\u25cf Monitoring The Res taurant Reports Religiously  \n\u25cf Socializing  With The Industry Veterans  \n\u25cf Restaurant Inventory Spreadsheets to Keep Operating Costs in Check.  \n \n \nEDUCATION  \n \nMatriculation : 2016 - 2018  \nJinn ah Educators  - Lahore, Pakistan  "
+    },
+    "details": {
+        "name": "SOHAIB AFZAL",
+        "number": "923201417186",
+        "skills": [
+            "Lead Generation",
+            "Database Management",
+            "Microsoft Excel",
+            "HubSpot"
+        ],
+        "email_id": "sohaibafzal96@gmail.com",
+        "location": "LAHORE, PAKISTAN",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "Jinnah Educators",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sohaibafzal",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sohaib Afzal is a skilled lead generation specialist with extensive experience in enhancing revenue through effective lead generation strategies. He has a strong background in database management and is proficient in using tools like Microsoft Excel and HubSpot to support business development efforts.",
+        "employment_history": [
+            {
+                "details": "Identified, qualified, and secured business opportunities; coordinated business generation activities; developed customized targeted sales strategies.",
+                "end_date": "Current",
+                "location": "Techverx",
+                "job_title": "Lead Generation Specialist",
+                "start_date": "03-2021",
+                "company_name": "Techverx"
+            },
+            {
+                "details": "Serves customers by completing account transactions and providing account services; manages inventory and staff training.",
+                "end_date": "03-2020",
+                "location": "Khan Brother\u2019s",
+                "job_title": "Manager",
+                "start_date": "12-2018",
+                "company_name": "Khan Brother\u2019s"
+            },
+            {
+                "details": "Managed finances, ensured communication amongst staff, and conducted industry analysis for restaurant operations.",
+                "end_date": "12-2018",
+                "location": "IHOP",
+                "job_title": "Self-employed & Owner",
+                "start_date": "07-2017",
+                "company_name": "IHOP"
+            }
+        ]
+    }
+}

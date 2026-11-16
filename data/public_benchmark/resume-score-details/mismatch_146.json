@@ -1,0 +1,207 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not possess the required technical skills such as MATLAB, AutoCAD, or Arduino IDE.",
+            "The primary experience highlighted in the resume is in Android development, which is not relevant to the Junior Electrical Engineer Trainee role.",
+            "The resume does not demonstrate any experience in teamwork or electrical engineering projects as required by the job description.",
+            "The educational background and experience do not align with the job description's expectations of participation in electrical systems design and testing."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical skills",
+                    "score": 2
+                },
+                {
+                    "criteria": "teamwork and collaboration",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "autocad",
+                    "score": 0
+                },
+                {
+                    "criteria": "arduino ide",
+                    "score": 0
+                },
+                {
+                    "criteria": "proactive learning",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and teamwork skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in MATLAB and AutoCAD",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Arduino IDE",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.48,
+                "micro_scores": 0.4
+            }
+        },
+        "personal_info": {
+            "name": "WALEED AHMAD KHAN",
+            "email": "waleedkhan087@gmail.com",
+            "phone": "+92-324-8442564",
+            "current_position": "Sr. Android developer",
+            "current_company": "PakZonIT",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "12-2017",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/waleed-khan-6541a1161/"
+                },
+                {
+                    "website_name": "Sutton Muslims App",
+                    "url": "https://play.google.com/store/apps/details?id=com.waleed.suttonmuslim"
+                },
+                {
+                    "website_name": "Guard Rice App",
+                    "url": "https://play.google.com/store/apps/details?id=com.synapse.synergy.guard_rice"
+                },
+                {
+                    "website_name": "Atlantis App",
+                    "url": "https://play.google.com/store/apps/details?id=com.gameconnector.app&hl=en&gl=US"
+                },
+                {
+                    "website_name": "IMC Women\u2019s App",
+                    "url": "https://play.google.com/store/apps/details?id=sa.med.imc.womenhealth"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Junior Electrical Engineer Trainee\n\n**Location**: Lahore, Pakistan  \n**Company**: Z-Tech Innovations\n\n### About Us\nZ-Tech Innovations is at the forefront of pioneering solutions in electrical engineering and automation. Our core belief is in harnessing technology to simplify lives and enhance mobility. As a Junior Electrical Engineer Trainee, you will be part of an exciting team dedicated to innovation and excellence.\n\n### Job Overview\nWe are looking for a motivated and proactive Junior Electrical Engineer Trainee to join our dynamic engineering team. This entry-level role is perfect for recent graduates eager to apply their academic knowledge in a practical setting.\n\n### Key Responsibilities\n- Participate in project development, including tasks such as sensor integration and automation.  \n- Assist in the design and testing of electrical systems using industry-standard tools.  \n- Contribute to team discussions and provide insights on the latest trends in electrical engineering technology.  \n- Collaborate with senior engineers in developing innovative solutions for industrial applications.  \n- Maintain compliance with Health, Safety, and Environmental Policies.\n\n### Skills & Qualifications\n- **Technical skills**: Proficiency in MATLAB, AutoCAD, Proteus, and familiarity with Arduino IDE.  \n- **Soft skills**: Strong communication, teamwork, and report writing skills.  \n- **Personal attributes**: Proactive, self-motivated, with a strong willingness to learn and adapt.\n\n### Opportunities\n- Experience with real-world projects focused on automation and mobility technologies.  \n- Engage in our structured training programs designed to enhance technical skills.  \n- Career advancement based on performance and skill growth.",
+        "macro_dict": {
+            "technical skills": 52,
+            "teamwork and collaboration": 48
+        },
+        "micro_dict": {
+            "autocad": 59,
+            "arduino ide": 21,
+            "proactive learning": 20
+        },
+        "additional_info": "Z-Tech Innovations prefers candidates with a demonstrated interest in STEM through participation in relevant projects and events. We are supportive of candidates pursuing higher education and offer flexible work schedules to accommodate studies. Relocation support is available for candidates living outside Lahore. Skills assessments will include practical tests using MATLAB and AutoCAD, as well as a panel interview focusing on teamwork and technical problem-solving abilities.",
+        "minimum_requirements": [
+            "Strong communication and teamwork skills",
+            "Proficiency in MATLAB and AutoCAD",
+            "Familiarity with Arduino IDE"
+        ],
+        "resume": "WALEED AHMAD KHAN ( Senior Android Developer)  \nI'm android developer. I have more than 4 years of experience  in android applications development. I \nhave worked on lot of applications available on play store. I have also experience of play Store \nOptimization.  \n \nExperienced in java design and development, from start to end of the product.  \nExcellent communication sk ills, good analytical & design skills, focused  \napproach, team player, hardworking and professional attitude to work  \n \nPROFILE  \n\u25aa Experienced in java  and kotlin  \ndesign and development, from start to end of the  \nproduct.  \n\u25aa Excellent communication skills, good analytical & design skills, focused  \napproach, team player, hard working and professional attitude to work . \n \nEmail: waleedkhan087@gmail.com  \nMobile Number: +92-324-8442564 (WhatsApp)  \nLinkedIn: https://www.linkedin.com/in/waleed -khan -6541a1161/   \nSkype: waleedkhan087  \nCNIC: 35201 -5392923 -1 \n \nPROFESSIONAL EXPERIENCE   \nCompany: Synapse Synergy Solutions  \n1st Dec 2017 \u2013 To 1st Nov 2019  \nDesignation: Android developer  \nI have worked in Synapse Synergy Solutions for more than 1. 7 years. There, I have \nworked on android applications and some of them are available on play store.  \nResponsibilities:  \nDevelopment and management of Android Applications.  \n \nApplications:  \nSutton Muslims app available on google play store  \nurl: https://play.google.com/store/apps/details?id=com.waleed.suttonmuslim  \nBe Muslim app available on google play store  \nurl: https://play.google.com/store/apps/details?id=com.ramzan.BeMuslim  \nGuard Rice app available on google play store  \nurl: https://play.google.com/store/apps/details?id=com.synapse.synergy.guard_rice  \nBoat Life Organizer app available on google play store  \nurl: https://play.google.com/store/apps/details?id=com.synapse.synergy.lifeboatorganizer  \nDHA Lahore app available on google play store  \nurl: https://play.google.com/store/apps/details?id=com.buzzblare.dha  \n \u2022 Appointment app  \n\u2022 EQuran app  \n\u2022 Serve Humanity app w \n\u2022 Ayesha Silai Boutique    \n \nCompany: Novatore Solutions (pvt Limited)  \n \n23 Dec 2019 \u2013 To 07 May 2021  \nDesignation: Android developer  \nI am working in Novatore Solutions as a android developer.  \nResponsibilities:  \nDevelopment and management of Android Applications.  \n \nApplications:  \nAtlantis App  \nLetsTrip App  \nTechnician App  \nGame Connector App  \nhttps://play.google.com/store/apps/details?id=com.gameconnector.app&hl=en&gl=US  \nDWP app available on google play store  \nurl:  \nhttps://play.google.com/store/apps/details?id=com.app.dwp  \nCompany: DevBatch  \n09 May 2021 \u2013 8 Mar 2022  \nDesignation: Sr. Android developer  \nI am working in DevBatch as a senior android developer.  \nResponsibilities:  \nDevelopment and management of Android Applications.  \n \nApplications:  \nIMC Women\u2019s app available on google play store  \nurl: https://play.google.com/store/apps/details?id=sa.med.imc.womenhealth  \nMe Planet+ app available on google play store  \nurl: https://play.google.com/store/apps/details?id=com.meplanet.application&hl=en&gl=US  \nMy IMC app available on google play store  \nurl: https://play.google.com/store /apps/details?id=sa.med.imc.myimc&hl=en&gl=US  \nPhysician app available on google play store  url: https://play.google.com/store/apps/details?id=sa.med.imc.doctorap p&hl=en&gl=US  \n \nCompany: PakZonIT  \n \n10 Mar 2022 \u2013 to current  \nDesignation: Sr. Android developer  \n \nI am working in PakZonIT as a senior/TeamLead android developer.  \nResponsibilities:  \nDevelopment and management of Android Applications.  \n \nApplications:  \nGallery App (Working continue)  \n \nSKILL SET Languages and Development Tools:  \n \n\u2022 Java  \n\u2022 Kotlin  \n\u2022 GitHub  \n\u2022 ADB Tools  \n\u2022 Realtime Database  \n\u2022 Maps SDK  \n\u2022 Android Volley, Retrofit  \n\u2022 Material Designs  \n\u2022 Exo Player  \n\u2022 Crashlytics  \n\u2022 Data Binding  \n\u2022 Dagger 2  \n\u2022 Cyber Source / PayPal  \n\u2022 Facebook Login  \n\u2022 Google Login  \n\u2022 Kotlin Coroutines  \n\u2022 Constraint Layout  \n\u2022 Firebase Cloud Messaging  \n\u2022 Multithreading  \n\u2022 Android SDK  \n\u2022 Source Tree  \n\u2022 Postman  \n\u2022 Bit Bucket  \n \nScripting/Markup Languages:  \n\u2022 JavaScript  \n\u2022 HTML  \u2022 XML, json  \n\u2022 CSS \nDatabases:  \n\u2022 SQLite  \n\u2022 SQL Server  \n\u2022 Firebase  \n \n \nFINAL YEAR PROJECT  \nServe Humanity  \n\u2022 Made in android  \n \nResponsibility  \n\u2022 Develop splash screen and login screen with firebase authentication.  \n\u2022 Develop and design main screen  on  which different activities are open on click.  \n\u2022 Google Map Integration.  \n\u2022 Saving user name and password in shared preferences.  \n\u2022 Implement Animation on splash screen.  \n\u2022 Checking if user name and password are valid or not.  \n \nLanguages  \n\u2022 English  \n\u2022 Urdu  \n \nEDUCATION  \nUniver sity of Sargodha Canal Campus , Lahore. www.uos.edu.pk  \nBSIT (Honors) , Major in Computer Science and engineering, November 2013 - 2017  \n "
+    },
+    "details": {
+        "name": "Waleed Ahmad Khan",
+        "number": "923248442564",
+        "skills": [
+            "Java",
+            "Kotlin",
+            "GitHub",
+            "ADB Tools",
+            "Realtime Database",
+            "Maps SDK",
+            "Android Volley",
+            "Retrofit",
+            "Material Designs",
+            "Exo Player",
+            "Crashlytics",
+            "Data Binding",
+            "Dagger 2",
+            "Cyber Source",
+            "PayPal",
+            "Facebook Login",
+            "Google Login",
+            "Kotlin Coroutines",
+            "Constraint Layout",
+            "Firebase Cloud Messaging",
+            "Multithreading",
+            "Android SDK",
+            "Source Tree",
+            "Postman",
+            "Bit Bucket",
+            "JavaScript",
+            "HTML",
+            "XML",
+            "JSON",
+            "CSS",
+            "SQLite",
+            "SQL Server",
+            "Firebase"
+        ],
+        "email_id": "waleedkhan087@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "Serve Humanity",
+                "description": "Developed an Android application with Firebase authentication and Google Map integration."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "11-2017",
+                "university": "University of Sargodha Canal Campus, Lahore",
+                "degree_title": "BSIT (Honors), Major in Computer Science and Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/waleed-khan-6541a1161/",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "skype:waleedkhan087",
+                "website_name": "Skype"
+            }
+        ],
+        "executive_summary": "Waleed Ahmad Khan is a skilled Senior Android Developer with over 4 years of experience in Android application development. He has a strong background in Java and Kotlin, and has successfully developed numerous applications available on the Play Store, showcasing his expertise in the field.",
+        "employment_history": [
+            {
+                "details": "Development and management of Android Applications.",
+                "end_date": "11-2019",
+                "location": "",
+                "job_title": "Android Developer",
+                "start_date": "12-2017",
+                "company_name": "Synapse Synergy Solutions"
+            },
+            {
+                "details": "Development and management of Android Applications.",
+                "end_date": "05-2021",
+                "location": "",
+                "job_title": "Android Developer",
+                "start_date": "12-2019",
+                "company_name": "Novatore Solutions (Pvt Limited)"
+            },
+            {
+                "details": "Development and management of Android Applications.",
+                "end_date": "03-2022",
+                "location": "",
+                "job_title": "Sr. Android Developer",
+                "start_date": "05-2021",
+                "company_name": "DevBatch"
+            },
+            {
+                "details": "Development and management of Android Applications.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Sr. Android Developer",
+                "start_date": "03-2022",
+                "company_name": "PakZonIT"
+            }
+        ]
+    }
+}

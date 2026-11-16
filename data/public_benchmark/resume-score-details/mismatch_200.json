@@ -1,0 +1,142 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has some experience in digital media marketing from Infinite Group, but lacks specific SEO/SEM work experience, reflected in the Digital Marketing Experience score.",
+            "While the candidate has experience with client communication and sales, their experience in client relationship management is not emphasized, impacting their score in Client Relationship.",
+            "The resume indicates some project management skills through database management and coordinating exhibitions, warranting a moderate score in Project Management.",
+            "The candidate lacks specific experience with Google Analytics and explicit understanding of key digital marketing channels, impacting requirement meeting."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.04,
+                "micro_scores": 5.0
+            }
+        },
+        "personal_info": {
+            "name": "Khuram Khan",
+            "email": "kay.khuram@gmail.com",
+            "phone": "+923349747255",
+            "current_position": "Business Development Specialist",
+            "current_company": "Infinite Group",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "12-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "digital marketing experience": 96,
+            "client relationship": 4
+        },
+        "micro_dict": {
+            "project management": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Familiarity with Google Analytics and CRM tools",
+            "Strong project management and communication skills",
+            "Bachelor's degree in Business Administration, Marketing, or related field"
+        ],
+        "resume": "Khuram Khan \nBusiness Development Specialist \nI have 10 years of experience in sales and marketing, I can develop a team to generate business. \nkay.khuram@gmail.com \n+923349747255 \nWapda Town, Lahore, Pakistan \nWORK EXPERIENCE \nBusiness Development Specialist \nIn\ufb01nite Group \n06/2022 - 09/2022\n, \n \nLahore, Pakistan \nIt's a Software Development, Digital Media Marketing and Business\nProcess Outsourcing Company. \nBidding on Upwork, Guru and Fiverr. \nLinkedIn Sales Navigator to generate business leads \nEmail marketing \nInternational Sales Executive \nPachem Global \n01/2022 - 06/2022\n, \n \nPetrochemical manufacturing and trading company. \nLead generation in Latin America Markets \nLinkedIn Communication to develop business \nDatabase Management for long term relationship \nSales Manager \nBuksh Leather \n02/2020 - 03/2021\n, \n \nIt's glove manufacturing and welding equipment trading company\nworking in Pakistan and UAE. \nGenerate database and make cold calling \nMeet procurement managers to generate business \nCustomer Relationship Management to increase revenue. \nMarketing Executive \nLeathertex Group \n12/2013 - 01/2017\n, \n \nProtective Equipment Manufacturer and Leather Tannery. \n30 plus customers management from Europe \nProduct development for business expansion \nPreparation for exhibitions and trade shows \nEDUCATION \nMaster of Business Administration \nUniversity of Management and Technology \nSKILLS \nMicrosoft O\ufb03ce \nSAP Business Pro \nOutlook \nVOLUNTEER EXPERIENCE \nRegistered Member \nAl-Khidmat Foundation Pakistan \n09/2023 - Present\n, \n \nORGANIZATIONS \nLoopTex\n (12/2012 - 12/2013)\n \nTechnology Upgradation and Skill Development\nCompany\n (05/2012 - 10/2012)\n \nHONOR AWARDS \nInclusive Education Seminar\n (12/2010)\n \nName of the institution that issued/awarded it \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nSUPPORTED CAUSES \nWorld Food Programme by UN \nINTERESTS \nSocial Media \nBook Reading \nWorkout and exercise \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Khuram Khan",
+        "number": "923349747255",
+        "skills": [
+            "Microsoft Office",
+            "SAP Business Pro",
+            "Outlook"
+        ],
+        "email_id": "kay.khuram@gmail.com",
+        "location": "Wapda Town, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2013",
+                "university": "University of Management and Technology",
+                "degree_title": "Master of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/khuramkhan",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Khuram Khan is a seasoned Business Development Specialist with 10 years of experience in sales and marketing, skilled in generating business leads and managing customer relationships across various industries.",
+        "employment_history": [
+            {
+                "details": "Bidding on Upwork, Guru and Fiverr. LinkedIn Sales Navigator to generate business leads. Email marketing.",
+                "end_date": "09-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Specialist",
+                "start_date": "06-2022",
+                "company_name": "Infinite Group"
+            },
+            {
+                "details": "Lead generation in Latin America Markets. LinkedIn Communication to develop business. Database Management for long term relationship.",
+                "end_date": "06-2022",
+                "location": "",
+                "job_title": "International Sales Executive",
+                "start_date": "01-2022",
+                "company_name": "Pachem Global"
+            },
+            {
+                "details": "Generate database and make cold calling. Meet procurement managers to generate business. Customer Relationship Management to increase revenue.",
+                "end_date": "03-2021",
+                "location": "",
+                "job_title": "Sales Manager",
+                "start_date": "02-2020",
+                "company_name": "Buksh Leather"
+            },
+            {
+                "details": "30 plus customers management from Europe. Product development for business expansion. Preparation for exhibitions and trade shows.",
+                "end_date": "01-2017",
+                "location": "",
+                "job_title": "Marketing Executive",
+                "start_date": "12-2013",
+                "company_name": "Leathertex Group"
+            }
+        ]
+    }
+}

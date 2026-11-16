@@ -1,0 +1,305 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks specific experience in B2B sales, a critical component of the job role.",
+            "Strong experience in data analysis and AI development, but limited exposure to business strategy implementation.",
+            "Limited alignment with IT and manufacturing sector experience explicitly required in the job description.",
+            "No evident leadership or strategic management experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 7
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 5.1000000000000005
+            }
+        },
+        "personal_info": {
+            "name": "Hassan Javed",
+            "email": "hassanjaved917127@gmail.com",
+            "phone": "03443754942",
+            "current_position": "Artificial Intelligence Developer",
+            "current_company": "CENTAIC (NASTP)",
+            "employment_start_date_current_company": "03-2024",
+            "first_company_start_date": "11-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "LinkedIn"
+                },
+                {
+                    "website_name": "Github",
+                    "url": "Github"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "market research": 33,
+            "communication skills": 15,
+            "data analysis": 33,
+            "it and manufacturing sector knowledge": 19
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong understanding of IT and manufacturing industries",
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": "Hassan Javed\nArtificial Intelligence Developer\n43351\u00a0Rawalpindi,\u00a0Pakistan hassanjaved917127@gmail.com 03443754942 LinkedIn Github \nCoursera \nAs an AI Developer with over 3 years of specialized experience in Machine Learning, Deep Learning, Prompt Engineering,\nand NLP, complemented by a robust 5 years background in Python programming, I am adept at developing sophisticated\nalgorithms and AI-driven solutions that propel organizational success. My expertise extends to cross-functional collaboration\nand research, where I utilize innovative problem-solving skills to address complex challenges and drive technological\nadvancements. I am passionate about applying my technical and strategic insight to deliver impactful results in dynamic,\nforward-thinking environments.\nEducation\nMS ( Data Science ), National University of Computing and Emerging sciences 08/2022 \u2013 present\nIslamabad, Pakistan\nBS(Computer Science), University Of Kotli (AJK) 10/2017 \u2013 11/2021\nKotli (AJK)\nRelevant Coursework\nMachine Learning\nData Mining\nSoftware EngineeringDeep Learning\nData Science Tools & \nTechniquesBig Data Analytics\nData Structure & \nAlgorithmStats & Math\nData Base Management\nProfessional Experience\nArtificial Intelligence Developer, (CENTAIC) National Aerospace and Technology Park (NASTP)\n\u2022Developed and implemented time series classification and forecasting models using LSTM,\nSktime, Aeon, and utilized PyTorch and TensorFlow for synthetic data generation and model\ntraining.\n\u2022Applied QGIS for geospatial data analysis, generated synthetic flight patterns through rule-\nbased and model training techniques.03/2024 \u2013 present\nRawalpindi, Pakistan\n\u2022Solved complex AI problems and contributed to advancing AI research within the aerospace\nsector.\nArtificial Intelligence Research Executive, PanaceaLogics\n\u2022Implemented NLP solutions utilizing a variety of technologies, such as LLMs, LayoutLMv2,\nLayoutLMv3, LiLTv2, OCR, and GPT-2.\n\u2022Developed chatbots and systems for extracting content from PDFs using BERT pre-trained\nmodels and LangChain.11/2023 \u2013 03/2024\nRawalpindi, Pakistan\n\u2022Created proof of concept (POC) applications using Flask to demonstrate NLP capabilities with\nOpenAI tools.\n\u2022Proficient with Hugging Face, employing the RAG approach in models like LLaMA2 and\nLLaMA3, and knowledgeable in model optimization techniques including LORA and QLORA.\n\u2022Experienced in fine-tuning LLMs for specific application requirements and performance\nenhancements.\n\u2022Actively mentor and guide juniors and interns, fostering skill development in AI and NLP\ntechnologies and encouraging professional growth.\nArtificial Intelligence Specialist, PanaceaLogics\n\u2022Collected, labeled, cleaned, and preprocessed fish data for classification, segmentation, and\nobject detection, including distance estimation using stereo-vision techniques.\n\u2022Calculated the BMI of fish using image analysis and implemented paddle wheel detection for\nmonitoring purposes.07/2023 \u2013 10/2023\nIslamabad, Pakistan\n\u2022Developed an NLP-based system to find similar content through uploaded PDFs by searching\nqueries, enhancing data retrieval and analysis efficiency.\nData Scientist (Remote), 2hm Inc.\n\u2022Conducted research on chicken diseases, implemented data augmentation and classification\ntechniques, and created a performance evaluation web app using Flask.\n\u2022Performed data mining on marketing campaign datasets, including data wrangling, exploratory\ndata analysis, model building, and fine-tuning, with comprehensive report writing.01/2023 \u2013 11/2023\nEl Dorado Hills,\nCalifornia, USA\n\u2022Developed PowerBI dashboards, created triggers for multiple queries, and enhanced data\nvisualization and analysis capabilities.\nHassan Javed hassanjaved917127@gmail.comSoftware Engineer (Remote), 2hm Inc\n\u2022Developed full-stack applications using the MERN stack (MongoDB, Express, React, Node.js)\nand implemented efficient JavaScript problem-solving techniques.\n\u2022Built and maintained backend services with Node.js and Express, integrating APIs with Postman\nfor testing.01/2022 \u2013 12/2022\nEl Dorado Hills,\nCalifornia, USA\n\u2022Designed and managed databases with MongoDB, ensuring optimal performance and\nscalability of applications.\nWeb Programming (TA), FAST National University of Computer and Emerging Science\n\u2022Provided problem-solving support to students, helping them overcome coding challenges and\nunderstand complex concepts.\n\u2022Offered technical support including debugging code and resolving various technical issues.08/2022 \u2013 06/2023\nIslamabad, pakistan\n\u2022Assisted in courses by applying MERN stack concepts (MongoDB, Express.js, React, and\nNode.js) to enhance learning and practical application.\nStudent, FAST National University of Computer and Emerging Science\n\u2022Utilized Apache Spark for graph data processing and created an Azure ETL pipeline for\nefficient data processing.\n\u2022Employed Apache Kafka for big data analysis, applying algorithms to reduce computational\ncomplexity in large datasets.08/2022 \u2013 present\nIslamabad, Pakistan\n\u2022Enhanced data processing capabilities and improved the efficiency of big data analysis within\nthe project framework.\nSoftware Engineer, SigmaVendors\n\u2022Developed and maintained data visualizations using PowerBI for various business metrics.\n\u2022Utilized Python for scripting and automation to streamline processes and enhance efficiency.11/2021 \u2013 01/2022\nIslamabad\n\u2022Managed and queried databases using MySQL to support data analysis and reporting\nfunctions.\nFinal Year Project in Garbage Detection Using Drone's\n\u2022Developed a custom-trained Mask R-CNN model for detecting garbage in open areas and\ndustbins, enhancing environmental monitoring.\n\u2022Implemented volume measurement techniques for garbage to optimize waste management\nprocesses.\n\u2022Deployed the model using the Django framework and REST APIs, ensuring robust and scalable\napplication deployment.\nCertificates\nIntroduction to Programming using Python (Microsoft)\nIntro to Machine Learning (Kaggle)\nSequences, Time Series and Prediction (DeepLearning.ai)\nBuild Basic Generative Adverssarial Networks(GANs)\n(DeepLearning.ai)\nFoundations: Data, Data everywhere Cousera | GoogleMachine Learning (Stanford University) Coursera Andrew \nNg\nIntermediate Machine Learning (kaggle)\nIntroduction to TensorFlow for AI, ML, and \nDL(DeepLearning.ai).\nData Visualization (Kaggle)\nAsk Questions to Make Data-Driven Decision Making \nCoursera | Google\nAchievements\nIndustrial Exhibition (MUST), Control Automotive and Robotics Lab\nWe presented our Final Year Project and was awarded a participation shield\nSkills\nLanguages\nPython, JavaScript, C, C++,, HTML, CSS,PHP\nData Science\nMachine Learning, Time Series Classification | Forecasting,\nData visualization, Data Analysis, Pandas, Data structure,\nOpen cv, statistics\nTools\nJupyter Notebook, Excel, PySpark, Docker, Openai ApiFramework\nTensorflow, Pytorch, Keras, Flask, Django, Reactjs, Mocha,\nNodejs, Moongose and Expressjs\nLibraries\nNumpy, Pandas, Sktime, Aeon, Scikitlearn, scipy, Matplotlib,\nseaborn, Open cv, chai, Express,nltk\nAWS\nS3, Lambda Function, Sage maker, AWS wrangler\nSoft Skills\nProblem-Solving Skill, Resolved AI challenges and coding issues, solved the technical problems and assisted in development.\nCommunication Skill, Worked in cross-functionally on projects, collaborated on projects, educated, and supported teammates.\nHassan Javed hassanjaved917127@gmail.comAdaptability, Adapted to diverse environments and technologies, showing flexibility in academic and professional AI research.\nTeamwork and Collaboration, Experienced in various team settings, diverse research groups, and collaborative AI projects.\nContinuous Learning and Development:, Continuously enhanced skills in advanced AI and machine learning technologies.\nCreativity and Innovation, Led innovative projects like synthetic data generation and drone-based garbage detection.\nHassan Javed hassanjaved917127@gmail.com"
+    },
+    "details": {
+        "name": "Hassan Javed",
+        "number": "03443754942",
+        "skills": [
+            "Python",
+            "JavaScript",
+            "C",
+            "C++",
+            "HTML",
+            "CSS",
+            "PHP",
+            "Machine Learning",
+            "Time Series Classification",
+            "Forecasting",
+            "Data visualization",
+            "Data Analysis",
+            "Pandas",
+            "Data structure",
+            "OpenCV",
+            "statistics",
+            "Jupyter Notebook",
+            "Excel",
+            "PySpark",
+            "Docker",
+            "OpenAI API",
+            "TensorFlow",
+            "PyTorch",
+            "Keras",
+            "Flask",
+            "Django",
+            "ReactJS",
+            "Mocha",
+            "Node.js",
+            "Mongoose",
+            "Express.js",
+            "NumPy",
+            "Pandas",
+            "Sktime",
+            "Aeon",
+            "Scikit-learn",
+            "SciPy",
+            "Matplotlib",
+            "Seaborn",
+            "nltk",
+            "AWS S3",
+            "AWS Lambda Function",
+            "AWS SageMaker",
+            "AWS Wrangler"
+        ],
+        "email_id": "hassanjaved917127@gmail.com",
+        "location": "Rawalpindi, Pakistan",
+        "projects": [
+            {
+                "title": "Garbage Detection Using Drone's",
+                "description": "Developed a custom-trained Mask R-CNN model for detecting garbage in open areas."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "11-2021",
+                "university": "University Of Kotli (AJK)",
+                "degree_title": "BS(Computer Science)"
+            },
+            {
+                "end_date": "present",
+                "university": "National University of Computing and Emerging sciences",
+                "degree_title": "MS ( Data Science )"
+            }
+        ],
+        "achievements": [
+            "Awarded a participation shield at the Industrial Exhibition (MUST) for presenting the Final Year Project."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Introduction to Programming using Python",
+                "issuing_organization": "Microsoft",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Intro to Machine Learning",
+                "issuing_organization": "Kaggle",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Sequences, Time Series and Prediction",
+                "issuing_organization": "DeepLearning.ai",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Build Basic Generative Adversarial Networks(GANs)",
+                "issuing_organization": "DeepLearning.ai",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Foundations: Data, Data everywhere",
+                "issuing_organization": "Coursera | Google",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Machine Learning",
+                "issuing_organization": "Stanford University",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Intermediate Machine Learning",
+                "issuing_organization": "Kaggle",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Introduction to TensorFlow for AI, ML, and DL",
+                "issuing_organization": "DeepLearning.ai",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Data Visualization",
+                "issuing_organization": "Kaggle",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Ask Questions to Make Data-Driven Decision Making",
+                "issuing_organization": "Coursera | Google",
+                "date_of_issuance": "MM-YYYY"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hassanjaved",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/hassanjaved",
+                "website_name": "Github"
+            },
+            {
+                "url": "coursera.org/hassanjaved",
+                "website_name": "Coursera"
+            }
+        ],
+        "executive_summary": "Hassan Javed is an accomplished Artificial Intelligence Developer with over 3 years of specialized experience in Machine Learning, Deep Learning, and NLP, complemented by a robust 5-year background in Python programming. He excels in developing sophisticated algorithms and AI-driven solutions, demonstrating a strong commitment to technological advancements in dynamic environments.",
+        "employment_history": [
+            {
+                "details": "Developed and implemented time series classification and forecasting models using LSTM, Sktime, Aeon, and utilized PyTorch and TensorFlow for synthetic data generation and model training. Applied QGIS for geospatial data analysis, generated synthetic flight patterns through rule-based and model training techniques.",
+                "end_date": "present",
+                "location": "Rawalpindi, Pakistan",
+                "job_title": "Artificial Intelligence Developer",
+                "start_date": "03-2024",
+                "company_name": "CENTAIC National Aerospace and Technology Park (NASTP)"
+            },
+            {
+                "details": "Implemented NLP solutions utilizing a variety of technologies, such as LLMs, LayoutLMv2, LayoutLMv3, LiLTv2, OCR, and GPT-2. Developed chatbots and systems for extracting content from PDFs using BERT pre-trained models and LangChain. Created proof of concept (POC) applications using Flask to demonstrate NLP capabilities with OpenAI tools.",
+                "end_date": "03-2024",
+                "location": "Rawalpindi, Pakistan",
+                "job_title": "Artificial Intelligence Research Executive",
+                "start_date": "11-2023",
+                "company_name": "PanaceaLogics"
+            },
+            {
+                "details": "Collected, labeled, cleaned, and preprocessed fish data for classification, segmentation, and object detection, including distance estimation using stereo-vision techniques. Developed an NLP-based system to find similar content through uploaded PDFs by searching queries, enhancing data retrieval and analysis efficiency.",
+                "end_date": "10-2023",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Artificial Intelligence Specialist",
+                "start_date": "07-2023",
+                "company_name": "PanaceaLogics"
+            },
+            {
+                "details": "Conducted research on chicken diseases, implemented data augmentation and classification techniques, and created a performance evaluation web app using Flask. Developed PowerBI dashboards, created triggers for multiple queries, and enhanced data visualization and analysis capabilities.",
+                "end_date": "11-2023",
+                "location": "El Dorado Hills, California, USA",
+                "job_title": "Data Scientist (Remote)",
+                "start_date": "01-2023",
+                "company_name": "2hm Inc."
+            },
+            {
+                "details": "Developed full-stack applications using the MERN stack (MongoDB, Express, React, Node.js) and implemented efficient JavaScript problem-solving techniques. Designed and managed databases with MongoDB, ensuring optimal performance and scalability of applications.",
+                "end_date": "12-2022",
+                "location": "El Dorado Hills, California, USA",
+                "job_title": "Software Engineer (Remote)",
+                "start_date": "01-2022",
+                "company_name": "2hm Inc."
+            },
+            {
+                "details": "Provided problem-solving support to students, helping them overcome coding challenges and understand complex concepts. Assisted in courses by applying MERN stack concepts (MongoDB, Express.js, React, and Node.js) to enhance learning and practical application.",
+                "end_date": "06-2023",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Web Programming (TA)",
+                "start_date": "08-2022",
+                "company_name": "FAST National University of Computer and Emerging Science"
+            },
+            {
+                "details": "Utilized Apache Spark for graph data processing and created an Azure ETL pipeline for efficient data processing. Enhanced data processing capabilities and improved the efficiency of big data analysis within the project framework.",
+                "end_date": "present",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Student",
+                "start_date": "08-2022",
+                "company_name": "FAST National University of Computer and Emerging Science"
+            },
+            {
+                "details": "Developed and maintained data visualizations using PowerBI for various business metrics. Managed and queried databases using MySQL to support data analysis and reporting functions.",
+                "end_date": "01-2022",
+                "location": "Islamabad",
+                "job_title": "Software Engineer",
+                "start_date": "11-2021",
+                "company_name": "SigmaVendors"
+            }
+        ]
+    }
+}

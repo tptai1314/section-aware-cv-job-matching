@@ -1,0 +1,198 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrated leadership in deploying IT infrastructure projects, aligning with leadership expectations for a Business Development Manager.",
+            "Previous roles involved strategic planning and process improvement, which is partly aligned with the business development focus.",
+            "The candidate did not demonstrate specific experience in business development beyond the IT domain; hence, the relevant experience score is moderate.",
+            "SEO skills are not explicitly mentioned in the resume; thus, the candidate may need additional training to meet the job's digital marketing requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.76,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Tariq Ahsan",
+            "email": "ahsanmcsd@gmail.com",
+            "phone": "+92 333 8393273",
+            "current_position": "IT Infrastructure Administrator Central Region",
+            "current_company": "Hinopak Motors Limited",
+            "employment_start_date_current_company": "11-2019",
+            "first_company_start_date": "08-2010",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/-tariq-ahsan-ch-resume"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 16,
+            "business development experience": 36,
+            "strategic planning": 48
+        },
+        "micro_dict": {
+            "seo": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Muhammad Tariq Ahsan\nahsanmcsd@gmail.com +92 333 8393273\nlinkedin.com/in/-tariq-ahsan-ch-resume\nSummary\nSeasoned IT professional with experience in Network, System Support, ERP/CRM Deployments & IT\nManagement, Having sound knowledge & Experience of Data Analytical, Cloud Computing, Data center\nManagement & Procurement, IT Project Deployments, Business Analysis, Data Analysis & Process Improvement.\nExperience\nIT Infrastructure Administrator Central Region (LHR-ISB-MUL)\nHinopak Motors Limited\nNov 2019 - Present (2 years 8 months +)\n\u2022 IT Infrastructure Management, Information Technology day-to-day Matters.\n\u2022 Overall Management of Networks, Cyber Security, Software & Hardware Policies.\n\u2022 Successfully Deployed Auto Pilot project with .net C# application.\n\u2022 Integration of IIS Server with Oracle E-Business Suite Applications r12\n\u2022 Hino Vehicle Diagnosis System Denso-DX-II Controller integration.\n\u2022 Developing and documenting the policies, procedures, standards, guidelines, SOPs, plans.\n\u2022 Support on Company Portal (Oracle E-Business Suite) for remote office Punjab Region.\n\u2022 Provide Inputs during development and testing Reports application.\n\u2022 Basic IT Support when or where it required, over various corporate business.\n\u2022 IT products Support Communication and collaboration, voice and video.\n\u2022 Polycom G7500 modular video conferencing system with IP white listings.\n\u2022 Deployment for Remote Communication including Zoom & Teems Cloud Rooms.\n\u2022 Network & Database Management, Windows Servers, Active Directory, Email Server Support.\n\u2022 IBM Domino Server , Database Server Management, Azure AD admin center OFFICE 365.\n\u2022 Monitoring for remote offices. Successful Office 365 deployment for area offices.\n\u2022 Administrative functions including user accounts, maintenance, reports and dashboards, workflows,\nand other routine tasks.\nNetwork & System Support Admin\nPepsi - Shamim & Co. (Pvt) Limited\nOct 2011 - Sep 2019 (8 years)\n\u2022 Successful deployment Geographical Insight projects.\n\u2022 Market Intelligence system deployment with Development Team as senior member.\n\u2022 Managing Field Staff Data Collection (Market Share), coordination with DEV Team.\n\u2022 SQL Server Backup and Recovery with SSRS having High Availability Deployment\n\u2022 Implementation troubleshooting and Administration On Wi-Fi Unified WLAN.\n\u2022 Sales & Distribution ERP system deployments By (Sidat Hyder PVT LTD.) integration with SQL.\n\u2022 Installing, configuring, administering and performance tuning ORACLE 8i, 9i & 10g. Familiar with\ndatabase creation, database security, database migration, database performance monitoring, database\nbackup & restoration, import & Export schema of database. Implementation Bio Matrix Time Attendance\nsystem to track and synchronize attendance of employees at different locations\nresponsible for administration of Operating Systems, Virtualization HYPER V, System Engineering\nMuhammad Tariq Ahsan - page 1VMware admin.\n\u2022 Deployed Microsoft Forefront Threat Management Gateway\n\u2022 Deployed PRTG for Network & System Monitoring\n\u2022 Deployed of DNS and DHCP server,\n\u2022 VPN & Netgate/pfSense Firewall,\n\u2022 HP Servers, DELL Servers, Deployments and administration.\n\u2022 Widows backup with NAS support\nManager IT\nShezaInn Hotels\nApr 2017 - Aug 2019 (2 years 5 months)\nSuccessfully deployed Hotel Management System with SQL SERVER and C# as Third Party ERP\nSYSTEM.\nSuccessfully deployed UniFi\u00ae Enterprise Wi-Fi System as a scalable enterprise access point solution.\nSmart Conference solutions deployment for large scale National/International events, Vendor\nManagement and ITIL services.\nOffice 365 Azure active directory Implementation.\nUniFi Protect is a security management application deployment.\nPower BI reporting to help Business Process Improvement.\nSupporting Finance administration and customer support with new web technologies & tools.\nIT Support Executive\nMultan Group Of Companies (Multan Hide Pvt Ltd)\nAug 2010 - Nov 2011 (1 year 4 months)\n\u2022 Accounts/Inventory Software administration troubleshooting and support\n\u2022 Hardware Maintenance Parts Replacements,Router Configuration,\n\u2022 Help Desk Support , Internet LAN WAN Connectivity\nIT coordinator\nSB Hosiery Factory (PVT) Ltd.\nMar 2009 - Apr 2010 (1 year 2 months)\n\u2022 Oracle 8g and oracle forms and reports 6 support\n\u2022 windows 2000, Windows XP, outlook express support\n\u2022 Data Entry operations in Accounts Inventory & Production modules.\n\u2022 Payroll Data Entry\nEducation\nNet Rider Institute For Computer Netwroks\nMCSE, Network Computing\n2012 - 2012\nWindows Server 2008 R2 Administration, Configuring Domain Name System (DNS) for Active Directory,\nGroup Policy objects (GPOs),\nMaintain Active Directory accounts, Automate creation of Active Directory Accounts.\nConfigure system recovery options.\nMuhammad Tariq Ahsan - page 2University of Sindh\nBachelor of Commerce - BCom, Information Technology\n2004 - 2006\nCommerce\nPunjab Board Of Technical Education Lahore.\nDIT, Information Technology\n2002 - 2003\nOperating Systems , Database, Microsoft Office, crystal Report, Flow Charts, Web Technology.\nLicenses & Certifications\nMicrosoft System Center Configuration Manager Essential Training - LinkedIn\nSecuring Windows Server 2016: Securing Network Infrastructure - LinkedIn\nAzure Administration Essential Training - Udemy\nCybersecurity for IT Professionals  - LinkedIn\nCompTIA Network+ (N10-007) Cert Prep: 1 Understanding Networks  - LinkedIn\nUnderstanding Information Control for IT Managers  - Alison - Empower Yourself\n1876-20954481\nSkills\nSystem Administration  \u00a0 \u2022 \u00a0 ERP systems  \u00a0 \u2022 \u00a0 CRM Implementation & Monitoring  \u00a0 \u2022 \u00a0 Network Administration  \u00a0\n\u2022 \u00a0 Network Design  \u00a0 \u2022 \u00a0 Software Implementation  \u00a0 \u2022 \u00a0 Web Technologies  \u00a0 \u2022 \u00a0 Firewalls  \u00a0 \u2022 \u00a0 Troubleshooting  \u00a0 \u2022 \u00a0\nDHCP\nMuhammad Tariq Ahsan - page 3"
+    },
+    "details": {
+        "name": "Muhammad Tariq Ahsan",
+        "number": "923338393273",
+        "skills": [
+            "System Administration",
+            "ERP systems",
+            "CRM Implementation & Monitoring",
+            "Network Administration",
+            "Network Design",
+            "Software Implementation",
+            "Web Technologies",
+            "Firewalls",
+            "Troubleshooting",
+            "DHCP"
+        ],
+        "email_id": "ahsanmcsd@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2012",
+                "university": "Net Rider Institute For Computer Netwroks",
+                "degree_title": "MCSE, Network Computing"
+            },
+            {
+                "end_date": "06-2006",
+                "university": "University of Sindh",
+                "degree_title": "Bachelor of Commerce - BCom, Information Technology"
+            },
+            {
+                "end_date": "03-2003",
+                "university": "Punjab Board Of Technical Education Lahore.",
+                "degree_title": "DIT, Information Technology"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Microsoft System Center Configuration Manager Essential Training",
+                "issuing_organization": "LinkedIn",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Securing Windows Server 2016: Securing Network Infrastructure",
+                "issuing_organization": "LinkedIn",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Azure Administration Essential Training",
+                "issuing_organization": "Udemy",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Cybersecurity for IT Professionals",
+                "issuing_organization": "LinkedIn",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "CompTIA Network+ (N10-007) Cert Prep: 1 Understanding Networks",
+                "issuing_organization": "LinkedIn",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Understanding Information Control for IT Managers",
+                "issuing_organization": "Alison - Empower Yourself",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/-tariq-ahsan-ch-resume",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Tariq Ahsan is a seasoned IT professional with extensive experience in network and system support, ERP/CRM deployments, and IT management. He possesses strong technical skills in data analysis, cloud computing, and IT project deployments, demonstrating a commitment to excellence in his field.",
+        "employment_history": [
+            {
+                "details": "IT Infrastructure Management, Information Technology day-to-day Matters, Overall Management of Networks, Cyber Security, Software & Hardware Policies, Successfully Deployed Auto Pilot project with .net C# application, Integration of IIS Server with Oracle E-Business Suite Applications r12, Hino Vehicle Diagnosis System Denso-DX-II Controller integration, Developing and documenting the policies, procedures, standards, guidelines, SOPs, plans, Support on Company Portal (Oracle E-Business Suite) for remote office Punjab Region, Provide Inputs during development and testing Reports application, Basic IT Support when or where it required, over various corporate business, IT products Support Communication and collaboration, voice and video, Polycom G7500 modular video conferencing system with IP white listings, Deployment for Remote Communication including Zoom & Teems Cloud Rooms, Network & Database Management, Windows Servers, Active Directory, Email Server Support, IBM Domino Server, Database Server Management, Azure AD admin center OFFICE 365, Monitoring for remote offices, Successful Office 365 deployment for area offices, Administrative functions including user accounts, maintenance, reports and dashboards, workflows, and other routine tasks.",
+                "end_date": "Present",
+                "location": "LHR-ISB-MUL",
+                "job_title": "IT Infrastructure Administrator Central Region",
+                "start_date": "11-2019",
+                "company_name": "Hinopak Motors Limited"
+            },
+            {
+                "details": "Successful deployment Geographical Insight projects, Market Intelligence system deployment with Development Team as senior member, Managing Field Staff Data Collection (Market Share), coordination with DEV Team, SQL Server Backup and Recovery with SSRS having High Availability Deployment, Implementation troubleshooting and Administration On Wi-Fi Unified WLAN, Sales & Distribution ERP system deployments By (Sidat Hyder PVT LTD.) integration with SQL, Installing, configuring, administering and performance tuning ORACLE 8i, 9i & 10g, Familiar with database creation, database security, database migration, database performance monitoring, database backup & restoration, import & Export schema of database, Implementation Bio Matrix Time Attendance system to track and synchronize attendance of employees at different locations, responsible for administration of Operating Systems, Virtualization HYPER V, System Engineering VMware admin, Deployed Microsoft Forefront Threat Management Gateway, Deployed PRTG for Network & System Monitoring, Deployed of DNS and DHCP server, VPN & Netgate/pfSense Firewall, HP Servers, DELL Servers, Deployments and administration, Widows backup with NAS support.",
+                "end_date": "09-2019",
+                "location": "",
+                "job_title": "Network & System Support Admin",
+                "start_date": "10-2011",
+                "company_name": "Pepsi - Shamim & Co. (Pvt) Limited"
+            },
+            {
+                "details": "Successfully deployed Hotel Management System with SQL SERVER and C# as Third Party ERP SYSTEM, Successfully deployed UniFi\u00ae Enterprise Wi-Fi System as a scalable enterprise access point solution, Smart Conference solutions deployment for large scale National/International events, Vendor Management and ITIL services, Office 365 Azure active directory Implementation, UniFi Protect is a security management application deployment, Power BI reporting to help Business Process Improvement, Supporting Finance administration and customer support with new web technologies & tools.",
+                "end_date": "08-2019",
+                "location": "",
+                "job_title": "Manager IT",
+                "start_date": "04-2017",
+                "company_name": "ShezaInn Hotels"
+            },
+            {
+                "details": "Accounts/Inventory Software administration troubleshooting and support, Hardware Maintenance Parts Replacements, Router Configuration, Help Desk Support, Internet LAN WAN Connectivity.",
+                "end_date": "11-2011",
+                "location": "",
+                "job_title": "IT Support Executive",
+                "start_date": "08-2010",
+                "company_name": "Multan Group Of Companies (Multan Hide Pvt Ltd)"
+            },
+            {
+                "details": "Oracle 8g and oracle forms and reports 6 support, windows 2000, Windows XP, outlook express support, Data Entry operations in Accounts Inventory & Production modules, Payroll Data Entry.",
+                "end_date": "04-2010",
+                "location": "",
+                "job_title": "IT coordinator",
+                "start_date": "03-2009",
+                "company_name": "SB Hosiery Factory (PVT) Ltd."
+            }
+        ]
+    }
+}

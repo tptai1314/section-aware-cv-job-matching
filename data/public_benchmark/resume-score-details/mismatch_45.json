@@ -1,0 +1,176 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks explicit business development experience, having a strong background primarily in Software Product Management, Operations, and Human Resources.",
+            "Demonstrated leadership capabilities in past roles such as Head of Operations and HR, leading multiple teams and projects.",
+            "No direct indication of skills in SEO or negotiation, though experience in communication and client servicing suggests potential in negotiation.",
+            "Extensive experience in data and analytics-related roles, but not directly in business analytics or digital strategy specified in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 5
+                },
+                {
+                    "criteria": "seo",
+                    "score": 3
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 5.15
+            }
+        },
+        "personal_info": {
+            "name": "Ahmed Raza Khan",
+            "email": "arkhan3737@gmail.com",
+            "phone": "0092-3334662637",
+            "current_position": "Head Of Operations and HR (Scrum Master)",
+            "current_company": "CareTek Corporation",
+            "employment_start_date_current_company": "12-2021",
+            "first_company_start_date": "04-2012",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "http://www.linkedin.com/in/maj-ahmed-raza-khan-r-a9b306221"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 100
+        },
+        "micro_dict": {
+            "negotiation": 25,
+            "seo": 20,
+            "data analysis": 55
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy",
+            "5+ years of business development experience in a leadership role",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": " \n1 \n Ahmed Raza Khan  \nSector B Askari 10  \nCantonment , LHR  \nhttp://www.linkedin.com/in/maj -\nahmed -raza-khan-r-a9b306221   Cell: 0092 -3334662637  \narkhan3737 @gmail.com   \n \n\u26ab Experienced  Software Product Manager  and Certified Scrum Master  with expertise in  Information \nTechnology , Project management , Operations,  Administration  and Human resources  having success \nrecord : in Software Development life Cycle with American clients, United Nations Peace keeping \noperations under MONUSCO Headquarters  in Democratic Republic of Congo, Pakistan Army,  W Group \nand now CareTek Corporation  USA. \n\u26ab Respecte d organizer  and leader of multiple teams : With an extreme passion for my work I have \ndeveloped an amazing set of skills with regards to leading of various teams and departments. I am a \nhighly professional and a very dedicated individual who is extremely motivated and adaptive with a \ngreat thirst f or learning and becoming part of an amazing team.  \nAreas of Expertise  \nSoftware Project Management  \nCertified Scrum Master  \nOperations Management  \nHuman Resources Management  \nAdept Problem solving skills  Software development life cycle  \nTeam Lead/ Project manag ement  \nTechnical recruitment  \nPython programming  \nCommunication and negotiation  skills  Teambuilding & Training  \nInformation security  \nBusiness Analysis  \nCritical Thinking and analysis  \nLogistics and supply chain  \n \nProfessional Experience  \nCareTek Corporation, (Pennsylvania USA ) \nGulberg 3 Lahore Office  \nHead Of Operations and HR  (Scrum Master )                 22th Dec 2021  - Continued  \n\u2022 As Head of Operations ensuring that all the development is carried out as per Scrum, ensuring SDLC with \nAgile Philosophy, Sprint burn down, Release burn down, Product Back log, Jira updating, FRDs/BRDs  and \nall other required tasks for SDLC following Scrum Methodologies  \n\u2022 As HIPPA qualified Compliance officer ensuring the safety, integrity and accessibility of e -PHI (Protected \nHealth information) i ncluding  the audit  documentation.  \nAll the tasks of HR department including Technical Recruitment  \n\u2022 Technical and Non -Technical recruitment of staff.  \n\u2022 Compliance and security officer  \n\u2022 Management of Human re sources department  \n\u2022 Respons ible for overlooking the management of software development department.  \n\u2022 Respons ible for overlooking the management of software Quality assurance department.  \n\u2022 Respons ible for overlooking the management of client servicing and business development department.  \nW Group Japan Based Software house  Lahore  office . \nHuman Resources Manager/Technical recruiter                              29th Oct 2021 \u2013 20th Dec 2021 \nAll the tasks  of Human Resources Manager and technical recruiter,  with                                                                                     \nemphasis on understanding the software development life cycle and  building skilled and efficient team of \ndeve lopers to meet the company and  project requirements respectively. Conducting daily standups , \nperformance  reviews and appraisals keeping in view the business timelines.   \n2 \n  \nMajor BPS Grade -18,                                                        22 April  2012 \u2013 20h Oct 2021 \nPakistan Army   \nVast experience as a Cyber Security officer, Human resources manager, Civil Military liaison and  \ncommunications officer. Managing and maintaining  the regiment data bases, technical and non -\ntechnical recruitment, Security Management, P roject  Management and training of the staff.  \n\u2022 10 Years\u2019 service medal  \n\u2022 Medal of Honor (Tamgha -Azum)  \n \nCaptain Military United Nations  \nDemocratic Republic of Congo                                04th May 2015- 04h May 2016  \nVast experience as a Cyber Security officer, communications and liaison  officer of the UN Staff, working \nwith language assistants.  Coordination and  collaboration with various government and NGOs of the world \nincluding the  Red Cross organization.  \n\u2022 United Nations Peace Keeping Medal  \n \n \nAdditional Achievements  \n\u2022 United Nations Peace Keeping Medal  \n\u2022 Collaboration experience with Hunarkada Films as a Liaison  officer  \n\u2022 Sales Management of family business  \n\u2022 Microsoft office and Tableau  \n\u2022 Jira and Slack     \n\u2022 Git hub and Jibble  \n\u2022 Club cricketer domestic level  \n \n \nEducation and Training  \n \n2022 Specialization  - \u201cSoftware Product Management \u201d \nUniversity of Alberta , Canada  \n\u2022 Mastering the knowledge and demonstrating the application of Agile \npractices within software processes, requirements, planning, and \nimprovement to  \ncreate better software products. Activities and societies: Software \nProduct/Project management -Mastering the  knowledge and \ndemonstrating the application of Agile practices within software \nprocesses, requirements, planning, and improvement to create better \nsoftware products.  \n\u2022 The final Capstone course assessed the acquired knowledge and skills in \na practical scena rio involving  \nproduct team interactions, which simulated the development of a  \nsoftware product from inception to delivery.  \n\u2022 SFPC Professional Certi fication from Certi Prof ID: 79025876   \n \n2014 Graduation - \u201cBachelors of Science s Hons \u201d \nNational University of Sciences and Technology,  Islamabad   \n3 \n 2015 Courses  - \u201cUnited Nations \u201d \nPeace Operations Training Institute , Williamsburg Virginia, USA  \n\u2022 Introduction to the UN System  \n\u2022 Protection of Civilians  \n\u2022 The Conduct of Humanitarian Relief Operations  \n\u2022 Principles and Guidelines for UN Peacekeeping Operations  \n\u2022 Ebola Virus  Disease Awareness and Precautions  \n\u2022 Core Pre -deployment Training Materials  \n\u2022 Operational logistics support of UN Peacekeeping Missions  \n\u2022 Human Rights and Peacekeeping  \n2009 Intermediate  - \u201cPre-Engineering \u201d \nPakistan Fazaia Inter College , Pakistan  \n2007 Matric  - \u201cCompute Science\u201d  \nFederal Board of Intermediate & Secondary Education, Pakistan  \nUndergoing Training : Complete Business Analyst Course on Udemy including SQL and tableau,  Complete \nCyber Security Course by Nathan Hooks Udemy , UI/UX design on Udemy , SDLC Course from Course era  "
+    },
+    "details": {
+        "name": "Ahmed Raza Khan",
+        "number": "00923334662637",
+        "skills": [
+            "Software Project Management",
+            "Certified Scrum Master",
+            "Operations Management",
+            "Human Resources Management",
+            "Software Development Life Cycle",
+            "Python programming",
+            "Information security",
+            "Business Analysis",
+            "Jira",
+            "Slack",
+            "GitHub",
+            "Tableau"
+        ],
+        "email_id": "arkhan3737@gmail.com",
+        "location": "Cantonment, LHR",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "University of Alberta, Canada",
+                "degree_title": "Specialization in Software Product Management"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "National University of Sciences and Technology, Islamabad",
+                "degree_title": "Bachelors of Science Hons"
+            },
+            {
+                "end_date": "05-2015",
+                "university": "Peace Operations Training Institute, Williamsburg Virginia, USA",
+                "degree_title": "Courses in United Nations Peacekeeping"
+            }
+        ],
+        "achievements": [
+            "10 Years\u2019 service medal",
+            "Medal of Honor (Tamgha -Azum)",
+            "United Nations Peace Keeping Medal"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "SFPC Professional Certification",
+                "issuing_organization": "Certi Prof",
+                "date_of_issuance": "05-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maj-ahmed-raza-khan-r-a9b306221",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmed Raza Khan is an experienced Software Product Manager and Certified Scrum Master with a strong background in Information Technology and Project Management. He has a proven track record in the Software Development Life Cycle, having worked with various organizations including the United Nations and CareTek Corporation. His technical expertise includes Python programming and proficiency in tools such as Jira and Tableau.",
+        "employment_history": [
+            {
+                "details": "As Head of Operations ensuring that all the development is carried out as per Scrum, ensuring SDLC with Agile Philosophy, Sprint burn down, Release burn down, Product Back log, Jira updating, FRDs/BRDs and all other required tasks for SDLC following Scrum Methodologies.",
+                "end_date": "Continued",
+                "location": "Gulberg 3 Lahore Office",
+                "job_title": "Head Of Operations and HR (Scrum Master)",
+                "start_date": "12-2021",
+                "company_name": "CareTek Corporation"
+            },
+            {
+                "details": "All the tasks of Human Resources Manager and technical recruiter, with emphasis on understanding the software development life cycle and building skilled and efficient team of developers to meet the company and project requirements respectively.",
+                "end_date": "12-2021",
+                "location": "Lahore office",
+                "job_title": "Human Resources Manager/Technical recruiter",
+                "start_date": "10-2021",
+                "company_name": "W Group"
+            },
+            {
+                "details": "Vast experience as a Cyber Security officer, Human resources manager, Civil Military liaison and communications officer. Managing and maintaining the regiment databases, technical and non-technical recruitment, Security Management, Project Management and training of the staff.",
+                "end_date": "10-2021",
+                "location": "Pakistan Army",
+                "job_title": "Major BPS Grade -18",
+                "start_date": "04-2012",
+                "company_name": "Pakistan Army"
+            },
+            {
+                "details": "Vast experience as a Cyber Security officer, communications and liaison officer of the UN Staff, working with language assistants. Coordination and collaboration with various government and NGOs of the world including the Red Cross organization.",
+                "end_date": "05-2016",
+                "location": "Democratic Republic of Congo",
+                "job_title": "Captain Military United Nations",
+                "start_date": "05-2015",
+                "company_name": "United Nations"
+            }
+        ]
+    }
+}

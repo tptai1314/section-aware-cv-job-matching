@@ -1,0 +1,143 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not demonstrate any formal leadership experience which aligns with the leadership expectation from the job description.",
+            "The work experience listed in the resume is primarily focused on FMCG and distribution sales, which does not align with the relevant experience required in technical expertise or project management within the tech industry.",
+            "Resume does not mention any formal pre-sales consulting experience or relevant education that matches the requirements of the job description.",
+            "The resume lacks mention of proficiency in using analytical tools like PowerBI, which is a minimum requirement according to the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 1
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.8900000000000001,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Hassan Ishaq",
+            "email": "hassanch4686@outlook.com",
+            "phone": "0301-7706019",
+            "current_position": "None",
+            "current_company": "None",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 27,
+            "project management experience": 6,
+            "technical expertise": 38,
+            "client relationship management": 29
+        },
+        "micro_dict": {
+            "pre-sales consulting": 100
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV"
+        ],
+        "resume": "Muhammad Hassan  Ishaq  \n hassanch4686@outlook.com  \nShujaAbad,Multan  \nCell  # 0301 -7706019  \nAbridge  \nTo learn more and polish my skills in an environment that can \nhelp to achieve organization goals.  To become an efficient part \nof management so as to contribute towards the achievement \nof its goals as well as nourishing and nurturing my skills to make \nme a real asset for the organization.  \nPersonal Information  \nFull Name      Hassan  Ishaq  \nFather Name                                      Muhammad Ishaq  \nDate of Birth              20 March 1992  \nMarital Status              Single  \nGender               Male  \nReligious               Islam  \nNationality              Pakistan  \nWork Experiences   \n\u2756 Total 5 Years Of working experience  in FMCG  Industry  \n\u2756 4 Years In Distribution of (CoCa Cola Beverages Company) \nMultan, Continue \u2026 \n\u2756 Having 5 Years of Working in Distribution sales Matters  \n\u2756 Also  Having Internship Certificate In Finance  Department  at \nPEL Company  Education / Course  \n\u2756 M.Sc (Eco)                \n\u2756  From, Bahauddin Zakariya  University Multan, Pakistan  \n\u2756 Bachelor Degree  \nFrom, Bahauddin Zakariya University Multan , Pakistan  \n\u2756 Intermediate   (F.Sc ) \nFrom, Punjab College of Information Technology, Multan  \n\u2756 High School Certificate  \nBISE, Multan, Pakistan  \nTrainings/ Cerificates  \n\u2756 Internship in Finance  by (PEL) \n\u2756 Freelancing ( DigiSkills.pk ) by (MITT )(VU) \n\u2756 Digital Marketing  (DigiSkills .pk) by (MITT) (VU)  \n\u2756 Red Recognition Award (CCI)  \nStrength / Skills  \no Strong inter -personal and Concentrate communication skills  \no Demonstrate ability to present ideas  \no Ability to easily understand new concepts in minimum \nrefractory time.  \no High motivation  & adaptability  \no Self Starter and quick learner  \no Well known about MS Office ,G-suite,CRM,Salesforce & \nERP Software  \no Well Known about Sales & Marketing Operations     \nLanguages  \nUrdu,English,Punjabi  \n\u25aa I hereby declare that the information furnished \nabove is true to the best of my knowledge.   \n\u25aa Reference Should be furnished on demand  "
+    },
+    "details": {
+        "name": "Hassan Ishaq",
+        "number": "03017706019",
+        "skills": [
+            "MS Office",
+            "G-suite",
+            "CRM",
+            "Salesforce",
+            "ERP Software"
+        ],
+        "email_id": "hassanch4686@outlook.com",
+        "location": "ShujaAbad, Multan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2015",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "M.Sc (Eco)"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "Bachelor Degree"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Punjab College of Information Technology, Multan",
+                "degree_title": "Intermediate (F.Sc)"
+            },
+            {
+                "end_date": "06-2008",
+                "university": "BISE, Multan, Pakistan",
+                "degree_title": "High School Certificate"
+            }
+        ],
+        "achievements": [
+            "Red Recognition Award (CCI)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Internship in Finance",
+                "issuing_organization": "PEL",
+                "date_of_issuance": "06-2019"
+            },
+            {
+                "certification_name": "Freelancing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Hassan Ishaq is a dedicated professional with 5 years of experience in the FMCG industry, specializing in distribution sales. He holds a Master's degree in Economics and has completed various certifications in finance and digital marketing. Hassan is proficient in several software tools including MS Office, G-suite, CRM, Salesforce, and ERP Software, making him a valuable asset in sales and marketing operations.",
+        "employment_history": [
+            {
+                "details": "Worked in distribution sales for Coca Cola Beverages Company, managing sales operations and client relationships.",
+                "end_date": "Present",
+                "location": "Multan",
+                "job_title": "Sales Executive",
+                "start_date": "01-2019",
+                "company_name": "Coca Cola Beverages Company"
+            }
+        ]
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "output": {
+        "justification": [
+            "Experience: Strong internship experiences at IESCO and WAPDA relevant to power systems, which are aligned with the job requirements.",
+            "Learning and Adaptability: Demonstrated ability to learn through various internships and academic projects.",
+            "Communication: Frequent roles in seminars and teams suggest strong communication skills.",
+            "MATLAB: Proven thorough academic projects, particularly in cell balancing and solar solutions."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "learning and adaptability",
+                    "score": 9
+                },
+                {
+                    "criteria": "communication",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "matlab",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Basic understanding of solar energy systems",
+                    "meets": true
+                },
+                {
+                    "criteria": "Pursuing a Bachelor's degree in Electrical Engineering",
+                    "meets": true
+                },
+                {
+                    "criteria": "Good communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.42,
+                "micro_scores": 8.0
+            }
+        },
+        "personal_info": {
+            "name": "Fareha Khan",
+            "email": "farehakhan1909@gmail.com",
+            "phone": "+923 229675954",
+            "current_position": "Student",
+            "current_company": "University of Engineering and Technology, Taxila",
+            "employment_start_date_current_company": "N/A",
+            "first_company_start_date": "07-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/fareha-khan3b26a02a7/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Junior Electrical Engineer at [Innovative Power Solutions Inc.]  \n\n**Location:** Remote \n\n**Job Summary:**  \nJoin our dynamic team at Innovative Power Solutions Inc. as a Junior Electrical Engineer. In this role, you will support the development and implementation of sustainable and efficient solar energy solutions. We are looking for an enthusiastic engineer eager to contribute to our team through learning and innovation.  \n\n**Key Responsibilities:**  \n- Assist in designing and implementing solar power systems using tools like MATLAB and HelioScope.  \n- Participate actively in training sessions to understand power generation and distribution processes.  \n- Support senior engineers in project management and energy efficiency analyses.  \n- Conduct feasibility and performance analyses under guidance.  \n- Collaborate with team members to ensure project success and operational safety compliance.\n\n**Key Skills:**  \n- Proficiency in MATLAB and HelioScope for solar system design.  \n- Strong communication and teamwork skills.  \n- Willingness to learn and adapt to new challenges.  \n- Basic understanding of project management tools.\n\n**Qualifications:**  \n- Bachelor's degree in Electrical Engineering (completed or in final year).  \n- Prior internship experience in power systems or renewable energy is an advantage, but not required.",
+        "macro_dict": {
+            "experience": 46,
+            "learning and adaptability": 42,
+            "communication": 12
+        },
+        "micro_dict": {
+            "matlab": 100
+        },
+        "additional_info": "Our company values diversity in educational backgrounds and considers candidates from all accredited universities. Remote work options are available; however, relocation support is not provided. Skills and technical proficiency are assessed through a combination of online assessments and virtual interviews. We focus on the candidate's ability to learn new technologies and integrate into our team culture.",
+        "minimum_requirements": [
+            "Basic understanding of solar energy systems",
+            "Pursuing a Bachelor's degree in Electrical Engineering",
+            "Good communication skills"
+        ],
+        "resume": "                                           FAREHA KHAN  \n+923 229675954  farehakhan1909@gmail.com  https://www.linkedin.com/in/fareha -khan3b26a02a7/  \nSummary  \nElectrical Engineer with a robust background in power systems and a specialization in solar energy \nsolutions. Graduated from U niversity of Engineering and Technology, Taxila with a 3.5 2 CGPA, \ncomplemented by hands -on internship experiences at Islamabad Electric Supply Company \n(IESCO ) and Water And Power Development Authority ( WAPDA ). Skilled in load analysis and \nsolar system design, with p roficiency in MATLAB and Helio Scope . Dedicated to advancing \nsustainable energy solutions through innovative and efficient solar technologies.  \nEducation  \nUNIVERSITY OF ENGINEERING AND TECHNOLOGY  (3.52/4.00)               Taxila,  Pakistan  \nBachelor of Science in  Electrical Engineering                                                                   2020 -2024  \nF.G. POST GRADUATE COLLEGE FOR WOMEN (957/1100)                  Wah Cantt, Pakistan  \nF.Sc Pre -Engineering                                                                                                          2018 -2020  \nSIR SYED COLLEGE (1041/1100 )                                                                   Wah Cantt, Pakistan  \nMatriculation in Science Group                                                                                         2016 -2018  \nInternship  Experience  \nISLAMABAD ELECTRIC SUPPLY COMPANY (IESCO)                       (Jul 2022 -Aug 2022) \n\uf0b7 Gained comprehensive understanding of all equipment . \n\uf0b7 Studied and analyzed the working principles of distance and overcurrent relays.  \n\uf0b7 Gained insight into distribution feeders and their role in power distribution.  \n\uf0b7 Participated in sessions in the operations department, enhancing knowledge of grid operations \nand ma intanence . \nWATER AND POWER DEVELOPMENT AUTHORITY  (WAPDA )      (Jul 2023 -Aug2023)  \n\uf0b7 Acquired in -depth knowledge of power generation processes at Tarbela Power Station.  \n\uf0b7 Partici pated in sessions in the control room, gaining hands -on experience with SCADA \nsystems and operations management.  \n\uf0b7 Developed understanding of generator synchronization and maintenance procedures.  \n\uf0b7 Assisted in the analysis and improvement of energy distributio n systems to enhance overall \nefficiency.  \n \n Academic Experience  \nDistributive  Cell Balancing in Electric V ehicles  \n\uf0b7 Designed and implemented a hybrid approach to cell balancing using MATLAB.  \n\uf0b7 Achieved efficient and less complex solutions for energy storage systems.  \n\uf0b7 Ensured the system's reliability and effectiveness in various operating conditions.  \nSolar System Design  \n\uf0b7 Led a team in designing solar power solutions for residential and commercial use.  \n\uf0b7 Utilized Helioscope for accurate and efficient solar system design and simulation.  \n\uf0b7 Conducted detailed performance and feasibility analysis to optimize energy output.  \nExtracurricular Experience  \nInstitute of Electrical and  Electronics Engineer UET Taxila Student Branch      Taxila,Pakistan  \n\uf0b7 As a general member hosted the seminar and webinars and as a deputy director done the \ndocumentation.  \nInternship Management Team                                    UET  Taxila,Pakistan  \n\uf0b7 Led the management team and organized seminars to support and mentor junior students.  \nAdditional  \n\uf0b7 Skills:  Project Management , Good Communication , Leadership, Time Management , NI \nMult iSim, PSS/E.  \n\uf0b7 Languages:  English, Urdu . "
+    },
+    "details": {
+        "name": "Fareha Khan",
+        "number": "923229675954",
+        "skills": [
+            "MATLAB",
+            "Helio Scope",
+            "NI MultiSim",
+            "PSS/E"
+        ],
+        "email_id": "farehakhan1909@gmail.com",
+        "location": "Taxila, Pakistan",
+        "projects": [
+            {
+                "title": "Distributive Cell Balancing in Electric Vehicles",
+                "description": "Designed and implemented a hybrid approach to cell balancing using MATLAB."
+            },
+            {
+                "title": "Solar System Design",
+                "description": "Led a team in designing solar power solutions for residential and commercial use."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "04-2024",
+                "university": "University of Engineering and Technology",
+                "degree_title": "Bachelor of Science in Electrical Engineering"
+            },
+            {
+                "end_date": "04-2020",
+                "university": "F.G. Post Graduate College for Women",
+                "degree_title": "F.Sc Pre-Engineering"
+            },
+            {
+                "end_date": "04-2018",
+                "university": "Sir Syed College",
+                "degree_title": "Matriculation in Science Group"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/fareha-khan3b26a02a7",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Fareha Khan is an electrical engineer specializing in power systems and solar energy solutions, with hands-on experience from internships at IESCO and WAPDA. She is proficient in MATLAB and Helio Scope, demonstrating a commitment to advancing sustainable energy technologies.",
+        "employment_history": [
+            {
+                "details": "Gained comprehensive understanding of all equipment and studied the working principles of distance and overcurrent relays.",
+                "end_date": "08-2022",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2022",
+                "company_name": "Islamabad Electric Supply Company (IESCO)"
+            },
+            {
+                "details": "Acquired in-depth knowledge of power generation processes and gained hands-on experience with SCADA systems.",
+                "end_date": "08-2023",
+                "location": "Tarbela, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2023",
+                "company_name": "Water and Power Development Authority (WAPDA)"
+            }
+        ]
+    }
+}

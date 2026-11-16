@@ -1,0 +1,166 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has some experience with electrical engineering projects but lacks sufficient professional experience to meet the 3+ years requirement.",
+            "Has experience in AutoCAD and MATLAB, meeting some of the proficiency requirements, but lacks clear professional usage examples of these.",
+            "Final Year Project and other projects show some technical expertise but not directly related to power generation or telecommunications.",
+            "No evidence of experience in power generation or telecommunications directly."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical expertise",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                },
+                {
+                    "criteria": "industry experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "autocad",
+                    "score": 7
+                },
+                {
+                    "criteria": "python",
+                    "score": 5
+                },
+                {
+                    "criteria": "telemetry systems",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3+ years of experience in electrical design and implementation",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with power generation or telecommunications",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in MATLAB, AutoCAD, and Python",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.68,
+                "micro_scores": 6.04
+            }
+        },
+        "personal_info": {
+            "name": "Zainab Ashraf",
+            "email": "zynabawan89@gmail.com",
+            "phone": "+92 323- 9940741",
+            "current_position": "None",
+            "current_company": "None",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "06-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/zainab-ashraf-4a9143235"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Electrical Engineer - Communication & Sustainable Energy\n\nJoin **Innovate Power Solutions Inc.** as an Electrical Engineer focusing on communication systems and sustainable energy solutions. We are looking for a dynamic individual passionate about advancing eco-friendly technologies and delivering high-quality results. This role will involve designing, developing, and implementing cutting-edge electrical systems across diverse projects, from power generation to renewable energy applications.\n\n#### Key Responsibilities:\n- Design and implement electrical systems with a focus on sustainable energy solutions.\n- Collaborate with cross-functional teams to develop communication systems.\n- Utilize MATLAB, AutoCAD, and Python for system analysis and design.\n- Oversee the project lifecycle from conception to completion ensuring quality and efficiency.\n- Conduct data analysis to improve system performance and reliability.\n\n#### Preferred Qualifications:\n- Proven experience in power generation and telecommunication projects.\n- Strong skills in MATLAB, AutoCAD, and Python.\n- Demonstrable understanding of communication protocols and network design.\n- History of successful project completion in dynamic work environments.\n\n#### Benefits:\n- A supportive and innovative work environment.\n- Opportunities for professional growth and development.\n- Competitive salary and comprehensive benefits package.",
+        "macro_dict": {
+            "technical expertise": 9,
+            "project management": 50,
+            "industry experience": 41
+        },
+        "micro_dict": {
+            "autocad": 70,
+            "python": 12,
+            "telemetry systems": 18
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "3+ years of experience in electrical design and implementation",
+            "Experience with power generation or telecommunications",
+            "Proficiency in MATLAB, AutoCAD, and Python"
+        ],
+        "resume": " Zainab Ashraf  \n+92 323- 9940741  \u2022 zynabawan89@gmail.com  \n\u2022 Lahore,  Pakistan | linkedin.com/in/zainab -ashraf -4a9143235   \nObjective  \nFresh Electrical Engineer with a motivated attitude and willi ng to synchronize knowledge, \nprofessional and technical expos ure to excel in my career goals.  \nEducation   \nLahore College f or Women University, Lahore                        2020 \u2013 2024  \nB.Sc. in Electrical Engineering  (3.19 /4) (Grade: B)  \nPunjab Group o f Colleges, Lahore                                               2018  \u2013 2020   \nF.Sc. in Pre \u2013 Engineering  (Grade: A)  \nWork Experience   \nEngineer Intern  at Pakistan Council Of Scientific & Industrial Research  (PCSIR )  \n1st June 2022  \u2013 30th July 2022  \n\uf0b7 Learned  Electrical, Time and  Frequency measurements  \n\uf0b7 Applied & Scientific Metrology  on Industrial equipment for accurate calibration  \n\uf0b7 Studied and practically observed the calibration and  measurements of Electrical equipment  \nusing IEEE Standards  \n\uf0b7 Learned All types of Cable testing before and after compression using industrial testing \nstandards  \nProjects  \nFinal Year Project (Smart Hybrid Wh eelchair  Using Hand Gestures ) \n\uf0b7 Developed a Smart Hybrid Wheelchair integrating advanced sensor technology and \nautomation. Enhanced mobility and independence for users . \n\uf0b7 Featured both manual and automated modes for optimal adaptability and ease of use . \nOther Projects  \nATM Machine using RFID  | Tic-Tac-Toe game  | Plant Water Automation | Fire Alarm Circuit \nusing Arduino   \nSkills  \n\uf0b7 Technical Skills: MS Office, AutoCAD, Arduino ide, MATLAB, Visual Studio, \nLabVIEW, Multisim, SIMULINK, Serenade, Proteus  \n\uf0b7 Soft skills: Presentation skills, Teamwork, Report Writing  \n\uf0b7 Personal skills: Proactive and self -motivated, Strong Interpersonal Skills, Strong \ncommunication skill  \nExtra curricular Activities  \n\uf0b7 Volunteered  as an Ambassador at  Pakistan Engineering Council  (PEC) event,  all \nPunjab Universities i nnovation Expo 2024   \n\uf0b7 STEM education as an Organizer  at Lahore College f or Women University (LCWU)  \n\uf0b7 Volunteered  as an Ambassador  at Institute o f Civil Engineers (ICE)student UET Lahore  "
+    },
+    "details": {
+        "name": "Zainab Ashraf",
+        "number": "923239940741",
+        "skills": [
+            "MS Office",
+            "AutoCAD",
+            "Arduino IDE",
+            "MATLAB",
+            "Visual Studio",
+            "LabVIEW",
+            "Multisim",
+            "SIMULINK",
+            "Serenade",
+            "Proteus"
+        ],
+        "email_id": "zynabawan89@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Smart Hybrid Wheelchair Using Hand Gestures",
+                "description": "Developed a Smart Hybrid Wheelchair integrating advanced sensor technology and automation."
+            },
+            {
+                "title": "ATM Machine using RFID",
+                "description": "Developed an ATM machine utilizing RFID technology."
+            },
+            {
+                "title": "Tic-Tac-Toe game",
+                "description": "Created a Tic-Tac-Toe game."
+            },
+            {
+                "title": "Plant Water Automation",
+                "description": "Implemented a plant watering automation system."
+            },
+            {
+                "title": "Fire Alarm Circuit using Arduino",
+                "description": "Designed a fire alarm circuit using Arduino."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "Lahore College for Women University, Lahore",
+                "degree_title": "B.Sc. in Electrical Engineering"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "Punjab Group of Colleges, Lahore",
+                "degree_title": "F.Sc. in Pre \u2013 Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zainab-ashraf-4a9143235",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zainab Ashraf is a fresh Electrical Engineer with a strong technical background and hands-on experience in various engineering projects. She has developed innovative solutions such as a Smart Hybrid Wheelchair and has proficiency in multiple engineering software and tools.",
+        "employment_history": [
+            {
+                "details": "Learned Electrical, Time and Frequency measurements; Applied Scientific Metrology on Industrial equipment for accurate calibration; Studied and practically observed the calibration and measurements of Electrical equipment using IEEE Standards; Learned all types of Cable testing before and after compression using industrial testing standards.",
+                "end_date": "07-2022",
+                "location": "Pakistan Council Of Scientific & Industrial Research (PCSIR)",
+                "job_title": "Engineer Intern",
+                "start_date": "06-2022",
+                "company_name": "Pakistan Council Of Scientific & Industrial Research (PCSIR)"
+            }
+        ]
+    }
+}

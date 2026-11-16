@@ -1,0 +1,211 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has extensive experience in business development, including lead generation and client relations, over several years.",
+            "Experience with CRM tools such as Salesforce is a strong match for the job requirements.",
+            "Education background does not align with preferred institutes; however, experience compensates for this.",
+            "Skills in project management and client acquisition are demonstrated through previous roles."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 9
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 8
+                },
+                {
+                    "criteria": "market research",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.360000000000001,
+                "micro_scores": 7.709999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Faique Ali Raza",
+            "email": "faiquealiraza@gmail.com",
+            "phone": "03143631941",
+            "current_position": "Business Development Manager",
+            "current_company": "Crewlogicx Tech | Origami Studios",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "08-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/FaiqueAliRaza"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 48,
+            "client relations": 40,
+            "strategic planning": 12
+        },
+        "micro_dict": {
+            "lead generation": 23,
+            "crm systems": 39,
+            "market research": 14,
+            "project management": 24
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "Proven track record in lead generation and client engagement"
+        ],
+        "resume": " \nFaique Ali Raza House # 392, K Block, Model Town, Lahore, Pakistan 03143631941 linkedin.com/in/FaiqueAliRaza faiquealiraza@gmail.com Profile \u2022 An individual who is focused, honest, team-oriented, deliberate, determined, and most importantly, who makes use of his grey matter. \u2022 Multiple years of experience in Business Development, Sales generation, and Marketing fields. \u2022 Top Rated freelancer on Upwork. \u2022 Hands-on experience in Lead Generation, Email Marketing, Tele-sales, Sales Navigator, Salesforce, Documentation, and CRM. \u2022 1 Year of Experience in Communication and Tele-sales Marketing. \u2022 9+ years of experience in the field of Music and Event Management. Education Work Experience \u2022 Matric | Science | Civil Aviation Authority High School Lahore \u2022 Intermediate | Pre Eng. | Government College Gulberg Lahore \u2022 Bachelor in Computer Science | The University of Lahore  Skills Awards, Achievements and Certifications Data Scraping | Data Extraction | Leads | Emails Upwork | Fiverr | Freelancer | Guru | TopTal  Musician | Production | Live | Studio Recordings  \u2022 Course of Film and Documentary | Hunerkada College of Visual & Performing Arts | Lahore | 2020  \n Production Design for Film and Screen | Australian Film Television and Radio School | 2020 \n National Financial Literacy Program for Youth | National Institute of Banking and Finance (NIBAF)-Pakistan | 2020 \n Certification in Critical Thinking - Master Decision Making & Problem Solving. \n Won many Music Battles across Pakistan. \n Having many certifications in different Activities and Courses.  \u2022 Content Marketing and Advertising | Punjab University | E-Rozgaar | Lahore | 2020 \nSRS | GDD | WBD | Milestones | Timelines \u2022 Business Development Manager | Crewlogicx Tech | Origami Studios | April 2022 \u2013 Cont. \u2022 Business Development & Digital Project Manager | FIRTLE Tech | Part Time | June 2019 \u2013 Cont. \u2022 Business Development Executive | Argon Tech | Lahore | May 2021 - April 2022. \u2022 Business Development Executive | Kodex Technologies | Dec 2020 \u2013 May 2021. \u2022 Business Development Executive | GrowHawk | Aug \u2013 Dec 2020. \u2022 Business Development Executive | Bizzclan | Lahore | May \u2013 Aug 2020. \u2022 Telemarketing Agent | Nixxe Solution | 2019. Business Developer | LinkedIn Specialist | Leads/Sales Generator | Top Rated Upwork Freelancer "
+    },
+    "details": {
+        "name": "Faique Ali Raza",
+        "number": "03143631941",
+        "skills": [
+            "Data Scraping",
+            "Data Extraction",
+            "Leads",
+            "Emails",
+            "Salesforce",
+            "Documentation",
+            "CRM"
+        ],
+        "email_id": "faiquealiraza@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "Civil Aviation Authority High School Lahore",
+                "degree_title": "Matric | Science"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "Government College Gulberg Lahore",
+                "degree_title": "Intermediate | Pre Eng."
+            },
+            {
+                "end_date": "06-2020",
+                "university": "The University of Lahore",
+                "degree_title": "Bachelor in Computer Science"
+            }
+        ],
+        "achievements": [
+            "Top Rated freelancer on Upwork",
+            "Won many Music Battles across Pakistan"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Course of Film and Documentary",
+                "issuing_organization": "Hunerkada College of Visual & Performing Arts",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "Production Design for Film and Screen",
+                "issuing_organization": "Australian Film Television and Radio School",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "National Financial Literacy Program for Youth",
+                "issuing_organization": "National Institute of Banking and Finance (NIBAF)-Pakistan",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "Content Marketing and Advertising",
+                "issuing_organization": "Punjab University | E-Rozgaar",
+                "date_of_issuance": "06-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/FaiqueAliRaza",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Faique Ali Raza is a dedicated professional with extensive experience in business development, sales generation, and marketing. He has a strong technical background in data scraping, lead generation, and CRM systems, complemented by a solid educational foundation in computer science. Faique is recognized as a top-rated freelancer on Upwork and has achieved notable success in music battles across Pakistan.",
+        "employment_history": [
+            {
+                "details": "Business Development Manager responsible for driving sales and managing client relationships.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Manager",
+                "start_date": "04-2022",
+                "company_name": "Crewlogicx Tech"
+            },
+            {
+                "details": "Part-time Business Development & Digital Project Manager overseeing project execution and client engagement.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development & Digital Project Manager",
+                "start_date": "06-2019",
+                "company_name": "FIRTLE Tech"
+            },
+            {
+                "details": "Business Development Executive focused on generating leads and closing sales.",
+                "end_date": "04-2022",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "05-2021",
+                "company_name": "Argon Tech"
+            },
+            {
+                "details": "Business Development Executive responsible for client acquisition and relationship management.",
+                "end_date": "05-2021",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "12-2020",
+                "company_name": "Kodex Technologies"
+            },
+            {
+                "details": "Business Development Executive tasked with lead generation and sales strategies.",
+                "end_date": "12-2020",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "08-2020",
+                "company_name": "GrowHawk"
+            },
+            {
+                "details": "Telemarketing Agent engaged in direct sales and customer outreach.",
+                "end_date": "12-2019",
+                "location": "Lahore",
+                "job_title": "Telemarketing Agent",
+                "start_date": "01-2019",
+                "company_name": "Nixxe Solution"
+            }
+        ]
+    }
+}

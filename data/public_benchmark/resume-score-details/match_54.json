@@ -1,0 +1,183 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks a leadership experience background based on the job description's requirements to lead a team to achieve and surpass sales targets.",
+            "The candidate's experience primarily involves generating leads and lacks direct involvement in SEO strategies or PPC campaign management.",
+            "The resume does not reflect experience in client relationship management, which is a critical requirement in the job description.",
+            "The educational background of the candidate does not include a Master's degree which does not meet the minimal requirements outlined in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 1
+                },
+                {
+                    "criteria": "team management",
+                    "score": 3
+                },
+                {
+                    "criteria": "ppc campaigns",
+                    "score": 1
+                },
+                {
+                    "criteria": "client engagement",
+                    "score": 2
+                },
+                {
+                    "criteria": "market analysis",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in sales and client relationship management",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.14,
+                "micro_scores": 2.27
+            }
+        },
+        "personal_info": {
+            "name": "Hijab Malik",
+            "email": "hijabmalik28@gmail.com",
+            "phone": "Phone Number",
+            "current_position": "Business Developer",
+            "current_company": "Dr.Najeeb Lectures",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 54,
+            "experience": 30,
+            "client relationship management": 16
+        },
+        "micro_dict": {
+            "seo strategy development": 17,
+            "team management": 8,
+            "ppc campaigns": 4,
+            "client engagement": 31,
+            "market analysis": 40
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Proven track record in sales and client relationship management",
+            "Strong analytical and strategic thinking skills",
+            "Master's degree in Business Administration or related field"
+        ],
+        "resume": "Hijab Malik\nBusiness Developer\nHelp you sky-rocket your revenue through generating leads\nhijabmalik28@gmail.com\nPhone Number\n160 A Ahmed block new garden town, LAHORE, Pakistan\nWORK EXPERIENCE\nBusiness Development Manager\nDr.Najeeb Lectures\nGenerating leads for his Medical Lectures\nBusiness Development Managers\nWorth IT Solutions\nGenerating leads for the marketing services\nFreelancers\nUpwork\nBusiness Development Executive\nThe Hexaa\nGenerating leads for di\ufb00erent niches(Software Development and\nOutsourcing)\nCERTIFICATES\nActive Citizenship Project-British Counsil\nComptetion Of Public Policy\nEDUCATION\nBachelors in Economics\nKinnaird College for Women University\n2015 - 2019\n, \nCGPA:3.50\nA'levels\nLahore Grammer School 1A1\nO'LEVELS\nSalamat School System(Sicas)\nSKILLS\n\u2022 MS Word\nMS Excel\n\u2022 Stata\n\u2022 Possess excellent verbal and written communication\nskills.\nAbility to Handle Multiple Tasks.\nLinkedIn Sales Navigator Expert\nBiding Expert\nVOLUNTEER EXPERIENCE\nActive Citizenship\nBritish Council\nWorked on Sustainable Development Goals\nVolunteer ship\nShaukat Khanum Memorial Cancer Hospital\nACHIEVEMENTS\nPolicy Case Competition(2018)\nParticipated in an economics tutorial at Kinnaird College for\nWomen\nActive Citizens(2018)\nCommunity service programme by british council\nShaukat Khanum Cancer Hospital\nVoluntary worl\nHONOR AWARDS\nTitle/Award Name\nName of the institution that issued/awarded it\nLANGUAGES\nENGLISH\nNative or Bilingual Pro\ufb01ciency\nURDU\nFull Professional Pro\ufb01ciency\nPERSONAL PROJECTS\nImpact Of Structural Adjustment Program on\nPakistan Economy"
+    },
+    "details": {
+        "name": "Hijab Malik",
+        "number": "160AAhmedblocknewgardentownLAHOREPakistan",
+        "skills": [
+            "MS Word",
+            "MS Excel",
+            "Stata",
+            "LinkedIn Sales Navigator Expert",
+            "Bidding Expert"
+        ],
+        "email_id": "hijabmalik28@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Impact Of Structural Adjustment Program on Pakistan Economy",
+                "description": "A study on the economic impacts of structural adjustments."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Kinnaird College for Women University",
+                "degree_title": "Bachelors in Economics"
+            }
+        ],
+        "achievements": [
+            "Policy Case Competition (2018) - Participated in an economics tutorial at Kinnaird College for Women",
+            "Active Citizens (2018) - Community service programme by British Council"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Active Citizenship Project",
+                "issuing_organization": "British Council",
+                "date_of_issuance": "01-2018"
+            },
+            {
+                "certification_name": "Completion Of Public Policy",
+                "issuing_organization": "British Council",
+                "date_of_issuance": "01-2018"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hijabmalik",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hijab Malik is a dedicated business development professional with a strong background in generating leads and driving revenue growth. With experience in various organizations, she has honed her skills in MS Word, MS Excel, and Stata, and is recognized for her expertise in LinkedIn Sales Navigator and bidding.",
+        "employment_history": [
+            {
+                "details": "Generating leads for Medical Lectures",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2020",
+                "company_name": "Dr.Najeeb Lectures"
+            },
+            {
+                "details": "Generating leads for marketing services",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2020",
+                "company_name": "Worth IT Solutions"
+            },
+            {
+                "details": "Generating leads for different niches (Software Development and Outsourcing)",
+                "end_date": "Present",
+                "location": "Remote",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2020",
+                "company_name": "The Hexaa"
+            },
+            {
+                "details": "Freelancing on lead generation",
+                "end_date": "Present",
+                "location": "Remote",
+                "job_title": "Freelancer",
+                "start_date": "01-2020",
+                "company_name": "Upwork"
+            }
+        ]
+    }
+}

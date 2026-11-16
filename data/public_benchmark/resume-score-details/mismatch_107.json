@@ -1,0 +1,241 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive experience in sales, marketing, and business development roles, managing client relationships and sales strategies, matching the leadership qualities required for the position.",
+            "They possess an MBA with a specialization in Marketing, which aligns with the required minimum education.",
+            "Their experience in handling accounts and managing sales at various companies corresponding to the B2B sales aspect of the job.",
+            "They have relevant Amazon services and SEO experience though IT and manufacturing sectors specialization is missing.",
+            "Proficiency in Microsoft Office Suite is marked as 'Average', which raises concerns about meeting this specific requirement fully."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 5
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.9399999999999995,
+                "micro_scores": 6.8
+            }
+        },
+        "personal_info": {
+            "name": "Umair Khalid Butt",
+            "email": "Umair.b23@gmail.com",
+            "phone": "+923028475700",
+            "current_position": "Amazon Business & Data Management Manager",
+            "current_company": "Arshad Enterprises",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "06-2008",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 41,
+            "experience": 6,
+            "strategic thinking": 53
+        },
+        "micro_dict": {
+            "market research": 12,
+            "communication skills": 67,
+            "data analysis": 21
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Proven ability to develop and implement successful business strategies",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "5+ years of experience in business development or sales",
+            "Strong proficiency in Microsoft Office Suite",
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": "Page 1 / 7  \nUmair Khalid Butt  \n Professional R\u00e9sum\u00e9  \nAddress:  2-Z  ShadBagh,  Lahore Pakistan.  \nContact:    Cell:  +92 \n 3028475700              \nEmail(s):  Umair.b23@gmail.com  \nanay_hazel23  (Skype Id)  \n \n \nObjective:  To be a change agent seeking opportunities for organizational and personal \ngrowth by leveraging my academic and professional learning  \n In the global corporate arena.\u201d  \n \n \n  \nProfessional Career Summary:   \n \nProfessional Certification   Project Management , \nSupply Chain Management , \nHuman Resource Management  \nDigital Marketing  \nEducation   MBA(execut ive) \nSpecialization In Marketing.  \n \nB.com   \nOrganization   Duration   Designation  \nArshad Enterprises  Sep 2021 till \nPresent  Amazon Business & Data \nManagement  Manager  \nRixot Technologies Affiliated \nby Semalt  Dec. \u2013 18 to July \n2021 SEO Sales & Support Manager  \nKuks ( app )  Sept. -17 to   \nJuly-18 Sales & Marketing Business \nDevelopment . \nHouse of Kafsh  Nov-15 to \nAugust - 17. Product Manager.  \nJazz ( Mobilink ) Apr-11 to -Dec-16 Customer Care Representative, \nLahore  \nUnited Bank  Limited  Jan-10 to Mar -10 General Branch Banking,  Internship  \nLahore  \nVital Enterprises ( MediCard)  Jun-06 to July-08 Tele Marketing, Telesales \nRepresentative, Lahore  \n \n \n \n \n \nPage 2 / 7 Professional Experience  \n \nOrganization  : Arshad Enterprises  \nOrganization Type  : Amazon Services Company  \nDesignation  : Amazon Business Reporting Manager  \nTenure  :  Sep. 2021  till Present  \nLocation   : Lahore, Pakistan  \nArea(s) of Experience  : Amazon Drop shipping  \nResponsibility  : I Joined AE as a senior Amazon Data Management & Order Management \nConsultant. Managing and handling different accounts of Drop shipping  \nmodel by providing them with complete in -depth research from scratch till \nthe growth of their business . \n \nMy main responsibilities are : \n*Product Huntin g \n*Product Sourcin g \n*How to communicate with the supplie r \n*Product description creation & optimizatio n  \n*Listing and Order Managemen t \n*SEO \n*Social Media Managemen t \n*Drop shipping  \n*Brand Approva l \n*Customer Support Managemen t \n*Digital Marketing Managemen t \n \nProfessional Experience  \n \nOrganization  : Rixot Technologies  \nOrganization Type  : Affiliated with Semalt.com  \nDesignation  : SEO Sales and Support Manager  \nTenure  :  Dec. 2018 till July 2021  \nLocation   : Lahore, Pakistan  \nArea(s) of Experience  : SEO Sales & Customer Support  \nResponsibility  : I joined Semalt.com as an SEO support manager. My major responsibility is  to \nhanding  \nConsultation related request received from any client all over the world. \nChecking their  \ndetails in the CRM system, Analyze their website in detail and contact with \nthem over  \nthe call, email, etc. to give them support consultation regarding the ir \nwebsites, discuss  \nand share their website issues with them and provide them the long term \nSEO marketing  \nstrategy how they rank in Google top positions in SERP and promote their \nbusiness/  \nSales and after convincing them convert them into successful sales  and start \nworking on  \ntheir website project with the help of team etc.  \n Page 3 / 7 Professional Experience  \nOrganization  : KUKS  \nOrganization Type  : Software House - Horeca Sector.  \nDesignation  : Sales & Marketing Business Development Officer  \nTenure  :  Sep 2017 till July 2018  \nLocation   : Lahore, Pakistan  \nArea(s) of Experience  : Sales and Marketing  Business Development  \nResponsibility  : Identifies business opportunities by identifying prospects and evaluating their \nposition in the industry; researching and analyzing sales options.  \nSells and market products by establishing contact and developing \nrelationships with prospects; recommending solutions.  \nMaintains relationships with clients by providing support, information, and \nguidance; researching and recomm ending new opportunities; recommending \nprofit and service improvements.  \nIdentifies product improvements or new products by remaining current on \nindustry trends, market activities, and competitors.  \n \n \nProfessional Experience  \n \nOrganization  : House of Kafsh   \nOrganization Type  : Handmade Leather Shoes Brand  \nDesignation  : Product  Manager.  \nTenure  :  November  \u2013 2015 to August \u2013 2017  \nLocation   : Lahore, Pakistan  \nArea(s) of Experience  : Production and  Quality Check    \nResponsibility  : Working as a Production and Quality assurance manage r for Handmade \nLeather shoes brand.  Managing  all production process,  Labor, Checking shoes \ndesign and quality according to the customer need and demand. Purchasing \nmaterial, making work break down structu re for daily routine work, and O n \ntime delivery to the customer, etc.  \n \n \n \nProfessional Experience  \n \nOrganization  : Jazz (previously known as Mobilink ) \nOrganization Type  : Telecommunication  \nDesignation  : Customer Care Representative  \nTenure  :  April  \u2013 2011 to December  \u2013 2016  \nLocation  : Lahore, Pakistan  \nArea(s) of Experience  : Customer Services.  Official Line, BlackBerry & GPRS department, Mobile \nBanking ( Jazz Cash ) , Recruitment and Selection (HR).  \nResponsibility  : \uf0b7 Responsible for meeting all targets and KPI\u2019s on daily bases as set by \nthe Operations Department.  \n\uf0b7 Responsible for achieving high customer satisfaction high quality \nservice delivery and ensuring First Call Resolution (FCR).  \n\uf0b7 Create awareness among the customers and promote IVR/ Self -\nservice tools\u2019 usage to provide low cost automated services.  \n\uf0b7 Giving support to newly hired individuals for training and support.  \n \n\uf0b7 A strict adherence to shift and break schedule as communicated by Page 4 / 7 the Operations Department  \n\uf0b7 A strict compliance to company/divisional policies, plans and \nstrategies to achieve company/divisional goals along with complete \nunderstanding of Code of Conduct.  \n\uf0b7 Gather customer\u2019s concerns/suggestions and ensure that customer\u2019s \nvoice is being channeled to the right place with f ollow up.  \n\uf0b7 Responsible of maintaining/ updating complete knowledge and \ncompliance of Customer Research Development (CRD) processes, \nroutines and procedures along with products/offers being introduced \nin the department.  \n\uf0b7 Ensure that customer queries generated  by him/her should be \nresolved in the specified Turnaround Time (TAT) by following up on \nservices requests.  \n\uf0b7 Participate in all team meetings and team building and motivational \nexercises on periodic basis.  \n\uf0b7 Contribute to manage team objectives and goals thro ugh team work.  \n\uf0b7 Active participation for team development & trainings.  \n\uf0b7 Responsible for giving maximum support to team leader for achieving \nteam positions and targets.  \n\uf0b7 To maintain the team data & performance reports of team.  \n\uf0b7 To support the team by marinating  good individual performance.  \n\uf0b7 Giving training to new agents, explaining products, how to use the \nsystem, how to deal with customer, how to deal with complaints.  \n\uf0b7 Provide valid & regular customer\u2019s feedback to the management.  \n\uf0b7 Lead, coach & develop the team t o ensure maximum opportunity for \ncompany growth.  \n \n \n \nProfessional Experience  \n \nOrganization  : Vital Service ( MEDICARD )  \nOrganization Type  : Medical Insurance  \nDesignation  : Tele Sales Representative  \nTenure  :  June \u2013 2008 to July \u2013 2009  \nLocation   : Lahore, Pakistan  \nArea(s) of Experience  : Tele Sales/Marketing  Representative  \nResponsibility  : Arrange meetings with different people through phone calls and tell them \nabout the features and benefits of Medicard.  \nArrange appointments with doctors for those customers who already use \nservices of Medicard. Providing discounts with panelized h ospitals. Make new \nSales to them  who are interested to get the discounted medical services at \ntheir door step.  \n \n \n \n \n \n \n \n \n \n \n Page 5 / 7 Internship Experience  \n \nOrganization  : United Bank Limited  \nOrganization Type  : General Branch Banking  \nDesignation  : Internship  \nTenure                        : January \u2013 10 to Mar ch \u2013 10 \nResponsibilities        : Departments that is being working there  \n \n\uf0b7 Collection Department  \n\uf0b7 Clearing  Department  \n\uf0b7 Account Opening  \n\uf0b7 Credit Department  \n\uf0b7 Bills Collection  \n\uf0b7 Liability Products  \n \nProfessional Certification & Academic Education  \n \nSr. Certification / Degree  Institution / University  Specialization / Major  Passing Year  \n1 Amazon Virtual \nAssistant  Enablers  Product Hunting,  \nProduct Sourcing,  \nListing creation & \noptimization,  \nPPC \nSEO \nEBay \n       2021 \n2 Digital Marketing  Institute of Digital \nMarketing Pakistan  Website Creation & \nplanning  \nSearch Engine \nOptimization  \nSearch Engine Marketing  \nSocial Media Marketing  \nEmail Marketing \nAutomation  \nEcommerce Marketing  \nLead Generation & \nOptimization  \nGoogle Analytics & \nReporting  \n        2018 \n \n3 Human Resource \nManagement   Pakistan Industrial \nTechnical Assistance \nCentre (Ministry of \nIndustries & Production)   2016 \n \n4 Project Management  Pakistan Industrial \nTechnical Assistance \nCentre  (Ministry of \nIndustries & Production)  Initiating, Planning, \nExecuting , Monitoring, \nControlling and Closing \nProcesses.  2015 \n \n \n5 Supply Chain \nManagement  Pakistan Industrial \nTechnical Assistance Scope, Importance, \nRoles, Factors and 2016 \n Page 6 / 7 Centre (Ministry of \nIndustries & Production)  Different Supply Chain \nStrategies.   \n6 Master of  Business \nAdministration \n(Executive)  Global Institute Lahore  Marketing   \n2015 \n7 B.com  Hajvery University Lahore  Banking  ,Marketing  , \nAccount ing 2008 \n \n \n \n \n \n \n \n \nComputer Skills and Other Abilities  \n \nSr. Skills & Abilities  Proficiency Level  Last Used / Practiced  \n1 Word Processing  Average  Currently Using  \n2 Excel  Average  Currently Using  \n3 Siebel 8.1  Average  Currently Using  \n4 Internet  Average  Currently Using  \n5 Social Media Management  Average  Currently Using  \n6 Word Press Web Development  Average  Currently Using  \n7 SEO, Google Analytics  Average  Currently Using  \n8        Amazon Virtual Assistant  Average  Currently Using  \n9 Adobe Photoshop  Average  Currently Using  \n \n \n \n \n \nSocial Membership & Co -curricular / Leisure Activities  \nSr. Description of Activities             Institution/University                                                 Year  \n1 Change Management                   Harvard Manage Mentor Online Training                        2012 \n2 Time Management                       Harvard Manage Mentor  Online Training                        2012 \n3 Stress Management                      Harvard Manage Mentor Online Training                         2012 \n4 Decision Making                           Harvard Manage Mentor Online Training                         2012 \n5 Leading and Motivating                Harvard Manage Mentor Online Training                         2012 \n6 Feedback  Essentials                     Harvard Manage Mentor Online Training                         2012 \n7 Developing Employees                 Harvard Manage Mentor Online Training                         2012 \n8 Basic Communication and            Ovex Technologies Lahore, Pakistan                              2010 \nSales/Marketing Skills  \n \n \n \n \n \n Page 7 / 7 Personal Information  \n \nFather\u2019s Name  : Khalid Rashid Butt  \nMarital Status  : Married  \n  \nReligion  :  Islam  \nLanguage Competency  : Urdu,  Punjabi,  English  \n "
+    },
+    "details": {
+        "name": "Umair Khalid Butt",
+        "number": "923028475700",
+        "skills": [
+            "Amazon Drop shipping",
+            "Product Hunting",
+            "Product Sourcing",
+            "Product description creation & optimization",
+            "Listing and Order Management",
+            "SEO",
+            "Social Media Management",
+            "Digital Marketing Management",
+            "Website Creation & planning",
+            "Search Engine Optimization",
+            "Search Engine Marketing",
+            "Social Media Marketing",
+            "Email Marketing Automation",
+            "Ecommerce Marketing",
+            "Lead Generation & Optimization",
+            "Google Analytics & Reporting",
+            "Word Processing",
+            "Excel",
+            "Siebel 8.1",
+            "Internet",
+            "Social Media Management",
+            "Word Press Web Development",
+            "SEO",
+            "Google Analytics",
+            "Amazon Virtual Assistant",
+            "Adobe Photoshop"
+        ],
+        "email_id": "Umair.b23@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2015",
+                "university": "Global Institute Lahore",
+                "degree_title": "Master of Business Administration (Executive)"
+            },
+            {
+                "end_date": "2008",
+                "university": "Hajvery University Lahore",
+                "degree_title": "B.com"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Amazon Virtual Assistant",
+                "issuing_organization": "Enablers",
+                "date_of_issuance": "2021"
+            },
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "Institute of Digital Marketing Pakistan",
+                "date_of_issuance": "2018"
+            },
+            {
+                "certification_name": "Human Resource Management",
+                "issuing_organization": "Pakistan Industrial Technical Assistance Centre (Ministry of Industries & Production)",
+                "date_of_issuance": "2016"
+            },
+            {
+                "certification_name": "Project Management",
+                "issuing_organization": "Pakistan Industrial Technical Assistance Centre (Ministry of Industries & Production)",
+                "date_of_issuance": "2015"
+            },
+            {
+                "certification_name": "Supply Chain Management",
+                "issuing_organization": "Pakistan Industrial Technical Assistance Centre (Ministry of Industries & Production)",
+                "date_of_issuance": "2016"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umairkhalid",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Umair Khalid Butt is a skilled professional with extensive experience in Amazon business management, SEO, and digital marketing. He has a strong background in product management and customer support, demonstrating a commitment to driving business growth through effective strategies and solutions.",
+        "employment_history": [
+            {
+                "details": "Managing and handling different accounts of Drop shipping model by providing them with complete in-depth research from scratch till the growth of their business.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Amazon Business Reporting Manager",
+                "start_date": "09-2021",
+                "company_name": "Arshad Enterprises"
+            },
+            {
+                "details": "Handling consultation related requests received from clients, analyzing their websites, and providing long-term SEO marketing strategies.",
+                "end_date": "07-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "SEO Sales and Support Manager",
+                "start_date": "12-2018",
+                "company_name": "Rixot Technologies"
+            },
+            {
+                "details": "Identifying business opportunities, maintaining relationships with clients, and recommending solutions for product improvements.",
+                "end_date": "07-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales & Marketing Business Development Officer",
+                "start_date": "09-2017",
+                "company_name": "KUKS"
+            },
+            {
+                "details": "Managing production processes and quality assurance for handmade leather shoes, ensuring timely delivery and customer satisfaction.",
+                "end_date": "08-2017",
+                "location": "Lahore, Pakistan",
+                "job_title": "Product Manager",
+                "start_date": "11-2015",
+                "company_name": "House of Kafsh"
+            },
+            {
+                "details": "Responsible for achieving high customer satisfaction and service delivery in the telecommunications sector.",
+                "end_date": "12-2016",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Care Representative",
+                "start_date": "04-2011",
+                "company_name": "Jazz (Mobilink)"
+            },
+            {
+                "details": "Conducting tele sales and marketing for medical insurance services, arranging meetings and appointments for customers.",
+                "end_date": "07-2009",
+                "location": "Lahore, Pakistan",
+                "job_title": "Tele Sales Representative",
+                "start_date": "06-2008",
+                "company_name": "Vital Service (MEDICARD)"
+            },
+            {
+                "details": "Internship in various banking departments including collection, clearing, and account opening.",
+                "end_date": "03-2010",
+                "location": "Lahore, Pakistan",
+                "job_title": "Internship",
+                "start_date": "01-2010",
+                "company_name": "United Bank Limited"
+            }
+        ]
+    }
+}

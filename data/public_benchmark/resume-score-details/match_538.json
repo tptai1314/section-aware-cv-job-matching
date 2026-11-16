@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "Experience score is high because the candidate has extensive experience in business development and lead generation over multiple roles.",
+            "Lacks specific experience in C++, HTML, and CSS, reducing the score for relevant programming skills.",
+            "Strong proficiency in digital marketing and CRM tools, aligning well with job requirements, justifying a high score in digital marketing skills.",
+            "Communication skills evident from roles requiring client relationship management, meeting the minimum requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 3
+                },
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 5
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 8
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.0,
+                "micro_scores": 5.49
+            }
+        },
+        "personal_info": {
+            "name": "Zohaib Pasha",
+            "email": "mzohaib114295@gmail.com",
+            "phone": "+92-336-4260684",
+            "current_position": "Sr. Business Development Manager",
+            "current_company": "Clustox",
+            "employment_start_date_current_company": "02-2019",
+            "first_company_start_date": "07-2014",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/zohaib-pasha-4b300b139"
+                },
+                {
+                    "website_name": "Company",
+                    "url": "www.clustox.com"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "c++, html, css": 37,
+            "business intelligence tools (power bi, sql, tableau)": 21,
+            "digital marketing skills": 39,
+            "project management": 3
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Strong communication and interpersonal skills",
+            "Proficiency in at least one programming language"
+        ],
+        "resume": "\u00a0 \u00a0\nContact\n+92-336-4260684  (Work)\nmzohaib114295@gmail.com\nwww.linkedin.com/in/zohaib-\npasha-4b300b139  (LinkedIn)\nwww.clustox.com  (Company)\nTop Skills\nLead Generation\nOnline Marketing\nMicrosoft OfficeZohaib Pasha\nBusiness Development Manager\nSummary\nSeasoned Business Development Manager with exceptional\nplanning, implementation capabilities and a demonstrated history\nof working in the tech and services industry. Highly-trained in lead\ngeneration, startups collaboration, outside of freelance market\nexploration and an in-depth understanding of users' requirements\ngathering and market trends. Adept at cultivating managing and\nleveraging client relationships. \nYou can reach me out at m.zohaib114295@gmail.com and\n+92-336-4260684.\nExperience\nClustox\nSr. Business Development Manager \nFebruary 2019\u00a0-\u00a0Present\u00a0 (1 year 1 month)\nNextbridge Ltd.\nBusiness Development and Lead Acquisition Officer\nApril 2018\u00a0-\u00a0December 2018\u00a0 (9 months)\nSuave Solutions\nBuisness Development Officer\nMarch 2017\u00a0-\u00a0August 2017\u00a0 (6 months)\n\u2022 Define project scope objectives. develop detailed work plans, schedules,\nproject estimates, resource plans, and also status reports\n\u2022 Generate the business through lead generation from co-funding websites,\ndirect marketing and  freelancing portal like up-work.\n\u2022 Design the best negotiating strategies by considering the risks and rewards,\nand keeping in mind the counter-parties preferences & goals\n\u00a0 Page 1 of 3\u00a0 \u00a0\n\u2022 Lead the negotiation to close the deal and draw in resources from within the\ncompany to make it happen\n\u2022 Built sound, lasting, working relationships with key partners and clientele.\n\u2022 Analyzing important industry market intelligence in relation to market trends\nand future product development.\n\u2022 Developing business and researching on new profitable projects and\ncontinuously working on sustainable growth of the company.\nAdvanced Digital Solutions International, Inc.\nInside Sales Executive\nMay 2016\u00a0-\u00a0February 2017\u00a0 (10 months)\nLahore Pakistam\nAs a sales executive I was responsible to identify sales leads, pitch goods or\nservices to new and existing clients. Maintain a good working relationship with\nnew contacts.\nFulfill orders received from several US Goverment Departments Like US Army,\nNavy, Air-force etc and achieved my target in the first month and Generated\n700,000 $ revenue from RFQ Opportunities.\nIT Company - Australia\nEBay/Amazon Store Manager \nSeptember 2015\u00a0-\u00a0April 2016\u00a0 (8 months)\nLahore, Pakistan\nEBay/Amazon Store Manager \nJuicy Trends Pvt Ltd., Lahore, Pakistan\nApparel products Manufacturing company. Working internationally with more\nthan fifty thousand customers worldwide.\nKeeping the Keywords up-to-date with product specifications.\nBuilding and managing online product shopping platforms such as Amazon\nand Ebay.\nIdentifying online forums and locations to promote online shopping \nWork with marketing team on suggested advertising placements and website\nupdates to enhance shopping experience\nMonitor competitive product and pricing\nEvaluate and compare competitive website shopping experiences to store and\nlead charge to positive changes\n\u00a0 Page 2 of 3\u00a0 \u00a0\nManaging Internet sales leads, responding to inquiries in a timely fashion and\nanswering questions on available stock and product performance.\nHandling internet lead phone calls\nSelling a minimum number of products or bringing in a minimum of customers\nfrom the Internet, based on goals and objectives defined.\nINTECH Process Automation\nMicrosoft CRM Administator\nJuly 2014\u00a0-\u00a0December 2014\u00a0 (6 months)\nLahore, Pakistan\nEducation\nCOMSATS Institute of Information and Technology\nMaster of Business Administration - MBA,\u00a0Business Administration and\nManagement, General \u00a0\u00b7\u00a0(2018\u00a0-\u00a02019)\nCOMSATS Institute of Information and Technology\nBachelor's degree,\u00a0Business/Managerial Economics \u00a0\u00b7\u00a0(2012\u00a0-\u00a02016)\n\u00a0 Page 3 of 3"
+    },
+    "details": {
+        "name": "Zohaib Pasha",
+        "number": "923364260684",
+        "skills": [
+            "Microsoft Office"
+        ],
+        "email_id": "mzohaib114295@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2019",
+                "university": "COMSATS Institute of Information and Technology",
+                "degree_title": "Master of Business Administration - MBA, Business Administration and Management, General"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "COMSATS Institute of Information and Technology",
+                "degree_title": "Bachelor's degree, Business/Managerial Economics"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zohaib-pasha-4b300b139",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "clustox.com",
+                "website_name": "Clustox"
+            }
+        ],
+        "executive_summary": "Zohaib Pasha is a seasoned Business Development Manager with extensive experience in the tech and services industry, specializing in lead generation and client relationship management.",
+        "employment_history": [
+            {
+                "details": "Define project scope objectives, develop detailed work plans, schedules, project estimates, resource plans, and status reports. Generate business through lead generation from co-funding websites, direct marketing, and freelancing portals like Upwork. Lead negotiations to close deals and build lasting relationships with key partners and clientele.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sr. Business Development Manager",
+                "start_date": "02-2019",
+                "company_name": "Clustox"
+            },
+            {
+                "details": "Responsible for identifying sales leads, pitching goods or services to new and existing clients, and maintaining good working relationships with new contacts. Fulfilled orders from US Government Departments and generated significant revenue from RFQ opportunities.",
+                "end_date": "12-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development and Lead Acquisition Officer",
+                "start_date": "04-2018",
+                "company_name": "Nextbridge Ltd."
+            },
+            {
+                "details": "Managed online product shopping platforms such as Amazon and eBay, identified online forums for promotion, and worked with the marketing team on advertising placements.",
+                "end_date": "04-2016",
+                "location": "Lahore, Pakistan",
+                "job_title": "EBay/Amazon Store Manager",
+                "start_date": "09-2015",
+                "company_name": "IT Company - Australia"
+            },
+            {
+                "details": "Served as Microsoft CRM Administrator, responsible for managing CRM systems and supporting sales processes.",
+                "end_date": "12-2014",
+                "location": "Lahore, Pakistan",
+                "job_title": "Microsoft CRM Administrator",
+                "start_date": "07-2014",
+                "company_name": "INTECH Process Automation"
+            }
+        ]
+    }
+}

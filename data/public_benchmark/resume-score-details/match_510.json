@@ -1,0 +1,144 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has over 3 years of relevant experience in business development roles, which involves managing sales cycles and client engagement, but lacks extensive strategic leadership roles.",
+            "Some experience in leading and managing teams is present, though not extensively in strategic business development contexts.",
+            "Skills align with the job description regarding account management expertise but lack clarity on negotiation skills based on provided information.",
+            "Experience displays strategic thinking involved in lead generation and customer relationship building but requires more demonstration of managing complex sales cycles specifically."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "account management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 6.0
+            }
+        },
+        "personal_info": {
+            "name": "Reham Shah",
+            "email": "reham.altaf2@gmail.com",
+            "phone": "+923328079859",
+            "current_position": "Business Development Executive",
+            "current_company": "THD Infinity",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "07-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/reham-shah-a72b46172"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 55,
+            "strategic thinking": 45
+        },
+        "micro_dict": {
+            "account management": 100
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Strong negotiation and strategic thinking skills",
+            "Proven track record in managing complex sales cycles"
+        ],
+        "resume": "Reham Shah  \n \n \n             +923328079859                                          reham.altaf2@gmail.com @gmail.com  \nValencia  Town Lahore, Pakistan                    linkedin.com/in/reham -shah -a72b46172  \n \nB2B Sales Development        Client Liaison                            Online Bidding  \n \nBusiness Development Executive    July 2020 \u2013 Current  \n \n\u2756 Building and maintaining  successful  relationships with prospects and existing  clients . \n\u2756 Collaborating with executives on business Strategy to determine objectives . \n\u2756 Generated Top rated Client\u2019s Leads through freelancing Platforms like Upwork, \nFreelancers, Fiverr,   LinkedIn.  \n\u2756 Maximized productivity by analyzing protocols and identifying areas for improvement.  \n\u2756 Engaged with customers to effectively build rapport and lasting relationships. Solved \ncustomer challenges by  offering relevant products and services.  \n\u2756 Provided positive first impressions to welcome existing, new and potential customers.  \n\u2756 Helped develop ed Sales Automation process & Lead generation automation  \n\u2756 Handl ed Client Projects related to Software Development.  \n\u2756 Worked with CRM's like Salesforce  & Odoo . \n \nExperiences : \n \n Business Development officer at Kodex Technologies        (July 2020 to Sep 2020)  \n \n\u2756 Worked as a Bidder on multiple freelancing platform . \n\u2756 Worked on Linkedin Lead Generation . \n\u2756 Handled Client Projects related to Software Development . \n \nBusiness Development Executive at S.T.A.R.S Pvt.(.Ltd )      (Oct 2020 to April 2021)  \n \n\u2756 Worked as Bidder on multiple freelancing platform . \n\u2756 Worked on LinkedIn  Lead Generation . \n\u2756 Handled Client Projects related to Software Development.  \n\u2756 Technical  Required Gathering.  \n\u2756 Created Scope of Documents, DTLs . \n \nSales Development Representative at TkXel                        (May 2021 to October 2021)  \n \u2756 Sending  email to Market Qualif ied Leads.  \n\u2756 Converting MQLS into Discovery Call.  \n\u2756 Scheduling Zoom Meeting with clients.  \n\u2756 Maintain client\u2019s data on Salesforce CRM.  \n\u2756 Follow Ups to existing Leads.  \n \nBusiness Development Executive at THD Infinity   (Nov 2021 to present)  \n \n\u2756 Bidding on software development projects  over  Upwork  platfrom . \n\u2756 Scheduling Discovery call.  \n\u2756 Technical Requirement Gathering, Product analysis.  \n\u2756 Creating SOW  Document . \n\u2756 Creating DTLS and helping developer understand the client needs.  \n\u2756 Follow ups  with existing clients and generating new Leads.    \n \nAcademic Qualification:  \n \nComputer sciences - Bahria  University,  Lahore - 2016 -2020  \n \nSoft & Tech Skills:  \n\u2756 Good Communication Skills , verbal & written . \n\u2756 Experienced in dealing with US based clients . \n\u2756 Team Leader  at S.T.A.R.S Corporation.  \n\u2756 Familiar  in variety of development technologies and concepts including C++, Java, \nHTML/CSS, Agile/Scrum, Busines s Intelligence . \n\u2756 Web & Graphics Course  (NexxusBerry) . \n\u2756 Team lead for the Final Year  Project . \n \nAchievements : \n \n\u2756 Bahria Got Talent bulc  (Singing) . \n\u2756 Secured 2nd Position in Debate  Competition at Bahria University . \n\u2756 Employee of the Month at S.T.A.R.S . \n \nReferences:  \n \nUsman Farooqi, Business Manager at Kodex Technologies  \nUsmanfarooqi22@email,  +92 3214445372  \n \n "
+    },
+    "details": {
+        "name": "Reham Shah",
+        "number": "923328079859",
+        "skills": [
+            "C++",
+            "Java",
+            "HTML/CSS",
+            "Agile/Scrum",
+            "Business Intelligence",
+            "Salesforce",
+            "Odoo"
+        ],
+        "email_id": "reham.altaf2@gmail.com",
+        "location": "Valencia Town Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2020-12",
+                "university": "Bahria University",
+                "degree_title": "Computer Sciences"
+            }
+        ],
+        "achievements": [
+            "Secured 2nd Position in Debate Competition at Bahria University",
+            "Employee of the Month at S.T.A.R.S"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/reham-shah-a72b46172",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Reham Shah is a skilled business development executive with a strong background in software development and client relations. She has demonstrated expertise in various programming languages and tools, contributing to successful project management and lead generation efforts across multiple freelancing platforms.",
+        "employment_history": [
+            {
+                "details": "Building and maintaining successful relationships with prospects and existing clients. Collaborating with executives on business strategy to determine objectives. Generated top-rated client leads through freelancing platforms like Upwork, Freelancers, Fiverr, LinkedIn. Maximized productivity by analyzing protocols and identifying areas for improvement. Engaged with customers to effectively build rapport and lasting relationships. Solved customer challenges by offering relevant products and services. Provided positive first impressions to welcome existing, new and potential customers. Helped develop sales automation process & lead generation automation. Handled client projects related to software development. Worked with CRMs like Salesforce & Odoo.",
+                "end_date": "Current",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2020",
+                "company_name": "THD Infinity"
+            },
+            {
+                "details": "Worked as a Bidder on multiple freelancing platforms. Worked on LinkedIn lead generation. Handled client projects related to software development.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Officer",
+                "start_date": "07-2020",
+                "company_name": "Kodex Technologies"
+            },
+            {
+                "details": "Worked as Bidder on multiple freelancing platforms. Worked on LinkedIn lead generation. Handled client projects related to software development. Technical requirement gathering. Created scope of documents, DTLs.",
+                "end_date": "04-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2020",
+                "company_name": "S.T.A.R.S Pvt.(Ltd)"
+            },
+            {
+                "details": "Sending email to market qualified leads. Converting MQLs into discovery calls. Scheduling Zoom meetings with clients. Maintain client\u2019s data on Salesforce CRM. Follow-ups to existing leads.",
+                "end_date": "10-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Development Representative",
+                "start_date": "05-2021",
+                "company_name": "TkXel"
+            }
+        ]
+    }
+}

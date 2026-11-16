@@ -1,0 +1,165 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks explicit experience in digital marketing strategies crucial for the role, mostly focusing on business development.",
+            "No clear demonstration of leadership roles in previous jobs, which affects the leadership scoring.",
+            "Limited evidence of precise SEO/SEM and CRM experience as required by the job description.",
+            "Although the candidate possesses communication and Excel skills, proficiency in specialized digital marketing tools and strategies is not evident.",
+            "Bachelor's degree requirement is met, but the specific marketing focus is missing.",
+            "Candidate's education does not align with the emphasized university preferences."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo/sem",
+                    "score": 3
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 2.8
+            }
+        },
+        "personal_info": {
+            "name": "Hijab Malik",
+            "email": "hijabmalik28@gmail.com",
+            "phone": "Phone Number",
+            "current_position": "Business Developer",
+            "current_company": "Dr.Najeeb Lectures",
+            "employment_start_date_current_company": ".",
+            "first_company_start_date": ".",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "LinkedIn Sales Navigator Expert"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "client relationship": 100
+        },
+        "micro_dict": {
+            "seo/sem": 50,
+            "project management": 10,
+            "crm software expertise": 40
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Hijab Malik\nBusiness Developer\nHelp you sky-rocket your revenue through generating leads\nhijabmalik28@gmail.com\nPhone Number\n160 A Ahmed block new garden town, LAHORE, Pakistan\nWORK EXPERIENCE\nBusiness Development Manager\nDr.Najeeb Lectures\nGenerating leads for his Medical Lectures\nBusiness Development Managers\nWorth IT Solutions\nGenerating leads for the marketing services\nFreelancers\nUpwork\nBusiness Development Executive\nThe Hexaa\nGenerating leads for di\ufb00erent niches(Software Development and\nOutsourcing)\nCERTIFICATES\nActive Citizenship Project-British Counsil\nComptetion Of Public Policy\nEDUCATION\nBachelors in Economics\nKinnaird College for Women University\n2015 - 2019\n, \nCGPA:3.50\nA'levels\nLahore Grammer School 1A1\nO'LEVELS\nSalamat School System(Sicas)\nSKILLS\n\u2022 MS Word\nMS Excel\n\u2022 Stata\n\u2022 Possess excellent verbal and written communication\nskills.\nAbility to Handle Multiple Tasks.\nLinkedIn Sales Navigator Expert\nBiding Expert\nVOLUNTEER EXPERIENCE\nActive Citizenship\nBritish Council\nWorked on Sustainable Development Goals\nVolunteer ship\nShaukat Khanum Memorial Cancer Hospital\nACHIEVEMENTS\nPolicy Case Competition(2018)\nParticipated in an economics tutorial at Kinnaird College for\nWomen\nActive Citizens(2018)\nCommunity service programme by british council\nShaukat Khanum Cancer Hospital\nVoluntary worl\nHONOR AWARDS\nTitle/Award Name\nName of the institution that issued/awarded it\nLANGUAGES\nENGLISH\nNative or Bilingual Pro\ufb01ciency\nURDU\nFull Professional Pro\ufb01ciency\nPERSONAL PROJECTS\nImpact Of Structural Adjustment Program on\nPakistan Economy"
+    },
+    "details": {
+        "name": "Hijab Malik",
+        "number": "160AAhmedblocknewgardentownLAHOREPakistan",
+        "skills": [
+            "MS Word",
+            "MS Excel",
+            "Stata",
+            "LinkedIn Sales Navigator Expert",
+            "Bidding Expert"
+        ],
+        "email_id": "hijabmalik28@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Impact Of Structural Adjustment Program on Pakistan Economy",
+                "description": "A study on the economic impacts of structural adjustments."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Kinnaird College for Women University",
+                "degree_title": "Bachelors in Economics"
+            }
+        ],
+        "achievements": [
+            "Policy Case Competition (2018) - Participated in an economics tutorial at Kinnaird College for Women",
+            "Active Citizens (2018) - Community service programme by British Council"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Active Citizenship Project",
+                "issuing_organization": "British Council",
+                "date_of_issuance": "01-2018"
+            },
+            {
+                "certification_name": "Completion Of Public Policy",
+                "issuing_organization": "British Council",
+                "date_of_issuance": "01-2018"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hijabmalik",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hijab Malik is a dedicated business development professional with a strong background in generating leads and driving revenue growth. With experience in various organizations, she has honed her skills in MS Word, MS Excel, and Stata, and is recognized for her expertise in LinkedIn Sales Navigator and bidding.",
+        "employment_history": [
+            {
+                "details": "Generating leads for Medical Lectures",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2020",
+                "company_name": "Dr.Najeeb Lectures"
+            },
+            {
+                "details": "Generating leads for marketing services",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2020",
+                "company_name": "Worth IT Solutions"
+            },
+            {
+                "details": "Generating leads for different niches (Software Development and Outsourcing)",
+                "end_date": "Present",
+                "location": "Remote",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2020",
+                "company_name": "The Hexaa"
+            },
+            {
+                "details": "Freelancing on lead generation",
+                "end_date": "Present",
+                "location": "Remote",
+                "job_title": "Freelancer",
+                "start_date": "01-2020",
+                "company_name": "Upwork"
+            }
+        ]
+    }
+}

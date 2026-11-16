@@ -1,0 +1,195 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has partial experience and skills required for the position.",
+            "Limited relevant technical skills as per job description, lacking proficiency in Power BI, SQL, or Tableau.",
+            "Education is from a non-preferred institution.",
+            "Soft skills like communication and lead generation experience are evident."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 2
+                },
+                {
+                    "criteria": "crm and data management",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.28,
+                "micro_scores": 4.74
+            }
+        },
+        "personal_info": {
+            "name": "Zarwa Shahid",
+            "email": "shahidzarwa4@gmail.com",
+            "phone": "0306-1538612",
+            "current_position": "Business Development Executive",
+            "current_company": "Tecspine",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "01-2022",
+            "urls": [
+                {
+                    "website_name": "linkedin",
+                    "url": "https://www.linkedin.com/in/zarwa-shahid-926986208/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 38,
+            "experience": 10,
+            "innovation and adaptability": 52
+        },
+        "micro_dict": {
+            "c++, html, css": 26,
+            "crm and data management": 52,
+            "project management": 22
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Strong communication and interpersonal skills",
+            "Proficiency in at least one programming language",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "3+ years of experience in lead generation or business intelligence",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau"
+        ],
+        "resume": "Zarwa  Shahid  \nBusiness  Development  Executive  \n \n \n \nContact  \nJohar Town,  \nLahore  \n0306 -1538612  \nshahidzarwa4@gmail.com  \nhttps://www.linkedin.com/in/zarwa - \nshahid -926986208/  \n \n \nEducation  \nFast  University  (2022)  \nSuperior  Group  of colleges  (2017)  \n \n \n \nLicense and  \nCertification  \ne-commerce  Affiliate  Marketing  \n(Ecommerce Pro)  \neCommerce  Sales  & Marketing  Funnels  \n(Ecommerce Pro)  \nFacebook  Advertising  for eCommerce  \n(Ecommerce Pro)  \neCommerce Google Ads  \n(Ecommerce Pro)  \nWordPress  WooCommerce  \n(Ecommerce  Pro)  \n \n \n \nKey  Skills  \nMarketing  \nLead Generation  \nProposal Writing  \nSocial  Media  \nPlanning  \nWordPress  \nExcellent  Communication  \nIT Sales  Objective  \nI am a dedicated team member who tries his best to achieve revenue  \nexpectations and aims to reach his goals. I take great pride in my  \ncommunication skills, attention to detail, ability to multitask, and  \nreliability. I am hard -working and punctual. I can make prob lem-solving  \ndecisions swiftly. I'm looking for opportunities to learn and acquire new  \nskills  so I can improve  my skills for  a thriving  career  in the IT industry.  \n \n \nExperience  \n2022  \u2013 2023  \nBusiness  Development  Executive  @ Software  Pro \nSoftware Pro is part of a leading technology group from New York USA. \nAs their  BD executive,  I am responsible  for driving  company  sales  by \nsourcing  new clients  and creating  long -term  value  for their  business  via \nBD platforms.  \n \n2023  \u2013 (part  time)  \nBusiness  Development  Executive  @ IT Cado  LLC  \n\u2022 Hired  as an experienced  then  promoted  to business  development  \nexecutive as Team lead.  \n\u2022 Trained  internees  for lead  generation  and Upwork  bidding  \n\u2022 Used  HubSpot  and Salesforce  to manage  leads  \n\u2022 Canva  expert  | Designed  various  proposals  for clients  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira  for client  \ncommunication  \n \n     (2023 - full time)  \n    Business  Development  Executive  @Tecspine  \n      \n\u2022 Hired  as an experienced  then  promoted  to business  development \nexecutive as Team lead.  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira for client  \n \n             "
+    },
+    "details": {
+        "name": "Zarwa Shahid",
+        "number": "03061538612",
+        "skills": [
+            "WordPress",
+            "HubSpot",
+            "Salesforce",
+            "Canva",
+            "Skype",
+            "Slack",
+            "Basecamp",
+            "Jira"
+        ],
+        "email_id": "shahidzarwa4@gmail.com",
+        "location": "Johar Town, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2022",
+                "university": "Fast University",
+                "degree_title": ""
+            },
+            {
+                "end_date": "2017",
+                "university": "Superior Group of colleges",
+                "degree_title": ""
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "e-commerce Affiliate Marketing",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "eCommerce Sales & Marketing Funnels",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Facebook Advertising for eCommerce",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "eCommerce Google Ads",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "WordPress WooCommerce",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zarwa-shahid-926986208/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zarwa Shahid is a dedicated Business Development Executive with experience in driving sales and managing client relationships. He possesses strong technical skills in various software tools and platforms, demonstrating a commitment to achieving business goals and enhancing company portfolios.",
+        "employment_history": [
+            {
+                "details": "Responsible for driving company sales by sourcing new clients and creating long-term value for their business via BD platforms.",
+                "end_date": "2023",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2022",
+                "company_name": "Software Pro"
+            },
+            {
+                "details": "Promoted to business development executive as Team lead. Trained internees for lead generation and Upwork bidding. Used HubSpot and Salesforce to manage leads. Designed various proposals for clients.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2023",
+                "company_name": "IT Cado LLC"
+            },
+            {
+                "details": "Promoted to business development executive as Team lead. Responsible for designing and managing company portfolios.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2023",
+                "company_name": "Tecspine"
+            }
+        ]
+    }
+}

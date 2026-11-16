@@ -1,0 +1,174 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a Bachelor's degree in Electrical Engineering, meeting the educational requirement.",
+            "There is no mention of experience or skills with HelioScope specifically, impacting the related micro score.",
+            "The candidate has experience with MATLAB/Simulink, which partly meets the requirement for MATLAB proficiency.",
+            "Good communication and soft skills were inferred from report writing and other soft skills listed."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "learning and adaptability",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "helioscope",
+                    "score": 2
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                },
+                {
+                    "criteria": "load analysis",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Basic understanding of solar energy systems",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in MATLAB",
+                    "meets": true
+                },
+                {
+                    "criteria": "Good communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Pursuing a Bachelor's degree in Electrical Engineering",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.42,
+                "micro_scores": 3.5100000000000002
+            }
+        },
+        "personal_info": {
+            "name": "ADEEL GHAFFAR",
+            "email": "adeelghaffar81@gmail.com",
+            "phone": "+923495470821",
+            "current_position": "Electrical Engineer",
+            "current_company": "",
+            "employment_start_date_current_company": "06-2023",
+            "first_company_start_date": "06-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Junior Electrical Engineer at [Innovative Power Solutions Inc.]  \n\n**Location:** Remote \n\n**Job Summary:**  \nJoin our dynamic team at Innovative Power Solutions Inc. as a Junior Electrical Engineer. In this role, you will support the development and implementation of sustainable and efficient solar energy solutions. We are looking for an enthusiastic engineer eager to contribute to our team through learning and innovation.  \n\n**Key Responsibilities:**  \n- Assist in designing and implementing solar power systems using tools like MATLAB and HelioScope.  \n- Participate actively in training sessions to understand power generation and distribution processes.  \n- Support senior engineers in project management and energy efficiency analyses.  \n- Conduct feasibility and performance analyses under guidance.  \n- Collaborate with team members to ensure project success and operational safety compliance.\n\n**Key Skills:**  \n- Proficiency in MATLAB and HelioScope for solar system design.  \n- Strong communication and teamwork skills.  \n- Willingness to learn and adapt to new challenges.  \n- Basic understanding of project management tools.\n\n**Qualifications:**  \n- Bachelor's degree in Electrical Engineering (completed or in final year).  \n- Prior internship experience in power systems or renewable energy is an advantage, but not required.",
+        "macro_dict": {
+            "experience": 79,
+            "learning and adaptability": 21
+        },
+        "micro_dict": {
+            "helioscope": 47,
+            "project management": 49,
+            "load analysis": 4
+        },
+        "additional_info": "Our company values diversity in educational backgrounds and considers candidates from all accredited universities. Remote work options are available; however, relocation support is not provided. Skills and technical proficiency are assessed through a combination of online assessments and virtual interviews. We focus on the candidate's ability to learn new technologies and integrate into our team culture.",
+        "minimum_requirements": [
+            "Basic understanding of solar energy systems",
+            "Proficiency in MATLAB",
+            "Good communication skills",
+            "Pursuing a Bachelor's degree in Electrical Engineering"
+        ],
+        "resume": "Bachelor's Degree in Electrical engineering   \nCGPA  3.3/4  (2020-2024)\n                   \nDAE Electrical   88% International Islamic universty Islamabad\nGovernment College OF Technology Rawalpindi\nBlue Star Public School\nMatric   72%SUMMARY\nWORK EXPERIENCE EDUCATION\n SKILLSst #11 Madina Colony Misrial Road, Rawalpindiadeelghaffar81@gmail.com+923495470821ADEEL GHAFFAR\nElectrical Engineer\nElectrical Engineer with hands-on experience in electrical and electronics systems, including biomedical appliances.\nProficient in troubleshooting, repair, and maintenance. Passionate about inverters and converters, and seeking a role to\napply my expertise in this area within a forward-thinking company. Eager to leverage my knowledge in innovative power\nconversion technologies to drive advancements in the field.\nProteus\nCircuit Analysis\nMatlab/ Simulink\nArduino\nESP Controllers\nSensor Interfacing\nElectronic circuits\n ADDITIONAL SKILLS\n    \n      Soft Skill\n 3d Modeling/Animation\nAdobe After Affect\nMS word \nMendely\nReport Writing\n     Hard Skill\nElectrical Wiring\nmotor winding (basic)\nRepearing of appliances\nwelding  Biomedical InterneeEngineer (June 2023 \u2013 Sep 2023)Electrical InterneeEngineer (June 2022 \u2013Sep 2022)\nDuring my internship at Rawalpindi Institute of Cardiology as a\nBiomedical Engineering intern:\nGained hands-on experience in medical device maintenance\nand repair.\nAcquired valuable insights into healthcare technology\nmanagement.Gained extensive hands-on experience with distribution boards\n(DB), electric lines, and safety equipment.\nActively involved in the installation, maintenance, and\ntroubleshooting of electrical systems.\nEnhanced practical knowledge of electrical components.\nEnsured compliance with safety standards and regulations.\nImproved technical skills.\nPROJECTS\nEmbedded Intelligence-based Innovative Smart Stick for\nVisuallyImpaired Individuals (FYDP)\nArduino-based Heart rate and Oxygen Level smart monitoring\nsystem\nSuspension Systemof vehicals\nUninterruptible powersupply\nDC to AC  Inverte\nH Bridge  converter\nREFERENCES\n zeshan.aslam@ilu.edu.pkDr. Zeshan Aslam Khan\nEmail:  khizer.mehmood@ilu.edu.pkDr. Khizer Mehmood\nEmail :Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad.Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad."
+    },
+    "details": {
+        "name": "Adeel Ghaffar",
+        "number": "923495470821",
+        "skills": [
+            "Proteus",
+            "Circuit Analysis",
+            "Matlab/Simulink",
+            "Arduino",
+            "ESP Controllers",
+            "Sensor Interfacing",
+            "Electronic circuits",
+            "Electrical Wiring",
+            "Motor winding",
+            "Repairing of appliances",
+            "Welding"
+        ],
+        "email_id": "adeelghaffar81@gmail.com",
+        "location": "Rawalpindi",
+        "projects": [
+            {
+                "title": "Embedded Intelligence-based Innovative Smart Stick for Visually Impaired Individuals",
+                "description": "A smart stick designed to assist visually impaired individuals."
+            },
+            {
+                "title": "Arduino-based Heart rate and Oxygen Level smart monitoring system",
+                "description": "A monitoring system for heart rate and oxygen levels using Arduino."
+            },
+            {
+                "title": "Suspension System of vehicles",
+                "description": "Project focused on the suspension system design for vehicles."
+            },
+            {
+                "title": "Uninterruptible power supply",
+                "description": "Development of a system to provide backup power."
+            },
+            {
+                "title": "DC to AC Inverter",
+                "description": "Design of a converter to change DC to AC."
+            },
+            {
+                "title": "H Bridge converter",
+                "description": "Project involving the design of an H Bridge converter."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2024",
+                "university": "International Islamic University Islamabad",
+                "degree_title": "Bachelor's Degree in Electrical Engineering"
+            },
+            {
+                "end_date": "05-2020",
+                "university": "Government College of Technology Rawalpindi",
+                "degree_title": "DAE Electrical"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/adeelghaffar",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Adeel Ghaffar is an electrical engineer with hands-on experience in electrical and electronics systems, particularly in biomedical appliances. He is proficient in troubleshooting, repair, and maintenance, with a passion for inverters and converters, seeking to apply his expertise in innovative power conversion technologies.",
+        "employment_history": [
+            {
+                "details": "Gained hands-on experience in medical device maintenance and repair, and insights into healthcare technology management.",
+                "end_date": "09-2023",
+                "location": "Rawalpindi Institute of Cardiology",
+                "job_title": "Biomedical Engineering Intern",
+                "start_date": "06-2023",
+                "company_name": "Rawalpindi Institute of Cardiology"
+            },
+            {
+                "details": "Involved in the installation, maintenance, and troubleshooting of electrical systems, ensuring compliance with safety standards.",
+                "end_date": "09-2022",
+                "location": "Rawalpindi",
+                "job_title": "Electrical Engineering Intern",
+                "start_date": "06-2022",
+                "company_name": "Rawalpindi Institute of Cardiology"
+            }
+        ]
+    }
+}

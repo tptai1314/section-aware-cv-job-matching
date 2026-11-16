@@ -1,0 +1,129 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 3+ years of business development experience, not meeting the 5+ years requirement for a leadership role.",
+            "Lacks specific mention of experience with business analytics tools like GA4 or Power BI specified in the job description.",
+            "Limited evidence of strategic planning and high-stakes negotiation within resume details.",
+            "Candidate has experience in business development but from companies not listed as top-tier by [Fictional Company]."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales strategy",
+                    "score": 5
+                },
+                {
+                    "criteria": "seo",
+                    "score": 2
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.25,
+                "micro_scores": 2.49
+            }
+        },
+        "personal_info": {
+            "name": "Zohaib Shehzad",
+            "email": "zshehzad28@gmail.com",
+            "phone": "+923021678782",
+            "current_position": "Business Development Manager",
+            "current_company": "Cherry Bytes Technologies",
+            "employment_start_date_current_company": "2022",
+            "first_company_start_date": "2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 25,
+            "strategic planning": 75
+        },
+        "micro_dict": {
+            "sales strategy": 15,
+            "seo": 81,
+            "data analysis": 4
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": "C o n t a c t\n+923021678782P h o n e\nzshehzad28@gmail.comE m a i lZohaib Shehzad\nBusiness Development Manager\nSkilled Business Development leader offering 3+ years of experience in leading operations and\nenhancing revenue. Bringing expertise in client acquisition and contract negotiation, along with\nexcellent interpersonal communication, relationship-building and team leadership abilities. Results-\ndriven and proactive with demonstrated record of accomplishment in meeting and exceeding sales\nand revenue objectives.\nE x p e r i e n c e\nEstablished relationships with key decision-makers within the customer's organization\nto promote growth and retention.\nIdentified and pursued valuable business opportunities to generate new company\nrevenue and improve bottom-line profitability.\nNegotiated and closed long-term agreements with new clients in assigned\nterritories.\nGenerated new business with marketing initiatives and strategic plans.\nGenerated new business with marketing initiatives and strategic plans.\nReached out to potential customers via telephone, email, and in-person inquiries.\nKept meticulous client notes and updated account information in company databases.\nEstablished key performance indicators to track and analyze business progress and\nadjust strategies accordingly.\nDeveloped process to analyze customer feedback to incorporate insights into product\ndevelopment strategies.\nServed as technical liaison, supporting engineering, management, procurement, sales\nand marketing, quality assurance and supply base.\nCommunicated project plans and progress to key stakeholders and project\ncontributors.\nCollaborated with business users, technical teams, database administrators and testing\nteams during kickoff meetings, joint application designing, and planning sessions to\nvalidate requirements.\nPartnered with project team members to identify and quickly address problems.Sr. Business Development Manager\nBusiness Development Manager\nTechnical Project Manager2022 - Current\n2021 - 2022\n2019 - 2021Cherry Bytes Technologies \nAmrood Labs\nKP Leads\nReference will be furnished on demandR e f e r e n c eE d u c a t i o n\nUniversity of SargodhaMaster in Information Technologies2017-2019Research\nBusiness development and planning\nProduct and service sales\nRelationship building and management\nNew Business Development\nGoal-setting\nOrder management\nPerformance metrics\nQuality control\nStaff Management\nRevenue Generation\nEnglish\nUrduL a n g u a g eE x p e r t i s e"
+    },
+    "details": {
+        "name": "Zohaib Shehzad",
+        "number": "923021678782",
+        "skills": [
+            "Business development",
+            "Client acquisition",
+            "Contract negotiation",
+            "New Business Development",
+            "Order management",
+            "Performance metrics",
+            "Quality control",
+            "Revenue Generation"
+        ],
+        "email_id": "zshehzad28@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "University of Sargodha",
+                "degree_title": "Master in Information Technologies"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Zohaib Shehzad is a skilled Business Development Manager with over 3 years of experience in leading operations and enhancing revenue. He possesses expertise in client acquisition and contract negotiation, demonstrating a strong ability to generate new business and improve profitability.",
+        "employment_history": [
+            {
+                "details": "Established relationships with key decision-makers within the customer's organization to promote growth and retention. Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories. Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly. Developed process to analyze customer feedback to incorporate insights into product development strategies. Served as technical liaison, supporting engineering, management, procurement, sales and marketing, quality assurance and supply base. Communicated project plans and progress to key stakeholders and project contributors. Collaborated with business users, technical teams, database administrators and testing teams during kickoff meetings, joint application designing, and planning sessions to validate requirements. Partnered with project team members to identify and quickly address problems.",
+                "end_date": "Current",
+                "location": "",
+                "job_title": "Technical Project Manager",
+                "start_date": "01-2022",
+                "company_name": "Cherry Bytes Technologies"
+            },
+            {
+                "details": "Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly.",
+                "end_date": "12-2022",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2021",
+                "company_name": "Amrood Labs"
+            },
+            {
+                "details": "Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories.",
+                "end_date": "12-2021",
+                "location": "",
+                "job_title": "Sr. Business Development Manager",
+                "start_date": "01-2019",
+                "company_name": "KP Leads"
+            }
+        ]
+    }
+}

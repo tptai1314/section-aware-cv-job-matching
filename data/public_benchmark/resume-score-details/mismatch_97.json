@@ -1,0 +1,208 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has extensive sales management experience, but lacks specific business development roles.",
+            "No explicit leadership roles noted in resume, mainly senior sales manager positions seen.",
+            "Resume lacks specific mention of strategic planning or business development skills.",
+            "No mention of micro-skills like Market Research, Negotiation, SEO, or Data Analysis.",
+            "Bachelor's in Arts is not directly related to Business Administration."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 3
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.3000000000000003,
+                "micro_scores": 2.22
+            }
+        },
+        "personal_info": {
+            "name": "Umer Qayyum",
+            "email": "umerqayyum86@hotmail.com",
+            "phone": "+92-302-2003202",
+            "current_position": "Senior Area Sales Manager",
+            "current_company": "Dalda Foods Limited",
+            "employment_start_date_current_company": "05-2015",
+            "first_company_start_date": "12-2007",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/umer-qayyum-05927349"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 15,
+            "business development experience": 44,
+            "strategic planning": 41
+        },
+        "micro_dict": {
+            "market research": 37,
+            "negotiation": 30,
+            "seo": 8,
+            "data analysis": 25
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "UMERQAYYUM\nPROFILE\nTofindachallengingjobinadynamic,progressiveorganizationandmarketleaderthatvalueshardwork,dedication,\nhonestyandintegrityinitsassociates.Aperspectiveclientoremployerwillfindmereliable,energetic,teamoriented\nandtrulyconcernedwithhelpingtheorganizationmeetsitsbusinessgoalsandobjectives.\nCONTACT EXPERIENCE\n+92-302-2003202\n+92-331-2488957\numerqayyum86@hotmail.com\nhttps://www.linkedin.com/in/\numer-qayyum-05927349/DaldaFoodsLimited\n5thMay2015totilldate\nSeniorAreaSalesManager/Islamabad\n1stJune2022totilldate\nBasedat:Islamabad\nTownsassigned:\nIslamabad,BaraKhan,KhannaPull,Humak,WahCantt,Hassanabdal&Taxila\nJobDescription:\n\uf0b7MonthonMonthPlanning&Forecastforbothbusiness\u2019s(CFO&Dairy)\n\uf0b7WorkonbothNumeric&WeightedDistributionforbusinessgrowth\n\uf0b7OnjobTrainingtoTSO\u2019s/Executives&DistributionSalesForce\nSeniorAreaSalesManager\u2013WahCantt\n1stJan2021to31stMay2022\nTownsassigned:\nWahCantt,Hassanabdal&Taxila\nSeniorAreaSalesManager-Peshawar\n1stJan2019totill31Dec2020\nTownsassigned:\nPeshawar,Pabbi,Shabqadar,Bara,LandiKotalandBadhber\nAreaSalesManager-Peshawar&Kohat\n5thMay2015to31stDecember2018\nTownsassigned:\nPeshawar,Kohat,Sadda,Parachinar,Thall,Karak,Bannu,SaraiNurang,MiranShah,\nDeraIsmailKhan,WaanaandLuckyMarwat\nEngroFoodsLimited\n09thJan2009to22ndApril2015\nTerritorySalesManager/NowsheraOut-Stations\n16thFeb2013to22ndApril2015\nBasedat:CommunicatorsGlobe(HandlingDistributor,Peshawar)\nTownsassigned(Sub-distributors):\nSawabi,Topi,Zaida,AkoraKhattak,TakhtBhai,Shabqadar,ShewaAdda&Shahbaz\nGariEDUCATION\nBachelorofArts\nUniversityofPeshawar,Peshawar\nPakistan\nPassingYear2008\nIntermediatePre-Engineering\nGovt.SuperiorScienceCollege\nPeshawar,Pakistan\nPassingYear2005\nMatric~Science\nPeshawarModelSchool\nPeshawar,Pakistan\nPassingYear2003\nPROFESSIONALCERTIFICATION\nSELLINGCONCEPTS\nTorqueCorporation&Consultant\nSUGGESTIVESELLING\nTrainingHouseConsulting(Pvt)Ltd\nEDGE\nFunverksProfessionalTraining(Pvt)Ltd\nGOTOMARKETPLAN\nTorqueCorporation&Consultant\nTerritorySalesManager/NowsheraOut-Stations\n09thJan2012to15thFeb2013\nTownsassigned:\nNowshera,Pabbi,Jehangira,AkoraKhattak,Sawabi,Topi\nTerritorySalesManager/Mingora(Swat)\n25thDec2010to08thJan2012\nTownsassigned:\nMingora,Kalam,Barikot,Bunair,Batkhela,Temergara,Dir,Bajour&Chitral\nTerritorySalesManager/Peshawar\n18thJan2010to24thDec2010\nBasedat:\nPeshawarGeneralTradeandLMT\u2019s\nMerchandisingOfficer/KeyAccounts,Peshawar\n09thJan2009to17thJan2010\nBasedat:\nPeshawartolookafter27KeyAccounts&TERShops\nUnileverPakistan(Pvt)Limited\nMerchandising/KeyAccounts,Peshawar\n17thDec2007to03rdJan2009\nBasedat:\nPeshawaratAliTraders,DistributorUnileverPakistan.\nInternationalBrands(Pvt)Limited\nSupplier/Proctor&Gamble/KeyAccounts,Peshawar\n22thJuly2006to15thDec2007\nBasedat:\nPeshawaratInternationalBrandsPakistan.SKILLS&COMPETENCIES\nPERSONALINFORMATION\nMartialStauts\nMarried\nDateofBirth\n12thOctober1986\nPermenantAddress\nH.no.4Street-HSabazAliTownWarsak\nRaodPeshawar,Pakistan\nCurrentAddress\nH.no.49Street-15ShahwaliColony\nWahCantt,Pakistan\nPERSONALINTEREST\nTraveling\nWatchingMovies\nListeningMusic\nReferences:JamalMehmood AzharSaeed\nTCMCocaColaPakistan GMOperationsPTCLPakistan\nMob#0300-5555935 Mob#0302-2024274"
+    },
+    "details": {
+        "name": "Umer Qayyum",
+        "number": "923022003202",
+        "skills": [
+            "Selling Concepts",
+            "Suggestive Selling",
+            "Go To Market Plan"
+        ],
+        "email_id": "umerqayyum86@hotmail.com",
+        "location": "Wah Cantt, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2008",
+                "university": "University of Peshawar, Peshawar, Pakistan",
+                "degree_title": "Bachelor of Arts"
+            },
+            {
+                "end_date": "2005",
+                "university": "Govt. Superior Science College, Peshawar, Pakistan",
+                "degree_title": "Intermediate Pre-Engineering"
+            },
+            {
+                "end_date": "2003",
+                "university": "Peshawar Model School, Peshawar, Pakistan",
+                "degree_title": "Matric - Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Selling Concepts",
+                "issuing_organization": "Torque Corporation & Consultant",
+                "date_of_issuance": "01-2012"
+            },
+            {
+                "certification_name": "Suggestive Selling",
+                "issuing_organization": "Training House Consulting (Pvt) Ltd",
+                "date_of_issuance": "01-2012"
+            },
+            {
+                "certification_name": "EDGE",
+                "issuing_organization": "Funverks Professional Training (Pvt) Ltd",
+                "date_of_issuance": "01-2012"
+            },
+            {
+                "certification_name": "Go To Market Plan",
+                "issuing_organization": "Torque Corporation & Consultant",
+                "date_of_issuance": "01-2012"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umer-qayyum-05927349",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Umer Qayyum is a dedicated sales professional with extensive experience in managing sales teams and developing strategic sales plans. He has a strong background in selling concepts and suggestive selling, complemented by certifications in various sales methodologies. Umer has demonstrated his ability to drive business growth and enhance team performance across multiple regions.",
+        "employment_history": [
+            {
+                "details": "Month on Month Planning & Forecast for both business\u2019s (CFO & Dairy). Work on both Numeric & Weighted Distribution for business growth. On job Training to TSO\u2019s/Executives & Distribution Sales Force.",
+                "end_date": "Present",
+                "location": "Islamabad",
+                "job_title": "Senior Area Sales Manager",
+                "start_date": "05-2015",
+                "company_name": "Dalda Foods Limited"
+            },
+            {
+                "details": "Managed sales operations and team performance in assigned towns.",
+                "end_date": "05-2022",
+                "location": "Wah Cantt",
+                "job_title": "Senior Area Sales Manager",
+                "start_date": "01-2021",
+                "company_name": "Dalda Foods Limited"
+            },
+            {
+                "details": "Oversaw sales activities and team management in Peshawar and surrounding areas.",
+                "end_date": "12-2020",
+                "location": "Peshawar",
+                "job_title": "Senior Area Sales Manager",
+                "start_date": "01-2019",
+                "company_name": "Dalda Foods Limited"
+            },
+            {
+                "details": "Managed sales operations across multiple towns, focusing on team performance and sales growth.",
+                "end_date": "12-2018",
+                "location": "Peshawar & Kohat",
+                "job_title": "Area Sales Manager",
+                "start_date": "05-2015",
+                "company_name": "Dalda Foods Limited"
+            },
+            {
+                "details": "Handled distributor management and sales operations in Nowshera and surrounding areas.",
+                "end_date": "04-2015",
+                "location": "Nowshera",
+                "job_title": "Territory Sales Manager",
+                "start_date": "01-2009",
+                "company_name": "Engro Foods Limited"
+            },
+            {
+                "details": "Managed key accounts and merchandising for Unilever products in Peshawar.",
+                "end_date": "01-2009",
+                "location": "Peshawar",
+                "job_title": "Merchandising Officer/Key Accounts",
+                "start_date": "01-2009",
+                "company_name": "Unilever Pakistan (Pvt) Limited"
+            },
+            {
+                "details": "Oversaw supplier and key account management for Procter & Gamble products.",
+                "end_date": "12-2007",
+                "location": "Peshawar",
+                "job_title": "Supplier/Proctor & Gamble/Key Accounts",
+                "start_date": "07-2006",
+                "company_name": "International Brands (Pvt) Limited"
+            }
+        ]
+    }
+}

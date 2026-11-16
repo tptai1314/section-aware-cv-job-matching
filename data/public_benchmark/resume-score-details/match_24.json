@@ -1,0 +1,188 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a total of approximately 3 years of relevant experience in Business Development and Marketing, which is below the required 5+ years indicated in the job description.",
+            "There is no evidence of strong negotiation skills or managing complex sales cycles in the resume, which are critical for this position.",
+            "The resume did not provide explicit mentioning of proficiency in Microsoft Office Suite, a key requirement for the role.",
+            "Candidate did not graduate from a leading business school, which is a preferred criterion according to additional information."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales process management",
+                    "score": 4
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 3
+                },
+                {
+                    "criteria": "account management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 3.6
+            }
+        },
+        "personal_info": {
+            "name": "Saad A. Mubarak",
+            "email": "saadali.frt@gmail.com",
+            "phone": "+92 323 4217884",
+            "current_position": "BI & Digital Marketing Executive",
+            "current_company": "tossdown Technologies Pvt. Ltd.",
+            "employment_start_date_current_company": "12-2020",
+            "first_company_start_date": "02-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/saadmali346"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "sales process management": 60,
+            "negotiation skills": 9,
+            "account management": 31
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Strong negotiation and strategic thinking skills",
+            "5+ years of experience in business development or a related role",
+            "Proficiency in Microsoft Office Suite",
+            "Proven track record in managing complex sales cycles"
+        ],
+        "resume": "Saad A. Mubarak \nBI & Digital Marketing Executive \nsaadali.frt@gmail.com \n+92 323 4217884 \nLahore \nlinkedin.com/in/saadmali346 \nI am an experienced marketer with the 3 years of experience in the Business Development, Business Intelligence, and Digital Marketing\nsectors. I very much believe in teamwork, problem-solving, leadership, and adaptability like a movie director who believes in someone's\nidea and adapts that idea; works with the team on the idea; leads the team, gets directions from the team, and solves their team\nproblem, and complete the vision. \nEDUCATION \nMS Marketing \nNational College of Business Administration\n& Economics \n03/2021 - Present\n, \n \nBachelor of Commerce in Information\nTechnology \nUniversity of the Punjab \n06/2017 - 10/2019\n, \n \nLahore \nWORK EXPERIENCE \nBI & Digital Marketing Executive \ntossdown Technologies Pvt. Ltd. \n12/2020 - Present\n, \n \nLahore \nI am working in the Growth Team where I look over\nmarket research, which includes scrapping and\nvisualizing data of di\ufb00erent businesses per the niche. \nI'm working on the digital marketing end where mostly I\nput my e\ufb00orts into Email marketing. In Email marketing,\nI run automated email campaigns and drip campaigns\nfrom Hubspot \nI am also looking over to martech automation where I\nlook over to top and middle of the marketing funnel. \nBusiness Development Executive \nMatrix Tech LLC \n11/2019 - 10/2020\n, \n \nLahore \nMatrix was a contact center that sold SEO services to the\nUSA market. \nI sent email marketing campaigns to their prospective\naudience to drive tra\ufb03c and generate leads. \nI used to work on keyword research of clients and also\ncontact leads through di\ufb00erent mediums and also I did\ndialing over there. \nDocument Processing Executive \nSystem Limited \n02/2019 - 11/2019\n, \n \nLahore \nI was in their Business Process Outsourcing department,\nwhere I worked on their Land Project. \nI used to compile and complete the data as per property\ntype. \nI also performed a Quality Check on the Property \ufb01le. \nSKILLS \nMarket Research \nBusiness Development \nData Visualization \nMarketing Automation \nLead Generation \nEmail Marketing \nHubSpot \nSendinBlue \nMailChimp \nWeb Scrapping \nSearch Engine Marketing \nSocial Media Marketing \nSearch Engine Optimization (SEO) \nKeyword Research \nPROJECTS \nMarketing Automation Specialist for RevvLab\n (07/2022 - Present)\n \nI'm working their marketing as a consultant for setting up the\nautomation for their di\ufb00erent brands. \nBusiness Engagement Project for Outreach Hawks\n (04/2022 - Present)\n \nI am working there as a Business Engagement Executive with\ntheir team. I handle their Upwork account and run email\nmarketing campaigns for them. \nEmail Marketing Project for Echlipse\n (09/2021 - 02/2022)\n \nI worked there as a Marketing Executive and used to scrape data\nfor them as per their niche. I ran email campaigns for them,\nwhich included marketing emails and drip campaigns. \nCERTIFICATIONS \nThe Fundamentals of Digital Marketing \nAdvanced Google Analytics \nGoogle Analytics for Beginners \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nINTERESTS \nMovies \nDirection \nCricket \nTasks \nTasks \nTasks "
+    },
+    "details": {
+        "name": "Saad A. Mubarak",
+        "number": "923234217884",
+        "skills": [
+            "Market Research",
+            "Data Visualization",
+            "Marketing Automation",
+            "Lead Generation",
+            "Email Marketing",
+            "HubSpot",
+            "SendinBlue",
+            "MailChimp",
+            "Web Scrapping",
+            "Search Engine Marketing",
+            "Social Media Marketing",
+            "Search Engine Optimization (SEO)",
+            "Keyword Research"
+        ],
+        "email_id": "saadali.frt@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Marketing Automation Specialist for RevvLab",
+                "description": "Consultant for setting up marketing automation for different brands."
+            },
+            {
+                "title": "Business Engagement Project for Outreach Hawks",
+                "description": "Handles Upwork account and runs email marketing campaigns."
+            },
+            {
+                "title": "Email Marketing Project for Echlipse",
+                "description": "Scraped data and ran email campaigns including marketing emails and drip campaigns."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "Present",
+                "university": "National College of Business Administration & Economics",
+                "degree_title": "MS Marketing"
+            },
+            {
+                "end_date": "10-2019",
+                "university": "University of the Punjab",
+                "degree_title": "Bachelor of Commerce in Information Technology"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "The Fundamentals of Digital Marketing",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Advanced Google Analytics",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Google Analytics for Beginners",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/saadmali346",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saad A. Mubarak is a skilled BI and Digital Marketing Executive with over three years of experience in business development, business intelligence, and digital marketing. He specializes in market research, data visualization, and marketing automation, demonstrating a strong proficiency in tools such as HubSpot and MailChimp.",
+        "employment_history": [
+            {
+                "details": "Working in the Growth Team focusing on market research, data scraping, and visualizing data. Responsible for email marketing campaigns and martech automation.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "BI & Digital Marketing Executive",
+                "start_date": "12-2020",
+                "company_name": "tossdown Technologies Pvt. Ltd."
+            },
+            {
+                "details": "Sent email marketing campaigns to drive traffic and generate leads for SEO services. Conducted keyword research and contacted leads.",
+                "end_date": "10-2020",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2019",
+                "company_name": "Matrix Tech LLC"
+            },
+            {
+                "details": "Worked in the Business Process Outsourcing department, compiling and completing data as per property type and performing quality checks.",
+                "end_date": "11-2019",
+                "location": "Lahore",
+                "job_title": "Document Processing Executive",
+                "start_date": "02-2019",
+                "company_name": "System Limited"
+            }
+        ]
+    }
+}

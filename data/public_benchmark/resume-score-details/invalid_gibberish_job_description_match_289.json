@@ -1,0 +1,47 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Blorph snizzle wackadoo flibbity \u011dlarp. Zoodle flipsnort krabble zinktober whibberjank snarfle. Floopity blarm zazasquazzle grembo flunkbat. Wizzle schnork gribble snoofle blerp zopdinglebilt. Frabble danklemon zbort squizzletronk mander flummip. Grizzlefrap wozzleplonk quibblefram narboo drex wimbersnatch. Pludwarg snizzlefrab klembo whizzle drapt snorkloon.",
+        "macro_dict": {
+            "experience": 48,
+            "strategic planning": 52
+        },
+        "micro_dict": {
+            "crm proficiency": 50,
+            "market research": 50
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "5+ years of experience in business development or sales management",
+            "Strong analytical and strategic planning skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "H A S H A A M  J A M A L\nArea Sales Manager\nHealthwire PVT LTD, Lahore, Pakistan\nSep 2021 - Present\nArea Sales Manager\nHealthwire PVT LTD, Karachi, Pakistan\nJan 2021 - Aug 2021\nArea Sales Executive\nHealthwire PVT LTD, Gujranwala, Pakistan\nJan 2020 - Jan 2021\nTerritory Sales Manager\nOliver Skin Science, , Gujranwala, Pakistan\nMay 2019 - Dec 2020\nMerchandiser Officer\nZong Regional Office - Telecom, Gujranwala, Pakistan\nApr 2017 - Apr 2018EXPERIENCEI am a professional salesperson who always strive to be the\nbest that i can be. I have a long and good track record and very\nsuccessful in my field. A goal orientated person with strong\nfocus on team work, development of people and results. My\nmain objectives are; develop my knowledge of the market and\nmy skills, continue learning as a person and as a manager and\nto become more than satisfied in what i do.PROFESSIONAL SUMMARY\n86-C, HIGH COURT SOCIETY\nPHASE 2, COLLEGE ROAD,\nLAHORE.\n+92 302 5464456\nhashaam.butt24@gmail.comMasters in Business Administration (Sales And Marketing)\nSuperior University Lahore\n2015 - 2019EDUCATION\n Top Performance Sales Team Lead 2021, 1.\n       (Healthwire PVT LTD)\n   2. Best Sales Person 2020\n       (Healthwire PVT LTD)ACCOMPLISHMENTS"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

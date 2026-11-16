@@ -1,0 +1,151 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has extensive experience as a Business Development Manager, relevant to the role in business development.",
+            "Lacks specific mention of CRM systems knowledge, which is critical for the position.",
+            "Proven track record in lead generation and client engagement through past roles, meeting minimum requirements.",
+            "The education background does not include a degree from a leading business school as per company preference."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 5
+                },
+                {
+                    "criteria": "market research",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.0,
+                "micro_scores": 6.359999999999999
+            }
+        },
+        "personal_info": {
+            "name": "M. Aetsam Rasheed",
+            "email": "maetsam@gmail.com",
+            "phone": "+92 323 8817897",
+            "current_position": "Business Development Manager",
+            "current_company": "Viper Technology",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "01-2015",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/aetsam-r-0b487aabr"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "crm systems": 8,
+            "market research": 48,
+            "project management": 44
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proven track record in lead generation and client engagement",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "C O N T A C T  M E\nE D U C A T I O N13B, New Canal Garden,\nTajbagh, Lahore\nhttps://www.linkedin.com\n/in/aetsam-r-0b487aabrmaetsam@gmail.com\nHailey College of Banking & Finance\nPunjab University\nPunjab Group of CollegesBBA\nBA Political Science\nICS2020-2022\n2018-2020\n2014-2018\nS K I L L S\nResearch\nBusiness Strategy\nMarketing StrategyB2B SalesCommunicationW O R K  E X P E R I E N C E\nR E F E R E N C E SM. Aetsam\nRasheed\nBusiness Development Manager\n2022 - Continue\nViper Technology l LahoreBusiness Development Manager\nI'm working at Viper Technology since May 2022. It's a leading Hardware and Software\nSolution provider to businesses in Pakistan. I'm dealing with clients by on site meetings, calls/\nemails and offering them our Software Solutions and IT Hardware as well. Recently the\ncompany has started offering its Software & Web Development services in International\nmarket, So I'm also working on that plan and I've hired a sales team for this purpose.\n2019 - 2022\nInternational Petrochemical (PVT) LTD l UAE/LahoreBusiness Development Executive\nI've worked in IPC as Business Development Executive for 3 years. My duty was to expand\nthe business to the markets assigned to me and procuring different chemicals for customers.\nOther than that Research & Development was also part of my JDs, like searching for new\npetrochemical raw materials used in several industries like Paint, Cleaning Products, Rubber &\nTires, Pharmaceutical etc. It was a pure B2b Sales role. Our most customers were\nIndustrialists and International Traders. During my 3 years experience I worked in almost 25\ncountries from different regions like Latin America, Europe, Asia, Middle East and CIS. I was\ndealing with clients through outbound/inbound calls, emails and video conferencing.\n2018 - 2019\n7-Continents Travel l UK/LahoreInternational Sales Executive\nI've worked in 7-Continents Travel for 1 year as Sales executive, my duties were to deal with\nthe inbound inquiries from clients related to Holidays plan, Umrah and Hajj and converting\ninquiries into sales by preparing and offering tailor made travel plans to clients. I was also\nleading the retention and complaints department. It was a UK based company so I was\ndealing with clients through outbound/inbound calls and emails.\n2015 - 2018\nLMTS l UK/LahoreBusiness Development Executive\nI've worked in LMTS for 3 years as Business Development Executive, My duty was to expand\nthe business as well as leading the customer care team, It was a UK based company, so I was\ndealing with clients through outbound/inbound calls, emails and video conferencing.\n+92 323 8817897Ameer Hamza\nPhone: BDM, IPC\n+92 321 7887404Malik Usman Ghani\nPhone: BDM, TCS+92 323 5986453"
+    },
+    "details": {
+        "name": "M. Aetsam Rasheed",
+        "number": "923238817897",
+        "skills": [
+            "Business Development",
+            "B2B Sales"
+        ],
+        "email_id": "maetsam@gmail.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Hailey College of Banking & Finance, Punjab University",
+                "degree_title": "BBA"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "Punjab Group of Colleges",
+                "degree_title": "BA Political Science"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "ICS",
+                "degree_title": "ICS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/aetsam-r-0b487aa",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "M. Aetsam Rasheed is a skilled Business Development Manager with extensive experience in B2B sales and business expansion, currently working at Viper Technology. He has a strong background in developing client relationships and has successfully contributed to international market strategies.",
+        "employment_history": [
+            {
+                "details": "Working at Viper Technology, dealing with clients through onsite meetings, calls, and emails, and offering software solutions and IT hardware. Currently involved in expanding software and web development services internationally.",
+                "end_date": "Continue",
+                "location": "Lahore",
+                "job_title": "Business Development Manager",
+                "start_date": "05-2022",
+                "company_name": "Viper Technology"
+            },
+            {
+                "details": "Worked as Business Development Executive, responsible for expanding business in assigned markets and procuring chemicals for customers, with a focus on research and development of new petrochemical raw materials.",
+                "end_date": "05-2022",
+                "location": "UAE/Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "05-2019",
+                "company_name": "International Petrochemical (PVT) LTD"
+            },
+            {
+                "details": "Handled inbound inquiries related to travel plans and converted them into sales, while leading the retention and complaints department.",
+                "end_date": "05-2019",
+                "location": "UK/Lahore",
+                "job_title": "International Sales Executive",
+                "start_date": "05-2018",
+                "company_name": "7-Continents Travel"
+            },
+            {
+                "details": "Expanded business and led the customer care team, dealing with clients through various communication channels.",
+                "end_date": "05-2018",
+                "location": "UK/Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "05-2015",
+                "company_name": "LMTS"
+            }
+        ]
+    }
+}

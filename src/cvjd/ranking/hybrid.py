@@ -60,91 +60,7 @@ _ALIASES = {
     "restful apis": "rest api",
     "ci cd": "ci/cd",
     "cicd": "ci/cd",
-    # Ánh xạ Việt - Anh thuật ngữ IT
-    "cơ sở dữ liệu": "database",
-    "co so du lieu": "database",
-    "csdl": "database",
-    "hệ cơ sở dữ liệu": "database management system",
-    "he co so du lieu": "database management system",
-    "hệ quản trị cơ sở dữ liệu": "database management system",
-    "he quan tri co so du lieu": "database management system",
-    "cơ sở dữ liệu quan hệ": "relational database",
-    "co so du lieu quan he": "relational database",
-    "cơ sở dữ liệu phi quan hệ": "nosql database",
-    "co so du lieu phi quan he": "nosql database",
-    "lập trình web": "web development",
-    "lap trinh web": "web development",
-    "phát triển web": "web development",
-    "phat trien web": "web development",
-    "lập trình backend": "backend development",
-    "lap trinh backend": "backend development",
-    "phát triển backend": "backend development",
-    "phat trien backend": "backend development",
-    "lập trình frontend": "frontend development",
-    "lap trinh frontend": "frontend development",
-    "phát triển frontend": "frontend development",
-    "phat trien frontend": "frontend development",
-    "lập trình fullstack": "fullstack development",
-    "lap trinh fullstack": "fullstack development",
-    "phát triển fullstack": "fullstack development",
-    "phat trien fullstack": "fullstack development",
-    "kỹ sư phần mềm": "software engineer",
-    "ky su phan mem": "software engineer",
-    "phát triển phần mềm": "software development",
-    "phat trien phan mem": "software development",
-    "phần mềm": "software",
-    "phan mem": "software",
-    "hệ điều hành": "operating system",
-    "he dieu hanh": "operating system",
-    "mạng máy tính": "computer network",
-    "mang may tinh": "computer network",
-    "lập trình di động": "mobile development",
-    "lap trinh di dong": "mobile development",
-    "lập trình mobile": "mobile development",
-    "khoa học dữ liệu": "data science",
-    "khoa hoc du lieu": "data science",
-    "học máy": "machine learning",
-    "hoc may": "machine learning",
-    "học sâu": "deep learning",
-    "hoc sau": "deep learning",
-    "xử lý ngôn ngữ tự nhiên": "natural language processing",
-    "xu ly ngon ngu tu nhien": "natural language processing",
-    "nlp": "natural language processing",
-    "thị giác máy tính": "computer vision",
-    "thi giac may tinh": "computer vision",
-    "điện toán đám mây": "cloud computing",
-    "dien toan dam may": "cloud computing",
-    "quản lý dự án": "project management",
-    "quan ly du an": "project management",
-    "bảo mật thông tin": "information security",
-    "bao mat thong tin": "information security",
-    "an toàn thông tin": "information security",
-    "an toan thong tin": "information security",
-    "an ninh mạng": "cybersecurity",
-    "an ninh mang": "cybersecurity",
-    "trí tuệ nhân tạo": "artificial intelligence",
-    "tri tue nhan tao": "artificial intelligence",
-    "quản trị cơ sở dữ liệu": "database administration",
-    "quan tri co so du lieu": "database administration",
-    "kiểm thử phần mềm": "software testing",
-    "kiem thu phan mem": "software testing",
-    "kiểm thử tự động": "automation testing",
-    "kiem thu tu dong": "automation testing",
-    "phân tích dữ liệu": "data analytics",
-    "phan tich du lieu": "data analytics",
-    "thiết kế giao diện": "ui/ux design",
-    "thiet ke giao dien": "ui/ux design",
-    "thiết kế đồ họa": "graphic design",
-    "thiet ke do hoa": "graphic design",
-    "tiếng anh giao tiếp": "english communication",
-    "tieng anh giao tiep": "english communication",
 }
-
-
-def strip_accents(text: str) -> str:
-    """Loại bỏ dấu tiếng Việt để so khớp tương đồng không dấu."""
-    nfkd = unicodedata.normalize("NFD", text)
-    return "".join(c for c in nfkd if unicodedata.category(c) != "Mn").replace("đ", "d").replace("Đ", "D")
 
 
 @dataclass(frozen=True)
@@ -191,35 +107,68 @@ def normalize_skill(name: str) -> str:
 
 def _match(a: str, b: str) -> bool:
     x, y = normalize_skill(a), normalize_skill(b)
-    if x == y or strip_accents(x) == strip_accents(y):
+    if x == y:
         return True
-    # con trỏ theo token duy nhất (tránh "java" ~ "javascript")
+    # Word boundary token guard (prevent "java" ~ "javascript", "c" ~ "c++", etc.)
     ax = {t for t in x.replace("-", " ").split() if t}
     bx = {t for t in y.replace("-", " ").split() if t}
+    if "java" in ax and "javascript" in bx:
+        return False
+    if "javascript" in ax and "java" in bx:
+        return False
+    if "c" in ax and ("c++" in bx or "c#" in bx):
+        return False
+    if ("c++" in ax or "c#" in ax) and "c" in bx:
+        return False
     if ax and bx and (ax <= bx or bx <= ax):
         return True
-    # Thử đối sánh không dấu
-    ax_no_acc = {strip_accents(t) for t in ax}
-    bx_no_acc = {strip_accents(t) for t in bx}
-    return bool(ax_no_acc and bx_no_acc and (ax_no_acc <= bx_no_acc or bx_no_acc <= ax_no_acc))
+    return False
 
 
-def _coverage(skills: Sequence[SkillItem], targets: Sequence[SkillItem]) -> float:
-    """Tỷ lệ khối lượng target được phủ, trọng số theo `weight`."""
+def _coverage(skills: Sequence[SkillItem], targets: Sequence[SkillItem], allow_related: bool = True) -> float:
+    """Tỷ lệ khối lượng target được phủ, trọng số theo `weight`, hỗ trợ điểm một phần cho kỹ năng liên quan."""
     total = sum(max(t.weight, 0.0) for t in targets)
     if total <= 0.0:
         return 0.0
     covered = 0.0
     matched_names = set()
+
+    # Nhập taxonomy an toàn
+    tax = None
+    if allow_related:
+        try:
+            from ..data.taxonomy import get_taxonomy
+            tax = get_taxonomy()
+        except Exception:
+            tax = None
+
     for target in targets:
+        target_norm = normalize_skill(target.name)
+        matched = False
+
+        # 1. Khớp chính xác hoặc bí danh alias (100% điểm)
         for skill in skills:
             if _match(skill.name, target.name):
-                key = normalize_skill(target.name)
-                if key in matched_names:
-                    continue
-                matched_names.add(key)
-                covered += max(target.weight, 0.0)
+                if target_norm not in matched_names:
+                    matched_names.add(target_norm)
+                    covered += max(target.weight, 0.0)
+                matched = True
                 break
+
+        # 2. Khớp kỹ năng theo quan hệ phân cấp trong taxonomy (Lớp 2: is_superset_of, framework_of, companion)
+        if not matched and tax is not None:
+            best_rel_weight = 0.0
+            for skill in skills:
+                rel_w = tax.get_relation_weight(skill.name, target.name)
+                if rel_w > best_rel_weight:
+                    best_rel_weight = rel_w
+
+            if best_rel_weight > 0.0:
+                if target_norm not in matched_names:
+                    matched_names.add(target_norm)
+                    covered += best_rel_weight * max(target.weight, 0.0)
+                matched = True
+
     return min(covered / total, 1.0)
 
 
@@ -236,7 +185,7 @@ def skills_score(
     required = list(job.required_skills)
     optional = list(job.optional_skills)
     if not required and not optional:
-        return 1.0
+        return 0.0
     if not required:
         return _coverage(cv.skills, optional)
 
@@ -352,10 +301,28 @@ def hybrid_score(
 
 
 def _extract_skills(text: str) -> list[SkillItem]:
-    out = []
+    out: list[SkillItem] = []
     seen = set()
-    for raw in text.replace(";", ",").split(","):
-        token = normalize_skill(raw)
+
+    # 1. Trích xuất chính xác theo taxonomy có ranh giới từ
+    try:
+        from ..data.taxonomy import get_taxonomy
+        tax = get_taxonomy()
+        extracted_canonicals = tax.extract_skills_from_text(text)
+        for c_name in extracted_canonicals:
+            token = normalize_skill(c_name)
+            if token and token not in seen:
+                seen.add(token)
+                out.append(SkillItem(name=token))
+    except Exception:
+        pass
+
+    # 2. Hỗ trợ tách bổ sung theo dấu phẩy / chấm phẩy / gạch đầu dòng cho cụm từ tự do
+    for raw in text.replace(";", ",").replace("\n", ",").replace("•", ",").replace("-", ",").split(","):
+        cleaned = raw.strip()
+        if not cleaned:
+            continue
+        token = normalize_skill(cleaned)
         if token and len(token) <= 60 and token not in seen:
             seen.add(token)
             out.append(SkillItem(name=token))
@@ -376,11 +343,32 @@ def years_from_document(doc: Document) -> float | None:
 
 
 def profile_from_document(doc: Document) -> CandidateProfile:
-    """Bridge từ `Document` nghiên cứu → CandidateProfile (best-effort)."""
+    """Bridge từ `Document` nghiên cứu → CandidateProfile (hỗ trợ trích xuất toàn diện)."""
     skills: list[SkillItem] = []
+    seen = set()
+
+    # 1. Trích xuất ưu tiên từ section skills
     section = doc.sections.get("skills")
-    if section is not None:
-        skills = _extract_skills(section.text)
+    if section is not None and section.text.strip():
+        for s in _extract_skills(section.text):
+            if s.name not in seen:
+                seen.add(s.name)
+                skills.append(s)
+
+    # 2. Quét bổ sung từ experience và toàn văn bản để không bỏ sót kỹ năng nêu trong quá trình làm việc
+    try:
+        from ..data.taxonomy import get_taxonomy
+        tax = get_taxonomy()
+        exp_text = doc.sections.get("experience").text if doc.sections.get("experience") else ""
+        text_to_scan = f"{exp_text}\n{doc.raw_text}"
+        for c_name in tax.extract_skills_from_text(text_to_scan):
+            token = normalize_skill(c_name)
+            if token and token not in seen:
+                seen.add(token)
+                skills.append(SkillItem(name=token))
+    except Exception:
+        pass
+
     return CandidateProfile(
         skills=skills,
         years_experience=years_from_document(doc),
@@ -388,11 +376,41 @@ def profile_from_document(doc: Document) -> CandidateProfile:
 
 
 def job_from_document(doc: Document) -> JobRequirement:
-    """Bridge: JD nghiên cứu → JobRequirement (best-effort)."""
+    """Bridge: JD nghiên cứu → JobRequirement (phân định must-have vs nice-to-have)."""
+    must_skills: list[SkillItem] = []
+    nice_skills: list[SkillItem] = []
+    seen_must = set()
+    seen_nice = set()
+
+    # 1. Phân loại Must-have và Nice-to-have từ toàn văn JD
+    try:
+        from ..data.taxonomy import get_taxonomy
+        tax = get_taxonomy()
+        must_names, nice_names = tax.classify_jd_skills(doc.raw_text)
+        for name in must_names:
+            norm = normalize_skill(name)
+            if norm not in seen_must:
+                seen_must.add(norm)
+                must_skills.append(SkillItem(name=norm))
+        for name in nice_names:
+            norm = normalize_skill(name)
+            if norm not in seen_must and norm not in seen_nice:
+                seen_nice.add(norm)
+                nice_skills.append(SkillItem(name=norm))
+    except Exception:
+        pass
+
+    # 2. Bổ sung từ section skills tường minh nếu có
     section = doc.sections.get("skills")
-    skills = _extract_skills(section.text) if section is not None else []
+    if section is not None and section.text.strip():
+        for s in _extract_skills(section.text):
+            if s.name not in seen_must and s.name not in seen_nice:
+                seen_must.add(s.name)
+                must_skills.append(s)
+
     return JobRequirement(
-        required_skills=skills,
+        required_skills=must_skills,
+        optional_skills=nice_skills,
         min_years_experience=years_from_document(doc),
         semantic_base=1.0,
     )

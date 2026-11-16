@@ -1,0 +1,108 @@
+{
+    "output": {
+        "justification": [
+            "The job description calls for business development and strategic planning experience, whereas the resume is focused on electrical engineering, making it not relevant.",
+            "No evident leadership role relevant to business development was described in the resume.",
+            "Electric Engineering does not align with skills required in business development such as negotiation or sales strategy.",
+            "The candidate has technical project management skills which are not aligned with digital strategy or business analytics like Power BI or CRM tools."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 1
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 1
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.7,
+                "micro_scores": 1.37
+            }
+        },
+        "personal_info": {
+            "name": "",
+            "email": "",
+            "phone": "",
+            "current_position": "Senior Electrical Engineer",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 35,
+            "strategic planning": 65
+        },
+        "micro_dict": {
+            "negotiation": 34,
+            "sales strategy": 4,
+            "seo": 25,
+            "data analysis": 37
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in business analytics and digital strategy",
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": "Senior Electrical Engineer  \n\uf0b7 Experience Required:  5 to 8 years of relevant experience.  \n\uf0b7 Basic Salary Range:  201,000 to 300,000.  \n\uf0b7 Key Responsibil ities:  \no Lead and oversee complex power system projects.  \no Mentor and guide junior engineers.  \no Manage project timelines, budgets, and resources.  \no Ensure compliance with industry standards and safety regulations.  \no Provide technical expertise in client interactions . \n\uf0b7 Key Skills:  \no Proven track record of successful project management.  \no Extensive experience in electrical engineering.  \no Professional Engineer (PE) license (preferred).  \n\uf0b7 Eligibility:  Bachelor's or Master's degree in electrical engineering.  \n "
+    },
+    "details": {
+        "name": "Senior Electrical Engineer",
+        "number": "",
+        "skills": [
+            "Electrical Engineering",
+            "Project Management",
+            "Power System Projects"
+        ],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "The Senior Electrical Engineer is an experienced professional with 5 to 8 years of relevant experience in electrical engineering and project management, demonstrating a proven track record in leading complex power system projects and mentoring junior engineers.",
+        "employment_history": []
+    }
+}

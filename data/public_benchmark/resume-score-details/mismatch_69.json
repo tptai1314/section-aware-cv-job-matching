@@ -1,0 +1,231 @@
+{
+    "output": {
+        "justification": [
+            "Candidate's leadership experience includes managing and leading multiple teams, exceeded expectations with innovative strategies, which aligns well with the leadership needs of the role.",
+            "Relevant experience in related roles is lacking, mainly in software engineering, not directly related to B2B sales or business development in IT and manufacturing, which impacts the experience score.",
+            "Sporadic mention of data analysis but focused primarily on machine learning, lacks specific market research experience relevant to the B2B sales role.",
+            "Lacks any demonstrable experience in B2B sales; candidate has mostly technical and software development experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 2
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.449999999999999,
+                "micro_scores": 5.220000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Haris Farooq",
+            "email": "harisf98@gmail.com",
+            "phone": "+92-313-9711001",
+            "current_position": "Software / AI Engineer (VoIP)",
+            "current_company": "i2c Inc.",
+            "employment_start_date_current_company": "07-2021",
+            "first_company_start_date": "07-2020",
+            "urls": [
+                {
+                    "website_name": "linkedin",
+                    "url": "linkedin.com/in/haris-faroo"
+                },
+                {
+                    "website_name": "github",
+                    "url": "github.com/Haarris"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 69,
+            "experience": 31
+        },
+        "micro_dict": {
+            "market research": 37,
+            "b2b sales": 1,
+            "data analysis": 62
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales",
+            "Strong understanding of IT and manufacturing industries",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong proficiency in Microsoft Office Suite",
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": "Muhammad Haris Farooq\n harisf98@gmail.com \u2022 +92-313-9711001 \u2022 linkedin.com/in/haris-faroo  q   \u2022 github.com/Haarris\nProfessional Experience\ni2c Inc.                                      Lahore, Pakistan\nSoftware / AI Engineer (VoIP)                                                                      July 2021 \u2013 Present\n\uf06cMachine Learning  : Achieved 98% volume prediction accuracy with Time Series and Neural  \nNetworks and obtaining 91.7 F-1 Score in NLP sentiment analysis.\n\uf06cSoftware Development  : Designed Asterisk-compatible applications/dashboards in JavaScript,  \nJava, and Python, trimming team overhead by 7%.\n\uf06cAsterisk Configuration:   Formulated and programmed dial plans for local PBX, IVR, and Call  \ncenter servers in Asterisk 16.\n\uf06cAlerts  Automation:   Created  shell  and  Python  scripts  for  timely  error  detection,  boosting  \nresponse time by 13% and error detection by 20%.\n\uf06cDatabases  : Utilized MySQL expertise to craft efficient queries, saving 12% of time in weekly  \nreporting tasks.\nDIGIBLITZ                                Virginia, USA\nDesign and IoT Intern                                                                                                 July \u2013 Oct 2020\n\uf06cFront-end Designing  : Spearheaded circuit designing for smart products resulting in 6+ new  \nfeatures, a reduction of 12% bandwidth usage, and an increase in 4x battery life.\n\uf06cCloud Management:   Initiated usage of cloud platforms and latest IoT trends to manipulate data  \nthat reduced equipment cost by 14% and accelerated time to launch by 23% resulting in an  \neventual $1,340 cost savings.\nTechnical Skills\n\uf06cLanguages / Tools:  Python, C++, JavaScript, MySQL, Flask, SVN, Git, Asterisk.\n\uf06cLibraries  /  Framework:  TensorFlow,  Open  CV,  Pandas,  Numpy,  Matplotlib,  Keras,  NLP,  \nScikit-Learn, Nagios, SIP, RTP, Nagios, NLTK, TF-IDF, SVM, Naive Bayes\n\uf06cMachine Learning: Time Series (ARIMA, SARIMAX), Regression Modeling (Linear, Logistic \nRegularized), Clustering (K-Means), Neural Network (CNN, LSTM), Forecasting (Call Volume, \nFinancial), Supervised Learning, Hyper-parameter Tuning, Sentiment Analysis,  Model \nEvaluation (Train-Test Split, Evaluation Metrics: MAE, MSE, F1-score.  AWS, SVN,REST,Java,SVM,RNN,Bayesian,Process\nProjects\n\uf06cFuture Volume Predictions (Time Series Forecasting and Machine Learning \u2013 Python):\nApplied Time series using ARIMA and SARIMAX, LSTM models, probability and Machine  \nlearning techniques to estimate the future calls, SMS and other relevant information efficiently  \nby up to 98% that provided better future events planning.\n\uf06cSentiment Analysis (Natural Language Processing (NLP \u2013 Python): \nConducted advanced hybrid sentiment analysis using RNN-LSTM, Word2Vec, Naive Bayes,  \nlogistic regression, lexicon scoring, TF-IDF, SVM, achieving an exceptional F-1 Score of 91.7.  \nEnhanced  agent  performance  by  17%  through  sentiment-driven  training,  resulting  in  a  \nremarkable 76% boost in customer satisfaction via sentiment-based routing\n\uf06cAutonomous  Luggage  Carrier  (Sensor  Fusion  +  Computer  Vision  \u2013  Python):\nIn university FYP, implemented sensor fusion (magnetometer, accelerometer, gyrometer) with  \nPython for MobileNetV2 and OpenCV-enhanced computer vision for image object detection.  This effort resulted in a significant 25% cost reduction and a noteworthy 12% increase in  \noperational efficiency, outperforming competitors.\n\uf06cWeb Development (Python, Flask API, HTML and CSS):  \nDeveloped a Flask API to handle data gathering for Machine Learning analysis (Time Series),  \nand used Flask to render an HTML web page to display forecasted values and appropriate  \nplots. This project included creating multiple endpoints from gathering data to customizing the  \nforecasting with user inputs.\n\uf06cDevelopment of Monitoring Dashboards (Java, JavaScript and HTML): \nUtilized both back-end and front-end technologies to create a dashboard showcasing call,  \nqueue, and CPU statistics, resulting in a 13% reduction in team resource time while offering  \nvisually appealing insights.\n\uf06cCall Back Feature (Asterisk): \nDesigned and implemented the callback feature in order to reduce the queue wait time by 35%  \nduring peak hours. This project included developing new routing plans in asterisk and python  \nand shell scripts that eventually resulted in up to 70% less waiting time for customer.\nEducation\nNational University of Computer and Emerging Sciences (FAST \u2013 NUCES)           \nIslamabad, Pakistan        July 2017- July 2021\nBS in Electrical (Telecommunication) Engineering  \nRelevant Coursework:  Data Communication & Networks, Object-Oriented Programming, Wireless &  \nMobile Communication, Introduction to IoT, Probability, Linear Algebra, Multi Variable Calculus.\nAwards\n\uf06cEmerging Software Engineer of the Year 2022 (IT Department \u2013 i2c Inc.)  \n\uf06cDean\u2019s Honor List (Spring\u201918, Fall\u201919, Spring\u201920, Fall\u201920)\n\uf06cSilver Medalist (Fall\u201920) \n\uf06cHuawei ICT Competition 2020:\nQualified for regional finals and was named in the top 20 participants from Pakistan.\n   Certifications\n\uf06cHuawei Certified Internetwork Associate \u2013 Artificial Intelligence ( HCIA \u2013 AI)\n\uf06cHuawei Certified Internetwork Associate \u2013 Internet of Things ( HCIA \u2013 IoT) \n\uf06cHuawei Certified Internetwork Associate \u2013 Routing and Switching ( HCIA \u2013 R&S) \nLeadership \nNATIONAL UNIVERSITY ENGINEERING SOCIETY\nVice President                                        Oct 2020 \u2013 June 2021\n\uf06cLed  a  diverse  17-member  team  across  finance,  social  media,  marketing,  events,  and  \noperations, successfully orchestrating 10+ events with 100+ participants each while optimizing  \nbudgets through a 6% reduction in miscellaneous charges.\nFAST COMMUNITY SERVICES SOCIETY   \nVice President                                                   Jan \u2013 Oct 2020\n\uf06cCommanded a 14-member team across finance, marketing, and operations, driving revenue  \ngrowth by up to 46% through innovative marketing strategies, and successfully managing 6  \ncommunity service events with 80+ participants."
+    },
+    "details": {
+        "name": "Muhammad Haris Farooq",
+        "number": "923139711001",
+        "skills": [
+            "Python",
+            "C++",
+            "JavaScript",
+            "MySQL",
+            "Flask",
+            "SVN",
+            "Git",
+            "Asterisk",
+            "TensorFlow",
+            "Open CV",
+            "Pandas",
+            "Numpy",
+            "Matplotlib",
+            "Keras",
+            "NLP",
+            "Scikit-Learn",
+            "Nagios",
+            "SIP",
+            "RTP",
+            "NLTK",
+            "TF-IDF",
+            "SVM",
+            "Naive Bayes",
+            "ARIMA",
+            "SARIMAX",
+            "Linear Regression",
+            "Logistic Regression",
+            "K-Means",
+            "CNN",
+            "LSTM",
+            "AWS",
+            "REST",
+            "RNN",
+            "Bayesian"
+        ],
+        "email_id": "harisf98@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Future Volume Predictions",
+                "description": "Applied Time series using ARIMA and SARIMAX, LSTM models, probability and Machine learning techniques to estimate the future calls."
+            },
+            {
+                "title": "Sentiment Analysis",
+                "description": "Conducted advanced hybrid sentiment analysis using RNN-LSTM, achieving an exceptional F-1 Score of 91.7."
+            },
+            {
+                "title": "Autonomous Luggage Carrier",
+                "description": "Implemented sensor fusion with Python for MobileNetV2 and OpenCV-enhanced computer vision."
+            },
+            {
+                "title": "Web Development",
+                "description": "Developed a Flask API to handle data gathering for Machine Learning analysis."
+            },
+            {
+                "title": "Development of Monitoring Dashboards",
+                "description": "Created a dashboard showcasing call, queue, and CPU statistics."
+            },
+            {
+                "title": "Call Back Feature",
+                "description": "Designed and implemented the callback feature to reduce queue wait time."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2021",
+                "university": "National University of Computer and Emerging Sciences (FAST \u2013 NUCES)",
+                "degree_title": "BS in Electrical (Telecommunication) Engineering"
+            }
+        ],
+        "achievements": [
+            "Emerging Software Engineer of the Year 2022 (IT Department \u2013 i2c Inc.)",
+            "Dean\u2019s Honor List (Spring\u201918, Fall\u201919, Spring\u201920, Fall\u201920)",
+            "Silver Medalist (Fall\u201920)",
+            "Qualified for regional finals in Huawei ICT Competition 2020, top 20 participants from Pakistan."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Huawei Certified Internetwork Associate \u2013 Artificial Intelligence (HCIA \u2013 AI)",
+                "issuing_organization": "Huawei",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Huawei Certified Internetwork Associate \u2013 Internet of Things (HCIA \u2013 IoT)",
+                "issuing_organization": "Huawei",
+                "date_of_issuance": "MM-YYYY"
+            },
+            {
+                "certification_name": "Huawei Certified Internetwork Associate \u2013 Routing and Switching (HCIA \u2013 R&S)",
+                "issuing_organization": "Huawei",
+                "date_of_issuance": "MM-YYYY"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/haris-faroo",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/Haarris",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Muhammad Haris Farooq is a skilled Software and AI Engineer specializing in VoIP technologies, with a strong background in machine learning and software development. He has demonstrated exceptional technical abilities through various projects and has received multiple accolades for his contributions in the field.",
+        "employment_history": [
+            {
+                "details": "Achieved 98% volume prediction accuracy with Time Series and Neural Networks; designed Asterisk-compatible applications in JavaScript, Java, and Python; programmed dial plans for local PBX, IVR, and Call center servers in Asterisk 16; created shell and Python scripts for timely error detection; utilized MySQL for efficient queries.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Software / AI Engineer (VoIP)",
+                "start_date": "07-2021",
+                "company_name": "i2c Inc."
+            },
+            {
+                "details": "Spearheaded circuit designing for smart products; initiated usage of cloud platforms and IoT trends to manipulate data.",
+                "end_date": "10-2020",
+                "location": "Virginia, USA",
+                "job_title": "Design and IoT Intern",
+                "start_date": "07-2020",
+                "company_name": "DIGIBLITZ"
+            }
+        ]
+    }
+}

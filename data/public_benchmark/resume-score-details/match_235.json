@@ -1,0 +1,144 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive experience in business development and finance, fulfilling roles at well-known companies which align with the job description for strategic initiatives and sales cycles.",
+            "Although the educational background from University Of Central Punjab is decent, it does not align with the preferred universities in the additional info, slightly affecting the score.",
+            "The skills section mentioned are relevant, but missing direct mention of Microsoft Office Suite as a specific proficiency which is essential according to the job description.",
+            "Negotiation skills are implied through experience in client relations, though not directly stated, indicating potential competence in strategic thinking."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "account management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "SHAHRUKH ALI",
+            "email": "shahrukh.ali@descon.com",
+            "phone": "4618452",
+            "current_position": "Business Development Executive",
+            "current_company": "InspecTest (Private) Limited",
+            "employment_start_date_current_company": "02-2022",
+            "first_company_start_date": "08-2009",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/shahrukh-ali-3021ab24a"
+                }
+            ]
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "account management": 100
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proven track record in managing complex sales cycles",
+            "Proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Strong negotiation and strategic thinking skills"
+        ],
+        "resume": "SHAHRUKH ALI\nshahrukh.ali@descon.com 4618452\nlinkedin.com/in/shahrukh-ali-3021ab24a\nSummary\nA highly motivated and result-driven Business Development Executive who also has served as a Finance &\nAccounts Professional with 12 years of invaluable experience including being skilled in numerous business\ndevelopment, financial & accounting fields. I have the ability to handle complex assignments effectively &\npossessing the confidence to work as part of a team or independently. An established reputation for self\u2010\nmotivation, attention to detail excellent organizational skills, and high ethical conduct. Presently looking for the\nbest opportunity with a goal-oriented company where I can excel, deliver and achieve according to my potential. I\nam enthusiastic to learn keenly about emerging developments in my job sector.\nExperience\nSenior Associate\nKPMG In Pakistan\nAug 2021 - Feb 2022 (7 months)\nTeam Supervision and Training\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst: Processing accounts and incoming payments in compliance.\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nVendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nBusiness Development Executive\nInspecTest (Private) Limited\nFeb 2022 - Present (7 months +)\nBusiness Development Accounting, Finance, and Revenue\nClient Relations\nClient Dealing\nAccounts Executive\nDescon Engineering Limited\nAug 2009 - Jul 2021 (12 years)\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nSHAHRUKH ALI - page 1Vendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nEducation\nUniversity Of Central Punjab\nMBA\nHajvery University\nBachelor of Commerce\nSkills\nabacus  \u00a0 \u2022 \u00a0 accountancy  \u00a0 \u2022 \u00a0 accounts receivable  \u00a0 \u2022 \u00a0 accpac  \u00a0 \u2022 \u00a0 analysis  \u00a0 \u2022 \u00a0 business law  \u00a0 \u2022 \u00a0 ceo  \u00a0 \u2022 \u00a0\nconsulting  \u00a0 \u2022 \u00a0 data entry  \u00a0 \u2022 \u00a0 database administration\nSHAHRUKH ALI - page 2"
+    },
+    "details": {
+        "name": "SHAHRUKH ALI",
+        "number": "4618452",
+        "skills": [
+            "SAP ERP",
+            "Oracle",
+            "abacus",
+            "accountancy",
+            "accounts receivable",
+            "accpac",
+            "data entry",
+            "database administration"
+        ],
+        "email_id": "shahrukh.ali@descon.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2010",
+                "university": "Hajvery University",
+                "degree_title": "Bachelor of Commerce"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "University Of Central Punjab",
+                "degree_title": "MBA"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/shahrukh-ali-3021ab24a",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "SHAHRUKH ALI is a highly motivated and result-driven Business Development Executive with 12 years of invaluable experience in business development, finance, and accounting. He possesses strong technical skills in SAP ERP and Oracle, and has a proven track record in handling complex assignments effectively.",
+        "employment_history": [
+            {
+                "details": "Team Supervision and Training, Data entry analyst: Update the system as invoices are received, Bank Payment Analyst: Processing accounts and incoming payments in compliance, Exceptions analyst: Address disputes and payment failure issues, Vendor maintenance analyst: Maintain an accurate supplier database, Finance Analyst: Performing day-to-day financial transactions, including verifying, classifying, computing, posting, and recording accounts receivables\u2019 data.",
+                "end_date": "02-2022",
+                "location": "Pakistan",
+                "job_title": "Senior Associate",
+                "start_date": "08-2021",
+                "company_name": "KPMG In Pakistan"
+            },
+            {
+                "details": "Business Development Accounting, Finance, and Revenue, Client Relations, Client Dealing.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "02-2022",
+                "company_name": "InspecTest (Private) Limited"
+            },
+            {
+                "details": "Data entry analyst: Update the system as invoices are received, Bank Payment Analyst, Exceptions analyst: Address disputes and payment failure issues, Vendor maintenance analyst: Maintain an accurate supplier database, Finance Analyst: Performing day-to-day financial transactions, including verifying, classifying, computing, posting, and recording accounts receivables\u2019 data.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Accounts Executive",
+                "start_date": "08-2009",
+                "company_name": "Descon Engineering Limited"
+            }
+        ]
+    }
+}

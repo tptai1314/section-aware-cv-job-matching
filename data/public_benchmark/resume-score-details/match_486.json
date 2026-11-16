@@ -1,0 +1,156 @@
+{
+    "output": {
+        "justification": [
+            "Candidate exhibits strong leadership skills by managing a team across multiple regions.",
+            "Approximately 4 years of direct business development experience aligns with JD requirements.",
+            "Demonstrated expertise in CRM systems through sales pipeline management as a relevant experience.",
+            "Excel proficiency demonstrated through financial modeling and data analysis tasks."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 9
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.42,
+                "micro_scores": 9.0
+            }
+        },
+        "personal_info": {
+            "name": "Abdullah Amin",
+            "email": "abdullah_amin01@yahoo.com",
+            "phone": "+92-300-4379534",
+            "current_position": "Manager Sales (Regional Business Unit Head - Solar)",
+            "current_company": "Supernet Infrastructure Solutions (Pvt) Ltd",
+            "employment_start_date_current_company": "09-2020",
+            "first_company_start_date": "11-2014",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "http://bit.ly/2Ijl3aV"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 11,
+            "experience": 23,
+            "client relations": 31,
+            "strategic planning": 35
+        },
+        "micro_dict": {
+            "crm systems": 100
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": " \n \n \n \n \n   \n \n \n  \n             \n   \n          \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Abdullah Amin  \n \n \n \n June 15, 1991  \n \n \nSUMMARY  \nA promising and result oriented individual with around  8 years  of multi -dimensional experience in the field of Sales, Operati ons, & Product \nManagement  with expertise in B2B  & B2C  Sales, Business Development, Sales Planning & Forecasting, Technical Sales, Key Account Management, \nOperations Management , Marketing  and Team Building.  \nExpert in leading corporate functions  with deep insights of Business Development,  Business Planning,  Product  Development, Financial Modeling, \nCosting and GTM Strategy . \nA great team player who has developed strong leadership capability to lead high performance teams and achieve targets in set timeline.  \n \n \n \nPROFESSIONAL EXPERIENCE  \n \nSupernet Infrastructure S olutions (Pvt) Ltd                   \n  Manager Sales  (Regional Business Unit Head - Solar)                             September  2020  \u2013 Present  \n \n\uf0a7 Heading the Regional SBU - Power of the organization with the responsibilit y of managing  Solar Energy  portfolio of PKR 180 Million  through \neffec tive stakeholder and customer relationship management  \n\uf0a7 Responsible for delivering the top line growth and bottom line pro fitability for the power (Solar) Segment  by implementing company\u2019s strategy \nthrough direct B2B/B2C selling and through Channel partners  with complete P& L responsibility  \n\uf0a7 Handling end -to-end product management while c ontributing towards company\u2019s strategy by working closely with key leadership  \n\uf0a7 Partnering cross -functionally to innovate and execute a strategy  and d evising annual business plan and implementing G o-to-Market Strategies for \nthe b usiness  to achieve revenue targets  \n\uf0a7 Developing partnerships with local equipment dealers and distributors for an efficient supply chain of Solar PV modules and inverters and BOS  \n\uf0a7 Developing sales funnel and d evising growth strategies  and implementation through CVP  \n\uf0a7 Meeting customers and pitching them the designed (Technical & Financial) system and addressing their queries  and retaining business relationships  \n\uf0a7 Technical and Commercial Proposal preparation by usin g simulation software and Indigenous Financial Models  \n\uf0a7 Financial Modeling and analysis for increasing profitability  and ROI  and coming up with an immaculate system  and n egotiating rates and contracts  \n\uf0a7 Project Management and dealing  with vendor to increase margins by optimizing costs  \n\uf0a7 Providing support to subordinates and peers  and heading  a team of 6 key account managers  in Lahore, Karachi, Multan and Islamabad  \n \nShams Power (Private) Limited                   \n  Business Development Manager                       Nov ember  2019 \u2013 August  2020  \n\uf0a7 Responsible for delivering the t op line growth by developing PPA Solar Business for the company  \n\uf0a7 Lead generation and p rospecting potential cu stomers and setting up meetings  with Owners and C - Level e mployees  \n\uf0a7 Conducting site s urveys and analyzing the system /energy mix  in place and suggesting suitable solutions  and g iving on -site presentations regarding \nthe company's product offerings  \n\uf0a7 Collection of data from custo mers for initial review of  system potent ial and assisting the technical team in designing the system  \n\uf0a7 Design review and preparing feasibility of the project by using suitable financial models and interpreting the results using NPV, IRR and Payback  \n\uf0a7 Conducting industry analysis and coming up with suitable pricing (rates) that ensures maximum ROI and IRR  for investors   \n\uf0a7 Financial analysis of a prospective PPA and preparing competiti ve proposals based upon results  \n\uf0a7 Sales Pipeline Management by generating enough leads and effective follow -ups & Negotiat ing rates/tariff with customers  \n\uf0a7 Customer Relationship Man agement to ensure futures leads & Balance Sheet and cash flow health check to shortlist prospective clients  \n\uf0a7 Outreach activities \u2013 Communicating with new potential customers and pitching the need of solar to companies  \n\uf0a7 Market research for advancement in solar technology and their viability for projects  \n\uf0a7 Tender (EOI & RFP \u2013 technical and financial) preparation for various solar related government and private project  http://bit.ly/2Ijl3aV   \n \n abdullah _amin01  \n \n 11-N, Gulberg II, Lahore, Pakistan  \n abdullah _ami n01 @yahoo.com  \n+92 -300 -4379534  \nPROFESSIONAL QUALIFICATION  \n \n\uf0a7 Lahore School of Economics  (LSE) , Lahore, Pakistan                       August 2017 \u2013 December 2019  \nMBA \u2013 Marketing & Finance  \n \n\uf0a7 National University of Computer and Emerging Sciences (FAST \u2013 NUCES),  \nLahore, Pakistan                          August  2010 \u2013 August 2014   \nBSc\u2013 Electrical Engineering  \n \n\uf0a7 St. Anthony\u2019s College , Laho re, Pakistan          2007 -2009  \nCambridge International A\u2019 Levels  \n \n\uf0a7 St. Anthony\u2019s High School,  Lahore , Pakistan         2006 -2007  \nCambridge International O \u2019 Levels  \n\uf0a7  \n \n \n \n \n  \n \n \n \n \n  \n \n \n \n \n  \n  \n \n \n \n  \n \n \n \n \n \n \n \n                                                                                     MANAGEMENT  SKILLS  \n \n\uf0a7 Sales Planning & Forecasting  \n\uf0a7 Key Account Management  \n\uf0a7 Demand Planning  \n\uf0a7 Stakeholder Management  \n \n \uf0a7 Direct/Indirect B2B & B2C Sales  \n\uf0a7 Customer Relationship Management  \n\uf0a7 P&L management  \n\uf0a7 Product M anagement  \uf0a7 Customer Value Proposition  \n\uf0a7 Written & Verbal Presentation S kills  \n\uf0a7 Negotiation & Excellent Persuasive Skills  \n\uf0a7 Team Building / People Management  \n \n \n \n \n \n \n \n   \n \n                                                                                         TEC HNICAL SKILLS  \n \n\uf0a7  Solar Energy  \n\uf0a7 Supply Chain Management  \n\uf0a7 Distribution Channel Management  \n \n \uf0a7 Financial Analysis/Feasibility /Investment  \n\uf0a7 Strategic P lanning  \n\uf0a7 SWOT Analysis  \uf0a7 Microsoft SQL  \n\uf0a7 Oracle ERP (ODM, Order Management)  \n\uf0a7 Grip on MS Word, Excel, PowerPoint  \n \n \n  \n \n \n   \n \n    HONORS & AWARDS  \n \n\uf0a7 MBA - Stood among  top 10 in LSE \u2019s MBA Class of 2019  \n\uf0a7 Engineering - Final year project, Hazardous Gas Detection System, was in top 5 projects in the university (FAST -NUCES)  \n\uf0a7 School - Went to India as part of school cricket team in 2 005 and captained as well as won a friendly cricket match played with a local club  \n \n Pak Elektron Limited (PEL), Lahore, Pakistan  \n  Sr. Production Engineer  - Energy Meter Plant & LED TV                           November 2014 \u2013 November 2019  \n\uf0a7 Working toward s the development of production plan , managing personnel of manufacturing and assembling area of Energy Meter P lant  and \nLED TV  and e nsuring that daily and mo nthly production targets are met  within the stipulated time  \n\uf0a7 Monitoring the inventory levels, analyz e, anticipate and take corrective actions to ensure the availability of the stock in store on time in order to \nfulfill the production demands and any rapid plan change  \n\uf0a7 Significantly planning and designing systems and processes while coordinating production  engineering activities  and providing facilities & \nmethods to ensure cost effective integration of products and improvement of existing ones into manufacturing operations  \n\uf0a7 End -to end  knowledge and hand -on experience of ORACLE ERP from Oracle Discrete Manufa cturing module to Order Management  \n\uf0a7 Annual and Monthly Sales Planning based upon already floated bids on tenders and analyzing historic trends and working toward s increasing \nrevenue of the company. Monthly and semi -annual sales plan review to incorporate an y necessary changes as per the actual orders  \n\uf0a7 Supporting the tender process  by optimizing the material cost to fetch orders . Providing training and supervising production, manufacturing \nand assembly line workers of energy meter plant  and LED TV.  Ensure comp liance with the company's QMS, EMS, and OHSAS  management \nsystems  \n\uf0a7 Maintaining effective coordination with  marketing,  stores, supply chain and logistics departments for smooth functioning . Maintaining business \nrelationship with customer s to increase volume o f sales   \n\uf0a7 Instrumental in dealing wi th key customers for inspection purposes  of traditional energy meters  \n\uf0a7 Specifying the product and technically negotiating with the customers to achieve the financial objectives of the company  \n\uf0a7 Handling Payments for privat e customers and Inspection Certificates fo r WAPDA and ensuring dispatches  \n \n \n  "
+    },
+    "details": {
+        "name": "Abdullah Amin",
+        "number": "923004379534",
+        "skills": [
+            "Solar Energy",
+            "Supply Chain Management",
+            "Distribution Channel Management",
+            "Financial Analysis",
+            "Feasibility",
+            "Investment",
+            "Strategic Planning",
+            "Microsoft SQL",
+            "Oracle ERP",
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint"
+        ],
+        "email_id": "abdullah_amin01@yahoo.com",
+        "location": "11-N, Gulberg II, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2019",
+                "university": "Lahore School of Economics (LSE)",
+                "degree_title": "MBA \u2013 Marketing & Finance"
+            },
+            {
+                "end_date": "08-2014",
+                "university": "National University of Computer and Emerging Sciences (FAST \u2013 NUCES)",
+                "degree_title": "BSc\u2013 Electrical Engineering"
+            }
+        ],
+        "achievements": [
+            "Stood among top 10 in LSE\u2019s MBA Class of 2019",
+            "Final year project, Hazardous Gas Detection System, was in top 5 projects in the university (FAST -NUCES)",
+            "Captained school cricket team and won a friendly match in India"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/abdullah-amin",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/abdullah-amin01",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Abdullah Amin is a results-oriented professional with around 8 years of diverse experience in Sales, Operations, and Product Management, specializing in B2B and B2C Sales, Business Development, and Financial Analysis. He has a strong background in managing solar energy portfolios and has demonstrated expertise in financial modeling and strategic planning.",
+        "employment_history": [
+            {
+                "details": "Heading the Regional SBU - Power, managing Solar Energy portfolio, responsible for top line growth and profitability, handling end-to-end product management, developing partnerships, and leading a team of key account managers.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Manager Sales (Regional Business Unit Head - Solar)",
+                "start_date": "09-2020",
+                "company_name": "Supernet Infrastructure Solutions (Pvt) Ltd"
+            },
+            {
+                "details": "Responsible for delivering top line growth by developing PPA Solar Business, conducting site surveys, preparing feasibility studies, and managing customer relationships.",
+                "end_date": "08-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "11-2019",
+                "company_name": "Shams Power (Private) Limited"
+            },
+            {
+                "details": "Managed production planning and personnel in Energy Meter Plant and LED TV, ensured compliance with quality management systems, and maintained business relationships with customers.",
+                "end_date": "11-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sr. Production Engineer - Energy Meter Plant & LED TV",
+                "start_date": "11-2014",
+                "company_name": "Pak Elektron Limited (PEL)"
+            }
+        ]
+    }
+}

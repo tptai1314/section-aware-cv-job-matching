@@ -1,0 +1,153 @@
+{
+    "output": {
+        "justification": [
+            "Muhammad Farhan has extensive software development experience but lacks clear leadership or business development roles needed for the position.",
+            "The resume does not showcase any business development or sales-related activities, making relevant experience scores low.",
+            "Specific skills in SEO are absent, though experience with JIRA hints at project management familiarity.",
+            "Education is relevant but does not align with preferred university criteria noted in additional information."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.08,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Farhan",
+            "email": "farhanshamas@hotmail.com",
+            "phone": "0333-2577272",
+            "current_position": "Software Engineer",
+            "current_company": "IBEX Global",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "12-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 8,
+            "business development experience": 92
+        },
+        "micro_dict": {
+            "seo": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Muhammad Farhan\nPhone:\n0333-2577272\nEmail:\nfarhanshamas@hotmail.com\nAddress:\nSunny park\nnear nasirabad raiwind road Lahore\nWork Experience\nIBEX Global\n, Lahore\nSoftwar e Engineer\nPHP (Laravel, CodeIginter)\n04/2022 - Present\n\u25cf\nWorked on AGI scripts for the call to initiate and hang up for creating logs on the third-party CRM. \n\u25cf\nDeveloped the module to fetch data from third-party APIs, applied the call events on it. \n\u25cf\nImplemented two factor authentication on various web portals to make them secure. \n\u25cf\nWorked on different modules of various web portals, CRMs and, admin panels. \n\u25cf\nUpgraded the language versions of the various projects.\nPurelogics-\n75 R1 Johar Town, Lahore\nAssociate Softwar e Engineer\nPHP (Laravel, CodeIginter)\n09/2021 - 03/2022\n\u25cf\nInvolved in developing interactive web applications and APIs using a dynamic scripting language like \nphp developed the application using wamp architecture. \n\u25cf\nExperience working with PHP, Node JS, HTML, JavaScript, MySQL, PostgreSQL, jQuery, Bootstrap \nand CSS. \n\u25cf\nMeet the sprint goals before the demo. \n\u25cf\nTasks completion tracking on jira by logging work on specific tickets. \n\u25cf\nBackground in MVC style framework (Laravel, CodeIgniter). \n\u25cf\nCompleted the training of\nMERN\nstack of fered by the\nPurelogics. \n\u25cf\nCurrently working on a live product by completing the assigned tasks before the deadlines. \n\u25cf\nWorking on a phone system module for a running project by using twilio service. \n\u25cf\nResponsible for developing the backend APIs endpoints for converting the current system into the \nlatest front-end framework.\nArgonteq-\nArfa Tower , 704, 7th Floor , Nishtar  Town,\nLahor e\nAssociate Software Engineer\nBackend Developer (Core PHP, Laravel) \n02/2021 - 09/2021\n\u25cf\nExperience working with PHP, HTML, JavaScript, MySQL, PostgreSQL jQuery, Bootstrap and CSS. \n\u25cf\nBackground in MVC style framework (Laravel). \n\u25cf\nCode style repository design pattern. \n\u25cf\nReal time events handling with pusher . \n\u25cf\nExperience working in Version control systems like GitLab. \n\u25cf\nDemonstrate deep technical knowledge in PHP  programming. \n\u25cf\nDeveloped LMS in PHP  and Laravel using the admin panel and with many features integrated \nwith Laravel Packages.\n\u25cf\nParticipation in running project Matrimonial (Dating site). \n\u25cf\nDeveloped APIs of Mobimed (medical project) user \u2019s health record application.Intelliweb Solutions, Lahore\nTrainee Front end web developer \n12/2019 - 04/2020\n(Job lost due to COVID and to\ncomplete mother \u2019s treatment, then (Fr om 05/2020 To 01/2021) started\nteaching in hometown to stay with par ents) \n\u25cf\nUsed css and bootstrap to develop rich ui components using pure html 5 and css3. Modified the\nsource code according to the requirement \n\u25cf\nDevelopment and maintenance for various frontend modules of the client\u2019 s website. \n\u25cf\nEngage with the team. \n\u25cf\nCreated various designs of websites from PSD\nEducation\nComsats University Islamabad - Sahiwal Campus\n2017 - 2019\nM.Sc. (Master's Degree in Computer Science)\nBahauddin Zakariya University Multan\n2015 - 2017\nB.Sc. (\nBachelor's in Computer Science\n)\nBoard of intermediate and Secondary Education -\nSahiwal 201 1 \u2013 2013\nICS (\nIntermediate of computer science\n)\nBoard of intermediate and Secondary Education -\nMultan 2009 - 201 1\nMatric. (\nComputer Science\n)\nProfessional Skills\n\u25cf\nExperience as a PHP  (Laravel,CodeIgniter), Node JS Developer hands-on experience with \nprofessional experience in module building and APIs building. \n\u25cf\nDemonstrates expert understanding of all application development processes development\nmethodology . \n\u25cf\nIntegrated many Laravel packages like (spatie media, telescope, responder , maatwebsite excel, \nyajra datatables, milon/barcode, etc).\n\u25cf\nExcellent PHP , JavaScript, HTML, CSS, and bootstrap skills. \n\u25cf\nUsed css and bootstrap to develop rich ui components using pure html 5 and css3. Modified the\nsource code according to the requirement. \n\u25cf\nStrong English communications skills. \n\u25cf\nStrong understanding of software development processes from requirements analysis through\nproduct release including scheduling, prioritization, and debugging. \n\u25cf\nCompleted the assessment of MERN stack and developed the APIs in node by using express JS.\nRefer ence\nReference will be furnished when required"
+    },
+    "details": {
+        "name": "Muhammad Farhan",
+        "number": "03332577272",
+        "skills": [
+            "PHP (Laravel, CodeIgniter)",
+            "Node JS",
+            "HTML",
+            "JavaScript",
+            "MySQL",
+            "PostgreSQL",
+            "jQuery",
+            "Bootstrap",
+            "CSS",
+            "MERN stack"
+        ],
+        "email_id": "farhanshamas@hotmail.com",
+        "location": "Sunny park near nasirabad raiwind road Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Comsats University Islamabad - Sahiwal Campus",
+                "degree_title": "M.Sc. (Master's Degree in Computer Science)"
+            },
+            {
+                "end_date": "05-2017",
+                "university": "Bahauddin Zakariya University Multan",
+                "degree_title": "B.Sc. (Bachelor's in Computer Science)"
+            },
+            {
+                "end_date": "05-2013",
+                "university": "Board of intermediate and Secondary Education - Sahiwal",
+                "degree_title": "ICS (Intermediate of computer science)"
+            },
+            {
+                "end_date": "05-2011",
+                "university": "Board of intermediate and Secondary Education - Multan",
+                "degree_title": "Matric. (Computer Science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadfarhan",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/muhammadfarhan",
+                "website_name": "GitHub"
+            }
+        ],
+        "executive_summary": "Muhammad Farhan is a skilled software engineer with expertise in PHP frameworks such as Laravel and CodeIgniter, as well as proficiency in Node JS and various front-end technologies. He has a strong background in developing web applications and APIs, demonstrating a commitment to delivering high-quality software solutions.",
+        "employment_history": [
+            {
+                "details": "Worked on AGI scripts for the call to initiate and hang up for creating logs on the third-party CRM. Developed the module to fetch data from third-party APIs, applied the call events on it. Implemented two factor authentication on various web portals to make them secure. Worked on different modules of various web portals, CRMs and, admin panels. Upgraded the language versions of the various projects.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Software Engineer",
+                "start_date": "04-2022",
+                "company_name": "IBEX Global"
+            },
+            {
+                "details": "Involved in developing interactive web applications and APIs using a dynamic scripting language like PHP. Experience working with PHP, Node JS, HTML, JavaScript, MySQL, PostgreSQL, jQuery, Bootstrap and CSS. Completed the training of MERN stack offered by Purelogics. Responsible for developing the backend APIs endpoints for converting the current system into the latest front-end framework.",
+                "end_date": "03-2022",
+                "location": "Lahore",
+                "job_title": "Associate Software Engineer",
+                "start_date": "09-2021",
+                "company_name": "Purelogics"
+            },
+            {
+                "details": "Experience working with PHP, HTML, JavaScript, MySQL, PostgreSQL, jQuery, Bootstrap and CSS. Developed LMS in PHP and Laravel using the admin panel and with many features integrated with Laravel Packages. Developed APIs of Mobimed (medical project) user\u2019s health record application.",
+                "end_date": "09-2021",
+                "location": "Lahore",
+                "job_title": "Associate Software Engineer",
+                "start_date": "02-2021",
+                "company_name": "Argonteq"
+            },
+            {
+                "details": "Used CSS and Bootstrap to develop rich UI components using pure HTML5 and CSS3. Modified the source code according to the requirement. Development and maintenance for various frontend modules of the client\u2019s website.",
+                "end_date": "04-2020",
+                "location": "Lahore",
+                "job_title": "Trainee Front end web developer",
+                "start_date": "12-2019",
+                "company_name": "Intelliweb Solutions"
+            }
+        ]
+    }
+}

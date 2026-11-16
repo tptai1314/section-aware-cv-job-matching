@@ -1,0 +1,153 @@
+{
+    "output": {
+        "justification": [
+            "Has over 5 years of experience in business development, exceeding the 5+ year experience requirement.",
+            "Demonstrates leadership in past positions, although no significant team management roles mentioned \u2013 leading a score of 7.",
+            "MBA in Business Administration meets the educational requirement.",
+            "Proficiency in Microsoft Office Suite is evident from skills listed in the resume.",
+            "Negotiation skills not explicitly mentioned but implied, hence a moderate score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 9
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "account management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.13,
+                "micro_scores": 7.1
+            }
+        },
+        "personal_info": {
+            "name": "Khuram Khan",
+            "email": "kay.khuram@gmail.com",
+            "phone": "+923349747255",
+            "current_position": "Business Development Specialist",
+            "current_company": "Infinite Group",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "05-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 87,
+            "experience": 13
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 31,
+            "negotiation skills": 52,
+            "account management": 17
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Proficiency in Microsoft Office Suite",
+            "Strong negotiation and strategic thinking skills",
+            "5+ years of experience in business development or a related role"
+        ],
+        "resume": "Khuram Khan \nBusiness Development Specialist \nI have 10 years of experience in sales and marketing, I can develop a team to generate business. \nkay.khuram@gmail.com \n+923349747255 \nWapda Town, Lahore, Pakistan \nWORK EXPERIENCE \nBusiness Development Specialist \nIn\ufb01nite Group \n06/2022 - 09/2022\n, \n \nLahore, Pakistan \nIt's a Software Development, Digital Media Marketing and Business\nProcess Outsourcing Company. \nBidding on Upwork, Guru and Fiverr. \nLinkedIn Sales Navigator to generate business leads \nEmail marketing \nInternational Sales Executive \nPachem Global \n01/2022 - 06/2022\n, \n \nPetrochemical manufacturing and trading company. \nLead generation in Latin America Markets \nLinkedIn Communication to develop business \nDatabase Management for long term relationship \nSales Manager \nBuksh Leather \n02/2020 - 03/2021\n, \n \nIt's glove manufacturing and welding equipment trading company\nworking in Pakistan and UAE. \nGenerate database and make cold calling \nMeet procurement managers to generate business \nCustomer Relationship Management to increase revenue. \nMarketing Executive \nLeathertex Group \n12/2013 - 01/2017\n, \n \nProtective Equipment Manufacturer and Leather Tannery. \n30 plus customers management from Europe \nProduct development for business expansion \nPreparation for exhibitions and trade shows \nEDUCATION \nMaster of Business Administration \nUniversity of Management and Technology \nSKILLS \nMicrosoft O\ufb03ce \nSAP Business Pro \nOutlook \nVOLUNTEER EXPERIENCE \nRegistered Member \nAl-Khidmat Foundation Pakistan \n09/2023 - Present\n, \n \nORGANIZATIONS \nLoopTex\n (12/2012 - 12/2013)\n \nTechnology Upgradation and Skill Development\nCompany\n (05/2012 - 10/2012)\n \nHONOR AWARDS \nInclusive Education Seminar\n (12/2010)\n \nName of the institution that issued/awarded it \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nSUPPORTED CAUSES \nWorld Food Programme by UN \nINTERESTS \nSocial Media \nBook Reading \nWorkout and exercise \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Khuram Khan",
+        "number": "923349747255",
+        "skills": [
+            "Microsoft Office",
+            "SAP Business Pro",
+            "Outlook"
+        ],
+        "email_id": "kay.khuram@gmail.com",
+        "location": "Wapda Town, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2013",
+                "university": "University of Management and Technology",
+                "degree_title": "Master of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/kaykhuram",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Khuram Khan is a seasoned Business Development Specialist with 10 years of experience in sales and marketing, skilled in generating business leads and managing customer relationships across various industries.",
+        "employment_history": [
+            {
+                "details": "Bidding on Upwork, Guru and Fiverr. LinkedIn Sales Navigator to generate business leads. Email marketing.",
+                "end_date": "09-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Specialist",
+                "start_date": "06-2022",
+                "company_name": "Infinite Group"
+            },
+            {
+                "details": "Lead generation in Latin America Markets. LinkedIn Communication to develop business. Database Management for long term relationship.",
+                "end_date": "06-2022",
+                "location": "",
+                "job_title": "International Sales Executive",
+                "start_date": "01-2022",
+                "company_name": "Pachem Global"
+            },
+            {
+                "details": "Generate database and make cold calling. Meet procurement managers to generate business. Customer Relationship Management to increase revenue.",
+                "end_date": "03-2021",
+                "location": "",
+                "job_title": "Sales Manager",
+                "start_date": "02-2020",
+                "company_name": "Buksh Leather"
+            },
+            {
+                "details": "30 plus customers management from Europe. Product development for business expansion. Preparation for exhibitions and trade shows.",
+                "end_date": "01-2017",
+                "location": "",
+                "job_title": "Marketing Executive",
+                "start_date": "12-2013",
+                "company_name": "Leathertex Group"
+            }
+        ]
+    }
+}

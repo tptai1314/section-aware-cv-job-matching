@@ -1,0 +1,148 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has relevant experience in sales and distribution, with over 5 years in the FMCG industry, potentially meeting the requirement for 5+ years in business development or sales management.",
+            "Macro assessment shows leadership experience in managing Coca Cola's distribution sales efforts, though explicit team management experience is not detailed.",
+            "Candidate displays knowledge of CRM systems like Salesforce, aligning with the job's CRM proficiency requirement.",
+            "Education meets the minimum requirement with a Bachelor's degree in Economics from Bahauddin Zakariya University, Multan, Pakistan, though not an Ivy League or top business school."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 8
+                },
+                {
+                    "criteria": "crm proficiency",
+                    "score": 7
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 6.460000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Hassan Ishaq",
+            "email": "hassanch4686@outlook.com",
+            "phone": "0301 -7706019",
+            "current_position": "",
+            "current_company": "CoCa Cola Beverages Company",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "salesforce": 32,
+            "crm proficiency": 25,
+            "proposal writing": 43
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Strong analytical and strategic planning skills",
+            "5+ years of experience in business development or sales management",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Muhammad Hassan  Ishaq  \n hassanch4686@outlook.com  \nShujaAbad,Multan  \nCell  # 0301 -7706019  \nAbridge  \nTo learn more and polish my skills in an environment that can \nhelp to achieve organization goals.  To become an efficient part \nof management so as to contribute towards the achievement \nof its goals as well as nourishing and nurturing my skills to make \nme a real asset for the organization.  \nPersonal Information  \nFull Name      Hassan  Ishaq  \nFather Name                                      Muhammad Ishaq  \nDate of Birth              20 March 1992  \nMarital Status              Single  \nGender               Male  \nReligious               Islam  \nNationality              Pakistan  \nWork Experiences   \n\u2756 Total 5 Years Of working experience  in FMCG  Industry  \n\u2756 4 Years In Distribution of (CoCa Cola Beverages Company) \nMultan, Continue \u2026 \n\u2756 Having 5 Years of Working in Distribution sales Matters  \n\u2756 Also  Having Internship Certificate In Finance  Department  at \nPEL Company  Education / Course  \n\u2756 M.Sc (Eco)                \n\u2756  From, Bahauddin Zakariya  University Multan, Pakistan  \n\u2756 Bachelor Degree  \nFrom, Bahauddin Zakariya University Multan , Pakistan  \n\u2756 Intermediate   (F.Sc ) \nFrom, Punjab College of Information Technology, Multan  \n\u2756 High School Certificate  \nBISE, Multan, Pakistan  \nTrainings/ Cerificates  \n\u2756 Internship in Finance  by (PEL) \n\u2756 Freelancing ( DigiSkills.pk ) by (MITT )(VU) \n\u2756 Digital Marketing  (DigiSkills .pk) by (MITT) (VU)  \n\u2756 Red Recognition Award (CCI)  \nStrength / Skills  \no Strong inter -personal and Concentrate communication skills  \no Demonstrate ability to present ideas  \no Ability to easily understand new concepts in minimum \nrefractory time.  \no High motivation  & adaptability  \no Self Starter and quick learner  \no Well known about MS Office ,G-suite,CRM,Salesforce & \nERP Software  \no Well Known about Sales & Marketing Operations     \nLanguages  \nUrdu,English,Punjabi  \n\u25aa I hereby declare that the information furnished \nabove is true to the best of my knowledge.   \n\u25aa Reference Should be furnished on demand  "
+    },
+    "details": {
+        "name": "Hassan Ishaq",
+        "number": "03017706019",
+        "skills": [
+            "MS Office",
+            "G-suite",
+            "CRM",
+            "Salesforce",
+            "ERP Software"
+        ],
+        "email_id": "hassanch4686@outlook.com",
+        "location": "ShujaAbad, Multan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2015",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "M.Sc (Eco)"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "Bachelor Degree"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Punjab College of Information Technology, Multan",
+                "degree_title": "Intermediate (F.Sc)"
+            },
+            {
+                "end_date": "06-2008",
+                "university": "BISE, Multan, Pakistan",
+                "degree_title": "High School Certificate"
+            }
+        ],
+        "achievements": [
+            "Red Recognition Award (CCI)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Internship in Finance",
+                "issuing_organization": "PEL",
+                "date_of_issuance": "06-2019"
+            },
+            {
+                "certification_name": "Freelancing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Hassan Ishaq is a dedicated professional with 5 years of experience in the FMCG industry, specializing in distribution sales. He holds a Master's degree in Economics and has completed various certifications in finance and digital marketing. Hassan is proficient in several software tools including MS Office, G-suite, CRM, Salesforce, and ERP Software, making him a valuable asset in sales and marketing operations.",
+        "employment_history": [
+            {
+                "details": "Worked in distribution sales for Coca Cola Beverages Company, managing sales operations and client relationships.",
+                "end_date": "Present",
+                "location": "Multan",
+                "job_title": "Sales Executive",
+                "start_date": "01-2019",
+                "company_name": "Coca Cola Beverages Company"
+            }
+        ]
+    }
+}

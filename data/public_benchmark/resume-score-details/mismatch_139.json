@@ -1,0 +1,157 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive experience in business development roles, reflected in both micro and macro skills relevant to the description.",
+            "The resume showcases strong skills in SEO, data analysis, and market research, key requirements for the position.",
+            "The candidate meets all minimum requirements, holding a degree in Business Administration and displaying proficiency in digital strategy.",
+            "Individual's experience and skills align well with company's preferences for business development leadership."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 8
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 7
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 6
+                },
+                {
+                    "criteria": "seo",
+                    "score": 9
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.88,
+                "micro_scores": 7.860000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Zaid Hameed",
+            "email": "zaid.hameed723@gmail.com",
+            "phone": "0321 \u2013 9455272",
+            "current_position": "Marketing and BD Manager",
+            "current_company": "Amigo Software",
+            "employment_start_date_current_company": "02-2015",
+            "first_company_start_date": "04-2011",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 94,
+            "strategic planning": 6
+        },
+        "micro_dict": {
+            "market research": 39,
+            "negotiation": 10,
+            "sales strategy": 7,
+            "seo": 10,
+            "data analysis": 34
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Zaid Hameed  \nMarketing, Business Development & Copywriting  \nCell # 0321  \u2013 9455272/ 0321 \u2013 9459553  | Email:  zaid.hameed723@gmail.com  \nSkillset  \nWith a strong inclination towards  customer acquisition, activation a nd retention , I come along with the \nfollowing skill set:  \nContent Development , Business De velopment, Copywriting , Social Media Marketing,  Email M arketing,  \nSEO, Communication, and Business Analysis  \nExperience:  \nAmigo  Software                  (Feb 2015 \u2013 Present) \nMarketing and BD Manager  \n\u2022 Content  development  and implementation  through  channels  that includ e social  platforms , \nemail  campaigns  and the company  website  \n\u2022 Prospect ing and lead generation  through  selected  channels  mainly,  LinkedIn  \n\u2022 Analy zing traffic  and lead generation  avenues  through  Google  analy tics and Search  Console  \n\u2022 Research, strategize  & implement  Marketing  strategy  to optimize  the lead generation  cycle  \n\u2022 Ensuring  a smooth  and timely  onboarding  process  while  forming  SOPs  to ensure  best \npractices  \n\u2022 Discovery  meeting  with Customers  to analy ze their business  case and suggest  the most \neffective  solution  \n\u2022 Demo nstration  of our solutions  in order to train our Business  Partner s and customers  \n\u2022 Managing  the CRM  for pricing  and other  commercial  aspects  including  Statement  of Work  \n(SOW)  \n\u2022 Updating  the official website  through  the Content  Manag ement  System  that includes  basic  \nHTML  and CSS \n\u2022 Coordinate  with the suppo rt and technical  team  to ensu re the business  need  is \ncommunicated  properly  as well as to ensure  a smooth  installation  process  \n\u2022 Use customer  feedb ack to improve solutions  and keep  up with the market  trends  \n\u2022 Ideat e and deliver  on video  marketing  collateral  \n \niLead Inte grated Solutions                      (Jan 2013 \u2013 Jan 2015 ) \nAssociate  Manager Marketing  \n\u2022 Prospecting and lead generation narrowed down to the market  with  respect to the  company \nportfolio , managing CRM, follow ing-up and reporting to the higher Management   \n\u2022 Coordinate with the Development Department to come up with the Te chnical and Financial \nproposals  \n\u2022 Identify and segment  markets to devise Marketing Strategi es, Content and offerings   \u2022 Coordinating with the Research and Development team enhance products further  \n \nPunjab Board of Investment & Trade                     (April  2011 - Dec 2012)  \nMarketing / Research  Associate  \n\u2022 Created the Social Media Strategy for the  promotion of Punj ab as a p referred investment \ndestination   \n\u2022 Ran Ad Campaigns on Facebook , LinkedIn  and Goo gle with a n above av erage  CTR and a n \nextremely  low CPC \n\u2022 Preparing presentations for the inco ming delegations  from across the g lobe  tailored specifically \nto their investment needs  \n\u2022 Conducted r esearch on different economic sectors to identify and highlight the various \ninvestment opportunities  \n\u2022 Condu cted Business Development  activities  for the  Pak \u2013 Iran Fair  at the Expo Center   \n \nEducat ion and Qualifications  \nLahore School of Economics                                     \nMBA - Master of Business Administration in Marketing and Finance                       (2009 - 2011)  \nBBA - Bachelor of Business Administration in Marketing and Finance                         (2005 - 2008)  \n \nSalamat - Inter national College of Advanced Studies                                                    \n \n\u2022 A-Levels                                                                                                                                   (2003 - 2005 ) \n \n\u2022 O-Level                                                                                                                          (2000 - 2003 ) \n \nInternships  \nAbbasi & Company, Lahore                                                                                            (July \u2013 Aug 2008)  \nBrokerage  \n \n\u2022 Carried out inv estment ideas thro ugh fundamental research combining understanding of macro \nsector and company specific trends and present to Portfolio Manager  \n \n \nDeloitte & Touch e, Lahore                                                                                              (July - Aug 2007)  \nAuditing  \n \n\u2022 Maintained and developed financial data bases and ensured accurate and appropriate \nrecording and analysis of revenues and exp enses.  \n \nInterests  \n \n\u2022 Cricket, Religion, Copywriting  \n "
+    },
+    "details": {
+        "name": "Zaid Hameed",
+        "number": "03219455272",
+        "skills": [
+            "Content Development",
+            "Business Development",
+            "Copywriting",
+            "Social Media Marketing",
+            "Email Marketing",
+            "SEO",
+            "HTML",
+            "CSS",
+            "Google Analytics",
+            "Google Search Console",
+            "CRM Management"
+        ],
+        "email_id": "zaid.hameed723@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2011",
+                "university": "Lahore School of Economics",
+                "degree_title": "MBA - Master of Business Administration in Marketing and Finance"
+            },
+            {
+                "end_date": "08-2008",
+                "university": "Lahore School of Economics",
+                "degree_title": "BBA - Bachelor of Business Administration in Marketing and Finance"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zaidhameed",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zaid Hameed is a marketing and business development professional with extensive experience in content development, copywriting, and digital marketing strategies. He has a proven track record in customer acquisition and retention, utilizing various channels including social media and email marketing to drive business growth.",
+        "employment_history": [
+            {
+                "details": "Content development and implementation through channels that include social platforms, email campaigns, and the company website. Prospecting and lead generation through selected channels mainly, LinkedIn. Analyzing traffic and lead generation avenues through Google Analytics and Search Console. Research, strategize & implement marketing strategy to optimize the lead generation cycle. Ensuring a smooth and timely onboarding process while forming SOPs to ensure best practices. Discovery meeting with customers to analyze their business case and suggest the most effective solution. Demonstration of our solutions in order to train our business partners and customers. Managing the CRM for pricing and other commercial aspects including Statement of Work (SOW). Updating the official website through the Content Management System that includes basic HTML and CSS. Coordinate with the support and technical team to ensure the business need is communicated properly as well as to ensure a smooth installation process. Use customer feedback to improve solutions and keep up with the market trends. Ideate and deliver on video marketing collateral.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Marketing and BD Manager",
+                "start_date": "02-2015",
+                "company_name": "Amigo Software"
+            },
+            {
+                "details": "Prospecting and lead generation narrowed down to the market with respect to the company portfolio, managing CRM, following-up and reporting to the higher management. Coordinate with the Development Department to come up with the technical and financial proposals. Identify and segment markets to devise marketing strategies, content and offerings. Coordinating with the Research and Development team to enhance products further.",
+                "end_date": "01-2015",
+                "location": "",
+                "job_title": "Associate Manager Marketing",
+                "start_date": "01-2013",
+                "company_name": "iLead Integrated Solutions"
+            },
+            {
+                "details": "Created the social media strategy for the promotion of Punjab as a preferred investment destination. Ran ad campaigns on Facebook, LinkedIn and Google with an above average CTR and an extremely low CPC. Preparing presentations for the incoming delegations from across the globe tailored specifically to their investment needs. Conducted research on different economic sectors to identify and highlight the various investment opportunities. Conducted business development activities for the Pak \u2013 Iran Fair at the Expo Center.",
+                "end_date": "12-2012",
+                "location": "",
+                "job_title": "Marketing / Research Associate",
+                "start_date": "04-2011",
+                "company_name": "Punjab Board of Investment & Trade"
+            }
+        ]
+    }
+}

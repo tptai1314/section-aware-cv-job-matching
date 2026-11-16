@@ -1,0 +1,196 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not meet the requirement of 3-5 years of experience in business development or related fields, as their experience is in sales and customer service roles.",
+            "The candidate's educational background does not match the job requirements, as they have a degree in Computer Science instead of Business Administration or Economics.",
+            "The resume lacks specific software skills required, such as MS Excel proficiency and data analysis tools like Stata.",
+            "The candidate's experience does not demonstrate skills in managing multiple projects simultaneously or using LinkedIn Sales Navigator."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 2
+                },
+                {
+                    "criteria": "ms word",
+                    "score": 5
+                },
+                {
+                    "criteria": "stata",
+                    "score": 1
+                },
+                {
+                    "criteria": "linkedin sales navigator",
+                    "score": 1
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in MS Office Suite and data analysis tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Ability to manage multiple projects simultaneously",
+                    "meets": false
+                },
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.3,
+                "micro_scores": 3.9499999999999997
+            }
+        },
+        "personal_info": {
+            "name": "Sanam Abbas",
+            "email": "sanam.abbas.90210@gmail.com",
+            "phone": "(+92) 03034371437",
+            "current_position": "Sales Development Representative",
+            "current_company": "Motive (Keeptruckin)",
+            "employment_start_date_current_company": "02-2019",
+            "first_company_start_date": "03-2015",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 46,
+            "experience": 33,
+            "communication skills": 21
+        },
+        "micro_dict": {
+            "ms excel": 1,
+            "ms word": 18,
+            "stata": 27,
+            "linkedin sales navigator": 17,
+            "verbal and written communication": 37
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "3-5 years of experience in business development or related fields",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Proficiency in MS Office Suite and data analysis tools",
+            "Ability to manage multiple projects simultaneously",
+            "Excellent communication skills"
+        ],
+        "resume": "powered\tby\n\t\nsnaphunt.com\nSanam\tAbbas\nsanam.abbas.90210@gmail.com\n(+92)\t03034371437\nSales\tDevelopment\tRepresentative\tTechnical\tSupport\nFeb\t2019\t-\tJan\t2021\nMotive\t(\tKeeptruckin\t)\t\n|\t\nPakistan\nIn\tthis\tcompany\tI\twas\tresponsible\tin\tconsulting\tabout\tGPS\tand\tDashcam\tDevices\tto\tthose\tfirms\twho\twere\teligible\tto\tavail\twith\ta\tgood\nquote\tto\tsecure\ttheir\tvehicles.\nQuality\tAssurance/customer\tSupport\nMay\t2018\t-\tDec\t2019\nUcs\t\n|\t\nPakistan\nOutbound/\tinbound\tand\tas\tQuality\tAssurance\tagent-------In\tthis\tposition\tI\twas\tresponsible\tfor\tcall\tevaluation\tand\tcoaching\tthe\nresprenstatives\tregards\tsales\tand\tquality\tof\ttheir\tcalls.\nCustomer\tService/\tQuality\tAssurance\nJun\t2017\t-\tApr\t2018\nGlobe\tServices\t\n|\t\nPakistan\nDGS-\tDigital\tGlobe\tServices\t/\tibex.\t/\tWestern\tUnion,\t\nIn\tthis\tcompany\tI\tworked\tas\ta\tsales\trepresentative\tfor\tmultiple\tservice\tproviders\tof\nInternet,\tcable\tand\thome\tsecurity\tand\tautomation.\tIt\twas\ta\tU.S\tbased\tcompany\tand\to\twas\tdealing\twith\tinbound\tand\toutbound\tcalls.-------I\nalso\tgot\tpromoted\tas\ta\tQuality\tAssurance\tAdvisor\tfor\tWestern\tUnion\tin\twhich\tI\twas\tassigned\tto\tevaluate\tcalls\tof\tRepresentatives\tand\talso\ncoach\tthem\tfor\tquality\tCalls.\nVisual\tMerchandising\nMar\t2016\t-\tDec\t2016\nMango\t\n|\t\nPakistan\nIn\tthis\tjob\tI\tUse\tto\treplenish\tbags\tapparels\tand\tpresent\ttheme\tin\toutlets\tof\tcompany.\nMar\t2015\t-\tJan\t2016\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd\t\n|\t\nPakistan\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd,\t-------Customer\tservice/Telecommunicator\t\nIn\tthis\tfield\tI\tworked\tas\tcustomer\trelationship\tofficer,\tI\tuse\tto\nforward\tcomplaints\tand\tsuggestions\tRegards\tfabric\tand\tupdate\tcustomers\tabout\tany\tpromotions\tthe\tcould\tavail\tby\tvia\temail\tand\ntelephone.\nBachelor\tof\tScience,\tComputer\tScience,\tComputer\tSciences,\tInformation\nTechnology\n2014\nBachelor\tof\tScience\nA\tLevels,\tUrdu,\tEnglish,\tComputer\tScience\n2012\nBoard\tof\tIntermediate\tand\tSecondary\tEducation\nIntermediate/A-Level\t,\t\nUrdu,\tEnglish,\tComputer\tScience\t\nGrade:\tB\t\nA\tLevels\tfrom\tLahore\nMatriculation,\tEnglish,\tMathematics\n2010\nMatriculation/O-Level\t,\tBoard\tof\tIntermediate\tand\tSecondary\tEducation\t\nEnglish,\tMathematics\t\nGrade:\tB\t\nMatriculation\nMatriculation\n2003\nAga\tkhan\tAcademy\nMatriculation\tfrom\tAga\tkhan\tAcademy\nMatriculation\n1999\nAllen\tGroove\tSchool\nCompleted\tLanguages\t\nMatriculation\tfrom\tAllen\tGroove\tSchool\nEXPERIENCE\nEDUCATIONpowered\tby\n\t\nsnaphunt.com\nLANGUAGES"
+    },
+    "details": {
+        "name": "Sanam Abbas",
+        "number": "03034371437",
+        "skills": [
+            "GPS Devices",
+            "Dashcam Devices",
+            "Quality Assurance",
+            "Customer Support"
+        ],
+        "email_id": "sanam.abbas.90210@gmail.com",
+        "location": "Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2014",
+                "university": "Computer Sciences, Information Technology",
+                "degree_title": "Bachelor of Science"
+            },
+            {
+                "end_date": "01-2012",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "A Levels"
+            },
+            {
+                "end_date": "01-2010",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-2003",
+                "university": "Aga Khan Academy",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-1999",
+                "university": "Allen Groove School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Sanam Abbas is a dedicated professional with experience in technical support and quality assurance, specializing in GPS and dashcam devices. She has a strong background in customer service and has worked in various roles that emphasize her technical skills and commitment to quality.",
+        "employment_history": [
+            {
+                "details": "Responsible for consulting about GPS and Dashcam Devices to firms eligible for securing their vehicles.",
+                "end_date": "01-2021",
+                "location": "Pakistan",
+                "job_title": "Sales Development Representative Technical Support",
+                "start_date": "02-2019",
+                "company_name": "Motive (Keeptruckin)"
+            },
+            {
+                "details": "Responsible for call evaluation and coaching representatives regarding sales and quality of their calls.",
+                "end_date": "12-2019",
+                "location": "Pakistan",
+                "job_title": "Quality Assurance/customer Support",
+                "start_date": "05-2018",
+                "company_name": "Ucs"
+            },
+            {
+                "details": "Worked as a sales representative for multiple service providers and promoted to Quality Assurance Advisor for call evaluation and coaching.",
+                "end_date": "04-2018",
+                "location": "Pakistan",
+                "job_title": "Customer Service/Quality Assurance",
+                "start_date": "06-2017",
+                "company_name": "Globe Services"
+            },
+            {
+                "details": "Replenished bags and apparel and presented themes in outlets of the company.",
+                "end_date": "12-2016",
+                "location": "Pakistan",
+                "job_title": "Visual Merchandising",
+                "start_date": "03-2016",
+                "company_name": "Mango"
+            },
+            {
+                "details": "Worked as a customer relationship officer, forwarding complaints and suggestions regarding fabric and updating customers about promotions.",
+                "end_date": "01-2016",
+                "location": "Pakistan",
+                "job_title": "Customer service/Telecommunicator",
+                "start_date": "03-2015",
+                "company_name": "Al Karam Textile Mills (Pvt) Ltd"
+            }
+        ]
+    }
+}

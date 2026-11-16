@@ -1,0 +1,169 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has significant experience in project management and QA, but lacks direct business development or sales roles.",
+            "Strategic thinking is evidenced through their project coordination experience, yet lacks direct sales strategy implementation.",
+            "The resume does not highlight specific market research skills which are crucial for the role.",
+            "Education is not from preferred universities, which might impact evaluation given the internal company preferences."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.37,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Umer Ayaz",
+            "email": "umerayaz83@gmail.com",
+            "phone": "+923218522346",
+            "current_position": "Consultant RPA (Robotics Process Automation)",
+            "current_company": "eWorx International",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "04-2007",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 37,
+            "strategic thinking": 63
+        },
+        "micro_dict": {
+            "market research": 100
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": "UMERAYAZ\nPROJECT COORDINATOR/QAANALYST\nLEADABOUTME\nAbout15yearsofexperiencedEngineeringLeaderwith\nexpertiseinProjectManagement,SoftwareAnalysis,\nBusinessAnalysis,conductingandapplyingAgile\numerayaz83@gmail.co\nm+923218522346 MethodologiesintheProjects,Riskmanagementanddeep\nknowledgeandexperienceofSoftwareQualityAssurance\n230-A,RizwanBlock,AwanTown,Multan\nRoad,Lahore,54700,PakistanwithalltypeofApplicationsincludingDesktop,Web,Mobile,\nCloudetc.\nIhavebeenawardedmanytimesasthebestresourceof\nthecompanyasfarasPassionandFunctionalKnowledgeis\nconcerned.\nI'vebeentoUnitedStates5timesfor2-3months(eachvisit)\ninordertocoordinatewiththeo\ufb00shoreteamandget\nbusinessdomain.\nAlsoIhaveanextensiveexperienceworkingwithpeople\nfromallovertheworld.\nEDUCATION\nBACHELORSOFSOFTWARE\nENGINEERING\nBahriaUniversity,Islamabad\n2006\nInvolvedinEnglish\ndebatesotherthan\nStudiesSecuredagood\nCGPA\nPlayedinter-UniversityCricket\nF.SCPRE-ENGINEERING\nI.M.C.BF-7/3,Islamabad\n2002\nHOBBIES\nCricket,Watchingand\nListening,Readinggood\narficles,Sur\ufb01ngSocialMedia\nLANGUAGES\nEnglish\nUrduWORKEXPERIENCE\nCONSULTANTRPA(RoboticsProcessAutomation)|eWorx\nInternational\n|Lahore|Mar-2022-TillDate\n\u2022GettingtheDomainonMuleSoftProducts\n\u2022WorkingonHospitalityProducts\n\u2022Streamliningtheirdocumentsandblogs\n\u2022DoingapprovalstogothingsintoProduction\nPROJECTCOORDINATOR/QAANALYSTLEAD|StewartPakistanPvtLtd\n|Lahore|Nov2014-Mar-2022\n\u2022Managing5-6Projectsandateamof8-10resourcesasaPrimaryCoordinator\n\u2022Responsibleoftimelyreleaseoftheprojects\n\u2022InvolvedinRequirementsElicitation\n\u2022Makingsuretherequireddocumentsarecompleteandreviewed\n\u2022ReporttoManageraboutteams\u2019reviews\n\u2022ExtractingDatafromTFS/ADOandmakingreportsforManagers\n\u2022MakingsurealltheSDLCprocessesforAgile/Scrumaremet\n\u2022Makingsurestandardizedtestcasesarewri5enforeachproject\n\u2022ProvideTestCasestoAutomationtomakescripts\n\u2022ManagingabigProjectIntegratedwithdi\ufb00erentApplicationSuites.\n\u2022InvolvedinOral/Wri5enConversationwithUSAteamregardingRequirements\n\u2022ActsasaBridgebetweenDevelopmentteamsandBusiness.\n\u2022HavebeentoUSA5times,2-3monthseachtripforCompany\u2019sbusiness\n\u2022InvolvedinOral/Wri5enConversationwithUSAteamregardingRequirements\nMANAGERQUALITYASSURANCE|ZinTechnologies(WylessUK)|Lahore\n|Lahore|Nov2013-Nov2014\n\u2022ManagingQAteamofabout10-15resources\n\u2022Managingmultipleprojectandtimelines\n\u2022Tasksallocationtoteamandcoordination\n\u2022AttendingdailyManagementscrum\n\u2022ReviewofProjectPlan,Testplanandtestsessions\n\u2022Reviewoftestingperformedbyresources\n\u2022ManagingandmonitoringJirafortasksandBugsupdates\n\u2022Dailystatusreportstomanagement\n\u2022ReviewofProjectPlan,Testplanandtestsessions\n\u2022Reviewoftestingperformedbyresources\n\u2022ManagingandmonitoringJirafortasksandBugsupdates\n\u2022Dailystatusreportstomanagement\nSENIORSQAENGINEER/TEAMLEAD|GameViewStudiosPvtLtd|Lahore\n|Dec2010-Nov2013\n\u2022TestingandQAofIOSplatformGames\n\u2022TestingandQAofAndroidbasedGames\n\u2022TestingandQAofngPlatformGamesbyngMocco\n\u2022BugreportingandmaintenanceonUnfuddle\n\u2022Reviewtestplanning\n\u2022Communicatetheissuestothedevelopmentteam\n\u2022Softwareproblemsreporttodeterminedeviationfromthe\nsystemspeci\ufb01cations\n\u2022Utilizeautomatedtestingtools(ifrequired)\n\u2022Plan,developandexecutesystemandregressionleveltesting\n\u2022TestCasesassignmentstoteamonTestLinkTool\n\u2022ReportGenerationandRecordmaintenanceofTestLinkSQAENGINEER|F3TechnologiesPvtLtd|Jun2008-Nov2010\n\u2022Testinginthe\ufb01eldofHealthCareApplicationsforIrelandandSouthAfrica\n\u2022WritingTestCases\n\u2022PrepareTestPlan\n\u2022PrepareTraceabilityMetrix\n\u2022ReportingBugsinTFS\n\u2022GettingDomainunderstandingofRequirements\n\u2022PrepareBugReports\nSQAENGINEER|MTBC(NowCareCloud)PvtLtd|Islamabad\n|Apr2007-Jun2008\n\u2022Createandmaintaintestplans\n\u2022TestingofEMR(ElectronicMedicalRecords)\n\u2022TestingofMTBCMIS(ManagementInformationSystem)\n\u2022Performancetesting\n\u2022Plan,developandexecutesystemandregressionleveltesting\n\u2022Testingofinstallationsandcon\ufb01gurationdocumentsSKILLS\nSoftwareQualityAssurance ProjectManagement\nAgileScrum\nMethodologicalPublicSpeakingand\nPresentation\nWrittenandOral\nCommunication ActiveListening\nCreativityandProblem\nSolvingCMMIandProcess\nImprovement\nAgileSDLC ProjectManagementTools\nCOURSES\nBUSINESSANALYSISFORLEADERS|PMI|Feb2022\nPROJECTMANAGEMENT|Feb2022\nSCRUMMASTER|Feb2022\nINTERNSHIPS\nINTERNEE|Mobilink(nowJazz)|Lahore|May2006-Jul2006\n\u2022Tari\ufb00ImplementationandOnlineDocumentation\n\u2022DataManipulationUsingSQLonTOAD\n\u2022ProcessImprovement\n\u2022NumberingLevelsImplementation\n\u2022De\ufb01nitionofWork\ufb02owswithotherDepartments\nINTERNEE|MCBBankLtd|Islamabad|Jun2005-Aug2005\n\u2022GeneralBankingActivities\n\u2022Troubleshootingofsystems\n\u2022PreparationofFinancialStatements\n\u2022O\ufb03ceAutomation"
+    },
+    "details": {
+        "name": "Umer Ayaz",
+        "number": "923218522346",
+        "skills": [
+            "Software Quality Assurance",
+            "Project Management",
+            "Agile",
+            "Scrum",
+            "CMMI",
+            "Process Improvement"
+        ],
+        "email_id": "umerayaz83@gmail.com",
+        "location": "230-A, Rizwan Block, Awan Town, Multan Road, Lahore, 54700, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2006",
+                "university": "Bahria University, Islamabad",
+                "degree_title": "Bachelor of Software Engineering"
+            },
+            {
+                "end_date": "08-2002",
+                "university": "I.M.C.B F-7/3, Islamabad",
+                "degree_title": "F.Sc Pre-Engineering"
+            }
+        ],
+        "achievements": [
+            "Awarded multiple times as the best resource of the company for passion and functional knowledge."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Business Analysis for Leaders",
+                "issuing_organization": "PMI",
+                "date_of_issuance": "02-2022"
+            },
+            {
+                "certification_name": "Project Management",
+                "issuing_organization": "PMI",
+                "date_of_issuance": "02-2022"
+            },
+            {
+                "certification_name": "Scrum Master",
+                "issuing_organization": "PMI",
+                "date_of_issuance": "02-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umerayaz",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Umer Ayaz is an experienced Engineering Leader with over 15 years in Project Management and Software Quality Assurance. He has a strong background in Agile methodologies and has successfully managed multiple projects and teams across various domains.",
+        "employment_history": [
+            {
+                "details": "Getting the Domain on MuleSoft Products, Working on Hospitality Products, Streamlining their documents and blogs, Doing approvals to go things into Production",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Consultant RPA (Robotics Process Automation)",
+                "start_date": "03-2022",
+                "company_name": "eWorx International"
+            },
+            {
+                "details": "Managing 5-6 Projects and a team of 8-10 resources as a Primary Coordinator, Responsible for timely release of the projects, Involved in Requirements Elicitation, Making sure the required documents are complete and reviewed, Report to Manager about teams\u2019 reviews, Extracting Data from TFS/ADO and making reports for Managers, Making sure all the SDLC processes for Agile/Scrum are met, Making sure standardized test cases are written for each project, Provide Test Cases to Automation to make scripts, Managing a big Project Integrated with different Application Suites, Involved in Oral/Written Conversation with USA team regarding Requirements, Acts as a Bridge between Development teams and Business.",
+                "end_date": "03-2022",
+                "location": "Lahore",
+                "job_title": "Project Coordinator/QA Analyst Lead",
+                "start_date": "11-2014",
+                "company_name": "Stewart Pakistan Pvt Ltd"
+            },
+            {
+                "details": "Managing QA team of about 10-15 resources, Managing multiple projects and timelines, Tasks allocation to team and coordination, Attending daily Management scrum, Review of Project Plan, Test plan and test sessions, Review of testing performed by resources, Managing and monitoring Jira for tasks and Bugs updates, Daily status reports to management.",
+                "end_date": "11-2014",
+                "location": "Lahore",
+                "job_title": "Manager Quality Assurance",
+                "start_date": "11-2013",
+                "company_name": "Zin Technologies (Wyless UK)"
+            },
+            {
+                "details": "Testing and QA of iOS platform Games, Testing and QA of Android based Games, Bug reporting and maintenance on Unfuddle, Review test planning, Communicate the issues to the development team, Utilize automated testing tools if required, Plan, develop and execute system and regression level testing, Test Cases assignments to team on Test Link Tool.",
+                "end_date": "11-2013",
+                "location": "Lahore",
+                "job_title": "Senior QA Engineer/Team Lead",
+                "start_date": "12-2010",
+                "company_name": "Game View Studios Pvt Ltd"
+            },
+            {
+                "details": "Testing in the field of Health Care Applications for Ireland and South Africa, Writing Test Cases, Prepare Test Plan, Prepare Traceability Matrix, Reporting Bugs in TFS, Getting Domain understanding of Requirements, Prepare Bug Reports.",
+                "end_date": "11-2010",
+                "location": "Lahore",
+                "job_title": "SQA Engineer",
+                "start_date": "06-2008",
+                "company_name": "F3 Technologies Pvt Ltd"
+            },
+            {
+                "details": "Create and maintain test plans, Testing of EMR (Electronic Medical Records), Testing of MTBC MIS (Management Information System), Performance testing, Plan, develop and execute system and regression level testing.",
+                "end_date": "06-2008",
+                "location": "Islamabad",
+                "job_title": "SQA Engineer",
+                "start_date": "04-2007",
+                "company_name": "MTBC (Now CareCloud) Pvt Ltd"
+            }
+        ]
+    }
+}

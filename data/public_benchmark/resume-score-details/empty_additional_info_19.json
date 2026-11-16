@@ -1,0 +1,138 @@
+{
+    "output": {
+        "justification": [
+            "Experience does not directly align with international business development but has sales and management experience.",
+            "Strong sales performance is evident from awards but lacks international exposure.",
+            "Holds a Master's degree in a relevant field, which satisfies educational requirement.",
+            "No mention of language skills or direct involvement in international market strategies."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "international business experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "client acquisition",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven experience in market entry and compliance with international standards",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in international business development",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business, Marketing, or relevant field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 4.0
+            }
+        },
+        "personal_info": {
+            "name": "H A S H A A M J A M A L",
+            "email": "hashaam.butt24@gmail.com",
+            "phone": "+92 302 5464456",
+            "current_position": "Area Sales Manager",
+            "current_company": "Healthwire PVT LTD",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "04-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Job Title: International Business Development Manager\n\n#### Company: InnovateTech Solutions\n\n**Location:** Lahore, Pakistan  \n\n**About InnovateTech Solutions:**  \nInnovateTech Solutions is a leading global provider of innovative technology solutions, specializing in expanding business operations across diverse international markets. We are seeking a highly motivated and experienced International Business Development Manager to join our team and lead strategic market entry initiatives.\n\n#### Responsibilities:\n\n- Develop and implement comprehensive strategies for foreign market entry, expansion, and product launches in new territories.\n- Lead international trade missions to research, analyze, and secure new business opportunities in the EU and US markets.\n- Build and maintain strong relationships with clients and key stakeholders by employing effective negotiation and communication skills.\n- Collaborate with cross-functional teams to design market entry strategies and oversee implementation of marketing and sales plans.\n- Manage a team of business development officers, providing guidance and support to achieve departmental objectives.\n- Coordinate and attend international exhibitions and trade shows to promote company products and secure new contracts.\n- Analyze market trends and competitive landscapes to identify business opportunities and recommend strategic changes.\n- Ensure compliance with international market regulations and standards in collaboration with regulatory consultants.\n\n#### Qualifications:\n\n- Bachelor's degree in Business, Marketing, or a relevant field; a Master's degree is a plus.\n- Minimum of 5 years of experience in international business development or related roles.\n- Proven track record of strategic planning and securing high-value contracts with international clients.\n- Strong analytical and problem-solving skills with a keen attention to detail.\n- Excellent communication and interpersonal skills, with proficiency in multiple languages being an advantage.\n\n#### Why Join Us?\n\n- Fast-paced and dynamic work environment with opportunities for career growth.\n- Chance to lead strategic initiatives and make a significant impact on international expansion efforts.\n- Competitive salary package and benefits.\n\nIf you are passionate about driving international business growth and have the skills to succeed, we would like to meet you!\n\n**To Apply:** Please submit your resume and cover letter detailing your relevant experience and achievements.",
+        "macro_dict": {
+            "international business experience": 100
+        },
+        "micro_dict": {
+            "client acquisition": 100
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Proven experience in market entry and compliance with international standards",
+            "5+ years of experience in international business development",
+            "Bachelor's degree in Business, Marketing, or relevant field"
+        ],
+        "resume": "H A S H A A M  J A M A L\nArea Sales Manager\nHealthwire PVT LTD, Lahore, Pakistan\nSep 2021 - Present\nArea Sales Manager\nHealthwire PVT LTD, Karachi, Pakistan\nJan 2021 - Aug 2021\nArea Sales Executive\nHealthwire PVT LTD, Gujranwala, Pakistan\nJan 2020 - Jan 2021\nTerritory Sales Manager\nOliver Skin Science, , Gujranwala, Pakistan\nMay 2019 - Dec 2020\nMerchandiser Officer\nZong Regional Office - Telecom, Gujranwala, Pakistan\nApr 2017 - Apr 2018EXPERIENCEI am a professional salesperson who always strive to be the\nbest that i can be. I have a long and good track record and very\nsuccessful in my field. A goal orientated person with strong\nfocus on team work, development of people and results. My\nmain objectives are; develop my knowledge of the market and\nmy skills, continue learning as a person and as a manager and\nto become more than satisfied in what i do.PROFESSIONAL SUMMARY\n86-C, HIGH COURT SOCIETY\nPHASE 2, COLLEGE ROAD,\nLAHORE.\n+92 302 5464456\nhashaam.butt24@gmail.comMasters in Business Administration (Sales And Marketing)\nSuperior University Lahore\n2015 - 2019EDUCATION\n Top Performance Sales Team Lead 2021, 1.\n       (Healthwire PVT LTD)\n   2. Best Sales Person 2020\n       (Healthwire PVT LTD)ACCOMPLISHMENTS"
+    },
+    "details": {
+        "name": "Hashaam Jamal",
+        "number": "923025464456",
+        "skills": [
+            "Sales Management",
+            "Market Development",
+            "Team Leadership"
+        ],
+        "email_id": "hashaam.butt24@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Superior University Lahore",
+                "degree_title": "Masters in Business Administration (Sales And Marketing)"
+            }
+        ],
+        "achievements": [
+            "Top Performance Sales Team Lead 2021 (Healthwire PVT LTD)",
+            "Best Sales Person 2020 (Healthwire PVT LTD)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Hashaam Jamal is a dedicated sales professional with a strong track record in sales management and market development. He has demonstrated exceptional leadership skills and a commitment to achieving results in his roles at Healthwire PVT LTD and Oliver Skin Science.",
+        "employment_history": [
+            {
+                "details": "Area Sales Manager responsible for overseeing sales operations and team performance.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "09-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Managed sales activities and contributed to team success in Karachi region.",
+                "end_date": "08-2021",
+                "location": "Karachi, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "01-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Executed sales strategies and maintained client relationships in Gujranwala.",
+                "end_date": "01-2021",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Area Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Oversaw territory sales and developed market strategies for Oliver Skin Science.",
+                "end_date": "12-2020",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Territory Sales Manager",
+                "start_date": "05-2019",
+                "company_name": "Oliver Skin Science"
+            },
+            {
+                "details": "Managed merchandising and promotional activities for Zong Telecom.",
+                "end_date": "04-2018",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Merchandiser Officer",
+                "start_date": "04-2017",
+                "company_name": "Zong Regional Office - Telecom"
+            }
+        ]
+    }
+}

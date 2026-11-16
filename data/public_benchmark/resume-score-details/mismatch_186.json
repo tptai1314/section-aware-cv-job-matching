@@ -1,0 +1,212 @@
+{
+    "output": {
+        "justification": [
+            "The role requires extensive business development experience, but the candidate is primarily focused on machine learning and AI development, which does not align well with the job requirements.",
+            "The candidate has no demonstrated experience in market research, SEO, or proficiency in business analytics which are required by the job description.",
+            "Skills such as data analysis and machine learning mentioned in the resume are irrelevant to the business development role being applied for.",
+            "Zahid Ahmad's degree is not in Business Administration or a related field as required, and is not from a top-tier university preferred by the company."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.0,
+                "micro_scores": 3.2800000000000002
+            }
+        },
+        "personal_info": {
+            "name": "Zahid Ahmad",
+            "email": "zahiamad7787@gmail.com",
+            "phone": "(+92) 3185362004",
+            "current_position": "Machine Learning Engineer",
+            "current_company": "Kins247 Islamabad",
+            "employment_start_date_current_company": "03-2024",
+            "first_company_start_date": "01-2023",
+            "urls": [
+                {
+                    "website_name": "linkedin",
+                    "url": "zahid-ahmad-886457215"
+                },
+                {
+                    "website_name": "github",
+                    "url": "zahid-ahmad"
+                }
+            ]
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 100
+        },
+        "micro_dict": {
+            "market research": 6,
+            "seo": 18,
+            "data analysis": 76
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in business analytics and digital strategy",
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": " \n ZAHID AHMAD  \nMACHINE LEARNING ENG INEER  \n             Mail:     zahiamad7787@gmail.com  \n          Phone Number: (+92) 3185362004  \n  Date of Birth: January 1, 2002  \n                       Links:    LinkedIn: zahid -ahmad -886457215     GitHub: zahid -ahmad \n \nEDUCATION  \nBachelors of Science in Artificial Intelligence  (3.60)  \nIslamia University of Bahawalpur , Pakistan  \nJanuary, 2020 \u2013 January, 2024  \nWORK EXPERIENCE  \nMachine Learning Engineer | Kins247 Islamabad  \nMarch 2024 \u2013 Present  \n\u2022 Developed APIs for LLM integration.  \n\u2022 Engineered prompts to optimize model responses.  \n\u2022 Fine-tuned LLMs for specific applications.  \n\u2022 Implemented model quantization to enhance performance.  \n\u2022 Created and deployed cha tbots using LLMs and Bert.  \n\u2022 Applied Retrieval -Augmented Generation (RAG) for improved text generation.  \nMachine Learning Engineer Freelancer | Fiverr  Platform  \nJanuary 1, 2023 \u2013 March, 2024  ( 1 year )  \n \nPPORTFOLIO  \n\uf0b7 Journal Paper \u201cDeep Learning for Uniform Detection A CNN -based Approach\u201c(Submitted in \nSN Applied Sciences Journal - IF 2.6) Tanzeel Abbas, Zahid Ahmad . \n2. PROJECTS  1. JOURNAL  \nAI based Smart Yoga Trainer (Final Year Project)  \n\uf0b7 The system utilizes a webcam to take input, compares the user's yoga pose with a pre -existing \ntarget image in the system by pose estimation using machine learning, and provides real -time \nfeedback, scores, and personalized instructions for an optimized yoga  experience.  \nFake News Detection Using NLP  (Presented at AI Expo 2023)  \n\uf0b7 Cleaned and pre -processed the data, and built a machine -learning model for fake news \ndetection. The model achieved an accuracy of 99% and a precision of 94% in classifying fake \nnews.  \n    Cotton disease Detection and Prevention Using CNN. (Expo Winner 2022)  \n\uf0b7 Detects diseases and types of cotton disease and suggest steps and medicine prescriptions \nto get cure.  \n\uf0b7 Used Flask for GUI.  \n   Student Uniform Detection Using CNN   \n\uf0b7 A project utilizing Convolutional Neural Networks and facial recognition algorithms enhanced multi -task learning, image processing, and deep learning model integration, specifically \ntargeting improved student uniform and facial recognition. The practical a pplications extend \nto enhanced school security and precise attendance monitoring.  \nMore projects on my GitHub  \n \n \nPROFILE SUMMARY  \n \n\uf0b7 Libraries, such as NumPy, SciPy, sikit -learn, and Pandas for numerical computation and data \nanalysis.  \n\uf0b7 Proficient in Machine Learning and Deep Learning Skills for multiple applications including \nComputer Vision, Predictive Modeling, and NLP.  \n\uf0b7 Strong coding ability in producing clean and efficient code.  \n\uf0b7 Highly skilled in TensorF low, Keras, Pytorch, NumPy, Pandas, Sci -kit Learn, SciPy,  \nNltk, Matplotlib, seaborn.  \n \nSKILLS AND ACHIEVEMENTS  \nLanguages  \n\uf0b7 Python, C++  \n\uf0b7 Libraries/Frameworks:  OpenCV, Tensorflow/Keras  NLTK, Flask, GitHub, Matplotlib, Langchain, \nPandas, NumPy , face_recognition , HuggingFace, Streamlit, Scikit Learn, Seaborn, AWS \nSagemaker  , Azure . \nMachine Learning and Deep Learning Skills  \n\uf0b7 Computer Vision (CV)  \n\uf0b7 Natural Language Processing (NLP)  \n\uf0b7 Predictive Modeling  \nGeneral Software Skills  \n\uf0b7 Git a nd GitHub, MS Excel , Jupyter  Notebook, Google Colab , Visual Studio  Code , Linux servers.  \nAchievements  \n\uf0b7 RUNNER UP of Artificia l Intelligence Expo 2022 at The Islamia University of Bahawalpur, \nPakistan.  \n\uf0b7 Awarded with  laptop for good academic performance by Government of Pakistan.  \n\uf0b7 Awarded with merit scholarship by Islamia University of Bahawalpur.  \n \nCOURSES  \nCrash Course on Python, Coursera  \nSeptember 2021 \u2013 December 2021  ( 03 Months )  \nDeep Learning Essentials with Keras, Coursera  \nDecember 2022 \u2013 February 2023  ( 03 Months )  \nIBM AI Engineering professional certificate, Coursera  \nJanuary 2023 \u2013 July 2023  ( 06 months )  \nAdvanced Computer Vision and Deep Learning Certificate, Coursera  \nData Science and Business Intelligence, NAVTTC Pakistan  \nJune 2023 - September 2023  ( 03 Months )  \n \n "
+    },
+    "details": {
+        "name": "Zahid Ahmad",
+        "number": "03185362004",
+        "skills": [
+            "Python",
+            "C++",
+            "OpenCV",
+            "Tensorflow",
+            "Keras",
+            "NLTK",
+            "Flask",
+            "GitHub",
+            "Matplotlib",
+            "Langchain",
+            "Pandas",
+            "NumPy",
+            "face_recognition",
+            "HuggingFace",
+            "Streamlit",
+            "Scikit Learn",
+            "Seaborn",
+            "AWS Sagemaker",
+            "Azure"
+        ],
+        "email_id": "zahiamad7787@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [
+            {
+                "title": "AI based Smart Yoga Trainer",
+                "description": "Utilizes a webcam to provide real-time feedback on yoga poses."
+            },
+            {
+                "title": "Fake News Detection Using NLP",
+                "description": "Built a machine-learning model for fake news detection with 99% accuracy."
+            },
+            {
+                "title": "Cotton disease Detection and Prevention Using CNN",
+                "description": "Detects cotton diseases and suggests remedies."
+            },
+            {
+                "title": "Student Uniform Detection Using CNN",
+                "description": "Enhances school security and attendance monitoring."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "01-2024",
+                "university": "Islamia University of Bahawalpur",
+                "degree_title": "Bachelors of Science in Artificial Intelligence"
+            }
+        ],
+        "achievements": [
+            "RUNNER UP of Artificial Intelligence Expo 2022 at The Islamia University of Bahawalpur, Pakistan.",
+            "Awarded with laptop for good academic performance by Government of Pakistan.",
+            "Awarded with merit scholarship by Islamia University of Bahawalpur."
+        ],
+        "publications": [
+            {
+                "title": "Deep Learning for Uniform Detection A CNN-based Approach",
+                "publication_venue": "SN Applied Sciences Journal - IF 2.6"
+            }
+        ],
+        "certifications": [
+            {
+                "certification_name": "Crash Course on Python",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "12-2021"
+            },
+            {
+                "certification_name": "Deep Learning Essentials with Keras",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "02-2023"
+            },
+            {
+                "certification_name": "IBM AI Engineering professional certificate",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Advanced Computer Vision and Deep Learning Certificate",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "09-2023"
+            },
+            {
+                "certification_name": "Data Science and Business Intelligence",
+                "issuing_organization": "NAVTTC Pakistan",
+                "date_of_issuance": "09-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "zahid-ahmad-886457215",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "zahid-ahmad",
+                "website_name": "GitHub"
+            }
+        ],
+        "executive_summary": "Zahid Ahmad is a skilled Machine Learning Engineer with a strong background in artificial intelligence and extensive experience in developing machine learning models and applications. He has demonstrated proficiency in various programming languages and frameworks, contributing to innovative projects in computer vision and natural language processing.",
+        "employment_history": [
+            {
+                "details": "Developed APIs for LLM integration, engineered prompts, fine-tuned LLMs, implemented model quantization, created and deployed chatbots, and applied Retrieval-Augmented Generation for improved text generation.",
+                "end_date": "Present",
+                "location": "Islamabad",
+                "job_title": "Machine Learning Engineer",
+                "start_date": "03-2024",
+                "company_name": "Kins247"
+            },
+            {
+                "details": "Worked as a freelancer on machine learning projects, focusing on various applications and client needs.",
+                "end_date": "03-2024",
+                "location": "Remote",
+                "job_title": "Machine Learning Engineer Freelancer",
+                "start_date": "01-2023",
+                "company_name": "Fiverr Platform"
+            }
+        ]
+    }
+}

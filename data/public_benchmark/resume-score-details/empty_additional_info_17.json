@@ -1,0 +1,125 @@
+{
+    "output": {
+        "justification": [
+            "Strong leadership evidenced by leading multiple engineering teams and conducting training programs.",
+            "Relevant experience in power system analysis aligns with job requirements of 8-10 years.",
+            "Advanced technological expertise applicable to power system analysis.",
+            "Advanced knowledge of automation tools implied but not explicitly mentioned.",
+            "Resume meets all specified educational and experience requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "python",
+                    "score": 5
+                },
+                {
+                    "criteria": "automation tools",
+                    "score": 7
+                },
+                {
+                    "criteria": "vba",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Electrical Engineering",
+                    "meets": true
+                },
+                {
+                    "criteria": "Advanced knowledge of automation tools and data visualization platforms",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in power system analysis",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong project management skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.08,
+                "micro_scores": 6.02
+            }
+        },
+        "personal_info": {
+            "name": "Lead Engineer",
+            "email": "",
+            "phone": "",
+            "current_position": "",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Lead Engineer at TechInnovate Solutions\n\n**Join our innovative team at TechInnovate Solutions as a Lead Engineer, where you'll oversee and drive multiple engineering teams to deliver cutting-edge solutions in the field of Electrical & Electronics Engineering.**\n\n#### Key Responsibilities:\n- Lead the system studies team and coordinate with the design team to ensure high-quality project deliverables.\n- Provide technical support and guidance to project teams for optimal performance.\n- Oversee engineering projects from conception to completion, ensuring alignment with client expectations and timelines.\n- Conduct comprehensive training programs to enhance the technical skills of team members.\n- Utilize advanced knowledge of software and technologies to conduct power system analysis.\n- Collaborate closely with cross-functional teams to achieve project objectives and deliver exceptional results.\n\n#### Qualifications:\n- Bachelor's or Master's degree in Electrical Engineering. A PhD is preferred.\n- 8 to 10 years of relevant experience in power system analysis and project management.\n- Proven track record in leading engineering teams and projects effectively.\n\n#### Location:\n- Remote work available with occasional travel to company offices in the US, UAE, and other global locations.\n- Relocation assistance available for qualified candidates.",
+        "macro_dict": {
+            "leadership": 8,
+            "experience": 52,
+            "technical expertise": 40
+        },
+        "micro_dict": {
+            "python": 47,
+            "automation tools": 51,
+            "vba": 2
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Bachelor's degree in Electrical Engineering",
+            "Advanced knowledge of automation tools and data visualization platforms",
+            "Proficiency in power system analysis",
+            "Strong project management skills"
+        ],
+        "resume": "Lead Engineer  \n\uf0b7 Experience Required:  8 to 10 years of relevant experience.  \n\uf0b7 Basic Salary Range:  301,000 to 400,000.  \n\uf0b7 Key Responsibilities:  \no Lead the system studies team and coordinate with the design team.  \no Assist with design verification an d sign -off reporting.  \no Provide technical support and guidance to project teams.  \no Oversee multiple engineering teams and projects.  \no Conduct training programs to enhance the technical skills of the team.  \n\uf0b7 Key Skills:  \no In-depth knowledge of power system analysis.  \no Advanced knowledge of relevant software and technologies.  \no Strong leadership and project management skills.  \n\uf0b7 Eligibility:  Bachelor's or Master's degree in electrical engineering. A PhD in electrical \nengineering is preferred.  \n "
+    },
+    "details": {
+        "name": "Lead Engineer",
+        "number": "",
+        "skills": [
+            "Power System Analysis",
+            "Relevant Software and Technologies",
+            "Project Management"
+        ],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "MM-YYYY",
+                "university": "",
+                "degree_title": "Bachelor's or Master's degree in Electrical Engineering"
+            },
+            {
+                "end_date": "MM-YYYY",
+                "university": "",
+                "degree_title": "PhD in Electrical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "The Lead Engineer is a highly experienced professional with 8 to 10 years of relevant experience in power system analysis and project management. They possess advanced knowledge of relevant software and technologies, demonstrating strong leadership capabilities.",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,152 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 3 years of experience, which does not meet the 5+ years requirement for senior roles (2017 DEC - Present).",
+            "Skills in business development and generating new leads align partially with sales expectations but lack digital marketing or CRM-specific experience to meet job description demands.",
+            "Hard skills do not align directly with the specified tools like HubSpot and Salesforce needed for job.",
+            "Functional overlap exists in email marketing and content development, yet evidence suggests general business strategies instead of sophisticated marketing execution."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "sales experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "marketing expertise",
+                    "score": 3
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 2
+                },
+                {
+                    "criteria": "hubspot",
+                    "score": 1
+                },
+                {
+                    "criteria": "email marketing",
+                    "score": 4
+                },
+                {
+                    "criteria": "market research",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.1,
+                "micro_scores": 2.2199999999999998
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Talha",
+            "email": "ch.talha786786@gmail.com",
+            "phone": "+92348-8715969",
+            "current_position": "Senior Business Development Executive",
+            "current_company": "Tsoftek",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "12-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/ch-talha"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "sales experience": 39,
+            "marketing expertise": 28,
+            "analytical skills": 33
+        },
+        "micro_dict": {
+            "salesforce": 44,
+            "hubspot": 35,
+            "email marketing": 6,
+            "market research": 15
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "5+ years of experience in sales and marketing roles",
+            "Bachelor's degree in Business Administration, Marketing, or related field"
+        ],
+        "resume": "Muhammad Talha\n Business Development Executive\nAbout Me\nProfessional ExperienceTo build a career in a growing organization, where I can\nget the opportunities to prove my abilities by\naccepting challenges, fulfilling the organizational goal,\nand climbing the career ladder through continuous\nlearning and commitment. I'm committed to my\nlearning and work, both in a team and independently,\nand to help improve a company's growth through the\nnew ideas.\nHard Skill\nBusiness Development\nProposal Writing \nSales & Retails\nSolid understanding of the web\nand app development life cycle\nTesting\nProject coordination\nProject management tools (Trello, Jira,\nand Click-up).\nSoft Skill\nObservation\nDecision making\nCommunication\nSelf Motivation \nFast-Learner\nMulti-tasking\nTeamwork\nEducation Background\nUniversity of Sargodha (Sargodha) \n BSIT(Bachelor of Science in Computer\nScience)\nAttended from Sept. 2016 to June 2020\nSuperior College - Dipalpur \nICS (Intermediate in Computer\nScience.)\nAttended from Sept. 2014 to 2016My Contact\n ch.taIha786786@gmaiI.com\nGulburg III-Lahore+92348-8715969\nwww.linkedin.com/in/ch-talha\nTsoftek| Senior Business Development Executive\nBitsclan IT Solutions LLC| Business Development\nOfficer 2021  AUG\u2013 Present\n2020 Dec - 2021 JulyKey responsibilities:\nResponsible for generating sales and driving short- and\nlong-term revenue and profit growth through prospecting,\nacquisition, development, and\nexpansion of customer opportunities. Developing long-\nlasting customer relationships and gather referrals with\nboth new and current accounts.\nIdentifying new sales leads \nPitching products and/or services\nMaintaining fruitful relationships with existing customers \nContacting potential clients via email or phone to\nestablish rapport and set up meetings \nPlanning and overseeing new marketing initiatives \nAttending conferences, meetings, and industry\nevents.\nManaging Company Profiles (Upwork, Freelancer\nand Fiver).\nKey responsibilities:\nDeveloped and implemented different business strategies &\nsolutions based on client requirements\nEstablish good relationships with existing clients.\nStrong analytical skills with a passion for quality work\nGenerate Business to the company Via different Platforms\n(Online/Referrals).\nWork with different platforms like (Upwork, Fiverr, People Per Hour,\nLinkedin, and Freelancer)\nDevelop business proposals for new and existing clients. \nBidding, Content Writing, Email Marketing. "
+    },
+    "details": {
+        "name": "Muhammad Talha",
+        "number": "923488715969",
+        "skills": [
+            "Business Development",
+            "Proposal Writing",
+            "Sales & Retails",
+            "Web Development Life Cycle",
+            "Testing",
+            "Project Coordination",
+            "Trello",
+            "Jira",
+            "Click-up"
+        ],
+        "email_id": "ch.talha786786@gmail.com",
+        "location": "Gulburg III-Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "University of Sargodha",
+                "degree_title": "BSIT (Bachelor of Science in Computer Science)"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Superior College - Dipalpur",
+                "degree_title": "ICS (Intermediate in Computer Science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ch-talha",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Talha is a dedicated Business Development Executive with a strong background in generating sales and driving revenue growth. He possesses a solid understanding of the web and app development life cycle, along with proficiency in project management tools. Talha is committed to building long-lasting customer relationships and developing effective business strategies.",
+        "employment_history": [
+            {
+                "details": "Responsible for generating sales and driving short- and long-term revenue and profit growth through prospecting, acquisition, development, and expansion of customer opportunities. Developing long-lasting customer relationships and gather referrals with both new and current accounts. Identifying new sales leads, pitching products and/or services, maintaining fruitful relationships with existing customers, contacting potential clients via email or phone to establish rapport and set up meetings, planning and overseeing new marketing initiatives, attending conferences, meetings, and industry events, managing Company Profiles (Upwork, Freelancer and Fiverr).",
+                "end_date": "08-2023",
+                "location": "",
+                "job_title": "Senior Business Development Executive",
+                "start_date": "12-2021",
+                "company_name": "Tsoftek"
+            },
+            {
+                "details": "Developed and implemented different business strategies & solutions based on client requirements. Established good relationships with existing clients. Generated business to the company via different platforms (Online/Referrals). Worked with different platforms like Upwork, Fiverr, People Per Hour, LinkedIn, and Freelancer. Developed business proposals for new and existing clients. Bidding, Content Writing, Email Marketing.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "12-2020",
+                "company_name": "Bitsclan IT Solutions LLC"
+            }
+        ]
+    }
+}

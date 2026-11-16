@@ -1,0 +1,201 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not align well with the requirements of the Senior Project Manager position focusing on data management and analytics.",
+            "Syed Ali Sher Rizvi has experience in business development and marketing, which does not fit strongly with project management or technical expertise required for the role.",
+            "No direct leadership roles or project management in a relevant field like data management are evident in the resume.",
+            "No evidence of experience with the required software tools like PowerBI or methods such as Agile and SCRUM."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 2
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 3
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 2
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.98,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Syed Ali Sher Rizvi",
+            "email": "sahibzadaali66@gmail.com",
+            "phone": "03015062755",
+            "current_position": "Business Development Manager",
+            "current_company": "HappyTanent",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "08-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/syed-ali-shair-rizvi-7bb859171"
+                },
+                {
+                    "website_name": "Minora Cart Website",
+                    "url": "https://www.minoracart.com/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 17,
+            "project management experience": 64,
+            "technical expertise": 19
+        },
+        "micro_dict": {
+            "data management": 28,
+            "pre-sales consulting": 32,
+            "solution architecture": 8,
+            "agile methodologies": 32
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Experience in managing enterprise data warehouse projects",
+            "Strong understanding of Agile and SCRUM methodologies",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV"
+        ],
+        "resume": "Syed Ali Sher Rizvi \nBusiness Development Manager \nAn organized and creative professional with proven marketing skills and a desire to learn more. Possess\n4+ years of experience working for a diverse group of organizations and clients. Gained expertise in data\nanalysis, publication marketing, and web-based advertising. Looking to utilize my existing skill set to\nincrease company pro\ufb01tability at Spleen Manufacturing (Pvt) Ltd. \nsahibzadaali66@gmail.com \n03015062755 \nLahore, Pakistan \nlinkedin.com/in/syed-ali-shair-rizvi-7bb859171 \nWORK EXPERIENCE \nBusiness Development Manager \nHappyTanent \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nHappyTenant is UAE base company, I'm working here (remotely) to develop their\nbusiness in Pakistan, USA, and UAE as well. \nSetting goals and developing plans for business and revenue\ngrowth. \nPlanning and overseeing new marketing initiatives. \nIncreasing the value of current customers while attracting new\nones. \nAttending conferences, meetings, and industry events. \nSocial Media Coordinator \nMinora Cart \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nhttps://www.minoracart.com/ \nAnalyzed and reported social media presence, engagement, and\ne\ufb00ectiveness on all platforms \nEngaged in consistent interactions with clients, donors, and fans \nDoubled website tra\ufb03c from 15,000 average visitors to 31,000 \nAsst. Manager Marketing \nSpleen Manufacturing (Pvt) Ltd 08/2018 - Present, \n10/2018 - 02/2022\n, \n \nLahore, Pakistan \nProviding Engineering Solutions For All Kind Of Light & Heavy Fabrications \nSuccessfully spearhead campaigns on social media platforms\nincluding Facebook, Twitter, and Instagram \nContact \n:\n-\nRana Shahbaz Ahmed (Head BD & marketing) \n0300 8463927 \nEDUCATION \nMSC Marketing \nNational Collage of Business Administration &\nEconomics \n2020 - Present\n, \n \nLahore. Pakistan \nGlobal Outsourcing \nContract Management \nEntrepreneurship \nFinical Management \nBachelor in Commerce \nUniversity Of Punjab \n12/2016 - 05/2018\n, \n \nLahore Pakistan \nSKILLS \nMS O\ufb03ce \nZoho CRM \nMailChimp \nNegotiation \nAbility to engage \nExcellent verbal and written communication \nAbility to persuade \nEmail Marketing \nLead Generation \nSales Navigator \nSignalHire \nApollo.io \nBu\ufb00er \nDigital advertising \nACHIEVEMENTS \nDigital Marketing Course From PNY Institute\n (09/2021)\n \nSocial Media Marketing, Google Ad words, SMM, Mobile\nMarketing \nHuawei Managment\n (2018 - Present)\n \nFull handling Huawei portal \nfully coordinate with their team for\nrecent contracts and future negotiation in cotracts \nERP (SARP) \nFull handle ERP Software and have enough awareness that can\nhandle each department through it. \nAchiever of the Year (Spleen Manufacturing)\n (2019 - 2020)\n \nCOMPANY PROJECTS \nMinora cart\n (06/2022 - Present)\n \nSocial Media Advertisement \nProject Name \nDelux - Pest Control Services\n (12/2022 - Present)\n \nSocial Media Marketing (LOW CPC - High Conversions) \n220 kV Dhabji Transmission Line Projects\n (09/2021 - 11/2021)\n \nHuawei Projects (CMPAK, JAZZ, Ufone Telenor)\n (02/2021 - Present)\n \nCERTIFICATES \nDigital Marketing\n (2021 - Present)\n \nYoutube Marketing\n (2021 - Present)\n \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Syed Ali Sher Rizvi",
+        "number": "03015062755",
+        "skills": [
+            "MS Office",
+            "Zoho CRM",
+            "MailChimp",
+            "Email Marketing",
+            "Lead Generation",
+            "Sales Navigator",
+            "SignalHire",
+            "Apollo.io",
+            "Buffer",
+            "Digital advertising"
+        ],
+        "email_id": "sahibzadaali66@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Minora cart",
+                "description": "Social Media Advertisement"
+            },
+            {
+                "title": "Delux - Pest Control Services",
+                "description": "Social Media Marketing (LOW CPC - High Conversions)"
+            },
+            {
+                "title": "220 kV Dhabji Transmission Line Projects",
+                "description": ""
+            },
+            {
+                "title": "Huawei Projects (CMPAK, JAZZ, Ufone Telenor)",
+                "description": ""
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2018",
+                "university": "University Of Punjab",
+                "degree_title": "Bachelor in Commerce"
+            },
+            {
+                "end_date": "Present",
+                "university": "National Collage of Business Administration & Economics",
+                "degree_title": "MSC Marketing"
+            }
+        ],
+        "achievements": [
+            "Digital Marketing Course From PNY Institute (09-2021)",
+            "Achiever of the Year (Spleen Manufacturing) (2019 - 2020)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            },
+            {
+                "certification_name": "Youtube Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Syed Ali Sher Rizvi is a Business Development Manager with over 4 years of experience in marketing and business growth strategies. He has a strong background in data analysis, publication marketing, and web-based advertising, and is currently focused on enhancing profitability for Spleen Manufacturing (Pvt) Ltd.",
+        "employment_history": [
+            {
+                "details": "Developing business in Pakistan, USA, and UAE, setting goals and developing plans for business and revenue growth.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2022",
+                "company_name": "HappyTanent"
+            },
+            {
+                "details": "Analyzed and reported social media presence, engagement, and effectiveness on all platforms, doubled website traffic.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Social Media Coordinator",
+                "start_date": "01-2022",
+                "company_name": "Minora Cart"
+            },
+            {
+                "details": "Successfully spearheaded campaigns on social media platforms including Facebook, Twitter, and Instagram.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Asst. Manager Marketing",
+                "start_date": "10-2018",
+                "company_name": "Spleen Manufacturing (Pvt) Ltd"
+            }
+        ]
+    }
+}

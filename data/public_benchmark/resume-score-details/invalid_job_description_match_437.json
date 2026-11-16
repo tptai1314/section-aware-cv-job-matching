@@ -1,0 +1,45 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "  SAAD BIN HASSAN  \nHometown: Lahore  \nCell: 923133162249  | saadbinhassan000@gmail.com  \nDate of Birth: 0 7/04/1998  \nLinkedin Profile: https://www.linkedin.com/in/saad -bin-hassan -096118183/  \nEDUCATION & QUALIFICATIONS  \nMasters of Business Administration  May 2022 \nLahore School of Economics  \nBachelors in Business Administration  (Honors)   June  2021  \nMajor (Marketing) Minor (Media Studies)  \nLahore School of Economics           \nPROFESSIONAL EXPERIENCE         \nProntoDigital, LLC                                                                                               June  2021 \u2013 February 2022  \nBusiness Development Executive  \n\uf0b7 Responsible for finding and retaining new clients, Handling Upwork profiles.  \n\uf0b7 Maintained relationships with clients by providing them information and guidance.  \n\uf0b7 Generated weekly sales reports and provided useful insights.  \nProntoDigital, LLC                                                                        March  2022 \u2013 May 2022  \nJunior Project Associate  \n\uf0b7 Managed and build a Data Analytics team.  \n\uf0b7 Managed to achieve the target of $20,000 in 3 months.  \nBank of Punjab                       June-August  2018 \nOperations Intern, Operations  \n\uf0b7 Responsible to deal with branch daily operations and Opening of new accounts.  \nDetechgear  \nMarketing Executive                                                                                                                                                     July- Dec 2020  \n\uf0b7 Managed all Digital Marketing  of the business.  \n\uf0b7 Achieved sales of 500,000 in 5 months.  \nPROJECTS  \nStrategic Management : Strategic decision making and analyzing a company\u2019s performance by looking at different factors. \nUsing tools like IFE, EFE, CPM, QSPM , etc.  \nAdvertising:  Product adaption of Clear Shampoo according to Pakistani Market. Devised the entire advertising plan \nincorporating all the strategies and storyboard . \nSales Force Management : Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce  \nchannel.  \nMarketing Research: Conducted qualitative and quantita tive research on Nokia Pakistan.  \nADDITIONAL EXPERIENCE  \nTeacher Assistant , Lahore School of Economics                                                                                                2021 \u2013 2022 \nMarketing Intern , Signature Lifestyle.  \n\uf0b7 Managed all Digital Marketing campaigns and marketing strategies.              March -July 2022   \nHONORS & AWARDS  \n\uf0b7 Winner of LSE Business Fiesta 2021  \n\uf0b7 25% Scholarship in Lahore  School of Economics  \nSKILLS & INTERESTS  \n\uf0b7 Competent user of M icrosoft Office , Vegas Pro, SPSS, Smar t PLS , Shopify, and Ecommerce \nManagement.  \n\uf0b7     Digital Marketing, Upwork , Click Up, Slack, FB Ads, Google AdWords , Google Analytics, Canva.  \n       \uf0b7     Strategic Planning, Leadership, Comfortable in Team work.  \n",
+        "macro_dict": {
+            "project management experience": 43,
+            "client relationship management": 57
+        },
+        "micro_dict": {
+            "data management": 33,
+            "quality management systems": 23,
+            "powerbi": 44
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Master's degree in Computer Science, Business Administration, or related field"
+        ],
+        "resume": "  SAAD BIN HASSAN  \nHometown: Lahore  \nCell: 923133162249  | saadbinhassan000@gmail.com  \nDate of Birth: 0 7/04/1998  \nLinkedin Profile: https://www.linkedin.com/in/saad -bin-hassan -096118183/  \nEDUCATION & QUALIFICATIONS  \nMasters of Business Administration  May 2022 \nLahore School of Economics  \nBachelors in Business Administration  (Honors)   June  2021  \nMajor (Marketing) Minor (Media Studies)  \nLahore School of Economics           \nPROFESSIONAL EXPERIENCE         \nProntoDigital, LLC                                                                                               June  2021 \u2013 February 2022  \nBusiness Development Executive  \n\uf0b7 Responsible for finding and retaining new clients, Handling Upwork profiles.  \n\uf0b7 Maintained relationships with clients by providing them information and guidance.  \n\uf0b7 Generated weekly sales reports and provided useful insights.  \nProntoDigital, LLC                                                                        March  2022 \u2013 May 2022  \nJunior Project Associate  \n\uf0b7 Managed and build a Data Analytics team.  \n\uf0b7 Managed to achieve the target of $20,000 in 3 months.  \nBank of Punjab                       June-August  2018 \nOperations Intern, Operations  \n\uf0b7 Responsible to deal with branch daily operations and Opening of new accounts.  \nDetechgear  \nMarketing Executive                                                                                                                                                     July- Dec 2020  \n\uf0b7 Managed all Digital Marketing  of the business.  \n\uf0b7 Achieved sales of 500,000 in 5 months.  \nPROJECTS  \nStrategic Management : Strategic decision making and analyzing a company\u2019s performance by looking at different factors. \nUsing tools like IFE, EFE, CPM, QSPM , etc.  \nAdvertising:  Product adaption of Clear Shampoo according to Pakistani Market. Devised the entire advertising plan \nincorporating all the strategies and storyboard . \nSales Force Management : Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce  \nchannel.  \nMarketing Research: Conducted qualitative and quantita tive research on Nokia Pakistan.  \nADDITIONAL EXPERIENCE  \nTeacher Assistant , Lahore School of Economics                                                                                                2021 \u2013 2022 \nMarketing Intern , Signature Lifestyle.  \n\uf0b7 Managed all Digital Marketing campaigns and marketing strategies.              March -July 2022   \nHONORS & AWARDS  \n\uf0b7 Winner of LSE Business Fiesta 2021  \n\uf0b7 25% Scholarship in Lahore  School of Economics  \nSKILLS & INTERESTS  \n\uf0b7 Competent user of M icrosoft Office , Vegas Pro, SPSS, Smar t PLS , Shopify, and Ecommerce \nManagement.  \n\uf0b7     Digital Marketing, Upwork , Click Up, Slack, FB Ads, Google AdWords , Google Analytics, Canva.  \n       \uf0b7     Strategic Planning, Leadership, Comfortable in Team work.  \n"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

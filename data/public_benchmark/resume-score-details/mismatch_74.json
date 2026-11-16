@@ -1,0 +1,149 @@
+{
+    "output": {
+        "justification": [
+            "The resume aligns poorly with the job description for a Digital Marketing Strategist as it primarily highlights experience in AI and data analysis rather than digital marketing.",
+            "Leadership skills are inferred from experience as a Team Lead and ambassador roles, though specifics in digital marketing contexts are missing, leading to an average score.",
+            "No explicit client relationship management experience is noted, which is crucial for the role, leading to a low score.",
+            "Skills like Python and AI are present but irrelevant to the digital marketing focus required by the job description. Google Analytics is not mentioned."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 5
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "google analytics",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.83,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Mehwish Alam",
+            "email": "mehwishalamlp@gmail.com",
+            "phone": "+92 340 7701848",
+            "current_position": "AI Engineer",
+            "current_company": "Ayass Bioscience Inc.",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "@themehwishalam"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 61,
+            "client relationship": 39
+        },
+        "micro_dict": {
+            "google analytics": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Conducted data analysis using python libraries and visualization tools.\nDeveloped predictive models to derive business insights and address specific objectives.\nCleaned, preprocessed raw data to ensure quality and suitability for analysis.MEHWISH ALAM\nCGPA : 3.9\nSilver MedalistJ a n  2 0 2 2  -  J u l  2 0 2 4\nM a r  2 0 2 1  -  J a n  2 0 2 2SUMMARY\nSeeking a position as an AI Engineer to leverage my skills in machine learning, NLP, and data\nanalysis. Eager to contribute to innovative projects in a collaborative environment and drive\ntechnological advancements.\nWORK EXPERIENCE\nEDUCATION\nB a c h l e o r  o f  C o m p u t e r  S c i e n c e\nNED University of Engineering and TechnologyCleaned and preprocessed pickle file to extract pathways and genes.\nDeveloped and implemented OpenAI API to collect data for LLM training. \nGenerate summary from pickle file using OpenAI API and combining\nexternal resources for description of pathways and genes.A I  E n g i n e e r ,  A y a s s  B i o s c i e n c e  I n c . ( U S  R e m o t e )\nPROJECTS\nM e d i c a r e : An app that allows users to maintain their medical records, allow them to use their\ncamera to add new medicine name and dosage.\nEdHelp : Edhelp allow its users to summarize their videos as well as text through link or upload\noptions.\nM e c o l r : A platform that offers a end to end solution for learner, experts and contributor to help\neach other and enhance their career fields.\nN o t a r k : A note taking platform that offers integration of multiple tools like reminder, to-do-list and\nadding teams.M L  E n g i n e e r ,  D a t a a i\nCleaned, preprocessed raw data for quality and maintain consistency.\nTrained Machine Learning Models on the cleaned data.\nCreate PowerBI Dashboard for data analysis.\nD a t a  A n a l y t i c s ,  K P M G  V i r t u a l  I n t e r n s h i p J a n  2 0 2 1  \nADDITIONAL INFORMATION\nConducted AI & DS Workshop\nWin Data Science Competition \nVolunteer in ICONICS Teach in Standford Code in Place\nWorked as Alpha Microsoft Ambassador \nWork as Team Lead in OmedenaG r a d e  :  A +I n t e r m e d i a t e\nBAMM P.E.C.H.S College for Women\nSKILLS\nPython & Scikit Learn Keras and Tensor Flow+92 340 7701848         mehwishalamlp@gmail.com       @themehwishalam   "
+    },
+    "details": {
+        "name": "Mehwish Alam",
+        "number": "923407701848",
+        "skills": [
+            "Python",
+            "Scikit Learn",
+            "Keras",
+            "Tensor Flow"
+        ],
+        "email_id": "mehwishalamlp@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "Medicare",
+                "description": "An app that allows users to maintain their medical records."
+            },
+            {
+                "title": "EdHelp",
+                "description": "Allows users to summarize their videos as well as text through link or upload options."
+            },
+            {
+                "title": "Mecolr",
+                "description": "A platform that offers an end-to-end solution for learners, experts, and contributors."
+            },
+            {
+                "title": "Notark",
+                "description": "A note-taking platform that offers integration of multiple tools."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2024",
+                "university": "NED University of Engineering and Technology",
+                "degree_title": "Bachelor of Computer Science"
+            }
+        ],
+        "achievements": [
+            "Silver Medalist in Bachelor's program",
+            "Won Data Science Competition"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mehwishalam",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/mehwishalam",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Mehwish Alam is an aspiring AI Engineer with a strong foundation in machine learning, natural language processing, and data analysis. She has demonstrated her technical skills through various projects and internships, showcasing her ability to contribute to innovative solutions in the field of artificial intelligence.",
+        "employment_history": [
+            {
+                "details": "Cleaned and preprocessed raw data for quality and consistency. Developed and implemented OpenAI API for data collection and model training.",
+                "end_date": "07-2024",
+                "location": "US Remote",
+                "job_title": "AI Engineer",
+                "start_date": "01-2022",
+                "company_name": "Ayass Bioscience Inc."
+            },
+            {
+                "details": "Trained machine learning models on cleaned data and created PowerBI dashboards for data analysis.",
+                "end_date": "01-2022",
+                "location": "",
+                "job_title": "ML Engineer",
+                "start_date": "01-2021",
+                "company_name": "Data.ai"
+            },
+            {
+                "details": "Conducted data analysis and participated in a virtual internship.",
+                "end_date": "01-2021",
+                "location": "",
+                "job_title": "Data Analytics Intern",
+                "start_date": "01-2021",
+                "company_name": "KPMG Virtual Internship"
+            }
+        ]
+    }
+}

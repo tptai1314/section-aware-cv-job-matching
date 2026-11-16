@@ -1,0 +1,156 @@
+{
+    "output": {
+        "justification": [
+            "Resume does not mention a Master's degree.",
+            "Candidate does not possess any SEO experience as per the resume.",
+            "Business Development Manager role indicates some leadership skills.",
+            "Current company employment start date suggests ongoing relevant experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 2
+                },
+                {
+                    "criteria": "client engagement",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "3+ years of experience in SEO and digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.95,
+                "micro_scores": 3.4800000000000004
+            }
+        },
+        "personal_info": {
+            "name": "Ali Ahmad",
+            "email": "aliahmed2312@gmail.com",
+            "phone": "03128800078",
+            "current_position": "Business Development Manager",
+            "current_company": "IKONIC",
+            "employment_start_date_current_company": "04-2023",
+            "first_company_start_date": "09-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 17,
+            "experience": 44,
+            "client relationship management": 39
+        },
+        "micro_dict": {
+            "seo strategy development": 63,
+            "client engagement": 37
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field",
+            "3+ years of experience in SEO and digital marketing"
+        ],
+        "resume": "Ali Ahmad \nBusiness Development Manager \nI am a skilled business development manager with expertise in strategy, sales, negotiations, and\nmanaging the complete sales cycle. I am also experienced in key account management. I am seeking a\nchallenging position in an organization where I can contribute to achieving organizational goals while\nfurther developing my professional skills to reach my full potential. \naliahmed2312@gmail.com \n03128800078 \nLahore, Pakistan \nEDUCATION \nBachelor of Business Administration \nFAST NUCES \n08/2016 - 08/2020\n, \n \nLahore \nWORK EXPERIENCE \nBusiness Development Manager \nIKONIC \n04/2023 - Present\n, \n \nMy role includes managing the Business Development team,\nhandling the meetings that they book & e\ufb00ectuation of the\ncomplete sales cycle as well as handling active LinkedIn\ncampaigns. \nSenior Business Development Executive \nE-Sparks \n01/2021 - 04/2023\n, \n \nMy role included reaching out to prospects on Freelancing\nwebsites (Upwork, Freelancer etc) as well as LinkedIn,\nprobing to understand their pain points. Managing elements\nof strategy, sales, negotiations & e\ufb00ectuation of the\ncomplete sales cycle. \nWelcome Team Advisor \nGiant Group \n09/2020 - 12/2020\n, \n \nLahore, Pakistan \nMy role was to answer all in-bound queries via call or live\nchat, \nprovide best advice and promote the bene\ufb01ts of Giant\nGroup's range of services in line with agreed parameters as\nwell as following up with prospects. \nIntern \nICI Pakistan Limited \n07/2019 - 08/2019\n, \n \nLahore \nInterned in the Polyester wing of ICI in the \ufb01nance\ndepartment & reconciled their balance sheets as well as did\ncomplete \ufb01nancial analysis of their competitors. \nIntern \nCoca Cola \n07/2018 - 08/2018\n, \n \nLahore \nInterned in the commercial department & learned about\ncampaign strategies including product speci\ufb01c campaigns as\nwell as product placement in the racks & the usage of\nbillboards \nSKILLS \nMicrosoft O\ufb03ce (Word/Excel/PowerPoint) \nProject Bidding \nRequirement Gathering \nAccount Management \nBusiness Development \nSales Process \nLeadership \nSales Strategies \nNegotiation Skills \nProblem Solving Skills \nPressure Handling \nResearch \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nTasks \nTasks \nTasks \nTasks \nTasks "
+    },
+    "details": {
+        "name": "Ali Ahmad",
+        "number": "03128800078",
+        "skills": [
+            "Microsoft Office (Word/Excel/PowerPoint)",
+            "Project Bidding",
+            "Requirement Gathering",
+            "Account Management",
+            "Business Development",
+            "Sales Process",
+            "Sales Strategies",
+            "Negotiation Skills",
+            "Research"
+        ],
+        "email_id": "aliahmed2312@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2020",
+                "university": "FAST NUCES",
+                "degree_title": "Bachelor of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ali-ahmad",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ali Ahmad is a skilled business development manager with expertise in strategy, sales, and negotiations, adept at managing the complete sales cycle and key account management. He is currently seeking a challenging position to contribute to organizational goals while further developing his professional skills.",
+        "employment_history": [
+            {
+                "details": "Managing the Business Development team, handling meetings, and executing the complete sales cycle as well as managing active LinkedIn campaigns.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "04-2023",
+                "company_name": "IKONIC"
+            },
+            {
+                "details": "Reaching out to prospects on freelancing websites and LinkedIn, managing strategy, sales, negotiations, and the complete sales cycle.",
+                "end_date": "04-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Senior Business Development Executive",
+                "start_date": "01-2021",
+                "company_name": "E-Sparks"
+            },
+            {
+                "details": "Answering inbound queries via call or live chat, providing advice, and promoting services.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Welcome Team Advisor",
+                "start_date": "09-2020",
+                "company_name": "Giant Group"
+            },
+            {
+                "details": "Interned in the finance department, reconciling balance sheets and conducting financial analysis.",
+                "end_date": "08-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2019",
+                "company_name": "ICI Pakistan Limited"
+            },
+            {
+                "details": "Interned in the commercial department, learning about campaign strategies and product placement.",
+                "end_date": "08-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2018",
+                "company_name": "Coca Cola"
+            }
+        ]
+    }
+}

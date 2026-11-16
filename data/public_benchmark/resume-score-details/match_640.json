@@ -1,0 +1,114 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has over 8 years of experience in relevant field, exceeding the 5+ years requirement.",
+            "Leadership skills are evident from leading multiple engineering teams and projects.",
+            "Bachelor's degree in Electrical Engineering meets the requirement, with higher qualifications as an added advantage.",
+            "Lack of specific mention of DCS/PLC and HMI programming indicates potential gap in essential technical experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical expertise",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "control system design",
+                    "score": 5
+                },
+                {
+                    "criteria": "project documentation",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Excellent communication and documentation skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience in project management and team leadership",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in automation and control systems",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Electrical or Electronics Engineering",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in DCS/PLC programming and HMI development",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 5.34
+            }
+        },
+        "personal_info": {
+            "name": "None",
+            "email": "None",
+            "phone": "None",
+            "current_position": "Lead Engineer",
+            "current_company": "None",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Prestige Automations as Robotics & Automation Engineer!\n\n### Overview\nPrestige Automations is seeking a highly skilled Robotics & Automation Engineer to join our cutting-edge engineering team. The ideal candidate will leverage their expertise in control systems to integrate and innovate within the Oil and Gas sectors. Embrace the opportunity to work across multiple geographical locations and lead projects crafting efficient, reliable systems that push industry standards.\n\n### Key Responsibilities\n- Develop, program, and test DCS/PLC systems, refining designs for maximum efficiency.\n- Lead projects focusing on pre-commissioning and commissioning, ensuring robust integration with existing infrastructure.\n- Design and evaluate control system architectures, including hardware and software components.\n- Collaborate closely with cross-functional teams to ensure optimal project planning and resource management.\n- Prepare detailed project documentation to support project outcomes and client specifications.\n\n### Core Competencies\n- Expertise in control system programming (PLC/DCS, HMI) and development.\n- Strong analytical skills with proficiency in data analysis tools such as Power BI and Excel.\n- Proven leadership skills with the ability to manage complex projects and teams across multiple disciplines.\n- Excellence in customer communication to ensure effective system implementation and support.\n\n### Why Join Us?\nAt Prestige Automations, we are not just innovating technology; we are redefining the possibilities in automation. Our culture of continuous learning and improvement aims to foster personal growth and professional development in a supportive and inclusive environment.",
+        "macro_dict": {
+            "technical expertise": 100
+        },
+        "micro_dict": {
+            "control system design": 83,
+            "project documentation": 17
+        },
+        "additional_info": "Preferred candidates have degrees from top universities such as MIT or Stanford. Prestige Automations supports relocation for international candidates with relevant experience, offering competitive relocation packages. Skill assessments are conducted through technical interviews and simulations to gauge hands-on abilities and problem-solving skills.",
+        "minimum_requirements": [
+            "Excellent communication and documentation skills",
+            "Experience in project management and team leadership",
+            "5+ years of experience in automation and control systems",
+            "Bachelor's degree in Electrical or Electronics Engineering",
+            "Proficiency in DCS/PLC programming and HMI development"
+        ],
+        "resume": "Lead Engineer  \n\uf0b7 Experience Required:  8 to 10 years of relevant experience.  \n\uf0b7 Basic Salary Range:  301,000 to 400,000.  \n\uf0b7 Key Responsibilities:  \no Lead the system studies team and coordinate with the design team.  \no Assist with design verification an d sign -off reporting.  \no Provide technical support and guidance to project teams.  \no Oversee multiple engineering teams and projects.  \no Conduct training programs to enhance the technical skills of the team.  \n\uf0b7 Key Skills:  \no In-depth knowledge of power system analysis.  \no Advanced knowledge of relevant software and technologies.  \no Strong leadership and project management skills.  \n\uf0b7 Eligibility:  Bachelor's or Master's degree in electrical engineering. A PhD in electrical \nengineering is preferred.  \n "
+    },
+    "details": {
+        "name": "Lead Engineer",
+        "number": "",
+        "skills": [
+            "Power System Analysis",
+            "Relevant Software and Technologies",
+            "Project Management"
+        ],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "MM-YYYY",
+                "university": "",
+                "degree_title": "Bachelor's or Master's degree in Electrical Engineering"
+            },
+            {
+                "end_date": "MM-YYYY",
+                "university": "",
+                "degree_title": "PhD in Electrical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "The Lead Engineer is a highly experienced professional with 8 to 10 years of relevant experience in power system analysis and project management. They possess advanced knowledge of relevant software and technologies, demonstrating strong leadership capabilities.",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "output": {
+        "justification": [
+            "Candidate does not meet 5+ years of sales and marketing experience requirement; only 3 years mentioned as Business Development Manager.",
+            "Lack of explicit leadership and mentoring roles in resume, which is a priority requirement.",
+            "No mention of proficiency in CRMs like HubSpot or Salesforce as stated in the JD.",
+            "No data visualization skills are mentioned, which are required by the JD."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "sales experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data visualization",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Zohaib Shehzad",
+            "email": "zshehzad28@gmail.com",
+            "phone": "+923021678782",
+            "current_position": "Sr. Business Development Manager",
+            "current_company": "Cherry Bytes Technologies",
+            "employment_start_date_current_company": "2022-01",
+            "first_company_start_date": "2019-01",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "sales experience": 100
+        },
+        "micro_dict": {
+            "data visualization": 100
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Demonstrated ability in team leadership and mentoring",
+            "5+ years of experience in sales and marketing roles",
+            "Bachelor's degree in Business Administration, Marketing, or related field"
+        ],
+        "resume": "C o n t a c t\n+923021678782P h o n e\nzshehzad28@gmail.comE m a i lZohaib Shehzad\nBusiness Development Manager\nSkilled Business Development leader offering 3+ years of experience in leading operations and\nenhancing revenue. Bringing expertise in client acquisition and contract negotiation, along with\nexcellent interpersonal communication, relationship-building and team leadership abilities. Results-\ndriven and proactive with demonstrated record of accomplishment in meeting and exceeding sales\nand revenue objectives.\nE x p e r i e n c e\nEstablished relationships with key decision-makers within the customer's organization\nto promote growth and retention.\nIdentified and pursued valuable business opportunities to generate new company\nrevenue and improve bottom-line profitability.\nNegotiated and closed long-term agreements with new clients in assigned\nterritories.\nGenerated new business with marketing initiatives and strategic plans.\nGenerated new business with marketing initiatives and strategic plans.\nReached out to potential customers via telephone, email, and in-person inquiries.\nKept meticulous client notes and updated account information in company databases.\nEstablished key performance indicators to track and analyze business progress and\nadjust strategies accordingly.\nDeveloped process to analyze customer feedback to incorporate insights into product\ndevelopment strategies.\nServed as technical liaison, supporting engineering, management, procurement, sales\nand marketing, quality assurance and supply base.\nCommunicated project plans and progress to key stakeholders and project\ncontributors.\nCollaborated with business users, technical teams, database administrators and testing\nteams during kickoff meetings, joint application designing, and planning sessions to\nvalidate requirements.\nPartnered with project team members to identify and quickly address problems.Sr. Business Development Manager\nBusiness Development Manager\nTechnical Project Manager2022 - Current\n2021 - 2022\n2019 - 2021Cherry Bytes Technologies \nAmrood Labs\nKP Leads\nReference will be furnished on demandR e f e r e n c eE d u c a t i o n\nUniversity of SargodhaMaster in Information Technologies2017-2019Research\nBusiness development and planning\nProduct and service sales\nRelationship building and management\nNew Business Development\nGoal-setting\nOrder management\nPerformance metrics\nQuality control\nStaff Management\nRevenue Generation\nEnglish\nUrduL a n g u a g eE x p e r t i s e"
+    },
+    "details": {
+        "name": "Zohaib Shehzad",
+        "number": "923021678782",
+        "skills": [
+            "Business development",
+            "Client acquisition",
+            "Contract negotiation",
+            "New Business Development",
+            "Order management",
+            "Performance metrics",
+            "Quality control",
+            "Revenue Generation"
+        ],
+        "email_id": "zshehzad28@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "University of Sargodha",
+                "degree_title": "Master in Information Technologies"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Zohaib Shehzad is a skilled Business Development Manager with over 3 years of experience in leading operations and enhancing revenue. He possesses expertise in client acquisition and contract negotiation, demonstrating a strong ability to generate new business and improve profitability.",
+        "employment_history": [
+            {
+                "details": "Established relationships with key decision-makers within the customer's organization to promote growth and retention. Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories. Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly. Developed process to analyze customer feedback to incorporate insights into product development strategies. Served as technical liaison, supporting engineering, management, procurement, sales and marketing, quality assurance and supply base. Communicated project plans and progress to key stakeholders and project contributors. Collaborated with business users, technical teams, database administrators and testing teams during kickoff meetings, joint application designing, and planning sessions to validate requirements. Partnered with project team members to identify and quickly address problems.",
+                "end_date": "Current",
+                "location": "",
+                "job_title": "Technical Project Manager",
+                "start_date": "01-2022",
+                "company_name": "Cherry Bytes Technologies"
+            },
+            {
+                "details": "Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly.",
+                "end_date": "12-2022",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2021",
+                "company_name": "Amrood Labs"
+            },
+            {
+                "details": "Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories.",
+                "end_date": "12-2021",
+                "location": "",
+                "job_title": "Sr. Business Development Manager",
+                "start_date": "01-2019",
+                "company_name": "KP Leads"
+            }
+        ]
+    }
+}

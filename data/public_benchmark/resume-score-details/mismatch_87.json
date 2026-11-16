@@ -1,0 +1,205 @@
+{
+    "output": {
+        "justification": [
+            "Resume shows strong academic background but lacks direct experience in business development or B2B sales.",
+            "There is no indication of leadership roles or project management experience related to sales.",
+            "Skills listed are heavily focused on technical domains unrelated to the job description.",
+            "No experience noted in market research or data analytics specific to business growth."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 1
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 4
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.01,
+                "micro_scores": 1.57
+            }
+        },
+        "personal_info": {
+            "name": "Abdul Basit",
+            "email": "abasit@lums.edu.pk",
+            "phone": "+923347904824",
+            "current_position": "Research Associate",
+            "current_company": "Center for Speech and Language Technologies (CSaLT) Lab, LUMS",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "09-2021",
+            "urls": [
+                {
+                    "website_name": "github",
+                    "url": "https://githubabdulbasit.github.io"
+                },
+                {
+                    "website_name": "aclanthology",
+                    "url": "https://aclanthology.org/2024.loresmt-1.4/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 1,
+            "experience": 99
+        },
+        "micro_dict": {
+            "market research": 14,
+            "b2b sales": 42,
+            "communication skills": 6,
+            "data analysis": 1,
+            "it and manufacturing sector knowledge": 37
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "Abdul Basit\n/githubabdulbasit.github.io |/envel\u2322peabasit@lums.edu.pk |\u2642\u00b6obile+923347904824\nEducation\nUniversity of Hertfordshire, Hatfield, United Kingdom\nMasters in Artificial Intelligence With Robotics Sep 2018 \u2013 Dec 2020\nMajor Courses: Theory & Practice of Artificial Intelligence, Neural Networks & Machine Learning, Artificial Life\nwith Robotics, Advanced Research Topics in Computer Science.\nMS Projects:\n\u2022Thermal Image Face Identification: Implemented an encoder-decoder algorithm to classify thermal images of\n41 unique human faces, integrating custom filters to enhance accuracy. Research validated that filters improved\naccuracy.\n\u2022Fusion-Fission Dynamics: A study in robotics and artificial life, designed with Netlogo programming and con-\nstructed using Thymio robots to explore the interplay between individual autonomy and collective behavior.\n\u2022Age-of-Empires-with-AI: A real-time strategy game developed to investigate and compare the performance of AI\nalgorithms, involving null hypothesis testing and SPSS analysis.\nUniversity of Management & Technology, Lahore, Pakistan\nBachelors in Software Engineering Feb 2012 \u2013 June 2017\nMajor Courses: Artificial Intelligence Information Retrieval Digital Image & Processing.\nBS Projects:\n\u2022Image Restoration System: Built using MATLAB, this system utilizes inverse filtering to reverse image blurring\nand restore its feature\u2019s accuracy. Research validated that filters improved accuracy.\n\u2022Snakes Xenzia: This project examines how enhanced complexity and visual improvements impact user engagement\nand gameplay experience, incorporating HCI principles to evaluate usability and interaction quality.\nEXPERIENCE\nCenter for Speech and Language Technologies (CSaLT) Lab, LUMS, Lahore, Pakistan\nResearch Associate Jan 2023 \u2013 Present\n\u2022Formulated strategies: To assist in the socio-economic development of low-literate and non-affluent individuals\nthrough improved information access and connectivity.\n\u2022Urdu Synonym: Engineered an application using embeddings to enhance Urdu language synonym processing,\nreducing processing time by over 300 % .\n\u2022Urdu-Alpaca: Translated the Alpaca dataset into Urdu using GPT and fine-tuned the LLaMa model with PEFT\ntechniques.\n\u2022Urdu-QA: Designed a prototype question-answer application for the Urdu language, using translation techniques\nto obtain quality embeddings. Users can ask questions and retrieve the top K similar questions, enabling them\nto find and access the most relevant answers.\n\u2022Phoneme Distribution: Efficiently managed a multi-million-word dataset using parallel processing with threads\nin a resource-limited environment to obtain phoneme distribution as part of a research project.\n\u2022Urdu-Translation: Evaluated four different models on five diverse datasets using SacreBLEU andCHrf ++\nmetrics as part of a research project.\nDepartment of Computer Science, TMUC, Lahore, Pakistan\nVisiting Lecturer Sep 2021 \u2013 Dec 2022\n\u2022H-671: Introduction to Robotics Fall 2021\u2022K-618: Computing Research Project Spring 20222\n\u2022H-74738: Machine Learnig Spring 2022\n\u2022K-618: Computing Research Project Fall 2022\n\u2022H-671: Introduction to Robotics Fall 2022\nPublications\nBasit, Abdul, Abdul Hameed Azeemi, and Agha Ali Raza (2024). \u201cChallenges in Urdu Machine Translation\u201d. In:\nProceedings of the The Seventh Workshop on Technologies for Machine Translation of Low-Resource Languages\n(LoResMT 2024) , pp. 44\u201349. url:https://aclanthology.org/2024.loresmt-1.4/ .\nSkills\nNatural Language Processing\nText Preprocessing, Language Modeling, Text Representation, Name Entity Recognition, Machine Translation, Ques-\ntion Answer System, Sentiment Analysis, Evaluation Metrics, RAG.\nLarge Language Models\nLLM Architectures, Fine-Tuning, and Transfer Learning, Training LLMs.\nTechnical\nTensorFlow, PyTorch, LangChain, NLTK, SpaCy, NumPy, Pandas, Colab, Python, Bash, C++, C#, LaTeX, SQL,\nHugging Face.\nAchievement\u2019s\n\u2022Earned the Kaggle Notebooks Master award and ranked in the top 1 percentage of the platform.\n\u2022Published 12 technical articles on Medium and achieved contributor status at Towards AI.\n\u2022Created 5 deep learning tutorials for my YouTube channel, achieving 4,000 views.\nREFERENCES\nDr. Agha Ali Raza |Research Supervisor\nAssistant Professor, Department of Computer Science, LUMS\nEmail: agha.ali.raza@lums.edu.pk |Website\nDr Na Helian |Research Supervisor\nPrincipal Lecturer, Department of Computer Science, UFH\nEmail: n.helian@herts.ac.uk |Website"
+    },
+    "details": {
+        "name": "Abdul Basit",
+        "number": "923347904824",
+        "skills": [
+            "Natural Language Processing",
+            "Text Preprocessing",
+            "Language Modeling",
+            "Text Representation",
+            "Name Entity Recognition",
+            "Machine Translation",
+            "Question Answer System",
+            "Sentiment Analysis",
+            "Evaluation Metrics",
+            "RAG",
+            "LLM Architectures",
+            "Fine-Tuning",
+            "Transfer Learning",
+            "Training LLMs",
+            "TensorFlow",
+            "PyTorch",
+            "LangChain",
+            "NLTK",
+            "SpaCy",
+            "NumPy",
+            "Pandas",
+            "Colab",
+            "Python",
+            "Bash",
+            "C++",
+            "C#",
+            "LaTeX",
+            "SQL",
+            "Hugging Face"
+        ],
+        "email_id": "abasit@lums.edu.pk",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Thermal Image Face Identification",
+                "description": "Implemented an encoder-decoder algorithm to classify thermal images of 41 unique human faces."
+            },
+            {
+                "title": "Fusion-Fission Dynamics",
+                "description": "Designed with Netlogo programming and constructed using Thymio robots."
+            },
+            {
+                "title": "Age-of-Empires-with-AI",
+                "description": "Developed a real-time strategy game to investigate AI algorithms."
+            },
+            {
+                "title": "Image Restoration System",
+                "description": "Built using MATLAB to reverse image blurring."
+            },
+            {
+                "title": "Snakes Xenzia",
+                "description": "Examined user engagement and gameplay experience."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2020",
+                "university": "University of Hertfordshire",
+                "degree_title": "Masters in Artificial Intelligence With Robotics"
+            },
+            {
+                "end_date": "06-2017",
+                "university": "University of Management & Technology",
+                "degree_title": "Bachelors in Software Engineering"
+            }
+        ],
+        "achievements": [
+            "Earned the Kaggle Notebooks Master award and ranked in the top 1 percentage of the platform.",
+            "Published 12 technical articles on Medium and achieved contributor status at Towards AI.",
+            "Created 5 deep learning tutorials for my YouTube channel, achieving 4,000 views."
+        ],
+        "publications": [
+            {
+                "title": "Challenges in Urdu Machine Translation",
+                "publication_venue": "Proceedings of the The Seventh Workshop on Technologies for Machine Translation of Low-Resource Languages (LoResMT 2024)"
+            }
+        ],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "githubabdulbasit.github.io",
+                "website_name": "GitHub"
+            },
+            {
+                "url": "linkedin.com/in/abdul-basit",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Abdul Basit is a skilled researcher and lecturer specializing in Natural Language Processing and Artificial Intelligence. With a strong academic background and hands-on experience in various technical projects, he has made significant contributions to the field, including the development of innovative applications and research publications.",
+        "employment_history": [
+            {
+                "details": "Formulated strategies to assist in the socio-economic development of low-literate and non-affluent individuals through improved information access and connectivity.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Research Associate",
+                "start_date": "01-2023",
+                "company_name": "Center for Speech and Language Technologies (CSaLT) Lab, LUMS"
+            },
+            {
+                "details": "Lectured on various topics including Introduction to Robotics and Machine Learning.",
+                "end_date": "12-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Visiting Lecturer",
+                "start_date": "09-2021",
+                "company_name": "Department of Computer Science, TMUC"
+            }
+        ]
+    }
+}

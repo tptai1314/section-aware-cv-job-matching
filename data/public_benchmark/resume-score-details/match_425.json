@@ -1,0 +1,165 @@
+{
+    "output": {
+        "justification": [
+            "Candidate displays leadership by managing a team during his tenure as Shift Lead and led a team during his internship.",
+            "Candidate demonstrates strategic planning abilities through proposals for cost-saving initiatives and conducting market research.",
+            "CRM proficiency is absent as there's no mention of experience with Salesforce, HubSpot, or any similar tools.",
+            "Resume indicates strong proposal writing capabilities demonstrated through providing insights and recommendations in multiple roles."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm proficiency",
+                    "score": 3
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.92,
+                "micro_scores": 4.95
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Kalim",
+            "email": "mkalim70@gmail.com",
+            "phone": "+92-321-9474340",
+            "current_position": "Market Research Consultant",
+            "current_company": "AkzoNobel Pakistan",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "04-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/mkalim70"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 92,
+            "strategic planning": 8
+        },
+        "micro_dict": {
+            "crm proficiency": 61,
+            "proposal writing": 39
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": " \nMBA  2023  MUHAMMAD  KALIM  \n+92-321-9474340 | mkalim70@gmail.com | www.linkedin.com/in/mkalim70  \n \nEducation   \nLAHORE UNIVERSITY OF  MANAGEMENT  SCIENCES  Lahore,  Pakistan  \nMaster of  Business  Administration  2021 -2023  \nUNIVERSITY OF  THE PUNJAB  Lahore,  Pakistan  \nBachelor of Science in  Chemical Engineering  2014 -2018  \nSkills   \n \nData Visualization and Reporting  Microsoft Office, Tableau  \nSoft Skills  Effective Communication, Problems Solving and Leadership  \nOthers  SQL and R  \n \nWork  Experience   \nAKZONOBEL PAKISTAN  Lahore , Pakistan  \nMarket Research Co nsultant :                    January  2023 \u2013 May  2023 \n\u2013 Researched, interviewed, and analyzed the collected data regarding the potential demand for the Interpon  brand of \nAkzoNobel and the powder coating requirements of Consumer Electronics manufacturers.  \n\u2013 Provided actionable insights to AkzoNobel regarding exploring the powder coating vertical.  \nFATIMA  GROUP  Lahore,  Pakistan  \nSales Intern:                        July 2022 \u2013 August 2022  \n\u2013 Developed emergency evacuation plans for ten Fatima Groups warehouses located in North Zone of Pakistan to reduce the \nsafety incidents that might affect more than 20 employees. This was a combined initiative of the Sales  dept  and Corporate  \nHSE.  \n\u2013 Conducted training  of the 10 Warehouse officers in collaboration with HSE department to ensure implementation of the \nevacuation  plan.  \n\u2013 Observed and Conducted audits of the warehouse  operations.  \nPAK ELEKTRON  LIMITED  Lahore, Pakistan  \nMarketing Intern:            June 2022 \u2013 July 2022  \n\u2013 Led a team of five people to conduct research regarding the reduction of sales of PEL appliances in the major appliance \nmarket of Lahore and proposed poss ible solutions to improve the sales.  \n\u2013 Conducted routine  visits to  the retailers to understand the  challenges  faced by the retailers.  \n     FAUJI FERTILISER BIN  QASIM  LIMITED               Karachi, Pakistan  \nManagement Associate (Operations: Utilities):       April 2019 \u2013 May 2020  \n\u2013 Performed  in depth  analysis  of the cooling  tower  that resulted  in 14%  cost savings  in terms  of chemical  dosing  in the cooling \ntower.  The dosage  of chemicals  in the cooling  tower  had been  increasing,  which  was a financial  burden.  To counter  the issue \nof increased dosage, assessed the condition of the cooling tower fills and devised a strategy for replacement after alternate \nyear.  \n\u2013 Worked as Shift lead managing a team of 12 people on the field,  performed  routine  tasks  such  as preparation  of work  permits  \nand reporting  of daily status and maintenance activities on  SAP.  \n\u2013 Conducted  Weekly  Safety  talks  with  the shift  operators  on how  to perform  tasks  in accordance  with  the HSE principles.  \n\u2013 Conducted training sessions for the 12 Non -Management Associates and 4 Summer  Interns.  \n \nProject  Work   \nWHITE PAPER ON THE ESTABLISHMENT OF LOCAL SPORTS EQUIPMENT BRAND  \n\u2013 Conducted research on the market of local sports equipment and gave recommendations to local sports manufacturers \nduring MBA Experiential  Learning -I. \n. \nCertifications and Training   W o  r  k  s  h  o  p s  \n\u2013 Google Data Analytics Certificate by  Coursera  \n\u2013 MBA Business Games 2023 (Strategic Marketing Simulation by Markstrat) at LUMS  \n\u2013 Participated in SAP Training conducted by IT services by FFCL (October 2020)  \n"
+    },
+    "details": {
+        "name": "MUHAMMAD KALIM",
+        "number": "923219474340",
+        "skills": [
+            "Data Visualization and Reporting",
+            "Microsoft Office",
+            "Tableau",
+            "SQL",
+            "R"
+        ],
+        "email_id": "mkalim70@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "WHITE PAPER ON THE ESTABLISHMENT OF LOCAL SPORTS EQUIPMENT BRAND",
+                "description": "Conducted research on the market of local sports equipment and gave recommendations to local sports manufacturers during MBA Experiential Learning -I."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2023",
+                "university": "LAHORE UNIVERSITY OF MANAGEMENT SCIENCES",
+                "degree_title": "Master of Business Administration"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "UNIVERSITY OF THE PUNJAB",
+                "degree_title": "Bachelor of Science in Chemical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Google Data Analytics Certificate",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "MBA Business Games 2023 (Strategic Marketing Simulation by Markstrat)",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "SAP Training",
+                "issuing_organization": "IT services by FFCL",
+                "date_of_issuance": "10-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mkalim70",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Kalim is a dedicated professional with a strong background in data visualization and reporting, proficient in tools such as Microsoft Office and Tableau, as well as programming languages SQL and R. He has experience in market research and operations management, demonstrating a commitment to delivering actionable insights and improving operational efficiency.",
+        "employment_history": [
+            {
+                "details": "Researched, interviewed, and analyzed the collected data regarding the potential demand for the Interpon brand of AkzoNobel and the powder coating requirements of Consumer Electronics manufacturers. Provided actionable insights to AkzoNobel regarding exploring the powder coating vertical.",
+                "end_date": "05-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Market Research Consultant",
+                "start_date": "01-2023",
+                "company_name": "AKZONOBEL PAKISTAN"
+            },
+            {
+                "details": "Developed emergency evacuation plans for ten Fatima Groups warehouses located in North Zone of Pakistan to reduce the safety incidents that might affect more than 20 employees. Conducted training of the 10 Warehouse officers in collaboration with HSE department to ensure implementation of the evacuation plan. Observed and Conducted audits of the warehouse operations.",
+                "end_date": "08-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Intern",
+                "start_date": "07-2022",
+                "company_name": "FATIMA GROUP"
+            },
+            {
+                "details": "Led a team of five people to conduct research regarding the reduction of sales of PEL appliances in the major appliance market of Lahore and proposed possible solutions to improve the sales. Conducted routine visits to the retailers to understand the challenges faced by the retailers.",
+                "end_date": "07-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Marketing Intern",
+                "start_date": "06-2022",
+                "company_name": "PAK ELEKTRON LIMITED"
+            },
+            {
+                "details": "Performed in depth analysis of the cooling tower that resulted in 14% cost savings in terms of chemical dosing in the cooling tower. Worked as Shift lead managing a team of 12 people on the field, performed routine tasks such as preparation of work permits and reporting of daily status and maintenance activities on SAP. Conducted Weekly Safety talks with the shift operators on how to perform tasks in accordance with the HSE principles. Conducted training sessions for the 12 Non-Management Associates and 4 Summer Interns.",
+                "end_date": "05-2020",
+                "location": "Karachi, Pakistan",
+                "job_title": "Management Associate (Operations: Utilities)",
+                "start_date": "04-2019",
+                "company_name": "FAUJI FERTILISER BIN QASIM LIMITED"
+            }
+        ]
+    }
+}

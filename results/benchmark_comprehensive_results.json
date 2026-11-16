@@ -1,0 +1,580 @@
+{
+  "dataset_provenance": {
+    "name": "cnamuangtoun/resume-job-description-fit",
+    "test_pairs": 1759,
+    "test_queries": 71,
+    "unique_cvs": 477,
+    "zero_pos_queries_th1": 10,
+    "zero_pos_queries_th2": 43
+  },
+  "section_and_skills_audit": {
+    "resumes": {
+      "total": 477,
+      "section_presence_pct": {
+        "skills": 85.1,
+        "experience": 77.4,
+        "education": 60.6,
+        "summary": 21.6,
+        "projects": 78.2
+      },
+      "section_presence_counts": {
+        "skills": 406,
+        "experience": 369,
+        "education": 289,
+        "summary": 103,
+        "projects": 373
+      },
+      "section_mean_words": {
+        "skills": 77.3,
+        "experience": 527.0,
+        "education": 55.8,
+        "summary": 87.2,
+        "projects": 145.5
+      },
+      "multi_section_pct": {
+        ">=3": 77.1
+      }
+    },
+    "job_descriptions": {
+      "total": 71,
+      "section_presence_pct": {
+        "skills": 80.3,
+        "experience": 94.4,
+        "education": 71.8,
+        "summary": 14.1,
+        "projects": 42.3
+      },
+      "section_presence_counts": {
+        "skills": 57,
+        "experience": 67,
+        "education": 51,
+        "summary": 10,
+        "projects": 30
+      },
+      "section_mean_words": {
+        "skills": 124.5,
+        "experience": 183.4,
+        "education": 307.4,
+        "summary": 78.5,
+        "projects": 78.5
+      },
+      "multi_section_pct": {
+        ">=3": 71.8
+      }
+    },
+    "skills_coverage": {
+      "jd_with_skills_pct": 87.3,
+      "cv_with_skills_pct": 96.4,
+      "jd_mean_must_skills": 3.0,
+      "jd_mean_nice_skills": 1.4,
+      "jd_mean_total_skills": 4.4,
+      "cv_mean_skills": 10.3,
+      "active_unique_skills_in_benchmark": 297,
+      "total_canonical_in_taxonomy": 615
+    }
+  },
+  "latency_ms": {
+    "BM25 / TF-IDF": 4.83,
+    "Single-Vector Dense": 0.03,
+    "Section-Aware Dense": 0.01,
+    "Calibrated Hybrid": 3.99,
+    "Cross-Encoder": 1149.98
+  },
+  "statistical_tests": {
+    "single_vs_section_ndcg10": {
+      "ttest_p": 0.3545,
+      "wilcoxon_p": 0.2733,
+      "significant": false
+    },
+    "dense_bm25_vs_hybrid_map": {
+      "ttest_p": 0.1852,
+      "significant": false
+    }
+  },
+  "benchmark_all_queries": {
+    "Floor: Random Ranking": {
+      "metrics": {
+        "ndcg@5": 0.454,
+        "ndcg@10": 0.4957,
+        "mrr_th1": 0.5749,
+        "map_th1": 0.4941,
+        "p@5_th1": 0.4176,
+        "p@10_th1": 0.4045,
+        "mrr_th2": 0.2585,
+        "map_th2": 0.2185,
+        "p@5_th2": 0.1846,
+        "p@10_th2": 0.176
+      },
+      "spearman_micro": 0.0077,
+      "spearman_macro": -0.0263
+    },
+    "BM25 / TF-IDF (Lexical)": {
+      "metrics": {
+        "ndcg@5": 0.5532,
+        "ndcg@10": 0.5773,
+        "mrr_th1": 0.6393,
+        "map_th1": 0.593,
+        "p@5_th1": 0.4592,
+        "p@10_th1": 0.4282,
+        "mrr_th2": 0.2927,
+        "map_th2": 0.2673,
+        "p@5_th2": 0.2,
+        "p@10_th2": 0.1859
+      },
+      "spearman_micro": 0.129,
+      "spearman_macro": 0.2089
+    },
+    "Single-Vector Dense (MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.5889,
+        "ndcg@10": 0.6146,
+        "mrr_th1": 0.7055,
+        "map_th1": 0.621,
+        "p@5_th1": 0.4845,
+        "p@10_th1": 0.4563,
+        "mrr_th2": 0.3239,
+        "map_th2": 0.2681,
+        "p@5_th2": 0.2141,
+        "p@10_th2": 0.193
+      },
+      "spearman_micro": 0.1074,
+      "spearman_macro": 0.2557
+    },
+    "Section-Aware Multi-Vector (Ours)": {
+      "metrics": {
+        "ndcg@5": 0.5865,
+        "ndcg@10": 0.6159,
+        "mrr_th1": 0.7043,
+        "map_th1": 0.6208,
+        "p@5_th1": 0.4817,
+        "p@10_th1": 0.4592,
+        "mrr_th2": 0.3239,
+        "map_th2": 0.2681,
+        "p@5_th2": 0.2141,
+        "p@10_th2": 0.193
+      },
+      "spearman_micro": 0.1085,
+      "spearman_macro": 0.2567
+    },
+    "Dense + BM25 (No Taxonomy)": {
+      "metrics": {
+        "ndcg@5": 0.5784,
+        "ndcg@10": 0.5972,
+        "mrr_th1": 0.6738,
+        "map_th1": 0.6185,
+        "p@5_th1": 0.4789,
+        "p@10_th1": 0.4408,
+        "mrr_th2": 0.3123,
+        "map_th2": 0.2752,
+        "p@5_th2": 0.2113,
+        "p@10_th2": 0.1873
+      },
+      "spearman_micro": 0.1706,
+      "spearman_macro": 0.2557
+    },
+    "Taxonomy Rules Alone": {
+      "metrics": {
+        "ndcg@5": 0.5391,
+        "ndcg@10": 0.5681,
+        "mrr_th1": 0.643,
+        "map_th1": 0.5786,
+        "p@5_th1": 0.4476,
+        "p@10_th1": 0.4225,
+        "mrr_th2": 0.2821,
+        "map_th2": 0.2568,
+        "p@5_th2": 0.2041,
+        "p@10_th2": 0.1927
+      },
+      "spearman_micro": 0.1272,
+      "spearman_macro": 0.3061
+    },
+    "Calibrated Hybrid (Dense+BM25+Tax)": {
+      "metrics": {
+        "ndcg@5": 0.592,
+        "ndcg@10": 0.6118,
+        "mrr_th1": 0.6923,
+        "map_th1": 0.6319,
+        "p@5_th1": 0.4732,
+        "p@10_th1": 0.4437,
+        "mrr_th2": 0.3194,
+        "map_th2": 0.2789,
+        "p@5_th2": 0.2141,
+        "p@10_th2": 0.1958
+      },
+      "spearman_micro": 0.1844,
+      "spearman_macro": 0.2928
+    },
+    "Parameter-Free RRF + Taxonomy": {
+      "metrics": {
+        "ndcg@5": 0.5863,
+        "ndcg@10": 0.607,
+        "mrr_th1": 0.6886,
+        "map_th1": 0.6264,
+        "p@5_th1": 0.4732,
+        "p@10_th1": 0.443,
+        "mrr_th2": 0.3115,
+        "map_th2": 0.2807,
+        "p@5_th2": 0.2085,
+        "p@10_th2": 0.1993
+      },
+      "spearman_micro": 0.1662,
+      "spearman_macro": 0.2926
+    },
+    "Cross-Encoder (ms-marco-MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.5292,
+        "ndcg@10": 0.5531,
+        "mrr_th1": 0.642,
+        "map_th1": 0.5651,
+        "p@5_th1": 0.4592,
+        "p@10_th1": 0.4225,
+        "mrr_th2": 0.2899,
+        "map_th2": 0.2454,
+        "p@5_th2": 0.2,
+        "p@10_th2": 0.1789
+      },
+      "spearman_micro": -0.0134,
+      "spearman_macro": 0.1668
+    },
+    "Ceiling: Oracle Ranking": {
+      "metrics": {
+        "ndcg@5": 0.8592,
+        "ndcg@10": 0.8592,
+        "mrr_th1": 0.8592,
+        "map_th1": 0.8592,
+        "p@5_th1": 0.6958,
+        "p@10_th1": 0.6282,
+        "mrr_th2": 0.3944,
+        "map_th2": 0.3944,
+        "p@5_th2": 0.3183,
+        "p@10_th2": 0.2901
+      },
+      "spearman_micro": 0.9223,
+      "spearman_macro": 0.7915
+    }
+  },
+  "benchmark_filtered_th1_queries": {
+    "Floor: Random Ranking": {
+      "metrics": {
+        "ndcg@5": 0.5246,
+        "ndcg@10": 0.5714,
+        "mrr_th1": 0.6611,
+        "map_th1": 0.5704,
+        "p@5_th1": 0.4855,
+        "p@10_th1": 0.4688,
+        "mrr_th2": 0.2982,
+        "map_th2": 0.2527,
+        "p@5_th2": 0.2146,
+        "p@10_th2": 0.2043
+      },
+      "spearman_micro": 0.0077,
+      "spearman_macro": -0.0263
+    },
+    "BM25 / TF-IDF (Lexical)": {
+      "metrics": {
+        "ndcg@5": 0.6439,
+        "ndcg@10": 0.672,
+        "mrr_th1": 0.7441,
+        "map_th1": 0.6903,
+        "p@5_th1": 0.5344,
+        "p@10_th1": 0.4984,
+        "mrr_th2": 0.3407,
+        "map_th2": 0.3111,
+        "p@5_th2": 0.2328,
+        "p@10_th2": 0.2164
+      },
+      "spearman_micro": 0.129,
+      "spearman_macro": 0.2089
+    },
+    "Single-Vector Dense (MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6854,
+        "ndcg@10": 0.7154,
+        "mrr_th1": 0.8211,
+        "map_th1": 0.7228,
+        "p@5_th1": 0.5639,
+        "p@10_th1": 0.5311,
+        "mrr_th2": 0.377,
+        "map_th2": 0.3121,
+        "p@5_th2": 0.2492,
+        "p@10_th2": 0.2246
+      },
+      "spearman_micro": 0.1074,
+      "spearman_macro": 0.2557
+    },
+    "Section-Aware Multi-Vector (Ours)": {
+      "metrics": {
+        "ndcg@5": 0.6826,
+        "ndcg@10": 0.7169,
+        "mrr_th1": 0.8197,
+        "map_th1": 0.7226,
+        "p@5_th1": 0.5607,
+        "p@10_th1": 0.5344,
+        "mrr_th2": 0.377,
+        "map_th2": 0.3121,
+        "p@5_th2": 0.2492,
+        "p@10_th2": 0.2246
+      },
+      "spearman_micro": 0.1085,
+      "spearman_macro": 0.2567
+    },
+    "Dense + BM25 (No Taxonomy)": {
+      "metrics": {
+        "ndcg@5": 0.6732,
+        "ndcg@10": 0.6951,
+        "mrr_th1": 0.7843,
+        "map_th1": 0.7199,
+        "p@5_th1": 0.5574,
+        "p@10_th1": 0.5131,
+        "mrr_th2": 0.3635,
+        "map_th2": 0.3203,
+        "p@5_th2": 0.2459,
+        "p@10_th2": 0.218
+      },
+      "spearman_micro": 0.1706,
+      "spearman_macro": 0.2557
+    },
+    "Taxonomy Rules Alone": {
+      "metrics": {
+        "ndcg@5": 0.6189,
+        "ndcg@10": 0.6569,
+        "mrr_th1": 0.7407,
+        "map_th1": 0.6683,
+        "p@5_th1": 0.5172,
+        "p@10_th1": 0.4913,
+        "mrr_th2": 0.3258,
+        "map_th2": 0.2952,
+        "p@5_th2": 0.2359,
+        "p@10_th2": 0.224
+      },
+      "spearman_micro": 0.1272,
+      "spearman_macro": 0.3061
+    },
+    "Calibrated Hybrid (Dense+BM25+Tax)": {
+      "metrics": {
+        "ndcg@5": 0.6891,
+        "ndcg@10": 0.7121,
+        "mrr_th1": 0.8058,
+        "map_th1": 0.7354,
+        "p@5_th1": 0.5508,
+        "p@10_th1": 0.5164,
+        "mrr_th2": 0.3717,
+        "map_th2": 0.3246,
+        "p@5_th2": 0.2492,
+        "p@10_th2": 0.2279
+      },
+      "spearman_micro": 0.1844,
+      "spearman_macro": 0.2928
+    },
+    "Parameter-Free RRF + Taxonomy": {
+      "metrics": {
+        "ndcg@5": 0.6824,
+        "ndcg@10": 0.7065,
+        "mrr_th1": 0.8014,
+        "map_th1": 0.7291,
+        "p@5_th1": 0.5508,
+        "p@10_th1": 0.5157,
+        "mrr_th2": 0.3626,
+        "map_th2": 0.3268,
+        "p@5_th2": 0.2426,
+        "p@10_th2": 0.2321
+      },
+      "spearman_micro": 0.1662,
+      "spearman_macro": 0.2926
+    },
+    "Cross-Encoder (ms-marco-MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.616,
+        "ndcg@10": 0.6437,
+        "mrr_th1": 0.7473,
+        "map_th1": 0.6577,
+        "p@5_th1": 0.5344,
+        "p@10_th1": 0.4918,
+        "mrr_th2": 0.3374,
+        "map_th2": 0.2856,
+        "p@5_th2": 0.2328,
+        "p@10_th2": 0.2082
+      },
+      "spearman_micro": -0.0134,
+      "spearman_macro": 0.1668
+    },
+    "Ceiling: Oracle Ranking": {
+      "metrics": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "mrr_th1": 1.0,
+        "map_th1": 1.0,
+        "p@5_th1": 0.8098,
+        "p@10_th1": 0.7311,
+        "mrr_th2": 0.459,
+        "map_th2": 0.459,
+        "p@5_th2": 0.3705,
+        "p@10_th2": 0.3377
+      },
+      "spearman_micro": 0.9223,
+      "spearman_macro": 0.7915
+    }
+  },
+  "benchmark_filtered_th2_queries": {
+    "Floor: Random Ranking": {
+      "metrics": {
+        "ndcg@5": 0.5674,
+        "ndcg@10": 0.6086,
+        "mrr_th1": 0.7237,
+        "map_th1": 0.6336,
+        "p@5_th1": 0.5544,
+        "p@10_th1": 0.5354,
+        "mrr_th2": 0.656,
+        "map_th2": 0.5551,
+        "p@5_th2": 0.4682,
+        "p@10_th2": 0.448
+      },
+      "spearman_micro": 0.0077,
+      "spearman_macro": -0.0263
+    },
+    "BM25 / TF-IDF (Lexical)": {
+      "metrics": {
+        "ndcg@5": 0.6669,
+        "ndcg@10": 0.7011,
+        "mrr_th1": 0.7685,
+        "map_th1": 0.7577,
+        "p@5_th1": 0.5857,
+        "p@10_th1": 0.5571,
+        "mrr_th2": 0.7423,
+        "map_th2": 0.6779,
+        "p@5_th2": 0.5071,
+        "p@10_th2": 0.4714
+      },
+      "spearman_micro": 0.129,
+      "spearman_macro": 0.2415
+    },
+    "Single-Vector Dense (MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7332,
+        "ndcg@10": 0.7444,
+        "mrr_th1": 0.9077,
+        "map_th1": 0.7891,
+        "p@5_th1": 0.65,
+        "p@10_th1": 0.5929,
+        "mrr_th2": 0.8214,
+        "map_th2": 0.6799,
+        "p@5_th2": 0.5429,
+        "p@10_th2": 0.4893
+      },
+      "spearman_micro": 0.1074,
+      "spearman_macro": 0.2758
+    },
+    "Section-Aware Multi-Vector (Ours)": {
+      "metrics": {
+        "ndcg@5": 0.7332,
+        "ndcg@10": 0.7444,
+        "mrr_th1": 0.9077,
+        "map_th1": 0.7892,
+        "p@5_th1": 0.65,
+        "p@10_th1": 0.5929,
+        "mrr_th2": 0.8214,
+        "map_th2": 0.6799,
+        "p@5_th2": 0.5429,
+        "p@10_th2": 0.4893
+      },
+      "spearman_micro": 0.1085,
+      "spearman_macro": 0.2763
+    },
+    "Dense + BM25 (No Taxonomy)": {
+      "metrics": {
+        "ndcg@5": 0.7159,
+        "ndcg@10": 0.7314,
+        "mrr_th1": 0.8456,
+        "map_th1": 0.7947,
+        "p@5_th1": 0.6286,
+        "p@10_th1": 0.5786,
+        "mrr_th2": 0.792,
+        "map_th2": 0.6978,
+        "p@5_th2": 0.5357,
+        "p@10_th2": 0.475
+      },
+      "spearman_micro": 0.1706,
+      "spearman_macro": 0.294
+    },
+    "Taxonomy Rules Alone": {
+      "metrics": {
+        "ndcg@5": 0.6412,
+        "ndcg@10": 0.6816,
+        "mrr_th1": 0.761,
+        "map_th1": 0.7151,
+        "p@5_th1": 0.5926,
+        "p@10_th1": 0.5648,
+        "mrr_th2": 0.713,
+        "map_th2": 0.6461,
+        "p@5_th2": 0.512,
+        "p@10_th2": 0.4875
+      },
+      "spearman_micro": 0.1272,
+      "spearman_macro": 0.331
+    },
+    "Calibrated Hybrid (Dense+BM25+Tax)": {
+      "metrics": {
+        "ndcg@5": 0.7195,
+        "ndcg@10": 0.7438,
+        "mrr_th1": 0.8456,
+        "map_th1": 0.7951,
+        "p@5_th1": 0.6214,
+        "p@10_th1": 0.5893,
+        "mrr_th2": 0.8099,
+        "map_th2": 0.7071,
+        "p@5_th2": 0.5429,
+        "p@10_th2": 0.4964
+      },
+      "spearman_micro": 0.1844,
+      "spearman_macro": 0.3231
+    },
+    "Parameter-Free RRF + Taxonomy": {
+      "metrics": {
+        "ndcg@5": 0.7073,
+        "ndcg@10": 0.7439,
+        "mrr_th1": 0.8423,
+        "map_th1": 0.798,
+        "p@5_th1": 0.6071,
+        "p@10_th1": 0.5874,
+        "mrr_th2": 0.7899,
+        "map_th2": 0.7119,
+        "p@5_th2": 0.5286,
+        "p@10_th2": 0.5053
+      },
+      "spearman_micro": 0.1662,
+      "spearman_macro": 0.3343
+    },
+    "Cross-Encoder (ms-marco-MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.66,
+        "ndcg@10": 0.6715,
+        "mrr_th1": 0.8274,
+        "map_th1": 0.7173,
+        "p@5_th1": 0.6143,
+        "p@10_th1": 0.55,
+        "mrr_th2": 0.7351,
+        "map_th2": 0.6222,
+        "p@5_th2": 0.5071,
+        "p@10_th2": 0.4536
+      },
+      "spearman_micro": -0.0134,
+      "spearman_macro": 0.1626
+    },
+    "Ceiling: Oracle Ranking": {
+      "metrics": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "mrr_th1": 1.0,
+        "map_th1": 1.0,
+        "p@5_th1": 0.8286,
+        "p@10_th1": 0.7536,
+        "mrr_th2": 1.0,
+        "map_th2": 1.0,
+        "p@5_th2": 0.8071,
+        "p@10_th2": 0.7357
+      },
+      "spearman_micro": 0.9223,
+      "spearman_macro": 0.7915
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Maisam \nRaza \nSenior Android Developer \nI am a professional Android App Developer with great communication skills having more than 3 years of\nexperience developing sophisticated applications and tools using the highest quality standards and clean\ncode. \nmaisamraza1996@gmail.com \n03088722268 \nAllama Iqbal Town,Sialkot Road, GUJRANWALA.,\nGUJRANWALA, Pakistan \nlinkedin.com/in/maisam-raza-13275523b \nEDUCATION \nMatric \nScience Foundation High School \n01/2013 - 12/2015\n, \n \n75% \nIntermediate \nPunjab College \n01/2016 - 12/2017\n, \n \n70 % \nComputer science \nBSCS \nUniversity of Sargodha \n2017 - 2021\n, \n \n2.99 \nComputer science \nWORK EXPERIENCE \nAndroid Developer \nThe Hex Coders \n01/2019 - 01/2021\n, \n \nGujranwala \nContact \n:\n-\nMuhammad Ali \n+923066695564 \nSenior Android Developer \nThe Hex Coders \n01/2021 - Present\n, \n \nGujranwala \nContact \n:\n-\nMuhammad Ali \n+923066695564 \nSKILLS \nAndroid App Development \nFirebase \nMaps \nXML \nAndroid Studio \nOOP \nKotlin \nGoogle APIs \nFacebook APIs \nJava \nPERSONAL PROJECTS \nTouch Lock Screen: Child lock Baby screen lock App \nhttps://play.google.com/store/apps/details?\nid=the.hexstudios.touchdisable.touchlock \nVidPlay: Full HD Video Player \nhttps://play.google.com/store/apps/details?\nid=thehexstudio.vidplayer.xplayer.hdvideoplayer \nMPlayer: MP3 Music Player App \nhttps://play.google.com/store/apps/details?\nid=thehexstudiox.mplayer.mp3musicplayer.muzioplayer.audioplayer.\nmusicapps \nWhatsDelete: Recover Messages \nhttps://play.google.com/store/apps/details?\nid=the.hexcoders.whatsdelete \nORGANIZATIONS \nThe Hex Coders \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nCourses \nCourses ",
+        "macro_dict": {
+            "technical skills": 27,
+            "motivation and willingness to learn": 17,
+            "teamwork and collaboration": 33,
+            "communication skills": 23
+        },
+        "micro_dict": {
+            "matlab": 6,
+            "arduino ide": 32,
+            "proactive learning": 11,
+            "teamwork": 51
+        },
+        "additional_info": "Z-Tech Innovations prefers candidates with a demonstrated interest in STEM through participation in relevant projects and events. We are supportive of candidates pursuing higher education and offer flexible work schedules to accommodate studies. Relocation support is available for candidates living outside Lahore. Skills assessments will include practical tests using MATLAB and AutoCAD, as well as a panel interview focusing on teamwork and technical problem-solving abilities.",
+        "minimum_requirements": [
+            "Strong communication and teamwork skills",
+            "Proactive and willing to learn",
+            "Familiarity with Arduino IDE"
+        ],
+        "resume": "Maisam \nRaza \nSenior Android Developer \nI am a professional Android App Developer with great communication skills having more than 3 years of\nexperience developing sophisticated applications and tools using the highest quality standards and clean\ncode. \nmaisamraza1996@gmail.com \n03088722268 \nAllama Iqbal Town,Sialkot Road, GUJRANWALA.,\nGUJRANWALA, Pakistan \nlinkedin.com/in/maisam-raza-13275523b \nEDUCATION \nMatric \nScience Foundation High School \n01/2013 - 12/2015\n, \n \n75% \nIntermediate \nPunjab College \n01/2016 - 12/2017\n, \n \n70 % \nComputer science \nBSCS \nUniversity of Sargodha \n2017 - 2021\n, \n \n2.99 \nComputer science \nWORK EXPERIENCE \nAndroid Developer \nThe Hex Coders \n01/2019 - 01/2021\n, \n \nGujranwala \nContact \n:\n-\nMuhammad Ali \n+923066695564 \nSenior Android Developer \nThe Hex Coders \n01/2021 - Present\n, \n \nGujranwala \nContact \n:\n-\nMuhammad Ali \n+923066695564 \nSKILLS \nAndroid App Development \nFirebase \nMaps \nXML \nAndroid Studio \nOOP \nKotlin \nGoogle APIs \nFacebook APIs \nJava \nPERSONAL PROJECTS \nTouch Lock Screen: Child lock Baby screen lock App \nhttps://play.google.com/store/apps/details?\nid=the.hexstudios.touchdisable.touchlock \nVidPlay: Full HD Video Player \nhttps://play.google.com/store/apps/details?\nid=thehexstudio.vidplayer.xplayer.hdvideoplayer \nMPlayer: MP3 Music Player App \nhttps://play.google.com/store/apps/details?\nid=thehexstudiox.mplayer.mp3musicplayer.muzioplayer.audioplayer.\nmusicapps \nWhatsDelete: Recover Messages \nhttps://play.google.com/store/apps/details?\nid=the.hexcoders.whatsdelete \nORGANIZATIONS \nThe Hex Coders \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nCourses \nCourses "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

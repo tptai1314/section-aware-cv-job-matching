@@ -1,0 +1,153 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not meet the minimum requirement of a Bachelor's degree in Electrical Engineering or a related field; the candidate has a Commerce background.",
+            "The candidate has no relevant experience in electronic circuit design or embedded systems; the experience is in accounting and finance.",
+            "No technical leadership roles are present in the resume; the candidate has a managerial role in accounting, not in technical leadership for electronics.",
+            "No relevant skills such as PCB Design, Team Management, or technical expertise in electronics are present in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "experience",
+                    "score": 1
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "pcb design",
+                    "score": 0
+                },
+                {
+                    "criteria": "team management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Electrical Engineering or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven expertise in electronic circuit design and embedded systems",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of experience in technical leadership roles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.26,
+                "micro_scores": 0.21
+            }
+        },
+        "personal_info": {
+            "name": "Mohsin Mumtaz",
+            "email": "Mohsinmumtaz9@gmail.com",
+            "phone": "0304-4910502",
+            "current_position": "Deputy Manager Accounts",
+            "current_company": "Madina Auto Industries (PVT LTD)",
+            "employment_start_date_current_company": "12-2017",
+            "first_company_start_date": "12-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Team Lead - Electronics Engineering\n\n**Location**: [Fictional City], [Country]\n\n**Company Overview**:\nJoin **ElectroInnovate Technologies**, a leading firm committed to driving excellence in electronic systems innovation. We are seeking a dynamic leader to join our engineering department as a Team Lead, where you will play a crucial role in steering our technical teams and spearheading strategic initiatives.\n\n**Key Responsibilities**:\n- Lead and oversee the engineering department's strategic initiatives to ensure optimal performance.\n- Coordinate entire project elements, including design, quality planning, and installation.\n- Ensure efficient resource allocation and consistently deliver successful projects.\n- Foster a collaborative, innovative, and inclusive team environment.\n- Provide high-level strategic direction and mentorship to engineering teams.\n- Develop and implement effective operational strategies to improve quality of work and team efficiency.\n\n**Key Skills**:\n- Advanced electronic circuit and PCB design skills.\n- Strong leadership and team management capabilities.\n- Excellent communication and interpersonal skills essential for strategic collaboration.\n- Solid understanding of embedded systems and applications.\n- Proficiency in state-of-the-art engineering software and methods.\n\n**Why Join Us?**\n- Work in a challenging yet rewarding environment focused on innovation and continuous learning.\n- Collaborate with a talented team committed to achieving technological excellence.\n- Competitive salary and benefits package, along with opportunities for career advancement.\n\n**Employment Type**: Full-Time\n\n**Contact Information**: careers@electroinnovate.com",
+        "macro_dict": {
+            "leadership": 46,
+            "experience": 34,
+            "technical expertise": 20
+        },
+        "micro_dict": {
+            "pcb design": 93,
+            "team management": 7
+        },
+        "additional_info": "At ElectroInnovate Technologies, we value candidates from top engineering universities globally. We support relocation for the right candidates and offer comprehensive onboarding programs. All candidates undergo a rigorous interview process, including technical assessments and behavioral interviews to ensure a perfect fit for our team.",
+        "minimum_requirements": [
+            "Bachelor's degree in Electrical Engineering or related field",
+            "Proven expertise in electronic circuit design and embedded systems",
+            "10+ years of experience in technical leadership roles"
+        ],
+        "resume": " \n \n \n \n \nMOHSIN MUMTAZ  \nACCOUNTING & FINANCE  \n \n  SUMMARY   \n \nI have passed the degree of M.com (Accounting and finance) from Lahore Garrison \nUniversity, Lahore in 2017. I secured 1st Division in B.Com. I have training \nworkshops/courses in SAP Financial & Cost Accounting (end user training module), \nAdvance Excel& Proficiency in English  language.  \n \n  EXPERIENCE   \n \n \n \n \n \n \nAs an organized and highly creative and \nmotivated individual, I love the challenges \nof working within a dynamic and fast \npaced working environment. The \nexperiences I encountered and knowledge \ngained throughout my life has shape d my \nability to adapt quickly, work efficiently, \nthink creatively and work effectively as \npart of a team or on my  own.  \n \n  DATE OF BIRTH   \n \nMay 10, 1995  \n \n \n  SKILLS   \nWORK  \n  \n \nPERSONAL  Madina Auto Industries (PVT LTD)  \nDeputy  Manager  Accounts ( Dec -17 to June -21) \nJob Respons ibilities:  \n\u2013 To keep record of all payables and receivables & verify  all \nexpenses.  \n\u2013 Party\u2019s reconciliation  statement.  \n\u2013 Bank reconciliation  statement.  \n\u2013 Maintain stock production, dispatch and reconciliation report and daily and \nmonthly  bases.  \n\u2013 Review & Recording business transactions in  computerized  \nsoftware.  \n\u2013 Maintain day to day Accounts & reporting up to  date.  \n\u2013 Prepare income  statement.  \n\u2013 Assistance in annual  budget.  \n\u2013 Monitoring invoicing, payment and recovery.  \n\u2013 Assist with financial  issues.  \n\u2013 Contributing in ERP implementation (GRN Goods Received Note.  \n\u2013 Maintain & prepare different reports as and when  required.  \n\u2013 Complete other duties as assigned.  \n\u2013 Having experience of Tally ERP .9 and Peachtree Accounting Software.  \n\u2013 P&l closing entries  \n\u2013 Landed cost of shipment  \n\u2013 Preparation of overtime & salary sheet  \n\u2013 Physically stock valuation  \n\u2013 Shortage of stock  \n\u2013 Payable and receive able reconciliation.  \n\u2013 Calculation of direct and indirect expenses.  \n \n \nInternship at MCB Bank Limited  \nAccount s & Finance Budgeting ( RBG) (july-17 to Aug -17) \n \nJob Responsibilities  \nForecasting and budgeting.  \n\u2013 Data  Analysis  \n\u2013 Preparing of presentations in PowerPoint  \n\u2013 Graphic representation in MS Excel  MS OFFICE  \nQUICKBOOKS  \nUSE OF INTERNET  \n \nm \nr \nABOUT ME  Muhala Madni Colony \nSargodha Road Jhang Sada  0304 -4910502  Mohsinmumtaz9@gmail.co  \nCOMMUNICATION  \nTIME MANAGEMENT \nTEAM PLAYER    CO-CURRICULARS   \n \nWatching Movies   \n  EDUCATION   \nMASTER IN COMMERCE (M.Com)  \nLahore Garrison (2015 -2017)  \nI did M.com from Lahore Garrison University with CGPA 3.5.  \n \nBACHELOR IN COMMERCE (B.Com)  \nUNIVERSITY  OF PUNJAB  (2013 -2015)  \nI have completed my B.Com from University of Punjab with 1st Division.  \n \nI.Com  \nBISE  Lahore  (2011 -2013)  \nI did I.com from BISE Lahore, securing with 1st Division.  \n \nMatriculation ( Computer Science)  \nBISE  Lahore  (2009 -2011)  \nI have completed metric by securing 60% marks.  \n \n \n  PROFESSIONAL  CERTIFICATES/COURSES   \n \nADVANCE EXCEL  \n\u2013 Advance Excel:  Practiced to apply V -lookup, H-lookup, If, count -\nif, Data Validation, Conditional Formatting, Auto Fills, \nConnecting  of \nSheets, Pivot Table etc.  \n "
+    },
+    "details": {
+        "name": "Mohsin Mumtaz",
+        "number": "03044910502",
+        "skills": [
+            "SAP Financial & Cost Accounting",
+            "Advance Excel",
+            "Tally ERP .9",
+            "Peachtree Accounting Software",
+            "MS Office",
+            "QuickBooks"
+        ],
+        "email_id": "mohsinmumtaz9@gmail.com",
+        "location": "Muhala Madni Colony, Sargodha Road, Jhang Sada",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2017",
+                "university": "Lahore Garrison University",
+                "degree_title": "Master in Commerce (M.Com)"
+            },
+            {
+                "end_date": "05-2015",
+                "university": "University of Punjab",
+                "degree_title": "Bachelor in Commerce (B.Com)"
+            },
+            {
+                "end_date": "05-2013",
+                "university": "BISE Lahore",
+                "degree_title": "I.Com"
+            },
+            {
+                "end_date": "05-2011",
+                "university": "BISE Lahore",
+                "degree_title": "Matriculation (Computer Science)"
+            }
+        ],
+        "achievements": [
+            "Secured 1st Division in B.Com",
+            "CGPA 3.5 in M.Com"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Advance Excel",
+                "issuing_organization": "Self-Study",
+                "date_of_issuance": "01-2017"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Mohsin Mumtaz is a dedicated accounting and finance professional with a Master's degree in Commerce and extensive experience in financial management and accounting software. He has demonstrated proficiency in SAP Financial & Cost Accounting, Advance Excel, and various accounting software, contributing to effective financial operations in his roles.",
+        "employment_history": [
+            {
+                "details": "To keep record of all payables and receivables & verify all expenses, prepare income statement, assist with financial issues, and contribute in ERP implementation.",
+                "end_date": "06-2021",
+                "location": "Madina Auto Industries (PVT LTD)",
+                "job_title": "Deputy Manager Accounts",
+                "start_date": "12-2017",
+                "company_name": "Madina Auto Industries (PVT LTD)"
+            },
+            {
+                "details": "Forecasting and budgeting, data analysis, preparing presentations in PowerPoint, and graphic representation in MS Excel.",
+                "end_date": "08-2017",
+                "location": "MCB Bank Limited",
+                "job_title": "Intern",
+                "start_date": "07-2017",
+                "company_name": "MCB Bank Limited"
+            }
+        ]
+    }
+}

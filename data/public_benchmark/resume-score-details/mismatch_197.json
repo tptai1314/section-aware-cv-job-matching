@@ -1,0 +1,204 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not showcase any relevant experience in business development or leadership roles as required by the job description.",
+            "The candidate has strong skills in AI/ML and programming but lacks experience in sales and negotiation processes needed for the role.",
+            "The job description calls for business analytics, which the candidate's technical skills do not explicitly cover.",
+            "There is no demonstrated proficiency in business analytics tools or digital marketing strategies mentioned in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 0
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 0.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "HASHIM MAHMOOD",
+            "email": "hashimqureshi2602@gmail.com",
+            "phone": "03089443586",
+            "current_position": "Machine Learning Intern",
+            "current_company": "VisionX Technologies Pvt. Ltd.",
+            "employment_start_date_current_company": "07-2024",
+            "first_company_start_date": "07-2024",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/hashim-mhmd"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 10,
+            "business development experience": 90
+        },
+        "micro_dict": {
+            "negotiation": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Proficiency in business analytics and digital strategy",
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": "HASHIM MAHMOOD  \nAI/ML ENGINEER  \n  hashimqureshi2602@gmail.com      03089443586       www.linkedin.com/in/hashim -mhmd        Rawalpindi, Pakistan  \nPROFESSIONAL SUMMARY  \n \nExperienced AI/ML Engineer with a strong background in developing and deploying machine learning models and AI -driven \nsolutions. Proficient in a wide range of techniques, including natural language processing, deep learning, and API \ndevelopment. Committed to leveraging technology to solve complex problems and deliver innovative solutions.  \nEDUCATION  \n \n2020 \u2013 2024 \nIslamabad, Pakistan  BS Computer Science  \nNational Univer sity o f Sciences and Technology ( NUST ) \u2013 H-12 \n2018 \u2013 2020 \nRawalpindi, Pakistan  FSc. Pre-Engineering  \nF.G. Sir Syed College , The Mall , Rawalpindi  \n \nPROFESSIONAL EXPERIENCE  \n \nJuly 2024  \u2013 Present  \nIslamabad, Pakistan  Machine Learning Intern  \nVisionX Technologies  Pvt. Ltd.   \n \nAutomated Data Extraction from Railroad Tariff Documents  \n\u2022 Implemented a Large Language Model (LLM) solution  using the LLaMA 3.1 70b Instruct \nmodel to extract structured data from complex, multi -format PDF railroad tariff \ndocuments.  \n\u2022 Applied One -Shot and Few -Shot Learning  strategies to improve the model's ability to \nrecognize and extract relevant data points across varying document formats.  \n\u2022 Achieved accurate data extraction  in JSON format, which streamlined data processing \nworkflows and reduced manual data entry time by  96% . \n \nAI-Powered Chatbot Development  \n\u2022 Developed a chatbot  for the company website using the Gemini API  to answer customer \nqueries efficiently.  \n\u2022 Utilized prompt engineering  techniques to fine -tune the chatbot's responses based on \ncompany -specific textual data . \n\u2022 Created a REST API  for the chatbot using Flask . \n \nDocument Information Extraction using LayoutLMv3  \n\u2022 Fine -tuned LayoutLMv3  to extract key -value pairs from complex document layouts, \nimproving the model's ability to accurately interpret and structure data from forms and \nsemi -structured documents.  \n\u2022 Enhanced document processing workflows  by automating the extraction of critical \ninformation , reducing manual effort and increasing the accuracy of data capture.  \n \n \n \n \n \n \n SKILLS  \n \n\u2022 Programming Languages : Python,  C/C++, JavaScript  \n\u2022 Frameworks and Libraries : TensorFlow, PyTorch, Scikit -learn, Keras,  PyMUPDF4LLM , Darts, Pandas, NumPy , \nMatplotlib, Seaborn,  Beautiful Soup , Flas k \n\u2022 Machine Learning Techniques : Supervised/Unsupervised Learning , Transfer Learning  \n\u2022 Deep Learning : Neural Networks, CNNs, RNNs, LSTM, GRU , seq2se q models, U-Net, ResN et \n\u2022 Generative AI : Lang Chain,  Retrieval Augmented Generation , Vector Databases , LLaMA  3 & 3.1, Google Gemini  \n\u2022 NLP: BERT, GPT, LLMs, Transformer Models, Spacy , NLTK , OCR, Tesseract   \n\u2022 Data Processing : Pandas, NumPy, Data Cleaning, Data Augmentation , Exploratory  Data Analysis , Feature \nEngineering, Feature Selection and Extraction   \n\u2022 Model Deployment : Flask, REST APIs , Streamlit , AWS  \n\u2022 Tools and Platforms : Jupyter, Git  \n\u2022 Database Management : SQL,  MongoDB  \n\u2022 Data Visualization : Matplotlib, Seaborn, Plotly  \n \nPROJECTS  \n \nPortfolio Link  \nTIMEVISTA \u2013 Climate  Impact  Assessment  on Agriculture   \n\u2022 A Multivariate Time series F orecasting  project that utilizes Deep Learning to combine Agricultural Weather \nPrediction, Crop Yield Forecasting and Smog Prediction through Dynamic Map Interfaces.  \n\u2022 Leveraging Long Short -Term Memory (LSTM) networks  and Tr ansformers , climate and crop variables from historical \ndata spanning over four decades were forecasted . (PyTorch, Darts, Pandas, Matplotlib, Seaborn, NumPy , React.js, \nNode.js, Express.js, MongoDB, Vercel)  \nDecision Support System for Celiac Disease Identification  \n\u2022 Used Random Forests, S upport Vector Machines  and Multilayer Perceptron  to perfo rm classification tas k. (Scikit -\nlearn, Pandas, NumPy ) \nMunafa.ai  \n\u2022 An AI based stock predictor that makes optimized investment decisions for maximum returns. (Feature Engineering, \nEnsemble Learning, Neural Networks ) \nCOURSES  \n \nGoogle Cloud Big Data and Machine Learning Fundamentals by Google Cloud  \n\u2022 Explored  BigQuery, Apache Beam, Cloud Dataflow, Looker Studio, VertexAI, AutoML  \n \nModernizing Data Lakes and Data Warehouses with Google Cloud by Google Cloud  \n\u2022 Explored  Google Cloud Platform, BigQuery, Data & ML lifecycle  \n \nSequence Models  by DeepLearni ng.AI \n\u2022 Explored  deep learning models for sequence -to-sequence  tasks like RNNs and its variants.  "
+    },
+    "details": {
+        "name": "Hashim Mahmood",
+        "number": "03089443586",
+        "skills": [
+            "Python",
+            "C/C++",
+            "JavaScript",
+            "TensorFlow",
+            "PyTorch",
+            "Scikit-learn",
+            "Keras",
+            "PyMUPDF4LLM",
+            "Darts",
+            "Pandas",
+            "NumPy",
+            "Matplotlib",
+            "Seaborn",
+            "Beautiful Soup",
+            "Flask",
+            "Supervised Learning",
+            "Unsupervised Learning",
+            "Transfer Learning",
+            "Neural Networks",
+            "CNNs",
+            "RNNs",
+            "LSTM",
+            "GRU",
+            "seq2seq models",
+            "U-Net",
+            "ResNet",
+            "Lang Chain",
+            "Retrieval Augmented Generation",
+            "Vector Databases",
+            "LLaMA 3",
+            "LLaMA 3.1",
+            "Google Gemini",
+            "BERT",
+            "GPT",
+            "LLMs",
+            "Transformer Models",
+            "Spacy",
+            "NLTK",
+            "OCR",
+            "Tesseract",
+            "Data Cleaning",
+            "Data Augmentation",
+            "Exploratory Data Analysis",
+            "Feature Engineering",
+            "Feature Selection",
+            "Feature Extraction",
+            "Model Deployment",
+            "REST APIs",
+            "Streamlit",
+            "AWS",
+            "Jupyter",
+            "Git",
+            "SQL",
+            "MongoDB",
+            "Plotly"
+        ],
+        "email_id": "hashimqureshi2602@gmail.com",
+        "location": "Rawalpindi, Pakistan",
+        "projects": [
+            {
+                "title": "TIMEVISTA \u2013 Climate Impact Assessment on Agriculture",
+                "description": "A Multivariate Time series Forecasting project that utilizes Deep Learning to combine Agricultural Weather Prediction, Crop Yield Forecasting and Smog Prediction."
+            },
+            {
+                "title": "Decision Support System for Celiac Disease Identification",
+                "description": "Used Random Forests, Support Vector Machines and Multilayer Perceptron to perform classification task."
+            },
+            {
+                "title": "Munafa.ai",
+                "description": "An AI based stock predictor that makes optimized investment decisions for maximum returns."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "National University of Sciences and Technology (NUST)",
+                "degree_title": "BS Computer Science"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "F.G. Sir Syed College",
+                "degree_title": "FSc. Pre-Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Google Cloud Big Data and Machine Learning Fundamentals",
+                "issuing_organization": "Google Cloud",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Modernizing Data Lakes and Data Warehouses with Google Cloud",
+                "issuing_organization": "Google Cloud",
+                "date_of_issuance": "02-2023"
+            },
+            {
+                "certification_name": "Sequence Models",
+                "issuing_organization": "DeepLearning.AI",
+                "date_of_issuance": "03-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hashim-mhmd",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hashim Mahmood is an experienced AI/ML Engineer with a robust background in developing and deploying machine learning models and AI-driven solutions. He is proficient in various techniques, including natural language processing, deep learning, and API development, and is dedicated to leveraging technology to address complex challenges and deliver innovative solutions.",
+        "employment_history": [
+            {
+                "details": "Automated Data Extraction from Railroad Tariff Documents using LLM, developed AI-powered chatbot, and fine-tuned LayoutLMv3 for document information extraction.",
+                "end_date": "Present",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Machine Learning Intern",
+                "start_date": "07-2024",
+                "company_name": "VisionX Technologies Pvt. Ltd."
+            }
+        ]
+    }
+}

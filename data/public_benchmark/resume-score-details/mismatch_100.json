@@ -1,0 +1,127 @@
+{
+    "output": {
+        "justification": [
+            "Leadership skills evident from role as Team Lead in Business Development.",
+            "Relevant experience in business development through roles on Upwork and Fiverr aligning with job description responsibilities.",
+            "Lack of specific data analysis tools requested which impacts proficiency scoring.",
+            "Education field related but not directly aligned with Business Administration requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.24,
+                "micro_scores": 4.0
+            }
+        },
+        "personal_info": {
+            "name": "Ahmad Ali",
+            "email": "malikmuhammedahmedijaz@gmail.com",
+            "phone": "0306-4403320",
+            "current_position": "Data Analyst and Research Associate",
+            "current_company": "Xeven Solutions",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "10-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 49,
+            "business development experience": 26,
+            "strategic planning": 25
+        },
+        "micro_dict": {
+            "data analysis": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Upwork Bidding\nFiverr\nLead GenerationProposal Writing\nAccount Management\nRequirement GatheringGenerate business through online portals like Upwork, and Fiverr.\nFind the right jobs and write proposals for them and overseeing the\nteam proposals.\nAnalyze client requirements and provide appropriate bidding\nsolutions\nRetain records of customer information and sales as well as regular\ncommunication with current clients.\nManaging relationships with clients throughout the engagement to\nensure their satisfaction and identify opportunities for additional\nwork.\nDefined business development strategies and operational plans\nConducted market research and analysis to identify business\nopportunitiesAHMAD ALI\nEmail\nAddressPhone\n0306-4403320\nmalikmuhammedahmedijaz@gmail.com\nHouse # 34/A Street # 5 M7 - Block B\nLake City, Lahore, Pakistan CONTACT\nEDUCATION\nLANGUAGEPunjab University  \nSuperior University Bachelor Of Computer Science \n2017 - 2019\nEnglish\nUrduPROFILE INFO\nMY SKILLS & EXPERTISEWORK EXPERIENCE\nXeven Solutions\nData Analyst and Research AssociateAugust 2021 - Present\nApril 2021- July 2021I have completed my Master's in Computer\nScience and have been working as a Team Lead\nBusiness Development. I have gained significant\nexperience in Upwork Bidding, Fiverr, and Lead\nGeneration and have developed excellent\nteamwork and leadership skills. I am a self-starter\nand have the ability to work independently with\nlittle supervision. I am also an excellent\ncommunicator and have superb interpersonal\nskills\nCrecenTech\nElectronic Security OperatorOct 2019 - April 2021 Raaziq InternationalTEAM LEAD BUSINESS DEVELOPMENT\nMaster Of Computer Science \n2020 - 2022"
+    },
+    "details": {
+        "name": "AHMAD ALI",
+        "number": "03064403320",
+        "skills": [
+            "Data Analysis",
+            "Research",
+            "Upwork Bidding",
+            "Fiverr",
+            "Lead Generation",
+            "Business Development"
+        ],
+        "email_id": "malikmuhammedahmedijaz@gmail.com",
+        "location": "House # 34/A Street # 5 M7 - Block B Lake City, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "07-2019",
+                "university": "Punjab University",
+                "degree_title": "Bachelor Of Computer Science"
+            },
+            {
+                "end_date": "07-2022",
+                "university": "Superior University",
+                "degree_title": "Master Of Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Ahmad Ali is a skilled data analyst and research associate with a strong background in computer science. He has extensive experience in business development, particularly in online platforms such as Upwork and Fiverr, showcasing his technical expertise in data analysis and lead generation.",
+        "employment_history": [
+            {
+                "details": "Working as a Data Analyst and Research Associate, responsible for analyzing data and conducting research to support business decisions.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Data Analyst and Research Associate",
+                "start_date": "08-2021",
+                "company_name": "Xeven Solutions"
+            },
+            {
+                "details": "Led business development efforts, focusing on client engagement and proposal writing to secure projects.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Team Lead Business Development",
+                "start_date": "04-2021",
+                "company_name": "CrecenTech"
+            },
+            {
+                "details": "Operated electronic security systems and ensured their functionality and reliability.",
+                "end_date": "04-2021",
+                "location": "",
+                "job_title": "Electronic Security Operator",
+                "start_date": "10-2019",
+                "company_name": "Raaziq International"
+            }
+        ]
+    }
+}

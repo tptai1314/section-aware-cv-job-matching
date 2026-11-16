@@ -1,0 +1,189 @@
+{
+    "output": {
+        "justification": [
+            "Leadership: Hafsa has experience leading multiple teams including recruitment and project teams, indicating strong leadership skills.",
+            "Strategic Planning: Her experience with data solutions and sales campaigns suggests involvement in strategic planning, although not explicitly stated.",
+            "Proposal Writing: Not mentioned in the resume, making it hard to evaluate this skill.",
+            "Digital Marketing: Mentioned as a skill in her resume, backed by her involvement in marketing automation and sales campaigns.",
+            "5+ years of experience in business development or sales management: Hafsa's extensive experience at Odetta.ai aligns with the role, surpassing the requirement.",
+            "Strong analytical and strategic planning skills: Demonstrated through her roles involving data solutions and analytics.",
+            "Proficiency in CRM tools like Salesforce or HubSpot: Although CRM is listed as a skill, specific tools aren't explicitly mentioned.",
+            "Bachelor's degree in Business Administration or related field: Hafsa is currently pursuing an MBA, which implies a bachelor's degree."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "proposal writing",
+                    "score": 0
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.97,
+                "micro_scores": 3.64
+            }
+        },
+        "personal_info": {
+            "name": "Hafsa Naeem",
+            "email": "hafsa.naeem1024@gmail.com",
+            "phone": "+92 307 7089974",
+            "current_position": "Business Development",
+            "current_company": "Odetta.ai",
+            "employment_start_date_current_company": "11-2018",
+            "first_company_start_date": "11-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/hafsanaeem92"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 97,
+            "strategic planning": 3
+        },
+        "micro_dict": {
+            "proposal writing": 48,
+            "digital marketing": 52
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales management",
+            "Strong analytical and strategic planning skills",
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Hafsa Naeem \nBusiness Development\nProfessional \nDynamic BD Professional with a growth mindset\n& B2B expertise across US tech startups \nhafsa.naeem1024@gmail.com \n+92 307 7089974 \nLahore, Pakistan \nlinkedin.com/in/hafsanaeem92 \nWORK EXPERIENCE \nBusiness Development \nOdetta.ai \n11/2018 - Present\n, \n \nLahore, Pakistan \nOdetta is a US-based online outsourcing platform with a mission to empower\nwomen across MESA \nWorking with U.S. tech industry leaders across several sectors, such\nas Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce &\nVCs \nSelling data solutions like lead generation, data annotation,\nmarketing automation, candidate sourcing & more \nClosing deals with Fortune 500 U.S. companies and growing our\nclient base from 35 to 150+ in 2020-2021 \nRecruitment Lead \nOdetta.ai \n03/2019 - 12/2021\n, \n \nLahore, Pakistan \nOdetta ranks #25 on Forbes Best U.S. Startup Employers in 2022,\nunder my leadership \nLead recruitment drives; exploring, shortlisting & interviewing top\ntier talent from the entire MESA region \nMentoring and coaching our team \nLead Virtual Assistant \nOdetta.ai \n05/2019 - 12/2020\n, \n \nLahore, Pakistan \nFirst employee to be promoted to VA role \nLead a team of 2 VAs for our CEO \nQuality Controller/Project Manager \nOdetta.ai \n12/2018 - 12/2020\n, \n \nLahore, Pakistan \nLead a team of 15-20 people for data collection/enrichment\nprojects for US Venture Capital \ufb01rms \nManaged data categorization projects for software companies \nLead a team of 50 annotators for data annotation projects of AI\ncompanies \nRan sales campaigns & CRM for startups in healthcare, aerospace,\n\ufb01ntech, and advisory \ufb01rms \nEDUCATION \nMasters of Business Administration \nNational University of Computer and Emerging\nSciences \n09/2021 - Present\n, \n \nLahore, Pakistan \nMarketing \nBusiness Analytics \nSKILLS \nProject Management \nPower BI \nLeadership \nDigital Marketing \nCRM \nCold Outreach \nLead Generation \nCandidate Sourcing \nB2B Sales \nACHIEVEMENTS \nStar Employee \nOnly Employee at Odetta to be a Sales Lead, First VA, VA\nLead & Recruitment Lead for 2 years \nCERTIFICATES \nBusiness Analysis Foundations: Competencies\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nBusiness Analytics: Sales Data\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nDecision-Making Strategies\n (07/2022 - Present)\n \nIssued by National Association of State Boards of\nAccountancy \nData Analytics for Business Professionals\n (07/2022 - Present)\n \nIssued by LinkedIn Learning \nPERSONAL PROJECT \nYouth Tech\n (10/2021 - Present)\n \nCo-Founder & Business Advisor @ Youth Tech, a growing\nstartup o\ufb00ering outsourcing solutions to tech companies. \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nINTERESTS \nData Analytics \nEntrepreneurship \nBusiness Mentoring \nPhotography \nHealth & Fitness \nTech & Innovation \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Hafsa Naeem",
+        "number": "923077089974",
+        "skills": [
+            "Project Management",
+            "Power BI",
+            "Digital Marketing",
+            "CRM",
+            "Cold Outreach",
+            "Lead Generation",
+            "Candidate Sourcing",
+            "B2B Sales"
+        ],
+        "email_id": "hafsa.naeem1024@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Youth Tech",
+                "description": "Co-Founder & Business Advisor @ Youth Tech, a growing startup offering outsourcing solutions to tech companies."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "Present",
+                "university": "National University of Computer and Emerging Sciences",
+                "degree_title": "Masters of Business Administration"
+            }
+        ],
+        "achievements": [
+            "Star Employee - Only Employee at Odetta to be a Sales Lead, First VA, VA Lead & Recruitment Lead for 2 years"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Business Analysis Foundations: Competencies",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Business Analytics: Sales Data",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Decision-Making Strategies",
+                "issuing_organization": "National Association of State Boards of Accountancy",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Data Analytics for Business Professionals",
+                "issuing_organization": "LinkedIn Learning",
+                "date_of_issuance": "07-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hafsanaeem92",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hafsa Naeem is a dynamic business development professional with extensive B2B expertise across US tech startups. She has a proven track record in driving growth and managing client relationships, particularly in the tech industry. Her leadership roles at Odetta.ai highlight her ability to lead teams and close significant deals with Fortune 500 companies.",
+        "employment_history": [
+            {
+                "details": "Working with U.S. tech industry leaders across several sectors, such as Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce & VCs. Selling data solutions like lead generation, data annotation, marketing automation, candidate sourcing & more. Closing deals with Fortune 500 U.S. companies and growing our client base from 35 to 150+ in 2020-2021.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development",
+                "start_date": "11-2018",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead recruitment drives; exploring, shortlisting & interviewing top tier talent from the entire MESA region. Mentoring and coaching our team.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Recruitment Lead",
+                "start_date": "03-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "First employee to be promoted to VA role. Lead a team of 2 VAs for our CEO.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Lead Virtual Assistant",
+                "start_date": "05-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead a team of 15-20 people for data collection/enrichment projects for US Venture Capital firms. Managed data categorization projects for software companies. Lead a team of 50 annotators for data annotation projects of AI companies. Ran sales campaigns & CRM for startups in healthcare, aerospace, fintech, and advisory firms.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Quality Controller/Project Manager",
+                "start_date": "12-2018",
+                "company_name": "Odetta.ai"
+            }
+        ]
+    }
+}

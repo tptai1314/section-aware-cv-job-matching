@@ -1,0 +1,184 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has shown leadership potential through their experience in managing LinkedIn and client management, although not directly leading a team of business development executives.",
+            "Their experience spans 2.5 years in business development roles, which is less than the 5+ years required, impacting the score on experience.",
+            "Proficient in Microsoft Office, which aligns well with the job requirement for planning and reporting tasks.",
+            "Negotiation and strategic thinking expertise is not explicitly highlighted in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 8
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 4
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 3
+                },
+                {
+                    "criteria": "account management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.32,
+                "micro_scores": 5.2
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Adnan",
+            "email": "sheikhadna.ali@gmail,com",
+            "phone": "+92 3234600859",
+            "current_position": "Business Development Executive",
+            "current_company": "Triaxo Solutions",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "11-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "None"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 5,
+            "experience": 22,
+            "strategic thinking": 73
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 36,
+            "sales process management": 40,
+            "negotiation skills": 14,
+            "account management": 10
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office Suite",
+            "Strong negotiation and strategic thinking skills",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "5+ years of experience in business development or a related role",
+            "Proven track record in managing complex sales cycles"
+        ],
+        "resume": "Lahore  \n \n \n \n \n \n \nSummery:  \nI am a proactive and achievement -oriented Business Development Specialist with 2.5 years of \npractical  experience in cultivating business across various domains, encompassing digital \nmarketing, web development, and both web and mobile app development.  I specialize in \nrecognizing prospects, establishing strategic alliances, and nurturing client connections to \nstimulate revenue expansion.  I am dedicated to utilizing my expertise and background to enhance \nyour organization's ongoing prosperity.  \nExperience:  \n \nTriaxo Solutions                               (June 2022 to Present ) \nBusiness Development Executive  \nCore Responsibilities:  \n\uf0b7 LinkedIn Management  \n\uf0b7 Direct Sales  \n\uf0b7 Staff Augmentation  \n\uf0b7 Data Extraction  \n\uf0b7 Email Marketing  \n\uf0b7 B2B lead generation  \n\uf0b7 Upwok Biding  \n\uf0b7 Client Management  \n \nIverx Solutions                                 (November 2021 to June 2022)  \nBusiness Development Executive  \nCore Responsibilities:  \n\uf0b7 Staff Augmentation  \n\uf0b7 LinkedIn Lead Generation  \n\uf0b7 Lead extraction from other platform like (Angel list, Glassdoor, Dice, Workable, etc)  \n\uf0b7 Upwork Management  \n \nSuperior/Tektiks                              (November 2020 to November 2 021) \nLead Extractor/Business Development  \nCore Responsibilities:  \n\uf0b7 Lead extraction  \n\uf0b7 B2B email Marketing  \n\uf0b7 Upwork biding  \n \n \nMuhammad Adnan  \nEmail : sheikhadna.ali@gmail,com  \nMobile Number:  +92 3234600859  \nAddress: 109 Neelam Block  Allama Iqbal Town Lahore  PERSONAL  INFORMATION  \n\uf0b7 Name  Muhammad Adnan  \n\uf0b7 M-status  Single  \n\uf0b7 Date  of birth  08-06-2000  \n\uf0b7 Nationality  Pakistan  \n\uf0b7 Religion  Islam  \n \n \nSkills Highlights  \n \n\uf0b7 LinkedIn  \n\uf0b7 Sales Navigator  \n\uf0b7 Email Marketing  \n\uf0b7 B2B Lead Generation  \n\uf0b7 Direct Sales  \n\uf0b7 Upwork  \n\uf0b7 PPH \n\uf0b7 Microsoft Office  \n \nEducation  \n\uf0b7 DEGREE  YEAR  \n\uf0b7 Masters             2022  \n\uf0b7 B.com IT          2020  \n\uf0b7 Intermediate     2017  \n\uf0b7 Matriculation    2015 \n \nLANGUAGE  \n \n\uf0b7 ENGLISH  \n\uf0b7 URDU  \n\uf0b7 PUNJABI  \n\uf0b7 ARABIC  \n \nHobbies  \n\uf0b7 Traveling  \n\uf0b7 Music  \n\uf0b7 Cooking  \n\uf0b7 Reading  "
+    },
+    "details": {
+        "name": "Muhammad Adnan",
+        "number": "923234600859",
+        "skills": [
+            "LinkedIn",
+            "Sales Navigator",
+            "Email Marketing",
+            "B2B Lead Generation",
+            "Direct Sales",
+            "Upwork",
+            "PPH",
+            "Microsoft Office"
+        ],
+        "email_id": "sheikhadna.ali@gmail.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2022",
+                "university": "Not specified",
+                "degree_title": "Masters"
+            },
+            {
+                "end_date": "2020",
+                "university": "Not specified",
+                "degree_title": "B.com IT"
+            },
+            {
+                "end_date": "2017",
+                "university": "Not specified",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "2015",
+                "university": "Not specified",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Adnan is a proactive and achievement-oriented Business Development Specialist with 2.5 years of practical experience in cultivating business across various domains, including digital marketing, web development, and both web and mobile app development. He specializes in recognizing prospects, establishing strategic alliances, and nurturing client connections to stimulate revenue expansion.",
+        "employment_history": [
+            {
+                "details": "LinkedIn Management, Direct Sales, Staff Augmentation, Data Extraction, Email Marketing, B2B lead generation, Upwork Bidding, Client Management",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "06-2022",
+                "company_name": "Triaxo Solutions"
+            },
+            {
+                "details": "Staff Augmentation, LinkedIn Lead Generation, Lead extraction from platforms like Angel list, Glassdoor, Dice, Workable, etc., Upwork Management",
+                "end_date": "06-2022",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2021",
+                "company_name": "Iverx Solutions"
+            },
+            {
+                "details": "Lead extraction, B2B email Marketing, Upwork bidding",
+                "end_date": "11-2021",
+                "location": "Lahore",
+                "job_title": "Lead Extractor/Business Development",
+                "start_date": "11-2020",
+                "company_name": "Superior/Tektiks"
+            }
+        ]
+    }
+}

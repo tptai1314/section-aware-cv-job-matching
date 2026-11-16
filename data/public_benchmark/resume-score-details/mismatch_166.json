@@ -1,0 +1,143 @@
+{
+    "output": {
+        "justification": [
+            "Candidate does not have 5+ years of business development experience in a leadership role, as experience is mostly in entry-level roles.",
+            "No proficiency in listed business analytics tools like GA4 and Power BI is mentioned.",
+            "Limited experience with digital strategy, primarily involved in sales conversion and customer service roles.",
+            "No evidence of leading or mentoring a team as required by the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 5
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 6
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 4.87
+            }
+        },
+        "personal_info": {
+            "name": "Mehwish Ashraf",
+            "email": "mehwishrana594@gmail.com",
+            "phone": "+923038335594",
+            "current_position": "Sales Conversion Specialist",
+            "current_company": "Get Fit Fitness Revolution",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "08-2020",
+            "urls": [
+                {
+                    "website_name": "linkedin",
+                    "url": "http://www.linkedin.com/in/mehwish-ashraf-335594ma"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "strategic planning": 100
+        },
+        "micro_dict": {
+            "negotiation": 29,
+            "sales strategy": 43,
+            "data analysis": 28
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "5+ years of business development experience in a leadership role",
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "Mehwish Ashraf\nSales Specialist at Get Fit Pakistan\nTo work for an organization which provide me the opportunity to improve my skills and\nknowledge to grow along with successfully achievement of the targets and goals of business,\neducational sector and field.Contact Info\n+923038335594\ue145\nmehwishrana594@gmail.com\u2709\nhttp://www.linkedin.com/in/mehwish-\nashraf-335594ma\ue135\nIqbal Town\nLahore, Pakistan\ue021\n Strengths & Skills\ue185\n\u2714Administrative Skills \u2714Communication Skills \u2714data mining\n\u2714MS Office \u2714Teamwork \u2714Time Management\n Academics\ue233\nTitle Institute Date\nBachelors of Business Administration University of Education, Lahore , 2020\nIntermediate BISE , Lahore 2015\nMatriculation BISE , Lahore 2013\n Experience   1 year \ue067\n1.1 years\n10 months\n2 monthsCompany Designation Duration\nGet Fit Fitness Revolution Sales Conversion Specialist Aug 2021 - Present\nOriflame Cosmetics Customer Service Representative Oct 2020 - Aug 2021\nToyota Ravi Motors Hr Intern Aug 2020 - Oct 2020\n Work History\ue032\nGet Fit Fitness Revolution Aug 2021 - Present  (1.1 years)\nSales Conversion Specialist Lahore, Pakistan\nWorking As Sales conversion specialist my responsibilities includes:\nRepresent the company, with a comprehensive understanding of our offerings, Packages and services.\nDevelops and implements sales strategy, new membership/client development, retention of clients/members, negotiation of contracts.\nProviding product demonstrations to Trainers and clients, and taking the lead in resolving complaints.\nProviding feedback to the rest of the marketing team on sales, funneling, and conversions.\nBe knowledgeable about the product, Identify prospective customers, lead generation and conversion.\nContact new and existing customers to discuss needs, Answer questions about the products, Negotiate prices and terms and prepare sales\nagreements.\nMaintain contact lists and follow up with customers to continue relationships.\nOriflame Cosmetics Oct 2020 - Aug 2021  (10 months)\nCustomer Service Representative Lahore, Pakistan\nWorking As CSR my Responsibilities includes: \nServes customers by providing product and service information and resolving product and service problems.\nRegister customer accounts by recording account information.\nMaintains customer records by updating account information.\nResolves product or service problems by clarifying the customer\u2019s complaint, determining the cause of the problem, selecting and explaining\nthe best solution to solve the problem, expediting correction or adjustment, and following up to ensure resolution.\nAttracts potential customers by answering product and service questions and suggesting information about other products and services.\nToyota Ravi Motors Aug 2020 - Oct 2020  (2 months)\nHr Intern Lahore, Pakistan\nWorking As HR Intern my responsibilities includes:\nUpdate databases with new employee data including contact details and employment forms.\nCollect payroll information such as hours of work done by an employee, details of bank accounts, etc.\nAssist in screening forms and resumes of applicants.\nCreate reports on the HR-related process when required. \nAlso worked in following Departments:\nSales\nCustomer service\nAccounts \n Languages\ue038\nPunjabi - Native\nUrdu - Native\nEnglish - Medium Hobbies\ue007\nGaming\nWeb searching\nGym\n"
+    },
+    "details": {
+        "name": "Mehwish Ashraf",
+        "number": "923038335594",
+        "skills": [
+            "data mining",
+            "MS Office"
+        ],
+        "email_id": "mehwishrana594@gmail.com",
+        "location": "Iqbal Town, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2020",
+                "university": "University of Education, Lahore",
+                "degree_title": "Bachelors of Business Administration"
+            },
+            {
+                "end_date": "2015",
+                "university": "BISE, Lahore",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "2013",
+                "university": "BISE, Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mehwish-ashraf-335594ma",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Mehwish Ashraf is a dedicated sales specialist with experience in customer service and sales conversion. She has a strong background in data mining and proficiency in MS Office, demonstrating her capability to contribute effectively to organizational goals.",
+        "employment_history": [
+            {
+                "details": "Working as Sales Conversion Specialist, responsibilities include representing the company, developing sales strategies, client retention, and providing product demonstrations.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Conversion Specialist",
+                "start_date": "08-2021",
+                "company_name": "Get Fit Fitness Revolution"
+            },
+            {
+                "details": "As a Customer Service Representative, responsibilities included serving customers, maintaining records, and resolving product issues.",
+                "end_date": "08-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Representative",
+                "start_date": "10-2020",
+                "company_name": "Oriflame Cosmetics"
+            },
+            {
+                "details": "As an HR Intern, responsibilities included updating databases, collecting payroll information, and assisting in screening applicants.",
+                "end_date": "10-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "HR Intern",
+                "start_date": "08-2020",
+                "company_name": "Toyota Ravi Motors"
+            }
+        ]
+    }
+}

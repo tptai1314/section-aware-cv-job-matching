@@ -1,0 +1,159 @@
+{
+    "output": {
+        "justification": [
+            "Leadership: Candidate demonstrated leadership through positions like Junior Vice Captain of the Basketball team and Director Marketing at LUMS International Film Festival.",
+            "Relevant Experience: Proficient in sales development and client engagement from past roles at Carbonteq and Tkxel, though lacking specific SEO management experience.",
+            "SEO Strategy Development: No direct evidence of extensive SEO strategy development in past roles, leading to a low score.",
+            "Team Management: Some leadership roles but lacks extensive team management experience in a professional setting.",
+            "Market Analysis: Experience in conducting quantitative analysis and data-related projects relevant to market analysis."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 3
+                },
+                {
+                    "criteria": "team management",
+                    "score": 5
+                },
+                {
+                    "criteria": "market analysis",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office and CRM systems",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in sales and client relationship management",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.22,
+                "micro_scores": 3.77
+            }
+        },
+        "personal_info": {
+            "name": "Sharoon Bakhshi",
+            "email": "20020220@lums.edu.pk",
+            "phone": "0313519225",
+            "current_position": "Business Development Executive",
+            "current_company": "Carbonteq",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "08-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 22,
+            "experience": 58,
+            "client relationship management": 20
+        },
+        "micro_dict": {
+            "seo strategy development": 63,
+            "team management": 34,
+            "market analysis": 3
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field",
+            "Proficiency in Microsoft Office and CRM systems",
+            "Proven track record in sales and client relationship management"
+        ],
+        "resume": " \n \nSharoon  Bakhshi  \n \nPhone:  0313519225 ; Email:  20020220 @lums.edu.pk ; Lahore, Pakistan   \nEDUCATION   \nLahore  University  of Management  Sciences  (LUMS)                                                                 Aug 16  \u2013 Dec 21 \nB.Sc.  (Hons)  in Economics  \nPROFESSIONAL  EXPERIENCE   \nCarbonteq | Business  Development  Executive                                                                        Jan 2023 \u2013 Present  \n\u2022 Generat ing high quality leads, based on different ICP parameters and buying signals, \nreaching out to them utili zing multiple channels with the aim of adding value and securing \nbusiness opportunities  \nTkxel  | Sales  Development  Representative                                                                       March  2022  \u2013 Jan 2023  \n\u2022 Worked  as part of the Core  Sales  team,  engaging  international  clients  with the aim of \naddressing their needs and handling their objections with a conversation rate of at  least \n50%.  \n\u2022 Secured  appointments of  50+ prospect  as an SDR  and handed  them  down  the sales  funnel  to \nbe converted  into opportunities.  \n7Vals  | Customer  Success Intern                                                                                          Aug 2021 \u2013 Oct 2021  \n\u2022 Worked on two projects related to ZOHO CRM and RedMine , leading to an in -depth data  \nanalysis  report  regarding their  key performance  indicators.  \n\u2022 Designed  Help  Centre  for Zendesk  Clients for  EZ Webs  to provide  focused  guidance  to clients.  \nLEADERSHIP  EXPERIENCE  \nDispatch  Happiness  | Co-Founder  \n\u2022 A letter dispatch service for the LUMS community, with the aim of raising mental health  \nawareness . \n\u2022 Dispatched  2650  letters throughout  campus  with 10% of the proceeds being  donated  to Fountain  \nHouse  \n\u2022 Gathered feedback from members and customers to restructure the supply chain of the letter delivery  \nservice, leading  to reduction in delivery  time by 2 hours . \nBasketball  | Junior Vice  Captain  2019  \n\u2022 Led the team  into 200+  matches as  the Junior  Vice  Capitan.  \nLUMS  International  Film  Festival  (FiLUMS)  2019|  Director  Marketing  \n\u2022 FiLUMS\u201919,  resulted  in sponsorship  from Alhamra  Art Center , Pepsi,  Wardah,  Engine  and \nLeisure Club garnering PKR 2.7 million in sponsorship funding, a 170% increase over the  \nprevious  event.  \n \n\u2022 Dealt  with 350+  vendors  to set up 4 different  social  events which  catered  to 1200  delegates.  \nCollaborated with  Pepsi  to host Bayaan for the Closing  Night  concert.  \n \nPROJECTS  & RESEARCH  \nCritical  Study  of the co-relation in  stock  price  volatility  and smart -lockdown  policy  in Pakistan  \n\u2022 Primary and secondary research into the smart -lockdown policy of the Pakistan\u2019s government from  \nJune \u2013 Dec 2020 effects  on the KSE -100 index of the Karachi  Stock Exchange.  \nEconometrics  Project:  Quantitative  analysis  of the impact  of mother\u2019s  family  size on child\u2019s  education  \nattainment  in Pakistan  \n\u2022 Conducted  a quantitative analysis  on Stata  using  PSLM  data sets to find a causal  link between  \nmother\u2019s  family  size and the child\u2019s  education levels.  \nADDITIONAL  SKILLS  & INTERESTS  \nTechnology:  Proficient  in Stata  and Microsoft  Word,  Excel  & PowerPoint  \n"
+    },
+    "details": {
+        "name": "Sharoon Bakhshi",
+        "number": "0313519225",
+        "skills": [
+            "Stata",
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Microsoft PowerPoint"
+        ],
+        "email_id": "20020220@lums.edu.pk",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Critical Study of the co-relation in stock price volatility and smart-lockdown policy in Pakistan",
+                "description": "Primary and secondary research into the smart-lockdown policy of the Pakistan\u2019s government."
+            },
+            {
+                "title": "Econometrics Project: Quantitative analysis of the impact of mother\u2019s family size on child\u2019s education attainment in Pakistan",
+                "description": "Conducted a quantitative analysis on Stata using PSLM data sets."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "Lahore University of Management Sciences (LUMS)",
+                "degree_title": "B.Sc. (Hons) in Economics"
+            }
+        ],
+        "achievements": [
+            "Secured appointments of 50+ prospects as an SDR and handed them down the sales funnel to be converted into opportunities.",
+            "Led the team into 200+ matches as the Junior Vice Captain.",
+            "FiLUMS\u201919 resulted in sponsorship from Alhamra Art Center, Pepsi, Wardah, Engine and Leisure Club garnering PKR 2.7 million in sponsorship funding."
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sharoonbakhshi",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sharoon Bakhshi is a dedicated professional with a strong background in business development and sales, possessing technical skills in Stata and Microsoft Office applications. He has demonstrated success in generating leads and securing business opportunities, along with a solid educational foundation in economics.",
+        "employment_history": [
+            {
+                "details": "Generating high quality leads, based on different ICP parameters and buying signals, reaching out to them utilizing multiple channels.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2023",
+                "company_name": "Carbonteq"
+            },
+            {
+                "details": "Worked as part of the Core Sales team, engaging international clients with the aim of addressing their needs and handling their objections with a conversation rate of at least 50%.",
+                "end_date": "01-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Development Representative",
+                "start_date": "03-2022",
+                "company_name": "Tkxel"
+            },
+            {
+                "details": "Worked on two projects related to ZOHO CRM and RedMine, leading to an in-depth data analysis report regarding their key performance indicators.",
+                "end_date": "10-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Success Intern",
+                "start_date": "08-2021",
+                "company_name": "7Vals"
+            }
+        ]
+    }
+}

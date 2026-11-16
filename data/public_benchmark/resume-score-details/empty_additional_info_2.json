@@ -1,0 +1,111 @@
+{
+    "output": {
+        "justification": [
+            "The resume indicates over 10 years of relevant experience, aligning with the job's requirement for extensive project management and leadership.",
+            "The candidate holds a Bachelor's degree in Electrical Engineering, meeting the minimum educational requirement.",
+            "Strong leadership experience is evidenced by oversight of engineering department strategic initiatives, relating well to the role's requirement for team engagement and leadership.",
+            "While the resume does not specifically mention proficiency in electrical design evaluation, the candidate's role suggests exposure to managing design processes."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "electrical design evaluation",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 8
+                },
+                {
+                    "criteria": "contractor management",
+                    "score": 7
+                },
+                {
+                    "criteria": "installation and commissioning",
+                    "score": 6
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Electrical Engineering",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.0,
+                "micro_scores": 7.3100000000000005
+            }
+        },
+        "personal_info": {
+            "name": "",
+            "email": "",
+            "phone": "",
+            "current_position": "Team Lead",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Senior Electrical Engineering Project Lead  \n\n**Company Overview:**  \nJoin XYZ Engineering Inc., a leading firm in electrical project management and automation solutions, recognized for delivering high-impact projects across various international locations. Our focus lies in providing sustainable and innovative solutions by integrating cutting-edge technology and specialized expertise.  \n\n**Role Description:**  \nXYZ Engineering Inc. seeks an experienced Senior Electrical Engineering Project Lead to oversee electrical design, installation, commissioning, and testing projects. The candidate will coordinate cross-functional teams to ensure project success while managing stakeholder relations and fostering a collaborative environment.  \n\n**Key Responsibilities:**  \n- Lead and execute electrical engineering projects for the installation and commissioning of E-Houses and switchgear systems.  \n- Manage multiple vendors and contractors to ensure compliance with project specifications and deadlines.  \n- Conduct design reviews, evaluations and prepare documentation for client approvals.  \n- Foster team engagement, provide training, and communicate project updates effectively.  \n- Ensure projects adhere to safety and quality standards while meeting client expectations.  \n\n**Skills Required:**  \n- Strong leadership and project management abilities.  \n- Proficiency in electrical design evaluation and project costing.  \n- Expertise in Installation, Testing, and Commissioning of Electrical Systems.  \n- Capacity for handling contractors and ensuring effective team management.  \n\n**Educational Requirements:**  \nBachelor's or Master\u2019s degree in Electrical Engineering; a Master's degree in Management is a plus.  \n\nJoin us and leverage your expertise to drive breakthroughs in engineering solutions across various industries!",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "electrical design evaluation": 3,
+            "project management": 27,
+            "contractor management": 11,
+            "installation and commissioning": 26,
+            "communication skills": 33
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Bachelor's degree in Electrical Engineering"
+        ],
+        "resume": "Team Lead  \n\uf0b7 Experience Required:  10 to 15 years of relevant experience.  \n\uf0b7 Basic Salary Range:  401,000 to 500,000.  \n\uf0b7 Key Responsibilities:  \no Lead the overall engineering department and its strategic initiatives.  \no Coordinate all project elements, including design, quality planning, and installation.  \no Ensure efficient resource allocation and project success.  \no Foster a collaborative and innovative work environment.  \no Provide strategic direction and guidance to teams.  \n\uf0b7 Key Skills:  \no Strong business acumen and strategic thinking.  \no Excellent communication and interpersonal skills.  \no Extensive experience in team management.  \n\uf0b7 Eligibility:  Bachelor's or Master's degree in electrical engineering. A Master\u2019s degree in \nmanagement is preferable.  \n "
+    },
+    "details": {
+        "name": "John Doe",
+        "number": "03124843384",
+        "skills": [
+            "Python",
+            "Excel"
+        ],
+        "email_id": "john.doe@example.com",
+        "location": "New York, NY",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "John Doe is a seasoned software engineer with extensive experience in Python and Excel, demonstrating strong technical skills and a commitment to excellence.",
+        "employment_history": [
+            {
+                "details": "Software Engineer at XYZ Corp",
+                "end_date": "11-2024",
+                "location": "New York, NY",
+                "job_title": "Software Engineer",
+                "start_date": "01-2020",
+                "company_name": "XYZ Corp"
+            }
+        ]
+    }
+}

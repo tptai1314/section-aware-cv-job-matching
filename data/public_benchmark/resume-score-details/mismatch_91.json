@@ -1,0 +1,270 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not contain any relevant leadership experience in business development or sales functions, which warrants a low leadership score.",
+            "The candidate lacks direct experience in business development or B2B sales, specifically in the IT and manufacturing sectors.",
+            "The candidate's skills in research are not directly applicable to market research for sales and business development.",
+            "The JD requires proficiency in B2B sales and strategic business planning, which are not evident in the candidate's experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 1
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 3
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.71,
+                "micro_scores": 1.7
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Aamir Gulzar",
+            "email": "amirgulzar328@gmail.com",
+            "phone": "+92-341-8492532",
+            "current_position": "Machine Learning Engineer",
+            "current_company": "Skyline Systems",
+            "employment_start_date_current_company": "07-2023",
+            "first_company_start_date": "07-2023",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 71,
+            "experience": 2,
+            "strategic thinking": 27
+        },
+        "micro_dict": {
+            "market research": 36,
+            "b2b sales": 34,
+            "communication skills": 25,
+            "data analysis": 5
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Proven ability to develop and implement successful business strategies",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong proficiency in Microsoft Office Suite",
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": "MUHAMMAD AAMIR GULZAR  \n \nPhone:  +92-341-8492532    Email : amirgulzar328@gmail.com          Address:  Rawalpindi , Pakistan  \n \nSeeking opportunities in a forward -thinking organization to leverage my skills and knowledge in computer \nscience for personal and professional growth while making meaningful contributions to the company . \n \nEDUCATION  \nFAST National University of Computer and Emerging Sciences                                       Islamabad, Pakistan  \nMS Computer Science                                    CGPA: 3.87/4                                                             2021 -2024  \nPMAS Arid Agriculture University                                                                                         Rawalpindi, Pakistan  \nBS Computer Science                                     CGPA: 3.78/4                                                              2017 -2021  \n \nEXPERI ENCE \n\u2022 Research Assistant  \nI actively contributed to some R&D projects at DataInsight Research Lab including  Handwritten  \nMedical Prescriptions Digitization and LLMs  and fine -tuning  and knowledge distillation . I also led \na summer internship  in the lab , provided  guidance and supervision  to machine learning intern ees. \n\u2022 Teaching Experience  \nI joined FAST -NUCES in September 2021. I have taught subjects like Programming Fundamentals,  \nArtificial Intelligence and Machine Learning as a Lecturer at FAST -NUCES. This experience helped  \nme to develop strong instructional skills and gained knowledge in various fields . \n\u2022 Machine Learning Engineer  \nI joined Skyline Systems (a sister company of PlanetBeyond) as a ML Engineer in July 2023. I am  \nnow working here as a Machine Learning team leader. It enhanced my skills in implementing  \ncutting -edge solutions in machine learning . \n \nRESEARCH WORK  \n\u2022 Skin Disease Detection and Classification Book Chapter (Under Review)  \nResearching dermatology, aiming to contribute a chapter to a book focusing on innovative \nmedical image analysis.  \n\u2022 Master's Thesis: Data Extraction from Line Charts  \nThesis focuses on numeric data extraction from printed line charts, ready for submission to a Q1 \nJournal.  \n\u2022 Journal Paper in Progress: Medical Handwritten Prescriptions Digitization . \nEngaged in pioneering research on digitizing medical prescriptions, leveraging advanced \ncomputer vision techniques to address healthcare documentation challenges.  \nPROJECTS  \n\u2022 Question Answering on SEC filings Using RAG                                                              (NLU, LLM, RAG)  \nDeveloped an application leveraging RAG pipeline for question -answering on financial data from \nSEC filings. Included user -friendly web interface highlighting relevant text chunks for answers. \nUtilized llamaindex for text chunking and PGVector for storage, ensuring efficient information \nhandling.  \u2022 AI Companion Development                                                                       (NLP, LLM, Prompt Engineering ) \nDeveloped an AI companion by testing multiple open -source models. Conducted prompt \nengineering and instruction -level fine -tuning on Llama 3.1 8B and Gemma 2 9B models, achieving \nsuperior performance for our use case. Successfully implemented this on resour ce-limited \ncomputational infrastructure available locally in our lab.  \n\u2022 Tumor Classification in Healthcare                                                  (Medical Imaging, Computer Vision)  \nWorked on tumor classification focusing on MSS and MSI. Explored foundation models in \ncomputational pathology like UNI and CONCH. Fine -tuned these models for our specific tasks, \nenhancing explainability and interoperability of our approaches, contributing to advancements in \nmedical diagnostics.  \n\u2022 SemiCOL: Semi -supervised learning for colorectal cancer detection            (Computer Vision)  \nDeveloped an innovative approach for colorectal cancer detection using semi -supervised learning. \nImplemented advanced techniques and deep learning models to accurately detect and segment \ncancerous regions in medical images, providing valuable expertise in medical image analysis.  \n\u2022 Social Media Profile Analysis: Counting People with Similar Features          (Big Data Analytics ) \nAnalyzed social media profile data using Apache Hadoop MapReduce algorithms to count people \nwith similar features. Demonstrated creativity in proposing and implementing data preprocessing \nand analysis tasks, gaining hands -on experience with large -scale dat asets . \nTRAINING S AND CERTIFICATION S \nGenerative AI with Large Language Models                              DeepLearning.AI (Coursera)      \nIntroduction to Generative AI                                                      Google Cloud (Coursera)  \nBig Data Specialization                                                                  University of California, San Diego  (Coursera)  \nIntroduction to Deep Learning                                                      MIT (Introtodeeplearning.com)  \nMachine Learning in a Data Driven Business Environment      IEEE Xplore Library  \nMachine Learning in the Age of Enterprise Big Data                 IEEE Xplore Library  \nOTHER CERTIFICATION S \nCertificate of participation in PAKISTAN 100 ENTERPRENEURIAL BOOTCAMP 2021           IdeaGist, 2021  \nCertificate of Attendance on Integr ating  IEEE  eLearning Courses into your teaching          IEEE  \nCertificate of Participation in Creating Right Entrepreneurial Eco -System in Pakistan       LIFT, Pakistan  \nTECHNICAL SKILLS  \n\u2022 Proficient in programming languag es: C, C++, Python, Java  with debugging expertise.  \n\u2022 Skilled in SQL and NoSQL databases, data integration, and big data frameworks like Apache \nHadoop and Spark.  \n\u2022 Experienced in data analysis using Python and SQL, with knowledge of statistical techniques and \ndata visualization.  \n\u2022 Experienced in exploratory data analysis, feature engineering, and creating visual \nrepresentations using tools like Tableau and Power BI.  \n\u2022 Experienced in machine learning concepts, algorithms, and libraries like Numpy, Pandas, Scipy, \nscikit -learn , Keras , Pytorc h and TensorFlow etc.  ML models optimizations and deployment.  \n\u2022 Experienced in deep learni ng tasks like  NLP, Computer Vision, Automatic Speech Recognition  \n(ASR) models, and building neural networks  for various tasks  like CNNs, RNN and LSTM.  \n\u2022 Skilled in generative AI tasks like LLMs  fine-tuning , Prompt Engineering, Retrieval Augmented \nGeneration (RAG)  using llamaindex, langchain  and Vision tasks using diffusers, etc.  "
+    },
+    "details": {
+        "name": "Muhammad Aamir Gulzar",
+        "number": "923418492532",
+        "skills": [
+            "C",
+            "C++",
+            "Python",
+            "Java",
+            "SQL",
+            "NoSQL",
+            "Apache Hadoop",
+            "Spark",
+            "Tableau",
+            "Power BI",
+            "Numpy",
+            "Pandas",
+            "Scipy",
+            "scikit-learn",
+            "Keras",
+            "PyTorch",
+            "TensorFlow",
+            "NLP",
+            "Computer Vision",
+            "Automatic Speech Recognition",
+            "CNNs",
+            "RNN",
+            "LSTM",
+            "LLMs",
+            "Prompt Engineering",
+            "Retrieval Augmented Generation",
+            "Vision tasks using diffusers"
+        ],
+        "email_id": "amirgulzar328@gmail.com",
+        "location": "Rawalpindi, Pakistan",
+        "projects": [
+            {
+                "title": "Question Answering on SEC filings Using RAG",
+                "description": "Developed an application leveraging RAG pipeline for question-answering on financial data from SEC filings."
+            },
+            {
+                "title": "AI Companion Development",
+                "description": "Developed an AI companion by testing multiple open-source models."
+            },
+            {
+                "title": "Tumor Classification in Healthcare",
+                "description": "Worked on tumor classification focusing on MSS and MSI."
+            },
+            {
+                "title": "SemiCOL: Semi-supervised learning for colorectal cancer detection",
+                "description": "Developed an innovative approach for colorectal cancer detection using semi-supervised learning."
+            },
+            {
+                "title": "Social Media Profile Analysis: Counting People with Similar Features",
+                "description": "Analyzed social media profile data using Apache Hadoop MapReduce algorithms."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "04-2024",
+                "university": "FAST National University of Computer and Emerging Sciences",
+                "degree_title": "MS Computer Science"
+            },
+            {
+                "end_date": "04-2021",
+                "university": "PMAS Arid Agriculture University",
+                "degree_title": "BS Computer Science"
+            }
+        ],
+        "achievements": [
+            "CGPA: 3.87/4 in MS Computer Science",
+            "CGPA: 3.78/4 in BS Computer Science"
+        ],
+        "publications": [
+            {
+                "title": "Skin Disease Detection and Classification Book Chapter",
+                "publication_venue": "Under Review"
+            },
+            {
+                "title": "Master's Thesis: Data Extraction from Line Charts",
+                "publication_venue": "Ready for submission to a Q1 Journal"
+            },
+            {
+                "title": "Journal Paper in Progress: Medical Handwritten Prescriptions Digitization",
+                "publication_venue": "Engaged in pioneering research on digitizing medical prescriptions."
+            }
+        ],
+        "certifications": [
+            {
+                "certification_name": "Generative AI with Large Language Models",
+                "issuing_organization": "DeepLearning.AI (Coursera)",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Introduction to Generative AI",
+                "issuing_organization": "Google Cloud (Coursera)",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Big Data Specialization",
+                "issuing_organization": "University of California, San Diego (Coursera)",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Introduction to Deep Learning",
+                "issuing_organization": "MIT (Introtodeeplearning.com)",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Machine Learning in a Data Driven Business Environment",
+                "issuing_organization": "IEEE Xplore Library",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Machine Learning in the Age of Enterprise Big Data",
+                "issuing_organization": "IEEE Xplore Library",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Certificate of participation in PAKISTAN 100 ENTERPRENEURIAL BOOTCAMP 2021",
+                "issuing_organization": "IdeaGist",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Certificate of Attendance on Integrating IEEE eLearning Courses into your teaching",
+                "issuing_organization": "IEEE",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "Certificate of Participation in Creating Right Entrepreneurial Eco-System in Pakistan",
+                "issuing_organization": "LIFT, Pakistan",
+                "date_of_issuance": "01-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadaamirgulzar",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/muhammadaamirgulzar",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Muhammad Aamir Gulzar is a dedicated computer science professional with a strong academic background and extensive experience in machine learning and data analysis. He has contributed to various research projects and has a proven track record in developing innovative solutions in the field of artificial intelligence and big data.",
+        "employment_history": [
+            {
+                "details": "Actively contributed to R&D projects including Handwritten Medical Prescriptions Digitization and LLMs.",
+                "end_date": "06-2023",
+                "location": "DataInsight Research Lab",
+                "job_title": "Research Assistant",
+                "start_date": "01-2022",
+                "company_name": "DataInsight Research Lab"
+            },
+            {
+                "details": "Taught subjects like Programming Fundamentals, Artificial Intelligence, and Machine Learning.",
+                "end_date": "06-2023",
+                "location": "FAST-NUCES",
+                "job_title": "Lecturer",
+                "start_date": "09-2021",
+                "company_name": "FAST National University of Computer and Emerging Sciences"
+            },
+            {
+                "details": "Working as a Machine Learning team leader, implementing cutting-edge solutions in machine learning.",
+                "end_date": "Present",
+                "location": "Skyline Systems",
+                "job_title": "Machine Learning Engineer",
+                "start_date": "07-2023",
+                "company_name": "Skyline Systems"
+            }
+        ]
+    }
+}

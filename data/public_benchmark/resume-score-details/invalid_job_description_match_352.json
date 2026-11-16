@@ -1,0 +1,45 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": " \nObjectives  \n \n \n \nExperience  \n \n \n \n \n \n \n \n \n \n \n \nQualification  \nSAYYED MUHAMMAD ALI SHAH  \n03344899892  \nEmail: alishah14619@gmail.com  \nVillage and Post Office Jalalpur Sharif, Tehsil \nPinddadan Khan, District  Jhelum . \n \nTo engage in a career that will allow for progress in terms of \nexperties, socio -economics developments, and in novation \nthrough expo sure to new ideas for professional growth, as well \nas growth for the company.  \n \nBusiness Development Banker at Bank Al Habib Ltd  \nApril 2022 \u2013 Present  \nResponsibilities:  \n\u2022 Bring new Business in bank  \n\u2022 Open New Accounts  \n\u2022 Bring New Deposit  \nRelationship Manager at MCB Bank Ltd  \nOctober 2020 \u2013 April 2022  \nResponsibilities:  \n\u2022 Bring new Business in bank by Converting Remittance \nCustomers to Bank Customers  \n\u2022 Cheque Book and ATM Balancing  \n\u2022 Prepare monthly reports for cheque books.  \n\u2022 Account Opening  \nBusiness Development Officer at BankIslami Pakistan Ltd  \nAugust 2018 \u2013 October 2020  \nResponsibilities:  \n\u2022 Bring new Customers in Bank & Cross Selling  \n\u2022 Sell Autos and deal with all Auto related problems  \n\u2022 Deal with customer insurance problems  \nCMA  \nPresent ICMAP Islamabad  \nMaster s of Commerce  \n2018 NCBA&E  \nBachelor s of Commerce  \n2015 Punjab University  \n Skills  \n\u2022 Financial Reporting  \n\u2022 Data Analysis   \n\u2022 Time Management   \n\u2022 Team Player  \n\u2022 Calculations  \n\u2022 Accounting Skill  \n\u2022 MS Word, Excel & Power \npoint  \n \nLanguages  \n\u2022 English  \n\u2022 Urdu  ",
+        "macro_dict": {
+            "experience": 75,
+            "communication skills": 25
+        },
+        "micro_dict": {
+            "ms excel": 36,
+            "stata": 64
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Excellent communication skills"
+        ],
+        "resume": " \nObjectives  \n \n \n \nExperience  \n \n \n \n \n \n \n \n \n \n \n \nQualification  \nSAYYED MUHAMMAD ALI SHAH  \n03344899892  \nEmail: alishah14619@gmail.com  \nVillage and Post Office Jalalpur Sharif, Tehsil \nPinddadan Khan, District  Jhelum . \n \nTo engage in a career that will allow for progress in terms of \nexperties, socio -economics developments, and in novation \nthrough expo sure to new ideas for professional growth, as well \nas growth for the company.  \n \nBusiness Development Banker at Bank Al Habib Ltd  \nApril 2022 \u2013 Present  \nResponsibilities:  \n\u2022 Bring new Business in bank  \n\u2022 Open New Accounts  \n\u2022 Bring New Deposit  \nRelationship Manager at MCB Bank Ltd  \nOctober 2020 \u2013 April 2022  \nResponsibilities:  \n\u2022 Bring new Business in bank by Converting Remittance \nCustomers to Bank Customers  \n\u2022 Cheque Book and ATM Balancing  \n\u2022 Prepare monthly reports for cheque books.  \n\u2022 Account Opening  \nBusiness Development Officer at BankIslami Pakistan Ltd  \nAugust 2018 \u2013 October 2020  \nResponsibilities:  \n\u2022 Bring new Customers in Bank & Cross Selling  \n\u2022 Sell Autos and deal with all Auto related problems  \n\u2022 Deal with customer insurance problems  \nCMA  \nPresent ICMAP Islamabad  \nMaster s of Commerce  \n2018 NCBA&E  \nBachelor s of Commerce  \n2015 Punjab University  \n Skills  \n\u2022 Financial Reporting  \n\u2022 Data Analysis   \n\u2022 Time Management   \n\u2022 Team Player  \n\u2022 Calculations  \n\u2022 Accounting Skill  \n\u2022 MS Word, Excel & Power \npoint  \n \nLanguages  \n\u2022 English  \n\u2022 Urdu  "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

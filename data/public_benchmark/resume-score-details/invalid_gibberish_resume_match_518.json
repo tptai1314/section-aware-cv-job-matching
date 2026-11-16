@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 19,
+            "experience": 60,
+            "client relationship management": 21
+        },
+        "micro_dict": {
+            "seo strategy development": 10,
+            "team management": 36,
+            "ppc campaigns": 19,
+            "client engagement": 34,
+            "market analysis": 1
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office and CRM systems"
+        ],
+        "resume": "Sure, here's a mix of different styles for you:\n\nOnce upon a zibbleflock in the middle of Flarnwood forest, a group of gleebles gathered for their annual shmorglefest. Twinkling lights dangled from the sky, orbs of snurp floated around, and the air was filled with the scent of freshly baked crinklepies. As the gleebles danced to the rhythm of the gorshnar's lute, a peculiar creature named Snizzlefritz decided it was time to introduce the wobbleflange. \"To glork or not to glork,\" he mused, contemplating the froblyplop recipe he had been perfecting for weeks.\n\nMeanwhile, in the heart of downtown Glenville, residents were abuzz with the latest scoop: \"Giant Rubber Duck Lands in Central Fountain \u2013 Chaos Ensues!\" The scene was rather quackers, as children and adults alike took turns climbing aboard the enormous floating bird, each capturing endless selfies and feeding it imaginary breadcrumbs.\n\nIn tech world news, the much-anticipated unveiling of the NanoFusion X12 chipset was marked by a display of pyrotechnics and augmented reality demos. Experts predict it will revolutionize gadget performance, enabling faster data transfer and unparalleled energy efficiency. \"Think of it as the quantum leap we've been waiting for,\" said Dr. Alisha Tran, head of development, while unveiling the prototype, which glowed faintly with a soft cerulean hue.\n\nAnd now, over at the local coffee shop, a fleeting exchange between two regulars:\n\nAlex: \"Did you see the moon last night? Looked like a giant cheese wheel.\"\nJordan: \"Yeah, but did you taste it? Totally gouda-worthy.\"\nAlex: \"Oh, for sure. You could say it was out of this world.\"\nJordan: \"Well, I guess you could... any plans after this?\"\nAlex: \"Might head over to the library, hear there's a talk on interstellar cheesecake.\"\nJordan: \"Sweet! Mind if I tag along? Didn\u2019t know stars were made of cream filling.\"\n\nLastly, some random numbers and letters: 4729-GFJKL-9812-KDHSJ. Remember to keep laughing, keep dreaming, and always embrace the wonder of the unexpected."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,201 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has leadership skills demonstrated through project management experience, but lacks direct management experience.",
+            "No direct digital marketing experience is mentioned, however, candidate shows potential with relevant data science skills.",
+            "Experience with project management tools but lacks direct mention of CRM software or Google Analytics.",
+            "Skills list includes Excel and project management, but direct SEO/SEM experience is not mentioned.",
+            "Excel and Python skills aligned, but specific digital marketing tool expertise is missing."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 5
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo/sem",
+                    "score": 2
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 2
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 2
+                },
+                {
+                    "criteria": "content development",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.9400000000000004,
+                "micro_scores": 2.79
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Hassaan Azam",
+            "email": "hassaanazam678@gmail.com",
+            "phone": "03354166499",
+            "current_position": "Generative AI Intern",
+            "current_company": "ITSOLERA PVT LTD",
+            "employment_start_date_current_company": "07-2024",
+            "first_company_start_date": "07-2024",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/hassaan7"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 44,
+            "digital marketing experience": 50,
+            "client relationship": 6
+        },
+        "micro_dict": {
+            "seo/sem": 23,
+            "google analytics": 24,
+            "project management": 16,
+            "crm software expertise": 22,
+            "content development": 15
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills"
+        ],
+        "resume": "Muhammad Hassaan Azam  \nAI/ML  Engineer  \nLahore , Pakistan  | hassaanazam678@gmail.com  | 03354166499  | linkedin.com/ in/hassaan7  \nSUMMARY  \nHighly motivated Data Science enthusiast with a Master's degree in Data Science and 2 years of project -based experience \ngained during my studies. Proficient in data analysis, machine learning, and statistical modeling techniques. Skilled in \nPython and R pr ogramming languages, with a keen ability to extract meaningful insights from complex datasets through \ndata visualization. Eager to use my analytical skills and dedication to leveraging data to drive business decisions in a \ndynamic and collaborative environ ment.  Seeking an  opportunity to contribute to innovative, real -life professional \nprojects and further develop expertise alongside a forward -thinking team in the realm of data science and AI.  \nEDUCATION  \nMaster of Science - MS - Data Science   Nov 2021 - Nov 2023  \nUniversity of Management and Technology (UMT ) - Lahore, Pakistan  Graduation - May 2024  \nGrade \u2013 CGPA:  3.80 / 4.0 \nBachelor of Business and Information Technology (B BIT)  Sep 2017 - Sep 2021  \nUniversity of the Punjab  - Lahore, Pakistan  \nEXP ERIENCE  \nGenerative AI Intern  July 2024 - Present  \nITSOLERA PVT LTD  \u2013 Internship  Remote, Lahore, Pakistan  \nPROJECTS  \nGenerative AI -Powered Stable Diffusion Models for Creative Interior Design Generation  \n\u25cf Fine-tuned base models with 100 to 1,000 interior design images for both text -to-image and image -to-image tasks.  \n\u25cf Utilized generative AI to produce high -quality interior design images from text prompts, boosting model usefulness.  \n\u25cf Deployed both text -to-image and image -to-image models as a web app using Gradio.  \nSentiment Analysis using Few Shot Sentence Transformer, RNNs & Machine Learning Models  \n\u25cf Conducted sentiment analysis using the SetFit Few -Shot Sentence Transformer, 4 RNNs, and 5 ML models.  \n\u25cf The SetFit model outperformed the others, achieving over 90% accuracy with fewer training samples.  \nLeaf Disease Detection through Transfer Learning using Feature Extraction with Pre -Trained  CNNs  \n\u25cf Collected diverse leaf disease images from various repositories and performed a series of preprocessing steps.  \n\u25cf Leveraged transfer learning -based models.  \n\u25cf Achieved over 89% accuracy in classifying 26 imbalanced classes.  \n\u25cf RNN (BiGRU) and transformer (DistilBERT) models outclassed the other models, both surpassing 90% accuracy.  \nEmotions Classification from Text using different RNNs and Transformers in Python  \n\u25cf Used tokenization for 5 RNN models and tokenization with attention masking for 5 transformer models.  \n\u25cf RNN (BiGRU) and transformer (DistilBERT) models outclassed the other models, both surpassing 90% accuracy.  \n\u2026.. And Many More  \nAWARDS & ACHIEVEMENTS  \nSecured a 60% scholarship for Intermediate in Computer Sciences at Punjab College, Lah ore         2015 - 2017 \nCERTIFICATIONS  \nOracle Cloud Infrastructure 2024 Generative AI Certified Professional  View Credentials  \nMachine Learning A -Z: AI, Python & R + ChatGPT Prize [2024]  View Credentials  \nLangChain for LLM Application Development - DeepLearning.AI  View Credentials  \nSKILLS  \nData Analysis | Machine Learning | Deep Learning | Python Language  | R Language |  Keras |  TensorFlow | Image \nClassification  | Image Augmentation | YOLO  | Text Classification  | Data Wrangling | Pandas | Matplotlib | Excel | Prompt \nEngineering | Computer Vision  | Data Annotation | CNN  | Natural Language Processing  | RNN  | Transformer  | Artificial \nIntelligences |  LLM  | Database SQL |  Linux | SPSS  | C | C++ |  LangChain |  Project Management | Communication | Time \nManagement | Adaptability | Problem Solving | Critical Thinking | Attention to Detail  | Teamwork  | Decision Making  | \nCreativity  | Research  \nINTEREST  \nGenAI, LLM, Computer Vision, NLP and leading platforms such as AWS, GCP , Azure , Snowflake and Databricks . "
+    },
+    "details": {
+        "name": "Muhammad Hassaan Azam",
+        "number": "03354166499",
+        "skills": [
+            "Data Analysis",
+            "Machine Learning",
+            "Deep Learning",
+            "Python Language",
+            "R Language",
+            "Keras",
+            "TensorFlow",
+            "Image Classification",
+            "Image Augmentation",
+            "YOLO",
+            "Text Classification",
+            "Data Wrangling",
+            "Pandas",
+            "Matplotlib",
+            "Excel",
+            "Prompt Engineering",
+            "Computer Vision",
+            "Data Annotation",
+            "CNN",
+            "Natural Language Processing",
+            "RNN",
+            "Transformer",
+            "Artificial Intelligence",
+            "LLM",
+            "Database SQL",
+            "Linux",
+            "SPSS",
+            "C",
+            "C++",
+            "LangChain"
+        ],
+        "email_id": "hassaanazam678@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Generative AI -Powered Stable Diffusion Models for Creative Interior Design Generation",
+                "description": "Fine-tuned base models with 100 to 1,000 interior design images for both text-to-image and image-to-image tasks."
+            },
+            {
+                "title": "Sentiment Analysis using Few Shot Sentence Transformer, RNNs & Machine Learning Models",
+                "description": "Conducted sentiment analysis using the SetFit Few-Shot Sentence Transformer, 4 RNNs, and 5 ML models."
+            },
+            {
+                "title": "Leaf Disease Detection through Transfer Learning using Feature Extraction with Pre-Trained CNNs",
+                "description": "Achieved over 89% accuracy in classifying 26 imbalanced classes."
+            },
+            {
+                "title": "Emotions Classification from Text using different RNNs and Transformers in Python",
+                "description": "RNN (BiGRU) and transformer (DistilBERT) models outclassed the other models, both surpassing 90% accuracy."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "11-2023",
+                "university": "University of Management and Technology (UMT)",
+                "degree_title": "Master of Science - MS - Data Science"
+            },
+            {
+                "end_date": "09-2021",
+                "university": "University of the Punjab",
+                "degree_title": "Bachelor of Business and Information Technology (BBIT)"
+            }
+        ],
+        "achievements": [
+            "Secured a 60% scholarship for Intermediate in Computer Sciences at Punjab College, Lahore 2015 - 2017"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Oracle Cloud Infrastructure 2024 Generative AI Certified Professional",
+                "issuing_organization": "Oracle",
+                "date_of_issuance": "01-2024"
+            },
+            {
+                "certification_name": "Machine Learning A-Z: AI, Python & R + ChatGPT Prize",
+                "issuing_organization": "Udemy",
+                "date_of_issuance": "01-2024"
+            },
+            {
+                "certification_name": "LangChain for LLM Application Development",
+                "issuing_organization": "DeepLearning.AI",
+                "date_of_issuance": "01-2024"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hassaan7",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Hassaan Azam is an AI/ML Engineer with a Master's degree in Data Science and two years of project-based experience. He is proficient in various programming languages and machine learning techniques, demonstrating a strong ability to extract insights from complex datasets.",
+        "employment_history": [
+            {
+                "details": "Internship focused on generative AI projects, including model fine-tuning and deployment.",
+                "end_date": "Present",
+                "location": "Remote, Lahore, Pakistan",
+                "job_title": "Generative AI Intern",
+                "start_date": "07-2024",
+                "company_name": "ITSOLERA PVT LTD"
+            }
+        ]
+    }
+}

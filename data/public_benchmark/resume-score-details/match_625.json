@@ -1,0 +1,165 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a robust background in business development and key account management, aligning well with the job's client relations requirements.",
+            "Extensive work experience, totaling over 10 years, including high-level managerial roles in sales and account management, provides relevant experience.",
+            "No specific mention or evidence of experience with CRM systems was found in the resume, reducing the score in that area.",
+            "Skills in lead generation and project management are evidenced through various roles and responsibilities mentioned in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relations",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 9
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.0,
+                "micro_scores": 7.7
+            }
+        },
+        "personal_info": {
+            "name": "Muneeb Ahmed Malik",
+            "email": "Muneeb.malik2408@gmail.com",
+            "phone": "03111333980",
+            "current_position": "Corporate Sales Manager",
+            "current_company": "Sign In",
+            "employment_start_date_current_company": "07-2022",
+            "first_company_start_date": "2010",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "client relations": 100
+        },
+        "micro_dict": {
+            "lead generation": 57,
+            "crm systems": 22,
+            "project management": 21
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "5+ years of relevant experience in business development",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Teamwork\nResearch\nCommunication\nManagement\n 03111333980, 0345-4736789\nMuneeb.malik2408@gmail.com,\nMuneeb.malik606@gmail.com\n81-D1, Nespak Society, Lahore\nAbout Me\nExperienceEducationSkills Personal Skills\nContactAn accomplished & dynamic professional with 10 years of experience and a strong\nbackground that plays a vital role in developing, managing, growing and retaining key\naccounts for a wide range of organizations. Service-centric leader dedicated to fueling\nrevenue, enhancing customer experience and achieving top brand loyalty.Highly adept at\nperforming high- pressure and time-consuming environments including full aspects of sales.\nSecured high-value accounts through\nconsultative selling.\nOffered each customer top-notch,\npersonal service and polite support to\nboost sales and customer satisfaction.Manage and adhere to all PSQCA-related\nlaws and regulations.\n Manage and Support the accreditation of\nthe plant.Corporate Sales Manager (July 2022-\nContinue )- Sign InMBA-Executive (2014-2016) -\nSpecialization: Marketing/Management,\n      IAS-PU Lhore\nGraduate-Post Production(Animations)\n(2009-2010), Specialization: CGI -Artist VFX,\nApplications: Motion Graphics, ,3d MAX auto\ndesk adobe illustrator-NCA Lahore\nMuneeb Ahmed Malik\nBUSINESS DEVELOPMENT MANAGER/\nKEY ACCOUNT MANAGER\nAccount Development\nHigh-impact sales presentations\nRevenue Increase\nServices optimization\nB to B sales expert\n \nManager (RO Plant) -(January 2020-\nContinue)-Aqua MineImplemented up-selling strategies such\nas recommending accessories and\ncomplementary purchases to boost\nrevenue.\nIdentified and capitalized on lucrative\nsales opportunities, successfully included\nnew corporate clients.\nCorporate Accounts Management\nYa SAT Sales and Business Development\nDeveloped successful online sales\noperations from\nscratch by establishing and following\nstrategic vision, mission and operational\nplansAchieved sales goals and service targets\nby leveraging interpersonal\ncommunication skills and product\nknowledge to cultivate and secure new\ncustomer relationships.\nOffered each customer top-notch,\npersonal service and polite support to\nboost sales and customer satisfaction.\nBuilt reputation by providing reliable\nbackhaul connectivity services to\nPakistan's leading ISPs and telecom\noperators.\nProduced and submitted weekly reports\noutlining progress against KPI objectives.\nExceeded targets by building, directing\nand motivating a high-performing sales\nteam.Key Account Manager (2015-2020 )-\nTransworld Associates\nAssistant Manager Sales & Business\nDevelopment (March 2020-\nDecember 2020), Infinit Connections\nPresents and promotes the Infinit\nbrand; creates new avenues for\nrevenue growth using both direct and\nindirect channels.\nCollaborates closely with marketing\nand product development teams; the\npurpose is to create a campaign path\nfor the marketing strategy that is\nstrongly aligned with the key selling\npoints and attributes of the\ncompany\u2019s new product\nSales Associate (2011-2014\nSupernet (Pvt.) LimitedDirect SaleS & Service Executive\n(2010-2011)-Wateen Telecom\nCollaborated with internal market price\npoints and set structures to achieve profit\ntargets.\nWorked with stakeholders to formulate a\nbusiness direction for presentation and\npromotion of products.\nPlayed an instrumental role in closing\ncorporate deals SOHO, SME'S Packages.\nMonitored customer buying trends, market\nconditions and competitor actions to\nadjuststrategies and achieve sales goal\nReference \nReferences will be furnished uponrequest.\nBusiness Development Manager\nMarkiTech -Locatemotion(SenSights.AI )\n(January 2021- 2022)\nHelped Industries into Digital\nTransformation & Business Process\nOutsourcingProviding Management and direction to\nthe Operations Team.\n Manage the work of suppliers onsite\nand ensure their work meets all\nrequirements and standards of work. \n Management All over Production of the\nPlant alone.\n Respond to Plant needs after hours.\n Offered technical assistance as\nneeded.\nMonitored budget costs and planning\nto ensure compliance.\nHandled the entire supply chain and\npurchases by myself."
+    },
+    "details": {
+        "name": "Muneeb Ahmed Malik",
+        "number": "03111333980",
+        "skills": [
+            "B to B sales expert",
+            "High-impact sales presentations",
+            "Revenue Increase",
+            "Services optimization",
+            "Corporate Accounts Management",
+            "Sales and Business Development"
+        ],
+        "email_id": "Muneeb.malik2408@gmail.com",
+        "location": "81-D1, Nespak Society, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2016",
+                "university": "IAS-PU Lahore",
+                "degree_title": "MBA-Executive (Specialization: Marketing/Management)"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "NCA Lahore",
+                "degree_title": "Graduate-Post Production (Animations) (Specialization: CGI -Artist VFX)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muneebahmedmalik",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/muneebahmedmalik",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Muneeb Ahmed Malik is a seasoned business development and key account manager with over 10 years of experience in driving revenue growth and managing corporate accounts. He has a strong background in B to B sales and has successfully implemented strategies to enhance customer satisfaction and optimize services.",
+        "employment_history": [
+            {
+                "details": "Implemented up-selling strategies and identified lucrative sales opportunities, successfully including new corporate clients.",
+                "end_date": "Continue",
+                "location": "",
+                "job_title": "Corporate Sales Manager",
+                "start_date": "07-2022",
+                "company_name": "MarkiTech - Locatemotion (SenSights.AI)"
+            },
+            {
+                "details": "Managed operations and provided technical assistance, ensuring compliance with budget costs and planning.",
+                "end_date": "01-2022",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2021",
+                "company_name": "Aqua Mine"
+            },
+            {
+                "details": "Achieved sales goals and service targets by leveraging interpersonal communication skills and product knowledge.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Assistant Manager Sales & Business Development",
+                "start_date": "03-2020",
+                "company_name": "Infinit Connections"
+            },
+            {
+                "details": "Developed successful online sales operations and exceeded targets by building and motivating a high-performing sales team.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Key Account Manager",
+                "start_date": "01-2015",
+                "company_name": "Transworld Associates"
+            },
+            {
+                "details": "Collaborated with stakeholders to formulate business direction and monitored customer buying trends to achieve sales goals.",
+                "end_date": "12-2014",
+                "location": "",
+                "job_title": "Sales Associate",
+                "start_date": "01-2011",
+                "company_name": "Supernet (Pvt.) Limited"
+            },
+            {
+                "details": "Worked with internal market price points and set structures to achieve profit targets.",
+                "end_date": "12-2011",
+                "location": "",
+                "job_title": "Direct Sales & Service Executive",
+                "start_date": "01-2010",
+                "company_name": "Wateen Telecom"
+            }
+        ]
+    }
+}

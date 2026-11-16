@@ -1,0 +1,47 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 52,
+            "experience": 48
+        },
+        "micro_dict": {
+            "linkedin sales navigator": 100
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "3-5 years of experience in business development or related fields",
+            "Ability to manage multiple projects simultaneously",
+            "Excellent communication skills",
+            "Proficiency in MS Office Suite and data analysis tools",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

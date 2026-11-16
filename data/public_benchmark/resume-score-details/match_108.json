@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has held multiple roles in business development, demonstrating leadership by handling teams and managing projects, though does not explicitly mention leadership development.",
+            "Relevant experience aligns with sales management and client interfacing but lacks detailed mention of digital marketing expertise required for the role.",
+            "Excel and Python are not mentioned in skills, instead, candidate shows proficiency in email marketing.",
+            "Salesforce and SEO are not mentioned, which are crucial per job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "sales experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 3
+                },
+                {
+                    "criteria": "email marketing",
+                    "score": 8
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "seo",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.96,
+                "micro_scores": 5.5600000000000005
+            }
+        },
+        "personal_info": {
+            "name": "SABA AHSAN",
+            "email": "saba.ahsan1116@gmail.com",
+            "phone": "+923314770528",
+            "current_position": "Business Development Executive",
+            "current_company": "Rendream",
+            "employment_start_date_current_company": "06-2023",
+            "first_company_start_date": "07-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "LinkedIn"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "leadership": 47,
+            "sales experience": 43,
+            "analytical skills": 10
+        },
+        "micro_dict": {
+            "salesforce": 25,
+            "email marketing": 26,
+            "market research": 35,
+            "seo": 14
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field"
+        ],
+        "resume": "SABA AHSAN\nBusiness Development Executivesaba.ahsan1116@gmail.com\n+923314770528\nMughal Pura, Lahore\nPROFILE\nI am currently working as a \nBusiness Development Executive. \nI look forward to joining a \nfull-time position in a dynamic and \nprogressive organization where I \ncan polish my skills by learning \nfrom diverse experiences for \ncontinuous professional growth.\nLINKS\nLinkedIn\nSKILLS\nCSS\n HTML \n WordPress\nLinkedIn Reach-Out \nCompetitor Analysis\nEmail Marketing\nLead Generation\nData Extraction \nCompetitor Analysis \nClient Dealing\nMonthly Performance Report\n Client Hunting \nLANGUAGES\nEnglish \nUrdu\nHOBBIES\nReading\nTraveling\nLearning Languages \nPhotographyEMPLOYMENT HISTORY\nBusiness Development Executive at Rendream, Lahore\nJun, 2023 - Present\n\u2022Dealing with International Clients\n\u2022Client relationship Expert\n\u2022Market analysis, segmentation (growth hacking), and lead \ngeneration\n\u2022Cold calling, closing deals, and acquiring new clients.\n\u2022Daily dealing with the CEO, CFO, and Corporate owners.\n\u2022Setting new appointments and approaching new clients\nBusiness Development Executive at InvoZone, Lahore\nApr, 2022 - May, 2023\n\u2022B2B & B2C\n\u2022Client Dealing\n\u2022Lead hunter\n\u2022Handle Team of Business Development\n\u2022Manage Projects and Clients\n\u2022Analytical thinking and problem-solving\n\u2022Organizational skills to achieve the desired outcome\n\u2022Expert in communication skills\n\u2022Ability to manage all critical situations\n\u2022Strong communication and presentation skills\n\u2022Ability to Attend networking activities to research and connect with \nprospective clients\nBusiness Development Executive at TechNerds Agency, Lahore\nJul, 2021 - Apr, 2022\n\u2022Business Leads searching\n\u2022Project and team management\n\u2022Manages the development of new sales leads through a variety of \nplatforms\n\u2014 Digital & Social Media Intern at Cortexom Innovations\nApr, 2021 - Jun, 2021\nAmal Academy Career Prep Fellowship at Stanford University\nJul, 2020 - Aug, 2020\nEDUCATION\nBS Computer Science at NCBA&E, DHA Campus, Lahore\nSep, 2016 - Sep, 2020\n\u2022GPA 3.07\n\u2022Best Class Representative\n\u2022Best Student Reward in the whole Batch\nHSSC (I.C.S) at Govt. College for Women, Lahore\nAug, 2014 - Aug, 2016\nSSC (Science Group) at BISE, Lahore\nAug, 2012 - Aug, 2014"
+    },
+    "details": {
+        "name": "Saba Ahsan",
+        "number": "923314770528",
+        "skills": [
+            "CSS",
+            "HTML",
+            "WordPress",
+            "Email Marketing",
+            "Lead Generation",
+            "Data Extraction"
+        ],
+        "email_id": "saba.ahsan1116@gmail.com",
+        "location": "Mughal Pura, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "09-2020",
+                "university": "NCBA&E, DHA Campus, Lahore",
+                "degree_title": "BS Computer Science"
+            }
+        ],
+        "achievements": [
+            "Best Class Representative",
+            "Best Student Reward in the whole Batch"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saba Ahsan is a dedicated Business Development Executive with a strong background in technical skills such as CSS, HTML, and WordPress. She has demonstrated expertise in email marketing, lead generation, and data extraction, contributing to her success in managing client relationships and driving business growth.",
+        "employment_history": [
+            {
+                "details": "Dealing with International Clients, Client relationship Expert, Market analysis, segmentation (growth hacking), and lead generation, Cold calling, closing deals, and acquiring new clients, Daily dealing with the CEO, CFO, and Corporate owners, Setting new appointments and approaching new clients.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "06-2023",
+                "company_name": "Rendream"
+            },
+            {
+                "details": "B2B & B2C, Client Dealing, Lead hunter, Handle Team of Business Development, Manage Projects and Clients.",
+                "end_date": "05-2023",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "04-2022",
+                "company_name": "InvoZone"
+            },
+            {
+                "details": "Business Leads searching, Project and team management, Manages the development of new sales leads through a variety of platforms.",
+                "end_date": "04-2022",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2021",
+                "company_name": "TechNerds Agency"
+            },
+            {
+                "details": "Internship focused on digital and social media strategies.",
+                "end_date": "06-2021",
+                "location": "Lahore",
+                "job_title": "Digital & Social Media Intern",
+                "start_date": "04-2021",
+                "company_name": "Cortexom Innovations"
+            }
+        ]
+    }
+}

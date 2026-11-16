@@ -1,0 +1,190 @@
+{
+    "output": {
+        "justification": [
+            "Candidate demonstrated strong client relationship management skills by managing 15 accounts and engaging with new accounts, exceeding sales targets.",
+            "Relevant experience includes roles in sales, marketing, and account management which align with job responsibilities.",
+            "Lacks specific experience in SEO strategy development and PPC campaign management, which are key job requirements.",
+            "Demonstrated some team management skills but not extensively in digital marketing contexts."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship management",
+                    "score": 9
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 3
+                },
+                {
+                    "criteria": "team management",
+                    "score": 5
+                },
+                {
+                    "criteria": "ppc campaigns",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 9.0,
+                "micro_scores": 3.74
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Bilal Amin",
+            "email": "mbilal.amin@outlook.com",
+            "phone": "+92-323-321-5863",
+            "current_position": "Key Account Manager",
+            "current_company": "Signify Pakistan",
+            "employment_start_date_current_company": "12-2022",
+            "first_company_start_date": "07-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/muhammad-bilal-amin/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "client relationship management": 100
+        },
+        "micro_dict": {
+            "seo strategy development": 48,
+            "team management": 42,
+            "ppc campaigns": 10
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field",
+            "Strong analytical and strategic thinking skills"
+        ],
+        "resume": "Muhammad Bilal Amin  \n+92-323-321-5863 | mbilal.amin@outlook.com | https://www.linkedin.com/in/muhammad -bilal-amin/  \nProfessional Experience            \nSignify Pakistan (Formerly Philips Pakistan)          \nKey Account Manager           Dec 2022 -Present  \n\u2022 Managing total of 15 Accounts Including both End Users and Channel Partners for Retail & Hospitality Business Across Pakistan  \n\u2022 Managing the largest EU account with approx. 700K EUR  business for Signify Pakistan.  \n\u2022 Started engagement with 10 different new fashion retail potential accounts in line with Signify\u2019s expansion strategy in R&H segment.  \n\u2022 Delivered and exceeded both top line and bottom -line targets with 120% attainment in topline in Q4 2022 .  \nToyota Pakistan (Indus Motor Company)  \nAssistant Manager Sales Planning  (Demand Planner)       Oct 2022 -Nov 202 2 \n\u2022 Improved the efficiency of the planning cycle with timely delivery of forecasting and planning report by at least 10%  \n\u2022 Made a reconciliation and availability tool for the better planning of CBU vehicles.   \n\u2022 Improve the MOM CBU invoicing performance by 100%.  \n\u2022 Strong coordination between marketing, sales,  and planning team to get the optimum demand forecast based on n+3 approach.  \nToyota Pakistan (Indus Motor Company)  \nAssistant Manager Network Expansion        Jul 2022 - Oct 2022  \n\u2022 Was part of the launch team for Toyota Gateway Motors  \n\u2022 Ensure all the branding is accurately done before the dealership launch.  \n\u2022 Learned and understood all the Toyota Policies and procedures for dealership opening.  \n\u2022 Researched the current dealership data across Pakistan auto sector and crea ted a dashboard (Power BI) analyzing the dealership \ndata in Pakistan in different metrics (dealership counts, geographies, average sales per dealership etc.) \nSignify Pakistan (Formerly Philips Pakistan)          \nCommercial Support Specialist  (Product Market ing)      April 2021 -Jun 2022  \n\u2022 Supported in Product Roadmap for the coming future portfolios.  \n\u2022 Conducting a succes sful training  for SFDC to Sub Sahar a Afri ca Market with more than 17 pe ople in training.  \n\u2022 Conducted anonymous market visits to get the primary insights of the current market/competition situation.  \n\u2022 Hands on command on Vistex Tool, trained the PMs in Pakistan on the use of Vistex.  \n\u2022 Communicating with the Marcom team regarding the ongoing and upcoming campaigns.  \n\u2022 Achieved 15% improvement in data quality of pricing activities by collaborating with region al commercial operations team to \nachieve monthly targets.  \n\u2022 Increased profitability by 10% by forecasting channel sales and IGM with 95% accuracy.  \n\u2022 Improved decision ma king by providing comprehensive weekly performance reports to the commercial head, resulting in a 20% \nimprovement.  \nSignify Pakistan (Formerly Philips Pakistan)          \nSales Support Officer (Contractual)         Jul 2020 -Mar 2021  \n\u2022 Coordinated national sales for professional lighting, resulting in 15% sales growth.  \n\u2022 Improved sales team productivity by 20% as key user for Sales Force Dot Com  \n\u2022 Provided weekly performance reports to commercial director, improving accuracy and timeliness by 25%  \n\u2022 Improv ed sales and profitability forecasting accuracy by 5%, resulting in a 10% profit increase.  \nOther Experience             \n\u2022 Quantitative Instructor at Anees Hussain Pvt Limited (Dec 2017 \u2013 Present)  \n\u2022 Marketing Intern at Signify Pakistan Limited (Feb 2020 - Jun 2020)  \n\u2022 Marketing Intern at Hilton Pharma Pvt Limited (Jul 2019 - Aug 2019)  \n\u2022 Trade and Revenue Management Intern at Sanofi Pakistan (Jul 2018 - Aug 2018)  \nEducation               \nMaster of Business Admi nistrations     | Institute of Business Administration, Karachi | In Progress  \nBachelor of Business Administrations | Institute of Business Administration, Karachi | 2016 -2020  \nSkills               \nSales Management  | Data Analysis | Marketing Management  | Planning and Forecasting | Stakeholder Management | Operations Management   "
+    },
+    "details": {
+        "name": "Muhammad Bilal Amin",
+        "number": "923233215863",
+        "skills": [
+            "Sales Management",
+            "Data Analysis",
+            "Marketing Management",
+            "Planning and Forecasting",
+            "Stakeholder Management",
+            "Operations Management"
+        ],
+        "email_id": "mbilal.amin@outlook.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2020-06",
+                "university": "Institute of Business Administration, Karachi",
+                "degree_title": "Bachelor of Business Administrations"
+            },
+            {
+                "end_date": "In Progress",
+                "university": "Institute of Business Administration, Karachi",
+                "degree_title": "Master of Business Administrations"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-bilal-amin",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Bilal Amin is a skilled professional with extensive experience in sales management and data analysis, having held key positions in reputable companies such as Signify Pakistan and Toyota Pakistan. He has demonstrated a strong ability to improve operational efficiency and drive sales growth through effective planning and forecasting.",
+        "employment_history": [
+            {
+                "details": "Managing total of 15 Accounts Including both End Users and Channel Partners for Retail & Hospitality Business Across Pakistan. Managing the largest EU account with approx. 700K EUR business for Signify Pakistan. Started engagement with 10 different new fashion retail potential accounts in line with Signify\u2019s expansion strategy in R&H segment. Delivered and exceeded both top line and bottom-line targets with 120% attainment in topline in Q4 2022.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Key Account Manager",
+                "start_date": "12-2022",
+                "company_name": "Signify Pakistan (Formerly Philips Pakistan)"
+            },
+            {
+                "details": "Improved the efficiency of the planning cycle with timely delivery of forecasting and planning report by at least 10%. Made a reconciliation and availability tool for the better planning of CBU vehicles. Improve the MOM CBU invoicing performance by 100%. Strong coordination between marketing, sales, and planning team to get the optimum demand forecast based on n+3 approach.",
+                "end_date": "11-2022",
+                "location": "",
+                "job_title": "Assistant Manager Sales Planning (Demand Planner)",
+                "start_date": "10-2022",
+                "company_name": "Toyota Pakistan (Indus Motor Company)"
+            },
+            {
+                "details": "Was part of the launch team for Toyota Gateway Motors. Ensure all the branding is accurately done before the dealership launch. Learned and understood all the Toyota Policies and procedures for dealership opening. Researched the current dealership data across Pakistan auto sector and created a dashboard (Power BI) analyzing the dealership data in Pakistan in different metrics (dealership counts, geographies, average sales per dealership etc.).",
+                "end_date": "10-2022",
+                "location": "",
+                "job_title": "Assistant Manager Network Expansion",
+                "start_date": "07-2022",
+                "company_name": "Toyota Pakistan (Indus Motor Company)"
+            },
+            {
+                "details": "Supported in Product Roadmap for the coming future portfolios. Conducting a successful training for SFDC to Sub Sahara Africa Market with more than 17 people in training. Conducted anonymous market visits to get the primary insights of the current market/competition situation. Hands on command on Vistex Tool, trained the PMs in Pakistan on the use of Vistex. Communicating with the Marcom team regarding the ongoing and upcoming campaigns. Achieved 15% improvement in data quality of pricing activities by collaborating with regional commercial operations team to achieve monthly targets. Increased profitability by 10% by forecasting channel sales and IGM with 95% accuracy. Improved decision making by providing comprehensive weekly performance reports to the commercial head, resulting in a 20% improvement.",
+                "end_date": "06-2022",
+                "location": "",
+                "job_title": "Commercial Support Specialist (Product Marketing)",
+                "start_date": "04-2021",
+                "company_name": "Signify Pakistan (Formerly Philips Pakistan)"
+            },
+            {
+                "details": "Coordinated national sales for professional lighting, resulting in 15% sales growth. Improved sales team productivity by 20% as key user for Sales Force Dot Com. Provided weekly performance reports to commercial director, improving accuracy and timeliness by 25%. Improved sales and profitability forecasting accuracy by 5%, resulting in a 10% profit increase.",
+                "end_date": "03-2021",
+                "location": "",
+                "job_title": "Sales Support Officer (Contractual)",
+                "start_date": "07-2020",
+                "company_name": "Signify Pakistan (Formerly Philips Pakistan)"
+            },
+            {
+                "details": "Quantitative Instructor at Anees Hussain Pvt Limited.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Quantitative Instructor",
+                "start_date": "12-2017",
+                "company_name": "Anees Hussain Pvt Limited"
+            },
+            {
+                "details": "Marketing Intern at Signify Pakistan Limited.",
+                "end_date": "06-2020",
+                "location": "",
+                "job_title": "Marketing Intern",
+                "start_date": "02-2020",
+                "company_name": "Signify Pakistan Limited"
+            },
+            {
+                "details": "Marketing Intern at Hilton Pharma Pvt Limited.",
+                "end_date": "08-2019",
+                "location": "",
+                "job_title": "Marketing Intern",
+                "start_date": "07-2019",
+                "company_name": "Hilton Pharma Pvt Limited"
+            },
+            {
+                "details": "Trade and Revenue Management Intern at Sanofi Pakistan.",
+                "end_date": "08-2018",
+                "location": "",
+                "job_title": "Trade and Revenue Management Intern",
+                "start_date": "07-2018",
+                "company_name": "Sanofi Pakistan"
+            }
+        ]
+    }
+}

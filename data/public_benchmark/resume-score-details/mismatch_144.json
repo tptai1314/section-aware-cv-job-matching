@@ -1,0 +1,164 @@
+{
+    "output": {
+        "justification": [
+            "Candidate demonstrates strategic thinking through development and implementation of brand strategies and sales campaigns.",
+            "Leadership experience shown as Teaching Assistant and head boy, but lacks senior leadership exposure.",
+            "Relevant experience includes marketing executive role and design architect, relevant to B2B sales experience.",
+            "Proficient in MS Office, including Excel, meets the requirement of strong proficiency in Microsoft Office Suite.",
+            "Market research knowledge from coursework and work on branding and analytics indicated."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.04,
+                "micro_scores": 6.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Usman",
+            "email": "usmansharif99@gmail.com",
+            "phone": "+923098806450",
+            "current_position": "Marketing Executive",
+            "current_company": "MOGLEE",
+            "employment_start_date_current_company": "02-2022",
+            "first_company_start_date": "11-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 48,
+            "experience": 8,
+            "strategic thinking": 44
+        },
+        "micro_dict": {
+            "market research": 100
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Proven ability to develop and implement successful business strategies",
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": " \n \n \nEducation  \nINFORMATION TECHNOLOGY UNIVERSITY, LAHORE                      2018  \u2013 2022      \nBS Management and Technology  \n\u25aa Worked as teaching assistant with the Dean of Business School  \n\u25aa Relevant coursework : Principles of Marketing, Digital Marketing , Quantitative Techniques \nfor Business, Microeconomics & Macroeconomics of Pakistan, Management Accounting, \nOperations Management, Entrepreneurship,  Management Control Systems, Market Research \n& Analytics, Project Management, Business Analytics, Communication Skills, Valuation of \nFirms & Start -ups. \n \nPUNJAB COLLEGE OF SCIENCE, LAHORE                                                2016  \u2013 2018                                          \nIntermediate Pre -engineering          \n\u25aa Got merit scholarship in Punjab College for whole intermediate  \n\u25aa Received Rs.50,000 cheque from G ovt. of  Punjab  for scoring above 90% marks in 1st year \n(Intermediate)  \n \nALI TRUST COLLEGE, ISLAMABAD                                                             2011 \u2013 2016  \nMatriculation         \n\u25aa Selected as Head Boy in Ali Trust College, Islamabad  \n\u25aa Got 3rd position in Middle Standard Examination (FDE)  \n\u25aa Got m erit scholarship in Ali Trust College, Islamabad  for five years  \n\u25aa Received Rs.50,000 cheque from G ovt. of  Punjab  for scoring above 90% marks in Matric  \nProfe ssional Experience  \nMOGLEE                                                                               Lahore, Pakistan  \nMarketing  Executive                                                               February 2022  \u2013 Present  \n\u25aa Worked on branding of several e-commerce stores  \n\u25aa Launched marketing campaigns on social media to boost sales  \n\u25aa Developed strategies to generate  leads  for the  stores  \n \nALUMINATION SOCIAL & DIGITAL                            Oxfordshire , UK \nDesign Architect                                                                      November 20 20 \u2013 January 2022  \n\u25aa Designed social media posters, banners, leaflets, brochures, menus, and logos of Pakistani and \ninternational clients  \n\u25aa Designed marketing campaign  designs  for international clients  \nBrand  Associate  \n\u25aa Launched already established and new businesses on digital platforms  \n\u25aa Developed strategies for making brands customer centric  \n\u25aa Launched marketing campaigns for gaining potential customers  \nMOGLEE                                                                               Lahore, Pakistan  \nMarketing I ntern                                                                      December 2021  \u2013 February  2022  \n\u25aa Learned how to build a brand from scratch  \n\u25aa Gained knowledge of managing e -commerce business  \n\u25aa Designed marketing ads for Pakistan based clients  Muhammad Usman  \nAddress:  659, M Block Sabzazar  \u2022 Lahore  \n+923098806450   \u2022 usmansharif99@gmail.com  \n \n INFORMATION TECHNOLOGY UNIVERSITY         Lahore, Pakistan  \nTeaching Assistant                 September 2021 \u2013 January 2022   \n\u25aa Work ed for the course Primer on Management and Technology  \n\u25aa Learned effective teaching strategies by working with highly qualified and experienced faculty at \nITU \n \nTechnical Experience  \nAdobe Photoshop, Adobe Illustrator, MS Word, Excel, PowerPoint, Project Management, Business \nAnalytics, Wondershare Filmora , Digital Marketing  \n \nAdditional   \nVolunteered in 2nd Islamabad Literature Festival 2014 arranged by Oxford University Press  \nTook many online courses about Graphic Designing, Freelancing and Digital Marketing  \n \n "
+    },
+    "details": {
+        "name": "Muhammad Usman",
+        "number": "923098806450",
+        "skills": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "MS Word",
+            "Excel",
+            "PowerPoint",
+            "Project Management",
+            "Business Analytics",
+            "Wondershare Filmora",
+            "Digital Marketing"
+        ],
+        "email_id": "usmansharif99@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "INFORMATION TECHNOLOGY UNIVERSITY, LAHORE",
+                "degree_title": "BS Management and Technology"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "PUNJAB COLLEGE OF SCIENCE, LAHORE",
+                "degree_title": "Intermediate Pre-engineering"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "ALI TRUST COLLEGE, ISLAMABAD",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [
+            "Got merit scholarship in Punjab College for whole intermediate",
+            "Received Rs.50,000 cheque from Govt. of Punjab for scoring above 90% marks in 1st year (Intermediate)",
+            "Selected as Head Boy in Ali Trust College, Islamabad",
+            "Got 3rd position in Middle Standard Examination (FDE)",
+            "Received Rs.50,000 cheque from Govt. of Punjab for scoring above 90% marks in Matric"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/johndoe",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Muhammad Usman is a skilled marketing executive and design architect with a strong background in digital marketing and project management. He has demonstrated expertise in branding and marketing strategies for e-commerce and has experience in graphic design for both local and international clients. His educational background in Management and Technology complements his professional experience, making him a valuable asset in the marketing and design fields.",
+        "employment_history": [
+            {
+                "details": "Worked on branding of several e-commerce stores and launched marketing campaigns on social media to boost sales.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Marketing Executive",
+                "start_date": "02-2022",
+                "company_name": "MOGLEE"
+            },
+            {
+                "details": "Designed social media posters, banners, leaflets, brochures, menus, and logos of Pakistani and international clients. Launched marketing campaigns for international clients.",
+                "end_date": "01-2022",
+                "location": "Oxfordshire, UK",
+                "job_title": "Design Architect",
+                "start_date": "11-2020",
+                "company_name": "ALUMINATION SOCIAL & DIGITAL"
+            },
+            {
+                "details": "Learned how to build a brand from scratch and gained knowledge of managing e-commerce business.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Marketing Intern",
+                "start_date": "12-2021",
+                "company_name": "MOGLEE"
+            },
+            {
+                "details": "Worked for the course Primer on Management and Technology, learning effective teaching strategies by working with highly qualified and experienced faculty at ITU.",
+                "end_date": "01-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Teaching Assistant",
+                "start_date": "09-2021",
+                "company_name": "INFORMATION TECHNOLOGY UNIVERSITY"
+            }
+        ]
+    }
+}

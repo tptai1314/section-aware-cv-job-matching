@@ -1,0 +1,138 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 2 years of experience in business development but lacks experience in international markets.",
+            "No relevant experience as a team leader or in international market entry strategies.",
+            "No clear evidence of relevant skills in market entry strategy or negotiation skills.",
+            "Candidate has basic communication skills in English but lacks proficiency in multiple languages."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market entry strategy",
+                    "score": 2
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven experience in market entry and compliance with international standards",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in strategic planning and client management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Aali Raza",
+            "email": "razaa694@gmail.com",
+            "phone": "+92-332-8707574",
+            "current_position": "Relationship Manager",
+            "current_company": "JS Bank",
+            "employment_start_date_current_company": "MM-YYYY",
+            "first_company_start_date": "MM-YYYY",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Job Title: International Business Development Manager\n\n#### Company: InnovateTech Solutions\n\n**Location:** Lahore, Pakistan  \n\n**About InnovateTech Solutions:**  \nInnovateTech Solutions is a leading global provider of innovative technology solutions, specializing in expanding business operations across diverse international markets. We are seeking a highly motivated and experienced International Business Development Manager to join our team and lead strategic market entry initiatives.\n\n#### Responsibilities:\n\n- Develop and implement comprehensive strategies for foreign market entry, expansion, and product launches in new territories.\n- Lead international trade missions to research, analyze, and secure new business opportunities in the EU and US markets.\n- Build and maintain strong relationships with clients and key stakeholders by employing effective negotiation and communication skills.\n- Collaborate with cross-functional teams to design market entry strategies and oversee implementation of marketing and sales plans.\n- Manage a team of business development officers, providing guidance and support to achieve departmental objectives.\n- Coordinate and attend international exhibitions and trade shows to promote company products and secure new contracts.\n- Analyze market trends and competitive landscapes to identify business opportunities and recommend strategic changes.\n- Ensure compliance with international market regulations and standards in collaboration with regulatory consultants.\n\n#### Qualifications:\n\n- Bachelor's degree in Business, Marketing, or a relevant field; a Master's degree is a plus.\n- Minimum of 5 years of experience in international business development or related roles.\n- Proven track record of strategic planning and securing high-value contracts with international clients.\n- Strong analytical and problem-solving skills with a keen attention to detail.\n- Excellent communication and interpersonal skills, with proficiency in multiple languages being an advantage.\n\n#### Why Join Us?\n\n- Fast-paced and dynamic work environment with opportunities for career growth.\n- Chance to lead strategic initiatives and make a significant impact on international expansion efforts.\n- Competitive salary package and benefits.\n\nIf you are passionate about driving international business growth and have the skills to succeed, we would like to meet you!\n\n**To Apply:** Please submit your resume and cover letter detailing your relevant experience and achievements.",
+        "macro_dict": {
+            "leadership": 100
+        },
+        "micro_dict": {
+            "market entry strategy": 59,
+            "negotiation skills": 41
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Proven experience in market entry and compliance with international standards",
+            "Proficiency in strategic planning and client management"
+        ],
+        "resume": " \n \n \nObjective: - \nTo pursue  career  in a progressive  organization  that  provides  opportunities  \nfor career growth and professional development in order to groom the overall  \npersonality.  \n Personal  Information: - \nFather\u2019s  Name  Muhammad  Essa  \nDate  of Birth  10-02-1993  \nCNIC  No. 35102 -2529071 -3 \n \nDomicile  Kasur  (Punjab)  \n \nReligion  Islam  \n \nGender  Male  \n \nMarital  Status  Married  \n \n \nAcademic  Record: - \n \nDegree  Division  Year  Passing  Board/University  \nMatriculation  2nd 2009  BISE  Lahore  \nI.Com  1st 2012  BISE  Lahore  \nB.Com  2nd 2014  Punjab  University  \nM.A  Physical  Education  1st 2017  University  of Sargodha  \nURRICULUM  \nITAE  \nAAALLLIII RRRAAAZZZAAA \nPostal  Address:  Bahmani  Wala  Khurd,  Kasur  \nCell:  +92 -332 -8707574  \nE-Mail:  razaa694@gmail.com  \nComputer  Skills: - \n \n\u27a2 Diploma  in Computer  Sciences  DOM  \n \n\u27a2 Typing  Speed  40wpm  \n \nExperience: - \n \n\u27a2 . 02 Years  experience  as \u201cBusiness  Development  Officer\u201d  at Allied  Bank Kasur.  \n \n\u27a2 01 Year  experience  as a \u201cRelationship  Manager\u201d  at JS Bank  Kasur.  \n \n\u27a2 01 Year  experience        as  a  \u201c ACCOUNTANT     \u201don word       at  C ontinental Biscuits in \nkasur . \n \nLanguage: - \n \n\u27a2 English  \n \n\u27a2 Urdu  \n \n\u27a2 Punjabi  \n \nPersonal  Qualities: - \n \n\u27a2 Work  well  under  pressure  \n \n\u27a2 Work  well  as team  member  \n \n\u27a2 Strong  Organization,  Problem  Solving  \n \nReference: - \n \n\u27a2 Will  be furnished  on demand  \n"
+    },
+    "details": {
+        "name": "Raza Ali",
+        "number": "923328707574",
+        "skills": [
+            "Computer Sciences",
+            "Typing Speed 40wpm"
+        ],
+        "email_id": "razaa694@gmail.com",
+        "location": "Bahmani Wala Khurd, Kasur",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "University of Sargodha",
+                "degree_title": "M.A Physical Education"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Punjab University",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "BISE Lahore",
+                "degree_title": "I.Com"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "BISE Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/razaali",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Raza Ali is a dedicated professional with experience in business development and relationship management, possessing strong technical skills in computer sciences and typing. He has a solid educational background with a Master's degree in Physical Education and has worked in various roles in the banking and accounting sectors.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer at Allied Bank, responsible for client acquisition and relationship management.",
+                "end_date": "11-2024",
+                "location": "Kasur",
+                "job_title": "Business Development Officer",
+                "start_date": "11-2022",
+                "company_name": "Allied Bank"
+            },
+            {
+                "details": "Relationship Manager at JS Bank, focusing on customer service and financial solutions.",
+                "end_date": "11-2021",
+                "location": "Kasur",
+                "job_title": "Relationship Manager",
+                "start_date": "11-2020",
+                "company_name": "JS Bank"
+            },
+            {
+                "details": "Accountant at Continental Biscuits, managing financial records and transactions.",
+                "end_date": "11-2020",
+                "location": "Kasur",
+                "job_title": "Accountant",
+                "start_date": "11-2019",
+                "company_name": "Continental Biscuits"
+            }
+        ]
+    }
+}

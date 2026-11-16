@@ -1,0 +1,204 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks proven social media marketing and SEO/SEM work experience needed for digital marketing role, indicating a challenge in meeting the requirement for digital marketing experience.",
+            "Candidate has project management and communication skills but lacks validation of familiarity with Google Analytics and CRM tools.",
+            "The candidate's experience doesn't align with the macro_score categories of 'Digital Marketing Experience' and 'Client Relationship', as they are more aligned with project management in a technology context.",
+            "The candidate's educational background and extensive experience in project management do not directly apply to the digital marketing focus of the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "content development",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.2,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Bilal Ali Khan",
+            "email": "bilalkhan926@gmail.com",
+            "phone": "+93456027021",
+            "current_position": "Project Manger / Scrum Master",
+            "current_company": "NdcTech",
+            "employment_start_date_current_company": "04-2021",
+            "first_company_start_date": "06-2004",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/bilal-ali-khan-421aab91"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "digital marketing experience": 90,
+            "client relationship": 10
+        },
+        "micro_dict": {
+            "content development": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Strong project management and communication skills",
+            "Familiarity with Google Analytics and CRM tools",
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Bilal Ali Khan\nKar\u0101chi, Pakistan\nbilalkhan926@gmail.com +93456027021\nlinkedin.com/in/bilal-ali-khan-421aab91\nSummary\nI am a seasoned Project Manager with a Masters in Project Management as well as having a Bachelor\u2019s Degree in\nComputer Science with an experience in the Mobile and Web Application SDLC.\n\u00a0\nI consider myself a goal oriented person and I believe that a person should never give up on their goals no matter\nwhat obstacles come in their way.\n\u00a0\nI am a team player when I have to work well with others because of my good people skills. I have found \u201cactive-\nlistening\u201d a very useful skill when working in a group. I love to socialize with people and I can adapt to any\nsituation that I am put forward to also I love to manage people due to the fact that I have outstanding people skills.\n\u00a0\nSpecialties:\n- Digital Banking Mobile application and Internet banking\n- Experience of Waterfall and Agile Methodologies\n- Requirement Analysis\n-Pre Sales Management\nExperience\nProject Manger / Scrum Master\nNdcTech\nApr 2021 - Present (1 year +)\n\u2022Maintaining Full project life cycle ownership: successful project delivery will include full implementation\nfrom initiation to deployment for one major or several minor initiatives simultaneously\n\u2022Managing all aspects of multiple related projects to ensure the overall program is aligned to and\ndirectly supports the achievement of strategic objectives\n\u2022Reporting on project success criteria results, metrics, test and deployment management activities\n\u2022Procuring adequate resources to achieve project objectives in planned timeframes\n\u2022Providing status reporting regarding project milestones, deliverable, dependencies, risks and issues,\ncommunicating across leadership\n\u2022Managing project scope and changes\n\u2022Delivering appropriate and effective executive level communication\n\u2022Providing on-site leadership for project team by building and motivating team members to meet project\ngoals, adhering to their responsibilities and project milestones\n\u2022Working creatively and analytically in a problem-solving environment demonstrating teamwork,\ninnovation and excellence\n\u2022Understanding interdependencies between technology, operations and business needs\n\u2022Participate in establishing practices, templates, policies, tools and partnerships to expand and mature\nthese capabilities for the organization\n\u2022Communicate effectively across all levels of an organization and with external vendors and partners\n\u2022Managing in Scrum Agile development best practices of product development\nBilal Ali Khan - page 1Project Manager Mobile Apps | Mobile Apps Sales\nDigitonics labs (Pvt.) ltd\nDec 2016 - Feb 2021 (4 years 3 months)\n\u2022 Managing project development from initiation to closure.\n\u2022 Work with Technical Writing team to draft initial requirement document leading to signed Statement of\nWork (SOW)\n\u2022 Help the development and QA teams to better understand the customer requirements and help\ncomplete work breakdown structure to estimate effort required for each task.\n\u2022 Create projects schedule in Project Server and MS Project to show when each task will be performed\n\u2022 Clearly communicate expectations and deadlines to team members.\n\u2022 Managing day to day communications between project team and client.\n\u2022 Help the teams to resolve any issues throughout the project life cycle.\n\u2022 Determine what internal or external resources will be needed to complete the specific projects and\nmanage the appropriate resources.\n\u2022 Track and report on project milestones and provide status reports.\n\u2022 Managing PM tickets and update ticket status, priority and assignments to ensure timely completion.\n\u2022 Maintain Project documentations\n\u2022 Help the process improvement team to define and implement processes for all the teams\n\u2022 Arranging Sprint Planning meetings, Managing Product backlog, conducting daily standups\nBusiness Analyst | Project Manager\nApr 2015 - Dec 2016 (1 year 9 months)\nResponsibilities :\n\u2022 Consult with users to Identify, Analyze, Refine and document business requirement.\n\u2022 Provide detail business requirement specification for developers.\n\u2022 Develop, co-ordinate and implement plans to test business and functional processes.\n\u2022 Pre Sales.\n\u2022 Account management.\n\u2022 Leading QA teams on multiple projects.\n\u2022 App Wire framing and Mobile App flow.\n\u2022 Document any identified required changes, and communicate them to the relevant third parties/\ncolleagues.\n\u2022 Specialising in Mobile App & Websites.\n\u2022 Conducting sprint meetings.\nBusiness Analyst\nkhanwebdesign.com\nJul 2013 - Mar 2015 (1 year 9 months)\n\u2022 Client Communication.\n\u2022 Requirement Gathering.\n\u2022 Requirement Analysis.\n\u2022 Prototyping.\n\u2022 Designing (Mockups).\n\u2022 Developing Release Notes.\nSoftware Engineer\nBilal Ali Khan - page 2khanwebdesign.com\nMar 2012 - Jun 2013 (1 year 4 months)\n\u2022 Web development (php)/Designing\n\u2022 iOS Development\n\u2022 Quality assurance.\nInternee\nUnited Bank Limited\nJun 2012 - Aug 2012 (3 months)\n\u2022 Get a grasp of the IT departments that are part of a bank such as the QA department, Contracts\ndepartment and Procurement Department.\nInvigilator\nBritish Council\n2011 - 2011 (1 year)\n\u2022 Attended initial training session for each relevant examination.\n\u2022 Preparation; marking and branding of the examination rooms/halls\n\u2022 ID checking of the candidates\n\u2022 Maintaining attendance of the candidates\n\u2022 Post exam work; collecting answer scripts, counting etc.\nTele sales Executive\nAir-Voice\nJun 2010 - Jul 2010 (2 months)\n\u2022 Assigned the tasks of making cold calls for sales of services and products.\n\u2022 Products Include Landline, Internet , Cell Phones And Tablets\n\u2022 Demonstrate product features before a sale.\n\u2022 Advising customers on technical matters.\n\u2022 Processing orders on phone.\n\u2022 Providing essential after sales services and up selling.\n\u2022 Achieving campaigns requirements at all costs.\n\u2022 Achieving quality above 90% on each call.\n\u2022 Using effective rebuttals depending on the situation.\n\u2022 Perform all assigned tasks as delegated.\n\u2022 To make sure not to violate any company compliance policy.\nIntern\nOffice of Government Commerce\nJun 2004 - Aug 2004 (3 months)\n\u2022 Printer Installation\n\u2022 Microsoft Software installation.\nEducation\nShaheed Zulfikar Ali Bhutto Institute of Science and Technology\nMaster\u2019s Degree, Project Management\nBilal Ali Khan - page 32015 - 2016\nIT project management.\nUsing Agile & Lean Methodologies.\nFundamentals of Project Management\nProject Scheduling, Planning and Time Management\nFinancial Management for Project Management\nProject Quality Management\nProject Cost Management\nSAP Training\nProject in Primavera\nProject Monitoring, Evaluation and Control Management\nEnterprise Resource Planning\nManaging Projects\nInnovation and Technology Management\nProcurement and Contract Management\nProject Change Management\nProject Change and Risk Management\nProject Human Resource Management\nProject Risk Management\nProject Stakeholders Management\nResearch Methods for Project Managers\n\u00a0\n\u00a0\nShaheed Zulfikar Ali Bhutto Institute of Science and Technology\nBachelor of Science (BSc) of Computer Science, Software Engineering\n2010 - 2014\nFSS\nA-Level, Physics,Maths and Business Studies\n2008 - 2010\nK.I.S\nO-Level, Science\n2005 - 2008\nLilian Baylis Technology School\nG.C.S.E\n2000 - 2005\nLicenses & Certifications\nAgile Project Management Principles  - Lynda.com\nSkills\nBilal Ali Khan - page 4Microsoft Project  \u00a0 \u2022 \u00a0 Project Management  \u00a0 \u2022 \u00a0 Business Analysis  \u00a0 \u2022 \u00a0 Microsoft Office  \u00a0 \u2022 \u00a0 Team Leadership  \n\u00a0 \u2022 \u00a0 Negotiation  \u00a0 \u2022 \u00a0 Management  \u00a0 \u2022 \u00a0 Team Management  \u00a0 \u2022 \u00a0 IT Business Management  \u00a0 \u2022 \u00a0 Pre/Post Sales\nEngineers\nBilal Ali Khan - page 5"
+    },
+    "details": {
+        "name": "Bilal Ali Khan",
+        "number": "93456027021",
+        "skills": [
+            "Digital Banking Mobile application",
+            "Internet banking",
+            "Waterfall Methodology",
+            "Agile Methodology",
+            "Requirement Analysis",
+            "Project Management",
+            "Microsoft Project",
+            "Business Analysis",
+            "Microsoft Office"
+        ],
+        "email_id": "bilalkhan926@gmail.com",
+        "location": "Kar\u0101chi, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2016",
+                "university": "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology",
+                "degree_title": "Master\u2019s Degree, Project Management"
+            },
+            {
+                "end_date": "12-2014",
+                "university": "Shaheed Zulfikar Ali Bhutto Institute of Science and Technology",
+                "degree_title": "Bachelor of Science (BSc) of Computer Science, Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Agile Project Management Principles",
+                "issuing_organization": "Lynda.com",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/bilal-ali-khan-421aab91",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Bilal Ali Khan is a seasoned Project Manager with a Master's in Project Management and a Bachelor's in Computer Science. He has extensive experience in managing mobile and web application projects through the software development life cycle, utilizing both Agile and Waterfall methodologies. His technical skills include digital banking applications and project management tools, making him a valuable asset in any project-driven environment.",
+        "employment_history": [
+            {
+                "details": "Maintaining full project life cycle ownership, managing all aspects of multiple related projects, reporting on project success criteria, procuring resources, and providing executive level communication.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Project Manager / Scrum Master",
+                "start_date": "04-2021",
+                "company_name": "NdcTech"
+            },
+            {
+                "details": "Managing project development from initiation to closure, working with technical teams, creating project schedules, and managing day-to-day communications between project teams and clients.",
+                "end_date": "02-2021",
+                "location": "",
+                "job_title": "Project Manager Mobile Apps",
+                "start_date": "12-2016",
+                "company_name": "Digitonics labs (Pvt.) ltd"
+            },
+            {
+                "details": "Consulting with users to identify and document business requirements, leading QA teams, and specializing in mobile app and website projects.",
+                "end_date": "12-2016",
+                "location": "",
+                "job_title": "Business Analyst | Project Manager",
+                "start_date": "04-2015",
+                "company_name": ""
+            },
+            {
+                "details": "Client communication, requirement gathering and analysis, prototyping, and designing mockups.",
+                "end_date": "03-2015",
+                "location": "",
+                "job_title": "Business Analyst",
+                "start_date": "07-2013",
+                "company_name": "khanwebdesign.com"
+            },
+            {
+                "details": "Web development in PHP, iOS development, and quality assurance.",
+                "end_date": "06-2013",
+                "location": "",
+                "job_title": "Software Engineer",
+                "start_date": "03-2012",
+                "company_name": "khanwebdesign.com"
+            },
+            {
+                "details": "Gaining experience in various IT departments within a bank.",
+                "end_date": "08-2012",
+                "location": "",
+                "job_title": "Internee",
+                "start_date": "06-2012",
+                "company_name": "United Bank Limited"
+            },
+            {
+                "details": "Assisting in examination preparation and administration.",
+                "end_date": "12-2011",
+                "location": "",
+                "job_title": "Invigilator",
+                "start_date": "01-2011",
+                "company_name": "British Council"
+            },
+            {
+                "details": "Making cold calls for sales of services and products, demonstrating product features, and providing after-sales services.",
+                "end_date": "07-2010",
+                "location": "",
+                "job_title": "Tele sales Executive",
+                "start_date": "06-2010",
+                "company_name": "Air-Voice"
+            },
+            {
+                "details": "Printer and Microsoft software installation.",
+                "end_date": "08-2004",
+                "location": "",
+                "job_title": "Intern",
+                "start_date": "06-2004",
+                "company_name": "Office of Government Commerce"
+            }
+        ]
+    }
+}

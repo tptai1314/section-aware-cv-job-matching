@@ -15,11 +15,18 @@ class Embedder:
         from sentence_transformers import SentenceTransformer
 
         self.model = SentenceTransformer(model_id, device=device, trust_remote_code=True)
+        self.model.max_seq_length = 512
         self.model_id = model_id
         self.dim = self.model.get_sentence_embedding_dimension()
 
     def encode(self, texts: list[str]) -> list[list[float]]:
-        vectors = self.model.encode(texts, normalize_embeddings=True, convert_to_numpy=True)
+        vectors = self.model.encode(
+            texts,
+            batch_size=32,
+            normalize_embeddings=True,
+            convert_to_numpy=True,
+            show_progress_bar=False,
+        )
         return [vec.tolist() for vec in vectors]
 
 

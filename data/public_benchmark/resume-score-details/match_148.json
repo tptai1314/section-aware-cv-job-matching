@@ -1,0 +1,187 @@
+{
+    "output": {
+        "justification": [
+            "Macro score for 'Leadership': Candidate led various marketing campaigns and client management roles, displaying project leadership skills.",
+            "Macro score for 'Experience': Extensive experience in digital marketing and project management, aligning with the job\u2019s marketing requirements.",
+            "Macro score for 'Innovation and Adaptability': Demonstrated adaptability in various roles and projects, showcasing ability to handle diverse tasks.",
+            "Micro score for 'C++, HTML, CSS': No evidence of proficiency in C++, HTML, or CSS, which are critical skills for the job.",
+            "Micro score for 'Digital Marketing Skills': Extensive experience in digital marketing campaigns, aligning well with role requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 0
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 9
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.359999999999999,
+                "micro_scores": 4.32
+            }
+        },
+        "personal_info": {
+            "name": "Umair Yousaf",
+            "email": "umair_yousaf13@outlook.com",
+            "phone": "+923224333300",
+            "current_position": "Business Development & Key Account Manager",
+            "current_company": "Azmee Advertising (Pvt.) Ltd.",
+            "employment_start_date_current_company": "05-2019",
+            "first_company_start_date": "09-2016",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 10,
+            "experience": 36,
+            "innovation and adaptability": 54
+        },
+        "micro_dict": {
+            "c++, html, css": 52,
+            "digital marketing skills": 48
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Proficiency in at least one programming language",
+            "Bachelor's degree in Computer Science, Business, or a related field"
+        ],
+        "resume": " Umair Yousaf       Address: 1104 Ravi Block, Street 6, Allama Iqbal Town, Lahore,  Cell:+923224333300, umair_yousaf13@outlook.com Date of Birth: 15/03/1993   EDUCATION & QUALIFICATIONS Masters of Business Administration (Marketing & Finance) May, 2019 Lahore School of Economics BS.c (Honors) Sep, 2016 Major (Business Accounting and Finance) Government College University, Lahore  PROFESSIONAL EXPERIENCE  Azmee Advertising (Pvt.) Ltd. May 2019- Till now Business Development & Key Account Manager \u2022 Pitched and retained client portfolio including: TOTAL PARCO PAKISTAN, Gray Mackenzie Restaurants Intl, Pakistan Cables, Chughtai Lab, Dahua Technology Co. LTD, Euro Oil, OBAN Hotels and IDAP \u2022 Executed and worked on digital media marketing strategy and their content for  National clients. \u2022 Assisted in providing innovative marketing solutions to corporate clients. \u2022 Assisted in operations management for different events in Exhibitions. \u2022 Assisted in creating story boards. \u2022 Developed presentations for client pitching. \u2022 Executed and worked on digital media marketing strategy and their content \u2022 Executed projects such as, Fascia, Fa\u00e7ade and Kiosks design & Installation \u2022 Content Development: Developed content for corporate client\u2019s website \u2022 Assisted in tender bidding process for Government and Private sector \u2022 Assisted in developing a company profile \u2022 Assisted and attended workshops on Health, Safety and Environment trainings with TOTAL PARCO PAKISTAN \u2022 Assisted in registering company on Client\u2019s portal \u2022 Managed ISPR - Sir Kalam - Event Marketing \u2022 Executed outdoor marketing campaign of ISPR' s Sir Kalam event \u2022 Worked BTL promotion on different strategic locations of Lahore \u2022 Including print media promotion HTL Limited - ZIC Motor Oil Sep-Nov, 2016 Internal audit and compliance Intern \u2022 Core member at developing the HSE (Health, safety and environment) manuals for blending plant \u2022 Worked on daily internal audit reporting \u2022 Assisted on managing fraud PROJECTS Supply Chain Management: Worked on Hunbul Tex and how its supply chain process works. Consumer Behavior: Worked on Merit Bread and its success and failure in different provinces of Pakistan. SME: Developed a marketing, operational and financial plan for Solar Panel business Business communication: Rose Petal - Sales, Marketing and HR: How \u2018Rose Petal\u2019 communicate Human Resource: Developed Case study on Labor turnover of Hunbul Tex (Pvt.) Ltd. Marketing: How does Careem overcomes the demand crunch it get from competitors and marketing? Branding: How branding helps in creating good image and developed 3D based project for category extension Marketing Research: Conducted qualitative and quantitative research on Fanta and its consumption patterns. Thesis: How does Local Modern Trade and Retail stores are affecting consumer buying Behavior? HONORS & AWARDS \u2022 Appointed as Assistant Director (BS-17) for Empowerment & Development of Women Resource Centers in PSIC, Government of Punjab \u2022 Digital Marketing- Google Fundamentals Certified \u2022 Health, Safety and Environment Certified \n\u2022 Conducted CSR activities by planting trees. \u2022 Integral part of Dramatics society in GCU \u2022 Retained a \u2018Certificate of Appreciation\u2019 by Dramatics society in recognition of my services  SKILLS & INTERESTS \u2022 MS Excel, MS Word, MS Access, MS PowerPoint and MS Project. \u2022 Good interpersonal and communication skills and comfortable with working for and in a team. \u2022 Excellent at coordinating and conducting tasks and meeting deadlines and achieving the desired results. \u2022 Interests in current affairs and documentaries. "
+    },
+    "details": {
+        "name": "Umair Yousaf",
+        "number": "9224333300",
+        "skills": [
+            "MS Excel",
+            "MS Word",
+            "MS Access",
+            "MS PowerPoint",
+            "MS Project"
+        ],
+        "email_id": "umair_yousaf13@outlook.com",
+        "location": "1104 Ravi Block, Street 6, Allama Iqbal Town, Lahore",
+        "projects": [
+            {
+                "title": "Supply Chain Management",
+                "description": "Worked on Hunbul Tex and how its supply chain process works."
+            },
+            {
+                "title": "Consumer Behavior",
+                "description": "Worked on Merit Bread and its success and failure in different provinces of Pakistan."
+            },
+            {
+                "title": "SME",
+                "description": "Developed a marketing, operational and financial plan for Solar Panel business."
+            },
+            {
+                "title": "Business communication",
+                "description": "Rose Petal - Sales, Marketing and HR: How \u2018Rose Petal\u2019 communicate."
+            },
+            {
+                "title": "Human Resource",
+                "description": "Developed Case study on Labor turnover of Hunbul Tex (Pvt.) Ltd."
+            },
+            {
+                "title": "Marketing",
+                "description": "How does Careem overcome the demand crunch it gets from competitors and marketing?"
+            },
+            {
+                "title": "Branding",
+                "description": "How branding helps in creating a good image and developed 3D based project for category extension."
+            },
+            {
+                "title": "Marketing Research",
+                "description": "Conducted qualitative and quantitative research on Fanta and its consumption patterns."
+            },
+            {
+                "title": "Thesis",
+                "description": "How does Local Modern Trade and Retail stores affect consumer buying Behavior?"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration (Marketing & Finance)"
+            },
+            {
+                "end_date": "09-2016",
+                "university": "Government College University, Lahore",
+                "degree_title": "BS.c (Honors) Major (Business Accounting and Finance)"
+            }
+        ],
+        "achievements": [
+            "Appointed as Assistant Director (BS-17) for Empowerment & Development of Women Resource Centers in PSIC, Government of Punjab",
+            "Digital Marketing - Google Fundamentals Certified",
+            "Health, Safety and Environment Certified",
+            "Retained a \u2018Certificate of Appreciation\u2019 by Dramatics society in recognition of my services"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing - Google Fundamentals Certified",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Health, Safety and Environment Certified",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umair_yousaf",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Umair Yousaf is a skilled business development and key account manager with a strong background in digital marketing and client relations. He holds an MBA in Marketing and Finance and has successfully managed high-profile client portfolios while executing innovative marketing strategies.",
+        "employment_history": [
+            {
+                "details": "Pitched and retained client portfolio including: TOTAL PARCO PAKISTAN, Gray Mackenzie Restaurants Intl, Pakistan Cables, Chughtai Lab, Dahua Technology Co. LTD, Euro Oil, OBAN Hotels and IDAP. Executed and worked on digital media marketing strategy and their content for National clients.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development & Key Account Manager",
+                "start_date": "05-2019",
+                "company_name": "Azmee Advertising (Pvt.) Ltd."
+            },
+            {
+                "details": "Core member at developing the HSE (Health, safety and environment) manuals for blending plant. Worked on daily internal audit reporting.",
+                "end_date": "11-2016",
+                "location": "Lahore",
+                "job_title": "Internal audit and compliance Intern",
+                "start_date": "09-2016",
+                "company_name": "HTL Limited - ZIC Motor Oil"
+            }
+        ]
+    }
+}

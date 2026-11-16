@@ -1,0 +1,193 @@
+{
+    "output": {
+        "justification": [
+            "Resume lacks direct experience in B2B sales, reducing the relevant experience score.",
+            "No evidence of leadership roles or project management in resume, affecting leadership score.",
+            "Strong skills in data analysis from Python projects, boosting data analysis micro score.",
+            "No demonstrated market research experience, lowering market research score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 7
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 8
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 4.85
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Fawaz Nadeem",
+            "email": "fawaznadeem92@gmail.com",
+            "phone": "03424344492",
+            "current_position": "Python Automation Engineer",
+            "current_company": "Zentrix LTD",
+            "employment_start_date_current_company": "06-2023",
+            "first_company_start_date": "06-2023",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/muhammad-fawaz-nadeem"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "market research": 23,
+            "b2b sales": 23,
+            "communication skills": 17,
+            "data analysis": 22,
+            "it and manufacturing sector knowledge": 15
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Proven ability to develop and implement successful business strategies",
+            "Strong proficiency in Microsoft Office Suite",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "MUHAMMAD FAWAZ NADEEM\n0 3 4 2 4 3 4 4 4 9 2 f a w a z n a d e e m 9 2 @ g m a i l . c o ml i n k e d i n . c o m / i n / m u h a m m a d - f a w a z -\nn a d e e m\nL a h o r e ,  P a k i s t a n\nEXPERIENCE\nPython Automation Engineer\nZ e n t r i x  L T D\n06/2023 \u0000 02/202 4\u00a0\nAt Zentrix, I was responsible for designing, developing, and implementing \nautomated solutions to optimize various processes.\nI created advanced Python scripts and machine learning models to automate \nrepetitive tasks, streamline workflows, and enhance data processing efficiency.\nMy work included developing predictive analytics, performing data analysis, and \nimplementing intelligent automation solutions to drive data-driven decision-\nmaking\nCustomer Support Executive\nM i n d B r i d g e\n07/2022 \u0000 12/2022 \u00a0\nI excelled as a Customer Support Executive for a period of 5 months. This role \nhoned my communication skills to an exceptional level, enabling me to \neffectively interact with customers and address their queries and concerns.\nPROJECTS\nAI Image Generator\nDeveloped an AI Image Generator using Python, leveraging Generative Adversarial \nNetworks \u0000GANs) with stable diffusion techniques to convert textual descriptions \ninto realistic images. The project involved extensive data collection and \npreprocessing, designing and training the GAN architecture Additionally, utilized \nHugging Face Transformers to enhance the text-to-image generation process, \nensuring high-quality and contextually relevant image outputs.\nHighlighted skills in deep learning, data preprocessing, model evaluation, and \nimplementing advanced AI algorithms to solve complex problems creatively and \neffectively.\nObject Detection Machine\nCreated a real-time Object Detection system on the Jetson Nano, using Python, \nTensorFlow, and OpenCV. Implemented a Convolutional Neural Network \u0000CNN\u0000 \nbased on the SSD framework, optimized for edge devices using CUDA and \nTensorRT. This project included collecting and annotating datasets, training the \nmodel, and integrating the solution with the Jetson Nano for accelerated inference.\nEvaluated the system on precision, recall, and inference speed, demonstrating \nexpertise in computer vision, model optimization, and data analysis.\nMultimodal Classi\ufb01cation Systems\nDeveloped and trained machine learning models using the CIFAR\u0000100 and UCF\u0000101 \ndatasets, both of which contain large amounts of data for image and action video \nclassification. For the CIFAR\u0000100 project, I designed and implemented a \nConvolutional Neural Network \u0000CNN\u0000 to classify images into 100 different \ncategories, achieving high accuracy through extensive data preprocessing and \nmodel optimization. In the UCF\u0000101 project, I processed action videos by breaking \nthem into individual frames and then trained a CNN to recognize and classify 101 \ndifferent human actions.\nProficiency in handling large datasets, implementing and optimizing CNNs, and \napplying machine-learning techniques to both image and video data for \naccurate classification and prediction.EDUCATION\nBachelors in Computer Science\nU n i v e r s i t y  o f  M a n a g e m e n t  a n d  T e c h n o l o g y\n2020 \u0000 202 4\u00a0\n3.15 CGPA\nFaculty of Science Pre-Engineering (F. Sc)\nP u n j a b  C o l l e g e  L a h o r e\n2018 \u0000 2020 \u00a0\n81% Marks\nSKILLS\nP y t h o n C \u0000 \u0000 C S Q L K o t l i n\nL i b r a r i e s  \u0000 P y t o r c h ,  P a n d a s ,  N u m p y ,  O p e n C V ,  \nS e a b o r n ,  S c i k i t - l e a r n ,  M a t p l o t l i b ]\nT e n s o r F l o w K e r a s C U D A G A N s\nC N N s T r a n f o r m e r s R N N s\nD a t a  P r e p r o c e s s i n g  &  V i s u a l i z a t i o n ,  S t a t i s t i c a l  \nA n a l y s i s ,  P r e d i c t i v e  M o d e l i n g\nG i t G i t h u b A W S A z u r e G C P\nM o n g o D B M y S Q L\nI D E s :  V i s u a l  S t u d i o ,  A n d r o i d  S t u d i o ,  A r d u i n o  \nI D E\nI o T \u0000  A r d u i n o  \u0000 N a n o ,  M e g a ,  P o r t e n t a ) ,  \nR a s p b e r r y  P i ,  E S P ,  N o d e  M C U ,  J e t s o n  N a n o\nFINAL YEAR PROJECT\nA g r o S e n s e\nMy Final Year Project \u0000AgrowSense) is an innovative \nagricultural technology solution aimed at \nrevolutionizing modern farming practices. By \nharnessing my expertise in IoT sensors, machine \nlearning algorithms, and web-based interfaces, I am \ncreating a platform that empowers farmers with real-\ntime insights into soil health and crop conditions. It will \nempower the agriculture industry to make data-driven \ndecisions to enhance productivity, reduce resource \nwastage, and promote sustainable farming practices  \nThis project underscores my ability to apply theoretical \nknowledge to real-world challenges and showcases my \nexpertise in AI/ML, and data analysis.\nwww .enhancv .com\ue06dPowered byE \ue069 q\n\ue090\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\n\u2022\u2022\n\u2022"
+    },
+    "details": {
+        "name": "Muhammad Fawaz Nadeem",
+        "number": "03424344492",
+        "skills": [
+            "Python",
+            "C",
+            "C++",
+            "SQL",
+            "Kotlin",
+            "PyTorch",
+            "Pandas",
+            "NumPy",
+            "OpenCV",
+            "Seaborn",
+            "Scikit-learn",
+            "Matplotlib",
+            "TensorFlow",
+            "Keras",
+            "CUDA",
+            "GANs",
+            "CNNs",
+            "Transformers",
+            "RNNs",
+            "Data Processing & Visualization",
+            "Statistical Analysis",
+            "Predictive Modeling",
+            "Git",
+            "GitHub",
+            "AWS",
+            "Azure",
+            "GCP",
+            "MongoDB",
+            "MySQL",
+            "Visual Studio",
+            "Android Studio",
+            "Arduino IDE",
+            "IoT",
+            "Raspberry Pi",
+            "ESP",
+            "Node MCU",
+            "Jetson Nano"
+        ],
+        "email_id": "fawaznadeem92@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "AI Image Generator",
+                "description": "Developed an AI Image Generator using Python, leveraging Generative Adversarial Networks (GANs) with stable diffusion techniques."
+            },
+            {
+                "title": "Object Detection Machine",
+                "description": "Created a real-time Object Detection system on the Jetson Nano, using Python, TensorFlow, and OpenCV."
+            },
+            {
+                "title": "Multimodal Classification Systems",
+                "description": "Developed and trained machine learning models using the CIFAR-100 and UCF-101 datasets."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "University of Management and Technology",
+                "degree_title": "Bachelors in Computer Science"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "Punjab College Lahore",
+                "degree_title": "Faculty of Science Pre-Engineering (F. Sc)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-fawaz-nadeem",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Fawaz Nadeem is a skilled Python Automation Engineer with a strong background in developing automated solutions and machine learning models. He has demonstrated expertise in various programming languages and technologies, contributing to innovative projects in AI and data processing.",
+        "employment_history": [
+            {
+                "details": "Responsible for designing, developing, and implementing automated solutions to optimize various processes, including creating advanced Python scripts and machine learning models.",
+                "end_date": "02-2024",
+                "location": "Zentrix LTD",
+                "job_title": "Python Automation Engineer",
+                "start_date": "06-2023",
+                "company_name": "Zentrix LTD"
+            },
+            {
+                "details": "Excelled as a Customer Support Executive, honing communication skills and effectively addressing customer queries and concerns.",
+                "end_date": "12-2022",
+                "location": "Mind Bridge",
+                "job_title": "Customer Support Executive",
+                "start_date": "07-2022",
+                "company_name": "Mind Bridge"
+            }
+        ]
+    }
+}

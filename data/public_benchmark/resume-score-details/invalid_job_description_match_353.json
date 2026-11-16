@@ -1,0 +1,50 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "SHAHRUKH ALI\nshahrukh.ali@descon.com 4618452\nlinkedin.com/in/shahrukh-ali-3021ab24a\nSummary\nA highly motivated and result-driven Business Development Executive who also has served as a Finance &\nAccounts Professional with 12 years of invaluable experience including being skilled in numerous business\ndevelopment, financial & accounting fields. I have the ability to handle complex assignments effectively &\npossessing the confidence to work as part of a team or independently. An established reputation for self\u2010\nmotivation, attention to detail excellent organizational skills, and high ethical conduct. Presently looking for the\nbest opportunity with a goal-oriented company where I can excel, deliver and achieve according to my potential. I\nam enthusiastic to learn keenly about emerging developments in my job sector.\nExperience\nSenior Associate\nKPMG In Pakistan\nAug 2021 - Feb 2022 (7 months)\nTeam Supervision and Training\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst: Processing accounts and incoming payments in compliance.\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nVendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nBusiness Development Executive\nInspecTest (Private) Limited\nFeb 2022 - Present (7 months +)\nBusiness Development Accounting, Finance, and Revenue\nClient Relations\nClient Dealing\nAccounts Executive\nDescon Engineering Limited\nAug 2009 - Jul 2021 (12 years)\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nSHAHRUKH ALI - page 1Vendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nEducation\nUniversity Of Central Punjab\nMBA\nHajvery University\nBachelor of Commerce\nSkills\nabacus  \u00a0 \u2022 \u00a0 accountancy  \u00a0 \u2022 \u00a0 accounts receivable  \u00a0 \u2022 \u00a0 accpac  \u00a0 \u2022 \u00a0 analysis  \u00a0 \u2022 \u00a0 business law  \u00a0 \u2022 \u00a0 ceo  \u00a0 \u2022 \u00a0\nconsulting  \u00a0 \u2022 \u00a0 data entry  \u00a0 \u2022 \u00a0 database administration\nSHAHRUKH ALI - page 2",
+        "macro_dict": {
+            "leadership": 37,
+            "experience": 63
+        },
+        "micro_dict": {
+            "salesforce": 24,
+            "crm proficiency": 6,
+            "market research": 36,
+            "proposal writing": 12,
+            "digital marketing": 22
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "5+ years of experience in business development or sales management",
+            "Strong analytical and strategic planning skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "SHAHRUKH ALI\nshahrukh.ali@descon.com 4618452\nlinkedin.com/in/shahrukh-ali-3021ab24a\nSummary\nA highly motivated and result-driven Business Development Executive who also has served as a Finance &\nAccounts Professional with 12 years of invaluable experience including being skilled in numerous business\ndevelopment, financial & accounting fields. I have the ability to handle complex assignments effectively &\npossessing the confidence to work as part of a team or independently. An established reputation for self\u2010\nmotivation, attention to detail excellent organizational skills, and high ethical conduct. Presently looking for the\nbest opportunity with a goal-oriented company where I can excel, deliver and achieve according to my potential. I\nam enthusiastic to learn keenly about emerging developments in my job sector.\nExperience\nSenior Associate\nKPMG In Pakistan\nAug 2021 - Feb 2022 (7 months)\nTeam Supervision and Training\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst: Processing accounts and incoming payments in compliance.\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nVendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nBusiness Development Executive\nInspecTest (Private) Limited\nFeb 2022 - Present (7 months +)\nBusiness Development Accounting, Finance, and Revenue\nClient Relations\nClient Dealing\nAccounts Executive\nDescon Engineering Limited\nAug 2009 - Jul 2021 (12 years)\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nSHAHRUKH ALI - page 1Vendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nEducation\nUniversity Of Central Punjab\nMBA\nHajvery University\nBachelor of Commerce\nSkills\nabacus  \u00a0 \u2022 \u00a0 accountancy  \u00a0 \u2022 \u00a0 accounts receivable  \u00a0 \u2022 \u00a0 accpac  \u00a0 \u2022 \u00a0 analysis  \u00a0 \u2022 \u00a0 business law  \u00a0 \u2022 \u00a0 ceo  \u00a0 \u2022 \u00a0\nconsulting  \u00a0 \u2022 \u00a0 data entry  \u00a0 \u2022 \u00a0 database administration\nSHAHRUKH ALI - page 2"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,283 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive experience in managing and leading projects, which aligns with the leadership requirement for the Business Development Manager position.",
+            "The candidate's experience spans over 16 years in relevant fields involving strategic roles and client management, meeting the experience criteria effectively.",
+            "The candidate has proficiency in MS Office 365, which is relevant to the requirement of using Microsoft Office Suite effectively.",
+            "There is a lack of specific mention of skills like Sales Process Management, Negotiation Skills, and Account Management, hence lower scores were given for micro criteria."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 8
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 5
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "account management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.040000000000001,
+                "micro_scores": 6.389999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Haroon Sarfraz",
+            "email": "haroon.sarfraz@outlook.com",
+            "phone": "+923225082611",
+            "current_position": "Manager Sales Coordination",
+            "current_company": "NLC Smart Solutions Pvt. Ltd.",
+            "employment_start_date_current_company": "07-2022",
+            "first_company_start_date": "2005",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/haroonsarfraz/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 4,
+            "experience": 56,
+            "strategic thinking": 40
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 31,
+            "sales process management": 34,
+            "negotiation skills": 24,
+            "account management": 11
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or a related role"
+        ],
+        "resume": " \n Executive Profile  \n \n Creative & results -driven professional  offering 16 years  of rich onshore \n& offshore experience across  multiple  sectors   \n Expertise in setting out delivery standards  for various operational areas, \nimplementing quality systems & procedures to facilitate a high -quality \nexperience, while adhering to the SLA s and business services  \n Expertise in managing complete project management activities,  ensuring \ntimely deliveries as per defined quality standards; implemented project \nplans, risk assessments  and contingency plans  \n Documentation of Client Business Processes  and identification of \nImprovements for Business Efficiency  \n Successfully managed numerous prestigious clients  like Jazz & Ufone \nApplication Development & Assessment Services , UNFPA  Data Cleansing & \nQuality Assessment , MODP & Roshan Telecom  Enterprise Datawarehouse \n& Business Intelligence ; and so on  \n An effective leader  with capabilities in motivating teams and maintaining \ndeliverables as per the defined guidelines along with elevating service \nstandards for operational excellence  \n Experience d in technical & pre -sales support , planning, designing, \nimplementation, administration, management and support of Enterprise Data \nManagement & Analytics Project  for various organizations  \n Created solution designs  after performing business user requirements and \npain point  assessments; developed work products like technical solution \ndesign documents, architectural overview diagrams, operational models and \ndeployment models for Data Platforms   \n Played a key role  (MR) in adoption and implementation of QMS 9001:2008 & \n9001:2015 . Also served as PPQA Manager  for CMMI -L2 Apraisal of \nInformation Architects Pvt. Ltd.  \n Hands -on experience of using PMBOK, CMMI & ISO Standards for Execution \nof IT Projects as well as fimilarity of Agile  & SCRUM  metho dologies & \npracticies  \n \n \nEducation & Credentials  \n \n Master of Computer Science  (Multimedia & Communications ) from \nMohammad Ali Jinnah University (now Capital University of Science & \nTechnology) of Pakistan in 2010 \n Master of Computer Science  (Software)  from National University of Modern \nLanguages of Pakistan in 2005 \n Bachlors of Arts (Business Subjects), from Allama  Iqbal Open University, \n2002 \n Diploma in IT  from Govt. Gordon College , Rawalpindi  in 1995 \n Fsc (Pre -Engg.)  PAF College Chaklala, RWP, 1995  \n \n \nCareer Timeline  (Recent 4)  \n \n \n \n Key Skills \n \n \n \nSoft Skills \n \n \n \nIT Skills  \n \nOperating System:  MS Windows, \nWinsows Server , SUSE, Fedora, RHL   \n \nData Tools : Ms SSIS, KNIME, PowerBI, \nTableau, O racle DV \n \nMS BackOffice:  MS Office 365, MS Office \n365 SharePoint, MS Visio , Libre Office, Open \nOffice , Trello, HubSpot  \nPPQA, QA  Org. Process \nAssessment & \nRefinement  \nRFP/EOI \nProposal Writing   \nPoC & Client \nDemo \nPreparations  Project \nExecution & \nImplementation  \n \nData Management \nProcedures for \nClients  \nTEARS \nConsultants,  \n InfoMatrix, \nPakistan   Haroon Sarfraz  \n \n \n \n \n2007 -\n2017 2017-\n2019 Project  \nManagement  Sales Coordination |Presales | Data Management  | Data warehousing  | \nBusiness Analytics  | Project Management  | Business Analysis  | Process \nReview & Enhancement  \n \n2018-\n2022 NLC Smart \nSolutions  Sales & \nCoordination  \nData Management \nPolicies & \nStandards  Team Building & \nLeadership  \n \nharoon .sarfraz @outlook .com  +923225082611                                         \n     https://www.linkedin.com/in/haroonsarfraz/  \n \n2022 \n- Now  Information \nArchitects  \n \nTrainings                                                                                        \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nProfessional Experience   \n \nJuly\u20192022 \u2013 To-Present  : NLC Smart Solutions Pvt. Ltd., Rawalpindi , Pakistan  as Manager  Sales Coordination  \n \nRole:   \n Clients\u2019 Pain Point Identif ication & Solution Architecture  \n Leading PoCs & Demo of Vehicles Tracking and Associated Solutions  \n Pre-Sales of Vehicles Tracking and Associated Solutions / Services  including preparatio n of Responses to EOIs and RFPs  \n Business Requirement Analysis  \n Coordination with Technical P roject team, Clients , Partner, Vendors  and Higher Management  \n Strategy & execution roadmap s, long-term business goals, objectives, and operating procedures  \n Organizational planning and coordination among various teams for management, strategic growth and transformation  \n Created technical design documentation & implementation strategies towards smooth service  delivery  \n Engaged & coordinated with vendors & Tech. Teams for RFP& EOI Solution Development  \n \nPrevious Experience  \n \n2018  \u2013 2022 : InfoMatrix Pvt. Ltd. , Islamabad , Pakistan as Sr. Project Manager / Pre -Sales Consultant  \n \nHighlights:  \n Leading Tendering Activities, Client Demo & PoCs  \n Technical Pre -sales  \n Business Analysis & Requirements Specifications  \n Datawarehousing, Business Analytics and Advance Analytics Project Management  \n Data Analytics  \n \nAug\u20192017  \u2013 Jul\u20192019 : Traffic Engineering and Road Safety Consultants , Highway Safety Data Analyst  \n \n2015  \u2013 2017: Information Architects Pvt. Ltd. , Islamabad , Pakista n as Sr. Project Manager / Pre -Sales Consultant  \n \n2011  \u2013 2015 : Information Architects Pvt. Ltd. , Islamabad , Pakistan as Project Manager / Pre -Sales Consultant  \n \n2009  \u2013 2011 : Information Architects Pvt. Ltd. , Islamabad , Pakistan as Project Coordinator  \n \n2007  \u2013 2009 : Information Architects Pvt. Ltd. , Islamabad , Pakistan as Software Engineer  \n \n2006  \u2013 2007 : National Road Safety Secretariat , MoC GOP , Islamabad , Pakistan as Assistant to Executive Dir.  \n \n2005  \u2013 2006 : National Highway Authority, MoC, Islamabad , Pakistan as Trainee Engineer  \n \n \n \n Participated in National Information Security Seminar, \nJune 2011 organized by Pakistan Science Foundation  \n Participated in PMP  Exam preparation workshop \nconducted by Mr. Suhail Iqbal, Organized by \nCOMSATS, Islamabad, January 10 -14th, 2011  \n Participated in Oracle Technology Solution Selling \nWorkshop  \n Conducted In -house trainings of CMMI Level -2 Process \nAreas  \n Conducted In -house train ings of ISO 9001:2008 \nstandard  \n Participated in Microsoft SharePoint 2010 technical \ntraining from FAST, Islamabad  \n Attended Various trainings conducted by Pakistan \nManpower Institute, Islamabad Pakistan 2015 \n(Organisational  Behaviour, Conflict Resolution, \nProblem Definition etc.)  \n Annual PMXpo Seminars 2012,2013,2014  \n Multiple Udemy  Courses of Agile Methodology  \n Life Changing Day Seminar by Azam Jamil & \nHashim Sarwar, May 2023  \n UiPath RPA Implementation Methodology  \nTraining Aug ust 2019 \n UiPath RPA Business Analyst Online Traning , \nAugust 2019 \n UiPath Licensing Training August 2019  \n UiPath RPA Awareness Training August 2019  \n Road Safety Audit Training, NHA, HQ Islamabad, \n2019 \n Freelancing & Graphics Designing Courses  \nconducted by Ministry of Information \nTechnology & Telecom, Ignite , DigiSkills \nTraining Programe , April -June2019  \n Attended Oracle Business Process Management \nSuite 11g Bootcamp Training, 2012  \n Attended three days intensive training/course on \n\"Introduction for CMMI for Development Ver. \n1.3\" conducted by Catalyic Consulting Pvt Ltd., \n2012 \nMajor Projects Executed  \n \nInfoMatrix, Organizational \nDigital Transformation  \n Participated in Successful Digital  Transformation  to make InfoMatrix a Purpose \nDriven Agile Organization  \nNHA, Road Safety Capacity \nBuilding in Pakistan  \n Served as Highway Safety Data Analyst  at National Highway Authority, Pakistan \nin its Road Safety Initiative under Highway Safety Audit Expert Contract.  Included \nfollowing main deliverables  \n1. Road Safety Data Analysis   \n2. Research, Compilation & Composition of NHA Road Safety Audit Manual, 2018.  \n3. Research,  Compilation & Composition of N HA Work zone  Safety & Mobility Manual, \n2019.  \nMODP (POF), Datawarehouse \n& Business Intelligence \nImplementation & Support \nProject  \n As Project Manager, I managed  the Project of Enterprise Datawarehouse \nImplementation, Dashboards and Reports Development for Higher Management of \nPOF Wah  \n Pre-Sales  Leading to Standard Project Planning, Requirements Management, \nBusiness Analysis, Execution, Team Management Tasks  & Successful Completion & \nHandover  \nMobilink, Auto Reconciliation \nApplication Dev. & Support  \n As Project Manager  & Service Manager  Auto Reconciliation Application \nDevelopment to automate loading the Bank flat files and Mobilink (EFics) files into \nthe database with business rules, Perform ETL process and then reconciliation \nprocess.  \n Pre-Sales Leading to Standard Project Planning, Execution, Team Management , \nChange Ma nagement  Tasks  & Successful Completion & Handover  \nUNFPA, Reproductive Health \nData Cleansing  \n Served as Project Manager  Reproductive Health Data Profiling , Data Cleansing & \nImprovement Suggestions  \n Project Management, Monitoring and Control, Status Reporting, Technical Reports \nCompilation  \nRoshan Telecom , \nAfghanistan,  BI Reporting \nProject  & Multiple CRs  \n The aim of this project was to provide a complete business intelligence solution for \nthe better support to management and financial decisions. The Project consists of \nthree main modules, Financial, Commercial, and Technology.  Pre-Sales Leading to \nStandard Project Planning, Requirements Management, Business Analysis, \nExecution, Team Management Tasks  & Successful Completion & Handover  \nRoshan Telecom Custom \nPost -Paid Billing System \nIntegration with the \nEnterprise  Datawarehouse, \nPlatform Migration, Database \nUpgrade  \n Custom Post-Paid Billing System Integration with the Enterprise  Datawarehouse, \nPlatform Migration E6900 to M9000, Database Up grade Oracle 10g to 11g  \n Pre-Sales leading to Award of Project, Standard Project Planning, Execution, Team \nManagement Tasks, Change Management  & Successful Completion & Handover  \nUfone , CaRES CRM \nAssessment  Review   \n \nCMMI for Dev -L2 , ISO \n9001:2008/2015  \n \n CRM Application A ssessment  Review  was carried as a Business Analyst  out and \ndetailed Assessment & Recommendation Report was submitted to client  \n \n Played the Role of Manager PPGA, SEPG Team Member, Organizational CMMI \nAppraisal Assistant  \n Played the Role of Management Rpresentative for Organizational ISO 9001:2008 & \n2015 Certification  \n \n \n \n \n \n Personal Details  \n \nDate of Birth:  6th March 1977 \nLanguages Known: English , Urdu , Punjabi,  \nDriving License:  Pakistan  \n \n"
+    },
+    "details": {
+        "name": "Haroon Sarfraz",
+        "number": "92225082611",
+        "skills": [
+            "MS Windows",
+            "Windows Server",
+            "SUSE",
+            "Fedora",
+            "RHL",
+            "Ms SSIS",
+            "KNIME",
+            "PowerBI",
+            "Tableau",
+            "Oracle DV",
+            "MS Office 365",
+            "MS Office 365 SharePoint",
+            "MS Visio",
+            "Libre Office",
+            "Open Office",
+            "Trello",
+            "HubSpot",
+            "PMBOK",
+            "CMMI",
+            "ISO Standards",
+            "Agile",
+            "SCRUM"
+        ],
+        "email_id": "haroon.sarfraz@outlook.com",
+        "location": "Rawalpindi, Pakistan",
+        "projects": [
+            {
+                "title": "InfoMatrix, Organizational Digital Transformation",
+                "description": "Participated in Successful Digital Transformation to make InfoMatrix a Purpose Driven Agile Organization."
+            },
+            {
+                "title": "NHA, Road Safety Capacity Building in Pakistan",
+                "description": "Served as Highway Safety Data Analyst at National Highway Authority, Pakistan in its Road Safety Initiative."
+            },
+            {
+                "title": "MODP (POF), Datawarehouse & Business Intelligence Implementation & Support Project",
+                "description": "Managed the Project of Enterprise Datawarehouse Implementation."
+            },
+            {
+                "title": "Mobilink, Auto Reconciliation Application Dev. & Support",
+                "description": "Managed Auto Reconciliation Application Development to automate loading the Bank flat files."
+            },
+            {
+                "title": "UNFPA, Reproductive Health Data Cleansing",
+                "description": "Managed Reproductive Health Data Profiling, Data Cleansing & Improvement Suggestions."
+            },
+            {
+                "title": "Roshan Telecom, BI Reporting Project & Multiple CRs",
+                "description": "Provided a complete business intelligence solution for better support to management."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2010",
+                "university": "Mohammad Ali Jinnah University (now Capital University of Science & Technology) of Pakistan",
+                "degree_title": "Master of Computer Science (Multimedia & Communications)"
+            },
+            {
+                "end_date": "12-2005",
+                "university": "National University of Modern Languages of Pakistan",
+                "degree_title": "Master of Computer Science (Software)"
+            },
+            {
+                "end_date": "12-2002",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Bachelors of Arts (Business Subjects)"
+            },
+            {
+                "end_date": "12-1995",
+                "university": "Govt. Gordon College, Rawalpindi",
+                "degree_title": "Diploma in IT"
+            },
+            {
+                "end_date": "12-1995",
+                "university": "PAF College Chaklala, RWP",
+                "degree_title": "Fsc (Pre-Engg.)"
+            }
+        ],
+        "achievements": [
+            "Participated in National Information Security Seminar, June 2011 organized by Pakistan Science Foundation",
+            "Participated in PMP Exam preparation workshop conducted by Mr. Suhail Iqbal, Organized by COMSATS, Islamabad, January 10-14th, 2011",
+            "Participated in Oracle Technology Solution Selling Workshop",
+            "Conducted In-house trainings of CMMI Level -2 Process Areas",
+            "Conducted In-house trainings of ISO 9001:2008 standard",
+            "Participated in Microsoft SharePoint 2010 technical training from FAST, Islamabad",
+            "Attended Various trainings conducted by Pakistan Manpower Institute, Islamabad Pakistan 2015",
+            "Annual PMXpo Seminars 2012,2013,2014",
+            "Multiple Udemy Courses of Agile Methodology",
+            "Life Changing Day Seminar by Azam Jamil & Hashim Sarwar, May 2023",
+            "UiPath RPA Implementation Methodology Training August 2019",
+            "UiPath RPA Business Analyst Online Training, August 2019",
+            "UiPath Licensing Training August 2019",
+            "UiPath RPA Awareness Training August 2019",
+            "Road Safety Audit Training, NHA, HQ Islamabad, 2019",
+            "Freelancing & Graphics Designing Courses conducted by Ministry of Information Technology & Telecom, Ignite, DigiSkills Training Programme, April -June 2019",
+            "Attended Oracle Business Process Management Suite 11g Bootcamp Training, 2012",
+            "Attended three days intensive training/course on 'Introduction for CMMI for Development Ver. 1.3' conducted by Catalyic Consulting Pvt Ltd., 2012"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "CMMI for Development",
+                "issuing_organization": "CMMI Institute",
+                "date_of_issuance": "01-2015"
+            },
+            {
+                "certification_name": "ISO 9001:2008",
+                "issuing_organization": "ISO",
+                "date_of_issuance": "01-2015"
+            },
+            {
+                "certification_name": "ISO 9001:2015",
+                "issuing_organization": "ISO",
+                "date_of_issuance": "01-2015"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/haroonsarfraz",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Haroon Sarfraz is a highly experienced professional with over 16 years of expertise in project management, data management, and analytics across various sectors. He has a strong background in technical pre-sales support and has successfully managed numerous prestigious clients, demonstrating his ability to deliver high-quality solutions and maintain operational excellence.",
+        "employment_history": [
+            {
+                "details": "Clients\u2019 Pain Point Identification & Solution Architecture, Leading PoCs & Demo of Vehicles Tracking and Associated Solutions, Pre-Sales of Vehicles Tracking and Associated Solutions / Services including preparation of Responses to EOIs and RFPs, Business Requirement Analysis, Coordination with Technical Project team, Clients, Partner, Vendors and Higher Management, Strategy & execution roadmaps, long-term business goals, objectives, and operating procedures, Organizational planning and coordination among various teams for management, strategic growth and transformation, Created technical design documentation & implementation strategies towards smooth service delivery, Engaged & coordinated with vendors & Tech. Teams for RFP & EOI Solution Development.",
+                "end_date": "Present",
+                "location": "Rawalpindi, Pakistan",
+                "job_title": "Manager Sales Coordination",
+                "start_date": "07-2022",
+                "company_name": "NLC Smart Solutions Pvt. Ltd."
+            },
+            {
+                "details": "Leading Tendering Activities, Client Demo & PoCs, Technical Pre-sales, Business Analysis & Requirements Specifications, Datawarehousing, Business Analytics and Advance Analytics Project Management, Data Analytics.",
+                "end_date": "12-2022",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Sr. Project Manager / Pre-Sales Consultant",
+                "start_date": "01-2018",
+                "company_name": "InfoMatrix Pvt. Ltd."
+            },
+            {
+                "details": "Highway Safety Data Analysis, Research, Compilation & Composition of NHA Road Safety Audit Manual, 2018, Research, Compilation & Composition of NHA Work zone Safety & Mobility Manual, 2019.",
+                "end_date": "07-2019",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Highway Safety Data Analyst",
+                "start_date": "08-2017",
+                "company_name": "Traffic Engineering and Road Safety Consultants"
+            },
+            {
+                "details": "Managed the Project of Enterprise Datawarehouse Implementation, Dashboards and Reports Development for Higher Management of POF Wah, Pre-Sales Leading to Standard Project Planning, Requirements Management, Business Analysis, Execution, Team Management Tasks & Successful Completion & Handover.",
+                "end_date": "12-2017",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Sr. Project Manager / Pre-Sales Consultant",
+                "start_date": "01-2015",
+                "company_name": "Information Architects Pvt. Ltd."
+            },
+            {
+                "details": "Managed Auto Reconciliation Application Development to automate loading the Bank flat files and Mobilink (EFics) files into the database with business rules, Perform ETL process and then reconciliation process, Pre-Sales Leading to Standard Project Planning, Execution, Team Management, Change Management Tasks & Successful Completion & Handover.",
+                "end_date": "12-2015",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Project Manager / Pre-Sales Consultant",
+                "start_date": "01-2011",
+                "company_name": "Information Architects Pvt. Ltd."
+            },
+            {
+                "details": "Coordinated project activities and assisted in various project management tasks.",
+                "end_date": "12-2009",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Project Coordinator",
+                "start_date": "01-2009",
+                "company_name": "Information Architects Pvt. Ltd."
+            },
+            {
+                "details": "Assisted the Executive Director in various administrative tasks.",
+                "end_date": "12-2007",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Assistant to Executive Director",
+                "start_date": "01-2006",
+                "company_name": "National Road Safety Secretariat, MoC GOP"
+            },
+            {
+                "details": "Trainee Engineer in various engineering tasks.",
+                "end_date": "12-2006",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Trainee Engineer",
+                "start_date": "01-2005",
+                "company_name": "National Highway Authority, MoC."
+            }
+        ]
+    }
+}

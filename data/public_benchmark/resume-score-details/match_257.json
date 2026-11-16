@@ -1,0 +1,161 @@
+{
+    "output": {
+        "justification": [
+            "The resume indicates leadership experience in expanding and managing business development departments, and negotiating significant contracts, aligning with the role's leadership requirement.",
+            "Relevant experience in business development is evident in securing substantial international contracts and increasing revenue, which is crucial for the position of Business Development Manager.",
+            "Despite the absence of explicit mention of CRM proficiency in the resume, the candidate demonstrates strategy development and market entry experience relevant to CRM and digital marketing tools.",
+            "The candidate has strong analytical and strategic planning skills as evident from work experience and strategic project initiatives."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm proficiency",
+                    "score": 4
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.31,
+                "micro_scores": 5.57
+            }
+        },
+        "personal_info": {
+            "name": "Aabeer Suhail",
+            "email": "aabeerbukhar.as@gmail.com",
+            "phone": "+92 321 4334769",
+            "current_position": "Business Development Manager",
+            "current_company": "Wrangler Instruments",
+            "employment_start_date_current_company": "06-2020",
+            "first_company_start_date": "03-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/aabeer-suhail-bukhari-5b723019b"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 47,
+            "experience": 37,
+            "strategic planning": 16
+        },
+        "micro_dict": {
+            "crm proficiency": 29,
+            "market research": 43,
+            "digital marketing": 28
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Strong analytical and strategic planning skills"
+        ],
+        "resume": "Aabeer Suhail\nBukhari \nInternational Business\nDevelopment Manager \nCon\ufb01dent, creative and highly pro\ufb01cient\nbusiness professional adept in foreign market\nentry, expansion and product launch in new\nterritories. \naabeerbukhar.as@gmail.com \n+92 321 4334769 \nLahore, Pakistan \nlinkedin.com/in/aabeer-suhail-bukhari-\n5b723019b \nWORK EXPERIENCE \nBusiness Development Manager \nWrangler Instruments \n06/2020 - Present\n, \n \nLahore, Pakistan \nManufacturer & Exporter of Surgical Instruments to EU & USA with an annual sales of $6m \nSecured the largest (by value of money) Purchase Order to date by a new\nclient based in Copenhagen, Denmark. (Initial value of 180,000 USD. The\naccumulate client purchase by far this year is approximately $1M) \nSuccessfully planned, negotiated and won a contract with UNICEF Supply\nDivision (03 year exclusive contract worth $1.5M per annum) \nIncreased the Revenue by 28% with an existing Key Account by heading a\nproject of oAering a new product (Market Regulations, Price break ups,\nForecasting, Packaging, Delivery). \nOrganized and attended meetings with existing key accounts \n& set up new\nmeetings with potential customers, travelled to 5+ EU Countries on a 02\nweek successful business trip representing the company. \nRepresented the company at an exhibition in the UAE, while also\nnegotiating contracts with potential clients in the UAE. \nExpanded the BD Department to a team of 03 Business Development\nODcers targeting diAerent market segments. \nDeveloped and implemented Market Entry Strategy for the \nNon-pro\ufb01t\nsector and marketing and sales plan for the OEM Sector for the year 2021-\n2022. \nDe\ufb01ned the Customer Acquisition Process along with Customer Persona\n(most pro\ufb01table) for organization by utilizing extensive market research\nand competitive analysis. \nFormulated SOPs as per Shareholder policies for the Business\nDevelopment Department. \nWorked with Regulatory Consultants to successfully ensure our products\ncan access new markets in EU (Swiss Rep, UKCA Compliance) while also\nheading projects for new regulations updating. \nBusiness Development Executive \nWrangler Instruments \n01/2020 - 06/2020\n, \n \nExpanded the clientage of the department by addition of 08 new long\nterm, sustainable and diverse customer partnerships from Portugal,\nUnited Kingdom, Belgium, Mongolia, Bangladesh, etc. \nInternational Marketing Executive \nThermosole Industries Pvt. Ltd. \n03/2019 - 11/2019\n, \n \nUnder the hood automobile aftermarket parts manufacturer & exporters to the EU \nSingle handedly drove 33% increase in international sales. \nDiversi\ufb01ed clientage by securing 3 new international clients from Spain &\nItaly. \nEDUCATION \nBachelors of Chemical Engineering \nCOMSATS University, Lahore / Lancaster University,\nUnited Kingdom \n09/2014 - 06/2018\n, \n \nCERTIFICATES \nKey Account Management, Breakthrough\nStrategies for Growing Valued Customer\n- Rausing Executive Development Centre,\nLUMS\n (07/2021 - 08/2021)\n \nEmployer Sponsored Corporate Training \nInternational Trade Managment, Import\nExport Procedures - PIMS, Lahore.\n (09/2019 - 10/2019)\n \nSelf-sponsored Diploma \nSKILLS \nRelationship Management \nInterpersonal Communication \nStrategy Development and Creative\nPlanning \nBrand Building & Strategy Enforcements \nCompetitive Analysis and Trend\nIdenti\ufb01cation \nNew Product and Packaging Ideas \nMarketing Research \nMarket Entry Strategy \nCustomer Acquisition \nPERSONAL PROJECTS \nBusiness Development Consultancy to a\nUS Based Client - Remotely\n (01/2022 - 03/2022)\n \nDrafted Customer Persona and Acquisition Plan\nfor an eAective Customer Pipeline accumulation. \nIdenti\ufb01ed gaps in existing BD Plan, Brand Persona\nand Online presence and suggested changes to be\nincorporated. \nSuggested Email Marketing and LinkedIn\nCampaign. \nWrote procedure and scripts for Cold & Warm\nCalls to prospects. \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Aabeer Suhail Bukhari",
+        "number": "923214334769",
+        "skills": [
+            "Market Entry Strategy",
+            "Customer Acquisition",
+            "Competitive Analysis",
+            "Marketing Research",
+            "New Product and Packaging Ideas"
+        ],
+        "email_id": "aabeerbukhar.as@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Business Development Consultancy to a US Based Client - Remotely",
+                "description": "Drafted Customer Persona and Acquisition Plan for an effective Customer Pipeline accumulation."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "COMSATS University, Lahore / Lancaster University, United Kingdom",
+                "degree_title": "Bachelors of Chemical Engineering"
+            }
+        ],
+        "achievements": [
+            "Secured the largest Purchase Order to date by a new client based in Copenhagen, Denmark (Initial value of 180,000 USD).",
+            "Successfully planned, negotiated and won a contract with UNICEF Supply Division (03 year exclusive contract worth $1.5M per annum).",
+            "Increased the Revenue by 28% with an existing Key Account."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Key Account Management, Breakthrough Strategies for Growing Valued Customer",
+                "issuing_organization": "Rausing Executive Development Centre, LUMS",
+                "date_of_issuance": "08-2021"
+            },
+            {
+                "certification_name": "International Trade Management, Import Export Procedures",
+                "issuing_organization": "PIMS, Lahore",
+                "date_of_issuance": "10-2019"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/aabeer-suhail-bukhari-5b723019b",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Aabeer Suhail Bukhari is a proficient International Business Development Manager with a strong background in foreign market entry, expansion, and product launch. With a proven track record of securing significant contracts and increasing revenue, Aabeer demonstrates exceptional skills in market strategy and customer acquisition.",
+        "employment_history": [
+            {
+                "details": "Secured the largest Purchase Order to date by a new client based in Copenhagen, Denmark. Successfully planned, negotiated and won a contract with UNICEF Supply Division. Increased the Revenue by 28% with an existing Key Account.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2020",
+                "company_name": "Wrangler Instruments"
+            },
+            {
+                "details": "Expanded the clientage of the department by addition of 08 new long term, sustainable and diverse customer partnerships.",
+                "end_date": "06-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2020",
+                "company_name": "Wrangler Instruments"
+            },
+            {
+                "details": "Single handedly drove 33% increase in international sales and diversified clientage by securing 3 new international clients from Spain & Italy.",
+                "end_date": "11-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "International Marketing Executive",
+                "start_date": "03-2019",
+                "company_name": "Thermosole Industries Pvt. Ltd."
+            }
+        ]
+    }
+}

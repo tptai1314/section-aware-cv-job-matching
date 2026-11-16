@@ -1,0 +1,161 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks a Master's degree, which is a minimum requirement for the job.",
+            "Strong background in business development and marketing but lacks direct experience in data management or solution architecture.",
+            "Leadership experience is evident through presidency role in student society but may not align directly with corporate leadership demands.",
+            "Proficiency in Excel and PowerBI is adequate, but no mention of expertise in Agile Methodologies, Solution Architecture, or Quality Management Systems."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 4
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 3
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 2
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 3
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 3.8899999999999997
+            }
+        },
+        "personal_info": {
+            "name": "MUHAMMAD UMAR KHALID",
+            "email": "0303umar@gmail.com",
+            "phone": "+92-303-4003301",
+            "current_position": "Business Development Executive",
+            "current_company": "Innovage.io",
+            "employment_start_date_current_company": "07-2022",
+            "first_company_start_date": "08-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/umar-khalid125"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "client relationship management": 100
+        },
+        "micro_dict": {
+            "data management": 20,
+            "solution architecture": 20,
+            "agile methodologies": 11,
+            "quality management systems": 9,
+            "powerbi": 40
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Master's degree in Computer Science, Business Administration, or related field"
+        ],
+        "resume": "Namal University, Mianwali  \n MUHAMMAD  UMAR  KHALID           \n \nContact:  +92-303-4003301 | E-Mail:  0303umar@gmail.com  \nAddress:  House# 324, Islam Nagar, Bahawalnagar  \nLinkedIn:  www.linkedin.com/in/umar -khalid125  \n \n AREAS OF EXPERTISE   \n \nDedicated and innovative with related education, practicum, and experience to achieve  to long -range operational objectives in a \ngrowing industry and equally challenging industry  \n\uf0f7Business Development  \uf0f7Marketing Analysis  \uf0f7Business Management \uf0f7Customer Relationship Management \uf0f7Social \nMedia Marketing\uf0f7Digital Marketing  \uf0f7Marketing Strategy \uf0f7Advertising \uf0f7Human Resource Management \uf0f7Punctuality & \nTimekeeping \uf0f7 Problem Solving \uf0f7Communication Skills \uf0f7 Leadership Skills  \n \n \n \n \n PROFESSIONAL ABRIDGEMENT   \n \nDynamic and result oriented professional with hands on experience in Marketing and Human Resource Organizations , \nhaving excellent leadership, communication  & management skills. A team player seeking to expand knowledge and \nenhance skills. Passionate about business and motivated to drive that passion in helping the concerned organizations to \nflourish and prosper.  \n ACADEMIC BRIEF   \nBachelor of Business Administration                                                                                                                                                 2018 \u2013 2022  \nMajor (Marketing)  \nMinor ( Human Resource Management , Financial Accounting)  \nNamal University , Mianwali  \nCGPA: 3. 2/4 \n \n EXPERIENCE   \nInnovage.io  July  2022-Current  \nBusiness Development  Executive  \n\uf034 Using networks and online research, identify and qualify new sales leads.  \n\uf034 Follow up on any sales leads, clearly providing pertinent facts.  \n\uf034 Cold Calls and Emails to build and maintain strong connections with new and existing partners.  \n\uf034 Attend conferences, meetings, and industry events on behalf of the company  \nGaoTek, inc.  Aug 2020 to Nov 2020  \nHR Intern  \n\uf034 Administered the hiring process of candidates for different company profiles, starting from job posting to candidate \nscreening and communication with the candidate and concerned department.  \nThe Coca Cola Company, inc.  Sep 2021 to Oct 2021  \nSales & Marketing Intern  \n\uf034 Contributes information, ideas, and research to help develop marketing strategies. Helps to detail, design, and \nimplement marketing plans for each product or se rvice being offered.  \n \n PAGE | 2 \n \nNamal University, Mianwali  \n Descon Engineering Ltd.  Jul 2019 to Aug 2019  \nHR Operations  \n          \n\uf034 Reporting on SAP  \n\uf034 Updating employee absence records, filing HR documents, accordingly, initiating background checks on shortlisted \ncandidates, and providing suitable recommendations to improve HR policies.  \nTraining and Development Center  \n\uf034  Acting as a focal person  for any T&D related queries, liaising with the rest of the HR team as required.  \n \n\uf034 Moove: A startup to provide extensive services of study tourism, aesthetic,  and recreational tourism , we successfully \nmanaged to arrange recreational trips for the students of Namal  University  to visit tourist attractions in the surroundings \nof Namal.  \n\uf034 Founder of \u201cDairy Delicious\u201d, an online dairy startup where organic dairy products are sold online with an efficient and \nquality ensured delivery system  \n TECHNICAL PROFICIENCIES   \nTools  MS Word, MS Excel, MS PowerPoint, MS Project Management, Tableau  \n \n\uf034   President, Namal Society for Social Impact               Oct  2020 to April  2022  \n1. Blood donation drive  \n2. Emergency medical trainings e.g.,  CPR, fire extensions, first aid etc.  \n3. Free education to local school children  \n4. Voice of Change Competitions (Local inter college competitions)  \n5. Cultural Fest & Qawali Night 2022  \n \n\uf034 Volunteer , \u201cSarsab az Bahawalnagar Green Environment Campaign\u201d.  \n\uf034 Runner up,  District level Basketball  Tournament.  \n \n \n \n\u2713 Social Work  \n\u2713 Travelling  \n\u2713 Hiking   \n\u2713 Trekking  \n\u2713 Mount ain Climbing  \n\u2713 Photography (Nature, Landscapes)  \n\u2713 Basketball (District level runner up)   KEY PROJECTS   \n NAMAL STUDENT SOCIETY ENDEAVORS    \n ACTIVITIES OF PERSONAL INTEREST    PAGE | 3 \n \nNamal University, Mianwali  \n \u2713 Badminton  \n\u2713 Cycling  \n\u2713 Quiz Competition (College level)  \n \n \n \n\u2192 To be Provided on Demand   REFERENCES   "
+    },
+    "details": {
+        "name": "MUHAMMAD UMAR KHALID",
+        "number": "923034003301",
+        "skills": [
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint",
+            "MS Project Management",
+            "Tableau"
+        ],
+        "email_id": "0303umar@gmail.com",
+        "location": "House# 324, Islam Nagar, Bahawalnagar",
+        "projects": [
+            {
+                "title": "Moove",
+                "description": "A startup to provide extensive services of study tourism, aesthetic, and recreational tourism."
+            },
+            {
+                "title": "Dairy Delicious",
+                "description": "An online dairy startup where organic dairy products are sold online."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Namal University, Mianwali",
+                "degree_title": "Bachelor of Business Administration"
+            }
+        ],
+        "achievements": [
+            "Runner up, District level Basketball Tournament",
+            "Voice of Change Competitions (Local inter college competitions)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umar-khalid125",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Umar Khalid is a dedicated and innovative professional with a Bachelor of Business Administration, specializing in Marketing. He has hands-on experience in business development and human resources, demonstrating strong technical skills in various software tools. Umar is passionate about driving business success and has a proven track record of achievements in competitive environments.",
+        "employment_history": [
+            {
+                "details": "Using networks and online research, identify and qualify new sales leads. Follow up on any sales leads, clearly providing pertinent facts. Cold Calls and Emails to build and maintain strong connections with new and existing partners. Attend conferences, meetings, and industry events on behalf of the company.",
+                "end_date": "Current",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2022",
+                "company_name": "Innovage.io"
+            },
+            {
+                "details": "Administered the hiring process of candidates for different company profiles, starting from job posting to candidate screening and communication with the candidate and concerned department.",
+                "end_date": "11-2020",
+                "location": "",
+                "job_title": "HR Intern",
+                "start_date": "08-2020",
+                "company_name": "GaoTek, inc."
+            },
+            {
+                "details": "Contributes information, ideas, and research to help develop marketing strategies. Helps to detail, design, and implement marketing plans for each product or service being offered.",
+                "end_date": "10-2021",
+                "location": "",
+                "job_title": "Sales & Marketing Intern",
+                "start_date": "09-2021",
+                "company_name": "The Coca Cola Company, inc."
+            },
+            {
+                "details": "Reporting on SAP. Updating employee absence records, filing HR documents, accordingly, initiating background checks on shortlisted candidates, and providing suitable recommendations to improve HR policies.",
+                "end_date": "08-2019",
+                "location": "",
+                "job_title": "HR Operations",
+                "start_date": "07-2019",
+                "company_name": "Descon Engineering Ltd."
+            }
+        ]
+    }
+}

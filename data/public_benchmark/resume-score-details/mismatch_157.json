@@ -1,0 +1,164 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is low due to lack of demonstrated leadership roles, despite engagement in various activities.",
+            "Relevant experience score is middling as the candidate has experience in sales but lacks direct B2B IT and manufacturing exposure.",
+            "Micro score for data analysis is low due to weak evidence of analytical proficiency beyond basic skills.",
+            "The candidate does not meet job's minimum experience and educational institution preferences."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.46,
+                "micro_scores": 4.0
+            }
+        },
+        "personal_info": {
+            "name": "Usama Ali",
+            "email": "usamaa017@gmail.com",
+            "phone": "03041281062",
+            "current_position": "Business Development Executive",
+            "current_company": "Arhamsoft Pvt Ltd",
+            "employment_start_date_current_company": "Present",
+            "first_company_start_date": "MM-YYYY",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 27,
+            "experience": 16,
+            "strategic thinking": 57
+        },
+        "micro_dict": {
+            "data analysis": 100
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales",
+            "Strong understanding of IT and manufacturing industries",
+            "Strong proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": "Usama Ali  \nA Block, PIA Colony, Lahore  \nCell: 03041281062,  03319746862  \nEmail: usamaa017@gmail.com    \nOBJECTIVE  \nSeeking a challenging and growth -oriented position in a well -reputed organization, \nwhere I can make an effective use of my knowledge and capabilities, to utilize my \ntalent, experience and qualification in a most effective manner towards building up a \ncareer in corporate.   \nPERSONAL DETAIL    \n Father\u2019s Name  : Muhammad Nawaz  \n Date of birth  : 21-02-1995  \n CNIC No.  : 36201 -8598268 -9 \n Domicile  : Lodhran (Punjab)  \n Nationality  : Pakistani  \n Religion  : Islam  \n Marital Status  : Single  \n Gender  : Male  \nQUAL  FICATION     \n DEGREE   CGPA /DIVISION  YEAR  BOARD /UNIVERSITY  \n B.S ( IT )   CGPA (3.67/4.00)  2018  BZU Multan  \n F.S.C   2nd   division  2013  BISE Multan  \n Matric  1st division  2011  BISE Multan  \nExperience   \n \n\u25cf Business Development Executive Arhamsoft Pvt Ltd ( Present)  \n\u25cf Sales Executive Mindbridge Pvt Lahore  \n\u25cf  Govt  Post Graduate College, Dunyapur, Lodhran  \n\u25cf Visiting Lecturer Govt Emerson College Multan  \n\u25cf IELTs Instructor at ACE School of Languages, Multan  \n \n\u25cf Amazon Product Research and Manager FBA.  \n\u25cf Amazon VA at Techtiks Multan  \n\u25cf Associate Producer 24 News HD.  \n\u25cf Former Th eatre Arts Director at Arts Council Multan  \n\u25cf Former Script Writer at Arts Council Multan  \n\u25cf Former Content Producer at Spotlights Productions  \n\u25cf Former Assistant Director MAATI TV Lahore  \n\u25cf Worked for various Web TVs.  \n\u25cf Worked for Utility Masters as Call Center Ag ent.  \n\u25cf Run own YouTube Channels including the Vlogs Shooting and Content Creation.  \n\u25cf Worked as Public awareness speaker in British Council  \n\u25cf Top Debater Multan Division 2016 -2017 in CM Punjab Competition.  \n\u25cf Announcer at Radio Pakistan Multan.  \n\u25cf Worked as a volunteer Media Coordinator with Punjab Police   \n\u25cf Worked as Content Producer at MWeb IT Solutions, Multan  \n\u25cf Worked as  Content Manager at Sharpc ore Inc, Multan  \n\u25cf Worked as Social Media Marketer at SE Software's Technologies, Multan  \n\u25cf Intellectual  SKILLS  \n\u25cf Fluency in English Language  \n\u25cf Influential public speaking and dealing.            \n\u25cf Remarkable marketing and sales potential.  \n\u25cf Working under pressure   \n\u25cf Team work and coordination  \n\u25cf Great writing experience and potential  \n\u25cf Creative and out of the box innovative thinking  \n\u25cf Problem solving/ Troubleshooting   \n\u25cf IELTS with 7.5 bands  \n\u25cf COMPUTER SKILLS  \n\u25cf Windows  \n\u25cf Android  \n\u25cf Email  \n\u25cf Internet Use  \n\u25cf MS Office (Word, PowerPoint)  \n\u25cf Good Knowledge about Computer Application   \n\u25cf Web design   \u25cf Web development   \n\u25cf Database Management   \n\u25cf Networking expert  \n\u25cf (U.S.P)  \n\u25cf Critically Analysis of every situation   \n\u25cf Reading Books & Newspapers  \n\u25cf Discovering and research  \n\u25cf LANGUA GES   \n\u25cf English  \n\u25cf Urdu  \n\u25cf Punjabi   \n\u25cf Sariki  \n      \n \n REFERENCE  \nWill be provided on demand.   \n  "
+    },
+    "details": {
+        "name": "Usama Ali",
+        "number": "03041281062",
+        "skills": [
+            "Windows",
+            "Android",
+            "Email",
+            "Internet Use",
+            "MS Office (Word, PowerPoint)",
+            "Web design",
+            "Web development",
+            "Database Management",
+            "Networking expert"
+        ],
+        "email_id": "usamaa017@gmail.com",
+        "location": "A Block, PIA Colony, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "BZU Multan",
+                "degree_title": "B.S ( IT)"
+            }
+        ],
+        "achievements": [
+            "Top Debater Multan Division 2016 -2017 in CM Punjab Competition"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/usamaali",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/usamaali",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Usama Ali is a skilled IT professional with a strong background in software and web development, proficient in various technical skills including Windows, Android, and MS Office. He has demonstrated his capabilities through his educational achievements and professional experiences in business development and content production.",
+        "employment_history": [
+            {
+                "details": "Business Development Executive",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2022",
+                "company_name": "Arhamsoft Pvt Ltd"
+            },
+            {
+                "details": "Sales Executive",
+                "end_date": "12-2021",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Mindbridge Pvt"
+            },
+            {
+                "details": "Visiting Lecturer",
+                "end_date": "12-2020",
+                "location": "Dunyapur, Lodhran",
+                "job_title": "Visiting Lecturer",
+                "start_date": "01-2019",
+                "company_name": "Govt Post Graduate College"
+            },
+            {
+                "details": "IELTs Instructor",
+                "end_date": "12-2019",
+                "location": "Multan",
+                "job_title": "IELTs Instructor",
+                "start_date": "01-2018",
+                "company_name": "ACE School of Languages"
+            }
+        ]
+    }
+}

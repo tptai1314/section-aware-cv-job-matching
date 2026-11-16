@@ -1,0 +1,157 @@
+{
+    "output": {
+        "justification": [
+            "The candidate showcases strong experience in business development but lacks specific project management expertise required for the role.",
+            "No specific references to proficiency in tools like PowerBI or Oracle DV as required by the job description.",
+            "Leadership experience is not evident; the current role is more aligned with business development and sales than managing technical projects.",
+            "The educational background does not align with the preferred institutions mentioned in the additional info."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 4
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 6
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 3
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 2
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.39,
+                "micro_scores": 3.52
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Talha",
+            "email": "ch.taIha786786@gmaiI.com",
+            "phone": "+92348-8715969",
+            "current_position": "Senior Business Development Executive",
+            "current_company": "Tsoftek",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "12-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/ch-talha"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 39,
+            "technical expertise": 36,
+            "client relationship management": 25
+        },
+        "micro_dict": {
+            "pre-sales consulting": 30,
+            "agile methodologies": 32,
+            "quality management systems": 29,
+            "powerbi": 9
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+            "Experience in managing enterprise data warehouse projects",
+            "10+ years of industry experience in project management and data analytics"
+        ],
+        "resume": "Muhammad Talha\n Business Development Executive\nAbout Me\nProfessional ExperienceTo build a career in a growing organization, where I can\nget the opportunities to prove my abilities by\naccepting challenges, fulfilling the organizational goal,\nand climbing the career ladder through continuous\nlearning and commitment. I'm committed to my\nlearning and work, both in a team and independently,\nand to help improve a company's growth through the\nnew ideas.\nHard Skill\nBusiness Development\nProposal Writing \nSales & Retails\nSolid understanding of the web\nand app development life cycle\nTesting\nProject coordination\nProject management tools (Trello, Jira,\nand Click-up).\nSoft Skill\nObservation\nDecision making\nCommunication\nSelf Motivation \nFast-Learner\nMulti-tasking\nTeamwork\nEducation Background\nUniversity of Sargodha (Sargodha) \n BSIT(Bachelor of Science in Computer\nScience)\nAttended from Sept. 2016 to June 2020\nSuperior College - Dipalpur \nICS (Intermediate in Computer\nScience.)\nAttended from Sept. 2014 to 2016My Contact\n ch.taIha786786@gmaiI.com\nGulburg III-Lahore+92348-8715969\nwww.linkedin.com/in/ch-talha\nTsoftek| Senior Business Development Executive\nBitsclan IT Solutions LLC| Business Development\nOfficer 2021  AUG\u2013 Present\n2020 Dec - 2021 JulyKey responsibilities:\nResponsible for generating sales and driving short- and\nlong-term revenue and profit growth through prospecting,\nacquisition, development, and\nexpansion of customer opportunities. Developing long-\nlasting customer relationships and gather referrals with\nboth new and current accounts.\nIdentifying new sales leads \nPitching products and/or services\nMaintaining fruitful relationships with existing customers \nContacting potential clients via email or phone to\nestablish rapport and set up meetings \nPlanning and overseeing new marketing initiatives \nAttending conferences, meetings, and industry\nevents.\nManaging Company Profiles (Upwork, Freelancer\nand Fiver).\nKey responsibilities:\nDeveloped and implemented different business strategies &\nsolutions based on client requirements\nEstablish good relationships with existing clients.\nStrong analytical skills with a passion for quality work\nGenerate Business to the company Via different Platforms\n(Online/Referrals).\nWork with different platforms like (Upwork, Fiverr, People Per Hour,\nLinkedin, and Freelancer)\nDevelop business proposals for new and existing clients. \nBidding, Content Writing, Email Marketing. "
+    },
+    "details": {
+        "name": "Muhammad Talha",
+        "number": "923488715969",
+        "skills": [
+            "Business Development",
+            "Proposal Writing",
+            "Sales & Retails",
+            "Web Development Life Cycle",
+            "Testing",
+            "Project Coordination",
+            "Trello",
+            "Jira",
+            "Click-up"
+        ],
+        "email_id": "ch.talha786786@gmail.com",
+        "location": "Gulburg III-Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "University of Sargodha",
+                "degree_title": "BSIT (Bachelor of Science in Computer Science)"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Superior College - Dipalpur",
+                "degree_title": "ICS (Intermediate in Computer Science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ch-talha",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Talha is a dedicated Business Development Executive with a strong background in generating sales and driving revenue growth. He possesses a solid understanding of the web and app development life cycle, along with proficiency in project management tools. Talha is committed to building long-lasting customer relationships and developing effective business strategies.",
+        "employment_history": [
+            {
+                "details": "Responsible for generating sales and driving short- and long-term revenue and profit growth through prospecting, acquisition, development, and expansion of customer opportunities. Developing long-lasting customer relationships and gather referrals with both new and current accounts. Identifying new sales leads, pitching products and/or services, maintaining fruitful relationships with existing customers, contacting potential clients via email or phone to establish rapport and set up meetings, planning and overseeing new marketing initiatives, attending conferences, meetings, and industry events, managing Company Profiles (Upwork, Freelancer and Fiverr).",
+                "end_date": "08-2023",
+                "location": "",
+                "job_title": "Senior Business Development Executive",
+                "start_date": "12-2021",
+                "company_name": "Tsoftek"
+            },
+            {
+                "details": "Developed and implemented different business strategies & solutions based on client requirements. Established good relationships with existing clients. Generated business to the company via different platforms (Online/Referrals). Worked with different platforms like Upwork, Fiverr, People Per Hour, LinkedIn, and Freelancer. Developed business proposals for new and existing clients. Bidding, Content Writing, Email Marketing.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "12-2020",
+                "company_name": "Bitsclan IT Solutions LLC"
+            }
+        ]
+    }
+}

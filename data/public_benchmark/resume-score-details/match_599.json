@@ -1,0 +1,161 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has shown leadership abilities by overseeing a team and managing sales targets.",
+            "Relevant experience in sales and client management aligns well with the Business Development Manager role.",
+            "Proficiency with Microsoft Office is suggested by experience with data analysis and reporting in sales roles.",
+            "Formal education in business administration fulfills educational requirements, but the candidate's university is not listed as a preferred institution."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 8
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 7
+                },
+                {
+                    "criteria": "account management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.369999999999999,
+                "micro_scores": 7.08
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Saad Khan",
+            "email": "saadkhan771994@gmail.com",
+            "phone": "+923217503247",
+            "current_position": "Assistant Sales Manager",
+            "current_company": "Kasmy Pack Ltd.",
+            "employment_start_date_current_company": "07-2019",
+            "first_company_start_date": "02-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 63,
+            "experience": 37
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 8,
+            "sales process management": 88,
+            "account management": 4
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proven track record in managing complex sales cycles",
+            "5+ years of experience in business development or a related role",
+            "Proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Strong negotiation and strategic thinking skills"
+        ],
+        "resume": "saadkhan771994@gmail.com \n House No #131, Eastern\nBlock Bahria Orchard- Lahore  +923217503247 M u h a m m a d\nS a a d  K h a n\nASSISTANT SALES MANAGER\nI am a driven individual, that loves a\nchallenge. I have a few years of\nexperience in both sales and marketing\nacquired while working in the FMCG,\nprinting and courier industry.P E R S O N A L  S U M M A R YW O R K  E X P E R I E N C E\nE D U C A T I O N\nC O N T A C T\nE X P E R T I S EEnsuring smooth production and delivery of orders\nEnsuring monthly sales targets\nAcquisition of prospective clients\nOversight and management of assigned team\nClient relationship management\nExecution and oversight of assigned ordersKasmy Pack Ltd.\nAssistant Sales ManagerJuly 2019 - Present\nSales team management\nData analysis and sales forecasting\nMeeting and exceeding sales targets\nVendor relationship management \nAcquisition of new vendors to expand targeted\nterritoryBunny's Limited\nSales ExecutiveFeb 2018 - May 2018\nDouble Majors in Marketing & Finance (CGPA 3.28) Lahore School of Economics\nBBA (Honors)August 2013 - May 2017Major in Marketing (CGPA 3.2)Lahore School of Economics\nMBA August 2018-May 2019\nTeam Management\nClient Relationship Management\nConflict Management & ResolutionStrong Communication Skills\nSales Execution\nContract NegotiationP R O J E T C S\nS M E\nPrepared a detailed plan for the launch of an\nintermediary service named \"Auto App\".\nB r a n d i n g\nPrepared a marketing plan for the brand extension \nof Coca Cola.\nI n v e s t m e n t s\nConducted a detailed fundamental analysis of\nTandiaWala to make an investment decision"
+    },
+    "details": {
+        "name": "Muhammad Saad Khan",
+        "number": "923217503247",
+        "skills": [
+            "Sales Execution",
+            "Data Analysis",
+            "Sales Forecasting",
+            "Vendor Relationship Management",
+            "Client Relationship Management"
+        ],
+        "email_id": "saadkhan771994@gmail.com",
+        "location": "House No #131, Eastern Block Bahria Orchard- Lahore",
+        "projects": [
+            {
+                "title": "Auto App",
+                "description": "Prepared a detailed plan for the launch of an intermediary service named 'Auto App'."
+            },
+            {
+                "title": "Coca Cola Brand Extension",
+                "description": "Prepared a marketing plan for the brand extension of Coca Cola."
+            },
+            {
+                "title": "TandiaWala Investment Analysis",
+                "description": "Conducted a detailed fundamental analysis of TandiaWala to make an investment decision."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "Lahore School of Economics",
+                "degree_title": "BBA (Honors) Major in Marketing (CGPA 3.2)"
+            },
+            {
+                "end_date": "05-2019",
+                "university": "Lahore School of Economics",
+                "degree_title": "MBA"
+            },
+            {
+                "end_date": "05-2020",
+                "university": "Lahore School of Economics",
+                "degree_title": "Double Majors in Marketing & Finance (CGPA 3.28)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Saad Khan is an accomplished Assistant Sales Manager with a strong background in sales and marketing within the FMCG, printing, and courier industries. He has demonstrated expertise in data analysis, sales forecasting, and client relationship management, consistently meeting and exceeding sales targets.",
+        "employment_history": [
+            {
+                "details": "Ensuring smooth production and delivery of orders, ensuring monthly sales targets, acquisition of prospective clients, oversight and management of assigned team, client relationship management, execution and oversight of assigned orders.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Assistant Sales Manager",
+                "start_date": "07-2019",
+                "company_name": "Kasmy Pack Ltd."
+            },
+            {
+                "details": "Sales team management, data analysis and sales forecasting, meeting and exceeding sales targets, vendor relationship management, acquisition of new vendors to expand targeted territory.",
+                "end_date": "05-2018",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "02-2018",
+                "company_name": "Bunny's Limited"
+            }
+        ]
+    }
+}

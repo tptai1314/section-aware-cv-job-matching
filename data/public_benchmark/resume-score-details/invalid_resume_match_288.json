@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "## Join ElectroSolutions as a Senior Electrical Project Manager\n\n### Position Overview\n\nElectroSolutions, a leading innovative engineering company, is seeking a Senior Electrical Project Manager to lead and oversee our electrical engineering projects from inception to completion. The ideal candidate will have extensive experience in electrical design, project management, and the installation, testing, and commissioning of electrical systems.\n\n### Key Responsibilities\n- Lead and manage electrical projects ensuring they meet technical standards and business expectations.\n- Coordinate and oversee all project elements, including design, quality planning, and the installation of electrical systems.\n- Collaborate with cross-functional teams and stakeholders to deliver project outcomes effectively.\n- Provide strategic guidance and technical support throughout project execution.\n- Enhance team engagement and manage vendor relationships to drive project success.\n\n### Qualifications and Skills\n- Bachelor\u2019s degree in Electrical Engineering; Master\u2019s degree in Engineering Management or related field is preferred.\n- 10+ years of experience in electrical project management and engineering.\n- Strong skills in electrical design evaluation, project management, and team leadership.\n- Proficiency in progress reporting and vendor management.\n- Excellent communication and analytical skills.\n- Ability to manage multiple projects and prioritize tasks effectively.\n\n### What We Offer\n- Competitive salary package\n- Opportunity to work on cutting-edge engineering projects\n- Collaborative work environment \n- Opportunities for professional growth and development",
+        "macro_dict": {
+            "leadership": 51,
+            "project management experience": 49
+        },
+        "micro_dict": {
+            "team management": 55,
+            "technical compliance and safety": 45
+        },
+        "additional_info": "ElectroSolutions prefers candidates who have graduated from top engineering universities or institutions recognized for electrical engineering programs. Our company supports employee relocation with a comprehensive package for eligible candidates. Skills are primarily assessed through a combination of technical interviews, competency tests, and situational assessments to evaluate problem-solving abilities.",
+        "minimum_requirements": [
+            "Master's degree in Engineering Management preferred",
+            "Strong interpersonal and communication skills",
+            "Proficiency in project execution and electrical system commissioning",
+            "10+ years of experience in project management",
+            "Bachelor's degree in Electrical Engineering"
+        ],
+        "resume": "## Join ElectroSolutions as a Senior Electrical Project Manager\n\n### Position Overview\n\nElectroSolutions, a leading innovative engineering company, is seeking a Senior Electrical Project Manager to lead and oversee our electrical engineering projects from inception to completion. The ideal candidate will have extensive experience in electrical design, project management, and the installation, testing, and commissioning of electrical systems.\n\n### Key Responsibilities\n- Lead and manage electrical projects ensuring they meet technical standards and business expectations.\n- Coordinate and oversee all project elements, including design, quality planning, and the installation of electrical systems.\n- Collaborate with cross-functional teams and stakeholders to deliver project outcomes effectively.\n- Provide strategic guidance and technical support throughout project execution.\n- Enhance team engagement and manage vendor relationships to drive project success.\n\n### Qualifications and Skills\n- Bachelor\u2019s degree in Electrical Engineering; Master\u2019s degree in Engineering Management or related field is preferred.\n- 10+ years of experience in electrical project management and engineering.\n- Strong skills in electrical design evaluation, project management, and team leadership.\n- Proficiency in progress reporting and vendor management.\n- Excellent communication and analytical skills.\n- Ability to manage multiple projects and prioritize tasks effectively.\n\n### What We Offer\n- Competitive salary package\n- Opportunity to work on cutting-edge engineering projects\n- Collaborative work environment \n- Opportunities for professional growth and development"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

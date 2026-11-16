@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Sure, here's a piece of random text:\n\nBob glanced at the peculiar device resting on his workbench. It looked like a contraption from a science fiction movie, with its assortment of blinking lights and faint hum. It was something he had cobbled together over the past few weeks, quite by accident more than design.\n\nFlugelsnoot, his perpetually curious cat, approached the contraption with the kind of curiosity that was both endearing and slightly nerve-wracking. Bob had no idea what this machine did. For all he knew, pressing the big red button might turn Flugelsnoot into a time-traveling kitty. Or maybe nothing would happen at all. Lumping the risk aside, Bob decided it was time to find out.\n\nHe took a deep breath, braced himself for any unexpected warp in the fabric of reality, and pressed the button.\n\nNothing happened.\n\nSlightly disappointed, Bob sighed. But as he was about to turn away, the machine started whirring quietly, and a small door popped open, revealing a steaming mug of perfectly brewed coffee. Bob blinked in disbelief.\n\n\"Oh, this is gonna be big,\" he whispered to Flugelsnoot, who was already perched on the bench, sniffing the aromatic air.\n\nIn unrelated news, a giant inflatable rubber duck was seen floating down the city's river today, providing a whimsical break from the morning commute and leaving thousands of onlookers smiling and snapping photos. No one seems to know how the duck got there, but local authorities are investigating.\n\nMeanwhile, back at the workshop, Bob was already jotting down notes for his next invention: an automatic sandwich assembler. As Flugelsnoot rubbed against his leg, probably in dire need of a snack, Bob couldn't help but grin. Who knew what wonders tomorrow might bring?\n",
+        "macro_dict": {
+            "leadership": 31,
+            "experience": 58,
+            "strategic thinking": 11
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 23,
+            "sales process management": 53,
+            "negotiation skills": 17,
+            "account management": 7
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proven track record in managing complex sales cycles",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "Mubashar Fayyaz\nBusiness Development & Operation Management, B2B, B2C, IT, Training\nLahore\nmubashar.fayyaz@yahoo.com\n+92 331 4393771\nProfessional experience in Business Development & Management, Operations Management, Technical\nleadership, and Sales supervision. Valuable for start-up and ongoing business operations; excellent\nability to develop new projects. Well-equipped for managing multi-departments like HR, Sales, Finance,\nand Procurement. IT management experience is added advantage to analyzing business functions and\ndeploying new technologies. Strong analytical and problem-solving skills with the ability to work with\nlimited supervision.\nWork Experience\nBusiness Development Officer\nFastech Pvt. Ltd  - Lahore\nJanuary 2019 to Present\n\u2022 My core responsibilities are to grab projects from Upwork, freelancer, etc.\n\u2022 Communication with clients.\n\u2022 Generating leads and sharing lead assignments with our on-shore department.\n\u2022 Work with our sales department to convert it into an opportunity leading to the sale's closure.\n\u2022 Stay in touch and follow up rigorously with the prospect till the sale's closure.\n\u2022 We are meeting weekly KPIs and adding them to the CRM.\n\u2022 Training newcomers of the Inside Sales Department from data scrapping to lead generating and from\ndata research to reporting.\n\u2022 Meeting the yearly target of sales closure.\n\u2022 Follow-ups with the clients.\n\u2022 Understand the project scope.\n\u2022 Assigning the task to the assistant and BDE.\n\u2022 Decide the terms & elucidate the requirements for project cost and time frame.\n\u2022 Handling Upwork and freelancer accounts.\n\u2022 Managing business and Leads using Hubspot.\n\u2022 Generate Leads through Linkedin Sales navigator, Angellist, etc.\n\u2022 Running Email campaign through Appolo.io\nManager IT & Operations\nAgribusiness Support Fund\nSeptember 2013 to January 2019\n\u2022 IT and operations management and projects lead to facilitate stakeholders.\n\u2022 Budgeting and cost analysis for IT infrastructure and systems deployment, preparing scope of work.\n\u2022 Requirements gathered and implemented multiple solutions like ERP, eCommerce, LMS, and Web\napplications.\n\u2022 Supervise IT/MIS teams for smooth IT operations including LAN/WAN and security.Manager Operations\nAgribusiness Support Fund\nOctober 2010 to September 2013\n\u2022 Prepare computer-generated reports, presentations, minutes of meetings, and conduct research for\ninformation.\n\u2022 Meeting arrangements, taking care of foreign travel arrangements including security.\n\u2022 Procurement committee member experience of US and PPRA rules.\n\u2022 Vendor contracting (SLA) as per organizational needs.\n\u2022 Worked with the HR department to prepare job descriptions, position announcements, and staff hiring.\nManager Operations/Business Development\nWateen Telecom\nDecember 2007 to September 2010\n\u2022 Business development and management defined project scope and set goals, and deliverables for\nbusiness growth.\n\u2022 Planned, and implemented business promotional activities to accomplish set goals.\n\u2022 Team supervision and achieved more than 6000 customers on board.\n\u2022 Sales management for four-point of sales (POS), followed the hierarchy of sales managers and team\nmembers to achieve set targets.\n\u2022 Create a roadmap to success for managing dealers and distributors to ensure the functional\neffectiveness of the business.\n\u2022 Prepare landed costs, set a budget, and target for sustainability and business profitability.\n\u2022 Staff hiring and training on technology such as WiMAX, TCP/IP, VOIP configuration and troubleshooting,\nCRM Portal, including financial record management system.\nEducation\nMaster of Sciences in IT\nPreston University\n2005\nB. Com\nPunjab College of Commerce\n1996\nSkills\n\u2022Project Management (3 years)\n\u2022Operations Management (4 years)\n\u2022Procurement (2 years)\n\u2022Business Development & Management (5 years)\n\u2022Sales & Customer Services (3 years)\n\u2022Staff Hiring & Training (4 years)\n\u2022Inventory Control (3 years)\n\u2022Budgeting (3 years)\u2022Process Improvement (5 years)\n\u2022Management (5 years)\n\u2022Payroll (3 years)\n\u2022Business Analysis (3 years)\n\u2022ASANA (Less than 1 year)\n\u2022SQL (3 years)\n\u2022Agile (Less than 1 year)\n\u2022VoIP (2 years)\n\u2022TCP/IP (3 years)\n\u2022Bidding (4 years)\n\u2022Lead Generation (4 years)\n\u2022Proposal Writing (4 years)\nLanguages\n\u2022English - Fluent\n\u2022Chinese - Beginner\n\u2022Urdu - Fluent"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

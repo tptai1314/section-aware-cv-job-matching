@@ -1,0 +1,170 @@
+{
+    "output": {
+        "justification": [
+            "Fahad Amjad has held multiple leadership roles providing strong evidence of his leadership capabilities, evident from managing sales teams and representing companies.",
+            "The resume shows substantial business development experience, but primarily focused on sales rather than strategic planning as required by the job description.",
+            "Significant practical experience with CRM systems was evident, aligning with requirements for CRM proficiency.",
+            "Proficiency in lead generation was present, though more focused on sales channels like social media and not specified platforms."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 7
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 8
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.81,
+                "micro_scores": 7.630000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Fahad Amjad",
+            "email": "fahadali008@gmail.com",
+            "phone": "+92 3322293271",
+            "current_position": "Business Development Head",
+            "current_company": "Prismatic Technologies Pvt Ltd",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "09-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 59,
+            "client relations": 11,
+            "strategic planning": 30
+        },
+        "micro_dict": {
+            "lead generation": 29,
+            "crm systems": 67,
+            "project management": 4
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proven track record in lead generation and client engagement"
+        ],
+        "resume": "FAHAD  AMJAD  \n \n14 H / A -1, Aitchison Housing Society,  Mobile:  +92 3322293271   \nLahore, Pakistan  Email: fahadali008@gmail.com  \nDate  of Birth:  06/06/1986  \n \n \nPERSONAL  STATEMENT  \n \nAn innovative Business Development head  with strong leadership experience and particular expertise in the creation of \nsuccessful business strategies to achieve sales growth. Possesses the proven ability to direct and enhance commercial \noperations skilled in the management and expansion of k ey client relationships, strong communication and negotiation \nskills and focus on sales team to maximize business opportunities.  \n \n \nEMPLOYMENT  HISTORY  \n \nBusiness  Development  Head  - Prismatic  Technologies  Pvt Ltd | (Sep 2021  \u2013 Sep 2022 ) \n \nKey Responsibilities  \n \n\u2022 Responsible  for monitoring  the performance  of the sales  team  by establishing  a system  of reports  and \ncommunications  involving  sales  reports . \n\u2022 Lead and manage small to medium projects independently . \n\u2022 Work with Business groups to gather and document business needs and processes  \n\u2022 Advises customers on best practices for CRM processes, user interface and architecture  \n\u2022 Develops and manages project plans that encompass the complete project life cycle (i.e. project requirements, \ndevelopment, qual ity assurance, deployment etc.)  \n\u2022 Creates the functional and technical specifications documentation for the project . \n\u2022 Writes specifications for customizations, data migration, and system integrations . \n\u2022 Configure and customize the CRM system based on design spe cifications . \n\u2022 Works with the cross -functional areas to secure resources and ensure resources are used effectively . \n\u2022 Measures and monitors progress to ensure that a project is delivered on time, within budget, and meets or \nexceeds expectations . \n\u2022 Organize  & perform  Outdoor  customer  site visits  (initial  visit,  demonstration,  negotiation,  etc.) \n\u2022 Track  all business  development  activities,  analyze  quarterly  progress  and suggest  new strategies  based  on \nfindings.  \n\u2022 Manage  and be responsible  for the sales  and marketing  team,  their performance,  schedules,  and sales  \nachievements.  \n \nSales  Executive  - Toss down  Technologies  Pvt Ltd | (Jan 2020 \u2013 April 2021 ) \n \nKey Responsibilities  \n \n\u25cf Tossdown provides E -commerce Solutions which includes (Web, App, Digital Services \nand Ordering  Management  System)  for Restaurants  and Multinational.  \n\u25cf Researching  organizations  and individuals  online  to identify  new leads  through  Social  \nmedia. Contacting Potential clients via email or phone to establish rapport and setup  \nmeetings.  \n\u25cf Contacting  clients  to inform  them  about  new developments  in the company's  products.  \n\u25cf Developing  quotes  and proposals.  \n\u25cf Negotiating  and renegotiating  by phone,  email  and in person.   \nMedia  Manager  / Sales  - Mehboob  Steel  Traders  (Lahore)  | (Jan 2019  \u2013 Jan 2020)  \n \nKey Responsibilities  \n \n\u25cf Working as a media manager under the umbrella of MA Group of Companies which have 6 \ncompanies.  \n\u25cf The company  provides  Import  and Export  services,  Digital  marketing  services,  SEO,  Web  designing,  \ncustom  software  development,  and ERP solutions.  \n\u25cf Design their digital marketing strategy which includes (Facebook, YouTube and other platforms to  \ncreate  online  presence)  \n\u25cf Contacting  Potential  clients  via email  or phone  to establish  rapport  and setup  meetings.  \n\u25cf Supervise  web designers  to make  their company  profile  and websites.  \n\u25cf Script  making  for (documentary  and testimonial  videos)  of their clients.  \n\u25cf Handling  and negotiating  with the Chinese  clients  about  Steel  material,  machinery,  stainless  steel pipes,  \nMS pipe,  accessories  and other  queries  given  by clients.  \n \nMarketing  Manager  - H&H Marketing Associates (Lahore) | (Sep 2018 \u2013 Nov 2018)  \n \nKey Responsibilities  \n \n\u25cf (H&H)  working  as a B2B which  provides  packaging  solutions  for Food  & Beverages,  Pharmaceutical  and \ncosmetic  industries.  \n\u25cf My role is to provide packaging solutions for industries which includes: (Industrial Machinery, Packaging \nMaterial & Raw Material, Aluminum Tube, PE Tube, Plastic Laminate Tubes, Pet Bottles, Labels, Tapes \nand some allied products.  \n\u25cf I also represent the following compani es which are a part of (H&H) Tubex Packaging (Pvt.) Ltd., Alpha  \nContainers Industries, PCCL Labels (Pvt.) Ltd. Karachi,  Shanghai Sunway International Trade Co., Ltd.,  \nChina . \n\u25cf The following clients I work with: Seatle Pharma Pakistan (Pvt) Ltd, Shezan Intern ational, Al fazal \nPharma, Biocos cosmetics, Shama ghee cooking oil etc.  \n \n \n \nDigital  Marketing  Executive  - Internet  Media  (Karachi)  | (Sep 2013  \u2013 Feb 2015 ) \n \nKey Responsibilities  \n \n\u25cf Translating  client\u2019s  goals  and objectives  into actionable  and measurable  digital  marketing  programs.  \n\u25cf Creating  an inbound  and outbound  digital  marketing  strategy.  \n\u25cf Manage  updates  and strategy  for the brand\u2019s  social  & digital  presence  focusing  on platforms  that \nare relevant  to our client\u2019s  business  objectives  (e.g. Twitter,  Facebook,  Google+,  LinkedIn  etc.) \n\u25cf  Managing the social media activities for PTCL: Evo Nitro, PTCL Broadband, 3G Evo 3.1Mbps,  \nEvo Wingle, Evo Cloud, MyPtcl, New Landline Offer, Epic New Year Offer, PTCL 3G Offer,  \n4Mbps  for all, EVO  Summer  Offer,  CharJI  offer,  1Mbps  Double  offer  and recently  CharJI  Wingle  \nand Cloud.  \n\u25cf Handling  the customer's  query  related  to product  or services  on social  media.  \n\u25cf Monitoring  social  media  channels  for trends  and opportunities.  \n\u25cf Viral  marketing  campaigns  on a weekly  basis  for brand  awareness.   \nEDUCATION  AND  QUALIFICATIONS  \n \nCoventry  University,  United  Kingdom  | Passing  year:  (2012)  \n  MA Advertising  & Marketing  \n \n  Mohammad Ali Jinnah University, Karachi  | Passing year: (2010)   \n  BBA (HONS) Marketing and Finance  \n \nSM Govt.  College  Karachi  | Passing  year:  (2006 )  \nIntermediate  in Commerce  \n \n Gulistan Shah Abdul Latif School, Karachi  | Passing year: (2004)  \n  S.S.C  (computer  science)  \n \n \nSKILLS  AND  INTERESTS  \n \n\u2022 Solution  Selling.  \n\u2022 Key Account Management.  \n\u2022 Sales  Forecasting  and Product  Forecasting.  \n\u2022 Strong Analytical Skills, Creative and Team Player.  \n\u2022 Pro-efficient  in using  various  business -related  computer  applications.  \n\u2022 Excellent  spoken  and written  communication  skills.  \n\u2022 Customer  Service  Management.  \n\u2022 Identifying  Sales  Opportunities.  \n\u2022 International  Business  Exposure.  \n\u2022 Good  organization  and planning  skills.  \n\u2022 Ability  to work  under  pressure.  \n \n \nREFERENCES  \n \nReferences  will be provided  upon  request.  "
+    },
+    "details": {
+        "name": "Fahad Amjad",
+        "number": "923322293271",
+        "skills": [
+            "CRM",
+            "Digital Marketing",
+            "Web Designing",
+            "SEO",
+            "Project Management",
+            "E-commerce Solutions",
+            "Social Media Management",
+            "Sales Management"
+        ],
+        "email_id": "fahadali008@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2012",
+                "university": "Coventry University, United Kingdom",
+                "degree_title": "MA Advertising & Marketing"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Mohammad Ali Jinnah University, Karachi",
+                "degree_title": "BBA (HONS) Marketing and Finance"
+            },
+            {
+                "end_date": "06-2006",
+                "university": "SM Govt. College Karachi",
+                "degree_title": "Intermediate in Commerce"
+            },
+            {
+                "end_date": "06-2004",
+                "university": "Gulistan Shah Abdul Latif School, Karachi",
+                "degree_title": "S.S.C (computer science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/fahad-amjad",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Fahad Amjad is an innovative Business Development Head with extensive experience in creating successful business strategies to achieve sales growth. He possesses proven abilities in directing and enhancing commercial operations, managing key client relationships, and leading sales teams to maximize business opportunities.",
+        "employment_history": [
+            {
+                "details": "Responsible for monitoring the performance of the sales team by establishing a system of reports and communications involving sales reports. Lead and manage small to medium projects independently. Work with Business groups to gather and document business needs and processes. Advises customers on best practices for CRM processes, user interface and architecture. Develops and manages project plans that encompass the complete project life cycle (i.e. project requirements, development, quality assurance, deployment etc.). Creates the functional and technical specifications documentation for the project. Writes specifications for customizations, data migration, and system integrations. Configure and customize the CRM system based on design specifications. Works with the cross-functional areas to secure resources and ensure resources are used effectively. Measures and monitors progress to ensure that a project is delivered on time, within budget, and meets or exceeds expectations. Organize & perform Outdoor customer site visits (initial visit, demonstration, negotiation, etc.). Track all business development activities, analyze quarterly progress and suggest new strategies based on findings. Manage and be responsible for the sales and marketing team, their performance, schedules, and sales achievements.",
+                "end_date": "09-2022",
+                "location": "Lahore",
+                "job_title": "Business Development Head",
+                "start_date": "09-2021",
+                "company_name": "Prismatic Technologies Pvt Ltd"
+            },
+            {
+                "details": "Tossdown provides E-commerce Solutions which includes (Web, App, Digital Services and Ordering Management System) for Restaurants and Multinational. Researching organizations and individuals online to identify new leads through Social media. Contacting Potential clients via email or phone to establish rapport and setup meetings. Contacting clients to inform them about new developments in the company's products. Developing quotes and proposals. Negotiating and renegotiating by phone, email and in person.",
+                "end_date": "04-2021",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Toss down Technologies Pvt Ltd"
+            },
+            {
+                "details": "Working as a media manager under the umbrella of MA Group of Companies which have 6 companies. The company provides Import and Export services, Digital marketing services, SEO, Web designing, custom software development, and ERP solutions. Design their digital marketing strategy which includes (Facebook, YouTube and other platforms to create online presence). Contacting Potential clients via email or phone to establish rapport and setup meetings. Supervise web designers to make their company profile and websites. Script making for (documentary and testimonial videos) of their clients. Handling and negotiating with the Chinese clients about Steel material, machinery, stainless steel pipes, MS pipe, accessories and other queries given by clients.",
+                "end_date": "01-2020",
+                "location": "Lahore",
+                "job_title": "Media Manager / Sales",
+                "start_date": "01-2019",
+                "company_name": "Mehboob Steel Traders"
+            },
+            {
+                "details": "(H&H) working as a B2B which provides packaging solutions for Food & Beverages, Pharmaceutical and cosmetic industries. My role is to provide packaging solutions for industries which includes: (Industrial Machinery, Packaging Material & Raw Material, Aluminum Tube, PE Tube, Plastic Laminate Tubes, Pet Bottles, Labels, Tapes and some allied products). I also represent the following companies which are a part of (H&H) Tubex Packaging (Pvt.) Ltd., Alpha Containers Industries, PCCL Labels (Pvt.) Ltd. Karachi, Shanghai Sunway International Trade Co., Ltd., China. The following clients I work with: Seatle Pharma Pakistan (Pvt) Ltd, Shezan International, Al fazal Pharma, Biocos cosmetics, Shama ghee cooking oil etc.",
+                "end_date": "11-2018",
+                "location": "Lahore",
+                "job_title": "Marketing Manager",
+                "start_date": "09-2018",
+                "company_name": "H&H Marketing Associates"
+            },
+            {
+                "details": "Translating client\u2019s goals and objectives into actionable and measurable digital marketing programs. Creating an inbound and outbound digital marketing strategy. Manage updates and strategy for the brand\u2019s social & digital presence focusing on platforms that are relevant to our client\u2019s business objectives (e.g. Twitter, Facebook, Google+, LinkedIn etc.). Managing the social media activities for PTCL: Evo Nitro, PTCL Broadband, 3G Evo 3.1Mbps, Evo Wingle, Evo Cloud, MyPtcl, New Landline Offer, Epic New Year Offer, PTCL 3G Offer, 4Mbps for all, EVO Summer Offer, CharJI offer, 1Mbps Double offer and recently CharJI Wingle and Cloud. Handling the customer's query related to product or services on social media. Monitoring social media channels for trends and opportunities. Viral marketing campaigns on a weekly basis for brand awareness.",
+                "end_date": "02-2015",
+                "location": "Karachi",
+                "job_title": "Digital Marketing Executive",
+                "start_date": "09-2013",
+                "company_name": "Internet Media"
+            }
+        ]
+    }
+}

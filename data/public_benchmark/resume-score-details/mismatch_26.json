@@ -1,0 +1,145 @@
+{
+    "output": {
+        "justification": [
+            "Resume does not show any experience or skills related to wireless technology or telecommunications.",
+            "No evidence of project management experience in telecommunications.",
+            "Skills and experience listed are primarily focused on business development and client management.",
+            "The candidate's educational background does not align with the required technical qualifications."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "project management experience",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "network troubleshooting",
+                    "score": 0
+                },
+                {
+                    "criteria": "site audit",
+                    "score": 0
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in GSM, UMTS, LTE, and NR technologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong leadership and communication skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.0,
+                "micro_scores": 1.75
+            }
+        },
+        "personal_info": {
+            "name": "Umer Saleem",
+            "email": "umersaleemzaman1308@gmail.com",
+            "phone": "+923475130731",
+            "current_position": "Account Executive",
+            "current_company": "Keep Truckin",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "07-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/umersaleemzaman/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Job Title: Senior Wireless Integration Engineer\n\n#### Company: FutureNet Solutions\n\n**Location**: Islamabad, Pakistan\n\n**Job Summary**:  \nAs a Senior Wireless Integration Engineer, you will join FutureNet Solutions to lead and oversee telecommunication projects across multiple regions. Your responsibilities will include managing cross-functional teams, integrating wireless networks, and coordinating with field teams to ensure quality and timely delivery.\n\n**Key Responsibilities**:\n- Provide remote delivery services for multiple countries, conducting both pre-integration checks and post-integration validations.\n- Oversee the integration of 2G, 3G, 4G, 5G NR wireless sites using advanced tools such as Web CME, Cloud CME, and MML commands.\n- Coordinate with field teams to supervise installations and resolve on-site technical issues.\n- Prepare and manage project schedules and ensure completion in line with client specifications.\n- Perform site audits and equipment testing, including Huawei BTS and transmission nodes.\n- Act as a key technical support contact for troubleshooting and logical problem resolution.\n\n**Skills & Qualifications**:\n- Bachelor\u2019s degree in Telecommunications Engineering or a related field.\n- 8+ years of experience in wireless and telecommunications engineering.\n- Strong knowledge of GSM, UMTS, LTE, NR technologies, and network troubleshooting.\n- Proficiency in Huawei and Nokia RAN-SRAN equipment.\n- Excellent leadership, communication, and project management skills.\n- Ability to work independently and handle multiple projects under tight deadlines.\n\n**Salary**: Competitive salary with benefits commensurate with experience.\n\n**How to Apply**: Submit your CV and a cover letter detailing your relevant experience to careers@futurenetsolutions.com by [Deadline].",
+        "macro_dict": {
+            "project management experience": 100
+        },
+        "micro_dict": {
+            "network troubleshooting": 31,
+            "site audit": 34,
+            "communication skills": 35
+        },
+        "additional_info": "FutureNet Solutions actively seeks candidates from top engineering institutions such as BUITEMS and NUST, with a preference for candidates holding professional engineering certifications. Our hiring process includes technical assessments and multiple interview stages. We offer relocation assistance for qualified candidates and provide both on-site and remote work options based on project needs.",
+        "minimum_requirements": [
+            "Proficiency in GSM, UMTS, LTE, and NR technologies",
+            "Strong leadership and communication skills"
+        ],
+        "resume": "LANGUAGES SPOKENProspecting, Qualifying, Sales Pipeline Development.\nProduct Demonstrations.\nProduct Owner.\nLead generation and fostering them: Generate the new lead and\nfoster them.\nExamine the requirement of the customer and, maintaining the\ndocuments of requirement.\nSales prospects, maintaining healthy prospects of sales. Acting as a\nliaison between the development team and the business team,\nstaying connected with the Client.\nMonthly demonstration of MVPs to the Clients.\nCold Calling - Cold Emailing: Reaching new clients and taking follow-\nups for future prospects.\nInitiating the relationship with the healthy prospects through\nLinkedIn.\nProduct demonstrations to the clients after setting successful\nmeetings.\nSenior Customer Support Specialist Hired Support | July 2020 - Jan\n2021\nI have joined Hired Support as a Senior Customer Support Specialist\nto foster my written skills.\nReceive and Promptly Respond to Customer Queries.\nDocument Issues and Resolutions.\nLearn About New Products and Services.Keep Truckin\nAccount Executive | Nov 2021 - Present\nViral Square\nBusiness Development Officer | Feb 2021- Nov 2021\nHired Support\nUniversity Of Central Punjab\nMasters of Business Administration 2021 - Present\nI have started my Masters Of Business Administration from the University\nof Central Punjab to foster my expertise even more as per need of the\nmarket, to better understand Sales prospects.\nHazara University\nBachelors of Business Administration 2014 - 2018\nI have done my Bachelors from the University of Hazara securing colorful\ngrades, chose Finance as my major area of research.WORK EXPERIENCE\nEDUCATION HIGHLIGHTSMobile: +923475130731\numersaleemzaman1308@gmail.com\nlinkedin.com/in/umersaleemzaman/ \nJohar Town, Lahore, PakistanUMER SALEEM\nBUSINESS DEVELOPMENT OFFICER\nExperienced Business\nDevelopment & Client\nExecutive with a\ndemonstrated history of\nworking as a sales liaison\nbetween the customer and the\nCompany. I have acuminated\nskills in Client Management,\nRequirement Gathering, and\nConvincing potential\nCustomers, a think-thank who\ndrives execution, highly\nknowledgeable in a wide\nvariety of professional\ndisciplines that maximize\nbrand growth including\nfinance, marketing, and all\nfacets of business operations\nfrom product development to\ncustomer engagement.EXECUTIVE SUMMARY\nLead Generation\nSalesFroce\nSalsLoft\nMicrosoft Office\nZendesk\nTawlk.to\nSales Pipeline\nSales Development\nProduct DemonstrationsSKILLS\nENGLISH\nURDU \nHINDI\n "
+    },
+    "details": {
+        "name": "Umer Saleem",
+        "number": "923475130731",
+        "skills": [
+            "Lead Generation",
+            "SalesFroce",
+            "SalsLoft",
+            "Microsoft Office",
+            "Zendesk",
+            "Tawlk.to",
+            "Sales Pipeline",
+            "Sales Development",
+            "Product Demonstrations"
+        ],
+        "email_id": "umersaleemzaman1308@gmail.com",
+        "location": "Johar Town, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "University Of Central Punjab",
+                "degree_title": "Masters of Business Administration"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "Hazara University",
+                "degree_title": "Bachelors of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umersaleemzaman/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Umer Saleem is an experienced Business Development Officer with a strong background in client management and sales. He has demonstrated expertise in lead generation, product demonstrations, and maintaining healthy sales prospects, effectively acting as a liaison between customers and the company.",
+        "employment_history": [
+            {
+                "details": "Acting as a liaison between the development team and the business team, staying connected with the Client. Monthly demonstration of MVPs to the Clients. Cold Calling - Cold Emailing: Reaching new clients and taking follow-ups for future prospects.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Account Executive",
+                "start_date": "11-2021",
+                "company_name": "Keep Truckin"
+            },
+            {
+                "details": "Fostering written skills and responding to customer queries promptly. Documenting issues and resolutions.",
+                "end_date": "01-2021",
+                "location": "",
+                "job_title": "Senior Customer Support Specialist",
+                "start_date": "07-2020",
+                "company_name": "Hired Support"
+            },
+            {
+                "details": "Responsible for business development and client management, focusing on generating new leads and maintaining relationships with prospects.",
+                "end_date": "11-2021",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "02-2021",
+                "company_name": "Viral Square"
+            }
+        ]
+    }
+}

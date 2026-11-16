@@ -1,0 +1,144 @@
+{
+    "output": {
+        "justification": [
+            "Candidate's resume lacks direct project management experience, scoring low in macro criteria.",
+            "There are no indicators of proficiency in PowerBI or similar analytical tools, downgrading micro scores.",
+            "The resume does not align with the critical experience of managing enterprise data warehouse projects as specified in minimum requirements.",
+            "Educational background and skills do not match the company's preferred qualifications, reducing aptitude match."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "project management experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "solution architecture",
+                    "score": 2
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.4499999999999997,
+                "micro_scores": 1.1
+            }
+        },
+        "personal_info": {
+            "name": "Arslan Iqbal",
+            "email": "arslan.181@hotmail.com",
+            "phone": "+923336662181",
+            "current_position": "Business Development Executive",
+            "current_company": "Raheem Solutions PVT. LTD.",
+            "employment_start_date_current_company": "09-2022",
+            "first_company_start_date": "08-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/ar-slan-iqbal1/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "project management experience": 85,
+            "client relationship management": 15
+        },
+        "micro_dict": {
+            "solution architecture": 10,
+            "powerbi": 90
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Strong understanding of Agile and SCRUM methodologies",
+            "Experience in managing enterprise data warehouse projects",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV"
+        ],
+        "resume": "Arslan Iqbal\nBUSINESS DEVELOPMENT EXECUTIVE \nPersonal Profile\nLahore, \nPakistan\n+923336662181\narslan.181@hotmail.com\nLinks\nhttps://www.linkedin.com/in/ar-\nslan-iqbal1/\nSkills\nSales & Organizational Development \nCustomer Service\nMarket Research & Analysis \nEmail Marketing and Client Acquisition\nCritical thinking and problem solving\nAwards & Certification\n\u2022Best Lead Generation Award  \n Marketing Gala 2022, UCP \nBusiness School.\n\u2022The Fundamentals of Digital \nMarketing  - Google Digital \nGarage.\n\u2022ICIBM Conference on Con-\ntemporary Issues in Busi-\nness Management - Organizing \nCommittee Member.Professional Summary\nExperienced Business Development Executive known for driving sales, enhancing \norganizations, and expanding markets. A strategic communicator skilled in building \nclient relationships and implementing innovative growth strategies. Committed team \nplayer with strong analytical abilities, consistently exceeding targets.\nEmployment History\nBusiness Development Executive, Raheem Solutions PVT. LTD., \nLahore, Pakistan\n0 9 / 2 0 2 2  -  P re s e n t\n\u2022Developed and maintained client relationships, ensuring exceptional customer \nsatisfaction and loyalty.\n\u2022Collaborated with the sales and marketing teams to align strategies and en-\nhance revenue-generating opportunities.\n\u2022I assisted my sales team in reaching their goals by utilizing various tools such \nas Apollo, Lusha, Contact Out, and LinkedIn Sales Navigator.\n\u2022Through Upwork and Freelancer I have successfully generate and qualify leads, \ncontributing to a consistent pipeline of potential customers.\nSales Development Representative - State Manager, \nSeeBiz PVT. LTD., Lahore, Pakistan.\n0 8 / 2 0 2 2  -  0 9 / 2 0 2 2\n\u2022Deal with US clients through calls, messages and emails. It increases my \ncommunication and people management skills\n\u2022Managed a territory, overseeing lead generation and conversion activities, and \nsuccessfully closed deals.\n\u2022Participated in product training sessions and utilized product knowledge to \neffectively communicate value propositions to potential clients.\nEducation\nMaster of Business Administration (MBA) in Marketing, \nUniversity of Central Punjab, Lahore, Pakistan\n0 3 / 2 0 1 9  -  0 7 / 2 0 2 2\n\u2022Completed MBA program with a focus on marketing strategies, consumer \nbehavior, and market research.\n\u2022Specialized in brand management and sales, leveraging expertise to drive \nbusiness growth.\n\u2022Graduated with proficiency in applying modern marketing concepts to \nreal-world scenarios.\nBachelor's in Commerce , University of the Punjab , Lahore, Pakistan.\n0 8 / 2 0 1 6  -  1 2 / 2 0 1 8\n\u2022Acquired strong foundation in business essentials: finance, accounting, eco-\nnomics, and management.\n\u2022Engaged in collaborative projects, honing teamwork and communication skills.\n\u2022Developed a comprehensive understanding of business operations.\nReferences\nAvailable upon request. from "
+    },
+    "details": {
+        "name": "Arslan Iqbal",
+        "number": "923336662181",
+        "skills": [
+            "Sales & Organizational Development",
+            "Market Research & Analysis",
+            "Email Marketing and Client Acquisition"
+        ],
+        "email_id": "arslan.181@hotmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "07-2022",
+                "university": "University of Central Punjab",
+                "degree_title": "Master of Business Administration (MBA) in Marketing"
+            },
+            {
+                "end_date": "12-2018",
+                "university": "University of the Punjab",
+                "degree_title": "Bachelor's in Commerce"
+            }
+        ],
+        "achievements": [
+            "Best Lead Generation Award, Marketing Gala 2022, UCP Business School."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "The Fundamentals of Digital Marketing",
+                "issuing_organization": "Google Digital Garage",
+                "date_of_issuance": "01-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ar-slan-iqbal1/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Arslan Iqbal is an experienced Business Development Executive known for driving sales and enhancing organizational growth. He possesses strong technical skills in sales and market research, demonstrating a commitment to client satisfaction and innovative strategies.",
+        "employment_history": [
+            {
+                "details": "Developed and maintained client relationships, ensuring exceptional customer satisfaction and loyalty. Collaborated with the sales and marketing teams to align strategies and enhance revenue-generating opportunities. Assisted the sales team in reaching their goals by utilizing various tools such as Apollo, Lusha, Contact Out, and LinkedIn Sales Navigator. Successfully generated and qualified leads through Upwork and Freelancer, contributing to a consistent pipeline of potential customers.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2022",
+                "company_name": "Raheem Solutions PVT. LTD."
+            },
+            {
+                "details": "Dealt with US clients through calls, messages, and emails, enhancing communication and people management skills. Managed a territory, overseeing lead generation and conversion activities, and successfully closed deals. Participated in product training sessions and utilized product knowledge to effectively communicate value propositions to potential clients.",
+                "end_date": "09-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Development Representative - State Manager",
+                "start_date": "08-2022",
+                "company_name": "SeeBiz PVT. LTD."
+            }
+        ]
+    }
+}

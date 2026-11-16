@@ -1,0 +1,109 @@
+{
+    "output": {
+        "justification": [
+            "No resume provided for analysis.",
+            "Job Description details are clear but insufficient resume data results in no evaluation."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 0
+                },
+                {
+                    "criteria": "experience",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 0.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "",
+            "email": "",
+            "phone": "",
+            "current_position": "",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 35,
+            "experience": 65
+        },
+        "micro_dict": {
+            "project management": 100
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "5+ years of relevant experience in business development",
+            "Proven track record in lead generation and client engagement",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in CRM tools and Microsoft Office Suite"
+        ],
+        "resume": ""
+    },
+    "details": {
+        "name": "John Doe",
+        "number": "03124843384",
+        "skills": [
+            "Python",
+            "Excel"
+        ],
+        "email_id": "john.doe@example.com",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "John Doe is a seasoned software engineer with extensive experience in Python and Excel, demonstrating strong technical skills and a commitment to excellence.",
+        "employment_history": [
+            {
+                "details": "Software Engineer at XYZ Corp, responsible for developing and maintaining software applications.",
+                "end_date": "11-2024",
+                "location": "",
+                "job_title": "Software Engineer",
+                "start_date": "01-2020",
+                "company_name": "XYZ Corp"
+            }
+        ]
+    }
+}

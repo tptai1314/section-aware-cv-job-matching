@@ -1,0 +1,173 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks explicit leadership examples in a data management or technical context, which is essential for the role.",
+            "No relevant experience in managing enterprise data warehouse projects as specified in the job requirements.",
+            "The candidate has a background in sales and marketing which does not align with the technical and project management focus of the job.",
+            "No direct mention of pre-sales consulting, solution architecture, PowerBI, or agile methodologies."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 2
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 2
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 1
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 1
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 1
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 3
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                },
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.6,
+                "micro_scores": 1.16
+            }
+        },
+        "personal_info": {
+            "name": "H A S H A A M J A M A L",
+            "email": "hashaam.butt24@gmail.com",
+            "phone": "+92 302 5464456",
+            "current_position": "Area Sales Manager",
+            "current_company": "Healthwire PVT LTD",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "04-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 7,
+            "project management experience": 43,
+            "technical expertise": 26,
+            "client relationship management": 24
+        },
+        "micro_dict": {
+            "data management": 12,
+            "pre-sales consulting": 28,
+            "solution architecture": 18,
+            "agile methodologies": 12,
+            "quality management systems": 2,
+            "powerbi": 28
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Experience in managing enterprise data warehouse projects",
+            "Master's degree in Computer Science, Business Administration, or related field"
+        ],
+        "resume": "H A S H A A M  J A M A L\nArea Sales Manager\nHealthwire PVT LTD, Lahore, Pakistan\nSep 2021 - Present\nArea Sales Manager\nHealthwire PVT LTD, Karachi, Pakistan\nJan 2021 - Aug 2021\nArea Sales Executive\nHealthwire PVT LTD, Gujranwala, Pakistan\nJan 2020 - Jan 2021\nTerritory Sales Manager\nOliver Skin Science, , Gujranwala, Pakistan\nMay 2019 - Dec 2020\nMerchandiser Officer\nZong Regional Office - Telecom, Gujranwala, Pakistan\nApr 2017 - Apr 2018EXPERIENCEI am a professional salesperson who always strive to be the\nbest that i can be. I have a long and good track record and very\nsuccessful in my field. A goal orientated person with strong\nfocus on team work, development of people and results. My\nmain objectives are; develop my knowledge of the market and\nmy skills, continue learning as a person and as a manager and\nto become more than satisfied in what i do.PROFESSIONAL SUMMARY\n86-C, HIGH COURT SOCIETY\nPHASE 2, COLLEGE ROAD,\nLAHORE.\n+92 302 5464456\nhashaam.butt24@gmail.comMasters in Business Administration (Sales And Marketing)\nSuperior University Lahore\n2015 - 2019EDUCATION\n Top Performance Sales Team Lead 2021, 1.\n       (Healthwire PVT LTD)\n   2. Best Sales Person 2020\n       (Healthwire PVT LTD)ACCOMPLISHMENTS"
+    },
+    "details": {
+        "name": "Hashaam Jamal",
+        "number": "923025464456",
+        "skills": [
+            "Sales Management",
+            "Market Development",
+            "Team Leadership"
+        ],
+        "email_id": "hashaam.butt24@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Superior University Lahore",
+                "degree_title": "Masters in Business Administration (Sales And Marketing)"
+            }
+        ],
+        "achievements": [
+            "Top Performance Sales Team Lead 2021 (Healthwire PVT LTD)",
+            "Best Sales Person 2020 (Healthwire PVT LTD)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Hashaam Jamal is a dedicated Area Sales Manager with a strong background in sales management and market development. He has a proven track record of success in leading sales teams and achieving outstanding results in competitive environments.",
+        "employment_history": [
+            {
+                "details": "Managed sales operations and developed strategies to increase market share.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "09-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Oversaw sales activities and contributed to team performance.",
+                "end_date": "08-2021",
+                "location": "Karachi, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "01-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Executed sales strategies and maintained customer relationships.",
+                "end_date": "01-2021",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Area Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Led territory sales initiatives and managed client accounts.",
+                "end_date": "12-2020",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Territory Sales Manager",
+                "start_date": "05-2019",
+                "company_name": "Oliver Skin Science"
+            },
+            {
+                "details": "Coordinated merchandising efforts and supported sales teams.",
+                "end_date": "04-2018",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Merchandiser Officer",
+                "start_date": "04-2017",
+                "company_name": "Zong Regional Office - Telecom"
+            }
+        ]
+    }
+}

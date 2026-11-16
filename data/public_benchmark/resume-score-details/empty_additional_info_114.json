@@ -1,0 +1,137 @@
+{
+    "output": {
+        "justification": [
+            "The resume indicates substantial experience in business development, but it's primarily focused within the software industry and doesn't explicitly mention international markets.",
+            "Leadership experience is demonstrated by the candidate's role as a Business Development Team Lead, which involves managing a team.",
+            "The resume lacks specific details on strategic planning, particularly related to market entry and product launches in international territories.",
+            "The candidate's skills, like Business Strategy and Sales Pipeline Management, can be indirectly related to Competitive Analysis, but Market Entry Strategy skills aren't explicitly stated."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "international business experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market entry strategy",
+                    "score": 3
+                },
+                {
+                    "criteria": "competitive analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in strategic planning and client management",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business, Marketing, or relevant field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.2,
+                "micro_scores": 3.54
+            }
+        },
+        "personal_info": {
+            "name": "Ahmad Ali",
+            "email": "mhrali01@gmail.com",
+            "phone": "/AHMAD ALI\nBusiness Development Team Lead\nmhrali01@gmail.comhttps://www.linkedin.com/in/maharal",
+            "current_position": "Business Development Team Lead",
+            "current_company": "DHives",
+            "employment_start_date_current_company": "04/2023",
+            "first_company_start_date": "09/2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/maharali1/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Job Title: International Business Development Manager\n\n#### Company: InnovateTech Solutions\n\n**Location:** Lahore, Pakistan  \n\n**About InnovateTech Solutions:**  \nInnovateTech Solutions is a leading global provider of innovative technology solutions, specializing in expanding business operations across diverse international markets. We are seeking a highly motivated and experienced International Business Development Manager to join our team and lead strategic market entry initiatives.\n\n#### Responsibilities:\n\n- Develop and implement comprehensive strategies for foreign market entry, expansion, and product launches in new territories.\n- Lead international trade missions to research, analyze, and secure new business opportunities in the EU and US markets.\n- Build and maintain strong relationships with clients and key stakeholders by employing effective negotiation and communication skills.\n- Collaborate with cross-functional teams to design market entry strategies and oversee implementation of marketing and sales plans.\n- Manage a team of business development officers, providing guidance and support to achieve departmental objectives.\n- Coordinate and attend international exhibitions and trade shows to promote company products and secure new contracts.\n- Analyze market trends and competitive landscapes to identify business opportunities and recommend strategic changes.\n- Ensure compliance with international market regulations and standards in collaboration with regulatory consultants.\n\n#### Qualifications:\n\n- Bachelor's degree in Business, Marketing, or a relevant field; a Master's degree is a plus.\n- Minimum of 5 years of experience in international business development or related roles.\n- Proven track record of strategic planning and securing high-value contracts with international clients.\n- Strong analytical and problem-solving skills with a keen attention to detail.\n- Excellent communication and interpersonal skills, with proficiency in multiple languages being an advantage.\n\n#### Why Join Us?\n\n- Fast-paced and dynamic work environment with opportunities for career growth.\n- Chance to lead strategic initiatives and make a significant impact on international expansion efforts.\n- Competitive salary package and benefits.\n\nIf you are passionate about driving international business growth and have the skills to succeed, we would like to meet you!\n\n**To Apply:** Please submit your resume and cover letter detailing your relevant experience and achievements.",
+        "macro_dict": {
+            "international business experience": 60,
+            "strategic planning": 40
+        },
+        "micro_dict": {
+            "market entry strategy": 73,
+            "competitive analysis": 27
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Proficiency in strategic planning and client management",
+            "Bachelor's degree in Business, Marketing, or relevant field"
+        ],
+        "resume": "04/2023 - Present\n04/2022 - 03/2023\n09/2021 - 03/2022\n10/2022 - 08/2021\n2017 - 2021SUMMARY\nI have hands-on experience in Business Development for the Software industry. Excellent at\u00a0cross-functional teamwork  \nskills when collaborating with internal and external teams to generate\u00a0business, assist expansion and generate\u00a0income  \nthrough freelancing\u00a0platforms. Skilled in identifying potential clients and collaborating with the software engineering  \nteams in order to land jobs successfully and play a part in growing the business.\nEXPERIENCE\nBusiness Development Team Lead\nDHives\nBusiness Development Executive\nBusiness Development Executive\nBusiness Development Executive\nGrowth Hacking Solutions\nAccount Executive\nLak Citrus\nEDUCATION\nBSCS\nCOMSATS University Islamabad\nSKILLS\nBusiness Development Business Strategy Sales Pipeline Management Trello\nAppointment Scheduling Team Management MS O\ufb03ce G-Suite\ue069 q eAHMAD ALI\nBusiness Development Team Lead\nmhrali01@gmail.comhttps://www.linkedin.com/in/maharal\ni1/Lahore, Punjab, Pakistan"
+    },
+    "details": {
+        "name": "AHMAD ALI",
+        "number": "03124843384",
+        "skills": [
+            "Business Development",
+            "Business Strategy",
+            "Sales Pipeline Management",
+            "Trello",
+            "MS Office",
+            "G-Suite"
+        ],
+        "email_id": "mhrali01@gmail.com",
+        "location": "Lahore, Punjab, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "COMSATS University Islamabad",
+                "degree_title": "BSCS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maharali1",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmad Ali is a skilled Business Development Team Lead with extensive experience in the software industry, adept at collaborating with cross-functional teams to drive business growth and client acquisition.",
+        "employment_history": [
+            {
+                "details": "Led business development initiatives and collaborated with software engineering teams to secure projects.",
+                "end_date": "03-2023",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Team Lead",
+                "start_date": "04-2022",
+                "company_name": "DHives"
+            },
+            {
+                "details": "Focused on generating leads and managing client relationships to enhance business opportunities.",
+                "end_date": "03-2022",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2021",
+                "company_name": "Growth Hacking Solutions"
+            },
+            {
+                "details": "Engaged in business development activities to expand the client base and increase revenue.",
+                "end_date": "08-2021",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2022",
+                "company_name": "Lak Citrus"
+            }
+        ]
+    }
+}

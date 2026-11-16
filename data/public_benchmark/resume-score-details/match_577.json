@@ -1,0 +1,147 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks detailed relevant experience in the specified technical areas of the job description.",
+            "The candidate's education doesn't match the preferred universities but holds a relevant degree.",
+            "The job description emphasizes programming and digital marketing, which are not highlighted in the resume.",
+            "The resume does not indicate any programming language proficiency, a key requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm and data management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.610000000000001,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Ahmad Ali",
+            "email": "mhrali01@gmail.com",
+            "phone": "",
+            "current_position": "Business Development Team Lead",
+            "current_company": "DHives",
+            "employment_start_date_current_company": "04/2023",
+            "first_company_start_date": "09/2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/maharali1/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 74,
+            "experience": 13,
+            "innovation and adaptability": 13
+        },
+        "micro_dict": {
+            "crm and data management": 100
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Proficiency in at least one programming language",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "Strong communication and interpersonal skills"
+        ],
+        "resume": "04/2023 - Present\n04/2022 - 03/2023\n09/2021 - 03/2022\n10/2022 - 08/2021\n2017 - 2021SUMMARY\nI have hands-on experience in Business Development for the Software industry. Excellent at\u00a0cross-functional teamwork  \nskills when collaborating with internal and external teams to generate\u00a0business, assist expansion and generate\u00a0income  \nthrough freelancing\u00a0platforms. Skilled in identifying potential clients and collaborating with the software engineering  \nteams in order to land jobs successfully and play a part in growing the business.\nEXPERIENCE\nBusiness Development Team Lead\nDHives\nBusiness Development Executive\nBusiness Development Executive\nBusiness Development Executive\nGrowth Hacking Solutions\nAccount Executive\nLak Citrus\nEDUCATION\nBSCS\nCOMSATS University Islamabad\nSKILLS\nBusiness Development Business Strategy Sales Pipeline Management Trello\nAppointment Scheduling Team Management MS O\ufb03ce G-Suite\ue069 q eAHMAD ALI\nBusiness Development Team Lead\nmhrali01@gmail.comhttps://www.linkedin.com/in/maharal\ni1/Lahore, Punjab, Pakistan"
+    },
+    "details": {
+        "name": "AHMAD ALI",
+        "number": "03124843384",
+        "skills": [
+            "Business Development",
+            "Business Strategy",
+            "Sales Pipeline Management",
+            "Trello",
+            "MS Office",
+            "G-Suite"
+        ],
+        "email_id": "mhrali01@gmail.com",
+        "location": "Lahore, Punjab, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "COMSATS University Islamabad",
+                "degree_title": "BSCS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maharali1",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmad Ali is a skilled Business Development Team Lead with extensive experience in the software industry, adept at collaborating with cross-functional teams to drive business growth and client acquisition.",
+        "employment_history": [
+            {
+                "details": "Led business development initiatives and managed a team to achieve sales targets.",
+                "end_date": "03-2023",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Team Lead",
+                "start_date": "04-2022",
+                "company_name": "DHives"
+            },
+            {
+                "details": "Executed business development strategies to expand client base and increase revenue.",
+                "end_date": "03-2022",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2021",
+                "company_name": "Growth Hacking Solutions"
+            },
+            {
+                "details": "Identified potential clients and collaborated with engineering teams to secure projects.",
+                "end_date": "08-2021",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2022",
+                "company_name": "Lak Citrus"
+            }
+        ]
+    }
+}

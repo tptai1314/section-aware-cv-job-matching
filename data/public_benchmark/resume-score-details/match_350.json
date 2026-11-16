@@ -1,0 +1,190 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a leadership background as a Business Development Manager but lacks specific sales team leadership achievements, thus scoring moderately on leadership.",
+            "Relevant experience is notable in digital marketing and sales, aligning with the job responsibilities, hence a high score for relevant experience.",
+            "Proficient in Salesforce but no explicit experience with HubSpot, leading to a higher Salesforce score and lower HubSpot score.",
+            "Experience in email marketing and CRM software fits well with the micro criterion, reflected in high scores for these areas."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "sales experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 8
+                },
+                {
+                    "criteria": "hubspot",
+                    "score": 5
+                },
+                {
+                    "criteria": "email marketing",
+                    "score": 9
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "seo",
+                    "score": 6
+                },
+                {
+                    "criteria": "data visualization",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.709999999999999,
+                "micro_scores": 6.24
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Zunair",
+            "email": "mzunair60@gmail.com",
+            "phone": "+92 3354059293",
+            "current_position": "Business Development Manager",
+            "current_company": "Shayan Solutions",
+            "employment_start_date_current_company": "10-2020",
+            "first_company_start_date": "01-2020",
+            "urls": [
+                {
+                    "website_name": "Blog",
+                    "url": "https://zunair.medium.com"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "leadership": 59,
+            "sales experience": 30,
+            "analytical skills": 11
+        },
+        "micro_dict": {
+            "salesforce": 5,
+            "hubspot": 16,
+            "email marketing": 8,
+            "market research": 28,
+            "seo": 21,
+            "data visualization": 22
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)"
+        ],
+        "resume": "EDUCATION\nBACHELOR IN SOFTWARE ENGINEERING\nUniversity of Management & Technology | 2016 - 2020ABOUT\nI\u2019m a Software Engineer with experience in Business Development, have proficiency in\nGenerating leads, Business expansion, Sales, Profitability, and Strategy building. \nI\u2019m adept with multiple business development methodologies, gathering and analyzing data on\nSales and Marketing, my expertise extends to Cold calling, Email marketing, Budget\nmanagement, Client communication, Documentation, and Stakeholder management.\nWORK EXPERIENCE\nDIGITAL MARKETING EXECUTIVE\nOZI Technology | Jan 2020 - Oct 2020\nIdentify trends and insights with managing organization's website, social media\nplatforms and maintain it, keeping best practices in mind. \nOptimize content for the website and social media platforms. \nWork with various content formats such as blogs, videos, graphic designing, etc.\nProvide internal reports and creative collaborations among technologies and platforms.BUSINESS DEVELOPMENT MANAGER\nShayan Solutions | Oct 2020 - Present \nSuccessfully managed million budget projects and achieved the project scheduled goals. \nImplementation and management of the CRM that focused on leveraging the company's\ndata asset.\nHands-on generating & managing leads using Salesforce, LinkedIn Sales Navigator,\nAeroleads, etc. \nAchieved sales goals by presenting company services to current and potential clients in\nUSA, Australia, and Europe regions.\nDeveloped and implemented new marketing and sales plans such as remote services,\nMarketing campaigns, etc. \nWriting & Designing emails and ensure proper email delivery to leads.\nWork closely with Developers and QA Engineers to insure the quality and standards of\nthe project. \nImmense expertise in Sales, Partnerships, and Business development at top B2B\nTechnology companies.\nReviewed constantly the client feedback and then suggested ways to improve the\nprocess and customer services levels.\nEnsured that new clients will grow into a loyal customer base in a specialist niche\nmarket.\nManage the projects so the client gets the best and quality results within time. CONTACT\nPhone: +92 3354059293\nEmail: mzunair60@gmail.com\nBlog: zunair.medium.com\nAddress: Valencia Society,\nLahore.\nJava, C#, C++ Programming\nWeb & Mobile Development\nCross Functional Development\nWeb Content Development\nSDLC\nDocumentationPROFESSIONAL\nSKILLS\nSales Navigator\nAeroLeads\nSalesforce\nKrayin CRM\nUpwork\nTrello\nJira\nAsana\nNetBeans\nVisual Studio\nUnity\nAndroid StudioPLATFORMS &\nTOOLSM U H A M M A D M U H A M M A D\nZ U N A I R Z U N A I RPROJECTS UNDERTAKEN\neTradn is an application available on App Store and Google Play. It is online market place\napp.\nThe app belongs to a US based client and got this project from Upwork.\nUsed technologies are Flutter, Figma, PHP, Laravel, Trello, and GitHub.\nTabadol is an online market place application with multiple language support for buying and\nselling services and goods.\nWorked with team including a Team Lead, 4 Developers, and 2 QA Engineers.\nMonitoring existing systems. Ensuring the system provides an effective funnel. Developed\nand implemented marketing techniques.\nUsed technologies are React Native, Redux, Node.js, React.js, React-i18next, Moment.js,\nAxios.\nIt is an application just like Club House developed for iOS devices. The app includes simple\nyet appealing UI with minimalist functionalities.\nUsed technologies are Swift, iOS SDK.\nIt is Lottery online Casino game.\nUser-friendly service in compatibility with web browsers, tablets and mobile phones.\nLaravel, JavaScript, JQuery, JQuery UI, Moment.js, React.js, Git, etc.\nCross Functional application for iOS and Android. An online Watch shopping app.\nUsed technologies are Flutter, Flutter SDK, Flutter Fix, Pubspec File, Hot reload, DevTools,\nHTML, Figma, and Git.eTradn\nTabadol\nSpeak Easy\nOCG\nNew TempusProposal & Email writing\nStrong Analytical & \nCommunication\nProblem Solver\nGood Business Analysis skills\nTime Management\nTeam Player\nFast LearnerPERSONAL\u00a0\nSKILLS\nPROJECTS & RESEARCH WORK\nUI/ UX\nAnimation\nScripting\nAndroid Studio\nAndroid SDK\nSQL\nResearch on new trends using in Text Recognition\nTechniques and Tools used\nCommunication with Resource Person and Team members First Person Shooting 3D Game\nOnline Attendance App\nResearch Paper on Text Recognition"
+    },
+    "details": {
+        "name": "Muhammad Zunair",
+        "number": "923354059293",
+        "skills": [
+            "Java",
+            "C#",
+            "C++",
+            "Web & Mobile Development",
+            "Cross Functional Development",
+            "Web Content Development",
+            "SDLC",
+            "Documentation",
+            "Sales Navigator",
+            "AeroLeads",
+            "Salesforce",
+            "Krayin CRM",
+            "Upwork",
+            "Trello",
+            "Jira",
+            "Asana",
+            "NetBeans",
+            "Visual Studio",
+            "Unity",
+            "Android Studio",
+            "SQL"
+        ],
+        "email_id": "mzunair60@gmail.com",
+        "location": "Valencia Society, Lahore",
+        "projects": [
+            {
+                "title": "eTradn",
+                "description": "An online marketplace app available on App Store and Google Play."
+            },
+            {
+                "title": "Tabadol",
+                "description": "An online marketplace application with multiple language support for buying and selling services and goods."
+            },
+            {
+                "title": "Speak Easy",
+                "description": "An application developed for iOS devices with simple yet appealing UI."
+            },
+            {
+                "title": "OCG",
+                "description": "A Lottery online Casino game."
+            },
+            {
+                "title": "New Tempus",
+                "description": "A cross-functional application for iOS and Android, an online watch shopping app."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "University of Management & Technology",
+                "degree_title": "Bachelor in Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "zunair.medium.com",
+                "website_name": "Blog"
+            }
+        ],
+        "executive_summary": "Muhammad Zunair is a skilled software engineer with a strong background in web and mobile development, proficient in various programming languages and tools. He has demonstrated expertise in business development and project management, successfully leading teams and managing significant budgets to achieve project goals.",
+        "employment_history": [
+            {
+                "details": "Identify trends and insights with managing organization's website, social media platforms and maintain it, keeping best practices in mind. Optimize content for the website and social media platforms. Work with various content formats such as blogs, videos, graphic designing, etc. Provide internal reports and creative collaborations among technologies and platforms.",
+                "end_date": "10-2020",
+                "location": "OZI Technology",
+                "job_title": "Digital Marketing Executive",
+                "start_date": "01-2020",
+                "company_name": "OZI Technology"
+            },
+            {
+                "details": "Successfully managed million budget projects and achieved the project scheduled goals. Implementation and management of the CRM that focused on leveraging the company's data asset. Hands-on generating & managing leads using Salesforce, LinkedIn Sales Navigator, Aeroleads, etc. Achieved sales goals by presenting company services to current and potential clients in USA, Australia, and Europe regions. Developed and implemented new marketing and sales plans such as remote services, Marketing campaigns, etc. Writing & Designing emails and ensure proper email delivery to leads. Work closely with Developers and QA Engineers to ensure the quality and standards of the project. Immense expertise in Sales, Partnerships, and Business development at top B2B Technology companies. Reviewed constantly the client feedback and then suggested ways to improve the process and customer services levels. Ensured that new clients will grow into a loyal customer base in a specialist niche market. Manage the projects so the client gets the best and quality results within time.",
+                "end_date": "Present",
+                "location": "Shayan Solutions",
+                "job_title": "Business Development Manager",
+                "start_date": "10-2020",
+                "company_name": "Shayan Solutions"
+            }
+        ]
+    }
+}

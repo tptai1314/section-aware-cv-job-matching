@@ -1,0 +1,188 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has no direct digital marketing experience, which is crucial for the position.",
+            "The candidate exhibits skills in project management and coordination, relevant but not central to the role.",
+            "Experience in IT and HR roles does not align with digital marketing requirements.",
+            "There is no mention of skills with SEO/SEM or specific digital marketing tools."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo/sem",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.6500000000000004,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Iram Khan",
+            "email": "iramkhan06@gmail.com",
+            "phone": "03244227240",
+            "current_position": "Assistant Manager Applications and Quality Assurance",
+            "current_company": "Finca Microfinance Bank",
+            "employment_start_date_current_company": "05-2017",
+            "first_company_start_date": "07-2010",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 5,
+            "digital marketing experience": 45,
+            "client relationship": 50
+        },
+        "micro_dict": {
+            "seo/sem": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Iram Khan\nAssistant Manager Application & Quality\nAssurance at Finca Microfinance Bank\nI am a passionate IT Professional having about 4+ years of SQA experience in the Banking\nindustry and about 3+ years experience in Technical HR in different IT-based organizations.\n Strengths & Skills\ue185\n\u2714User Acceptance Testing \u2714System Testing \u2714Test Documentation\n\u2714Change Management \u2714Project Management \u2714Task Management\n\u2714Asana \u2714Human Resources \u2714Resource allocation &\nPlanning\n\u2714Recruitment & Selection \u2714Employee Relations \u2714Team skills/ team\noriented/team player.\n Experience   8 years \ue067\nFinca Microfinance Bank 2.7 years\nAssistant Manager Applications and Quality AssuranceMay 2017 - Jan 2020\nSolar Institute Pvt. Ltd 6 months\nTechnical HR & Program ManagerSep 2014 - Mar 2015\nSiliconicPro 1.1 years\nTechnical HR Manager & Business Development ExecutiveJul 2013 - Aug 2014\nBusiness Computing International 2 months\nOffice AdministratorMay 2013 - Jul 2013\nFaysal Bank Limited 2.7 years\nIT Service Quality Assurance OfficerJul 2010 - Mar 2013\n Projects\ue056\nCore Banking Migration from Hplus to AutoBanker  (Finca Microfinance Bank)\nWestern Union Web application deployment for FaysalBank Pan Pakistan\nbranches  (Faysal Bank Limited)\nFBL & RBS Integration  (Faysal Bank Limited)\nDeployment of Alexxo (TMS) software for all FBL Pan Pakistan branches  (Faysal\nBank Limited)\n Work History\ue032\nFinca Microfinance Bank May 2017 - Jan 2020   (2.7 years)\nAssistant Manager Applications and Quality Assurance Lahore, Pakistan\nImplementation of New Core Banking System (AutoBanker III) in FMBL.\nUAT of AutoBanker-III, UI testing for SIM SIM App.\nManaging change requests pertaining to the New Core Banking System.\nVendor coordination and successful resolution of post-rollout issues of projects.\nResponsible for FMBL\u2019s \u201cSIMSIM\u201d App-related support to branches & users.\nComplaint handling and vendor coordination pertaining to FMBL\u2019s IT Dept.\nTechnical Release Note reviewer and communicate GAPs in Applications. Contact Info\n 03244227240\ue145\niramkhan06@gmail.com\u2709\nShahdrah Lahore Pakistan\nLahore, Pakistan\ue021\n Academics\ue233\nMS/ Mphill  | 2016\nVirtual University of Pakistan , Lahore\nBSCS  | 2009\nUniversity of the Punjab , Lahore\nICS | 2004\nGovt. Islamia College Lahore , Lahore\nMatriculation  | 2002\nP.R Lady Griffin Girls High School , Lahore\n Certifications\ue124\nEnglish Speaking &  Listening\nVirtual University Pakistan\nStarting March 2016\nUnix / Ubuntu\nPunjab University Lahore\nStarting March 2005\n\uf091 Awards\nStar Performer of the Year - FMBL\n Industries\ue019\nInformation Technology\n Functional Areas*\nHuman Resources\nSoftware Quality Assurance\n Languages\ue038\nUrdu - Native\nEnglish - Medium\nPunjabi - Beginner\n Hobbies\ue007\nReading\nCooking\nSolar Institute Pvt. Ltd Sep 2014 - Mar 2015   (6 months)\nTechnical HR & Program Manager Lahore, Pakistan\nHiring/ Recruitment of Employees with Technical perspective \nDevelopment and implementation of organization-wide HR and program policies.\nDaily HR-related operations.  \nManaging courses & their schedule.\nPlanning new sessions and batches on weekly basis.\nCounseling new students and their admissions. \nSiliconicPro Jul 2013 - Aug 2014   (1.1 years)\nTechnical HR Manager & Business Development Executive Lahore, Pakistan\nHiring/ Recruitment of new staff.\nDaily HR related operations.  \nDevelopment and implementation of organization-wide HR policies.\nMaintaining and handling employee's attendance and leave record. \nResponsible for encouraging the growth and assisting in the evaluation process of the staff.\nDeveloping business proposals and placing bids for projects.\nCreate a communication between client and company.\nBusiness Computing International May 2013 - Jul 2013   (2 months)\nOffice Administrator Lahore, Pakistan\nSupervision of customer service team comprising of 20+ Customer Support Executives.\nCall logging and assigning daily complaints to engineers.\nInventory control and maintenance of complaint record.\nTraining of customer service representatives.\nProviding timely support to all customer according to SLA.\nPerformed market research surveys amongst client base to seek feedback on sales techniques, follow-up methods and quality of after\nsales service.\nImproving customer service based on client feedback through the development of new policies and procedures. \nFaysal Bank Limited Jul 2010 - Mar 2013   (2.7 years)\nIT Service Quality Assurance Officer Lahore, Pakistan\nParticipated in FBL-RBS Integration activities primarily.\nDone UAT of FBL-RBS system.\nComplete envision of Alexxo including requirement gathering, project planning, and UAT.\nDeployed Alexxo for 3 departments in the bank and worked as its secondary administrator.\nWorked as Project Coordinator from IT in deploying Western Union Web application in pan Pakistan branches of Faysal Bank and done\nUAT and coordinated GAP to stakeholders.\nCreated UAT reports and coordinated with the stakeholders. \n Projects\ue056\nCore Banking Migration from Hplus to AutoBanker Dec 2017 - Dec 2019 (2 years)\nCompany : Finca Microfinance Bank\nWestern Union Web application deployment for FaysalBank Pan Pakistan\nbranchesNov 2011 - Mar 2012 (4 months)\nCompany : Faysal Bank Limited\nFBL & RBS Integration Nov 2010 - Aug 2011 (9 months)\nCompany : Faysal Bank Limited\nDeployment of Alexxo (TMS) software for all FBL Pan Pakistan branches Sep 2010 - Jun 2011 (9 months)\nCompany : Faysal Bank Limited\n"
+    },
+    "details": {
+        "name": "Iram Khan",
+        "number": "03244227240",
+        "skills": [
+            "User Acceptance Testing",
+            "System Testing",
+            "Test Documentation",
+            "Change Management",
+            "Project Management",
+            "Asana"
+        ],
+        "email_id": "iramkhan06@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Core Banking Migration from Hplus to AutoBanker",
+                "description": "Implementation of New Core Banking System (AutoBanker III) in FMBL."
+            },
+            {
+                "title": "Western Union Web application deployment for FaysalBank Pan Pakistan branches",
+                "description": "Project Coordinator from IT in deploying Western Union Web application."
+            },
+            {
+                "title": "FBL & RBS Integration",
+                "description": "Participated in FBL-RBS Integration activities."
+            },
+            {
+                "title": "Deployment of Alexxo (TMS) software for all FBL Pan Pakistan branches",
+                "description": "Deployed Alexxo for 3 departments in the bank."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2016",
+                "university": "Virtual University of Pakistan",
+                "degree_title": "MS/ Mphill"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "University of the Punjab",
+                "degree_title": "BSCS"
+            },
+            {
+                "end_date": "06-2004",
+                "university": "Govt. Islamia College Lahore",
+                "degree_title": "ICS"
+            },
+            {
+                "end_date": "06-2002",
+                "university": "P.R Lady Griffin Girls High School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [
+            "Star Performer of the Year - FMBL"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "English Speaking & Listening",
+                "issuing_organization": "Virtual University Pakistan",
+                "date_of_issuance": "03-2016"
+            },
+            {
+                "certification_name": "Unix / Ubuntu",
+                "issuing_organization": "Punjab University Lahore",
+                "date_of_issuance": "03-2005"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/iramkhan",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Iram Khan is a dedicated IT professional with over 4 years of experience in Software Quality Assurance and 3 years in Technical HR across various IT organizations. She has a proven track record in managing core banking systems and implementing quality assurance processes in the banking sector.",
+        "employment_history": [
+            {
+                "details": "Implementation of New Core Banking System (AutoBanker III) in FMBL. UAT of AutoBanker-III, UI testing for SIM SIM App. Managing change requests pertaining to the New Core Banking System.",
+                "end_date": "01-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Manager Applications and Quality Assurance",
+                "start_date": "05-2017",
+                "company_name": "Finca Microfinance Bank"
+            },
+            {
+                "details": "Hiring/ Recruitment of Employees with Technical perspective. Development and implementation of organization-wide HR and program policies.",
+                "end_date": "03-2015",
+                "location": "Lahore, Pakistan",
+                "job_title": "Technical HR & Program Manager",
+                "start_date": "09-2014",
+                "company_name": "Solar Institute Pvt. Ltd"
+            },
+            {
+                "details": "Hiring/ Recruitment of new staff. Development and implementation of organization-wide HR policies.",
+                "end_date": "08-2014",
+                "location": "Lahore, Pakistan",
+                "job_title": "Technical HR Manager & Business Development Executive",
+                "start_date": "07-2013",
+                "company_name": "SiliconicPro"
+            },
+            {
+                "details": "Supervision of customer service team comprising of 20+ Customer Support Executives. Training of customer service representatives.",
+                "end_date": "07-2013",
+                "location": "Lahore, Pakistan",
+                "job_title": "Office Administrator",
+                "start_date": "05-2013",
+                "company_name": "Business Computing International"
+            },
+            {
+                "details": "Participated in FBL-RBS Integration activities primarily. Created UAT reports and coordinated with the stakeholders.",
+                "end_date": "03-2013",
+                "location": "Lahore, Pakistan",
+                "job_title": "IT Service Quality Assurance Officer",
+                "start_date": "07-2010",
+                "company_name": "Faysal Bank Limited"
+            }
+        ]
+    }
+}

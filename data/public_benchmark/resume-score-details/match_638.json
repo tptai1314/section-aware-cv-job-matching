@@ -1,0 +1,135 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not have a degree in Business Administration. The degree is in Computer Science, which is not directly relevant to the job description requiring a Business Administration background.",
+            "No mention of experience with CRM tools like Salesforce or HubSpot which is a stated requirement.",
+            "Work experience lacks direct business development position, only shows experience as a Team Lead in an unrelated field. The industry experiences do not align with business or sales management.",
+            "Education from non-prestigious universities as per MarketPros Enterprises' preferences for Ivy League or top businesses schools."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 1
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.38,
+                "micro_scores": 1.9500000000000002
+            }
+        },
+        "personal_info": {
+            "name": "Shahbaz Joiya",
+            "email": "Shahbazjoiya07@gmail.com",
+            "phone": "+923070504083",
+            "current_position": "Team Lead",
+            "current_company": "ADH Sahiwal",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 69,
+            "strategic planning": 31
+        },
+        "micro_dict": {
+            "market research": 43,
+            "proposal writing": 5,
+            "digital marketing": 52
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "5+ years of experience in business development or sales management"
+        ],
+        "resume": "Shahbaz Joiya \nBusiness Development Executive \nTo get a challenging position in growth and career oriented Organization, where challenges are a\nroutine work and where I show the best of my abilities and quali\ufb01cation for the progress of that\norganization and upgrade my career. \nShahbazjoiya07@gmail.com \n+923070504083 \nJohar Town R1 Phase 2,\nLahore, Pakistan \nSKILLS \nBusiness Developement \nProject Management \nCommunication \nHTML \nCSS \nJavaScript \nBootstrap \nQuick Learner \nProblem Solving \nLANGUAGES \nUrdu \nNative or Bilingual Pro\ufb01ciency \nEnglish \nProfessional Working Pro\ufb01ciency \nINTERESTS \nTravelling \nMovies Collection \nEDUCATION \nBachelor's of Science in Computer Science \nGovt. College University Faisalabad, Sahiwal Campus \n09/2017 - 07/2021\n, \n \nIntro to Management \nBusiness Developement \nSoftware Engineering \nObject Oriented Programming \nData Structure and Algorithm \nOperating System \nIntermediate in Computer Science \nPunjab College Haronabad \n04/2015 - 07/2017\n, \n \nWORK EXPERIENCE \nTeam Lead (Amazon Drop Shipping and Product Hunting) \nADH Sahiwal \n01/2022 - Present\n, \n \nPERSONAL PROJECTS \nHome Automation by using Sensors (FYP)\n (09/2020 - 06/2021)\n \nFeatures:- \nIt's a centralized control of lighting, heating, ventilation and air conditioning appliances, and\nother systems, to provide improved convenience, comfort, energy e\ufb03ciency and security. \nSensors:-\n It's includes \nTemperature Sensors & Smart Thermostats, \nLight Sensors, \nMotion Sensors, \nWindow\nand Door Sensors, and \nSmart Smoke and CO Sensors. \nE-Commerce Website \nTools:- \nVisual Studio Code, HTML, CSS, JavaScript, SQL management system and asp.net MVC. \nWeb based Ecommerce site developed in asp.net MVC. \nFeatures:-\n Check the list of Item with category, View the details of item, and List of latest Item \nACHIEVEMENTS \nThe Punjab Education Endowment Fund - PEEF\n (2017 - 2021)\n \nCourses "
+    },
+    "details": {
+        "name": "Shahbaz Joiya",
+        "number": "923070504083",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "email_id": "Shahbazjoiya07@gmail.com",
+        "location": "Johar Town R1 Phase 2, Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Home Automation by using Sensors (FYP)",
+                "description": "It's a centralized control of lighting, heating, ventilation and air conditioning appliances, and other systems, to provide improved convenience, comfort, energy efficiency and security."
+            },
+            {
+                "title": "E-Commerce Website",
+                "description": "Web based Ecommerce site developed in asp.net MVC."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2021",
+                "university": "Govt. College University Faisalabad, Sahiwal Campus",
+                "degree_title": "Bachelor's of Science in Computer Science"
+            },
+            {
+                "end_date": "07-2017",
+                "university": "Punjab College Haronabad",
+                "degree_title": "Intermediate in Computer Science"
+            }
+        ],
+        "achievements": [
+            "The Punjab Education Endowment Fund - PEEF (2017 - 2021)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Shahbaz Joiya is a dedicated Business Development Executive with a strong background in computer science and technical skills in web development technologies such as HTML, CSS, JavaScript, and Bootstrap. He has demonstrated his capabilities through various projects, including a home automation system and an e-commerce website.",
+        "employment_history": [
+            {
+                "details": "Team Lead (Amazon Drop Shipping and Product Hunting)",
+                "end_date": "Present",
+                "location": "ADH Sahiwal",
+                "job_title": "Team Lead",
+                "start_date": "01-2022",
+                "company_name": "ADH Sahiwal"
+            }
+        ]
+    }
+}

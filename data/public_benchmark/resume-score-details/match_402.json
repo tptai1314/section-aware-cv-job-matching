@@ -1,0 +1,152 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has over 5 years of experience in business development roles, meeting the requirement for relevant experience.",
+            "Demonstrated use of CRM software in past roles, fulfills proficiency requirement.",
+            "Holding a Bachelor's degree, meeting the educational qualification criteria.",
+            "Proficiency in Microsoft Office Suite explicitly noted in skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relations",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 8
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.67,
+                "micro_scores": 7.42
+            }
+        },
+        "personal_info": {
+            "name": "Muzamil Qamar",
+            "email": "muzamilqamar19@gmail.com",
+            "phone": "03091999966",
+            "current_position": "Business Development Lead",
+            "current_company": "TRANS DATA",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "01-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "client relations": 67,
+            "strategic planning": 33
+        },
+        "micro_dict": {
+            "crm systems": 42,
+            "project management": 58
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "5+ years of relevant experience in business development",
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": " \nMUZAMIL  QAMAR  \n03091999966  Lahore /Pakistan  \nEmail  \u00b7 muzamil qamar19@gmail.com  \u00b7  \n \nI Seek to work in a  competitive & challenging environment where I can learn and polish my abilities \nResult -oriented , organized, and motivated individual Who seek  an available management position in an \neffort to utilize years of experience to fulfill the company's strategic requirements.  \n \nPROFESSIONAL EXPERIENCE  \nTRANS DATA  \u2022 Lahore  \nBusiness  Development  Lead  \u2013 Present  \n \n\u2022 Increased  sales  by implementing  a new sales  process  and creating  new sales  materials  \n\u2022 Reviewed  and evaluated  prospect  data and lead generation  techniques,  resulting  in new sales  opportunities  \n\u2022 Implemented  a new sales  training  program  for new and existing  employees,  increasing  the average  sales  \nvolume  \n\u2022 Proactively  addressed  potential  sales  issues,  leading  to a reduction  in sales  force  turnover  \n \nCAR FIRST (Lahore)  \nManager C ustomer Services . (Sep 22 )  \n \n\u2022 Ensure High levels of customer service in the respective division/section to achieve a positive brand image \nand customer experience  \n\u2022 Present suggestions and Recommendations in the most decision made by senior management with the \nregard to sales/ promotiona l activities  \n\u2022 Achieve/exceed assigned organization targets to maintain the profitable business trend  \n\u2022 Involved in Brand movements/department performance/sales performance/ costing /quarterly performance \nanalysis and engaged to prompt the consumer databas e for a profitable future.  \n\u2022 Executing and maintaining the customer service standards  \n\u2022 Coordination with Quality control and setting the new process and policy to obtain the maximum growth in \nthe lead generation business  \n\u2022 Shift plan\u2019s/Rotations/Target alloca tions/ Team segregation  \n\u2022 Engaged in planning out a new strategy and new rotation which has an immense effect on the brand \nretention rate  \n\u2022 Designed the Employee development and grooming mechanisms to ensure proficiency and higher numbers \nof productivity  \n\u2022 Building customer relations and planning out new initiatives to build customer experience with the correlation \nof target market and business theme  \n\u2022 Designed the P -O-L-C-A Framework to provide useful guidance . \n\u2022 Setting and reviewing budgets and managing costs . \n \nABACUS CONSULTING (Lahore)  \nCAREEM - NOW OPERATIONS LEAD ( Oct 21) \n \n\u2022 Produced the highest customer satisfaction rating of the year with the cooperation of my team by providing \npersonalized follow -up and service.     \n\u2022 Worked under the direct supervision of the Customer Services Manager.  \n\u2022 Lead merchandise presentations about pr oduct features.  \n\u2022 Used strong product knowledge and problem -solving skills to assist customers with their concerns.  \n\u2022 Ensured the accuracy of data by keeping track of all customer calls via spreadsheets and company \nsoftware.  \n\u2022 Maintain relationships with suppliers and both internal and external clients.  \n 2 WASTE BUSTERS SOLID WASTE MANAGEMENT PVT  \nBUSINESS DEVELOPMENT EXECUTIVE ( Jan 19) \n \n\u2022 Follow Key Performance Indicators and achieve performance benchmarks set by the company and \nstakeholders  \n\u2022 Customer's issue understanding , Ownership  of fixtures,  and Personalization with customer  \n\u2022 Fulfilling the company\u2019s policies in order to ensure smooth operations.  \n\u2022 Analyzing KPIs to identify weaknesses, proposing and implementing robust solutions, and managing senior \nexecutive and operational team expectations, under tight deadlines to deliver transformational changes.  \n\u2022 Direct Coordination with the Sales team to ensu re the perfect clientage  \n \n \n \nSKILLS  \n\u2022 Strong Interpersonal and communication skills  \n\u2022 Possess firm administrative and organizational skills  \n\u2022 Open to the challenges of change and learning  \n\u2022 Ability to adapt to tomorrow\u2019s changes  \n\u2022 Emphasis on high -quality work and job completion  \u2022 Proficient in Microsoft Office (MS Word, \nPowerPoint, Excel)  \n\u2022 Highly organized & efficient  \n\u2022 Ability to work independently or as a part of the \nTeam   \n\u2022 Ability to train an d groom in order to maintain a \nhealthy environment   \nACHIEVEMENTS | RESPONSIBILITIES  \n\u2022 Scholarships.  \n\u2022 Honor Roll inclusion for high grades.  \n\u2022 Perfect attendance awards  \n\u2022 Earned Excellence Award for Art Work, 20014 -2016  \n\u2022 IELTS scored Band 6.5, 2018  \n\u2022 German language level (A1) at LUMS  \n \n EDUCATION  \n \n2021  \nBACHELORS OF COMMERCE  \n2018  \nHSSC, INTERMEDIATE  \ni.com (intermediate in commerce)  \n \n2016  \nMATRICULATION  \n \n "
+    },
+    "details": {
+        "name": "MUZAMIL QAMAR",
+        "number": "03091999966",
+        "skills": [
+            "Microsoft Office (MS Word, PowerPoint, Excel)"
+        ],
+        "email_id": "muzamil qamar19@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "",
+                "degree_title": "Bachelors of Commerce"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "",
+                "degree_title": "HSSC, Intermediate"
+            },
+            {
+                "end_date": "05-2016",
+                "university": "",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [
+            "Scholarships",
+            "Honor Roll inclusion for high grades",
+            "Perfect attendance awards",
+            "Earned Excellence Award for Art Work, 2014-2016",
+            "IELTS scored Band 6.5, 2018",
+            "German language level (A1) at LUMS"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "MUZAMIL QAMAR is a dedicated professional with extensive experience in business development and customer service management. He has a proven track record of increasing sales and enhancing customer satisfaction through effective strategies and training programs. His technical proficiency in Microsoft Office complements his strong organizational skills, making him a valuable asset in any competitive environment.",
+        "employment_history": [
+            {
+                "details": "Increased sales by implementing a new sales process and creating new sales materials. Reviewed and evaluated prospect data and lead generation techniques, resulting in new sales opportunities. Implemented a new sales training program for new and existing employees, increasing the average sales volume. Proactively addressed potential sales issues, leading to a reduction in sales force turnover.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Lead",
+                "start_date": "",
+                "company_name": "TRANS DATA"
+            },
+            {
+                "details": "Ensured high levels of customer service in the respective division/section to achieve a positive brand image and customer experience. Achieved/exceeded assigned organization targets to maintain the profitable business trend. Engaged in planning out a new strategy and new rotation which has an immense effect on the brand retention rate.",
+                "end_date": "09-2022",
+                "location": "Lahore",
+                "job_title": "Manager Customer Services",
+                "start_date": "",
+                "company_name": "CAR FIRST"
+            },
+            {
+                "details": "Produced the highest customer satisfaction rating of the year with the cooperation of my team by providing personalized follow-up and service. Ensured the accuracy of data by keeping track of all customer calls via spreadsheets and company software.",
+                "end_date": "10-2021",
+                "location": "Lahore",
+                "job_title": "Operations Lead",
+                "start_date": "",
+                "company_name": "ABACUS CONSULTING"
+            },
+            {
+                "details": "Followed Key Performance Indicators and achieved performance benchmarks set by the company and stakeholders. Analyzed KPIs to identify weaknesses, proposing and implementing robust solutions.",
+                "end_date": "01-2019",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "",
+                "company_name": "WASTE BUSTERS SOLID WASTE MANAGEMENT PVT"
+            }
+        ]
+    }
+}

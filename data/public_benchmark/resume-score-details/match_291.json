@@ -1,0 +1,201 @@
+{
+    "output": {
+        "justification": [
+            "Strong leadership skills demonstrated through handling a diverse client portfolio at Azmee Advertising.",
+            "5+ years of indirect experience in business development and key account management, notably handling major clients.",
+            "Proficiency in data analysis with MS Excel but does not mention specific tools used in the job description like Power BI.",
+            "No explicit mention of experience with SAP ERP, Salesforce, or Vistex, limiting alignment with ERP/CRM system requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 7
+                },
+                {
+                    "criteria": "stakeholder management",
+                    "score": 8
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 4
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 4
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.260000000000001,
+                "micro_scores": 5.029999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Umair Yousaf",
+            "email": "umair_yousaf13@outlook.com",
+            "phone": "+923224333300",
+            "current_position": "Business Development & Key Account Manager",
+            "current_company": "Azmee Advertising (Pvt.) Ltd.",
+            "employment_start_date_current_company": "05-2019",
+            "first_company_start_date": "09-2016",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 26,
+            "experience": 74
+        },
+        "micro_dict": {
+            "data analysis": 21,
+            "stakeholder management": 10,
+            "sap erp": 35,
+            "salesforce": 16,
+            "vistex": 18
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce",
+            "Proficiency in data analysis and forecasting tools",
+            "5+ years of experience in sales or key account management"
+        ],
+        "resume": " Umair Yousaf       Address: 1104 Ravi Block, Street 6, Allama Iqbal Town, Lahore,  Cell:+923224333300, umair_yousaf13@outlook.com Date of Birth: 15/03/1993   EDUCATION & QUALIFICATIONS Masters of Business Administration (Marketing & Finance) May, 2019 Lahore School of Economics BS.c (Honors) Sep, 2016 Major (Business Accounting and Finance) Government College University, Lahore  PROFESSIONAL EXPERIENCE  Azmee Advertising (Pvt.) Ltd. May 2019- Till now Business Development & Key Account Manager \u2022 Pitched and retained client portfolio including: TOTAL PARCO PAKISTAN, Gray Mackenzie Restaurants Intl, Pakistan Cables, Chughtai Lab, Dahua Technology Co. LTD, Euro Oil, OBAN Hotels and IDAP \u2022 Executed and worked on digital media marketing strategy and their content for  National clients. \u2022 Assisted in providing innovative marketing solutions to corporate clients. \u2022 Assisted in operations management for different events in Exhibitions. \u2022 Assisted in creating story boards. \u2022 Developed presentations for client pitching. \u2022 Executed and worked on digital media marketing strategy and their content \u2022 Executed projects such as, Fascia, Fa\u00e7ade and Kiosks design & Installation \u2022 Content Development: Developed content for corporate client\u2019s website \u2022 Assisted in tender bidding process for Government and Private sector \u2022 Assisted in developing a company profile \u2022 Assisted and attended workshops on Health, Safety and Environment trainings with TOTAL PARCO PAKISTAN \u2022 Assisted in registering company on Client\u2019s portal \u2022 Managed ISPR - Sir Kalam - Event Marketing \u2022 Executed outdoor marketing campaign of ISPR' s Sir Kalam event \u2022 Worked BTL promotion on different strategic locations of Lahore \u2022 Including print media promotion HTL Limited - ZIC Motor Oil Sep-Nov, 2016 Internal audit and compliance Intern \u2022 Core member at developing the HSE (Health, safety and environment) manuals for blending plant \u2022 Worked on daily internal audit reporting \u2022 Assisted on managing fraud PROJECTS Supply Chain Management: Worked on Hunbul Tex and how its supply chain process works. Consumer Behavior: Worked on Merit Bread and its success and failure in different provinces of Pakistan. SME: Developed a marketing, operational and financial plan for Solar Panel business Business communication: Rose Petal - Sales, Marketing and HR: How \u2018Rose Petal\u2019 communicate Human Resource: Developed Case study on Labor turnover of Hunbul Tex (Pvt.) Ltd. Marketing: How does Careem overcomes the demand crunch it get from competitors and marketing? Branding: How branding helps in creating good image and developed 3D based project for category extension Marketing Research: Conducted qualitative and quantitative research on Fanta and its consumption patterns. Thesis: How does Local Modern Trade and Retail stores are affecting consumer buying Behavior? HONORS & AWARDS \u2022 Appointed as Assistant Director (BS-17) for Empowerment & Development of Women Resource Centers in PSIC, Government of Punjab \u2022 Digital Marketing- Google Fundamentals Certified \u2022 Health, Safety and Environment Certified \n\u2022 Conducted CSR activities by planting trees. \u2022 Integral part of Dramatics society in GCU \u2022 Retained a \u2018Certificate of Appreciation\u2019 by Dramatics society in recognition of my services  SKILLS & INTERESTS \u2022 MS Excel, MS Word, MS Access, MS PowerPoint and MS Project. \u2022 Good interpersonal and communication skills and comfortable with working for and in a team. \u2022 Excellent at coordinating and conducting tasks and meeting deadlines and achieving the desired results. \u2022 Interests in current affairs and documentaries. "
+    },
+    "details": {
+        "name": "Umair Yousaf",
+        "number": "9224333300",
+        "skills": [
+            "MS Excel",
+            "MS Word",
+            "MS Access",
+            "MS PowerPoint",
+            "MS Project"
+        ],
+        "email_id": "umair_yousaf13@outlook.com",
+        "location": "1104 Ravi Block, Street 6, Allama Iqbal Town, Lahore",
+        "projects": [
+            {
+                "title": "Supply Chain Management",
+                "description": "Worked on Hunbul Tex and how its supply chain process works."
+            },
+            {
+                "title": "Consumer Behavior",
+                "description": "Worked on Merit Bread and its success and failure in different provinces of Pakistan."
+            },
+            {
+                "title": "SME",
+                "description": "Developed a marketing, operational and financial plan for Solar Panel business."
+            },
+            {
+                "title": "Business communication",
+                "description": "Rose Petal - Sales, Marketing and HR: How \u2018Rose Petal\u2019 communicate."
+            },
+            {
+                "title": "Human Resource",
+                "description": "Developed Case study on Labor turnover of Hunbul Tex (Pvt.) Ltd."
+            },
+            {
+                "title": "Marketing",
+                "description": "How does Careem overcome the demand crunch it gets from competitors and marketing?"
+            },
+            {
+                "title": "Branding",
+                "description": "How branding helps in creating a good image and developed 3D based project for category extension."
+            },
+            {
+                "title": "Marketing Research",
+                "description": "Conducted qualitative and quantitative research on Fanta and its consumption patterns."
+            },
+            {
+                "title": "Thesis",
+                "description": "How does Local Modern Trade and Retail stores affect consumer buying Behavior?"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration (Marketing & Finance)"
+            },
+            {
+                "end_date": "09-2016",
+                "university": "Government College University, Lahore",
+                "degree_title": "BS.c (Honors) Major (Business Accounting and Finance)"
+            }
+        ],
+        "achievements": [
+            "Appointed as Assistant Director (BS-17) for Empowerment & Development of Women Resource Centers in PSIC, Government of Punjab",
+            "Digital Marketing - Google Fundamentals Certified",
+            "Health, Safety and Environment Certified",
+            "Retained a \u2018Certificate of Appreciation\u2019 by Dramatics society in recognition of my services"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing - Google Fundamentals Certified",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Health, Safety and Environment Certified",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umair_yousaf",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Umair Yousaf is a skilled business development and key account manager with a strong background in digital marketing and client relations. He holds an MBA in Marketing & Finance and has experience in executing marketing strategies for various national clients. Umair has demonstrated his technical skills through his proficiency in MS Office applications and has been recognized for his contributions in both academic and professional settings.",
+        "employment_history": [
+            {
+                "details": "Pitched and retained client portfolio including: TOTAL PARCO PAKISTAN, Gray Mackenzie Restaurants Intl, Pakistan Cables, Chughtai Lab, Dahua Technology Co. LTD, Euro Oil, OBAN Hotels and IDAP. Executed and worked on digital media marketing strategy and their content for National clients.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development & Key Account Manager",
+                "start_date": "05-2019",
+                "company_name": "Azmee Advertising (Pvt.) Ltd."
+            },
+            {
+                "details": "Core member at developing the HSE (Health, safety and environment) manuals for blending plant. Worked on daily internal audit reporting.",
+                "end_date": "11-2016",
+                "location": "Lahore",
+                "job_title": "Internal audit and compliance Intern",
+                "start_date": "09-2016",
+                "company_name": "HTL Limited - ZIC Motor Oil"
+            }
+        ]
+    }
+}

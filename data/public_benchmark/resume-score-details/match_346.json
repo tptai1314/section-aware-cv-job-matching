@@ -1,0 +1,122 @@
+{
+    "output": {
+        "justification": [
+            "Experience in business development roles is relevant but focused on banking, not technology services.",
+            "No direct project management experience is mentioned, which is a key requirement.",
+            "Excel skills are mentioned but no direct mention of CRM system proficiency.",
+            "Work history shows a consistent presence in similar roles, but not directly relevant to the technology service sector."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 4
+                },
+                {
+                    "criteria": "project management",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 2.34
+            }
+        },
+        "personal_info": {
+            "name": "Sayyed Muhammad Ali Shah",
+            "email": "alishah14619@gmail.com",
+            "phone": "03344899892",
+            "current_position": "Business Development Banker",
+            "current_company": "Bank Al Habib Ltd",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "08-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "crm systems": 17,
+            "project management": 83
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools and Microsoft Office Suite"
+        ],
+        "resume": " \nObjectives  \n \n \n \nExperience  \n \n \n \n \n \n \n \n \n \n \n \nQualification  \nSAYYED MUHAMMAD ALI SHAH  \n03344899892  \nEmail: alishah14619@gmail.com  \nVillage and Post Office Jalalpur Sharif, Tehsil \nPinddadan Khan, District  Jhelum . \n \nTo engage in a career that will allow for progress in terms of \nexperties, socio -economics developments, and in novation \nthrough expo sure to new ideas for professional growth, as well \nas growth for the company.  \n \nBusiness Development Banker at Bank Al Habib Ltd  \nApril 2022 \u2013 Present  \nResponsibilities:  \n\u2022 Bring new Business in bank  \n\u2022 Open New Accounts  \n\u2022 Bring New Deposit  \nRelationship Manager at MCB Bank Ltd  \nOctober 2020 \u2013 April 2022  \nResponsibilities:  \n\u2022 Bring new Business in bank by Converting Remittance \nCustomers to Bank Customers  \n\u2022 Cheque Book and ATM Balancing  \n\u2022 Prepare monthly reports for cheque books.  \n\u2022 Account Opening  \nBusiness Development Officer at BankIslami Pakistan Ltd  \nAugust 2018 \u2013 October 2020  \nResponsibilities:  \n\u2022 Bring new Customers in Bank & Cross Selling  \n\u2022 Sell Autos and deal with all Auto related problems  \n\u2022 Deal with customer insurance problems  \nCMA  \nPresent ICMAP Islamabad  \nMaster s of Commerce  \n2018 NCBA&E  \nBachelor s of Commerce  \n2015 Punjab University  \n Skills  \n\u2022 Financial Reporting  \n\u2022 Data Analysis   \n\u2022 Time Management   \n\u2022 Team Player  \n\u2022 Calculations  \n\u2022 Accounting Skill  \n\u2022 MS Word, Excel & Power \npoint  \n \nLanguages  \n\u2022 English  \n\u2022 Urdu  "
+    },
+    "details": {
+        "name": "SAYYED MUHAMMAD ALI SHAH",
+        "number": "03344899892",
+        "skills": [
+            "Financial Reporting",
+            "Data Analysis",
+            "Accounting Skill",
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint"
+        ],
+        "email_id": "alishah14619@gmail.com",
+        "location": "Village and Post Office Jalalpur Sharif, Tehsil Pinddadan Khan, District Jhelum",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "NCBA&E",
+                "degree_title": "Master's of Commerce"
+            },
+            {
+                "end_date": "12-2015",
+                "university": "Punjab University",
+                "degree_title": "Bachelor's of Commerce"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "SAYYED MUHAMMAD ALI SHAH is a skilled banking professional with experience in business development and relationship management. He has a strong background in financial reporting and data analysis, complemented by proficiency in Microsoft Office applications.",
+        "employment_history": [
+            {
+                "details": "Bring new Business in bank",
+                "end_date": "Present",
+                "location": "Bank Al Habib Ltd",
+                "job_title": "Business Development Banker",
+                "start_date": "04-2022",
+                "company_name": "Bank Al Habib Ltd"
+            },
+            {
+                "details": "Bring new Business in bank by Converting Remittance Customers to Bank Customers",
+                "end_date": "04-2022",
+                "location": "MCB Bank Ltd",
+                "job_title": "Relationship Manager",
+                "start_date": "10-2020",
+                "company_name": "MCB Bank Ltd"
+            },
+            {
+                "details": "Bring new Customers in Bank & Cross Selling",
+                "end_date": "10-2020",
+                "location": "BankIslami Pakistan Ltd",
+                "job_title": "Business Development Officer",
+                "start_date": "08-2018",
+                "company_name": "BankIslami Pakistan Ltd"
+            }
+        ]
+    }
+}

@@ -1,0 +1,614 @@
+{
+  "parser_commit": "41e1d27",
+  "cv_statistics": {
+    "total_docs": 477,
+    "multi_ge2_pct": 99.6,
+    "multi_ge3_pct": 94.3,
+    "multi_ge4_pct": 297.7,
+    "sections": {
+      "amir_e_claire_soto": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 349.0,
+        "median_words": 349.0,
+        "min_words": 349,
+        "max_words": 349,
+        "est_mean_tokens": 464.2
+      },
+      "areas_of_expertise": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 47.0,
+        "median_words": 47.0,
+        "min_words": 47,
+        "max_words": 47,
+        "est_mean_tokens": 62.5
+      },
+      "ate": {
+        "count": 2,
+        "presence_pct": 0.4,
+        "mean_words": 8.0,
+        "median_words": 8.0,
+        "min_words": 8,
+        "max_words": 8,
+        "est_mean_tokens": 10.6
+      },
+      "austin_humane_society": {
+        "count": 2,
+        "presence_pct": 0.4,
+        "mean_words": 113.0,
+        "median_words": 113.0,
+        "min_words": 113,
+        "max_words": 113,
+        "est_mean_tokens": 150.3
+      },
+      "aws_solutions_architect_professional": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 7.0,
+        "median_words": 7.0,
+        "min_words": 7,
+        "max_words": 7,
+        "est_mean_tokens": 9.3
+      },
+      "build": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 20.5,
+        "median_words": 20.0,
+        "min_words": 16,
+        "max_words": 26,
+        "est_mean_tokens": 27.3
+      },
+      "build_management_systems_jenkins_build_forge": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 474.0,
+        "median_words": 474.0,
+        "min_words": 474,
+        "max_words": 474,
+        "est_mean_tokens": 630.4
+      },
+      "customer_master_etl_integration": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 528.0,
+        "median_words": 528.0,
+        "min_words": 528,
+        "max_words": 528,
+        "est_mean_tokens": 702.2
+      },
+      "databases_postgresql_mysql_mongodb_sqlalchemy_orm": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 14.0,
+        "median_words": 14.0,
+        "min_words": 14,
+        "max_words": 14,
+        "est_mean_tokens": 18.6
+      },
+      "developed": {
+        "count": 2,
+        "presence_pct": 0.4,
+        "mean_words": 27.0,
+        "median_words": 27.0,
+        "min_words": 10,
+        "max_words": 44,
+        "est_mean_tokens": 35.9
+      },
+      "education": {
+        "count": 450,
+        "presence_pct": 94.3,
+        "mean_words": 38.9,
+        "median_words": 23.0,
+        "min_words": 2,
+        "max_words": 329,
+        "est_mean_tokens": 51.8
+      },
+      "educationged": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 24.0,
+        "median_words": 24.0,
+        "min_words": 24,
+        "max_words": 24,
+        "est_mean_tokens": 31.9
+      },
+      "educationpost_graduate_diploma_business_administration": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 14.0,
+        "median_words": 14.0,
+        "min_words": 14,
+        "max_words": 14,
+        "est_mean_tokens": 18.6
+      },
+      "electrical_bonding": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 5.0,
+        "median_words": 5.0,
+        "min_words": 5,
+        "max_words": 5,
+        "est_mean_tokens": 6.7
+      },
+      "established": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 11.5,
+        "median_words": 11.5,
+        "min_words": 10,
+        "max_words": 13,
+        "est_mean_tokens": 15.3
+      },
+      "experience": {
+        "count": 477,
+        "presence_pct": 100.0,
+        "mean_words": 527.0,
+        "median_words": 489.0,
+        "min_words": 12,
+        "max_words": 1982,
+        "est_mean_tokens": 700.9
+      },
+      "expert": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 59.0,
+        "median_words": 59.0,
+        "min_words": 59,
+        "max_words": 59,
+        "est_mean_tokens": 78.5
+      },
+      "guide": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 18.0,
+        "median_words": 18.0,
+        "min_words": 18,
+        "max_words": 18,
+        "est_mean_tokens": 23.9
+      },
+      "hazardous_materials_handling": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 3.0,
+        "median_words": 3.0,
+        "min_words": 3,
+        "max_words": 3,
+        "est_mean_tokens": 4.0
+      },
+      "hdfs_spark_sqoop_flume_pig_hivedesign_patterns": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 34.0,
+        "median_words": 34.0,
+        "min_words": 34,
+        "max_words": 34,
+        "est_mean_tokens": 45.2
+      },
+      "high_reach_equipment_operation": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 8.0,
+        "median_words": 8.0,
+        "min_words": 8,
+        "max_words": 8,
+        "est_mean_tokens": 10.6
+      },
+      "highlightsc_c_c_python": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 5.0,
+        "median_words": 5.0,
+        "min_words": 5,
+        "max_words": 5,
+        "est_mean_tokens": 6.7
+      },
+      "highlightshadoop_hive_avro_kafka_mapreduce_looker": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 9.0,
+        "median_words": 9.0,
+        "min_words": 9,
+        "max_words": 9,
+        "est_mean_tokens": 12.0
+      },
+      "highlightspython_perl_sql": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 31.0,
+        "median_words": 31.0,
+        "min_words": 31,
+        "max_words": 31,
+        "est_mean_tokens": 41.2
+      },
+      "highly": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 16.0,
+        "median_words": 16.0,
+        "min_words": 16,
+        "max_words": 16,
+        "est_mean_tokens": 21.3
+      },
+      "hive_postgres_cassandra_mongo_sound": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 75.0,
+        "median_words": 75.0,
+        "min_words": 75,
+        "max_words": 75,
+        "est_mean_tokens": 99.8
+      },
+      "honor_society": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 30.0,
+        "median_words": 30.0,
+        "min_words": 30,
+        "max_words": 30,
+        "est_mean_tokens": 39.9
+      },
+      "hyderabad_andhra_pradesh_india": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 20.0,
+        "median_words": 20.0,
+        "min_words": 20,
+        "max_words": 20,
+        "est_mean_tokens": 26.6
+      },
+      "introduced": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 17.0,
+        "median_words": 17.0,
+        "min_words": 17,
+        "max_words": 17,
+        "est_mean_tokens": 22.6
+      },
+      "ip_address": {
+        "count": 2,
+        "presence_pct": 0.4,
+        "mean_words": 260.0,
+        "median_words": 260.0,
+        "min_words": 260,
+        "max_words": 260,
+        "est_mean_tokens": 345.8
+      },
+      "jaclaireascript_xmltools": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 34.0,
+        "median_words": 34.0,
+        "min_words": 34,
+        "max_words": 34,
+        "est_mean_tokens": 45.2
+      },
+      "jessica_claire": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 382.0,
+        "median_words": 382.0,
+        "min_words": 382,
+        "max_words": 382,
+        "est_mean_tokens": 508.1
+      },
+      "led": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 162.3,
+        "median_words": 14.0,
+        "min_words": 12,
+        "max_words": 461,
+        "est_mean_tokens": 215.9
+      },
+      "networking_tcp_ip_lan_wan_cisco_network_configurations": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 6.0,
+        "median_words": 6.0,
+        "min_words": 6,
+        "max_words": 6,
+        "est_mean_tokens": 8.0
+      },
+      "over": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 23.0,
+        "median_words": 23.0,
+        "min_words": 23,
+        "max_words": 23,
+        "est_mean_tokens": 30.6
+      },
+      "powerpoint_excel_access": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 8.0,
+        "median_words": 8.0,
+        "min_words": 8,
+        "max_words": 8,
+        "est_mean_tokens": 10.6
+      },
+      "professional": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 20.0,
+        "median_words": 20.0,
+        "min_words": 20,
+        "max_words": 20,
+        "est_mean_tokens": 26.6
+      },
+      "publication": {
+        "count": 2,
+        "presence_pct": 0.4,
+        "mean_words": 8.0,
+        "median_words": 8.0,
+        "min_words": 8,
+        "max_words": 8,
+        "est_mean_tokens": 10.6
+      },
+      "qualificationssql_c_c": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 3.0,
+        "median_words": 3.0,
+        "min_words": 3,
+        "max_words": 3,
+        "est_mean_tokens": 4.0
+      },
+      "relevant_courseworks": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 16.0,
+        "median_words": 16.0,
+        "min_words": 16,
+        "max_words": 16,
+        "est_mean_tokens": 21.3
+      },
+      "safety_awareness": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 6.0,
+        "median_words": 6.0,
+        "min_words": 6,
+        "max_words": 6,
+        "est_mean_tokens": 8.0
+      },
+      "scissor_lift_operations": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 5.0,
+        "median_words": 5.0,
+        "min_words": 5,
+        "max_words": 5,
+        "est_mean_tokens": 6.7
+      },
+      "sharepoint_oracle_atg_ibm_websphere_commerce_jira": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 17.0,
+        "median_words": 17.0,
+        "min_words": 17,
+        "max_words": 17,
+        "est_mean_tokens": 22.6
+      },
+      "shop_floor_ergonomics": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 4.0,
+        "median_words": 4.0,
+        "min_words": 4,
+        "max_words": 4,
+        "est_mean_tokens": 5.3
+      },
+      "six_sigma_training_louisville_university": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 4.0,
+        "median_words": 4.0,
+        "min_words": 4,
+        "max_words": 4,
+        "est_mean_tokens": 5.3
+      },
+      "skills": {
+        "count": 412,
+        "presence_pct": 86.4,
+        "mean_words": 49.8,
+        "median_words": 40.5,
+        "min_words": 4,
+        "max_words": 509,
+        "est_mean_tokens": 66.3
+      },
+      "skillslanguages": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 51.0,
+        "median_words": 51.0,
+        "min_words": 51,
+        "max_words": 51,
+        "est_mean_tokens": 67.8
+      },
+      "skillsoperating_systems_windows_unix": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 44.0,
+        "median_words": 44.0,
+        "min_words": 44,
+        "max_words": 44,
+        "est_mean_tokens": 58.5
+      },
+      "skillsroles": {
+        "count": 2,
+        "presence_pct": 0.4,
+        "mean_words": 69.0,
+        "median_words": 69.0,
+        "min_words": 69,
+        "max_words": 69,
+        "est_mean_tokens": 91.8
+      },
+      "summary": {
+        "count": 400,
+        "presence_pct": 83.9,
+        "mean_words": 86.3,
+        "median_words": 54.5,
+        "min_words": 5,
+        "max_words": 720,
+        "est_mean_tokens": 114.8
+      },
+      "summaryan": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 71.0,
+        "median_words": 71.0,
+        "min_words": 71,
+        "max_words": 71,
+        "est_mean_tokens": 94.4
+      },
+      "system": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 167.0,
+        "median_words": 167.0,
+        "min_words": 167,
+        "max_words": 167,
+        "est_mean_tokens": 222.1
+      },
+      "tableau_implementing": {
+        "count": 2,
+        "presence_pct": 0.4,
+        "mean_words": 1084.0,
+        "median_words": 1084.0,
+        "min_words": 1084,
+        "max_words": 1084,
+        "est_mean_tokens": 1441.7
+      },
+      "template_involved": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 197.0,
+        "median_words": 197.0,
+        "min_words": 197,
+        "max_words": 197,
+        "est_mean_tokens": 262.0
+      },
+      "tools": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 12.0,
+        "median_words": 12.0,
+        "min_words": 12,
+        "max_words": 12,
+        "est_mean_tokens": 16.0
+      },
+      "web_logic_hewlett_packard_gpa": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 75.0,
+        "median_words": 75.0,
+        "min_words": 75,
+        "max_words": 75,
+        "est_mean_tokens": 99.8
+      },
+      "yellow_belt_six_sigma": {
+        "count": 1,
+        "presence_pct": 0.2,
+        "mean_words": 6.0,
+        "median_words": 6.0,
+        "min_words": 6,
+        "max_words": 6,
+        "est_mean_tokens": 8.0
+      }
+    }
+  },
+  "jd_statistics": {
+    "total_docs": 71,
+    "multi_ge2_pct": 28.2,
+    "multi_ge3_pct": 7.0,
+    "multi_ge4_pct": 5.6,
+    "sections": {
+      "about_company": {
+        "count": 6,
+        "presence_pct": 8.5,
+        "mean_words": 226.9,
+        "median_words": 148.0,
+        "min_words": 3,
+        "max_words": 907,
+        "est_mean_tokens": 301.7
+      },
+      "benefits": {
+        "count": 11,
+        "presence_pct": 15.5,
+        "mean_words": 172.6,
+        "median_words": 170.5,
+        "min_words": 3,
+        "max_words": 502,
+        "est_mean_tokens": 229.6
+      },
+      "education": {
+        "count": 6,
+        "presence_pct": 8.5,
+        "mean_words": 253.8,
+        "median_words": 266.5,
+        "min_words": 15,
+        "max_words": 602,
+        "est_mean_tokens": 337.6
+      },
+      "eeo": {
+        "count": 3,
+        "presence_pct": 4.2,
+        "mean_words": 79.5,
+        "median_words": 73.5,
+        "min_words": 33,
+        "max_words": 138,
+        "est_mean_tokens": 105.7
+      },
+      "experience": {
+        "count": 1,
+        "presence_pct": 1.4,
+        "mean_words": 8.0,
+        "median_words": 8.0,
+        "min_words": 8,
+        "max_words": 8,
+        "est_mean_tokens": 10.6
+      },
+      "requirements": {
+        "count": 14,
+        "presence_pct": 19.7,
+        "mean_words": 250.6,
+        "median_words": 147.0,
+        "min_words": 22,
+        "max_words": 641,
+        "est_mean_tokens": 333.4
+      },
+      "responsibilities": {
+        "count": 22,
+        "presence_pct": 31.0,
+        "mean_words": 205.6,
+        "median_words": 147.5,
+        "min_words": 16,
+        "max_words": 539,
+        "est_mean_tokens": 273.4
+      },
+      "skills": {
+        "count": 3,
+        "presence_pct": 4.2,
+        "mean_words": 177.5,
+        "median_words": 177.0,
+        "min_words": 47,
+        "max_words": 309,
+        "est_mean_tokens": 236.1
+      }
+    }
+  },
+  "taxonomy_statistics": {
+    "jd_with_skills_pct": 87.3,
+    "cv_with_skills_pct": 96.4,
+    "jd_mean_must_skills": 3.0,
+    "jd_mean_nice_skills": 1.4,
+    "jd_mean_total_skills": 4.4,
+    "cv_mean_skills": 10.3,
+    "active_skills_benchmark": 297,
+    "total_canonical_taxonomy": 615
+  }
+}

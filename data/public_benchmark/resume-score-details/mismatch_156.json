@@ -1,0 +1,172 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not indicate sufficient experience in business development, which is the core requirement for the role.",
+            "The technical skills listed in the resume, such as PLC coding and HMI graphics, do not align with the business development and sales strategy focus of the job description.",
+            "There is no evidence of leadership or team management experience relevant to sales or business development.",
+            "The educational qualifications meet the minimum requirements with a Bachelor's degree completion and ongoing MBA, but there is a lack of evidence for sales processes understanding or negotiation skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales strategy",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Osama Gulzar",
+            "email": "osamagulzar62@gmail.com",
+            "phone": "(+92)3304189111",
+            "current_position": "Assistant Manager",
+            "current_company": "Naveena Denim Ltd",
+            "employment_start_date_current_company": "12-2021",
+            "first_company_start_date": "06-2021",
+            "urls": [
+                {
+                    "website_name": "Linkedin",
+                    "url": "Linkedin/osamagulzar/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 100
+        },
+        "micro_dict": {
+            "sales strategy": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": "Osama Gulzar  \nLahore, Pakistan | (+92)3304189111 | osamagulzar62@gmail.com  | Linkedin/osamagulzar/    \n \n  \nTECHNICAL SKILLS  \n \nSoftwares : \n \n\uf0b7 TIA Portal  \n\uf0b7 Simatic Manager  \n\uf0b7 Drive Monitor  \n\uf0b7 WinCC  \n\uf0b7 Micro Win  \n\uf0b7 RS Logix 5000  \n\uf0b7 Factory talk view  \uf0b7 AVEVA - Wonderware  \n\uf0b7 Experion PKS  \n\uf0b7 Experion Lx, HS  \n\uf0b7 Safety  Manager SC  \n\uf0b7 AUTOCAD Electrical  \n\uf0b7 EcoStruxure Control  \n\uf0b7 EcoStruxure Operator  \uf0b7 Power Monitoring  \n\uf0b7 Citect SCADA  \n\uf0b7 CENTUM VP  \n\uf0b7 ProSafe -RS \n\uf0b7 FieldMate  \n\uf0b7 Exaopc  \n \n \nIndustrial  Standards:  \n \n\uf0b7 Quality Management System \u2013 ISO \n9001:2015  \n\uf0b7 Environmental Management System \u2013 \nISO 14001:2015  \uf0b7 Energy Management System \u2013 ISO \n50001  \n\uf0b7 Occupational Health and Safety \u2013 ISO \n450001  \n \n \nWORK EXPERIENCE  \nAssistant Manager    December  2021 \u2013 Present   \nNaveena Denim Ltd, Lahore, Pakistan  \n \n\uf0b7 Development of PLC coding, HMI graphics, and SCADA configurations for platforms like Allen Bradley, \nHoneywell, Schneider, Siemens, and Yokogawa.  \n\uf0b7 Preparation of Design Documentation, such as Functional Logic Diagrams, Cause and Effects, Functional \nRequirement Specifications (FRS), Detailed Design Specification (DDS), Factory Acceptance Test (FAT), \nSite Acceptance Test (SAT), and Operation and Maintenance Manual (O &M).  \n\uf0b7 Conducting Pre -FAT as well as FAT.  \n\uf0b7 Designs panel drawings in AutoCAD and supervises manufacturing, covering SLDs, GA, power \ndistribution, module wiring, system architecture, and heat/load calculations.  \n\uf0b7 Communicating with Vendors/Suppliers for the sele ction of material and obtaining test certification and \ntest reports.   \n\uf0b7 Collaborated with deputy engineers and HOD to deliver spot services in alignment with the assignment's \nscope of work . \n \n \nTrainee Engineer   June 2021 \u2013 December  2021 \nNaveena Denim Ltd, Lahore, Pakistan  \n \n\uf0b7 Development of PLC/HMI logic and configuration of control modules.  \n\uf0b7 Commissioning of VFD\u2019s (Siemens, Delta , KEB , and Allen Bradley).  \n\uf0b7 Preparing technical proposals and P&ID Drawings . \n\uf0b7 Fabrication of Brix Probe Transmitters . \n\uf0b7 Instrument select ion, calibration, maintenance and operation.  \n\uf0b7 In house training of DCS/Instrumentation  PROJECTS                      \nSizing cooking unit | S7-1200, RTD module, MT8102iE1, TIA portal, Easy Builder pro  \n\uf0b7 The unit involves  a high -pressure stainless -steel vessel . \n\uf0b7 The unit includes  stirrer, airtight door, water supply, steam heating, and monitoring instruments . \n\uf0b7 The vessel has a 1000 -liter capacity, with each inch of height containing 20 liters of liquor.  \n\uf0b7 Increased production efficiency by 22% and reduced downtime by  14% through precise temperature and \npressure control, with each inch of vessel height accommodating 20 liters of liquor.  \n \nSkew Stretch Unit | MicroLogix 1500, encoders, HMI, RS Logix 500, Factory Talk view  \n\uf0b7 To prevent appearance changes due to denim fabric  shrinkage causing twill shifts, skew is applied to the \nfabric.  \n\uf0b7 For R.H twill fabric: left -hand skew applied . \n\uf0b7 For L.H twill  fabric:  right -hand skew applied.  \n\uf0b7 For 1/1: no skew . \n\uf0b7 Achieved a 27% increase in fabric production efficiency and a 16% reduction in de fect rates by fine -tuning \nthe skew application.  \n \nBENNINGER AG Sizing Machine Upgradation | Simatic Manager, Combivis 6, Automation Studio  \n\uf0b7 As a commissioning engineer , played  a pivotal role in the successful upgrad ation  of Naveena's sizing plant \ncontrol system which was based on  S7-400 PLC and Siemens Micro master  drives . \n\uf0b7 Collaborated closely with project stakeholders to ensure seamless integration of new control components \nand technologies.  \n\uf0b7 Led commissioning activities,  including system testing, troubleshooting, and optimization, which resulted \nin a 15% increase in operational efficiency and a 10% reduction in downtime.  \n\uf0b7 Documented commissioning procedures, test results, and operational parameters, ensuring compliance wit h \nindustry standards and client requirements.  \n\uf0b7 Hardware: Simatic S7 -300: CPU 315 -NP/DP, KEB combivert S7 Drives, B&R HMI (CPU)  \n \nThermography (Levi\u2019s Audit)  | FLIR E45 Thermal Camera, FLIR Thermal studio  \n\uf0b7 Implemented  comprehensive thermographic inspections as part of Levi's annual audit at Naveena.  \n\uf0b7 Utilized advanced thermal imaging technology to assess and analyze electrical (LT, HT) and  mechanical \nsystems . \n\uf0b7 Identifying potential issues before they could impact operati ons. \n\uf0b7 Produced detailed reports and recommendations, contributing to enhanced safety  achieved  efficiency, and \ncompliance with industry standards.  \n \n \nEDUCATION  \nBachelors of Science in Electronics & Electrical Systems    February  2021 \nUniversity of Lahore, Lahore, Pakistan  \n \nMaster\u2019s  in Business Administration ( MBA)    June 2024  \nCOMSATS, Lahore, Pakistan  \n \n \nAWARDS/CERTIFICATIONS  \n \nGoogle , Foundations of Project Management   2023 \nDTI, PMMI Mechatronics: PLC\u2019s (Siemens focused)  2021  \nPITAC , PMMI Mechatronics: PLC\u2019s (Allen Bradley focused)  2018 "
+    },
+    "details": {
+        "name": "Osama Gulzar",
+        "number": "923304189111",
+        "skills": [
+            "TIA Portal",
+            "Simatic Manager",
+            "Drive Monitor",
+            "WinCC",
+            "Micro Win",
+            "RS Logix 5000",
+            "Factory talk view",
+            "AVEVA - Wonderware",
+            "Experion PKS",
+            "Experion Lx",
+            "HS",
+            "Safety Manager SC",
+            "AUTOCAD Electrical",
+            "EcoStruxure Control",
+            "EcoStruxure Operator",
+            "Power Monitoring",
+            "Citect SCADA",
+            "CENTUM VP",
+            "ProSafe -RS",
+            "FieldMate",
+            "Exaopc"
+        ],
+        "email_id": "osamagulzar62@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Sizing cooking unit",
+                "description": "The unit involves a high-pressure stainless-steel vessel."
+            },
+            {
+                "title": "Skew Stretch Unit",
+                "description": "To prevent appearance changes due to denim fabric shrinkage causing twill shifts."
+            },
+            {
+                "title": "BENNINGER AG Sizing Machine Upgradation",
+                "description": "As a commissioning engineer, played a pivotal role in the successful upgrade of Naveena's sizing plant control system."
+            },
+            {
+                "title": "Thermography (Levi\u2019s Audit)",
+                "description": "Implemented comprehensive thermographic inspections as part of Levi's annual audit at Naveena."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "02-2021",
+                "university": "University of Lahore",
+                "degree_title": "Bachelors of Science in Electronics & Electrical Systems"
+            },
+            {
+                "end_date": "06-2024",
+                "university": "COMSATS",
+                "degree_title": "Master\u2019s in Business Administration (MBA)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Foundations of Project Management",
+                "issuing_organization": "Google",
+                "date_of_issuance": "2023"
+            },
+            {
+                "certification_name": "PMMI Mechatronics: PLC\u2019s (Siemens focused)",
+                "issuing_organization": "DTI",
+                "date_of_issuance": "2021"
+            },
+            {
+                "certification_name": "PMMI Mechatronics: PLC\u2019s (Allen Bradley focused)",
+                "issuing_organization": "PITAC",
+                "date_of_issuance": "2018"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin/osamagulzar/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Osama Gulzar is a skilled engineer specializing in electronics and electrical systems, with extensive experience in PLC coding, HMI graphics, and SCADA configurations. He has a strong background in project management and has successfully led various engineering projects, demonstrating his technical expertise and commitment to operational efficiency.",
+        "employment_history": [
+            {
+                "details": "Development of PLC coding, HMI graphics, and SCADA configurations for platforms like Allen Bradley, Honeywell, Schneider, Siemens, and Yokogawa.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Manager",
+                "start_date": "12-2021",
+                "company_name": "Naveena Denim Ltd"
+            },
+            {
+                "details": "Development of PLC/HMI logic and configuration of control modules. Commissioning of VFD\u2019s (Siemens, Delta, KEB, and Allen Bradley).",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Trainee Engineer",
+                "start_date": "06-2021",
+                "company_name": "Naveena Denim Ltd"
+            }
+        ]
+    }
+}

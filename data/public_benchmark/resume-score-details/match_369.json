@@ -1,0 +1,195 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 6 years of total experience, 4 of which are directly relevant to sales and marketing roles.",
+            "Email marketing experience is well-documented with experience at multiple companies.",
+            "Strong analytical skills demonstrated through various roles involving market research and strategic planning.",
+            "Leadership skills evident with experience in leading teams and mentoring roles in past work experiences and extracurricular activities."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "analytical skills",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "email marketing",
+                    "score": 9
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": true
+                },
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.0,
+                "micro_scores": 7.699999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Hamza Ahmad",
+            "email": "hamza.businessdeveloper@gmail.com",
+            "phone": "+923336696613",
+            "current_position": "Business Development Executive",
+            "current_company": "Kavtech Solutions",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "05-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "analytical skills": 100
+        },
+        "micro_dict": {
+            "email marketing": 35,
+            "market research": 65
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+            "5+ years of experience in sales and marketing roles",
+            "Demonstrated ability in team leadership and mentoring"
+        ],
+        "resume": "L e t \u2019 s\nh a v e\na\nc a l l !\nH a m z a\nA h m a d\n|\nE m a i l\nA d d r e s s :\nh a m z a . b u s i n e s s d e v e l o p e r @ g m a i l . c o m\n|\nM o b i l e :\n+ 9 2 3 3 3 6 6 9 6 6 1 3\n|\nA d d r e s s :\nL a h o r e ,\nP a k i s t a n \n( W i l l i n g\nt o\nr e l o c a t e )\nS U M M A R Y\nH a v i n g\ng r a d u a t e d\nw i t h\n\ufb01 r s t - c l a s s\nh o n o u r s\ni n\nB S c\nM a n a g e m e n t\nS c i e n c e\n,\nI\na m\na c t i v e l y\ns e e k i n g\ne x c i t i n g\no p p o r t u n i t i e s\na s\na\nM a r k e t i n g / S a l e s\nS p e c i a l i s t\no r\ns i m i l a r .\nI\na m\nc o m m i t t e d\nt o\nd e l i v e r i n g\nd a t a - d r i v e n\ni n n o v a t i v e\ns o l u t i o n s\nt h a t\nm e e t\nt h e\nn e e d s\no f\nc l i e n t s\na n d\nd r i v e\nb u s i n e s s\ns u c c e s s .\nE D U C A T I O N\nB S c\ni n\nM a n a g e m e n t\nS c i e n c e\n|\nL a h o r e\nU n i v e r s i t y\no f\nM a n a g e m e n t\nS c i e n c e s\n( L U M S )\n|\nL a h o r e ,\nP a k i s t a n\n|\n2 0 1 8\n-\n2 0 2 2\nW O R K\nE X P E R I E N C E\nB u s i n e s s\nD e v e l o p m e n t\nE x e c u t i v e\n|\nK a v t e c h\nS o l u t i o n s\n|\nM a r c h\n2 0 2 2\n-\nP r e s e n t ,\nL a h o r e\n\u25cf\nI d e n t i f y i n g\nn e w\nb u s i n e s s\no p p o r t u n i t i e s\na n d\np o t e n t i a l\nc l i e n t s\nt h r o u g h\nm a r k e t\nr e s e a r c h ,\nn e t w o r k i n g ,\na n d\nl e a d\ng e n e r a t i o n\n\u25cf\nD e v e l o p i n g\na n d\ne x e c u t i n g\nb u s i n e s s\ns t r a t e g i e s\nt o\ni m p r o v e\ne \u0000 c i e n c y\na n d\nw o r k \ufb02 o w s\n\u25cf\nL e a d i n g\nm a r k e t\nr e s e a r c h\nt o\ni d e n t i f y\ne x p a n s i o n\no p p o r t u n i t i e s\ni n\nn e w\nr e g i o n s ,\nr e s u l t i n g\ni n\np l a n s\nt o\no p e n\nn e w\no \u0000 c e s\n\u25cf\nP r o v i d i n g\nd a t a - d r i v e n\ns t r a t e g i c\nr e c o m m e n d a t i o n s\nt o\ns e n i o r\nm a n a g e m e n t\nb a s e d\no n\nc o m p e t i t i v e\na n a l y s i s\n\u25cf\nM o n i t o r i n g\ni n d u s t r y\nt r e n d s\na n d\nc o m p e t i t i v e\nl a n d s c a p e s\nt o\ns t a y\na h e a d\no f\nm a r k e t\nd e v e l o p m e n t s\na n d\ni d e n t i f y i n g\np o t e n t i a l\na r e a s\nf o r\ni n n o v a t i o n\na n d\ng r o w t h\nM a r k e t i n g\nE x e c u t i v e\n|\nT h e\nD i g i t a l\nL o r d\n|\nA u g u s t\n2 0 2 1\n-\nO c t o b e r\n2 0 2 2 ,\nR e m o t e\n\u25cf\nS u p p o r t e d\nt e a m\no f\n7\nd i g i t a l\nm a r k e t e r s\ni n\nd e v e l o p i n g\ns o c i a l\nm e d i a\nm a r k e t i n g\nc a m p a i g n s\nf o r\ni n t e r n a t i o n a l\na n d\nl o c a l\nb u s i n e s s e s\n\u25cf\nG a i n e d\ne x p o s u r e\nt o\ni n \ufb02 u e n c e r\nm a r k e t i n g\na n d\nF a c e b o o k / I n s t a g r a m\na d s\nA m a z o n\nS e l l e r\n|\nT r e a s u r e T r o v e\nC o .\n|\nJ u n e\n2 0 2 2\n-\nA u g\n2 0 2 2\n\u25cf\nL a u n c h e d\nA m a z o n\nd r o p s h i p p i n g\ns t o r e\ni n\nU S A ,\ns o u r c e d\nf r o m\nW a l m a r t ,\nm a n a g e d\nd e l i v e r i e s .\n\u25cf\nA c h i e v e d\n1 5 0 %\nR O I\ni n\nt h e\nv e r y\n\ufb01 r s t\nm o n t h .\n\u25cf\nI m p l e m e n t e d\ne \u0000 e c t i v e\np r i c i n g\ns t r a t e g i e s ,\ni n c l u d i n g\np s y c h o l o g i c a l\np r i c i n g\n,\nt o\na t t r a c t\na n d\nd r i v e\ns a l e s .\n\u25cf\nC o n s i s t e n t l y\ns e c u r e d\nA m a z o n ' s\n\"\nB u y\nB o x\n, \"\nw i n n i n g\ni t\nm u l t i p l e\nt i m e s\nf o r\ne x c e l l e n t\ns e l l e r\np e r f o r m a n c e .\nS E O\nC o n t e n t\nW r i t e r\n&\nM a r k e t\nR e s e a r c h e r\n|\nU p w o r k\n|\nJ u n e\n2 0 2 1\n-\nJ a n\n2 0 2 3 ,\nR e m o t e\n\u25cf\nC r e a t e d\n5 0 +\nb l o g\np o s t s\na n d\ni n f o r m a t i v e\na r t i c l e s\nf o r\ni n t e r n a t i o n a l\nc l i e n t s\na c r o s s\ni n d u s t r i e s\n\u25cf\nC o m p l e t e d\na\nf e w\np r o j e c t s\nt o\nh e l p\nS M E s\ni n\nt h e i r\ng l o b a l\nm a r k e t\nr e s e a r c h\n\u25cf\nC u l t i v a t e d\ns t r o n g\nc l i e n t\nr e l a t i o n s h i p s\na n d\na c h i e v e d\na\n1 0 0 %\nj o b\ns u c c e s s\ns c o r e\n\u25cf\nS h a r p e n e d\na b i l i t y\nt o\nc o m m u n i c a t e\ne \u0000 e c t i v e l y\nw i t h\ng l o b a l\nc l i e n t s\na n d\ns t a k e h o l d e r s\nH u m a n\nR e s o u r c e s\nI n t e r n\n|\nP I A\n( P a k i s t a n\nI n t e r n a t i o n a l\nA i r l i n e s )\n|\nJ u n e\n2 0 2 1\n-\nJ u l y\n2 0 2 1\n\u25cf\nC o n t r i b u t e d\nt o\na\ns i g n i \ufb01 c a n t\nr e d u c t i o n\ni n\nw o r k f o r c e\ns i z e ,\nw i t h\nn e a r l y\n2 0 0 0\ne m p l o y e e s\no p t i n g\nf o r\nt h e\nV S S\n,\nl e a d i n g\nt o\ne n h a n c e d\no p e r a t i o n a l\na g i l i t y\na n d\nc o s t\ns a v i n g s\nf o r\nt h e\no r g a n i z a t i o n\n\u25cf\nA s s i s t e d\ni n\nc o n d u c t i n g\ne x i t\ni n t e r v i e w s\nf o r\nd e p a r t i n g\ne m p l o y e e s ,\ng a t h e r i n g\nv a l u a b l e\nf e e d b a c k\nt o\ni d e n t i f y\na r e a s\nf o r\ni m p r o v e m e n t\nw i t h i n\nt h e\no r g a n i z a t i o n\nL e t \u2019 s\nh a v e\na\nc a l l !\nD a r a z . p k\nS e l l e r\n|\nE a s y P e a s y\n|\nJ a n\n2 0 2 1\n-\nJ u n e\n2 0 2 2 ,\nL a h o r e\n\u25cf\nF o u n d e d\na n d\no p e r a t e d\na n\ne - c o m m e r c e\ns t o r e\no n\nD a r a z . p k\ni n\n2 0 2 1 .\n\u25cf\nS u c c e s s f u l l y\nl a u n c h e d\na\ns i n g l e\np r o d u c t ,\na c h i e v i n g\ns a l e s\no f\no v e r\n1 0 0 0\nu n i t s\nw i t h i n\n4\nm o n t h s .\n\u25cf\nE \u0000 c i e n t l y\nr e c o u p e d\nt h e\ni n i t i a l\ni n v e s t m e n t\ni n\nj u s t\n2\nm o n t h s ,\nd e m o n s t r a t i n g\ns t r o n g\nb u s i n e s s\na c u m e n .\n\u25cf\nI m p l e m e n t e d\nv a r i o u s\nm a r k e t i n g\nt e c h n i q u e s ,\ni n c l u d i n g\nF a c e b o o k\na d s ,\nV V R O s\n( V e r i \ufb01 e d\na n d\nV a l i d a t e d\nR e v i e w s\nO p t i m i z a t i o n ) ,\ng i v e a w a y s ,\nv o u c h e r s ,\na n d\nb u l k\nd i s c o u n t s\nt o\nd r i v e\ns a l e s\na n d\na t t r a c t\nc u s t o m e r s .\n\u25cf\nE \u0000 e c t i v e l y\nu t i l i z e d\ns o c i a l\nm e d i a\np l a t f o r m s\na n d\np r o m o t i o n s\nt o\ni n c r e a s e\nb r a n d\nv i s i b i l i t y\na n d\nc u s t o m e r\ne n g a g e m e n t .\nC o r p o r a t e\nD e v e l o p m e n t\nI n t e r n\n|\nI n t e r a c t i v e\nG r o u p\nO f\nC o m p a n i e s\n|\nM a y\n2 0 2 0\n-\nA u g u s t\n2 0 2 0 ,\nL a h o r e\n\u25cf\nC o - a u t h o r e d\na\nc o m p r e h e n s i v e\na n d\nc o m p e l l i n g\nb u s i n e s s\np l a n\nt h a t\nr e s u l t e d\ni n\na\ns u c c e s s f u l\nw i n\nf o r\nt h e\nc o m p a n y ,\ns h o w c a s i n g\nc r i t i c a l\nt h i n k i n g ,\nm a r k e t\na n a l y s i s ,\na n d\ns t r a t e g i c\nv i s i o n\n\u25cf\nS p e a r h e a d e d\np r e s e n t a t i o n s\na n d\nd i s c u s s i o n s\no n\nt h e\no p t i m a l\na l l o c a t i o n\no f\nt h e\ni n v e s t m e n t\nw i t h i n\nt h e\ns o f t w a r e\ns e c t o r .\nC o l l a b o r a t e d\nw i t h\nc r o s s - f u n c t i o n a l\nt e a m s\nt o\ni d e n t i f y\nh i g h - p o t e n t i a l\no p p o r t u n i t i e s ,\nc o s t - s a v i n g\ni n i t i a t i v e s ,\na n d\ng r o w t h\ns t r a t e g i e s\nE X T R A C U R R I C U L A R\nA C T I V I T I E S\nA s s i s t a n t\nD i r e c t o r\nM a r k e t i n g\n|\nL a w\na n d\nP o l i t i c s\nS o c i e t y ,\nL U M S\n|\nJ a n u a r y\n2 0 1 9\n-\nM a y\n2 0 1 9 ,\nL a h o r e ,\nP a k i s t a n\n\u25cf\nL e d\ns u c c e s s f u l\nm a r k e t i n g\nc a m p a i g n s ,\nc o l l a b o r a t i n g\nw i t h\nC C A\nf o r\ni n c r e a s e d\ns t u d e n t\na n d\nf a c u l t y\ne n g a g e m e n t .\n\u25cf\nS e c u r e d\nv i t a l\ns p o n s o r s h i p\nf o r\nt h e\np r e s t i g i o u s\nI n t e r n a t i o n a l\nM o o t\nC o u r t\nC o m p e t i t i o n\nt h r o u g h\ne x c e p t i o n a l\nn e g o t i a t i o n\na n d\nc o m m u n i c a t i o n\ns k i l l s .\nL A N G U A G E S ,\nS K I L L S\nA N D\nC E R T I F I C A T E S\n\u25cf\nL a n g u a g e s :\nE n g l i s h\n( a d v a n c e d\np r o \ufb01 c i e n c y ) ,\nU r d u\n( n a t i v e ) ,\nA r a b i c\n( b a s i c\nl e v e l )\n\u25cf\nS k i l l s\n:\nG o o g l e\nA n a l y t i c s ,\nS E O ,\nI n \ufb02 u e n c e r\nM a r k e t i n g ,\nE m a i l\nM a r k e t i n g\n\u25cf\nC e r t i \ufb01 c a t i o n s\n:\nG o o g l e\nA n a l y t i c s\nC e r t i \ufb01 c a t i o n ,\nF a c e b o o k\nB l u e p r i n t\nC e r t i \ufb01 c a t i o n ,\nH a r v a r d X\n\u25cf\nT o o l s\na n d\nT e c h n o l o g i e s\n:\nG A 4 ,\nP o w e r B I ,\nF a c e b o o k\nP i x e l ,\nJ I R A ,\nA s a n a ,\nT r e l l o ,\nC a n v a ,\nA p o l l o ,\nI n s t a n t l y\nA I ,\nM i c r o s o f t\nS u i t e\nR e f e r e n c e s\nA v a i l a b l e\no n\nR e q u e s t"
+    },
+    "details": {
+        "name": "Hamza Ahmad",
+        "number": "923336696613",
+        "skills": [
+            "Google Analytics",
+            "SEO",
+            "Influencer Marketing",
+            "Email Marketing",
+            "GA4",
+            "Power BI",
+            "Facebook Pixel",
+            "JIRA",
+            "Asana",
+            "Trello",
+            "Canva",
+            "Apollo",
+            "Instantly AI",
+            "Microsoft Suite"
+        ],
+        "email_id": "hamza.businessdeveloper@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Lahore University of Management Sciences (LUMS)",
+                "degree_title": "BSc in Management Science"
+            }
+        ],
+        "achievements": [
+            "Achieved 150% ROI in the very first month of launching an Amazon dropshipping store.",
+            "Secured vital sponsorship for the prestigious International Moot Court Competition through exceptional negotiation and communication skills."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Google Analytics Certification",
+                "issuing_organization": "Google",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Facebook Blueprint Certification",
+                "issuing_organization": "Facebook",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Harvard X Certification",
+                "issuing_organization": "Harvard University",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hamzaahmad",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/hamzaahmad",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Hamza Ahmad is a dedicated business development executive with a strong background in marketing and sales. He has demonstrated expertise in Google Analytics, SEO, and influencer marketing, contributing to significant business growth and client engagement. Hamza is committed to delivering data-driven solutions that meet client needs and drive success.",
+        "employment_history": [
+            {
+                "details": "Identifying new business opportunities and potential clients through market research, networking, and lead generation. Developing and executing business strategies to improve efficiency and workflows. Leading market research to identify expansion opportunities in new regions, resulting in plans to open new offices. Providing data-driven strategic recommendations to senior management based on competitive analysis. Monitoring industry trends and competitive landscapes to stay ahead of market developments and identifying potential areas for innovation and growth.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "03-2022",
+                "company_name": "Kavtech Solutions"
+            },
+            {
+                "details": "Supported a team of 7 digital marketers in developing social media marketing campaigns for international and local businesses. Gained exposure to influencer marketing and Facebook/Instagram ads.",
+                "end_date": "10-2022",
+                "location": "Remote",
+                "job_title": "Marketing Executive",
+                "start_date": "08-2021",
+                "company_name": "The Digital Lord"
+            },
+            {
+                "details": "Launched an Amazon dropshipping store in the USA, sourced from Walmart, managed deliveries. Achieved 150% ROI in the very first month. Implemented effective pricing strategies, including psychological pricing, to attract and drive sales. Consistently secured Amazon's 'Buy Box', winning it multiple times for excellent seller performance.",
+                "end_date": "08-2022",
+                "location": "",
+                "job_title": "Amazon Seller",
+                "start_date": "06-2022",
+                "company_name": "Treasure Trove Co."
+            },
+            {
+                "details": "Created 50+ blog posts and informative articles for international clients across industries. Completed a few projects to help SMEs in their global market research. Cultivated strong client relationships and achieved a 100% job success score.",
+                "end_date": "01-2023",
+                "location": "Remote",
+                "job_title": "SEO Content Writer & Market Researcher",
+                "start_date": "06-2021",
+                "company_name": "Upwork"
+            },
+            {
+                "details": "Contributed to a significant reduction in workforce size, with nearly 2000 employees opting for the VSS, leading to enhanced operational agility and cost savings for the organization. Assisted in conducting exit interviews for departing employees, gathering valuable feedback to identify areas for improvement within the organization.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Human Resources Intern",
+                "start_date": "06-2021",
+                "company_name": "PIA (Pakistan International Airlines)"
+            },
+            {
+                "details": "Founded and operated an e-commerce store on Daraz.pk in 2021. Successfully launched a single product, achieving sales of over 1000 units within 4 months. Efficiently recouped the initial investment in just 2 months, demonstrating strong business acumen. Implemented various marketing techniques, including Facebook ads, VVRs (Verified and Validated Reviews Optimization), giveaways, vouchers, and bulk discounts to drive sales and attract customers. Effectively utilized social media platforms and promotions to increase brand visibility and customer engagement.",
+                "end_date": "06-2022",
+                "location": "Lahore",
+                "job_title": "Daraz.pk Seller",
+                "start_date": "01-2021",
+                "company_name": "Easy Peasy"
+            },
+            {
+                "details": "Co-authored a comprehensive and compelling business plan that resulted in a successful win for the company, showcasing critical thinking, market analysis, and strategic vision. Spearheaded presentations and discussions on the optimal allocation of the investment within the software sector. Collaborated with cross-functional teams to identify high-potential opportunities, cost-saving initiatives, and growth strategies.",
+                "end_date": "08-2020",
+                "location": "Lahore",
+                "job_title": "Corporate Development Intern",
+                "start_date": "05-2020",
+                "company_name": "Interactive Group of Companies"
+            }
+        ]
+    }
+}

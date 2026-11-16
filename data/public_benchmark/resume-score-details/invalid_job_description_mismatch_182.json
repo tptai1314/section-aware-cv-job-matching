@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Mohammad Ar qam Naeem Sahgal\narqamnaeemsaighol@gmail.com\n| +92 311 0260910 |\nhttps://www.linkedin.com/in/mohammad-arqam-sahgal\n| Lahore, Pakistan\nEDUCATION\nFAST - National University of Computer and Emerging Sciences (NUCES), Lahore, Pakistan\n2017-2021\nBachelor of Science, Electrical Engineering\n-\nAdd. Courses: Engineering Economics, Entrepreneurship, Engineering and Project Management\nAitchison College, Lahore, Pakistan\n2014-2016\nA-Levels and O-Levels\nEXPERIENCE\nFoodpanda-Delivery Hero \nExecutive-Virtual Account Management                                                                                            Feb 2022 \u2013 Present \n\u25cf\nPart of an APAC initiative known as the VKAM project, with a pivotal role led my team to become\ntop performing \nacross APAC for two consecutive quarters. \n\u25cf\nManaging and expanding relationships with an inventory of\n1000+\nexisting long tail vendors per quarter. \n\u25cf\nOverseeing all allotted inventory KPIs through\nExcel\n,\nTableau\n, and\nSalesForce\n. \n\u25cf\nClosely worked with vendors to improve GMV, RPO & Basket Size.\n\u25cf\nMonitoring each vendor's performance metrics and providing technical support to the vendors.\n\u25cf\nImproved inventory health by\n4.2%\nin the \ufb01rst quarter\nand\n5.65%\nin the second quarter.\n\u25cf\nAchieved\n17.16%\nincrease in GFV of all allotted inventory\nby improving operational metrics. \n\u25cf\nAdministered team tracking and generated team reports on a weekly and monthly basis.\nAssociate-Collection & Recovery                                                                                                    Oct 2021 \u2013 Feb 2022\n\u25cf\nOversaw foodpanda's off-boarded inventory in Lahore.\n\u25cf\nManaged the safe recovery process of foodpanda's assets in Lahore.\u00a0\n\u25cf\nTrained new inductees in the same domain.\nORIX Leasing Pakistan Limited, Lahore, Pakistan \nOperations Intern                                                                                                                             Jul 2015 \u2013 Aug 2015 \n\u25cf\nResponsible for maintaining data of key accounts and presenting their reports on a weekly basis.\nSindh Bank Limited, Lahore, Pakistan \nIntern                                                                                                                                           May 2015 \u2013 June 2015 \n\u25cf\nScreening and maintaining corporate \ufb01les at all levels.\nACADEMIC PROJECTS\nAQUA TRUCE(Final Year Project) \n\u25cf\nProduct development of an IoT based water tank system\n\u25cf\nDevelopment of a plug and play solution for water tanks \n\u25cf\nDeploying new features into existing systems such as ambient temperature control, water level monitoring and dry \nrunning protection.\nReview on IoT based Power System Protection System\n\u25cf\nReview on a new \u201cintelligent operation\u201d concept for power system protection based on Internet-of-Things \nincorporated into smart environments\nSKILLS\nProject Management, Agile, SCRUM, Operations Management, Logistics Management, Communication Skills, \nSupply Chain Management, Analytical Skills, Leadership, Adaptability, Team Work \nSoftware Skills:\nSalesforce, Tableau,\nPython, C++,\nMATLAB, Arduino, Proteus, HTML, PLC programming, MS \nOffice\nLANGUAGES\nEnglish                                                                           Urdu                                                                             French\nNative or Bilingual Proficiency\nFull Professional Proficiency                                    Limited Working Proficiency\n",
+        "macro_dict": {
+            "experience": 46,
+            "strategic thinking": 54
+        },
+        "micro_dict": {
+            "market research": 15,
+            "communication skills": 30,
+            "data analysis": 35,
+            "it and manufacturing sector knowledge": 20
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong understanding of IT and manufacturing industries",
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": "Mohammad Ar qam Naeem Sahgal\narqamnaeemsaighol@gmail.com\n| +92 311 0260910 |\nhttps://www.linkedin.com/in/mohammad-arqam-sahgal\n| Lahore, Pakistan\nEDUCATION\nFAST - National University of Computer and Emerging Sciences (NUCES), Lahore, Pakistan\n2017-2021\nBachelor of Science, Electrical Engineering\n-\nAdd. Courses: Engineering Economics, Entrepreneurship, Engineering and Project Management\nAitchison College, Lahore, Pakistan\n2014-2016\nA-Levels and O-Levels\nEXPERIENCE\nFoodpanda-Delivery Hero \nExecutive-Virtual Account Management                                                                                            Feb 2022 \u2013 Present \n\u25cf\nPart of an APAC initiative known as the VKAM project, with a pivotal role led my team to become\ntop performing \nacross APAC for two consecutive quarters. \n\u25cf\nManaging and expanding relationships with an inventory of\n1000+\nexisting long tail vendors per quarter. \n\u25cf\nOverseeing all allotted inventory KPIs through\nExcel\n,\nTableau\n, and\nSalesForce\n. \n\u25cf\nClosely worked with vendors to improve GMV, RPO & Basket Size.\n\u25cf\nMonitoring each vendor's performance metrics and providing technical support to the vendors.\n\u25cf\nImproved inventory health by\n4.2%\nin the \ufb01rst quarter\nand\n5.65%\nin the second quarter.\n\u25cf\nAchieved\n17.16%\nincrease in GFV of all allotted inventory\nby improving operational metrics. \n\u25cf\nAdministered team tracking and generated team reports on a weekly and monthly basis.\nAssociate-Collection & Recovery                                                                                                    Oct 2021 \u2013 Feb 2022\n\u25cf\nOversaw foodpanda's off-boarded inventory in Lahore.\n\u25cf\nManaged the safe recovery process of foodpanda's assets in Lahore.\u00a0\n\u25cf\nTrained new inductees in the same domain.\nORIX Leasing Pakistan Limited, Lahore, Pakistan \nOperations Intern                                                                                                                             Jul 2015 \u2013 Aug 2015 \n\u25cf\nResponsible for maintaining data of key accounts and presenting their reports on a weekly basis.\nSindh Bank Limited, Lahore, Pakistan \nIntern                                                                                                                                           May 2015 \u2013 June 2015 \n\u25cf\nScreening and maintaining corporate \ufb01les at all levels.\nACADEMIC PROJECTS\nAQUA TRUCE(Final Year Project) \n\u25cf\nProduct development of an IoT based water tank system\n\u25cf\nDevelopment of a plug and play solution for water tanks \n\u25cf\nDeploying new features into existing systems such as ambient temperature control, water level monitoring and dry \nrunning protection.\nReview on IoT based Power System Protection System\n\u25cf\nReview on a new \u201cintelligent operation\u201d concept for power system protection based on Internet-of-Things \nincorporated into smart environments\nSKILLS\nProject Management, Agile, SCRUM, Operations Management, Logistics Management, Communication Skills, \nSupply Chain Management, Analytical Skills, Leadership, Adaptability, Team Work \nSoftware Skills:\nSalesforce, Tableau,\nPython, C++,\nMATLAB, Arduino, Proteus, HTML, PLC programming, MS \nOffice\nLANGUAGES\nEnglish                                                                           Urdu                                                                             French\nNative or Bilingual Proficiency\nFull Professional Proficiency                                    Limited Working Proficiency\n"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

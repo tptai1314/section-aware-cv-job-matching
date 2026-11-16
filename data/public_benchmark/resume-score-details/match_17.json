@@ -1,0 +1,168 @@
+{
+    "output": {
+        "justification": [
+            "The candidate shows significant leadership experience by heading a business development department and winning major contracts, aligning with the macro criteria of Leadership.",
+            "The candidate has over 3 years of experience in business development and lead generation, partially aligning with the requirement and the macro criteria of Experience.",
+            "The resume doesn't specify the use of innovation or adaptability explicitly; hence the macro score on Innovation and Adaptability is hypothesized based on varied geographical market exposure.",
+            "The Business Intelligence Tools score is low due to lack of explicit mention of SQL, Tableau or similar tools experience.",
+            "There is partial alignment with digital marketing through suggested email and LinkedIn campaigns in personal projects, though more direct professional experience in this would be preferred.",
+            "The candidate has managed projects and developed strategies, but specific project management methodologies or tools aren't detailed, slightly lowering the Project Management score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 4
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.31,
+                "micro_scores": 5.54
+            }
+        },
+        "personal_info": {
+            "name": "Aabeer Suhail Bukhari",
+            "email": "aabeerbukhar.as@gmail.com",
+            "phone": "+92 321 4334769",
+            "current_position": "Business Development Manager",
+            "current_company": "Wrangler Instruments",
+            "employment_start_date_current_company": "06-2020",
+            "first_company_start_date": "03-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/aabeer-suhail-bukhari-5b723019b"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 12,
+            "experience": 69,
+            "innovation and adaptability": 19
+        },
+        "micro_dict": {
+            "business intelligence tools (power bi, sql, tableau)": 22,
+            "digital marketing skills": 40,
+            "project management": 38
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Proficiency in at least one programming language",
+            "3+ years of experience in lead generation or business intelligence"
+        ],
+        "resume": "Aabeer Suhail\nBukhari \nInternational Business\nDevelopment Manager \nCon\ufb01dent, creative and highly pro\ufb01cient\nbusiness professional adept in foreign market\nentry, expansion and product launch in new\nterritories. \naabeerbukhar.as@gmail.com \n+92 321 4334769 \nLahore, Pakistan \nlinkedin.com/in/aabeer-suhail-bukhari-\n5b723019b \nWORK EXPERIENCE \nBusiness Development Manager \nWrangler Instruments \n06/2020 - Present\n, \n \nLahore, Pakistan \nManufacturer & Exporter of Surgical Instruments to EU & USA with an annual sales of $6m \nSecured the largest (by value of money) Purchase Order to date by a new\nclient based in Copenhagen, Denmark. (Initial value of 180,000 USD. The\naccumulate client purchase by far this year is approximately $1M) \nSuccessfully planned, negotiated and won a contract with UNICEF Supply\nDivision (03 year exclusive contract worth $1.5M per annum) \nIncreased the Revenue by 28% with an existing Key Account by heading a\nproject of oAering a new product (Market Regulations, Price break ups,\nForecasting, Packaging, Delivery). \nOrganized and attended meetings with existing key accounts \n& set up new\nmeetings with potential customers, travelled to 5+ EU Countries on a 02\nweek successful business trip representing the company. \nRepresented the company at an exhibition in the UAE, while also\nnegotiating contracts with potential clients in the UAE. \nExpanded the BD Department to a team of 03 Business Development\nODcers targeting diAerent market segments. \nDeveloped and implemented Market Entry Strategy for the \nNon-pro\ufb01t\nsector and marketing and sales plan for the OEM Sector for the year 2021-\n2022. \nDe\ufb01ned the Customer Acquisition Process along with Customer Persona\n(most pro\ufb01table) for organization by utilizing extensive market research\nand competitive analysis. \nFormulated SOPs as per Shareholder policies for the Business\nDevelopment Department. \nWorked with Regulatory Consultants to successfully ensure our products\ncan access new markets in EU (Swiss Rep, UKCA Compliance) while also\nheading projects for new regulations updating. \nBusiness Development Executive \nWrangler Instruments \n01/2020 - 06/2020\n, \n \nExpanded the clientage of the department by addition of 08 new long\nterm, sustainable and diverse customer partnerships from Portugal,\nUnited Kingdom, Belgium, Mongolia, Bangladesh, etc. \nInternational Marketing Executive \nThermosole Industries Pvt. Ltd. \n03/2019 - 11/2019\n, \n \nUnder the hood automobile aftermarket parts manufacturer & exporters to the EU \nSingle handedly drove 33% increase in international sales. \nDiversi\ufb01ed clientage by securing 3 new international clients from Spain &\nItaly. \nEDUCATION \nBachelors of Chemical Engineering \nCOMSATS University, Lahore / Lancaster University,\nUnited Kingdom \n09/2014 - 06/2018\n, \n \nCERTIFICATES \nKey Account Management, Breakthrough\nStrategies for Growing Valued Customer\n- Rausing Executive Development Centre,\nLUMS\n (07/2021 - 08/2021)\n \nEmployer Sponsored Corporate Training \nInternational Trade Managment, Import\nExport Procedures - PIMS, Lahore.\n (09/2019 - 10/2019)\n \nSelf-sponsored Diploma \nSKILLS \nRelationship Management \nInterpersonal Communication \nStrategy Development and Creative\nPlanning \nBrand Building & Strategy Enforcements \nCompetitive Analysis and Trend\nIdenti\ufb01cation \nNew Product and Packaging Ideas \nMarketing Research \nMarket Entry Strategy \nCustomer Acquisition \nPERSONAL PROJECTS \nBusiness Development Consultancy to a\nUS Based Client - Remotely\n (01/2022 - 03/2022)\n \nDrafted Customer Persona and Acquisition Plan\nfor an eAective Customer Pipeline accumulation. \nIdenti\ufb01ed gaps in existing BD Plan, Brand Persona\nand Online presence and suggested changes to be\nincorporated. \nSuggested Email Marketing and LinkedIn\nCampaign. \nWrote procedure and scripts for Cold & Warm\nCalls to prospects. \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Aabeer Suhail Bukhari",
+        "number": "923214334769",
+        "skills": [
+            "Market Entry Strategy",
+            "Customer Acquisition",
+            "Competitive Analysis",
+            "Marketing Research",
+            "New Product and Packaging Ideas"
+        ],
+        "email_id": "aabeerbukhar.as@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Business Development Consultancy to a US Based Client - Remotely",
+                "description": "Drafted Customer Persona and Acquisition Plan for an effective Customer Pipeline accumulation."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "COMSATS University, Lahore / Lancaster University, United Kingdom",
+                "degree_title": "Bachelors of Chemical Engineering"
+            }
+        ],
+        "achievements": [
+            "Secured the largest Purchase Order to date by a new client based in Copenhagen, Denmark (Initial value of 180,000 USD).",
+            "Successfully planned, negotiated and won a contract with UNICEF Supply Division (03 year exclusive contract worth $1.5M per annum).",
+            "Increased the Revenue by 28% with an existing Key Account."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Key Account Management, Breakthrough Strategies for Growing Valued Customer",
+                "issuing_organization": "Rausing Executive Development Centre, LUMS",
+                "date_of_issuance": "08-2021"
+            },
+            {
+                "certification_name": "International Trade Management, Import Export Procedures",
+                "issuing_organization": "PIMS, Lahore",
+                "date_of_issuance": "10-2019"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/aabeer-suhail-bukhari-5b723019b",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Aabeer Suhail Bukhari is a proficient International Business Development Manager with a strong background in foreign market entry, expansion, and product launch. With a proven track record of securing significant contracts and increasing revenue, Aabeer demonstrates exceptional skills in market strategy and customer acquisition.",
+        "employment_history": [
+            {
+                "details": "Secured the largest Purchase Order to date by a new client based in Copenhagen, Denmark. Successfully planned, negotiated and won a contract with UNICEF Supply Division. Increased the Revenue by 28% with an existing Key Account.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2020",
+                "company_name": "Wrangler Instruments"
+            },
+            {
+                "details": "Expanded the clientage of the department by addition of 08 new long term, sustainable and diverse customer partnerships.",
+                "end_date": "06-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2020",
+                "company_name": "Wrangler Instruments"
+            },
+            {
+                "details": "Single handedly drove 33% increase in international sales and diversified clientage by securing 3 new international clients from Spain & Italy.",
+                "end_date": "11-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "International Marketing Executive",
+                "start_date": "03-2019",
+                "company_name": "Thermosole Industries Pvt. Ltd."
+            }
+        ]
+    }
+}

@@ -1,0 +1,218 @@
+{
+    "output": {
+        "justification": [
+            "Candidate demonstrated leadership through team supervision in their role as Lead Machine Learning Engineer.",
+            "Candidate's experience is more technical and R&D-oriented than strategic business development, lacking direct experience in driving sales growth or client relationship development.",
+            "Strong skills in data analysis, but lacks direct market research, sales strategy, and SEO skills necessary as per job description.",
+            "Advanced technical skills and data analysis capabilities present, which although valuable, aren't directly aligned with strategic business development."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 3
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 5
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 2
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.51,
+                "micro_scores": 3.9800000000000004
+            }
+        },
+        "personal_info": {
+            "name": "Zainab Tareen",
+            "email": "zainab.jikt@gmail.com",
+            "phone": "+923355553288",
+            "current_position": "Machine Learning Engineer",
+            "current_company": "RevolveAI",
+            "employment_start_date_current_company": "07-2021",
+            "first_company_start_date": "06-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "zainab-tareen"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 42,
+            "business development experience": 33,
+            "strategic planning": 25
+        },
+        "micro_dict": {
+            "market research": 22,
+            "negotiation": 1,
+            "sales strategy": 19,
+            "seo": 25,
+            "data analysis": 33
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "ZAINAB\nTAREEN\n+923355553288\nzainab.jikt@gmail.com\nzainab-tareen\nPROFILE\nI\nseek\nto\nlearn\nnew\nthings\nand\nfeel\nexcited\nto\nsolve\nchallenging\nproblems.\nI\nhave\na\ndiverse\nskill\nset\nwith\nremarkable\nachievements\nin\nacademics,\nR&D,\nand\nthe\ncorporate\nsector.\nEDUCA TION\n\u2014\nEXPERIENCE\n2014\n\u2013\n2018\nNUST\nH-12,\nIslamabad\nBE\nElectrical\nEngineering\n3.83/4\n*\nIn\ntop\n10\nstudents\nof\nUniversity\n2012\n\u2013\n2014\nArmy\nBurnhall\nCollege,\nAbbottabad\nFSc.\nPre-Engineering\n80.9%\n*1\nst\nPosition\nin\nCollege\n2009\n\u2013\n2012\nBeaconhouse,\nAbbottabad\nGCE\nO\u2019Level\n85%\n*1\nst\nPosition\nin\nCampus\nJuly\n2021\n\u2013\nOct\n2023 \nMachine\nLearning\nEngineer\n\u2022\nRevolveAI \n-\nConducting\na\nthorough\nresearch\non\nthe\nproblem\nto\nsuggest\npossible\nsolutions\ncomprising\nof\ncutting-edge\nas\nwell\nas\ntraditional\napproaches\n-\nBuilding\nend-to-end\ndeep\nlearning\nbased\nsolutions\nusing\nstate-of-the-art\nmodels\nto\nresolve\nthe\nproblem\nat\nhand\n-\nBuilding\nan\nefficient\ndata\npre-processing\npipeline\nto\ncater\nto\nanomalies\nin\ndata\ne.g.\nimbalanced\nclasses,\ngarbage\nin\ndata,\noutliers,\netc.\n-\nAnalyzing\ntrends\nand\nnature\nof\ndata\nto\nget\ndeeper\ninsights\ninto\nthe\nproblem\nat\nhand\nand\nresolve\nit\naccordingly\n-\nHyperparamter\ntuning\nto\ntrain\noptimal\nmodel\nby\nanalyzing\nevaluation\nmetrics\n-\nSuggesting/carrying\nout\nthe\nbest\ndeployment\napproach\ngiven\nthe\ntime\nand\ncost\nconstraints/requirements\n-\nDirectly\nworked,\nas\nwell\nas\nsupervised\nwork,\non\nNER,\nQA,\ntext\nclassification,\ntime\nseries\ndata\nforecasting,\nzero-shot\nclassification\nproblems.\nJune\n2018\n\u2013\nJuly\n2021 \nLead\nMachine\nLearning\nEngineer\n&\nPython\nDeveloper\n\u2022\nVisionX\n-\nDeveloped\nthe\ncore\nalgorithm,\nwhich\noffers\ninformation\nextraction\nfrom\npackage\nlabel,\naround\nwhich\nthe\nmajor\nproduct\nof\nthe\ncompany\nis\nbuilt.\nSupport\nfor\nover\n20\nlatin\nand\nnon-latin\nlanguages\nwas\nprovided.\n-\nHeaded\nthe\nteam\nfor\nconducting\nresearch,\nfollowed\nby\nimplementation\nof\nstate-of-the-art\nDeep\nLearning-based\nNER\nmodels\nto\nparse\ninformation\nfrom\npackage\nlabel\n-\nPlanning\nout\nthe\nroadmap\nor\nfor\nmy\ndomain\nor\nmaking\ncrucial\ndecisions\nby\nthorough\nanalysis\nof\ndata/trends\n2015\n\u2013\n2017\n(Summers) \nIntern\n\u2022\nTUKL-NUST\nR&D\nCentre\n-\nWorked\non\nMachine\nLearning,\nDigital\nImage\nProcessing\nand\nFPGA\nbased\nprojects\nINTERESTS\n\u2014\nArtificial\nIntelligence\n\u2022\nCloud\nComputing\n\u2022\nEmbedded\nSystems\n\u2022\nVLSI\n\u2022\nIoT\nSKILLS\n\u2014\nTransformers\n\u2022\nCNN\n\u2022\nLSTM\nML\n\u2022\nnltk\n\u2022\npytorch\n\u2022\npandas\nkeras\n\u2022\nNLP\n\u2022\nHuggingFace\nDocker\n\u2022\nKubernetes\n\u2022\nAWS\nFastAPI\n\u2022\nSQL\n\u2022\nWSL\nLinux\n\u2022\nElasticsearch\nSoC\n\u2022\nMCs\n\u2022\nFPGA\n\u2022\nMPs\n\u2022\nC/C++\n\u2022\nVivado\n\u2022\nXilinx\n\u2022\nMatlab\n\u2022\nPspice\n\u2022\nProteus\n\u2022\nTensorflow\n\u2022\nMasm\n\u2022\nVerilog\nResearch\nWaterX/PipeX,\nRevolveAI\nIoT,\nESP32,\nArduino\nIDE,\nTFLite\n-\nQuantizing\nand\nporting\nthe\nmodel\n-\nCollecting\nand\nanalyzing\ndata\n-\nWorking\non\nbuilding\nend-to-end\nML\npipeline\nStock\nPrice\nPrediction,\nRevolveAI\nARIMA,\nNeural\nProphet,\nMLP,\nLSTMs,\n1D\nCNN\n-\nThe\naim\nof\nthis\nproject\nwas\nto\npredict\nthe\nstock\nprice\nof\na\ncertain\nindex\nfor\nthe\nnext\nday\nthrough\nthe\nbest\npossible\napproach.\nA\ncouple\nof\napproaches\nbased\non\nARIMA\nmodels,\nNeural\nProphet,\ndifferent\nvariants\nof\nMLP ,\nLSTM,\n1D\nCNN\nmodels\nwere\ntried.\nA\nhybrid\nmodel\nconsisting\nof\n1D\nCNN\nand\nLSTM\nyielded\nthe\nbest\nresults.\nHellofact,\nRevolveAI\nHuggingFace,\nTransromers,\nPytorch,\nnltk,\nElasticsearch,\nFastAPI\n-\nWorked\non\na\nproject\nwhich\ninvolved\nbuilding\nsmart\ncategorization\nsystem,\nutilizing\ntranformer\nbased\ntext\nclassification\nmodel.\nPreprocessing\ntechniques\nlike\nfuzzy\nmatching,\nstriping\naccents,\nfolding\ntext\nto\nascii,\nwere\ndeployed\nto\novercome\nthe\nmatches\nbetween\nannotations\nand\nactual\ntext\nsince\nOCR\nengine\nwas\ndifferent\nin\nboth\ncases.\nNext,\ntext\nwas\nsplit\ninto\noverlapping\nportions\nof\ntext,\nrespecting\nthe\nsentence\nand\nparagraph\nboundaries,\nto\navoid\nloss\nof\ncontextual\ninformation\nwhile\npassing\nthe\ninput\nto\nmodel.\nModel\nwas\ntrained\nafter\napplying\nstratified\nsampling\nand\ndownsampling\non\ndata\nto\ncater\nto\nthe\nclass\nimbalance\nproblem.\nFinally ,\nhyperparameters\nlike\nlearning\nrate,\nlearning\nrate\nscheduler ,\noptimizer\nwere\ntweaked\nto\ntrain\nthe\nbest\nmodel\nPackageX,\nVisionX\nMaskRCNN,\nMMDetection,\nPytorch,\nCoco\ndataset\n-\nProposed\nand\ndeveloped\na\ndeep-learning\nbased\nsolution\nconsisting\nof\nMaskRCNN\nand\nNER\nmodule,\nbased\non\nBiLSTM\nand\nCNN,\nto\nparse\nthe\ninformation\nfrom\nthe\nimage\nof\na\npackage\nlabel/receipt.\nML-On-Chip,\nFYP,\nNUST\nXilinx,\nVivado,\nHLS,\nC/C++,\nCNN,\nFPGA\n-\nDesigned\nFPGA\nbased\nhardware\naccelerator\nfor\nimproving\nperformance\nof\ninference\nphase\nof\nConvolutional\nNeural\nNetwork\nto\nmeet\nlatency\nand\npower\nconstraints,\nof\nreal\ntime\nembedded\nsystems,\nby\napplying\ndifferent\ntechniques\nlike\npipelining,\nparallelizing\noperations,\nreducing\nmemory\naccesses,\netc.\nPursued\nit\nas\na\nFinal\nYear\nProject.\nExtra-Curricular\n/ \nAwards\n-\nVolunteer\nsocial\nwork\nwith\ndifferent\nNGOs\n-\nHeaded\ndrug\nabuse\nawareness\ncampaign\nas\nuniversity\nproject\n-\nBeing\nmember\nof\nacademics\u2019\nclub\nat\nuniversity ,\ngave\nextra-coaching\nclasses\nto\njuniors\n-\nNUST\nMerit\nBased\nScholarship\n2014-18\nReference\navailable\nupon\nrequest"
+    },
+    "details": {
+        "name": "Zainab Tareen",
+        "number": "923355553288",
+        "skills": [
+            "Transformers",
+            "CNN",
+            "LSTM",
+            "ML",
+            "nltk",
+            "pytorch",
+            "pandas",
+            "keras",
+            "NLP",
+            "HuggingFace",
+            "Docker",
+            "Kubernetes",
+            "AWS",
+            "FastAPI",
+            "SQL",
+            "WSL",
+            "Linux",
+            "Elasticsearch",
+            "SoC",
+            "MCs",
+            "FPGA",
+            "MPs",
+            "C/C++",
+            "Vivado",
+            "Xilinx",
+            "Matlab",
+            "Pspice",
+            "Proteus",
+            "Tensorflow",
+            "Masm",
+            "Verilog"
+        ],
+        "email_id": "zainab.jikt@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "WaterX/PipeX",
+                "description": "Worked on IoT, ESP32, Arduino IDE, TFLite - Quantizing and porting the model."
+            },
+            {
+                "title": "Stock Price Prediction",
+                "description": "Utilized ARIMA, Neural Prophet, MLP, LSTMs, 1D CNN for stock price prediction."
+            },
+            {
+                "title": "Hellofact",
+                "description": "Built a smart categorization system using transformer-based text classification."
+            },
+            {
+                "title": "PackageX",
+                "description": "Developed a deep-learning solution using MaskRCNN and NER module."
+            },
+            {
+                "title": "ML-On-Chip",
+                "description": "Designed FPGA based hardware accelerator for CNN inference."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "NUST",
+                "degree_title": "BE Electrical Engineering"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Army Burnhall College, Abbottabad",
+                "degree_title": "FSc. Pre-Engineering"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Beaconhouse, Abbottabad",
+                "degree_title": "GCE O\u2019Level"
+            }
+        ],
+        "achievements": [
+            "In top 10 students of University",
+            "1st Position in College",
+            "1st Position in Campus",
+            "NUST Merit Based Scholarship 2014-18"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "zainab-tareen",
+                "website_name": "X"
+            }
+        ],
+        "executive_summary": "Zainab Tareen is a skilled Machine Learning Engineer with a strong background in Electrical Engineering and extensive experience in developing deep learning solutions. She has demonstrated her technical expertise through various projects and has achieved notable academic success, including top positions in her educational institutions.",
+        "employment_history": [
+            {
+                "details": "Conducting thorough research on problems and suggesting solutions, building end-to-end deep learning solutions, and analyzing data trends.",
+                "end_date": "10-2023",
+                "location": "",
+                "job_title": "Machine Learning Engineer",
+                "start_date": "07-2021",
+                "company_name": "RevolveAI"
+            },
+            {
+                "details": "Developed core algorithms for information extraction and led a team in implementing deep learning models.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Lead Machine Learning Engineer & Python Developer",
+                "start_date": "06-2018",
+                "company_name": "VisionX"
+            },
+            {
+                "details": "Worked on Machine Learning, Digital Image Processing, and FPGA based projects.",
+                "end_date": "08-2017",
+                "location": "",
+                "job_title": "Intern",
+                "start_date": "06-2015",
+                "company_name": "TUKL-NUST R&D Centre"
+            }
+        ]
+    }
+}

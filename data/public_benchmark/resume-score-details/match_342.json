@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "Shahrukh Ali does not have experience explicitly mentioning lead generation, but has experience in business development which may overlap: 6",
+            "Lacks listing in any of the preferred universities, but possesses MBA and Bachelor's degree: 5",
+            "No explicit mention of Power BI, SQL, or Tableau experience: 4",
+            "No evidence of leadership roles or significant project management experience: 4",
+            "No experience with C++, HTML, CSS, or BI tools mentioned in resume: 2",
+            "The position at InspecTest is his current role, however, it does not detail usage of CRM or data management tools: 0",
+            "Has over 12 years of experience, but not directly related to lead generation and business intelligence: 8",
+            "The experience at KPMG revolves around financial analysis, not primarily data management: 5"
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm and data management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.39,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Shahrukh Ali",
+            "email": "shahrukh.ali@descon.com",
+            "phone": "4618452",
+            "current_position": "Business Development Executive",
+            "current_company": "InspecTest (Private) Limited",
+            "employment_start_date_current_company": "02-2022",
+            "first_company_start_date": "08-2009",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/shahrukh-ali-3021ab24a"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 0,
+            "experience": 39,
+            "innovation and adaptability": 61
+        },
+        "micro_dict": {
+            "crm and data management": 100
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "3+ years of experience in lead generation or business intelligence",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "Strong communication and interpersonal skills",
+            "Bachelor's degree in Computer Science, Business, or a related field"
+        ],
+        "resume": "SHAHRUKH ALI\nshahrukh.ali@descon.com 4618452\nlinkedin.com/in/shahrukh-ali-3021ab24a\nSummary\nA highly motivated and result-driven Business Development Executive who also has served as a Finance &\nAccounts Professional with 12 years of invaluable experience including being skilled in numerous business\ndevelopment, financial & accounting fields. I have the ability to handle complex assignments effectively &\npossessing the confidence to work as part of a team or independently. An established reputation for self\u2010\nmotivation, attention to detail excellent organizational skills, and high ethical conduct. Presently looking for the\nbest opportunity with a goal-oriented company where I can excel, deliver and achieve according to my potential. I\nam enthusiastic to learn keenly about emerging developments in my job sector.\nExperience\nSenior Associate\nKPMG In Pakistan\nAug 2021 - Feb 2022 (7 months)\nTeam Supervision and Training\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst: Processing accounts and incoming payments in compliance.\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nVendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nBusiness Development Executive\nInspecTest (Private) Limited\nFeb 2022 - Present (7 months +)\nBusiness Development Accounting, Finance, and Revenue\nClient Relations\nClient Dealing\nAccounts Executive\nDescon Engineering Limited\nAug 2009 - Jul 2021 (12 years)\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nSHAHRUKH ALI - page 1Vendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nEducation\nUniversity Of Central Punjab\nMBA\nHajvery University\nBachelor of Commerce\nSkills\nabacus  \u00a0 \u2022 \u00a0 accountancy  \u00a0 \u2022 \u00a0 accounts receivable  \u00a0 \u2022 \u00a0 accpac  \u00a0 \u2022 \u00a0 analysis  \u00a0 \u2022 \u00a0 business law  \u00a0 \u2022 \u00a0 ceo  \u00a0 \u2022 \u00a0\nconsulting  \u00a0 \u2022 \u00a0 data entry  \u00a0 \u2022 \u00a0 database administration\nSHAHRUKH ALI - page 2"
+    },
+    "details": {
+        "name": "SHAHRUKH ALI",
+        "number": "4618452",
+        "skills": [
+            "SAP ERP",
+            "Oracle",
+            "abacus",
+            "accountancy",
+            "accounts receivable",
+            "accpac",
+            "data entry",
+            "database administration"
+        ],
+        "email_id": "shahrukh.ali@descon.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2010",
+                "university": "Hajvery University",
+                "degree_title": "Bachelor of Commerce"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "University Of Central Punjab",
+                "degree_title": "MBA"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/shahrukh-ali-3021ab24a",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "SHAHRUKH ALI is a highly motivated and result-driven Business Development Executive with 12 years of invaluable experience in business development, finance, and accounting. He possesses strong technical skills in SAP ERP and Oracle, and has a proven track record in handling complex assignments effectively.",
+        "employment_history": [
+            {
+                "details": "Team Supervision and Training, Data entry analyst: Update the system as invoices are received, Bank Payment Analyst: Processing accounts and incoming payments in compliance, Exceptions analyst: Address disputes and payment failure issues, Vendor maintenance analyst: Maintain an accurate supplier database, Finance Analyst: Performing day-to-day financial transactions, including verifying, classifying, computing, posting, and recording accounts receivables\u2019 data.",
+                "end_date": "02-2022",
+                "location": "Pakistan",
+                "job_title": "Senior Associate",
+                "start_date": "08-2021",
+                "company_name": "KPMG In Pakistan"
+            },
+            {
+                "details": "Business Development Accounting, Finance, and Revenue, Client Relations, Client Dealing.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "02-2022",
+                "company_name": "InspecTest (Private) Limited"
+            },
+            {
+                "details": "Data entry analyst: Update the system as invoices are received, Bank Payment Analyst, Exceptions analyst: Address disputes and payment failure issues, Vendor maintenance analyst: Maintain an accurate supplier database, Finance Analyst: Performing day-to-day financial transactions, including verifying, classifying, computing, posting, and recording accounts receivables\u2019 data.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Accounts Executive",
+                "start_date": "08-2009",
+                "company_name": "Descon Engineering Limited"
+            }
+        ]
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "output": {
+        "justification": [
+            "Strategic Planning scored a 7 because the candidate has experience in business development and leadership roles, but the strategic aspect is not explicitly detailed in the resume.",
+            "Lead Generation scored an 8 as the candidate has trained internees in lead generation and has practical experience using CRM tools.",
+            "CRM Systems scored a 9 due to the candidate's extensive usage of HubSpot and Salesforce for managing leads, demonstrating proficiency.",
+            "Market Research scored a 6 as the resume lacks specific examples of market research activities, although the role necessitates such skills.",
+            "Project Management scored a 5 because while the candidate has project coordination experience, explicit management documentation and outcomes are absent."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 8
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 9
+                },
+                {
+                    "criteria": "market research",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 5.74
+            }
+        },
+        "personal_info": {
+            "name": "Zarwa Shahid",
+            "email": "shahidzarwa4@gmail.com",
+            "phone": "0306-1538612",
+            "current_position": "Business Development Executive",
+            "current_company": "Tecspine",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "01-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/zarwa-shahid-926986208/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "strategic planning": 100
+        },
+        "micro_dict": {
+            "lead generation": 1,
+            "crm systems": 0,
+            "market research": 71,
+            "project management": 28
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "Bachelor's degree in Business Administration or related field",
+            "Proven track record in lead generation and client engagement",
+            "5+ years of relevant experience in business development"
+        ],
+        "resume": "Zarwa  Shahid  \nBusiness  Development  Executive  \n \n \n \nContact  \nJohar Town,  \nLahore  \n0306 -1538612  \nshahidzarwa4@gmail.com  \nhttps://www.linkedin.com/in/zarwa - \nshahid -926986208/  \n \n \nEducation  \nFast  University  (2022)  \nSuperior  Group  of colleges  (2017)  \n \n \n \nLicense and  \nCertification  \ne-commerce  Affiliate  Marketing  \n(Ecommerce Pro)  \neCommerce  Sales  & Marketing  Funnels  \n(Ecommerce Pro)  \nFacebook  Advertising  for eCommerce  \n(Ecommerce Pro)  \neCommerce Google Ads  \n(Ecommerce Pro)  \nWordPress  WooCommerce  \n(Ecommerce  Pro)  \n \n \n \nKey  Skills  \nMarketing  \nLead Generation  \nProposal Writing  \nSocial  Media  \nPlanning  \nWordPress  \nExcellent  Communication  \nIT Sales  Objective  \nI am a dedicated team member who tries his best to achieve revenue  \nexpectations and aims to reach his goals. I take great pride in my  \ncommunication skills, attention to detail, ability to multitask, and  \nreliability. I am hard -working and punctual. I can make prob lem-solving  \ndecisions swiftly. I'm looking for opportunities to learn and acquire new  \nskills  so I can improve  my skills for  a thriving  career  in the IT industry.  \n \n \nExperience  \n2022  \u2013 2023  \nBusiness  Development  Executive  @ Software  Pro \nSoftware Pro is part of a leading technology group from New York USA. \nAs their  BD executive,  I am responsible  for driving  company  sales  by \nsourcing  new clients  and creating  long -term  value  for their  business  via \nBD platforms.  \n \n2023  \u2013 (part  time)  \nBusiness  Development  Executive  @ IT Cado  LLC  \n\u2022 Hired  as an experienced  then  promoted  to business  development  \nexecutive as Team lead.  \n\u2022 Trained  internees  for lead  generation  and Upwork  bidding  \n\u2022 Used  HubSpot  and Salesforce  to manage  leads  \n\u2022 Canva  expert  | Designed  various  proposals  for clients  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira  for client  \ncommunication  \n \n     (2023 - full time)  \n    Business  Development  Executive  @Tecspine  \n      \n\u2022 Hired  as an experienced  then  promoted  to business  development \nexecutive as Team lead.  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira for client  \n \n             "
+    },
+    "details": {
+        "name": "Zarwa Shahid",
+        "number": "03061538612",
+        "skills": [
+            "WordPress",
+            "HubSpot",
+            "Salesforce",
+            "Canva",
+            "Skype",
+            "Slack",
+            "Basecamp",
+            "Jira"
+        ],
+        "email_id": "shahidzarwa4@gmail.com",
+        "location": "Johar Town, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2022",
+                "university": "Fast University",
+                "degree_title": ""
+            },
+            {
+                "end_date": "2017",
+                "university": "Superior Group of colleges",
+                "degree_title": ""
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "e-commerce Affiliate Marketing",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "eCommerce Sales & Marketing Funnels",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Facebook Advertising for eCommerce",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "eCommerce Google Ads",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "WordPress WooCommerce",
+                "issuing_organization": "Ecommerce Pro",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zarwa-shahid-926986208/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zarwa Shahid is a dedicated Business Development Executive with experience in driving sales and managing client relationships. He possesses strong technical skills in various software tools and platforms, demonstrating a commitment to achieving business goals and enhancing company portfolios.",
+        "employment_history": [
+            {
+                "details": "Responsible for driving company sales by sourcing new clients and creating long-term value for their business via BD platforms.",
+                "end_date": "2023",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2022",
+                "company_name": "Software Pro"
+            },
+            {
+                "details": "Promoted to business development executive as Team lead. Trained internees for lead generation and Upwork bidding. Used HubSpot and Salesforce to manage leads. Designed various proposals for clients.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2023",
+                "company_name": "IT Cado LLC"
+            },
+            {
+                "details": "Promoted to business development executive as Team lead. Responsible for designing and managing company portfolios.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "2023",
+                "company_name": "Tecspine"
+            }
+        ]
+    }
+}

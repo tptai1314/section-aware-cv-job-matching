@@ -1,0 +1,137 @@
+{
+    "output": {
+        "justification": [
+            "The resume shows experience primarily in game development, not electrical engineering.",
+            "No mention of MATLAB or AutoCAD proficiency in the resume.",
+            "Education in Software Engineering instead of Electrical Engineering.",
+            "Does not meet the proficiency requirement in MATLAB and AutoCAD as per job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "motivation and willingness to learn",
+                    "score": 5
+                },
+                {
+                    "criteria": "teamwork and collaboration",
+                    "score": 5
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "matlab",
+                    "score": 0
+                },
+                {
+                    "criteria": "arduino ide",
+                    "score": 0
+                },
+                {
+                    "criteria": "proactive learning",
+                    "score": 5
+                },
+                {
+                    "criteria": "teamwork",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in MATLAB and AutoCAD",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 3.9
+            }
+        },
+        "personal_info": {
+            "name": "Ehtesham",
+            "email": "gdetesham@gmail.com",
+            "phone": "0341-2182454",
+            "current_position": "Unity Developer",
+            "current_company": "None",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "01-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Junior Electrical Engineer Trainee\n\n**Location**: Lahore, Pakistan  \n**Company**: Z-Tech Innovations\n\n### About Us\nZ-Tech Innovations is at the forefront of pioneering solutions in electrical engineering and automation. Our core belief is in harnessing technology to simplify lives and enhance mobility. As a Junior Electrical Engineer Trainee, you will be part of an exciting team dedicated to innovation and excellence.\n\n### Job Overview\nWe are looking for a motivated and proactive Junior Electrical Engineer Trainee to join our dynamic engineering team. This entry-level role is perfect for recent graduates eager to apply their academic knowledge in a practical setting.\n\n### Key Responsibilities\n- Participate in project development, including tasks such as sensor integration and automation.  \n- Assist in the design and testing of electrical systems using industry-standard tools.  \n- Contribute to team discussions and provide insights on the latest trends in electrical engineering technology.  \n- Collaborate with senior engineers in developing innovative solutions for industrial applications.  \n- Maintain compliance with Health, Safety, and Environmental Policies.\n\n### Skills & Qualifications\n- **Technical skills**: Proficiency in MATLAB, AutoCAD, Proteus, and familiarity with Arduino IDE.  \n- **Soft skills**: Strong communication, teamwork, and report writing skills.  \n- **Personal attributes**: Proactive, self-motivated, with a strong willingness to learn and adapt.\n\n### Opportunities\n- Experience with real-world projects focused on automation and mobility technologies.  \n- Engage in our structured training programs designed to enhance technical skills.  \n- Career advancement based on performance and skill growth.",
+        "macro_dict": {
+            "motivation and willingness to learn": 11,
+            "teamwork and collaboration": 28,
+            "communication skills": 61
+        },
+        "micro_dict": {
+            "matlab": 8,
+            "arduino ide": 14,
+            "proactive learning": 45,
+            "teamwork": 33
+        },
+        "additional_info": "Z-Tech Innovations prefers candidates with a demonstrated interest in STEM through participation in relevant projects and events. We are supportive of candidates pursuing higher education and offer flexible work schedules to accommodate studies. Relocation support is available for candidates living outside Lahore. Skills assessments will include practical tests using MATLAB and AutoCAD, as well as a panel interview focusing on teamwork and technical problem-solving abilities.",
+        "minimum_requirements": [
+            "Proficiency in MATLAB and AutoCAD"
+        ],
+        "resume": "PYTHON\nPROBLEM SOLVING\nUNITY \nGAME DEVELOPMENT \nGAME DESIGNING C++\nP :  0 3 4 1 - 2 1 8 2 4 5 4  \nE :  g d . e h t e s h a m @ g m a i l . c o m  P E R S O N A L S K I L L S \nC r e a t i v e  s p i r i t\n R e l i a b l e  a n d  p r o f e s s i o n a l\n O r g a n i z e d\nT i m e  m a n a g e m e n t\n T e a m  p l a y e r  \nF a s t  l e a r n e r  \nM o t i v a t e d  P R O F E S S I O N A L \nS K I L L S \nCONTACTE H T E S H A M\nU  N  I  T  Y  D  E  V  E  L  O  P  E  R\nI  i n t e n d  t o  c o n t i n u e  w o r k  i n  a  c r e a t i v e  t e a m  u s i n g  a s  m a n y  o f  \nm y  s k i l l s  a s  p o s s i b l e  t o  m a x i m i z e  m y  p o t e n t i a l  a n d  f u r t h e r  m y  \ne x p e r i e n c e  .  A s  a  s o f t w a r e  e n g i n e e r  a n d  s e a s o n e d  U n i t y  \nd e v e l o p e r , I  h a v e  t h e  e x p e r i e n c e  t o  p r o d u c e  a  q u a l i t y  \np r o d u c t  e f f i c i e n t l y  .  I  a m  a  v e r s a t i l e ,  e n t h u s i a s t i c ,  p a s s i o n a t e  \nD e v e l o p e r  I  h a v e  e x p e r i e n c e  w i t h  b o t h  U n i t y  2 D  a n d  3 D  \nd e v e l o p m e n t  a n d  o n  b o t h  d e s k t o p  a n d  m o b i l e  a p p l i c a t i o n s .\nEDUCATIONS u p e r M o o p s  G a m e  \nW i n g s  o f  F u r y  \nI n t e r g r a t i o n  l i k e  f i r e b a s e , a d s , p l a y f a b  \nC a r  S t u n t\n O f f R o a d  T r u c k\n P o l i c e  F l y i n g  R o b o t  C a r  \nS c o r p i a n  R o b o t  T r a n s f o r m\nF a i r y L a n d\nC a r d  G a m e\nR e s t u r a n t  t y c o nGAME DEVELOPER\nB r a i n  G a m e  S t u d i o\nM a s s  G a m e s  S t u d i oGAME DEVELOPEREXPERIENCE\n J a n  0 1 , 2 0 2 1  - A p r i l\nA p r   0 1 , 2 0 2 1  \nN o w\nGARRISON UNIVERSITY LAHORE\nB A C H E L O R  O F  S O F T W A R E  E N G I N E E R I N G2 0 1 6  -  2 0 2 0"
+    },
+    "details": {
+        "name": "Htesham",
+        "number": "03412182454",
+        "skills": [
+            "Python",
+            "C++",
+            "Unity",
+            "Game Development",
+            "Game Designing"
+        ],
+        "email_id": "gd.ehtesham@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "Garrison University Lahore",
+                "degree_title": "Bachelor of Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/htesham",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/htesham",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Htesham is a dedicated Unity developer with a Bachelor of Software Engineering from Garrison University Lahore. He possesses strong technical skills in Python, C++, and game development, with experience in both 2D and 3D development for desktop and mobile applications. Htesham is passionate about producing quality products efficiently.",
+        "employment_history": [
+            {
+                "details": "Worked as a Game Developer at Brain Game Studio, focusing on game design and development.",
+                "end_date": "04-2021",
+                "location": "",
+                "job_title": "Game Developer",
+                "start_date": "01-2021",
+                "company_name": "Brain Game Studio"
+            },
+            {
+                "details": "Contributed to various projects at Mass Games Studio, enhancing skills in game development.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Game Developer",
+                "start_date": "04-2021",
+                "company_name": "Mass Games Studio"
+            }
+        ]
+    }
+}

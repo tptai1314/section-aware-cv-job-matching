@@ -1,0 +1,134 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 3+ years of experience in business development, but lacks the 5+ years of experience required in key account management. Therefore, relevant experience score is moderate.",
+            "Leadership skills are demonstrated in roles leading teams and negotiating contracts, but the depth of experience appears limited.",
+            "No mention or evidence of strategic thinking explicitly stated, reducing the potential score here.",
+            "The resume lacks specific mention of Salesforce, Vistex, or SAP ERP experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 3
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.74,
+                "micro_scores": 3.1
+            }
+        },
+        "personal_info": {
+            "name": "Zohaib Shehzad",
+            "email": "zshehzad28@gmail.com",
+            "phone": "+923021678782",
+            "current_position": "Sr. Business Development Manager",
+            "current_company": "Cherry Bytes Technologies",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 57,
+            "experience": 3,
+            "strategic thinking": 40
+        },
+        "micro_dict": {
+            "data analysis": 44,
+            "salesforce": 17,
+            "vistex": 39
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce"
+        ],
+        "resume": "C o n t a c t\n+923021678782P h o n e\nzshehzad28@gmail.comE m a i lZohaib Shehzad\nBusiness Development Manager\nSkilled Business Development leader offering 3+ years of experience in leading operations and\nenhancing revenue. Bringing expertise in client acquisition and contract negotiation, along with\nexcellent interpersonal communication, relationship-building and team leadership abilities. Results-\ndriven and proactive with demonstrated record of accomplishment in meeting and exceeding sales\nand revenue objectives.\nE x p e r i e n c e\nEstablished relationships with key decision-makers within the customer's organization\nto promote growth and retention.\nIdentified and pursued valuable business opportunities to generate new company\nrevenue and improve bottom-line profitability.\nNegotiated and closed long-term agreements with new clients in assigned\nterritories.\nGenerated new business with marketing initiatives and strategic plans.\nGenerated new business with marketing initiatives and strategic plans.\nReached out to potential customers via telephone, email, and in-person inquiries.\nKept meticulous client notes and updated account information in company databases.\nEstablished key performance indicators to track and analyze business progress and\nadjust strategies accordingly.\nDeveloped process to analyze customer feedback to incorporate insights into product\ndevelopment strategies.\nServed as technical liaison, supporting engineering, management, procurement, sales\nand marketing, quality assurance and supply base.\nCommunicated project plans and progress to key stakeholders and project\ncontributors.\nCollaborated with business users, technical teams, database administrators and testing\nteams during kickoff meetings, joint application designing, and planning sessions to\nvalidate requirements.\nPartnered with project team members to identify and quickly address problems.Sr. Business Development Manager\nBusiness Development Manager\nTechnical Project Manager2022 - Current\n2021 - 2022\n2019 - 2021Cherry Bytes Technologies \nAmrood Labs\nKP Leads\nReference will be furnished on demandR e f e r e n c eE d u c a t i o n\nUniversity of SargodhaMaster in Information Technologies2017-2019Research\nBusiness development and planning\nProduct and service sales\nRelationship building and management\nNew Business Development\nGoal-setting\nOrder management\nPerformance metrics\nQuality control\nStaff Management\nRevenue Generation\nEnglish\nUrduL a n g u a g eE x p e r t i s e"
+    },
+    "details": {
+        "name": "Zohaib Shehzad",
+        "number": "923021678782",
+        "skills": [
+            "Business development",
+            "Product and service sales",
+            "New Business Development",
+            "Order management",
+            "Performance metrics",
+            "Quality control",
+            "Staff Management",
+            "Revenue Generation"
+        ],
+        "email_id": "zshehzad28@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "University of Sargodha",
+                "degree_title": "Master in Information Technologies"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Zohaib Shehzad is a skilled Business Development Manager with over 3 years of experience in leading operations and enhancing revenue. He possesses expertise in client acquisition and contract negotiation, demonstrating a strong track record in meeting and exceeding sales objectives.",
+        "employment_history": [
+            {
+                "details": "Established relationships with key decision-makers within the customer's organization to promote growth and retention. Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories. Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly. Developed process to analyze customer feedback to incorporate insights into product development strategies. Served as technical liaison, supporting engineering, management, procurement, sales and marketing, quality assurance and supply base. Communicated project plans and progress to key stakeholders and project contributors. Collaborated with business users, technical teams, database administrators and testing teams during kickoff meetings, joint application designing, and planning sessions to validate requirements. Partnered with project team members to identify and quickly address problems.",
+                "end_date": "Current",
+                "location": "",
+                "job_title": "Technical Project Manager",
+                "start_date": "01-2022",
+                "company_name": "Cherry Bytes Technologies"
+            },
+            {
+                "details": "Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly.",
+                "end_date": "12-2022",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2021",
+                "company_name": "Amrood Labs"
+            },
+            {
+                "details": "Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories.",
+                "end_date": "12-2021",
+                "location": "",
+                "job_title": "Sr. Business Development Manager",
+                "start_date": "01-2019",
+                "company_name": "KP Leads"
+            }
+        ]
+    }
+}

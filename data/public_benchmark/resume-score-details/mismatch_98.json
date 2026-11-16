@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "Candidate possesses a strong record of leadership skills as seen in roles like Co-Founder of Dispatch Happiness and Junior Vice Captain for Basketball. However, these roles were at university level.",
+            "Sharoon has about 1.5 years of relevant professional experience which is lower than the required minimum of 5 years.",
+            "Relevant skills in Market Research and Communication are evident but there's limited mention of practical B2B sales experience specific to IT and manufacturing sectors.",
+            "The education level meets the criteria, but the institution is not among the preferred ones in the additional info."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 6
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 4
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 7
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.87,
+                "micro_scores": 4.45
+            }
+        },
+        "personal_info": {
+            "name": "Sharoon Bakhshi",
+            "email": "20020220@lums.edu.pk",
+            "phone": "0313519225",
+            "current_position": "Business Development Executive",
+            "current_company": "Carbonteq",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "08-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 15,
+            "experience": 43,
+            "strategic thinking": 42
+        },
+        "micro_dict": {
+            "market research": 20,
+            "b2b sales": 29,
+            "communication skills": 14,
+            "it and manufacturing sector knowledge": 37
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales",
+            "Bachelor's degree in Business Administration, Marketing, or a related field"
+        ],
+        "resume": " \n \nSharoon  Bakhshi  \n \nPhone:  0313519225 ; Email:  20020220 @lums.edu.pk ; Lahore, Pakistan   \nEDUCATION   \nLahore  University  of Management  Sciences  (LUMS)                                                                 Aug 16  \u2013 Dec 21 \nB.Sc.  (Hons)  in Economics  \nPROFESSIONAL  EXPERIENCE   \nCarbonteq | Business  Development  Executive                                                                        Jan 2023 \u2013 Present  \n\u2022 Generat ing high quality leads, based on different ICP parameters and buying signals, \nreaching out to them utili zing multiple channels with the aim of adding value and securing \nbusiness opportunities  \nTkxel  | Sales  Development  Representative                                                                       March  2022  \u2013 Jan 2023  \n\u2022 Worked  as part of the Core  Sales  team,  engaging  international  clients  with the aim of \naddressing their needs and handling their objections with a conversation rate of at  least \n50%.  \n\u2022 Secured  appointments of  50+ prospect  as an SDR  and handed  them  down  the sales  funnel  to \nbe converted  into opportunities.  \n7Vals  | Customer  Success Intern                                                                                          Aug 2021 \u2013 Oct 2021  \n\u2022 Worked on two projects related to ZOHO CRM and RedMine , leading to an in -depth data  \nanalysis  report  regarding their  key performance  indicators.  \n\u2022 Designed  Help  Centre  for Zendesk  Clients for  EZ Webs  to provide  focused  guidance  to clients.  \nLEADERSHIP  EXPERIENCE  \nDispatch  Happiness  | Co-Founder  \n\u2022 A letter dispatch service for the LUMS community, with the aim of raising mental health  \nawareness . \n\u2022 Dispatched  2650  letters throughout  campus  with 10% of the proceeds being  donated  to Fountain  \nHouse  \n\u2022 Gathered feedback from members and customers to restructure the supply chain of the letter delivery  \nservice, leading  to reduction in delivery  time by 2 hours . \nBasketball  | Junior Vice  Captain  2019  \n\u2022 Led the team  into 200+  matches as  the Junior  Vice  Capitan.  \nLUMS  International  Film  Festival  (FiLUMS)  2019|  Director  Marketing  \n\u2022 FiLUMS\u201919,  resulted  in sponsorship  from Alhamra  Art Center , Pepsi,  Wardah,  Engine  and \nLeisure Club garnering PKR 2.7 million in sponsorship funding, a 170% increase over the  \nprevious  event.  \n \n\u2022 Dealt  with 350+  vendors  to set up 4 different  social  events which  catered  to 1200  delegates.  \nCollaborated with  Pepsi  to host Bayaan for the Closing  Night  concert.  \n \nPROJECTS  & RESEARCH  \nCritical  Study  of the co-relation in  stock  price  volatility  and smart -lockdown  policy  in Pakistan  \n\u2022 Primary and secondary research into the smart -lockdown policy of the Pakistan\u2019s government from  \nJune \u2013 Dec 2020 effects  on the KSE -100 index of the Karachi  Stock Exchange.  \nEconometrics  Project:  Quantitative  analysis  of the impact  of mother\u2019s  family  size on child\u2019s  education  \nattainment  in Pakistan  \n\u2022 Conducted  a quantitative analysis  on Stata  using  PSLM  data sets to find a causal  link between  \nmother\u2019s  family  size and the child\u2019s  education levels.  \nADDITIONAL  SKILLS  & INTERESTS  \nTechnology:  Proficient  in Stata  and Microsoft  Word,  Excel  & PowerPoint  \n"
+    },
+    "details": {
+        "name": "Sharoon Bakhshi",
+        "number": "0313519225",
+        "skills": [
+            "Stata",
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Microsoft PowerPoint"
+        ],
+        "email_id": "20020220@lums.edu.pk",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Critical Study of the co-relation in stock price volatility and smart-lockdown policy in Pakistan",
+                "description": "Primary and secondary research into the smart-lockdown policy of the Pakistan\u2019s government."
+            },
+            {
+                "title": "Econometrics Project: Quantitative analysis of the impact of mother\u2019s family size on child\u2019s education attainment in Pakistan",
+                "description": "Conducted a quantitative analysis on Stata using PSLM data sets."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "Lahore University of Management Sciences (LUMS)",
+                "degree_title": "B.Sc. (Hons) in Economics"
+            }
+        ],
+        "achievements": [
+            "Secured appointments of 50+ prospects as an SDR and handed them down the sales funnel to be converted into opportunities.",
+            "Led the team into 200+ matches as the Junior Vice Captain.",
+            "FiLUMS\u201919 resulted in sponsorship from Alhamra Art Center, Pepsi, Wardah, Engine and Leisure Club garnering PKR 2.7 million in sponsorship funding."
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sharoonbakhshi",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sharoon Bakhshi is a dedicated professional with a strong background in business development and sales, possessing technical skills in Stata and Microsoft Office Suite. He has demonstrated success in generating leads and securing business opportunities, along with a solid educational foundation in economics.",
+        "employment_history": [
+            {
+                "details": "Generating high quality leads, based on different ICP parameters and buying signals, reaching out to them utilizing multiple channels.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2023",
+                "company_name": "Carbonteq"
+            },
+            {
+                "details": "Worked as part of the Core Sales team, engaging international clients with the aim of addressing their needs and handling their objections with a conversation rate of at least 50%.",
+                "end_date": "01-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Development Representative",
+                "start_date": "03-2022",
+                "company_name": "Tkxel"
+            },
+            {
+                "details": "Worked on two projects related to ZOHO CRM and RedMine, leading to an in-depth data analysis report regarding their key performance indicators.",
+                "end_date": "10-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Success Intern",
+                "start_date": "08-2021",
+                "company_name": "7Vals"
+            }
+        ]
+    }
+}

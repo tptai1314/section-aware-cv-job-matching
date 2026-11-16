@@ -1,0 +1,204 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has displayed significant leadership abilities through roles like General Secretary at a university society and coordinating cross-functional teams, reflecting a score of 8 in leadership.",
+            "The candidate has extensive relevant experience in business development, meeting the 5+ years requirement, which justifies a score of 9 for experience.",
+            "Client relations experience is evident from liaison with stakeholders and client monitoring in past roles, earning an 8 in client relations.",
+            "Experience with lead generation from freelancing experience indicates a good understanding, thus marked as 7.",
+            "Considerable experience with CRM systems during his tenure as a Business Development Manager gives a score of 8.",
+            "Market research skills are evidenced by his thesis on e-commerce and professional background, scoring a 7.",
+            "Project management experience is highlighted repeatedly in his job roles, resulting in an 8 in project management."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 7
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 8
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "project management",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.17,
+                "micro_scores": 7.5
+            }
+        },
+        "personal_info": {
+            "name": "Mirza Abdur Rehman Baig",
+            "email": "abdurrehman.baig@gmail.com",
+            "phone": "(+92) 03314921269",
+            "current_position": "Senior Project Coordinator",
+            "current_company": "TRG - The Resource Group",
+            "employment_start_date_current_company": "08-2019",
+            "first_company_start_date": "08-2014",
+            "urls": [
+                {
+                    "website_name": "linkedin",
+                    "url": "linkedin.com/in/arm-projectmanager"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 60,
+            "experience": 17,
+            "client relations": 23
+        },
+        "micro_dict": {
+            "lead generation": 27,
+            "crm systems": 18,
+            "market research": 23,
+            "project management": 32
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "5+ years of relevant experience in business development",
+            "Proficiency in CRM tools and Microsoft Office Suite"
+        ],
+        "resume": "powered\tby\n\t\nsnaphunt.com\nMirza\tAbdur\tRehman\tBaig\nabdurrehman.baig@gmail.com\n(+92)\t03314921269\nLahore,\tPakistan\nlinkedin.com/in/arm-projectmanager\nHi,\tI\twould\tlike\tto\tshare\tmy\tquick\tAcademic\tand\tProfessional\tbrief\there.\tI\thave\tmy\texperience\tin\tIT\tindustry\twhereas\tacademics\tin\tManagerial\nand\tIT\tstudies.\tI\tdid\tmy\tgraduation\tin\t2012,\tsince\tthen\tI\thave\tbeen\tserving\tmultiple\troles,\tincluding\tSnr\tProject\tCoordination,\tBusiness\nDevelopment\tManager\tand\tFreelance\tSpecialist.\nMy\t\nUltimate\tGoal\n\tis\tto\tbe\tthe\tPMO\tLead\twithin\tthe\tIT\tIndustry.\tRight\tnow,\tI\tam\tserving\tTRG\t(Ibex/Afiniti)\tGroup,\tas\tSenior\tProject\tCoordinator.\nWe\tpractice\tAgile\tMethodology\tand\tfollow\tScrum\tframework\tto\taccomplish\tour\tProjects\tand\trelated\ttasks.\tFurthermore,\tI\twould\trequest\tyou\tto\nplease\tgo\tthrough\tmy\tJDs\tto\tknow\tmore\tabout\tmy\twork.\tThank\tyou.\nSenior\tProject\tCoordinator\nAug\t2019\t-\tPresent\nTRG\t-\tThe\tResource\tGroup\t(Afiniti,\tIbex,\te-Telequote)\t\n|\t\nLahore,\tPakistan\nAct\tas\ta\tpoint\tof\tcommunication\tbetween\tinternal\tstakeholders,\tteam,\tand\tProject\tManager\nPlay\tas\tthe\tkey\trole\tin\tunderstanding\tBusiness\tRequirements\tand\tdoing\tWork\tBreak\tDown\tstructuring,\tto\tallocate\ttasks\tto\tdevelopment\nresources.\nCoordinate\twith\tmanagement\tto\tmakes\tsure\tall\taspects\tof\tthe\tproject\trun\tsmoothly\tand\tefficiently\nAnalyse\tand\tcommunicate\twith\tcross\tfunctional\tteam\tmembers\tto\tensure\tthe\tproper\ttriage\tof\tthe\tproject\tand\tsupport\tTasks,\tand\tto\tprovide\nlevel\t1\tsupport\tin\tterms\tof\ttask\trequirements.\nAssist\tmanagement\tin\tresource\tutilization\tplanning\tand\treporting.\nMake\tsure\tthe\tcomplete\trequirement\tand\tprogress\tdocumentation\tof\tdevelopment\tand\tsupport\ttickets\tin\tJIRA/Helpdesk.\nAnalyse\tproject\tprogress,\tcoordinate\twith\tresources\tand\tassist\tmanagement\tin\tmitigating\tand\tremoving\timpediments\tto\tensure\tprojects\nremain\twithin\tscope\tand\tschedule.\nRelease\tManagement\tand\tcoordination\twith\tproject\tteam\tand\tinternal\tstakeholders\nScheduling\tand\tmanagement\tof\tagenda\tfor\tsprint\tplanning,\tsprint\tprogress\tand\tsprint\tretrospective\tmeeting\nBusiness\tDevelopment\tManager\nAug\t2014\t-\tSep\t2017\nPak-saudi\tJoint\tChambers\tOf\tCommerce\tAnd\tIndustry\t(Psjcci)\t\n|\t\nLahore,\tPakistan\nCollaborating\twith\tinternal\tdepartments\tto\trun\ttraining\tfor\tKnowledge\tManagement\tand\tData\tBase\tManagement.\nLiaising\twith\tinternal\tand\texternal\tstakeholders\tto\tgather\tand\tcommunicate\twith\torganizations\trequirements.\nImplemented\tProject\tframe\twork\tand\tdeveloped\tresource\tmanagement,\tplanning\t&\tscheduling\tfor\t50+\tCompanies.\nEnsuring\ttimely\tresponse\tto\tall\tparties'\tconcerns\tby\tproviding\trelevant\tinformation\nDeveloping\tvaluable\tand\tsustainable\trelationships\twith\texisting\tand\tpotential\tindustrialists\tand\texporters.\nFreelancing\tand\tTeam\tBuilding\nSep\t2012\t-\tJul\t2014\nFiverr\t|\tUpwork\t-\tSelf\tEmployed\t\n|\t\nLahore,\tPakistan\nCreated\tteam\tof\tbidders\tto\thunt\tprojects\ton\tfreelancing\tplatforms\t(Fiverr\tand\tUpwork).\nCreated\tteam\tof\tWeb\tDevelopers,\tContent\tWriters,\tSMM\tand\tSEO\tspecialists.\nPlan,\tDevelop\tand\tDelivered\ttimely\tprojects,\twhich\twe\twere\thunting\tthrough\tbidders.\nIncorporated\tB\tto\tB\t,\tand\tB\tto\tC\tmeetings,\tto\tclose\tthe\tbusiness\tdeals\nIntern\tOperations\tManagement\t-\tIntern\nMay\t2012\t-\tDec\t2012\nThe\tVitamin\tCompany\t\n|\t\nLahore,\tPakistan\nPrepared\tSOPs\tfor\tprocedures\t\"Resource\tAllocation''\tand\tLessening\tCommunication\tGap,\tClient\trole\tmonitoring,\tPreparing\treporting\nspreadsheets\tand\tother\tsupportive\tdocumentation.\nIntern\tOperations\tManagement\t-\tIntern\nJun\t2011\t-\tJul\t2011\nDescon\tChemicals\tLimited\t\n|\t\nLahore,\tPakistan\nWorked\tin\tLogistics\tand\tSupply\tChain\tdepartment,\tPracticed\tinventory\twarehousing,\tQuality\tAssurance\tand\tControl,\tPrepared\tflowcharts\tfor\nongoing\toperations.\nPROFILE\nEXPERIENCEpowered\tby\n\t\nsnaphunt.com\nMS\t-\tProject\tManagement\n2019\nBahria\tUniversity\t\n|\t\nLahore,\tPakistan\nCGPA\t:\t3.5\nProgram\tCourses\tCovered:\nProject\tManagement\tFundamentals,\tProject\tCost\tManagement,\tProject\tQuality\tManagement,\tProject\tRisk\tManagement,\tStakeholders\nManagement,\tProject\tTime\tand\tScope\tManagement,\tProject\tCommunication\tManagement,\tProject\tResource\tManagement\nResearched\tThesis\t:\nPerceived\tRisks\tin\tE-commerce\tand\ttheir\tImpact\ton\tBuyer's\tPurchasing\tintention:\tAn\tevidence\tfrom\tmetropolitan\tcities\tof\tPakistan\ne-Rozgar\tProgram\t|\t\nSEO\tand\tDigital\tMarketing\n2018\nPunjab\tUniversity\tLahore\t\n|\t\nLahore,\tPakistan\nProgram\tCovered\tfollowing\taspects\t:\nSearch\tEngine\tOptimization\t(SEO),\tContent\tWriting\tand\tContent\tMarketing,\tGoogle\tTools\tIntegration\tSearch\tConsole\tand\tTag\tManager,\tLead\ngeneration,\tWordpress\tinstallation\tand\tTheme\tIntegration.\nDigital\tMarketing\tincluding\tPixel\tsetup\tand\tLPs\tDevelopment,\tFacebook\tAnd\tInstagram\tAds\tCampaign\tsetup,\tAudience\tand\tMarket\tResearch,\nSearch\tEngine\tMarketing,\tMarketing\tFunnels,\tEmail\tMarketing\nAmal\tCareer-Prep\tFellowship\n2018\nAmal\tAcademy\nAmal\tProgram\tis\ta\tStanford\tUniversity\tand\tPepsiCo\tsupported\t3-month\tFellowship\tprogram\tto\tdevelop\tand\tboost\tone's\tprofessional\tskills\tand\nfollowing\tthe\tpassion.\nProgram\tIncluded\t:\nThe\tprogram\tincorporates\tpersonal\tgrooming\tthrough\tEffective\tCommunication,\tLeadership,\tProfessional\tBehavior,\tProblem\tSolving,\tPositive\nThinking,\tGrowth\tmindset,\tSelf\tEfficacy,\tMindfulness,\tTime\tManagement\tand\tproductivity.\nBS\t-\tOperations\tManagement\t(HONS)\n2012\nForman\tChristian\tCollege\t\n|\t\nLahore,\tPakistan\nCGPA\t:\t3.2\nProgram\tCourses\tCovered\t:\nOperations\tand\tProject\tManagement,\tOperational\tExcellence,\tProductivity\t&\tPlant\tManagement,\tTotal\tQuality\tManagement,\tNew\tProduct\nDevelopment,\tProject\tManagement\tProcurement,\tManagement\tCommunications,\tMarketing\tand\tSelling,\tEntrepreneurship\tand\tBusiness\nStrategy,\tManagement\tInformation\tSystems,\tBusiness\tLaw,\tAnalysis\tof\tInstitutions,\tProduction\tPlanning\t&\tControl,\tPrinciples\tof\tFinancial\nAccounting,\tFinancial\tAccounting,\tIntermediate\tAccounting,\tManagerial\tAccounting,\tMicro\tEconomics,\tEconomics\tapplications\tfor\tBusiness\nFSc\t-\tPre\tEngineering\n2008\nFazaia\tIntermediate\tCollege,\tLahore\tCantt\t\n|\t\nLahore,\tPakistan\nMatric\n2006\nGarrison\tAcademy\tfor\tBoys,\tLahore\tCantt\t\n|\t\nLahore,\tPakistan\nEnglish\nFluent\nHave\tbeen\ta\tdelegate\tmember\tfor\t\u201cPakistan\tYoung\tLeaders\tConference,\tThe\tMedia\tCommittee\u201d\twhich\twas\trepresentative\tby\tNUPSA,\n(Oxford\tUniversity,\tPYLC\tChapter\t)\nWON\tFCC\tMerit\tScholarship\nGeneral\tSecretary\tat\tLeadership\tForum\t(\tA\tUniversity's\tSociety\t)\tduring\tgraduation.\nAgile\tMethodologies\t-\tLinkedin\tSkill\tAssessments\nEDUCATION\nLANGUAGES\nOTHER\tSKILLS\t&\tCERTIFICATIONS"
+    },
+    "details": {
+        "name": "Mirza Abdur Rehman Baig",
+        "number": "03314921269",
+        "skills": [
+            "Project Management",
+            "Agile Methodology",
+            "Scrum",
+            "JIRA",
+            "SEO",
+            "Digital Marketing",
+            "Content Writing",
+            "Google Tools",
+            "Wordpress",
+            "Email Marketing"
+        ],
+        "email_id": "abdurrehman.baig@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2019",
+                "university": "Bahria University",
+                "degree_title": "MS - Project Management"
+            },
+            {
+                "end_date": "12-2018",
+                "university": "Punjab University Lahore",
+                "degree_title": "SEO and Digital Marketing"
+            },
+            {
+                "end_date": "12-2012",
+                "university": "Forman Christian College",
+                "degree_title": "BS - Operations Management (HONS)"
+            },
+            {
+                "end_date": "06-2008",
+                "university": "Fazaia Intermediate College, Lahore Cantt",
+                "degree_title": "FSc - Pre Engineering"
+            },
+            {
+                "end_date": "06-2006",
+                "university": "Garrison Academy for Boys, Lahore Cantt",
+                "degree_title": "Matric"
+            }
+        ],
+        "achievements": [
+            "WON FCC Merit Scholarship",
+            "General Secretary at Leadership Forum during graduation."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Agile Methodologies",
+                "issuing_organization": "LinkedIn Skill Assessments",
+                "date_of_issuance": "01-2019"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/arm-projectmanager",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Mirza Abdur Rehman Baig is an experienced professional in the IT industry with a strong background in project management and business development. He has held various roles, including Senior Project Coordinator and Business Development Manager, and is skilled in Agile methodologies and digital marketing. His academic credentials include a Master's degree in Project Management and a Bachelor's degree in Operations Management.",
+        "employment_history": [
+            {
+                "details": "Act as a point of communication between internal stakeholders, team, and Project Manager. Play a key role in understanding Business Requirements and doing Work Breakdown structuring, to allocate tasks to development resources. Coordinate with management to ensure all aspects of the project run smoothly and efficiently. Analyze and communicate with cross-functional team members to ensure proper triage of the project and support tasks, and to provide level 1 support in terms of task requirements. Assist management in resource utilization planning and reporting. Ensure complete requirement and progress documentation of development and support tickets in JIRA/Helpdesk. Analyze project progress, coordinate with resources and assist management in mitigating and removing impediments to ensure projects remain within scope and schedule. Release Management and coordination with project team and internal stakeholders. Scheduling and management of agenda for sprint planning, sprint progress and sprint retrospective meeting.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Senior Project Coordinator",
+                "start_date": "08-2019",
+                "company_name": "TRG - The Resource Group (Afiniti, Ibex, e-Telequote)"
+            },
+            {
+                "details": "Collaborating with internal departments to run training for Knowledge Management and Data Base Management. Liaising with internal and external stakeholders to gather and communicate with organizations requirements. Implemented Project framework and developed resource management, planning & scheduling for 50+ Companies. Ensuring timely response to all parties' concerns by providing relevant information. Developing valuable and sustainable relationships with existing and potential industrialists and exporters.",
+                "end_date": "09-2017",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "08-2014",
+                "company_name": "Pak-saudi Joint Chambers Of Commerce And Industry (Psjcci)"
+            },
+            {
+                "details": "Created team of bidders to hunt projects on freelancing platforms (Fiverr and Upwork). Created team of Web Developers, Content Writers, SMM and SEO specialists. Plan, Develop and Delivered timely projects, which we were hunting through bidders. Incorporated B to B, and B to C meetings, to close the business deals.",
+                "end_date": "07-2014",
+                "location": "Lahore, Pakistan",
+                "job_title": "Freelancing and Team Building",
+                "start_date": "09-2012",
+                "company_name": "Fiverr | Upwork - Self Employed"
+            },
+            {
+                "details": "Prepared SOPs for procedures 'Resource Allocation' and Lessening Communication Gap, Client role monitoring, Preparing reporting spreadsheets and other supportive documentation.",
+                "end_date": "12-2012",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern Operations Management - Intern",
+                "start_date": "05-2012",
+                "company_name": "The Vitamin Company"
+            },
+            {
+                "details": "Worked in Logistics and Supply Chain department, Practiced inventory warehousing, Quality Assurance and Control, Prepared flowcharts for ongoing operations.",
+                "end_date": "07-2011",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern Operations Management - Intern",
+                "start_date": "06-2011",
+                "company_name": "Descon Chemicals Limited"
+            }
+        ]
+    }
+}

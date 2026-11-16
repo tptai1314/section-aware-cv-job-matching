@@ -1,0 +1,46 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 31,
+            "project management experience": 26,
+            "technical expertise": 43
+        },
+        "micro_dict": {
+            "pre-sales consulting": 43,
+            "solution architecture": 57
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Experience in managing enterprise data warehouse projects",
+            "Strong understanding of Agile and SCRUM methodologies"
+        ],
+        "resume": "Once upon a mango, there was a flying giraffe named Gerald who loved to juggle pineapples while whistling classical symphonies. Gerald lived in a bustling city called Whimsyville, where the clouds were made of cotton candy and rainbows were frequent visitors. Every Tuesday, the townsfolk gathered in the central plaza to watch Gerald's spectacular juggling act, accompanied by a chorus of singing squirrels.\n\nOne day, a mysterious stranger wearing a top hat and roller skates arrived in Whimsyville, carrying an invitation to the Grand Galactic Juggling Tournament. Gerald, excited by the prospect of showcasing his talents on an interstellar stage, accepted the challenge without hesitation.\n\nArmed with nothing but his trusty pineapple arsenal and an unwavering sense of curiosity, Gerald embarked on a journey across the cosmos. He encountered all manner of peculiar beings: the grumpy Martian mathematician who only spoke in riddles, the melancholic Venusian poet who recited odes to lost moons, and the jovial Saturnian chef famous for his asteroid souffl\u00e9s.\n\nAs the tournament began, Gerald found himself juggling alongside a fluorescent octopus, a three-eyed zebra, and a levitating magician with a penchant for disappearing acts. The audience was a sea of extraterrestrial faces, all spellbound by the kaleidoscope of spinning fruits and acrobatics.\n\nIn the end, it was Gerald's unique blend of gravity-defying grace and musical wit that won the hearts of the galaxy. He was crowned the Intergalactic Juggling Champion and awarded a lifetime supply of stardust sprinkles.\n\nReturning to Whimsyville, Gerald regaled the townsfolk with tales of his cosmic adventure. Inspired by his courage and creativity, they celebrated with a grand festival, where even the clouds danced in jubilation.\n\nAnd so, the flying giraffe named Gerald continued to defy limits, reminding everyone that in a world as whimsical as theirs, even the wildest of dreams could take flight."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has leadership experience as a Business Development Executive but limited formal leadership roles at past companies.",
+            "Relevant experience includes business development roles and client interaction, aligning well with job requirements.",
+            "Candidate has experience with CRM software as a Business Development Executive, fulfilling a key requirement of the job.",
+            "No specific mentions of lead generation techniques or CRM systems used, only general business development experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.34,
+                "micro_scores": 5.28
+            }
+        },
+        "personal_info": {
+            "name": "Subhan Falak",
+            "email": "Subhanfalak2.0@gmail.com",
+            "phone": "+92 316 458 4589",
+            "current_position": "Business Development Executive",
+            "current_company": "GlobizITech Enterprises Pvt. Ltd.",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "06-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 66,
+            "client relations": 34
+        },
+        "micro_dict": {
+            "lead generation": 69,
+            "crm systems": 28,
+            "project management": 3
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools and Microsoft Office Suite"
+        ],
+        "resume": "SubhanFalak\nBusiness Development Executive\nContact Info\nLanguagesProfessional SkillsProfile Info\nEducation History\nWork ExperienceI have worked with different international clients and customers,\nmaintaining a healthy relationship with both. I have vast experience\nin customer services and selling products & services. Moreover, I\nhave expertise in bidding on Upwork & Fiverr, professional email\nwriting, and content writing.\nEmail\nAddressPhone\n+92 316 458 4589\nSubhanfalak2.0@gmail.com\nLahore, Pakistan2019 - Present\nInstitute of Chartered\nAccountants of Pakistan, Lahore2015 - 2017\nMuhammadan Anglo\nOriental College, LahoreChartered Accountancy F.Sc (Pre Engg.)\nI have worked at Premier BPO as a Tele- Sales Representative for a\nUS-based life insurance campaign, briefing the customers about the\ncompany's plans & services and transferring the calls to closers for\ninterested customers.Hobbies\nTraveling\nBadminton\nTable Tennis\nPhotography\nLearning Languages\nUrdu\nEnglish\nSaraiki\nPashto\nPunjabi\nFrenchCreative\nVigilance\nPunctuality\nVersatility\nTeam Work\nProfessionalism\nStrong Work Ethic\nConflict Resolution\nEmail Handling\nWorked as a Customer Service Specialist for a US-based company\n(Speedtalk Mobile), providing assistance to customers by answering\ntheir questions and resolving queries via calls and emails.\nAlso worked as a Parts Ordering Officer for a US-based company\n(NuBrakes). My job was to order the right parts (Brake Shoes & Pads)\nfor any booked appointment.I am currently working as a Business Development Executive for this\nIT start-up. My duties include bidding on Upwork & Fiverr, arranging\n& leading meetings with clients, negotiating, and email handling.\nApart from my duties, I have designed several product catalogs and\nsocial media posts. From writing scripts to voiceovers, I have\ncreated several product videos to give this start-up a boost.May 2022 - Present GlobizITech Enterprises Pvt. Ltd.Business Development Executive\nApr 2020 - May 2021 Mindbridge Pvt. Ltd.Customer Service SpecialistJun 2021 - Feb 2022 Premier BPO, Inc.Tele Sales Representative"
+    },
+    "details": {
+        "name": "Subhan Falak",
+        "number": "923164584589",
+        "skills": [
+            "Bidding on Upwork",
+            "Bidding on Fiverr",
+            "Professional email writing",
+            "Content writing"
+        ],
+        "email_id": "Subhanfalak2.0@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2017",
+                "university": "Institute of Chartered Accountants of Pakistan, Lahore",
+                "degree_title": "Chartered Accountancy"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "Muhammadan Anglo Oriental College, Lahore",
+                "degree_title": "F.Sc (Pre Engg.)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/subhanfalak",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Subhan Falak is a skilled Business Development Executive with extensive experience in customer service and sales. He has a proven track record of working with international clients and is proficient in bidding on platforms like Upwork and Fiverr. His technical skills include professional email writing and content creation, making him a valuable asset in the IT sector.",
+        "employment_history": [
+            {
+                "details": "Currently working as a Business Development Executive, responsible for bidding on Upwork & Fiverr, arranging & leading meetings with clients, negotiating, and email handling. Designed product catalogs and social media posts, and created product videos.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "05-2022",
+                "company_name": "GlobizITech Enterprises Pvt. Ltd."
+            },
+            {
+                "details": "Provided assistance to customers by answering their questions and resolving queries via calls and emails.",
+                "end_date": "05-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Specialist",
+                "start_date": "04-2020",
+                "company_name": "Mindbridge Pvt. Ltd."
+            },
+            {
+                "details": "Worked as a Tele-Sales Representative for a US-based life insurance campaign, briefing customers about the company's plans & services.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Tele Sales Representative",
+                "start_date": "06-2021",
+                "company_name": "Premier BPO, Inc."
+            }
+        ]
+    }
+}

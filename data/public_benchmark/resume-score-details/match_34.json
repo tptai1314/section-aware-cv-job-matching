@@ -1,0 +1,166 @@
+{
+    "output": {
+        "justification": [
+            "Leadership: Candidate has experience in various roles but lacks explicit leadership positions in data management or technical teams.",
+            "Project Management Experience: No direct technical project management roles; most experience is in non-technical or unrelated positions.",
+            "Technical Expertise: Contains IT-related skills but lacks emphasis on specific data tools or analytics, which are required for the role.",
+            "Client Relationship Management: Significant experience in marketing and sales roles indicates good client interaction but in different contexts than the role demands.",
+            "Solution Architecture: Resume does not detail experience related to designing or managing solution architecture.",
+            "Agile Methodologies: No mention of Agile or SCRUM methodologies, crucial for the role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "solution architecture",
+                    "score": 2
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.97,
+                "micro_scores": 1.5799999999999998
+            }
+        },
+        "personal_info": {
+            "name": "Usama Ali",
+            "email": "usamaa017@gmail.com",
+            "phone": "03041281062",
+            "current_position": "Business Development Executive",
+            "current_company": "Arhamsoft Pvt Ltd",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 2,
+            "project management experience": 25,
+            "technical expertise": 17,
+            "client relationship management": 56
+        },
+        "micro_dict": {
+            "solution architecture": 58,
+            "agile methodologies": 42
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Master's degree in Computer Science, Business Administration, or related field",
+            "10+ years of industry experience in project management and data analytics",
+            "Strong understanding of Agile and SCRUM methodologies"
+        ],
+        "resume": "Usama Ali  \nA Block, PIA Colony, Lahore  \nCell: 03041281062,  03319746862  \nEmail: usamaa017@gmail.com    \nOBJECTIVE  \nSeeking a challenging and growth -oriented position in a well -reputed organization, \nwhere I can make an effective use of my knowledge and capabilities, to utilize my \ntalent, experience and qualification in a most effective manner towards building up a \ncareer in corporate.   \nPERSONAL DETAIL    \n Father\u2019s Name  : Muhammad Nawaz  \n Date of birth  : 21-02-1995  \n CNIC No.  : 36201 -8598268 -9 \n Domicile  : Lodhran (Punjab)  \n Nationality  : Pakistani  \n Religion  : Islam  \n Marital Status  : Single  \n Gender  : Male  \nQUAL  FICATION     \n DEGREE   CGPA /DIVISION  YEAR  BOARD /UNIVERSITY  \n B.S ( IT )   CGPA (3.67/4.00)  2018  BZU Multan  \n F.S.C   2nd   division  2013  BISE Multan  \n Matric  1st division  2011  BISE Multan  \nExperience   \n \n\u25cf Business Development Executive Arhamsoft Pvt Ltd ( Present)  \n\u25cf Sales Executive Mindbridge Pvt Lahore  \n\u25cf  Govt  Post Graduate College, Dunyapur, Lodhran  \n\u25cf Visiting Lecturer Govt Emerson College Multan  \n\u25cf IELTs Instructor at ACE School of Languages, Multan  \n \n\u25cf Amazon Product Research and Manager FBA.  \n\u25cf Amazon VA at Techtiks Multan  \n\u25cf Associate Producer 24 News HD.  \n\u25cf Former Th eatre Arts Director at Arts Council Multan  \n\u25cf Former Script Writer at Arts Council Multan  \n\u25cf Former Content Producer at Spotlights Productions  \n\u25cf Former Assistant Director MAATI TV Lahore  \n\u25cf Worked for various Web TVs.  \n\u25cf Worked for Utility Masters as Call Center Ag ent.  \n\u25cf Run own YouTube Channels including the Vlogs Shooting and Content Creation.  \n\u25cf Worked as Public awareness speaker in British Council  \n\u25cf Top Debater Multan Division 2016 -2017 in CM Punjab Competition.  \n\u25cf Announcer at Radio Pakistan Multan.  \n\u25cf Worked as a volunteer Media Coordinator with Punjab Police   \n\u25cf Worked as Content Producer at MWeb IT Solutions, Multan  \n\u25cf Worked as  Content Manager at Sharpc ore Inc, Multan  \n\u25cf Worked as Social Media Marketer at SE Software's Technologies, Multan  \n\u25cf Intellectual  SKILLS  \n\u25cf Fluency in English Language  \n\u25cf Influential public speaking and dealing.            \n\u25cf Remarkable marketing and sales potential.  \n\u25cf Working under pressure   \n\u25cf Team work and coordination  \n\u25cf Great writing experience and potential  \n\u25cf Creative and out of the box innovative thinking  \n\u25cf Problem solving/ Troubleshooting   \n\u25cf IELTS with 7.5 bands  \n\u25cf COMPUTER SKILLS  \n\u25cf Windows  \n\u25cf Android  \n\u25cf Email  \n\u25cf Internet Use  \n\u25cf MS Office (Word, PowerPoint)  \n\u25cf Good Knowledge about Computer Application   \n\u25cf Web design   \u25cf Web development   \n\u25cf Database Management   \n\u25cf Networking expert  \n\u25cf (U.S.P)  \n\u25cf Critically Analysis of every situation   \n\u25cf Reading Books & Newspapers  \n\u25cf Discovering and research  \n\u25cf LANGUA GES   \n\u25cf English  \n\u25cf Urdu  \n\u25cf Punjabi   \n\u25cf Sariki  \n      \n \n REFERENCE  \nWill be provided on demand.   \n  "
+    },
+    "details": {
+        "name": "Usama Ali",
+        "number": "03041281062",
+        "skills": [
+            "Windows",
+            "Android",
+            "Email",
+            "Internet Use",
+            "MS Office (Word, PowerPoint)",
+            "Web design",
+            "Web development",
+            "Database Management",
+            "Networking expert"
+        ],
+        "email_id": "usamaa017@gmail.com",
+        "location": "A Block, PIA Colony, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "BZU Multan",
+                "degree_title": "B.S ( IT)"
+            }
+        ],
+        "achievements": [
+            "Top Debater Multan Division 2016 -2017 in CM Punjab Competition"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/usamaali",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/usamaali",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Usama Ali is a skilled IT professional with a strong background in software and web development, proficient in various technical skills including Windows, Android, and MS Office. He has demonstrated his capabilities through his educational achievements and professional experiences in business development and content production.",
+        "employment_history": [
+            {
+                "details": "Business Development Executive",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2022",
+                "company_name": "Arhamsoft Pvt Ltd"
+            },
+            {
+                "details": "Sales Executive",
+                "end_date": "12-2021",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Mindbridge Pvt"
+            },
+            {
+                "details": "Visiting Lecturer",
+                "end_date": "12-2020",
+                "location": "Dunyapur, Lodhran",
+                "job_title": "Visiting Lecturer",
+                "start_date": "01-2019",
+                "company_name": "Govt Post Graduate College"
+            },
+            {
+                "details": "IELTs Instructor",
+                "end_date": "12-2019",
+                "location": "Multan",
+                "job_title": "IELTs Instructor",
+                "start_date": "01-2018",
+                "company_name": "ACE School of Languages"
+            }
+        ]
+    }
+}

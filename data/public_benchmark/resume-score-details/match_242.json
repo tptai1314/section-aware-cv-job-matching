@@ -1,0 +1,185 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 5+ years experience in business development, project execution, and management roles (Assistant Manager to Business Development Manager), which meets the macro criteria for experience.",
+            "The candidate demonstrated strategic thinking through leading planning and strategy initiatives at UNICOM CORPORATION and TBEA CO., LTD, aligning with macro criteria.",
+            "Microsoft Office proficiency is illustrated, particularly Excel, utilized during internship at Coca Cola for operational analysis.",
+            "Negotiation skills are highlighted in roles at UNICOM CORPORATION and TBEA CO., with demonstrated success in contract negotiations and managing key accounts."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 9
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 8
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 9
+                },
+                {
+                    "criteria": "account management",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.1,
+                "micro_scores": 8.37
+            }
+        },
+        "personal_info": {
+            "name": "Abdul Rehman Hasham",
+            "email": "22010059@lums.edu.pk",
+            "phone": "+92 3326654407",
+            "current_position": "Founder & CEO",
+            "current_company": "Stop & Shop Corner Store",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "02-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/abdul-rehman-hasham-275b324b/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 10,
+            "strategic thinking": 90
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 30,
+            "sales process management": 31,
+            "negotiation skills": 7,
+            "account management": 32
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or a related role",
+            "Proficiency in Microsoft Office Suite",
+            "Proven track record in managing complex sales cycles",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "Suleman Da wood \nSchool of Business  \nMBA  \nAbdul Rehman Hasham  \nPakistan; Mobile: +92 3326654407; 22010059@lums.edu.pk . \nhttps://www.linke din.com/in/abdul -rehman -hasham -275b324b/\n         \nEDUCATION  \nLahore University of Management Sciences  (LUMS)      August 2020 \u2013 June 2022  \nMaster of Business Administration  (MBA ) \nRelevant Courses:  Operations, Sales , Marketing and Finance  \nHarvard Business Publishing Education (Online Courses)      May 2020 \u2013 August 2020  \nRelevant Courses:  Finance, Accounting, Communication, Spread sheet  Modeling  \nBahauddin Zakariya University, Multan        Oct 2011 \u2013 Oct 2015  \nBSC Elec trical Power Engineering\nEXPERIENCE  \nCoca Cola (CCI)          July 2021 - September  2021  \nSummer Intern  \n\uf0b7 Critically analyze the past 404 days of operations by using Excel and Power BI and performed Breakdown analysis \nand identified bottlenecks in the operations which were causing delays of 32150 minutes and proposed a plan to \nimprove operations by 21%.     \n   \nUNICOM CORPORATION  \nBusiness Development Manager (B2B sales)      May 2019 \u2013 August 2020  \n\uf0b7 Collaborated with cross -functional teams and improved the customer service experience by 12%.  \n\uf0b7 Capitalized on previous relationships and closed new projects worth  32 million pkr.    \n\uf0b7 Used business and technical expertise to demonstrate the usefulness and efficiency of product offerings.  \n\uf0b7 Managed account relationships, contract negotiations, sales, pricing, billing and logistics.   \n\uf0b7 Using data analysis tools and techniques to create charts and dashboards to track and report progress . \n\uf0b7 Lead planning, strategy, proposal process and bid preparation.  \n \nTBEA CO., LTD           \nAssistant Manager Commercial   February 2018  \u2013 May 2019   \n\uf0b7 Executed  World Bank project by the arrangement of resources locally and internationally by coordinating with China \nhead office and also made contracts and negotiated with Hitachi -ABB power grid, SERGI France & Megger UK \n(212k USD ) for the equipment proc urement and service delivery.  \n\uf0b7 Nurtured relationship with the suppliers and negotiated b est prices for the organization.  \n\uf0b7 Liaise with Finance department for the budgeting activities of new projects.  \n\uf0b7 Participated in bidding activities of ADB , WB and KE  projects and negotiated contract terms.  \n \nAssistant Manager Operations        November 2015 \u2013 February 2018  \n\uf0b7 Forecasted the demand of products for multiple projects which are to be imported from the EU and China by \ncoordinating with clients and vendors to ensure the sustainability of the inventory.  \n\uf0b7 Managed the team of 25 persons independent ly to accomplish multiple  projects  within an allocated budget of 27 .5 \nmillion by str ategic sourcing and vendor management . \nPROJECTS  \n1- Digital Marketing \u2013 Launched digital product and performed Influencer and  social media  marketing to  increase awareness.   \n2- Supply Chain Management  \u2013 Analyzed and recommende d improvements in Nestle supply chain  Strategy.  \nADDITIONAL SKILLS AND EXPERIENCE  \n(1) IBM SPSS ( 2) Time management and Forecasting  (3) MS Excel (4) Effective communication and Negotiation  (5) Financial \nManagement & Capital Budgeting (6) PowerBI (7) Tableau (8) Vendor Management (9) Adaptable learner  (10) MS Projects.  \n"
+    },
+    "details": {
+        "name": "Abdul Rehman Hasham",
+        "number": "923326654407",
+        "skills": [
+            "Excel",
+            "Power BI",
+            "IBM SPSS",
+            "Tableau",
+            "MS Projects",
+            "Financial Management & Capital Budgeting",
+            "Vendor Management"
+        ],
+        "email_id": "22010059@lums.edu.pk",
+        "location": "Pakistan",
+        "projects": [
+            {
+                "title": "Digital Marketing",
+                "description": "Launched digital product and performed Influencer and social media marketing to increase awareness."
+            },
+            {
+                "title": "Supply Chain Management",
+                "description": "Analyzed and recommended improvements in Nestle supply chain Strategy."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Lahore University of Management Sciences (LUMS)",
+                "degree_title": "Master of Business Administration (MBA)"
+            },
+            {
+                "end_date": "08-2020",
+                "university": "Harvard Business Publishing Education (Online Courses)",
+                "degree_title": "Relevant Courses: Finance, Accounting, Communication, Spreadsheet Modeling"
+            },
+            {
+                "end_date": "10-2015",
+                "university": "Bahauddin Zakariya University, Multan",
+                "degree_title": "BSC Electrical Power Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/abdul-rehman-hasham-275b324b",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Abdul Rehman Hasham is a skilled business professional with an MBA from Lahore University of Management Sciences, specializing in operations, sales, and marketing. He has demonstrated expertise in data analysis and project management through his roles in various organizations, including Coca Cola and UNICOM Corporation.",
+        "employment_history": [
+            {
+                "details": "Critically analyze the past 404 days of operations by using Excel and Power BI and performed Breakdown analysis and identified bottlenecks in the operations which were causing delays of 32150 minutes and proposed a plan to improve operations by 21%.",
+                "end_date": "09-2021",
+                "location": "Coca Cola (CCI)",
+                "job_title": "Summer Intern",
+                "start_date": "07-2021",
+                "company_name": "Coca Cola (CCI)"
+            },
+            {
+                "details": "Collaborated with cross-functional teams and improved the customer service experience by 12%. Capitalized on previous relationships and closed new projects worth 32 million pkr. Used business and technical expertise to demonstrate the usefulness and efficiency of product offerings. Managed account relationships, contract negotiations, sales, pricing, billing and logistics. Using data analysis tools and techniques to create charts and dashboards to track and report progress. Lead planning, strategy, proposal process and bid preparation.",
+                "end_date": "08-2020",
+                "location": "UNICOM CORPORATION",
+                "job_title": "Business Development Manager (B2B sales)",
+                "start_date": "05-2019",
+                "company_name": "UNICOM CORPORATION"
+            },
+            {
+                "details": "Executed World Bank project by the arrangement of resources locally and internationally by coordinating with China head office and also made contracts and negotiated with Hitachi-ABB power grid, SERGI France & Megger UK (212k USD) for the equipment procurement and service delivery. Nurtured relationship with the suppliers and negotiated best prices for the organization. Liaise with Finance department for the budgeting activities of new projects. Participated in bidding activities of ADB, WB and KE projects and negotiated contract terms.",
+                "end_date": "05-2019",
+                "location": "TBEA CO., LTD",
+                "job_title": "Assistant Manager Commercial",
+                "start_date": "02-2018",
+                "company_name": "TBEA CO., LTD"
+            },
+            {
+                "details": "Forecasted the demand of products for multiple projects which are to be imported from the EU and China by coordinating with clients and vendors to ensure the sustainability of the inventory. Managed the team of 25 persons independently to accomplish multiple projects within an allocated budget of 27.5 million by strategic sourcing and vendor management.",
+                "end_date": "02-2018",
+                "location": "TBEA CO., LTD",
+                "job_title": "Assistant Manager Operations",
+                "start_date": "11-2015",
+                "company_name": "TBEA CO., LTD"
+            }
+        ]
+    }
+}

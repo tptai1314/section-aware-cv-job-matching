@@ -1,0 +1,139 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a Bachelor's degree in Electrical Engineering, meeting the educational requirement.",
+            "Proficiency in MATLAB is demonstrated in the resume, satisfying the minimum skill requirement.",
+            "Candidate lacks direct internship experience in automation or control systems; the internships listed are more focused on power and mechanical aspects.",
+            "Technical skills in C++ are evident, which aligns with Python/C++ programming requirements, though Python is not explicitly listed."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical expertise",
+                    "score": 6
+                },
+                {
+                    "criteria": "team collaboration",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "matlab",
+                    "score": 8
+                },
+                {
+                    "criteria": "arduino",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in MATLAB and basic programming (Python/C++)",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Electrical Engineering or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Relevant internship experience in automation or control systems",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.96,
+                "micro_scores": 7.28
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Nadeem",
+            "email": "budapa08@gmail.com.com",
+            "phone": "03488922694",
+            "current_position": "None",
+            "current_company": "None",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "06-2023",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "# Job Title: Electrical Engineer - Automation and Control Systems\n\n## Company: Innovate Solutions Inc.\n\n### Location: Lahore, Pakistan  \n\n---\n\n### Job Overview\nJoin Innovate Solutions Inc. as an Electrical Engineer specializing in Automation and Control Systems. This role is perfect for someone with a deep interest in developing smart solutions using cutting-edge technologies. You will be responsible for designing, developing, and testing electrical systems and components, working closely with interdisciplinary teams to drive innovative solutions.\n\n### Key Responsibilities\n- Design and implement control systems for automation in projects.\n- Collaborate in multidisciplinary teams to integrate smart technology, enhancing product efficiency and performance.\n- Develop and optimize algorithms for smart switches and IoT devices.\n- Perform simulation and modeling of electrical systems using MATLAB and other relevant tools.\n- Assist in the calibration and testing of electrical devices, ensuring compliance with industry standards.\n- Engage in continual learning to enhance technical skills in Python, MATLAB, and other relevant programming languages.\n\n### Skills & Competencies\n- Strong foundation in Electrical Engineering principles.\n- Proficiency in MATLAB, Arduino, and basic programming (Python, C++).\n- Excellent analytical skills with a focus on innovation and creative problem-solving.\n- Solid understanding of IoT applications and their integration.\n- Familiarity with industry standards for hardware testing and analysis.\n\n### Educational Requirements\n- Bachelor\u2019s degree in Electrical Engineering or a related field from an accredited university.\n- A Master\u2019s degree is preferred but not mandatory.\n\n### Work Experience\n- Relevant internship experience in electrical engineering practices and software development.\n- Demonstrated project experience in automation or control systems.\n\n### Why Join Us?\n- Dynamic and inclusive team culture\n- Opportunities for professional development and career growth\n- Work on innovative projects with the latest technology\n- Collaborative, supportive working environment\n\n---",
+        "macro_dict": {
+            "technical expertise": 96,
+            "team collaboration": 4
+        },
+        "micro_dict": {
+            "matlab": 91,
+            "arduino": 9
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Proficiency in MATLAB and basic programming (Python/C++)",
+            "Bachelor's degree in Electrical Engineering or a related field",
+            "Relevant internship experience in automation or control systems"
+        ],
+        "resume": " MUHAMMAD NADEEM\nELECTRICAL ENGINEER\nPROFILE\nMotivated Electrical Engineer with a passion for innovation and problem solving. Dedicated to apply\ntechnical expertise to design, develop, and optimize electrical system for efficiency and reliability.\nSeeking opportunities to cutting-edge projects and advance within a dynamic engineering\nenvironment.\nWORK EXPERIENCE\nEDUCATION\nB a c h e l o r  o f  S c i e n c e  i n  E l e c t r i c a l  E n g i n e e r i n g\nUniversity of Engineering and Technology Taxila\nMajor in Power.\nThesis on \"Dynamic Load balancing in power distribution network system\nCourses Electrical Machines, Power Distribution and Utilization, Power Generation, Signal\nand System, Industrial Automation ,High Voltage. S e p t e m b e r  2 0 2 0  -  J u n e  2 0 2 4Monitoring the Frequency fluctuation of electricity generation in 4.5 MWhr generator.\nObserving the  power generated by water turbines, keeping records and managing the load\naccordingly.\nEfficiently manage the power of distribution load.W A P D A  S k a r d u J u n e  2 0 2 3 - A u g u s t  2 0 2 3\nADDITIONAL INFORMATION\nT e c h n i c a l  S k i l l s : MATLAB, C++, HELIOSCOPE, ,PROTEUS, MULTISM.\nL a n g u a g e s : English, Urdu, Balti\nC e r t i f i c a t i o n s : Energy Production, Distribution & Safety (Coursera)\n       Digital signal Processing (Coursera)  Heavy Mechanical Complex Taxila\nHeat Treatment Process: Annealing, Quenching and Tempering.\nWelding Oversight: managing different welding process, Ensuring precision and quality in\nwelds.\nQuality Assurance: Ensuring metal strength and durability.J u n e  2 0 2 2 -  S e p t e m b e r  2 0 2 2\nP R O J E C T S\nDynamic Load Balancing in three phase power distribution network system (FYP).\nMaking of 10000V arc MARX Generator.\nAutomatic door openning using RFID\nF S C  a n d  M a t r i c u l a t i o n\nCadet College Skardu\nScience Pre Engineering.May 2016- June 2020 03488922694     budapa08@gmail.com.com"
+    },
+    "details": {
+        "name": "Muhammad Nadeem",
+        "number": "03488922694",
+        "skills": [
+            "MATLAB",
+            "C++",
+            "HELIOSCOPE",
+            "PROTEUS",
+            "MULTISM"
+        ],
+        "email_id": "budapa08@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "Dynamic Load Balancing in three phase power distribution network system",
+                "description": "Final Year Project."
+            },
+            {
+                "title": "Making of 10000V arc MARX Generator",
+                "description": "Project on high voltage generator."
+            },
+            {
+                "title": "Automatic door opening using RFID",
+                "description": "Project utilizing RFID technology."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "University of Engineering and Technology Taxila",
+                "degree_title": "Bachelor of Science in Electrical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Energy Production, Distribution & Safety",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2022"
+            },
+            {
+                "certification_name": "Digital Signal Processing",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2022"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Nadeem is a motivated Electrical Engineer with a strong passion for innovation and problem-solving. He is dedicated to applying his technical expertise in designing, developing, and optimizing electrical systems for enhanced efficiency and reliability.",
+        "employment_history": [
+            {
+                "details": "Monitoring the frequency fluctuation of electricity generation in a 4.5 MWhr generator. Observing the power generated by water turbines, keeping records and managing the load accordingly. Efficiently managing the power of distribution load.",
+                "end_date": "08-2023",
+                "location": "WAPDA Skardu",
+                "job_title": "Electrical Engineer",
+                "start_date": "06-2023",
+                "company_name": "WAPDA"
+            }
+        ]
+    }
+}

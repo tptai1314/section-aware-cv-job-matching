@@ -1,0 +1,174 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has experience in leading teams and managing accounts, which aligns with the leadership requirement, hence a high score in leadership.",
+            "The candidate has over 4 years of business development and key account management experience directly related to the job description, thus scoring high on relevant experience.",
+            "The resume highlights proficiency in negotiation and account management, though it lacks explicit mention of Excel skills, resulting in a moderate micro score for Microsoft Office.",
+            "The candidate graduated from FAST NUCES, a preferred institution based on additional info, which supports the overall positive evaluation."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 6
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 9
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 8
+                },
+                {
+                    "criteria": "account management",
+                    "score": 9
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.25,
+                "micro_scores": 8.120000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Moazzam Javaid",
+            "email": "moazzamjavaid0@gmail.com",
+            "phone": "+92 335 4849 557",
+            "current_position": "Assistant Manager Key Accounts",
+            "current_company": "foodpanda",
+            "employment_start_date_current_company": "03-2021",
+            "first_company_start_date": "05-2014",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/moazzam-javaid-03667b58"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 47,
+            "experience": 31,
+            "strategic thinking": 22
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 20,
+            "sales process management": 17,
+            "negotiation skills": 28,
+            "account management": 35
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office Suite",
+            "Strong negotiation and strategic thinking skills"
+        ],
+        "resume": "\u00a0 \u00a0\nContact\n+92 335 4849 557  (Mobile)\nmoazzamjavaid0@gmail.com\nwww.linkedin.com/in/moazzam-\njavaid-03667b58  (LinkedIn)\nTop Skills\nRenegotiations\nVendor Negotiation\nNegotiation\nLanguages\nEnglish  (Native or Bilingual)\nUrdu  (Native or Bilingual)\nPunjabi  (Native or Bilingual)\nCertifications\nKey Account Management\nVolnteer\nHonors-Awards\nHead CeremoniesMoazzam Javaid\nCity Development | Key Account Management | Business\nDevelopment | Ecommerce | Project Management | Sales Specialist |\nTeam Management\nLahore, Punjab, Pakistan\nSummary\nHelping companies to go digital with foodpanda!\nSales enthusiast and data driven person with 4+ years' experience\nin commercial and history of working in early-stage start-up with a\nfocus on grassroots segment.\nProven record of generating demand through various strategies and\nchannels. Skilled in strategic planning and focus on go-to-market\nstrategy with growth hack mindset. Well experience on managing\nteam and able to demonstrate good leadership.\nMeeting new people, developing new relationships, solving\nproblems, and contributing to the overall growth of a business on an\nauthentic level satisfy me!\nExperience\nfoodpanda\n4 years 6 months\nAssistant Manager Key Accounts\nMarch 2021\u00a0-\u00a0Present\u00a0 (1 year 7 months)\nLahore, Punjab, Pakistan\n\u2022 Leading a portfolio with a GMV of approx. 80mio\n\u2022 Managing key accounts in Lahore and beyond that contribute 40% to total\ncity\u2019s revenue\n\u2022 End to end management from deal acquisitions, subsidy management,\nphotography and descriptions of the restaurant dishes, premium listings,\nliaison with different verticals\n\u2022 Responsible for ensuring delivery of vendor KPIs i.e., Fail Rate, Offline\nHours, NPS, Food and Packaging ratings\n\u2022 Effective utilization of subsidy budgets to achieve order growth and campaign\nobjectives \n\u2022 Develop effective business plans to improve the orders, basket size and\nrevenue per order\n\u2022 Ensure compliance of restaurants with foodpanda requirements \n\u00a0 Page 1 of 3\u00a0 \u00a0\n\u2022 Working with Marketing department for customer acquisition\nSpecial Project Lead\nJanuary 2020\u00a0-\u00a0February 2021\u00a0 (1 year 2 months)\nDelivery Model Shift Project.\nRenegotiation Project.\nAssociate Business Development\nApril 2018\u00a0-\u00a0January 2020\u00a0 (1 year 10 months)\nLahore, Pakistan\n\u2022 To Manage and retain existing restaurants.\n\u2022 To acquire new restaurants. \n\u2022 Respond to all vendors inquires in timely manner. \n\u2022 Stay up to date on current and up coming restaurants.\n\u2022 Guide marketing strategies to vendor to grow business.\nTPI ( Technology People Initiative )\nData Analyst\nMay 2015\u00a0-\u00a0August 2015\u00a0 (4 months)\nLahore University of Management Sciences\nWorking under a team of professionals who were leading  a project sponsored\nby USAID. Bringing the complete Judiciary system online. Gathering data\nrelated to that, analyzing the statistics and reporting the results. My activities\nincluded gaining the related information , direct reporting to Project manager\nand taking feedback.\nLUMS - Lahore University of Management Sciences\nResearch Internee\nMay 2014\u00a0-\u00a0July 2014\u00a0 (3 months)\nLahore\nExperience of Working with a team of professionals who were leading a USAID\nbased project related to Judiciary of Pakistan, being run by Gov. of Pakistan. \n\u2022 Communication\n\u2022 Data gathering\n\u2022 Data Analysis + Data Entry\n\u2022 Team tours\n\u2022 Applications related Research \nEducation\n\u00a0 Page 2 of 3\u00a0 \u00a0\nNational University of Computer and Emerging Sciences\nBachelor of Business Administration (BBA),\u00a0Accounting and\nFinance \u00a0\u00b7\u00a0(2013\u00a0-\u00a02017)\nDivisional public School and college Sahiwal\nFSC,\u00a0Mathematics \u00a0\u00b7\u00a0(2010\u00a0-\u00a02012)\n\u00a0 Page 3 of 3"
+    },
+    "details": {
+        "name": "Moazzam Javaid",
+        "number": "923354849557",
+        "skills": [
+            "Key Account Management",
+            "Business Development",
+            "Ecommerce",
+            "Project Management",
+            "Sales Specialist",
+            "Data Analysis"
+        ],
+        "email_id": "moazzamjavaid0@gmail.com",
+        "location": "Lahore, Punjab, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2017",
+                "university": "National University of Computer and Emerging Sciences",
+                "degree_title": "Bachelor of Business Administration (BBA), Accounting and Finance"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Key Account Management",
+                "issuing_organization": "Volnteer",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/moazzam-javaid-03667b58",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Moazzam Javaid is a skilled professional with over 4 years of experience in key account management and business development, particularly in the ecommerce sector. He has a proven track record of managing significant portfolios and driving revenue growth through strategic planning and effective vendor management.",
+        "employment_history": [
+            {
+                "details": "Leading a portfolio with a GMV of approx. 80mio, managing key accounts in Lahore and beyond, ensuring delivery of vendor KPIs, and working with the marketing department for customer acquisition.",
+                "end_date": "10-2024",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Assistant Manager Key Accounts",
+                "start_date": "03-2021",
+                "company_name": "foodpanda"
+            },
+            {
+                "details": "Led special projects including Delivery Model Shift and Renegotiation Project.",
+                "end_date": "02-2021",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Special Project Lead",
+                "start_date": "01-2020",
+                "company_name": "foodpanda"
+            },
+            {
+                "details": "Managed and retained existing restaurants, acquired new restaurants, and guided marketing strategies to grow business.",
+                "end_date": "01-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Associate Business Development",
+                "start_date": "04-2018",
+                "company_name": "foodpanda"
+            },
+            {
+                "details": "Worked on a project sponsored by USAID, gathering and analyzing data related to bringing the complete Judiciary system online.",
+                "end_date": "08-2015",
+                "location": "Lahore",
+                "job_title": "Data Analyst",
+                "start_date": "05-2015",
+                "company_name": "TPI (Technology People Initiative)"
+            },
+            {
+                "details": "Participated in a USAID based project related to the Judiciary of Pakistan, focusing on data gathering and analysis.",
+                "end_date": "07-2014",
+                "location": "Lahore",
+                "job_title": "Research Internee",
+                "start_date": "05-2014",
+                "company_name": "LUMS - Lahore University of Management Sciences"
+            }
+        ]
+    }
+}

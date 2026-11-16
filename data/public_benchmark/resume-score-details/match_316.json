@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "Lack of specific skills mentioned such as Salesforce, CRM proficiency, and digital marketing.",
+            "No mention of strategic planning experience in the field of business development.",
+            "Less than required 5 years of documented experience in relevant roles.",
+            "CV does not specify market research or proposal writing capabilities."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 0
+                },
+                {
+                    "criteria": "crm proficiency",
+                    "score": 0
+                },
+                {
+                    "criteria": "market research",
+                    "score": 0
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 0
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.44,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza Bajwa",
+            "email": "bajwa101@gmail.com",
+            "phone": "+92 03205622861",
+            "current_position": "Business Development Officer",
+            "current_company": "HBL",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "10-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 37,
+            "experience": 33,
+            "strategic planning": 30
+        },
+        "micro_dict": {
+            "salesforce": 1,
+            "crm proficiency": 35,
+            "market research": 20,
+            "proposal writing": 38,
+            "digital marketing": 6
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "Strong analytical and strategic planning skills",
+            "5+ years of experience in business development or sales management"
+        ],
+        "resume": " \n \n \nCurriculum Vitae\nPERSONAL INFORMATION\n \nAli \nRaza \n \n \n \nState Life Housing Society\n \n+\n92\n \n03\n205622861\n \nA\nli\nstar\nbajwa\nSex\n \nMale \nNationality \n \n \nEDUCATION AND TRAINING\n \n \n \n \nR\nELEVANT\n \nSKILLS\n \n \nEXPERIENCE\n \n \nH\nOBBIES\n \n \nB.Com (August 2017)\n \nAllama Iqbal Open University\n \nBachelor Of Commerce\nIntermediate (January 2014)\n \nAllama Iqbal Open University\nHigher Secondary School Certification\nMatric (August 2011)\n \nAllama\n \nIqbal Open University\nSecondary\n \nSchool Certification\n \n \n \n \n\uf0b7\n \nProblem Solving \n\uf0b7\n \nHandling Pressure \n\uf0b7\n \nLeadership \n\uf0b7\n \nFriendly\nA\nug\n \n20\n2\n1\n \n-\n \nPresent\n \n \nHBl\n \nBusiness Development Officer\nOct \n2019 \n-\n \nSep \n2020\n \n \n \n \nUfone\n \n \nCustomer \nExecutive\nJan 201\n8\n \n-\n \nJune 20\n1\n9\n \n \nPCB Level 1 Cricket Certified\n \nGarrison College, Model T own Green\nJan 201\n0\n \n-\n \nP\nresent\n \n \nCoaching\n \n \nChief Selector Garrison University\n \n \n \n \nSports\n \nPlaying Cricket, Fast Bowler, Middle Order Batsman\nPlayed\n  \nUnder 19 Cricket  T ournament\nPlayed few matches from Wapda Department\n \nWatching Tv\n \nWatching Sports, Movies, Tv Serials\n \nGames\n \n \nPlaying Games, Grand Theft Auto\nCurriculum Vitae\n \nRaza \nBajwa \n \nState Life Housing Society\n, Lahore, Pakistan\n \n205622861\n \n \nbajwa\n101\n@\ngmail\n.com\n \n \nNationality \nPakistani\n \nLanguages \nEnglish, \nUrdu, Punjabi\n \nAllama Iqbal Open University\n \nBachelor Of Commerce\n \nAllama Iqbal Open University\n \nHigher Secondary School Certification\n \nIqbal Open University\n \nSchool Certification\n \nProblem Solving \n \nHandling Pressure \n \nLeadership \n \nFriendly\n \n\uf0b7\n \nFlexible Exceptional Time Management\n\uf0b7\n \nSelf Confident\n \n\uf0b7\n \nPatience\n \n\uf0b7\n \nCalm\n \nBusiness Development Officer\n \nExecutive\n \nOfficer\n \nPCB Level 1 Cricket Certified\n \nCoach\n \nGarrison College, Model T own Green\ns\n, Punjab Society\n \n \nChief Selector Garrison University\n, Model T own Greens, \nF\nace\n \nFresh\n \nPlaying Cricket, Fast Bowler, Middle Order Batsman\n \nUnder 19 Cricket  T ournament\n \nfrom Lahore Zone \n \nPlayed few matches from Wapda Department\n \nWatching Tv\n \nWatching Sports, Movies, Tv Serials\n \nPlaying Games, Grand Theft Auto\n \n \n \nAli\n \nRaza\n \nBajwa\n \n \n \n \n \n \n \n \n \n \n \nFlexible Exceptional Time Management\n "
+    },
+    "details": {
+        "name": "Ali Raza Bajwa",
+        "number": "03205622861",
+        "skills": [
+            "Business Development",
+            "Customer Service"
+        ],
+        "email_id": "bajwa101@gmail.com",
+        "location": "State Life Housing Society, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2017",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Bachelor Of Commerce"
+            },
+            {
+                "end_date": "01-2014",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Higher Secondary School Certification"
+            },
+            {
+                "end_date": "08-2011",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Secondary School Certification"
+            }
+        ],
+        "achievements": [
+            "PCB Level 1 Cricket Certified"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "PCB Level 1 Cricket Certified",
+                "issuing_organization": "Garrison College, Model Town Green",
+                "date_of_issuance": "01-2010"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Ali Raza Bajwa is a dedicated professional with a background in business development and customer service, holding a Bachelor of Commerce degree. He has demonstrated his commitment to excellence through his certification in cricket coaching and has experience in various roles within the corporate sector.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer responsible for driving sales and managing client relationships.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Officer",
+                "start_date": "10-2019",
+                "company_name": "HBL"
+            },
+            {
+                "details": "Customer Executive focused on providing exceptional service and support to customers.",
+                "end_date": "06-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Executive",
+                "start_date": "01-2018",
+                "company_name": "Ufone"
+            }
+        ]
+    }
+}

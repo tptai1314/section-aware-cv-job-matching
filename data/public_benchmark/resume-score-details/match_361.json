@@ -1,0 +1,132 @@
+{
+    "output": {
+        "justification": [
+            "The resume shows relevant experience being a Lead Generation Specialist and freelancer, but lacks 5+ years in business development management which implies less relevant experience compared to the job description requirements.",
+            "Strategic Planning has minimal description in the resume as roles are primarily execution-focused rather than strategic, hence a lower score.",
+            "No specific CRM System or explicit Microsoft Excel proficiency mentioned in the resume, indicative of lesser skills mastery. CRM usage indicated without details.",
+            "Micro scores: Market Research is weakly evidenced with Internet Research being a different focus area."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 4
+                },
+                {
+                    "criteria": "market research",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.52,
+                "micro_scores": 3.62
+            }
+        },
+        "personal_info": {
+            "name": "Maryam Khalid",
+            "email": "Maryamkhalid162@gmail.com",
+            "phone": "+92-312-411-3981",
+            "current_position": "Lead Generation Specialist",
+            "current_company": "Lead_IQ Agency",
+            "employment_start_date_current_company": "2021-Present",
+            "first_company_start_date": "2018-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 52,
+            "strategic planning": 48
+        },
+        "micro_dict": {
+            "crm systems": 62,
+            "market research": 38
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proven track record in lead generation and client engagement",
+            "5+ years of relevant experience in business development"
+        ],
+        "resume": "LEAD GENERATION\nSPECIALISTMARYAM\nKHALID\nSKILLSEXPERIENCE\n2021_Present\n2018 _ 2019\n2021_PresentLead Generation\nVirtual Assistant\nTeam Work  \nProgramming\nEmail Marketing\nData Managment\nCONTACT\n+92-312-411-3981\nMaryamkhalid162@gmail.comLEAD GENERATION SPECIALIST\nManaging Director\nLead _IQ Agency\nFreelancer \nFiverr & UpworkDeveloped Sales Leads through cold calling,\nmarketing lists and internet leads Etc.\nWorking in CRM  made initial contacts with\ndecision-makers, collected qualifying\ninformation & coordinated.\nPlanned and Organized routes within\nterritory to maximize efficiency and time\nin the field.\nManage Large amount  of data base and\nable to Lead Team and can do multiple\nwork at the same time.\nI am a  part time freelancer and working\nas a  Lead Generation ,Internet Research,\nWeb Scrapper, beginner Programmer   \n having    Expertise in  C++ ,HTML & CSS\ndoing projects. I am keen to Learn new\nand advance Technology and Exploring\nthe things.EDUCATION\nUniversity Of Management & Technology \n2020 - 2024 | BS-Computer Science\nPunjab Group Of Colleges\n2017-2019 | ICSABOUT ME\nI am an enthusiastic, talented, ambitious, and\nhardworking individual, with broad skills and\nexperience in Lead Generation & social media,\nand leading projects.\nFurthermore, I am adept at handling multiple\ntasks on a daily basis competently and at working\nwell under pressure.\nA key strength is a communication; building\nstrong relationships with people in order to\ndeliver the best results."
+    },
+    "details": {
+        "name": "Maryam Khalid",
+        "number": "923124113981",
+        "skills": [
+            "C++",
+            "HTML",
+            "CSS",
+            "Email Marketing",
+            "Data Management"
+        ],
+        "email_id": "Maryamkhalid162@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "04-2024",
+                "university": "University Of Management & Technology",
+                "degree_title": "BS-Computer Science"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "Punjab Group Of Colleges",
+                "degree_title": "ICS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maryamkhalid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/maryamkhalid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Maryam Khalid is a dedicated Lead Generation Specialist with a strong background in programming and data management. She has experience in developing sales leads and managing large databases, showcasing her technical skills in C++, HTML, and CSS. Maryam is also a part-time freelancer, demonstrating her ability to handle multiple tasks efficiently.",
+        "employment_history": [
+            {
+                "details": "Developed Sales Leads through cold calling, marketing lists and internet leads. Managed CRM, made initial contacts with decision-makers, collected qualifying information, and coordinated efforts. Planned and organized routes within territory to maximize efficiency and time in the field.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Lead Generation Specialist",
+                "start_date": "01-2021",
+                "company_name": "Lead_IQ Agency"
+            },
+            {
+                "details": "Worked as a Virtual Assistant, providing support in various administrative tasks and managing data effectively.",
+                "end_date": "12-2019",
+                "location": "",
+                "job_title": "Virtual Assistant",
+                "start_date": "01-2018",
+                "company_name": "Freelancer"
+            }
+        ]
+    }
+}

@@ -1,0 +1,170 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks direct experience in business development but has experience as a business analyst, which involves similar analytical skills and coordination with teams.",
+            "The resume highlights the candidate's extensive experience with IT systems and project management, but lacks direct experience in sales or the manufacturing sector.",
+            "Although the resume lists some systems skills relevant to IT, there is no clear evidence of expertise in market research, a key requirement for the role.",
+            "Past jobs and responsibilities demonstrate strategic thinking skills through project planning and coordination."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.9,
+                "micro_scores": 4.25
+            }
+        },
+        "personal_info": {
+            "name": "Hafiz Muhammad Sanwal Zia",
+            "email": "sanwalzia@gmail.com",
+            "phone": "+92-333-4133711",
+            "current_position": "Business Analyst",
+            "current_company": "InfoTech Group",
+            "employment_start_date_current_company": "01-2020",
+            "first_company_start_date": "09-2016",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 55,
+            "strategic thinking": 45
+        },
+        "micro_dict": {
+            "market research": 18,
+            "communication skills": 43,
+            "it and manufacturing sector knowledge": 39
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "5+ years of experience in business development or sales",
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": " \n \nHAFIZ  MUHAMMAD  SAN WAL ZIA                                                                       \nsanwalzia@gmail.com  \nMob:  +92-333-413371 1 \nPhone:   +92-42-35112222  \nAddress:  533-2-B2 Township  Lahore  \nPEC Registration  No: ELECTRO/22485  \n \n \n \n \nProfessional Experience  \n \nInfoTech Group   \n \nBusiness Unit - Public Sector Applications Department  \n \nDesignation: Business Analyst  \n \nDuration:  Jan-2020  till date  \nProject  1: Customs Automation System ( SOM CAS)  \n \nI am currently  working  as Business Analyst  in Public Sector  Department of  InfoTech  for their  \nCustom s Automation System . A project of Government Somalia  which was financed and \nsponsored by US Aid, UK Aid, United Nations and World Bank . In this Project  I report to Project \nDirector.  \nIn this project I am responsible for  the following tasks : \n \n\u27a2 On site visit to Mogadishu Somalia for project delivery  \n\u27a2 On site mock testing and execution of UAT cases with client  \n\u27a2 On site User Acceptance testing and getting UAT Sign off  \n\u27a2 Gathered requirement from Customs experts of \u2018Cowater International\u2019  \n\u27a2 Development of Process Flow  Diagrams  of required  systems  on MS Visio  \n\u27a2 Remote sessions  with Somali  customs for understanding of current business processes  \n\u27a2 Translate the requirement into BRS & SRS deliverable  \n\u27a2 Coordinate with development teams for development of SOM CAS \n\u27a2 Ensure the compliance of WCO data model for SOM CAS application  \n\u27a2 Ensure the compliance of SAD (single administrative document) for filing declarations  \n\u27a2 Performed BA review to en sure the compliance of business requirement  \n\u27a2 Writing Test  Cases  for User  Acceptance  Test ing \n\u27a2 Liaison  with client before and after the release has been deployed for client testing  \n\u27a2 Reporting of release status to Project Director before it is deployment for client testing  \n\u27a2 Writing  user manual for the developed features  which was one of the deliverables of the project  \n\u27a2 Internal Coordination  with  development  team  \n\u27a2 Maintaining  the record  of all the i mportant  documents  on SVN on daily  basis  \n\u27a2 Monitoring of daily tasks of QA team  and provide update to management  \n\u27a2 Manage daily, weekly and monthly update meeting with management  and client  \n\u27a2 Development of release notes for each release deployed on client site  \n\u27a2 Monitoring and tracking of the post production issues and bugs locked by client on JIRA Support Portal  \n \n Key Skills  \nTechnical  Skills  \n\u27a2 IBM Smart  Cloud  \nControl  Desk  \n\u27a2 VMWare \nWorkstation  \n\u27a2 Siebel  CRM  \n\u27a2 JIRA  \n\u27a2 Postman  \n\u27a2 Navicat  \n\u27a2 SQL Server \nManagement Studio  \n Utility  Software  \n\u27a2 MS Visio  \n\u27a2 MS Word \n\u27a2 MS Power  Point  \n\u27a2 MS Excel  \n\u27a2 MS Project  \u27a2 Manual Testing of the following features : \n \nUser management  Permission Handling  \nAccounts linkage with user  Business Units Handling  \nCargo Manifest  Bill of Lading  \nGoods Declaration  Assessment Notice  \nCustom Information Page  Inspection Report  \nCustom Warehousing  Custom Procedures based on Action Code  \nCommodity code  Companies and Declarants Handling  \nIntegrated Tariff Management  Transit Procedure  \nSelectivity Process  Risk Management  \nAuto Assignment of examiners  Taxation Rules  \nValuation Control  Tariff Specification Codes  \nReference Tables  Configurations  \n \nProject  2: Orange Line Mass Transit - Attendance Portal  (OLMT)  \nI am also working as Business Analyst in Public Sector Department of InfoTech for their Attendance Portal of Orange Line \nMass Transit Project . A project developed in -house and deployed internally. My responsibilities in this project are:   \n \n\u27a2 Requirement gathering sess ions with OLMT senior management  \n\u27a2 Development of Software  Requirement Specification document  \n\u27a2 Development of process flow diagrams  \n\u27a2 Liaison with  network and infrastructure teams to integrate biometric machines with our application  \n\u27a2 Data gathering of all the employees deployed on all the stations  \n\u27a2 Domain  session with development team and QA team to provide them business knowledge  \n \nThe salient features of the application  are: \n \n\u27a2 User Management  \n\u27a2 Update of daily attendance of all the employees  \n\u27a2 Auto update  the daily and monthly attendance calendar of all the employees  \n\u27a2 Leave management   \n\u27a2 Integration with biometric machines  \n\u27a2 Permissions handling  \n\u27a2 Maker / Checker module  \n\u27a2 Employee  hierarchy management  \n\u27a2 Provision for the clients to view the attendance portal  \n\u27a2 Import a nd Export of the daily and monthly attendance data  \n\u27a2 Report generation of employee wise attendance sheet  \n  Project  3: Human Resource Management System (HRMS)  \nSimultaneously I am currently working as Business Analyst in Public Sector Department of InfoTech for their  Human \nResource Management  System (HRMS) . A project developed in -house and deployed internally. My responsibilities in this \nproject are:   \n \n\u27a2 Requirement gathering session with HR team  \n\u27a2 Development of Business Requirement Specification document  \n\u27a2 Domain  session with development team and QA team to provide them business knowledge  \n\u27a2 Perform BA review for the developed features before the release is deployed for client testing  \n \nThe salient features of this project are:  \n\u27a2 User Management  \n\u27a2 Auto u pdate of daily attendance of all the employees  synched with biometric machine  \n\u27a2 Maintaining the daily and monthly attendance calendar of all the employees  \n\u27a2 Leave management   \n\u27a2 Integration with biometric machines  \n\u27a2 Permissions handling  \n\u27a2 Maker / Checker module  \n\u27a2 Reports  \n\u27a2 Expense clai m and its approval  \n\u27a2 Employee  hierarchy management   \n \nProject  4: Handicapping Golf Application (Golfie)  \nI have also worked as Business Analyst for the development of Golfie Application. In this application my main responsibilitie s \nare described below:  \n \n\u27a2 Requirement gathering session with golf experts  \n\u27a2 Development of Software  Requirement Specification document  \n\u27a2 Domain session with development team and QA team to provide them business knowledge  \n\u27a2 Perform BA review for the developed features before the release is deployed for client testing  \n \nThe salient features of this project are:  \n\u27a2 User Management  \n\u27a2 Creation and modification of Golf Courses  \n\u27a2 Administration of clubs and players  \n\u27a2 Real time slot booking for a specific course  \n\u27a2 Club wise Handicap calculation for golfers  \n\u27a2 Manual entries of the scores and its impact on handicaps  \n\u27a2 Upload of score via excel sheet  \n\u27a2 Bulk upload of players profile  data  via excel sheet  \n \n  Business Unit \u2013 Pre-Sales  \n \nAs business Analyst, I am also responsible to assist pre -sales for the development and compilation of the documents which \nthey use to bid for the projects. In this functional units my duties are  given below : \n \n\u27a2 Understand and analyze the Request for Proposals (RFPs) share by pre -sales team  \n\u27a2 Provide feedback about the feasibility  of projects with refer ence to t eam  availability and  \n\u27a2 Development of writeups for the solutions to be provided for the client against the RFPs  \n\u27a2 Prepa ration of  feature set of the proposed sol ution  \n\u27a2 Preparation of Item by Ite m compliance  \n\u27a2 Project delivery plan  \n\u27a2 Development methodology  \n\u27a2 Provide effort estimates by analyzing the scope and volume for the project  \n\u27a2 Liaison  with infrastructure team to p rovide hard ware specification s for the pro posal  \n\u27a2 Liaison  with development team to propose technology s tack and third -party  software recommend ation  \n \nBusiness Unit - Payment System Services  \n \nDesignation: Lead Quality Assurance  \nDuration:  Sep-2017 to Dec -2019  \n \nProject  5: Electronic Payment Gateway (PayMate)  \n \n For this Project I report ed to Head of Operations. As a Lead QA resource my key responsibilities are:  \n \n\u27a2 Writing Test Data and Test Cases of the products for Quality Assurance Test    \n\u27a2 Reporting bugs and issues regarding functional specifications and requirement  \n\u27a2 Manual Testing of account based transactions  \n\u27a2 Manual Testing of Over The Counter Payment  \n\u27a2 Testing of APIs on Postman and SOAP UI  \n\u27a2 Bug locking and tracking on Quality Centre.  \n\u27a2 Reporting of release status to Project Director before it is deployment for client testing  \n\u27a2 Writing u ser manual for the developed features. This user manual will be shared with  client by the end of the \nproject  \n\u27a2 Development of Process Flow Diagrams of required systems on MS Visio  \n\u27a2 Internal Coordination with development team  \n\u27a2 Liaison with Banks, Aggregators and Billers for Integration with the system  \n \n  Business Unit  \u2013 IBM \n \nDesignation: Support Engineer  \nDuration:  Sep-2016 to Aug -2017  \n \nProject 6: IBM Smart Cloud Control Desk  \n \n \nInitially  I worked  in InfoTech  Group as Support Engineer  in their  IBM Software  Unit.  I worked  with their Consulting  Services  \nTeam.  My main  responsibilities  were to configure IBM Smart  Cloud  Control  Desk  a product  of IBM Service Management  for \nin-house implementation.  The Configuration  Include:  \n \n\u27a2 Preparation of bidding documents  \n\u27a2 Preparation of technical write -ups for the software products to be offered  \n\u27a2 Preparation of VMs  \n\u27a2 Installation and Configuration of IBM SCCD  \n\u27a2 Ticket Generation  \n\u27a2 Service Request Management  \n\u27a2 Incident Management  \n\u27a2 Change Management  \n\u27a2 Workflow  \n\u27a2 Escalation  \n\u27a2 User Management  \n\u27a2 Self Service  Portal  \n\u27a2 Self Service Catalogue  \n\u27a2 Role Management  \n\u27a2 Dashboard Customization  \n \nPakistan Telecommunication Company Limited (PTCL)  \n \nIn PTCL  I had worked  in their  exchange  as IT Supervisor  in their  Operation  and Maintenance  Department.  My main  \nresponsibilities  were  to determine  the feasibility  of new  PSTN  and Broad  Band  connections  in respective  areas,  maintenance  \nof previously  installed  connections  and to observe  the working  of line men  in the field.  \nAt Operations Department  I worked  in their One Window Shop  where public  matters  were dealt.  The software  used  to deal  \nwith these  matters  were IBM Maximo  and Seibel  CRM.  \n \nOrient Group  of Companies  \nIt was a four -week  Internship in Maintenance  Department . My responsibilities  were to get information  about  all the machinery, \ntheir Operation,  Possible Errors and their Maintenance  in Production Hall and Molding  Hall.  \n \nNishat Mills  Limited  \n \nIt was four -week  Internship  in their Dyeing  and Finishing  Plant.  I was offered  internship  in their  Maintenance  Department  where  \nmain  responsibilities  were  Electrical  Erection  of Dyeing Pad Roller  and look after  of the Machines.  \n   \n \n \nEducation  \n \n \nBS-Electronic  Engineering  2011 -2015  \nInternational  Islamic  University  Islamabad  CGPA:  3.06 \n \n \nF.SC-Pre-Engineering  2009 -2011  \nGovernment  College  University  Lahore  %age:  81.45  \n \n \nFinal Year Project  \n \nTitle:  DC Servo  Motor  Speed  Control  Through  Network  Using  PID Controller  \n \nThis final year project was financed and approved by National Development Complex (NDC) Islamabad. In this project a \nuser can control the speed of motor via Bluetooth. Controlled Rectifier were designed to give pure DC. Its Graphical User \nInterface was developed in MATLAB. This product facilitates user to get his desired speed of motor using his mobile or \nPC. \n \nExtra Circular Acti vities  \nI have  been  working  as a content  creator  and music  promoter  of Pakistani  Rock/Pop  Band  called  Jal The Band . I have  \nbeen  handling  their Facebook,  Twitter,  YouTube  and Instagram  Pages  since  my student  life. Also,  I work  as Stage  Manager  \nduring  their live concerts  in Lahore.  \n \n \nReference  \n \nWill be furnished  on demand.   "
+    },
+    "details": {
+        "name": "Hafiz Muhammad San Wal Zia",
+        "number": "923334133711",
+        "skills": [
+            "IBM Smart Cloud Control Desk",
+            "VMWare Workstation",
+            "Siebel CRM",
+            "JIRA",
+            "Postman",
+            "Navicat",
+            "SQL Server Management Studio",
+            "MS Visio",
+            "MS Word",
+            "MS Power Point",
+            "MS Excel",
+            "MS Project"
+        ],
+        "email_id": "sanwalzia@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Customs Automation System (SOM CAS)",
+                "description": "Business Analyst for a project financed by US Aid, UK Aid, United Nations, and World Bank."
+            },
+            {
+                "title": "Orange Line Mass Transit - Attendance Portal (OLMT)",
+                "description": "Business Analyst for the Attendance Portal of the Orange Line Mass Transit Project."
+            },
+            {
+                "title": "Human Resource Management System (HRMS)",
+                "description": "Business Analyst for the Human Resource Management System."
+            },
+            {
+                "title": "Handicapping Golf Application (Golfie)",
+                "description": "Business Analyst for the development of the Golfie Application."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2015",
+                "university": "International Islamic University Islamabad",
+                "degree_title": "BS-Electronic Engineering"
+            },
+            {
+                "end_date": "05-2011",
+                "university": "Government College University Lahore",
+                "degree_title": "F.SC-Pre-Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sanwalzia",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hafiz Muhammad San Wal Zia is a skilled Business Analyst with extensive experience in public sector applications, specializing in project management and software development. He has a strong technical background in various software tools and methodologies, contributing to significant projects in automation and resource management.",
+        "employment_history": [
+            {
+                "details": "Business Analyst in Public Sector Applications Department, responsible for requirement gathering, process flow development, and user acceptance testing.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Analyst",
+                "start_date": "01-2020",
+                "company_name": "InfoTech Group"
+            },
+            {
+                "details": "Lead QA resource responsible for writing test cases, manual testing, and reporting bugs for the Electronic Payment Gateway project.",
+                "end_date": "12-2019",
+                "location": "Lahore",
+                "job_title": "Lead Quality Assurance",
+                "start_date": "09-2017",
+                "company_name": "InfoTech Group"
+            },
+            {
+                "details": "Support Engineer responsible for configuring IBM Smart Cloud Control Desk and managing service requests and incidents.",
+                "end_date": "08-2017",
+                "location": "Lahore",
+                "job_title": "Support Engineer",
+                "start_date": "09-2016",
+                "company_name": "InfoTech Group"
+            }
+        ]
+    }
+}

@@ -1,0 +1,203 @@
+{
+    "output": {
+        "justification": [
+            "The candidate possesses extensive experience in business development, but lacks direct experience in digital marketing specifically, leading to a moderate relevant experience score.",
+            "Leadership has been demonstrated through roles as a team lead and manager, which warrants a high leadership score.",
+            "The resume mentions CRM tools like Salesforce and Hubspot, but does not explicitly mention SEO/SEM or Google Analytics, hence scoring these skills is based on proximity of related skills.",
+            "Microsoft Excel proficiency is mentioned, indicating a good command of Microsoft office suite, but does not specify advanced expertise."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo/sem",
+                    "score": 4
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 4.24
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Ahmad",
+            "email": "ahmadimtiaz04@gmail.com",
+            "phone": "+923444920455",
+            "current_position": "Associate Manager Business Development",
+            "current_company": "Stackup Solutions",
+            "employment_start_date_current_company": "12-2022",
+            "first_company_start_date": "06-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "digital marketing experience": 100
+        },
+        "micro_dict": {
+            "seo/sem": 76,
+            "google analytics": 12,
+            "crm software expertise": 12
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Familiarity with Google Analytics and CRM tools",
+            "Strong project management and communication skills",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Muhammad  Ahmad  \n609-F, Johar Town , Lahore, Pakistan  \n+923444920455  \nahmadimtiaz04@gmail.com   \nEducation  \n \n2018  BS (Hons) Biotechnology  \n Forman Christian College (A Chartered University), Lahore  \n2014  A Levels  \n Mus\u2019ab School System, Johar Town, Lahore  \n2012  O Levels  \n Mus\u2019ab School System, Johar Town, Lahore  \n \nProfessional Experience  \n \nDec 2022 \u2013 Jul 2023  Associate Manager Business Development  \n   Stackup Solutions  \n\uf0b7 Lead  and managed  the business development department to \ngenerate leads converting to clients, sought out different \navenues for business growth, and increased the digital presence \nof the company  \n\uf0b7 Created and optimized  strategies for different job platforms and \nportals to  generate prospects, leading to conversi on into clients  \n\uf0b7 Created and optimized email campaigns and kept 60% and \nabove open rates across all campaigns  \n\uf0b7 Collaborated with the operational developers to onboard new \nclients and provide them quality service  \n\uf0b7 Conducted training sessions for the team on sa les, business \ndevelopment and revenue generation and provided them with \nrelevant courses  \n\uf0b7 Delivered $15000+ revenue in Q2 with the team  \n \nAug 2022  \u2013 Nov 2022   Assistant Manager Sales & Business Development  \n   Yellow Beam Technologies  \n\uf0b7 Creation and optimizatio n of IT, social media, mobile and web \ndevelopment & customer support profiles  \n\uf0b7 Training the team on the operating platforms  \n\uf0b7 Generating leads through LinkedIn  \n\uf0b7 Generating the leads through Upwork  \n\uf0b7 Setting up and managing email campaigns for direct client \nacqui sition  in the relevant niche  \n\uf0b7 Client communication  \n \nDec 2021  \u2013 Aug 2022    Assistant Manager Business Development  \n   Trans Global Services (TGS)  \n\uf0b7 Created the company profiles and portfolios from scratch for \nplatforms like Upwork, Fiverr & Linkedin.  \n\uf0b7 Set the directions and strategies for profiling and built the BD \ndepartment for customer support projects  with the head of \nBusiness development.  \n\uf0b7 Training new team members  \n\uf0b7 Quality checks for the team  \n\uf0b7 Set up Email campaigns with the team  \n\uf0b7 Managed client communication and sales closing  \uf0b7 Worked with the operations and man agement to onboard new \nprojects  \n\uf0b7 Performed client success role to make sure the client is satisfied \nin the first month of onboarding  \n\uf0b7 Delivered $5000 worth of recurring project revenue in Q1 &  Q2 \nfor a newly created profile  \n \nSep 2021 - Dec 2021  Business Development Team Lead  \n   Digitech Outsourcing Solution  \n\uf0b7 Team training on platforms like Upwork and LinkedIn  \n\uf0b7 Defined the direction and set the quarterly target with the \nmanager  \n\uf0b7 Managed and worked with the team to deliver the targets for the \nlast quarter  \n\uf0b7 Delivered $11,000 worth of recurring revenue and upsold the \nclient whereby taking the project revenue up to $30,000/month.  \n \nSep 2020 - Sep 2021  Business Development Executive  \n   Digitech  Outsourcing Solution  \n\uf0b7 Managed the entire  profiling and  bidding process on platforms \nlike Upwork, Fiverr, Freelancer, Guru  \n\uf0b7 Generated leads through LinkedIn in the relevant industry  \n\uf0b7 Client communication and sale closing on the platforms  \n\uf0b7 Working with the oper ations and key accounts to successfully \nonboard the project  \n\uf0b7 Delivered $15,000 worth of recurring project revenue with the \nteam in the 4th quarter  \n\uf0b7 Delivered $10,000 worth of recurring project revenue with the \nteam in the 2021 Q1, Q2 & Q3  \n \nMar 2019 - Sep 202 0 Customer Service Executive  \n   Digitech Outsourcing Solution  \n\uf0b7 Provided customer support for a variety of US projects including:  \no E-commerce stores (Email, Live chat, order management \nthrough Shopify)  \no Airbnb Hosts (Guest communication, booking \nmanagement, cleaner and handymen schedule \nmanagement)  \n \nJun 2018 \u2013 Mar 2019  Customer Support Representative  \n  Abacus Consulting  \n\uf0b7 Provided support via emails for Careem customers  \n\uf0b7 Handled the email tickets through Zendesk  \n   \nProjects and Research Papers  \n \n\uf0b7 Market Aptness i n FCCU students  \n \nCo-Curricular Activities  \n \nOct 2015   IEO Ambassador in 3rd Annual Education Fair 2015  \nApril 2016   Volunteered at Cultural Fest \u201816  \n \nSkills  & Interests  \n \uf09f Languages: English, Urdu  \n\uf09f Microsoft : Word, Excel, PowerPoint , Outlook  \n\uf09f G\u2019suite ; Gmail, Google Calendar, Google Meet, G\u2019sheets/Docs  \n\uf09f CRM s: Zendesk, Freshdesk, Salesforce, Hubspot, IGMS, Odoo  \n\uf09f Platform s: Upwork, Fiverr, Freelancer & LinkedIn  \n\uf09f Client communication and management  \n\uf09f Team Management and cross teams\u2019 collaboration  \n\uf09f Strategy deve lopment and optimization  \n "
+    },
+    "details": {
+        "name": "Muhammad Ahmad",
+        "number": "923444920455",
+        "skills": [
+            "Microsoft Word",
+            "Microsoft Excel",
+            "Microsoft PowerPoint",
+            "Microsoft Outlook",
+            "G Suite",
+            "Zendesk",
+            "Freshdesk",
+            "Salesforce",
+            "Hubspot",
+            "IGMS",
+            "Odoo",
+            "Upwork",
+            "Fiverr",
+            "Freelancer",
+            "LinkedIn"
+        ],
+        "email_id": "ahmadimtiaz04@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Market Aptness in FCCU students",
+                "description": "Research project on market aptness."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "Forman Christian College (A Chartered University)",
+                "degree_title": "BS (Hons) Biotechnology"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Mus\u2019ab School System",
+                "degree_title": "A Levels"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Mus\u2019ab School System",
+                "degree_title": "O Levels"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadahmad",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Ahmad is a skilled business development professional with a strong background in managing teams and generating leads across various platforms. He has demonstrated expertise in optimizing strategies for client acquisition and enhancing digital presence for companies.",
+        "employment_history": [
+            {
+                "details": "Lead and managed the business development department to generate leads converting to clients, sought out different avenues for business growth, and increased the digital presence of the company.",
+                "end_date": "07-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Associate Manager Business Development",
+                "start_date": "12-2022",
+                "company_name": "Stackup Solutions"
+            },
+            {
+                "details": "Creation and optimization of IT, social media, mobile and web development & customer support profiles. Training the team on the operating platforms and generating leads through LinkedIn and Upwork.",
+                "end_date": "11-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Manager Sales & Business Development",
+                "start_date": "08-2022",
+                "company_name": "Yellow Beam Technologies"
+            },
+            {
+                "details": "Created the company profiles and portfolios from scratch for platforms like Upwork, Fiverr & LinkedIn. Managed client communication and sales closing, delivering $5000 worth of recurring project revenue.",
+                "end_date": "08-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Manager Business Development",
+                "start_date": "12-2021",
+                "company_name": "Trans Global Services (TGS)"
+            },
+            {
+                "details": "Team training on platforms like Upwork and LinkedIn. Delivered $11,000 worth of recurring revenue and upsold the client, increasing project revenue to $30,000/month.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Team Lead",
+                "start_date": "09-2021",
+                "company_name": "Digitech Outsourcing Solution"
+            },
+            {
+                "details": "Managed the entire profiling and bidding process on platforms like Upwork, Fiverr, Freelancer, Guru. Delivered $15,000 worth of recurring project revenue in the 4th quarter.",
+                "end_date": "09-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2020",
+                "company_name": "Digitech Outsourcing Solution"
+            },
+            {
+                "details": "Provided customer support for a variety of US projects including e-commerce stores and Airbnb hosts.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Executive",
+                "start_date": "03-2019",
+                "company_name": "Digitech Outsourcing Solution"
+            },
+            {
+                "details": "Provided support via emails for Careem customers and handled email tickets through Zendesk.",
+                "end_date": "03-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Support Representative",
+                "start_date": "06-2018",
+                "company_name": "Abacus Consulting"
+            }
+        ]
+    }
+}

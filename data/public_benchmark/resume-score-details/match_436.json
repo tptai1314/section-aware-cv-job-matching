@@ -1,0 +1,178 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has extensive experience in business development and sales analysis which aligns with lead generation and client relationship management required for the role.",
+            "Candidate has worked collaboratively with cross-functional teams, which is necessary for optimizing customer acquisition strategies.",
+            "Candidate lacks explicit mention of experience with business intelligence tools such as Power BI, SQL, or Tableau, which are critical for this position.",
+            "Digital marketing certifications are advantageous, but there's no specific experience noted in project management or digital marketing strategy execution directly comparable to job requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 3
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.4399999999999995,
+                "micro_scores": 3.9299999999999997
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Omer Ghauri",
+            "email": "umar_ghauri@hotmail.com",
+            "phone": "+923014804531",
+            "current_position": "Sr. Business Development and Sales Analyst",
+            "current_company": "Walee Technologies Pvt. Ltd.",
+            "employment_start_date_current_company": "11-2020",
+            "first_company_start_date": "03-2012",
+            "urls": [
+                {
+                    "website_name": "LinkedIn Profile",
+                    "url": "linkedin.com/in/muhammad-omer-ghauri-9ab06a26"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 44,
+            "experience": 21,
+            "innovation and adaptability": 35
+        },
+        "micro_dict": {
+            "business intelligence tools (power bi, sql, tableau)": 41,
+            "digital marketing skills": 34,
+            "project management": 25
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Proficiency in at least one programming language",
+            "Strong communication and interpersonal skills"
+        ],
+        "resume": "M\nUHAMMAD\nO\nMER\nG\nHAURI\nAddr ess\n:\nHouse\n#316,\nAhmad\nYar\nBlock,\nMustafa\nTown,\nWahdat\nRoad,\nLahore \nCell\n:\n+923014804531;\nEmail\n:\numar_ghauri@hotmail.com \nDate\nof\nBirth\n:\n23/04/1987 \nLinkedIn\nProfile:l i n k e d i n . c o m / i n / m u h a m m a d - o m e r - g h a u r i - 9 a b 0 6 a 2 6\nPROFESSIONAL\nSUMMARY\nObjective-driven\nand\nresults-oriented\nindividual\nskilled\nat\ndriving\ncorporate\ngrowth\nthrough \nstrategic\ninitiatives.\nSpecialized\nin\ndeveloping\nand\ncultivating\nnew\nbusiness\nprospects,\nforming \nrobust\nconnections,\nand\nleading\nsuccessful\ninitiatives.\nI\nam\ncommitted\nto\nproviding\noutstanding \nvalues\nand\nexceeding\nexpectations\nthrough\nseamless\ncollaboration\nwith\ncross-functional\nteams \nand\nbuilding\nstrong\nclient\nrelations\n.\nQUALIFICATION\nMasters\nof\nBusiness\nAdministration\nProfessional\nin\nMarketing,\nDecember\n2018 \nLahore\nSchool\nof\nEconomics\nM.Sc.\nBusiness\nStatistics\nand\nManagement,\nSeptember\n2009 \nPunjab\nUniversity\nEXPERIENCE\nWalee\nTechnologies\nPvt.\nLtd.\nSr.\nBusiness\nDevelopment\nand\nSales\nAnalyst\n(\nNovember\n2020-Present)\n\u25cf\nProactively\nidentify\nand\nengage\nwith\nprospective\nclients\nthrough\neffective\noutreach\ntechniques,\nsuch\nas\ncold\ncalling,\nemail\ncampaigns,\nand\nnetworking\n\u25cf\nGuide\nclients\nthrough\nthe\nonboarding\nprocess\nand\nensure\ntheir\nsatisfaction\nby\naddressing\nany\nquestions\nor\nconcerns\nthey\nmay\nhave\n\u25cf\nBuild\nand\nmaintain\nstrong\nrelationships\nwith\nclients\nto\nunderstand\ntheir\nbusiness\nneeds\nand\nprovide\ntailored\nsolutions\nthat\ndrive\ntheir\ngrowth\n\u25cf\nCollaborate\nwith\ninternal\nteams\nto\ndevelop\nand\nexecute\neffective\nmarketing\nstrategies\nthat\nalign\nwith\nclients'\ngoals\nand\nobjectives\n\u25cf\nPresent\nproposals\nto\nclients\nand\nprovide\nafter-sale\nservices\nto\nclients\nonboarded\nby\nme.Asian\nEducational\nPublishers.\nMarketing\nExecutive\n(\nMay\n2019-October\n2020\n)\n\u25cf\nMaintained\nstrong\nrelationships\nwith\nclients\nand\nidentified\nnew\nopportunities\nfor\ngrowth\nand\nexpansion\n\u25cf\nCommunicated\nmarketing\nstrategy\nto\nverify\nalignment\nwith\nsenior\nmanagement\nobjectives\n\u25cf\nWorked\nwith\ninternal\nteams\nto\nensure\nthe\ntimely\nand\naccurate\ndelivery\nof\nmarketing\nmaterials\nand\nassets\n\u25cf\nI\ndirected\nmarketing\nplans\nfor\n15+\nclients,\nproactively\nservicing\nneeds,\nmaintaining\nsatisfaction,\nand\nconsistently\nachieving\nprofit\ngoals.\nMindbridge\nCustomer\nFeedback\nOfficer\n(\nAugust\n2017-March\n2019)\n\u25cf\nManaged\ncustomer\ncomplaints\nand\ninquiries,\nproviding\ntimely\nand\neffective\nsolutions\nthat\nexceeded\ntheir\nexpectations\nand\nimproved\noverall\nsatisfaction\n\u25cf\nAchieved\ndaily\ntarget\nof\nconverting\n20\ndetractors\ninto\npromoters\nof\nthe\ncompany.\n\u25cf\nCollaborated\nwith\ninternal\nteams,\nsuch\nas\ntechnical\nsupport\nand\nbilling,\nto\naddress\ncustomer\nconcerns\nand\nensure\ntimely\nand\neffective\nsolutions\nJazz\nCustomer\nCare\nRepresentative\n(\nMarch\n2012-November\n2016)\n\u25cf\nDefused\ncustomer\nconcerns\nwith\nexceptional\nconflict\nand\nproblem-resolution\nskills.\n\u25cf\nManaged\nover\n200\nabove-customer\ncalls\nper\nday.\n\u25cf\nConsistently\nmet\nor\nexceeded\nkey\nperformance\nindicators,\nsuch\nas\ncall\nvolume,\nhandle\ntime,\nand\ncustomer\nsatisfaction\nscores\nCertifications\n\u25cf\nDigital\nMarketing\nfrom\nTDCP \n\u25cf\nInfluencer\nMarketing\nand\nDigital\nPR\nfrom\nLUMS\nSkills\n\u25cf\nMicrosoft\nWord,\nPowerPoint,\nand\nExcel \n\u25cf\nRelationship\nbuilding\nand\nretention"
+    },
+    "details": {
+        "name": "Muhammad Omer Ghauri",
+        "number": "923014804531",
+        "skills": [
+            "Microsoft Word",
+            "PowerPoint",
+            "Excel"
+        ],
+        "email_id": "umar_ghauri@hotmail.com",
+        "location": "House #316, Ahmad Yar Block, Mustafa Town, Wahdat Road, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration Professional in Marketing"
+            },
+            {
+                "end_date": "09-2009",
+                "university": "Punjab University",
+                "degree_title": "M.Sc. Business Statistics and Management"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "TDCP",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Influencer Marketing and Digital PR",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-omer-ghauri-9ab06a26",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Omer Ghauri is a results-oriented professional with a strong background in business development and marketing. He has extensive experience in client engagement and relationship management, demonstrating proficiency in Microsoft Office tools. Omer holds a Master's degree in Business Administration and has earned certifications in Digital Marketing and Influencer Marketing.",
+        "employment_history": [
+            {
+                "details": "Proactively identify and engage with prospective clients through effective outreach techniques, such as cold calling, email campaigns, and networking. Guide clients through the onboarding process and ensure their satisfaction by addressing any questions or concerns they may have. Build and maintain strong relationships with clients to understand their business needs and provide tailored solutions that drive their growth. Collaborate with internal teams to develop and execute effective marketing strategies that align with clients' goals and objectives. Present proposals to clients and provide after-sale services to clients onboarded by me.",
+                "end_date": "Present",
+                "location": "Walee Technologies Pvt. Ltd.",
+                "job_title": "Sr. Business Development and Sales Analyst",
+                "start_date": "11-2020",
+                "company_name": "Walee Technologies Pvt. Ltd."
+            },
+            {
+                "details": "Maintained strong relationships with clients and identified new opportunities for growth and expansion. Communicated marketing strategy to verify alignment with senior management objectives. Worked with internal teams to ensure the timely and accurate delivery of marketing materials and assets. Directed marketing plans for 15+ clients, proactively servicing needs, maintaining satisfaction, and consistently achieving profit goals.",
+                "end_date": "10-2020",
+                "location": "Asian Educational Publishers",
+                "job_title": "Marketing Executive",
+                "start_date": "05-2019",
+                "company_name": "Asian Educational Publishers"
+            },
+            {
+                "details": "Managed customer complaints and inquiries, providing timely and effective solutions that exceeded their expectations and improved overall satisfaction. Achieved daily target of converting 20 detractors into promoters of the company. Collaborated with internal teams, such as technical support and billing, to address customer concerns and ensure timely and effective solutions.",
+                "end_date": "03-2019",
+                "location": "Mindbridge",
+                "job_title": "Customer Feedback Officer",
+                "start_date": "08-2017",
+                "company_name": "Mindbridge"
+            },
+            {
+                "details": "Defused customer concerns with exceptional conflict and problem-resolution skills. Managed over 200 above-customer calls per day. Consistently met or exceeded key performance indicators, such as call volume, handle time, and customer satisfaction scores.",
+                "end_date": "11-2016",
+                "location": "Jazz",
+                "job_title": "Customer Care Representative",
+                "start_date": "03-2012",
+                "company_name": "Jazz"
+            }
+        ]
+    }
+}

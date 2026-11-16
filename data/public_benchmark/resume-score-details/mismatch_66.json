@@ -1,0 +1,172 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not explicitly demonstrate 2+ years of experience in digital marketing but shows substantial client relationship and communication skills.",
+            "The candidate has not listed digital marketing tools such as Google Analytics or CRM tools, but shows indirect marketing experience through content writing and campaigns.",
+            "Leadership skills are demonstrated through roles in media management and public relations but not directly in digital marketing leadership.",
+            "No specific skills in Content Development mentioned; the experience is generalized towards PR, communications, and relationship management."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "content development",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.32,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Malik Haseeb Shahid",
+            "email": "haseebmalik10@gmail.com",
+            "phone": "+923174493966",
+            "current_position": "Public Relations Officer",
+            "current_company": "Zameen.com",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "04-2018",
+            "urls": [
+                {
+                    "website_name": "linkedin",
+                    "url": "linkedin.com/in/haseeb-shahid-55a1a7157"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 8,
+            "digital marketing experience": 63,
+            "client relationship": 29
+        },
+        "micro_dict": {
+            "content development": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "2+ years of experience in digital marketing",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Familiarity with Google Analytics and CRM tools",
+            "Strong project management and communication skills"
+        ],
+        "resume": "Malik Haseeb Shahid \nCommunications and Public Relations \nA passionate individual with a broad vision of creative strategy and communications. I am a \ufb01rm believer in the\npower of branding, communication, and strategic image building. Hence, my learning goes beyond borders and is\ndriven by intellectual curiosity and creative expression. I have experience in Fintech, Content and PR. \nhaseebmalik10@gmail.com \n+923174493966 \nLahore, Pakistan \nlinkedin.com/in/haseeb-shahid-55a1a7157 \nEDUCATION \nBA (Hons) Media Studies with Social Sciences \nBeaconHouse National University (BNU) \n09/2017 - 06/2021\n, \n \nLahore, Pakistan \nThesis - Political Opinion\nFormation in Post-Truth Era \nMajor - PR and Digital\nCommunication \nExchange Program \nOslo Metropolitan University \n08/2019 - 01/2020\n, \n \nOslo, Norway \nWORK EXPERIENCE \nPublic Relations O\ufb03cer \nZameen.com \n04/2022 - Present\n, \n \nClient Servicing Associate \ni2c Inc \n05/2021 - 04/2022\n, \n \nLahore \nCustomer Support of Financial Tech Clients \nHandle customer concerns/complaints in a courteous and\nprofessional manner. \nDemonstrate strong domain knowledge and communicate accurate\ninformation to the customers. \nCoordinate and follow up on customer inquiries with relevant\nstakeholders to timely close open tickets. \nMeet all performance metrics on regular basis and maintain data\ncon\ufb01dentiality. \nBUD (Logistic communication) \nSchibsted \n07/2019 - 01/2020\n, \n \nOslo, Norway \nNewspaper agency, logistic management with Norwegian team \nManaged Delivery campaigns for media clients. \nManaged delivery routes of enrolled customers. \nTook care of advertisement placement of media clients. \nContent Writer, Client Servicing \nCognitio Systems \n04/2018 - 03/2021\n, \n \nLahore \nClient's Business portfolio handling, Client Communication \nCommunication with US based clients, Virtual Assistantship. \nWritten communication through social media posts, blog posts and\narticles. \nDeveloped and fostered relationships with over 25 clients spanning\nindustries such as info-technology, business, and academia. \nParticipated in client campaign calls to advance the mission of the\nclients. \nSKILLS \nCommunication \nCSR \nCustomer service \nClient relationship \nPublic Relation \nFinTech \nPresentation \nDigital Media \nResearch \nCrisis-Management \nPERSONAL PROJECTS \nData Visualization \nContent Writing \nVirtual Assistant for US based client \nClimate change campaign \nORGANIZATIONS \nImpact Revolution\n (03/2021 - Present)\n \nMedia Relations Manager for European NGO \non Climate Change \nSOCIAL ACTIVITY \nClimate Change Activist \nWorked as a climate change activist to raise awareness and promote action-driven\nchange in societal behavior and to combat environmental challenges \nPublic Speaker \nHosted di\ufb00erent conferences, business events, social media talk and \nmodel united\nnations \nLANGUAGES \nEnglish \nNative or Bilingual Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nNorwegian \nLimited Working Pro\ufb01ciency \nCourses \nClients;  BENTO, FairFInTech, Master, Visa, \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Malik Haseeb Shahid",
+        "number": "923174493966",
+        "skills": [
+            "FinTech",
+            "Digital Media",
+            "Content Writing",
+            "Public Relations"
+        ],
+        "email_id": "haseebmalik10@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Data Visualization",
+                "description": "Project focused on visual representation of data."
+            },
+            {
+                "title": "Climate change campaign",
+                "description": "Campaign aimed at raising awareness about climate change."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "BeaconHouse National University (BNU)",
+                "degree_title": "BA (Hons) Media Studies with Social Sciences"
+            },
+            {
+                "end_date": "01-2020",
+                "university": "Oslo Metropolitan University",
+                "degree_title": "Exchange Program"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/haseeb-shahid-55a1a7157",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Malik Haseeb Shahid is a dedicated professional with a strong background in FinTech, Digital Media, and Public Relations. He has demonstrated expertise in content writing and strategic communication, contributing to various projects and campaigns focused on climate change and data visualization.",
+        "employment_history": [
+            {
+                "details": "Public Relations Officer at Zameen.com, managing public relations and client communications.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Public Relations Officer",
+                "start_date": "04-2022",
+                "company_name": "Zameen.com"
+            },
+            {
+                "details": "Client Servicing Associate at i2c Inc, providing customer support for financial tech clients and handling inquiries.",
+                "end_date": "04-2022",
+                "location": "Lahore",
+                "job_title": "Client Servicing Associate",
+                "start_date": "05-2021",
+                "company_name": "i2c Inc"
+            },
+            {
+                "details": "Logistic communication at Schibsted, managing delivery campaigns and advertisement placements.",
+                "end_date": "01-2020",
+                "location": "Oslo, Norway",
+                "job_title": "BUD (Logistic communication)",
+                "start_date": "07-2019",
+                "company_name": "Schibsted"
+            },
+            {
+                "details": "Content Writer and Client Servicing at Cognitio Systems, handling client communications and content creation.",
+                "end_date": "03-2021",
+                "location": "Lahore",
+                "job_title": "Content Writer, Client Servicing",
+                "start_date": "04-2018",
+                "company_name": "Cognitio Systems"
+            }
+        ]
+    }
+}

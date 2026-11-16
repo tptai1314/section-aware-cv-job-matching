@@ -1,0 +1,182 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has strong sales experience, with notable achievements in sales attainment.",
+            "Marketing expertise is present through certifications and sales roles, but there's no specific mention of digital marketing campaigns or leadership roles within the marketing domain.",
+            "The candidate possesses proficiency in Excel, HubSpot, and Salesforce, which aligns with the job description's CRM requirement.",
+            "CRM experience with HubSpot and Salesforce is demonstrated, but there's limited evidence of data visualization or in-depth market research."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "sales experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "marketing expertise",
+                    "score": 6
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "hubspot",
+                    "score": 9
+                },
+                {
+                    "criteria": "market research",
+                    "score": 5
+                },
+                {
+                    "criteria": "seo",
+                    "score": 4
+                },
+                {
+                    "criteria": "data visualization",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.880000000000001,
+                "micro_scores": 6.44
+            }
+        },
+        "personal_info": {
+            "name": "Sadoon Zahid",
+            "email": "",
+            "phone": "",
+            "current_position": "Sales Manager",
+            "current_company": "Repstack",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "01-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "sales experience": 28,
+            "marketing expertise": 4,
+            "analytical skills": 68
+        },
+        "micro_dict": {
+            "hubspot": 36,
+            "market research": 61,
+            "seo": 0,
+            "data visualization": 3
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Demonstrated ability in team leadership and mentoring",
+            "5+ years of experience in sales and marketing roles",
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)"
+        ],
+        "resume": "SALES MANAGER\nCERTIFICATIONS\nOutbound CallsS A D O O N  Z A H I D\nEDUCATIONAL HISTORY\nSKILLS SUMMARYHubSpot Sales\ncertificate\nCommunication\nskills \nProblem Solving \nTime efficiency Salesforce \nActive Listener\nAppointment\nsetter Attained 200% plus sales attainment\nthroughout my tenure.\nCompleting daily assigned kpis and mentoring\nthe new hiresSENIOR SALES EXECUTIVEIbex Global ( DGS).ACCOUNT EXECUTIVE Keeptruckin\nJan, 2022 - APT 2022Attained 327% sales attainment in probation\nCompleting daily assigned kpis and\nscheduling demosSALES MANAGERRepstack\nGot Enrolled in RSA\nCompleted GHL Trainings\nCompleted HubSpot Sales Certifications\nCreated Looms and Presentations\nWorked as sales manager for USA based Client YauheniAPR 22 - CURRENT\nJAN 22 - APR 22\nJAN 17- MAY 21Acca\nOXFORD BROOKES\nUNIVERSITY\nGCE O/A Levels\nBEACONHOUSE SCHOOL\nMaster Sales\nProgram\nAdvanced Customer\nObjection Handling"
+    },
+    "details": {
+        "name": "S A D O O N Z A H I D",
+        "number": "03124843384",
+        "skills": [
+            "HubSpot Sales",
+            "Salesforce",
+            "Advanced Customer Objection Handling"
+        ],
+        "email_id": "sadoonzahid@example.com",
+        "location": "USA",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2021",
+                "university": "OXFORD BROOKES UNIVERSITY",
+                "degree_title": "Acca"
+            },
+            {
+                "end_date": "01-2022",
+                "university": "BEACONHOUSE SCHOOL",
+                "degree_title": "GCE O/A Levels"
+            }
+        ],
+        "achievements": [
+            "Attained 200% plus sales attainment throughout tenure",
+            "Attained 327% sales attainment in probation"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "HubSpot Sales certificate",
+                "issuing_organization": "HubSpot",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Master Sales Program",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Advanced Customer Objection Handling",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "01-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sadoonzahid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/sadoonzahid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "S A D O O N Z A H I D is a results-driven sales manager with a proven track record of exceeding sales targets and mentoring new hires. With expertise in HubSpot Sales and Salesforce, he has consistently achieved high sales attainment rates and completed various sales training programs.",
+        "employment_history": [
+            {
+                "details": "Worked as sales manager for USA based Client Yauheni, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "CURRENT",
+                "location": "USA",
+                "job_title": "SALES MANAGER",
+                "start_date": "04-2022",
+                "company_name": "Repstack"
+            },
+            {
+                "details": "Attained 327% sales attainment in probation, completed daily assigned KPIs and scheduled demos.",
+                "end_date": "04-2022",
+                "location": "USA",
+                "job_title": "ACCOUNT EXECUTIVE",
+                "start_date": "01-2022",
+                "company_name": "Keeptruckin"
+            },
+            {
+                "details": "Attained 200% plus sales attainment throughout tenure, completed daily assigned KPIs and mentored new hires.",
+                "end_date": "05-2021",
+                "location": "USA",
+                "job_title": "SENIOR SALES EXECUTIVE",
+                "start_date": "01-2017",
+                "company_name": "Ibex Global (DGS)"
+            }
+        ]
+    }
+}

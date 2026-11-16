@@ -1,0 +1,154 @@
+{
+    "output": {
+        "justification": [
+            "The resume is mostly focused on machine learning, which is a different domain compared to business development, as required by the job description.",
+            "Leadership experience isn't evidently mentioned, affecting the macro score for Leadership.",
+            "The candidate lacks experience in business development and the specific skills like SEO, negotiation which are crucial for the job.",
+            "Lack of evidence for proficiency in tools like Power BI, JIRA, and Asana reduces the micro scores significantly."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 2
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.34,
+                "micro_scores": 2.6399999999999997
+            }
+        },
+        "personal_info": {
+            "name": "Talha Hussain",
+            "email": "to.talha0@gmail.com",
+            "phone": "+92-312-6823441",
+            "current_position": "Machine Learning Engineer",
+            "current_company": "SOFTHEIGHTS",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "06-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 34,
+            "business development experience": 66
+        },
+        "micro_dict": {
+            "negotiation": 24,
+            "seo": 41,
+            "data analysis": 35
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "to.talha0@gmail.com  +92-312-6823441  Johar  town  Lahore,  Pakistan   \n \n \n \nSkills  Work  History  \nSOFTHEIGHTS  (ML Engineer )  \n \nGulberg  III, Lahore  \n \n \n \n \n \n   \n \n      \n \n \nExpertise  \n \n\uf0b7 Cleaning transforming  and preparing \ndata for analysis.  \n\uf0b7 Handling large datasets and ensuring \ndata quality.  \n\uf0b7 Skilled in creating insightful and \ninteractive visualizations.  \n\uf0b7 Hands -on experience with libraries such \nas Scikit -learn, Tensor Flow and \nPyTorch . \n\uf0b7 Skilled in designing, implementing, and \nevaluating machine learning models . \n\uf0b7 Skilled in designing  CNN and fine-tune \npre-trained model . \n\uf0b7 Good  Communication  skills.  \n My responsibity as a ML Engineer  at Softheights, I analyze business requirements and \ntranslate them into data models and algorithms. I rigorously test and deploy these models \nacross staging and production environments, and ensure continuous updates and \nmonitoring throughout the development lifecycle.  \nProjects:  \nSales Forecasting Using Time Series Analysis  \no Developed a time series forecasting model to predict monthly sales for an e -\ncommerce company  \no Improved inventory management and reduced stakeouts by providing accurate sales  \nforecasts.  \no Analyzed historical sales data to identify trends and patterns.  \no Created and fine -tuned models for high -accuracy sales predictions.  \no Helped the company optimize inventory levels and reduce holding costs . \n \nPredictive Analytics for Customer Churn  \no Developed a predictive  model to identify customers at risk of churning for a retail \ncompany.  \no Conducted data cleaning and feature engineering to enhance model accuracy.  \no Successfully  integrated  PayPal  for secure  and convenient  online  transactions.  \no Provided key insights that infor med targeted retention strategies.  \no Achieved a 15% reduction in customer churn as a result of the project.  \no Conducted exploratory data analysis (EDA) to uncover patterns and correlations in \ncustomer behavior.  \n \nPURELOGICS  (Certificate)  \n3 months  Johar  Town,  Lahore  \n   \n \nEducation   \n\uf0b7 BS Computer  Science \u2013 (BSCS)\uf020\n\uf0b7 COMSATS  UNIVERSITY (CU) \uf020\nHobbies  \n\uf0b7 Traveling. \uf020\n\uf0b7 Music.\uf020\n\uf0b7 Doing  Exercise.\uf020Languages:  Python,  Machine  Learning,  Data  Visualization,  Numpy,  Pandas  \nProjects:  \nGenre Predictor: Machine learning classified Spotify songs by tempo, danceability,  \npredicting  genres  accurately . \nHotel  Booking  Status  Checker:  Data analysis  for real-time  reservation  updates.  \nTitanic survival prediction project: Titanic dataset analyzed with ML to predict survival  \nfactors  accurately       Data Visualization  Data Analytics  \nPresent  1.5+  Year  Talha Hussain  (Machine Learning Engineer )  \n 1.5+ Years  of exper ience in Machine Learning Engineer  with a demonstrated history of working \nin the technology sector. Proficient in developing and deploying data models across multiple \nprojects, with expertise in Python, Machine Learning, Data Visualization, Data Manipulation,  \nCNN,RNN,GANS and SQL. Skilled in leveraging data -driven insights to solve complex business \nproblems and drive decision -making  \n MySQL Python  \n  Data wrangling  OOP  \nMachine Learning      Deep Learning  \n"
+    },
+    "details": {
+        "name": "Talha Hussain",
+        "number": "923126823441",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Data Visualization",
+            "Numpy",
+            "Pandas",
+            "Data Manipulation",
+            "Deep Learning",
+            "MySQL"
+        ],
+        "email_id": "to.talha0@gmail.com",
+        "location": "Johar Town, Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Sales Forecasting Using Time Series Analysis",
+                "description": "Developed a time series forecasting model to predict monthly sales for an e-commerce company."
+            },
+            {
+                "title": "Predictive Analytics for Customer Churn",
+                "description": "Developed a predictive model to identify customers at risk of churning for a retail company."
+            },
+            {
+                "title": "Genre Predictor",
+                "description": "Machine learning classified Spotify songs by tempo, danceability, predicting genres accurately."
+            },
+            {
+                "title": "Hotel Booking Status Checker",
+                "description": "Data analysis for real-time reservation updates."
+            },
+            {
+                "title": "Titanic survival prediction project",
+                "description": "Titanic dataset analyzed with ML to predict survival factors accurately."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "COMSATS UNIVERSITY (CU)",
+                "degree_title": "BS Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Machine Learning",
+                "issuing_organization": "PURELOGICS",
+                "date_of_issuance": "03-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/talhahussain",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/talhahussain",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Talha Hussain is a skilled Machine Learning Engineer with over 1.5 years of experience in developing and deploying data models. He possesses strong technical expertise in Python, Machine Learning, and Data Visualization, and has successfully completed multiple projects that leverage data-driven insights to solve complex business problems.",
+        "employment_history": [
+            {
+                "details": "As a ML Engineer at Softheights, Talha analyzes business requirements and translates them into data models and algorithms, rigorously testing and deploying these models across staging and production environments.",
+                "end_date": "Present",
+                "location": "Gulberg III, Lahore",
+                "job_title": "ML Engineer",
+                "start_date": "01-2022",
+                "company_name": "Softheights"
+            }
+        ]
+    }
+}

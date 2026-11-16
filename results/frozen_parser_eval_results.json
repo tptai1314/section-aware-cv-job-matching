@@ -1,0 +1,208 @@
+{
+  "git_commit": "41e1d27",
+  "parser_status": "FROZEN",
+  "acceptance_criteria_checks": {
+    "skills_f1_ge_0.85": {
+      "actual": 0.9787,
+      "target": 0.85,
+      "passed": true
+    },
+    "experience_f1_ge_0.85": {
+      "actual": 1.0,
+      "target": 0.85,
+      "passed": true
+    },
+    "overall_precision_ge_0.90": {
+      "actual": 0.9355,
+      "target": 0.9,
+      "passed": true
+    },
+    "fp_rate_le_0.05": {
+      "actual": 0.0645,
+      "target": 0.05,
+      "passed": false
+    }
+  },
+  "all_criteria_passed": false,
+  "cv_evaluation": {
+    "doc_type": "CV",
+    "total_docs": 25,
+    "multi_section_ge2_pct": 100.0,
+    "multi_section_ge3_pct": 100.0,
+    "total_tp": 94,
+    "total_fp": 2,
+    "total_fn": 6,
+    "micro_precision": 0.9792,
+    "micro_recall": 0.94,
+    "micro_f1": 0.9592,
+    "macro_precision": 0.5714,
+    "macro_recall": 0.5426,
+    "macro_f1": 0.5565,
+    "false_positive_rate": 0.0208,
+    "metrics_by_section": {
+      "education": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583,
+        "mean_words": 25.2
+      },
+      "educationcertified_public_accountant": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_words": 28.0
+      },
+      "experience": {
+        "tp": 25,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "mean_words": 503.6
+      },
+      "highlightsc_c_c_python": {
+        "tp": 0,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_words": 5.0
+      },
+      "projects": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_words": 0.0
+      },
+      "skills": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.9583,
+        "f1": 0.9787,
+        "mean_words": 47.7
+      },
+      "summary": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583,
+        "mean_words": 51.1
+      }
+    }
+  },
+  "jd_evaluation": {
+    "doc_type": "JD",
+    "total_docs": 25,
+    "multi_section_ge2_pct": 36.0,
+    "multi_section_ge3_pct": 16.0,
+    "total_tp": 22,
+    "total_fp": 6,
+    "total_fn": 16,
+    "micro_precision": 0.7857,
+    "micro_recall": 0.5789,
+    "micro_f1": 0.6667,
+    "macro_precision": 0.3802,
+    "macro_recall": 0.4318,
+    "macro_f1": 0.3807,
+    "false_positive_rate": 0.2143,
+    "metrics_by_section": {
+      "about_company": {
+        "tp": 1,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.3333,
+        "recall": 1.0,
+        "f1": 0.5,
+        "mean_words": 339.0
+      },
+      "benefits": {
+        "tp": 5,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8333,
+        "recall": 1.0,
+        "f1": 0.9091,
+        "mean_words": 147.0
+      },
+      "education": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_words": 0.0
+      },
+      "eeo": {
+        "tp": 0,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_words": 94.0
+      },
+      "experience": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 1,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_words": 0.0
+      },
+      "requirements": {
+        "tp": 7,
+        "fp": 1,
+        "fn": 4,
+        "precision": 0.875,
+        "recall": 0.6364,
+        "f1": 0.7368,
+        "mean_words": 124.8
+      },
+      "responsibilities": {
+        "tp": 9,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.8182,
+        "f1": 0.9,
+        "mean_words": 165.2
+      },
+      "summary": {
+        "tp": 0,
+        "fp": 0,
+        "fn": 7,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "mean_words": 0.0
+      }
+    }
+  },
+  "overall_summary": {
+    "total_docs_evaluated": 50,
+    "total_tp": 116,
+    "total_fp": 8,
+    "total_fn": 22,
+    "overall_precision": 0.9355,
+    "overall_recall": 0.8406,
+    "overall_f1": 0.8855,
+    "overall_fp_rate": 0.0645
+  }
+}

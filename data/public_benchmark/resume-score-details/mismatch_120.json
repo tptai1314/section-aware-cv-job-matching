@@ -1,0 +1,215 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has only 1.5 years of experience, below the required 5+ years.",
+            "No indication of a strategic role or proven strategic thinking.",
+            "Project and market research experience are limited in scope.",
+            "Limited mention of understanding of IT and manufacturing sectors."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.89,
+                "micro_scores": 3.0700000000000003
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Talha Riaz",
+            "email": "talhariaz9969@gmail.com",
+            "phone": "+92-308-4684753",
+            "current_position": "Business Development Executive",
+            "current_company": "Tech Nerds Inc",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "06-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/talha-riaz-8b0412196"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 89,
+            "strategic thinking": 11
+        },
+        "micro_dict": {
+            "market research": 7,
+            "it and manufacturing sector knowledge": 93
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales",
+            "Strong understanding of IT and manufacturing industries",
+            "Proven ability to develop and implement successful business strategies",
+            "Bachelor's degree in Business Administration, Marketing, or a related field"
+        ],
+        "resume": "MUHAMMADTALHARIAZBUSINESSDEVELOPER+92-308-4684753\u2022talhariaz9969@gmail.com\u2022Lahore/Pakistan\u2022https://www.linkedin.com/in/talha-riaz-8b0412196\nSUMMARY\n\u25aa1.5yearsofexperienceinSale\n\u25aaBachelorofStudiesinManagement(PK)EDUCATIONInstituteofAdministrativeSciences(IAS),UniversityofthePunjab,Lahore,PakistanBSManagementCGPA3.14/4.00\nGOVTCOLLEGEOFSCIENCEF.sc(Pre-Engg)80%\nHIMAYAT-E-ISLAMPUBLICSCHOOLMatriculation-ScienceGroup82%\nPROFESSIONALEXPERIENCE\n(TechNerdsInc)BusinessDevelopmentExecutive:Nov2021\u2013Continue\u2013Tasks:ProposalWritingonFreelancingPlatforms,LeadGenerationfromLinkedInviaSalesNavigator,E-MailMarketing,Clutch.io,Well-found,WeWorkRemotely,Salesforce&SuiteCRM,ColdCalling,SRSdocumentary.(MughalIron&SteelIndustriesLimited)MarketingInternee:June2021-July2021\u2013Tasks:MarketResearch,MarketAnalysis,CRM,Inbound&OutboundMarketing,E-MailMarketing,Editing&Designing,Problem-solving,SocialMediaPlatformsHandling.\nSKILLS\n\u2013HTML,CSS,JavaScript,WordPressWebsiteDevelopment,ShopifyDevelopment,Jira,Scrum,Kanban,Salesforce,LinkedInSalesNavigator,Mailchimp,Apollo.io,Snow.io,GoogleAnalytics,GoogleTagManager,GoogleSearchConsole,Canva,AdobeIllustrator,AdobePhotoshop,SPSS,MSOffice.\nEXTRACURRICULAR&VOLUNTEEREXPERIENCEIAS_____SOCIETY\u2013FinanceSecretary:Managedaccountsandfinanceforthesocietysupervisingateamof3volunteersandgeneratingperiodicfinancialreportseverysemester(2022-2023).WorldMarketingSummit\n\u2013AttendedtheExecutiveTraineesessionheldatWMS&workedwiththeManagementteamasaneventorganizerandguestvolunteerattheUniversityofSouthAsia,Lahore.\nCOURSE&CERTIFICATES\n\u2794ProjectManagement\n\u2794WebDevelopment\n\u2794DigitalMarketing\n\u2794SEO(SearchEngineOptimization)\n\u2794GraphicsDesigningACADEMICSPROJECTTITLES\n\u2013Projectmanagement(March2023)\nAppDevelopment:IledthelaunchofE-Mall,auser-friendlyappthatallowseasynavigation,spacereservation,andonlinetransactions,alongwithacomprehensivediningsearchandreservationsystem.E-Malloffersaseamlessexperienceforusersexploringshoppinganddiningopportunitiesinthemall\n.\n\u2014FundamentalsofMarketing(Dec2022)\nProductAnalysis:PresentedcoreconceptsofDaldaCookingOillikethe4Ps,marketingandpromotionmix,brandmanagement,consumerattitudes,marketsegmentation,advertisingdesign,andsocialmedianetworks.Igaveourprofessoracomprehensiveunderstandingofthecomplexworldofmarketing.\n\u2014ManagementInformationSystem(Dec2021)\nShopifyDevelopment:IsetupacompleteShopifystoretolearnthee-commerceplatformunderourprofessor'sguidance.Thisprojectgavemehands-onexperienceinmanaginginventory,orderfulfillment,andproductpages,helpingmegainvaluableskillsandapracticalunderstandingofonlineretail.\n\u2013MultivariateAnalysis(March2021)\nResearchproject:IanalyzedcomplexdatasetsusingstatisticalmethodslikeT-test,ANOVA,regression,mediation,andmoderation.Myfindingswerecompiledinadetailedreport,showcasingmyproficiencyinstatisticalanalysisanddatainterpretation.\n\u2013HumanResourceManagement(Dec2020)\nIconductedresearchandsurveystounderstandMeezanBank'smanagementhierarchyandworkingmethodologies,identifyingkeystrengthsandareasforimprovement.Thisprojectenhancedmyknowledgeofthefinancialindustryanddevelopedmycriticalthinkingandanalyticalskills.\nADDITIONAL\n\u2013Languagesfamiliarity:English,Chinese,Urdu,Punjabi"
+    },
+    "details": {
+        "name": "Talha Riaz",
+        "number": "923084684753",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "WordPress Website Development",
+            "Shopify Development",
+            "Jira",
+            "Scrum",
+            "Kanban",
+            "Salesforce",
+            "LinkedIn Sales Navigator",
+            "Mailchimp",
+            "Apollo.io",
+            "Snow.io",
+            "Google Analytics",
+            "Google Tag Manager",
+            "Google Search Console",
+            "Canva",
+            "Adobe Illustrator",
+            "Adobe Photoshop",
+            "SPSS",
+            "MS Office"
+        ],
+        "email_id": "talhariaz9969@gmail.com",
+        "location": "Lahore/Pakistan",
+        "projects": [
+            {
+                "title": "E-Mall App Development",
+                "description": "Led the launch of E-Mall, a user-friendly app for shopping and dining."
+            },
+            {
+                "title": "Product Analysis of Dalda Cooking Oil",
+                "description": "Presented core concepts of marketing and brand management."
+            },
+            {
+                "title": "Shopify Development",
+                "description": "Set up a complete Shopify store for hands-on experience."
+            },
+            {
+                "title": "Multivariate Analysis Research Project",
+                "description": "Analyzed complex datasets using statistical methods."
+            },
+            {
+                "title": "Human Resource Management Research",
+                "description": "Conducted research on Meezan Bank's management hierarchy."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "University of the Punjab",
+                "degree_title": "BS Management"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "Govt College of Science",
+                "degree_title": "F.Sc (Pre-Engineering)"
+            },
+            {
+                "end_date": "06-2017",
+                "university": "Himayat-e-Islam Public School",
+                "degree_title": "Matriculation - Science Group"
+            }
+        ],
+        "achievements": [
+            "CGPA 3.14/4.00 in BS Management",
+            "80% in F.Sc (Pre-Engineering)",
+            "82% in Matriculation - Science Group"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Project Management",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "Not specified"
+            },
+            {
+                "certification_name": "Web Development",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "Not specified"
+            },
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "Not specified"
+            },
+            {
+                "certification_name": "SEO (Search Engine Optimization)",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "Not specified"
+            },
+            {
+                "certification_name": "Graphics Designing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "Not specified"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/talha-riaz-8b0412196",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Talha Riaz is a business development executive with 1.5 years of experience in sales and a strong educational background in management. He possesses a diverse skill set in web development and digital marketing, demonstrating proficiency in various technical tools and platforms.",
+        "employment_history": [
+            {
+                "details": "Proposal writing on freelancing platforms, lead generation from LinkedIn via Sales Navigator, email marketing, and cold calling.",
+                "end_date": "Present",
+                "location": "Tech Nerds Inc",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2021",
+                "company_name": "Tech Nerds Inc"
+            },
+            {
+                "details": "Conducted market research and analysis, managed CRM, and handled inbound and outbound marketing.",
+                "end_date": "07-2021",
+                "location": "Mughal Iron & Steel Industries Limited",
+                "job_title": "Marketing Intern",
+                "start_date": "06-2021",
+                "company_name": "Mughal Iron & Steel Industries Limited"
+            }
+        ]
+    }
+}

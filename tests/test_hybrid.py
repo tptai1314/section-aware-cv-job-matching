@@ -151,15 +151,11 @@ def test_profile_and_job_from_document_bridge():
     assert req.min_years_experience == 2.0
 
 
-def test_normalize_skill_vietnamese_english_aliases():
-    assert normalize_skill("cơ sở dữ liệu") == "database"
-    assert normalize_skill("co so du lieu") == "database"
-    assert normalize_skill("kỹ sư phần mềm") == "software engineer"
-    assert normalize_skill("lập trình backend") == "backend development"
-    assert normalize_skill("phần mềm") == "software"
+def test_normalize_skill_aliases():
     assert normalize_skill("ci cd") == "ci/cd"
     assert normalize_skill("Docker Container") == "docker"
     assert normalize_skill("Tailwind CSS") == "tailwind css"
+    assert normalize_skill("amazon web services") == "aws"
 
 
 def test_skills_score_must_have_penalty():
