@@ -217,20 +217,25 @@ $$w_{\text{rel}}(c, j) = \begin{cases}
 > * **$w_{\text{rel}} = 0.8$ (80% điểm chuyên môn sâu)**: JD yêu cầu chung chung là `Deep Learning`, nhưng ứng viên ghi rõ là chuyên gia `PyTorch`. Ứng viên nắm công cụ cụ thể đương nhiên đáp ứng tốt yêu cầu chung của bài toán $\rightarrow$ cho 80% điểm.
 > * **$w_{\text{rel}} = 0.5$ (50% điểm công nghệ tương đương)**: JD yêu cầu cơ sở dữ liệu `PostgreSQL`, ứng viên thành thạo `MySQL`. Mặc dù hai hệ quản trị khác nhau, nhưng nền tảng kiến thức SQL, đánh chỉ mục và tối ưu hóa truy vấn có thể chuyển giao nhanh chóng trong thực tế $\rightarrow$ công nhận 50% điểm tương đương.
 
-#### c) Công thức Độ Bao Phủ Bất Đối Xứng (Asymmetric Coverage)
+#### c) Công thức Độ Bao Phủ Bất Đối Xứng (Asymmetric Coverage) & Phân Tách Must / Nice
 Nhiều nghiên cứu trước đây dùng chỉ số đối xứng **Jaccard Similarity**:
 $$J(A, B) = \frac{|A \cap B|}{|A \cup B|}$$
 **Hạn chế chết người của Jaccard**: Giả sử JD yêu cầu 3 kỹ năng ($|A| = 3$), một kỹ sư kỳ cựu có 20 kỹ năng trong CV ($|B| = 20$) và đáp ứng đủ cả 3 kỹ năng đó ($|A \cap B| = 3$). Điểm Jaccard của anh ta sẽ là:
 $$J = \frac{3}{3 + 20 - 3} = \frac{3}{20} = 0.15 \quad (\text{Bị đánh trượt oan uổng do mẫu số quá lớn!})$$
 
 Để khắc phục, nghiên cứu này sử dụng công thức **Độ Bao Phủ Bất Đối Xứng (Asymmetric Coverage)**: mẫu số chỉ phụ thuộc vào số lượng kỹ năng mà **JD yêu cầu**:
-$$S_{\text{taxonomy}}(q, d) = \frac{\sum_{j \in K_q} \text{MatchCredit}(j, C_d)}{|K_q|}$$
-Trong đó điểm tín chỉ cho từng kỹ năng yêu cầu $j$ được tính bằng:
-$$\text{MatchCredit}(j, C_d) = \begin{cases} 
-1.0 & \text{nếu } j \in C_d \\
-\max_{c \in C_d} w_{\text{rel}}(c, j) & \text{nếu } j \notin C_d \text{ nhưng có kỹ năng liên quan} \\
-0.0 & \text{nếu hoàn toàn không đáp ứng}
+$$\text{Cov}(\mathcal{T}, \mathcal{K}_p) = \frac{1}{|\mathcal{T}|} \sum_{t \in \mathcal{T}} \mu(t, \mathcal{K}_p)$$
+Trong đó hàm mức độ tương quan liên tục $\mu(t, \mathcal{K}_p) \in [0, 1]$ (`src/cvjd/data/taxonomy.py:81-100`) được định nghĩa:
+$$\mu(t, \mathcal{K}_p) = \begin{cases} 
+1.00 & \text{nếu } t \in \mathcal{K}_p \text{ (khớp chính xác hoặc trùng bí danh alias)} \\
+\max_{u \in \mathcal{K}_p} \text{rel}(u, t) & \text{nếu tồn tại quan hệ trong taxonomy} \\
+0.00 & \text{ngược lại}
 \end{cases}$$
+với $\text{rel}(u, t)$ là trọng số quan hệ: $0.80$ ($\texttt{is\_superset\_of}$), $0.60$ ($\texttt{framework\_of}$), $[0.25, 0.50]$ ($\texttt{ecosystem\_companion}$).
+
+Điểm Taxonomy tổng hợp ($S_{tax}$) trong thực nghiệm khoa học (`scripts/run_scientific_benchmark.py:483-492`) phân bổ trọng số giữa kỹ năng bắt buộc (Must-have, $85\%$) và ưu tiên (Nice-to-have, $15\%$):
+$$S_{\text{taxonomy}}(q, p) = 0.85 \cdot \text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) + 0.15 \cdot \text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p)$$
+*Xử lý biên*: Nếu JD không có kỹ năng nào ($|\mathcal{K}_q| = 0$, chiếm $12.7\%$ JD), quy ước $S_{\text{taxonomy}} = 1.0$ cho mọi ứng viên để không làm méo mó thứ tự do vector xếp hạng. Nếu không có kỹ năng bắt buộc, $\text{Cov}(\text{Must}) = 1.0$; nếu không có kỹ năng ưu tiên, $\text{Cov}(\text{Nice}) = 0.0$.
 
 ---
 
@@ -239,15 +244,15 @@ $$\text{MatchCredit}(j, C_d) = \begin{cases}
 Do ba trục điểm số ($S_{\text{dense}}$, $S_{\text{bm25}}$, $S_{\text{taxonomy}}$) có bản chất toán học và phân phối giá trị hoàn toàn khác nhau (Cosine $\in [-1, 1]$, BM25 $\in [0, +\infty)$, Taxonomy $\in [0, 1]$), việc cộng trực tiếp sẽ khiến thuật toán có miền giá trị lớn lấn át các thuật toán còn lại.
 
 #### a) Chuẩn hóa Min-Max tuyến tính theo từng Truy vấn (Query-wise Min-Max Normalization)
-Với mỗi truy vấn JD $q$ và một danh sách ứng viên trong pool $\mathcal{D}_q$, điểm số của thuật toán $X$ được co dãn về đoạn $[0, 1]$:
-$$\tilde{S}_X(q, d) = \begin{cases} 
-\frac{S_X(q, d) - \min_{d' \in \mathcal{D}_q} S_X(q, d')}{\max_{d' \in \mathcal{D}_q} S_X(q, d') - \min_{d' \in \mathcal{D}_q} S_X(q, d')} & \text{nếu } \max \neq \min \\
+Với mỗi truy vấn JD $q$ và một danh sách ứng viên trong pool $\mathcal{P}_q$, điểm số của thuật toán $X \in \{\text{dense}, \text{bm25}\}$ được co dãn về đoạn $[0, 1]$:
+$$\tilde{S}_X(q, p) = \begin{cases} 
+\frac{S_X(q, p) - \min_{p' \in \mathcal{P}_q} S_X(q, p')}{\max_{p' \in \mathcal{P}_q} S_X(q, p') - \min_{p' \in \mathcal{P}_q} S_X(q, p')} & \text{nếu } \max \neq \min \\
 0.0 & \text{nếu } \max = \min \text{ (Tất cả điểm bằng nhau)}
 \end{cases}$$
 
 #### b) Tầng Hòa Trộn Truy Xuất (Retrieval Layer $L_0$ - Hằng số $\alpha = 0.60$)
 Hòa trộn giữa tín hiệu ngữ nghĩa phân vùng và tín hiệu từ khóa chính xác:
-$$S_{\text{retrieval}}(q, d) = \alpha \cdot \tilde{S}_{\text{dense}}(q, d) + (1 - \alpha) \cdot \tilde{S}_{\text{bm25}}(q, d)$$
+$$S_{\text{retrieval}}(q, p) = \alpha \cdot \tilde{S}_{\text{dense}}(q, p) + (1 - \alpha) \cdot \tilde{S}_{\text{bm25}}(q, p)$$
 
 > **Giải thích hằng số $\alpha = 0.60$**:
 > * **60% trọng số cho Dense**: Giữ vai trò nhạc trưởng, đảm bảo hệ thống hiểu được ngữ cảnh chuyên môn sâu và sự tương đồng về vai trò công việc.
@@ -256,7 +261,11 @@ $$S_{\text{retrieval}}(q, d) = \alpha \cdot \tilde{S}_{\text{dense}}(q, d) + (1 
 
 #### c) Tầng Quyết Định Tuyển Dụng Cuối Cùng (Final Hybrid Layer - Hằng số $\beta = 0.60$)
 Hòa trộn giữa điểm truy xuất tổng hợp và điểm bao phủ kỹ năng cứng:
-$$S_{\text{final}}(q, d) = \beta \cdot \tilde{S}_{\text{retrieval}}(q, d) + (1 - \beta) \cdot \tilde{S}_{\text{taxonomy}}(q, d)$$
+$$S_{\text{hybrid}}(q, p) = \beta \cdot S_{\text{retrieval}}(q, p) + (1 - \beta) \cdot S_{\text{taxonomy}}(q, p)$$
+
+Thay $\alpha = 0.60$ và $\beta = 0.60$, công thức khai triển thành dạng tổ hợp lồi với các trọng số hiệu dụng:
+$$S_{\text{hybrid}}(q, p) = 0.36 \cdot \tilde{S}_{\text{dense}}(q, p) + 0.24 \cdot \tilde{S}_{\text{bm25}}(q, p) + 0.40 \cdot S_{\text{taxonomy}}(q, p)$$
+với tổng trọng số thành phần đúng bằng $0.36 + 0.24 + 0.40 = 1.00$.
 
 > **Giải thích hằng số $\beta = 0.60$**:
 > * **60% trọng số cho $S_{\text{retrieval}}$**: Đảm bảo sự cân bằng giữa toàn bộ kinh nghiệm, học vấn và kỹ năng ngữ nghĩa.
@@ -264,9 +273,11 @@ $$S_{\text{final}}(q, d) = \beta \cdot \tilde{S}_{\text{retrieval}}(q, d) + (1 -
 > * *Cơ sở thực nghiệm*: Phân tích trên tập train chứng minh $\beta = 0.60$ đạt hiệu năng cao nhất (**0.7078** nDCG@10 so với $0.6994$ khi không có taxonomy).
 
 #### d) Mô hình Hợp nhất Thứ hạng Không Tham số (Parameter-Free RRF)
-Để so sánh đối chứng với mô hình Calibrated Hybrid có trọng số, hệ thống cài đặt thêm giải thuật **Reciprocal Rank Fusion (RRF)** chuẩn quốc tế:
-$$S_{\text{RRF}}(d) = \sum_{m \in \{\text{dense}, \text{bm25}, \text{tax}\}} \frac{1}{k + r_m(d)}$$
-*Trong đó $r_m(d) \in \{1, 2, \dots, N\}$ là vị trí thứ hạng của ứng viên $d$ theo mô hình $m$. Hằng số làm mịn được đặt theo chuẩn quốc tế là $k = 60$ (Cormack et al., SIGIR 2009).*
+Để so sánh đối chứng với mô hình Calibrated Hybrid có trọng số, hệ thống cài đặt giải thuật **Reciprocal Rank Fusion (RRF)** chuẩn quốc tế phối hợp hai danh sách Dense và BM25:
+$$S_{\text{RRF}}(q, p) = \sum_{m \in \{\text{dense}, \text{bm25}\}} \frac{1}{k + r_m(p)} = \frac{1}{60 + r_{dense}(p)} + \frac{1}{60 + r_{bm25}(p)}$$
+*Trong đó $r_m(p) \in \{1, 2, \dots, N_q\}$ là vị trí thứ hạng của ứng viên $p$ theo mô hình $m$. Hằng số làm mịn được đặt theo chuẩn quốc tế là $k = 60$ (Cormack et al., SIGIR 2009).*
+Khi kết hợp cùng taxonomy (`RRF + Taxonomy`), điểm $S_{\text{RRF}}$ được chuẩn hóa Min-Max và hòa trộn:
+$$S_{\text{RRF+Tax}}(q, p) = 0.60 \cdot \tilde{S}_{\text{RRF}}(q, p) + 0.40 \cdot S_{\text{taxonomy}}(q, p)$$
 
 ---
 

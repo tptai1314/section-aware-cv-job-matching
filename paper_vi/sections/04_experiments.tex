@@ -52,25 +52,27 @@ trong đó $y_i \in \{0, 1, 2\}$ là nhãn mức độ phù hợp tại vị tr�
 \end{equation}
 trong đó $\text{rank}_q$ là vị trí xuất hiện của ứng viên phù hợp đầu tiên ($\text{rel} \ge 1$) trong danh sách gợi ý của truy vấn $q$.
 
-\noindent\textbf{3. Độ chính xác Trung bình Trung bình (Mean Average Precision - MAP)}:
+\noindent\textbf{3. Độ chính xác Trung bình (Mean Average Precision - MAP)}:
 \begin{equation}
-    \text{AP}(q) = \frac{1}{R_q} \sum_{k=1}^N P@k \cdot \mathbb{I}(y_{q, k} \ge 1), \quad \text{MAP} = \frac{1}{|Q|} \sum_{q=1}^{|Q|} \text{AP}(q),
+    \text{AP}_\tau(q) = \frac{1}{R_{q, \tau}} \sum_{k=1}^{N_q} P_\tau@k \cdot \mathbb{I}(y_{q, \pi(k)} \ge \tau), \quad \text{MAP}_\tau = \frac{1}{|Q|} \sum_{q \in Q} \text{AP}_\tau(q),
 \end{equation}
-với $R_q = \sum_{k=1}^N \mathbb{I}(y_{q, k} \ge 1)$ là tổng số ứng viên phù hợp thực tế của truy vấn $q$, và $P@k$ là tỷ lệ ứng viên phù hợp nằm trong Top-$k$.
+với $R_{q, \tau} = \sum_{i=1}^{N_q} \mathbb{I}(y_{q, i} \ge \tau)$ là tổng số ứng viên phù hợp thực tế của truy vấn $q$ tại ngưỡng $\tau \in \{1, 2\}$, và $P_\tau@k$ là tỷ lệ ứng viên phù hợp nằm trong Top-$k$.
 
-\noindent\textbf{4. Hệ số Tương quan Hạng Spearman ($\rho$)}: Đo lường mức độ đồng điệu giữa thứ tự sắp xếp của mô hình và thứ hạng nhãn thực tế, báo cáo dưới dạng Macro-Spearman ($\rho_{\text{mac}}$, trung bình cộng hệ số tương quan trên từng truy vấn) và Micro-Spearman ($\rho_{\text{mic}}$, tương quan gộp trên toàn bộ $1.759$ cặp).
+\noindent\textbf{4. Hệ số Tương quan Hạng Spearman ($\rho$)}: Đo lường mức độ đồng điệu giữa thứ tự sắp xếp của mô hình và thứ hạng nhãn thực tế. Do nhãn chỉ có 3 mức $\{0, 1, 2\}$, hệ số tương quan được tính chính xác qua tương quan Pearson trên vector hạng trung bình (midranks) có xử lý đồng hạng. Các truy vấn có toàn bộ nhãn bằng nhau (phương sai nhãn bằng $0$) được loại bỏ khỏi trung bình Macro-Spearman ($\rho_{\text{mac}}$). Chỉ số gộp Micro-Spearman ($\rho_{\text{mic}}$) được tính trên toàn bộ các cặp của tập dữ liệu.
+
+\noindent\textbf{5. Kỳ vọng Phá Đồng hạng Công bằng (Fair Tie-Breaking)}: Nhằm tránh thiên vị do thứ tự xuất hiện cố định khi các ứng viên bằng điểm, mọi chỉ số đánh giá được tính bằng kỳ vọng trung bình qua $N_{\text{shuffles}} = 50$ lần xáo trộn ngẫu nhiên có thêm nhiễu vi mô $z \sim \text{Uniform}(-10^{-9}, 10^{-9})$.
 
 \subsection{Giao thức Kiểm định Thống kê Ý nghĩa và Chống Quá kiểm định}
 Để đảm bảo các kết luận rút ra phản ánh bản chất thuật toán thay vì phương sai ngẫu nhiên giữa các truy vấn:
 \begin{itemize}
     \item \textbf{Khoảng Tin cậy Ghép cặp Bootstrap 95\% CI}: Với mỗi cặp mô hình $(A, B)$, chúng tôi tính chuỗi sai biệt ghép cặp $\Delta_q = M_A(q) - M_B(q)$ trên từng truy vấn $q$. Sau đó, thực hiện $B = 10.000$ lần lấy mẫu lặp có hoàn lại trên tập truy vấn để dựng phân bố thực nghiệm và xác định khoảng phân vị $2.5\%$ và $97.5\%$. Nếu khoảng tin cậy không chứa giá trị $0$, sự chênh lệch có xu hướng nhất quán.
     \item \textbf{Kiểm định Ghép cặp $t$-Student và Wilcoxon Signed-Rank}: Tính toán giá trị kiểm định tham số ($t$-stat) và phi tham số ($W$) kèm giá trị $p$ thô (raw $p$-value).
-    \item \textbf{Hiệu chỉnh Đa Giả thuyết Holm--Bonferroni}: Khi kiểm định đồng thời một họ gồm $m = 15$ so sánh chính, nguy cơ phạm sai số loại I (báo cáo dương tính giả) tăng mạnh. Chúng tôi áp dụng quy trình kiểm soát FWER (Family-Wise Error Rate) theo thuật toán bậc thang lùi Holm--Bonferroni ở mức ý nghĩa danh định $\alpha = 0.05$: sắp xếp các giá trị $p$ tăng dần $p_{(1)} \le p_{(2)} \le \dots \le p_{(m)}$ và so sánh tuần tự với ngưỡng điều chỉnh:
+    \item \textbf{Hiệu chỉnh Đa Giả thuyết Holm--Bonferroni}: Khi kiểm định đồng thời một họ gồm $L = 15$ so sánh chính, nguy cơ phạm sai số loại I (báo cáo dương tính giả) tăng mạnh. Chúng tôi áp dụng quy trình kiểm soát FWER (Family-Wise Error Rate) theo thuật toán bậc thang lùi Holm--Bonferroni ở mức ý nghĩa danh định $\alpha_{\text{stat}} = 0.05$: sắp xếp các giá trị $p$ tăng dần $p_{(1)} \le p_{(2)} \le \dots \le p_{(L)}$ và so sánh tuần tự với ngưỡng điều chỉnh:
     \begin{equation}
-        p_{(i)} \le \frac{\alpha}{m - i + 1}.
+        p_{(i)} \le \frac{\alpha_{\text{stat}}}{L - i + 1}.
         \label{eq:holm}
     \end{equation}
-    Một giả thuyết chỉ được kết luận là có ý nghĩa thống kê chính thức nếu vượt qua được ngưỡng hiệu chỉnh này.
+    Một giả thuyết chỉ được kết luận là có ý nghĩa thống kê chính thức nếu vượt qua được ngưỡng hiệu chỉnh này. Do họ $L=15$ phép so sánh được xác định post-hoc để bao quát RQ1--RQ4, kết luận điều chỉnh Holm cần được hiểu là phân tích khám phá (exploratory).
 \end{itemize}
 
 \subsection{Hai Kịch bản Đánh giá Thực tế: Setting A và Setting B}
