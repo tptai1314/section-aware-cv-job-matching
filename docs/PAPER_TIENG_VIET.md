@@ -1,10 +1,10 @@
-# SO KHỚP HỒ SƠ ỨNG VIÊN VÀ MÔ TẢ CÔNG VIỆC CÓ NHẬN BIẾT PHÂN VÙNG CẤU TRÚC KẾT HỢP ONTOLOGY KỸ NĂNG VÀ TRUY XUẤT ĐA TẦNG
+# TRUY XUẤT ĐA VECTOR NHẬN BIẾT PHÂN MỤC VÀ XẾP HẠNG LAI CHO GHÉP CẶP HAI CHIỀU CV–JOB TRÊN NỀN TẢNG TUYỂN DỤNG
 
-**Tác giả**: Nhóm Nghiên Cứu Hệ Thống Tuyển Dụng Thông Minh  
-**Đơn vị**: Khoa Công Nghệ Thông Tin / Khoa Khoa Học Máy Tính  
-**Dự án**: Nghiên cứu & Phát triển Hệ thống Tuyển dụng Frevia (`section-aware-cv-job-matching`)  
+**Tác giả**: Nhóm Tác Giả Nghiên Cứu Khuyết Danh  
+**Lĩnh vực**: Khai phá Dữ liệu, Xử lý Ngôn ngữ Tự nhiên & Truy xuất Thông tin (IR/NLP)  
+**Mã nguồn**: `section-aware-cv-job-matching`  
 **Ngày phát hành**: Tháng 11 Năm 2026  
-**Trạng thái**: Báo cáo Nghiên cứu & Chuyên khảo Kỹ thuật Toàn văn (Monograph / Full Research Paper)
+**Trạng thái**: Báo cáo Chuyên khảo Khoa học Toàn văn (Monograph / Full Research Paper)
 
 ---
 
@@ -139,7 +139,7 @@ Trong thực tế, nhiều bản mô tả công việc (JD) không chia đủ c�
 $$\text{sim}_s(q, d) = \mathbf{u}_{\text{full}} \cdot \mathbf{v}_s, \quad \text{với trọng số hiệu dụng } w'_s = 0.5 \cdot w_s$$
 
 #### c) Cơ chế Tái Chuẩn Hóa Trọng Số Động (Dynamic Weight Renormalization)
-Khi một CV bị thiếu một hoặc nhiều section (ví dụ CV của sinh viên mới tốt nghiệp chưa có mục kinh nghiệm làm việc), nếu vẫn giữ nguyên mẫu số bằng 1.0 thì tổng điểm của ứng viên sẽ bị sụt giảm bất công. Hệ thống áp dụng công thức tái chuẩn hóa động:
+Khi một CV bị thiếu một hoặc nhiều section (ví dụ ứng viên mới tham gia thị trường lao động chưa có mục kinh nghiệm làm việc hoặc JD không yêu cầu học vấn), nếu vẫn giữ nguyên mẫu số bằng 1.0 thì tổng điểm của ứng viên sẽ bị sụt giảm bất công. Hệ thống áp dụng công thức tái chuẩn hóa động:
 $$S_{\text{dense}}(q, d) = \frac{\sum_{s \in \mathcal{S}_{\text{present}}} w'_s \cdot \text{sim}_s(q, d)}{\sum_{s \in \mathcal{S}_{\text{present}}} w'_s}$$
 *Trong đó $\mathcal{S}_{\text{present}}$ là tập hợp các section thực sự có mặt trong hồ sơ ứng viên.*
 
