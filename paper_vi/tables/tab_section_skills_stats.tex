@@ -1,0 +1,24 @@
+% Thống kê cấu trúc phân mục thống nhất trên tập dữ liệu benchmark công khai
+\begin{table}[t]
+\centering
+\caption{Thống kê phân bố phân mục trên CV và JD được bóc tách bởi bộ tách phân mục đã đóng băng (commit \texttt{41e1d27}) trên tập dữ liệu chuẩn \texttt{cnamuangtoun/resume-job-description-fit}.}
+\label{tab:section_skills_stats}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrr}
+\hline
+\textbf{Thực thể Phân mục (Section Entity)} & \textbf{Tỷ lệ CV (\%)} & \textbf{Số từ TB / CV} & \textbf{Tỷ lệ JD (\%)} & \textbf{Số từ TB / JD} \\
+\hline
+Kỹ năng Kỹ thuật / Yêu cầu công việc & 86.4\% & 49.8 & 19.7\% & 250.6 \\
+Kinh nghiệm Làm việc / Trách nhiệm chính & 100.0\% & 527.0 & 31.0\% & 205.6 \\
+Học vấn \& Bằng cấp & 94.3\% & 38.9 & 8.5\% & 253.8 \\
+Tóm tắt Bản thân / Tổng quan hồ sơ & 83.9\% & 86.3 & -- & -- \\
+Chế độ Đãi ngộ \& Quyền lợi & -- & -- & 15.5\% & 172.6 \\
+Dự án / Portfolio & -- & -- & -- & -- \\
+\hline
+Đa mục ($\ge 2$ phân mục nhận diện) & 99.6\% & -- & 28.2\% & -- \\
+Đa mục ($\ge 3$ phân mục nhận diện) & 94.3\% & -- & 7.0\% & -- \\
+Bao phủ Kỹ năng Taxonomy & 96.4\% & 10.3 kỹ năng/CV & 87.3\% & 4.4 kỹ năng/JD \\
+\hline
+\end{tabular}%
+}
+\end{table}

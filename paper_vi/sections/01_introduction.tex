@@ -1,0 +1,29 @@
+\section{Đặt vấn đề và Động lực Nghiên cứu}
+
+Các nền tảng tuyển dụng trực tuyến và thị trường việc làm tự do (freelance) là động lực tăng trưởng quan trọng trong nền kinh tế tri thức hiện đại. Khác với quy trình tuyển dụng nhân sự toàn thời gian truyền thống vốn chủ yếu dựa vào chức danh công việc chuẩn hóa, các nền tảng việc làm linh hoạt vận hành dựa trên các dự án ngắn hạn với yêu cầu kỹ năng cụ thể, phân mảnh và thay đổi nhanh chóng. Do đó, hệ thống matching tự động bắt buộc phải vận hành hiệu quả theo cả hai chiều: đề xuất ứng viên phù hợp cho bài đăng tuyển dụng ($\text{JD} \rightarrow \text{CV}$) và gợi ý công việc phù hợp cho người tìm việc ($\text{CV} \rightarrow \text{JD}$).
+
+Khi triển khai hệ thống ghép cặp hồ sơ tuyển dụng trong môi trường sản xuất thực tế, các kỹ sư đối mặt với bốn thách thức kỹ thuật lớn:
+\begin{enumerate}
+    \item \textbf{Hiện tượng Pha loãng Ngữ nghĩa và Giới hạn Độ dài Văn bản}: Hồ sơ ứng viên (CV) thường kéo dài từ 2 đến 5 trang với nội dung không đồng nhất (kỹ năng, lịch sử làm việc, trình độ học vấn, dự án). Việc nén toàn bộ văn bản vào một vector đặc duy nhất (Single-Vector Dense) khiến các đoạn mô tả dài lấn át các kỹ năng kỹ thuật hiếm. Hơn nữa, hầu hết các mô hình ngôn ngữ dựa trên Transformer như MiniLM \cite{reimers2019sentencebert} có chiều dài ngữ cảnh tối đa bị giới hạn ở $256$ hoặc $512$ tokens, khiến phần lớn nội dung phía sau của CV bị cắt bỏ (truncation) một cách cưỡng bức.
+    \item \textbf{Bất đối xứng Từ vựng và Điểm nghẽn Khớp Từ khóa}: Các thuật toán truy xuất từ vựng cổ điển như BM25 \cite{robertson2009probabilistic} phụ thuộc hoàn toàn vào sự trùng lặp từng chữ. Chúng thất bại khi ứng viên và nhà tuyển dụng sử dụng các thuật ngữ đồng nghĩa nhưng khác mặt chữ (ví dụ: ``cơ sở dữ liệu quan hệ'' so với ``PostgreSQL'', ``Golang'' so với ``Go''), hoặc khi ứng viên mô tả năng lực bằng lời văn tự sự thay vì liệt kê từ khóa.
+    \item \textbf{Ràng buộc Nghiệp vụ Cứng so với Khoảng cách Ngữ nghĩa}: Quy trình sàng lọc nhân sự thực tế bắt buộc phải thỏa mãn các tiêu chí tiên quyết không thể thương lượng (chứng chỉ chuyên môn, năm kinh nghiệm tối thiểu) bên cạnh sự tương đồng ngữ nghĩa mềm. Các mô hình mạng nơ-ron thông thường không thể tự động thực thi các ràng buộc bất đối xứng này nếu thiếu đi các luật phân loại nghiệp vụ hỗ trợ.
+    \item \textbf{Ràng buộc Tài nguyên và Độ trễ Phục vụ Thực tế}: Các nền tảng thương mại phải đáp ứng cam kết chất lượng dịch vụ (SLA) nghiêm ngặt về thời gian phản hồi dưới $100$\,ms mà không thể gánh chịu chi phí vận hành các cụm máy chủ suy luận GPU đắt đỏ. Các thuật toán phải có khả năng thực thi nhanh chóng trên phần cứng CPU đa nhân phổ thông.
+\end{enumerate}
+
+Để giải quyết đồng thời các thách thức trên mà không phụ thuộc vào các mô hình nơ-ron hộp đen cồng kềnh khó diễn giải, bài báo này đề xuất một \textbf{kiến trúc ghép cặp hai chiều đa vector nhận biết phân mục (Section-Aware Multi-Vector Matching)}, kết hợp động cơ xếp hạng lai linh hoạt. Bằng cách phân tách tài liệu thành các đơn vị chức năng độc lập (kỹ năng, kinh nghiệm, học vấn, tóm tắt) và ghép cặp tương thích chéo, hệ thống bảo toàn nguyên vẹn tín hiệu năng lực cục bộ mà không đòi hỏi huấn luyện lại mô hình ngôn ngữ nền tảng. Chúng tôi tích hợp biểu diễn đa vector cùng một cây phân loại (Taxonomy) kỹ năng 3 tầng hỗ trợ quan hệ phân cấp và cơ chế đo lường độ phủ yêu cầu bất đối xứng.
+
+Công trình này tập trung kiểm chứng và trả lời bốn \textbf{Câu hỏi Nghiên cứu (Research Questions - RQ)}:
+\begin{itemize}
+    \item \textbf{RQ1 (Độ mịn Phân mục so với Biểu diễn Đơn Vector và Chunking)}: Biểu diễn đa vector theo phân mục chức năng có mang lại lợi thế xếp hạng vượt trội so với các mô hình đơn vector phẳng và chia lát (chunking) hay không?
+    \item \textbf{RQ2 (Truy xuất Từ vựng, Vector Đặc và Hợp nhất Lai)}: Phương pháp từ vựng (BM25) so sánh như thế nào với vector đặc, và mô hình lai có hiệu chuẩn điểm số hoặc mô hình Reciprocal Rank Fusion (RRF) không tham số có cải thiện độ ổn định xếp hạng hay không?
+    \item \textbf{RQ3 (Vai trò của Cây Phân loại Kỹ năng 3 Tầng)}: Việc tích hợp quan hệ phân cấp kỹ năng và độ phủ bất đối xứng mang lại tác động định lượng như thế nào so với hệ số tương đồng Jaccard đối xứng truyền thống?
+    \item \textbf{RQ4 (Hiệu năng Tính toán và Đánh đổi Tái xếp hạng)}: Mô hình tái xếp hạng 2 chặng với Cross-Encoder có tương xứng với chi phí độ trễ suy luận tăng vọt trên nền tảng CPU so với mô hình lai một chặng hay không?
+\end{itemize}
+
+Các đóng góp khoa học và thực tiễn chính của bài báo bao gồm:
+\begin{itemize}
+    \item \textbf{Kiến trúc Đa Vector Nhận biết Phân mục}: Xây dựng cơ chế bóc tách mục không rò rỉ và ánh xạ các vùng nội dung chức năng vào các không gian con vector riêng biệt, giải quyết triệt để vấn đề hồ sơ khuyết mục thông qua công thức tái chuẩn hóa trọng số động.
+    \item \textbf{Cây Phân loại Kỹ năng 3 Tầng với Độ phủ Bất đối xứng}: Hình thức hóa động cơ đối sánh 3 lớp (Khớp chính xác/Từ đồng nghĩa, Quan hệ phân cấp cha-con, và Ngữ nghĩa) kết hợp hàm đo độ phủ phân biệt kỹ năng bắt buộc (Must-Have) và kỹ năng ưu tiên (Nice-To-Have).
+    \item \textbf{Thực nghiệm Toàn diện trên Tập Dữ liệu Chuẩn Quốc tế}: Đánh giá minh bạch trên tập dữ liệu \textsc{resume-job-description-fit} ($1.759$ cặp nhãn trên $71$ truy vấn JD) và tập kiểm chứng độc lập \textsc{med2425} ($8.575$ cặp trên $41$ JD công nghệ), bao quát từ vựng, vector đặc, ngữ cảnh dài, mô hình lai và Cross-Encoder.
+    \item \textbf{Kiểm định Thống kê Chặt chẽ và Phân tích Độ trễ Chuẩn hóa}: Áp dụng kiểm định ghép cặp Bootstrap $95\%$ CI với hiệu chỉnh Holm--Bonferroni chống lạm phát sai số loại I. Phân rã độ trễ chuẩn hóa thành 3 thành phần rõ ràng: đánh chỉ mục offline ($T_{\text{index}}$), mã hóa truy vấn online ($T_{\text{query}}$) và tính điểm xếp hạng ($T_{\text{rank}}$).
+\end{itemize}

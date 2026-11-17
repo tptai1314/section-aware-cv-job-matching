@@ -51,3 +51,9 @@ paper/*.out
 paper/*.bbl
 paper/*.blg
 paper/*.toc
+paper_vi/*.aux
+paper_vi/*.log
+paper_vi/*.out
+paper_vi/*.bbl
+paper_vi/*.blg
+paper_vi/*.toc

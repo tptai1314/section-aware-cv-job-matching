@@ -1,0 +1,51 @@
+% !TEX program = pdflatex
+% =====================================================================
+% Hệ thống Truy xuất Đa Vector Nhận biết Phân mục và Xếp hạng Lai cho
+% Ghép cặp Hai chiều Hồ sơ Ứng viên (CV) và Mô tả Công việc (JD)
+%
+% Định dạng Springer LNCS Proceedings (Bản Toàn văn Tiếng Việt)
+% =====================================================================
+\documentclass[runningheads]{llncs}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T5]{fontenc}
+\usepackage[english,vietnamese]{babel}
+\AtBeginDocument{\shorthandoff{"}}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage{xcolor}
+\usepackage[colorlinks=true,linkcolor=blue!70!black,citecolor=green!50!black,urlcolor=blue!70!black]{hyperref}
+
+\begin{document}
+
+\title{Truy xuất Đa Vector Nhận biết Phân mục và Xếp hạng Lai cho Ghép cặp Hai chiều CV--Mô tả Công việc trên Nền tảng Tuyển dụng}
+
+\titlerunning{Ghép cặp CV--JD Đa Vector Nhận biết Phân mục}
+
+\author{Nhóm Tác giả Khuyết danh\inst{1}}
+\authorrunning{Khuyết danh và cộng sự}
+
+\institute{Khoa Khoa học và Kỹ thuật Máy tính\\
+\email{research@example.edu}}
+
+\maketitle
+
+% --- Các phân đoạn nội dung mô-đun ---
+\input{sections/00_abstract.tex}
+\input{sections/01_introduction.tex}
+\input{sections/02_related_work.tex}
+\input{sections/03_methodology.tex}
+\input{sections/04_experiments.tex}
+\input{sections/05_results.tex}
+\input{sections/05b_ethics_and_limitations.tex}
+\input{sections/06_conclusion.tex}
+
+% --- Tài liệu tham khảo ---
+\bibliographystyle{splncs04}
+\bibliography{references}
+
+\end{document}

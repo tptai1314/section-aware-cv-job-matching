@@ -1,0 +1,81 @@
+\section{Thiết lập Thực nghiệm và Giao thức Đo lường}
+
+\subsection{Tập Dữ liệu Đánh giá và Phân bố Nhãn}
+Để đảm bảo tính khách quan và khả năng tái lập trong khoa học mở, toàn bộ các thực nghiệm được tiến hành trên tập dữ liệu chuẩn quốc tế \textsc{resume-job-description-fit} \cite{huggingface_resume_fit}:
+\begin{itemize}
+    \item \textbf{Quy mô Tập Kiểm thử Chính thức (Test Split)}: Gồm $1.759$ cặp hồ sơ ứng viên và mô tả công việc có gán nhãn, trải rộng trên $71$ truy vấn JD độc nhất và $477$ CV ứng viên thuộc nhiều lĩnh vực công nghệ thông tin và quản trị kinh doanh.
+    \item \textbf{Thang điểm Đánh giá 3 Mức (Graded Relevance Rubric)}: Mỗi cặp văn bản được gán nhãn theo 3 cấp độ:
+    \begin{itemize}
+        \item \textbf{Mức 0 (\textit{No Fit})}: $857$ cặp ($48.7\%$), là các mẫu gây nhiễu âm tính khi ứng viên không đáp ứng các yêu cầu cốt lõi của công việc.
+        \item \textbf{Mức 1 (\textit{Potential Fit})}: $444$ cặp ($25.2\%$), thể hiện sự phù hợp một phần, ứng viên sở hữu kỹ năng nền tảng có thể chuyển đổi nhưng thiếu một số yêu cầu thứ cấp.
+        \item \textbf{Mức 2 (\textit{Good Fit})}: $458$ cặp ($26.1\%$), biểu thị mức độ tương thích cao, đáp ứng đầy đủ cả yêu cầu kỹ thuật và số năm kinh nghiệm.
+    \end{itemize}
+\end{itemize}
+
+\noindent\textbf{Giao thức Phân tách Chống Rò rỉ Dữ liệu}:
+Trong tập dữ liệu huấn luyện gốc (\texttt{train.csv}) gồm $280$ JD và $6.241$ cặp, quá trình rà soát mã nguồn cho thấy có $204$ JD ($72.9\%$) đã từng được sử dụng để khảo sát luật bóc tách mục hoặc phân tích độ nhạy. Do đó, để tạo ra một tập kiểm chứng độc lập hoàn toàn không bị rò rỉ (Held-Out Clean Train Set), chúng tôi đã cố định và cam kết kế hoạch đánh giá trước (Pre-registered Plan, commit \texttt{d22eb66}) trên $76$ JD sạch còn lại ($27.1\%$, gồm $1.829$ cặp tài liệu). Việc đánh giá song song trên cả tập Test (71 JD) và tập Clean Train (76 JD) giúp kiểm chứng mức độ tổng quát hóa và khẳng định các kết luận không phải do quá khớp cục bộ.
+
+\noindent\textbf{Tập Dữ liệu Thẩm định Chéo Độc lập (\textsc{med2425})}:
+Nhằm đánh giá hệ thống trong bối cảnh mật độ ứng viên cạnh tranh cao, chúng tôi thu thập thêm tập dữ liệu \textsc{med2425/resume-job-fit-merged-v1} \cite{med2425_dataset}. Sau khi khử trùng lặp và lọc riêng phân ngành Công nghệ Thông tin (phần mềm, dữ liệu, trí tuệ nhân tạo), tập này bao gồm $41$ JD, $277$ CV và $8.575$ cặp được gán nhãn bởi mô hình ngôn ngữ lớn chuyên gia Qwen2.5-32B ở nhiệt độ $0$. Với mật độ trung bình $\approx 209$ ứng viên trên mỗi bài đăng tuyển dụng, tập này đóng vai trò thước đo năng lực sàng lọc nhân tài trong nhóm ứng viên dày đặc.
+
+\subsection{Các Cấu hình Mô hình Đối sánh}
+Chúng tôi thiết lập một chuỗi đối sánh thực nghiệm toàn diện gồm các mô hình từ vựng, vector đặc, chia lát, ngữ cảnh dài, mô hình lai và mô hình chú ý chéo:
+\begin{enumerate}
+    \item \textbf{Mốc Ngẫu nhiên (Floor: Random Ranking)}: Hoán vị ngẫu nhiên danh sách ứng viên (kỳ vọng qua 50 lần xáo trộn).
+    \item \textbf{Mô hình Từ vựng BM25}: Thuật toán Okapi BM25 \cite{robertson2009probabilistic} kinh điển áp dụng trên toàn văn thô với bộ lọc từ dừng tiếng Anh.
+    \item \textbf{Đơn Vector Phẳng (MiniLM Flat)}: Mã hóa toàn văn tài liệu bằng mô hình Bi-Encoder \texttt{all-MiniLM-L6-v2} ($d=384$ chiều, độ dài ngữ cảnh tối đa $256$ tokens). Các nội dung vượt quá $256$ tokens bị cắt bỏ cưỡng bức.
+    \item \textbf{Chia lát Trung bình (Chunk-Mean)}: Cắt tài liệu bằng cửa sổ trượt kích thước $128$ từ với bước nhảy (stride) $64$ từ; lấy trung bình cộng các vector lát để tạo biểu diễn duy nhất trước khi tính khoảng cách Cosine.
+    \item \textbf{Chia lát MaxSim (ColBERT Late Interaction)}: Chia lát theo cửa sổ trượt $128$ từ nhưng tính điểm qua toán tử tương tác trễ: $\frac{1}{|Q|}\sum_{q \in Q} \max_{d \in D} \cos(q, d)$.
+    \item \textbf{Đa Vector Nhận biết Mục (Section-Aware Dense - Đề xuất)}: Bóc tách phân mục chức năng bằng bộ tách đã đóng băng (commit \texttt{41e1d27}), mã hóa độc lập và ghép cặp chéo với tái chuẩn hóa trọng số động. Chúng tôi đánh giá ba biến thể: Thuần ($100\%$ mục), Có dự phòng Fallback, và Trộn tỷ lệ ($0.65$ mục + $0.35$ đơn vector).
+    \item \textbf{Mô hình Ngữ cảnh Dài (\textsc{BAAI/bge-m3})}: Mô hình đa ngữ cảnh hỗ trợ tới $8.192$ tokens ($d=1024$ chiều), đánh giá ở cả hai cấu hình Phẳng (Flat) và Đa mục (Section-Aware).
+    \item \textbf{Mô hình Lai Cơ sở (Dense + BM25 - $L_0$)}: Hợp nhất điểm đơn vector chuẩn hóa Min-Max và điểm BM25 mà không sử dụng cây phân loại kỹ năng.
+    \item \textbf{Mô hình Lai Hiệu chuẩn (Calibrated Hybrid - Đề xuất)}: Tích hợp đầy đủ điểm đa vector ngữ nghĩa ($\alpha = 0.60$), điểm từ vựng BM25 ($1 - \alpha = 0.40$), và độ phủ kỹ năng trên cây phân loại 3 tầng ($S_{skills}$).
+    \item \textbf{Mô hình RRF Không Tham số (RRF + Taxonomy)}: Phối hợp xếp hạng nghịch đảo không cần tinh chỉnh trọng số ($k=60$) giữa danh sách đa vector và BM25, kết hợp độ phủ taxonomy.
+    \item \textbf{Cross-Encoder Tái xếp hạng Toàn phần}: Mô hình tương tác sâu nối chuỗi cặp văn bản $(D_q, D_c)$ thông qua \texttt{ms-marco-MiniLM-L-6-v2}.
+    \item \textbf{Mô hình 2 Chặng (Cascaded Two-Stage)}: Sử dụng Calibrated Hybrid để lấy Top-$K$ ($K=10$ hoặc $20$), sau đó đưa qua Cross-Encoder để tái xếp hạng.
+    \item \textbf{Trần Hoàn hảo (Ceiling: Oracle Ranking)}: Xếp hạng lý tưởng dựa trên nhãn thực tế $y_{q, i}$ để xác định giới hạn trên lý thuyết của tập dữ liệu.
+\end{enumerate}
+
+\subsection{Các Thước đo Đánh giá và Công thức Toán học Chi tiết}
+Theo chuẩn mực Hội nghị Quốc tế về Truy xuất Thông tin (TREC, ACM SIGIR), hiệu năng xếp hạng được định lượng qua nhiều thước đo bổ trợ:
+
+\noindent\textbf{1. Độ lợi Tích lũy Giảm dần Chuẩn hóa (nDCG@K)}: Đo lường chất lượng xếp hạng có trọng số theo vị trí tại ngưỡng $K \in \{5, 10\}$:
+\begin{equation}
+    \text{DCG}@K = \sum_{i=1}^K \frac{2^{y_i} - 1}{\log_2(i + 1)}, \quad \text{nDCG}@K = \frac{\text{DCG}@K}{\text{IDCG}@K},
+    \label{eq:ndcg}
+\end{equation}
+trong đó $y_i \in \{0, 1, 2\}$ là nhãn mức độ phù hợp tại vị trí thứ $i$ trong danh sách được hệ thống đề xuất; tử số $2^{y_i} - 1$ là hàm độ lợi hàm mũ (exponential gain) giúp tưởng thưởng vượt trội cho các ứng viên mức 2; mẫu số $\log_2(i + 1)$ là hệ số suy giảm vị trí (discounting factor), phạt nặng nếu ứng viên xuất sắc bị đẩy xuống các vị trí sâu trong danh sách. $\text{IDCG}@K$ là giá trị DCG@K lý tưởng thu được khi sắp xếp tập ứng viên theo thứ tự giảm dần tuyệt đối của nhãn thực tế.
+
+\noindent\textbf{2. Điểm Nghịch đảo Trung bình của Vị trí Đầu tiên (MRR)}:
+\begin{equation}
+    \text{MRR} = \frac{1}{|Q|} \sum_{q=1}^{|Q|} \frac{1}{\text{rank}_q},
+\end{equation}
+trong đó $\text{rank}_q$ là vị trí xuất hiện của ứng viên phù hợp đầu tiên ($\text{rel} \ge 1$) trong danh sách gợi ý của truy vấn $q$.
+
+\noindent\textbf{3. Độ chính xác Trung bình Trung bình (Mean Average Precision - MAP)}:
+\begin{equation}
+    \text{AP}(q) = \frac{1}{R_q} \sum_{k=1}^N P@k \cdot \mathbb{I}(y_{q, k} \ge 1), \quad \text{MAP} = \frac{1}{|Q|} \sum_{q=1}^{|Q|} \text{AP}(q),
+\end{equation}
+với $R_q = \sum_{k=1}^N \mathbb{I}(y_{q, k} \ge 1)$ là tổng số ứng viên phù hợp thực tế của truy vấn $q$, và $P@k$ là tỷ lệ ứng viên phù hợp nằm trong Top-$k$.
+
+\noindent\textbf{4. Hệ số Tương quan Hạng Spearman ($\rho$)}: Đo lường mức độ đồng điệu giữa thứ tự sắp xếp của mô hình và thứ hạng nhãn thực tế, báo cáo dưới dạng Macro-Spearman ($\rho_{\text{mac}}$, trung bình cộng hệ số tương quan trên từng truy vấn) và Micro-Spearman ($\rho_{\text{mic}}$, tương quan gộp trên toàn bộ $1.759$ cặp).
+
+\subsection{Giao thức Kiểm định Thống kê Ý nghĩa và Chống Quá kiểm định}
+Để đảm bảo các kết luận rút ra phản ánh bản chất thuật toán thay vì phương sai ngẫu nhiên giữa các truy vấn:
+\begin{itemize}
+    \item \textbf{Khoảng Tin cậy Ghép cặp Bootstrap 95\% CI}: Với mỗi cặp mô hình $(A, B)$, chúng tôi tính chuỗi sai biệt ghép cặp $\Delta_q = M_A(q) - M_B(q)$ trên từng truy vấn $q$. Sau đó, thực hiện $B = 10.000$ lần lấy mẫu lặp có hoàn lại trên tập truy vấn để dựng phân bố thực nghiệm và xác định khoảng phân vị $2.5\%$ và $97.5\%$. Nếu khoảng tin cậy không chứa giá trị $0$, sự chênh lệch có xu hướng nhất quán.
+    \item \textbf{Kiểm định Ghép cặp $t$-Student và Wilcoxon Signed-Rank}: Tính toán giá trị kiểm định tham số ($t$-stat) và phi tham số ($W$) kèm giá trị $p$ thô (raw $p$-value).
+    \item \textbf{Hiệu chỉnh Đa Giả thuyết Holm--Bonferroni}: Khi kiểm định đồng thời một họ gồm $m = 15$ so sánh chính, nguy cơ phạm sai số loại I (báo cáo dương tính giả) tăng mạnh. Chúng tôi áp dụng quy trình kiểm soát FWER (Family-Wise Error Rate) theo thuật toán bậc thang lùi Holm--Bonferroni ở mức ý nghĩa danh định $\alpha = 0.05$: sắp xếp các giá trị $p$ tăng dần $p_{(1)} \le p_{(2)} \le \dots \le p_{(m)}$ và so sánh tuần tự với ngưỡng điều chỉnh:
+    \begin{equation}
+        p_{(i)} \le \frac{\alpha}{m - i + 1}.
+        \label{eq:holm}
+    \end{equation}
+    Một giả thuyết chỉ được kết luận là có ý nghĩa thống kê chính thức nếu vượt qua được ngưỡng hiệu chỉnh này.
+\end{itemize}
+
+\subsection{Hai Kịch bản Đánh giá Thực tế: Setting A và Setting B}
+Hệ thống được đo đạc song song trên hai kịch bản nhằm bảo đảm tính minh bạch tuyệt đối:
+\begin{itemize}
+    \item \textbf{Kịch bản Setting A (Toàn bộ 71 Truy vấn, Bảng~\ref{tab:main_benchmark_all})}: Đánh giá trên toàn bộ tập dữ liệu gốc, bao gồm $10$ truy vấn hoàn toàn không có bất kỳ ứng viên phù hợp nào ($\text{rel} \ge 1$, tức $\text{IDCG}=0$). Đối với $10$ truy vấn này, theo chuẩn tính toán hình thức, điểm số được gán bằng $0.0$.
+    \item \textbf{Kịch bản Setting B (Các Truy vấn Đã lọc, Bảng~\ref{tab:main_benchmark_filtered})}: Tuân theo chuẩn mực kinh điển của Hội nghị TREC, các truy vấn không có ứng viên phù hợp được lọc bỏ ($N=61$ truy vấn tại ngưỡng $\text{rel} \ge 1$; và $N=28$ truy vấn tại ngưỡng khắt khe $\text{rel} = 2$) để đo lường chính xác năng lực phân loại của mô hình khi tài liệu phù hợp thực sự tồn tại.
+\end{itemize}

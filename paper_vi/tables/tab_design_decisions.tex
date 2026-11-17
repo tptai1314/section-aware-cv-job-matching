@@ -1,0 +1,18 @@
+% Bảng quyết định thiết kế kiến trúc, phương án thay thế và bằng chứng thực nghiệm
+\begin{table*}[t]
+\centering\small
+\caption{Các quyết định thiết kế hệ thống, giải pháp thay thế, lý do kiến trúc và bằng chứng thực nghiệm.}
+\label{tab:design_decisions}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llll@{}}
+\toprule
+\textbf{Quyết định thiết kế} & \textbf{Giải pháp thay thế} & \textbf{Lý do kiến trúc} & \textbf{Bằng chứng thực nghiệm} \\ \midrule
+\textbf{Phân mảnh Đa Vector} & Đơn Vector phẳng / Chunking & Tránh loãng ngữ nghĩa các kỹ năng hiếm & Ngăn chặn hiện tượng cắt ngắn văn bản ($>95\%$ tránh truncation) \\
+\textbf{Ghép cặp Chéo Mục} & Ghép cặp cứng cùng tên mục & Khai thác kỹ năng lồng trong kinh nghiệm & Bao phủ thông tin khi $26\%$ CV thiếu tiêu đề kỹ năng riêng \\
+\textbf{Tái chuẩn hóa Trọng số} & Gán điểm 0 cho mục thiếu & Tránh phạt bất công hồ sơ mới tốt nghiệp & Giữ chuẩn hóa điểm số công bằng giữa các loại ứng viên \\
+\textbf{Độ phủ Kỹ năng Bất đối xứng} & Jaccard Đối xứng & Đo lường mức độ đáp ứng yêu cầu tuyển dụng & Phân biệt rõ kỹ năng bắt buộc (Must) và ưu tiên (Nice) \\
+\textbf{Tìm kiếm Lai Hai Tầng} & Quét thô toàn bộ ứng viên & Đạt độ trễ trực tuyến thời gian thực & $T_{\text{rank}} = 2.69$\,ms cho pool $N=25$ ứng viên trên CPU \\
+\textbf{Giải thích Minh bạch Căn cứ} & Mô hình Sinh LLM Hộp đen & Trích xuất trực tiếp bằng chứng từ điểm số & Loại bỏ hiện tượng ảo giác, hỗ trợ giải trình pháp lý \\ \bottomrule
+\end{tabular}%
+}
+\end{table*}

@@ -1,0 +1,18 @@
+% Bảng chất lượng và biên Pareto độ trễ của tái xếp hạng 2 chặng
+\begin{table}[t]
+\centering
+\caption{Biên Pareto giữa Chất lượng xếp hạng và Độ trễ của Mô hình Tái xếp hạng 2 Chặng (Calibrated Hybrid $\rightarrow$ Cross-Encoder) cho pool $N=25$ ứng viên.}
+\label{tab:two_stage_reranking}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\hline
+\textbf{Kiến trúc / Phương pháp} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{$T_{\text{rank}}$ ($N=25$)} \\
+\hline
+Chặng 1: Calibrated Hybrid Đơn lẻ & 0.5998 & 0.6162 & 0.6764 & 0.6366 & 2.69\,ms \\
+Chặng 1+2: Hybrid $\rightarrow$ CE (Top-10) & 0.5513 & 0.5766 & 0.6408 & 0.5767 & 426.9\,ms \\
+Chặng 1+2: Hybrid $\rightarrow$ CE (Top-20) & 0.5273 & 0.5532 & 0.6191 & 0.5667 & 853.8\,ms \\
+Cross-Encoder Toàn phần (Tất cả $N=25$) & 0.5292 & 0.5531 & 0.6420 & 0.5650 & 1178.0\,ms \\
+\hline
+\end{tabular}%
+}
+\end{table}

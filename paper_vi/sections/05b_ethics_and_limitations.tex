@@ -1,0 +1,26 @@
+\section{Đạo đức Thuật toán, Quyền Riêng tư và Giới hạn Nghiên cứu}
+
+\paragraph{Công bằng Thuật toán và Thử nghiệm Nhiễu Phản thực tế.}
+Nhằm kiểm toán định lượng tính vô tư của thuật toán đối với các nhóm nhân khẩu học và định kiến xã hội, chúng tôi tiến hành \textbf{Thử nghiệm Nhiễu Phản thực tế (Counterfactual Perturbation Testing)} trên $30$ hồ sơ ứng viên và $150$ cặp đánh giá:
+\begin{itemize}
+    \item \textbf{Tính Bất biến với Giới tính và Tên gọi}: Khi hoán đổi có hệ thống các tên gọi phổ biến của nam giới (ví dụ: ``David'', ``Michael'') thành tên nữ giới (ví dụ: ``Sarah'', ``Emily''), độ lệch tuyệt đối trung bình (Mean Absolute Difference - $\text{MAD}$) của điểm số đạt mức chính xác tuyệt đối \textbf{$0.000000$}, và thứ tự Top-$5$ ứng viên được bảo toàn $100\%$. Do bộ bóc tách phân mục cô lập hoàn toàn các đoạn văn bản kỹ năng và kinh nghiệm thực tế, các định danh cá nhân bên ngoài không tham gia vào quá trình tính toán vector ngữ nghĩa.
+    \item \textbf{Tính Bất biến với Danh tiếng Trường Đại học}: Khi thay thế tên các trường đại học danh giá hàng đầu thế giới (ví dụ: ``MIT'', ``Stanford'') bằng tên các trường cao đẳng địa phương, chỉ số $\text{MAD}$ cũng đạt mức \textbf{$0.000000$}, chứng minh hệ thống ưu tiên năng lực kỹ thuật và kỹ năng thực chứng thay vì thiên vị theo mác bằng cấp học thuật.
+\end{itemize}
+
+\paragraph{Bảo vệ Quyền Riêng tư và Quản trị Dữ liệu.}
+Tuân thủ các nguyên tắc bảo vệ dữ liệu quốc tế (như GDPR), hệ thống thực thi ba cơ chế kiểm soát:
+\begin{enumerate}
+    \item \textbf{Ẩn danh hóa Dữ liệu (Pseudonymization)}: Toàn bộ thông tin định danh cá nhân (PII như họ tên, số điện thoại, địa chỉ nhà, email) được loại bỏ khỏi văn bản trước khi đưa vào mô hình nhúng; chỉ các trích đoạn nội dung chức năng được lưu trữ trong cơ sở dữ liệu vector.
+    \item \textbf{Kiểm soát Quyền Truy cập Đa người thuê}: Các hồ sơ chưa kích hoạt hoặc đặt chế độ riêng tư bị loại bỏ cưỡng bức ngay từ Tầng 1 của bộ lọc, không bao giờ xuất hiện trong không gian tìm kiếm.
+    \item \textbf{Quyền được Quên (Right to Erasure)}: Hỗ trợ cơ chế xóa xếp tầng nguyên tử (atomic cascading deletion) đồng thời trên cả cơ sở dữ liệu quan hệ và chỉ mục vector ChromaDB khi người dùng gửi yêu cầu hủy tài khoản.
+\end{enumerate}
+
+\paragraph{Các Giới hạn Nghiên cứu Trung thực.}
+Chúng tôi thẳng thắn thừa nhận năm giới hạn nghiên cứu chính:
+\begin{enumerate}
+    \item \textbf{Nguồn gốc Dữ liệu, Rubric và Giấy phép}: Tập dữ liệu \texttt{cnamuangtoun/resume-job-description-fit} không công bố giấy phép bản quyền chính thức trên Hugging Face. Siêu dữ liệu không cung cấp thông tin về thành phần chuyên môn của người gán nhãn, độ tương đồng giữa các chuyên gia (Cohen's $\kappa$), hay thang đo chi tiết để phân biệt giữa Mức 1 (\textit{Potential Fit}) và Mức 2 (\textit{Good Fit}). Phân tích văn bản cho thấy dữ liệu có nguồn gốc từ các mẫu CV trực tuyến trên web (như LiveCareer, Kaggle) với các vết nối dính chữ HTML (\texttt{SummaryHighly}). Chúng tôi sử dụng tập dữ liệu này hoàn toàn vì mục đích nghiên cứu học thuật mở và khả năng tái lập độc lập.
+    \item \textbf{Hiện tượng Trùng lặp CV giữa Train và Test}: Rà soát kỹ thuật phát hiện $68$ trong số $477$ CV thuộc tập kiểm thử ($14.3\%$) có xuất hiện trong tập huấn luyện (dù hoàn toàn không trùng cặp hay trùng bài đăng JD). Thực nghiệm đối chứng trên tập sạch tách biệt ($409$ CV) đã chứng minh xu hướng xếp hạng giữa các mô hình được bảo toàn ổn định.
+    \item \textbf{Đo lường Độ chính xác của Bộ bóc tách}: Phép đo độ chính xác của bộ tách dựa trên việc rà soát tính nhất quán quy tắc trên $50$ mẫu phát triển nội bộ, chưa phải là quy trình gán nhãn mù độc lập bởi nhiều chuyên gia nhân sự. Mặc dù đạt độ chính xác $>93\%$ trên các văn bản chuẩn, các CV dạng ảnh quét phức tạp với bố cục nhiều cột đồ họa trong môi trường doanh nghiệp sẽ đòi hỏi các mô hình phân tích thị giác bố cục tài liệu (Visual Document Layout Analysis).
+    \item \textbf{Hiệu chuẩn Trọng số theo Trực giác Nghiệp vụ}: Bộ trọng số phân mục ($0.40/0.35/0.15/0.10$) và các tham số hợp nhất lai ($\alpha=0.60, \beta=0.60$) được ấn định dựa trên kinh nghiệm thực tế kết hợp kiểm tra độ nhạy trên tập huấn luyện, chưa phải là kết quả tối ưu hóa gradient toàn trình từ đầu đến cuối.
+    \item \textbf{Phạm vi của Cây Phân loại Kỹ năng}: Mặc dù bao quát $615$ thực thể kỹ năng, cây phân loại hiện tại chủ yếu tập trung vào lĩnh vực Kỹ thuật Phần mềm và Công nghệ Thông tin. Việc mở rộng sang các ngành nghề phi kỹ thuật và duy trì cập nhật các công nghệ mới nổi là một hướng nghiên cứu cần tiếp tục hoàn thiện.
+\end{enumerate}

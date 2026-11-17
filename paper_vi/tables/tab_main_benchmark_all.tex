@@ -1,0 +1,28 @@
+% Bảng kết quả tổng thể trên toàn bộ 71 truy vấn (Setting A: Chưa lọc)
+\begin{table*}[t]
+\centering
+\caption{Hiệu năng truy xuất và xếp hạng trên toàn bộ 71 truy vấn JD (Kịch bản Setting A: Đánh giá toàn diện, các truy vấn không có ứng viên phù hợp $\text{rel}\ge 1$ nhận điểm $0.0$) trên tập dữ liệu \texttt{cnamuangtoun/resume-job-description-fit}. $T_{\text{rank}}$ là độ trễ tính điểm và xếp hạng trực tuyến trên CPU cho tập ứng viên $N=25$.}
+\label{tab:main_benchmark_all}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\hline
+\textbf{Phương pháp / Kiến trúc} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{P@5} & \textbf{Spearman} & \textbf{$T_{\text{rank}}$ ($N=25$)} \\
+\hline
+Xếp hạng Ngẫu nhiên (Floor) & 0.4532 & 0.4963 & 0.5721 & 0.4941 & 0.4173 & -0.026 & -- \\
+BM25 / TF-IDF (Từ vựng) & 0.5532 & 0.5773 & 0.6393 & 0.5930 & 0.4592 & 0.209 & 0.16\,ms \\
+Đơn Vector Phẳng MiniLM (Flat) & 0.5889 & 0.6146 & 0.7055 & 0.6210 & 0.4845 & 0.256 & $<0.10$\,ms \\
+Chunk-Mean (MiniLM, cửa sổ 128 từ) & 0.6123 & 0.6193 & 0.6982 & 0.6356 & 0.5099 & 0.306 & $<0.10$\,ms \\
+Chunk-MaxSim (Tương tác trễ ColBERT) & 0.5758 & 0.5992 & 0.6785 & 0.6119 & 0.4817 & 0.267 & 0.39\,ms \\
+Đa Vector Nhận biết Mục (Ours) & 0.6053 & 0.6170 & 0.7091 & 0.6328 & 0.4986 & 0.283 & 0.12\,ms \\
+BGE-M3 Phẳng (Ngữ cảnh 8.192 tokens) & 0.5688 & 0.5937 & 0.6555 & 0.6167 & 0.4789 & 0.248 & $<0.10$\,ms \\
+BGE-M3 Nhận biết Phân mục & 0.5934 & 0.6086 & 0.7126 & 0.6169 & 0.4901 & 0.257 & 0.13\,ms \\
+Dense + BM25 ($L_0$: Không Taxonomy) & 0.6009 & 0.6123 & 0.6801 & 0.6337 & 0.4873 & 0.276 & 0.28\,ms \\
+Mô hình Lai Hiệu chuẩn (Calibrated Hybrid) & 0.5998 & 0.6162 & 0.6764 & 0.6366 & 0.4817 & 0.295 & 2.69\,ms \\
+RRF + Taxonomy ($k=60$) & 0.5980 & 0.6107 & 0.6870 & 0.6299 & 0.4873 & 0.293 & 2.83\,ms \\
+Tái xếp hạng 2 Chặng: Hybrid $\rightarrow$ CE (Top-10) & 0.5513 & 0.5766 & 0.6408 & 0.5767 & 0.4761 & 0.212 & 426.9\,ms \\
+Cross-Encoder Toàn phần (ms-marco-MiniLM) & 0.5292 & 0.5531 & 0.6420 & 0.5650 & 0.4592 & 0.167 & 1178.0\,ms \\
+Xếp hạng Hoàn hảo Oracle (Ceiling) & 0.8592 & 0.8592 & 0.8592 & 0.8592 & 0.6958 & 0.791 & -- \\
+\hline
+\end{tabular}%
+}
+\end{table*}
