@@ -32,10 +32,16 @@ We benchmark a comprehensive suite of algorithmic configurations across lexical,
 \subsection{Evaluation Metrics and Significance Testing}
 Following standard Information Retrieval (TREC) and Recommender Systems conventions, ranking quality is evaluated across multiple complementary dimensions:
 \begin{itemize}\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}
-    \item \textbf{Discounted Cumulative Gain}: nDCG@5 and nDCG@10 assessing graded ranking quality at top recommendation thresholds.
-    \item \textbf{Reciprocal Rank \& Precision}: Mean Reciprocal Rank (MRR), Mean Average Precision (MAP), and Precision@5 (P@5) evaluated at relevance threshold $\ge 1$.
-    \item \textbf{Rank Correlation}: Spearman rank correlation coefficient evaluated both as Macro-Spearman ($\rho_{\text{mac}}$, average per-query correlation across queries) and Pooled Micro-Spearman ($\rho_{\text{mic}}$, global correlation over all pairs).
-    \item \textbf{Paired Bootstrap Confidence Intervals}: Empirical $95\%$ confidence intervals for paired differences ($\bar{\Delta}$) computed over $10{,}000$ bootstrap resamples across query groups.
+    \item \textbf{Discounted Cumulative Gain (nDCG@K)}: Primary graded evaluation metric at cutoff thresholds $K \in \{5, 10\}$:
+    \begin{equation}
+        \text{DCG}@K = \sum_{i=1}^{\min(K, N_q)} \frac{2^{y_i} - 1}{\log_2(i + 1)}, \quad \text{nDCG}@K = \frac{\text{DCG}@K}{\text{IDCG}@K},
+        \label{eq:ndcg}
+    \end{equation}
+    where $y_i \in \{0, 1, 2\}$ is the ground-truth relevance grade at rank $i$, rewarding top-ranked Grade 2 candidates via exponential gain $2^{y_i} - 1$, and $\text{IDCG}@K$ represents ideal DCG under monotonic ground-truth sorting.
+    \item \textbf{Reciprocal Rank \& Precision}: Mean Reciprocal Rank (MRR), Mean Average Precision (MAP), and Precision@5 (P@5) evaluated at binary thresholds $\tau \in \{1, 2\}$.
+    \item \textbf{Rank Correlation}: Spearman rank correlation coefficient with tied midranks evaluated as Macro-Spearman ($\rho_{\text{mac}}$, excluding zero-variance queries) and Micro-Spearman ($\rho_{\text{mic}}$).
+    \item \textbf{Fair Tie-Breaking Protocol}: To eliminate random positional bias among tied candidate scores, all metric scores are computed as the expected average over $N_{\text{shuffles}} = 50$ random permutations perturbed by microscopic jitter $z \sim \text{Uniform}(-10^{-9}, 10^{-9})$.
+    \item \textbf{Significance Testing \& Holm-Bonferroni Correction}: Paired Student's $t$ and Wilcoxon signed-rank tests with $B=10{,}000$ bootstrap percentile $95\%$ confidence intervals, adjusted via step-down Holm-Bonferroni across the family of $L=15$ pre-specified hypothesis tests at $\alpha_{\text{stat}} = 0.05$.
     \item \textbf{Operational Latency Profile}: Decomposed into offline indexing time ($T_{\text{index}}$), online query encoding ($T_{\text{query}}$), and candidate scoring/ranking latency ($T_{\text{rank}}$) for pool size $N=25$ candidates on commodity multi-core CPUs.
 \end{itemize}
 

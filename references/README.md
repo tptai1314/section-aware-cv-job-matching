@@ -42,16 +42,19 @@ Thư mục này lưu trữ tài liệu toàn văn (PDF), trích dẫn BibTeX chu
 
 ---
 
-## 2. Ma Trận Đối Sánh Với Hệ Thống Của Chúng Ta (Section-Aware Matching)
+## 2. Ma Trận Đối Sánh Kỹ Thuật Chi Tiết (Đối Chiếu Trực Tiếp Với Bài Báo Gốc)
 
-| Tiêu Chí So Sánh | ConFit v3 (2026) | Multiview (IEEE Access 2026) | Semantic Candidate (2026) | Hệ Thống Của Chúng Ta (Đề Xuất) |
+| Tiêu Chí So Sánh | ConFit v3 (2026)<br>*(Yu et al., arXiv:2605.09760)* | Multiview (IEEE Access 2026)<br>*(\v{C}eovi\'{c} et al.)* | Semantic Candidate (2026)<br>*(Yashwant et al., arXiv:2609.23307)* | **Hệ Thống Của Chúng Ta**<br>*(Section-Aware Hybrid)* |
 | :--- | :--- | :--- | :--- | :--- |
-| **Cơ chế biểu diễn Section** | Cửa sổ trượt (Sliding-window) | Multi-field + Precomputed Trajectory | Structured Search Text qua LLM | **Section Parser Regex tất định** (Skills, Exp, Edu, Sum) |
-| **Mô hình mã hóa** | Qwen3-8B / Qwen3-32B (LLM) | Lightweight Dual-Encoder | EmbeddingGemma + MNRL | **MiniLM-L6-v2 / BGE-M3** (Bi-Encoder đóng băng) |
-| **Xử lý thiếu Section** | Ghép chuỗi văn bản dài | Transformer Aggregation | LLM tái cấu trúc | **Tái chuẩn hóa trọng số động (Dynamic Renormalization)** |
-| **Ràng buộc cứng kỹ năng** | Không (dựa vào Prompting/RL) | Không (Contrastive Latent Space) | RRF (BM25 + Dense) | **Ontology Cây 3 Tầng + Độ phủ Bất đối xứng (Must/Nice)** |
-| **Độ trễ phục vụ ($T_{\text{rank}}$)** | Hàng trăm mili-giây đến vài giây (LLM) | Dual-Encoder nhanh | Dual-Encoder + RRF | **Cực thấp: 0.12 - 2.69 ms trên CPU thông thường** |
-| **Khả năng giải trình** | Tự sinh văn bản qua LLM | Điểm tương đồng đa trường | Điểm LLM-as-a-Judge | **Minh bạch cơ học (Traceable to specific section & skill rule)** |
+| **Kiến trúc mô hình chính** | LLM-based Listwise Reranker (Qwen3-8B / Qwen3-32B) | Multi-Field Dual-Encoder với Contrastive Learning | Hybrid Retrieval (Dense Bi-Encoder + BM25 qua RRF) | **Multi-Vector theo Phân mục + BM25 + Cây Kỹ năng Tri thức** |
+| **Mô hình mã hóa backbone** | Qwen3-8B và Qwen3-32B | Transformer Dual-Encoder siêu nhẹ | EmbeddingGemma (base) / MPNet | **all-MiniLM-L6-v2 ($d=384$) / BGE-M3 ($d=1024$)** |
+| **Chiến lược biểu diễn văn bản** | Cửa sổ trượt đa lượt (Multi-pass sliding window, $k=4, s=2$) | Biểu diễn đa trường (Multi-field) + Vector quỹ đạo | Text tìm kiếm có cấu trúc qua LLM trích xuất | **Đa vector theo $M \le 4$ phân mục (skills, exp, edu, sum)** |
+| **Quy trình huấn luyện / Fine-tuning** | Listwise RL (GRPO) + Chưng cất SFT từ **Claude Sonnet-4.5** | Huấn luyện tương phản InfoNCE đa góc nhìn | Fine-tune với **Cached-MNRL** (Multiple Negatives Ranking) | **Zero-shot hoàn toàn (Trọng số mô hình nền đóng băng)** |
+| **Dữ liệu tăng cường (Augmentation)** | Sắp xếp ngẫu nhiên vị trí trong prompt để khử position bias | Tăng cường diễn giải (Paraphrase) qua LLM offline | Dữ liệu log ghép cặp thực tế của ManpowerGroup | **Không tăng cường; bóc tách quy tắc Regex tất định** |
+| **Xử lý kỹ năng & Ontology** | LLM suy luận tự do theo prompt ngữ cảnh | Vector nhúng trường kỹ năng trong không gian chung | Từ khóa kết hợp BM25 | **Ontology 3 cấp (615 khái niệm), độ phủ Must/Nice bất đối xứng** |
+| **Độ trễ suy luận công bố** | *Không công bố số đo ms chính thức*; thuật toán yêu cầu 18 lượt gọi LLM sliding window cho top-20 | *Không công bố bảng đo ms chi tiết*; serving qua Dual-Encoder tương đương bi-encoder thông thường | *Không công bố số đo ms*; tác giả xác định đo độ trễ là hướng nghiên cứu tương lai (trang 18) | **Đo đạc thực nghiệm chi tiết**: $T_{\text{rank}} = 2.69$\,ms ($N=25$), $T_{\text{query}} \approx 25$--$30$\,ms; tổng $T_{\text{online}} \approx 28$--$33$\,ms trên CPU |
+| **Hạ tầng phục vụ** | Cụm máy chủ GPU (A100/H100) để chạy LLM 8B/32B | GPU để fine-tune, CPU/GPU lúc phục vụ | Hệ thống tìm kiếm doanh nghiệp (Cosmos DB, Elasticsearch) | **Chạy 100% trên CPU thông thường (0 GPU required)** |
+| **Tính giải trình & Kiểm chứng** | Tự sinh lời giải thích qua LLM; so sánh với GPT-5/Opus-4.5 | Điểm tương đồng đa trường | Điểm AI-Match và LLM-as-a-Judge | **Giải trình cấu trúc (truy vết đóng góp từng section & quan hệ ontology); chưa có User Study** |
 
 ---
 

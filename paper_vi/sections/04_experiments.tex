@@ -36,43 +36,30 @@ Chúng tôi thiết lập một chuỗi đối sánh thực nghiệm toàn diệ
     \item \textbf{Trần Hoàn hảo (Ceiling: Oracle Ranking)}: Xếp hạng lý tưởng dựa trên nhãn thực tế $y_{q, i}$ để xác định giới hạn trên lý thuyết của tập dữ liệu.
 \end{enumerate}
 
-\subsection{Các Thước đo Đánh giá và Công thức Toán học Chi tiết}
+\subsection{Các Thước đo Đánh giá Hiệu năng Xếp hạng}
 Theo chuẩn mực Hội nghị Quốc tế về Truy xuất Thông tin (TREC, ACM SIGIR), hiệu năng xếp hạng được định lượng qua nhiều thước đo bổ trợ:
 
-\noindent\textbf{1. Độ lợi Tích lũy Giảm dần Chuẩn hóa (nDCG@K)}: Đo lường chất lượng xếp hạng có trọng số theo vị trí tại ngưỡng $K \in \{5, 10\}$:
+\noindent\textbf{1. Độ lợi Tích lũy Giảm dần Chuẩn hóa (nDCG@K)}: Thước đo xếp hạng chính đánh giá trên toàn bộ thang nhãn 3 mức $\{0, 1, 2\}$ tại ngưỡng $K \in \{5, 10\}$:
 \begin{equation}
-    \text{DCG}@K = \sum_{i=1}^K \frac{2^{y_i} - 1}{\log_2(i + 1)}, \quad \text{nDCG}@K = \frac{\text{DCG}@K}{\text{IDCG}@K},
+    \text{DCG}@K = \sum_{i=1}^{\min(K, N_q)} \frac{2^{y_i} - 1}{\log_2(i + 1)}, \quad \text{nDCG}@K = \frac{\text{DCG}@K}{\text{IDCG}@K},
     \label{eq:ndcg}
 \end{equation}
-trong đó $y_i \in \{0, 1, 2\}$ là nhãn mức độ phù hợp tại vị trí thứ $i$ trong danh sách được hệ thống đề xuất; tử số $2^{y_i} - 1$ là hàm độ lợi hàm mũ (exponential gain) giúp tưởng thưởng vượt trội cho các ứng viên mức 2; mẫu số $\log_2(i + 1)$ là hệ số suy giảm vị trí (discounting factor), phạt nặng nếu ứng viên xuất sắc bị đẩy xuống các vị trí sâu trong danh sách. $\text{IDCG}@K$ là giá trị DCG@K lý tưởng thu được khi sắp xếp tập ứng viên theo thứ tự giảm dần tuyệt đối của nhãn thực tế.
+trong đó $y_i \in \{0, 1, 2\}$ là nhãn mức độ phù hợp tại vị trí thứ $i$ trong danh sách đề xuất; tử số $2^{y_i} - 1$ là độ lợi hàm mũ tưởng thưởng cho ứng viên mức 2; mẫu số $\log_2(i + 1)$ là hệ số suy giảm vị trí. $\text{IDCG}@K$ là giá trị DCG@K lý tưởng thu được khi sắp xếp tập ứng viên theo thứ tự giảm dần tuyệt đối của nhãn thực tế.
 
-\noindent\textbf{2. Điểm Nghịch đảo Trung bình của Vị trí Đầu tiên (MRR)}:
-\begin{equation}
-    \text{MRR} = \frac{1}{|Q|} \sum_{q=1}^{|Q|} \frac{1}{\text{rank}_q},
-\end{equation}
-trong đó $\text{rank}_q$ là vị trí xuất hiện của ứng viên phù hợp đầu tiên ($\text{rel} \ge 1$) trong danh sách gợi ý của truy vấn $q$.
+\noindent\textbf{2. Điểm Nghịch đảo Vị trí Đầu tiên (MRR)}: Đo lường trung bình cộng nghịch đảo vị trí xuất hiện của ứng viên phù hợp đầu tiên ($\text{rel} \ge 1$) trong danh sách gợi ý của truy vấn $q$: $\text{MRR} = \frac{1}{|Q|} \sum_{q=1}^{|Q|} \frac{1}{\text{rank}_q}$.
 
-\noindent\textbf{3. Độ chính xác Trung bình (Mean Average Precision - MAP)}:
-\begin{equation}
-    \text{AP}_\tau(q) = \frac{1}{R_{q, \tau}} \sum_{k=1}^{N_q} P_\tau@k \cdot \mathbb{I}(y_{q, \pi(k)} \ge \tau), \quad \text{MAP}_\tau = \frac{1}{|Q|} \sum_{q \in Q} \text{AP}_\tau(q),
-\end{equation}
-với $R_{q, \tau} = \sum_{i=1}^{N_q} \mathbb{I}(y_{q, i} \ge \tau)$ là tổng số ứng viên phù hợp thực tế của truy vấn $q$ tại ngưỡng $\tau \in \{1, 2\}$, và $P_\tau@k$ là tỷ lệ ứng viên phù hợp nằm trong Top-$k$.
+\noindent\textbf{3. Độ chính xác Trung bình (Mean Average Precision - MAP)}: Tính trung bình độ chính xác tại mọi vị trí tìm thấy ứng viên phù hợp: $\text{MAP}_\tau = \frac{1}{|Q|} \sum_{q \in Q} \text{AP}_\tau(q)$ tại ngưỡng nhị phân $\tau \in \{1, 2\}$, với $\text{AP}_\tau(q) = \frac{1}{R_{q, \tau}} \sum_{k=1}^{N_q} P_\tau@k \cdot \mathbb{I}(y_{q, \pi(k)} \ge \tau)$, trong đó $R_{q, \tau}$ là số lượng ứng viên phù hợp thực tế.
 
-\noindent\textbf{4. Hệ số Tương quan Hạng Spearman ($\rho$)}: Đo lường mức độ đồng điệu giữa thứ tự sắp xếp của mô hình và thứ hạng nhãn thực tế. Do nhãn chỉ có 3 mức $\{0, 1, 2\}$, hệ số tương quan được tính chính xác qua tương quan Pearson trên vector hạng trung bình (midranks) có xử lý đồng hạng. Các truy vấn có toàn bộ nhãn bằng nhau (phương sai nhãn bằng $0$) được loại bỏ khỏi trung bình Macro-Spearman ($\rho_{\text{mac}}$). Chỉ số gộp Micro-Spearman ($\rho_{\text{mic}}$) được tính trên toàn bộ các cặp của tập dữ liệu.
+\noindent\textbf{4. Hệ số Tương quan Hạng Spearman ($\rho$)}: Đo lường mức độ đồng điệu thứ tự giữa điểm dự đoán và nhãn thực tế, sử dụng tương quan hạng trung bình (tied midranks) để xử lý các mẫu đồng điểm. Các truy vấn có toàn bộ nhãn bằng nhau (phương sai nhãn bằng $0$) được loại trừ khỏi chỉ số Macro-Spearman ($\rho_{\text{mac}}$).
 
-\noindent\textbf{5. Kỳ vọng Phá Đồng hạng Công bằng (Fair Tie-Breaking)}: Nhằm tránh thiên vị do thứ tự xuất hiện cố định khi các ứng viên bằng điểm, mọi chỉ số đánh giá được tính bằng kỳ vọng trung bình qua $N_{\text{shuffles}} = 50$ lần xáo trộn ngẫu nhiên có thêm nhiễu vi mô $z \sim \text{Uniform}(-10^{-9}, 10^{-9})$.
+\noindent\textbf{5. Kỳ vọng Phá Đồng hạng Công bằng (Fair Tie-Breaking)}: Nhằm triệt tiêu thiên vị do thứ tự xuất hiện ngẫu nhiên trong bộ nhớ, mọi chỉ số xếp hạng được tính bằng giá trị kỳ vọng trung bình qua $N_{\text{shuffles}} = 50$ lần xáo trộn ngẫu nhiên có thêm nhiễu vi mô $z \sim \text{Uniform}(-10^{-9}, 10^{-9})$.
 
 \subsection{Giao thức Kiểm định Thống kê Ý nghĩa và Chống Quá kiểm định}
-Để đảm bảo các kết luận rút ra phản ánh bản chất thuật toán thay vì phương sai ngẫu nhiên giữa các truy vấn:
+Để đảm bảo các kết luận phản ánh bản chất thuật toán thay vì phương sai ngẫu nhiên giữa các truy vấn:
 \begin{itemize}
-    \item \textbf{Khoảng Tin cậy Ghép cặp Bootstrap 95\% CI}: Với mỗi cặp mô hình $(A, B)$, chúng tôi tính chuỗi sai biệt ghép cặp $\Delta_q = M_A(q) - M_B(q)$ trên từng truy vấn $q$. Sau đó, thực hiện $B = 10.000$ lần lấy mẫu lặp có hoàn lại trên tập truy vấn để dựng phân bố thực nghiệm và xác định khoảng phân vị $2.5\%$ và $97.5\%$. Nếu khoảng tin cậy không chứa giá trị $0$, sự chênh lệch có xu hướng nhất quán.
-    \item \textbf{Kiểm định Ghép cặp $t$-Student và Wilcoxon Signed-Rank}: Tính toán giá trị kiểm định tham số ($t$-stat) và phi tham số ($W$) kèm giá trị $p$ thô (raw $p$-value).
-    \item \textbf{Hiệu chỉnh Đa Giả thuyết Holm--Bonferroni}: Khi kiểm định đồng thời một họ gồm $L = 15$ so sánh chính, nguy cơ phạm sai số loại I (báo cáo dương tính giả) tăng mạnh. Chúng tôi áp dụng quy trình kiểm soát FWER (Family-Wise Error Rate) theo thuật toán bậc thang lùi Holm--Bonferroni ở mức ý nghĩa danh định $\alpha_{\text{stat}} = 0.05$: sắp xếp các giá trị $p$ tăng dần $p_{(1)} \le p_{(2)} \le \dots \le p_{(L)}$ và so sánh tuần tự với ngưỡng điều chỉnh:
-    \begin{equation}
-        p_{(i)} \le \frac{\alpha_{\text{stat}}}{L - i + 1}.
-        \label{eq:holm}
-    \end{equation}
-    Một giả thuyết chỉ được kết luận là có ý nghĩa thống kê chính thức nếu vượt qua được ngưỡng hiệu chỉnh này. Do họ $L=15$ phép so sánh được xác định post-hoc để bao quát RQ1--RQ4, kết luận điều chỉnh Holm cần được hiểu là phân tích khám phá (exploratory).
+    \item \textbf{Khoảng Tin cậy Ghép cặp Bootstrap 95\% CI}: Với mỗi cặp mô hình $(A, B)$, chúng tôi tính chuỗi sai biệt ghép cặp $\Delta_q = M_A(q) - M_B(q)$ trên từng truy vấn $q$. Sau đó, thực hiện $B = 10.000$ lần lấy mẫu lặp có hoàn lại trên tập truy vấn để xác định khoảng phân vị $2.5\%$ và $97.5\%$.
+    \item \textbf{Kiểm định Ghép cặp $t$-Student và Wilcoxon Signed-Rank}: Báo cáo giá trị kiểm định tham số ($t$-stat) và phi tham số ($W$) kèm giá trị $p$ thô (raw $p$-value).
+    \item \textbf{Hiệu chỉnh Đa Giả thuyết Holm--Bonferroni}: Để kiểm soát sai số loại I trên họ gồm $L = 15$ phép so sánh chính ở mức ý nghĩa danh định $\alpha_{\text{stat}} = 0.05$, chúng tôi áp dụng quy trình bậc thang lùi Holm--Bonferroni: sắp xếp các giá trị $p$ tăng dần $p_{(1)} \le p_{(2)} \le \dots \le p_{(L)}$ và so sánh tuần tự với ngưỡng điều chỉnh $p_{(i)} \le \frac{\alpha_{\text{stat}}}{L - i + 1}$. Một giả thuyết chỉ được kết luận là có ý nghĩa thống kê chính thức nếu vượt qua ngưỡng hiệu chỉnh này.
 \end{itemize}
 
 \subsection{Hai Kịch bản Đánh giá Thực tế: Setting A và Setting B}

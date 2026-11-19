@@ -106,5 +106,5 @@ Mọi mô hình đánh giá phải tuân thủ nghiêm ngặt các hằng số c
 | $w_{\text{nice}}$ | `0.15` | Trọng số kỹ năng ưu tiên (Nice-to-have) | Rule-based prior |
 | Điều kiện biên $|K_q| = 0$ | $S_{\text{tax}} = 1.0$ | Fallback trung tính khi JD thiếu kỹ năng | Code `run_scientific_benchmark.py:461` |
 | Hằng số RRF $k$ | `60` | Hằng số làm mượt xếp hạng nghịch đảo | Cormack et al. (2009) |
-| Ngưỡng phạt kỹ năng | `0.50` | Hệ số $\gamma = \text{Cov}(\text{Must})$ khi độ phủ $< 0.50$ | `src/cvjd/ranking/hybrid.py:197` |
+| Ngưỡng phạt kỹ năng | Không dùng trong benchmark | Tùy chọn runtime product serving ($\gamma = \text{Cov}(\text{Must})$ khi độ phủ $< 0.50$, tắt trong benchmark) | `src/cvjd/ranking/hybrid.py:197` |
 | Cây kỹ năng Taxonomy | `615 concepts` | IT Skills Ontology v1.0.0-frozen | `9664f83` (SHA256: `b0ceddac...`) |

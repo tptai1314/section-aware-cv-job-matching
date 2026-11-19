@@ -1,9 +1,9 @@
 \section{Kiến trúc Hệ thống và Mô hình hóa Toán học Chi tiết}
 
 \subsection{Hình thức hóa Bài toán Ghép cặp Hai chiều}
-Ký hiệu $\mathcal{D} = \mathcal{J} \sqcup \mathcal{C}$ là không gian tài liệu tuyển dụng, là hợp rời giữa tập mô tả công việc $\mathcal{J}$ và tập hồ sơ ứng viên $\mathcal{C}$. Trong kịch bản ghép cặp tổng quát, cho trước một tài liệu truy vấn $q \in \mathcal{J}$ và một tập ứng viên đối sánh $\mathcal{P}_q = \{p_1, p_2, \dots, p_{N_q}\} \subset \mathcal{C}$ gồm $N_q$ tài liệu CV. Mỗi cặp truy vấn--ứng viên $(q, p_i)$ sở hữu một mức độ phù hợp thực tế (ground-truth relevance grade) ký hiệu là $y_{q, i} \in \{0, 1, 2\}$, tương ứng với 3 mức nhãn chuẩn: Không phù hợp ($0$), Phù hợp một phần ($1$), và Phù hợp tốt ($2$).
+Ký hiệu $\mathcal{D} = \mathcal{J} \sqcup \mathcal{C}$ là không gian tài liệu tuyển dụng, là hợp rời giữa tập mô tả công việc $\mathcal{J}$ và tập hồ sơ ứng viên $\mathcal{C}$. Cho trước một tài liệu truy vấn $q \in \mathcal{J}$ và tập ứng viên $\mathcal{P}_q = \{p_1, p_2, \dots, p_{N_q}\} \subset \mathcal{C}$ gồm $N_q$ tài liệu CV. Mỗi cặp $(q, p_i)$ có mức độ phù hợp thực tế $y_{q, i} \in \{0, 1, 2\}$, tương ứng với 3 mức nhãn: Không phù hợp ($0$), Phù hợp một phần ($1$), và Phù hợp tốt ($2$).
 
-Mục tiêu của hệ thống là học hoặc ấn định cấu hình tham số $\theta^*$ cho hàm chấm điểm $s_\theta(q, p)$ sao cho thứ tự hoán vị $\pi_{s_\theta}$ sinh bởi việc sắp xếp giảm dần điểm số $s_\theta(q, p_i)$ tối đa hóa kỳ vọng chỉ số nDCG@K trên toàn bộ tập truy vấn $Q$:
+Mục tiêu của hệ thống là xác định hàm chấm điểm $s_\theta(q, p)$ sao cho hoán vị $\pi_{s_\theta}$ thu được khi sắp xếp giảm dần điểm số $s_\theta(q, p_i)$ tối đa hóa kỳ vọng chỉ số nDCG@K trên toàn bộ tập truy vấn $Q$:
 \begin{equation}
     \theta^* = \arg\max_\theta \frac{1}{|Q|} \sum_{q \in Q} \text{nDCG}@K\Big( \pi_{s_\theta}(q, \mathcal{P}_q), \, \mathbf{y}_q \Big).
     \label{eq:objective}
@@ -11,114 +11,67 @@ Mục tiêu của hệ thống là học hoặc ấn định cấu hình tham s�
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.88\textwidth]{figures/fig07_vector_theo_section.png}
+\includegraphics[width=0.85\textwidth]{figures/fig07_vector_theo_section.png}
 \caption{Kiến trúc biểu diễn đa vector nhận biết phân mục và cơ chế căn chỉnh chéo giữa Mô tả Công việc (JD) và Hồ sơ Ứng viên (CV).}
 \label{fig:arch}
 \end{figure}
 
-Kiến trúc tổng thể của hệ thống được minh họa trên Hình~\ref{fig:arch}, tách biệt thành hai luồng xử lý độc lập:
+Kiến trúc hệ thống (Hình~\ref{fig:arch}) tách biệt thành hai luồng xử lý:
 \begin{itemize}
-    \item \textbf{Luồng Ngoại tuyến (Offline Indexing Pipeline)}: Trích xuất siêu dữ liệu, phân đoạn văn bản thô thành các phân mục chức năng thông qua bộ bóc tách quy tắc tất định, tạo các biểu diễn vector đặc thông qua mô hình Bi-Encoder đóng băng, và cập nhật chỉ mục cơ sở dữ liệu vector ChromaDB bất đồng bộ.
-    \item \textbf{Luồng Trực tuyến (Online Serving Pipeline)}: Tiếp nhận truy vấn trong thời gian thực, tính toán ma trận tương đồng ghép chéo giữa các phân mục, thực thi tái chuẩn hóa trọng số động, hợp nhất điểm xếp hạng lai hai tầng và xuất giải thích minh bạch (Grounded Explanation).
+    \item \textbf{Luồng Ngoại tuyến (Offline Pipeline)}: Phân đoạn văn bản thô thành các phân mục chức năng thông qua bộ bóc tách quy tắc, tạo vector đặc qua Bi-Encoder đóng băng, và cập nhật chỉ mục cơ sở dữ liệu vector.
+    \item \textbf{Luồng Trực tuyến (Online Pipeline)}: Tiếp nhận truy vấn, tính toán ma trận tương đồng ghép chéo giữa các phân mục, tái chuẩn hóa trọng số động, hợp nhất điểm xếp hạng lai và xuất căn cứ giải trình cấu trúc.
 \end{itemize}
 
-\subsection{Thuật toán Bóc tách Phân mục Quy tắc Không Rò rỉ}
-Khác với các phương pháp nén văn bản mù, hệ thống bóc tách mỗi tài liệu $D$ thành một tập hợp gồm $M$ phân mục chức năng có tên gọi rõ ràng:
-\begin{equation}
-    D = \Big\{ \big(s_1, T_1\big), \big(s_2, T_2\big), \dots, \big(s_M, T_M\big), \big(\text{full}, T_{raw}\big) \Big\},
-\end{equation}
-trong đó mỗi nhãn phân mục $\sigma \in \mathcal{S}_{domain} = \{\text{skills}, \text{experience}, \text{education}, \text{summary}\}$, và $T_\sigma$ là chuỗi ký tự nội dung tương ứng của mục đó; $T_{raw}$ là toàn văn tài liệu gốc.
+\subsection{Bóc tách Phân mục và Biểu diễn Đa Vector Đóng băng}
+Mỗi tài liệu $D$ được phân đoạn thành tối đa $M \le 4$ phân mục chức năng: $\mathcal{S}_{domain} = \{\text{skills}, \text{experience}, \text{education}, \text{summary}\}$, cùng toàn văn $T_{raw}$. Bộ bóc tách phân mục (commit \texttt{41e1d27}) vận hành theo biểu thức chính quy với ranh giới từ và từ điển hơn 40 biến thể tiêu đề chuẩn mực. Để xử lý lỗi dính chữ từ HTML/PDF (như \texttt{SummaryHighly} hay \texttt{EducationGMR}), bộ tách áp dụng lookahead khẳng định nhận diện ranh giới chữ hoa, số hoặc dấu gạch nối ngay sau từ khóa tiêu đề ở đầu dòng (\texttt{\textasciicircum(?i:}\textit{keyword}\texttt{)(?=[A-Z0-9\textbackslash-])}), hoàn toàn không cắt nhầm các danh từ riêng như \texttt{JavaScript} hay \texttt{GitHub}. Khi tài liệu không chứa tiêu đề nhận diện được, cơ chế dự phòng an toàn (Fallback) tự động gán toàn văn $T_{raw}$ vào mục giả định \texttt{full}.
 
-Bộ bóc tách phân mục (Section Parser, mã băm commit \texttt{41e1d27}) vận hành hoàn toàn theo quy tắc biểu thức chính quy (Regex) với ranh giới từ (\texttt{\textbackslash b}), kết hợp từ điển mở rộng gồm hơn $40$ biến thể tiêu đề chuẩn mực (ví dụ: đối với mục kinh nghiệm làm việc: \texttt{work experience}, \texttt{professional experience}, \texttt{employment history}, \texttt{career history}). Nhằm giải quyết triệt để lỗi dính chữ trong các tài liệu trích xuất từ định dạng HTML/PDF (ví dụ: \texttt{EducationGMR Institute} hoặc \texttt{SummaryHighly qualified}), bộ tách áp dụng quy tắc nhận diện ranh giới ký tự viết hoa, số hoặc dấu gạch nối đứng liền sau từ khóa tiêu đề ở đầu dòng:
-\begin{equation}
-    \text{Pattern}_{\text{glued}} = \texttt{\textasciicircum(?i:}\langle\text{keyword}\rangle\texttt{)(?=[A-Z0-9\textbackslash-])}.
-\end{equation}
-
-Toàn bộ quá trình hiệu chỉnh biểu thức chính quy được thực hiện nghiêm ngặt trên tập phát triển nội bộ (\texttt{train\_dev}, 204 JD), tuyệt đối không tiếp xúc với tập đánh giá độc lập (\texttt{train\_clean}, 76 JD) hay tập kiểm thử chính thức (\texttt{test}, 71 JD). Khi một tài liệu hoàn toàn không chứa bất kỳ tiêu đề phân mục nào nhận diện được, cơ chế dự phòng an toàn (Fallback Mechanism) sẽ tự động gán toàn văn $T_{raw}$ vào phân mục giả định \texttt{full}, đảm bảo hệ thống không bao giờ bị gián đoạn hay sinh lỗi ngoại lệ trong luồng vận hành.
-
-\subsection{Biểu diễn Đa Vector Độc lập}
-Sau khi văn bản được phân đoạn, mỗi đoạn văn bản phân mục $T_m$ cũng như toàn văn $T_{raw}$ được đưa qua mô hình Bi-Encoder hai nhánh đóng băng $\mathcal{E}(\cdot)$ (trong nghiên cứu này sử dụng \texttt{all-MiniLM-L6-v2} với số chiều $d=384$ hoặc \textsc{BAAI/bge-m3} với $d=1024$) để tạo ra vector đặc tương ứng:
-\begin{equation}
-    \mathbf{v}_m = \mathcal{E}(T_m) \in \mathbb{R}^d, \quad \mathbf{v}_{full} = \mathcal{E}(T_{raw}) \in \mathbb{R}^d.
-\end{equation}
-Mỗi vector đầu ra được chuẩn hóa theo chuẩn Euclid ($L_2$-norm) về độ dài đơn vị:
-\begin{equation}
-    \mathbf{v} \leftarrow \frac{\mathbf{v}}{\|\mathbf{v}\|_2} = \frac{\mathbf{v}}{\sqrt{\sum_{i=1}^d v_i^2}}, \quad \text{sao cho } \|\mathbf{v}\|_2 = 1.
-\end{equation}
-Nhờ chuẩn hóa $L_2$, tích vô hướng giữa hai vector $\mathbf{u} \cdot \mathbf{w} = \sum_{i=1}^d u_i w_i$ chính là độ tương đồng Cosine:
-\begin{equation}
-    \text{sim}(\mathbf{u}, \mathbf{w}) = \cos(\theta) = \frac{\mathbf{u} \cdot \mathbf{w}}{\|\mathbf{u}\|_2 \|\mathbf{w}\|_2} = \mathbf{u} \cdot \mathbf{w} \in [-1, 1].
-\end{equation}
+Mỗi đoạn phân mục $T_m$ và toàn văn $T_{raw}$ được mô hình Bi-Encoder đóng băng $\mathcal{E}(\cdot)$ (\texttt{all-MiniLM-L6-v2}, $d=384$) mã hóa thành vector và chuẩn hóa $L_2$ về mặt cầu đơn vị $\|\mathbf{v}\|_2 = 1.0$, cho phép đo độ tương đồng qua tích vô hướng Cosine $\cos(\mathbf{u}, \mathbf{w}) = \mathbf{u} \cdot \mathbf{w} \in [-1, 1]$.
 
 \subsection{Ghép cặp Chéo và Tái Chuẩn hóa Trọng số Động}
-Trong các CV thực tế, kỹ năng chuyên môn thường không được liệt kê tập trung trong một mục riêng biệt mà nằm rải rác trong phần mô tả quá trình công tác hoặc dự án. Nếu chỉ ghép cặp cứng các mục có cùng tên (Fixed Same-Name Matching), hệ thống sẽ đánh mất các kỹ năng ẩn này. Do đó, chúng tôi áp dụng cơ chế \textbf{Ghép cặp Chéo Mục (Cross-Section Pairing)}: mỗi phân mục $\sigma$ trong tài liệu truy vấn $q$ sẽ được tìm kiếm phân mục có độ tương đồng ngữ nghĩa lớn nhất trên toàn bộ các phân mục hiện diện trong tài liệu ứng viên $p$:
+Do kỹ năng thực tế thường nằm rải rác trong phần mô tả công tác thay vì liệt kê tập trung, hệ thống áp dụng cơ chế \textbf{Ghép cặp Chéo Mục (Cross-Section Pairing)}: mỗi phân mục $\sigma \in \mathcal{S}(q)$ của truy vấn được tìm độ tương đồng lớn nhất trên mọi phân mục hiện diện trong ứng viên $p$. Đồng thời, để xử lý việc JD khuyết thiếu một số phân mục mà không làm méo mó thang điểm, hệ thống thực hiện \textbf{Tái Chuẩn hóa Trọng số Động (Dynamic Weight Renormalization)}:
 \begin{equation}
-    c_\sigma(q, p) = \max_{s \in \mathcal{S}(p)} \text{sim}\big(\mathbf{v}_q^\sigma, \mathbf{v}_p^s\big) \in [-1.0, 1.0].
-    \label{eq:cross_pairing}
+    S_{\text{dense}}(q, p) = \frac{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma \cdot c_\sigma(q, p)}{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma}, \quad \text{với } c_\sigma(q, p) = \max_{s \in \mathcal{S}(p)} \cos\big(\mathbf{v}_q^\sigma, \mathbf{v}_p^s\big) \in [-1.0, 1.0],
+    \label{eq:cross_dynamic}
 \end{equation}
+trong đó $\mathcal{S}(q)$ là tập các phân mục thực tế có trong bài đăng $q$. Bộ trọng số phân mục cơ sở được đặt tay theo trực giác thiết kế hệ thống (\texttt{src/cvjd/models/matching.py:22--27}): $w_{\text{skills}} = 0.40$, $w_{\text{exp}} = 0.35$, $w_{\text{edu}} = 0.15$, và $w_{\text{sum}} = 0.10$ ($\sum w_\sigma = 1.00$). Khi cả hai tài liệu đều khuyết phân mục ($\mathcal{S}(q)=\emptyset$ hoặc $\mathcal{S}(p)=\emptyset$), hệ thống kích hoạt cơ chế fallback: $S_{\text{dense}}(q, p) = \cos(\mathbf{v}_q^{\text{full}}, \mathbf{v}_p^{\text{full}})$.
 
-Nhờ toán tử $\max$, hồ sơ ứng viên $p$ khi khuyết một mục cụ thể (ví dụ thiếu mục kỹ năng độc lập) sẽ không bị gán điểm $0$ mà được đối sánh linh hoạt với mục kinh nghiệm làm việc. Mặt khác, bài đăng tuyển dụng $q$ (JD) cũng thường khuyết thiếu một số phân mục tự chọn (ví dụ không quy định mục học vấn hay tóm tắt). Để giải quyết trường hợp JD khuyết mục mà không làm méo mó thang điểm, chúng tôi thiết lập cơ chế \textbf{Tái Chuẩn hóa Trọng số Động (Dynamic Weight Renormalization)}:
-\begin{equation}
-    S_{sem}(q, p) = \frac{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma \cdot c_\sigma(q, p)}{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma},
-    \label{eq:dynamic_renorm}
-\end{equation}
-trong đó $\mathcal{S}(q)$ là tập các phân mục thực sự hiện diện trong bài đăng $q$, và $w_\sigma$ là các trọng số cơ sở được định nghĩa trong mã nguồn hệ thống (\texttt{src/cvjd/models/matching.py:22--27}):
-\begin{itemize}
-    \item $w_{\text{skills}} = 0.40$: Kỹ năng kỹ thuật cốt lõi là điều kiện tiên quyết quyết định ứng viên có thể thực hiện công việc hay không.
-    \item $w_{\text{exp}} = 0.35$: Kinh nghiệm thực chiến chứng minh năng lực áp dụng kiến thức vào thực tiễn dự án.
-    \item $w_{\text{edu}} = 0.15$: Nền tảng học thuật và bằng cấp đào tạo.
-    \item $w_{\text{sum}} = 0.10$: Tóm tắt mục tiêu và định hướng nghề nghiệp.
-\end{itemize}
-Tổng các trọng số mặc định bằng đúng $0.40 + 0.35 + 0.15 + 0.10 = 1.00$. Mẫu số $\sum_{\sigma \in \mathcal{S}(q)} w_\sigma$ bảo đảm tổng trọng số hiệu dụng luôn chuẩn hóa về $1.0$ đối với mọi cấu trúc bài đăng. Trường hợp cả hai tài liệu đều không bóc tách được phân mục nào ($\mathcal{S}(q)=\emptyset$ hoặc $\mathcal{S}(p)=\emptyset$), hệ thống kích hoạt cơ chế dự phòng an toàn (Fallback): $S_{sem}(q, p) = \text{sim}(\mathbf{v}_q^{full}, \mathbf{v}_p^{full})$.
-
-\subsection{Động cơ Xếp hạng Lai Hai Tầng}
-Nhằm đảm bảo sự tách biệt rành mạch giữa các ràng buộc pháp lý/nghiệp vụ và năng lực chuyên môn, hệ thống vận hành theo kiến trúc hai tầng:
-
-\noindent\textbf{Tầng 1: Bộ lọc Ràng buộc Tiên quyết (Eligibility Hard Filters)}: Loại bỏ các ứng viên không thỏa mãn điều kiện thị trường không liên quan đến năng lực (tài khoản không hoạt động, vi phạm chính sách quyền riêng tư, không sẵn sàng nhận việc, hoặc kỳ vọng ngân sách vượt quá trần chi trả của dự án).
-
-\noindent\textbf{Tầng 2: Điểm Xếp hạng Năng lực Lai Hiệu chuẩn (Calibrated Hybrid Scoring)}: Các ứng viên vượt qua Tầng 1 được chấm điểm thông qua cấu trúc lồng hai chặng (\texttt{scripts/run\_scientific\_benchmark.py:505--508}):
+\subsection{Động cơ Xếp hạng Lai Hiệu chuẩn (Calibrated Hybrid Scoring)}
+Hệ thống hợp nhất điểm ngữ nghĩa đặc và điểm từ vựng BM25 thông qua cấu trúc lồng hai chặng (\texttt{scripts/run\_scientific\_benchmark.py:505--508}):
 \begin{equation}
 \begin{aligned}
-    S_{retrieval}(q, p) &= \alpha \cdot \tilde{S}_{dense}(q, p) + (1 - \alpha) \cdot \tilde{S}_{bm25}(q, p), \\
-    S_{hybrid}(q, p) &= \beta \cdot S_{retrieval}(q, p) + (1 - \beta) \cdot S_{tax}(q, p),
+    S_{\text{retrieval}}(q, p) &= \alpha \cdot \tilde{S}_{\text{dense}}(q, p) + (1 - \alpha) \cdot \tilde{S}_{\text{bm25}}(q, p), \\
+    S_{\text{hybrid}}(q, p) &= \beta \cdot S_{\text{retrieval}}(q, p) + (1 - \beta) \cdot S_{\text{tax}}(q, p),
 \end{aligned}
-\label{eq:hybrid_full}
+    \label{eq:hybrid_full}
 \end{equation}
-trong đó $\tilde{S}_{dense}$ và $\tilde{S}_{bm25}$ được chuẩn hóa tuyến tính Min-Max theo từng query pool $\mathcal{P}_q$ trước khi hợp nhất. Khi thay các hằng số hiệu chuẩn $\alpha = 0.60$ và $\beta = 0.60$, ta thu được dạng tổ hợp lồi với các trọng số hiệu dụng:
+trong đó $\tilde{S}_{\text{dense}}$ và $\tilde{S}_{\text{bm25}}$ được chuẩn hóa Min-Max theo từng candidate pool $\mathcal{P}_q$. Với hệ số hòa trộn $\alpha = 0.60$ và $\beta = 0.60$ (được ấn định từ pha dựng mẫu ban đầu và xác nhận qua quét lưới trên tập huấn luyện), công thức rút gọn thành dạng tổ hợp lồi với các trọng số hiệu dụng:
 \begin{equation}
-    S_{hybrid}(q, p) = 0.36 \cdot \tilde{S}_{dense}(q, p) + 0.24 \cdot \tilde{S}_{bm25}(q, p) + 0.40 \cdot S_{tax}(q, p),
+    S_{\text{hybrid}}(q, p) = 0.36 \cdot \tilde{S}_{\text{dense}}(q, p) + 0.24 \cdot \tilde{S}_{\text{bm25}}(q, p) + 0.40 \cdot S_{\text{tax}}(q, p),
+    \label{eq:hybrid_effective}
 \end{equation}
-đảm bảo tổng trọng số thành phần đúng bằng $0.36 + 0.24 + 0.40 = 1.00$.
+đáp ứng tính chất lồi với tổng các trọng số thành phần $0.36 + 0.24 + 0.40 = 1.00$.
 
 \subsection{Xếp hạng Phối hợp Nghịch đảo Không Trọng số Trộn (Weights-Free RRF)}
-Để loại bỏ nguy cơ quá khớp (overfitting) do việc dò tìm các siêu tham số $\alpha, \beta$, chúng tôi cung cấp giải pháp thay thế dựa trên thuật toán Reciprocal Rank Fusion (RRF) \cite{cormack2009reciprocal} phối hợp vị trí thứ hạng giữa hai danh sách Dense và BM25:
+Nhằm cung cấp đường cơ sở không phụ thuộc vào việc hiệu chuẩn tham số $\alpha, \beta$, hệ thống hỗ trợ thuật toán Reciprocal Rank Fusion (RRF) \cite{cormack2009reciprocal} phối hợp vị trí thứ hạng giữa hai danh sách Dense và BM25:
 \begin{equation}
-    S_{RRF}(q, p) = \sum_{m \in \{\text{Dense}, \text{BM25}\}} \frac{1}{k + r_m(p)} = \frac{1}{60 + r_{dense}(p)} + \frac{1}{60 + r_{bm25}(p)},
+    S_{\text{RRF}}(q, p) = \sum_{m \in \{\text{Dense}, \text{BM25}\}} \frac{1}{k + r_m(p)} = \frac{1}{60 + r_{\text{dense}}(p)} + \frac{1}{60 + r_{\text{bm25}}(p)},
     \label{eq:rrf}
 \end{equation}
-trong đó $r_m(p) \in \{1, 2, \dots, N_q\}$ là vị trí thứ hạng của ứng viên $p$ trong danh sách $m$, và $k = 60$ là hằng số làm mịn kinh điển theo chuẩn quốc tế. Hằng số $k=60$ có vai trò ngăn ngừa việc một ứng viên đứng đầu ở một danh sách thành phần duy nhất lấn át hoàn toàn các ứng viên có vị trí cao đồng đều ở cả hai danh sách. Khi kết hợp cùng taxonomy (\texttt{RRF + Taxonomy}), điểm $S_{RRF}$ được chuẩn hóa Min-Max theo pool và hòa trộn: $S_{RRF+Tax} = 0.60 \cdot \tilde{S}_{RRF} + 0.40 \cdot S_{tax}$.
+trong đó $r_m(p) \in \{1, 2, \dots, N_q\}$ là vị trí xếp hạng của ứng viên $p$ trong danh sách $m$, và $k = 60$ là hằng số làm mịn kinh điển. Khi phối hợp cùng taxonomy (\texttt{RRF + Taxonomy}), điểm $S_{\text{RRF}}$ được chuẩn hóa Min-Max theo pool và kết hợp: $S_{\text{RRF+Tax}} = 0.60 \cdot \tilde{S}_{\text{RRF}} + 0.40 \cdot S_{\text{tax}}$.
 
 \subsection{Độ phủ Kỹ năng Bất đối xứng trên Cây Phân loại 3 Tầng}
-Thay vì áp dụng công thức tương đồng Jaccard đối xứng truyền thống vốn trừng phạt bất công các ứng viên sở hữu nhiều kỹ năng phong phú vượt ngoài mô tả công việc, thành phần $S_{tax}$ đo lường mức độ đáp ứng kỹ năng theo hướng bất đối xứng một chiều ($\mathcal{K}_q \rightarrow \mathcal{K}_p$).
+Thành phần $S_{\text{tax}}$ đo lường mức độ đáp ứng kỹ năng theo hướng bất đối xứng một chiều từ yêu cầu công việc sang hồ sơ ứng viên ($\mathcal{K}_q \rightarrow \mathcal{K}_p$). Mức độ đáp ứng của ứng viên đối với từng kỹ năng $t \in \mathcal{K}_q$ được tính theo hàm liên tục $\mu(t, \mathcal{K}_p) = 1.0$ nếu $t \in \mathcal{K}_p$ (trùng tên hoặc bí danh), hoặc $\max_{u \in \mathcal{K}_p} \text{rel}(u, t)$ nếu có liên kết quan hệ trong ontology ($0.80$ cho $\texttt{is\_superset\_of}$, $0.60$ cho $\texttt{framework\_of}$, $[0.25, 0.50]$ cho $\texttt{ecosystem\_companion}$), và $0.0$ nếu không có quan hệ.
 
-Mức độ đáp ứng của ứng viên đối với từng kỹ năng mục tiêu $t \in \mathcal{K}_q$ được đánh giá qua hàm mức độ tương quan liên tục $\mu(t, \mathcal{K}_p) \in [0, 1]$ (\texttt{src/cvjd/data/taxonomy.py:81--100}):
+Độ phủ bất đối xứng trên một tập kỹ năng $\mathcal{T} \subseteq \mathcal{K}_q$ là $\text{Cov}(\mathcal{T}, \mathcal{K}_p) = \frac{1}{|\mathcal{T}|} \sum_{t \in \mathcal{T}} \mu(t, \mathcal{K}_p)$. Điểm Taxonomy tổng hợp kết hợp kỹ năng bắt buộc và ưu tiên (\texttt{scripts/run\_scientific\_benchmark.py:483--492}):
 \begin{equation}
-    \mu(t, \mathcal{K}_p) = \begin{cases} 1.00 & \text{nếu } t \in \mathcal{K}_p \text{ (khớp chính xác hoặc trùng bí danh alias)} \\ \max_{u \in \mathcal{K}_p} \text{rel}(u, t) & \text{nếu tồn tại quan hệ trong taxonomy} \\ 0.00 & \text{ngược lại} \end{cases}
-\end{equation}
-trong đó $\text{rel}(u, t)$ là trọng số quan hệ định kiểu: $0.80$ cho quan hệ bao hàm tập cha ($\texttt{is\_superset\_of}$), $0.60$ cho quan hệ khung phát triển ($\texttt{framework\_of}$), và $[0.25, 0.50]$ cho công nghệ đồng hành ($\texttt{ecosystem\_companion}$).
-
-Độ phủ bất đối xứng trên một tập kỹ năng $\mathcal{T} \subseteq \mathcal{K}_q$ là:
-\begin{equation}
-    \text{Cov}(\mathcal{T}, \mathcal{K}_p) = \frac{1}{|\mathcal{T}|} \sum_{t \in \mathcal{T}} \mu(t, \mathcal{K}_p).
-\end{equation}
-
-Điểm Taxonomy tổng hợp ($S_{tax}$) trong thực nghiệm khoa học (\texttt{scripts/run\_scientific\_benchmark.py:483--492}) kết hợp độ phủ giữa kỹ năng bắt buộc và ưu tiên:
-\begin{equation}
-    S_{tax}(q, p) = 0.85 \cdot \text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) + 0.15 \cdot \text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p).
+    S_{\text{tax}}(q, p) = \begin{cases} 
+        1.0, & \text{nếu } |\mathcal{K}_q| = 0 \\ 
+        0.85 \cdot \text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) + 0.15 \cdot \text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p), & \text{ngược lại.} 
+    \end{cases}
     \label{eq:must_nice}
 \end{equation}
-Trường hợp bài đăng JD hoàn toàn không trích xuất được kỹ năng nào ($|\mathcal{K}_q| = 0$, chiếm khoảng $12.7\%$ JD), hệ thống quy ước gán $S_{tax}(q, p) = 1.0$ cho mọi ứng viên để không làm méo mó thứ tự do nhánh vector tạo ra. Nếu JD không có kỹ năng bắt buộc, $\text{Cov}(\text{Must}) = 1.0$; nếu không có kỹ năng ưu tiên, $\text{Cov}(\text{Nice}) = 0.0$. Trong mô hình sản phẩm (\texttt{src/cvjd/ranking/hybrid.py:194}), khi cờ phạt được kích hoạt, nếu $\text{Cov}(\text{Must}) < 0.50$, điểm sẽ nhân với hệ số phạt nhân tử $\gamma = \text{Cov}(\text{Must})$.
+Khi bài đăng JD hoàn toàn không trích xuất được kỹ năng nào ($|\mathcal{K}_q| = 0$, chiếm $12.7\%$ JD), hệ thống gán $S_{\text{tax}}(q, p) = 1.0$ làm phần tử trung tính. Trong mã nguồn thực nghiệm hiện tại, nếu JD không có kỹ năng bắt buộc thì $\text{Cov}(\text{Must}) = 1.0$; nếu không có kỹ năng ưu tiên thì $\text{Cov}(\text{Nice}) = 0.0$ (khiến điểm tối đa của nhóm này đạt $0.85$). Tính chất bất đối xứng này được thảo luận chi tiết trong phần Giới hạn Nghiên cứu.
 
-Bảng~\ref{tab:design_decisions} tổng hợp toàn bộ các quyết định thiết kế kiến trúc, giải pháp thay thế và bằng chứng thực nghiệm của hệ thống.
+Bảng~\ref{tab:design_decisions} tổng hợp các quyết định thiết kế kiến trúc, giải pháp thay thế và bằng chứng thực nghiệm của hệ thống.
 
 \input{tables/tab_design_decisions.tex}

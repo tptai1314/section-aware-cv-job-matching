@@ -186,11 +186,11 @@ $$\text{Cov}(\mathcal{T}, \mathcal{K}_p) = \frac{1}{|\mathcal{T}|} \sum_{t \in \
 Điểm Taxonomy tổng hợp ($S_{tax}$) trong thực nghiệm khoa học (`scripts/run_scientific_benchmark.py:483-492`) kết hợp độ phủ của hai nhóm kỹ năng:
 $$S_{tax}(q, p) = 0.85 \cdot \text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) + 0.15 \cdot \text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p)$$
 
-**Các Quy ước Xử lý Ca Biên (Boundary Conditions)**:
-1. **JD không trích xuất được kỹ năng nào** ($|\mathcal{K}_q| = 0$, chiếm khoảng $12.7\%$ JD): Gán $S_{tax}(q, p) = 1.0$ cho mọi ứng viên để không làm sai lệch thứ hạng tạo bởi nhánh vector.
-2. **JD không có kỹ năng bắt buộc** ($|\mathcal{K}_{q,\text{must}}| = 0$): Gán $\text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) = 1.0$.
-3. **JD không có kỹ năng ưu tiên** ($|\mathcal{K}_{q,\text{nice}}| = 0$): Gán $\text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p) = 0.0$.
-4. **Ghi chú về biến thể phạt**: Trong mô hình sản phẩm (`src/cvjd/ranking/hybrid.py:194`), khi cờ `must_have_penalty=True` được bật, nếu $\text{Cov}(\text{Must}) < 0.50$, điểm sẽ nhân với hệ số phạt $\gamma = \text{Cov}(\text{Must})$. Trong pipeline đo đạc khoa học công bố, hệ thống sử dụng dạng tổ hợp tuyến tính $0.85 / 0.15$ không có bước nhảy.
+**Các Quy ước Xử lý Ca Biên (Boundary Conditions) và Phân tích Bất Đối xứng**:
+1. **JD không trích xuất được kỹ năng nào** ($|\mathcal{K}_q| = 0$, chiếm $12.7\%$ JD test và train): Gán $S_{tax}(q, p) = 1.0$ cho mọi ứng viên để đóng vai trò phần tử trung tính, không làm biến dạng thứ tự do nhánh vector tạo ra.
+2. **JD không có kỹ năng bắt buộc** ($|\mathcal{K}_{q,\text{must}}| = 0$, chiếm $16.9\%$ JD test): Gán $\text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) = 1.0$. Điểm tối đa có thể đạt $1.0$ nếu ứng viên thỏa mãn mọi kỹ năng ưu tiên.
+3. **JD không có kỹ năng ưu tiên** ($|\mathcal{K}_{q,\text{nice}}| = 0$, chiếm $43.7\%$ JD test): Gán $\text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p) = 0.0$. Hệ quả thực tế: điểm $S_{tax}$ của ứng viên cho nhóm JD này bị giới hạn trần ở mức $0.85$ (dù ứng viên đạt $100\%$ kỹ năng bắt buộc). Mặc dù thứ hạng trong nội bộ một truy vấn không bị thay đổi (do mọi ứng viên cùng chịu chung thang đo), nhưng giá trị tuyệt đối của $S_{tax}$ giữa các truy vấn khác nhau sẽ dao động, gây ảnh hưởng cục bộ khi hòa trộn với điểm retrieval chuẩn hóa Min-Max.
+4. **Phạm vi của biến thể phạt nhân tử $\gamma$**: Trong mô hình phục vụ sản phẩm (`src/cvjd/ranking/hybrid.py:194`), khi cờ `must_have_penalty=True` được bật, nếu $\text{Cov}(\text{Must}) < 0.50$, điểm sẽ nhân với hệ số phạt $\gamma = \text{Cov}(\text{Must})$. Cần lưu ý rõ: **trong pipeline đo đạc khoa học công bố (`scripts/run_scientific_benchmark.py`), cờ này không được bật**, và hệ thống sử dụng dạng tổ hợp lồi tuyến tính thuần túy $0.36 \tilde{S}_{\text{dense}} + 0.24 \tilde{S}_{\text{bm25}} + 0.40 S_{\text{tax}}$.
 
 ---
 
