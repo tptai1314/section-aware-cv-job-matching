@@ -14,10 +14,22 @@ Bian, S., Zhao, W.X., Song, Y., Zhu, T., Tao, J.Y., Ji-Rong, W.: Learning
   dual-perspective knowledge-enhanced representations for job recommendation.
   In: Proceedings of The Web Conference (WWW). pp. 2888--2894 (2020)
 
+\bibitem{ceovic2026multiview}
+{\'{C}}eovi{\'{c}}, H., Vladimir, K., Dela{\v{c}}, G., {\v{S}}ili{\'{c}}, M.:
+  Multiview job--resume matching with contrastive learning and {LLM}-based
+  paraphrase augmentation. IEEE Access  \textbf{14},  106601--106614 (2026).
+  \doi{10.1109/ACCESS.2026.3709651}
+
 \bibitem{chen2024bge}
 Chen, J., Xiao, S., Zhang, P., Luo, K., Lian, D., Wang, Z.: {BGE M3-Embedding}:
   Multi-lingual, multi-functionality, multi-granularity text embeddings through
   self-knowledge distillation. arXiv preprint arXiv:2402.03216  (2024)
+
+\bibitem{cormack2009reciprocal}
+Cormack, G.V., Clarke, C.L., Buettcher, S.: Reciprocal rank fusion outperforms
+  condorcet and individual machine learning methods. In: Proceedings of the
+  32nd International ACM SIGIR Conference on Research and Development in
+  Information Retrieval (SIGIR). pp. 758--759 (2009)
 
 \bibitem{karpukhin2020dense}
 Karpukhin, V., O{\u{g}}uz, B., Min, S., Lewis, P., Wu, L., Edunov, S., Chen,
@@ -40,15 +52,23 @@ Namuangtoun, C.: Resume and job description fit benchmark dataset.
 Nogueira, R., Cho, K.: Passage re-ranking with {BERT}. arXiv preprint
   arXiv:1901.04085  (2019)
 
+\bibitem{reimers2019sentencebert}
+Reimers, N., Gurevych, I.: {Sentence-BERT}: Sentence embeddings using siamese
+  bert-networks. In: Proceedings of the 2019 Conference on Empirical Methods in
+  Natural Language Processing (EMNLP). pp. 3982--3992 (2019)
+
+\bibitem{yashwant2026semantic}
+Yashwant, S., Jain, S., Dubey, A., Chatterjee, S., Thulsiram, G.: Semantic
+  candidate-job matching: A comparative evaluation of dense embedding models in
+  hybrid retrieval. arXiv preprint arXiv:2609.23307  (2026)
+
+\bibitem{jasonyux2026confitv3}
+Yu, J., et~al.: {ConFit v3}: Improving resume-job matching with {LLM}-based
+  re-ranking. arXiv preprint arXiv:2605.09760  (2026)
+
 \bibitem{zhang2021personalized}
 Zhang, D., Ding, J., Shan, Z.: Personalized job recommendation system based on
   deep neural networks. IEEE Access  \textbf{9},  143525--143534 (2021)
-
-\bibitem{zheng2023judging}
-Zheng, L., Chiang, W.L., Sheng, Y., Zhuang, S., Wu, Z., Zhuang, Y., Lin, Z.,
-  Li, Z., Xing, E.P., Zhang, H., Gonzalez, J.E., Stoica, I.: Judging
-  {LLM}-as-a-judge with {MT-Bench} and {Chatbot Arena}. In: Advances in Neural
-  Information Processing Systems (NeurIPS) Datasets and Benchmarks Track (2023)
 
 \bibitem{zhu2018person}
 Zhu, C., Zhu, H., Xiong, H., Ding, P., Xie, F.: Person-job fit: Adapting the
