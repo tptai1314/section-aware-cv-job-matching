@@ -41,7 +41,15 @@ RQ2 examines the interplay between lexical matching (BM25), dense bi-encoders, a
     \item \textbf{Lexical vs. Dense}: Dense bi-encoders outperform BM25 on top-rank metrics ($0.6146$ vs. $0.5773$ nDCG@10 on Setting A; $0.7153$ vs. $0.6720$ on Setting B), with a strictly positive $95\%$ bootstrap confidence interval ($\bar{\Delta} = +0.0373$, $95\%$ CI: $[+0.0018, +0.0736]$, raw $p=0.0480$), confirming that dense representations effectively bridge vocabulary mismatch.
     \item \textbf{Dense + BM25 Fusion}: Combining min-max normalized dense and lexical scores yields $0.6337$ MAP ($\bar{\Delta} = +0.0127$ over Single-Vector) and lifts Macro-Spearman rank correlation ($\rho_{\text{mac}}$) from $0.209$ (BM25 alone) to $0.276$.
     \item \textbf{Parameter-Free RRF}: Reciprocal Rank Fusion ($k=60$) combined with taxonomy scoring achieves $0.6107$ nDCG@10 and $0.6299$ MAP on Setting A ($0.7109$ nDCG@10 and $0.7332$ MAP on Setting B), matching tuned Dense+BM25 within $\bar{\Delta} = -0.0039$ MAP ($p = 0.6728$) without requiring blend weight calibration.
+    \item \textbf{Section-Weight Robustness and Hyperparameter Sensitivity}: To verify that ranking performance does not depend fragilely on manual section weights ($0.40/0.35/0.15/0.10$), we evaluated five structural weight profiles on the development sample: Default ($0.6601$ nDCG@10, $0.6930$ MAP), Equal $0.25$ weights ($0.6613$ nDCG@10, $0.6921$ MAP), Skills-Heavy $0.60/0.20/0.10/0.10$ ($0.6578$ nDCG@10), Experience-Heavy $0.20/0.60/0.10/0.10$ ($0.6636$ nDCG@10), and Core-Only $0.50/0.50/0/0$ ($0.6578$ nDCG@10). Across all five configurations, nDCG@10 fluctuates by less than $\pm 0.0035$, confirming high structural robustness. Furthermore, as plotted in Fig.~\ref{fig:empirical_analysis}(a), sweeping $\alpha \in [0.0, 1.0]$ and $\beta \in [0.4, 1.0]$ produces smooth, concave trajectories peaking at $\alpha = 0.60$ ($0.6994$ vs.\ $0.6601$ pure Dense and $0.6626$ pure BM25) and $\beta = 0.60$ ($0.7078$ nDCG@10), with a wide stable plateau across $[0.4, 0.7]$.
 \end{itemize}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_empirical_analysis.png}
+\caption{Multi-panel empirical analysis: (a)~hyperparameter sensitivity curves for retrieval blend $\alpha$ and taxonomy blend $\beta$ showing concave optima at $\alpha=\beta=0.60$; (b)~length-stratified nDCG@10 demonstrating monotonically expanding truncation mitigation on long ($>350$w) and very long ($>600$w) resumes; and (c)~accuracy vs.\ end-to-end online latency ($T_{\text{online}}$) Pareto frontier on commodity CPUs.}
+\label{fig:empirical_analysis}
+\end{figure*}
 
 \subsection{Answer to RQ3: Impact of Structured Skill Taxonomy and Structural Explainability}
 \label{sec:rq3}
@@ -72,12 +80,16 @@ Table~\ref{tab:clean_train_benchmark} reports independent validation results on 
 
 Results on the clean held-out split corroborate our test findings: Section-Aware Dense outperforms Single-Vector Dense ($0.6890$ vs. $0.6540$ nDCG@10 on Setting A; $0.7376$ vs. $0.7001$ on Setting B, $\bar{\Delta} = +0.0351$, $95\%$ CI: $[+0.0024, +0.0658]$, raw $p=0.0379$, Holm $p=0.1517$), confirming consistent generalization across disjoint query partitions.
 
-\subsection{Cross-Dataset Validation on High-Density Benchmark (\textsc{med2425})}
-Table~\ref{tab:med2425_benchmark} evaluates cross-dataset generalization on \texttt{med2425/resume-job-fit-merged-v1} ($41$ IT JDs, $277$ CVs, $8,575$ pairs, $\approx 209$ CVs per JD).
+\subsection{Bidirectional Cross-Dataset Validation on High-Density Benchmark (\textsc{med2425})}
+Table~\ref{tab:med2425_benchmark} evaluates bidirectional generalization on \texttt{med2425/resume-job-fit-merged-v1} ($8,575$ pairs across $41$ IT JDs and $277$ CVs) in both Candidate Screening ($\text{JD} \rightarrow \text{CV}$, $N=41$ queries, $\approx 209$ CVs/JD) and Reverse Job Recommendation ($\text{CV} \rightarrow \text{JD}$, $N=272$ valid candidate queries, $\approx 31$ JDs/CV).
 
 \input{tables/tab_med2425_benchmark.tex}
 
-In this high-density competitive setting ($8\times$ larger candidate pools per query), structured hybrid scoring proves decisive: Calibrated Hybrid achieves $\mathbf{0.6242}$ nDCG@10 and $\mathbf{0.6814}$ MAP, delivering a statistically significant improvement of $\mathbf{+0.0849}$ nDCG@10 ($+15.7\%$ relative gain, $95\%$ CI: $[+0.0169, +0.1518]$, $t=2.40, p=0.0211, p_{\text{RQ}}=0.0422 < 0.05$) over Single-Vector Dense ($0.5393$) and a significant gain over Dense+BM25 ($0.5879$, $p=0.0457 < 0.05$). This demonstrates that as candidate pool density scales, combining dense semantics, lexical precision, and ontology skill coverage is essential to separate top-tier talent from large volumes of partially matching profiles.
+In this high-density setting, structured hybrid scoring demonstrates decisive bidirectional superiority:
+\begin{itemize}
+    \item \textbf{Direction 1 ($\text{JD} \rightarrow \text{CV}$ Candidate Screening)}: Calibrated Hybrid achieves $\mathbf{0.6242}$ nDCG@10 and $\mathbf{0.6814}$ MAP, delivering a statistically significant improvement of $\mathbf{+0.0849}$ nDCG@10 ($+15.7\%$ relative gain, $95\%$ CI: $[+0.0169, +0.1518]$, $t=2.40, p=0.0211, p_{\text{RQ}}=0.0422 < 0.05$) over Single-Vector Dense ($0.5393$) and a significant gain over Dense+BM25 ($0.5879$, $p=0.0457 < 0.05$).
+    \item \textbf{Direction 2 ($\text{CV} \rightarrow \text{JD}$ Reverse Job Recommendation)}: With higher statistical power across $N=272$ candidate queries, Section-Aware Mixed alone significantly outperforms Flat Single-Vector ($0.5725$ vs.\ $0.5540$ nDCG@10, $\bar{\Delta} = \mathbf{+0.0185}$, $95\%$ CI: $[+0.0068, +0.0299]$, $t=3.09, p=0.0022 < 0.005$), while Calibrated Hybrid reaches $\mathbf{0.6395}$ nDCG@10 and $\mathbf{0.6776}$ MAP ($\bar{\Delta} = \mathbf{+0.0855}$ over Single-Vector, $+15.4\%$, $95\%$ CI: $[+0.0661, +0.1047]$, $t=8.62, p < 0.0001$).
+\end{itemize}
 
 \subsection{Data Leakage and Train-Test Overlap Audit}
 \label{sec:leakage_audit}

@@ -57,6 +57,11 @@ Reimers, N., Gurevych, I.: {Sentence-BERT}: Sentence embeddings using siamese
   bert-networks. In: Proceedings of the 2019 Conference on Empirical Methods in
   Natural Language Processing (EMNLP). pp. 3982--3992 (2019)
 
+\bibitem{robertson2009probabilistic}
+Robertson, S., Zaragoza, H.: The probabilistic relevance framework: {BM25} and
+  beyond. Foundations and Trends in Information Retrieval  \textbf{3}(4),
+  333--389 (2009)
+
 \bibitem{yashwant2026semantic}
 Yashwant, S., Jain, S., Dubey, A., Chatterjee, S., Thulsiram, G.: Semantic
   candidate-job matching: A comparative evaluation of dense embedding models in

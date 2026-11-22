@@ -43,7 +43,15 @@ RQ2 phân tích sự phối hợp giữa phương pháp từ vựng (BM25), vect
     \item \textbf{Vector Đặc so với BM25}: Vector đặc vượt trội BM25 trên nDCG@10 ($0.6146$ so với $0.5773$ trên Setting A; $0.7153$ so với $0.6720$ trên Setting B) với khoảng tin cậy Bootstrap 95\% hoàn toàn nằm ở miền dương ($\bar{\Delta} = +0.0373$, 95\% CI: $[+0.0018, +0.0736]$, $p$ thô = $0.0480$), khẳng định không gian vector giải quyết tốt sự lệch pha từ vựng.
     \item \textbf{Hợp nhất Dense + BM25}: Mô hình kết hợp nâng MAP lên $0.6337$ ($\bar{\Delta} = +0.0127$ so với Single-Vector) và kéo hệ số tương quan hạng Spearman từ $0.209$ (BM25 thuần) lên $0.276$.
     \item \textbf{Mô hình Không Trọng số Trộn RRF}: Thuật toán Reciprocal Rank Fusion ($k=60$) kết hợp taxonomy đạt $0.6107$ nDCG@10 và $0.6299$ MAP trên Setting A ($0.7109$ và $0.7332$ trên Setting B), tiệm cận sát sao mô hình có trọng số ($\bar{\Delta} = -0.0039$ MAP, $p = 0.6728$), là phương án an toàn khi không muốn hiệu chuẩn tham số.
+    \item \textbf{Độ bền Trọng số Phân mục và Độ nhạy Siêu tham số $\alpha, \beta$}: Để kiểm chứng hệ thống không bị phụ thuộc mong manh vào bộ trọng số phân mục đặt tay ($0.40/0.35/0.15/0.10$), chúng tôi thử nghiệm 5 cấu hình trọng số khác nhau: Mặc định ($0.6601$ nDCG@10, $0.6930$ MAP), Bằng nhau $0.25$ ($0.6613$ nDCG@10, $0.6921$ MAP), Nặng Kỹ năng $0.60/0.20/0.10/0.10$ ($0.6578$ nDCG@10), Nặng Kinh nghiệm $0.20/0.60/0.10/0.10$ ($0.6636$ nDCG@10) và Chỉ Mục Cốt lõi $0.50/0.50/0/0$ ($0.6578$ nDCG@10). Độ lệch giữa cả 5 cấu hình chỉ chưa tới $\pm 0.0035$ nDCG@10, chứng minh tính bền vững cấu trúc rất cao. Hơn nữa, như minh họa trên Hình~\ref{fig:empirical_analysis}(a), khi quét $\alpha \in [0.0, 1.0]$ và $\beta \in [0.4, 1.0]$, đường cong hiệu năng có dạng hình vòm lõm mượt mà đạt đỉnh tại $\alpha = 0.60$ ($0.6994$ so với $0.6601$ thuần Dense và $0.6626$ thuần BM25) và $\beta = 0.60$ ($0.7078$ nDCG@10), duy trì vùng ổn định rộng trên đoạn $[0.4, 0.7]$.
 \end{itemize}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{figures/fig_empirical_analysis.png}
+\caption{Phân tích thực nghiệm trực quan 3 chiều: (a)~đường cong độ nhạy siêu tham số hòa trộn $\alpha$ và $\beta$ đạt đỉnh ổn định tại $\alpha=\beta=0.60$; (b)~hiệu năng nDCG@10 phân tầng theo độ dài CV chứng minh khả năng khắc phục cắt cụt văn bản tăng đơn điệu trên CV dài ($>350$ từ) và rất dài ($>600$ từ); và (c)~biên Pareto giữa độ chính xác (MAP) và tổng độ trễ trực tuyến ($T_{\text{online}}$) trên CPU.}
+\label{fig:empirical_analysis}
+\end{figure*}
 
 \subsection{Trả lời RQ3: Vai trò của Cây Phân loại Kỹ năng 3 Tầng và Tình huống Giải trình Thực tế}
 \label{sec:rq3}
@@ -78,15 +86,15 @@ Bảng~\ref{tab:clean_train_benchmark} trình bày kết quả đánh giá trên
 
 Kết quả trên tập Clean Train củng cố vững chắc các phát hiện trên tập Test: Section-Aware Dense vượt Single-Vector Dense ($0.6890$ so với $0.6540$ nDCG@10 trên Setting A; $0.7376$ so với $0.7001$ trên Setting B, $\bar{\Delta} = +0.0351$, 95\% CI: $[+0.0024, +0.0658]$, $p$ thô = $0.0379$), khẳng định năng lực tổng quát hóa ổn định trên các tập truy vấn độc lập.
 
-\subsection{Thẩm định Chéo Độc lập trên Tập Dữ liệu Mật độ Cao (\textsc{med2425})}
-Bảng~\ref{tab:med2425_benchmark} tóm tắt kết quả thử nghiệm trên tập dữ liệu \textsc{med2425} ($41$ JD công nghệ, $277$ CV, $8.575$ cặp, mật độ cạnh tranh cao $\approx 209$ CV/JD).
+\subsection{Thẩm định Chéo Hai chiều Độc lập trên Tập Dữ liệu Mật độ Cao (\textsc{med2425})}
+Bảng~\ref{tab:med2425_benchmark} tóm tắt kết quả thẩm định chéo hai chiều trên tập dữ liệu \textsc{med2425} ($8.575$ cặp giữa $41$ JD công nghệ và $277$ CV) ở cả Chiều~1 (Sàng lọc Ứng viên $\text{JD} \rightarrow \text{CV}$, $N=41$ truy vấn, $\approx 209$ CV/JD) và Chiều~2 (Gợi ý Việc làm Ngược $\text{CV} \rightarrow \text{JD}$, $N=272$ truy vấn ứng viên hợp lệ, $\approx 31$ JD/CV).
 
 \input{tables/tab_med2425_benchmark.tex}
 
-Trong bối cảnh mật độ ứng viên dày đặc gấp 8 lần, vai trò của động cơ lai và taxonomy trở nên mang tính quyết định:
+Trong bối cảnh mật độ cạnh tranh cao, kiến trúc đề xuất chứng minh ưu thế vượt trội có ý nghĩa thống kê ở cả hai chiều:
 \begin{itemize}
-    \item Mô hình Calibrated Hybrid đạt nDCG@10 là \textbf{$0.6242$} và MAP là \textbf{$0.6814$}, tạo bước nhảy vọt có ý nghĩa thống kê \textbf{$+0.0849$ nDCG@10} ($+15.7\%$ tương đối, 95\% CI: $[+0.0169, +0.1518]$, $t=2.40, p=0.0211, p_{\text{RQ}}=0.0422 < 0.05$) so với Single-Vector Dense ($0.5393$) và vượt có ý nghĩa thống kê so với Dense + BM25 ($0.5879$, $p=0.0457 < 0.05$).
-    \item Sự kết hợp giữa vector đặc, từ vựng và độ phủ cây phân loại giúp giải quyết triệt để bài toán phân loại nhân tài khi có hàng trăm hồ sơ cùng ứng tuyển vào một vị trí, chứng minh giá trị thực tiễn vượt trội của việc tích hợp tri thức cấu trúc trong quy mô tuyển dụng lớn.
+    \item \textbf{Chiều 1 ($\text{JD} \rightarrow \text{CV}$ -- Sàng lọc Ứng viên)}: Mô hình Calibrated Hybrid đạt nDCG@10 là \textbf{$0.6242$} và MAP là \textbf{$0.6814$}, tạo bước nhảy vọt có ý nghĩa thống kê \textbf{$+0.0849$ nDCG@10} ($+15.7\%$ tương đối, 95\% CI: $[+0.0169, +0.1518]$, $t=2.40, p=0.0211, p_{\text{RQ}}=0.0422 < 0.05$) so với Single-Vector Dense ($0.5393$) và vượt có ý nghĩa thống kê so với Dense + BM25 ($0.5879$, $p=0.0457 < 0.05$).
+    \item \textbf{Chiều 2 ($\text{CV} \rightarrow \text{JD}$ -- Gợi ý Việc làm cho Ứng viên)}: Với lực thống kê cao trên $N=272$ truy vấn hồ sơ ứng viên, ngay cả biểu diễn phân mục kết hợp (Section-Mixed) đứng độc lập cũng vượt qua Single-Vector Phẳng một cách có ý nghĩa thống kê ($0.5725$ so với $0.5540$ nDCG@10, $\bar{\Delta} = \mathbf{+0.0185}$, 95\% CI: $[+0.0068, +0.0299]$, $t=3.09, p=0.0022 < 0.005$). Khi tích hợp đầy đủ Calibrated Hybrid, điểm nDCG@10 vươn lên \textbf{$0.6395$} và MAP đạt \textbf{$0.6776$} ($\bar{\Delta} = \mathbf{+0.0855}$ so với Single-Vector, $+15.4\%$, 95\% CI: $[+0.0661, +0.1047]$, $t=8.62, p < 0.0001$), hoàn thiện bằng chứng thực nghiệm cho năng lực ghép cặp hai chiều của hệ thống.
 \end{itemize}
 
 \subsection{Kiểm toán Chống Rò rỉ Trùng lặp Văn bản}
