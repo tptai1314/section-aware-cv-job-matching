@@ -1,0 +1,136 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks direct strategic planning experience relevant to a Business Development Manager role.",
+            "Candidate has prior experience with sales and customer service but not at a level pertinent to business-grade CRM systems like Salesforce or HubSpot.",
+            "No evidence of advanced leadership in managing cross-functional teams in strategic initiatives.",
+            "Educational background does not align with top-tier institutions as preferred by company documentation."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Sanam Abbas",
+            "email": "sanam.abbas.90210@gmail.com",
+            "phone": "(+92) 03034371437",
+            "current_position": "Sales Development Representative",
+            "current_company": "Motive (Keeptruckin)",
+            "employment_start_date_current_company": "02-2019",
+            "first_company_start_date": "03-2015",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "strategic planning": 100
+        },
+        "micro_dict": {
+            "salesforce": 100
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "Strong analytical and strategic planning skills"
+        ],
+        "resume": "powered\tby\n\t\nsnaphunt.com\nSanam\tAbbas\nsanam.abbas.90210@gmail.com\n(+92)\t03034371437\nSales\tDevelopment\tRepresentative\tTechnical\tSupport\nFeb\t2019\t-\tJan\t2021\nMotive\t(\tKeeptruckin\t)\t\n|\t\nPakistan\nIn\tthis\tcompany\tI\twas\tresponsible\tin\tconsulting\tabout\tGPS\tand\tDashcam\tDevices\tto\tthose\tfirms\twho\twere\teligible\tto\tavail\twith\ta\tgood\nquote\tto\tsecure\ttheir\tvehicles.\nQuality\tAssurance/customer\tSupport\nMay\t2018\t-\tDec\t2019\nUcs\t\n|\t\nPakistan\nOutbound/\tinbound\tand\tas\tQuality\tAssurance\tagent-------In\tthis\tposition\tI\twas\tresponsible\tfor\tcall\tevaluation\tand\tcoaching\tthe\nresprenstatives\tregards\tsales\tand\tquality\tof\ttheir\tcalls.\nCustomer\tService/\tQuality\tAssurance\nJun\t2017\t-\tApr\t2018\nGlobe\tServices\t\n|\t\nPakistan\nDGS-\tDigital\tGlobe\tServices\t/\tibex.\t/\tWestern\tUnion,\t\nIn\tthis\tcompany\tI\tworked\tas\ta\tsales\trepresentative\tfor\tmultiple\tservice\tproviders\tof\nInternet,\tcable\tand\thome\tsecurity\tand\tautomation.\tIt\twas\ta\tU.S\tbased\tcompany\tand\to\twas\tdealing\twith\tinbound\tand\toutbound\tcalls.-------I\nalso\tgot\tpromoted\tas\ta\tQuality\tAssurance\tAdvisor\tfor\tWestern\tUnion\tin\twhich\tI\twas\tassigned\tto\tevaluate\tcalls\tof\tRepresentatives\tand\talso\ncoach\tthem\tfor\tquality\tCalls.\nVisual\tMerchandising\nMar\t2016\t-\tDec\t2016\nMango\t\n|\t\nPakistan\nIn\tthis\tjob\tI\tUse\tto\treplenish\tbags\tapparels\tand\tpresent\ttheme\tin\toutlets\tof\tcompany.\nMar\t2015\t-\tJan\t2016\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd\t\n|\t\nPakistan\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd,\t-------Customer\tservice/Telecommunicator\t\nIn\tthis\tfield\tI\tworked\tas\tcustomer\trelationship\tofficer,\tI\tuse\tto\nforward\tcomplaints\tand\tsuggestions\tRegards\tfabric\tand\tupdate\tcustomers\tabout\tany\tpromotions\tthe\tcould\tavail\tby\tvia\temail\tand\ntelephone.\nBachelor\tof\tScience,\tComputer\tScience,\tComputer\tSciences,\tInformation\nTechnology\n2014\nBachelor\tof\tScience\nA\tLevels,\tUrdu,\tEnglish,\tComputer\tScience\n2012\nBoard\tof\tIntermediate\tand\tSecondary\tEducation\nIntermediate/A-Level\t,\t\nUrdu,\tEnglish,\tComputer\tScience\t\nGrade:\tB\t\nA\tLevels\tfrom\tLahore\nMatriculation,\tEnglish,\tMathematics\n2010\nMatriculation/O-Level\t,\tBoard\tof\tIntermediate\tand\tSecondary\tEducation\t\nEnglish,\tMathematics\t\nGrade:\tB\t\nMatriculation\nMatriculation\n2003\nAga\tkhan\tAcademy\nMatriculation\tfrom\tAga\tkhan\tAcademy\nMatriculation\n1999\nAllen\tGroove\tSchool\nCompleted\tLanguages\t\nMatriculation\tfrom\tAllen\tGroove\tSchool\nEXPERIENCE\nEDUCATIONpowered\tby\n\t\nsnaphunt.com\nLANGUAGES"
+    },
+    "details": {
+        "name": "Sanam Abbas",
+        "number": "03034371437",
+        "skills": [
+            "GPS Devices",
+            "Dashcam Devices",
+            "Quality Assurance",
+            "Customer Support"
+        ],
+        "email_id": "sanam.abbas.90210@gmail.com",
+        "location": "Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2014",
+                "university": "Computer Sciences, Information Technology",
+                "degree_title": "Bachelor of Science, Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sanamabbas",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sanam Abbas is a dedicated professional with experience in technical support and quality assurance, specializing in GPS and dashcam devices. She has a strong background in customer service and has demonstrated her ability to evaluate and coach representatives to enhance call quality.",
+        "employment_history": [
+            {
+                "details": "Responsible for consulting about GPS and Dashcam Devices to firms eligible for securing their vehicles.",
+                "end_date": "01-2021",
+                "location": "Pakistan",
+                "job_title": "Sales Development Representative Technical Support",
+                "start_date": "02-2019",
+                "company_name": "Motive (Keeptruckin)"
+            },
+            {
+                "details": "Responsible for call evaluation and coaching representatives regarding sales and quality of their calls.",
+                "end_date": "12-2019",
+                "location": "Pakistan",
+                "job_title": "Quality Assurance/customer Support",
+                "start_date": "05-2018",
+                "company_name": "Ucs"
+            },
+            {
+                "details": "Worked as a sales representative for multiple service providers and promoted to Quality Assurance Advisor to evaluate and coach representatives.",
+                "end_date": "04-2018",
+                "location": "Pakistan",
+                "job_title": "Customer Service/Quality Assurance",
+                "start_date": "06-2017",
+                "company_name": "Globe Services"
+            },
+            {
+                "details": "Replenished bags and apparel and presented themes in outlets of the company.",
+                "end_date": "12-2016",
+                "location": "Pakistan",
+                "job_title": "Visual Merchandising",
+                "start_date": "03-2016",
+                "company_name": "Mango"
+            },
+            {
+                "details": "Worked as a customer relationship officer, forwarding complaints and suggestions regarding fabric and updating customers about promotions.",
+                "end_date": "01-2016",
+                "location": "Pakistan",
+                "job_title": "Customer service/Telecommunicator",
+                "start_date": "03-2015",
+                "company_name": "Al Karam Textile Mills (Pvt) Ltd"
+            }
+        ]
+    }
+}

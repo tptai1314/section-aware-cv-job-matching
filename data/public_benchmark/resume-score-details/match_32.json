@@ -1,0 +1,149 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks explicit mention of 5+ years in marketing or sales roles, although cumulatively has sufficient years in related roles such as relationship management and project management.",
+            "The resume does not detail experience with CRM software specified in the job description like HubSpot or Salesforce.",
+            "There is no clear evidence of leadership roles or mentoring experience in the resume though the candidate carries roles with responsibility for customer satisfaction and relationship building.",
+            "Skills such as SEO, SEM, or data visualization and analytics are not mentioned, which are critical for the role described."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "marketing expertise",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo",
+                    "score": 2
+                },
+                {
+                    "criteria": "data visualization",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Shoaib Ameen",
+            "email": "shoaibameen007@gmail.com",
+            "phone": "0334-3237007",
+            "current_position": "Project Manager",
+            "current_company": "Zameen.com",
+            "employment_start_date_current_company": "03-2021",
+            "first_company_start_date": "01-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "marketing expertise": 100
+        },
+        "micro_dict": {
+            "seo": 42,
+            "data visualization": 58
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": "SKILLS  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nResume  created  on \nMuhammad  Shoaib  Ameen  \n \nEmail:  shoaibameen007@gmail.com  \nAddress:  House.No.175,  Street  # 4, Ahmed -Ave, Lahore  \nDate of Birth:  28-10-1991  \nCell:  0334 -3237007  \nEXPERIENCE  \nProject Manager  \nZameen.com since from March 2021  \nRelationship  Manager  \nAskari  Bank  Ltd. \u2013 February  2020  to \nDecember  31st 2020  \nBuilding  positive  relationships  with customers  \nPromote  the company\u2019s products/services addressing  or predicting  \nclients\u2019  objectives  \nKeep records of sales, revenue, invoices etc.  \nProvide  trustworthy  feedback  and after-sales  support  \nAssisting with generating new business Identifying opportunities for greater  \nprofits  \nRelationship  Manager  \nFaysal  Bank  Ltd. - September  2017  to February  2020  \nDevelop  a growth  strategy  focused  both on financial  gain and customer  \nsatisfaction  \nConduct  research  to identify  new markets  and customer  needs  \nArrange  business  meetings  with prospective clients  \nPromote  the company\u2019s  products/services  addressing  or predicting  \nclients\u2019  objectives  \nKeep  records  of sales,  revenue,  invoices  etc. \nProvide  trustworthy  feedback  and after-sales  support  \n \nBusiness  Development  Officer  \nMeezan  Bank  Ltd. - February  2015  to September  2017  \nBuilding positive relationships with customers  \nAssisting with generating new business  \nIdentifying  opportunities  for greater  profits  \n \nAccounts  Officer  \nCibro  Agencies  - March  2014  to February  2015  \nHandle  accounts  payable  and receivable  \nMaintain  records  of business  costs,  such  as labor  and material  \nCheck invoices for inaccuracies  \n \nAccounts  Officer  \nSorcim  Technologies  - January  2012  to December  2013  \nAdminister all accounts and budgets for various departments, perform  \naudits  on tax and prepare  reports  for SEC.  \nCollaborate  with accounting  and finance  team  and prepare  financial  \nstatements  on a monthly  basis.   \nEDUCATION  \nB.Com  \nBahauddin  Zakariya  University,  Multan  \nOctober  2009  to November  2011  \n \nD.Com  \nGovernment  College  of Commerce  \nSeptember  2007  to October  2009  \n \nMatriculation  \nGeneration  secondary  School  \nMarch  2006  to April 2007  \n \n \n \n \n \nLanguages  \nEnglish  \nUrdu  \nPunjabi  "
+    },
+    "details": {
+        "name": "Muhammad Shoaib Ameen",
+        "number": "03343237007",
+        "skills": [],
+        "email_id": "shoaibameen007@gmail.com",
+        "location": "House.No.175, Street # 4, Ahmed -Ave, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "11-2011",
+                "university": "Bahauddin Zakariya University, Multan",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "10-2009",
+                "university": "Government College of Commerce",
+                "degree_title": "D.Com"
+            },
+            {
+                "end_date": "04-2007",
+                "university": "Generation secondary School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Shoaib Ameen is a dedicated professional with extensive experience in project and relationship management across various sectors, demonstrating a strong commitment to building positive client relationships and driving business growth.",
+        "employment_history": [
+            {
+                "details": "Building positive relationships with customers, promoting the company\u2019s products/services, keeping records of sales, revenue, invoices, and providing after-sales support.",
+                "end_date": "Ongoing",
+                "location": "",
+                "job_title": "Project Manager",
+                "start_date": "03-2021",
+                "company_name": "Zameen.com"
+            },
+            {
+                "details": "Developing a growth strategy focused on financial gain and customer satisfaction, conducting research to identify new markets, and arranging business meetings with prospective clients.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Relationship Manager",
+                "start_date": "02-2020",
+                "company_name": "Askari Bank Ltd."
+            },
+            {
+                "details": "Conducting research to identify new markets and customer needs, promoting the company\u2019s products/services, and providing after-sales support.",
+                "end_date": "02-2020",
+                "location": "",
+                "job_title": "Relationship Manager",
+                "start_date": "09-2017",
+                "company_name": "Faysal Bank Ltd."
+            },
+            {
+                "details": "Building positive relationships with customers and assisting with generating new business.",
+                "end_date": "09-2017",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "02-2015",
+                "company_name": "Meezan Bank Ltd."
+            },
+            {
+                "details": "Handling accounts payable and receivable, maintaining records of business costs, and checking invoices for inaccuracies.",
+                "end_date": "02-2015",
+                "location": "",
+                "job_title": "Accounts Officer",
+                "start_date": "03-2014",
+                "company_name": "Cibro Agencies"
+            },
+            {
+                "details": "Administering all accounts and budgets for various departments, performing audits on tax, and preparing reports for SEC.",
+                "end_date": "12-2013",
+                "location": "",
+                "job_title": "Accounts Officer",
+                "start_date": "01-2012",
+                "company_name": "Sorcim Technologies"
+            }
+        ]
+    }
+}

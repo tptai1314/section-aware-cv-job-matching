@@ -1,0 +1,164 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has leadership experience as an Ecommerce and Digital Marketing Manager, managing and leading teams.",
+            "No specific business development experience is highlighted, although similar skills are implicit in the roles held.",
+            "Strategic planning is part of their job in digital marketing campaigns but lacks alignment with sales growth strategies.",
+            "They lack specific market research skills though sales and marketing roles may involve some degree of it.",
+            "The candidate possesses relevant educational qualifications but their degrees are not explicitly in Business Administration."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.08,
+                "micro_scores": 4.0
+            }
+        },
+        "personal_info": {
+            "name": "SUMMAYA ZAKI",
+            "email": "dmilk480@gmail.com",
+            "phone": "03433950799",
+            "current_position": "Ecommerce Manager",
+            "current_company": "Atmos (Pvt. Ltd)",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "01-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 35,
+            "business development experience": 27,
+            "strategic planning": 38
+        },
+        "micro_dict": {
+            "market research": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in business analytics and digital strategy",
+            "Strong understanding of sales processes and negotiation skills",
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": "C o m m u n i c a t i o n\nT e a m w o r k i n g\nM a n a j e m e n t\nN e g o t i a t i o n s\nE n g l i s h\nU r d u\nReference\nWll be furnished on demandA s  E c o m m e r c e  m a n a g e r  i  a m   r e s p o n s i b l e  f o r\nd e v e l o p i n g  a n d  i m p l e m e n t i n g  a l l  d i g i t a l  m a r k e t i n g\ns t r a t e g i e s  t h a t  p r o m o t e   c o m p a n y  o r  b r a n d ' s\np r o d u c t s .  I  a m  m a n a g i n g   t e a m s  a n d  v a r i o u s\nc h a n n e l s  l i k e  s o c i a l  m e d i a  n e t w o r k s ,  G o o g l e  ,\nw e b s i t e  c o n t e n t  a n d  e m a i l  m a r k e t i n g  t o  d e l i v e r  a\np e r s u a s i v e  a n d  c o h e s i v e  m a r k e t i n g  m e s s a g e   About Me\nEducation\nContinue\n2019\n2018Virtual University\nBZU Multan\nVirtual University\nExperienceMs ( Computer Sciences)\nBA ( Economics)\nBS (Computer Sciences)\nCompany Name 2017 - 2020\nEcommerce Manager \nAssistant Manager Ecommerce\nWhite House Electronics 2019- 2021\nDigital Marketing ManagerSUMMAYA ZAKI\nDIGITAL MARKETING MANAGER\nContact\n03433950799\ndmilk480@gmail.com\nGulshan Ravi Lahore\nExpertise\nLanguage Experience\nAtmos (Pvt. Ltd) 2021 - Continue\nNextage Age Tech 2014- 2019\nDigital Marketing Expert\nKBM Group 2013- 2014"
+    },
+    "details": {
+        "name": "SUMMAYA ZAKI",
+        "number": "03433950799",
+        "skills": [
+            "Digital Marketing",
+            "Ecommerce Management",
+            "Social Media Marketing",
+            "Email Marketing",
+            "Content Management"
+        ],
+        "email_id": "dmilk480@gmail.com",
+        "location": "Gulshan Ravi Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "Virtual University",
+                "degree_title": "MS in Computer Sciences"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "BZU Multan",
+                "degree_title": "BA in Economics"
+            },
+            {
+                "end_date": "06-2017",
+                "university": "Virtual University",
+                "degree_title": "BS in Computer Sciences"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/summaya-zaki",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/summayazaki",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Summaya Zaki is a skilled digital marketing manager with extensive experience in ecommerce management and digital marketing strategies. She has a strong background in managing teams and implementing effective marketing campaigns across various channels.",
+        "employment_history": [
+            {
+                "details": "Responsible for developing and implementing all digital marketing strategies that promote the company or brand's products.",
+                "end_date": "12-2021",
+                "location": "",
+                "job_title": "Digital Marketing Manager",
+                "start_date": "01-2019",
+                "company_name": "White House Electronics"
+            },
+            {
+                "details": "Managed ecommerce operations and marketing strategies to enhance online sales and customer engagement.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Ecommerce Manager",
+                "start_date": "01-2017",
+                "company_name": "Atmos (Pvt. Ltd)"
+            },
+            {
+                "details": "Worked on digital marketing initiatives to drive brand awareness and customer acquisition.",
+                "end_date": "12-2019",
+                "location": "",
+                "job_title": "Digital Marketing Expert",
+                "start_date": "01-2014",
+                "company_name": "Nextage Age Tech"
+            },
+            {
+                "details": "Assisted in managing ecommerce projects and marketing campaigns.",
+                "end_date": "12-2014",
+                "location": "",
+                "job_title": "Assistant Manager Ecommerce",
+                "start_date": "01-2013",
+                "company_name": "KBM Group"
+            }
+        ]
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has experience as a Business Development Executive with responsibilities aligned to B2B sales.",
+            "No clear leadership roles suggested beyond managing profiles and communications.",
+            "Relevant experience in B2B sales, particularly in IT sector with Invozone, but lacks mention of manufacturing.",
+            "Skills in communication, Microsoft Office, and lead generation are highlighted but there's limited data analysis experience mentioned."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 7
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 6.34
+            }
+        },
+        "personal_info": {
+            "name": "Anum Akram",
+            "email": "thisisanum28@gmail.com",
+            "phone": "+923244048497",
+            "current_position": "Sr. Business Development Executive / BDE",
+            "current_company": "Invozone",
+            "employment_start_date_current_company": "05-2020",
+            "first_company_start_date": "03-2015",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "b2b sales": 63,
+            "communication skills": 1,
+            "data analysis": 31,
+            "it and manufacturing sector knowledge": 5
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Proven ability to develop and implement successful business strategies",
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": "Anum Akram\nSr. Business Development Executive / BDE at\nInvozone\nDesire to be a part of vibrant and leading organization and create footprints, to assist the\norganizations in all aspects by utilizing all my skills, knowledge, abilities and experience with a\nbalance of hands-on, management and leadership responsibilities.\n Contact Info\n+923244048497\ue145\nthisisanum28@gmail.com\u2709\n344 Gulshan Block Allama Iqbal Town  \nLahore\nLahore, Pakistan\ue021\n Strengths & Skills\ue185\n\u2714Business Development \u2714Communication Skills \u2714Meetings Management\n\u2714Influencing and negotiation skills \u2714Microsoft Office \u2714Lead Generation\n\u2714Online Bidder \u2714Perposal Writing\n Academics\ue233\nTitle Institute Score Date\nMCS University of Management & Technology\n(UMT) , Lahore3.0 CGPA 2016\nB.com punjab group of colleges , Lahore 80% 2012\nI.com punjab group of colleges , Lahore 80% 2010\nMatriculation govt girls high school , Lahore 70% 2010\n Certifications\ue124\nTitle Authority Date\nPGD Starting October 2014\n Experience   4 years \ue067\n1.4 years\n2.1 years\n2.9 years\n1 yearCompany Designation Duration\nInvozone Sr. Business Development Executive / BDE May 2020 - Oct 2021\nNextage Technologies Business Development Officer / BDO Mar 2018 - Apr 2020\nSaif Autos Client Relationship officer Jan 2016 - Dec 2018\nAbacus Consulting Web Research Analyst Mar 2015 - Mar 2016\n Work History\ue032\nInvozone May 2020 - Oct 2021  (1.4 years)\nSr. Business Development Executive / BDE Lahore, Pakistan\nMy core responsibilities are to grab the projects from Upwork, freelancer and guru, Arc linkedin etc Communication with clients.\nFollow-ups with the clients. Understand the project scope.\nTaking calls of clients and schedule them with technical manager for technical purpose Managing the business of InvoZone\nHandling their Upwork and freelancing Profiles. Managing business and Leads using Hubspot. Generate Leads through Linkedin.\nExplore business from different mediums.\nNextage Technologies Mar 2018 - Apr 2020  (2.1 years)\nBusiness Development Officer / BDO Lahore, Pakistan\nWriting beneficial Proposals and research potential clients.\nExtracting emails and data and save them in a google sheet sending cold emails to companies to offer services by using template lead\ngeneration.\nResolving customer complaints, managing database records, drafting status reports on customer service issues \nWork on yellow and white pages to extract leads Saving contact details in hubspot CRM.\nExpert in tools and extension for extracting emails and phone number Sales Navigator expertise.\nSaif Autos Jan 2016 - Dec 2018  (2.9 years)\nClient Relationship officer London Essex, U.K\nBuilding and maintaining relationships with clients and key personnel within customer companies.\nConducting business reviews to ensure clients are satisfied with their products and services.\nLetting customers know about other products the company offers.\nUpdating the POS/EPOS/CRM and ensuring account managers are aware of changes within clients.\nCarrying out client satisfaction surveys and reviews.\nAbacus Consulting Mar 2015 - Mar 2016  (1 year)\nWeb Research Analyst Lahore, Pakistan\nResearch, collecting, analysing data to implementing new programs into organisation.\nMeasure the effectiveness of marketing strategies to overseeing the development of new product.\nProvide analysis of trends and forecasts and recommend actions for optimization.\nDevelop recommendations to improve business operations going forward\n Projects\ue056\nWeb based deals System\nTools : MVC, Visual Studio etc\nFinal year Project\nOnline Web based deals System using C# Asp.net and MVC framework .MY ROLE is to create UML diagrams such as Use-cases, Class\ndiagram. Moreover, complete database design including ER Diagram and Back-end Programming on Visual Studio.\nSemester Projects\nOnline University Management System in java, which includes Hibernate queries. It was a layered project having (view, model, service,\ncontroller)\nAndroid Application with the name FIND help to locate nearby food points, banks, petrol pump and shopping stores gyms and markets.\n Industries\ue019\nInformation Technology\nSoftware & Web Development Functional Areas*\nSoftware & Web Development\nAccounts, Finance & Financial Services\n Languages\ue038\nEnglish - Native\nUrdu - Native Hobbies\ue007\ngardening\nbook reading\ntravelling\n"
+    },
+    "details": {
+        "name": "Anum Akram",
+        "number": "923244048497",
+        "skills": [
+            "Microsoft Office",
+            "Lead Generation",
+            "Online Bidder",
+            "Proposal Writing"
+        ],
+        "email_id": "thisisanum28@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Web based deals System",
+                "description": "Online Web based deals System using C# Asp.net and MVC framework."
+            },
+            {
+                "title": "Online University Management System",
+                "description": "A layered project in Java, including Hibernate queries."
+            },
+            {
+                "title": "Android Application FIND",
+                "description": "Helps to locate nearby food points, banks, petrol pumps, and shopping stores."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2016",
+                "university": "University of Management & Technology (UMT), Lahore",
+                "degree_title": "MCS"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Punjab Group of Colleges, Lahore",
+                "degree_title": "B.com"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Punjab Group of Colleges, Lahore",
+                "degree_title": "I.com"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Govt Girls High School, Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "PGD",
+                "issuing_organization": "Unknown",
+                "date_of_issuance": "10-2014"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/thisisanum",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Anum Akram is a skilled Sr. Business Development Executive with a strong background in lead generation and proposal writing, demonstrating expertise in utilizing Microsoft Office and online bidding platforms to drive business success.",
+        "employment_history": [
+            {
+                "details": "My core responsibilities are to grab the projects from Upwork, freelancer and guru, Arc linkedin etc Communication with clients. Follow-ups with the clients. Understand the project scope. Taking calls of clients and schedule them with technical manager for technical purpose Managing the business of InvoZone Handling their Upwork and freelancing Profiles. Managing business and Leads using Hubspot. Generate Leads through Linkedin. Explore business from different mediums.",
+                "end_date": "10-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sr. Business Development Executive / BDE",
+                "start_date": "05-2020",
+                "company_name": "Invozone"
+            },
+            {
+                "details": "Writing beneficial Proposals and research potential clients. Extracting emails and data and save them in a google sheet sending cold emails to companies to offer services by using template lead generation. Resolving customer complaints, managing database records, drafting status reports on customer service issues Work on yellow and white pages to extract leads Saving contact details in hubspot CRM. Expert in tools and extension for extracting emails and phone number Sales Navigator expertise.",
+                "end_date": "04-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Officer / BDO",
+                "start_date": "03-2018",
+                "company_name": "Nextage Technologies"
+            },
+            {
+                "details": "Building and maintaining relationships with clients and key personnel within customer companies. Conducting business reviews to ensure clients are satisfied with their products and services. Letting customers know about other products the company offers. Updating the POS/EPOS/CRM and ensuring account managers are aware of changes within clients. Carrying out client satisfaction surveys and reviews.",
+                "end_date": "12-2018",
+                "location": "London Essex, U.K",
+                "job_title": "Client Relationship officer",
+                "start_date": "01-2016",
+                "company_name": "Saif Autos"
+            },
+            {
+                "details": "Research, collecting, analysing data to implementing new programs into organisation. Measure the effectiveness of marketing strategies to overseeing the development of new product. Provide analysis of trends and forecasts and recommend actions for optimization. Develop recommendations to improve business operations going forward.",
+                "end_date": "03-2016",
+                "location": "Lahore, Pakistan",
+                "job_title": "Web Research Analyst",
+                "start_date": "03-2015",
+                "company_name": "Abacus Consulting"
+            }
+        ]
+    }
+}

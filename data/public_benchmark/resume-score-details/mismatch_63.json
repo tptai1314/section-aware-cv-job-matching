@@ -1,0 +1,156 @@
+{
+    "output": {
+        "justification": [
+            "Strong leadership demonstrated through managing sales teams and strategic business planning.",
+            "Relevant B2B sales experience in IT and manufacturing sectors, aligns with role requirements.",
+            "Communication skills well-articulated through experience and public relations strategies.",
+            "No direct mention of market research but involved in strategic planning and understanding customer needs."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 5
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0200000000000005,
+                "micro_scores": 5.18
+            }
+        },
+        "personal_info": {
+            "name": "Aakash Nazir",
+            "email": "akash123f@outlook.com",
+            "phone": "+92 (348) 4356062",
+            "current_position": "Manager Sales",
+            "current_company": "Softbeats International",
+            "employment_start_date_current_company": "08-2019",
+            "first_company_start_date": "06-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 2,
+            "experience": 66,
+            "strategic thinking": 32
+        },
+        "micro_dict": {
+            "market research": 94,
+            "communication skills": 6
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": ":\nE-mail\nakash123f@outlook.com\n:\nPhone\n+92 (348) 4356062\n:\nAddress\nBahria Orchard, Lahore Pakistan\nSoftbeats International\nAugust 2019 \u2014 Present\nThe University of Lahore (Main Campus)\nApril 2018 \u2014 July 2019\nAakash Nazir\nObjective\nI have always believed myself to be someone who is capable of making a \ndifference wherever I go and leave my mark. I\nthrive in challenging environments \nthat capacitate learning and growing for an individual. I have strong grit and an \nuntiring\nattitude. I expect myself to work where people are passionate about their \nwork and pay strong emphasis to not only their\nprofessional development but \nalso of their peers. \nWork experience\nManager Sales\n\u00b7\nCurrently responsible for business development and increase Company sales turnover \n\u00b7\nSuccessfully managed to deliver new growth opportunities by expanding in different cities in Pakistan.\n\u00b7\nDeveloped Annual & Monthly Sales Forecast & Projected Revenue.\n\u00b7\nConverting leads into Successful Sales contract\n\u00b7\nEnsuring Monthly Sales Targets, met timely and developing of renewal contracts with existing & new partners/clients.\n\u00b7\nAlso locked sales partners all over Pakistan &1 international partner\n\u00b7\nMeeting with new clients face to face for detailed product demonstrations\n\u00b7\nDevelop and execute strategic business plan in accordance to assigned sales territory & sector\n\u00b7\nMonitor customer buying trends, market conditions, and competitor actions to adjust strategies.\n\u00b7\nResponsible from qualify (Initial Contact) and til Successfully solution deployment at the customer end\n\u00b7\nAligning Sales & Marketing goals to meet company objectives.\nRelationship Officer\n\u00b7\nIncreased revenues and supported business goals by developing public relations strategies and campaigns (Different TV\nCommercials)\n\u00b7\nMonitored, followed-up and escalated cases to meet customer response commitments.\n\u00b7\nProviding assistance to the accounts collection team handling bank accounts related issues (reconciliations)\n\u00b7\nResolving student issues with collaboration of student affairs department\n\u00b7\nCoordinates, develops and promotes programs and services with team aimed at enhancing the student experience\n\u00b7\nMaintain on-going, broad-based consultation and collaboration with students\nAakash Nazir\n1Friesland Campina & Engro Pakistan\nLimited\nJune 2017 \u2014 Feb 2018\nMBA - Sales & Marketing\nSeptember 18 \u2014 Jan 2020\nBachelor\u2019s in business administration\nSeptember 2013 \u2014 December 2017\nIntermediate in Commerce\n2011 \u2014 2013\nMarketing Officer\n\u00b7\nDeveloped creative sales tools, including presentations, trend reports, kitted assets, and product data sheets.\n\u00b7\nConversion of competitor's outlets into Engro exclave's outlets,\n\u00b7\nRetention of existing Outlets\n\u00b7\nMonitoring display, Merchandising, Freezers purity and integrity.\n\u00b7\nTarget follow up and Achievements.\n\u00b7\nWork on three major things on continues basis \u2013Increase sale turnover \u2013 new calls (meetings with new customers) \u2013\nretain existing customers.\n\u00b7\nOversaw development of traditional and social media marketing campaigns to drive sales and customer engagement.\nEducation\nUniversity of Engineering and Technology Lahore\nMajor - Marketing \nCGPA 3.0\nBahauddin Zakariya University, Multan\nMajor - Sales & Marketing\nCGPA 3.17\nAllama Iqbal Commerce College\nMajor - Accounting & Computer sciences \nSkills\nTechnical Skills \nAdept in Microsoft Word & PowerPoint \nFamiliarity in working with VLOOKUP, Pivot Tables, & SUMIF functions, INDEX. \nSkilled in SPSS, Nvivo and SAP Accounting. \nERP solutions - database installation, chart of account mapping and many industries solution with ERP\nInterpersonal Skills \nGood Written and Verbal English, People Skills,  Capable Negotiator, Problem Solving,\nPublic Speaking, Team Leadership, Time and Self-Management. \nInterests\nGlobal Politics, Current Affairs, Book Reading, Music and Travelling\nAakash Nazir\n2References\nTariq Mehmood (0333-4998835) \u2013 Manager Marketing Kohinoor \nMills Ltd Lahore. \nAzhar Mahmood (0345-4668955) \u2013 Engineering Manager PABC \nFaisalabad.\nAakash Nazir\n3"
+    },
+    "details": {
+        "name": "Aakash Nazir",
+        "number": "923484356062",
+        "skills": [
+            "Microsoft Word",
+            "Microsoft PowerPoint",
+            "VLOOKUP",
+            "Pivot Tables",
+            "SUMIF",
+            "INDEX",
+            "SPSS",
+            "Nvivo",
+            "SAP Accounting",
+            "ERP solutions"
+        ],
+        "email_id": "akash123f@outlook.com",
+        "location": "Bahria Orchard, Lahore Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2020",
+                "university": "University of Engineering and Technology Lahore",
+                "degree_title": "MBA - Sales & Marketing"
+            },
+            {
+                "end_date": "12-2017",
+                "university": "Bahauddin Zakariya University, Multan",
+                "degree_title": "Bachelor\u2019s in business administration"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Allama Iqbal Commerce College",
+                "degree_title": "Intermediate in Commerce"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Aakash Nazir is a dedicated sales manager with extensive experience in business development and sales strategy execution. He has a strong technical background in various software tools and ERP solutions, demonstrating a commitment to driving company growth and achieving sales targets.",
+        "employment_history": [
+            {
+                "details": "Currently responsible for business development and increase Company sales turnover. Successfully managed to deliver new growth opportunities by expanding in different cities in Pakistan. Developed Annual & Monthly Sales Forecast & Projected Revenue. Converting leads into Successful Sales contract. Ensuring Monthly Sales Targets, met timely and developing of renewal contracts with existing & new partners/clients. Also locked sales partners all over Pakistan & 1 international partner. Meeting with new clients face to face for detailed product demonstrations. Develop and execute strategic business plan in accordance to assigned sales territory & sector. Monitor customer buying trends, market conditions, and competitor actions to adjust strategies. Responsible from qualify (Initial Contact) and til Successfully solution deployment at the customer end. Aligning Sales & Marketing goals to meet company objectives.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Manager Sales",
+                "start_date": "08-2019",
+                "company_name": "Softbeats International"
+            },
+            {
+                "details": "Increased revenues and supported business goals by developing public relations strategies and campaigns (Different TV Commercials). Monitored, followed-up and escalated cases to meet customer response commitments. Providing assistance to the accounts collection team handling bank accounts related issues (reconciliations). Resolving student issues with collaboration of student affairs department. Coordinates, develops and promotes programs and services with team aimed at enhancing the student experience. Maintain on-going, broad-based consultation and collaboration with students.",
+                "end_date": "07-2019",
+                "location": "",
+                "job_title": "Relationship Officer",
+                "start_date": "04-2018",
+                "company_name": "The University of Lahore (Main Campus)"
+            },
+            {
+                "details": "Developed creative sales tools, including presentations, trend reports, kitted assets, and product data sheets. Conversion of competitor's outlets into Engro exclave's outlets, Retention of existing Outlets. Monitoring display, Merchandising, Freezers purity and integrity. Target follow up and Achievements. Work on three major things on continues basis \u2013Increase sale turnover \u2013 new calls (meetings with new customers) \u2013 retain existing customers. Oversaw development of traditional and social media marketing campaigns to drive sales and customer engagement.",
+                "end_date": "02-2018",
+                "location": "",
+                "job_title": "Marketing Officer",
+                "start_date": "06-2017",
+                "company_name": "Friesland Campina & Engro Pakistan Limited"
+            }
+        ]
+    }
+}

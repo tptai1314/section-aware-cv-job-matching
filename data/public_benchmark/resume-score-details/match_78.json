@@ -1,0 +1,196 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has experience managing client relationships and sales strategies from multiple roles which aligns well with the job's responsibilities.",
+            "Despite not having a Master's degree, the candidate has substantial relevant experience which partially compensates for this requirement.",
+            "Strong proficiency in Microsoft Office and CRM systems is evident from the listed skills, meeting this job requirement.",
+            "The resume shows significant leadership experience in managing teams and projects, relevant to the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 4
+                },
+                {
+                    "criteria": "ppc campaigns",
+                    "score": 3
+                },
+                {
+                    "criteria": "market analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office and CRM systems",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in sales and client relationship management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.550000000000001,
+                "micro_scores": 3.65
+            }
+        },
+        "personal_info": {
+            "name": "Haris Zafar",
+            "email": "harisz848@gmail.com",
+            "phone": "+923070496353",
+            "current_position": "Business Development sales & Support",
+            "current_company": "Programmers force",
+            "employment_start_date_current_company": "05-2023",
+            "first_company_start_date": "10-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "experience": 45,
+            "client relationship management": 55
+        },
+        "micro_dict": {
+            "seo strategy development": 59,
+            "ppc campaigns": 38,
+            "market analysis": 3
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Strong analytical and strategic thinking skills",
+            "Proficiency in Microsoft Office and CRM systems",
+            "Proven track record in sales and client relationship management",
+            "Master's degree in Business Administration or related field"
+        ],
+        "resume": " \n \n \n \n \n \nDate of Birth: 27/11/2001  \n \nHometown: Lahore  \nEmail  Address: \nharisz848@gmail.com  \nContact  Number:  +923070496353  HARIS ZAFAR  \nEDUCATION  & QUALIFICATIONS  \nUniversity of Management and Technology  2022  \nAssociate Degree Program of Computer Science  \nGarrison College for Boys  2019  \nPre-Engineering  \nEXPERIENCE  \nProgrammers force                                                                                 May 2023 - Present  \n   Business Development sales & Support  \n\u25cf Working closely with staff across departments to implement growth strategies.  \n\u25cf Developing and implementing sales strategies, client service and retention plans, and \nanalysing sales data to inform or update marketing strategies.  \n\u25cf Working on a SAAS/web  based project Restful API  and Integrations . \nCrecentech Systems                                                  February 2023 \u2013 April 2023 (3 months)   \nClient Operation Coordinator \u2013 Project Manager  \n\u25cf Responsible for engaging with multiple project stakehold ers and keeping check and \nbalance of the work deadlines.  \n\u25cf Commun icating with the clients , generating their reports , offering them with budget -\nfriendly options for the work, and meeting their expectations through the \ncoordinated efforts of the internal team.  \nSystems Limited                               November  2021 - February  2023  (1 year and 4 m onths)  \nBusiness Development Executive  \n\u25cf Part of the telesales team and responsible for communicating with international clients.  \n\u25cf Worked as a Sales Audito r responsible for reviewing the sales dat a, removing  any \nerrors or exceptions, and ensuring  that sale logs are clean and closed.  \n\u25cf Working  for an  Australian  based company to  promote and ensure  sales to customers.   \nHi-Tech Solution                                                               July 2020 \u2013 June  2021  (11 months)  \nManager  Outsourcing  \n\u25cf Outsourced several campaigns including US Energy, UK Energy.  \n\u25cf Created proposal requests and budget planning for small to big  projects.  \n\u25cf Managed a team of employees and ensured that they are delivering the projects to the \ncustomers on time.  \nLumico Logistics                      October 2019 \u2013 April 2020  (7 months ) \n  Account Executive  \n\u25cf Creating detailed business plans to reach predetermined goals and quotas. Managing the \nentire sales cycle from finding a potential client to securing a deal. Unearthing new sales \nopportunities through networking and turning them into long -term partnerships.  \n\u25cf Dealing with different prospect's to del iver their shipments and deciding the freight rates .  \n\u25cf Negotiate agreements and keep records of sales and data . \nRESEARCH & PROJECTS  \nStudent Attendance System  \n\u25cf Proposed a system using QR Code which displays  student attendance during the lecture.  \nWeb -Development  \n\u25cf Developed a Bitcoin Website for Crypto  \n\u25cf Developed a Construction Website for a fictional furniture company (WeBuild)  \nDid Charity Based Social Work  with different affiliated organizations.  \nHONORS &  AWARDS  \n\u25cf Best player Football in Sports Tournament conducted at UMT Campus .  \n\u25cf Badminton Semi -Finalist in the Sports Fest Competition held at UMT Campus .  \n\u25cf Awarded  merit  scholarship  throughout  FSC. \nEXTRACURRICULAR ACTIVITIES  \n \n\u25cf Sports President and Athletics Captain at Garrison College for Boys (2019).  \n\u25cf Joined a Computer Course to learn more about Softwares.  \n\u25cf Appointed as Teacher Assistant at UMT (2021).  \nSKILLS & INTERESTS  \n\u25cf Fluent in English and Urdu.  \n\u25cf Adept at using MS Office.  \n\u25cf Professional Software Skills.  \n\u25cf Intermediate skills in Web Development.  \n\u25cf Marketing skills for Online Promotions.  \n\u25cf Excellent communication skills and comfortable with working in a team .  \nCRM SOFTWARE AND TOOLS  \n \nExperienced in:  \n\u25cf Intercom  \n\u25cf Zoho CRM  \n\u25cf Podio  \n\u25cf Zendesk  \n\u25cf Slack  \n\u25cf Salesforce  \n\u25cf Greenbot  \n\u25cf Dataforce ASAP  \n\u25cf Batchleads  \n\u25cf Launch Control  \n\u25cf Smrtphone Logs  \n\u25cf 3CX \n\u25cf Callrail  "
+    },
+    "details": {
+        "name": "HARIS ZAFAR",
+        "number": "923070496353",
+        "skills": [
+            "Python",
+            "Web Development",
+            "SAAS",
+            "Restful API",
+            "Intercom",
+            "Zoho CRM",
+            "Podio",
+            "Zendesk",
+            "Slack",
+            "Salesforce",
+            "Greenbot",
+            "Dataforce ASAP",
+            "Batchleads",
+            "Launch Control",
+            "Smrtphone Logs",
+            "3CX",
+            "Callrail"
+        ],
+        "email_id": "harisz848@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Student Attendance System",
+                "description": "Proposed a system using QR Code which displays student attendance during the lecture."
+            },
+            {
+                "title": "Bitcoin Website",
+                "description": "Developed a Bitcoin Website for Crypto."
+            },
+            {
+                "title": "Construction Website",
+                "description": "Developed a Construction Website for a fictional furniture company (WeBuild)."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "University of Management and Technology",
+                "degree_title": "Associate Degree Program of Computer Science"
+            },
+            {
+                "end_date": "04-2019",
+                "university": "Garrison College for Boys",
+                "degree_title": "Pre-Engineering"
+            }
+        ],
+        "achievements": [
+            "Best player Football in Sports Tournament conducted at UMT Campus",
+            "Badminton Semi-Finalist in the Sports Fest Competition held at UMT Campus",
+            "Awarded merit scholarship throughout FSC."
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hariszafar",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Haris Zafar is a dedicated professional with a strong background in business development and technical skills in web development and software tools. He has experience in managing projects and implementing growth strategies, showcasing his ability to work effectively across departments and with clients.",
+        "employment_history": [
+            {
+                "details": "Working closely with staff across departments to implement growth strategies. Developing and implementing sales strategies, client service and retention plans, and analysing sales data to inform or update marketing strategies. Working on a SAAS/web based project Restful API and Integrations.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Business Development sales & Support",
+                "start_date": "05-2023",
+                "company_name": "Programmers force"
+            },
+            {
+                "details": "Responsible for engaging with multiple project stakeholders and keeping check and balance of the work deadlines. Communicating with the clients, generating their reports, offering them with budget-friendly options for the work, and meeting their expectations through the coordinated efforts of the internal team.",
+                "end_date": "04-2023",
+                "location": "",
+                "job_title": "Client Operation Coordinator \u2013 Project Manager",
+                "start_date": "02-2023",
+                "company_name": "Crecentech Systems"
+            },
+            {
+                "details": "Part of the telesales team and responsible for communicating with international clients. Worked as a Sales Auditor responsible for reviewing the sales data, removing any errors or exceptions, and ensuring that sale logs are clean and closed. Working for an Australian based company to promote and ensure sales to customers.",
+                "end_date": "02-2023",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2021",
+                "company_name": "Systems Limited"
+            },
+            {
+                "details": "Outsourced several campaigns including US Energy, UK Energy. Created proposal requests and budget planning for small to big projects. Managed a team of employees and ensured that they are delivering the projects to the customers on time.",
+                "end_date": "06-2021",
+                "location": "",
+                "job_title": "Manager Outsourcing",
+                "start_date": "07-2020",
+                "company_name": "Hi-Tech Solution"
+            },
+            {
+                "details": "Creating detailed business plans to reach predetermined goals and quotas. Managing the entire sales cycle from finding a potential client to securing a deal. Unearthing new sales opportunities through networking and turning them into long-term partnerships. Dealing with different prospects to deliver their shipments and deciding the freight rates. Negotiate agreements and keep records of sales and data.",
+                "end_date": "04-2020",
+                "location": "",
+                "job_title": "Account Executive",
+                "start_date": "10-2019",
+                "company_name": "Lumico Logistics"
+            }
+        ]
+    }
+}

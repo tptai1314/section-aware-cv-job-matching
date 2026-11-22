@@ -1,0 +1,186 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has almost 2 years of combined experience in sales roles with some exposure to basic digital marketing concepts.",
+            "While the resume shows a strong background in sales, it lacks substantial, relevant digital marketing experience for the strategist role.",
+            "Candidate lists basic knowledge of SEO and social media management, but lacks advanced expertise required for the role.",
+            "Based on the job description, hands-on experience with Google Analytics is required, which is not evidenced in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 5
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 3
+                },
+                {
+                    "criteria": "content development",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 3.6899999999999995
+            }
+        },
+        "personal_info": {
+            "name": "Manan Sohail",
+            "email": "manansuhail@gmail.com",
+            "phone": "+92-309-1018448",
+            "current_position": "Technical Sales Executive",
+            "current_company": "Pantera Energy",
+            "employment_start_date_current_company": "10-2021",
+            "first_company_start_date": "09-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "digital marketing experience": 100
+        },
+        "micro_dict": {
+            "social media marketing": 14,
+            "google analytics": 45,
+            "content development": 41
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "2+ years of experience in digital marketing",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Familiarity with Google Analytics and CRM tools"
+        ],
+        "resume": "Manan Sohail  \nHouse # 135 Block -H3, Johar town Lahore, Pakistan.  \n                    +92-309-1018448 , manansuhail@gmail.com  \n   Profile Summary  \n \n    A highly detail -oriented, data -driven Business Development Professional  with almost \n2 years  of experience  in sales  seeking a marketing  & sales  role in a growing \norganization . Highly creative and motivated self -starter h aving e xpertise in creating \nand developing client relationships, effective lead generation,  contract negotiation,  and \neffective communication recognized by clients and ma nagers for superior performance  \n   Education  \n \n\uf0b7 MBA Marketing from NCBA&E, Lahore                                             (2020 -Present)  \nCGPA 3.2  \n\uf0b7 B.sc (Mechanical Engineering) from UCP, Lahore                               (2014 -2019)  \nCGPA 2.94  \n\uf0b7 F.sc (Pre-engineering) from Punjab College, Lahore                           (2012 -2014)  \n\uf0b7 Matric (Science) from The Cathedral High School, Lahore        (2011 -2012) \nPersonal skills/Strengths\n \n\uf0b7 Analytical and Strategic , Creativity thinking  \n\uf0b7 Client Relationship Management  \n\uf0b7 Good Communication, interpersonal  skills , negotiation, and conversation skills.  \n\uf0b7 Ability to adapt well and perform in new competitive environments and situations  \n\uf0b7 Basic Knowledge of SEO,  Social Media Management  and Social Media Paid \nCampaigns   \n\uf0b7 Basic knowledge of ATL & BTL  Marketing campaigns  and marketing strategies  \n\uf0b7 A team player and the ability to foster good working relationships  \n\uf0b7 Positive attitude,  quick learner   \n\uf0b7 Proficient in Ms Office, CRM (Sales Force , Bitrix24 ), Sketchup, Helioscope.   \nWork experience   \n \nTechnical Sales Executive  \nPantera Energy  \n(October 2021 - Present)   \nAchievements:  \n\uf0b7 Identifying consumer needs and pain points.  \n\uf0b7 Creating a path to decision -making by translating the needs of the customer . \n\uf0b7 Making a good relationship with clients to generate referrals and leads   \nResponsibilities:  \n\uf0b7 Calculating load as per client residence requirement  \n\uf0b7 Designing solar system/PV layouts according to site on Sketchup  \n\uf0b7 Generating quotes for the clients.  \n\uf0b7 Keeping a track record on leads and generating its report with strong follow up with \nclients  \n\uf0b7 Meeting  and exceeding  Sales Target  \n\uf0b7 Meeting clients / custome rs and closing sales contracts with them.  \n\uf0b7 Remaining update to date with market trends regarding solar technologies  \nSales and Operation Engineer  \nHCO Solar Division of Hadayat & Co   \n(September 2020 \u2013 October 2021)    \nAchievements/Responsibilities:  \n\uf0b7 Visiting  site for site survey   \n\uf0b7 Designing  solar syst em/PV layouts according to site  \n\uf0b7 Generating quotes for the clients.  \n\uf0b7 Meeting clients / customers and closing sales contracts with them.  \n\uf0b7 Meeting deadlines of the projects  \n\uf0b7 Remaining update to date with market trends regarding solar technologies Making \ntechnical presentations and reports.  \nIntern  \nDyconix Engineering  \n(April 2019 -August 2019)  \nAchievements/Responsibilities:  \n\uf0b7 Making inquiries for different instruments and generating proposal reports for it.  \n\uf0b7 Generating flue gas analysis reports after inspection of boilers and burners.  \n  \nIntern University of Central Punjab, Lahore  \nQEC Department  \n(March 2019)    \nAchievement/le arning:  \n\uf0b7 Data entry, commands like data sort, autofill, if, average, sum, data validation, \nprotection of a sheet, cell lock/unlock.  \n  \nIntern Nishat Mills Limited  \n(Power Plant)  \n(September 2018)  \n Achievements:  \n\uf0b7 P & I diagrams of LFO, HFO &  Natural Gas and cooling systems of Wartsila, Caterpillar \nengine & Gas Turbine and also P & I diagram of Ash(from boiler) cleaning process \nplant. Understanding of filtration process of furnace oil, working of Wartisla (dual fuel) \nand Caterpillar engine, wo rking of water tube and fire tube boiler , working of \nRO(water cleaning process) plant, working of Dedustor plant(exhaust(from boiler) \ncleaning process).  \n \nIntern Millat Tractors Limited   \n(September 2017)   \nAchievements:  \n\uf0b7 Understanding of degreasing proc ess of components of engine, drilling and reaming \nprocess of tractors parts, lapping and honing of engine cylinder block, surface \nfinishing of tractors parts, quality assurance of engine and tractor parts using CMM \n(co-ordinate measuring machine) and profi le projector, assembly of engine, testing of \nengine, assembly of tractor.  \n  \nFinal -Year Project    \n\uf0b7 Design, fabrication and testing of Wet Cooling Tower, 2019.  \n  \n  \n"
+    },
+    "details": {
+        "name": "Manan Sohail",
+        "number": "923091018448",
+        "skills": [
+            "Basic Knowledge of SEO",
+            "Social Media Management",
+            "Social Media Paid Campaigns",
+            "Basic knowledge of ATL & BTL Marketing campaigns",
+            "Ms Office",
+            "CRM (Sales Force, Bitrix24)",
+            "Sketchup",
+            "Helioscope"
+        ],
+        "email_id": "manansuhail@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Design, fabrication and testing of Wet Cooling Tower",
+                "description": "Final year project completed in 2019."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "Present",
+                "university": "NCBA&E, Lahore",
+                "degree_title": "MBA Marketing"
+            },
+            {
+                "end_date": "2019",
+                "university": "UCP, Lahore",
+                "degree_title": "B.sc (Mechanical Engineering)"
+            },
+            {
+                "end_date": "2014",
+                "university": "Punjab College, Lahore",
+                "degree_title": "F.sc (Pre-engineering)"
+            },
+            {
+                "end_date": "2012",
+                "university": "The Cathedral High School, Lahore",
+                "degree_title": "Matric (Science)"
+            }
+        ],
+        "achievements": [
+            "CGPA 3.2 in MBA Marketing",
+            "CGPA 2.94 in B.sc (Mechanical Engineering)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/manansohail",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Manan Sohail is a detail-oriented and data-driven business development professional with nearly two years of experience in sales. He possesses expertise in client relationship management, lead generation, and contract negotiation, and is recognized for his superior performance by clients and managers alike.",
+        "employment_history": [
+            {
+                "details": "Identifying consumer needs and pain points, creating a path to decision-making by translating customer needs, generating quotes, and maintaining client relationships.",
+                "end_date": "Present",
+                "location": "Pantera Energy",
+                "job_title": "Technical Sales Executive",
+                "start_date": "10-2021",
+                "company_name": "Pantera Energy"
+            },
+            {
+                "details": "Conducting site surveys, designing solar system layouts, generating quotes, and closing sales contracts while keeping up to date with market trends.",
+                "end_date": "10-2021",
+                "location": "HCO Solar Division of Hadayat & Co",
+                "job_title": "Sales and Operation Engineer",
+                "start_date": "09-2020",
+                "company_name": "HCO Solar Division of Hadayat & Co"
+            },
+            {
+                "details": "Making inquiries for instruments, generating proposal reports, and conducting flue gas analysis reports after inspections.",
+                "end_date": "08-2019",
+                "location": "Dyconix Engineering",
+                "job_title": "Intern",
+                "start_date": "04-2019",
+                "company_name": "Dyconix Engineering"
+            },
+            {
+                "details": "Data entry and learning various commands in Excel.",
+                "end_date": "03-2019",
+                "location": "University of Central Punjab, Lahore",
+                "job_title": "Intern",
+                "start_date": "03-2019",
+                "company_name": "University of Central Punjab, Lahore"
+            },
+            {
+                "details": "Understanding P&I diagrams and filtration processes related to power plants.",
+                "end_date": "09-2018",
+                "location": "Nishat Mills Limited",
+                "job_title": "Intern",
+                "start_date": "09-2018",
+                "company_name": "Nishat Mills Limited"
+            },
+            {
+                "details": "Gaining insights into engine processes and quality assurance of tractor parts.",
+                "end_date": "09-2017",
+                "location": "Millat Tractors Limited",
+                "job_title": "Intern",
+                "start_date": "09-2017",
+                "company_name": "Millat Tractors Limited"
+            }
+        ]
+    }
+}

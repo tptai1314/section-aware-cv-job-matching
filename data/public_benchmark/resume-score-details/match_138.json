@@ -1,0 +1,154 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has relevant experience with over 8 years in roles related to business development and sales.",
+            "Limited strategic planning and market research experience explicitly mentioned in the resume.",
+            "No mention of Salesforce or specific CRM proficiency, which is crucial for the job role.",
+            "Candidate has a basic account management background from the financial sector."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 2
+                },
+                {
+                    "criteria": "crm proficiency",
+                    "score": 3
+                },
+                {
+                    "criteria": "market research",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.05,
+                "micro_scores": 3.13
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Shoaib Ameen",
+            "email": "shoaibameen007@gmail.com",
+            "phone": "0334-3237007",
+            "current_position": "Project Manager",
+            "current_company": "Zameen.com",
+            "employment_start_date_current_company": "03-2021",
+            "first_company_start_date": "01-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "experience": 41,
+            "strategic planning": 59
+        },
+        "micro_dict": {
+            "salesforce": 18,
+            "crm proficiency": 51,
+            "market research": 31
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales management"
+        ],
+        "resume": "SKILLS  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nResume  created  on \nMuhammad  Shoaib  Ameen  \n \nEmail:  shoaibameen007@gmail.com  \nAddress:  House.No.175,  Street  # 4, Ahmed -Ave, Lahore  \nDate of Birth:  28-10-1991  \nCell:  0334 -3237007  \nEXPERIENCE  \nProject Manager  \nZameen.com since from March 2021  \nRelationship  Manager  \nAskari  Bank  Ltd. \u2013 February  2020  to \nDecember  31st 2020  \nBuilding  positive  relationships  with customers  \nPromote  the company\u2019s products/services addressing  or predicting  \nclients\u2019  objectives  \nKeep records of sales, revenue, invoices etc.  \nProvide  trustworthy  feedback  and after-sales  support  \nAssisting with generating new business Identifying opportunities for greater  \nprofits  \nRelationship  Manager  \nFaysal  Bank  Ltd. - September  2017  to February  2020  \nDevelop  a growth  strategy  focused  both on financial  gain and customer  \nsatisfaction  \nConduct  research  to identify  new markets  and customer  needs  \nArrange  business  meetings  with prospective clients  \nPromote  the company\u2019s  products/services  addressing  or predicting  \nclients\u2019  objectives  \nKeep  records  of sales,  revenue,  invoices  etc. \nProvide  trustworthy  feedback  and after-sales  support  \n \nBusiness  Development  Officer  \nMeezan  Bank  Ltd. - February  2015  to September  2017  \nBuilding positive relationships with customers  \nAssisting with generating new business  \nIdentifying  opportunities  for greater  profits  \n \nAccounts  Officer  \nCibro  Agencies  - March  2014  to February  2015  \nHandle  accounts  payable  and receivable  \nMaintain  records  of business  costs,  such  as labor  and material  \nCheck invoices for inaccuracies  \n \nAccounts  Officer  \nSorcim  Technologies  - January  2012  to December  2013  \nAdminister all accounts and budgets for various departments, perform  \naudits  on tax and prepare  reports  for SEC.  \nCollaborate  with accounting  and finance  team  and prepare  financial  \nstatements  on a monthly  basis.   \nEDUCATION  \nB.Com  \nBahauddin  Zakariya  University,  Multan  \nOctober  2009  to November  2011  \n \nD.Com  \nGovernment  College  of Commerce  \nSeptember  2007  to October  2009  \n \nMatriculation  \nGeneration  secondary  School  \nMarch  2006  to April 2007  \n \n \n \n \n \nLanguages  \nEnglish  \nUrdu  \nPunjabi  "
+    },
+    "details": {
+        "name": "Muhammad Shoaib Ameen",
+        "number": "03343237007",
+        "skills": [],
+        "email_id": "shoaibameen007@gmail.com",
+        "location": "House.No.175, Street # 4, Ahmed -Ave, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "11-2011",
+                "university": "Bahauddin Zakariya University, Multan",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "10-2009",
+                "university": "Government College of Commerce",
+                "degree_title": "D.Com"
+            },
+            {
+                "end_date": "04-2007",
+                "university": "Generation secondary School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Shoaib Ameen is a dedicated professional with extensive experience in project and relationship management across various sectors, demonstrating a strong commitment to building positive client relationships and driving business growth.",
+        "employment_history": [
+            {
+                "details": "Building positive relationships with customers, promoting the company\u2019s products/services, keeping records of sales, revenue, invoices, and providing after-sales support.",
+                "end_date": "Ongoing",
+                "location": "",
+                "job_title": "Project Manager",
+                "start_date": "03-2021",
+                "company_name": "Zameen.com"
+            },
+            {
+                "details": "Developing a growth strategy focused on financial gain and customer satisfaction, conducting research to identify new markets, and arranging business meetings with prospective clients.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Relationship Manager",
+                "start_date": "02-2020",
+                "company_name": "Askari Bank Ltd."
+            },
+            {
+                "details": "Developing a growth strategy focused on financial gain and customer satisfaction, conducting research to identify new markets, and arranging business meetings with prospective clients.",
+                "end_date": "02-2020",
+                "location": "",
+                "job_title": "Relationship Manager",
+                "start_date": "09-2017",
+                "company_name": "Faysal Bank Ltd."
+            },
+            {
+                "details": "Building positive relationships with customers and assisting with generating new business.",
+                "end_date": "09-2017",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "02-2015",
+                "company_name": "Meezan Bank Ltd."
+            },
+            {
+                "details": "Handling accounts payable and receivable, maintaining records of business costs, and checking invoices for inaccuracies.",
+                "end_date": "02-2015",
+                "location": "",
+                "job_title": "Accounts Officer",
+                "start_date": "03-2014",
+                "company_name": "Cibro Agencies"
+            },
+            {
+                "details": "Administering all accounts and budgets for various departments, performing audits on tax, and preparing reports for SEC.",
+                "end_date": "12-2013",
+                "location": "",
+                "job_title": "Accounts Officer",
+                "start_date": "01-2012",
+                "company_name": "Sorcim Technologies"
+            }
+        ]
+    }
+}

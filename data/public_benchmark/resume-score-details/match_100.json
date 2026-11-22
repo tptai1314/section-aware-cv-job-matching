@@ -1,0 +1,211 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a Bachelor's in Business Administration but lacks Ivy League background, needs 8/10 in leadership due to previous teamwork roles in digital marketing and project management.",
+            "Relevant experience is 6/10 due to limited direct business development work, lacking prolonged senior level experience. Limited strategic planning example hence less appropriate duration.",
+            "Proficient in using some digital marketing tools but not explicitly CRM tools like Salesforce for 10/10, rated 5/10 for CRM proficiency.",
+            "Market research experience involves different contexts, warranting 7/10, however, literature lacks specifics of CRM management documentation."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm proficiency",
+                    "score": 5
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 5
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.44,
+                "micro_scores": 6.01
+            }
+        },
+        "personal_info": {
+            "name": "SAAD BIN HASSAN",
+            "email": "saadbinhassan000@gmail.com",
+            "phone": "923133162249",
+            "current_position": "Marketing Executive",
+            "current_company": "ProntoDigital, LLC",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "06-2018",
+            "urls": [
+                {
+                    "website_name": "Linkedin",
+                    "url": "https://www.linkedin.com/in/saad-bin-hassan-096118183/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 40,
+            "experience": 24,
+            "strategic planning": 36
+        },
+        "micro_dict": {
+            "salesforce": 9,
+            "crm proficiency": 20,
+            "market research": 22,
+            "proposal writing": 30,
+            "digital marketing": 19
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "Strong analytical and strategic planning skills"
+        ],
+        "resume": "  SAAD BIN HASSAN  \nHometown: Lahore  \nCell: 923133162249  | saadbinhassan000@gmail.com  \nDate of Birth: 0 7/04/1998  \nLinkedin Profile: https://www.linkedin.com/in/saad -bin-hassan -096118183/  \nEDUCATION & QUALIFICATIONS  \nMasters of Business Administration  May 2022 \nLahore School of Economics  \nBachelors in Business Administration  (Honors)   June  2021  \nMajor (Marketing) Minor (Media Studies)  \nLahore School of Economics           \nPROFESSIONAL EXPERIENCE         \nProntoDigital, LLC                                                                                               June  2021 \u2013 February 2022  \nBusiness Development Executive  \n\uf0b7 Responsible for finding and retaining new clients, Handling Upwork profiles.  \n\uf0b7 Maintained relationships with clients by providing them information and guidance.  \n\uf0b7 Generated weekly sales reports and provided useful insights.  \nProntoDigital, LLC                                                                        March  2022 \u2013 May 2022  \nJunior Project Associate  \n\uf0b7 Managed and build a Data Analytics team.  \n\uf0b7 Managed to achieve the target of $20,000 in 3 months.  \nBank of Punjab                       June-August  2018 \nOperations Intern, Operations  \n\uf0b7 Responsible to deal with branch daily operations and Opening of new accounts.  \nDetechgear  \nMarketing Executive                                                                                                                                                     July- Dec 2020  \n\uf0b7 Managed all Digital Marketing  of the business.  \n\uf0b7 Achieved sales of 500,000 in 5 months.  \nPROJECTS  \nStrategic Management : Strategic decision making and analyzing a company\u2019s performance by looking at different factors. \nUsing tools like IFE, EFE, CPM, QSPM , etc.  \nAdvertising:  Product adaption of Clear Shampoo according to Pakistani Market. Devised the entire advertising plan \nincorporating all the strategies and storyboard . \nSales Force Management : Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce  \nchannel.  \nMarketing Research: Conducted qualitative and quantita tive research on Nokia Pakistan.  \nADDITIONAL EXPERIENCE  \nTeacher Assistant , Lahore School of Economics                                                                                                2021 \u2013 2022 \nMarketing Intern , Signature Lifestyle.  \n\uf0b7 Managed all Digital Marketing campaigns and marketing strategies.              March -July 2022   \nHONORS & AWARDS  \n\uf0b7 Winner of LSE Business Fiesta 2021  \n\uf0b7 25% Scholarship in Lahore  School of Economics  \nSKILLS & INTERESTS  \n\uf0b7 Competent user of M icrosoft Office , Vegas Pro, SPSS, Smar t PLS , Shopify, and Ecommerce \nManagement.  \n\uf0b7     Digital Marketing, Upwork , Click Up, Slack, FB Ads, Google AdWords , Google Analytics, Canva.  \n       \uf0b7     Strategic Planning, Leadership, Comfortable in Team work.  \n"
+    },
+    "details": {
+        "name": "Saad Bin Hassan",
+        "number": "923133162249",
+        "skills": [
+            "Microsoft Office",
+            "Vegas Pro",
+            "SPSS",
+            "Smart PLS",
+            "Shopify",
+            "Ecommerce Management",
+            "Digital Marketing",
+            "Upwork",
+            "Click Up",
+            "Slack",
+            "FB Ads",
+            "Google AdWords",
+            "Google Analytics",
+            "Canva"
+        ],
+        "email_id": "saadbinhassan000@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Strategic Management",
+                "description": "Strategic decision making and analyzing a company\u2019s performance by looking at different factors."
+            },
+            {
+                "title": "Advertising",
+                "description": "Product adaption of Clear Shampoo according to Pakistani Market."
+            },
+            {
+                "title": "Sales Force Management",
+                "description": "Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce channel."
+            },
+            {
+                "title": "Marketing Research",
+                "description": "Conducted qualitative and quantitative research on Nokia Pakistan."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration"
+            },
+            {
+                "end_date": "06-2021",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelors in Business Administration (Honors)"
+            }
+        ],
+        "achievements": [
+            "Winner of LSE Business Fiesta 2021",
+            "25% Scholarship in Lahore School of Economics"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/saad-bin-hassan-096118183/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saad Bin Hassan is a skilled professional with a strong background in business development and digital marketing, holding an MBA and a Bachelor's in Business Administration. He has demonstrated success in managing teams and achieving sales targets, showcasing his technical proficiency in various software and marketing tools.",
+        "employment_history": [
+            {
+                "details": "Responsible for finding and retaining new clients, Handling Upwork profiles. Maintained relationships with clients by providing them information and guidance. Generated weekly sales reports and provided useful insights.",
+                "end_date": "02-2022",
+                "location": "ProntoDigital, LLC",
+                "job_title": "Business Development Executive",
+                "start_date": "06-2021",
+                "company_name": "ProntoDigital, LLC"
+            },
+            {
+                "details": "Managed and build a Data Analytics team. Managed to achieve the target of $20,000 in 3 months.",
+                "end_date": "05-2022",
+                "location": "ProntoDigital, LLC",
+                "job_title": "Junior Project Associate",
+                "start_date": "03-2022",
+                "company_name": "ProntoDigital, LLC"
+            },
+            {
+                "details": "Responsible to deal with branch daily operations and Opening of new accounts.",
+                "end_date": "08-2018",
+                "location": "Bank of Punjab",
+                "job_title": "Operations Intern, Operations",
+                "start_date": "06-2018",
+                "company_name": "Bank of Punjab"
+            },
+            {
+                "details": "Managed all Digital Marketing of the business. Achieved sales of 500,000 in 5 months.",
+                "end_date": "12-2020",
+                "location": "Detechgear",
+                "job_title": "Marketing Executive",
+                "start_date": "07-2020",
+                "company_name": "Detechgear"
+            },
+            {
+                "details": "Managed all Digital Marketing campaigns and marketing strategies.",
+                "end_date": "07-2022",
+                "location": "Signature Lifestyle",
+                "job_title": "Marketing Intern",
+                "start_date": "03-2022",
+                "company_name": "Signature Lifestyle"
+            }
+        ]
+    }
+}

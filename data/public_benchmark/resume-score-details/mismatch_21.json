@@ -1,0 +1,138 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is based on the responsibility of leading client acquisition in current roles, which indicates leadership qualities but lacks direct leadership experience mentioned in the job description.",
+            "Strategic Planning score is lower due to lack of evidence of strategic decision-making roles in experience.",
+            "Negotiation score is limited as no explicit experience or evidence was seen in the roles provided.",
+            "Sales Strategy score reflects the individuals sales roles in banking, but lacks digital strategy experience.",
+            "Data Analysis score reflects the exposure to financial reporting and data analysis, though not explicitly aligned with digital analytics tools mentioned in the JD."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 4
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 6
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.32,
+                "micro_scores": 4.96
+            }
+        },
+        "personal_info": {
+            "name": "Sayyed Muhammad Ali Shah",
+            "email": "alishah14619@gmail.com",
+            "phone": "03344899892",
+            "current_position": "Business Development Banker",
+            "current_company": "Bank Al Habib Ltd",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "08-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 32,
+            "strategic planning": 68
+        },
+        "micro_dict": {
+            "negotiation": 33,
+            "sales strategy": 29,
+            "data analysis": 38
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": " \nObjectives  \n \n \n \nExperience  \n \n \n \n \n \n \n \n \n \n \n \nQualification  \nSAYYED MUHAMMAD ALI SHAH  \n03344899892  \nEmail: alishah14619@gmail.com  \nVillage and Post Office Jalalpur Sharif, Tehsil \nPinddadan Khan, District  Jhelum . \n \nTo engage in a career that will allow for progress in terms of \nexperties, socio -economics developments, and in novation \nthrough expo sure to new ideas for professional growth, as well \nas growth for the company.  \n \nBusiness Development Banker at Bank Al Habib Ltd  \nApril 2022 \u2013 Present  \nResponsibilities:  \n\u2022 Bring new Business in bank  \n\u2022 Open New Accounts  \n\u2022 Bring New Deposit  \nRelationship Manager at MCB Bank Ltd  \nOctober 2020 \u2013 April 2022  \nResponsibilities:  \n\u2022 Bring new Business in bank by Converting Remittance \nCustomers to Bank Customers  \n\u2022 Cheque Book and ATM Balancing  \n\u2022 Prepare monthly reports for cheque books.  \n\u2022 Account Opening  \nBusiness Development Officer at BankIslami Pakistan Ltd  \nAugust 2018 \u2013 October 2020  \nResponsibilities:  \n\u2022 Bring new Customers in Bank & Cross Selling  \n\u2022 Sell Autos and deal with all Auto related problems  \n\u2022 Deal with customer insurance problems  \nCMA  \nPresent ICMAP Islamabad  \nMaster s of Commerce  \n2018 NCBA&E  \nBachelor s of Commerce  \n2015 Punjab University  \n Skills  \n\u2022 Financial Reporting  \n\u2022 Data Analysis   \n\u2022 Time Management   \n\u2022 Team Player  \n\u2022 Calculations  \n\u2022 Accounting Skill  \n\u2022 MS Word, Excel & Power \npoint  \n \nLanguages  \n\u2022 English  \n\u2022 Urdu  "
+    },
+    "details": {
+        "name": "SAYYED MUHAMMAD ALI SHAH",
+        "number": "03344899892",
+        "skills": [
+            "Financial Reporting",
+            "Data Analysis",
+            "Accounting Skill",
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint"
+        ],
+        "email_id": "alishah14619@gmail.com",
+        "location": "Village and Post Office Jalalpur Sharif, Tehsil Pinddadan Khan, District Jhelum",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "NCBA&E",
+                "degree_title": "Master's of Commerce"
+            },
+            {
+                "end_date": "12-2015",
+                "university": "Punjab University",
+                "degree_title": "Bachelor's of Commerce"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "SAYYED MUHAMMAD ALI SHAH is a skilled banking professional with experience in business development and relationship management. He has a strong background in financial reporting and data analysis, complemented by proficiency in Microsoft Office applications.",
+        "employment_history": [
+            {
+                "details": "Bring new Business in bank",
+                "end_date": "Present",
+                "location": "Bank Al Habib Ltd",
+                "job_title": "Business Development Banker",
+                "start_date": "04-2022",
+                "company_name": "Bank Al Habib Ltd"
+            },
+            {
+                "details": "Bring new Business in bank by Converting Remittance Customers to Bank Customers",
+                "end_date": "04-2022",
+                "location": "MCB Bank Ltd",
+                "job_title": "Relationship Manager",
+                "start_date": "10-2020",
+                "company_name": "MCB Bank Ltd"
+            },
+            {
+                "details": "Bring new Customers in Bank & Cross Selling",
+                "end_date": "10-2020",
+                "location": "BankIslami Pakistan Ltd",
+                "job_title": "Business Development Officer",
+                "start_date": "08-2018",
+                "company_name": "BankIslami Pakistan Ltd"
+            }
+        ]
+    }
+}

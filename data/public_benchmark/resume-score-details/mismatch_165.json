@@ -1,0 +1,243 @@
+{
+    "output": {
+        "justification": [
+            "The candidate possesses expertise in MATLAB, which is a key requirement for the job.",
+            "The resume lacks direct experience in electrical engineering projects relevant to the job description.",
+            "The resume does not explicitly mention AutoCAD experience, thereby not fully meeting the micro requirements.",
+            "The candidate demonstrates proactive learning through various projects, aligning with company values."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "motivation and willingness to learn",
+                    "score": 8
+                },
+                {
+                    "criteria": "teamwork and collaboration",
+                    "score": 5
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "matlab",
+                    "score": 8
+                },
+                {
+                    "criteria": "autocad",
+                    "score": 3
+                },
+                {
+                    "criteria": "arduino ide",
+                    "score": 4
+                },
+                {
+                    "criteria": "proactive learning",
+                    "score": 7
+                },
+                {
+                    "criteria": "teamwork",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proactive and willing to learn",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in MATLAB and AutoCAD",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Electrical Engineering or currently pursuing degree",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Arduino IDE",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong communication and teamwork skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.6499999999999995,
+                "micro_scores": 5.510000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Usman Khalid",
+            "email": "hafizmuhammedusmankhalid@gmail.com",
+            "phone": "+92-321-8857659",
+            "current_position": "Data Scientist",
+            "current_company": "CuddlyNest Technologies",
+            "employment_start_date_current_company": "02-2021",
+            "first_company_start_date": "02-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "LinkedIn"
+                },
+                {
+                    "website_name": "Portfolio",
+                    "url": "Portfolio"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Junior Electrical Engineer Trainee\n\n**Location**: Lahore, Pakistan  \n**Company**: Z-Tech Innovations\n\n### About Us\nZ-Tech Innovations is at the forefront of pioneering solutions in electrical engineering and automation. Our core belief is in harnessing technology to simplify lives and enhance mobility. As a Junior Electrical Engineer Trainee, you will be part of an exciting team dedicated to innovation and excellence.\n\n### Job Overview\nWe are looking for a motivated and proactive Junior Electrical Engineer Trainee to join our dynamic engineering team. This entry-level role is perfect for recent graduates eager to apply their academic knowledge in a practical setting.\n\n### Key Responsibilities\n- Participate in project development, including tasks such as sensor integration and automation.  \n- Assist in the design and testing of electrical systems using industry-standard tools.  \n- Contribute to team discussions and provide insights on the latest trends in electrical engineering technology.  \n- Collaborate with senior engineers in developing innovative solutions for industrial applications.  \n- Maintain compliance with Health, Safety, and Environmental Policies.\n\n### Skills & Qualifications\n- **Technical skills**: Proficiency in MATLAB, AutoCAD, Proteus, and familiarity with Arduino IDE.  \n- **Soft skills**: Strong communication, teamwork, and report writing skills.  \n- **Personal attributes**: Proactive, self-motivated, with a strong willingness to learn and adapt.\n\n### Opportunities\n- Experience with real-world projects focused on automation and mobility technologies.  \n- Engage in our structured training programs designed to enhance technical skills.  \n- Career advancement based on performance and skill growth.",
+        "macro_dict": {
+            "technical skills": 24,
+            "motivation and willingness to learn": 43,
+            "teamwork and collaboration": 21,
+            "communication skills": 12
+        },
+        "micro_dict": {
+            "matlab": 25,
+            "autocad": 31,
+            "arduino ide": 4,
+            "proactive learning": 21,
+            "teamwork": 19
+        },
+        "additional_info": "Z-Tech Innovations prefers candidates with a demonstrated interest in STEM through participation in relevant projects and events. We are supportive of candidates pursuing higher education and offer flexible work schedules to accommodate studies. Relocation support is available for candidates living outside Lahore. Skills assessments will include practical tests using MATLAB and AutoCAD, as well as a panel interview focusing on teamwork and technical problem-solving abilities.",
+        "minimum_requirements": [
+            "Proactive and willing to learn",
+            "Proficiency in MATLAB and AutoCAD",
+            "Bachelor's degree in Electrical Engineering or currently pursuing degree",
+            "Familiarity with Arduino IDE",
+            "Strong communication and teamwork skills"
+        ],
+        "resume": "Data Scientist & Artificial Intelligence  Engineer   \nUSMAN  KHALID  +92-321-8857659  | hafizmuhammedusmankhalid @gmail.com   \nLinkedIn  \nPortfolio  \nLahore, Punjab, Pakistan  \nSkills  \n\u2022 Programming Languages : Versatile in Python, \nGolang, C, C++, C#, and Java, enabling me to adapt to \nvarious technical environments and requirements.  \n\u2022 Machine Learning & Deep Learning : Proficient in \ndeveloping and deploying robust models using \nTensorFlow, Keras, and advanced techniques in \nimage classification, watermark detection, and data \nanalysis.  \n\u2022 Natural Language Processing (NLP) : Skilled in \nharnessing NLP techniques to extr act and analyze \nvaluable information from textual data.  \u2022 Databases & Data Management : Expertise in SQL \n(MySQL) and NoSQL (MongoDB, Elasticsearch ), with \na proven track record in data migration, \nsynchronization, and management.  \n\u2022 Data Analysis & Visualization:  Adept at using Python \nlibraries ( Pandas, NumPy ), Excel, and Google Sheets \nfor comprehensive data analysis and visualization.  \n\u2022 Data Pipelines:  Apache Airflow  \nImage Processing & Automation:  Competent in \nimage processing with Python and MATLAB , and \nadept at automating ETLs and deploying models \nthrough Jupyter Notebooks.\n \nProjects  \nLLM MODEL FOR AUTOSU GGESTION \u2013 Company  Project \u2013 Orlando , FL, USA  May  2024 \n\u25cf Implemented a cutting -edge LLM model for autosuggestion using Python, optimizing user experience through intelligent and \ncontext -aware suggestions.  \nDYNAMIC NLP DESCRIPT IONS \u2013 Company  Project \u2013 Orlando , FL, USA  March  2024 \n\u25cf Created dynamic text generation systems using NLP in Python, improving the relevance and personalization of generated \ncont ent. \nADVANCED IMAGE PROCE SSING \u2013 Company  Project \u2013 Orlando , FL, USA  February  2023 \n\u25cf Applied Python and MATLAB for sophisticated image processing tasks, developing solutions for complex image analysis and \nenhancement challenges.  \nWATERM ARK DETECTION \u2013 Company  Project \u2013 Orlando , FL, USA  August  2022 \n\u25cf Engineered a sophisticated system for watermark detection in images using Python, ensuring reliable and accurate identificati on \nof digital watermarks.  \nIM AGE CLASSIFICATION \u2013 Company  Project \u2013 Orlando , FL, USA  January 2022  \n\u25cf Developed and optimized image classification algorithms, achieving high accuracy in categorizing and analyzing visual data fo r \nvarious applications.  \nDATA M IGRATION & SYN CHRONIZATION \u2013 Company  Project \u2013 Orlando , FL, USA  December  2021 \n\u25cf Executed data migra tion projects in MySQL and MongoDB, and facilitated data synchronization across databases and Elastic \nSearch, enhancing data integrity and accessibility.  \nDATA ANALYSIS & VISU ALIZATION \u2013 Company  Project \u2013 Orlando , FL, USA  August  2021  \n\u25cf Utilized Python libraries (pandas, numpy) alongside Excel and Google Sheets for comprehensive data analysis, uncovering insig hts \nand driving data -driven decision -making.  \nGRADIO M ODEL DEPLOYM ENT \u2013 Company  Project \u2013 Orlando , FL, USA  July 2021 \n\u25cf Integrated Gradio for user -friendly model deployment, creating interactive interfaces that facilitate easy access to machine \nlearning models.  \nFASTAPI M ODEL DEPLOY MENT \u2013 Company  Project \u2013 Orlando , FL, USA  May 2021 \n\u25cf Built and deployed advanced machine learning models wit h FastAPI, utilizing Python, Jupyter Notebook, Keras, TensorFlow, and \nmultithreading to deliver seamless, real -time predictions.  AWS MODEL DEPLOYM EN T\u2013 Company  Project \u2013 Orlando , FL, USA  April  2021 \n\u25cf Deployed machine learning models on AWS servers, leveraging Python, Jupyter Notebook, Keras, TensorFlow, and multithreading \nto ensure scalable and high -performance applications.  \nAUTOM ATED ETL PIPELI NES \u2013 Company  Project \u2013 Orlando , FL, USA   February  2021 \n\u25cf Designed and implemented robust ETL pipelines using Python, streamlining data extraction, transformation, and loading \nprocesses to enhance data accuracy and efficiency.  \nPAKISTAN SIGN LANGUA GE\u2013Client\u2019s Project \u2013Lahore , Punjab, Pakistan  December  2020 \n\u25cf Develop ed a comprehensive Pakistan Sign Language recognition system using Python, Jupyter Notebook, Keras, TensorFlow, and \nmultithreading. The project aimed to enhance communication accessibility by accurately interpreting sign language gestures in  \nreal-time.  \nFAK E IM AGE DETECTION AN D LOCALIZATION \u2013Client\u2019s Project \u2013Lahore , Punjab, Pakistan  October  2020 \n\u25cf Developed a sophisticated fake image detection and localization system using Python, Jupyter Notebook, Keras, TensorFlow, and  \nmultithreading. The project accurately identifies and localizes manipulated images, ensuring reliable content authenticity \nverification.  \nREAL TIM E VEHICLE VE RIFICATION OF PARKIN G\u2013 Final Year Project \u2013Lahore , Punjab , Pakistan  September  2020 \n\u25cf Developed a real -time vehicle verification system for p arking using Python, Keras, and TensorFlow, incorporating multithreading \nfor efficient processing. Enabled accurate vehicle and license plate recognition to enhance parking management and security.  \nWork  Experience  \nDATA SCIENTIST  \u2013CuddlyNest Technologies \u2013 Orlando , FL, USA  (Remote)  February  2021 - Present  \n\u25cf Automated ETL processes and model deployment on AWS, leveraging multithreading for enhanced performance.  \n\u25cf Implemented and optimized model deployment using FastAPI and Gradio, ensuring seamless integration an d \nscalability.  \n\u25cf Conducted in -depth data analysis and migration, contributing to efficient database synchronization and data integrit y. \nEducation  \nBACHELOR OF SCIENCE IN COMPUTER SCIENCE \u2013 University of Engineering & Technology, Lahore, Pakistan   May  2021 \nMASTER\u2019S OF SCIENCE IN COMPUTER SCIENCE \u2013 Superior University , Lahore, Pakistan  August 2025  \n "
+    },
+    "details": {
+        "name": "Usman Khalid",
+        "number": "923218857659",
+        "skills": [
+            "Python",
+            "Golang",
+            "C",
+            "C++",
+            "C#",
+            "Java",
+            "TensorFlow",
+            "Keras",
+            "SQL",
+            "MySQL",
+            "MongoDB",
+            "Elasticsearch",
+            "Pandas",
+            "NumPy",
+            "Excel",
+            "Google Sheets",
+            "Apache Airflow",
+            "MATLAB"
+        ],
+        "email_id": "hafizmuhammedusmankhalid@gmail.com",
+        "location": "Lahore, Punjab, Pakistan",
+        "projects": [
+            {
+                "title": "LLM Model for Autosuggestion",
+                "description": "Implemented a cutting-edge LLM model for autosuggestion using Python."
+            },
+            {
+                "title": "Dynamic NLP Descriptions",
+                "description": "Created dynamic text generation systems using NLP in Python."
+            },
+            {
+                "title": "Advanced Image Processing",
+                "description": "Applied Python and MATLAB for sophisticated image processing tasks."
+            },
+            {
+                "title": "Watermark Detection",
+                "description": "Engineered a sophisticated system for watermark detection in images using Python."
+            },
+            {
+                "title": "Image Classification",
+                "description": "Developed and optimized image classification algorithms."
+            },
+            {
+                "title": "Data Migration & Synchronization",
+                "description": "Executed data migration projects in MySQL and MongoDB."
+            },
+            {
+                "title": "Data Analysis & Visualization",
+                "description": "Utilized Python libraries alongside Excel and Google Sheets for comprehensive data analysis."
+            },
+            {
+                "title": "Gradio Model Deployment",
+                "description": "Integrated Gradio for user-friendly model deployment."
+            },
+            {
+                "title": "FastAPI Model Deployment",
+                "description": "Built and deployed advanced machine learning models with FastAPI."
+            },
+            {
+                "title": "AWS Model Deployment",
+                "description": "Deployed machine learning models on AWS servers."
+            },
+            {
+                "title": "Automated ETL Pipelines",
+                "description": "Designed and implemented robust ETL pipelines using Python."
+            },
+            {
+                "title": "Pakistan Sign Language",
+                "description": "Developed a comprehensive Pakistan Sign Language recognition system using Python."
+            },
+            {
+                "title": "Fake Image Detection and Localization",
+                "description": "Developed a sophisticated fake image detection and localization system using Python."
+            },
+            {
+                "title": "Real Time Vehicle Verification of Parking",
+                "description": "Developed a real-time vehicle verification system for parking using Python."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2021",
+                "university": "University of Engineering & Technology, Lahore, Pakistan",
+                "degree_title": "Bachelor of Science in Computer Science"
+            },
+            {
+                "end_date": "08-2025",
+                "university": "Superior University, Lahore, Pakistan",
+                "degree_title": "Master\u2019s of Science in Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/usman-khalid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "portfolio.com/usman-khalid",
+                "website_name": "Portfolio"
+            }
+        ],
+        "executive_summary": "Usman Khalid is a skilled Data Scientist and Artificial Intelligence Engineer with expertise in various programming languages and machine learning frameworks. He has a strong background in developing and deploying advanced models, particularly in image processing and natural language processing. Usman is proficient in data management and analysis, showcasing his ability to handle complex data-driven projects effectively.",
+        "employment_history": [
+            {
+                "details": "Automated ETL processes and model deployment on AWS, leveraging multithreading for enhanced performance.",
+                "end_date": "Present",
+                "location": "Orlando, FL, USA",
+                "job_title": "Data Scientist",
+                "start_date": "02-2021",
+                "company_name": "CuddlyNest Technologies"
+            }
+        ]
+    }
+}

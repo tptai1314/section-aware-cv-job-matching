@@ -1,0 +1,175 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has demonstrated leadership in managing business development projects and teams.",
+            "The candidate lacks specific international business development titles or roles.",
+            "The resume shows experience in leading projects with international clients in the US, Australia, and Europe, supporting relevant experience.",
+            "The candidate's academic qualifications do not match the Bachelor's degree in Business, Marketing, or a relevant field specifically.",
+            "Strong proficiency in tools like Salesforce and CRM platforms shows competency in strategic planning and client management."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "international business experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market entry strategy",
+                    "score": 4
+                },
+                {
+                    "criteria": "competitive analysis",
+                    "score": 5
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in international business development",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business, Marketing, or relevant field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in strategic planning and client management",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.12,
+                "micro_scores": 5.51
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Zunair",
+            "email": "mzunair60@gmail.com",
+            "phone": "+92 3354059293",
+            "current_position": "Business Development Manager",
+            "current_company": "Shayan Solutions",
+            "employment_start_date_current_company": "10-2020",
+            "first_company_start_date": "01-2020",
+            "urls": [
+                {
+                    "website_name": "Medium Blog",
+                    "url": "zunair.medium.com"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Job Title: International Business Development Manager\n\n#### Company: InnovateTech Solutions\n\n**Location:** Lahore, Pakistan  \n\n**About InnovateTech Solutions:**  \nInnovateTech Solutions is a leading global provider of innovative technology solutions, specializing in expanding business operations across diverse international markets. We are seeking a highly motivated and experienced International Business Development Manager to join our team and lead strategic market entry initiatives.\n\n#### Responsibilities:\n\n- Develop and implement comprehensive strategies for foreign market entry, expansion, and product launches in new territories.\n- Lead international trade missions to research, analyze, and secure new business opportunities in the EU and US markets.\n- Build and maintain strong relationships with clients and key stakeholders by employing effective negotiation and communication skills.\n- Collaborate with cross-functional teams to design market entry strategies and oversee implementation of marketing and sales plans.\n- Manage a team of business development officers, providing guidance and support to achieve departmental objectives.\n- Coordinate and attend international exhibitions and trade shows to promote company products and secure new contracts.\n- Analyze market trends and competitive landscapes to identify business opportunities and recommend strategic changes.\n- Ensure compliance with international market regulations and standards in collaboration with regulatory consultants.\n\n#### Qualifications:\n\n- Bachelor's degree in Business, Marketing, or a relevant field; a Master's degree is a plus.\n- Minimum of 5 years of experience in international business development or related roles.\n- Proven track record of strategic planning and securing high-value contracts with international clients.\n- Strong analytical and problem-solving skills with a keen attention to detail.\n- Excellent communication and interpersonal skills, with proficiency in multiple languages being an advantage.\n\n#### Why Join Us?\n\n- Fast-paced and dynamic work environment with opportunities for career growth.\n- Chance to lead strategic initiatives and make a significant impact on international expansion efforts.\n- Competitive salary package and benefits.\n\nIf you are passionate about driving international business growth and have the skills to succeed, we would like to meet you!\n\n**To Apply:** Please submit your resume and cover letter detailing your relevant experience and achievements.",
+        "macro_dict": {
+            "leadership": 56,
+            "international business experience": 44
+        },
+        "micro_dict": {
+            "market entry strategy": 7,
+            "competitive analysis": 35,
+            "negotiation skills": 58
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "5+ years of experience in international business development",
+            "Bachelor's degree in Business, Marketing, or relevant field",
+            "Proficiency in strategic planning and client management"
+        ],
+        "resume": "EDUCATION\nBACHELOR IN SOFTWARE ENGINEERING\nUniversity of Management & Technology | 2016 - 2020ABOUT\nI\u2019m a Software Engineer with experience in Business Development, have proficiency in\nGenerating leads, Business expansion, Sales, Profitability, and Strategy building. \nI\u2019m adept with multiple business development methodologies, gathering and analyzing data on\nSales and Marketing, my expertise extends to Cold calling, Email marketing, Budget\nmanagement, Client communication, Documentation, and Stakeholder management.\nWORK EXPERIENCE\nDIGITAL MARKETING EXECUTIVE\nOZI Technology | Jan 2020 - Oct 2020\nIdentify trends and insights with managing organization's website, social media\nplatforms and maintain it, keeping best practices in mind. \nOptimize content for the website and social media platforms. \nWork with various content formats such as blogs, videos, graphic designing, etc.\nProvide internal reports and creative collaborations among technologies and platforms.BUSINESS DEVELOPMENT MANAGER\nShayan Solutions | Oct 2020 - Present \nSuccessfully managed million budget projects and achieved the project scheduled goals. \nImplementation and management of the CRM that focused on leveraging the company's\ndata asset.\nHands-on generating & managing leads using Salesforce, LinkedIn Sales Navigator,\nAeroleads, etc. \nAchieved sales goals by presenting company services to current and potential clients in\nUSA, Australia, and Europe regions.\nDeveloped and implemented new marketing and sales plans such as remote services,\nMarketing campaigns, etc. \nWriting & Designing emails and ensure proper email delivery to leads.\nWork closely with Developers and QA Engineers to insure the quality and standards of\nthe project. \nImmense expertise in Sales, Partnerships, and Business development at top B2B\nTechnology companies.\nReviewed constantly the client feedback and then suggested ways to improve the\nprocess and customer services levels.\nEnsured that new clients will grow into a loyal customer base in a specialist niche\nmarket.\nManage the projects so the client gets the best and quality results within time. CONTACT\nPhone: +92 3354059293\nEmail: mzunair60@gmail.com\nBlog: zunair.medium.com\nAddress: Valencia Society,\nLahore.\nJava, C#, C++ Programming\nWeb & Mobile Development\nCross Functional Development\nWeb Content Development\nSDLC\nDocumentationPROFESSIONAL\nSKILLS\nSales Navigator\nAeroLeads\nSalesforce\nKrayin CRM\nUpwork\nTrello\nJira\nAsana\nNetBeans\nVisual Studio\nUnity\nAndroid StudioPLATFORMS &\nTOOLSM U H A M M A D M U H A M M A D\nZ U N A I R Z U N A I RPROJECTS UNDERTAKEN\neTradn is an application available on App Store and Google Play. It is online market place\napp.\nThe app belongs to a US based client and got this project from Upwork.\nUsed technologies are Flutter, Figma, PHP, Laravel, Trello, and GitHub.\nTabadol is an online market place application with multiple language support for buying and\nselling services and goods.\nWorked with team including a Team Lead, 4 Developers, and 2 QA Engineers.\nMonitoring existing systems. Ensuring the system provides an effective funnel. Developed\nand implemented marketing techniques.\nUsed technologies are React Native, Redux, Node.js, React.js, React-i18next, Moment.js,\nAxios.\nIt is an application just like Club House developed for iOS devices. The app includes simple\nyet appealing UI with minimalist functionalities.\nUsed technologies are Swift, iOS SDK.\nIt is Lottery online Casino game.\nUser-friendly service in compatibility with web browsers, tablets and mobile phones.\nLaravel, JavaScript, JQuery, JQuery UI, Moment.js, React.js, Git, etc.\nCross Functional application for iOS and Android. An online Watch shopping app.\nUsed technologies are Flutter, Flutter SDK, Flutter Fix, Pubspec File, Hot reload, DevTools,\nHTML, Figma, and Git.eTradn\nTabadol\nSpeak Easy\nOCG\nNew TempusProposal & Email writing\nStrong Analytical & \nCommunication\nProblem Solver\nGood Business Analysis skills\nTime Management\nTeam Player\nFast LearnerPERSONAL\u00a0\nSKILLS\nPROJECTS & RESEARCH WORK\nUI/ UX\nAnimation\nScripting\nAndroid Studio\nAndroid SDK\nSQL\nResearch on new trends using in Text Recognition\nTechniques and Tools used\nCommunication with Resource Person and Team members First Person Shooting 3D Game\nOnline Attendance App\nResearch Paper on Text Recognition"
+    },
+    "details": {
+        "name": "Muhammad Zunair",
+        "number": "923354059293",
+        "skills": [
+            "Java",
+            "C#",
+            "C++",
+            "Web & Mobile Development",
+            "Cross Functional Development",
+            "Web Content Development",
+            "SDLC",
+            "Sales Navigator",
+            "AeroLeads",
+            "Salesforce",
+            "Krayin CRM",
+            "Upwork",
+            "Trello",
+            "Jira",
+            "Asana",
+            "NetBeans",
+            "Visual Studio",
+            "Unity",
+            "Android Studio",
+            "SQL"
+        ],
+        "email_id": "mzunair60@gmail.com",
+        "location": "Valencia Society, Lahore",
+        "projects": [
+            {
+                "title": "eTradn",
+                "description": "An online marketplace app available on App Store and Google Play."
+            },
+            {
+                "title": "Tabadol",
+                "description": "An online marketplace application with multiple language support for buying and selling services and goods."
+            },
+            {
+                "title": "Speak Easy",
+                "description": "An application developed for iOS devices with simple yet appealing UI."
+            },
+            {
+                "title": "OCG",
+                "description": "A Lottery online Casino game."
+            },
+            {
+                "title": "New Tempus",
+                "description": "A cross-functional application for iOS and Android, an online watch shopping app."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "University of Management & Technology",
+                "degree_title": "Bachelor in Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "zunair.medium.com",
+                "website_name": "Blog"
+            }
+        ],
+        "executive_summary": "Muhammad Zunair is a skilled software engineer with a strong background in web and mobile development, proficient in various programming languages and tools. He has demonstrated expertise in managing projects and implementing effective business development strategies.",
+        "employment_history": [
+            {
+                "details": "Identify trends and insights with managing organization's website, social media platforms and maintain it, keeping best practices in mind. Optimize content for the website and social media platforms. Work with various content formats such as blogs, videos, graphic designing, etc. Provide internal reports and creative collaborations among technologies and platforms.",
+                "end_date": "10-2020",
+                "location": "OZI Technology",
+                "job_title": "Digital Marketing Executive",
+                "start_date": "01-2020",
+                "company_name": "OZI Technology"
+            },
+            {
+                "details": "Successfully managed million budget projects and achieved the project scheduled goals. Implementation and management of the CRM that focused on leveraging the company's data asset. Hands-on generating & managing leads using Salesforce, LinkedIn Sales Navigator, Aeroleads, etc. Achieved sales goals by presenting company services to current and potential clients in USA, Australia, and Europe regions. Developed and implemented new marketing and sales plans such as remote services, Marketing campaigns, etc. Writing & Designing emails and ensure proper email delivery to leads. Work closely with Developers and QA Engineers to insure the quality and standards of the project. Immense expertise in Sales, Partnerships, and Business development at top B2B Technology companies. Reviewed constantly the client feedback and then suggested ways to improve the process and customer services levels. Ensured that new clients will grow into a loyal customer base in a specialist niche market. Manage the projects so the client gets the best and quality results within time.",
+                "end_date": "Present",
+                "location": "Shayan Solutions",
+                "job_title": "Business Development Manager",
+                "start_date": "10-2020",
+                "company_name": "Shayan Solutions"
+            }
+        ]
+    }
+}

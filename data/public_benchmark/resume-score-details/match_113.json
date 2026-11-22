@@ -1,0 +1,154 @@
+{
+    "output": {
+        "justification": [
+            "The individual has a Master's degree which indicates a level of education suitable for leadership positions, albeit lack of direct management experience in project management roles.",
+            "Relevant experience in key account management and client communication, however, lacks direct experience in technical project management, pre-sales consulting, or solution architecture.",
+            "Micro skills such as Agile methodologies are not explicitly mentioned on the resume indicating a potential gap for the required role.",
+            "Microsoft Office skills are highlighted but no specific mention of PowerBI or other data tools as required in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "project management experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 2
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 1
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 1
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 1
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 1.19
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Ehtisham",
+            "email": "ehtishamrana246@gmail.com",
+            "phone": "03214334386",
+            "current_position": "Research Executive \u2013 Client Sales & Services",
+            "current_company": "Access Retail Private Limited",
+            "employment_start_date_current_company": "10-2022",
+            "first_company_start_date": "07-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/muhammad-ehtisham-7966b7100"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "project management experience": 100
+        },
+        "micro_dict": {
+            "data management": 19,
+            "pre-sales consulting": 8,
+            "solution architecture": 24,
+            "agile methodologies": 20,
+            "powerbi": 29
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Strong understanding of Agile and SCRUM methodologies"
+        ],
+        "resume": "  MUHAMMAD  EHTISHAM  \nAddress: 20/B Railway Officers Colony Walton Cantt Lahore  \nCell: 03214334386 |ehtishamrana246@gmail.com  \nDate of Birth: 01/11/1996  \nLinkedIn  Profile: https://www.linkedin.com/in/muhammad -ehtisham -\n7966b7100  \nEDUCATION & QUALIFICATIONS  \nMaster of Business Administration  May 2022  \nMajor (Marketing & Finance)   \nLahore School of Economics  \nBach elor of Business Administration  (Honors)  May 2019 \nMajor (Marketing ) Minor ( Media)  \nLahore School of Economics   \nPROFESSIONAL EXPERIENCE         \nAccess Retail Private Limited  October 2022 \u2013Present  \nResearch Executive \u2013 Client Sales & Services  \n\u2022 Managing one of the key accounts.  \n\u2022 Communication with the client.  \n\u2022 Prepare retail audit reports and decks for the client.  \nImpex Advertisers  July 2019\u2013March 2020  \nKey Accounts Manager  \n\u2022 Managing Key Accounts.  \n\u2022 Contact and meet clients.  \n\u2022 Contact potential clients.  \n \nPROJECTS  \nMarketing Research: This project focused on finding the impact of seasonality on the consumption of coffee in Pakistani \nmarket and how can Nescafe reduce its impact.  \nMarketing Management Practices : The project focused on the key issues with the brand and why its perception has \nchanged over the period of time.  \nExport Marketing: Our research focused on the launch of Jafferjees a Pakistan brand in US market. The macroeconomic \nand m icroeconomic factors which will affect the brand in the US market and how they can cope up with that market and \nestablish their brand.  \nSales Force Management : The project had four phases. In first phase we visited a wholesale market (Akbari Mandi), then \nwe visited a manufacturer (Rinkoli). In third phase we visited a distributor (Halaros). In the final phase we chose a small \nbusiness and revamped it by implementing the strategies we learned throughout the course  \nAdditional Experience  \n\u2022 Teaching Assistant, Lahore School of Economics  \nHONORS & AWARDS  \n\u2022 Got second position in LACAS Urain Ge 2017 Youth Studio Singing Competition  \n\u2022 Participated in Annual Play of Lahore School Dramatics Society  \nSKILLS & INTERESTS  \n\u2022 Fluent in English, Urdu  \n\u2022 Adept at using MS Office.  \n\u2022 Excellent communication skills and comfortable with working in a team  \n\u2022 Event Management  \n\u2022 Singing, Reading, Traveling, Cooking and Acting.  \n"
+    },
+    "details": {
+        "name": "Muhammad Ehtisham",
+        "number": "03214334386",
+        "skills": [
+            "MS Office"
+        ],
+        "email_id": "ehtishamrana246@gmail.com",
+        "location": "20/B Railway Officers Colony Walton Cantt Lahore",
+        "projects": [
+            {
+                "title": "Marketing Research",
+                "description": "This project focused on finding the impact of seasonality on the consumption of coffee in Pakistani market and how can Nescafe reduce its impact."
+            },
+            {
+                "title": "Marketing Management Practices",
+                "description": "The project focused on the key issues with the brand and why its perception has changed over the period of time."
+            },
+            {
+                "title": "Export Marketing",
+                "description": "Our research focused on the launch of Jafferjees a Pakistan brand in US market."
+            },
+            {
+                "title": "Sales Force Management",
+                "description": "The project had four phases involving visits to a wholesale market, manufacturer, distributor, and revamping a small business."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Lahore School of Economics",
+                "degree_title": "Master of Business Administration"
+            },
+            {
+                "end_date": "05-2019",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelor of Business Administration (Honors)"
+            }
+        ],
+        "achievements": [
+            "Got second position in LACAS Urain Ge 2017 Youth Studio Singing Competition",
+            "Participated in Annual Play of Lahore School Dramatics Society"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-ehtisham-7966b7100",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Ehtisham is a dedicated professional with a strong background in marketing and finance, holding an MBA from the Lahore School of Economics. He has experience in client sales and services, managing key accounts, and conducting marketing research projects. His technical skills include proficiency in MS Office, and he has demonstrated his capabilities through various academic and professional achievements.",
+        "employment_history": [
+            {
+                "details": "Managing one of the key accounts, communication with the client, and preparing retail audit reports and decks for the client.",
+                "end_date": "Present",
+                "location": "Access Retail Private Limited",
+                "job_title": "Research Executive \u2013 Client Sales & Services",
+                "start_date": "10-2022",
+                "company_name": "Access Retail Private Limited"
+            },
+            {
+                "details": "Managing Key Accounts, contacting and meeting clients, and reaching out to potential clients.",
+                "end_date": "03-2020",
+                "location": "Impex Advertisers",
+                "job_title": "Key Accounts Manager",
+                "start_date": "07-2019",
+                "company_name": "Impex Advertisers"
+            }
+        ]
+    }
+}

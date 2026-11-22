@@ -1,0 +1,196 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 4+ years experience, falling within the required 3-5 years for relevant fields.",
+            "Shows a high level of engagement with clients and audience through social media, showing leadership in online community growth.",
+            "Possesses excellent verbal and written communication skills, evident from stated skills and work history.",
+            "Proficient in MS Office and using tools like Zoho CRM and Sales Navigator, fulfilling micro skill requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms word",
+                    "score": 8
+                },
+                {
+                    "criteria": "stata",
+                    "score": 3
+                },
+                {
+                    "criteria": "linkedin sales navigator",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": true
+                },
+                {
+                    "criteria": "Ability to manage multiple projects simultaneously",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in MS Office Suite and data analysis tools",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.39,
+                "micro_scores": 5.84
+            }
+        },
+        "personal_info": {
+            "name": "Syed Ali Sher Rizvi",
+            "email": "sahibzadaali66@gmail.com",
+            "phone": "03015062755",
+            "current_position": "Business Development Manager",
+            "current_company": "HappyTanent",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "08-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/syed-ali-shair-rizvi-7bb859171"
+                },
+                {
+                    "website_name": "Minora Cart",
+                    "url": "https://www.minoracart.com/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 61,
+            "communication skills": 39
+        },
+        "micro_dict": {
+            "ms word": 8,
+            "stata": 31,
+            "linkedin sales navigator": 61
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Excellent communication skills",
+            "3-5 years of experience in business development or related fields",
+            "Ability to manage multiple projects simultaneously",
+            "Proficiency in MS Office Suite and data analysis tools"
+        ],
+        "resume": "Syed Ali Sher Rizvi \nBusiness Development Manager \nAn organized and creative professional with proven marketing skills and a desire to learn more. Possess\n4+ years of experience working for a diverse group of organizations and clients. Gained expertise in data\nanalysis, publication marketing, and web-based advertising. Looking to utilize my existing skill set to\nincrease company pro\ufb01tability at Spleen Manufacturing (Pvt) Ltd. \nsahibzadaali66@gmail.com \n03015062755 \nLahore, Pakistan \nlinkedin.com/in/syed-ali-shair-rizvi-7bb859171 \nWORK EXPERIENCE \nBusiness Development Manager \nHappyTanent \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nHappyTenant is UAE base company, I'm working here (remotely) to develop their\nbusiness in Pakistan, USA, and UAE as well. \nSetting goals and developing plans for business and revenue\ngrowth. \nPlanning and overseeing new marketing initiatives. \nIncreasing the value of current customers while attracting new\nones. \nAttending conferences, meetings, and industry events. \nSocial Media Coordinator \nMinora Cart \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nhttps://www.minoracart.com/ \nAnalyzed and reported social media presence, engagement, and\ne\ufb00ectiveness on all platforms \nEngaged in consistent interactions with clients, donors, and fans \nDoubled website tra\ufb03c from 15,000 average visitors to 31,000 \nAsst. Manager Marketing \nSpleen Manufacturing (Pvt) Ltd 08/2018 - Present, \n10/2018 - 02/2022\n, \n \nLahore, Pakistan \nProviding Engineering Solutions For All Kind Of Light & Heavy Fabrications \nSuccessfully spearhead campaigns on social media platforms\nincluding Facebook, Twitter, and Instagram \nContact \n:\n-\nRana Shahbaz Ahmed (Head BD & marketing) \n0300 8463927 \nEDUCATION \nMSC Marketing \nNational Collage of Business Administration &\nEconomics \n2020 - Present\n, \n \nLahore. Pakistan \nGlobal Outsourcing \nContract Management \nEntrepreneurship \nFinical Management \nBachelor in Commerce \nUniversity Of Punjab \n12/2016 - 05/2018\n, \n \nLahore Pakistan \nSKILLS \nMS O\ufb03ce \nZoho CRM \nMailChimp \nNegotiation \nAbility to engage \nExcellent verbal and written communication \nAbility to persuade \nEmail Marketing \nLead Generation \nSales Navigator \nSignalHire \nApollo.io \nBu\ufb00er \nDigital advertising \nACHIEVEMENTS \nDigital Marketing Course From PNY Institute\n (09/2021)\n \nSocial Media Marketing, Google Ad words, SMM, Mobile\nMarketing \nHuawei Managment\n (2018 - Present)\n \nFull handling Huawei portal \nfully coordinate with their team for\nrecent contracts and future negotiation in cotracts \nERP (SARP) \nFull handle ERP Software and have enough awareness that can\nhandle each department through it. \nAchiever of the Year (Spleen Manufacturing)\n (2019 - 2020)\n \nCOMPANY PROJECTS \nMinora cart\n (06/2022 - Present)\n \nSocial Media Advertisement \nProject Name \nDelux - Pest Control Services\n (12/2022 - Present)\n \nSocial Media Marketing (LOW CPC - High Conversions) \n220 kV Dhabji Transmission Line Projects\n (09/2021 - 11/2021)\n \nHuawei Projects (CMPAK, JAZZ, Ufone Telenor)\n (02/2021 - Present)\n \nCERTIFICATES \nDigital Marketing\n (2021 - Present)\n \nYoutube Marketing\n (2021 - Present)\n \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Syed Ali Sher Rizvi",
+        "number": "03015062755",
+        "skills": [
+            "MS Office",
+            "Zoho CRM",
+            "MailChimp",
+            "Email Marketing",
+            "Lead Generation",
+            "Sales Navigator",
+            "SignalHire",
+            "Apollo.io",
+            "Buffer",
+            "Digital advertising"
+        ],
+        "email_id": "sahibzadaali66@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Minora cart",
+                "description": "Social Media Advertisement"
+            },
+            {
+                "title": "Delux - Pest Control Services",
+                "description": "Social Media Marketing (LOW CPC - High Conversions)"
+            },
+            {
+                "title": "220 kV Dhabji Transmission Line Projects",
+                "description": ""
+            },
+            {
+                "title": "Huawei Projects (CMPAK, JAZZ, Ufone Telenor)",
+                "description": ""
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2018",
+                "university": "University Of Punjab",
+                "degree_title": "Bachelor in Commerce"
+            },
+            {
+                "end_date": "Present",
+                "university": "National Collage of Business Administration & Economics",
+                "degree_title": "MSC Marketing"
+            }
+        ],
+        "achievements": [
+            "Digital Marketing Course From PNY Institute (09-2021)",
+            "Achiever of the Year (Spleen Manufacturing) (2019 - 2020)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            },
+            {
+                "certification_name": "Youtube Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Syed Ali Sher Rizvi is a Business Development Manager with over 4 years of experience in marketing and business growth strategies. He has a strong background in data analysis, publication marketing, and web-based advertising, and is currently focused on enhancing profitability for Spleen Manufacturing (Pvt) Ltd.",
+        "employment_history": [
+            {
+                "details": "Developing business in Pakistan, USA, and UAE, setting goals and developing plans for business and revenue growth.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2022",
+                "company_name": "HappyTanent"
+            },
+            {
+                "details": "Analyzed and reported social media presence, engagement, and effectiveness on all platforms, doubled website traffic.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Social Media Coordinator",
+                "start_date": "01-2022",
+                "company_name": "Minora Cart"
+            },
+            {
+                "details": "Successfully spearheaded campaigns on social media platforms including Facebook, Twitter, and Instagram.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Asst. Manager Marketing",
+                "start_date": "10-2018",
+                "company_name": "Spleen Manufacturing (Pvt) Ltd"
+            }
+        ]
+    }
+}

@@ -207,7 +207,17 @@ class MatchingService:
             if job is None or profile is None:
                 continue
             components = dict((section_components or {}).get(doc_id, {}))
-            ranked.append(self.ranker.score(job, profile, semantic, doc_id, components))
+            ranked.append(
+                self.ranker.score(
+                    job,
+                    profile,
+                    semantic,
+                    doc_id,
+                    components,
+                    renormalize_missing=True,
+                    must_have_penalty=True,
+                )
+            )
 
         recommendations = self._finalize(ranked, keyword_scores, alpha)
         recommendations = self._gate(
@@ -298,7 +308,13 @@ class MatchingService:
                 continue
             candidates.append(
                 self.ranker.score(
-                    requirement, profile, result.semantic, result.doc_id, result.components
+                    requirement,
+                    profile,
+                    result.semantic,
+                    result.doc_id,
+                    result.components,
+                    renormalize_missing=True,
+                    must_have_penalty=True,
                 )
             )
 

@@ -1,0 +1,618 @@
+{
+  "dataset": "cnamuangtoun/resume-job-description-fit (76 Clean Held-Out Train Queries)",
+  "protocol": "Pre-registered evaluation plan (docs/PRE_REGISTERED_TRAIN_EVAL_PLAN.md)",
+  "char_coverage_stats": {
+    "cv_mean_functional_pct": 95.32,
+    "cv_median_functional_pct": 99.0,
+    "cv_mean_preamble_pct": 2.0,
+    "jd_mean_functional_pct": 30.71,
+    "jd_median_functional_pct": 0.0,
+    "jd_mean_preamble_pct": 67.72
+  },
+  "setting_A_all_76": {
+    "Floor: Random Ranking": {
+      "metrics": {
+        "ndcg@5": 0.5170194185417433,
+        "ndcg@10": 0.5581253605527011,
+        "mrr_th1": 0.655278822055138,
+        "mrr_th2": 0.27591374269005847,
+        "map_th1": 0.5359011958021476,
+        "map_th2": 0.2180481512967967,
+        "p@5_th1": 0.38421052631578945,
+        "p@5_th2": 0.15526315789473685
+      }
+    },
+    "BM25 / TF-IDF (Lexical)": {
+      "metrics": {
+        "ndcg@5": 0.6033428334241788,
+        "ndcg@10": 0.6376493100772312,
+        "mrr_th1": 0.7225088583527786,
+        "mrr_th2": 0.30518483709273186,
+        "map_th1": 0.6122472663188521,
+        "map_th2": 0.25641709932768786,
+        "p@5_th1": 0.4394736842105262,
+        "p@5_th2": 0.16842105263157894
+      }
+    },
+    "MiniLM Single-Vector (Flat)": {
+      "metrics": {
+        "ndcg@5": 0.6230128968936394,
+        "ndcg@10": 0.6539942126075815,
+        "mrr_th1": 0.7268953634085213,
+        "mrr_th2": 0.2894956140350878,
+        "map_th1": 0.6502761472940951,
+        "map_th2": 0.2544011931944114,
+        "p@5_th1": 0.44999999999999984,
+        "p@5_th2": 0.1921052631578947
+      }
+    },
+    "MiniLM Chunk-Mean (128w, stride 64)": {
+      "metrics": {
+        "ndcg@5": 0.6638795216004019,
+        "ndcg@10": 0.6845247000270687,
+        "mrr_th1": 0.7724780701754387,
+        "mrr_th2": 0.31823830409356724,
+        "map_th1": 0.6749558295879442,
+        "map_th2": 0.27616287779444837,
+        "p@5_th1": 0.46578947368421053,
+        "p@5_th2": 0.181578947368421
+      }
+    },
+    "MiniLM Chunk-MaxSim (ColBERT-style)": {
+      "metrics": {
+        "ndcg@5": 0.6789755626945954,
+        "ndcg@10": 0.6966766996418134,
+        "mrr_th1": 0.7827067669172932,
+        "mrr_th2": 0.3417919799498747,
+        "map_th1": 0.6816841138304088,
+        "map_th2": 0.2725656849443103,
+        "p@5_th1": 0.481578947368421,
+        "p@5_th2": 0.19999999999999998
+      }
+    },
+    "MiniLM Section-Aware Dense (Ours)": {
+      "metrics": {
+        "ndcg@5": 0.6745517877522659,
+        "ndcg@10": 0.6890469834267882,
+        "mrr_th1": 0.7491902834008097,
+        "mrr_th2": 0.31359649122807015,
+        "map_th1": 0.6892069604498712,
+        "map_th2": 0.28547254786748405,
+        "p@5_th1": 0.4763157894736841,
+        "p@5_th2": 0.19210526315789475
+      }
+    },
+    "Dense + BM25 (L0: No Taxonomy)": {
+      "metrics": {
+        "ndcg@5": 0.6871054303233087,
+        "ndcg@10": 0.7042672946569304,
+        "mrr_th1": 0.7794172932330827,
+        "mrr_th2": 0.32534461152882205,
+        "map_th1": 0.6923836170254848,
+        "map_th2": 0.28010128952410857,
+        "p@5_th1": 0.48947368421052634,
+        "p@5_th2": 0.2026315789473684
+      }
+    },
+    "Calibrated Hybrid (Dense+BM25+Tax)": {
+      "metrics": {
+        "ndcg@5": 0.666319802095941,
+        "ndcg@10": 0.6913922341579856,
+        "mrr_th1": 0.7632316084328469,
+        "mrr_th2": 0.34619883040935673,
+        "map_th1": 0.6822420898432779,
+        "map_th2": 0.27523192373974986,
+        "p@5_th1": 0.455263157894737,
+        "p@5_th2": 0.1789473684210526
+      }
+    },
+    "Parameter-Free RRF + Taxonomy": {
+      "metrics": {
+        "ndcg@5": 0.6128729296626308,
+        "ndcg@10": 0.6227109309592267,
+        "mrr_th1": 0.6941624895572264,
+        "mrr_th2": 0.2996963562753036,
+        "map_th1": 0.6047628395769598,
+        "map_th2": 0.2489238732612578,
+        "p@5_th1": 0.4605263157894737,
+        "p@5_th2": 0.17631578947368418
+      }
+    },
+    "Ceiling: Oracle Ranking": {
+      "metrics": {
+        "ndcg@5": 0.9342105263157895,
+        "ndcg@10": 0.9342105263157895,
+        "mrr_th1": 0.9342105263157895,
+        "mrr_th2": 0.40789473684210525,
+        "map_th1": 0.9342105263157895,
+        "map_th2": 0.40789473684210525,
+        "p@5_th1": 0.6394736842105264,
+        "p@5_th2": 0.2868421052631579
+      }
+    }
+  },
+  "setting_B_filtered_th1_71": {
+    "Floor: Random Ranking": {
+      "metrics": {
+        "ndcg@5": 0.5534292367489082,
+        "ndcg@10": 0.5974299634085253,
+        "mrr_th1": 0.7014252179745138,
+        "mrr_th2": 0.29534428794992174,
+        "map_th1": 0.5736407166332848,
+        "map_th2": 0.23340365490924722,
+        "p@5_th1": 0.4112676056338028,
+        "p@5_th2": 0.16619718309859155
+      }
+    },
+    "BM25 / TF-IDF (Lexical)": {
+      "metrics": {
+        "ndcg@5": 0.6458317653554589,
+        "ndcg@10": 0.6825541910685855,
+        "mrr_th1": 0.7733897638705799,
+        "mrr_th2": 0.3266767270288397,
+        "map_th1": 0.6553675013842141,
+        "map_th2": 0.2744782519057719,
+        "p@5_th1": 0.4704225352112675,
+        "p@5_th2": 0.18028169014084505
+      }
+    },
+    "MiniLM Single-Vector (Flat)": {
+      "metrics": {
+        "ndcg@5": 0.6669105514054993,
+        "ndcg@10": 0.7000687863898416,
+        "mrr_th1": 0.7780851777330652,
+        "mrr_th2": 0.31002347417840376,
+        "map_th1": 0.6960741680464867,
+        "map_th2": 0.2723428736539241,
+        "p@5_th1": 0.48169014084507034,
+        "p@5_th2": 0.20563380281690138
+      }
+    },
+    "MiniLM Chunk-Mean (128w, stride 64)": {
+      "metrics": {
+        "ndcg@5": 0.7106650952845548,
+        "ndcg@10": 0.7327572295191708,
+        "mrr_th1": 0.8268779342723005,
+        "mrr_th2": 0.34064945226917054,
+        "map_th1": 0.7225146142484102,
+        "map_th2": 0.2956486915585418,
+        "p@5_th1": 0.49859154929577465,
+        "p@5_th2": 0.19436619718309855
+      }
+    },
+    "MiniLM Chunk-MaxSim (ColBERT-style)": {
+      "metrics": {
+        "ndcg@5": 0.7267907431660457,
+        "ndcg@10": 0.7457329993462196,
+        "mrr_th1": 0.8378269617706239,
+        "mrr_th2": 0.36586183769282365,
+        "map_th1": 0.7296818776169509,
+        "map_th2": 0.291753777796733,
+        "p@5_th1": 0.5154929577464789,
+        "p@5_th2": 0.2140845070422535
+      }
+    },
+    "MiniLM Section-Aware Dense (Ours)": {
+      "metrics": {
+        "ndcg@5": 0.7220554347770733,
+        "ndcg@10": 0.7375714188793789,
+        "mrr_th1": 0.8019501625135429,
+        "mrr_th2": 0.3356807511737089,
+        "map_th1": 0.7377481715809067,
+        "map_th2": 0.3055800420615482,
+        "p@5_th1": 0.5098591549295775,
+        "p@5_th2": 0.20563380281690144
+      }
+    },
+    "Dense + BM25 (L0: No Taxonomy)": {
+      "metrics": {
+        "ndcg@5": 0.7354931366841052,
+        "ndcg@10": 0.7538635830130521,
+        "mrr_th1": 0.8343058350100604,
+        "mrr_th2": 0.34825620389000667,
+        "map_th1": 0.7411396337318716,
+        "map_th2": 0.2998241624062402,
+        "p@5_th1": 0.5239436619718311,
+        "p@5_th2": 0.21690140845070421
+      }
+    },
+    "Calibrated Hybrid (Dense+BM25+Tax)": {
+      "metrics": {
+        "ndcg@5": 0.7132437318210072,
+        "ndcg@10": 0.7400818281127732,
+        "mrr_th1": 0.8169803132520614,
+        "mrr_th2": 0.3705790297339593,
+        "map_th1": 0.7302844668650261,
+        "map_th2": 0.29461266507174655,
+        "p@5_th1": 0.48732394366197196,
+        "p@5_th2": 0.19154929577464785
+      }
+    },
+    "Parameter-Free RRF + Taxonomy": {
+      "metrics": {
+        "ndcg@5": 0.6560329951318302,
+        "ndcg@10": 0.666563813421144,
+        "mrr_th1": 0.7430471719204115,
+        "mrr_th2": 0.3208017334777898,
+        "map_th1": 0.6473575375292125,
+        "map_th2": 0.26645372349092383,
+        "p@5_th1": 0.49295774647887325,
+        "p@5_th2": 0.18873239436619713
+      }
+    },
+    "Ceiling: Oracle Ranking": {
+      "metrics": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "mrr_th1": 1.0,
+        "mrr_th2": 0.43661971830985913,
+        "map_th1": 1.0,
+        "map_th2": 0.43661971830985913,
+        "p@5_th1": 0.6845070422535211,
+        "p@5_th2": 0.3070422535211268
+      }
+    }
+  },
+  "setting_B_filtered_th2_31": {
+    "Floor: Random Ranking": {
+      "metrics": {
+        "ndcg@5": 0.5631906888123224,
+        "ndcg@10": 0.5898770637634276,
+        "mrr_th1": 0.7672043010752687,
+        "mrr_th2": 0.6764336917562724,
+        "map_th1": 0.6012979517635181,
+        "map_th2": 0.5345696612437598,
+        "p@5_th1": 0.4645161290322579,
+        "p@5_th2": 0.3806451612903225
+      }
+    },
+    "BM25 / TF-IDF (Lexical)": {
+      "metrics": {
+        "ndcg@5": 0.6580819578999254,
+        "ndcg@10": 0.6879307428754545,
+        "mrr_th1": 0.8470814132104455,
+        "mrr_th2": 0.7481950844854071,
+        "map_th1": 0.7108102618474587,
+        "map_th2": 0.6286530291529995,
+        "p@5_th1": 0.5290322580645158,
+        "p@5_th2": 0.41290322580645145
+      }
+    },
+    "MiniLM Single-Vector (Flat)": {
+      "metrics": {
+        "ndcg@5": 0.6904624318090813,
+        "ndcg@10": 0.6993647105822014,
+        "mrr_th1": 0.8293010752688172,
+        "mrr_th2": 0.7139247311827958,
+        "map_th1": 0.743992163318354,
+        "map_th2": 0.6244020200628131,
+        "p@5_th1": 0.5677419354838709,
+        "p@5_th2": 0.47096774193548374
+      }
+    },
+    "MiniLM Chunk-Mean (128w, stride 64)": {
+      "metrics": {
+        "ndcg@5": 0.710207078852005,
+        "ndcg@10": 0.7245414591851195,
+        "mrr_th1": 0.8494623655913979,
+        "mrr_th2": 0.7801971326164874,
+        "map_th1": 0.7535411415046591,
+        "map_th2": 0.677110503187902,
+        "p@5_th1": 0.5806451612903227,
+        "p@5_th2": 0.44516129032258056
+      }
+    },
+    "MiniLM Chunk-MaxSim (ColBERT-style)": {
+      "metrics": {
+        "ndcg@5": 0.7544909071906065,
+        "ndcg@10": 0.7410634623081515,
+        "mrr_th1": 0.8978494623655915,
+        "mrr_th2": 0.8379416282642089,
+        "map_th1": 0.7632250994362539,
+        "map_th2": 0.668216308238376,
+        "p@5_th1": 0.6,
+        "p@5_th2": 0.4903225806451612
+      }
+    },
+    "MiniLM Section-Aware Dense (Ours)": {
+      "metrics": {
+        "ndcg@5": 0.7340160216708222,
+        "ndcg@10": 0.7345425582553242,
+        "mrr_th1": 0.8198924731182796,
+        "mrr_th2": 0.7688172043010753,
+        "map_th1": 0.78610748161721,
+        "map_th2": 0.6998728498139473,
+        "p@5_th1": 0.5870967741935483,
+        "p@5_th2": 0.4709677419354838
+      }
+    },
+    "Dense + BM25 (L0: No Taxonomy)": {
+      "metrics": {
+        "ndcg@5": 0.7682613231463237,
+        "ndcg@10": 0.7606552338320948,
+        "mrr_th1": 0.881720430107527,
+        "mrr_th2": 0.7976190476190476,
+        "map_th1": 0.7782491704527607,
+        "map_th2": 0.6866987050077252,
+        "p@5_th1": 0.632258064516129,
+        "p@5_th2": 0.49677419354838703
+      }
+    },
+    "Calibrated Hybrid (Dense+BM25+Tax)": {
+      "metrics": {
+        "ndcg@5": 0.7255190620602534,
+        "ndcg@10": 0.7327433925469599,
+        "mrr_th1": 0.8655913978494625,
+        "mrr_th2": 0.8487455197132616,
+        "map_th1": 0.756103613769625,
+        "map_th2": 0.6747574249185471,
+        "p@5_th1": 0.5483870967741936,
+        "p@5_th2": 0.4387096774193548
+      }
+    },
+    "Parameter-Free RRF + Taxonomy": {
+      "metrics": {
+        "ndcg@5": 0.6643720444283892,
+        "ndcg@10": 0.6712531652024077,
+        "mrr_th1": 0.7930107526881721,
+        "mrr_th2": 0.7347394540942928,
+        "map_th1": 0.6935200075278452,
+        "map_th2": 0.6102683310954674,
+        "p@5_th1": 0.5548387096774192,
+        "p@5_th2": 0.4322580645161289
+      }
+    },
+    "Ceiling: Oracle Ranking": {
+      "metrics": {
+        "ndcg@5": 1.0,
+        "ndcg@10": 1.0,
+        "mrr_th1": 1.0,
+        "mrr_th2": 1.0,
+        "map_th1": 1.0,
+        "map_th2": 1.0,
+        "p@5_th1": 0.7354838709677418,
+        "p@5_th2": 0.7032258064516128
+      }
+    }
+  },
+  "statistical_tests_setting_A": [
+    {
+      "hypothesis": "RQ1: Section-Aware vs Single-Vector",
+      "model_a": "MiniLM Section-Aware Dense (Ours)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0351,
+      "ci_lower": 0.0024,
+      "ci_upper": 0.0658,
+      "t_stat": 2.113,
+      "raw_p_val": 0.03791399643603268,
+      "wilcoxon_p": 0.0196,
+      "holm_p_val": 0.1517,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RQ2: BM25 vs Single-Vector",
+      "model_a": "BM25 / TF-IDF (Lexical)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": -0.0163,
+      "ci_lower": -0.0578,
+      "ci_upper": 0.0286,
+      "t_stat": -0.704,
+      "raw_p_val": 0.4836607609164085,
+      "wilcoxon_p": 0.5868,
+      "holm_p_val": 0.764,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RQ3: Hybrid vs Dense+BM25 (nDCG@10)",
+      "model_a": "Calibrated Hybrid (Dense+BM25+Tax)",
+      "model_b": "Dense + BM25 (L0: No Taxonomy)",
+      "mean_diff": -0.0129,
+      "ci_lower": -0.0438,
+      "ci_upper": 0.0154,
+      "t_stat": -0.879,
+      "raw_p_val": 0.38199101808071206,
+      "wilcoxon_p": 0.4308,
+      "holm_p_val": 0.764,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "Chunk-Mean vs Single-Vector",
+      "model_a": "MiniLM Chunk-Mean (128w, stride 64)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0305,
+      "ci_lower": -0.018,
+      "ci_upper": 0.0799,
+      "t_stat": 1.244,
+      "raw_p_val": 0.2173381900681153,
+      "wilcoxon_p": 0.1431,
+      "holm_p_val": 0.652,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "Chunk-MaxSim vs Single-Vector",
+      "model_a": "MiniLM Chunk-MaxSim (ColBERT-style)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0427,
+      "ci_lower": 0.0074,
+      "ci_upper": 0.0777,
+      "t_stat": 2.512,
+      "raw_p_val": 0.014163427904952983,
+      "wilcoxon_p": 0.0149,
+      "holm_p_val": 0.0708,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RRF vs Calibrated Hybrid",
+      "model_a": "Parameter-Free RRF + Taxonomy",
+      "model_b": "Calibrated Hybrid (Dense+BM25+Tax)",
+      "mean_diff": -0.0687,
+      "ci_lower": -0.0996,
+      "ci_upper": -0.0387,
+      "t_stat": -4.329,
+      "raw_p_val": 4.56951453182427e-05,
+      "wilcoxon_p": 0.0,
+      "holm_p_val": 0.0003,
+      "significant_05": true
+    }
+  ],
+  "statistical_tests_setting_B_th1": [
+    {
+      "hypothesis": "RQ1: Section-Aware vs Single-Vector",
+      "model_a": "MiniLM Section-Aware Dense (Ours)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0375,
+      "ci_lower": 0.0033,
+      "ci_upper": 0.0712,
+      "t_stat": 2.115,
+      "raw_p_val": 0.03795246722147809,
+      "wilcoxon_p": 0.0196,
+      "holm_p_val": 0.1518,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RQ2: BM25 vs Single-Vector",
+      "model_a": "BM25 / TF-IDF (Lexical)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": -0.0175,
+      "ci_lower": -0.0646,
+      "ci_upper": 0.029,
+      "t_stat": -0.704,
+      "raw_p_val": 0.48346827552692256,
+      "wilcoxon_p": 0.5868,
+      "holm_p_val": 0.7645,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RQ3: Hybrid vs Dense+BM25 (nDCG@10)",
+      "model_a": "Calibrated Hybrid (Dense+BM25+Tax)",
+      "model_b": "Dense + BM25 (L0: No Taxonomy)",
+      "mean_diff": -0.0138,
+      "ci_lower": -0.0463,
+      "ci_upper": 0.0169,
+      "t_stat": -0.879,
+      "raw_p_val": 0.38224141096841213,
+      "wilcoxon_p": 0.4308,
+      "holm_p_val": 0.7645,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "Chunk-Mean vs Single-Vector",
+      "model_a": "MiniLM Chunk-Mean (128w, stride 64)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0327,
+      "ci_lower": -0.0179,
+      "ci_upper": 0.081,
+      "t_stat": 1.245,
+      "raw_p_val": 0.21738776915607985,
+      "wilcoxon_p": 0.1431,
+      "holm_p_val": 0.6522,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "Chunk-MaxSim vs Single-Vector",
+      "model_a": "MiniLM Chunk-MaxSim (ColBERT-style)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0457,
+      "ci_lower": 0.0107,
+      "ci_upper": 0.08,
+      "t_stat": 2.517,
+      "raw_p_val": 0.014137148396998178,
+      "wilcoxon_p": 0.0149,
+      "holm_p_val": 0.0707,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RRF vs Calibrated Hybrid",
+      "model_a": "Parameter-Free RRF + Taxonomy",
+      "model_b": "Calibrated Hybrid (Dense+BM25+Tax)",
+      "mean_diff": -0.0735,
+      "ci_lower": -0.1079,
+      "ci_upper": -0.0439,
+      "t_stat": -4.366,
+      "raw_p_val": 4.2915675598882494e-05,
+      "wilcoxon_p": 0.0,
+      "holm_p_val": 0.0003,
+      "significant_05": true
+    }
+  ],
+  "statistical_tests_setting_B_th2": [
+    {
+      "hypothesis": "RQ1: Section-Aware vs Single-Vector",
+      "model_a": "MiniLM Section-Aware Dense (Ours)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0352,
+      "ci_lower": -0.0146,
+      "ci_upper": 0.0844,
+      "t_stat": 1.291,
+      "raw_p_val": 0.20667446493835623,
+      "wilcoxon_p": 0.1996,
+      "holm_p_val": 1.0,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RQ2: BM25 vs Single-Vector",
+      "model_a": "BM25 / TF-IDF (Lexical)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": -0.0114,
+      "ci_lower": -0.0914,
+      "ci_upper": 0.067,
+      "t_stat": -0.262,
+      "raw_p_val": 0.7954218583731708,
+      "wilcoxon_p": 0.5806,
+      "holm_p_val": 1.0,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RQ3: Hybrid vs Dense+BM25 (nDCG@10)",
+      "model_a": "Calibrated Hybrid (Dense+BM25+Tax)",
+      "model_b": "Dense + BM25 (L0: No Taxonomy)",
+      "mean_diff": -0.0279,
+      "ci_lower": -0.0818,
+      "ci_upper": 0.0185,
+      "t_stat": -1.063,
+      "raw_p_val": 0.2964363298447728,
+      "wilcoxon_p": 0.2627,
+      "holm_p_val": 1.0,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "Chunk-Mean vs Single-Vector",
+      "model_a": "MiniLM Chunk-Mean (128w, stride 64)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0252,
+      "ci_lower": -0.0508,
+      "ci_upper": 0.0939,
+      "t_stat": 0.664,
+      "raw_p_val": 0.5119573721977813,
+      "wilcoxon_p": 0.5642,
+      "holm_p_val": 1.0,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "Chunk-MaxSim vs Single-Vector",
+      "model_a": "MiniLM Chunk-MaxSim (ColBERT-style)",
+      "model_b": "MiniLM Single-Vector (Flat)",
+      "mean_diff": 0.0417,
+      "ci_lower": -0.0221,
+      "ci_upper": 0.1066,
+      "t_stat": 1.285,
+      "raw_p_val": 0.2087496293737314,
+      "wilcoxon_p": 0.2478,
+      "holm_p_val": 1.0,
+      "significant_05": false
+    },
+    {
+      "hypothesis": "RRF vs Calibrated Hybrid",
+      "model_a": "Parameter-Free RRF + Taxonomy",
+      "model_b": "Calibrated Hybrid (Dense+BM25+Tax)",
+      "mean_diff": -0.0615,
+      "ci_lower": -0.1017,
+      "ci_upper": -0.0269,
+      "t_stat": -2.958,
+      "raw_p_val": 0.005990615399317208,
+      "wilcoxon_p": 0.0022,
+      "holm_p_val": 0.0359,
+      "significant_05": true
+    }
+  ]
+}

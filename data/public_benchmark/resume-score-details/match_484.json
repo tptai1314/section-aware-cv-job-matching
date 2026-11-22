@@ -1,0 +1,130 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has experience in a leadership role as a Team Lead but not directly in business development, which is the requirement of the job description.",
+            "Degree obtained is in Computer Science, not Business Administration, Economics, or related field as preferred by the company.",
+            "The candidate lacks the specified 5+ years experience in business development or related role, which may impact their ability to meet performance expectations quickly.",
+            "Proficiency in skills required for the job - specifically Microsoft Office Suite - is not explicitly mentioned; the resume focuses more on technical skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "account management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Shahbaz Joiya",
+            "email": "Shahbazjoiya07@gmail.com",
+            "phone": "+923070504083",
+            "current_position": "Business Development Executive",
+            "current_company": "",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "account management": 100
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Strong negotiation and strategic thinking skills",
+            "Proven track record in managing complex sales cycles",
+            "5+ years of experience in business development or a related role",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Proficiency in Microsoft Office Suite"
+        ],
+        "resume": "Shahbaz Joiya \nBusiness Development Executive \nTo get a challenging position in growth and career oriented Organization, where challenges are a\nroutine work and where I show the best of my abilities and quali\ufb01cation for the progress of that\norganization and upgrade my career. \nShahbazjoiya07@gmail.com \n+923070504083 \nJohar Town R1 Phase 2,\nLahore, Pakistan \nSKILLS \nBusiness Developement \nProject Management \nCommunication \nHTML \nCSS \nJavaScript \nBootstrap \nQuick Learner \nProblem Solving \nLANGUAGES \nUrdu \nNative or Bilingual Pro\ufb01ciency \nEnglish \nProfessional Working Pro\ufb01ciency \nINTERESTS \nTravelling \nMovies Collection \nEDUCATION \nBachelor's of Science in Computer Science \nGovt. College University Faisalabad, Sahiwal Campus \n09/2017 - 07/2021\n, \n \nIntro to Management \nBusiness Developement \nSoftware Engineering \nObject Oriented Programming \nData Structure and Algorithm \nOperating System \nIntermediate in Computer Science \nPunjab College Haronabad \n04/2015 - 07/2017\n, \n \nWORK EXPERIENCE \nTeam Lead (Amazon Drop Shipping and Product Hunting) \nADH Sahiwal \n01/2022 - Present\n, \n \nPERSONAL PROJECTS \nHome Automation by using Sensors (FYP)\n (09/2020 - 06/2021)\n \nFeatures:- \nIt's a centralized control of lighting, heating, ventilation and air conditioning appliances, and\nother systems, to provide improved convenience, comfort, energy e\ufb03ciency and security. \nSensors:-\n It's includes \nTemperature Sensors & Smart Thermostats, \nLight Sensors, \nMotion Sensors, \nWindow\nand Door Sensors, and \nSmart Smoke and CO Sensors. \nE-Commerce Website \nTools:- \nVisual Studio Code, HTML, CSS, JavaScript, SQL management system and asp.net MVC. \nWeb based Ecommerce site developed in asp.net MVC. \nFeatures:-\n Check the list of Item with category, View the details of item, and List of latest Item \nACHIEVEMENTS \nThe Punjab Education Endowment Fund - PEEF\n (2017 - 2021)\n \nCourses "
+    },
+    "details": {
+        "name": "Shahbaz Joiya",
+        "number": "923070504083",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "email_id": "Shahbazjoiya07@gmail.com",
+        "location": "Johar Town R1 Phase 2, Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Home Automation by using Sensors (FYP)",
+                "description": "It's a centralized control of lighting, heating, ventilation and air conditioning appliances, and other systems, to provide improved convenience, comfort, energy efficiency and security."
+            },
+            {
+                "title": "E-Commerce Website",
+                "description": "Web based Ecommerce site developed in asp.net MVC."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2021",
+                "university": "Govt. College University Faisalabad, Sahiwal Campus",
+                "degree_title": "Bachelor's of Science in Computer Science"
+            },
+            {
+                "end_date": "07-2017",
+                "university": "Punjab College Haronabad",
+                "degree_title": "Intermediate in Computer Science"
+            }
+        ],
+        "achievements": [
+            "The Punjab Education Endowment Fund - PEEF (2017 - 2021)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Shahbaz Joiya is a dedicated Business Development Executive with a strong background in computer science and technical skills in web development technologies such as HTML, CSS, JavaScript, and Bootstrap. He has demonstrated his capabilities through various projects, including a home automation system and an e-commerce website.",
+        "employment_history": [
+            {
+                "details": "Team Lead (Amazon Drop Shipping and Product Hunting)",
+                "end_date": "Present",
+                "location": "ADH Sahiwal",
+                "job_title": "Team Lead",
+                "start_date": "01-2022",
+                "company_name": "ADH Sahiwal"
+            }
+        ]
+    }
+}

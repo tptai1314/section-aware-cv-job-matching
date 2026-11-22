@@ -1,0 +1,187 @@
+{
+    "output": {
+        "justification": [
+            "The candidate holds a relevant master's degree and a bachelor's from a preferred university, fulfilling academic criteria.",
+            "Extensive experience in marketing roles aligns with the job's experiential requirements.",
+            "Proven track record in digital marketing, including SEO and SEM, matches job's technical needs.",
+            "Leadership experience noted through large team management and strategic initiatives."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 9
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.0,
+                "micro_scores": 9.0
+            }
+        },
+        "personal_info": {
+            "name": "Shayaan Viqar Ahmed",
+            "email": "shayaanviqar91@gmail.com",
+            "phone": "+92 321 4844402",
+            "current_position": "Marketing Manager",
+            "current_company": "Excellence Delivered - ExD",
+            "employment_start_date_current_company": "04-2023",
+            "first_company_start_date": "12-2016",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "shayaanviqarahmed"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "client relationship": 100
+        },
+        "micro_dict": {
+            "project management": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Bachelor's degree in Business Administration, Marketing, or related field"
+        ],
+        "resume": " \nSHAYAAN  VIQAR  AHMED  \n\u260f +92 321 4844402  | \ud83d\udce7 shayaanviqar91@gmail.com  \n| LinkedIn:  shayaanviqarahmed  | \ud83d\udccd Lahore,  Pakistan  \n \nPROFESSIONAL  SUMMARY  \n \nData -driven and result oriented. A brand and marketing enthusiast with  a \nkeen interest in Data Insights and Consumer Behavior for strategic  \ndirection. 7+ years of practical experience in Program Management,  \nCustomer Insights, Brand Development, Marketing , and Corporate  \nCommunication. Exceptionally skilled in restructuring for Revenue Growth,  \nimproved  Customer Experience , and retention.  \nProven  skills in Digital  Product  Development  and Growth,  Digital  Marketing,  \nBranding , and Corporate Communication with a specialized focus on Brand  \nGrowth. Expert capabilities in fostering partnerships and joint ventures and  \nleveraging networks  for growth and brand bui lding. Confident presenter \nand exceptionally  talented  in written  communication.  \n \nEDUCATION  \n \n \nLUMS  - Lahore  University of  Management Sciences  \u2013 EMBA  2024  2022  -- 2024  \nExecutive  Masters  in Business  Administration  \nNote:  This is a weekend -only program  with classes  taking  place  on alternate  weekends  only (alternate  Saturdays &  Sundays)  \nLahore  School  of Economics  \u2013 BS (Hons.)  Major  English  Literature  Minor  Media  Studies  2011  \u2013 2015  \nCERTIFICATIONS  \nQuantitative  Methods  \u2013 Harvard Business  Publishing  Edu  Financial Accounting \u2013 Harvard Business Publishing Edu  \nSpreadsheet  Modelling  \u2013 Harvard Business  Publishing  Edu Management  Communication  \u2013 Harvard  Business  Publishing  Edu \nCORE  COMPETENCIES  \n \n\u2022 Leadership  and Management  \n \nSuccessfully  launched  and single -handedly  managed,  \ntrained  and monitored  teams  larger  than  100 people  \nacross  Pakistan  for all  Carrefour  stores.  \n \n\u2022 Business  Analytics   \n \nExtracting,  drafting , and presenting  data  insights  on \nbusiness performance to senior management locally as  \nwell as to international  corporate  teams.  Liaised  with  \npartners such as Accenture and Nielson for updates on  \nbusiness  insights, brand  KPIs, and strategy.  \n \n \n\u2022 Strategy  and Planning   \n \nDefining, monitoring , and reporting key performance  \nmetrics to key stakeholders for growth and optimization.  \nSupporting and collaborating with senior leadership and  \nacross  departments  to identify  and deliver  growth  \ninitiatives.  \n \n \n\u2022 Consumer  Insights  & Behavior  \n \nIdentifying, tracking, measuring , and reporting key  \ninsights on consumer profiles, consumer behavior,  \npurchase  habits , and patterns  for strategic  \ndirection,  optimization , and driving growth.   \n \n\u2022 Brand  and Marketing  \n \nLead integrated and digital marketing campaigns for  \nincreased brand awareness and stimulating sales. Utilizing  \nSEM and social media marketing techniques to leverage  \nthe sales funnel. Analyzing the performance of campaigns \nfor optimization of  budgets and  identifying  growth.  \n \n\u2022 Digital  Product  Development  and Growth  \n \nR&D, conceptualization, execution , and development of  \ndigital products. Communicating across teams for a smooth  \nroll-out. Coordination  with  relevant  departments  for bug fixes  \nand successful implementation  of the final  product.  \nImplementation of  new  initiatives  for product  growth.  \nDeployment  or upgrade  of new  features  or functionalities.  \n \n \n\u2022 Partnerships  & Corporate  Communication  \n \nProposing and initiating partnerships , joint ventures , and \nCSR activities  for brand  building  and business  networking.  \nIdentifying and initiating projects for enhanced brand and  \ncorporate  communication  experience  \n \n \n\u2022 Tools  and Technology  \n \nAdept  at using  Microsoft  Office,  Shopify,  Tableau,  Ads \nManager,  BI, Jira & SaaS.  \nEXPERIENCE  \n \nExcellence  Delivered  - ExD  Apr 2023 - Present  \nMarketing  Manager  \n \no Strategy and execution of multi -channel marketing initiatives for ExD  \no Responsible for all physical brand activities including partner -led and in -house events  \no Management and effective allocation of MDF (Market Development Funds) from  partners such as SAP, ORACLE , and Salesforce  \no Strategy and execution of digital marketing initiatives for ExD which includes, PPC, LinkedIn , and Meta paid digital marketing  \no Planning and execution of SEO strategy for ExD to ensure top rankings and strong brand positioning  \no Ownership of  all digital assets with an exclusive focus on website optimization for marketing targets  \no Coordination with the sales team for effective messaging and communication with customers  \n \n \nAl Jalil Developers  Dec 2021  \u2013 April  2023  \nBrand  Manager  \n \no Gathering  and reporting  market  and consumer  insights  to understand  current  and future  trends  \no Analyzing  impact  and ensuring  alignment  of marketing  campaigns with  brand  position  \no Proposed  and initiated  integrated  marketing  campaigns  for brand  development  and growth  \no Al Jalil Mobile  App \u2013 RND, product  development , and successful  launch  of a beta  version  \no Optimization  of Web  platforms  \u2013 Implementation  of effective  SEM and  SEO strategies  \no Lead  creative  development  of brand  collateral  for events  and marketing  campaigns  \no Successfully  executed  multiple  individual  initiatives  for Employer  Branding  \no Initiated  and managed  all CSR campaigns,  JVs, sponsorships , and partnerships  \no Management  of activations  and events  to incentivize  dealers  \n \nMajid  al Futtaim  \u2013 Carrefour  Pakistan  Dec 2018  \u2013 Dec 2021  \nLoyalty  Program  Manager  \no Successful  launch  of the My CLUB  Loyalty  program  for MAF  Carrefour  Pakistan  in December  2018  \no Achieved  46%  Sales  and 35%  Transaction  penetration  for MyCLUB  by December  2021  \no Achieved  third  rank  for MyCLUB  performance  in comparison  with  KSA,  Qatar,  Oman,  Egypt,  Jordan,  Kenya  & UAE  \no Strategized,  managed , and executed  all MyCLUB  Loyalty  campaigns  across  all Pakistan  stores/online  \no Achieved  rapid  brand  growth  and awareness  through  online  and in -store  marketing  campaigns  for MyCLUB  \no Planned  and managed  MyCLUB  campaigns  with  budgets  up to 1%  of country  sales  - leading  to higher  customer  retention  \no Worked  in coordination  with  international  corporate  and local  merchandise  teams  to drive  growth  initiatives  for MyCUB  \no Analyzed  and reported vital  MyCLUB  KPIs for strategic  direction  to local  and international  management and  senior leadership  \no Liaised  with  third -party  partners  such  as Accenture  to identify and analyze  developing  consumer behavior  patterns  for MyCLUB  \no Worked  in coordination  with  UAE  Corporate  Head  Office  analytics  teams  to gather  insights  on MyCLUB performance  \no Deployment  of new  features  to the app \u2013 includes  testing,  bug fixes , and integration  with  in-store  and online  systems  \no Responsible  for cyclical  trainings  for all MyCLUB  staff  \u2013 In-store  and Head  Office  \n \nSucsel  Nov 2017  \u2013 Nov 2018  \nDigital  and Creative  Manager  \n \no Responsible  for strategy  and execution  of all digital  and web  content  for Karma,  Saria  Shakira,  Shiza  Hassan,  Zainab  \nSalman,  Maheen  Taseer,  Sara  Rohale  Asghar,  Spa in a Bottle,  Mohsin  Naveed  Ranjha, Zuria  Dor,  Hair  Club  and Laam.pk  \no Developed  effective  strategies  to increase  awareness, engagement  and traffic,  leading  to conversions  across  all categories  \no Shopify  Website  Platforms  \u2013 Website  launch,  content  updates,  gathering  data  insights  on website  performance  \no Developed  and executed  the SEO strategy  for all web  platforms  \u2013 monitored  and reported  results  of implementations  \no Monitoring  and reporting  insights  from  online  marketing  for achievement  of vital  KPI\u2019s  and targets  \no Delivered  more  than  100%  sales  growth  for Saria  Shakira  through digital  adverts  \no Provided  strategic  directions  to sales  and digital  teams  by sharing insights  from  online  platforms  \no Worked  exclusively  on the business,  creative  and content  strategy  plan  for launch  of Laam.pk  \nTransmedia  Digital  Dec 2016  \u2013 Nov 2017  \nPR and Content  Manager  \n \no Planning  and execution  of PR campaigns  and events  \no Delivering  new  proposals  and strategies  for upcoming  campaigns  and events  \no Planning  and preparing  pitch  decks  to present  to current  and potential  clients  \no Planning  and execution  of content  as per needs  of every campaign  \no Preparing  reports  on post -campaign  results  to measure  the effectiveness  of campaigns  \nVOLUNTARY  ROLES  \n \nPublications  at LUMS  (PLUMS)  - Director  Marketing  and Finance  Aug 2022  \u2013 Aug 2023  \no Marketing  for PLUMS  publications  and events,  sponsorships,  event  management,  public  relations  and budget  optimization  \n \nLUMS  Environmental  Action  Forum  \u2013 Member Marketing Team  Aug 2022  \u2013 Aug 2023  \no Providing  assistance  to the marketing  team  for sponsorships  and event  management  \n \nRabtt  Fellowship  \u2013 English  Language  Instructor  June  2015 \u2013 July 2015  \no Voluntary  English  language  classes  delivered  to the children  of Sanjanagar  School,  Youhanabad.  \n \nThe Nation  \u2013 Assistant to  Sub-Editor  August  2011  \no Editing  and proofreading  of daily  news  content  \n"
+    },
+    "details": {
+        "name": "SHAYAAN VIQAR AHMED",
+        "number": "923214844402",
+        "skills": [
+            "Digital Marketing",
+            "Brand Development",
+            "Corporate Communication",
+            "Data Insights",
+            "Consumer Behavior",
+            "Digital Product Development",
+            "SEO",
+            "SEM",
+            "Microsoft Office",
+            "Shopify",
+            "Tableau",
+            "Ads Manager",
+            "BI",
+            "Jira",
+            "SaaS"
+        ],
+        "email_id": "shayaanviqar91@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2024",
+                "university": "Lahore University of Management Sciences",
+                "degree_title": "Executive Masters in Business Administration"
+            },
+            {
+                "end_date": "05-2015",
+                "university": "Lahore School of Economics",
+                "degree_title": "BS (Hons.) Major English Literature Minor Media Studies"
+            }
+        ],
+        "achievements": [
+            "Achieved 46% Sales and 35% Transaction penetration for MyCLUB by December 2021",
+            "Achieved third rank for MyCLUB performance in comparison with KSA, Qatar, Oman, Egypt, Jordan, Kenya & UAE",
+            "Delivered more than 100% sales growth for Saria Shakira through digital adverts"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Quantitative Methods",
+                "issuing_organization": "Harvard Business Publishing Edu",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Financial Accounting",
+                "issuing_organization": "Harvard Business Publishing Edu",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Spreadsheet Modelling",
+                "issuing_organization": "Harvard Business Publishing Edu",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "Management Communication",
+                "issuing_organization": "Harvard Business Publishing Edu",
+                "date_of_issuance": "01-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "shayaanviqarahmed",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Shayaan Viqar Ahmed is a data-driven marketing professional with over 7 years of experience in brand development, digital marketing, and corporate communication. He has a strong background in consumer insights and data analytics, demonstrating expertise in driving brand growth and optimizing marketing strategies across various platforms.",
+        "employment_history": [
+            {
+                "details": "Strategy and execution of multi-channel marketing initiatives for ExD. Responsible for all physical brand activities including partner-led and in-house events. Management and effective allocation of MDF from partners such as SAP, ORACLE, and Salesforce. Strategy and execution of digital marketing initiatives for ExD which includes PPC, LinkedIn, and Meta paid digital marketing. Planning and execution of SEO strategy for ExD to ensure top rankings and strong brand positioning.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Marketing Manager",
+                "start_date": "04-2023",
+                "company_name": "Excellence Delivered - ExD"
+            },
+            {
+                "details": "Gathering and reporting market and consumer insights to understand current and future trends. Analyzing impact and ensuring alignment of marketing campaigns with brand position. Proposed and initiated integrated marketing campaigns for brand development and growth. Optimization of Web platforms \u2013 Implementation of effective SEM and SEO strategies.",
+                "end_date": "04-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Brand Manager",
+                "start_date": "12-2021",
+                "company_name": "Al Jalil Developers"
+            },
+            {
+                "details": "Successful launch of the My CLUB Loyalty program for MAF Carrefour Pakistan in December 2018. Achieved 46% Sales and 35% Transaction penetration for MyCLUB by December 2021. Strategized, managed, and executed all MyCLUB Loyalty campaigns across all Pakistan stores/online.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Loyalty Program Manager",
+                "start_date": "12-2018",
+                "company_name": "Majid al Futtaim \u2013 Carrefour Pakistan"
+            },
+            {
+                "details": "Responsible for strategy and execution of all digital and web content for various brands. Developed effective strategies to increase awareness, engagement, and traffic, leading to conversions across all categories. Developed and executed the SEO strategy for all web platforms.",
+                "end_date": "11-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Digital and Creative Manager",
+                "start_date": "11-2017",
+                "company_name": "Sucsel"
+            },
+            {
+                "details": "Planning and execution of PR campaigns and events. Delivering new proposals and strategies for upcoming campaigns and events. Planning and preparing pitch decks to present to current and potential clients.",
+                "end_date": "11-2017",
+                "location": "Lahore, Pakistan",
+                "job_title": "PR and Content Manager",
+                "start_date": "12-2016",
+                "company_name": "Transmedia Digital"
+            }
+        ]
+    }
+}

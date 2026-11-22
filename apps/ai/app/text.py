@@ -196,31 +196,62 @@ def extract_text(path: str, kind: str, settings: Settings) -> tuple[str, int, bo
 
     if kind == "pdf":
         text, _ = "", []
-        from pypdf import PdfReader
-
-        reader = PdfReader(path)
-        if reader.is_encrypted:
-            raise errors.cv_encrypted()
-        total = len(reader.pages)
-        pages = min(total, settings.max_pages)
-        truncated = total > settings.max_pages
         parts = []
-        for idx, page in enumerate(reader.pages[:pages]):
-            try:
-                parts.append(page.extract_text() or "")
-            except Exception:
-                parts.append("")
+        pages = 0
+        truncated = False
+
+        # Ưu tiên 1: Dùng PyMuPDF (trích xuất text mạnh mẽ và chính xác hơn pypdf)
+        try:
+            import pymupdf
+            doc = pymupdf.open(path)
+            if doc.is_encrypted:
+                raise errors.cv_encrypted()
+            total = len(doc)
+            pages = min(total, settings.max_pages)
+            truncated = total > settings.max_pages
+            for idx in range(pages):
+                try:
+                    parts.append(doc[idx].get_text() or "")
+                except Exception:
+                    parts.append("")
+            doc.close()
+        except errors.ApiError:
+            raise
+        except Exception:
+            parts = []
+
+        # Ưu tiên 2: Fallback pypdf nếu PyMuPDF không đọc được
+        if not parts:
+            from pypdf import PdfReader
+            reader = PdfReader(path)
+            if reader.is_encrypted:
+                raise errors.cv_encrypted()
+            total = len(reader.pages)
+            pages = min(total, settings.max_pages)
+            truncated = total > settings.max_pages
+            for idx, page in enumerate(reader.pages[:pages]):
+                try:
+                    parts.append(page.extract_text() or "")
+                except Exception:
+                    parts.append("")
+
         text = "\f".join(parts)
 
         per_page = [len(p) for p in parts]
-        if _looks_scanned(per_page):
+        if _looks_scanned(per_page) or len(text.strip()) < 50:
             if settings.ocr_enabled:
                 ocr_text = _ocr_pages(path, pages, settings, warnings)
                 if ocr_text.strip():
                     text = ocr_text
                     ocr_used = True
             else:
-                warnings.append("OCR_LOW_QUALITY")
+                # Nếu OCR tắt nhưng text trống rỗng (< 50 ký tự), tự động thử OCR bằng RapidOCR
+                ocr_text = _ocr_pages(path, pages, settings, warnings)
+                if ocr_text.strip():
+                    text = ocr_text
+                    ocr_used = True
+                else:
+                    warnings.append("OCR_LOW_QUALITY")
         if truncated:
             warnings.append("TRUNCATED")
         return text, pages, ocr_used, warnings
@@ -247,13 +278,30 @@ def _looks_scanned(chars_per_page: list[int]) -> bool:
 
 
 def _ocr_pages(path: str, pages: int, settings: Settings, warnings: list[str]) -> str:
+    # 1. Ưu tiên RapidOCR kết hợp PyMuPDF pixmap (hoạt động độc lập, không cần tesseract/poppler cài ngoài)
+    try:
+        import pymupdf
+        from rapidocr_onnxruntime import RapidOCR
+
+        doc = pymupdf.open(path)
+        engine = RapidOCR()
+        parts = []
+        for idx in range(min(len(doc), pages)):
+            pix = doc[idx].get_pixmap(dpi=150)
+            ocr_res, _ = engine(pix.tobytes("png"))
+            page_text = "\n".join([line[1] for line in (ocr_res or []) if line and len(line) > 1])
+            parts.append(page_text)
+        doc.close()
+        res = "\f".join(parts)
+        if res.strip():
+            return res
+    except Exception:
+        pass
+
+    # 2. Fallback sang pytesseract + pdf2image nếu có
     try:
         import pytesseract
         from pdf2image import convert_from_path
-    except ImportError:
-        warnings.append("OCR_LOW_QUALITY")
-        return ""
-    try:
         images = convert_from_path(path, dpi=300, first_page=1, last_page=pages)
         parts = [pytesseract.image_to_string(img, lang=settings.ocr_langs) for img in images]
         return "\f".join(parts)

@@ -1,0 +1,153 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks leadership roles in listed experience but shows team management skills.",
+            "The candidate works currently as a Sales Manager but only has around 4 years experience, thus not fully meeting the 5+ years requirement.",
+            "The experience includes relevant marketing and sales tasks but no mention of Stakeholder Management or using specified tools like SAP ERP, Salesforce.",
+            "The resume does not indicate data analysis or forecasting tool proficiency like Power BI.",
+            "Educational qualifications align with job expectations but institutional preference not met."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "stakeholder management",
+                    "score": 2
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 0
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 0
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.64,
+                "micro_scores": 0.86
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Saad Khan",
+            "email": "saadkhan771994@gmail.com",
+            "phone": "+923217503247",
+            "current_position": "Assistant Sales Manager",
+            "current_company": "Kasmy Pack Ltd.",
+            "employment_start_date_current_company": "07-2019",
+            "first_company_start_date": "02-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 36,
+            "experience": 64
+        },
+        "micro_dict": {
+            "stakeholder management": 43,
+            "sap erp": 43,
+            "salesforce": 6,
+            "vistex": 8
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "5+ years of experience in sales or key account management",
+            "Proficiency in data analysis and forecasting tools"
+        ],
+        "resume": "saadkhan771994@gmail.com \n House No #131, Eastern\nBlock Bahria Orchard- Lahore  +923217503247 M u h a m m a d\nS a a d  K h a n\nASSISTANT SALES MANAGER\nI am a driven individual, that loves a\nchallenge. I have a few years of\nexperience in both sales and marketing\nacquired while working in the FMCG,\nprinting and courier industry.P E R S O N A L  S U M M A R YW O R K  E X P E R I E N C E\nE D U C A T I O N\nC O N T A C T\nE X P E R T I S EEnsuring smooth production and delivery of orders\nEnsuring monthly sales targets\nAcquisition of prospective clients\nOversight and management of assigned team\nClient relationship management\nExecution and oversight of assigned ordersKasmy Pack Ltd.\nAssistant Sales ManagerJuly 2019 - Present\nSales team management\nData analysis and sales forecasting\nMeeting and exceeding sales targets\nVendor relationship management \nAcquisition of new vendors to expand targeted\nterritoryBunny's Limited\nSales ExecutiveFeb 2018 - May 2018\nDouble Majors in Marketing & Finance (CGPA 3.28) Lahore School of Economics\nBBA (Honors)August 2013 - May 2017Major in Marketing (CGPA 3.2)Lahore School of Economics\nMBA August 2018-May 2019\nTeam Management\nClient Relationship Management\nConflict Management & ResolutionStrong Communication Skills\nSales Execution\nContract NegotiationP R O J E T C S\nS M E\nPrepared a detailed plan for the launch of an\nintermediary service named \"Auto App\".\nB r a n d i n g\nPrepared a marketing plan for the brand extension \nof Coca Cola.\nI n v e s t m e n t s\nConducted a detailed fundamental analysis of\nTandiaWala to make an investment decision"
+    },
+    "details": {
+        "name": "Muhammad Saad Khan",
+        "number": "923217503247",
+        "skills": [
+            "Sales Execution",
+            "Data Analysis",
+            "Sales Forecasting",
+            "Vendor Relationship Management",
+            "Client Relationship Management",
+            "Team Management"
+        ],
+        "email_id": "saadkhan771994@gmail.com",
+        "location": "House No #131, Eastern Block Bahria Orchard- Lahore",
+        "projects": [
+            {
+                "title": "Auto App",
+                "description": "Prepared a detailed plan for the launch of an intermediary service named 'Auto App'."
+            },
+            {
+                "title": "Coca Cola Brand Extension",
+                "description": "Prepared a marketing plan for the brand extension of Coca Cola."
+            },
+            {
+                "title": "TandiaWala Investment Analysis",
+                "description": "Conducted a detailed fundamental analysis of TandiaWala to make an investment decision."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "Lahore School of Economics",
+                "degree_title": "BBA (Honors) with Major in Marketing (CGPA 3.2)"
+            },
+            {
+                "end_date": "05-2019",
+                "university": "Lahore School of Economics",
+                "degree_title": "MBA"
+            },
+            {
+                "end_date": "05-2020",
+                "university": "Lahore School of Economics",
+                "degree_title": "Double Majors in Marketing & Finance (CGPA 3.28)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Saad Khan is an accomplished Assistant Sales Manager with a strong background in sales and marketing within the FMCG, printing, and courier industries. He has demonstrated expertise in sales execution, data analysis, and client relationship management, consistently meeting and exceeding sales targets.",
+        "employment_history": [
+            {
+                "details": "Sales team management, data analysis and sales forecasting, meeting and exceeding sales targets, vendor relationship management, acquisition of new vendors to expand targeted territory.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Assistant Sales Manager",
+                "start_date": "07-2019",
+                "company_name": "Kasmy Pack Ltd."
+            },
+            {
+                "details": "Acquisition of prospective clients, oversight and management of assigned team, execution and oversight of assigned orders.",
+                "end_date": "05-2018",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "02-2018",
+                "company_name": "Bunny's Limited"
+            }
+        ]
+    }
+}

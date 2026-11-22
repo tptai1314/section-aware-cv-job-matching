@@ -1,0 +1,211 @@
+{
+    "output": {
+        "justification": [
+            "- Hafsa Naeem has project management experience at Odetta.ai but less than 10 years.",
+            "- She has technical expertise in using Power BI.",
+            "- Hafsa has experience with quality management as a Quality Controller/Project Manager.",
+            "- She has led teams and managed data analytics projects, meeting some technical skills requirements but lacking an advanced role in solution architecture."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "project management experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 6
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 4
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 3
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 5
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 6
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                },
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.3,
+                "micro_scores": 5.6899999999999995
+            }
+        },
+        "personal_info": {
+            "name": "Hafsa Naeem",
+            "email": "hafsa.naeem1024@gmail.com",
+            "phone": "+92 307 7089974",
+            "current_position": "Business Development Professional",
+            "current_company": "Odetta.ai",
+            "employment_start_date_current_company": "11-2018",
+            "first_company_start_date": "11-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/hafsanaeem92"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "project management experience": 30,
+            "technical expertise": 70
+        },
+        "micro_dict": {
+            "data management": 22,
+            "pre-sales consulting": 8,
+            "solution architecture": 6,
+            "agile methodologies": 33,
+            "quality management systems": 13,
+            "powerbi": 18
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Strong understanding of Agile and SCRUM methodologies",
+            "10+ years of industry experience in project management and data analytics",
+            "Master's degree in Computer Science, Business Administration, or related field",
+            "Experience in managing enterprise data warehouse projects",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV"
+        ],
+        "resume": "Hafsa Naeem \nBusiness Development\nProfessional \nDynamic BD Professional with a growth mindset\n& B2B expertise across US tech startups \nhafsa.naeem1024@gmail.com \n+92 307 7089974 \nLahore, Pakistan \nlinkedin.com/in/hafsanaeem92 \nWORK EXPERIENCE \nBusiness Development \nOdetta.ai \n11/2018 - Present\n, \n \nLahore, Pakistan \nOdetta is a US-based online outsourcing platform with a mission to empower\nwomen across MESA \nWorking with U.S. tech industry leaders across several sectors, such\nas Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce &\nVCs \nSelling data solutions like lead generation, data annotation,\nmarketing automation, candidate sourcing & more \nClosing deals with Fortune 500 U.S. companies and growing our\nclient base from 35 to 150+ in 2020-2021 \nRecruitment Lead \nOdetta.ai \n03/2019 - 12/2021\n, \n \nLahore, Pakistan \nOdetta ranks #25 on Forbes Best U.S. Startup Employers in 2022,\nunder my leadership \nLead recruitment drives; exploring, shortlisting & interviewing top\ntier talent from the entire MESA region \nMentoring and coaching our team \nLead Virtual Assistant \nOdetta.ai \n05/2019 - 12/2020\n, \n \nLahore, Pakistan \nFirst employee to be promoted to VA role \nLead a team of 2 VAs for our CEO \nQuality Controller/Project Manager \nOdetta.ai \n12/2018 - 12/2020\n, \n \nLahore, Pakistan \nLead a team of 15-20 people for data collection/enrichment\nprojects for US Venture Capital \ufb01rms \nManaged data categorization projects for software companies \nLead a team of 50 annotators for data annotation projects of AI\ncompanies \nRan sales campaigns & CRM for startups in healthcare, aerospace,\n\ufb01ntech, and advisory \ufb01rms \nEDUCATION \nMasters of Business Administration \nNational University of Computer and Emerging\nSciences \n09/2021 - Present\n, \n \nLahore, Pakistan \nMarketing \nBusiness Analytics \nSKILLS \nProject Management \nPower BI \nLeadership \nDigital Marketing \nCRM \nCold Outreach \nLead Generation \nCandidate Sourcing \nB2B Sales \nACHIEVEMENTS \nStar Employee \nOnly Employee at Odetta to be a Sales Lead, First VA, VA\nLead & Recruitment Lead for 2 years \nCERTIFICATES \nBusiness Analysis Foundations: Competencies\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nBusiness Analytics: Sales Data\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nDecision-Making Strategies\n (07/2022 - Present)\n \nIssued by National Association of State Boards of\nAccountancy \nData Analytics for Business Professionals\n (07/2022 - Present)\n \nIssued by LinkedIn Learning \nPERSONAL PROJECT \nYouth Tech\n (10/2021 - Present)\n \nCo-Founder & Business Advisor @ Youth Tech, a growing\nstartup o\ufb00ering outsourcing solutions to tech companies. \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nINTERESTS \nData Analytics \nEntrepreneurship \nBusiness Mentoring \nPhotography \nHealth & Fitness \nTech & Innovation \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Hafsa Naeem",
+        "number": "923077089974",
+        "skills": [
+            "Project Management",
+            "Power BI",
+            "Digital Marketing",
+            "CRM",
+            "Cold Outreach",
+            "Lead Generation",
+            "Candidate Sourcing",
+            "B2B Sales"
+        ],
+        "email_id": "hafsa.naeem1024@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Youth Tech",
+                "description": "Co-Founder & Business Advisor @ Youth Tech, a growing startup offering outsourcing solutions to tech companies."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "Present",
+                "university": "National University of Computer and Emerging Sciences",
+                "degree_title": "Masters of Business Administration"
+            }
+        ],
+        "achievements": [
+            "Star Employee",
+            "Only Employee at Odetta to be a Sales Lead, First VA, VA Lead & Recruitment Lead for 2 years"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Business Analysis Foundations: Competencies",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Business Analytics: Sales Data",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Decision-Making Strategies",
+                "issuing_organization": "National Association of State Boards of Accountancy",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Data Analytics for Business Professionals",
+                "issuing_organization": "LinkedIn Learning",
+                "date_of_issuance": "07-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hafsanaeem92",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hafsa Naeem is a dynamic business development professional with extensive experience in B2B sales and project management, particularly within the US tech startup ecosystem. She has demonstrated a strong ability to lead teams and drive growth, significantly expanding client bases and enhancing operational efficiencies.",
+        "employment_history": [
+            {
+                "details": "Working with U.S. tech industry leaders across several sectors, such as Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce & VCs. Selling data solutions like lead generation, data annotation, marketing automation, candidate sourcing & more. Closing deals with Fortune 500 U.S. companies and growing our client base from 35 to 150+ in 2020-2021.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development",
+                "start_date": "11-2018",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead recruitment drives; exploring, shortlisting & interviewing top tier talent from the entire MESA region. Mentoring and coaching our team.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Recruitment Lead",
+                "start_date": "03-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "First employee to be promoted to VA role. Lead a team of 2 VAs for our CEO.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Lead Virtual Assistant",
+                "start_date": "05-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead a team of 15-20 people for data collection/enrichment projects for US Venture Capital firms. Managed data categorization projects for software companies. Lead a team of 50 annotators for data annotation projects of AI companies. Ran sales campaigns & CRM for startups in healthcare, aerospace, fintech, and advisory firms.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Quality Controller/Project Manager",
+                "start_date": "12-2018",
+                "company_name": "Odetta.ai"
+            }
+        ]
+    }
+}

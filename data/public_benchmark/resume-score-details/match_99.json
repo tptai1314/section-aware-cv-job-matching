@@ -1,0 +1,169 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 1+ years of experience in sales roles but does not meet the 5+ years requirement.",
+            "The candidate graduated from LUMS, which aligns with preferred educational institutions.",
+            "Demonstrates strategic thinking through account management and proposal drafting experience.",
+            "Candidate lacks direct experience in high-stake negotiations, a key requirement.",
+            "Proficient in Microsoft Office, meeting the proficiency requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales process management",
+                    "score": 6
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 4
+                },
+                {
+                    "criteria": "account management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.28,
+                "micro_scores": 6.640000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Sheraz Gul",
+            "email": "muhammad.sheraz.gul301@gmail.com",
+            "phone": "+92 304 9760528",
+            "current_position": "Sales Coordinator",
+            "current_company": "Careem (Uber Inc)",
+            "employment_start_date_current_company": "11-2022",
+            "first_company_start_date": "09-2021",
+            "urls": [
+                {
+                    "website_name": "linkedin",
+                    "url": "linkedin.com/in/muhammad-sheraz1/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 72,
+            "strategic thinking": 28
+        },
+        "micro_dict": {
+            "sales process management": 18,
+            "negotiation skills": 6,
+            "account management": 76
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Strong negotiation and strategic thinking skills",
+            "5+ years of experience in business development or a related role",
+            "Proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "                                                            MUHAMMAD SHERAZ GUL                       \u2022 +92 304 9760528 \u2022 muhammad.sheraz.gul301@gmail.com \u2022 linkedin.com/in/muhammad-sheraz1/  Education  Lahore University of Management Sciences                                                                                                    BSc. Economics                 (Sep 2017 - May 2022) Relevant courses: Business Communication, Statistics and Data Analysis, Game Theory, Professional Communication Skills, Intro to Programming, Principles of Management, Time Series Economics, Methods and Practice of Impact Evaluation      Professional Experience  Careem (Uber Inc) Sales Coordinator:                                                                                                                                       (Nov 2022 \u2013 Dec 2022) \u2022 Oversaw the Careem for Business operations for 4 key accounts comprising 50+ users across the city. Optimized routes for ride-sharing to reduce costs and commute time. \u2022 Improved customer experience by resolving customer complaints. Liaised with the captains to address any technical issues. Monitored the progress using the Careem Solutions Portal.  Instructor Brandon | Dynatuners Sales Management Trainee:                                                                                                                     (Jan 2022 \u2013 May 2022) \u2022 Drafted business proposals for 4 prospective clients. Collaborated with the developers to provide product demos. \u2022 Shortlisted, interviewed and onboarded 15 Interns. Conducted trainings covering key concepts of B2B Sales including Buyer Personas, Customer Journey Mapping, Product-Market Fit, Competitive Analysis, Sales Flow Charts and Product Lifecycle. Created a Sales Playbook for the team.  PureLogics                                                                                                                                                    Sales Development Intern:                                                                                                                         (Sep 2021 - Oct 2021) \u2022 Generated qualified leads using LinkedIn Sales Navigator, CrunchBase and HubSpot.  Projects  Amal Academy Fellowship Program                                 (May 2021 \u2013 Jul 2021) \u2022 Completed a competitive written application and interview process to be selected from over 4500 applicants for intensive 3-month Fellowship funded by PEPSICO and Stanford University. \u2022 Invested 150 hours in order to develop business skills (e.g. Communication, Leadership, Problem Solving, Teamwork etc.) that will help me make a deeper impact on the job.  Course Project \u2013 Principles of Management              (Sep 2018 \u2013 Dec 2018) \u2022 Collaborated with a team of 5 students to conduct SWOT Analysis of the Sales Model of Nestle. Interviewed the leadership to understand the business dynamics, identify challenges and opportunities.  Extracurricular Experience  Al-Maqsad Foundation     Founder:                                                                                                                                                      (Apr 2022 \u2013 Present) \u2022 Managing a team of 20 core team members to oversee operations including fundraising through social media campaigns, case verification, field visits, updates, record keeping and monthly reports. \u2022 Partnered with 50 donors to generate regular donations to purchase monthly ration for 17 families. \u2022 Raised and disbursed PKR 20 Million for various cases related to education, healthcare, loan repayment and construction.  LUMS Religious Society     Team Member:                                                                                                                                           (Oct 2017 \u2013 May 2018) \u2022 Collaborated with a team of 15 members to conduct weekly sessions for ~300 students at an underprivileged school to deliver lectures and organize activities aiming to develop a better understanding of Islamic teachings and values.   Honors and Awards  LUMS National Outreach Program S                                                                                                     (Aug 2017)  \u2022 Got admitted to LUMS with 120% scholarship on the basis of excellent academic and extracurricular achievements.  Merit Scholarship Award \u2013 Superior Group of Colleges                                                                    (Aug 2015)  \u2022 Awarded 100% Merit Scholarship for Intermediate based on outstanding academic performance in Matriculation.  2nd Position in Inter-school Mathematics Olympiad (ISMO)                                                             (Mar 2011)  \u2022 Achieved 2nd position out of 1600 participants twice in the PakTurk ISMO competition in Peshawar.                                                                                                                                                                      Skills  \u2022 Soft Skills:  Leadership, Problem-solving, Adaptability, Time Management, Teamwork, Written & Verbal Communication \u2022 Hard Skills: B2B Sales, LinkedIn Sales Navigator, CrunchBase, HubSpot, Research, Data Analysis, Microsoft Office (Word, Excel, PowerPoint), Canva, Adobe Photoshop "
+    },
+    "details": {
+        "name": "Muhammad Sheraz Gul",
+        "number": "923049760528",
+        "skills": [
+            "B2B Sales",
+            "LinkedIn Sales Navigator",
+            "CrunchBase",
+            "HubSpot",
+            "Research",
+            "Data Analysis",
+            "Microsoft Office (Word, Excel, PowerPoint)",
+            "Canva",
+            "Adobe Photoshop"
+        ],
+        "email_id": "muhammad.sheraz.gul301@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "Amal Academy Fellowship Program",
+                "description": "Completed a competitive written application and interview process to be selected from over 4500 applicants for intensive 3-month Fellowship funded by PEPSICO and Stanford University."
+            },
+            {
+                "title": "Course Project \u2013 Principles of Management",
+                "description": "Collaborated with a team of 5 students to conduct SWOT Analysis of the Sales Model of Nestle."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Lahore University of Management Sciences",
+                "degree_title": "BSc. Economics"
+            }
+        ],
+        "achievements": [
+            "Got admitted to LUMS with 120% scholarship on the basis of excellent academic and extracurricular achievements.",
+            "Awarded 100% Merit Scholarship for Intermediate based on outstanding academic performance in Matriculation.",
+            "Achieved 2nd position out of 1600 participants twice in the PakTurk ISMO competition in Peshawar."
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-sheraz1/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Sheraz Gul is a dedicated professional with a strong background in B2B sales and technical skills in various software tools. He has demonstrated his capabilities through significant internships and projects, showcasing his commitment to excellence in the field.",
+        "employment_history": [
+            {
+                "details": "Oversaw the Careem for Business operations for 4 key accounts comprising 50+ users across the city. Optimized routes for ride-sharing to reduce costs and commute time. Improved customer experience by resolving customer complaints. Liaised with the captains to address any technical issues. Monitored the progress using the Careem Solutions Portal.",
+                "end_date": "12-2022",
+                "location": "",
+                "job_title": "Sales Coordinator",
+                "start_date": "11-2022",
+                "company_name": "Careem (Uber Inc)"
+            },
+            {
+                "details": "Drafted business proposals for 4 prospective clients. Collaborated with the developers to provide product demos. Shortlisted, interviewed and onboarded 15 Interns. Conducted trainings covering key concepts of B2B Sales including Buyer Personas, Customer Journey Mapping, Product-Market Fit, Competitive Analysis, Sales Flow Charts and Product Lifecycle. Created a Sales Playbook for the team.",
+                "end_date": "05-2022",
+                "location": "",
+                "job_title": "Sales Management Trainee",
+                "start_date": "01-2022",
+                "company_name": "Instructor Brandon | Dynatuners"
+            },
+            {
+                "details": "Generated qualified leads using LinkedIn Sales Navigator, CrunchBase and HubSpot.",
+                "end_date": "10-2021",
+                "location": "",
+                "job_title": "Sales Development Intern",
+                "start_date": "09-2021",
+                "company_name": "PureLogics"
+            }
+        ]
+    }
+}

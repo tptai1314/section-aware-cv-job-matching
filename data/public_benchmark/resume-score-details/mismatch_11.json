@@ -1,0 +1,180 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks direct digital marketing experience, but has some management experience in a sales context which may translate to leadership.",
+            "The candidate has no direct experience in social media marketing or Google Analytics which are crucial for this role.",
+            "The candidate's background is more in sales and supply chain management rather than marketing.",
+            "Education aligns with the minimum requirement but not the preferred universities listed in additional info."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 5
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.83,
+                "micro_scores": 2.9
+            }
+        },
+        "personal_info": {
+            "name": "MUHAMMAD SUHAIB",
+            "email": "F128735@nu.edu.pk",
+            "phone": "+923366662198",
+            "current_position": "Assistant Regional Sales Manager",
+            "current_company": "Maple Leaf Cement Factory",
+            "employment_start_date_current_company": "11-2019",
+            "first_company_start_date": "06-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 16,
+            "digital marketing experience": 67,
+            "client relationship": 17
+        },
+        "micro_dict": {
+            "social media marketing": 30,
+            "google analytics": 70
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Bachelor's degree in Business Administration, Marketing, or related field"
+        ],
+        "resume": "MUHAMMAD SUHAIB  \nMaster  OF BUSINESS ADMINISTRATION  \n \n \n \nA dynamic, resourceful and hard -working professional with excellent interpersonal skills and the ability to communicate concisely \nat all levels.  A person  who  has lots to offer  in terms  of enthusiasm  with  the ability  to bring  high  standards  to the work -place,  enjoys  \nbeing  part of a successful and productive term, proven through work experience. A good problem solver who enjoys helping \npeople as much as possible. Pays great attention to detail and would make a significant contribution to the  business.  \n \n \nEDUCATION DETAILS  \n \n \n \nMaster & Bachelor O f Business Administration  Fast-National Univer sity Chiniot -Faisalabad Campus  \nD.A.E (Electrical)  Govt College  Of Technology Faisalabad  \nMatric ( Biology)  Minhaj ul Quran model school  \n \nEXPERIENCES DETAILS  \nMaple Leaf Cement Factory  \nJob Title: Assistant  Regional Sales  Manager                                           November 2019 to current  \n  \n \n\u2022 I am managing Primary & Secondary Sales. Managing Business Growth & Improving Market Share within the \nAssigned Territory  \n\u2022 Responsible for the achievement of Territory Sales targets (Primary & Secondary) by town, by brand and by \nSKUs.  \n\u2022 Manage distribution setup & maintain effective customer\u2019s relationships.  \n\u2022 Syncing order intakes with logistical arrangement to ensure 2 500 MT cement Sales target every day in local \nmarket. (Grey Cement  Division) . \n\u2022 Ongoing improvement of trends (minimum balance retailers & servicing at retail level) . \n\u2022 Retail footprint expansion to increase availability of products and services . \n\u2022 Channel investment monitoring . \n\u2022 Ensuring & improving quality of sales . \n\u2022 Implementation of CPFR (Collaborative Planning Forecasting & Replenishment) Model for White, Grey \ncement & Wall  Coat Dispatch.  \n\u2022 Administrating daily recovery meetings with Regional Sales Managers and Sales Officers to discuss daily  \ncollections  assign targets for the upcoming days accordin gly and develop plans for Sales.  \n\u2022 Real -time coordination between production plant, dispatch office & head office to ensure sales by \ndeliver ing stock in time .  \n\u2022 Daily intake vs. dispatch analysis for Grey & White  Cement.  \n\u2022 Monitoring regional sales performance against targeted order  intakes  (Sales) . \n\u2022 Advising freight adjustment keeping market condition and vehicles flow in  view.  \n\u2022 Heading Credit Con trol Function \u2013 Imposition of credit policy for timely recovery together with working \nclosely  with Sales, Logistics and Marketing departments to ensure achievement of sales and recovery  \ntargets.  \n\u2022 Performing capacity planning of 13K, 15K and 18K quantities (sales)  of Sure shot, Addup and JV customers \nand integrating respective details in the value chain system in order to be able to effectively cater to any \nindustry  fluctuations  \n\u2022 Creating and maintaining relevant plans and procedures for dispatch in  accordance with receiva bles, \nespecially for the region  underperforming, in order to utilize the resources at  par. \n\u2022 Assisting in updating the departmental SOP\u2019s and ensuring audit  compliance.  \n\u2022 Minimizing  receivables according to sales targets . \n \n \n \nAddress  273-x,Eden Orchard  Faisalabad  \nMobile  +923366662198  \n   Email  F128735@nu.edu.pk  \n  \n \n                   Job Responsibilities:  \nMaintaining day-to-day records of supply growth, performance, and quality with regular analysis and reporting of \nfindings.  \n\u2022 Captain recruitment through different channels.  \n\u2022 Troubleshooting supply problems, analyses and reporting of the issues, solving and assisting in t he \nimplementation of solutions.  \n\u2022 Monitoring SLAs for tickets  resolutions.  \n\u2022 Daily customer contact (captains and users are both our customers!) to follow up on all the  above.  \n\u2022 Handling all city payments and supply support issues in Careem captain  application.  \n\u2022 To learn the organizational structure, documentation regarding supply processes, compensation, performance \nmanagement, and organizational development for the purpose of growth and stakeholder wealth  \nmaximization.  \n\u2022 To organize  of all the raw captain  payment  data  (above  all) into useful  and meaningful  information  for the \naid effective decision making (Completed the data of over 1000+ captains).  \n\u2022 To work on Enterprise Resource Planning (ERP) software for the purpose of initiating Integrated supply \nResour ce Management practices which would be beneficial in  bootstrapping.  \n\u2022 To working on different organizational development projects like supply requisition which will ensure the good \nemployer image of Careem in internal and external environment and will attrac t a diverse and dedicated talent  \npool  \n\u2022 To find ways of improving the Captain Performance activities in the organization to ensure that every \nstakeholder is happy with the proceedings of the  organization.  \n \nAB Exports  \nJob Title: Assistant Supervisor                                                    May 2016 to December 2017  \n \n     Job Responsibilities:  \n \n\u2022 Handle customer claims or returns and analysis  the reasons of defects.  \n\u2022 Maintain daily sales data through distribution network, rates, conversion rate, claims. Put all the daily bills in \naccounts data  base.  \n\u2022 Make sure the implementation of the standards and measures which ensure quality is involved  in each single \nproduction step.  \n\u2022 To learn different types of techniques and practices  \n\u2022 Executing company standards, product development including customer claims and party LC\u2019s . \n\u2022 Working with  E2E of company production processes.  \n \n \n Noor Fatima fabrics (Pvt) \nInternship: Assistant                                                          June 2014 to August 2014  \n \nJob Responsibilities:  \n\u2022 To prepare the firm for compliance audit of business social compliance initiative (BSCI) (which qualified in \norange category afterwards)  \n\u2022 To provide training and development sessions to each employee in the firm regarding the firm. The trainings \nshould be related to fire drills, health and safety, factory policies and other related matters  \n\u2022 To Transform of all the labor d ata from manual to excel in the form of linked sheets which saved the time by \n50% and helped in effective compliance  preparations  \n\u2022 To Provide all employees with worker cards and improving the overall outlook of the firm in terms of physical \ninfrastructure, mechanical and electrical  works  \n \n \n \n \n Careem Networks P akistan (pvt.)  \nJob Title: Supply coordinator                                                    December 2017 to October 2019        \n \n           Job Responsibilities:  \n\u2022 To learn the organizational structure, and knowledge regarding marketing processes, new brand \ndevelopment, and how to design an effective marketing  campaign  \n\u2022 To monitor and understand how to manage the effectiveness of brand and getting all the knowledge possible \nfor the company\u2019s new  brand  \n\u2022 To learn who are the main customers of the firm what kind of products are manufactured and sold in the  firm \n\u2022 To get all the required trainings to facilitate my departments and other departments as  well \n \n \n \n \n \n \n \n      ACHIEVEMENTS  \n \n\u2022 Startup marketing consultant and graphic designer for more than two small scale  startups  \n\u2022 Successfully Initiated employer branding projects which i ncreased the audience by  20%  \n\u2022 Winner basketball at different events organized at national level and also a district level  player  \n\u2022 Worked and effectively managed different social projects like Empowerment of women, Together we can, and \nStop child labor and revamping of government school with self -generated  budget  \n\u2022 Attended  a variety  of international  and national  leadership  development  conferences  like NYDS,  IC, NSC with  a \nvery  diverse pool of shortlisted participants  \n\u2022 Worked as a leader at different national events held at the university level which include Sham -e-Ghazal, \nAdventuron, Bonfire night, Daira, Decbates, Barsalego and other intra -university events  \n\u2022 Got selected as an Aiesec exchange participant out of the tota l pool of 1500  participants  \n\u2022 Strong network of peers in five different  countries  \n\u2022 Was the president of two major societies at the university  level  \n\u2022 Won a variety of debating competitions held at school level and also participated in different district level \ndebate competitions  \nSKILLS  \n \n \n\u2022 SAP Certified Application Associate   \n\u2022 Microsoft office  specialist  \u2022 Sony Vegas, Dream  weaver.  \n\u2022 Social Media  marketing  \n\u2022 Training and motivation of people, Performance \nmanagement.  \u2022 People Handling, Time management, Leadership  skills  \n\u2022 Task  adaptation,  Problem  solving,  Organizational \nDevelopment  skills  \n\u2022 Able to manage new products and business \nstartups  \u2022 Skilled in Movie & Ad  making  \n \n \n \n \n \n \n \n\u2022 REFERENCES will be furnished upon Request  Kay & EMMS (Pvt) Ltd \nJobTitle: Marketing Intern                                                  June 2013 to August 2013  "
+    },
+    "details": {
+        "name": "MUHAMMAD SUHAIB",
+        "number": "923366662198",
+        "skills": [
+            "SAP Certified Application Associate",
+            "Microsoft Office Specialist",
+            "Sony Vegas",
+            "Dreamweaver",
+            "Social Media Marketing"
+        ],
+        "email_id": "F128735@nu.edu.pk",
+        "location": "Faisalabad",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "Fast-National University Chiniot -Faisalabad Campus",
+                "degree_title": "Master of Business Administration"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Govt College Of Technology Faisalabad",
+                "degree_title": "D.A.E (Electrical)"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Minhaj ul Quran model school",
+                "degree_title": "Matric (Biology)"
+            }
+        ],
+        "achievements": [
+            "Startup marketing consultant and graphic designer for more than two small scale startups",
+            "Successfully initiated employer branding projects which increased the audience by 20%",
+            "Winner basketball at different events organized at national level and also a district level player",
+            "Worked and effectively managed different social projects like Empowerment of women, Together we can, and Stop child labor and revamping of government school with self-generated budget",
+            "Attended a variety of international and national leadership development conferences like NYDS, IC, NSC with a very diverse pool of shortlisted participants",
+            "Worked as a leader at different national events held at the university level which include Sham-e-Ghazal, Adventuron, Bonfire night, Daira, Decbates, Barsalego and other intra-university events",
+            "Got selected as an Aiesec exchange participant out of the total pool of 1500 participants",
+            "Strong network of peers in five different countries",
+            "Was the president of two major societies at the university level",
+            "Won a variety of debating competitions held at school level and also participated in different district level debate competitions"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "SAP Certified Application Associate",
+                "issuing_organization": "SAP",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Microsoft Office Specialist",
+                "issuing_organization": "Microsoft",
+                "date_of_issuance": "01-2019"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-suhaib",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/muhammad-suhaib",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Muhammad Suhaib is a dynamic and resourceful professional with a Master of Business Administration and extensive experience in sales management and marketing. He has demonstrated strong technical skills in SAP, Microsoft Office, and various media software, contributing to significant business growth and market share improvement in his roles. His achievements include successful project management and leadership in various initiatives, showcasing his commitment to excellence and innovation.",
+        "employment_history": [
+            {
+                "details": "Managing Primary & Secondary Sales, responsible for achieving Territory Sales targets, managing distribution setup, and improving sales quality.",
+                "end_date": "current",
+                "location": "Faisalabad",
+                "job_title": "Assistant Regional Sales Manager",
+                "start_date": "11-2019",
+                "company_name": "Maple Leaf Cement Factory"
+            },
+            {
+                "details": "Handled customer claims, maintained daily sales data, and ensured quality standards in production processes.",
+                "end_date": "12-2017",
+                "location": "Faisalabad",
+                "job_title": "Assistant Supervisor",
+                "start_date": "05-2016",
+                "company_name": "AB Exports"
+            },
+            {
+                "details": "Coordinated supply operations, monitored SLAs, and managed customer interactions for the Careem captain application.",
+                "end_date": "10-2019",
+                "location": "Faisalabad",
+                "job_title": "Supply Coordinator",
+                "start_date": "12-2017",
+                "company_name": "Careem Networks Pakistan (pvt.)"
+            },
+            {
+                "details": "Assisted in compliance audit preparations and employee training sessions.",
+                "end_date": "08-2014",
+                "location": "Faisalabad",
+                "job_title": "Internship: Assistant",
+                "start_date": "06-2014",
+                "company_name": "Noor Fatima fabrics (Pvt)"
+            }
+        ]
+    }
+}

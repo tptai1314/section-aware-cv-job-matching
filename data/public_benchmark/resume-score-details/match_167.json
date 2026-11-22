@@ -1,0 +1,214 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has over 9 years of experience in B2B sales and marketing, exceeding the 5+ years requirement. This aligns with Acme Corp's emphasis on proven experience in high-pressure sales environments.",
+            "The resume shows leadership roles such as President Elect at ISA and Business Development Manager roles, indicating leadership skills and team mentoring experience, which meet the job requirement.",
+            "No explicit mention of HubSpot experience, but candidate has considerable CRM experience, particularly in B2B environments, suggesting likely capability.",
+            "The resume does not exhibit direct evidence of SEO experience, which impacts the micro-scoring for SEO skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "sales experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "marketing expertise",
+                    "score": 8
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "hubspot",
+                    "score": 5
+                },
+                {
+                    "criteria": "seo",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.58,
+                "micro_scores": 3.44
+            }
+        },
+        "personal_info": {
+            "name": "Yahya Malik",
+            "email": "yahyamalik1@outlook.com",
+            "phone": "+971504680678",
+            "current_position": "Business Development Manager",
+            "current_company": "ACET Solutions",
+            "employment_start_date_current_company": "06-2021",
+            "first_company_start_date": "01-2015",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/engryahyamalik"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "leadership": 31,
+            "sales experience": 27,
+            "marketing expertise": 9,
+            "analytical skills": 33
+        },
+        "micro_dict": {
+            "hubspot": 22,
+            "seo": 78
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Demonstrated ability in team leadership and mentoring",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": "\u00a0 \u00a0\nContact\nDubai,United Arab Emirates \nUAE Number: +971504680678\nPAK Number: +923108141420\nKSA Number: +966546978135\nyahyamalik1@outlook.com\nwww.linkedin.com/in/\nengryahyamalik  (LinkedIn)\nTop Skills\nAutomation\nInstrumentation\nOT Cyber Security\nLanguages\nEnglish  (Professional Working)\nCertifications\nISA 62443 Cybersecurity\nFundamentals Specialist\nNSE 1,2,3 Network Security\nAssociate\nNozomi Certified Sales Professional\n(NNCTSP) \nIELTS General \nHoneywell Certified Sales\nProfessional on Process Control\nSystems\nHonors-Awards\nOrganizer - Annual Technical\nConference 2017\nOrganizer - POGEE 2018\nOrganizer-OT Cybersecurity\nImplementation Conference by ISA\nOrganizer-Cybersecurity for Critical\nAssets MENA\nEmployee of the Month AwardYahya M.\nBusiness Development Manager | Sales Leader | Industrial\nAutomation | Account Manager | OT Cybersecurity ISA 62443 CFS\n| Digital Transformation | IT/OT Integration | Closed Multimillion $\nProjects in last 5 years\nDubai, United Arab Emirates\nSummary\nyahyamalik1@outlook.com \nYahya Malik is a Seasoned Engineer-turned Marketer, with 9+\nyears of diverse experience in the field of B2B Sales, Negotiation,\nCustomer Relations Management, Product Management Process\nAutomation & OT Cybersecurity with a keen interest in IIOT.\nWorked with Industry leaders such as Nozomi Networks, Palo Alto,\nFortinet, ABB, Rockwell Automation, Yokogawa, Honeywell, General\nMonitors, Trend Micro, TXOne & Schneider. Creating win to win\nstrategy for my organization and for my customers as well\nCurrently, I am working as Business Development Manager at ACET\nSolutions. Here, we are not only helping enterprises with our OT and\nICS solutions but also helping them secure their digital infrastructure\nthrough our in-depth cybersecurity practices. With deep expertise in\nmature and emerging OT/IT means, we are helping various verticals\nautomate their processes, secure their infrastructure, and enhance\noperational productivity\nMy forte ranging from Lead Generation, Market Research, Business\nDevelopment, International Sales, Key Accounts Management, Sales\nOperations, Sales Strategy, Product Management, New Business\nDevelopment and Customer Satisfaction\nFundamental understanding of OT/ICS Cyber security basics and\nmodern concepts related to;\n-Firewalls, Intrusion detection and prevention, DMZ's, Remote\nAccess Solutions \n-Data leakage prevention\n-Secure Cloud, Data security, Security operations tools,\n\u00a0 Page 1 of 3\u00a0 \u00a0\n-ISA 62443 & Other OT Cybersecurity Standards\nTechnologies: \nIndustrial Automation | Industry 4.0 | Industrial IOT | IT/OT\nIntegration | Enterprise Management System | Data Historian &\ncloud | Cybersecurity | SCADA | Solar | Electrical | Instrumentation |\nRenewable Energy | \nIndustry Verticals:\nOil & Gas | Process | Utilities & Power | Metals | FMCG\nGeographies:\nPakistan | GCC | West Africa | Singapore | USA\nClients: \nFortune 100 | Government | EPCs | OEMs \nFunctional Competencies: \nStrategy Planning & Execution | Product and Solutions Proposals\n| P&L Management | Key Account Management | Negotiations\n| Business Development | Customer Relationship Management\n| Competitive Analysis | Solution & Services Sales Demand\nGeneration | Brand Positioning | Strategic Alliances & Partnerships |\nDigital transformation | Control Systems (PLC,DCS,SCADA) | EPC\nConnect with Yahya:\nWatsapp UAE: +971 50 468 0678\nWatsapp KSA: +966 54 697 8135\nWatsapp PAK: +92 310 814 1420 \nOfficial Email ID: yahya.malik@acetsolutions.com\nExperience\nACET Solutions\nBusiness Development Manager\nJune 2021\u00a0-\u00a0Present\u00a0 (2 years)\nUnited Arab Emirates\n\u00a0 Page 2 of 3\u00a0 \u00a0\n-Looking after Sales and Business Development of Automation, OT\nCybersecurity & Digital Enterprise Technology solutions in Pakistan & Middle\nEast Market\nInternational Society of Automation (ISA)\n2 years 5 months\nPresident Elect\nOctober 2022\u00a0-\u00a0Present\u00a0 (8 months)\nBoard Member (Webinars & Seminars)\nJanuary 2021\u00a0-\u00a0October 2022\u00a0 (1 year 10 months)\nDescon\nBusiness Development Manager\nNovember 2017\u00a0-\u00a0May 2021\u00a0 (3 years 7 months)\nUnited Arab Emirates\nLean Automation\nDesign Application Engineer\nJanuary 2016\u00a0-\u00a0October 2017\u00a0 (1 year 10 months)\nUnited Arab Emirates\nCoca-Cola Beverages Pakistan Limited\nGraduate Management Trainee\nJanuary 2015\u00a0-\u00a0December 2015\u00a0 (1 year)\nPakistan\nEducation\nLahore University of Management Sciences\nArt of Selling Ideas-Advertising 101,\u00a0Print, Outdoor and Digital\nMarketing \u00a0\u00b7\u00a0(March 2021)\nNEBOSH\nNebosh International General Certificate in Occupational Health and\nSafety,\u00a0Occupational Health and Safety \u00a0\u00b7\u00a0(January 2021)\nCOMSATS University\nEngineer\u2019s Degree,\u00a0Electrical and Electronics Engineering \u00a0\u00b7\u00a0(2010)\n\u00a0 Page 3 of 3"
+    },
+    "details": {
+        "name": "Yahya Malik",
+        "number": "971504680678",
+        "skills": [
+            "Automation",
+            "Instrumentation",
+            "OT Cyber Security",
+            "Industrial Automation",
+            "Industry 4.0",
+            "Industrial IOT",
+            "IT/OT Integration",
+            "Enterprise Management System",
+            "Data Historian & cloud",
+            "Cybersecurity",
+            "SCADA",
+            "Solar",
+            "Electrical",
+            "Instrumentation",
+            "Renewable Energy"
+        ],
+        "email_id": "yahyamalik1@outlook.com",
+        "location": "Dubai, United Arab Emirates",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "03-2021",
+                "university": "Lahore University of Management Sciences",
+                "degree_title": "Art of Selling Ideas-Advertising 101, Print, Outdoor and Digital Marketing"
+            },
+            {
+                "end_date": "01-2021",
+                "university": "NEBOSH",
+                "degree_title": "Nebosh International General Certificate in Occupational Health and Safety"
+            },
+            {
+                "end_date": "2010",
+                "university": "COMSATS University",
+                "degree_title": "Engineer\u2019s Degree, Electrical and Electronics Engineering"
+            }
+        ],
+        "achievements": [
+            "Organizer - Annual Technical Conference 2017",
+            "Organizer - POGEE 2018",
+            "Organizer - OT Cybersecurity Implementation Conference by ISA",
+            "Organizer - Cybersecurity for Critical Assets MENA",
+            "Employee of the Month Award"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "ISA 62443 Cybersecurity Fundamentals Specialist",
+                "issuing_organization": "ISA",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "NSE 1,2,3 Network Security Associate",
+                "issuing_organization": "Fortinet",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Nozomi Certified Sales Professional (NNCTSP)",
+                "issuing_organization": "Nozomi Networks",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "IELTS General",
+                "issuing_organization": "British Council",
+                "date_of_issuance": "01-2021"
+            },
+            {
+                "certification_name": "Honeywell Certified Sales Professional on Process Control Systems",
+                "issuing_organization": "Honeywell",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/engryahyamalik",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Yahya Malik is a seasoned engineer-turned marketer with over 9 years of diverse experience in B2B sales, negotiation, customer relations management, product management, process automation, and OT cybersecurity. He has worked with industry leaders and is currently a Business Development Manager at ACET Solutions, focusing on automation and cybersecurity solutions. His expertise includes lead generation, market research, and digital transformation, making him a valuable asset in enhancing operational productivity across various sectors.",
+        "employment_history": [
+            {
+                "details": "Looking after Sales and Business Development of Automation, OT Cybersecurity & Digital Enterprise Technology solutions in Pakistan & Middle East Market",
+                "end_date": "Present",
+                "location": "United Arab Emirates",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2021",
+                "company_name": "ACET Solutions"
+            },
+            {
+                "details": "President Elect and Board Member (Webinars & Seminars)",
+                "end_date": "Present",
+                "location": "United Arab Emirates",
+                "job_title": "President Elect",
+                "start_date": "10-2022",
+                "company_name": "International Society of Automation (ISA)"
+            },
+            {
+                "details": "Business Development Manager",
+                "end_date": "05-2021",
+                "location": "United Arab Emirates",
+                "job_title": "Business Development Manager",
+                "start_date": "11-2017",
+                "company_name": "Descon"
+            },
+            {
+                "details": "Design Application Engineer",
+                "end_date": "10-2017",
+                "location": "United Arab Emirates",
+                "job_title": "Design Application Engineer",
+                "start_date": "01-2016",
+                "company_name": "Lean Automation"
+            },
+            {
+                "details": "Graduate Management Trainee",
+                "end_date": "12-2015",
+                "location": "Pakistan",
+                "job_title": "Graduate Management Trainee",
+                "start_date": "01-2015",
+                "company_name": "Coca-Cola Beverages Pakistan Limited"
+            }
+        ]
+    }
+}

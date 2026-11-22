@@ -1,0 +1,178 @@
+{
+    "output": {
+        "justification": [
+            "The candidate possesses a Master's degree, meeting the minimum educational requirement and exceeding it with additional academic credentials.",
+            "The candidate has relevant experience in sales management and business development for over 5 years, satisfying the experience criterion.",
+            "There is no mention of specific experience with SAP ERP or Salesforce, crucial for the role, impacting micro scores for these tools.",
+            "The candidate demonstrates leadership in roles described in the resume, with responsibilities involving team coordination and strategic decisions."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "stakeholder management",
+                    "score": 6
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 4
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.3500000000000005,
+                "micro_scores": 4.300000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Omer Ghauri",
+            "email": "umar_ghauri@hotmail.com",
+            "phone": "+923014804531",
+            "current_position": "Sr. Business Development and Sales Analyst",
+            "current_company": "Walee Technologies Pvt. Ltd.",
+            "employment_start_date_current_company": "11-2020",
+            "first_company_start_date": "03-2012",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/muhammad-omer-ghauri-9ab06a26"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 35,
+            "experience": 38,
+            "strategic thinking": 27
+        },
+        "micro_dict": {
+            "stakeholder management": 15,
+            "sap erp": 46,
+            "salesforce": 39
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in data analysis and forecasting tools",
+            "5+ years of experience in sales or key account management",
+            "Experience with CRM and ERP systems such as SAP and Salesforce"
+        ],
+        "resume": "M\nUHAMMAD\nO\nMER\nG\nHAURI\nAddr ess\n:\nHouse\n#316,\nAhmad\nYar\nBlock,\nMustafa\nTown,\nWahdat\nRoad,\nLahore \nCell\n:\n+923014804531;\nEmail\n:\numar_ghauri@hotmail.com \nDate\nof\nBirth\n:\n23/04/1987 \nLinkedIn\nProfile:l i n k e d i n . c o m / i n / m u h a m m a d - o m e r - g h a u r i - 9 a b 0 6 a 2 6\nPROFESSIONAL\nSUMMARY\nObjective-driven\nand\nresults-oriented\nindividual\nskilled\nat\ndriving\ncorporate\ngrowth\nthrough \nstrategic\ninitiatives.\nSpecialized\nin\ndeveloping\nand\ncultivating\nnew\nbusiness\nprospects,\nforming \nrobust\nconnections,\nand\nleading\nsuccessful\ninitiatives.\nI\nam\ncommitted\nto\nproviding\noutstanding \nvalues\nand\nexceeding\nexpectations\nthrough\nseamless\ncollaboration\nwith\ncross-functional\nteams \nand\nbuilding\nstrong\nclient\nrelations\n.\nQUALIFICATION\nMasters\nof\nBusiness\nAdministration\nProfessional\nin\nMarketing,\nDecember\n2018 \nLahore\nSchool\nof\nEconomics\nM.Sc.\nBusiness\nStatistics\nand\nManagement,\nSeptember\n2009 \nPunjab\nUniversity\nEXPERIENCE\nWalee\nTechnologies\nPvt.\nLtd.\nSr.\nBusiness\nDevelopment\nand\nSales\nAnalyst\n(\nNovember\n2020-Present)\n\u25cf\nProactively\nidentify\nand\nengage\nwith\nprospective\nclients\nthrough\neffective\noutreach\ntechniques,\nsuch\nas\ncold\ncalling,\nemail\ncampaigns,\nand\nnetworking\n\u25cf\nGuide\nclients\nthrough\nthe\nonboarding\nprocess\nand\nensure\ntheir\nsatisfaction\nby\naddressing\nany\nquestions\nor\nconcerns\nthey\nmay\nhave\n\u25cf\nBuild\nand\nmaintain\nstrong\nrelationships\nwith\nclients\nto\nunderstand\ntheir\nbusiness\nneeds\nand\nprovide\ntailored\nsolutions\nthat\ndrive\ntheir\ngrowth\n\u25cf\nCollaborate\nwith\ninternal\nteams\nto\ndevelop\nand\nexecute\neffective\nmarketing\nstrategies\nthat\nalign\nwith\nclients'\ngoals\nand\nobjectives\n\u25cf\nPresent\nproposals\nto\nclients\nand\nprovide\nafter-sale\nservices\nto\nclients\nonboarded\nby\nme.Asian\nEducational\nPublishers.\nMarketing\nExecutive\n(\nMay\n2019-October\n2020\n)\n\u25cf\nMaintained\nstrong\nrelationships\nwith\nclients\nand\nidentified\nnew\nopportunities\nfor\ngrowth\nand\nexpansion\n\u25cf\nCommunicated\nmarketing\nstrategy\nto\nverify\nalignment\nwith\nsenior\nmanagement\nobjectives\n\u25cf\nWorked\nwith\ninternal\nteams\nto\nensure\nthe\ntimely\nand\naccurate\ndelivery\nof\nmarketing\nmaterials\nand\nassets\n\u25cf\nI\ndirected\nmarketing\nplans\nfor\n15+\nclients,\nproactively\nservicing\nneeds,\nmaintaining\nsatisfaction,\nand\nconsistently\nachieving\nprofit\ngoals.\nMindbridge\nCustomer\nFeedback\nOfficer\n(\nAugust\n2017-March\n2019)\n\u25cf\nManaged\ncustomer\ncomplaints\nand\ninquiries,\nproviding\ntimely\nand\neffective\nsolutions\nthat\nexceeded\ntheir\nexpectations\nand\nimproved\noverall\nsatisfaction\n\u25cf\nAchieved\ndaily\ntarget\nof\nconverting\n20\ndetractors\ninto\npromoters\nof\nthe\ncompany.\n\u25cf\nCollaborated\nwith\ninternal\nteams,\nsuch\nas\ntechnical\nsupport\nand\nbilling,\nto\naddress\ncustomer\nconcerns\nand\nensure\ntimely\nand\neffective\nsolutions\nJazz\nCustomer\nCare\nRepresentative\n(\nMarch\n2012-November\n2016)\n\u25cf\nDefused\ncustomer\nconcerns\nwith\nexceptional\nconflict\nand\nproblem-resolution\nskills.\n\u25cf\nManaged\nover\n200\nabove-customer\ncalls\nper\nday.\n\u25cf\nConsistently\nmet\nor\nexceeded\nkey\nperformance\nindicators,\nsuch\nas\ncall\nvolume,\nhandle\ntime,\nand\ncustomer\nsatisfaction\nscores\nCertifications\n\u25cf\nDigital\nMarketing\nfrom\nTDCP \n\u25cf\nInfluencer\nMarketing\nand\nDigital\nPR\nfrom\nLUMS\nSkills\n\u25cf\nMicrosoft\nWord,\nPowerPoint,\nand\nExcel \n\u25cf\nRelationship\nbuilding\nand\nretention"
+    },
+    "details": {
+        "name": "Muhammad Omer Ghauri",
+        "number": "923014804531",
+        "skills": [
+            "Microsoft Word",
+            "PowerPoint",
+            "Excel"
+        ],
+        "email_id": "umar_ghauri@hotmail.com",
+        "location": "House #316, Ahmad Yar Block, Mustafa Town, Wahdat Road, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration Professional in Marketing"
+            },
+            {
+                "end_date": "09-2009",
+                "university": "Punjab University",
+                "degree_title": "M.Sc. Business Statistics and Management"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "TDCP",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Influencer Marketing and Digital PR",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-omer-ghauri-9ab06a26",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Omer Ghauri is a results-oriented professional with a strong background in business development and marketing. He has demonstrated expertise in client relationship management and strategic marketing initiatives, contributing to corporate growth and client satisfaction.",
+        "employment_history": [
+            {
+                "details": "Proactively identify and engage with prospective clients through effective outreach techniques, such as cold calling, email campaigns, and networking. Guide clients through the onboarding process and ensure their satisfaction by addressing any questions or concerns they may have. Build and maintain strong relationships with clients to understand their business needs and provide tailored solutions that drive their growth. Collaborate with internal teams to develop and execute effective marketing strategies that align with clients' goals and objectives. Present proposals to clients and provide after-sale services to clients onboarded by me.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Sr. Business Development and Sales Analyst",
+                "start_date": "11-2020",
+                "company_name": "Walee Technologies Pvt. Ltd."
+            },
+            {
+                "details": "Maintained strong relationships with clients and identified new opportunities for growth and expansion. Communicated marketing strategy to verify alignment with senior management objectives. Worked with internal teams to ensure the timely and accurate delivery of marketing materials and assets. Directed marketing plans for 15+ clients, proactively servicing needs, maintaining satisfaction, and consistently achieving profit goals.",
+                "end_date": "10-2020",
+                "location": "",
+                "job_title": "Marketing Executive",
+                "start_date": "05-2019",
+                "company_name": "Asian Educational Publishers."
+            },
+            {
+                "details": "Managed customer complaints and inquiries, providing timely and effective solutions that exceeded their expectations and improved overall satisfaction. Achieved daily target of converting 20 detractors into promoters of the company. Collaborated with internal teams, such as technical support and billing, to address customer concerns and ensure timely and effective solutions.",
+                "end_date": "03-2019",
+                "location": "",
+                "job_title": "Customer Feedback Officer",
+                "start_date": "08-2017",
+                "company_name": "Mindbridge"
+            },
+            {
+                "details": "Defused customer concerns with exceptional conflict and problem-resolution skills. Managed over 200 above-customer calls per day. Consistently met or exceeded key performance indicators, such as call volume, handle time, and customer satisfaction scores.",
+                "end_date": "11-2016",
+                "location": "",
+                "job_title": "Customer Care Representative",
+                "start_date": "03-2012",
+                "company_name": "Jazz"
+            }
+        ]
+    }
+}

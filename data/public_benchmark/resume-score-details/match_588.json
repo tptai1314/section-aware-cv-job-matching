@@ -1,0 +1,144 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive experience in digital marketing and sales, which aligns partially with the lead generation aspects of the role, but lacks specific business intelligence experience using Power BI, SQL, or Tableau.",
+            "There is no mention of proficiency in any programming language, especially C++, HTML, or CSS, which are required for the role.",
+            "The educational background does not satisfy a Bachelor's degree requirement in a relevant field like Computer Science or Business.",
+            "The resume does not demonstrate direct experience in managing large data sets or using business intelligence tools, which are crucial for the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 1
+                },
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 2
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 8
+                },
+                {
+                    "criteria": "project management",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.910000000000001,
+                "micro_scores": 4.16
+            }
+        },
+        "personal_info": {
+            "name": "Subhan Tariq",
+            "email": "Subhantariq893@live.com",
+            "phone": "+92 331 4404135",
+            "current_position": "Support Manager",
+            "current_company": "Semalt Digital Agency",
+            "employment_start_date_current_company": "2019",
+            "first_company_start_date": "2019",
+            "urls": [
+                {
+                    "website_name": "Facebook",
+                    "url": "https://web.facebook.com/SubhaX25"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 45,
+            "experience": 32,
+            "innovation and adaptability": 23
+        },
+        "micro_dict": {
+            "c++, html, css": 4,
+            "business intelligence tools (power bi, sql, tableau)": 38,
+            "digital marketing skills": 26,
+            "project management": 32
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Proficiency in at least one programming language"
+        ],
+        "resume": "Semalt Digital Agency\nSupport Manager ( Johar Town )\nRecommended changes to website architecture, content, and linking to improve SEO positions\nfor target keywords.\nManaged SEO campaign expenses, estimated monthly costs and reconciled discrepancies to\nmaximize the budget.\nPlanned, ran, and analyzed client PPC initiatives and campaigns to increase sales, generate\nleads and promote brand awareness.\nResearched and implemented search engine optimization recommendations in accordance\nwith the development methodology.\nProduced and submitted weekly reports outlining progress against KPI objectives.\nBuilt, implemented, and updated effective SEO strategies.\nCodified office structures and processes to promote teamwork and performance.\nMaintained accurate, current, and compliant financial records by monitoring and addressing\nvariances.\nEstablished and administered annual budget with effective controls to prevent overages,\nminimize burn rate, and support sustainability objectives.\nMaintained knowledge of current market trends and algorithm updates of top search engines.\nCompleted keyword research to target clients based on keyword targeting.\nMaximized strategic approaches by keeping a close eye on performance and making\nappropriate adjustments.\nHelped clients develop website portals and social media pages to promote businesses.\nUtilized search engine optimization and emphasized the importance of link building.\nApplied performance data to evaluate and improve operations, target current business\nconditions, and forecast needs.\nHandled complaints, provided appropriate solutions and alternatives within appropriate\ntimeframes, and followed up to achieve resolution.\nResearched and analyzed competitor websites and advertising links to gain insight into new\nstrategies.\nProposed technical feasibility solutions for new system designs and suggested options for\nperformance improvement of technical components.\nManaged department call volume of 100+ calls per day and coordinated department schedules\nto maximize coverage during peak hours.\nHelped employees with day-to-day work and complex problems by applying motivational and\nanalytical strategies.CONTACT\nINFORMATION\nPhone Number :\n +92 331 4404135 \n +92 324 3271794\nEmail Address;\nSubhantariq893@live.com\nsubhantaruq892@gmail.com\nHome Address;  Ganj  Bazar,\nMughalpura, Lahore, Pakistan\nFacebook;\nhttps://web.facebook.com/SubhaX252010-2014 | Art High school ABOUT ME\nEDUCATION\nAllama Iqbal Open University (AIOU)\nP.E.C.H.S High School Karachi Block 6 2020 - 2024 | Faculty of Arts (FA) Lahore Proven skills in increasing customer engagement and business visibility in\nonline searches through successful SEO approaches. Experienced in\ndeveloping marketing initiatives, increasing business success, and boost\nsales. Excellent analytical, organizational, and decision-making abilities.\nExperienced digital marketing with over 3 years of experience in Semalt\nExcellent reputation for resolving problems and improving customer\nsatisfaction. Highly motivated Sales Associate with extensive customer\nservice and sales experience. Outgoing sales professional with a track\nrecord of driving increased sales, improving buying experience, and\nelevating company profile with the target market. Consistently recognized\nfor sales performance and excellence in customer service.SALES AND\nMARKETING\nSubhan\nTariq\nEXPERIENCE\nSince 2019 till 2021 JuneMilvik Mobile Pakistan \nInbound & outbound Agent ( Model Town )\nDelivered exceptional customer service to every customer by\nleveraging extensive knowledge of products and services and creating\nwelcoming, positive experiences.\nUsed computer databases to keep track of phone calls, confidential\nnotes about conversations, and customer contact information.\nResponded to customer requests, offering excellent support and\ntailored recommendations to address needs.\nAchieved and consistently exceeded revenue quota through product\nand service promotion during routine calls.\nMemorized scripts to achieve easy conversational flow in interactions\nwith potential customers\nEnhanced productivity by staying on top of call scripts and maintaining\ncontrol over the direction of conversations.\nUsed Microsoft Word and other software tools to create documents\nand other communications.\nMaintained user account data by initiating account access and\nestablishing in database.\nAnswered phone with a friendly greeting to create a positive outbound\n& inbound calling experience for customers.\nEngaged with customers to effectively build rapport and lasting\nrelationships.\nIncreased sales by offering advice on purchases and promoting\nadditional products.\nUfone Franchise \nRetail sales store activities ( Garhi Shahu )\nExceeded goals through effective task prioritization and a great work\nethic.\nManaged team of 3 to 6 employees, overseeing hiring, training, and\nprofessional growth of employees.\nResolved problems, improved operations, and provided exceptional\nservice.\nUsed critical thinking to break down problems, evaluate solutions and\nmake decisions.\nWorked to maintain outstanding attendance record, consistently\narriving to work ready to start immediately.\nIncreased sales by offering advice on purchases and promoting\nadditional products.\nTracked stock using company inventory management software.\nPrepared sims for sales floor by pricing or tagging.\nLANGUAGES\nmicrosoft office\nCRM System\nSEO & PPC\nComputer Skills\nGoogle Analytics \nemail writing CONTACT\nINFORMATION\nPhone Number :\n +92 331 4404135 \n +92 324 3271794\nEmail Address;\nSubhantariq893@live.com\nsubhantaruq892@gmail.com\nFacebook;\nhttps://web.facebook.com/SubhaX25EXPERIENCE \nWORK\n2016 -\n20172018 -\n2019\nEnglish\nPunjabi\nUrdu\nSindhi \nPortuguese\nHindi \nSKILLS "
+    },
+    "details": {
+        "name": "Subhan Tariq",
+        "number": "923314404135",
+        "skills": [
+            "SEO",
+            "PPC",
+            "Google Analytics",
+            "Microsoft Office",
+            "CRM System",
+            "Email Writing"
+        ],
+        "email_id": "subhantariq893@live.com",
+        "location": "Ganj Bazar, Mughalpura, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "Allama Iqbal Open University (AIOU)",
+                "degree_title": "Faculty of Arts (FA)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "web.facebook.com/SubhaX25",
+                "website_name": "Facebook"
+            }
+        ],
+        "executive_summary": "Subhan Tariq is a skilled digital marketing professional with over 3 years of experience in SEO and PPC strategies. He has a proven track record of enhancing customer engagement and business visibility through effective online marketing initiatives. Subhan is adept at utilizing tools like Google Analytics and Microsoft Office to drive results and improve operations.",
+        "employment_history": [
+            {
+                "details": "Delivered exceptional customer service, managed inbound and outbound calls, and exceeded revenue quotas through effective product promotion.",
+                "end_date": "06-2021",
+                "location": "Model Town",
+                "job_title": "Inbound & Outbound Agent",
+                "start_date": "2019",
+                "company_name": "Milvik Mobile Pakistan"
+            },
+            {
+                "details": "Managed retail sales activities, trained employees, and resolved customer issues while exceeding sales goals.",
+                "end_date": "2019",
+                "location": "Garhi Shahu",
+                "job_title": "Retail Sales Associate",
+                "start_date": "2018",
+                "company_name": "Ufone Franchise"
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+{
+  "dev_cv_count": 344,
+  "dev_jd_count": 168,
+  "eval_pool_cv_count": 230,
+  "eval_pool_jd_count": 112,
+  "n_eval_samples_cv": 25,
+  "n_eval_samples_jd": 25,
+  "seed": 42
+}

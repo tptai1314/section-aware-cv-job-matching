@@ -1,0 +1,152 @@
+{
+    "output": {
+        "justification": [
+            "Ahmad Ali has experience in business development and leadership roles which align with client relationship management.",
+            "His background in team management from his role as a Business Development Team Lead aligns with leadership requirements.",
+            "Experience with MS Office and business strategy align with analytical and strategic thinking skills required.",
+            "Lacks clear evidence of SEO or PPC experience, which are key skills in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 4
+                },
+                {
+                    "criteria": "team management",
+                    "score": 7
+                },
+                {
+                    "criteria": "ppc campaigns",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in sales and client relationship management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office and CRM systems",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 4.890000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Ahmad Ali",
+            "email": "mhrali01@gmail.com",
+            "phone": "",
+            "current_position": "Business Development Team Lead",
+            "current_company": "DHives",
+            "employment_start_date_current_company": "04-2023",
+            "first_company_start_date": "09-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/maharali1/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 26,
+            "client relationship management": 74
+        },
+        "micro_dict": {
+            "seo strategy development": 5,
+            "team management": 46,
+            "ppc campaigns": 49
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field",
+            "Proven track record in sales and client relationship management",
+            "Proficiency in Microsoft Office and CRM systems",
+            "Strong analytical and strategic thinking skills"
+        ],
+        "resume": "04/2023 - Present\n04/2022 - 03/2023\n09/2021 - 03/2022\n10/2022 - 08/2021\n2017 - 2021SUMMARY\nI have hands-on experience in Business Development for the Software industry. Excellent at\u00a0cross-functional teamwork  \nskills when collaborating with internal and external teams to generate\u00a0business, assist expansion and generate\u00a0income  \nthrough freelancing\u00a0platforms. Skilled in identifying potential clients and collaborating with the software engineering  \nteams in order to land jobs successfully and play a part in growing the business.\nEXPERIENCE\nBusiness Development Team Lead\nDHives\nBusiness Development Executive\nBusiness Development Executive\nBusiness Development Executive\nGrowth Hacking Solutions\nAccount Executive\nLak Citrus\nEDUCATION\nBSCS\nCOMSATS University Islamabad\nSKILLS\nBusiness Development Business Strategy Sales Pipeline Management Trello\nAppointment Scheduling Team Management MS O\ufb03ce G-Suite\ue069 q eAHMAD ALI\nBusiness Development Team Lead\nmhrali01@gmail.comhttps://www.linkedin.com/in/maharal\ni1/Lahore, Punjab, Pakistan"
+    },
+    "details": {
+        "name": "AHMAD ALI",
+        "number": "03124843384",
+        "skills": [
+            "Business Development",
+            "Business Strategy",
+            "Sales Pipeline Management",
+            "Trello",
+            "MS Office",
+            "G-Suite"
+        ],
+        "email_id": "mhrali01@gmail.com",
+        "location": "Lahore, Punjab, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "COMSATS University Islamabad",
+                "degree_title": "BSCS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maharali1",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmad Ali is a skilled Business Development Team Lead with extensive experience in the software industry, adept at collaborating with cross-functional teams to drive business growth and client acquisition.",
+        "employment_history": [
+            {
+                "details": "Led business development initiatives and managed a team to achieve sales targets.",
+                "end_date": "03-2023",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Team Lead",
+                "start_date": "04-2022",
+                "company_name": "DHives"
+            },
+            {
+                "details": "Executed business development strategies to expand client base and increase revenue.",
+                "end_date": "03-2022",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2021",
+                "company_name": "Growth Hacking Solutions"
+            },
+            {
+                "details": "Identified potential clients and collaborated with engineering teams to secure projects.",
+                "end_date": "08-2021",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2022",
+                "company_name": "Lak Citrus"
+            }
+        ]
+    }
+}

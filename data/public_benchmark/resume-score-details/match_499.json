@@ -1,0 +1,176 @@
+{
+    "output": {
+        "justification": [
+            "Leadership experience is evident as the candidate held the role of President in a university society, demonstrating strong organizational skills.",
+            "Relevant experience includes a Business Development Executive position, but lacks the required 5+ years as this is within one company for less than a year.",
+            "Proficiency in Microsoft Office is supported by a technical proficiency section stating skills in Word, Excel, and PowerPoint.",
+            "No specific mention of strategic thinking activities or negotiation experience documented."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 9
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.32,
+                "micro_scores": 5.05
+            }
+        },
+        "personal_info": {
+            "name": "MUHAMMAD UMAR KHALID",
+            "email": "0303umar@gmail.com",
+            "phone": "+92-303-4003301",
+            "current_position": "Business Development Executive",
+            "current_company": "Innovage.io",
+            "employment_start_date_current_company": "07-2022",
+            "first_company_start_date": "08-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/umar-khalid125"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 38,
+            "experience": 40,
+            "strategic thinking": 22
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 21,
+            "sales process management": 79
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or a related role",
+            "Proficiency in Microsoft Office Suite",
+            "Strong negotiation and strategic thinking skills",
+            "Proven track record in managing complex sales cycles",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "Namal University, Mianwali  \n MUHAMMAD  UMAR  KHALID           \n \nContact:  +92-303-4003301 | E-Mail:  0303umar@gmail.com  \nAddress:  House# 324, Islam Nagar, Bahawalnagar  \nLinkedIn:  www.linkedin.com/in/umar -khalid125  \n \n AREAS OF EXPERTISE   \n \nDedicated and innovative with related education, practicum, and experience to achieve  to long -range operational objectives in a \ngrowing industry and equally challenging industry  \n\uf0f7Business Development  \uf0f7Marketing Analysis  \uf0f7Business Management \uf0f7Customer Relationship Management \uf0f7Social \nMedia Marketing\uf0f7Digital Marketing  \uf0f7Marketing Strategy \uf0f7Advertising \uf0f7Human Resource Management \uf0f7Punctuality & \nTimekeeping \uf0f7 Problem Solving \uf0f7Communication Skills \uf0f7 Leadership Skills  \n \n \n \n \n PROFESSIONAL ABRIDGEMENT   \n \nDynamic and result oriented professional with hands on experience in Marketing and Human Resource Organizations , \nhaving excellent leadership, communication  & management skills. A team player seeking to expand knowledge and \nenhance skills. Passionate about business and motivated to drive that passion in helping the concerned organizations to \nflourish and prosper.  \n ACADEMIC BRIEF   \nBachelor of Business Administration                                                                                                                                                 2018 \u2013 2022  \nMajor (Marketing)  \nMinor ( Human Resource Management , Financial Accounting)  \nNamal University , Mianwali  \nCGPA: 3. 2/4 \n \n EXPERIENCE   \nInnovage.io  July  2022-Current  \nBusiness Development  Executive  \n\uf034 Using networks and online research, identify and qualify new sales leads.  \n\uf034 Follow up on any sales leads, clearly providing pertinent facts.  \n\uf034 Cold Calls and Emails to build and maintain strong connections with new and existing partners.  \n\uf034 Attend conferences, meetings, and industry events on behalf of the company  \nGaoTek, inc.  Aug 2020 to Nov 2020  \nHR Intern  \n\uf034 Administered the hiring process of candidates for different company profiles, starting from job posting to candidate \nscreening and communication with the candidate and concerned department.  \nThe Coca Cola Company, inc.  Sep 2021 to Oct 2021  \nSales & Marketing Intern  \n\uf034 Contributes information, ideas, and research to help develop marketing strategies. Helps to detail, design, and \nimplement marketing plans for each product or se rvice being offered.  \n \n PAGE | 2 \n \nNamal University, Mianwali  \n Descon Engineering Ltd.  Jul 2019 to Aug 2019  \nHR Operations  \n          \n\uf034 Reporting on SAP  \n\uf034 Updating employee absence records, filing HR documents, accordingly, initiating background checks on shortlisted \ncandidates, and providing suitable recommendations to improve HR policies.  \nTraining and Development Center  \n\uf034  Acting as a focal person  for any T&D related queries, liaising with the rest of the HR team as required.  \n \n\uf034 Moove: A startup to provide extensive services of study tourism, aesthetic,  and recreational tourism , we successfully \nmanaged to arrange recreational trips for the students of Namal  University  to visit tourist attractions in the surroundings \nof Namal.  \n\uf034 Founder of \u201cDairy Delicious\u201d, an online dairy startup where organic dairy products are sold online with an efficient and \nquality ensured delivery system  \n TECHNICAL PROFICIENCIES   \nTools  MS Word, MS Excel, MS PowerPoint, MS Project Management, Tableau  \n \n\uf034   President, Namal Society for Social Impact               Oct  2020 to April  2022  \n1. Blood donation drive  \n2. Emergency medical trainings e.g.,  CPR, fire extensions, first aid etc.  \n3. Free education to local school children  \n4. Voice of Change Competitions (Local inter college competitions)  \n5. Cultural Fest & Qawali Night 2022  \n \n\uf034 Volunteer , \u201cSarsab az Bahawalnagar Green Environment Campaign\u201d.  \n\uf034 Runner up,  District level Basketball  Tournament.  \n \n \n \n\u2713 Social Work  \n\u2713 Travelling  \n\u2713 Hiking   \n\u2713 Trekking  \n\u2713 Mount ain Climbing  \n\u2713 Photography (Nature, Landscapes)  \n\u2713 Basketball (District level runner up)   KEY PROJECTS   \n NAMAL STUDENT SOCIETY ENDEAVORS    \n ACTIVITIES OF PERSONAL INTEREST    PAGE | 3 \n \nNamal University, Mianwali  \n \u2713 Badminton  \n\u2713 Cycling  \n\u2713 Quiz Competition (College level)  \n \n \n \n\u2192 To be Provided on Demand   REFERENCES   "
+    },
+    "details": {
+        "name": "MUHAMMAD UMAR KHALID",
+        "number": "923034003301",
+        "skills": [
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint",
+            "MS Project Management",
+            "Tableau"
+        ],
+        "email_id": "0303umar@gmail.com",
+        "location": "House# 324, Islam Nagar, Bahawalnagar",
+        "projects": [
+            {
+                "title": "Moove",
+                "description": "A startup to provide extensive services of study tourism, aesthetic, and recreational tourism."
+            },
+            {
+                "title": "Dairy Delicious",
+                "description": "An online dairy startup where organic dairy products are sold online."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Namal University, Mianwali",
+                "degree_title": "Bachelor of Business Administration"
+            }
+        ],
+        "achievements": [
+            "Runner up, District level Basketball Tournament",
+            "Voice of Change Competitions (Local inter college competitions)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umar-khalid125",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Umar Khalid is a dedicated and innovative professional with a Bachelor of Business Administration, specializing in Marketing. He has hands-on experience in business development and human resources, demonstrating strong technical skills in various software tools. Umar is passionate about driving business success and has a proven track record of achievements in competitive environments.",
+        "employment_history": [
+            {
+                "details": "Using networks and online research, identify and qualify new sales leads. Follow up on any sales leads, clearly providing pertinent facts. Cold Calls and Emails to build and maintain strong connections with new and existing partners. Attend conferences, meetings, and industry events on behalf of the company.",
+                "end_date": "Current",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2022",
+                "company_name": "Innovage.io"
+            },
+            {
+                "details": "Administered the hiring process of candidates for different company profiles, starting from job posting to candidate screening and communication with the candidate and concerned department.",
+                "end_date": "11-2020",
+                "location": "",
+                "job_title": "HR Intern",
+                "start_date": "08-2020",
+                "company_name": "GaoTek, inc."
+            },
+            {
+                "details": "Contributes information, ideas, and research to help develop marketing strategies. Helps to detail, design, and implement marketing plans for each product or service being offered.",
+                "end_date": "10-2021",
+                "location": "",
+                "job_title": "Sales & Marketing Intern",
+                "start_date": "09-2021",
+                "company_name": "The Coca Cola Company, inc."
+            },
+            {
+                "details": "Reporting on SAP. Updating employee absence records, filing HR documents, accordingly, initiating background checks on shortlisted candidates, and providing suitable recommendations to improve HR policies.",
+                "end_date": "08-2019",
+                "location": "",
+                "job_title": "HR Operations",
+                "start_date": "07-2019",
+                "company_name": "Descon Engineering Ltd."
+            }
+        ]
+    }
+}

@@ -1,0 +1,173 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrates leadership through roles such as Assistant Manager and Sales Executive, scoring a moderate level due to lack of explicit team leadership roles.",
+            "Relevant experience in sales and project management aligns with business development, though lacking direct digital strategy roles.",
+            "Negotiation skills and experience in sales support strong micro scores for Market Research and Negotiation.",
+            "SEO and data analysis skills were not evidenced, resulting in lower scores for these micro criteria."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 6
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 7
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 7
+                },
+                {
+                    "criteria": "seo",
+                    "score": 3
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.819999999999999,
+                "micro_scores": 5.17
+            }
+        },
+        "personal_info": {
+            "name": "Sidra Saeed",
+            "email": "sidrasaeed700@gmail.com",
+            "phone": "+92-307-0100595",
+            "current_position": "Assistant Manager Sales",
+            "current_company": "Graana.com",
+            "employment_start_date_current_company": "10-2022",
+            "first_company_start_date": "11-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 56,
+            "business development experience": 13,
+            "strategic planning": 31
+        },
+        "micro_dict": {
+            "market research": 27,
+            "negotiation": 4,
+            "sales strategy": 24,
+            "seo": 21,
+            "data analysis": 24
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy",
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": " ABOUT ME\nTalented and experienced professional with superior skills in research\nmethodologies useful in providing business intelligence, analytics, and\ninsight  to  further  opportunity  identification  and  exploitation.  Career\nsales professional seeking new challenges to drive sales with customer-\noriented communication and service, in addition to bringing an array of\ncontacts and leads.\n SKILLSSIDRA\nSAEED\ueefc Project Sales \ueefcProject Management\n\ueefc Administration \ueefcCommunication\n\ueefc Leadership & Analysis \ueefcClient Management\n\ueefc MS Office Applications \ueefcPublic Relation\n\ueefc Negotiation Skills \ueefcPresentation\n\ueefc Multi-Tasking \ueefcCross-Cultural Work\nCONTACT\n+92-307-0100595\nsidrasaeed700@gmail.com  \nGulshan-e-Mustufa Society\nGhousia Chowk, UMT Road\nJohar Town, Lahore\n(54782), Pakistan\nEDUCATION\nMPhil Economics (2021)\nUniversity of Management \n& Technology\nLahore, Pakistan\nTRAINING/COURSE\nRadio Presenter\nDil FM 102, Sahiwal\n3 Months Training\nContinuous Professional \nDevelopment Program\nThe Educators, Qaboola\nTraining Workshop\nHOBBIES & INTERESTS\nBook Reading\nExploring Sites\n ACHIEVEMENTS\n\ueefcWon Best Voice Over Artist Award\nDil FM 102 Sahiwal - 2014\n EXPERIENCE\n\ueefcGraana.com\nAssistant Manager Sales\n\ueea7Current\n\ueefcZameen.com\nAssistant Manager Project Sales\n\ueea72021\n\ueefcBlue Group of Companies\nSales Executive \u2013 Real Estate Sector\n\ueea72020\n\ueefcInnovative Learning for Excellence\nData / Financial Analyst\n\ueea72016 - 2020\n\ueefcThe Educators - Qaboola\nTeacher, Admin & Organizer\n\ueea72015\n\ueefcDil FM, Sahiwal\nProgram Host & News Caster\n\ueea72012 - 2014\n REFERENCES\nWill be furnished upon request\n"
+    },
+    "details": {
+        "name": "Sidrasaeed",
+        "number": "923070100595",
+        "skills": [
+            "MS Office Applications"
+        ],
+        "email_id": "sidrasaeed700@gmail.com",
+        "location": "Gulshan-e-Mustufa Society, Ghousia Chowk, UMT Road, Johar Town, Lahore (54782), Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "University of Management & Technology",
+                "degree_title": "MPhil Economics"
+            }
+        ],
+        "achievements": [
+            "Won Best Voice Over Artist Award, Dil FM 102 Sahiwal - 2014"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sidrasaeed",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sidrasaeed is a talented professional with a strong background in project sales and management, possessing superior skills in MS Office Applications. With a commitment to driving sales and leveraging a wide array of contacts, Sidra is well-equipped to tackle new challenges in the business landscape.",
+        "employment_history": [
+            {
+                "details": "Assistant Manager Sales",
+                "end_date": "Current",
+                "location": "",
+                "job_title": "Assistant Manager Sales",
+                "start_date": "",
+                "company_name": "Graana.com"
+            },
+            {
+                "details": "Assistant Manager Project Sales",
+                "end_date": "12-2021",
+                "location": "",
+                "job_title": "Assistant Manager Project Sales",
+                "start_date": "",
+                "company_name": "Zameen.com"
+            },
+            {
+                "details": "Sales Executive \u2013 Real Estate Sector",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Sales Executive",
+                "start_date": "",
+                "company_name": "Blue Group of Companies"
+            },
+            {
+                "details": "Data / Financial Analyst",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Data / Financial Analyst",
+                "start_date": "01-2016",
+                "company_name": "Innovative Learning for Excellence"
+            },
+            {
+                "details": "Teacher, Admin & Organizer",
+                "end_date": "12-2015",
+                "location": "",
+                "job_title": "Teacher, Admin & Organizer",
+                "start_date": "",
+                "company_name": "The Educators - Qaboola"
+            },
+            {
+                "details": "Program Host & News Caster",
+                "end_date": "12-2014",
+                "location": "",
+                "job_title": "Program Host & News Caster",
+                "start_date": "01-2012",
+                "company_name": "Dil FM, Sahiwal"
+            }
+        ]
+    }
+}

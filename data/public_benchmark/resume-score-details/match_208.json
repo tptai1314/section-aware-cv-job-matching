@@ -1,0 +1,164 @@
+{
+    "output": {
+        "justification": [
+            "Izma Bint-e-Atif has relevant experience in business analysis and development, which aligns with the job description, but lacks explicit mention of lead generation expertise, affecting the Experience macro score.",
+            "The resume shows familiarity with SQL but doesn't mention Power BI or Tableau, so the micro score for Business Intelligence Tools is lower.",
+            "There is no explicit indication of CRM usage hence a low CRM and Data Management score.",
+            "The candidate has project management experience, but not extensively detailed or emphasized in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm and data management",
+                    "score": 4
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 2
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 3.7700000000000005
+            }
+        },
+        "personal_info": {
+            "name": "Izma Bint-e-Atif",
+            "email": "izma.b.atif@gmail.com",
+            "phone": "+92 331 0483113",
+            "current_position": "Business Development Executive",
+            "current_company": "Nextbridge Pvt. Ltd.",
+            "employment_start_date_current_company": "2021",
+            "first_company_start_date": "2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "business intelligence tools (power bi, sql, tableau)": 16,
+            "crm and data management": 39,
+            "digital marketing skills": 28,
+            "project management": 17
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "3+ years of experience in lead generation or business intelligence",
+            "Proficiency in at least one programming language",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "Bachelor's degree in Computer Science, Business, or a related field"
+        ],
+        "resume": "IZMA BINT-E-ATIF\nBUSINESS ANALYST\nCritical thinking\nMaintaining confidentiality\nQuality control\nDistribution\nOrganizational skills\nTroubleshooting\nStatistical analysis\nVerbal/virtual communication\nStrong analytical skills\nAssist technical product management\nCircuit designingSKILLS+92 331 0483113\nHouse  No. 530, Block J3, Johar\nTown, Lahore izma.b.atif@gmail.comStrong background working with internal and external clients to gather\nand elicit requirements, provide analysis, assist with creating user\ninterfaces, and develop implementation timelines in agile environment.\nSeeking a challenging opportunity where I will be able to utilize my\nstrong organizational skills, educational background, and ability to work\nwell with people, which will allow me to grow personally and\nprofessionallyCAREER PROFILE\nEXPERIENCES\nNextbridge Pvt. Ltd. \nRed Communication Arts Pvt. Ltd2021 - Present\n2020 - 2021BUSINESS DEVELOPMENT EXECUTIVE\nConduct market analyses for both product lines and the overall\nprofitability of the business\nAssisting with the planning and execution of test plans for integration\nand process testing, including the raising of fault logs.\nDevelop project concepts and maintain optimal workflow.\nStrong communication and interpersonal skills for building meaningful\nrelationships with clients. \nAttention to detail for honing in on each necessary task. \nAdvanced decision-making and problem-solving skills.\nJUNIOR BUSINESS ANALYST\nAnalyze and prioritize client requirements. \nTranslating client requirements into specified project briefs by\nunderstanding software development life cycle.\nWorking directly with users/clients and understanding business problems,\nlaying out solution and presenting back to key stakeholders\nCreating a detailed business analysis, outlining problems, opportunities\nand solutions for a business\nProcess analysis and production of agreed artefact suitable for internal\nuse and/or client review and sign off.EDUCATION\nFASTNUCES2020 - BACHELOR IN\nELECTRICAL ENGINEERING\nQueen Mary College for Women2015 - FSC PRE ENGINEERING\nSacred Heart Convent School2013 - MATRICULATIONBalsamiq \nMatlab \nAuto CAD\nSketchUP \nVisual Studio SOFTWARE \nPROJECTS\n3D PRINTER WITH CARTESIAN MECHANISM (FYP) \nDesigned a 3D printer with Cartesian mechanism using Fused Deposition\nModeling (FDM) technology following Additive Manufacturing Method. \nEnglish\nUrduLANGUAGESMicrosoft Office \nProgramming languages (C++, C, Assembly language,\nOOP) \nSQL \nCircuit designing, PLC\nHOSPITAL MANAGEMENT PROGRAM\nDesigned an OPD (Outdoor Patient Department) code in C++.\nREFERENCES\nCan be furnished upon requirement.Business Development\nBusiness Analysis \nLeadership \nProblem-solving \nNegotiation \nCritical Thinker \nStrong Presentation & Negotiation Skills COMPETENCIES\nTravelling\nSports \nWriting \nWatching MoviesINTERESTS &\nHOBBIES"
+    },
+    "details": {
+        "name": "Izma Bint-e-Atif",
+        "number": "923310483113",
+        "skills": [
+            "Circuit designing",
+            "Balsamiq",
+            "Matlab",
+            "Auto CAD",
+            "SketchUP",
+            "Visual Studio",
+            "C++",
+            "C",
+            "Assembly language",
+            "OOP",
+            "SQL",
+            "PLC"
+        ],
+        "email_id": "izma.b.atif@gmail.com",
+        "location": "House No. 530, Block J3, Johar Town, Lahore",
+        "projects": [
+            {
+                "title": "3D Printer with Cartesian Mechanism",
+                "description": "Designed a 3D printer with Cartesian mechanism using Fused Deposition Modeling (FDM) technology following Additive Manufacturing Method."
+            },
+            {
+                "title": "Hospital Management Program",
+                "description": "Designed an OPD (Outdoor Patient Department) code in C++."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "FASTNUCES",
+                "degree_title": "Bachelor in Electrical Engineering"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "Queen Mary College for Women",
+                "degree_title": "FSC Pre Engineering"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Sacred Heart Convent School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/izma-bint-e-atif",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Izma Bint-e-Atif is a skilled business analyst with a strong background in electrical engineering and extensive experience in market analysis, project management, and software development. She has demonstrated proficiency in various programming languages and software tools, contributing to successful project outcomes in agile environments. Her technical expertise is complemented by her ability to effectively communicate and collaborate with clients and stakeholders.",
+        "employment_history": [
+            {
+                "details": "Conduct market analyses for both product lines and the overall profitability of the business. Assisting with the planning and execution of test plans for integration and process testing, including the raising of fault logs. Develop project concepts and maintain optimal workflow.",
+                "end_date": "Present",
+                "location": "Nextbridge Pvt. Ltd.",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2021",
+                "company_name": "Nextbridge Pvt. Ltd."
+            },
+            {
+                "details": "Analyze and prioritize client requirements. Translating client requirements into specified project briefs by understanding software development life cycle. Working directly with users/clients and understanding business problems, laying out solution and presenting back to key stakeholders. Creating a detailed business analysis, outlining problems, opportunities and solutions for a business. Process analysis and production of agreed artefact suitable for internal use and/or client review and sign off.",
+                "end_date": "12-2021",
+                "location": "Red Communication Arts Pvt. Ltd.",
+                "job_title": "Junior Business Analyst",
+                "start_date": "01-2020",
+                "company_name": "Red Communication Arts Pvt. Ltd."
+            }
+        ]
+    }
+}

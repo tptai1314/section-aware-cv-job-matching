@@ -1,0 +1,179 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a strong background in business development and operations management but lacks specified marketing and SEO experience from the job description.",
+            "Leadership experience is evident from roles managing IT/MIS teams and supervising operations at previous companies.",
+            "No direct mention of SEO strategy development, limiting relevancy to the 'SEO Strategy Development' skill in the job description.",
+            "Candidate holds a Master's degree, fulfilling the educational requirement, but lacks mention of strong analytical skills as explicitly required."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 4
+                },
+                {
+                    "criteria": "ppc campaigns",
+                    "score": 3
+                },
+                {
+                    "criteria": "client engagement",
+                    "score": 7
+                },
+                {
+                    "criteria": "market analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong analytical and strategic thinking skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.3100000000000005,
+                "micro_scores": 5.4
+            }
+        },
+        "personal_info": {
+            "name": "Mubashar Fayyaz",
+            "email": "mubashar.fayyaz@yahoo.com",
+            "phone": "+92 331 4393771",
+            "current_position": "Business Development Officer",
+            "current_company": "Fastech Pvt. Ltd",
+            "employment_start_date_current_company": "01-2019",
+            "first_company_start_date": "12-2007",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/mubasharfayyaz"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 31,
+            "experience": 34,
+            "client relationship management": 35
+        },
+        "micro_dict": {
+            "seo strategy development": 26,
+            "ppc campaigns": 2,
+            "client engagement": 35,
+            "market analysis": 37
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field",
+            "Strong analytical and strategic thinking skills"
+        ],
+        "resume": "Mubashar Fayyaz\nBusiness Development & Operation Management, B2B, B2C, IT, Training\nLahore\nmubashar.fayyaz@yahoo.com\n+92 331 4393771\nProfessional experience in Business Development & Management, Operations Management, Technical\nleadership, and Sales supervision. Valuable for start-up and ongoing business operations; excellent\nability to develop new projects. Well-equipped for managing multi-departments like HR, Sales, Finance,\nand Procurement. IT management experience is added advantage to analyzing business functions and\ndeploying new technologies. Strong analytical and problem-solving skills with the ability to work with\nlimited supervision.\nWork Experience\nBusiness Development Officer\nFastech Pvt. Ltd  - Lahore\nJanuary 2019 to Present\n\u2022 My core responsibilities are to grab projects from Upwork, freelancer, etc.\n\u2022 Communication with clients.\n\u2022 Generating leads and sharing lead assignments with our on-shore department.\n\u2022 Work with our sales department to convert it into an opportunity leading to the sale's closure.\n\u2022 Stay in touch and follow up rigorously with the prospect till the sale's closure.\n\u2022 We are meeting weekly KPIs and adding them to the CRM.\n\u2022 Training newcomers of the Inside Sales Department from data scrapping to lead generating and from\ndata research to reporting.\n\u2022 Meeting the yearly target of sales closure.\n\u2022 Follow-ups with the clients.\n\u2022 Understand the project scope.\n\u2022 Assigning the task to the assistant and BDE.\n\u2022 Decide the terms & elucidate the requirements for project cost and time frame.\n\u2022 Handling Upwork and freelancer accounts.\n\u2022 Managing business and Leads using Hubspot.\n\u2022 Generate Leads through Linkedin Sales navigator, Angellist, etc.\n\u2022 Running Email campaign through Appolo.io\nManager IT & Operations\nAgribusiness Support Fund\nSeptember 2013 to January 2019\n\u2022 IT and operations management and projects lead to facilitate stakeholders.\n\u2022 Budgeting and cost analysis for IT infrastructure and systems deployment, preparing scope of work.\n\u2022 Requirements gathered and implemented multiple solutions like ERP, eCommerce, LMS, and Web\napplications.\n\u2022 Supervise IT/MIS teams for smooth IT operations including LAN/WAN and security.Manager Operations\nAgribusiness Support Fund\nOctober 2010 to September 2013\n\u2022 Prepare computer-generated reports, presentations, minutes of meetings, and conduct research for\ninformation.\n\u2022 Meeting arrangements, taking care of foreign travel arrangements including security.\n\u2022 Procurement committee member experience of US and PPRA rules.\n\u2022 Vendor contracting (SLA) as per organizational needs.\n\u2022 Worked with the HR department to prepare job descriptions, position announcements, and staff hiring.\nManager Operations/Business Development\nWateen Telecom\nDecember 2007 to September 2010\n\u2022 Business development and management defined project scope and set goals, and deliverables for\nbusiness growth.\n\u2022 Planned, and implemented business promotional activities to accomplish set goals.\n\u2022 Team supervision and achieved more than 6000 customers on board.\n\u2022 Sales management for four-point of sales (POS), followed the hierarchy of sales managers and team\nmembers to achieve set targets.\n\u2022 Create a roadmap to success for managing dealers and distributors to ensure the functional\neffectiveness of the business.\n\u2022 Prepare landed costs, set a budget, and target for sustainability and business profitability.\n\u2022 Staff hiring and training on technology such as WiMAX, TCP/IP, VOIP configuration and troubleshooting,\nCRM Portal, including financial record management system.\nEducation\nMaster of Sciences in IT\nPreston University\n2005\nB. Com\nPunjab College of Commerce\n1996\nSkills\n\u2022Project Management (3 years)\n\u2022Operations Management (4 years)\n\u2022Procurement (2 years)\n\u2022Business Development & Management (5 years)\n\u2022Sales & Customer Services (3 years)\n\u2022Staff Hiring & Training (4 years)\n\u2022Inventory Control (3 years)\n\u2022Budgeting (3 years)\u2022Process Improvement (5 years)\n\u2022Management (5 years)\n\u2022Payroll (3 years)\n\u2022Business Analysis (3 years)\n\u2022ASANA (Less than 1 year)\n\u2022SQL (3 years)\n\u2022Agile (Less than 1 year)\n\u2022VoIP (2 years)\n\u2022TCP/IP (3 years)\n\u2022Bidding (4 years)\n\u2022Lead Generation (4 years)\n\u2022Proposal Writing (4 years)\nLanguages\n\u2022English - Fluent\n\u2022Chinese - Beginner\n\u2022Urdu - Fluent"
+    },
+    "details": {
+        "name": "Mubashar Fayyaz",
+        "number": "923314393771",
+        "skills": [
+            "Project Management",
+            "Operations Management",
+            "Procurement",
+            "Business Development & Management",
+            "Sales & Customer Services",
+            "Staff Hiring & Training",
+            "Inventory Control",
+            "Budgeting",
+            "Process Improvement",
+            "Management",
+            "Payroll",
+            "Business Analysis",
+            "ASANA",
+            "SQL",
+            "Agile",
+            "VoIP",
+            "TCP/IP",
+            "Bidding",
+            "Lead Generation",
+            "Proposal Writing"
+        ],
+        "email_id": "mubashar.fayyaz@yahoo.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2005",
+                "university": "Preston University",
+                "degree_title": "Master of Sciences in IT"
+            },
+            {
+                "end_date": "06-1996",
+                "university": "Punjab College of Commerce",
+                "degree_title": "B. Com"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mubasharfayyaz",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Mubashar Fayyaz is a skilled professional in Business Development and Operations Management with extensive experience in IT and training. He has a proven track record in managing multi-departmental functions and leading technical projects, demonstrating a strong ability to drive business growth and operational efficiency.",
+        "employment_history": [
+            {
+                "details": "My core responsibilities are to grab projects from Upwork, freelancer, etc. Communication with clients. Generating leads and sharing lead assignments with our on-shore department. Work with our sales department to convert it into an opportunity leading to the sale's closure. Stay in touch and follow up rigorously with the prospect till the sale's closure. We are meeting weekly KPIs and adding them to the CRM. Training newcomers of the Inside Sales Department from data scrapping to lead generating and from data research to reporting. Meeting the yearly target of sales closure. Follow-ups with the clients. Understand the project scope. Assigning the task to the assistant and BDE. Decide the terms & elucidate the requirements for project cost and time frame. Handling Upwork and freelancer accounts. Managing business and Leads using Hubspot. Generate Leads through Linkedin Sales navigator, Angellist, etc. Running Email campaign through Appolo.io",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Officer",
+                "start_date": "01-2019",
+                "company_name": "Fastech Pvt. Ltd"
+            },
+            {
+                "details": "IT and operations management and projects lead to facilitate stakeholders. Budgeting and cost analysis for IT infrastructure and systems deployment, preparing scope of work. Requirements gathered and implemented multiple solutions like ERP, eCommerce, LMS, and Web applications. Supervise IT/MIS teams for smooth IT operations including LAN/WAN and security.",
+                "end_date": "01-2019",
+                "location": "Lahore",
+                "job_title": "Manager IT & Operations",
+                "start_date": "09-2013",
+                "company_name": "Agribusiness Support Fund"
+            },
+            {
+                "details": "Prepare computer-generated reports, presentations, minutes of meetings, and conduct research for information. Meeting arrangements, taking care of foreign travel arrangements including security. Procurement committee member experience of US and PPRA rules. Vendor contracting (SLA) as per organizational needs. Worked with the HR department to prepare job descriptions, position announcements, and staff hiring.",
+                "end_date": "09-2013",
+                "location": "Lahore",
+                "job_title": "Manager Operations",
+                "start_date": "10-2010",
+                "company_name": "Agribusiness Support Fund"
+            },
+            {
+                "details": "Business development and management defined project scope and set goals, and deliverables for business growth. Planned, and implemented business promotional activities to accomplish set goals. Team supervision and achieved more than 6000 customers on board. Sales management for four-point of sales (POS), followed the hierarchy of sales managers and team members to achieve set targets. Create a roadmap to success for managing dealers and distributors to ensure the functional effectiveness of the business. Prepare landed costs, set a budget, and target for sustainability and business profitability. Staff hiring and training on technology such as WiMAX, TCP/IP, VOIP configuration and troubleshooting, CRM Portal, including financial record management system.",
+                "end_date": "09-2010",
+                "location": "Lahore",
+                "job_title": "Manager Operations/Business Development",
+                "start_date": "12-2007",
+                "company_name": "Wateen Telecom"
+            }
+        ]
+    }
+}

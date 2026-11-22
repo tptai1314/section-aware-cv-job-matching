@@ -1,0 +1,163 @@
+{
+    "output": {
+        "justification": [
+            "Usama did not graduate from a leading business school like FAST NUCES or LUMS, which affects leadership potential assumptions.",
+            "His current role does not appear to involve formal leadership but shows some experience as a Business Development Executive.",
+            "No mention of specific proficiency in managing extensive sales cycles though he has sales experience.",
+            "The resume reflects a reasonable command of MS Office, crucial for the role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales process management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.36,
+                "micro_scores": 6.0
+            }
+        },
+        "personal_info": {
+            "name": "Usama Ali",
+            "email": "usamaa017@gmail.com",
+            "phone": "03041281062, 03319746862",
+            "current_position": "Business Development Executive",
+            "current_company": "Arhamsoft Pvt Ltd",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 50,
+            "experience": 43,
+            "strategic thinking": 7
+        },
+        "micro_dict": {
+            "sales process management": 100
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office Suite",
+            "Proven track record in managing complex sales cycles",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "5+ years of experience in business development or a related role"
+        ],
+        "resume": "Usama Ali  \nA Block, PIA Colony, Lahore  \nCell: 03041281062,  03319746862  \nEmail: usamaa017@gmail.com    \nOBJECTIVE  \nSeeking a challenging and growth -oriented position in a well -reputed organization, \nwhere I can make an effective use of my knowledge and capabilities, to utilize my \ntalent, experience and qualification in a most effective manner towards building up a \ncareer in corporate.   \nPERSONAL DETAIL    \n Father\u2019s Name  : Muhammad Nawaz  \n Date of birth  : 21-02-1995  \n CNIC No.  : 36201 -8598268 -9 \n Domicile  : Lodhran (Punjab)  \n Nationality  : Pakistani  \n Religion  : Islam  \n Marital Status  : Single  \n Gender  : Male  \nQUAL  FICATION     \n DEGREE   CGPA /DIVISION  YEAR  BOARD /UNIVERSITY  \n B.S ( IT )   CGPA (3.67/4.00)  2018  BZU Multan  \n F.S.C   2nd   division  2013  BISE Multan  \n Matric  1st division  2011  BISE Multan  \nExperience   \n \n\u25cf Business Development Executive Arhamsoft Pvt Ltd ( Present)  \n\u25cf Sales Executive Mindbridge Pvt Lahore  \n\u25cf  Govt  Post Graduate College, Dunyapur, Lodhran  \n\u25cf Visiting Lecturer Govt Emerson College Multan  \n\u25cf IELTs Instructor at ACE School of Languages, Multan  \n \n\u25cf Amazon Product Research and Manager FBA.  \n\u25cf Amazon VA at Techtiks Multan  \n\u25cf Associate Producer 24 News HD.  \n\u25cf Former Th eatre Arts Director at Arts Council Multan  \n\u25cf Former Script Writer at Arts Council Multan  \n\u25cf Former Content Producer at Spotlights Productions  \n\u25cf Former Assistant Director MAATI TV Lahore  \n\u25cf Worked for various Web TVs.  \n\u25cf Worked for Utility Masters as Call Center Ag ent.  \n\u25cf Run own YouTube Channels including the Vlogs Shooting and Content Creation.  \n\u25cf Worked as Public awareness speaker in British Council  \n\u25cf Top Debater Multan Division 2016 -2017 in CM Punjab Competition.  \n\u25cf Announcer at Radio Pakistan Multan.  \n\u25cf Worked as a volunteer Media Coordinator with Punjab Police   \n\u25cf Worked as Content Producer at MWeb IT Solutions, Multan  \n\u25cf Worked as  Content Manager at Sharpc ore Inc, Multan  \n\u25cf Worked as Social Media Marketer at SE Software's Technologies, Multan  \n\u25cf Intellectual  SKILLS  \n\u25cf Fluency in English Language  \n\u25cf Influential public speaking and dealing.            \n\u25cf Remarkable marketing and sales potential.  \n\u25cf Working under pressure   \n\u25cf Team work and coordination  \n\u25cf Great writing experience and potential  \n\u25cf Creative and out of the box innovative thinking  \n\u25cf Problem solving/ Troubleshooting   \n\u25cf IELTS with 7.5 bands  \n\u25cf COMPUTER SKILLS  \n\u25cf Windows  \n\u25cf Android  \n\u25cf Email  \n\u25cf Internet Use  \n\u25cf MS Office (Word, PowerPoint)  \n\u25cf Good Knowledge about Computer Application   \n\u25cf Web design   \u25cf Web development   \n\u25cf Database Management   \n\u25cf Networking expert  \n\u25cf (U.S.P)  \n\u25cf Critically Analysis of every situation   \n\u25cf Reading Books & Newspapers  \n\u25cf Discovering and research  \n\u25cf LANGUA GES   \n\u25cf English  \n\u25cf Urdu  \n\u25cf Punjabi   \n\u25cf Sariki  \n      \n \n REFERENCE  \nWill be provided on demand.   \n  "
+    },
+    "details": {
+        "name": "Usama Ali",
+        "number": "03041281062",
+        "skills": [
+            "Windows",
+            "Android",
+            "Email",
+            "Internet Use",
+            "MS Office (Word, PowerPoint)",
+            "Web design",
+            "Web development",
+            "Database Management",
+            "Networking expert"
+        ],
+        "email_id": "usamaa017@gmail.com",
+        "location": "A Block, PIA Colony, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "BZU Multan",
+                "degree_title": "B.S ( IT)"
+            }
+        ],
+        "achievements": [
+            "Top Debater Multan Division 2016 -2017 in CM Punjab Competition"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/usamaali",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Usama Ali is a skilled IT professional with a strong educational background in Information Technology and extensive experience in various technical roles. He has demonstrated proficiency in web design, development, and database management, along with a solid understanding of networking and computer applications.",
+        "employment_history": [
+            {
+                "details": "Business Development Executive",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2022",
+                "company_name": "Arhamsoft Pvt Ltd"
+            },
+            {
+                "details": "Sales Executive",
+                "end_date": "12-2021",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "01-2021",
+                "company_name": "Mindbridge Pvt"
+            },
+            {
+                "details": "Visiting Lecturer",
+                "end_date": "12-2020",
+                "location": "Lodhran",
+                "job_title": "Visiting Lecturer",
+                "start_date": "01-2020",
+                "company_name": "Govt Post Graduate College, Dunyapur"
+            },
+            {
+                "details": "IELTS Instructor",
+                "end_date": "12-2019",
+                "location": "Multan",
+                "job_title": "IELTS Instructor",
+                "start_date": "01-2019",
+                "company_name": "ACE School of Languages"
+            },
+            {
+                "details": "Amazon Product Research and Manager FBA",
+                "end_date": "12-2018",
+                "location": "Multan",
+                "job_title": "Amazon Product Research and Manager FBA",
+                "start_date": "01-2018",
+                "company_name": "Techtiks Multan"
+            }
+        ]
+    }
+}

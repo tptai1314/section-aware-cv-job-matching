@@ -1,0 +1,172 @@
+{
+    "output": {
+        "justification": [
+            "Fahad Ahmed holds a leadership position as Head of Sales & Marketing, exhibiting leadership through team management and strategic planning, thus scoring 8.",
+            "Relevant experience aligns well with the Business Development role; experience in sales, strategy, and client relations results in a score of 7.",
+            "No specific mention of Excel skills or usage; hence, Excel scores a 5.",
+            "Frequent involvement in strategizing and analytical tasks suggests a basic Python knowledge/skills, but not explicitly mentioned, scoring a 5."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 8
+                },
+                {
+                    "criteria": "seo",
+                    "score": 6
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.0,
+                "micro_scores": 6.300000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Fahad Ahmed",
+            "email": "fahadahmed_49@yahoo.com",
+            "phone": "+92 -323-8880780",
+            "current_position": "Head of Sales & Marketing",
+            "current_company": "IT Devices Online",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "09-2016",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 53,
+            "strategic planning": 47
+        },
+        "micro_dict": {
+            "market research": 30,
+            "sales strategy": 0,
+            "seo": 34,
+            "data analysis": 36
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Fahad Ahmed  \nAddress 84 -C Chaudhary Colony Samanabad  \nLahore Pakistan \u00b7  \nPhone +92 -323-8880780  \nEmail \u00b7 fahadahmed_49@yahoo.com  \n  \nSKILLS  \nAn innovative ilk of mind that can take initiatives to make world acclimatize with \nthe new place and new ideas...a fresh mind with a crenulated artisanship looking \nforward to hoax its skills.  \n  \nEXPERIENCE  \n \nIT Devices Online, Lahore \u2013  Head of Sales & Mark eting   \n \nJANUARY 2021 \u2013  Present  \nIT Devices Online is an Authorized Reseller of IT products In USA with a name of HNS technology and Tech 4 \nDrive.  \n\u2022 generate leads and cold call prospective customers  \n\u2022 meet with customers/clients face to face or over the phone  \n\u2022 foster and develop relationships with customers/clients  \n\u2022 understand the needs of your customers and be able to respond effectively with a plan of how to meet \nthese \n\u2022 think strategically -  seeing the bigger picture and setting aims and objectives in order to develop and \nimprove the business  \n\u2022 work strategically -  carrying out necessary planning in order to implement operational changes  \n\u2022 draw up client contracts -  depending on the size of company, this task may be completed by someone \nelse or agreements may not be as formal  \n\u2022 have a good understanding of the businesses' products or services and be able to advise others about \nthem  \n\u2022 Making Vendor Strategies  \n\u2022 Making online Brand Strategy for our E -Commerce websites  \n\u2022 Make Marketing Strategy.  \n \n \n \n \nRiaz Metals (Cherry POT) \u2013  Sales and Marketing Manager  \n \nJANUARY 2018 \u2013  Present  \nRiaz Metals is a Manufacturer of Silver and nonstick cookware in Gujranwala  \n\u2022 My responsibilities are to develop, establish and maintain marketing and sales  strategies to meet \norganizational objectives. Effective management of the marketing, advertising and promotional \nactivities of the organization is also part of my job. Works directly with managing director of the \ncompany to handled different project of the company with a total client base of 1000 outl ets. \n\u2022 Works with marketing, advertising, merchandising and account executives to develop strategies that \ngenerated sales of new or selected products.  \n\u2022 Co-produced and managed annual budgets. Provided budget management to accounts, ensuring that \nkey items wer e advertised; wrote and presented marketing briefs on ROI for senior executives.  \n\u2022 Designed and coordinated special onsite events and incentive programs to promote brand awareness \nand increase sales. Consistently developed successful programs within strict deadlines and budgets.  \n\u2022 Negotiated with visual and merchant teams for appropriate space and shop enhancements to improve \nflow and increase sales.  \n\u2022 Synthesized sales information; collaborated with store planning and account executives to provide ROI \nanalysis to key internal partners to determine viability of marketing, advertising and visual programs.  \n\u2022 Achieved increased quarterly revenues within first year of launching android app for Customers . \nEstablished Online Solutions as the leading provider of android app.  \n\u2022 Team Leadership  \n\u2022 Trained merchandise coordinators and sales associates to implement merchandising and visual \nstrategies to support company -wide, on -floor programs.  \n\u2022 Coached and directly managed Retail Marketing Specialist to ensure accurate budget management, \ndaily operations and prompt resolution of issues. Provide motivation and evaluation to foster staff \ndevelopment  \n \n \n \nBlack Stone IT, Lahore -  Sales & Procurement Manager   \n \nDECEMBER 2019 -  2021 \n Black Stone IT is IT reseller Company In UK with name of A pex IT devices and we sell and purchase all kind of IT    \nProducts  \n\u25cf To do online IT parts sales & purchase in USA, UK, UAE, CHINA  \n\u25cf Provide Solutions related IT products.  \n\u25cf Sales report  \n\u25cf Purchase IT parts from leading distributers and from China as well  \n\u25cf To provide the services to customers  \n\u25cf Account Handling  \n\u25cf Make relationships with companies  \u25cf  Posting in ERP System.  \n\u25cf Make SO and POs  \n\u25cf Sales & Purchase on Online platforms Like EBAY AMAZON and other online portals related to IT \nproducts.  \n\u25cf Make Strategies related sales  \n\u25cf Make strategies how to do online marketing \n \n \nSabir\u2019s Poultry, Lahore -  Accounts Executive   \nSEPTEMBER 2016 - DECEMBER 2018  \n  \nWorked as Accounts Officer at Sabirs\u2019 Poultry, 10- Shershah Block New Garden  \nTown, Lahore, Pakistan. Sabirs\u2019 Poultry in one of the group organizations of the \nSabirs\u2019 Group of companies. It is an Association of Persons (AOP) Which is \ncomprised of Poultry Breeding Farms, Broiler Farms, Hatcheries, Feed Mill and  \nMeat Processing Plant Sabroso .  \n  \n\u25cf Timely preparatio n of financial statement along with analytical  \n\u25cf Review of significant financial ratio.  \n\u25cf Supervise the feed mill purchase  \n\u25cf Party dealings making of payment  \n\u25cf Handling of feed mill cash  \n\u25cf Intercompany reconcile  \n\u25cf To conduct the internal audit and coordinate with external auditor ensuring \nsmooth  \n\u25cf Completion  of Annual Audit.  \n\u25cf Maintaining record of long -term payables receivable and preparation of \nSchedule of  \n\u25cf Payments  and Aging of Receivables.  \n\u25cf POSTINGS IN ERP SYSTEM  \n\u25cf SEEKING FEED MILL PRODUCTION  \n\u25cf SALES OF FEED MILL  \n\u25cf HANDLING FEED MILL PURCHASES  \n   \nBank Alfalah , Lahore -  Internee  \n  \nNishat Linen, Lahore - Internee    \n  \nEDUCATION  \nUniversity of Engineering and Technology, Lahore -  MBA (1.5) Major in \nMarketing & Sales  \nSEPTEMBER 2019 - February 2021  \n  \nGovt College University, Lahore -  B.com (Hons) Major in Accounting & \nFinance  \n2013 - 2017  \n  \nSuperior Group of Colleges, Lahore -  I.com  \n2011 - 2012  \n  \nCity Cadet School, Lahore -  Matriculation  \n2009-  2010  \n  \nKey Skills  \n\u25cf MS Office (Excel, Word, Power Point)  \n\u25cf Operate accounting software  \n\u25cf Oracle, peach tree, Sage -50  \n\u25cf To make Online sales  \n\u25cf Train the new agents  \n\u25cf Making presentations  \nAwards  \n\u25cf LUMS brand ambassador in 2016.  \n\u25cf Getting scholarship in superior group of colleges.  \nLanguages  \n\u25cf ENGLISH \u25cf URDU  \n\u25cf PUNJABI  \n    "
+    },
+    "details": {
+        "name": "Fahad Ahmed",
+        "number": "923238880780",
+        "skills": [
+            "MS Office (Excel, Word, Power Point)",
+            "Oracle",
+            "Peach Tree",
+            "Sage -50"
+        ],
+        "email_id": "fahadahmed_49@yahoo.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "02-2021",
+                "university": "University of Engineering and Technology, Lahore",
+                "degree_title": "MBA (1.5) Major in Marketing & Sales"
+            },
+            {
+                "end_date": "05-2017",
+                "university": "Govt College University, Lahore",
+                "degree_title": "B.com (Hons) Major in Accounting & Finance"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Superior Group of Colleges, Lahore",
+                "degree_title": "I.com"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "City Cadet School, Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [
+            "LUMS brand ambassador in 2016",
+            "Getting scholarship in superior group of colleges"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Fahad Ahmed is a skilled professional with extensive experience in sales and marketing within the IT and manufacturing sectors. He has demonstrated proficiency in various technical skills, including MS Office and accounting software, and has a strong educational background in marketing and finance.",
+        "employment_history": [
+            {
+                "details": "Head of Sales & Marketing at IT Devices Online, responsible for generating leads, developing marketing strategies, and managing client relationships.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Head of Sales & Marketing",
+                "start_date": "01-2021",
+                "company_name": "IT Devices Online"
+            },
+            {
+                "details": "Sales and Marketing Manager at Riaz Metals, focusing on developing marketing strategies and managing promotional activities.",
+                "end_date": "Present",
+                "location": "Gujranwala",
+                "job_title": "Sales and Marketing Manager",
+                "start_date": "01-2018",
+                "company_name": "Riaz Metals (Cherry POT)"
+            },
+            {
+                "details": "Sales & Procurement Manager at Black Stone IT, handling online sales and procurement of IT products.",
+                "end_date": "12-2021",
+                "location": "Lahore",
+                "job_title": "Sales & Procurement Manager",
+                "start_date": "12-2019",
+                "company_name": "Black Stone IT"
+            },
+            {
+                "details": "Accounts Executive at Sabir\u2019s Poultry, responsible for financial statement preparation and internal audits.",
+                "end_date": "12-2018",
+                "location": "Lahore",
+                "job_title": "Accounts Executive",
+                "start_date": "09-2016",
+                "company_name": "Sabir\u2019s Poultry"
+            },
+            {
+                "details": "Internee at Bank Alfalah, gaining experience in banking operations.",
+                "end_date": "",
+                "location": "Lahore",
+                "job_title": "Internee",
+                "start_date": "",
+                "company_name": "Bank Alfalah"
+            },
+            {
+                "details": "Internee at Nishat Linen, gaining experience in retail operations.",
+                "end_date": "",
+                "location": "Lahore",
+                "job_title": "Internee",
+                "start_date": "",
+                "company_name": "Nishat Linen"
+            }
+        ]
+    }
+}

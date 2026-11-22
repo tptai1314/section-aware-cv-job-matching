@@ -1,0 +1,204 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 5 years of experience in marketing, business development, and operations, closely aligning with the job description requirements for experience and strategic roles.",
+            "Proficient in Microsoft Suite and has experience managing accounts and leading teams, suitable for the leadership and process management aspect.",
+            "The candidate's education aligns with the preference for graduates from leading business schools, specifically FAST NUCES.",
+            "Strategic thinking and communication skills are indicated in project management roles and strategic task execution in past job experiences."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 9
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 7
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 8
+                },
+                {
+                    "criteria": "account management",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.9399999999999995,
+                "micro_scores": 7.8500000000000005
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Salman Anjum",
+            "email": "salmanshahzad0712@gmail.com",
+            "phone": "+92-3161175929",
+            "current_position": "Product Manager Marketing",
+            "current_company": "Nishat Chunia n Group",
+            "employment_start_date_current_company": "03-2021",
+            "first_company_start_date": "01-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/muhammad-salman-anjum"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 47,
+            "experience": 47,
+            "strategic thinking": 6
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 18,
+            "sales process management": 33,
+            "negotiation skills": 40,
+            "account management": 9
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Proficiency in Microsoft Office Suite",
+            "Strong negotiation and strategic thinking skills"
+        ],
+        "resume": "Muhammad Salman Anjum  \nEmail:  salmanshahzad0712@gmail.com  \nAddress: 213-M5 Lake City , Lah ore, Pakistan   Mobile:  +92-3161175929  \nCareer Summary  Having  5 years\u2019  experience  in Marketing , Business Development & Operations at a professional \nlevel through different businesses. Expertise in project managing in sales and marketing of \nproducts with good public relations skills , technical and creative writing skills.  Managing \nAccounts of  Ted Ba ker, Forever Collectibles, Ashley  Wilde, My House, Luxotic . Aspiring for \nchallenging assignments in Industry   \nProfile   \nA competent Graduate as well as a versatile professional. Self -motivated and Result Oriented \nwith a successful track record, possess  skills of Self -motivation, Persistence, Persuasive \nCommunication, and ability to think Analytically and Strategically.  \nCore Competencies  \u2756 Skilled in English , Urdu,  Hindi  \nlanguage  \n\u2756 Proficie nt in Microsoft Suite  \n\u2756 Email  Marketing  \n\u2756 Social  Media /SEO /SEM /PPC /Ads  \n\u2756 Funnel Management  \n\u2756 Analytical Skill s \n\u2756 Google WorkSpace  \u2756  \u2756 Oracle /SAP ERP  \n\u2756 SaaS /EfroTech  \n\u2756 Photoshop  \n\u2756 Worked on PO S system  \n\u2756 Video Editing / Making  \n\u2756 Project Management  \n\u2756 Power BI   \nMajor Workshops & \nProfessional Trainings  Participated in numerous Professional Workshops and Training Sessions facilita ted by \nWorkshops  \n \n\u2756 Marketer/ Supply Chain  Professional  \n\u2756 M.S Excel and Word Training  \n\u2756 Professional  Telecommunication Skills  \n\u2756 Professional  Customer Services  \n \n \n \nProfessional Work \nExperience  \n \n \n           \n \n \n  \n         \n  \nProduct  Manager  Marketing  \u2013 (Nishat Chunia n Group Mar 2021 - Present )  \n \nMarketing : \n \n\u2756 Managing Sales account and orders of International Clients  \n\u2756 Pitching orders to clients (U .K, AUS, NZ) with costing and sales pitch, and closing deals \nwhile ensuring future orders using SEO, PPC,  email marketing  \n\u2756 Visual presentation of the software\u2019s  and other tangible products for good pitch  \n\u2756 Cost estimation of the product  \n\u2756 Leading team of up to  8 brilliant people  \n\u2756 Repor ting to seniors\u2019  management in a matrix environment  and leading resources  \n\u2756 Managed and allocated balanced resources with the project for best ut ilization of time and \ncompleting the project successfully  \n\u2756 Explained requirement s for ne w system alterations  while preparing the status , \npresentation s and proje ct visuals for senior m anagemen t, customer an d stakehold ers \n\u2756 Saved up to  2% from  $0.7M PO in a single month by negotiating and smooth workin g \n\u2756 Analyzing researcher using trends to enforce marketing strategies for new products, also \nincreasing customer experience and gathering data from files while increasing customer \nretention by 4% \n\u2756 Engaged with senior management including marketing director to a ttract customer by \nusing organic samples and increase customer orders  through digital marketing  \n\u2756 Worked on Eurotech  most widely used in Pakistan  \n \nExecution : \n   \n \n \u2756 Understands strategic directions expressed by higher management  \n\u2756 Designing and preparing documents  like analysis reports of the order  \n\u2756 Testing functional management of product  \n\u2756 Prices neg otiation with customer  \n\u2756 Check lead time in completion of project  and follow up by team . \n\u2756 Program creation and calculate of ite ms requirements against the  order  \n\u2756 Follow up of payment and update all orders in  oracle  \n\u2756 Executing $ 0.2M purchase orders per month  \n \n       Marketing  Consultant - (HASHAGE -Marketing Agency  Jan 2020- Jan 2021 ) \n \n\u2756 Identifying and crafting main media messages.  \n\u2756 Developing strategies and goals  for supplier to bring them on board . \n\u2756 Executing strategic tasks and monitoring outcomes.  \n\u2756 Preparing reports and marketing presentations , analyzing growth chart, expense chart, flow \nchart for smooth operations . \n\u2756 Producing the necessary marketing materials  to pitch to suppliers/customers  with use of \ndigital platform Facebook, YouTube , LinkedIn, Instagram . \n\u2756 Assisting in ongoing marketing campa igns, doing costing and allocating budget . \n\u2756 Developing and implementing internal brand management strategies.  \n\u2756 Proficient in MS Office/Working knowledge of IT and marketing software ( e.g., CRM  \nsoftware\u2019s  like) \n\u2756 Track and evaluate the ROI/KPI in relation to marketing initiatives  \n\u2756 Brining in client on board of  $0.5M with 20% of marketing expenditure.  \n \n       Internship - (Govt.  Post Graduate College - Principal Office ) \n \n\u2756 Worked in Administration office keeping and maintaining official records  \n\u2756 Working on official state level letters  \n\u2756 Maintain and build relationships with big government clients for working  \nAcademic Qualification   \n\u2756 Masters of Business Administration  from  FAST NUCES 2021  \n\u2756 Graduation (B BA HONS ) from  FAST NUCES 2019  \nAchievements  \u2756 x3 Employee of the Month  - HASHAGE  \n\u2756 Won 1st position for best revenue -generating business  (Lead team of \n12 people and generating Rs.  1.8M in 3 months) - After Imagery \nStudios  \n\u2756 Research Paper Author \u201c How Employee\u2019s creativity mediates the \nrelationship of E -training and Employee\u2019s performance and \nmoderation effect of Employee motivation\u201d  \nCertifications  \u2756  Agile Fundamen tals: Including Scrum  and Kanban -2022  \n\u2756 Foundations of Business  Strategy  \nUniversity of Virginia  \n\u2756 The Fundamentals of Digital  Marketing  \nGoogle Digital Garage  \n\u2756  Financial Literacy Training  Program  \nNational Financial Literacy Program for Youth  \n \nHobbies     Playing Hockey and Cricket. Searching for new technologies in world.  \nPhilanthropy    Assisted  in setting up a small -scale  business for jobless transgender in COVID -19 times  \nReferences   \n   Available on R equest   "
+    },
+    "details": {
+        "name": "Muhammad Salman Anjum",
+        "number": "923161175929",
+        "skills": [
+            "Microsoft Suite",
+            "Email Marketing",
+            "Social Media",
+            "SEO",
+            "SEM",
+            "PPC",
+            "Funnel Management",
+            "Google WorkSpace",
+            "Oracle",
+            "SAP ERP",
+            "SaaS",
+            "Photoshop",
+            "Video Editing",
+            "Project Management",
+            "Power BI"
+        ],
+        "email_id": "salmanshahzad0712@gmail.com",
+        "location": "213-M5 Lake City, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "FAST NUCES",
+                "degree_title": "Masters of Business Administration"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "FAST NUCES",
+                "degree_title": "Graduation (BBA HONS)"
+            }
+        ],
+        "achievements": [
+            "x3 Employee of the Month - HASHAGE",
+            "Won 1st position for best revenue-generating business (Lead team of 12 people and generating Rs. 1.8M in 3 months) - After Imagery Studios"
+        ],
+        "publications": [
+            {
+                "title": "How Employee\u2019s creativity mediates the relationship of E-training and Employee\u2019s performance and moderation effect of Employee motivation",
+                "publication_venue": "Research Paper"
+            }
+        ],
+        "certifications": [
+            {
+                "certification_name": "Agile Fundamentals: Including Scrum and Kanban",
+                "issuing_organization": "Self-Study",
+                "date_of_issuance": "2022"
+            },
+            {
+                "certification_name": "Foundations of Business Strategy",
+                "issuing_organization": "University of Virginia",
+                "date_of_issuance": "2022"
+            },
+            {
+                "certification_name": "The Fundamentals of Digital Marketing",
+                "issuing_organization": "Google Digital Garage",
+                "date_of_issuance": "2022"
+            },
+            {
+                "certification_name": "Financial Literacy Training Program",
+                "issuing_organization": "National Financial Literacy Program for Youth",
+                "date_of_issuance": "2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadsalmananjum",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/muhammadsalmananjum",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Muhammad Salman Anjum is a skilled marketing professional with over 5 years of experience in business development and operations. He has a proven track record in managing sales accounts and executing marketing strategies, demonstrating expertise in various technical tools and software. His achievements include leading successful teams and generating significant revenue in competitive environments.",
+        "employment_history": [
+            {
+                "details": "Managing Sales account and orders of International Clients, pitching orders to clients (U.K, AUS, NZ) with costing and sales pitch, and closing deals while ensuring future orders using SEO, PPC, email marketing.",
+                "end_date": "Present",
+                "location": "Nishat Chunnian Group",
+                "job_title": "Product Manager Marketing",
+                "start_date": "03-2021",
+                "company_name": "Nishat Chunnian Group"
+            },
+            {
+                "details": "Identifying and crafting main media messages, developing strategies and goals for supplier to bring them on board, executing strategic tasks and monitoring outcomes.",
+                "end_date": "01-2021",
+                "location": "HASHAGE - Marketing Agency",
+                "job_title": "Marketing Consultant",
+                "start_date": "01-2020",
+                "company_name": "HASHAGE - Marketing Agency"
+            },
+            {
+                "details": "Worked in Administration office keeping and maintaining official records, working on official state level letters, maintaining and building relationships with big government clients for working.",
+                "end_date": "01-2020",
+                "location": "Govt. Post Graduate College - Principal Office",
+                "job_title": "Internship",
+                "start_date": "01-2019",
+                "company_name": "Govt. Post Graduate College - Principal Office"
+            }
+        ]
+    }
+}

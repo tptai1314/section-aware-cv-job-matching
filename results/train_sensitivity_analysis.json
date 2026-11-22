@@ -1,0 +1,102 @@
+{
+  "dataset": "cnamuangtoun/resume-job-description-fit (train split)",
+  "sample_queries": 50,
+  "sample_candidates": 479,
+  "sample_pairs": 1627,
+  "section_weights_sweep": {
+    "Default (0.40/0.35/0.15/0.10)": {
+      "ndcg@10": 0.6601,
+      "map": 0.693
+    },
+    "Equal (0.25/0.25/0.25/0.25)": {
+      "ndcg@10": 0.6613,
+      "map": 0.6921
+    },
+    "Skills-Heavy (0.60/0.20/0.10/0.10)": {
+      "ndcg@10": 0.6578,
+      "map": 0.6869
+    },
+    "Experience-Heavy (0.20/0.60/0.10/0.10)": {
+      "ndcg@10": 0.6636,
+      "map": 0.6937
+    },
+    "Core Only (0.50/0.50/0.00/0.00)": {
+      "ndcg@10": 0.6578,
+      "map": 0.6898
+    }
+  },
+  "alpha_sweep": {
+    "alpha_0.0": {
+      "alpha": 0.0,
+      "ndcg@10": 0.6626,
+      "map": 0.6952
+    },
+    "alpha_0.2": {
+      "alpha": 0.2,
+      "ndcg@10": 0.6884,
+      "map": 0.7186
+    },
+    "alpha_0.4": {
+      "alpha": 0.4,
+      "ndcg@10": 0.6946,
+      "map": 0.7224
+    },
+    "alpha_0.5": {
+      "alpha": 0.5,
+      "ndcg@10": 0.6951,
+      "map": 0.7193
+    },
+    "alpha_0.6": {
+      "alpha": 0.6,
+      "ndcg@10": 0.6994,
+      "map": 0.7193
+    },
+    "alpha_0.7": {
+      "alpha": 0.7,
+      "ndcg@10": 0.6882,
+      "map": 0.7127
+    },
+    "alpha_0.8": {
+      "alpha": 0.8,
+      "ndcg@10": 0.687,
+      "map": 0.7122
+    },
+    "alpha_1.0": {
+      "alpha": 1.0,
+      "ndcg@10": 0.6601,
+      "map": 0.693
+    }
+  },
+  "beta_sweep": {
+    "beta_0.4": {
+      "beta": 0.4,
+      "ndcg@10": 0.707,
+      "map": 0.721
+    },
+    "beta_0.5": {
+      "beta": 0.5,
+      "ndcg@10": 0.7074,
+      "map": 0.7205
+    },
+    "beta_0.6": {
+      "beta": 0.6,
+      "ndcg@10": 0.7078,
+      "map": 0.7209
+    },
+    "beta_0.7": {
+      "beta": 0.7,
+      "ndcg@10": 0.7054,
+      "map": 0.7238
+    },
+    "beta_0.8": {
+      "beta": 0.8,
+      "ndcg@10": 0.7009,
+      "map": 0.7238
+    },
+    "beta_1.0": {
+      "beta": 1.0,
+      "ndcg@10": 0.6994,
+      "map": 0.7193
+    }
+  }
+}

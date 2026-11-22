@@ -1,0 +1,50 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "## Job Title: Team Lead - Electronics Engineering\n\n**Location**: [Fictional City], [Country]\n\n**Company Overview**:\nJoin **ElectroInnovate Technologies**, a leading firm committed to driving excellence in electronic systems innovation. We are seeking a dynamic leader to join our engineering department as a Team Lead, where you will play a crucial role in steering our technical teams and spearheading strategic initiatives.\n\n**Key Responsibilities**:\n- Lead and oversee the engineering department's strategic initiatives to ensure optimal performance.\n- Coordinate entire project elements, including design, quality planning, and installation.\n- Ensure efficient resource allocation and consistently deliver successful projects.\n- Foster a collaborative, innovative, and inclusive team environment.\n- Provide high-level strategic direction and mentorship to engineering teams.\n- Develop and implement effective operational strategies to improve quality of work and team efficiency.\n\n**Key Skills**:\n- Advanced electronic circuit and PCB design skills.\n- Strong leadership and team management capabilities.\n- Excellent communication and interpersonal skills essential for strategic collaboration.\n- Solid understanding of embedded systems and applications.\n- Proficiency in state-of-the-art engineering software and methods.\n\n**Why Join Us?**\n- Work in a challenging yet rewarding environment focused on innovation and continuous learning.\n- Collaborate with a talented team committed to achieving technological excellence.\n- Competitive salary and benefits package, along with opportunities for career advancement.\n\n**Employment Type**: Full-Time\n\n**Contact Information**: careers@electroinnovate.com",
+        "macro_dict": {
+            "leadership": 30,
+            "technical expertise": 70
+        },
+        "micro_dict": {
+            "analog circuit design": 22,
+            "pcb design": 10,
+            "embedded systems": 11,
+            "team management": 11,
+            "communication skills": 16,
+            "internet of things": 30
+        },
+        "additional_info": "At ElectroInnovate Technologies, we value candidates from top engineering universities globally. We support relocation for the right candidates and offer comprehensive onboarding programs. All candidates undergo a rigorous interview process, including technical assessments and behavioral interviews to ensure a perfect fit for our team.",
+        "minimum_requirements": [
+            "Strong ability in managing and leading engineering teams",
+            "10+ years of experience in technical leadership roles",
+            "Proven expertise in electronic circuit design and embedded systems"
+        ],
+        "resume": "## Job Title: Team Lead - Electronics Engineering\n\n**Location**: [Fictional City], [Country]\n\n**Company Overview**:\nJoin **ElectroInnovate Technologies**, a leading firm committed to driving excellence in electronic systems innovation. We are seeking a dynamic leader to join our engineering department as a Team Lead, where you will play a crucial role in steering our technical teams and spearheading strategic initiatives.\n\n**Key Responsibilities**:\n- Lead and oversee the engineering department's strategic initiatives to ensure optimal performance.\n- Coordinate entire project elements, including design, quality planning, and installation.\n- Ensure efficient resource allocation and consistently deliver successful projects.\n- Foster a collaborative, innovative, and inclusive team environment.\n- Provide high-level strategic direction and mentorship to engineering teams.\n- Develop and implement effective operational strategies to improve quality of work and team efficiency.\n\n**Key Skills**:\n- Advanced electronic circuit and PCB design skills.\n- Strong leadership and team management capabilities.\n- Excellent communication and interpersonal skills essential for strategic collaboration.\n- Solid understanding of embedded systems and applications.\n- Proficiency in state-of-the-art engineering software and methods.\n\n**Why Join Us?**\n- Work in a challenging yet rewarding environment focused on innovation and continuous learning.\n- Collaborate with a talented team committed to achieving technological excellence.\n- Competitive salary and benefits package, along with opportunities for career advancement.\n\n**Employment Type**: Full-Time\n\n**Contact Information**: careers@electroinnovate.com"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "output": {
+        "justification": [
+            "Leadership experience is evident from roles as Team Leader of Polo Club and General Secretary of Business Management Club, though not recently, hence a moderate score.",
+            "Multiple roles in sales and customer relations, aligning with the job's client relations focus, though not direct business development, hence a slightly below-high score.",
+            "Lead Generation is directly mentioned with prospecting roles in current and previous jobs, indicating high competency.",
+            "CRM Systems are mentioned with hands-on experience, suggesting proficiency.",
+            "Market Research is not explicitly detailed in practice, though mentioned in educational projects; applicability to job is minimal, leading to a low score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 9
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 8
+                },
+                {
+                    "criteria": "market research",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0600000000000005,
+                "micro_scores": 7.01
+            }
+        },
+        "personal_info": {
+            "name": "Ahmed Bin Tariq",
+            "email": "abtariq110@gmail.com",
+            "phone": "+92320 -4103609",
+            "current_position": "Assistant Manager Customer Relations",
+            "current_company": "BMW \u2013 Dewan Motors Pvt Ltd",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "02-2015",
+            "urls": [
+                {
+                    "website_name": "LinkedIn Profile",
+                    "url": "https://www.linkedin.com/in/ahmed-bin-tariq-26273816a"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 44,
+            "experience": 6,
+            "client relations": 50
+        },
+        "micro_dict": {
+            "lead generation": 46,
+            "crm systems": 25,
+            "market research": 29
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "5+ years of relevant experience in business development"
+        ],
+        "resume": "1   \n \nAHMED BIN TARIQ  \nAddress : House No 75 Block  B Tajpura scheme Mughal Pura, Lahore  \nCell: +92320 -4103609 | Email ID : abtariq110@gmail.com  \nDate of Birth : 29/08/1993  \nLinkedIn Profile : https://www.linkedin.com/in/ahmed -bin-tariq -26273816a  \n \n \nEDUCATION & QUALIFICATIONS  \n \n1. Master of  Business  Administration  Continue  \nLahore Garrison University  \n2. Bachelors  in Business  Administration  (Honors)  Oct 2016  \nLahore Garrison University  \n3. Intermediate  (Sciences)  Jun 2012  \nPunjab Group of Colleges  \n4. Matriculation  (Sciences)  Sep 2010  \nSaint Anthony\u2019s High School  \n \n \nPROFESSIONAL EXPERIENCE  \n \nBMW \u2013 Dewan Motors Pvt Ltd                                                                                                                                          May 2022 - Continue  \nAssistant Manager Customer Relations,  \n\u2022 Managing  a portfolio  of over  250+  Premium customers (including group CEO and Di rectors) . \n\u2022 Prospecting  and building  new business  from  existing  & new lead. \n\u2022 Sold Three new Cars  within 2 months\u2019 worth  11Crore  (2 Electric and 1 Engine based) with out any  help or prospects.  \n\u2022 Added 3 million of business by up selling and selling BMW Lifestyle items . \n\u2022 Firm grip on customer insights  and aftermarket  dealings. \n\u2022 Proper know how  on parts availability  whether they are local suppliers or it is from BMW  Germany . \n\u2022 Prope rly report regarding th e estimate follow -ups \n \nKasmy Packages  Pvt Ltd                                                                                                                                                 Feb 2022 \u2013 May 2022  \nAssistant Manager Sales, Industrial Marketing & Sales (BUFP)  \n\u2022 Managing  a portfolio  of over  10 million  per annum  revenue.  \n\u2022 Prospecting  and building  new business  from  existing  & new accounts  \n\u2022 Added  15 million  worth  of new revenue  to my portfolio for this fiscal year.  \n \nPackages  Limited                                                                                                                                                           Nov 2019 \u2013 March 2021  \nAssistant Manager Sales, Industrial Marketing & Sales (BUFP)  \n\u2022 Managing  a portfoli o of over  300 million  per annum  revenue.  \n\u2022 Prospecting  and building  new business  from  existing  & new accounts  \n\u2022 Added  approx.  30 million  worth  of new revenue  to my portfolio.  \n \nMind Bridge  Pvt Ltd                                                                                                                                         March2019 \u2013 Aug 2019  \nEmail Support Executive for Uber London.  \n\u2022 Relationship development with Uber and the  customer.  \n\u2022 Aftersales  Services.  \n\u2022 Refund Strategy development for customers and which helps them to increase  sales.  \n \n \n \n2   \n \nKUKS  Pvt Ltd                                                                                                                                                         Aug 2018 \u2013 Feb 2019                                      \nAsst. Manager Sales and Marketing  \n\u2022 Relationship development with customer and  restaurant.  \n\u2022 On boarding well known restaurant and negotiating share  percentage.  \n\u2022 After sales  Services . \n\u2022 Organizing food mob as a brand  activity.  \n\u2022 Also organized phone branding software area to  area.  \n \nDeSOM                                                                                                                                                                   Feb 2015 - July 2018  \nSupply chain and marketing Dept  \n\u2022 Designing and implementing new strategies  for social media  campaigns.  \n\u2022 Allocating and designating budgets for monthly supplies and  campaigns.  \n\u2022 Started from low end as a Restaurant  manager  \n\u2022 Learned what is customer service and its  importance.  \n \n \n \nPROJECTS  \n \nMarketing Strategy: Presented on the topic \u201cHo w to be a great lead in customer service and effecting it with your \nbehavior\u201d.  \nAdvanced Operations Management: Analyzed supply chain system of Packages limited w.r.t dynamics.  \nMarketing Research: Researched and presented solutions for the problem of low sales volume for \u201cDeSOM\u201d  \n \n \nADDITIONAL EXPERIENCE  \nGeneral Secretary , Business  Management  Club  2014 \u2013 2015  \n\u2022 Conducted and promoted several university trips to Northern areas with my team of 12  members.  \nTeam Leader,  Polo  Club              2015 - 2016  \n\u2022 I was the team leader university polo club  team.  \n\u2022 Going to be a certified Customer Re lation M anager By BMW.  \n \n \nHONORS, AWARDS & TRAININGS  \n \n\u2022 3rd Position representing LGU at LUMS supply chain  summit.  \n\u2022  1st position in university for finishing the fairy meadow  trek.  \n\u2022  1st position in university dramatic  competition  \n\u2022  Hands on experience on SAP for 2.5 years  \n \n \n \nSKILLS & INTERESTS  \n \n\u2022 Competent user of Microsoft Office, SAP & CRM  systems.  \n\u2022 Vast interest in travelling, hiking and keeping pet. Pets make your surroundings relaxed.  \n\u2022 I am professional horse rider and beginner level swimmer.3   "
+    },
+    "details": {
+        "name": "AHMED BIN TARIQ",
+        "number": "923204103609",
+        "skills": [
+            "Microsoft Office",
+            "SAP",
+            "CRM systems"
+        ],
+        "email_id": "abtariq110@gmail.com",
+        "location": "House No 75 Block B Tajpura scheme Mughal Pura, Lahore",
+        "projects": [
+            {
+                "title": "Marketing Strategy",
+                "description": "Presented on the topic 'How to be a great lead in customer service and effecting it with your behavior'."
+            },
+            {
+                "title": "Advanced Operations Management",
+                "description": "Analyzed supply chain system of Packages limited w.r.t dynamics."
+            },
+            {
+                "title": "Marketing Research",
+                "description": "Researched and presented solutions for the problem of low sales volume for 'DeSOM'."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "10-2016",
+                "university": "Lahore Garrison University",
+                "degree_title": "Bachelors in Business Administration (Honors)"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Punjab Group of Colleges",
+                "degree_title": "Intermediate (Sciences)"
+            },
+            {
+                "end_date": "09-2010",
+                "university": "Saint Anthony\u2019s High School",
+                "degree_title": "Matriculation (Sciences)"
+            }
+        ],
+        "achievements": [
+            "3rd Position representing LGU at LUMS supply chain summit",
+            "1st position in university for finishing the fairy meadow trek",
+            "1st position in university dramatic competition"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Customer Relation Manager",
+                "issuing_organization": "BMW",
+                "date_of_issuance": "TBD"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ahmed-bin-tariq-26273816a",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmed Bin Tariq is a dedicated professional with a strong background in customer relations and sales management, showcasing expertise in Microsoft Office, SAP, and CRM systems. He has a proven track record of managing substantial portfolios and driving significant revenue growth in various roles.",
+        "employment_history": [
+            {
+                "details": "Managing a portfolio of over 250+ Premium customers (including group CEO and Directors). Prospecting and building new business from existing & new leads. Sold three new cars within 2 months worth 11 Crore (2 Electric and 1 Engine based) without any help or prospects. Added 3 million of business by upselling and selling BMW Lifestyle items.",
+                "end_date": "Continue",
+                "location": "Lahore",
+                "job_title": "Assistant Manager Customer Relations",
+                "start_date": "05-2022",
+                "company_name": "BMW \u2013 Dewan Motors Pvt Ltd"
+            },
+            {
+                "details": "Managing a portfolio of over 10 million per annum revenue. Prospecting and building new business from existing & new accounts. Added 15 million worth of new revenue to my portfolio for this fiscal year.",
+                "end_date": "05-2022",
+                "location": "Lahore",
+                "job_title": "Assistant Manager Sales, Industrial Marketing & Sales (BUFP)",
+                "start_date": "02-2022",
+                "company_name": "Kasmy Packages Pvt Ltd"
+            },
+            {
+                "details": "Managing a portfolio of over 300 million per annum revenue. Prospecting and building new business from existing & new accounts. Added approx. 30 million worth of new revenue to my portfolio.",
+                "end_date": "03-2021",
+                "location": "Lahore",
+                "job_title": "Assistant Manager Sales, Industrial Marketing & Sales (BUFP)",
+                "start_date": "11-2019",
+                "company_name": "Packages Limited"
+            },
+            {
+                "details": "Relationship development with Uber and the customer. Aftersales Services. Refund Strategy development for customers which helps them to increase sales.",
+                "end_date": "08-2019",
+                "location": "Lahore",
+                "job_title": "Email Support Executive for Uber London",
+                "start_date": "03-2019",
+                "company_name": "Mind Bridge Pvt Ltd"
+            },
+            {
+                "details": "Relationship development with customer and restaurant. Onboarding well-known restaurant and negotiating share percentage. After sales Services. Organizing food mob as a brand activity.",
+                "end_date": "02-2019",
+                "location": "Lahore",
+                "job_title": "Asst. Manager Sales and Marketing",
+                "start_date": "08-2018",
+                "company_name": "KUKS Pvt Ltd"
+            },
+            {
+                "details": "Designing and implementing new strategies for social media campaigns. Allocating and designating budgets for monthly supplies and campaigns. Started from low end as a Restaurant manager. Learned what is customer service and its importance.",
+                "end_date": "07-2018",
+                "location": "Lahore",
+                "job_title": "Supply chain and marketing Dept",
+                "start_date": "02-2015",
+                "company_name": "DeSOM"
+            }
+        ]
+    }
+}

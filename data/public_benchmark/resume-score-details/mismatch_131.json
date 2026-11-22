@@ -1,0 +1,155 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not have relevant experience in social media marketing or SEO/SEM, which are critical for the Digital Market Strategist role.",
+            "Candidate holds a BS in Computer Science from COMSATS, which is not aligned with the preferred universities for the position, although the degree requirement is met.",
+            "No specific skills or experience with Google Analytics, CRM tools, or project management are mentioned, which are necessary according to the job description.",
+            "The candidate has 1.5+ years of experience but lacks the specific digital marketing experience desired."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Talha Hussain",
+            "email": "to.talha0@gmail.com",
+            "phone": "+92-312-6823441",
+            "current_position": "Machine Learning Engineer",
+            "current_company": "Softheights",
+            "employment_start_date_current_company": "Present",
+            "first_company_start_date": "N/A",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 100
+        },
+        "micro_dict": {
+            "social media marketing": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Familiarity with Google Analytics and CRM tools",
+            "2+ years of experience in digital marketing",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Strong project management and communication skills"
+        ],
+        "resume": "to.talha0@gmail.com  +92-312-6823441  Johar  town  Lahore,  Pakistan   \n \n \n \nSkills  Work  History  \nSOFTHEIGHTS  (ML Engineer )  \n \nGulberg  III, Lahore  \n \n \n \n \n \n   \n \n      \n \n \nExpertise  \n \n\uf0b7 Cleaning transforming  and preparing \ndata for analysis.  \n\uf0b7 Handling large datasets and ensuring \ndata quality.  \n\uf0b7 Skilled in creating insightful and \ninteractive visualizations.  \n\uf0b7 Hands -on experience with libraries such \nas Scikit -learn, Tensor Flow and \nPyTorch . \n\uf0b7 Skilled in designing, implementing, and \nevaluating machine learning models . \n\uf0b7 Skilled in designing  CNN and fine-tune \npre-trained model . \n\uf0b7 Good  Communication  skills.  \n My responsibity as a ML Engineer  at Softheights, I analyze business requirements and \ntranslate them into data models and algorithms. I rigorously test and deploy these models \nacross staging and production environments, and ensure continuous updates and \nmonitoring throughout the development lifecycle.  \nProjects:  \nSales Forecasting Using Time Series Analysis  \no Developed a time series forecasting model to predict monthly sales for an e -\ncommerce company  \no Improved inventory management and reduced stakeouts by providing accurate sales  \nforecasts.  \no Analyzed historical sales data to identify trends and patterns.  \no Created and fine -tuned models for high -accuracy sales predictions.  \no Helped the company optimize inventory levels and reduce holding costs . \n \nPredictive Analytics for Customer Churn  \no Developed a predictive  model to identify customers at risk of churning for a retail \ncompany.  \no Conducted data cleaning and feature engineering to enhance model accuracy.  \no Successfully  integrated  PayPal  for secure  and convenient  online  transactions.  \no Provided key insights that infor med targeted retention strategies.  \no Achieved a 15% reduction in customer churn as a result of the project.  \no Conducted exploratory data analysis (EDA) to uncover patterns and correlations in \ncustomer behavior.  \n \nPURELOGICS  (Certificate)  \n3 months  Johar  Town,  Lahore  \n   \n \nEducation   \n\uf0b7 BS Computer  Science \u2013 (BSCS)\uf020\n\uf0b7 COMSATS  UNIVERSITY (CU) \uf020\nHobbies  \n\uf0b7 Traveling. \uf020\n\uf0b7 Music.\uf020\n\uf0b7 Doing  Exercise.\uf020Languages:  Python,  Machine  Learning,  Data  Visualization,  Numpy,  Pandas  \nProjects:  \nGenre Predictor: Machine learning classified Spotify songs by tempo, danceability,  \npredicting  genres  accurately . \nHotel  Booking  Status  Checker:  Data analysis  for real-time  reservation  updates.  \nTitanic survival prediction project: Titanic dataset analyzed with ML to predict survival  \nfactors  accurately       Data Visualization  Data Analytics  \nPresent  1.5+  Year  Talha Hussain  (Machine Learning Engineer )  \n 1.5+ Years  of exper ience in Machine Learning Engineer  with a demonstrated history of working \nin the technology sector. Proficient in developing and deploying data models across multiple \nprojects, with expertise in Python, Machine Learning, Data Visualization, Data Manipulation,  \nCNN,RNN,GANS and SQL. Skilled in leveraging data -driven insights to solve complex business \nproblems and drive decision -making  \n MySQL Python  \n  Data wrangling  OOP  \nMachine Learning      Deep Learning  \n"
+    },
+    "details": {
+        "name": "Talha Hussain",
+        "number": "923126823441",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Data Visualization",
+            "Numpy",
+            "Pandas",
+            "MySQL",
+            "Data wrangling",
+            "OOP",
+            "Deep Learning"
+        ],
+        "email_id": "to.talha0@gmail.com",
+        "location": "Johar Town, Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Sales Forecasting Using Time Series Analysis",
+                "description": "Developed a time series forecasting model to predict monthly sales for an e-commerce company."
+            },
+            {
+                "title": "Predictive Analytics for Customer Churn",
+                "description": "Developed a predictive model to identify customers at risk of churning for a retail company."
+            },
+            {
+                "title": "Genre Predictor",
+                "description": "Machine learning classified Spotify songs by tempo, danceability, predicting genres accurately."
+            },
+            {
+                "title": "Hotel Booking Status Checker",
+                "description": "Data analysis for real-time reservation updates."
+            },
+            {
+                "title": "Titanic survival prediction project",
+                "description": "Titanic dataset analyzed with ML to predict survival factors accurately."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "COMSATS UNIVERSITY",
+                "degree_title": "BS Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Machine Learning Certificate",
+                "issuing_organization": "PURELOGICS",
+                "date_of_issuance": "03-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/talhahussain",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/talhahussain",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Talha Hussain is a skilled Machine Learning Engineer with over 1.5 years of experience in developing and deploying data models. He possesses strong technical expertise in Python, Machine Learning, and Data Visualization, and has successfully completed multiple projects that leverage data-driven insights to solve complex business problems.",
+        "employment_history": [
+            {
+                "details": "As a ML Engineer at Softheights, Talha analyzes business requirements and translates them into data models and algorithms, rigorously testing and deploying these models across staging and production environments.",
+                "end_date": "Present",
+                "location": "Gulberg III, Lahore",
+                "job_title": "ML Engineer",
+                "start_date": "01-2022",
+                "company_name": "Softheights"
+            }
+        ]
+    }
+}

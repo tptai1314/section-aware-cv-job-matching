@@ -1,0 +1,201 @@
+{
+    "output": {
+        "justification": [
+            "Not relevant experience for the job description provided.",
+            "Candidate lacks technical skills pertaining to Arduino IDE, MATLAB, or related fields.",
+            "No demonstration of proactive learning or participation in STEM related projects/events.",
+            "The job description focuses on electrical engineering which does not match candidate's software development experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical skills",
+                    "score": 2
+                },
+                {
+                    "criteria": "motivation and willingness to learn",
+                    "score": 3
+                },
+                {
+                    "criteria": "teamwork and collaboration",
+                    "score": 2
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "matlab",
+                    "score": 1
+                },
+                {
+                    "criteria": "arduino ide",
+                    "score": 1
+                },
+                {
+                    "criteria": "proactive learning",
+                    "score": 4
+                },
+                {
+                    "criteria": "teamwork",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and teamwork skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proactive and willing to learn",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Arduino IDE",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.09,
+                "micro_scores": 1.84
+            }
+        },
+        "personal_info": {
+            "name": "Maisam Raza",
+            "email": "maisamraza1996@gmail.com",
+            "phone": "03088722268",
+            "current_position": "Senior Android Developer",
+            "current_company": "The Hex Coders",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "01-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/maisam-raza-13275523b"
+                },
+                {
+                    "website_name": "Touch Lock Screen",
+                    "url": "https://play.google.com/store/apps/details?id=the.hexstudios.touchdisable.touchlock"
+                },
+                {
+                    "website_name": "VidPlay",
+                    "url": "https://play.google.com/store/apps/details?id=thehexstudio.vidplayer.xplayer.hdvideoplayer"
+                },
+                {
+                    "website_name": "MPlayer",
+                    "url": "https://play.google.com/store/apps/details?id=thehexstudiox.mplayer.mp3musicplayer.muzioplayer.audioplayer.musicapps"
+                },
+                {
+                    "website_name": "WhatsDelete",
+                    "url": "https://play.google.com/store/apps/details?id=the.hexcoders.whatsdelete"
+                }
+            ]
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "## Junior Electrical Engineer Trainee\n\n**Location**: Lahore, Pakistan  \n**Company**: Z-Tech Innovations\n\n### About Us\nZ-Tech Innovations is at the forefront of pioneering solutions in electrical engineering and automation. Our core belief is in harnessing technology to simplify lives and enhance mobility. As a Junior Electrical Engineer Trainee, you will be part of an exciting team dedicated to innovation and excellence.\n\n### Job Overview\nWe are looking for a motivated and proactive Junior Electrical Engineer Trainee to join our dynamic engineering team. This entry-level role is perfect for recent graduates eager to apply their academic knowledge in a practical setting.\n\n### Key Responsibilities\n- Participate in project development, including tasks such as sensor integration and automation.  \n- Assist in the design and testing of electrical systems using industry-standard tools.  \n- Contribute to team discussions and provide insights on the latest trends in electrical engineering technology.  \n- Collaborate with senior engineers in developing innovative solutions for industrial applications.  \n- Maintain compliance with Health, Safety, and Environmental Policies.\n\n### Skills & Qualifications\n- **Technical skills**: Proficiency in MATLAB, AutoCAD, Proteus, and familiarity with Arduino IDE.  \n- **Soft skills**: Strong communication, teamwork, and report writing skills.  \n- **Personal attributes**: Proactive, self-motivated, with a strong willingness to learn and adapt.\n\n### Opportunities\n- Experience with real-world projects focused on automation and mobility technologies.  \n- Engage in our structured training programs designed to enhance technical skills.  \n- Career advancement based on performance and skill growth.",
+        "macro_dict": {
+            "technical skills": 27,
+            "motivation and willingness to learn": 17,
+            "teamwork and collaboration": 33,
+            "communication skills": 23
+        },
+        "micro_dict": {
+            "matlab": 6,
+            "arduino ide": 32,
+            "proactive learning": 11,
+            "teamwork": 51
+        },
+        "additional_info": "Z-Tech Innovations prefers candidates with a demonstrated interest in STEM through participation in relevant projects and events. We are supportive of candidates pursuing higher education and offer flexible work schedules to accommodate studies. Relocation support is available for candidates living outside Lahore. Skills assessments will include practical tests using MATLAB and AutoCAD, as well as a panel interview focusing on teamwork and technical problem-solving abilities.",
+        "minimum_requirements": [
+            "Strong communication and teamwork skills",
+            "Proactive and willing to learn",
+            "Familiarity with Arduino IDE"
+        ],
+        "resume": "Maisam \nRaza \nSenior Android Developer \nI am a professional Android App Developer with great communication skills having more than 3 years of\nexperience developing sophisticated applications and tools using the highest quality standards and clean\ncode. \nmaisamraza1996@gmail.com \n03088722268 \nAllama Iqbal Town,Sialkot Road, GUJRANWALA.,\nGUJRANWALA, Pakistan \nlinkedin.com/in/maisam-raza-13275523b \nEDUCATION \nMatric \nScience Foundation High School \n01/2013 - 12/2015\n, \n \n75% \nIntermediate \nPunjab College \n01/2016 - 12/2017\n, \n \n70 % \nComputer science \nBSCS \nUniversity of Sargodha \n2017 - 2021\n, \n \n2.99 \nComputer science \nWORK EXPERIENCE \nAndroid Developer \nThe Hex Coders \n01/2019 - 01/2021\n, \n \nGujranwala \nContact \n:\n-\nMuhammad Ali \n+923066695564 \nSenior Android Developer \nThe Hex Coders \n01/2021 - Present\n, \n \nGujranwala \nContact \n:\n-\nMuhammad Ali \n+923066695564 \nSKILLS \nAndroid App Development \nFirebase \nMaps \nXML \nAndroid Studio \nOOP \nKotlin \nGoogle APIs \nFacebook APIs \nJava \nPERSONAL PROJECTS \nTouch Lock Screen: Child lock Baby screen lock App \nhttps://play.google.com/store/apps/details?\nid=the.hexstudios.touchdisable.touchlock \nVidPlay: Full HD Video Player \nhttps://play.google.com/store/apps/details?\nid=thehexstudio.vidplayer.xplayer.hdvideoplayer \nMPlayer: MP3 Music Player App \nhttps://play.google.com/store/apps/details?\nid=thehexstudiox.mplayer.mp3musicplayer.muzioplayer.audioplayer.\nmusicapps \nWhatsDelete: Recover Messages \nhttps://play.google.com/store/apps/details?\nid=the.hexcoders.whatsdelete \nORGANIZATIONS \nThe Hex Coders \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nCourses \nCourses "
+    },
+    "details": {
+        "name": "Maisam Raza",
+        "number": "03088722268",
+        "skills": [
+            "Android App Development",
+            "Firebase",
+            "Maps",
+            "XML",
+            "Android Studio",
+            "OOP",
+            "Kotlin",
+            "Google APIs",
+            "Facebook APIs",
+            "Java"
+        ],
+        "email_id": "maisamraza1996@gmail.com",
+        "location": "Allama Iqbal Town, Sialkot Road, GUJRANWALA, GUJRANWALA, Pakistan",
+        "projects": [
+            {
+                "title": "Touch Lock Screen",
+                "description": "Child lock Baby screen lock App"
+            },
+            {
+                "title": "VidPlay",
+                "description": "Full HD Video Player"
+            },
+            {
+                "title": "MPlayer",
+                "description": "MP3 Music Player App"
+            },
+            {
+                "title": "WhatsDelete",
+                "description": "Recover Messages"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2015",
+                "university": "Science Foundation High School",
+                "degree_title": "Matric"
+            },
+            {
+                "end_date": "12-2017",
+                "university": "Punjab College",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "12-2021",
+                "university": "University of Sargodha",
+                "degree_title": "BSCS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maisam-raza-13275523b",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Maisam Raza is a skilled Senior Android Developer with over 3 years of experience in developing sophisticated applications. He is proficient in various technical skills including Android App Development, Kotlin, and Java, and is committed to delivering high-quality code.",
+        "employment_history": [
+            {
+                "details": "Developed and maintained Android applications, ensuring high quality and performance.",
+                "end_date": "01-2021",
+                "location": "Gujranwala",
+                "job_title": "Senior Android Developer",
+                "start_date": "01-2021",
+                "company_name": "The Hex Coders"
+            },
+            {
+                "details": "Worked on various Android projects, contributing to the development of innovative applications.",
+                "end_date": "01-2021",
+                "location": "Gujranwala",
+                "job_title": "Android Developer",
+                "start_date": "01-2019",
+                "company_name": "The Hex Coders"
+            }
+        ]
+    }
+}

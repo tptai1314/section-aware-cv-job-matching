@@ -1,0 +1,142 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not list a degree in Business Administration or a related field, though it mentions a Bachelor of Science in Computer Science.",
+            "The resume lists strong experience in business development roles which aligns with the requirements but lacks explicit mention of client engagement beyond freelance platforms.",
+            "The candidate has experience with CRM tools as mentioned in the job description.",
+            "While the resume doesn't explicitly state market research experience, it does list skills for proposal writing and project management, which can be indirectly related."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.7299999999999995,
+                "micro_scores": 4.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Talha",
+            "email": "ch.taIha786786@gmaiI.com",
+            "phone": "+92348-8715969",
+            "current_position": "Senior Business Development Executive",
+            "current_company": "Tsoftek",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "12-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/ch-talha"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 7,
+            "experience": 80,
+            "client relations": 13
+        },
+        "micro_dict": {
+            "market research": 100
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proven track record in lead generation and client engagement",
+            "Proficiency in CRM tools and Microsoft Office Suite"
+        ],
+        "resume": "Muhammad Talha\n Business Development Executive\nAbout Me\nProfessional ExperienceTo build a career in a growing organization, where I can\nget the opportunities to prove my abilities by\naccepting challenges, fulfilling the organizational goal,\nand climbing the career ladder through continuous\nlearning and commitment. I'm committed to my\nlearning and work, both in a team and independently,\nand to help improve a company's growth through the\nnew ideas.\nHard Skill\nBusiness Development\nProposal Writing \nSales & Retails\nSolid understanding of the web\nand app development life cycle\nTesting\nProject coordination\nProject management tools (Trello, Jira,\nand Click-up).\nSoft Skill\nObservation\nDecision making\nCommunication\nSelf Motivation \nFast-Learner\nMulti-tasking\nTeamwork\nEducation Background\nUniversity of Sargodha (Sargodha) \n BSIT(Bachelor of Science in Computer\nScience)\nAttended from Sept. 2016 to June 2020\nSuperior College - Dipalpur \nICS (Intermediate in Computer\nScience.)\nAttended from Sept. 2014 to 2016My Contact\n ch.taIha786786@gmaiI.com\nGulburg III-Lahore+92348-8715969\nwww.linkedin.com/in/ch-talha\nTsoftek| Senior Business Development Executive\nBitsclan IT Solutions LLC| Business Development\nOfficer 2021  AUG\u2013 Present\n2020 Dec - 2021 JulyKey responsibilities:\nResponsible for generating sales and driving short- and\nlong-term revenue and profit growth through prospecting,\nacquisition, development, and\nexpansion of customer opportunities. Developing long-\nlasting customer relationships and gather referrals with\nboth new and current accounts.\nIdentifying new sales leads \nPitching products and/or services\nMaintaining fruitful relationships with existing customers \nContacting potential clients via email or phone to\nestablish rapport and set up meetings \nPlanning and overseeing new marketing initiatives \nAttending conferences, meetings, and industry\nevents.\nManaging Company Profiles (Upwork, Freelancer\nand Fiver).\nKey responsibilities:\nDeveloped and implemented different business strategies &\nsolutions based on client requirements\nEstablish good relationships with existing clients.\nStrong analytical skills with a passion for quality work\nGenerate Business to the company Via different Platforms\n(Online/Referrals).\nWork with different platforms like (Upwork, Fiverr, People Per Hour,\nLinkedin, and Freelancer)\nDevelop business proposals for new and existing clients. \nBidding, Content Writing, Email Marketing. "
+    },
+    "details": {
+        "name": "Muhammad Talha",
+        "number": "923488715969",
+        "skills": [
+            "Business Development",
+            "Proposal Writing",
+            "Sales & Retails",
+            "Web Development Life Cycle",
+            "Testing",
+            "Project Coordination",
+            "Trello",
+            "Jira",
+            "Click-up"
+        ],
+        "email_id": "ch.talha786786@gmail.com",
+        "location": "Gulburg III-Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "University of Sargodha",
+                "degree_title": "BSIT (Bachelor of Science in Computer Science)"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Superior College - Dipalpur",
+                "degree_title": "ICS (Intermediate in Computer Science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ch-talha",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Talha is a dedicated Business Development Executive with a strong background in generating sales and driving revenue growth. He possesses a solid understanding of the web and app development life cycle, along with proficiency in project management tools. Talha is committed to building long-lasting customer relationships and developing effective business strategies.",
+        "employment_history": [
+            {
+                "details": "Responsible for generating sales and driving short- and long-term revenue and profit growth through prospecting, acquisition, development, and expansion of customer opportunities. Developing long-lasting customer relationships and gather referrals with both new and current accounts. Identifying new sales leads, pitching products and/or services, maintaining fruitful relationships with existing customers, contacting potential clients via email or phone to establish rapport and set up meetings, planning and overseeing new marketing initiatives, attending conferences, meetings, and industry events, managing Company Profiles (Upwork, Freelancer and Fiverr).",
+                "end_date": "08-2023",
+                "location": "",
+                "job_title": "Senior Business Development Executive",
+                "start_date": "12-2021",
+                "company_name": "Tsoftek"
+            },
+            {
+                "details": "Developed and implemented different business strategies & solutions based on client requirements. Established good relationships with existing clients. Generated business to the company via different platforms (Online/Referrals). Worked with different platforms like Upwork, Fiverr, People Per Hour, LinkedIn, and Freelancer. Developed business proposals for new and existing clients. Bidding, Content Writing, Email Marketing.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "12-2020",
+                "company_name": "Bitsclan IT Solutions LLC"
+            }
+        ]
+    }
+}

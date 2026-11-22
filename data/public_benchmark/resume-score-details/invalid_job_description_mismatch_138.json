@@ -1,0 +1,45 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Fresh Electrical Engineering graduate with strong skills in circuit design, MATLAB, PLC programming, and solar design. I\nhave practical experience in distribution and transmission systems and am passionate about new discoveries in the\nfield. I am seeking a role that fosters growth and satisfies my drive for knowledge in a collaborative environment.\nCommunication\nProblem Solving\nCritical ThinkingProteus\nCX-One\nHelioScope\nArduino IDE\nPVWattsMATLAB\nNi Multisim\nLTspice\nPSS/E\nDev-C++Intermediate | FG Sir Syed College The Mall, Rawalpindi\nMatric | Siddeeq Public School, RawalpindiAchieved an 80.36% score in my Intermediate examination.\nSecured 94.45% in my Intermediate examination.BSc Electrical Engineering | University of Engineering & Technology, Taxila                                 Aug 2020 - July 2024\nAug 2018 - July 2020\nMarch 2016 - June 2018ABOUTAddress : House 439, D-block, Rwp\nPhone : 0301-5138489\nEmail : hasanbinzulfiqar@gmail.com\nLinkedIn : https://rb.gy/rnnsbyHASAN BIN ZULFIQAR\nELECTRICAL ENGINEER\nEDUCATION\nINTERNSHIP\nPROJECTSSOFTWARE SOFT SKILLS\nFYP                                                  \nDeveloped a highly accurate observer-based SoC estimator, achieving rapid convergence within 0.35 seconds\nduring MATLAB simulations.\nImplemented real-time SOC monitoring with dual charging and discharging modes, displayed on an LCD screen for\neffective energy management.\nDemonstrated potential applications in electric vehicles and renewable energy storage systems through accurate\nSOC estimation and system performance validation.State Machine Design For BMS\n IESCO (July 2023 - Sept 2023)\nCompleted a two-month internship at IESCO's 132KV grid station, gaining hands-on experience in high-voltage\ndistribution systems.\nEnhanced understanding of grid operations and maintenance through practical training sessions.\nDeveloped communication and management skills, gaining insights into corporate operations and organizational\ndynamics.\nACHIEVEMENTS\n Awarded certificates for ISMO (Inter-School Maths\nOlympiad) participation.1.\n Participated in \"World Space Week\" event on    \n\"Glider Flying\" by SUPARCO.2.\n Completed \"National Financial Literacy Program\nfor Youth\" by State Bank of Pakistan.3.AC to DC Converter Circuit\nDigital Clock using PIC 16f877A\nDesign and Simulation of Solid-State Circuit Breaker\nTemperature sensor using Arduino UNO\nSolar system design for 10MW system\nPower system design along with fault analysis\nBoiler Automation system DesignLANGUAGES\nEnglish\nUrdu\nPunjabiCompleted my bachelors with a CGPA of 3.39 out of 4.0.\nRESEARCH WORK\nEnhancing Student Learning Outcomes and Critical Thinking Skills through Problem-Based Learning in Economics and\nPhysics",
+        "macro_dict": {
+            "business development experience": 100
+        },
+        "micro_dict": {
+            "data analysis": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field",
+            "5+ years of business development experience in a leadership role",
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "Fresh Electrical Engineering graduate with strong skills in circuit design, MATLAB, PLC programming, and solar design. I\nhave practical experience in distribution and transmission systems and am passionate about new discoveries in the\nfield. I am seeking a role that fosters growth and satisfies my drive for knowledge in a collaborative environment.\nCommunication\nProblem Solving\nCritical ThinkingProteus\nCX-One\nHelioScope\nArduino IDE\nPVWattsMATLAB\nNi Multisim\nLTspice\nPSS/E\nDev-C++Intermediate | FG Sir Syed College The Mall, Rawalpindi\nMatric | Siddeeq Public School, RawalpindiAchieved an 80.36% score in my Intermediate examination.\nSecured 94.45% in my Intermediate examination.BSc Electrical Engineering | University of Engineering & Technology, Taxila                                 Aug 2020 - July 2024\nAug 2018 - July 2020\nMarch 2016 - June 2018ABOUTAddress : House 439, D-block, Rwp\nPhone : 0301-5138489\nEmail : hasanbinzulfiqar@gmail.com\nLinkedIn : https://rb.gy/rnnsbyHASAN BIN ZULFIQAR\nELECTRICAL ENGINEER\nEDUCATION\nINTERNSHIP\nPROJECTSSOFTWARE SOFT SKILLS\nFYP                                                  \nDeveloped a highly accurate observer-based SoC estimator, achieving rapid convergence within 0.35 seconds\nduring MATLAB simulations.\nImplemented real-time SOC monitoring with dual charging and discharging modes, displayed on an LCD screen for\neffective energy management.\nDemonstrated potential applications in electric vehicles and renewable energy storage systems through accurate\nSOC estimation and system performance validation.State Machine Design For BMS\n IESCO (July 2023 - Sept 2023)\nCompleted a two-month internship at IESCO's 132KV grid station, gaining hands-on experience in high-voltage\ndistribution systems.\nEnhanced understanding of grid operations and maintenance through practical training sessions.\nDeveloped communication and management skills, gaining insights into corporate operations and organizational\ndynamics.\nACHIEVEMENTS\n Awarded certificates for ISMO (Inter-School Maths\nOlympiad) participation.1.\n Participated in \"World Space Week\" event on    \n\"Glider Flying\" by SUPARCO.2.\n Completed \"National Financial Literacy Program\nfor Youth\" by State Bank of Pakistan.3.AC to DC Converter Circuit\nDigital Clock using PIC 16f877A\nDesign and Simulation of Solid-State Circuit Breaker\nTemperature sensor using Arduino UNO\nSolar system design for 10MW system\nPower system design along with fault analysis\nBoiler Automation system DesignLANGUAGES\nEnglish\nUrdu\nPunjabiCompleted my bachelors with a CGPA of 3.39 out of 4.0.\nRESEARCH WORK\nEnhancing Student Learning Outcomes and Critical Thinking Skills through Problem-Based Learning in Economics and\nPhysics"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "output": {
+        "justification": [
+            "The resume content does not align with the job description for a Business Development Manager position.",
+            "There is no mention of business development experience, strategic planning, or sales strategies in the resume.",
+            "The skills listed in the resume (Unity 3D, Blender, Adobe Photoshop) do not match the job description preferences (Sales, Strategic Planning, Market Research).",
+            "The candidate's experience is in a different field (graphics design), not business development or sales."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 1
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.0,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Not provided",
+            "email": "syedabbas0815@gmail.com",
+            "phone": "+92-3066576085",
+            "current_position": "None",
+            "current_company": "None",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "08-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 44,
+            "strategic planning": 56
+        },
+        "micro_dict": {
+            "market research": 36,
+            "sales strategy": 64
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "CREATING MEMES\nFBISE ISLAMABAD\nAug 2020 Jan 2021\nUnity 3D\nBlender\nAdobe Photoshop\nSir Syed Ahmed College Shorkot cantt\nAug2018\n PAF LEARNING INSTITUTE\n+92-3066576085\nsyedabbas0815@gmail.com\nAli Town Raiwind road, Lahore\nI know how to connect the various elements \nto make a worth seeing compositions.I have \nthe understanding of setting things in a \nvalid order.With the help of this fact, I can \ncreate  effective video game designs.\nI\nI\u2019m in search of a graphics designer job \nposition in a well organized company where \nI can be able to use my technical skills & \nenergy to contribute in the development of \nthat organization.\n"
+    },
+    "details": {
+        "name": "Syed Abbas",
+        "number": "923066576085",
+        "skills": [
+            "Unity 3D",
+            "Blender",
+            "Adobe Photoshop"
+        ],
+        "email_id": "syedabbas0815@gmail.com",
+        "location": "Ali Town Raiwind road, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2018",
+                "university": "Sir Syed Ahmed College Shorkot cantt",
+                "degree_title": ""
+            },
+            {
+                "end_date": "01-2021",
+                "university": "FBISE ISLAMABAD",
+                "degree_title": ""
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Syed Abbas is a skilled graphics designer with expertise in Unity 3D, Blender, and Adobe Photoshop, seeking to leverage his technical skills in a dynamic organization.",
+        "employment_history": []
+    }
+}

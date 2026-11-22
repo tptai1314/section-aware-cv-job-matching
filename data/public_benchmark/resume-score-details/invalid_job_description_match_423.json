@@ -1,0 +1,46 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "H A S H A A M  J A M A L\nArea Sales Manager\nHealthwire PVT LTD, Lahore, Pakistan\nSep 2021 - Present\nArea Sales Manager\nHealthwire PVT LTD, Karachi, Pakistan\nJan 2021 - Aug 2021\nArea Sales Executive\nHealthwire PVT LTD, Gujranwala, Pakistan\nJan 2020 - Jan 2021\nTerritory Sales Manager\nOliver Skin Science, , Gujranwala, Pakistan\nMay 2019 - Dec 2020\nMerchandiser Officer\nZong Regional Office - Telecom, Gujranwala, Pakistan\nApr 2017 - Apr 2018EXPERIENCEI am a professional salesperson who always strive to be the\nbest that i can be. I have a long and good track record and very\nsuccessful in my field. A goal orientated person with strong\nfocus on team work, development of people and results. My\nmain objectives are; develop my knowledge of the market and\nmy skills, continue learning as a person and as a manager and\nto become more than satisfied in what i do.PROFESSIONAL SUMMARY\n86-C, HIGH COURT SOCIETY\nPHASE 2, COLLEGE ROAD,\nLAHORE.\n+92 302 5464456\nhashaam.butt24@gmail.comMasters in Business Administration (Sales And Marketing)\nSuperior University Lahore\n2015 - 2019EDUCATION\n Top Performance Sales Team Lead 2021, 1.\n       (Healthwire PVT LTD)\n   2. Best Sales Person 2020\n       (Healthwire PVT LTD)ACCOMPLISHMENTS",
+        "macro_dict": {
+            "leadership": 56,
+            "sales experience": 44
+        },
+        "micro_dict": {
+            "salesforce": 15,
+            "email marketing": 85
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Demonstrated ability in team leadership and mentoring",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)"
+        ],
+        "resume": "H A S H A A M  J A M A L\nArea Sales Manager\nHealthwire PVT LTD, Lahore, Pakistan\nSep 2021 - Present\nArea Sales Manager\nHealthwire PVT LTD, Karachi, Pakistan\nJan 2021 - Aug 2021\nArea Sales Executive\nHealthwire PVT LTD, Gujranwala, Pakistan\nJan 2020 - Jan 2021\nTerritory Sales Manager\nOliver Skin Science, , Gujranwala, Pakistan\nMay 2019 - Dec 2020\nMerchandiser Officer\nZong Regional Office - Telecom, Gujranwala, Pakistan\nApr 2017 - Apr 2018EXPERIENCEI am a professional salesperson who always strive to be the\nbest that i can be. I have a long and good track record and very\nsuccessful in my field. A goal orientated person with strong\nfocus on team work, development of people and results. My\nmain objectives are; develop my knowledge of the market and\nmy skills, continue learning as a person and as a manager and\nto become more than satisfied in what i do.PROFESSIONAL SUMMARY\n86-C, HIGH COURT SOCIETY\nPHASE 2, COLLEGE ROAD,\nLAHORE.\n+92 302 5464456\nhashaam.butt24@gmail.comMasters in Business Administration (Sales And Marketing)\nSuperior University Lahore\n2015 - 2019EDUCATION\n Top Performance Sales Team Lead 2021, 1.\n       (Healthwire PVT LTD)\n   2. Best Sales Person 2020\n       (Healthwire PVT LTD)ACCOMPLISHMENTS"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

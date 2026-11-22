@@ -1,0 +1,172 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has leadership experience as detailed in their role as Business Development Lead at TRANS DATA, managing new sales processes and training programs.",
+            "Client relationship skills are evident from roles in CAREEM - NOW OPERATIONS LEAD and Manager Customer Services at CAR FIRST.",
+            "Experience in business development overlaps with digital marketing strategy in enhancing brand presence.",
+            "Microsoft Office proficiency noted, but no specific mention of Google Analytics or SEO/SEM experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 6
+                },
+                {
+                    "criteria": "seo/sem",
+                    "score": 3
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 4
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 5
+                },
+                {
+                    "criteria": "content development",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.26,
+                "micro_scores": 4.31
+            }
+        },
+        "personal_info": {
+            "name": "Muzamil Qamar",
+            "email": "muzamil qamar19@gmail.com",
+            "phone": "03091999966",
+            "current_position": "Business Development Lead",
+            "current_company": "TRANS DATA",
+            "employment_start_date_current_company": "10-2023",
+            "first_company_start_date": "01-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 74,
+            "client relationship": 26
+        },
+        "micro_dict": {
+            "social media marketing": 8,
+            "seo/sem": 26,
+            "google analytics": 26,
+            "project management": 1,
+            "crm software expertise": 27,
+            "content development": 12
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills",
+            "Familiarity with Google Analytics and CRM tools",
+            "Bachelor's degree in Business Administration, Marketing, or related field"
+        ],
+        "resume": " \nMUZAMIL  QAMAR  \n03091999966  Lahore /Pakistan  \nEmail  \u00b7 muzamil qamar19@gmail.com  \u00b7  \n \nI Seek to work in a  competitive & challenging environment where I can learn and polish my abilities \nResult -oriented , organized, and motivated individual Who seek  an available management position in an \neffort to utilize years of experience to fulfill the company's strategic requirements.  \n \nPROFESSIONAL EXPERIENCE  \nTRANS DATA  \u2022 Lahore  \nBusiness  Development  Lead  \u2013 Present  \n \n\u2022 Increased  sales  by implementing  a new sales  process  and creating  new sales  materials  \n\u2022 Reviewed  and evaluated  prospect  data and lead generation  techniques,  resulting  in new sales  opportunities  \n\u2022 Implemented  a new sales  training  program  for new and existing  employees,  increasing  the average  sales  \nvolume  \n\u2022 Proactively  addressed  potential  sales  issues,  leading  to a reduction  in sales  force  turnover  \n \nCAR FIRST (Lahore)  \nManager C ustomer Services . (Sep 22 )  \n \n\u2022 Ensure High levels of customer service in the respective division/section to achieve a positive brand image \nand customer experience  \n\u2022 Present suggestions and Recommendations in the most decision made by senior management with the \nregard to sales/ promotiona l activities  \n\u2022 Achieve/exceed assigned organization targets to maintain the profitable business trend  \n\u2022 Involved in Brand movements/department performance/sales performance/ costing /quarterly performance \nanalysis and engaged to prompt the consumer databas e for a profitable future.  \n\u2022 Executing and maintaining the customer service standards  \n\u2022 Coordination with Quality control and setting the new process and policy to obtain the maximum growth in \nthe lead generation business  \n\u2022 Shift plan\u2019s/Rotations/Target alloca tions/ Team segregation  \n\u2022 Engaged in planning out a new strategy and new rotation which has an immense effect on the brand \nretention rate  \n\u2022 Designed the Employee development and grooming mechanisms to ensure proficiency and higher numbers \nof productivity  \n\u2022 Building customer relations and planning out new initiatives to build customer experience with the correlation \nof target market and business theme  \n\u2022 Designed the P -O-L-C-A Framework to provide useful guidance . \n\u2022 Setting and reviewing budgets and managing costs . \n \nABACUS CONSULTING (Lahore)  \nCAREEM - NOW OPERATIONS LEAD ( Oct 21) \n \n\u2022 Produced the highest customer satisfaction rating of the year with the cooperation of my team by providing \npersonalized follow -up and service.     \n\u2022 Worked under the direct supervision of the Customer Services Manager.  \n\u2022 Lead merchandise presentations about pr oduct features.  \n\u2022 Used strong product knowledge and problem -solving skills to assist customers with their concerns.  \n\u2022 Ensured the accuracy of data by keeping track of all customer calls via spreadsheets and company \nsoftware.  \n\u2022 Maintain relationships with suppliers and both internal and external clients.  \n 2 WASTE BUSTERS SOLID WASTE MANAGEMENT PVT  \nBUSINESS DEVELOPMENT EXECUTIVE ( Jan 19) \n \n\u2022 Follow Key Performance Indicators and achieve performance benchmarks set by the company and \nstakeholders  \n\u2022 Customer's issue understanding , Ownership  of fixtures,  and Personalization with customer  \n\u2022 Fulfilling the company\u2019s policies in order to ensure smooth operations.  \n\u2022 Analyzing KPIs to identify weaknesses, proposing and implementing robust solutions, and managing senior \nexecutive and operational team expectations, under tight deadlines to deliver transformational changes.  \n\u2022 Direct Coordination with the Sales team to ensu re the perfect clientage  \n \n \n \nSKILLS  \n\u2022 Strong Interpersonal and communication skills  \n\u2022 Possess firm administrative and organizational skills  \n\u2022 Open to the challenges of change and learning  \n\u2022 Ability to adapt to tomorrow\u2019s changes  \n\u2022 Emphasis on high -quality work and job completion  \u2022 Proficient in Microsoft Office (MS Word, \nPowerPoint, Excel)  \n\u2022 Highly organized & efficient  \n\u2022 Ability to work independently or as a part of the \nTeam   \n\u2022 Ability to train an d groom in order to maintain a \nhealthy environment   \nACHIEVEMENTS | RESPONSIBILITIES  \n\u2022 Scholarships.  \n\u2022 Honor Roll inclusion for high grades.  \n\u2022 Perfect attendance awards  \n\u2022 Earned Excellence Award for Art Work, 20014 -2016  \n\u2022 IELTS scored Band 6.5, 2018  \n\u2022 German language level (A1) at LUMS  \n \n EDUCATION  \n \n2021  \nBACHELORS OF COMMERCE  \n2018  \nHSSC, INTERMEDIATE  \ni.com (intermediate in commerce)  \n \n2016  \nMATRICULATION  \n \n "
+    },
+    "details": {
+        "name": "MUZAMIL QAMAR",
+        "number": "03091999966",
+        "skills": [
+            "Microsoft Office (MS Word, PowerPoint, Excel)"
+        ],
+        "email_id": "muzamil qamar19@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "",
+                "degree_title": "Bachelors of Commerce"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "",
+                "degree_title": "HSSC, Intermediate"
+            },
+            {
+                "end_date": "05-2016",
+                "university": "",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [
+            "Scholarships",
+            "Honor Roll inclusion for high grades",
+            "Perfect attendance awards",
+            "Earned Excellence Award for Art Work, 2014-2016",
+            "IELTS scored Band 6.5, 2018",
+            "German language level (A1) at LUMS"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muzamil Qamar is a dedicated professional with extensive experience in business development and customer service. He has a strong background in implementing sales processes and training programs, demonstrating his commitment to enhancing organizational performance and customer satisfaction.",
+        "employment_history": [
+            {
+                "details": "Increased sales by implementing a new sales process and creating new sales materials. Reviewed and evaluated prospect data and lead generation techniques, resulting in new sales opportunities. Implemented a new sales training program for new and existing employees, increasing the average sales volume. Proactively addressed potential sales issues, leading to a reduction in sales force turnover.",
+                "end_date": "",
+                "location": "Lahore",
+                "job_title": "Business Development Lead",
+                "start_date": "",
+                "company_name": "TRANS DATA"
+            },
+            {
+                "details": "Ensured high levels of customer service in the respective division/section to achieve a positive brand image and customer experience. Achieved/exceeded assigned organization targets to maintain the profitable business trend. Engaged in planning out a new strategy and new rotation which has an immense effect on the brand retention rate.",
+                "end_date": "09-2022",
+                "location": "Lahore",
+                "job_title": "Manager Customer Services",
+                "start_date": "",
+                "company_name": "CAR FIRST"
+            },
+            {
+                "details": "Produced the highest customer satisfaction rating of the year with the cooperation of my team by providing personalized follow-up and service. Ensured the accuracy of data by keeping track of all customer calls via spreadsheets and company software.",
+                "end_date": "10-2021",
+                "location": "Lahore",
+                "job_title": "Operations Lead",
+                "start_date": "",
+                "company_name": "CAREEM - NOW"
+            },
+            {
+                "details": "Followed Key Performance Indicators and achieved performance benchmarks set by the company and stakeholders. Analyzed KPIs to identify weaknesses, proposing and implementing robust solutions.",
+                "end_date": "01-2019",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "",
+                "company_name": "WASTE BUSTERS SOLID WASTE MANAGEMENT PVT"
+            }
+        ]
+    }
+}

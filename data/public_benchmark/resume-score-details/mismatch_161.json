@@ -1,0 +1,171 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks the requisite 5+ years of experience in business development or sales, showing only internship experience.",
+            "Candidate holds a degree in Electrical Engineering instead of Business Administration, Marketing, or related fields.",
+            "No evidence of experience in B2B sales, IT, or manufacturing sectors was found.",
+            "Candidate has proficiency in MS Office, fulfilling one of the skill requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.35,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Zainab Ashraf",
+            "email": "zynabawan89@gmail.com",
+            "phone": "+92 323- 9940741",
+            "current_position": "Student",
+            "current_company": "Lahore College for Women University",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "06-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/zainab-ashraf-4a9143235"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 35,
+            "experience": 31,
+            "strategic thinking": 34
+        },
+        "micro_dict": {
+            "market research": 71,
+            "it and manufacturing sector knowledge": 29
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Proven ability to develop and implement successful business strategies",
+            "Strong proficiency in Microsoft Office Suite",
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": " Zainab Ashraf  \n+92 323- 9940741  \u2022 zynabawan89@gmail.com  \n\u2022 Lahore,  Pakistan | linkedin.com/in/zainab -ashraf -4a9143235   \nObjective  \nFresh Electrical Engineer with a motivated attitude and willi ng to synchronize knowledge, \nprofessional and technical expos ure to excel in my career goals.  \nEducation   \nLahore College f or Women University, Lahore                        2020 \u2013 2024  \nB.Sc. in Electrical Engineering  (3.19 /4) (Grade: B)  \nPunjab Group o f Colleges, Lahore                                               2018  \u2013 2020   \nF.Sc. in Pre \u2013 Engineering  (Grade: A)  \nWork Experience   \nEngineer Intern  at Pakistan Council Of Scientific & Industrial Research  (PCSIR )  \n1st June 2022  \u2013 30th July 2022  \n\uf0b7 Learned  Electrical, Time and  Frequency measurements  \n\uf0b7 Applied & Scientific Metrology  on Industrial equipment for accurate calibration  \n\uf0b7 Studied and practically observed the calibration and  measurements of Electrical equipment  \nusing IEEE Standards  \n\uf0b7 Learned All types of Cable testing before and after compression using industrial testing \nstandards  \nProjects  \nFinal Year Project (Smart Hybrid Wh eelchair  Using Hand Gestures ) \n\uf0b7 Developed a Smart Hybrid Wheelchair integrating advanced sensor technology and \nautomation. Enhanced mobility and independence for users . \n\uf0b7 Featured both manual and automated modes for optimal adaptability and ease of use . \nOther Projects  \nATM Machine using RFID  | Tic-Tac-Toe game  | Plant Water Automation | Fire Alarm Circuit \nusing Arduino   \nSkills  \n\uf0b7 Technical Skills: MS Office, AutoCAD, Arduino ide, MATLAB, Visual Studio, \nLabVIEW, Multisim, SIMULINK, Serenade, Proteus  \n\uf0b7 Soft skills: Presentation skills, Teamwork, Report Writing  \n\uf0b7 Personal skills: Proactive and self -motivated, Strong Interpersonal Skills, Strong \ncommunication skill  \nExtra curricular Activities  \n\uf0b7 Volunteered  as an Ambassador at  Pakistan Engineering Council  (PEC) event,  all \nPunjab Universities i nnovation Expo 2024   \n\uf0b7 STEM education as an Organizer  at Lahore College f or Women University (LCWU)  \n\uf0b7 Volunteered  as an Ambassador  at Institute o f Civil Engineers (ICE)student UET Lahore  "
+    },
+    "details": {
+        "name": "Zainab Ashraf",
+        "number": "923239940741",
+        "skills": [
+            "MS Office",
+            "AutoCAD",
+            "Arduino IDE",
+            "MATLAB",
+            "Visual Studio",
+            "LabVIEW",
+            "Multisim",
+            "SIMULINK",
+            "Serenade",
+            "Proteus"
+        ],
+        "email_id": "zynabawan89@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Smart Hybrid Wheelchair Using Hand Gestures",
+                "description": "Developed a Smart Hybrid Wheelchair integrating advanced sensor technology and automation."
+            },
+            {
+                "title": "ATM Machine using RFID",
+                "description": "Developed an ATM machine utilizing RFID technology."
+            },
+            {
+                "title": "Tic-Tac-Toe game",
+                "description": "Created a Tic-Tac-Toe game."
+            },
+            {
+                "title": "Plant Water Automation",
+                "description": "Implemented a plant watering automation system."
+            },
+            {
+                "title": "Fire Alarm Circuit using Arduino",
+                "description": "Designed a fire alarm circuit using Arduino."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "Lahore College for Women University, Lahore",
+                "degree_title": "B.Sc. in Electrical Engineering"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "Punjab Group of Colleges, Lahore",
+                "degree_title": "F.Sc. in Pre \u2013 Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zainab-ashraf-4a9143235",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zainab Ashraf is a fresh Electrical Engineer with a strong technical background and hands-on experience in various engineering projects. She has developed innovative solutions such as a Smart Hybrid Wheelchair and has proficiency in multiple engineering software tools.",
+        "employment_history": [
+            {
+                "details": "Learned Electrical, Time and Frequency measurements; Applied Scientific Metrology on Industrial equipment for accurate calibration; Studied and practically observed the calibration and measurements of Electrical equipment using IEEE Standards; Learned all types of Cable testing before and after compression using industrial testing standards.",
+                "end_date": "07-2022",
+                "location": "Pakistan Council Of Scientific & Industrial Research (PCSIR)",
+                "job_title": "Engineer Intern",
+                "start_date": "06-2022",
+                "company_name": "Pakistan Council Of Scientific & Industrial Research (PCSIR)"
+            }
+        ]
+    }
+}

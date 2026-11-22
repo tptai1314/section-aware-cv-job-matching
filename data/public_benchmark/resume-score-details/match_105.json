@@ -1,0 +1,164 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks direct business development experience, though they have marketing officer experience which involves managing client interactions and sales cycle elements.",
+            "Leadership score is low due to lack of evident leadership roles, though they have some team interaction and project management experience.",
+            "Strategic thinking score is moderate as they have developed sales strategies and engaged in client management, albeit not at a managerial level.",
+            "Proficiency in Microsoft Office Suite is unconfirmed in the resume, but the roles undertaken suggest possible use, though not explicitly stated."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "account management",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.54,
+                "micro_scores": 4.0
+            }
+        },
+        "personal_info": {
+            "name": "Sheraz Imtiaz",
+            "email": "sherazb35@gmail.com",
+            "phone": "03214501033",
+            "current_position": "Marketing Officer",
+            "current_company": "Asian Calibration Services Pvt Ltd.",
+            "employment_start_date_current_company": "10-2021",
+            "first_company_start_date": "07-2016",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 46,
+            "strategic thinking": 54
+        },
+        "micro_dict": {
+            "account management": 100
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office Suite"
+        ],
+        "resume": "\uf095  03214501033 \uf0e0sherazb35@gmail.com \uf041  Lahore | Pakistan\nEducation\nNational College Of Business\nAdministration & Economics\nBBA (Hon's), Management  |\nLahore\nSeptember 2019\nKIPS COLLEGE\nI.COM , Accounting  | Lahore\nMay 2015\nAmerican International School\nMatriculation , Science  | Lahore\nJune 2013\nCertifications\nInternship Certificate\nThe Bank of Punjab\nStarting September 2015\nInternship certificate\nLasani Goods & company\nStarting March 2015\nSkills\nproblem solving skills.\nSocial Media\nMarketing\nAwards\nBest Quran Recitation Award ,\nKIPS college society\nBest speech Award\nMay 2009\nIndustry\nManufacturing\nFunctional Area\nMarketing\nOperations\nAdministration And Office\nSupport\nAccounts, Finance & Financial\nServices\nLanguages\nEnglish - Native\nUrdu - Native\nGan Chinese - Beginner\nHobbies\nSheraz Imtiaz\n27 years old\nMarketing Officer @ Asian Calibration Services Pvt Ltd.\nSummary\nI am highly motivated and proactive person. I am currently looking to resume my professional\ncareer Where i could be able to utilize my analytical skills and business knowledge.\nSpecialities\nAnalytical Skills100%\ncommunication\nskills100%\ninterpersonal\nskills100%\nproblem\nsolving skills.100%\nleadership\nskills80%\n\u2192 Work Experience\n10MonthsOct 2021 - PresentMarketing Officer\nAsian Calibration Services Pvt Ltd.\nAs a Marketing Officer my core domain is to find & mature clients through social media\nplatfroms or through direct meetings.\nHandle Marketing Campaigns.\nListen Client inquiry and share the Proposal with Client.\nOnce Client aprroved our Proposal, my job is to confirm when our technical team visit client\nsite to perform Calibration work.\nAfter Calibration work my job is to share the invoice with Client.\nI am also responsible for payment recoveries.\n12MonthsSep 2020 - Sep 2021Bank Finance Coordinator\nPantera Energy Pvt Ltd\nAs a Bank Finance Coordinator, i gather all the necessary information from our client's to\npursue solar Financing Case.\nAfter that i prepare Solar financing case and send to the Bank which are on our Company\nPanel.\nI call Banker and ask him about the financing cases progress and update our client's.\nI was also responsible for recover the payment from Bank.\nAs a Bank Finance Coordinator my job is to Facilitate the clients who wants install solar on Bank\nFinancing.\n6MonthsFeb 2020 - Aug 2020Account Executive\nPantera Energy (pvt) Ltd\nAs an Account Executive my job is to Maintain data in Quick book & Bizz Trax\nEnter Petty Cash Bills in both Softwares\nEnter Receipt  & Expense voucher in Quick book\nReconsile all Payable & Receivable data\n21MonthsApr 2017 - Jan 2019Assistant Marketing Executive\nQamer Oil Mills\nBadminton\nArticle Reading\nSnooker\nActingI promote company products through Social media platforms and also launch campaign in\ntargeted areas.\nAs an assistant marketing executive i also develop sale strategies.\ni also collect petty cash from our client's\ni was also responsible for organizing the event in different public places.\n\u2192 Work Experience\n7MonthsJul 2016 - Feb 2017Product sale executive\nFuture Now (Pvt) Limited\nAs a product sale executive my job was to take order from our Canadian based customers.\nI also offer some add-ons to our customer according to company policies.\nI send his order to the nearest shop of customer location & my campaign name was Pizza 73.\n\u2192 Projects\nMar 2019 - Aug 2019How can celebrities influence on consumer buying decision\n"
+    },
+    "details": {
+        "name": "Sheraz Imtiaz",
+        "number": "03214501033",
+        "skills": [
+            "Social Media Marketing",
+            "QuickBooks",
+            "Bizz Trax"
+        ],
+        "email_id": "sherazb35@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "How can celebrities influence on consumer buying decision",
+                "description": "Research project on the impact of celebrities on consumer behavior."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "09-2019",
+                "university": "National College Of Business Administration & Economics",
+                "degree_title": "BBA (Hon's), Management"
+            },
+            {
+                "end_date": "05-2015",
+                "university": "KIPS COLLEGE",
+                "degree_title": "I.COM , Accounting"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "American International School",
+                "degree_title": "Matriculation , Science"
+            }
+        ],
+        "achievements": [
+            "Best Quran Recitation Award, KIPS college society",
+            "Best speech Award, May 2009"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Internship Certificate",
+                "issuing_organization": "The Bank of Punjab",
+                "date_of_issuance": "09-2015"
+            },
+            {
+                "certification_name": "Internship certificate",
+                "issuing_organization": "Lasani Goods & company",
+                "date_of_issuance": "03-2015"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sheraz-imtiaz",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sheraz Imtiaz is a motivated marketing officer with experience in social media marketing and financial coordination. He has a strong background in managing client relationships and facilitating financial processes, demonstrating his technical skills in various software applications.",
+        "employment_history": [
+            {
+                "details": "As a Marketing Officer, responsible for finding and maturing clients through social media platforms and direct meetings, handling marketing campaigns, and managing client inquiries and proposals.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Marketing Officer",
+                "start_date": "10-2021",
+                "company_name": "Asian Calibration Services Pvt Ltd"
+            },
+            {
+                "details": "Gathered necessary information from clients to pursue solar financing cases, prepared cases for banks, and facilitated client interactions with bankers.",
+                "end_date": "09-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Bank Finance Coordinator",
+                "start_date": "09-2020",
+                "company_name": "Pantera Energy Pvt Ltd"
+            },
+            {
+                "details": "Maintained data in QuickBooks and Bizz Trax, entered petty cash bills, receipts, and expense vouchers, and reconciled payable and receivable data.",
+                "end_date": "08-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Account Executive",
+                "start_date": "02-2020",
+                "company_name": "Pantera Energy (pvt) Ltd"
+            },
+            {
+                "details": "Promoted company products through social media, developed sales strategies, and organized events in public places.",
+                "end_date": "01-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Marketing Executive",
+                "start_date": "04-2017",
+                "company_name": "Qamer Oil Mills"
+            },
+            {
+                "details": "Took orders from Canadian customers, offered add-ons, and coordinated order fulfillment.",
+                "end_date": "02-2017",
+                "location": "Lahore, Pakistan",
+                "job_title": "Product Sale Executive",
+                "start_date": "07-2016",
+                "company_name": "Future Now (Pvt) Limited"
+            }
+        ]
+    }
+}

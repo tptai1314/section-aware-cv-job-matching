@@ -1,0 +1,131 @@
+{
+    "output": {
+        "justification": [
+            "Candidate demonstrates leadership through team and client management roles.",
+            "Relevant experience lacks direct involvement in technology services sector.",
+            "No evidence of CRM software proficiency.",
+            "Project management skills indicated through oversight roles."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.33,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Saad Khan",
+            "email": "saadkhan771994@gmail.com",
+            "phone": "+923217503247",
+            "current_position": "Assistant Sales Manager",
+            "current_company": "Kasmy Pack Ltd.",
+            "employment_start_date_current_company": "07-2019",
+            "first_company_start_date": "02-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 33,
+            "experience": 67
+        },
+        "micro_dict": {
+            "project management": 100
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proven track record in lead generation and client engagement"
+        ],
+        "resume": "saadkhan771994@gmail.com \n House No #131, Eastern\nBlock Bahria Orchard- Lahore  +923217503247 M u h a m m a d\nS a a d  K h a n\nASSISTANT SALES MANAGER\nI am a driven individual, that loves a\nchallenge. I have a few years of\nexperience in both sales and marketing\nacquired while working in the FMCG,\nprinting and courier industry.P E R S O N A L  S U M M A R YW O R K  E X P E R I E N C E\nE D U C A T I O N\nC O N T A C T\nE X P E R T I S EEnsuring smooth production and delivery of orders\nEnsuring monthly sales targets\nAcquisition of prospective clients\nOversight and management of assigned team\nClient relationship management\nExecution and oversight of assigned ordersKasmy Pack Ltd.\nAssistant Sales ManagerJuly 2019 - Present\nSales team management\nData analysis and sales forecasting\nMeeting and exceeding sales targets\nVendor relationship management \nAcquisition of new vendors to expand targeted\nterritoryBunny's Limited\nSales ExecutiveFeb 2018 - May 2018\nDouble Majors in Marketing & Finance (CGPA 3.28) Lahore School of Economics\nBBA (Honors)August 2013 - May 2017Major in Marketing (CGPA 3.2)Lahore School of Economics\nMBA August 2018-May 2019\nTeam Management\nClient Relationship Management\nConflict Management & ResolutionStrong Communication Skills\nSales Execution\nContract NegotiationP R O J E T C S\nS M E\nPrepared a detailed plan for the launch of an\nintermediary service named \"Auto App\".\nB r a n d i n g\nPrepared a marketing plan for the brand extension \nof Coca Cola.\nI n v e s t m e n t s\nConducted a detailed fundamental analysis of\nTandiaWala to make an investment decision"
+    },
+    "details": {
+        "name": "Muhammad Saad Khan",
+        "number": "923217503247",
+        "skills": [
+            "Sales Execution",
+            "Data Analysis",
+            "Sales Forecasting",
+            "Vendor Relationship Management",
+            "Client Relationship Management"
+        ],
+        "email_id": "saadkhan771994@gmail.com",
+        "location": "House No #131, Eastern Block Bahria Orchard- Lahore",
+        "projects": [
+            {
+                "title": "Auto App",
+                "description": "Prepared a detailed plan for the launch of an intermediary service named 'Auto App'."
+            },
+            {
+                "title": "Coca Cola Brand Extension",
+                "description": "Prepared a marketing plan for the brand extension of Coca Cola."
+            },
+            {
+                "title": "TandiaWala Investment Analysis",
+                "description": "Conducted a detailed fundamental analysis of TandiaWala to make an investment decision."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "Lahore School of Economics",
+                "degree_title": "BBA (Honors) Major in Marketing (CGPA 3.2)"
+            },
+            {
+                "end_date": "05-2019",
+                "university": "Lahore School of Economics",
+                "degree_title": "MBA"
+            },
+            {
+                "end_date": "05-2020",
+                "university": "Lahore School of Economics",
+                "degree_title": "Double Majors in Marketing & Finance (CGPA 3.28)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Saad Khan is an accomplished Assistant Sales Manager with a strong background in sales and marketing within the FMCG, printing, and courier industries. He has demonstrated expertise in data analysis, sales forecasting, and client relationship management, consistently meeting and exceeding sales targets.",
+        "employment_history": [
+            {
+                "details": "Ensuring smooth production and delivery of orders, ensuring monthly sales targets, acquisition of prospective clients, oversight and management of assigned team, client relationship management, execution and oversight of assigned orders.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Assistant Sales Manager",
+                "start_date": "07-2019",
+                "company_name": "Kasmy Pack Ltd."
+            },
+            {
+                "details": "Sales team management, data analysis and sales forecasting, meeting and exceeding sales targets, vendor relationship management, acquisition of new vendors to expand targeted territory.",
+                "end_date": "05-2018",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "02-2018",
+                "company_name": "Bunny's Limited"
+            }
+        ]
+    }
+}

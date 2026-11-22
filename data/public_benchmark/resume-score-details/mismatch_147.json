@@ -1,0 +1,216 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not have direct experience in digital marketing, impacting the 'Digital Marketing Experience' score.",
+            "There is no mention of client relationship experience or skills in the resume.",
+            "The resume does not list experience or skills in SEO/SEM.",
+            "Google Analytics is not mentioned in the candidate's skills or experience.",
+            "The candidate's work involves project management to some extent, hence a moderate score.",
+            "There is no mention of CRM Software expertise in the resume.",
+            "Content development is not highlighted as a skill or experience.",
+            "The candidate's technical skills in Python and various technologies demonstrate some level of project management skills.",
+            "Education is from Superior University Lahore, which does not align with prioritized universities according to the additional info.",
+            "Work experience is dense in AI and engineering, not directly operational in digital marketing."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo/sem",
+                    "score": 0
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 0
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 0
+                },
+                {
+                    "criteria": "content development",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.62,
+                "micro_scores": 0.7
+            }
+        },
+        "personal_info": {
+            "name": "Huzaifa Tahir",
+            "email": "huzaifatahir7524@gmail.com",
+            "phone": "+92 3218504372",
+            "current_position": "Generative AI Engineer",
+            "current_company": "Mexa Solutions",
+            "employment_start_date_current_company": "09-2023",
+            "first_company_start_date": "12-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/huzaifatahir7524"
+                },
+                {
+                    "website_name": "GitHub",
+                    "url": "github.com/Huzaifa7524"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "digital marketing experience": 38,
+            "client relationship": 62
+        },
+        "micro_dict": {
+            "seo/sem": 15,
+            "google analytics": 26,
+            "project management": 2,
+            "crm software expertise": 27,
+            "content development": 30
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "2+ years of experience in digital marketing",
+            "Strong project management and communication skills"
+        ],
+        "resume": "Huzaifa Tahir\nLahore, Pakistan\n\u2642phone+92 3218504372 /envel\u2322pehuzaifatahir7524@gmail.com /linkedinlinkedin.com/in/huzaifatahir7524 /githubgithub.com/Huzaifa7524\nSummary\nDynamic Generative AI Engineer with 2 years of expertise in pioneering AI technologies, excelling in Deep\nLearning and Natural Language Processing. Demonstrated proficiency in Python, consistently delivering\ninnovative solutions for complex AI challenges. Proven track record of collaborative success in high-stakes\nprojects, driving technological advancement and operational efficiency. Poised to propel AI initiatives forward as\na key contributor in forward-thinking teams.\nEducation\nSuperior University Lahore 2019 - 2023\nBachelor of Science in Computer Science\nTechnical Skills\nLanguages : Python, SQL\nClouds & Databases : Chromadb, Pinecone, Weaviate, Faiss, AWS, PostgreSQL, Sqlite,MongoDB\nDeveloper Tools : Postman, VS Code, GitHub\nTechnologies/Frameworks : Machine Learning, Deep Learning, NLP, DRF, RAG, LLM, Langchain,\nLLama-Index, Hugging Face, OpenAI, AI Agents, Prompt Engineering, Streamlit, Stable Diffusion, DeepGram\nWork Experience\nMexa Solutions Sep. 2023 \u2013 Present\nGenerative AI Engineer onsite\n\u2022Spearheaded the development of cutting-edge software, including an OpenAI-powered Chatbot and an innovative\nInterview Copilot. The Interview Copilot utilizes Deepgram for speech-to-text conversion and Groq open-source LLM to\ngenerate real-time answers from live transcriptions, showcasing expertise in natural language processing and\nconversational AI.\n\u2022Successfully implemented RAGs strategies utilizing Langchain and Llamaindex, significantly enhancing academic\noutcomes in educational settings.\n\u2022Engineered a sophisticated PDF file summary generator leveraging OpenAI technologies, dramatically streamlining\ndocument analysis workflows.\n\u2022Architected and deployed a state-of-the-art Finance Streamlit chatbot with seamless Snowflake integrations, harnessing\nadvanced data analytics to deliver precision financial insights.\n\u2022Applied cutting-edge RAGs techniques to transform cybersecurity documents, employing Langchain and Llamaindex to\ncreate tailored, immersive learning experiences for cybersecurity literature.\n\u2022Developed \u201dStudy Buddy\u201d, an intelligent AI system designed to enhance learning experiences and improve student\nproductivity through personalized academic support.\nFalconXoft March 2023 \u2013 Aug. 2023\nAssociate Python developer Remote\n\u2022Contributed to the development and maintenance of software applications, including the Flight Reservation Management\nSystem utilizing Flight API, demonstrating proficiency in backend development and API integration.\n\u2022Developed a Webscraper to determine the Best Seller Rank (BSR) of products, utilizing web scraping techniques and\ndata analysis to inform business decisions.\nFalconXoft Dec. 2022 - Feb. 2023\nPython Developer Internship Remote\n\u2022Developed a Django application for Face Emotions recognition using Convolutional Neural Network (CNN), showcasing\nproficiency in machine learning and computer vision.\n\u2022Collaborated with the development team to integrate third-party APIs, such as Google Maps and social media platforms,\nexpanding application functionality and user reach.Projects\nArabic Speech Recognition with Whisper Source Code\n\u2022Arabic speech recognition using Whisper-jax model by OpenAI\n\u2022Utilized Hugging Face Transformers library to fine-tune the Whisper model on an Arabic speech dataset\n\u2022Achieved accurate transcription of Arabic speech audio into text with the trained model\n\u2022Key Technologies: OpenAI Whisper model, Hugging Face Transformers, Python, Google Colab\nYourstudybuddy.bot Website Link\n\u2022Developed AMERICAN HIGH SCHOOL ACADEMY Chatbot.\n\u2022Facilitated communication between staff and students.\n\u2022Implemented RAGs (Retrieval-Augmented Generative) model with Langchain.\n\u2022Enabled uploading multiple PDFs simultaneously.\n\u2022Integrated question generation from PDF content.\n\u2022Deployed on AWS EC2 for optimal performance and accessibility.\n\u2022Key Technologies: OpenAI, Python, Django, RAGs (Retrieval-Augmented Generative), Langchain, AWS EC2\nSmart Content Accumulator - News Article Summarizer Source Code\n\u2022Web scraping project collects news articles from popular websites like BBC News and Dawn.\n\u2022Utilizes Hugging Face\u2019s sshleifer/distilbart-cnn-12-6 model for content summarization.\n\u2022Provides a convenient and efficient method for extracting the essence of an article through accurate and concise\nsummaries.\n\u2022Key Technologies: Python, Django, Hugging Face\u2019s sshleifer/distilbart-cnn-12-6 model\nAI Powered Study Plan and Book Summarization Source Code\n\u2022Combines AI for personalized study plans and book summarization.\n\u2022Generates tailored study plans based on student needs, strengths, and aspirations.\n\u2022Condenses lengthy books into comprehensive summaries.Addresses GPT-4\u2019s token limit constraint.\n\u2022Key Technologies: Python,Langchain, Chromadb,GROQ,Gpt4,Prompt Engineering\nCertifications\nMachine Learning Specialization 2023\nCoursera Certificate Link\nNatural Language Processing 2023\nCoursera Certificate Link"
+    },
+    "details": {
+        "name": "Huzaifa Tahir",
+        "number": "923218504372",
+        "skills": [
+            "Python",
+            "SQL",
+            "Chromadb",
+            "Pinecone",
+            "Weaviate",
+            "Faiss",
+            "AWS",
+            "PostgreSQL",
+            "Sqlite",
+            "MongoDB",
+            "Postman",
+            "VS Code",
+            "GitHub",
+            "Machine Learning",
+            "Deep Learning",
+            "NLP",
+            "DRF",
+            "RAG",
+            "LLM",
+            "Langchain",
+            "LLama-Index",
+            "Hugging Face",
+            "OpenAI",
+            "AI Agents",
+            "Prompt Engineering",
+            "Streamlit",
+            "Stable Diffusion",
+            "DeepGram"
+        ],
+        "email_id": "pehuzaifatahir7524@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Arabic Speech Recognition with Whisper Source Code",
+                "description": "Arabic speech recognition using Whisper-jax model by OpenAI."
+            },
+            {
+                "title": "Yourstudybuddy.bot Website Link",
+                "description": "Developed AMERICAN HIGH SCHOOL ACADEMY Chatbot."
+            },
+            {
+                "title": "Smart Content Accumulator - News Article Summarizer Source Code",
+                "description": "Web scraping project collects news articles from popular websites."
+            },
+            {
+                "title": "AI Powered Study Plan and Book Summarization Source Code",
+                "description": "Combines AI for personalized study plans and book summarization."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2023",
+                "university": "Superior University Lahore",
+                "degree_title": "Bachelor of Science in Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Machine Learning Specialization",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "2023"
+            },
+            {
+                "certification_name": "Natural Language Processing",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/huzaifatahir7524",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/Huzaifa7524",
+                "website_name": "GitHub"
+            }
+        ],
+        "executive_summary": "Huzaifa Tahir is a dynamic Generative AI Engineer with 2 years of expertise in pioneering AI technologies, excelling in Deep Learning and Natural Language Processing. He has demonstrated proficiency in Python, consistently delivering innovative solutions for complex AI challenges and driving technological advancement in high-stakes projects.",
+        "employment_history": [
+            {
+                "details": "Spearheaded the development of cutting-edge software, including an OpenAI-powered Chatbot and an innovative Interview Copilot. Successfully implemented RAGs strategies utilizing Langchain and Llamaindex, significantly enhancing academic outcomes in educational settings.",
+                "end_date": "Present",
+                "location": "Onsite",
+                "job_title": "Generative AI Engineer",
+                "start_date": "09-2023",
+                "company_name": "Mexa Solutions"
+            },
+            {
+                "details": "Contributed to the development and maintenance of software applications, including the Flight Reservation Management System utilizing Flight API.",
+                "end_date": "08-2023",
+                "location": "Remote",
+                "job_title": "Associate Python developer",
+                "start_date": "03-2023",
+                "company_name": "FalconXoft"
+            },
+            {
+                "details": "Developed a Django application for Face Emotions recognition using Convolutional Neural Network (CNN).",
+                "end_date": "02-2023",
+                "location": "Remote",
+                "job_title": "Python Developer Internship",
+                "start_date": "12-2022",
+                "company_name": "FalconXoft"
+            }
+        ]
+    }
+}

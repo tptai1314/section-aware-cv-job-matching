@@ -1,0 +1,153 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has strong business development experience from Foodpanda, managing and expanding vendor relationships.",
+            "Relevant experience in using Excel, Salesforce, and Tableau which aligns with job requirements for business analytics tools.",
+            "Candidate does not have a business administration degree, but has taken related coursework in project management and entrepreneurship.",
+            "No explicit mention of skills/tools like Power BI, GA4, CRM tools such as JIRA or Asana mentioned in resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 5
+                },
+                {
+                    "criteria": "seo",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.32,
+                "micro_scores": 3.84
+            }
+        },
+        "personal_info": {
+            "name": "Mohammad Arqam Naeem Sahgal",
+            "email": "arqamnaeemsaighol@gmail.com",
+            "phone": "+92 311 0260910",
+            "current_position": "Executive-Virtual Account Management",
+            "current_company": "Foodpanda-Delivery Hero",
+            "employment_start_date_current_company": "02-2022",
+            "first_company_start_date": "05-2015",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/mohammad-arqam-sahgal"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 32,
+            "strategic planning": 68
+        },
+        "micro_dict": {
+            "negotiation": 42,
+            "seo": 58
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Mohammad Ar qam Naeem Sahgal\narqamnaeemsaighol@gmail.com\n| +92 311 0260910 |\nhttps://www.linkedin.com/in/mohammad-arqam-sahgal\n| Lahore, Pakistan\nEDUCATION\nFAST - National University of Computer and Emerging Sciences (NUCES), Lahore, Pakistan\n2017-2021\nBachelor of Science, Electrical Engineering\n-\nAdd. Courses: Engineering Economics, Entrepreneurship, Engineering and Project Management\nAitchison College, Lahore, Pakistan\n2014-2016\nA-Levels and O-Levels\nEXPERIENCE\nFoodpanda-Delivery Hero \nExecutive-Virtual Account Management                                                                                            Feb 2022 \u2013 Present \n\u25cf\nPart of an APAC initiative known as the VKAM project, with a pivotal role led my team to become\ntop performing \nacross APAC for two consecutive quarters. \n\u25cf\nManaging and expanding relationships with an inventory of\n1000+\nexisting long tail vendors per quarter. \n\u25cf\nOverseeing all allotted inventory KPIs through\nExcel\n,\nTableau\n, and\nSalesForce\n. \n\u25cf\nClosely worked with vendors to improve GMV, RPO & Basket Size.\n\u25cf\nMonitoring each vendor's performance metrics and providing technical support to the vendors.\n\u25cf\nImproved inventory health by\n4.2%\nin the \ufb01rst quarter\nand\n5.65%\nin the second quarter.\n\u25cf\nAchieved\n17.16%\nincrease in GFV of all allotted inventory\nby improving operational metrics. \n\u25cf\nAdministered team tracking and generated team reports on a weekly and monthly basis.\nAssociate-Collection & Recovery                                                                                                    Oct 2021 \u2013 Feb 2022\n\u25cf\nOversaw foodpanda's off-boarded inventory in Lahore.\n\u25cf\nManaged the safe recovery process of foodpanda's assets in Lahore.\u00a0\n\u25cf\nTrained new inductees in the same domain.\nORIX Leasing Pakistan Limited, Lahore, Pakistan \nOperations Intern                                                                                                                             Jul 2015 \u2013 Aug 2015 \n\u25cf\nResponsible for maintaining data of key accounts and presenting their reports on a weekly basis.\nSindh Bank Limited, Lahore, Pakistan \nIntern                                                                                                                                           May 2015 \u2013 June 2015 \n\u25cf\nScreening and maintaining corporate \ufb01les at all levels.\nACADEMIC PROJECTS\nAQUA TRUCE(Final Year Project) \n\u25cf\nProduct development of an IoT based water tank system\n\u25cf\nDevelopment of a plug and play solution for water tanks \n\u25cf\nDeploying new features into existing systems such as ambient temperature control, water level monitoring and dry \nrunning protection.\nReview on IoT based Power System Protection System\n\u25cf\nReview on a new \u201cintelligent operation\u201d concept for power system protection based on Internet-of-Things \nincorporated into smart environments\nSKILLS\nProject Management, Agile, SCRUM, Operations Management, Logistics Management, Communication Skills, \nSupply Chain Management, Analytical Skills, Leadership, Adaptability, Team Work \nSoftware Skills:\nSalesforce, Tableau,\nPython, C++,\nMATLAB, Arduino, Proteus, HTML, PLC programming, MS \nOffice\nLANGUAGES\nEnglish                                                                           Urdu                                                                             French\nNative or Bilingual Proficiency\nFull Professional Proficiency                                    Limited Working Proficiency\n"
+    },
+    "details": {
+        "name": "Mohammad Arqam Naeem Sahgal",
+        "number": "923110260910",
+        "skills": [
+            "Salesforce",
+            "Tableau",
+            "Python",
+            "C++",
+            "MATLAB",
+            "Arduino",
+            "Proteus",
+            "HTML",
+            "PLC programming",
+            "MS Office"
+        ],
+        "email_id": "arqamnaeemsaighol@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "AQUA TRUCE(Final Year Project)",
+                "description": "Product development of an IoT based water tank system"
+            },
+            {
+                "title": "Review on IoT based Power System Protection System",
+                "description": "Review on a new 'intelligent operation' concept for power system protection based on Internet-of-Things incorporated into smart environments"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "FAST - National University of Computer and Emerging Sciences (NUCES), Lahore, Pakistan",
+                "degree_title": "Bachelor of Science, Electrical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mohammad-arqam-sahgal",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Mohammad Arqam Naeem Sahgal is a dedicated professional with a Bachelor of Science in Electrical Engineering and extensive experience in virtual account management and operations. He has demonstrated strong technical skills in various software and programming languages, contributing to significant improvements in inventory management and vendor performance in his current role at Foodpanda.",
+        "employment_history": [
+            {
+                "details": "Part of an APAC initiative known as the VKAM project, managing and expanding relationships with an inventory of 1000+ existing long tail vendors per quarter, overseeing inventory KPIs through Excel, Tableau, and Salesforce, and providing technical support to vendors.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Executive-Virtual Account Management",
+                "start_date": "02-2022",
+                "company_name": "Foodpanda-Delivery Hero"
+            },
+            {
+                "details": "Oversaw foodpanda's off-boarded inventory in Lahore and managed the safe recovery process of foodpanda's assets.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Associate-Collection & Recovery",
+                "start_date": "10-2021",
+                "company_name": "Foodpanda-Delivery Hero"
+            },
+            {
+                "details": "Responsible for maintaining data of key accounts and presenting their reports on a weekly basis.",
+                "end_date": "08-2015",
+                "location": "Lahore, Pakistan",
+                "job_title": "Operations Intern",
+                "start_date": "07-2015",
+                "company_name": "ORIX Leasing Pakistan Limited"
+            },
+            {
+                "details": "Screening and maintaining corporate files at all levels.",
+                "end_date": "06-2015",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern",
+                "start_date": "05-2015",
+                "company_name": "Sindh Bank Limited"
+            }
+        ]
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "output": {
+        "justification": [
+            "Resume does not reflect any professional experience, only showcases education.",
+            "The job description requires 10+ years of industry experience, candidate is fresh.",
+            "No mention of experience with PowerBI or Oracle DV.",
+            "The resume lists some programming languages and general IT knowledge but lacks the depth of data management or analytics experience required."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical expertise",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "powerbi",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.0,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Usama Khalid",
+            "email": "maxfury3003@gmail.com",
+            "phone": "+923064993003",
+            "current_position": ".NET Developer Intern",
+            "current_company": "XYZ Solutions",
+            "employment_start_date_current_company": "05-2023",
+            "first_company_start_date": "05-2023",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "technical expertise": 100
+        },
+        "micro_dict": {
+            "powerbi": 100
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "10+ years of industry experience in project management and data analytics",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+            "Experience in managing enterprise data warehouse projects"
+        ],
+        "resume": "Usama Khalid\nIT Professional\nContact\nPhone\n+923064993003\nAddress\nFarooq Colony House # 7\nStreet # 7 Chishtian \nEmail\nmaxfury3003@gmail.com\nExpertise\nReferencesBootstrapHTML5\nSQL serverC++\nCSS3\nWill be furnished on\ndemand.Objective\nTo take long-term career-oriented employment to invest\nall my education Qualification, Professional Experience\nand to undertake Responsibility to widen the scope of\nlearning practically to the optimum benefits of the\nOrganization and entire Development of my career.\nExperience\nFreshEducational\nBS Information Technology | 2017 \u2013 2021\nThe Islamia University of Bahawalpur\nCGPA: 3.43/ 4.00\nMatric: Science Education | 2013 \u2013 2015\nBISE Bahawalpur\nPercentage: 69.2%FSC Pre-Engineering. | 2015\u2013 2017\nBISE Bahawalpur\nPercentage: 74.18%\nLanguages\nEnglish\nPunjabi\nURDUPersonal Information\nDate of Birth:\n19 August , 2000\nMarital Status: Single\nReligion: ISLAMCNIC: 31102-0923246-3\nPersonal Skills\nCritical Thinking\nTime Management\nLeadership\nTeam ManagementPythonMS Information Security | 2021 \u2013 2023\nThe Islamia University of Bahawalpur\nContinue"
+    },
+    "details": {
+        "name": "Usama Khalid",
+        "number": "923064993003",
+        "skills": [
+            "Bootstrap",
+            "HTML5",
+            "SQL server",
+            "C++",
+            "CSS3",
+            "Python"
+        ],
+        "email_id": "maxfury3003@gmail.com",
+        "location": "Farooq Colony House # 7, Street # 7 Chishtian",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "The Islamia University of Bahawalpur",
+                "degree_title": "BS Information Technology"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "BISE Bahawalpur",
+                "degree_title": "Matric: Science Education"
+            },
+            {
+                "end_date": "06-2017",
+                "university": "BISE Bahawalpur",
+                "degree_title": "FSC Pre-Engineering"
+            },
+            {
+                "end_date": "12-2023",
+                "university": "The Islamia University of Bahawalpur",
+                "degree_title": "MS Information Security"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Usama Khalid is an IT professional with a strong educational background in Information Technology and Information Security. He possesses technical skills in various programming languages and frameworks, demonstrating a commitment to advancing his career in the tech industry.",
+        "employment_history": []
+    }
+}

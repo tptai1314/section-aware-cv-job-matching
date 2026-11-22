@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has demonstrated business development skills, having held roles such as Business Development Team Lead and Executive, which aligns with the job description's need for experience in sales and strategic management.",
+            "Leadership skills are inferred from the Business Development Team Lead position, indicating some leadership experience, albeit details on strategic thinking and mentoring are limited in the resume.",
+            "The macro score for experience is moderate due to relevant business development roles but lacks mention of managing complex sales cycles.",
+            "Skills in MS Office are mentioned, but specific tools like Excel are not detailed, affecting the micro scores.",
+            "No mention of specific negotiation skills or sales process management, impacting these micro scores."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales process management",
+                    "score": 5
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 4
+                },
+                {
+                    "criteria": "account management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.82,
+                "micro_scores": 5.0600000000000005
+            }
+        },
+        "personal_info": {
+            "name": "Ahmad Ali",
+            "email": "mhrali01@gmail.com",
+            "phone": ".",
+            "current_position": "Business Development Team Lead",
+            "current_company": "DHives",
+            "employment_start_date_current_company": "04-2023",
+            "first_company_start_date": "09-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/maharali1/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 24,
+            "experience": 29,
+            "strategic thinking": 47
+        },
+        "micro_dict": {
+            "sales process management": 36,
+            "negotiation skills": 29,
+            "account management": 35
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Strong negotiation and strategic thinking skills",
+            "Proven track record in managing complex sales cycles",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "5+ years of experience in business development or a related role"
+        ],
+        "resume": "04/2023 - Present\n04/2022 - 03/2023\n09/2021 - 03/2022\n10/2022 - 08/2021\n2017 - 2021SUMMARY\nI have hands-on experience in Business Development for the Software industry. Excellent at\u00a0cross-functional teamwork  \nskills when collaborating with internal and external teams to generate\u00a0business, assist expansion and generate\u00a0income  \nthrough freelancing\u00a0platforms. Skilled in identifying potential clients and collaborating with the software engineering  \nteams in order to land jobs successfully and play a part in growing the business.\nEXPERIENCE\nBusiness Development Team Lead\nDHives\nBusiness Development Executive\nBusiness Development Executive\nBusiness Development Executive\nGrowth Hacking Solutions\nAccount Executive\nLak Citrus\nEDUCATION\nBSCS\nCOMSATS University Islamabad\nSKILLS\nBusiness Development Business Strategy Sales Pipeline Management Trello\nAppointment Scheduling Team Management MS O\ufb03ce G-Suite\ue069 q eAHMAD ALI\nBusiness Development Team Lead\nmhrali01@gmail.comhttps://www.linkedin.com/in/maharal\ni1/Lahore, Punjab, Pakistan"
+    },
+    "details": {
+        "name": "AHMAD ALI",
+        "number": "03124843384",
+        "skills": [
+            "Business Development",
+            "Business Strategy",
+            "Sales Pipeline Management",
+            "Trello",
+            "MS Office",
+            "G-Suite"
+        ],
+        "email_id": "mhrali01@gmail.com",
+        "location": "Lahore, Punjab, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "COMSATS University Islamabad",
+                "degree_title": "BSCS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maharali1",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmad Ali is a skilled Business Development Team Lead with extensive experience in the software industry, adept at collaborating with cross-functional teams to drive business growth and client acquisition.",
+        "employment_history": [
+            {
+                "details": "Led business development initiatives and collaborated with software engineering teams to secure projects.",
+                "end_date": "03-2023",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Team Lead",
+                "start_date": "04-2022",
+                "company_name": "DHives"
+            },
+            {
+                "details": "Focused on generating leads and managing client relationships to enhance business opportunities.",
+                "end_date": "03-2022",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "09-2021",
+                "company_name": "Growth Hacking Solutions"
+            },
+            {
+                "details": "Engaged in business development activities to expand the client base and increase revenue.",
+                "end_date": "08-2021",
+                "location": "Lahore, Punjab, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2022",
+                "company_name": "Lak Citrus"
+            }
+        ]
+    }
+}

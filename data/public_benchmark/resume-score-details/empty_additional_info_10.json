@@ -1,0 +1,106 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 10 to 15 years of relevant experience, meeting the job requirement of 10+ years in project management.",
+            "The resume details leadership experience suitable for leading engineering departments, aligning with the role's need for strategic business oversight.",
+            "The candidate holds a Bachelor's and potentially a Master's in a relevant field, aligning with the education requirements.",
+            "Key skills such as business acumen, communication, and strategic thinking are highlighted in the resume, relevant to the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 9
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 9
+                },
+                {
+                    "criteria": "installation, testing & commissioning",
+                    "score": 8
+                },
+                {
+                    "criteria": "vendor management",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in electrical design and project execution",
+                    "meets": true
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 9.0,
+                "micro_scores": 8.09
+            }
+        },
+        "personal_info": {
+            "name": "None",
+            "email": "None",
+            "phone": "None",
+            "current_position": "Team Lead",
+            "current_company": "None",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Senior Electrical Project Manager\n\n### Company: [Bright Sparks Engineering Solutions]\n\n### Location: Karachi, Pakistan\n\n**Job Overview:**\nJoin [Bright Sparks Engineering Solutions] as a Senior Electrical Project Manager to lead our dynamic engineering team. You will oversee complex electrical projects from inception to completion, ensuring adherence to design, quality planning, and installation standards. Your role is crucial in fostering an innovative and collaborative work environment, driving projects to success with strategic direction and optimal resource allocation.\n\n### Key Responsibilities\n- Lead the engineering department in achieving strategic business goals.\n- Coordinate all elements of electrical projects, including design and quality assurance.\n- Manage project budgets, resource allocation, and timelines effectively.\n- Provide mentorship and guidance to engineering teams.\n- Facilitate excellent communication between stakeholders, vendors, and clients.\n\n### Key Skills\n- Strong business acumen and strategic thinking.\n- Excellent communication and interpersonal skills.\n- Extensive experience in team management and project leadership.\n\n### Desired Expertise\n- Electrical Design Evaluation (FEED)\n- Project Management (including FAT/SAT execution)\n- Equipment Procurement and Vendor Management\n- Installation, Testing & Commissioning of electrical systems\n\n### Education\n- Bachelor's degree in Electrical Engineering or related field.\n- Master\u2019s degree in Management or Project Management preferred.\n\n### Experience\n- 10+ years in electrical project management or a related field.\n\n### What We Offer\n- Competitive salary and benefits package.\n- Opportunity to work on high-profile international projects.\n- A stimulating environment that encourages professional growth and development.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "project management": 9,
+            "installation, testing & commissioning": 64,
+            "vendor management": 27
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Proficiency in electrical design and project execution",
+            "10+ years of industry experience in project management"
+        ],
+        "resume": "Team Lead  \n\uf0b7 Experience Required:  10 to 15 years of relevant experience.  \n\uf0b7 Basic Salary Range:  401,000 to 500,000.  \n\uf0b7 Key Responsibilities:  \no Lead the overall engineering department and its strategic initiatives.  \no Coordinate all project elements, including design, quality planning, and installation.  \no Ensure efficient resource allocation and project success.  \no Foster a collaborative and innovative work environment.  \no Provide strategic direction and guidance to teams.  \n\uf0b7 Key Skills:  \no Strong business acumen and strategic thinking.  \no Excellent communication and interpersonal skills.  \no Extensive experience in team management.  \n\uf0b7 Eligibility:  Bachelor's or Master's degree in electrical engineering. A Master\u2019s degree in \nmanagement is preferable.  \n "
+    },
+    "details": {
+        "name": "John Doe",
+        "number": "03124843384",
+        "skills": [
+            "Python",
+            "Excel"
+        ],
+        "email_id": "john.doe@example.com",
+        "location": "New York, NY",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "John Doe is a seasoned software engineer with extensive experience in Python and Excel, demonstrating strong technical skills and a commitment to excellence.",
+        "employment_history": [
+            {
+                "details": "Software Engineer at XYZ Corp",
+                "end_date": "11-2024",
+                "location": "New York, NY",
+                "job_title": "Software Engineer",
+                "start_date": "01-2020",
+                "company_name": "XYZ Corp"
+            }
+        ]
+    }
+}

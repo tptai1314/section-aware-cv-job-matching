@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 51,
+            "experience": 18,
+            "communication skills": 31
+        },
+        "micro_dict": {
+            "ms excel": 58,
+            "stata": 29,
+            "linkedin sales navigator": 4,
+            "verbal and written communication": 9
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Proficiency in MS Office Suite and data analysis tools",
+            "Excellent communication skills"
+        ],
+        "resume": "Sure, here's a random text:\n\nThe sky was a peculiar shade of periwinkle, as if dipped in a dream world of pastel hues. Beneath it, the rolling hills seemed to sway gently in the breeze, carpets of green and gold blending into one another. A lone hawk circled high above, its silhouette carving fluid shapes against the expansive open.\n\n\"Did you ever wonder,\" said Jack, adjusting his old, weathered hat, \"if these hills have secrets buried deep within 'em? Lost treasures, ancient relics, echoes of the past just waiting to be discovered.\"\n\nSarah chuckled softly, her eyes following the hawk's flight. \"You've been reading too many adventure novels again,\" she teased, nudging him playfully. \"But it\u2019s a nice thought. All this land, so much history hidden beneath the soil.\"\n\nJack smiled, patting the metal detector slung across his back. \"Well, there\u2019s only one way to find out.\"\n\nThe fields, meanwhile, stretched into infinity, unaware of the two dreamers and their musings. Somewhere far off, the sound of a distant train whistle floated on the wind, a ghostly reminder of time's passage.\n\nfj83#89vnm&2!zigzag-pattern@44tree-fox#apple7.\n\nAnd so the day unfolded like a storybook, each page filled with the promise of discovery, mystery, and the simple beauty of an unhurried adventure."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

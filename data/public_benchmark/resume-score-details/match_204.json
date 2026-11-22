@@ -1,0 +1,177 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has extensive sales and marketing leadership experience, but specific leadership in data-focused roles is not detailed.",
+            "Experience in business development and market strategy aligns somewhat with the job role, but lacks direct technology-driven lead generation experience.",
+            "No direct evidence of programming skills, which are preferred for the role, impacting both relevant experience and micro scores.",
+            "Candidate holds a commerce degree, not specifically in computer science, impacting alignment with minimum requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 2
+                },
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm and data management",
+                    "score": 7
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.57,
+                "micro_scores": 5.300000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Amin",
+            "email": "m_amin05@yahoo.com",
+            "phone": "+923344072383",
+            "current_position": "Manager Business Development",
+            "current_company": "Business Dynamics (Pvt.) Limited",
+            "employment_start_date_current_company": "01-2018",
+            "first_company_start_date": "05-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 15,
+            "experience": 43,
+            "innovation and adaptability": 42
+        },
+        "micro_dict": {
+            "c++, html, css": 21,
+            "business intelligence tools (power bi, sql, tableau)": 6,
+            "crm and data management": 24,
+            "digital marketing skills": 41,
+            "project management": 8
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Strong communication and interpersonal skills",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Proficiency in at least one programming language"
+        ],
+        "resume": " \nsale \nS                                                                                                                                                                                                                                                                                                                                                                              Muhammad Amin \n \nS T R A T E G I C  S A L E S ,  B U S I N E S S  D E V E L O P M E N T \n \n \n \n \nProfile  \nA seasoned and result-oriented executive in the Sales, Marketing & Business Development  \nwith a passion for strategic ma nage ment and business growth.  I have had diverse and \nextensive experience within the FMCG , Distribution and NGO sectors.  \n \n \nWork  Experience \n \n \nBusiness Dynamics (Pvt.) Limited \n \n \nManager Business Development                                                           \nJ A N U A R Y 20 18 \u2014 P R E S E N T \nIn my current role I am ov erseeing two different businesses within the company  \n \n \n1.     d2w-Oxo-biodegradab le additive \u2013 Product of Symphony Environmental (UK) \n2.     Consumer Products unde r the brand \u201cProtector\u201d \u2013 Health & Hygiene Limited (UK)  \n \n \nd2w-Pakistan \n \n\u2022 Lead ing nationwide         s and  marketing  of  d2w  in  Pakistan \n \n\u2022 Partnered  with multiple government agen cies and institutions to promote Oxo- \nbiodegradab le plastics \n \n\u2022 Coord ination with local market & corpora te sector to use and promote \nd2w-Oxo biodegradab le technology \n \n\uf0b7 Annual Financial planning and budgeting to achieve the targets  \n \n\uf0b7 Monitoring of overall targets on monthly basis  \n \n\u2022 Identified new business prospects and led nego tiations with our key \npartners in FMCG, Textile,  Packaging and fertilizer sectors , promoting \nand utilizing d2w as the best source for packing material. \n \n\u2022    Have held multiple brand awarene ss campaigns to establish presence across \nPakistan \n \n\u2022 In the year 2020 -21, was able to accomplish one of the highest sales volumes. \nCurrently securing a  market share of over 70% \n \n \nProte ctor- Antibacterial Consum er Products  \n \n\u2022    Leading  the sales of \u201cProtector Anti-bacterial toothbrushes and Cling \n                  film\u201d in Lahor e \n \n\u2022 Collaborating and coaching the sales team to effectively drive sales and optimize \ngrow th \n \n\uf0b7 Regular Market Visits  \n \n\uf0b7 Continuously monitor and report on competitor activities such as \npricing patterns, distribution strategies and promotional activities  \n \n\u2022    Managing and maintaining Key Accounts, IMT\u2019s (Carre four & M etro C&C), LMT\u2019s,  \nPharmacy Chains and B2B opera tions \n \n\u2022    Identified opportunities and developed a relationship with our Institutional \nInvestors for the sales of \u201cProtector Anti-microbial facemasks\u201d Detai ls \n \nM: +923344072383  \nE: m_amin05@yahoo.com \nA: 299 Omer  Block , Allama Iqbal Town \nLahore  \n \nDOB: 5th November 1988 \n \n \n \n \nEducati on \n \nMSC, Business Statistics & Management \nSciences \nUniversity of The  Punjab \n2011 \n \n \nB.Com \nUniversity of The  Punjab \n2009STH S ales and Marketing Consultants \n \n(Worked as Freelancer )                                                           \n \nJ U L Y 20 17 \u2014 D E C E M B E R 2 0 1 7 \nI was responsible for managing  and de veloping relations with 2 of their key \nstake holders. \n \nRice World Pvt. Ltd \n \n\u2022 Coached & hone d Merchand isers and Brand Ambassadors for brand \nawarene ss campaigns \n \n\u2022    Organized BTL activities for the promotion of the brand  \n \n\u2022    Designed and rolled out campaigns for the launch of their new products \n \nShakarganj Foods Pvt. Ltd \n \n\u2022 Designed and organ ized the course of all BTL activities nationwide, \noptimizing budget , while re-launching Shakargan j juices. \n \n\u2022 Devised multiple campaigns for the Educational & Corpora te sector to \ncreate brand awarenes s \n \n \nCitroPak Ltd. (Fruitien Juices)  \n \n \nSr. Bu siness Development Executive                                                    \n \nN O V E M B E R  2 0 1 6  \u2014  JU NE  20 17  \n \n \n\u2022 Designed, budge ted, and conducted numerous lucrative promotional campaigns \nwithin the corpora te and education sector for two of their produc ts namely  Fruitien \nJunior and Fruitien Joy Premium increasing sales by 10%. \n \n\u2022    Developed and designed the market repor t for our partners and key stakeholders. \n \n\u2022 Analyzed data, based on market research nationwide, to identify new business \nstrategies as well as grow th oppor tunities \n \n\u2022 Spearheade d multiple training sessions for brand ambassadors and retail partners \nfor several promotional activities. \n \n\u2022 Condu cted  a  nationwide  brand  awarene ss  campaign  amongst  1.5  million \nstudent s achieving a  targe t of 25% grow th in sales  \n \n\u2022    Manage d engage ments with advertisers and media agen cies on behalf of the brand \n \n\u2022 Was chosen by the company to under take a course in Media Hand ling, held in \nKarachi in 2017 at IBA which further helped me to develop my communication and \nnego tiation skills. \n \nWorld Wide Fund  \n \n \nSr. Officer Corpor ate Relations                                                             \nJ U L Y 2 0 1 4 \u2014 O C T O B E R 2 0 1 6 \n \n\u2022 Developed & impleme nted efficient and suitable fundra ising strategies, with the \naim of grow ing and suppleme nting existing  funding streams, to ensure financial \nsustainability for WWF-Pakistan \n \n\uf0b7 Successfully s ecured sponsorships  for various campaigns of WWF -Pakistan  \n \n\uf0b7 Achieved the highest volume of fundraising  in Spellath on Campaign with the \nyearly growth rate of 15 %  \n \n\u2022 Organized corpora te and employee engage ment progra mmes for renowne d \ncorpora te entities \n \n\u2022 Secured suitable retail partners for multiple projects, thus increased the number \nof Individual Memb ers for fundra ising with the growth rate of 30%  \n \n\u2022 Condu cted environmental awarene ss sessions, within the corpora te and \neducation sector. These sessions were part of our yearly Eco-internsh ip and \nGreen School Progra mme campaigns  \nLanguag es \n \nEnglish \n \nUrdu   \n \n \n \nSkills \nB2B Sales \nB2C Sales  \n  \n Brand Activation   Leadership / Team management  \n Trade Marketing  Business Planning and Financial \nProjection  \nRetail Management  Corporate Engagement  \nDeveloping & Implementing Sales and \ndevelopment strategies  \n \u2022    Was nominated to participate in Asia Pacific Growth Conference in 2015 held in \nKuala Lumpur, aimed to exhibit the accomplishments the organ ization had \nachieved globally as well as discuss initiatives for a more sustainable future \n \n \n \nOfficer Corpor ate Relations \n \nM A Y 201 2 \u2014 D E C E M B E R 2 0 1 3 \n \n \n\u2022 Maintain ed dashboard s, collected & analyzed data for the Eco-internship \nprogra m memb ers. \n \n\u2022    Spearheade d numerous promotion campaigns and activities for the Eco \nInternship and GSP progra mme \n \n\u2022 Collabora ted with the corpora te and educational sector, increased memberships \nby 15% \n \n\u2022 Developed and organ ized the Spellathon campaign annua lly; one of the largest in \nthe education sector in Pakistan \n \n\u2022 Contributed to multiple events and activities within the Corpora te Relations \ndepar tment \n  \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nDe "
+    },
+    "details": {
+        "name": "Muhammad Amin",
+        "number": "923344072383",
+        "skills": [
+            "B2B Sales",
+            "B2C Sales",
+            "Brand Activation",
+            "Trade Marketing",
+            "Business Planning and Financial Projection",
+            "Retail Management",
+            "Corporate Engagement",
+            "Developing & Implementing Sales and development strategies"
+        ],
+        "email_id": "m_amin05@yahoo.com",
+        "location": "299 Omer Block, Allama Iqbal Town, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2011",
+                "university": "University of The Punjab",
+                "degree_title": "MSC, Business Statistics & Management Sciences"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "University of The Punjab",
+                "degree_title": "B.Com"
+            }
+        ],
+        "achievements": [
+            "Accomplished one of the highest sales volumes in 2020-21, securing a market share of over 70%",
+            "Achieved a target of 25% growth in sales through a nationwide brand awareness campaign among 1.5 million students",
+            "Achieved the highest volume of fundraising in Spellathon Campaign with a yearly growth rate of 15%",
+            "Increased memberships by 15% through the Eco-internship program"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadamin",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Amin is a seasoned executive specializing in strategic sales, business development, and marketing within the FMCG, distribution, and NGO sectors. With a proven track record of achieving significant sales growth and market share, he demonstrates strong leadership in managing teams and developing effective business strategies.",
+        "employment_history": [
+            {
+                "details": "Overseeing two different businesses within the company, leading nationwide sales and marketing of d2w in Pakistan, and managing key accounts and partnerships.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Manager Business Development",
+                "start_date": "01-2018",
+                "company_name": "Business Dynamics (Pvt.) Limited"
+            },
+            {
+                "details": "Managed and developed relations with key stakeholders, organized BTL activities for brand promotion, and designed campaigns for new product launches.",
+                "end_date": "12-2017",
+                "location": "",
+                "job_title": "Freelancer",
+                "start_date": "07-2017",
+                "company_name": "STH Sales and Marketing Consultants"
+            },
+            {
+                "details": "Designed and conducted promotional campaigns, analyzed market data, and led training sessions for brand ambassadors.",
+                "end_date": "06-2017",
+                "location": "",
+                "job_title": "Sr. Business Development Executive",
+                "start_date": "11-2016",
+                "company_name": "CitroPak Ltd. (Fruitien Juices)"
+            },
+            {
+                "details": "Developed fundraising strategies, secured sponsorships, and organized corporate engagement programs.",
+                "end_date": "10-2016",
+                "location": "",
+                "job_title": "Sr. Officer Corporate Relations",
+                "start_date": "07-2014",
+                "company_name": "World Wide Fund"
+            }
+        ]
+    }
+}

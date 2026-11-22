@@ -1,0 +1,202 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive business development experience, which is not aligned with the electronics engineering focus of the job description.",
+            "Leadership skills were mentioned in the resume, but within the context of business rather than technical or engineering roles.",
+            "There is no evidence of technical expertise in electronics, electronic circuits, PCB design, or embedded systems as required by the job description.",
+            "The resume shows experience in managing and leading business projects, but lacks the technical leadership experience specified in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "analog circuit design",
+                    "score": 1
+                },
+                {
+                    "criteria": "pcb design",
+                    "score": 1
+                },
+                {
+                    "criteria": "embedded systems",
+                    "score": 1
+                },
+                {
+                    "criteria": "team management",
+                    "score": 5
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 7
+                },
+                {
+                    "criteria": "internet of things",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong ability in managing and leading engineering teams",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of experience in technical leadership roles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven expertise in electronic circuit design and embedded systems",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.5999999999999996,
+                "micro_scores": 2.4
+            }
+        },
+        "personal_info": {
+            "name": "Azeem Bari",
+            "email": "azeem.bari@hotmail.com",
+            "phone": "+92-323-764-3200",
+            "current_position": "Business Development Manager",
+            "current_company": "Posco International Corp.",
+            "employment_start_date_current_company": "01-2016",
+            "first_company_start_date": "2014",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/azeem-bari-2638951b/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "## Job Title: Team Lead - Electronics Engineering\n\n**Location**: [Fictional City], [Country]\n\n**Company Overview**:\nJoin **ElectroInnovate Technologies**, a leading firm committed to driving excellence in electronic systems innovation. We are seeking a dynamic leader to join our engineering department as a Team Lead, where you will play a crucial role in steering our technical teams and spearheading strategic initiatives.\n\n**Key Responsibilities**:\n- Lead and oversee the engineering department's strategic initiatives to ensure optimal performance.\n- Coordinate entire project elements, including design, quality planning, and installation.\n- Ensure efficient resource allocation and consistently deliver successful projects.\n- Foster a collaborative, innovative, and inclusive team environment.\n- Provide high-level strategic direction and mentorship to engineering teams.\n- Develop and implement effective operational strategies to improve quality of work and team efficiency.\n\n**Key Skills**:\n- Advanced electronic circuit and PCB design skills.\n- Strong leadership and team management capabilities.\n- Excellent communication and interpersonal skills essential for strategic collaboration.\n- Solid understanding of embedded systems and applications.\n- Proficiency in state-of-the-art engineering software and methods.\n\n**Why Join Us?**\n- Work in a challenging yet rewarding environment focused on innovation and continuous learning.\n- Collaborate with a talented team committed to achieving technological excellence.\n- Competitive salary and benefits package, along with opportunities for career advancement.\n\n**Employment Type**: Full-Time\n\n**Contact Information**: careers@electroinnovate.com",
+        "macro_dict": {
+            "leadership": 30,
+            "technical expertise": 70
+        },
+        "micro_dict": {
+            "analog circuit design": 22,
+            "pcb design": 10,
+            "embedded systems": 11,
+            "team management": 11,
+            "communication skills": 16,
+            "internet of things": 30
+        },
+        "additional_info": "At ElectroInnovate Technologies, we value candidates from top engineering universities globally. We support relocation for the right candidates and offer comprehensive onboarding programs. All candidates undergo a rigorous interview process, including technical assessments and behavioral interviews to ensure a perfect fit for our team.",
+        "minimum_requirements": [
+            "Strong ability in managing and leading engineering teams",
+            "10+ years of experience in technical leadership roles",
+            "Proven expertise in electronic circuit design and embedded systems"
+        ],
+        "resume": " \nA Z E E M  B A R I  \nB U S I N E S S  D E V E L O P M E N T  M A N A G E R   \n O B J E C T I V E   \n  \nResults-driven, highly-accomplished, and focused Business Development Manager with 7 years\u2019 \nexperience charting growth paths to attain a sound position in a Top Tier company and rally its market \nshare. \nE D U C A T I O N  \u2014 E X P E R I E N C E    \n \n \n \n \n2014-2017 \nLahore school of \nEconomics  \nMBA (Professionals) \nCGPA: 3.3 \nMajors: Marketing & \nFinance \nEconomics  \nBBA(Hons.) \nCGPA: 3.15 \nMajors: Marketing & Media  Division \u2022 Posco International Corp. (South Korea) \n\uf0a7 Supplied / Financed the supply of Excavators to FWO  \no (US $ 20 Million) \n\uf0a7 Developed a new venture of Dry Batteries (DAEWOO \nBATTERY) with Treet Corporation \no (Supply of Batteries + TOT+ Royalty Based \nProject) \n\uf0a7 Secured the contract for the supply of Balancers for Pak \nSuzuki \no (OEM Automotive Biz) \n\uf0a7 Supplied LNG Cargo to Pakistan LNG Limited \no (Approx. US $ 30 Million) \n\uf0a7 (US $ 63 Million) Secured the contract of Paper Packaging \nPlant PM 8 (Century Papers). \no (US $ 63 Million) \n  \nAlso Worked on \n\uf0a7 Automated Metering Infrastructure at IESCO \n\uf0a7 AI Based Tourism System Pakistan Railways \n\uf0a7 Improved Telecommunication System Pakistan Railways \n\uf0a7 Intelligent Transportation BRT Peshawar \n\uf0a7 Construction of IT Tower under loan from Korean Exim \nBank with Ministry of IT \n\uf0a7 Investment and Construction of upcoming LNG Terminals \nin Pakistan \n\uf0a7 SAP ARIBA for Tendering at PSO \n \n2016- Present  \nBusiness Development Manager (Pakistan) \u2022 Projects \n\uf0a7 Secured Bahria Town Grid Station Project (Hyundai \u2013 PEL) \no (US $ 8 Million) \n \n \n2010-2014 \nLahore school of EXPERIENCE \n \n \n \n \n \n2014-2016 \nBusiness Development Manager (Pakistan) \u2022 Chemicals \nDivision \u2022 Daewoo International Corporation (South \nKorea) \n\uf0a7 Long Term contract (Annual basis) supply of Acetic Acid to \nLOTTE CHEMICALS \no (US $ 2 million / month) \n2012 \nInternee \u2022 Supply Chain \u2022 Rafhan Maize / INGREDION \nUSA \n\uf0a7 Learnt SAP Module for the management of ordering, \nwarehouse management, transportation \n2010 \nInternee \u2022 Sales \u2022 PTCL \n\uf0a7 Management of One Stop Shop \n\uf0a7 Sales of PTCL Devices \n\uf0a7 Retail Outlets Management \n \n \uf0a7 Key Account Management \n \n \n In House Learning Platform : \n\uf0a7 Enterprise Risk Management \n\uf0a7 Trade Contract \n\uf0a7 Foreign Exchange \n\uf0a7 Trade Finance \n\uf0a7 International Trade \n\uf0a7 Trade Accounting \n\uf0a7 Business with ESG \n  \n \n \n \n  \n \n \n\uf0a7 Inside Sales \n\uf0a7 Project Management \n\uf0a7 Bid Preparation \n\uf0a7 Costing \n\uf0a7 Team Management \n\uf0a7 ERP Systems \n\uf0a7 Negotiation \n\uf0a7 Market Analysis \n\uf0a7 Proposal  \n\uf0a7 New Business Setup \n\uf0a7 Financing  K E Y  S K I L L S  \u2014 \nTRAININGS\nHouse 186, Ahmedyar \nBlock, Mustafa Town, \nWahdat Road, Lahore \nazeem.bari@hotmail.com\n  \n+92-323-764-3200\nhttps://www.linkedin.co\nm/in/azeem-bari-263895\n1b/"
+    },
+    "details": {
+        "name": "Azeem Bari",
+        "number": "923237643200",
+        "skills": [
+            "SAP ARIBA",
+            "ERP Systems",
+            "Project Management",
+            "Bid Preparation",
+            "Costing",
+            "Market Analysis",
+            "New Business Setup",
+            "Financing"
+        ],
+        "email_id": "azeem.bari@hotmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Bahria Town Grid Station Project",
+                "description": "Secured project worth US $ 8 Million."
+            },
+            {
+                "title": "Automated Metering Infrastructure",
+                "description": "Worked on project for IESCO."
+            },
+            {
+                "title": "AI Based Tourism System",
+                "description": "Contributed to project for Pakistan Railways."
+            },
+            {
+                "title": "Intelligent Transportation",
+                "description": "Involved in BRT Peshawar project."
+            },
+            {
+                "title": "Construction of IT Tower",
+                "description": "Worked on project under loan from Korean Exim Bank."
+            },
+            {
+                "title": "Investment and Construction of LNG Terminals",
+                "description": "Engaged in upcoming LNG terminals in Pakistan."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "Lahore School of Economics",
+                "degree_title": "MBA (Professionals)"
+            },
+            {
+                "end_date": "05-2014",
+                "university": "Lahore School of Economics",
+                "degree_title": "BBA (Hons)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/azeem-bari-2638951b/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Azeem Bari is a results-driven Business Development Manager with over 7 years of experience in securing high-value projects and contracts in various sectors, including chemicals and infrastructure. He has a strong educational background with an MBA and BBA from Lahore School of Economics, and possesses technical skills in project management and ERP systems.",
+        "employment_history": [
+            {
+                "details": "Secured contracts for various high-value projects including LNG supply and automotive components.",
+                "end_date": "Present",
+                "location": "Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2016",
+                "company_name": "Posco International Corp."
+            },
+            {
+                "details": "Managed long-term supply contracts and developed new business opportunities in the chemicals sector.",
+                "end_date": "12-2016",
+                "location": "Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2014",
+                "company_name": "Daewoo International Corporation"
+            },
+            {
+                "details": "Gained experience in supply chain management and SAP module.",
+                "end_date": "12-2012",
+                "location": "USA",
+                "job_title": "Internee",
+                "start_date": "01-2012",
+                "company_name": "Rafhan Maize / INGREDION"
+            },
+            {
+                "details": "Managed sales operations and retail outlets for PTCL.",
+                "end_date": "12-2010",
+                "location": "Pakistan",
+                "job_title": "Internee",
+                "start_date": "01-2010",
+                "company_name": "PTCL"
+            }
+        ]
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "output": {
+        "justification": [
+            "The candidate exhibits leadership in roles that involve advanced decision-making and problem-solving.",
+            "Relevant experience in business development is highlighted through roles at Nextbridge Pvt. Ltd and Red Communication Arts Pvt. Ltd.",
+            "Strong proficiency in communication is demonstrated through roles requiring client interaction and presentation.",
+            "Proficiency with MS Office including Microsoft Word is indicated in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 6
+                },
+                {
+                    "criteria": "ms word",
+                    "score": 8
+                },
+                {
+                    "criteria": "stata",
+                    "score": 4
+                },
+                {
+                    "criteria": "linkedin sales navigator",
+                    "score": 2
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.569999999999999,
+                "micro_scores": 5.88
+            }
+        },
+        "personal_info": {
+            "name": "Izma Bint-e-Atif",
+            "email": "izma.b.atif@gmail.com",
+            "phone": "+92 331 0483113",
+            "current_position": "Business Development Executive",
+            "current_company": "Nextbridge Pvt. Ltd",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "01-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 43,
+            "experience": 35,
+            "communication skills": 22
+        },
+        "micro_dict": {
+            "ms excel": 28,
+            "ms word": 11,
+            "stata": 15,
+            "linkedin sales navigator": 16,
+            "verbal and written communication": 30
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Excellent communication skills",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "IZMA BINT-E-ATIF\nBUSINESS ANALYST\nCritical thinking\nMaintaining confidentiality\nQuality control\nDistribution\nOrganizational skills\nTroubleshooting\nStatistical analysis\nVerbal/virtual communication\nStrong analytical skills\nAssist technical product management\nCircuit designingSKILLS+92 331 0483113\nHouse  No. 530, Block J3, Johar\nTown, Lahore izma.b.atif@gmail.comStrong background working with internal and external clients to gather\nand elicit requirements, provide analysis, assist with creating user\ninterfaces, and develop implementation timelines in agile environment.\nSeeking a challenging opportunity where I will be able to utilize my\nstrong organizational skills, educational background, and ability to work\nwell with people, which will allow me to grow personally and\nprofessionallyCAREER PROFILE\nEXPERIENCES\nNextbridge Pvt. Ltd. \nRed Communication Arts Pvt. Ltd2021 - Present\n2020 - 2021BUSINESS DEVELOPMENT EXECUTIVE\nConduct market analyses for both product lines and the overall\nprofitability of the business\nAssisting with the planning and execution of test plans for integration\nand process testing, including the raising of fault logs.\nDevelop project concepts and maintain optimal workflow.\nStrong communication and interpersonal skills for building meaningful\nrelationships with clients. \nAttention to detail for honing in on each necessary task. \nAdvanced decision-making and problem-solving skills.\nJUNIOR BUSINESS ANALYST\nAnalyze and prioritize client requirements. \nTranslating client requirements into specified project briefs by\nunderstanding software development life cycle.\nWorking directly with users/clients and understanding business problems,\nlaying out solution and presenting back to key stakeholders\nCreating a detailed business analysis, outlining problems, opportunities\nand solutions for a business\nProcess analysis and production of agreed artefact suitable for internal\nuse and/or client review and sign off.EDUCATION\nFASTNUCES2020 - BACHELOR IN\nELECTRICAL ENGINEERING\nQueen Mary College for Women2015 - FSC PRE ENGINEERING\nSacred Heart Convent School2013 - MATRICULATIONBalsamiq \nMatlab \nAuto CAD\nSketchUP \nVisual Studio SOFTWARE \nPROJECTS\n3D PRINTER WITH CARTESIAN MECHANISM (FYP) \nDesigned a 3D printer with Cartesian mechanism using Fused Deposition\nModeling (FDM) technology following Additive Manufacturing Method. \nEnglish\nUrduLANGUAGESMicrosoft Office \nProgramming languages (C++, C, Assembly language,\nOOP) \nSQL \nCircuit designing, PLC\nHOSPITAL MANAGEMENT PROGRAM\nDesigned an OPD (Outdoor Patient Department) code in C++.\nREFERENCES\nCan be furnished upon requirement.Business Development\nBusiness Analysis \nLeadership \nProblem-solving \nNegotiation \nCritical Thinker \nStrong Presentation & Negotiation Skills COMPETENCIES\nTravelling\nSports \nWriting \nWatching MoviesINTERESTS &\nHOBBIES"
+    },
+    "details": {
+        "name": "Izma Bint-e-Atif",
+        "number": "923310483113",
+        "skills": [
+            "Circuit designing",
+            "Balsamiq",
+            "Matlab",
+            "Auto CAD",
+            "SketchUP",
+            "Visual Studio",
+            "C++",
+            "C",
+            "Assembly language",
+            "OOP",
+            "SQL",
+            "PLC"
+        ],
+        "email_id": "izma.b.atif@gmail.com",
+        "location": "House No. 530, Block J3, Johar Town, Lahore",
+        "projects": [
+            {
+                "title": "3D Printer with Cartesian Mechanism",
+                "description": "Designed a 3D printer with Cartesian mechanism using Fused Deposition Modeling (FDM) technology following Additive Manufacturing Method."
+            },
+            {
+                "title": "Hospital Management Program",
+                "description": "Designed an OPD (Outdoor Patient Department) code in C++."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "FASTNUCES",
+                "degree_title": "Bachelor in Electrical Engineering"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "Queen Mary College for Women",
+                "degree_title": "FSC Pre Engineering"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Sacred Heart Convent School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/izma-bint-e-atif",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Izma Bint-e-Atif is a skilled business analyst with a strong background in electrical engineering and extensive experience in market analysis, project management, and software development. She has demonstrated proficiency in various programming languages and software tools, contributing to successful project outcomes in agile environments. Her technical expertise is complemented by her ability to effectively communicate and collaborate with clients and stakeholders.",
+        "employment_history": [
+            {
+                "details": "Conduct market analyses for both product lines and the overall profitability of the business. Assisting with the planning and execution of test plans for integration and process testing, including the raising of fault logs. Develop project concepts and maintain optimal workflow.",
+                "end_date": "Present",
+                "location": "Nextbridge Pvt. Ltd.",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2021",
+                "company_name": "Nextbridge Pvt. Ltd."
+            },
+            {
+                "details": "Analyze and prioritize client requirements. Translating client requirements into specified project briefs by understanding software development life cycle. Working directly with users/clients and understanding business problems, laying out solution and presenting back to key stakeholders. Creating a detailed business analysis, outlining problems, opportunities and solutions for a business. Process analysis and production of agreed artefact suitable for internal use and/or client review and sign off.",
+                "end_date": "12-2021",
+                "location": "Red Communication Arts Pvt. Ltd.",
+                "job_title": "Junior Business Analyst",
+                "start_date": "01-2020",
+                "company_name": "Red Communication Arts Pvt. Ltd."
+            }
+        ]
+    }
+}

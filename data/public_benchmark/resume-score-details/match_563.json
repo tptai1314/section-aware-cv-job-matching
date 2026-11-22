@@ -1,0 +1,154 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has over 5 years of experience in business development and relationship management, covering the minimum requirement.",
+            "Shows some proficiency in using professional networking tools but lacks specific mention of LinkedIn Sales Navigator.",
+            "Education from Bahauddin Zakariya University, which does not fall among top-tier universities as per company preference.",
+            "Needs assessment skills like Stata are not mentioned in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms word",
+                    "score": 7
+                },
+                {
+                    "criteria": "stata",
+                    "score": 4
+                },
+                {
+                    "criteria": "linkedin sales navigator",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.930000000000001,
+                "micro_scores": 6.220000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Shoaib Ameen",
+            "email": "shoaibameen007@gmail.com",
+            "phone": "0334 -3237007",
+            "current_position": "Project Manager",
+            "current_company": "Zameen.com",
+            "employment_start_date_current_company": "03-2021",
+            "first_company_start_date": "01-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 7,
+            "communication skills": 93
+        },
+        "micro_dict": {
+            "ms word": 79,
+            "stata": 6,
+            "linkedin sales navigator": 15
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "3-5 years of experience in business development or related fields"
+        ],
+        "resume": "SKILLS  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nResume  created  on \nMuhammad  Shoaib  Ameen  \n \nEmail:  shoaibameen007@gmail.com  \nAddress:  House.No.175,  Street  # 4, Ahmed -Ave, Lahore  \nDate of Birth:  28-10-1991  \nCell:  0334 -3237007  \nEXPERIENCE  \nProject Manager  \nZameen.com since from March 2021  \nRelationship  Manager  \nAskari  Bank  Ltd. \u2013 February  2020  to \nDecember  31st 2020  \nBuilding  positive  relationships  with customers  \nPromote  the company\u2019s products/services addressing  or predicting  \nclients\u2019  objectives  \nKeep records of sales, revenue, invoices etc.  \nProvide  trustworthy  feedback  and after-sales  support  \nAssisting with generating new business Identifying opportunities for greater  \nprofits  \nRelationship  Manager  \nFaysal  Bank  Ltd. - September  2017  to February  2020  \nDevelop  a growth  strategy  focused  both on financial  gain and customer  \nsatisfaction  \nConduct  research  to identify  new markets  and customer  needs  \nArrange  business  meetings  with prospective clients  \nPromote  the company\u2019s  products/services  addressing  or predicting  \nclients\u2019  objectives  \nKeep  records  of sales,  revenue,  invoices  etc. \nProvide  trustworthy  feedback  and after-sales  support  \n \nBusiness  Development  Officer  \nMeezan  Bank  Ltd. - February  2015  to September  2017  \nBuilding positive relationships with customers  \nAssisting with generating new business  \nIdentifying  opportunities  for greater  profits  \n \nAccounts  Officer  \nCibro  Agencies  - March  2014  to February  2015  \nHandle  accounts  payable  and receivable  \nMaintain  records  of business  costs,  such  as labor  and material  \nCheck invoices for inaccuracies  \n \nAccounts  Officer  \nSorcim  Technologies  - January  2012  to December  2013  \nAdminister all accounts and budgets for various departments, perform  \naudits  on tax and prepare  reports  for SEC.  \nCollaborate  with accounting  and finance  team  and prepare  financial  \nstatements  on a monthly  basis.   \nEDUCATION  \nB.Com  \nBahauddin  Zakariya  University,  Multan  \nOctober  2009  to November  2011  \n \nD.Com  \nGovernment  College  of Commerce  \nSeptember  2007  to October  2009  \n \nMatriculation  \nGeneration  secondary  School  \nMarch  2006  to April 2007  \n \n \n \n \n \nLanguages  \nEnglish  \nUrdu  \nPunjabi  "
+    },
+    "details": {
+        "name": "Muhammad Shoaib Ameen",
+        "number": "03343237007",
+        "skills": [],
+        "email_id": "shoaibameen007@gmail.com",
+        "location": "House.No.175, Street # 4, Ahmed -Ave, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "11-2011",
+                "university": "Bahauddin Zakariya University, Multan",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "10-2009",
+                "university": "Government College of Commerce",
+                "degree_title": "D.Com"
+            },
+            {
+                "end_date": "04-2007",
+                "university": "Generation secondary School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Shoaib Ameen is a dedicated professional with extensive experience in project and relationship management across various sectors, demonstrating a strong commitment to building positive client relationships and driving business growth.",
+        "employment_history": [
+            {
+                "details": "Building positive relationships with customers, promoting the company\u2019s products/services, keeping records of sales, revenue, invoices, and providing after-sales support.",
+                "end_date": "Ongoing",
+                "location": "",
+                "job_title": "Project Manager",
+                "start_date": "03-2021",
+                "company_name": "Zameen.com"
+            },
+            {
+                "details": "Developing a growth strategy focused on financial gain and customer satisfaction, conducting research to identify new markets, and arranging business meetings with prospective clients.",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Relationship Manager",
+                "start_date": "02-2020",
+                "company_name": "Askari Bank Ltd."
+            },
+            {
+                "details": "Conducting research to identify new markets and customer needs, promoting the company\u2019s products/services, and providing after-sales support.",
+                "end_date": "02-2020",
+                "location": "",
+                "job_title": "Relationship Manager",
+                "start_date": "09-2017",
+                "company_name": "Faysal Bank Ltd."
+            },
+            {
+                "details": "Building positive relationships with customers and assisting with generating new business.",
+                "end_date": "09-2017",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "02-2015",
+                "company_name": "Meezan Bank Ltd."
+            },
+            {
+                "details": "Handling accounts payable and receivable, maintaining records of business costs, and checking invoices for inaccuracies.",
+                "end_date": "02-2015",
+                "location": "",
+                "job_title": "Accounts Officer",
+                "start_date": "03-2014",
+                "company_name": "Cibro Agencies"
+            },
+            {
+                "details": "Administering all accounts and budgets for various departments, performing audits on tax, and preparing reports for SEC.",
+                "end_date": "12-2013",
+                "location": "",
+                "job_title": "Accounts Officer",
+                "start_date": "01-2012",
+                "company_name": "Sorcim Technologies"
+            }
+        ]
+    }
+}

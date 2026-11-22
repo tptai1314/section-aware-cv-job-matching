@@ -1,0 +1,161 @@
+{
+    "output": {
+        "justification": [
+            "Macro score for Leadership: Candidate shows limited leadership experience primarily in lead generation roles, not in team management or strategic directions as required.",
+            "Macro score for Business Development Experience: Candidate has experience in lead generation and data entry but lacks comprehensive business development roles and strategic planning skills.",
+            "Micro score for Market Research: Candidate demonstrates abilities in data entry and lead generation but lacks evidence of comprehensive market research experience.",
+            "Micro score for Negotiation: Candidate mentions negotiation skills but not in high-stakes contexts as detailed in the job requirements.",
+            "Micro score for Sales Strategy: Candidate does not show strategic sales planning but has foundational skills in lead generation.",
+            "Micro score for SEO: No mention or relevance of SEO skills in the candidate's profile.",
+            "Micro score for Data Analysis: Some data handling skills but not at the analytical level required for data-driven decision making."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 5
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 4
+                },
+                {
+                    "criteria": "seo",
+                    "score": 0
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.56,
+                "micro_scores": 3.79
+            }
+        },
+        "personal_info": {
+            "name": "Abdul Majid",
+            "email": "majid.munawar1122@gmail.com",
+            "phone": "03230478218",
+            "current_position": "Lead Generation Expert",
+            "current_company": "HD Staffing Solutions",
+            "employment_start_date_current_company": "2019",
+            "first_company_start_date": "2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 22,
+            "business development experience": 78
+        },
+        "micro_dict": {
+            "market research": 10,
+            "negotiation": 24,
+            "sales strategy": 27,
+            "seo": 2,
+            "data analysis": 37
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": "C o n t a c t\nE d u c a t i o n03230478218P h o n e\nmajid.munawar1122@gmail.comE m a i l\nHouse No 55 Street 100 \nMuhallah Nafeerabad Shalimar \nTown Lahore, A d d r e s sAbdul Majid\nLead Generation Expert\nResult-oriented, experienced (Lead Generation Expert) (B2B AND B2C) (Data Entry Operator)\n(Email Generator) ( Web/ Internet Research ) with excellent time management skills. I am a good\ncommunicator with proven interpersonal skills and am used to working in a team whilst also being\ncapable of using my own initiative. Ability to analyze financial data and prepare financial reports,\nstatements, and projections. Energetic lead generator with strong management skills who thrives in\na fast-paced, dynamic environment. I am skilled in dealing with problems in a resourceful manner\nand negotiating to achieve beneficial agreements. Strong verbal and written communication skills\nare critical.\nE x p e r i e n c e\nI have 5 years experience of Lead Generation I am expert on B2B and B2C also I have 2\nyears experience of Data Scraping or Data Mining. Currently I am working in HD staffing\nsolution(Recruitment company) on B2B leads for outsourcing for example IT , Marketing\nand sales client In leads I find the details of higher authority of that company such as\nphone number,email and website link. I keep records of all this leads on excel sheet and\nforward to our business development team to generate business opportunities.\nI have worked in BPO Solutions as LinkedIn Leads Generator. Our main focus was on the\nB2C target market and we use the targeted audience industry-wise. In the next step, I use\nto send an invite to the concerned person, on acknowledging the invite I use to say a\ngreeting and thanks to that person. In case of no acceptance or no response after\naccepting the invite, I was advised to send the contact information to our seniors/ higher\nmanagement seniors. \nData entry specialists are responsible for digitizing data for storage purposes. They work\nin the administrative department of a company and their duties include collecting client\ninformation, maintaining an organized filing system, and reviewing data for completeness\nand accuracy. Lead Generation Expert\nLead Generation (Linkedin)\nData Entry Specialist2019 - Present\n2015 - 2019\n2013 - 2015 HD Staffing Solutions l DHA Phase 2, Lahore, Pakistan\nBPO Solutions PVT LTD l DHA Phase 3, Lahore, Pakistan \nNielsen Pvt.Ltd l Lahore, Pakistan\nT r a v e lH o b b i e sThe Grammar School \nLahore BoardM a t r i c\nI n t e r m e d i a t e2012\n2014\nSales Navigator\nQuality Lead GenerationLinkedinEmail Generator\nAccurate data entryRecruiter\nEnglish\nUrduE x p e r t i s e\nL a n g u a g e\nS p o r t sR e a d i n g2018\nB . A\nLahore Board"
+    },
+    "details": {
+        "name": "Abdul Majid",
+        "number": "03230478218",
+        "skills": [
+            "Lead Generation",
+            "B2B",
+            "B2C",
+            "Data Entry",
+            "Email Generator",
+            "Web Research",
+            "Data Scraping",
+            "Data Mining",
+            "Sales Navigator",
+            "Quality Lead Generation",
+            "Accurate Data Entry",
+            "Recruiter"
+        ],
+        "email_id": "majid.munawar1122@gmail.com",
+        "location": "House No 55 Street 100, Muhallah Nafeerabad Shalimar Town, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2014",
+                "university": "The Grammar School",
+                "degree_title": "Matric"
+            },
+            {
+                "end_date": "12-2012",
+                "university": "Lahore Board",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "12-2018",
+                "university": "Lahore Board",
+                "degree_title": "B.A."
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/majidmunawar",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Abdul Majid is a skilled Lead Generation Expert with over 5 years of experience in B2B and B2C environments. He has a strong background in data entry, email generation, and web research, demonstrating proficiency in managing and generating leads effectively. His expertise includes data scraping and mining, making him a valuable asset in recruitment and business development roles.",
+        "employment_history": [
+            {
+                "details": "Currently working in HD Staffing Solutions focusing on B2B leads for outsourcing, including IT, Marketing, and Sales clients. Responsible for finding contact details of higher authorities and maintaining records on Excel sheets.",
+                "end_date": "Present",
+                "location": "DHA Phase 2, Lahore, Pakistan",
+                "job_title": "Lead Generation Expert",
+                "start_date": "01-2019",
+                "company_name": "HD Staffing Solutions"
+            },
+            {
+                "details": "Worked as a LinkedIn Leads Generator at BPO Solutions, targeting B2C markets and managing communication with potential leads.",
+                "end_date": "12-2018",
+                "location": "DHA Phase 3, Lahore, Pakistan",
+                "job_title": "Lead Generation Expert",
+                "start_date": "01-2015",
+                "company_name": "BPO Solutions PVT LTD"
+            },
+            {
+                "details": "Worked in Nielsen Pvt. Ltd. focusing on data entry and maintaining organized filing systems.",
+                "end_date": "12-2014",
+                "location": "Lahore, Pakistan",
+                "job_title": "Data Entry Specialist",
+                "start_date": "01-2013",
+                "company_name": "Nielsen Pvt.Ltd"
+            }
+        ]
+    }
+}

@@ -15,13 +15,18 @@ venv/
 
 # experiment outputs
 outputs/
-results/
 *.csv.tmp
+
+# results json artifacts tracked, ignore other scratch
+results/*
+!results/*.json
 
 # generated artifacts
 data/chroma/
 data/processing.db*
 data/processing_files/
+data/cache_embeddings/
+apps/ai/data/*.db*
 logs/
 
 # secrets / local config
@@ -40,3 +45,15 @@ docs/*.log
 docs/*.out
 docs/*.toc
 docs/so_do/_build/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.bbl
+paper/*.blg
+paper/*.toc
+paper_vi/*.aux
+paper_vi/*.log
+paper_vi/*.out
+paper_vi/*.bbl
+paper_vi/*.blg
+paper_vi/*.toc

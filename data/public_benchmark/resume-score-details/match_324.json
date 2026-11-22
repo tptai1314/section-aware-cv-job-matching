@@ -1,0 +1,250 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has over 17 years of broad experience in sales and business development, fulfilling and exceeding the minimum requirement of 5+ years in business development.",
+            "Demonstrates strong leadership having managed teams of up to 40 people across various roles.",
+            "Proven track record of managing complex sales and high-value projects like 15BN/PKR commercial projects.",
+            "Holds a Bachelor's degree in Economics, meeting educational requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "experience",
+                    "score": 10
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales process management",
+                    "score": 10
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 9
+                },
+                {
+                    "criteria": "account management",
+                    "score": 9
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 9.42,
+                "micro_scores": 9.64
+            }
+        },
+        "personal_info": {
+            "name": "Zeeshan Akram",
+            "email": "zeeak@hotmail.com",
+            "phone": "0320-9567383",
+            "current_position": "Assistant Director Sales",
+            "current_company": "DHA Quetta",
+            "employment_start_date_current_company": "11-2022",
+            "first_company_start_date": "05-2006",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 58,
+            "experience": 42
+        },
+        "micro_dict": {
+            "sales process management": 64,
+            "negotiation skills": 7,
+            "account management": 29
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or a related role",
+            "Proven track record in managing complex sales cycles",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "NAME  -  ZEESHAN  AKRAM  \nADDRESS  - Islamabad, Pakistan   \nCELL  #  0320 -9567383  \nEMAIL -  zeeak@hotmail.com  \n \n \nPROFILE  \nOver  17 years  of professional  & versatile  experience  in Sales,  Marketing,  Business  Development,  Investment  Banking,  HR, Operations,  Administration  and \nCustomer  Services with  Excellent  Communication,  Organizational , Analytical &  Leadership  skills.  \nPROFESSIONAL  EXPERIENCE  \n \nNOV 2022 -PRESENT  DHA QUETTA , PAKISTAN  \n   As Assista nt Director Sales  \n*Looki ng after Sales  & JVs  of DHA Quetta. *Making Sales strategies  & Sales forecasting . *Dealing and Resolving queries o f Client s and Real Estate Agents. \n*Responsible  of REAs registration process and document ations. *Handling team of managers and team members . *Preparing  daily weekly and monthly reports \non tasks given to team s and R Os. *Organizing events, meetups  & expos with REAs , Clien ts, Investors & Brands  in all ROs. *Providing  train ings and flouri shing \nskills when needed.  \n \nNOV  2019 -SEP 2022  J7 GLOBAL (Real Estate Constructors & Builders), ISLAMABAD, PAKISTAN   \nAs General  Manager Sales & Marketing  \n*Looked after 15BN/PKR worth of commercial high -rise projec ts. *50% of the project sold in 5 months. *Expert in B2B & B2C dealings. *Lead Generations &  \nfollow ups professional. * Organized  and represented projects on Expos, Road shows, Seminars and Events. *Led the team of more than 40 people. *Looked  \nafter  Sales, Marketing,  HR & Admin  departments.  \n \nMAY  2018 -NOV  2019      ROOTS  INTERNATIONAL SCHOOLS  & COLLEGES  (RISC  & MIUC),  ISLAMABAD,  PAKISTAN  \nAs Manager  National  Enrolments  & Outreach  \n*Looked  after  27 branches  across the  country.  *Maintained  fee structures of  more  than  15000  students.  *Dealt parents  queries  at all levels.  *Managed  \ncompany\u2019s developmental strategies & objectives. *Supervised nationwide admissions, enrolments & recruitment. *Opened the bra nch with 600 admissions in  \n4 months first  time in  the history  of RISC.  *Organized  & represented  on Educational  Seminars, Conferences  and Events  nationally  & internationally.  \n \nMAR  2016 -MAY  2018      UNITED  BANK  LIMITED  FUND  MANAGERS,  ISLAMABAD,  PAKISTAN  \nAs Group  Sales  Manager  \n*Country\u2019s  second  largest  bank  with  more  than  100M/PKR  AUM  in Mutual  Funds.  *Looked  after  HNIs  and Corporate  clientele.  *Promoted  thrice  on \nperformance  basis. *Led the  team of  10 investment  advisors.  *Worked  towards  achieving  the targeted  AUM  and Gross  Revenue.  \n \nOCT  2010 -MAY  2015       CABTIME  PVT LTD,  LONDON,  UNITED  KINGDOM  \nAs Manager  HR & Admin  \n*Developed and designed all HR Policies and Procedures. *Maintained employee compensation and benefits programs. *Ensured the  legal compliance by  \nmonitoring and implementing applicable human re -source federal and state requirements. *Conducted investigatio ns, grievances. *Took care of Admin related  \ntasks.  *Maintained  management  guidelines  by preparing,  updating,  and recommending  human  resource  policies  and procedures.   \n \nNOV  2008 -SEP 2010        ZARA,  LONDON, UNITED  KINGDOM  \nAs Deputy  Manager  \n*Excellent  Customer  services  provider.  *Target  Achiever  on daily,  weekly  and on monthly  basis.  *Looked  after  for successful  operations  to achieve  the \nmaximum  profitability  in different  stores.  *Stock  management  & Warehouse  responsible.  *Took  care  of Merchandising  & Replenishments  on the floor.  \n*Employee  relations  and team  builder.  *Managed  the team  of more  than  40 employees.  \n \nMAR  2008 -NOV  2008      TRAVELODGE  HOTEL,  LONDON,  UNITED  KINGDOM  \nAs Front  Desk  Administrator  \n*Excellent  Customer  services  provider.  * Looked  after  all Administrative  duties. *Payments  handling  and Reconciliation  of statements.  \n \nJAN 2007 -DEC 2007         INFOSPAN,  ISLAMABAD,  PAKISTAN  \nAs Senior  Sales  Executive  \n*Customer  queries handler.  *B2B  and B2C project.  *Led  the team  of 20 agents.  *Sales  Trainer.  \n \nMAY  2006 -DEC 2006       INSIGNITOR,  ISLAMABAD,  PAKISTAN  \nAs Customer  Support  Representative  \n*Customer  services  provider.  *Inbound  project  of Islamic  Relief.  *Customers  queries  and objections  solver.  \n \n \n \n \nCERTIFICATIONS  \n*Transformational, Enriched, Accomplishment for Management and Leadership Success (T.E.A.M.S). *Mutual Funds Basic Certificat ion Examination taken by  \nInstitute of Financial Markets of Pakistan Certification on Fixed Income (IFMP). *Trading & Investments gi ven by Institute of Financial Markets of Pakistan and  \nUSAID.  *Certification  on The ART of SHEPHERDING.  *Certification  on Grooming,  Presentation,  Skills  and Time  Management.  *IT Training  Workshop  \nCertification.  *International  English  Language  Testing  System  (IELTS).  \nACHIEVEMENTS  \n*Target Achiever for consecutive two quarters. *First ever branch opened with 600 students under my supervision. *Promoted th rice in 2 years in United Bank  \nLimited Fund Managers. *Grew company from 5 employees to 70. *Promoted in three years thrice in ZARA UK. *Took care of three different outlets and almost  \n100 employees.  \nEDUCATION  \n \n2010 -2012  PG/MBA  IN BUSINESS  ADMINISTRATION  (HRM)  \nANGLIA  RUSKIN  UNIVERSITY  CAMBRIDGE  & CHELMSFORD,  UNITED  KINGDOM  \n2009 -2010  PG/MBA  - BTEC  ADVANCED  PROFESSIONAL  DIPLOMA  LEVEL  7 \nLONDON  SCHOOL  OF ACCOUNTANCY  & MANAGEMENT,  UNITED  KINGDOM  \n2008 -2009  ACCA  LEVEL  ONE  \n LONDON  COLLEGE  OF ACCOUNTANCY,  UNITED  KINGDOM  \n2005 -2007  BACHELOR\u2019S IN ECONOMICS  \n UNIVERISTY  OF PUNJAB,  LAHORE,  PAK \nPERSONAL  DETAILS  \nLanguage  Skills  : English, Urdu, Punjabi  \nDriving  License  : Pakistan  "
+    },
+    "details": {
+        "name": "ZEESHAN AKRAM",
+        "number": "03209567383",
+        "skills": [
+            "Sales",
+            "Marketing",
+            "Business Development",
+            "Investment Banking",
+            "HR",
+            "Operations",
+            "Administration",
+            "Customer Services"
+        ],
+        "email_id": "zeeak@hotmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2012",
+                "university": "ANGLIA RUSKIN UNIVERSITY CAMBRIDGE & CHELMSFORD",
+                "degree_title": "PG/MBA IN BUSINESS ADMINISTRATION (HRM)"
+            },
+            {
+                "end_date": "10-2010",
+                "university": "LONDON SCHOOL OF ACCOUNTANCY & MANAGEMENT",
+                "degree_title": "PG/MBA - BTEC ADVANCED PROFESSIONAL DIPLOMA LEVEL 7"
+            },
+            {
+                "end_date": "09-2009",
+                "university": "LONDON COLLEGE OF ACCOUNTANCY",
+                "degree_title": "ACCA LEVEL ONE"
+            },
+            {
+                "end_date": "07-2007",
+                "university": "UNIVERISTY OF PUNJAB, LAHORE",
+                "degree_title": "BACHELOR\u2019S IN ECONOMICS"
+            }
+        ],
+        "achievements": [
+            "Target Achiever for consecutive two quarters",
+            "First ever branch opened with 600 students under my supervision",
+            "Promoted thrice in 2 years in United Bank Limited Fund Managers",
+            "Grew company from 5 employees to 70",
+            "Promoted in three years thrice in ZARA UK",
+            "Took care of three different outlets and almost 100 employees"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Transformational, Enriched, Accomplishment for Management and Leadership Success (T.E.A.M.S)",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Mutual Funds Basic Certification Examination",
+                "issuing_organization": "Institute of Financial Markets of Pakistan",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Certification on Fixed Income",
+                "issuing_organization": "Institute of Financial Markets of Pakistan",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Trading & Investments",
+                "issuing_organization": "Institute of Financial Markets of Pakistan and USAID",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Certification on The ART of SHEPHERDING",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Certification on Grooming, Presentation, Skills and Time Management",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "IT Training Workshop Certification",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "International English Language Testing System (IELTS)",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Zeeshan Akram is a seasoned professional with over 17 years of diverse experience in sales, marketing, business development, and investment banking. He has demonstrated expertise in managing teams, developing strategies, and achieving significant sales targets across various sectors. His strong background in HR and operations further complements his extensive skill set.",
+        "employment_history": [
+            {
+                "details": "As Assistant Director Sales, looking after Sales & JVs of DHA Quetta, making sales strategies & forecasting, dealing with client queries, and organizing events.",
+                "end_date": "Present",
+                "location": "DHA Quetta, Pakistan",
+                "job_title": "Assistant Director Sales",
+                "start_date": "11-2022",
+                "company_name": "DHA Quetta"
+            },
+            {
+                "details": "As General Manager Sales & Marketing, managed 15BN/PKR worth of commercial high-rise projects, achieving 50% sales in 5 months, and led a team of over 40 people.",
+                "end_date": "09-2022",
+                "location": "Islamabad, Pakistan",
+                "job_title": "General Manager Sales & Marketing",
+                "start_date": "11-2019",
+                "company_name": "J7 Global"
+            },
+            {
+                "details": "As Manager National Enrolments & Outreach, supervised 27 branches, maintained fee structures for over 15000 students, and opened a branch with 600 admissions in 4 months.",
+                "end_date": "11-2019",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Manager National Enrolments & Outreach",
+                "start_date": "05-2018",
+                "company_name": "Roots International Schools & Colleges"
+            },
+            {
+                "details": "As Group Sales Manager, managed HNIs and corporate clientele, promoted thrice on performance basis, and led a team of 10 investment advisors.",
+                "end_date": "05-2018",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Group Sales Manager",
+                "start_date": "03-2016",
+                "company_name": "United Bank Limited Fund Managers"
+            },
+            {
+                "details": "As Manager HR & Admin, developed HR policies, maintained employee compensation programs, and ensured legal compliance.",
+                "end_date": "05-2015",
+                "location": "London, United Kingdom",
+                "job_title": "Manager HR & Admin",
+                "start_date": "10-2010",
+                "company_name": "Cabtime Pvt Ltd"
+            },
+            {
+                "details": "As Deputy Manager, provided excellent customer service and managed operations for multiple stores.",
+                "end_date": "09-2010",
+                "location": "London, United Kingdom",
+                "job_title": "Deputy Manager",
+                "start_date": "11-2008",
+                "company_name": "Zara"
+            },
+            {
+                "details": "As Front Desk Administrator, handled administrative duties and customer service.",
+                "end_date": "11-2008",
+                "location": "London, United Kingdom",
+                "job_title": "Front Desk Administrator",
+                "start_date": "03-2008",
+                "company_name": "Travelodge Hotel"
+            },
+            {
+                "details": "As Senior Sales Executive, handled customer queries and led a team of 20 agents.",
+                "end_date": "12-2007",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Senior Sales Executive",
+                "start_date": "01-2007",
+                "company_name": "Infospan"
+            },
+            {
+                "details": "As Customer Support Representative, provided customer services for an inbound project.",
+                "end_date": "12-2006",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Customer Support Representative",
+                "start_date": "05-2006",
+                "company_name": "Insignitor"
+            }
+        ]
+    }
+}

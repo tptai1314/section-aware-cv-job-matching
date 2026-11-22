@@ -1,0 +1,170 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrates leadership and strategic thinking primarily through his role at Walee Technologies, engaging in client relationships and formulating strategies to align with client goals.",
+            "Relevant experience is evident at Walee Technologies with B2B sales and marketing tasks, aligning with the job description requirements.",
+            "Candidate exhibits strong market research skills, having directed marketing strategies for multiple clients in previous roles.",
+            "Lacks direct IT and manufacturing sector knowledge as per current job description requirements.",
+            "The candidate fulfills the educational requirement with an MBA in Marketing, a related field.",
+            "Proficiency in Microsoft Office is present, satisfying the minimum requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 8
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 7
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Microsoft Office Suite Proficiency",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.46,
+                "micro_scores": 6.6
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Omer Ghauri",
+            "email": "umar_ghauri@hotmail.com",
+            "phone": "+923014804531",
+            "current_position": "Sr. Business Development and Sales Analyst",
+            "current_company": "Walee Technologies Pvt. Ltd.",
+            "employment_start_date_current_company": "11-2020",
+            "first_company_start_date": "03-2012",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/muhammad-omer-ghauri-9ab06a26"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 46,
+            "strategic thinking": 54
+        },
+        "micro_dict": {
+            "market research": 8,
+            "b2b sales": 50,
+            "data analysis": 39,
+            "it and manufacturing sector knowledge": 3
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Marketing, or a related field"
+        ],
+        "resume": "M\nUHAMMAD\nO\nMER\nG\nHAURI\nAddr ess\n:\nHouse\n#316,\nAhmad\nYar\nBlock,\nMustafa\nTown,\nWahdat\nRoad,\nLahore \nCell\n:\n+923014804531;\nEmail\n:\numar_ghauri@hotmail.com \nDate\nof\nBirth\n:\n23/04/1987 \nLinkedIn\nProfile:l i n k e d i n . c o m / i n / m u h a m m a d - o m e r - g h a u r i - 9 a b 0 6 a 2 6\nPROFESSIONAL\nSUMMARY\nObjective-driven\nand\nresults-oriented\nindividual\nskilled\nat\ndriving\ncorporate\ngrowth\nthrough \nstrategic\ninitiatives.\nSpecialized\nin\ndeveloping\nand\ncultivating\nnew\nbusiness\nprospects,\nforming \nrobust\nconnections,\nand\nleading\nsuccessful\ninitiatives.\nI\nam\ncommitted\nto\nproviding\noutstanding \nvalues\nand\nexceeding\nexpectations\nthrough\nseamless\ncollaboration\nwith\ncross-functional\nteams \nand\nbuilding\nstrong\nclient\nrelations\n.\nQUALIFICATION\nMasters\nof\nBusiness\nAdministration\nProfessional\nin\nMarketing,\nDecember\n2018 \nLahore\nSchool\nof\nEconomics\nM.Sc.\nBusiness\nStatistics\nand\nManagement,\nSeptember\n2009 \nPunjab\nUniversity\nEXPERIENCE\nWalee\nTechnologies\nPvt.\nLtd.\nSr.\nBusiness\nDevelopment\nand\nSales\nAnalyst\n(\nNovember\n2020-Present)\n\u25cf\nProactively\nidentify\nand\nengage\nwith\nprospective\nclients\nthrough\neffective\noutreach\ntechniques,\nsuch\nas\ncold\ncalling,\nemail\ncampaigns,\nand\nnetworking\n\u25cf\nGuide\nclients\nthrough\nthe\nonboarding\nprocess\nand\nensure\ntheir\nsatisfaction\nby\naddressing\nany\nquestions\nor\nconcerns\nthey\nmay\nhave\n\u25cf\nBuild\nand\nmaintain\nstrong\nrelationships\nwith\nclients\nto\nunderstand\ntheir\nbusiness\nneeds\nand\nprovide\ntailored\nsolutions\nthat\ndrive\ntheir\ngrowth\n\u25cf\nCollaborate\nwith\ninternal\nteams\nto\ndevelop\nand\nexecute\neffective\nmarketing\nstrategies\nthat\nalign\nwith\nclients'\ngoals\nand\nobjectives\n\u25cf\nPresent\nproposals\nto\nclients\nand\nprovide\nafter-sale\nservices\nto\nclients\nonboarded\nby\nme.Asian\nEducational\nPublishers.\nMarketing\nExecutive\n(\nMay\n2019-October\n2020\n)\n\u25cf\nMaintained\nstrong\nrelationships\nwith\nclients\nand\nidentified\nnew\nopportunities\nfor\ngrowth\nand\nexpansion\n\u25cf\nCommunicated\nmarketing\nstrategy\nto\nverify\nalignment\nwith\nsenior\nmanagement\nobjectives\n\u25cf\nWorked\nwith\ninternal\nteams\nto\nensure\nthe\ntimely\nand\naccurate\ndelivery\nof\nmarketing\nmaterials\nand\nassets\n\u25cf\nI\ndirected\nmarketing\nplans\nfor\n15+\nclients,\nproactively\nservicing\nneeds,\nmaintaining\nsatisfaction,\nand\nconsistently\nachieving\nprofit\ngoals.\nMindbridge\nCustomer\nFeedback\nOfficer\n(\nAugust\n2017-March\n2019)\n\u25cf\nManaged\ncustomer\ncomplaints\nand\ninquiries,\nproviding\ntimely\nand\neffective\nsolutions\nthat\nexceeded\ntheir\nexpectations\nand\nimproved\noverall\nsatisfaction\n\u25cf\nAchieved\ndaily\ntarget\nof\nconverting\n20\ndetractors\ninto\npromoters\nof\nthe\ncompany.\n\u25cf\nCollaborated\nwith\ninternal\nteams,\nsuch\nas\ntechnical\nsupport\nand\nbilling,\nto\naddress\ncustomer\nconcerns\nand\nensure\ntimely\nand\neffective\nsolutions\nJazz\nCustomer\nCare\nRepresentative\n(\nMarch\n2012-November\n2016)\n\u25cf\nDefused\ncustomer\nconcerns\nwith\nexceptional\nconflict\nand\nproblem-resolution\nskills.\n\u25cf\nManaged\nover\n200\nabove-customer\ncalls\nper\nday.\n\u25cf\nConsistently\nmet\nor\nexceeded\nkey\nperformance\nindicators,\nsuch\nas\ncall\nvolume,\nhandle\ntime,\nand\ncustomer\nsatisfaction\nscores\nCertifications\n\u25cf\nDigital\nMarketing\nfrom\nTDCP \n\u25cf\nInfluencer\nMarketing\nand\nDigital\nPR\nfrom\nLUMS\nSkills\n\u25cf\nMicrosoft\nWord,\nPowerPoint,\nand\nExcel \n\u25cf\nRelationship\nbuilding\nand\nretention"
+    },
+    "details": {
+        "name": "Muhammad Omer Ghauri",
+        "number": "923014804531",
+        "skills": [
+            "Microsoft Word",
+            "PowerPoint",
+            "Excel"
+        ],
+        "email_id": "umar_ghauri@hotmail.com",
+        "location": "House #316, Ahmad Yar Block, Mustafa Town, Wahdat Road, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration Professional in Marketing"
+            },
+            {
+                "end_date": "09-2009",
+                "university": "Punjab University",
+                "degree_title": "M.Sc. Business Statistics and Management"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "TDCP",
+                "date_of_issuance": "01-2020"
+            },
+            {
+                "certification_name": "Influencer Marketing and Digital PR",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-omer-ghauri-9ab06a26",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Omer Ghauri is a results-oriented professional with a strong background in business development and marketing. He has extensive experience in client engagement and relationship management, demonstrating proficiency in Microsoft Office tools. Omer holds a Master's degree in Business Administration and has earned certifications in Digital Marketing and Influencer Marketing.",
+        "employment_history": [
+            {
+                "details": "Proactively identify and engage with prospective clients through effective outreach techniques, such as cold calling, email campaigns, and networking. Guide clients through the onboarding process and ensure their satisfaction by addressing any questions or concerns they may have. Build and maintain strong relationships with clients to understand their business needs and provide tailored solutions that drive their growth. Collaborate with internal teams to develop and execute effective marketing strategies that align with clients' goals and objectives. Present proposals to clients and provide after-sale services to clients onboarded by me.",
+                "end_date": "Present",
+                "location": "Walee Technologies Pvt. Ltd.",
+                "job_title": "Sr. Business Development and Sales Analyst",
+                "start_date": "11-2020",
+                "company_name": "Walee Technologies Pvt. Ltd."
+            },
+            {
+                "details": "Maintained strong relationships with clients and identified new opportunities for growth and expansion. Communicated marketing strategy to verify alignment with senior management objectives. Worked with internal teams to ensure the timely and accurate delivery of marketing materials and assets. Directed marketing plans for 15+ clients, proactively servicing needs, maintaining satisfaction, and consistently achieving profit goals.",
+                "end_date": "10-2020",
+                "location": "Asian Educational Publishers",
+                "job_title": "Marketing Executive",
+                "start_date": "05-2019",
+                "company_name": "Asian Educational Publishers"
+            },
+            {
+                "details": "Managed customer complaints and inquiries, providing timely and effective solutions that exceeded their expectations and improved overall satisfaction. Achieved daily target of converting 20 detractors into promoters of the company. Collaborated with internal teams, such as technical support and billing, to address customer concerns and ensure timely and effective solutions.",
+                "end_date": "03-2019",
+                "location": "Mindbridge",
+                "job_title": "Customer Feedback Officer",
+                "start_date": "08-2017",
+                "company_name": "Mindbridge"
+            },
+            {
+                "details": "Defused customer concerns with exceptional conflict and problem-resolution skills. Managed over 200 above-customer calls per day. Consistently met or exceeded key performance indicators, such as call volume, handle time, and customer satisfaction scores.",
+                "end_date": "11-2016",
+                "location": "Jazz",
+                "job_title": "Customer Care Representative",
+                "start_date": "03-2012",
+                "company_name": "Jazz"
+            }
+        ]
+    }
+}

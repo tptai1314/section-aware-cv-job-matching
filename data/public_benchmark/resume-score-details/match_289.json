@@ -1,0 +1,153 @@
+{
+    "output": {
+        "justification": [
+            "Lack of CRM experience in resume impacts macro and micro scores.",
+            "No top university (Ivy League or top business schools) degree as per additional info affects perceived strategic planning skills.",
+            "Evidence of leadership but in different domain than business development.",
+            "Insufficient documentation of proficiency in Salesforce or HubSpot."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm proficiency",
+                    "score": 3
+                },
+                {
+                    "criteria": "market research",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.48,
+                "micro_scores": 3.5
+            }
+        },
+        "personal_info": {
+            "name": "H A S H A A M J A M A L",
+            "email": "hashaam.butt24@gmail.com",
+            "phone": "+92 302 5464456",
+            "current_position": "Area Sales Manager",
+            "current_company": "Healthwire PVT LTD",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "04-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "experience": 48,
+            "strategic planning": 52
+        },
+        "micro_dict": {
+            "crm proficiency": 50,
+            "market research": 50
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "5+ years of experience in business development or sales management",
+            "Strong analytical and strategic planning skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "H A S H A A M  J A M A L\nArea Sales Manager\nHealthwire PVT LTD, Lahore, Pakistan\nSep 2021 - Present\nArea Sales Manager\nHealthwire PVT LTD, Karachi, Pakistan\nJan 2021 - Aug 2021\nArea Sales Executive\nHealthwire PVT LTD, Gujranwala, Pakistan\nJan 2020 - Jan 2021\nTerritory Sales Manager\nOliver Skin Science, , Gujranwala, Pakistan\nMay 2019 - Dec 2020\nMerchandiser Officer\nZong Regional Office - Telecom, Gujranwala, Pakistan\nApr 2017 - Apr 2018EXPERIENCEI am a professional salesperson who always strive to be the\nbest that i can be. I have a long and good track record and very\nsuccessful in my field. A goal orientated person with strong\nfocus on team work, development of people and results. My\nmain objectives are; develop my knowledge of the market and\nmy skills, continue learning as a person and as a manager and\nto become more than satisfied in what i do.PROFESSIONAL SUMMARY\n86-C, HIGH COURT SOCIETY\nPHASE 2, COLLEGE ROAD,\nLAHORE.\n+92 302 5464456\nhashaam.butt24@gmail.comMasters in Business Administration (Sales And Marketing)\nSuperior University Lahore\n2015 - 2019EDUCATION\n Top Performance Sales Team Lead 2021, 1.\n       (Healthwire PVT LTD)\n   2. Best Sales Person 2020\n       (Healthwire PVT LTD)ACCOMPLISHMENTS"
+    },
+    "details": {
+        "name": "Hashaam Jamal",
+        "number": "923025464456",
+        "skills": [
+            "Sales Management",
+            "Market Development",
+            "Team Leadership"
+        ],
+        "email_id": "hashaam.butt24@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Superior University Lahore",
+                "degree_title": "Masters in Business Administration (Sales And Marketing)"
+            }
+        ],
+        "achievements": [
+            "Top Performance Sales Team Lead 2021 (Healthwire PVT LTD)",
+            "Best Sales Person 2020 (Healthwire PVT LTD)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Hashaam Jamal is a dedicated sales professional with a strong track record in sales management and market development. He has demonstrated exceptional leadership skills and a commitment to achieving results in his roles at Healthwire PVT LTD and Oliver Skin Science.",
+        "employment_history": [
+            {
+                "details": "Area Sales Manager responsible for overseeing sales operations and team performance.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "09-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Managed sales activities and team performance in the Karachi region.",
+                "end_date": "08-2021",
+                "location": "Karachi, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "01-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Executed sales strategies and managed client relationships in Gujranwala.",
+                "end_date": "01-2021",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Area Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Oversaw territory sales and developed client relationships.",
+                "end_date": "12-2020",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Territory Sales Manager",
+                "start_date": "05-2019",
+                "company_name": "Oliver Skin Science"
+            },
+            {
+                "details": "Managed merchandising and promotional activities for telecom products.",
+                "end_date": "04-2018",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Merchandiser Officer",
+                "start_date": "04-2017",
+                "company_name": "Zong Regional Office - Telecom"
+            }
+        ]
+    }
+}

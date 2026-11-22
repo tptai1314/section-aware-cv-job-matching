@@ -1,0 +1,43 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Conducted data analysis using python libraries and visualization tools.\nDeveloped predictive models to derive business insights and address specific objectives.\nCleaned, preprocessed raw data to ensure quality and suitability for analysis.MEHWISH ALAM\nCGPA : 3.9\nSilver MedalistJ a n  2 0 2 2  -  J u l  2 0 2 4\nM a r  2 0 2 1  -  J a n  2 0 2 2SUMMARY\nSeeking a position as an AI Engineer to leverage my skills in machine learning, NLP, and data\nanalysis. Eager to contribute to innovative projects in a collaborative environment and drive\ntechnological advancements.\nWORK EXPERIENCE\nEDUCATION\nB a c h l e o r  o f  C o m p u t e r  S c i e n c e\nNED University of Engineering and TechnologyCleaned and preprocessed pickle file to extract pathways and genes.\nDeveloped and implemented OpenAI API to collect data for LLM training. \nGenerate summary from pickle file using OpenAI API and combining\nexternal resources for description of pathways and genes.A I  E n g i n e e r ,  A y a s s  B i o s c i e n c e  I n c . ( U S  R e m o t e )\nPROJECTS\nM e d i c a r e : An app that allows users to maintain their medical records, allow them to use their\ncamera to add new medicine name and dosage.\nEdHelp : Edhelp allow its users to summarize their videos as well as text through link or upload\noptions.\nM e c o l r : A platform that offers a end to end solution for learner, experts and contributor to help\neach other and enhance their career fields.\nN o t a r k : A note taking platform that offers integration of multiple tools like reminder, to-do-list and\nadding teams.M L  E n g i n e e r ,  D a t a a i\nCleaned, preprocessed raw data for quality and maintain consistency.\nTrained Machine Learning Models on the cleaned data.\nCreate PowerBI Dashboard for data analysis.\nD a t a  A n a l y t i c s ,  K P M G  V i r t u a l  I n t e r n s h i p J a n  2 0 2 1  \nADDITIONAL INFORMATION\nConducted AI & DS Workshop\nWin Data Science Competition \nVolunteer in ICONICS Teach in Standford Code in Place\nWorked as Alpha Microsoft Ambassador \nWork as Team Lead in OmedenaG r a d e  :  A +I n t e r m e d i a t e\nBAMM P.E.C.H.S College for Women\nSKILLS\nPython & Scikit Learn Keras and Tensor Flow+92 340 7701848         mehwishalamlp@gmail.com       @themehwishalam   ",
+        "macro_dict": {
+            "leadership and management": 61,
+            "client relationship": 39
+        },
+        "micro_dict": {
+            "google analytics": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Conducted data analysis using python libraries and visualization tools.\nDeveloped predictive models to derive business insights and address specific objectives.\nCleaned, preprocessed raw data to ensure quality and suitability for analysis.MEHWISH ALAM\nCGPA : 3.9\nSilver MedalistJ a n  2 0 2 2  -  J u l  2 0 2 4\nM a r  2 0 2 1  -  J a n  2 0 2 2SUMMARY\nSeeking a position as an AI Engineer to leverage my skills in machine learning, NLP, and data\nanalysis. Eager to contribute to innovative projects in a collaborative environment and drive\ntechnological advancements.\nWORK EXPERIENCE\nEDUCATION\nB a c h l e o r  o f  C o m p u t e r  S c i e n c e\nNED University of Engineering and TechnologyCleaned and preprocessed pickle file to extract pathways and genes.\nDeveloped and implemented OpenAI API to collect data for LLM training. \nGenerate summary from pickle file using OpenAI API and combining\nexternal resources for description of pathways and genes.A I  E n g i n e e r ,  A y a s s  B i o s c i e n c e  I n c . ( U S  R e m o t e )\nPROJECTS\nM e d i c a r e : An app that allows users to maintain their medical records, allow them to use their\ncamera to add new medicine name and dosage.\nEdHelp : Edhelp allow its users to summarize their videos as well as text through link or upload\noptions.\nM e c o l r : A platform that offers a end to end solution for learner, experts and contributor to help\neach other and enhance their career fields.\nN o t a r k : A note taking platform that offers integration of multiple tools like reminder, to-do-list and\nadding teams.M L  E n g i n e e r ,  D a t a a i\nCleaned, preprocessed raw data for quality and maintain consistency.\nTrained Machine Learning Models on the cleaned data.\nCreate PowerBI Dashboard for data analysis.\nD a t a  A n a l y t i c s ,  K P M G  V i r t u a l  I n t e r n s h i p J a n  2 0 2 1  \nADDITIONAL INFORMATION\nConducted AI & DS Workshop\nWin Data Science Competition \nVolunteer in ICONICS Teach in Standford Code in Place\nWorked as Alpha Microsoft Ambassador \nWork as Team Lead in OmedenaG r a d e  :  A +I n t e r m e d i a t e\nBAMM P.E.C.H.S College for Women\nSKILLS\nPython & Scikit Learn Keras and Tensor Flow+92 340 7701848         mehwishalamlp@gmail.com       @themehwishalam   "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

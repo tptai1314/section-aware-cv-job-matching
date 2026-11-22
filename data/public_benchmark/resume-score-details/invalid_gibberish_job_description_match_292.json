@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Flumbwaddle sprocket nimbleroot, gleedwarp zangly fringetwist bloop. Quizzle frobbit snortle fligbump, jingleprow glorpen kribblefrast. Wibble thunkaloo pringle zaffite, drongle swizzle trimpfath jork. Snarfuddle drimble quorf knabble, jubberwocky gribble toontastic vroom. Frabble snuzzle quazmoot grimbly, pliff wugwump twizzle knackledorf. Gluznock zogbiddle paraflump, whizzle lurbwort crinket hoogaloo. Brimflop zoodleskirp flangle doop, kwizzle dramble voont knackernob. Fliggerdoodle wampthloop binglorn, froobleweeft nirkblam frondle snork.",
+        "macro_dict": {
+            "leadership": 18,
+            "project management experience": 30,
+            "technical expertise": 27,
+            "client relationship management": 25
+        },
+        "micro_dict": {
+            "powerbi": 100
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+            "10+ years of industry experience in project management and data analytics",
+            "Strong understanding of Agile and SCRUM methodologies",
+            "Master's degree in Computer Science, Business Administration, or related field"
+        ],
+        "resume": "Shahbaz Joiya \nBusiness Development Executive \nTo get a challenging position in growth and career oriented Organization, where challenges are a\nroutine work and where I show the best of my abilities and quali\ufb01cation for the progress of that\norganization and upgrade my career. \nShahbazjoiya07@gmail.com \n+923070504083 \nJohar Town R1 Phase 2,\nLahore, Pakistan \nSKILLS \nBusiness Developement \nProject Management \nCommunication \nHTML \nCSS \nJavaScript \nBootstrap \nQuick Learner \nProblem Solving \nLANGUAGES \nUrdu \nNative or Bilingual Pro\ufb01ciency \nEnglish \nProfessional Working Pro\ufb01ciency \nINTERESTS \nTravelling \nMovies Collection \nEDUCATION \nBachelor's of Science in Computer Science \nGovt. College University Faisalabad, Sahiwal Campus \n09/2017 - 07/2021\n, \n \nIntro to Management \nBusiness Developement \nSoftware Engineering \nObject Oriented Programming \nData Structure and Algorithm \nOperating System \nIntermediate in Computer Science \nPunjab College Haronabad \n04/2015 - 07/2017\n, \n \nWORK EXPERIENCE \nTeam Lead (Amazon Drop Shipping and Product Hunting) \nADH Sahiwal \n01/2022 - Present\n, \n \nPERSONAL PROJECTS \nHome Automation by using Sensors (FYP)\n (09/2020 - 06/2021)\n \nFeatures:- \nIt's a centralized control of lighting, heating, ventilation and air conditioning appliances, and\nother systems, to provide improved convenience, comfort, energy e\ufb03ciency and security. \nSensors:-\n It's includes \nTemperature Sensors & Smart Thermostats, \nLight Sensors, \nMotion Sensors, \nWindow\nand Door Sensors, and \nSmart Smoke and CO Sensors. \nE-Commerce Website \nTools:- \nVisual Studio Code, HTML, CSS, JavaScript, SQL management system and asp.net MVC. \nWeb based Ecommerce site developed in asp.net MVC. \nFeatures:-\n Check the list of Item with category, View the details of item, and List of latest Item \nACHIEVEMENTS \nThe Punjab Education Endowment Fund - PEEF\n (2017 - 2021)\n \nCourses "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

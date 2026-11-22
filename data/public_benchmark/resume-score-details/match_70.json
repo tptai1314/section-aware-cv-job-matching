@@ -1,0 +1,186 @@
+{
+    "output": {
+        "justification": [
+            "Leadership skills are evident through roles as Business Development Manager and Operations Manager, involving team leadership and strategic planning.",
+            "Relevant experience is somewhat aligned with the JD in terms of business development and project management but lacks direct experience in lead generation and BI tools.",
+            "No evidence of proficiency in C++, HTML, CSS, or any major BI tools like Power BI or Tableau.",
+            "CRM and data management experience is mentioned, but not in the context of BI tools like Power BI, SQL, or Tableau."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 2
+                },
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm and data management",
+                    "score": 4
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.37,
+                "micro_scores": 3.3099999999999996
+            }
+        },
+        "personal_info": {
+            "name": "WAQAS ZULFIQAR",
+            "email": "waqaszulfiqar84@gmail.com",
+            "phone": "0333 6788771",
+            "current_position": "Business Development Manager",
+            "current_company": "MRGT Training & IT Solution",
+            "employment_start_date_current_company": "04-2020",
+            "first_company_start_date": "06-2009",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 73,
+            "experience": 9,
+            "innovation and adaptability": 18
+        },
+        "micro_dict": {
+            "c++, html, css": 52,
+            "business intelligence tools (power bi, sql, tableau)": 7,
+            "crm and data management": 20,
+            "project management": 21
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau"
+        ],
+        "resume": "WAQAS ZULFIQAR  \n \nPROFESSIONAL SUMMARY  \nCustomer -oriented, strategic -thinking sales and management professional with 10 years of experience in building \nrelationships, cultivating partnerships, retaining top accounts and growing profit channels by establishing trust. \nPersuasive, self -motivated leadership professional with expertise on expanding network connections, persuasively \nintro ducing products, educating clients, implementing pricing strategies, territory development, inventory control \nand projections and determining customer needs to deliver solutions. Tactical team builder and strategic planner \nseeking to leverage background to  fulfill robust leadership role with progressive organization . \nSKILLS  \n \n \n\u2022 Team Leadership  \n\u2022 Positive Thinking  \n\u2022 Time Management  \n\u2022 Negotiation Skills               \n\u2022 Problem Solving  \n\u2022 New business dev elopment  \n\u2022 Social Selling                                  \n\u2022 Active Listening                      \n\u2022 Technology  \n\u2022 Fast Lerner         \n\u2022 Vendor management  \n\u2022 Staff management  \n\u2022 Business development and planning  \n\u2022 Forecasting ability  \n\u2022 Verbal and written communication  \n\u2022 Client relations  \n\u2022 Goal -setting  \n\u2022 Inventory management  \n\u2022 Project Management   \n\u2022 Multi -Tasking  \nEducation  \n \nBachelor of  Commerce  (BCOM -IT) 2008  \nAllama  Iqbal  Open  University  (AIOU)  Islamabad, Pakistan  \nComputer Science - Associate  of Science  2004  \nPunjab  College  Sargodha  - Boys  Campus  Sargodha, Punjab  \nWork History  \n \nBusiness  Development  Manager  April, 2020 to  Present  \nMRGT Training &  IT Solution  Islamabad , Pakistan  \n\u2022 Contacting potential clients to establish rapport and arrange \nmeetings.  \n\u2022 Planning  and overseeing new marketing initiatives.  \n\u2022 Researching organizations and individuals to find new opportunities.  \n\u2022 Increasing the value of current customers while attracting new  ones.  \n\u2022 Finding and developing new markets and improving sales.  \n\u2022 Attending conferences, meetings, and industry events.  Sargodha, Pakistan | (0333) 6788771 | waqaszulfiqar84@gmail.com  \u2022 Developing quotes and proposals for clients.  \n\u2022 Developing goals for the development team and business growth and ensuring they are \nmet.  \n\u2022 Training personnel and helping team members develop their skills.  \n\u2022 Forecasted factors such as sales numbers and product profitability to determine ideal strategies.  \n \n \n  Sales  and Operations Executive  April, 2019 to April,  2020  \nDulsco  Head  Office                                                                                                                     Dubai, UAE  \n \n\u2022 Contacting potential clients to establish rapport and arrange meetings.  \n\u2022 Planning and overseeing new marketing initiatives.  \n\u2022 Researching organizations and individuals to find new opportunities.  \n\u2022 Increasing the value of current customers while attracting new  ones.  \n\u2022 Finding and developing new markets and improving sales.  \n\u2022 Attending conferences, meetings, and industry events.  \n\u2022 Developing quotes and proposals for clients.  \n\u2022 To schedule client interviews for shortlisted resources and obtain post interview feedback.  \n\u2022 To meet and counsel daily absenteeism employees along with the welfare and forward the report to \nHRC for the disciplinary action.  \n\u2022 To supervise project deployment and ensure smooth running of projects with zero client complaints.  \n\u2022 To ensure resources report on duty for projects and maintain grooming standards.   \n\u2022 Brief employees prior to deployment -to reduce the work refusal etc. for any new  \nclients.  \n\u2022 Follow up with CRT team with regards to new joiner emergency leave status.  \n\u2022 Prepare and collect the resume for t he list of the skill claimed employees and schedule them for the test \nwith concern dept.  \n\u2022 Maintain records of new site inspection reports along with risk assessment report.  \nPrepare list of the clients with past data for best employee nomination award.  \n \nOperations  Manager  September, 2014 to April,  2019  \nSites power  Institute                                                                                                            Dubai , UAE  \n \n\u2022 Managing daily operational activities & logistics requirements.  \n\u2022 Designing Standard Operations Procedures (SOP\u2019s) for complex tasks & evaluate them by their \nperformance. Establish objectives and strategies in regard to operational structure, competition a nd \npricing of projects.  \n\u2022 Design and negotiate financial solutions, and demonstrate relevant effective management techniques. \nAnalyze and identify needs for logistics and trade services, shipping and other transport modes.  \n\u2022 Develop logistical plans, polici es, and procedures necessary to provide support in the Operational areas of \nsupply, Logistics, transportation, maintenance, and services.  \n\u2022 Taking decisions in difficult situations, in response to bad weather conditions, security alerts or industrial \nrelati ons problems.  \n\u2022 Meets cost standards by monitoring expenses; implementing cost -saving  actions.  \n\u2022 Updates job knowledge by participating in educational opportunities; reading professional publications. \nEnhances department and organization reputation by accep ting ownership for accomplishing new and \ndifferent requests; exploring opportunities to add value to job  accomplishments.   \nSales & Operations Executive  June, 2009 to June,  2014  \nNADRA  Regional  Head  Office  Islamabad                                Islamabad, Pakistan  \n \n \n\u2022 Take instructions provided by manager and complete required tasks.            \n\u2022 Screen and handle telephone calls and manage enquirers.  \n\u2022 Manage post, emails and faxes, issuing responses where possible.                       \n\u2022 Act as a main point of contact.  \n\u2022 Assist managers with meetings and arrange logistics, such as travel and accommodation.                             \n\u2022 Undertake research and  produce documents for meetings.  \n\u2022 Produce letters and, if necessary, reports on behalf of your manager.                    \n\u2022 Oversee office procedures.  \n\u2022 Oversee some aspects of finances, manage an office team and supervise project work.                                      \n\u2022 Manage personal diaries and undertake other non -work -related  errands.  \n\u2022 To prepare MIS Reports fo r improve quality in service performance  \n \n \nCertification s \n \n\u2022 Leading at a Distan ce   \n\u2022 Critical Thinking  \n\u2022 Strategic Thinking  \n\u2022 Problem Solving                                                                                                                                                                                                    \n\u2022 UAE Driving License (License Number 4000348)  \n\u2022 Pitching Yourself                        \n\u2022 Microsoft Office (word, Excel, PowerPoint)  \n\u2022 Cisco Certified Network Professional (CCNP)  \n\u2022 Cisco Certified Network Associate (CCNA)  \n\u2022 Certified Ethical Hacker (CEH ) \n\u2022 Introduction to Cyber Security  \n\u2022 Linux Administration  \n "
+    },
+    "details": {
+        "name": "Waqas Zulfiqar",
+        "number": "03336788771",
+        "skills": [
+            "Technology",
+            "Microsoft Office (Word, Excel, PowerPoint)",
+            "Cisco Certified Network Professional (CCNP)",
+            "Cisco Certified Network Associate (CCNA)",
+            "Certified Ethical Hacker (CEH)",
+            "Linux Administration"
+        ],
+        "email_id": "waqaszulfiqar84@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2008",
+                "university": "Allama Iqbal Open University (AIOU) Islamabad, Pakistan",
+                "degree_title": "Bachelor of Commerce (BCOM -IT)"
+            },
+            {
+                "end_date": "06-2004",
+                "university": "Punjab College Sargodha - Boys Campus Sargodha, Punjab",
+                "degree_title": "Computer Science - Associate of Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Leading at a Distance",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "UAE Driving License",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Pitching Yourself",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Introduction to Cyber Security",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Strategic Thinking",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Problem Solving",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Waqas Zulfiqar is a seasoned sales and management professional with over 10 years of experience in business development and operations management. He possesses a strong technical background with certifications in networking and cybersecurity, demonstrating a commitment to leveraging technology for business growth. Waqas has a proven track record in client relations and project management, making him a valuable asset to any progressive organization.",
+        "employment_history": [
+            {
+                "details": "Contacting potential clients to establish rapport and arrange meetings. Planning and overseeing new marketing initiatives. Researching organizations and individuals to find new opportunities. Increasing the value of current customers while attracting new ones. Finding and developing new markets and improving sales. Attending conferences, meetings, and industry events. Developing quotes and proposals for clients. Developing goals for the development team and business growth and ensuring they are met. Training personnel and helping team members develop their skills. Forecasted factors such as sales numbers and product profitability to determine ideal strategies.",
+                "end_date": "Present",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "04-2020",
+                "company_name": "MRGT Training & IT Solution"
+            },
+            {
+                "details": "Contacting potential clients to establish rapport and arrange meetings. Planning and overseeing new marketing initiatives. Researching organizations and individuals to find new opportunities. Increasing the value of current customers while attracting new ones. Finding and developing new markets and improving sales. Attending conferences, meetings, and industry events. Developing quotes and proposals for clients. To schedule client interviews for shortlisted resources and obtain post interview feedback. To meet and counsel daily absenteeism employees along with the welfare and forward the report to HRC for the disciplinary action. To supervise project deployment and ensure smooth running of projects with zero client complaints. To ensure resources report on duty for projects and maintain grooming standards. Brief employees prior to deployment -to reduce the work refusal etc. for any new clients. Follow up with CRT team with regards to new joiner emergency leave status. Prepare and collect the resume for the list of the skill claimed employees and schedule them for the test with concern dept. Maintain records of new site inspection reports along with risk assessment report. Prepare list of the clients with past data for best employee nomination award.",
+                "end_date": "04-2020",
+                "location": "Dubai, UAE",
+                "job_title": "Sales and Operations Executive",
+                "start_date": "04-2019",
+                "company_name": "Dulsco Head Office"
+            },
+            {
+                "details": "Managing daily operational activities & logistics requirements. Designing Standard Operations Procedures (SOP\u2019s) for complex tasks & evaluate them by their performance. Establish objectives and strategies in regard to operational structure, competition and pricing of projects. Design and negotiate financial solutions, and demonstrate relevant effective management techniques. Analyze and identify needs for logistics and trade services, shipping and other transport modes. Develop logistical plans, policies, and procedures necessary to provide support in the Operational areas of supply, Logistics, transportation, maintenance, and services. Taking decisions in difficult situations, in response to bad weather conditions, security alerts or industrial relations problems. Meets cost standards by monitoring expenses; implementing cost-saving actions. Updates job knowledge by participating in educational opportunities; reading professional publications. Enhances department and organization reputation by accepting ownership for accomplishing new and different requests; exploring opportunities to add value to job accomplishments.",
+                "end_date": "04-2019",
+                "location": "Dubai, UAE",
+                "job_title": "Operations Manager",
+                "start_date": "09-2014",
+                "company_name": "Sites Power Institute"
+            },
+            {
+                "details": "Take instructions provided by manager and complete required tasks. Screen and handle telephone calls and manage enquiries. Manage post, emails and faxes, issuing responses where possible. Act as a main point of contact. Assist managers with meetings and arrange logistics, such as travel and accommodation. Undertake research and produce documents for meetings. Produce letters and, if necessary, reports on behalf of your manager. Oversee office procedures. Oversee some aspects of finances, manage an office team and supervise project work. Manage personal diaries and undertake other non-work-related errands. To prepare MIS Reports for improve quality in service performance.",
+                "end_date": "06-2014",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Sales & Operations Executive",
+                "start_date": "06-2009",
+                "company_name": "NADRA Regional Head Office Islamabad"
+            }
+        ]
+    }
+}

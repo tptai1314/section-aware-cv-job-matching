@@ -1,0 +1,186 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has held a junior project associate position, showing potential for project management, but lacks extensive experience managing complex projects end-to-end.",
+            "The candidate's experience as a Business Development Executive and Junior Project Associate demonstrates some engagement with client management.",
+            "Skills in Microsoft Office and data tools like SPSS do not show proficiency in preferred tools such as PowerBI.",
+            "No evidence of quality management systems experience is presented in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "project management experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 4
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 2
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.57,
+                "micro_scores": 2.66
+            }
+        },
+        "personal_info": {
+            "name": "SAAD BIN HASSAN",
+            "email": "saadbinhassan000@gmail.com",
+            "phone": "923133162249",
+            "current_position": "Junior Project Associate",
+            "current_company": "ProntoDigital, LLC",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "06-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/saad -bin-hassan -096118183/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "project management experience": 43,
+            "client relationship management": 57
+        },
+        "micro_dict": {
+            "data management": 33,
+            "quality management systems": 23,
+            "powerbi": 44
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Master's degree in Computer Science, Business Administration, or related field"
+        ],
+        "resume": "  SAAD BIN HASSAN  \nHometown: Lahore  \nCell: 923133162249  | saadbinhassan000@gmail.com  \nDate of Birth: 0 7/04/1998  \nLinkedin Profile: https://www.linkedin.com/in/saad -bin-hassan -096118183/  \nEDUCATION & QUALIFICATIONS  \nMasters of Business Administration  May 2022 \nLahore School of Economics  \nBachelors in Business Administration  (Honors)   June  2021  \nMajor (Marketing) Minor (Media Studies)  \nLahore School of Economics           \nPROFESSIONAL EXPERIENCE         \nProntoDigital, LLC                                                                                               June  2021 \u2013 February 2022  \nBusiness Development Executive  \n\uf0b7 Responsible for finding and retaining new clients, Handling Upwork profiles.  \n\uf0b7 Maintained relationships with clients by providing them information and guidance.  \n\uf0b7 Generated weekly sales reports and provided useful insights.  \nProntoDigital, LLC                                                                        March  2022 \u2013 May 2022  \nJunior Project Associate  \n\uf0b7 Managed and build a Data Analytics team.  \n\uf0b7 Managed to achieve the target of $20,000 in 3 months.  \nBank of Punjab                       June-August  2018 \nOperations Intern, Operations  \n\uf0b7 Responsible to deal with branch daily operations and Opening of new accounts.  \nDetechgear  \nMarketing Executive                                                                                                                                                     July- Dec 2020  \n\uf0b7 Managed all Digital Marketing  of the business.  \n\uf0b7 Achieved sales of 500,000 in 5 months.  \nPROJECTS  \nStrategic Management : Strategic decision making and analyzing a company\u2019s performance by looking at different factors. \nUsing tools like IFE, EFE, CPM, QSPM , etc.  \nAdvertising:  Product adaption of Clear Shampoo according to Pakistani Market. Devised the entire advertising plan \nincorporating all the strategies and storyboard . \nSales Force Management : Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce  \nchannel.  \nMarketing Research: Conducted qualitative and quantita tive research on Nokia Pakistan.  \nADDITIONAL EXPERIENCE  \nTeacher Assistant , Lahore School of Economics                                                                                                2021 \u2013 2022 \nMarketing Intern , Signature Lifestyle.  \n\uf0b7 Managed all Digital Marketing campaigns and marketing strategies.              March -July 2022   \nHONORS & AWARDS  \n\uf0b7 Winner of LSE Business Fiesta 2021  \n\uf0b7 25% Scholarship in Lahore  School of Economics  \nSKILLS & INTERESTS  \n\uf0b7 Competent user of M icrosoft Office , Vegas Pro, SPSS, Smar t PLS , Shopify, and Ecommerce \nManagement.  \n\uf0b7     Digital Marketing, Upwork , Click Up, Slack, FB Ads, Google AdWords , Google Analytics, Canva.  \n       \uf0b7     Strategic Planning, Leadership, Comfortable in Team work.  \n"
+    },
+    "details": {
+        "name": "Saad Bin Hassan",
+        "number": "923133162249",
+        "skills": [
+            "Microsoft Office",
+            "Vegas Pro",
+            "SPSS",
+            "Smart PLS",
+            "Shopify",
+            "Ecommerce Management",
+            "Digital Marketing",
+            "Upwork",
+            "Click Up",
+            "Slack",
+            "FB Ads",
+            "Google AdWords",
+            "Google Analytics",
+            "Canva"
+        ],
+        "email_id": "saadbinhassan000@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Strategic Management",
+                "description": "Strategic decision making and analyzing a company\u2019s performance by looking at different factors."
+            },
+            {
+                "title": "Advertising",
+                "description": "Product adaption of Clear Shampoo according to Pakistani Market."
+            },
+            {
+                "title": "Sales Force Management",
+                "description": "Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce channel."
+            },
+            {
+                "title": "Marketing Research",
+                "description": "Conducted qualitative and quantitative research on Nokia Pakistan."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration"
+            },
+            {
+                "end_date": "06-2021",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelors in Business Administration (Honors)"
+            }
+        ],
+        "achievements": [
+            "Winner of LSE Business Fiesta 2021",
+            "25% Scholarship in Lahore School of Economics"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/saad-bin-hassan-096118183/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saad Bin Hassan is a skilled professional with a strong background in business development and digital marketing, holding an MBA and a Bachelor's in Business Administration. He has demonstrated success in managing teams and achieving sales targets, showcasing his technical proficiency in various software and marketing tools.",
+        "employment_history": [
+            {
+                "details": "Responsible for finding and retaining new clients, Handling Upwork profiles. Maintained relationships with clients by providing them information and guidance. Generated weekly sales reports and provided useful insights.",
+                "end_date": "02-2022",
+                "location": "ProntoDigital, LLC",
+                "job_title": "Business Development Executive",
+                "start_date": "06-2021",
+                "company_name": "ProntoDigital, LLC"
+            },
+            {
+                "details": "Managed and build a Data Analytics team. Managed to achieve the target of $20,000 in 3 months.",
+                "end_date": "05-2022",
+                "location": "ProntoDigital, LLC",
+                "job_title": "Junior Project Associate",
+                "start_date": "03-2022",
+                "company_name": "ProntoDigital, LLC"
+            },
+            {
+                "details": "Responsible to deal with branch daily operations and Opening of new accounts.",
+                "end_date": "08-2018",
+                "location": "Bank of Punjab",
+                "job_title": "Operations Intern, Operations",
+                "start_date": "06-2018",
+                "company_name": "Bank of Punjab"
+            },
+            {
+                "details": "Managed all Digital Marketing of the business. Achieved sales of 500,000 in 5 months.",
+                "end_date": "12-2020",
+                "location": "Detechgear",
+                "job_title": "Marketing Executive",
+                "start_date": "07-2020",
+                "company_name": "Detechgear"
+            },
+            {
+                "details": "Managed all Digital Marketing campaigns and marketing strategies.",
+                "end_date": "07-2022",
+                "location": "Signature Lifestyle",
+                "job_title": "Marketing Intern",
+                "start_date": "03-2022",
+                "company_name": "Signature Lifestyle"
+            }
+        ]
+    }
+}

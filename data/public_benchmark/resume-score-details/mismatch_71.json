@@ -1,0 +1,181 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has significant experience in business development roles, particularly with HappyTenant, which aligns with the job description's emphasis on leadership and strategic thinking.",
+            "The resume demonstrates competency in B2B sales, showcased through roles at HappyTenant and projects related to Huawei, hitting the key requirement for B2B sales.",
+            "The candidate has a strong marketing background, essential for data analysis and market research, which matches the micro criterion of data analysis.",
+            "The resume highlights leadership roles and achieving measurable growth, aligning with the leadership macro criterion of the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 8
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 7
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.9,
+                "micro_scores": 7.04
+            }
+        },
+        "personal_info": {
+            "name": "Syed Ali Sher Rizvi",
+            "email": "sahibzadaali66@gmail.com",
+            "phone": "03015062755",
+            "current_position": "Business Development Manager",
+            "current_company": "HappyTanent",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "08-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171"
+                },
+                {
+                    "website_name": "Minora Cart",
+                    "url": "https://www.minoracart.com/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 90,
+            "strategic thinking": 10
+        },
+        "micro_dict": {
+            "b2b sales": 34,
+            "data analysis": 36,
+            "it and manufacturing sector knowledge": 30
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": "Syed Ali Sher Rizvi \nBusiness Development Manager \nAn organized and creative professional with proven marketing skills and a desire to learn more. Possess\n4+ years of experience working for a diverse group of organizations and clients. Gained expertise in data\nanalysis, publication marketing, and web-based advertising. Looking to utilize my existing skill set to\nincrease company pro\ufb01tability at Spleen Manufacturing (Pvt) Ltd. \nsahibzadaali66@gmail.com \n03015062755 \nLahore, Pakistan \nlinkedin.com/in/syed-ali-shair-rizvi-7bb859171 \nWORK EXPERIENCE \nBusiness Development Manager \nHappyTanent \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nHappyTenant is UAE base company, I'm working here (remotely) to develop their\nbusiness in Pakistan, USA, and UAE as well. \nSetting goals and developing plans for business and revenue\ngrowth. \nPlanning and overseeing new marketing initiatives. \nIncreasing the value of current customers while attracting new\nones. \nAttending conferences, meetings, and industry events. \nSocial Media Coordinator \nMinora Cart \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nhttps://www.minoracart.com/ \nAnalyzed and reported social media presence, engagement, and\ne\ufb00ectiveness on all platforms \nEngaged in consistent interactions with clients, donors, and fans \nDoubled website tra\ufb03c from 15,000 average visitors to 31,000 \nAsst. Manager Marketing \nSpleen Manufacturing (Pvt) Ltd 08/2018 - Present, \n10/2018 - 02/2022\n, \n \nLahore, Pakistan \nProviding Engineering Solutions For All Kind Of Light & Heavy Fabrications \nSuccessfully spearhead campaigns on social media platforms\nincluding Facebook, Twitter, and Instagram \nContact \n:\n-\nRana Shahbaz Ahmed (Head BD & marketing) \n0300 8463927 \nEDUCATION \nMSC Marketing \nNational Collage of Business Administration &\nEconomics \n2020 - Present\n, \n \nLahore. Pakistan \nGlobal Outsourcing \nContract Management \nEntrepreneurship \nFinical Management \nBachelor in Commerce \nUniversity Of Punjab \n12/2016 - 05/2018\n, \n \nLahore Pakistan \nSKILLS \nMS O\ufb03ce \nZoho CRM \nMailChimp \nNegotiation \nAbility to engage \nExcellent verbal and written communication \nAbility to persuade \nEmail Marketing \nLead Generation \nSales Navigator \nSignalHire \nApollo.io \nBu\ufb00er \nDigital advertising \nACHIEVEMENTS \nDigital Marketing Course From PNY Institute\n (09/2021)\n \nSocial Media Marketing, Google Ad words, SMM, Mobile\nMarketing \nHuawei Managment\n (2018 - Present)\n \nFull handling Huawei portal \nfully coordinate with their team for\nrecent contracts and future negotiation in cotracts \nERP (SARP) \nFull handle ERP Software and have enough awareness that can\nhandle each department through it. \nAchiever of the Year (Spleen Manufacturing)\n (2019 - 2020)\n \nCOMPANY PROJECTS \nMinora cart\n (06/2022 - Present)\n \nSocial Media Advertisement \nProject Name \nDelux - Pest Control Services\n (12/2022 - Present)\n \nSocial Media Marketing (LOW CPC - High Conversions) \n220 kV Dhabji Transmission Line Projects\n (09/2021 - 11/2021)\n \nHuawei Projects (CMPAK, JAZZ, Ufone Telenor)\n (02/2021 - Present)\n \nCERTIFICATES \nDigital Marketing\n (2021 - Present)\n \nYoutube Marketing\n (2021 - Present)\n \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Syed Ali Sher Rizvi",
+        "number": "03015062755",
+        "skills": [
+            "MS Office",
+            "Zoho CRM",
+            "MailChimp",
+            "Email Marketing",
+            "Lead Generation",
+            "Sales Navigator",
+            "SignalHire",
+            "Apollo.io",
+            "Buffer",
+            "Digital advertising"
+        ],
+        "email_id": "sahibzadaali66@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Minora cart",
+                "description": "Social Media Advertisement"
+            },
+            {
+                "title": "Delux - Pest Control Services",
+                "description": "Social Media Marketing (LOW CPC - High Conversions)"
+            },
+            {
+                "title": "220 kV Dhabji Transmission Line Projects",
+                "description": ""
+            },
+            {
+                "title": "Huawei Projects (CMPAK, JAZZ, Ufone Telenor)",
+                "description": ""
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2018",
+                "university": "University Of Punjab",
+                "degree_title": "Bachelor in Commerce"
+            },
+            {
+                "end_date": "Present",
+                "university": "National Collage of Business Administration & Economics",
+                "degree_title": "MSC Marketing"
+            }
+        ],
+        "achievements": [
+            "Digital Marketing Course From PNY Institute (09-2021)",
+            "Achiever of the Year (Spleen Manufacturing) (2019 - 2020)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            },
+            {
+                "certification_name": "Youtube Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Syed Ali Sher Rizvi is a Business Development Manager with over 4 years of experience in marketing and business growth strategies. He has a strong background in data analysis, publication marketing, and web-based advertising, and is currently focused on enhancing profitability for Spleen Manufacturing (Pvt) Ltd.",
+        "employment_history": [
+            {
+                "details": "Developing business in Pakistan, USA, and UAE, setting goals and developing plans for business and revenue growth.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2022",
+                "company_name": "HappyTanent"
+            },
+            {
+                "details": "Analyzed and reported social media presence, engagement, and effectiveness on all platforms, doubled website traffic.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Social Media Coordinator",
+                "start_date": "01-2022",
+                "company_name": "Minora Cart"
+            },
+            {
+                "details": "Successfully spearheaded campaigns on social media platforms including Facebook, Twitter, and Instagram.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Asst. Manager Marketing",
+                "start_date": "10-2018",
+                "company_name": "Spleen Manufacturing (Pvt) Ltd"
+            }
+        ]
+    }
+}

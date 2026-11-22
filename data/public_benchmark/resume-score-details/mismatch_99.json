@@ -1,0 +1,179 @@
+{
+    "output": {
+        "justification": [
+            "Hamza has extensive experience of over 9 years in business development and sales, meeting the requirement for 5+ years in a leadership role.",
+            "The resume lists skills in market research and negotiation, aligning with the job description's focus on strategic planning and sales processes.",
+            "Proficiency in business analytics tools like GA4 and Power BI is not evident in the resume.",
+            "The candidate's education does not match the preference for top-tier universities, but it does meet the minimum requirement of a Bachelor's degree in a related field."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 8
+                },
+                {
+                    "criteria": "seo",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.71,
+                "micro_scores": 5.390000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Hamza Tahir",
+            "email": "hamzatahir95@outlook.com",
+            "phone": "03000432769",
+            "current_position": "Account Manager / Key Account Manager",
+            "current_company": "Motive",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "05-2014",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 30,
+            "business development experience": 47,
+            "strategic planning": 23
+        },
+        "micro_dict": {
+            "market research": 15,
+            "negotiation": 21,
+            "seo": 10,
+            "data analysis": 54
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in business analytics and digital strategy",
+            "5+ years of business development experience in a leadership role",
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": "Hamza Tahir\nBusiness Expansion Specialist at Ex-Motive\nSaaS (B2B) (B2C) SaaS Sales, Account Management, Product Demonstrations, New Business\nAcquisition, Sales Pipeline Management, Forecasting & Salesforce Hygiene. Goal-oriented\nindividual, associated with Sales & Business expansion and operational environment for the past\n9 years. Multitasking, problem solver with managerial and communication skills, seeking a\nposition in your organization where strong Business development, Sales and Customer success\nskills will be applied to help the organization to fulfill its mission. Desire a position in your\norganization to provide high end administrative Sales support, Software sales and software\nservice in the department. Contact Info Bahria Orchard phase 2 Lahore, PakistanContact Info\n03000432769\ue145\nhamzatahir95@outlook.com\u2709\nBahria orchard Phase 2\nLahore, Pakistan\ue021\n Strengths & Skills\ue185\n\u2714Able to influence and negotiate with \u2714Business Development \u2714Communication Skills\n\u2714Critical thinking skills \u2714Customer Service \u2714customers\n\u2714Marketing \u2714MS Office \u2714Negotiation Skills\n\u2714Problem Solving \u2714Sales \u2714Sales Analysis\n\u2714Sales Pitching \u2714Time management skills\n Academics\ue233\nTitle Institute Date\nBBA Bahauddin Zakariya University, 2018 BBA Bahauddin Zakariya University,\n2018 , Lahore2018\nIntermediate Punjab College, 2014 Intermediate Punjab College, Lahore\n2014 , Lahore2014\nMatriculation BISE , 2012 Matriculation BISE Lahore, Lahore\n2012 , Lahore2012\n Experience   9 years \ue067\n1.1 years\n3.9 years\n9 months\n6 monthsCompany Designation Duration\nMotive Account Manager / Key Account Manager Sep 2021 - Oct 2022\nIbex Global-DGS Senior Sales Executive May 2017 - Apr 2021\nIbex Global- British Council/Careem Customer Sales Executive (CSE) Dec 2015 - Sep 2016\nRayman Corp Sales Executive May 2014 - Nov 2014\n Work History\ue032\nMotive Sep 2021 - Oct 2022  (1.1 years)\nAccount Manager / Key Account Manager Lahore, Pakistan\nAs an SMB Expansion Account Manager my duty is to build relationships, and upsell the products, while ensuring the customers\nexpectations are being met. My Key responsibilities are to educate fleet managers and owner/operators about Electronic Logging\nDevices, Fleet Management, Vehicle GPS Tracking, Driver Vehicle Inspection Reports, IFTA Reporting, Electronic Logs, and Safety\ninitiatives offered by Motive!\nAs an SMB Expansion Account Manager my main responsibility is to provide a superb customer experience and to ensure it happens\nduring each customer interaction through clear communication and strong interpersonal and organizational skills, which enables me to\nbuild trust with potential Motive customers.As an SMB Expansion Account Manager my duty is to build relationships, and upsell the\nproducts, while ensuring the customers expectations are being met. My Key responsibilities are to educate fleet managers and\nowner/operators about Electronic Logging Devices, Fleet Management, Vehicle GPS Tracking, Driver Vehicle Inspection Reports, IFTA\nReporting, Electronic Logs, and Safety initiatives offered by Motive! As an SMB Expansion Account Manager my main responsibility is to\nprovide a superb customer experience and to ensure it happens during each customer interaction through clear communication and\nstrong interpersonal and organizational skills, which enables me to build trust with potential KeepTruckin customers.\nSkills:  Business Development\nIbex Global-DGS May 2017 - Apr 2021  (3.9 years)\nSenior Sales Executive Lahore, Pakistan\nDealing with International customers on both Inbound and Outbound calls. Making sure Quality scores and performance are above par. Keeping\nupdated with recent events. Meeting targets set by supervisors in a timely manner. Worked on Add-On (Addition products). Maintained the\nperformance close rate. Conduct T&D session to enhance productivity Comcast Xfinity (cable, internet, phone and home security) Spectrum (Bright\nHouse, Time Warner Cable and Charter) Cox Communication (cable, internet, phone and home security) Mediacom Cable (cable, internet, phone)\nWOW Cable (cable, internet, phone) Altice \u2013 Optimum (cable, internet, phone) Buckeye (cable, internet, phone) Metro Net (cable, internet, phone)\nHughes Net (Satellite internet) Century link (Internet and Phone) Frontier (cable, internet, phone)\nIbex Global- British Council/Careem Dec 2015 - Sep 2016  (9 months)\nCustomer Sales Executive (CSE) Lahore, Pakistan\nDealing with International customers on both Inbound and Outbound calls. Making sure Quality scores and performance are above par. Keeping\nupdated with recent events. Meeting targets set by supervisors in a timely manner. Worked on Add-On (Addition products). Maintained the\nperformance close rate. Conduct T&D session to enhance productivity.\nRayman Corp May 2014 - Nov 2014  (6 months)\nSales Executive Lahore, Pakistan\nCold and warm calling clients to sell services, Lead generation and Appointment Making. Maximizing every sales opportunity by promoting the\nhighest standards of customer care and recognizing potential development and training opportunities. Re-marketing dead/ in-active clients,\nnegotiating feasible solutions with terms and conditions of either party\u2019s. Developed new telemarketing scripts that effectively increased success\nrate by 20% and were adopted by department. Cold and warm calling clients to sell services, Lead generation and Appointment Making. Maximizing\nevery sales opportunity by promoting the highest standards of customer care and recognizing potential development and training opportunities.\nRe-marketing dead/ in-active clients, negotiating feasible solutions with terms and conditions of either party\u2019s. Developed new telemarketing scripts\nthat effectively increased success rate by 20% and were adopted by department. Cold and warm calling clients to sell services, Lead generation and\nAppointment Making. Maximizing every sales opportunity by promoting the highest standards of customer care and recognizing potential\ndevelopment and training opportunities.\n Industries\ue019\nDistribution and Logistics Functional Areas*\nRemote\n"
+    },
+    "details": {
+        "name": "Hamza Tahir",
+        "number": "03000432769",
+        "skills": [
+            "SaaS Sales",
+            "Account Management",
+            "Product Demonstrations",
+            "New Business Acquisition",
+            "Sales Pipeline Management",
+            "Forecasting",
+            "Salesforce Hygiene",
+            "Business Development",
+            "Sales Analysis",
+            "Sales Pitching"
+        ],
+        "email_id": "hamzatahir95@outlook.com",
+        "location": "Bahria Orchard Phase 2, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2018",
+                "university": "Bahauddin Zakariya University",
+                "degree_title": "BBA"
+            },
+            {
+                "end_date": "2014",
+                "university": "Punjab College",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "2012",
+                "university": "BISE Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hamzatahir",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hamza Tahir is a Business Expansion Specialist with over 9 years of experience in SaaS sales and account management. He has a proven track record in new business acquisition and sales pipeline management, demonstrating strong technical skills in Salesforce and sales analysis.",
+        "employment_history": [
+            {
+                "details": "As an SMB Expansion Account Manager, responsible for building relationships and upselling products while ensuring customer expectations are met. Key responsibilities include educating fleet managers about various fleet management solutions.",
+                "end_date": "10-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Account Manager / Key Account Manager",
+                "start_date": "09-2021",
+                "company_name": "Motive"
+            },
+            {
+                "details": "Dealt with international customers on inbound and outbound calls, ensuring quality scores and performance were above par. Worked on add-on products and maintained performance close rates.",
+                "end_date": "04-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Senior Sales Executive",
+                "start_date": "05-2017",
+                "company_name": "Ibex Global-DGS"
+            },
+            {
+                "details": "Handled inbound and outbound calls with international customers, meeting targets set by supervisors in a timely manner.",
+                "end_date": "09-2016",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Sales Executive (CSE)",
+                "start_date": "12-2015",
+                "company_name": "Ibex Global- British Council/Careem"
+            },
+            {
+                "details": "Engaged in cold and warm calling clients to sell services, lead generation, and appointment making. Developed new telemarketing scripts that increased success rates by 20%.",
+                "end_date": "11-2014",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Executive",
+                "start_date": "05-2014",
+                "company_name": "Rayman Corp"
+            }
+        ]
+    }
+}

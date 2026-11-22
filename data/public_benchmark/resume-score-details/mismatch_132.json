@@ -1,0 +1,185 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has not held a specific business development role; current and past roles are technical-focused.",
+            "The candidate has robust technical skills and experience in data analysis but lacks explicit experience in business analytics tools relevant to the job description.",
+            "Leadership experience is evident but primarily through academic and student organization roles, not in a business development setting.",
+            "The candidate's university is not listed as a top-tier institution in the company's preferred university list."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.26,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "Ushbah Kaleem",
+            "email": "Email",
+            "phone": "+92 3336163603",
+            "current_position": "AI Software Engineer",
+            "current_company": "CureMD",
+            "employment_start_date_current_company": "07-2023",
+            "first_company_start_date": "07-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": ""
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 63,
+            "business development experience": 37
+        },
+        "micro_dict": {
+            "data analysis": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Proficiency in business analytics and digital strategy",
+            "5+ years of business development experience in a leadership role",
+            "Bachelor's degree in Business Administration or related field",
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": " \n Ushbah Kaleem  \nIslamabad, Pakistan  | LinkedIn  | +92 3336163603  | Email  \n \nEDUCATION  \nInstitute of Space Technology  Islamabad, Pakistan  \nBS Aerospace Engineering  July 2023  \n\u25cf Top 15% of the class  \n\u25cf Research Project: Modelling, Simulation, and Control of a Flexible Space Launch Vehicle  \n\u25cf Nominated for Best Project  \n \nWORK EXPERIENCE  \n \nCureMD   Lahore, Pakistan  \nAI Software Engineer  July 2023 till date  \n\u2022 \u2060Associate AI Engineer in the most prestigious AI Research department of CureMD (web -based enterprise practice \nmanagement solution)  \n\u2022 Worked on improving the Chronic Disease Prediction models of heart disease and COPD, improved their F1 scores by \naround 4% without using lab results.  \n\u2022 Currently working on applying ML techniques and exploring Neural Networks for prediction of Hypothyroidism (initial \nF1 Score of 68%) and Disorders of lipoprotein metabolism (initial F1 score of 77%).  \n\u2022 Working on devising hybrid modelling approaches and combining neural networks to the framework.  \n\u2022 Professional Project: ML Modelling and Deployment for Heart disease time to diagnosis and Prediction . \n \nPakistan Atomic Energy Commission   Islamabad, Pakistan  \nTechnical Intern  July \u2013 August 2022  \n\u2022 Hands on Training about various welding techniques used in Industry.  \n\u2022 Non-Destructive testing of materials, relating their metallurgy to Industrial reliability.  \n\u2022 Testing and reverse engineering in telecommunication lab.  \n \nAIR WEAPON COMPLEX   Kamra, Pakistan  \nTechnical Intern  July \u2013 August 2022  \n\u2022 Hands on Training about various welding techniques used in Industry.  \n\u2022 Non-Destructive testing of materials, relating their metallurgy to Industrial reliability.  \n\u2022 Testing and reverse engineering in telecommunication lab.  \n \nPUBLICATION  \n \nModelling, Simulation, and Control of a Flexible Space Launch Vehicle  \nPresented at 20th International Bhurban Conference on Applied Sciences and Technology  (IBCAST)  2023  \nAvailable at: Research Paper  \n \n \nCERTIFICATIONS   \n \nMachine Learning Engineering for Production (MLOps) Specialization - Coursera  \n\u2022 Introduction to Machine Learning in Production  \n\u2022 Machine Learning Data Lifecycle in Production  \n\u2022 Machine Learning Modeling Pipelines in Production  \n\u2022 Deploying Machine Learning Models in Production  \n \nNatural Language Processing Specialization - Coursera  \n\u2022 Natural Language Processing with Classification & Vector Spaces  \n\u2022 Natural Language Processing with Probabilistic Mode  \n  \n IBM Introduction Machine Learning Specialization - Coursera  \n\u2022 Exploratory Data Analysis for Machine Learning  \n\u2022 Supervised Machine Learning: Regression  \n\u2022 Supervised Machine Learning: Classification  \n\u2022 Unsupervised Machine Learning  \n \nMathematics for Machine Learning and Data Science Specialization - Coursera  \n\u2022 Linear Algebra for Machine Learning and Data Science  \n\u2022 Calculus for Machine Learning and Data Science  \n\u2022 Probability & Statistics for Machine Learning & Data Science  \n \nOthers  \n\u2022 Deep Learning Applications for Computer Vision - Coursera  \n\u2022 Reinforcement Learning Specialization - University of Alberta  \n\u2022 Bayesian Methods for Machine Learning - Coursera  \n\u2022 Python Mega Course: Learn Python in 60 Days, Build 20 Apps - Udemy  \n\u2022 Python Object Oriented Programming (OOP): Beginner to Pro - Udemy  \n\u2022 Exploratory Data Analysis for Machine Learning - IBM \n \nLEADERSHIP EXPERIENCE  \n \n\u2022 Vice President  - AIAA -IST Chapter  \n\u2022 Lead Student Management Team - 12th Open House 2022   \n\u2022 Team Lead - AIREX\u201923 Design Build and Fly  - UAV Design Competition  \n\u2022 Head Judges and Coord ination - Hult Prize on Campus Program 2023   \n\u2022 Manager Security Team  - FIMUN\u201919  \n \n \nSKILLS  \n \nTechnical Proficiency  \n\u2022 Python  \n\u2022 OOP  \n\u2022 Ubuntu/Linux  \u2022 Flask/ Django  \n\u2022 Data Analysis  \n\u2022 Data Visualizations  \u2022 Deep Learning  \n\u2022 NLP\n \nSoftware  \n\u2022 RDS  \n\u2022 MATLAB  \u2022 LatEx  \n\u2022 DATCOM  \u2022 AutoCAD  \n\u2022 XFLR -5\n \nAnalytical Skills  \n\u2022 Attention to Detail  \n\u2022 Problem Solving  \u2022 Logical Reasoning  \n\u2022 Adaptability  \u2022 Critical Analysis  \n\u2022 Teamwork\n  \nLANGUAGES  \n\u2022 English (IELTS Band 8)  \n\u2022 Urdu  \n\u2022 Seraiki  "
+    },
+    "details": {
+        "name": "Ushbah Kaleem",
+        "number": "923336163603",
+        "skills": [
+            "Python",
+            "OOP",
+            "Ubuntu/Linux",
+            "Flask",
+            "Django",
+            "Data Analysis",
+            "Data Visualizations",
+            "Deep Learning",
+            "NLP",
+            "RDS",
+            "MATLAB",
+            "LaTeX",
+            "DATCOM",
+            "AutoCAD",
+            "XFLR-5"
+        ],
+        "email_id": "",
+        "location": "Islamabad, Pakistan",
+        "projects": [
+            {
+                "title": "Modelling, Simulation, and Control of a Flexible Space Launch Vehicle",
+                "description": "Research project focused on modeling and control of space launch vehicles."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2023",
+                "university": "Institute of Space Technology",
+                "degree_title": "BS Aerospace Engineering"
+            }
+        ],
+        "achievements": [
+            "Top 15% of the class",
+            "Nominated for Best Project"
+        ],
+        "publications": [
+            {
+                "title": "Modelling, Simulation, and Control of a Flexible Space Launch Vehicle",
+                "publication_venue": "20th International Bhurban Conference on Applied Sciences and Technology (IBCAST) 2023"
+            }
+        ],
+        "certifications": [
+            {
+                "certification_name": "Machine Learning Engineering for Production (MLOps) Specialization",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Natural Language Processing Specialization",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "IBM Introduction Machine Learning Specialization",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Mathematics for Machine Learning and Data Science Specialization",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "07-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ushbah Kaleem is a dedicated AI Software Engineer with a strong background in Aerospace Engineering and extensive experience in machine learning and data analysis. She has demonstrated her technical proficiency through various projects and internships, showcasing her ability to improve predictive models and apply advanced machine learning techniques.",
+        "employment_history": [
+            {
+                "details": "Associate AI Engineer in the most prestigious AI Research department of CureMD, working on improving Chronic Disease Prediction models and applying ML techniques for health predictions.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "AI Software Engineer",
+                "start_date": "07-2023",
+                "company_name": "CureMD"
+            },
+            {
+                "details": "Hands-on training about various welding techniques and non-destructive testing of materials.",
+                "end_date": "08-2022",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Technical Intern",
+                "start_date": "07-2022",
+                "company_name": "Pakistan Atomic Energy Commission"
+            },
+            {
+                "details": "Hands-on training about various welding techniques and non-destructive testing of materials.",
+                "end_date": "08-2022",
+                "location": "Kamra, Pakistan",
+                "job_title": "Technical Intern",
+                "start_date": "07-2022",
+                "company_name": "AIR WEAPON COMPLEX"
+            }
+        ]
+    }
+}

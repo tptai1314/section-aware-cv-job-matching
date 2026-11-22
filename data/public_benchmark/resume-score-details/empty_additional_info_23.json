@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is low as there's no specific mention of leadership experience leading teams, with roles being individual contributor roles.",
+            "Relevant experience score is low due to only having 2 years of experience in business development, falling short of the 5+ years requirement.",
+            "CRM Tools score is also low as no specific CRM tool usage is mentioned.",
+            "Data Visualization score is not provided as no skills or experience related to this are mentioned."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm tools",
+                    "score": 2
+                },
+                {
+                    "criteria": "data visualization (power bi, tableau)",
+                    "score": 1
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or related roles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM software and data visualization tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.21,
+                "micro_scores": 3.1
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza",
+            "email": "razaa694@gmail.com",
+            "phone": "+92-332-8707574",
+            "current_position": "Relationship Manager",
+            "current_company": "JS Bank",
+            "employment_start_date_current_company": "01-YYYY",
+            "first_company_start_date": "02-YYYY",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Position:** Senior Business Development Executive\n\n**Company:** NextGen Solutions Inc.\n\n**Location:** Remote\n\n**Overview:**\nJoin NextGen Solutions Inc. as a Senior Business Development Executive, where you will lead efforts to identify, develop, and manage strategic business opportunities. Engage in creating and implementing customized business strategies that foster customer relationships and drive revenue growth.\n\n**Key Responsibilities:**\n- Develop and execute strategic business development initiatives to drive company sales and market expansion.\n- Lead and mentor the business development team, providing guidance and motivation.\n- Utilize CRM tools to manage leads and maintain communications with potential clients.\n- Conduct market research to identify new leads and monitor industry trends.\n- Develop compelling business proposals and presentations for new and existing clients.\n- Enhance existing client relationships and expand contacts in relevant markets.\n- Analyze data using analytical tools such as Power BI and Tableau to inform strategic decisions.\n- Collaborate with cross-functional teams to improve product development and business strategies.\n\n**Required Skills:**\n- Proven experience in business development and sales management.\n- Exceptional skills in data analytics and strategic planning.\n- Proficiency with CRM tools, Excel, SQL, and data visualization platforms such as Power BI and Tableau.\n- Strong communication and negotiation skills.\n- Ability to manage multiple projects simultaneously and meet tight deadlines.\n\n**Qualities:**\n- Self-motivated and results-driven with a passion for business growth.\n- Demonstrates leadership skills with the ability to guide and inspire teams.\n- Excellent decision-making and problem-solving abilities.\n\n**Why Join Us:**\n- Be a part of an innovative company focused on driving positive change in the industry.\n- Opportunities for career advancement and professional development.\n- Collaborative and inclusive work environment.",
+        "macro_dict": {
+            "leadership": 21,
+            "business development experience": 36,
+            "analytical skills": 43
+        },
+        "micro_dict": {
+            "crm tools": 42,
+            "data visualization (power bi, tableau)": 16,
+            "communication skills": 42
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "5+ years of experience in business development or related roles",
+            "Bachelor's degree in Business, Marketing, or related field",
+            "Proficiency in CRM software and data visualization tools"
+        ],
+        "resume": " \n \n \nObjective: - \nTo pursue  career  in a progressive  organization  that  provides  opportunities  \nfor career growth and professional development in order to groom the overall  \npersonality.  \n Personal  Information: - \nFather\u2019s  Name  Muhammad  Essa  \nDate  of Birth  10-02-1993  \nCNIC  No. 35102 -2529071 -3 \n \nDomicile  Kasur  (Punjab)  \n \nReligion  Islam  \n \nGender  Male  \n \nMarital  Status  Married  \n \n \nAcademic  Record: - \n \nDegree  Division  Year  Passing  Board/University  \nMatriculation  2nd 2009  BISE  Lahore  \nI.Com  1st 2012  BISE  Lahore  \nB.Com  2nd 2014  Punjab  University  \nM.A  Physical  Education  1st 2017  University  of Sargodha  \nURRICULUM  \nITAE  \nAAALLLIII RRRAAAZZZAAA \nPostal  Address:  Bahmani  Wala  Khurd,  Kasur  \nCell:  +92 -332 -8707574  \nE-Mail:  razaa694@gmail.com  \nComputer  Skills: - \n \n\u27a2 Diploma  in Computer  Sciences  DOM  \n \n\u27a2 Typing  Speed  40wpm  \n \nExperience: - \n \n\u27a2 . 02 Years  experience  as \u201cBusiness  Development  Officer\u201d  at Allied  Bank Kasur.  \n \n\u27a2 01 Year  experience  as a \u201cRelationship  Manager\u201d  at JS Bank  Kasur.  \n \n\u27a2 01 Year  experience        as  a  \u201c ACCOUNTANT     \u201don word       at  C ontinental Biscuits in \nkasur . \n \nLanguage: - \n \n\u27a2 English  \n \n\u27a2 Urdu  \n \n\u27a2 Punjabi  \n \nPersonal  Qualities: - \n \n\u27a2 Work  well  under  pressure  \n \n\u27a2 Work  well  as team  member  \n \n\u27a2 Strong  Organization,  Problem  Solving  \n \nReference: - \n \n\u27a2 Will  be furnished  on demand  \n"
+    },
+    "details": {
+        "name": "Raza Ali",
+        "number": "923328707574",
+        "skills": [
+            "Computer Sciences",
+            "Typing Speed 40wpm"
+        ],
+        "email_id": "razaa694@gmail.com",
+        "location": "Bahmani Wala Khurd, Kasur",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "University of Sargodha",
+                "degree_title": "M.A Physical Education"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Punjab University",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "BISE Lahore",
+                "degree_title": "I.Com"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "BISE Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/razaali",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Raza Ali is a dedicated professional with experience in business development and relationship management, possessing strong technical skills in computer sciences and typing. He has a solid educational background with a Master's degree in Physical Education and has worked in various roles in the banking and accounting sectors.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer at Allied Bank, responsible for client acquisition and relationship management.",
+                "end_date": "11-2024",
+                "location": "Kasur",
+                "job_title": "Business Development Officer",
+                "start_date": "11-2022",
+                "company_name": "Allied Bank"
+            },
+            {
+                "details": "Relationship Manager at JS Bank, focusing on customer service and financial solutions.",
+                "end_date": "11-2021",
+                "location": "Kasur",
+                "job_title": "Relationship Manager",
+                "start_date": "11-2020",
+                "company_name": "JS Bank"
+            },
+            {
+                "details": "Accountant at Continental Biscuits, managing financial records and transactions.",
+                "end_date": "11-2020",
+                "location": "Kasur",
+                "job_title": "Accountant",
+                "start_date": "11-2019",
+                "company_name": "Continental Biscuits"
+            }
+        ]
+    }
+}

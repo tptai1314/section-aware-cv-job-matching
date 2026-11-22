@@ -1,0 +1,164 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has significant sales and marketing experience, particularly in B2B contexts like Red Bull and Dany Technologies, aligning with the job description for relevant experience.",
+            "Leadership roles are apparent through positions like Team Lead Sales & Marketing at Cube Discipline, and as a Key Account Executive at Dany Technologies with responsibilities for team supervision and report submission, aligning with the leadership criterion.",
+            "The candidate's educational background in marketing and business administration meets the degree requirement, though the specific universities do not match the preference for top-tier institutions.",
+            "Technical proficiency is indicated, but no specific mention of the IT and manufacturing sectors, which impacts full compliance with the IT and manufacturing industry requirement. The CV mentions skills in Microsoft Office, meeting the associated requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 9
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.52,
+                "micro_scores": 9.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Furqan",
+            "email": "furqan_zaheer@hotmail.com",
+            "phone": "0332-4845514",
+            "current_position": "Key Account Executive (Acting Manager)",
+            "current_company": "Dany Technologies",
+            "employment_start_date_current_company": "06-2021",
+            "first_company_start_date": "10-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 4,
+            "experience": 56,
+            "strategic thinking": 40
+        },
+        "micro_dict": {
+            "b2b sales": 100
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Strong proficiency in Microsoft Office Suite",
+            "5+ years of experience in business development or sales",
+            "Bachelor's degree in Business Administration, Marketing, or a related field"
+        ],
+        "resume": "MUHAMMAD FURQAN  \nAddress:  399 M, LDA Avenue One, Lahore  \nCell# 0332 -4845514 , Email: \nfurqan_zaheer@hotmail.com  \n \n \nObjective  _ \nSeeking a challenging position that would utilize my skills and challenge various abilities in the \nreal world. Looking for an organization that offers career growth  and a chance to achieve goals \nthrough persistence and hard work.  \nProfessional  Qualification   \n\u2022 Conceptually strong, articulate, extrovert and commercially  inclined.  \n\u2022 Assure the timely & accurate preparation & submission of  reports  \n\u2022 Strong interpersonal; communication skills with an ability to communicate with people  at \nall levels.  \n\u2022 \nand can render highest standard customer service.  \nProfessional  Experie nce  \nDany Technologies.  \nI have recently joined Dany Technologies from June 2021 till Present.  \n \nKey Account Executive  (Acting  Manager)  \nSupervise sales operations of sales team. \nImplement strategies to be available on all LMT\u2019s.  \nDeveloped the date base of LMT\u2019s of the regi on \nfrom scratch.  \n   Retain existing customers by providing prompt  customer  services.  \n   Supervise accounts receivables team in collecting  balances.  \nSupervise field marketing and sales force.  \nAnalyze field reports and prepare sales documents.  \nMeet with customers to address concerns and provide \nsolutions. Discover sales opportunities through consumer \nresearch.  \nPresent products to prospective customers.  \nConduct training in sales techniques and  company product \nattributes.  \nPrepare and submit reports to the National Sales Manager.\n \n \n \nAble to handle various works under pressure in a challenging & demandingenvironmentRed bull Pakistan.  \nI am working in Red Bull from Oct 2020 till June 2021.  \n \n \n \n Maximize volume and revenue in key assigned food service accounts by \n \n Responsibility to acquire new food service accounts for entire  region.  \n Activate marketplace initiatives and promotions to build brand development and \nmaximize brand performance  \n Identifying market potential in order to establish new account, achieve food \nservice sales volume  goals . \n Maintain, monitor, and regularly evaluate pricing and contracts with customer s \nso as to provide products . \n Approval and critique of promotional programs with the objective of improving \neffectiveness and efficiency in trade spending and brand consumption \ndevelopment.  \n Develops and executes effective HORECA account -specific marketing & Sales \nprograms.  \n \nSigma Distributors (Pvt.) Ltd.  \nI am working in this company from February 2018 till  Oct 2021. \n \nSales & Marketing Executive  \nMy key responsibilities include sales & marketing of Red Rumi and Red Bull.  \nMajor responsibilities in Red Rumi  include:  \nOverseeing and developing promotional campaigns for sale.  \nConducting research and analyzing data to identify and define audiences. \nPresent products to prospective customers in HORECA sector.  \nMeeting with HOR ECA Clients on daily basis.  \nIdentifying potential clients to establish new \naccounts in HORECA sector in region.  \nMajor responsibilities in Red Bull  include:  \n \n \n \nof half region from scratch.  \n   \n   Supervise accounts receivables team in collecting  balances.  \nSupervise field marketing and sales force.  \nAnalyze field reports and prepare sales documents.  \nMeet with customers to address concerns and provide \nsolutions.  \nutilizing fact-based selling methods\nSupervise sales operations of sales team.\nImplement strategies to be available on all LMT\u2019s and IMT's.\nDeveloped the date base of LMT\u2019, IMT's and GT customer\nRetain existing customers by providing prompt customer services.Sales SupervisorPresent products to prospective customers.  \n   Assess sales performance according to  KPIs.  \nPrepare and submit reports to the Regional Sales Manager.  \nCube Discipline  \nI am working in this multinational company from August 2016 till February 2018.  \nTeam lead Sales &  Marketing  \nMajor responsibilities  include  \nLeads generation Management \nManaging Team  \nGenerating Sales Report (Daily & Monthly)  \nDirect liaising with HR managers and Companies Head \nAfter Sales services  \nReport Analysis  \nTTL (Job fair, Events)  \nBTL (Telema rketing, Email Marketing, SMS Marketing) \nClient Meetings  \nPakistan Telecommunication Company Ltd. (PTCL)  \n1-year paid internship in marketing from Jan 2014 to Feb 2015  \nMajor responsibilities include  \n Comp laint Handling  \n Customer Services  \n BTL(Direct M arketing ) \n Sales (Evo, Charji, Broadband)  \n \nWarid Telecom  \nI have worked in this company from 10 October 2012 to 31 January 2014.  \nCustomer Service Representative  \nMajor responsibilities include  \n Complaint Handling  \n Customer Services  \n After Sales Services  \n Telemarketing  \n \nProfessional Skills:  \n Time Management \u2013 work under tremendous work pressure and meet with deadlines with \nease and efficiency  \n Enthusiastic and result oriented \u201cCan Do\u201d attitude  \n Can easily adjust or adopt new working environment.  \n Excellent Communication & Interpersonal Skills . \n Expert in Computer Operating Systems, Microsoft Office 2003/2007  \nEducational Background:  \n   Master of Business Administration   \nMajor in Marketing  \nNUCES -Fast \n2014 \u2013 2015  \nBachelor of Business Administration  \nMajor in Marketing  \nGlobal Institute, Lahore  \n2008 \u2013 2012  \nF.Sc (Pre engineering)  \nGovt. Islamia College  Civil lines, Lahore  \n2006 \u2013 2008  \nProjects/Research Work:  \n\u2022 Research work on \u201cQuality of KFC zinger burger\u201d  \n\u2022 Business Plan on \u201cOnline fast-food  restaurant\u201d  \n\u2022 Marketing Plan on \u201cLaunching MP3 watch\u201d  \n \nPersonal Details:  \nCNIC    :  35202 -6377049 -7 \nBirth date   : 14th September 1990  \nMarital Status   :  Single  \nLanguages known  :  English, Urdu, Punjabi  \nSpecial Skills   :  Expertise in Project management, Office administration, MS Office  \n    Software and Spread sheets, Internet.  \nPostal Address   :  House # 4, Street # 93 Chowk Nagina Baghban Pura Lahore.   "
+    },
+    "details": {
+        "name": "Muhammad Furqan",
+        "number": "03324845514",
+        "skills": [
+            "Sales",
+            "Marketing",
+            "Customer Service",
+            "Microsoft Office"
+        ],
+        "email_id": "furqan_zaheer@hotmail.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "02-2015",
+                "university": "NUCES -Fast",
+                "degree_title": "Master of Business Administration"
+            },
+            {
+                "end_date": "12-2012",
+                "university": "Global Institute, Lahore",
+                "degree_title": "Bachelor of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Furqan is a dedicated sales and marketing professional with extensive experience in customer service and team management. He has a strong background in developing sales strategies and managing key accounts, demonstrating a commitment to achieving sales goals and enhancing customer satisfaction.",
+        "employment_history": [
+            {
+                "details": "Supervise sales operations of sales team, implement strategies, develop databases, retain customers, supervise accounts receivables, analyze reports, and conduct training.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Key Account Executive (Acting Manager)",
+                "start_date": "06-2021",
+                "company_name": "Dany Technologies"
+            },
+            {
+                "details": "Maximize volume and revenue in key assigned food service accounts, acquire new accounts, activate marketplace initiatives, and evaluate pricing and contracts.",
+                "end_date": "06-2021",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "10-2020",
+                "company_name": "Red Bull Pakistan"
+            },
+            {
+                "details": "Sales and marketing of Red Rumi and Red Bull, oversee promotional campaigns, conduct research, and present products to prospective customers.",
+                "end_date": "10-2021",
+                "location": "Lahore",
+                "job_title": "Sales & Marketing Executive",
+                "start_date": "02-2018",
+                "company_name": "Sigma Distributors (Pvt.) Ltd."
+            },
+            {
+                "details": "Lead generation management, managing team, generating sales reports, and direct liaising with HR managers.",
+                "end_date": "02-2018",
+                "location": "Lahore",
+                "job_title": "Team Lead Sales & Marketing",
+                "start_date": "08-2016",
+                "company_name": "Cube Discipline"
+            },
+            {
+                "details": "Internship in marketing, handling complaints, customer services, and sales.",
+                "end_date": "02-2015",
+                "location": "Lahore",
+                "job_title": "Intern",
+                "start_date": "01-2014",
+                "company_name": "Pakistan Telecommunication Company Ltd. (PTCL)"
+            },
+            {
+                "details": "Customer service responsibilities including complaint handling and after sales services.",
+                "end_date": "01-2014",
+                "location": "Lahore",
+                "job_title": "Customer Service Representative",
+                "start_date": "10-2012",
+                "company_name": "Warid Telecom"
+            }
+        ]
+    }
+}

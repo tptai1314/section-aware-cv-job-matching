@@ -1,0 +1,145 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrated leadership skills through roles such as Operational Manager and Senior Manager at COMSATS.",
+            "Experience in sales roles aligns with B2B marketing and sales, particularly at Brick Marketing and Developers.",
+            "The resume indicates a strong understanding of market research, aligning with the job's requirements for strategic thinking.",
+            "The educational background in Accounting and Finance meets part of the requirements but may lack a specific focus on business or marketing."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.18,
+                "micro_scores": 5.0
+            }
+        },
+        "personal_info": {
+            "name": "Khalid Zaka",
+            "email": "khaledzaka18@gmail.com",
+            "phone": "0334-5617771",
+            "current_position": "Account Executive (Sales)",
+            "current_company": "Motive",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "02-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 18,
+            "strategic thinking": 82
+        },
+        "micro_dict": {
+            "data analysis": 100
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": "Grasp  over MS O\ufb03ce   SPSS   \nStrong  Communication  Skills   Problem  Solving   \nCritical  Thinking   Team  Management   \n \n \n \n \n \n    Good  Decision  Making  Skills   Project  Management   \nHouse#  207, Street  32, Sector  I-8/2, Islamabad,  Pakistan   0334 -5617771  khaledzaka18@gmail.com  Khalid  Zaka  \nAccounts and Finance  \nA fresh graduate  seeking  position  at a fast  paced  organization  to utilize  learnt  skills  and gain further  knowledge  and experience.  I am \ndedicated,  self motivated  and always  looking  for an opportunity  to do better  and enhance  my capabilities.    \nEDUCATION : \n \nBS Accounting and Finance:  \nCOMSATS University, Islamabad.  \n01/2017 - 01/2021.                                              CGPA: 3.06  \nCourses:  \n\uf0b7 Financial Accounting  \n\uf0b7 Managerial Accounting  \n\uf0b7 Cost Accounting  \n \nF.Sc. (Pre Engineering)  \nBahria College, Islamabad.  \n2014 -2016.  \n \nORGANIZATION : \n \nCOMECS Society, COMSATS (2018 -2019)  \nWorked as Senior Manager of COMSATS Student Week \n2019  \n \nIDEA, COMSATS (2017 -2019)  \nServed as Social Secretary and helped organizing events \nsuch as Open House\u201918, charity events and promoted \nthem on social media.  \n \n \nSKILLS : \n \n \n \nLANGUAGES : \nUrdu:            \nEnglish:        Project Management  \nGrasp over MS Office  \nDecision making skills  \nCommunication skills  \nProblem solving  Critical Thinking  SPSS  \nTeam \nManagement  \nEXPERIENCE:  \nAccount Executive (Sales)  \nMotive \n05/202 2, \nAchievements/Tasks:  \n\uf0b7 Produc t overview of Motive   software to prospective \nfleet managers and drivers.  \n\uf0b7 Survey prospects for their  business  pain points and \nsolve by aligning them with Motive S oftwares  \n\uf0b7 Educate fleet manage rs and drive rs about Motive , \nunderstand their requirements, and ass ist them wit h \ngetting started with  Motive  \n \nSales and Business Development Executive  \nBrick Marketing and Developers  \n03/202 2, \nAchievements/Tasks:  \n\uf0b7 Acting as Lead Sales Team  \n\uf0b7 Responsible for crafting proposals for current and new \npotential clients  \n\uf0b7 Handling marketing for the Proj ect Brick Sapphire  \n \nSales Executive  \nBrick Marketing and Developers  \n6/12/2021 -2022,  \nAchievements/Tas ks: \n\uf0b7 Brought  new clients to the organization  \n\uf0b7 Maintaining relationships with new and current clients  \n\uf0b7 Research and recommendation of new business \nprospects  \n \nOperational Manager  \nDreamville Caf\u00e9 \u2013 NUST, Islamabad  \n6/2019 -2021,  \nAchievements/Tasks:  \n\uf0b7 Recruiting, hiring and onboarding  new management  \n\uf0b7 Maintain and update records of daily, monthly and \nweekly costs, revenues and profits  \n\uf0b7 Third party vendor management and supply chain \nmanagement.  \n \nPlanit Advertising  \nAdvertising Agency  \n02/2019 \u2013 05/2019.  \nAchie vements/Tasks:  \n\uf0b7 Responsible for looking for potential clients.  \n\uf0b7 Responsible for onboarding new clients  \n \n "
+    },
+    "details": {
+        "name": "Khalid Zaka",
+        "number": "03345617771",
+        "skills": [
+            "MS Office",
+            "SPSS",
+            "Project Management"
+        ],
+        "email_id": "khaledzaka18@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2021",
+                "university": "COMSATS University, Islamabad",
+                "degree_title": "BS Accounting and Finance"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/khalidzaka",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Khalid Zaka is a fresh graduate in Accounting and Finance from COMSATS University, Islamabad, with a strong foundation in technical skills such as MS Office and SPSS. He has experience in sales and business development, demonstrating a commitment to leveraging his skills in a fast-paced organization.",
+        "employment_history": [
+            {
+                "details": "Product overview of Motive software to prospective fleet managers and drivers. Survey prospects for their business pain points and solve by aligning them with Motive Softwares. Educate fleet managers and drivers about Motive, understand their requirements, and assist them with getting started with Motive.",
+                "end_date": "05-2022",
+                "location": "",
+                "job_title": "Account Executive (Sales)",
+                "start_date": "05-2022",
+                "company_name": "Motive"
+            },
+            {
+                "details": "Acting as Lead Sales Team. Responsible for crafting proposals for current and new potential clients. Handling marketing for the Project Brick Sapphire.",
+                "end_date": "03-2022",
+                "location": "",
+                "job_title": "Sales and Business Development Executive",
+                "start_date": "03-2022",
+                "company_name": "Brick Marketing and Developers"
+            },
+            {
+                "details": "Brought new clients to the organization. Maintaining relationships with new and current clients. Research and recommendation of new business prospects.",
+                "end_date": "2022",
+                "location": "",
+                "job_title": "Sales Executive",
+                "start_date": "12-2021",
+                "company_name": "Brick Marketing and Developers"
+            },
+            {
+                "details": "Recruiting, hiring and onboarding new management. Maintain and update records of daily, monthly and weekly costs, revenues and profits. Third party vendor management and supply chain management.",
+                "end_date": "2021",
+                "location": "",
+                "job_title": "Operational Manager",
+                "start_date": "06-2019",
+                "company_name": "Dreamville Caf\u00e9 \u2013 NUST, Islamabad"
+            },
+            {
+                "details": "Responsible for looking for potential clients. Responsible for onboarding new clients.",
+                "end_date": "05-2019",
+                "location": "",
+                "job_title": "Planit Advertising",
+                "start_date": "02-2019",
+                "company_name": "Advertising Agency"
+            }
+        ]
+    }
+}

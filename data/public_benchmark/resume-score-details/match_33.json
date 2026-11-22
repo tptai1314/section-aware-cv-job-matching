@@ -1,0 +1,195 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks direct experience in business development or related fields as specified in the job description. Most experience relates to engineering and market research.",
+            "Leadership experience is evident, leading teams in various internships and a management role. However, experiences are not directly aligned with business development roles.",
+            "Communication skills are demonstrated through leadership and report generation experiences but are not explicitly elaborated in the context of business development.",
+            "The candidate lacks specific experience with using tools like Stata or LinkedIn Sales Navigator."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 6
+                },
+                {
+                    "criteria": "stata",
+                    "score": 4
+                },
+                {
+                    "criteria": "linkedin sales navigator",
+                    "score": 2
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": false
+                },
+                {
+                    "criteria": "Ability to manage multiple projects simultaneously",
+                    "meets": true
+                },
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.43,
+                "micro_scores": 4.3
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Kalim",
+            "email": "mkalim70@gmail.com",
+            "phone": "+92-321-9474340",
+            "current_position": "Market Research Consultant",
+            "current_company": "AkzoNobel Pakistan",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "04-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/mkalim70"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 1,
+            "experience": 58,
+            "communication skills": 41
+        },
+        "micro_dict": {
+            "ms excel": 30,
+            "stata": 3,
+            "linkedin sales navigator": 41,
+            "verbal and written communication": 26
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "3-5 years of experience in business development or related fields",
+            "Ability to manage multiple projects simultaneously",
+            "Excellent communication skills",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": " \nMBA  2023  MUHAMMAD  KALIM  \n+92-321-9474340 | mkalim70@gmail.com | www.linkedin.com/in/mkalim70  \n \nEducation   \nLAHORE UNIVERSITY OF  MANAGEMENT  SCIENCES  Lahore,  Pakistan  \nMaster of  Business  Administration  2021 -2023  \nUNIVERSITY OF  THE PUNJAB  Lahore,  Pakistan  \nBachelor of Science in  Chemical Engineering  2014 -2018  \nSkills   \n \nData Visualization and Reporting  Microsoft Office, Tableau  \nSoft Skills  Effective Communication, Problems Solving and Leadership  \nOthers  SQL and R  \n \nWork  Experience   \nAKZONOBEL PAKISTAN  Lahore , Pakistan  \nMarket Research Co nsultant :                    January  2023 \u2013 May  2023 \n\u2013 Researched, interviewed, and analyzed the collected data regarding the potential demand for the Interpon  brand of \nAkzoNobel and the powder coating requirements of Consumer Electronics manufacturers.  \n\u2013 Provided actionable insights to AkzoNobel regarding exploring the powder coating vertical.  \nFATIMA  GROUP  Lahore,  Pakistan  \nSales Intern:                        July 2022 \u2013 August 2022  \n\u2013 Developed emergency evacuation plans for ten Fatima Groups warehouses located in North Zone of Pakistan to reduce the \nsafety incidents that might affect more than 20 employees. This was a combined initiative of the Sales  dept  and Corporate  \nHSE.  \n\u2013 Conducted training  of the 10 Warehouse officers in collaboration with HSE department to ensure implementation of the \nevacuation  plan.  \n\u2013 Observed and Conducted audits of the warehouse  operations.  \nPAK ELEKTRON  LIMITED  Lahore, Pakistan  \nMarketing Intern:            June 2022 \u2013 July 2022  \n\u2013 Led a team of five people to conduct research regarding the reduction of sales of PEL appliances in the major appliance \nmarket of Lahore and proposed poss ible solutions to improve the sales.  \n\u2013 Conducted routine  visits to  the retailers to understand the  challenges  faced by the retailers.  \n     FAUJI FERTILISER BIN  QASIM  LIMITED               Karachi, Pakistan  \nManagement Associate (Operations: Utilities):       April 2019 \u2013 May 2020  \n\u2013 Performed  in depth  analysis  of the cooling  tower  that resulted  in 14%  cost savings  in terms  of chemical  dosing  in the cooling \ntower.  The dosage  of chemicals  in the cooling  tower  had been  increasing,  which  was a financial  burden.  To counter  the issue \nof increased dosage, assessed the condition of the cooling tower fills and devised a strategy for replacement after alternate \nyear.  \n\u2013 Worked as Shift lead managing a team of 12 people on the field,  performed  routine  tasks  such  as preparation  of work  permits  \nand reporting  of daily status and maintenance activities on  SAP.  \n\u2013 Conducted  Weekly  Safety  talks  with  the shift  operators  on how  to perform  tasks  in accordance  with  the HSE principles.  \n\u2013 Conducted training sessions for the 12 Non -Management Associates and 4 Summer  Interns.  \n \nProject  Work   \nWHITE PAPER ON THE ESTABLISHMENT OF LOCAL SPORTS EQUIPMENT BRAND  \n\u2013 Conducted research on the market of local sports equipment and gave recommendations to local sports manufacturers \nduring MBA Experiential  Learning -I. \n. \nCertifications and Training   W o  r  k  s  h  o  p s  \n\u2013 Google Data Analytics Certificate by  Coursera  \n\u2013 MBA Business Games 2023 (Strategic Marketing Simulation by Markstrat) at LUMS  \n\u2013 Participated in SAP Training conducted by IT services by FFCL (October 2020)  \n"
+    },
+    "details": {
+        "name": "MUHAMMAD KALIM",
+        "number": "923219474340",
+        "skills": [
+            "Data Visualization and Reporting",
+            "Microsoft Office",
+            "Tableau",
+            "SQL",
+            "R"
+        ],
+        "email_id": "mkalim70@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "WHITE PAPER ON THE ESTABLISHMENT OF LOCAL SPORTS EQUIPMENT BRAND",
+                "description": "Conducted research on the market of local sports equipment and gave recommendations to local sports manufacturers during MBA Experiential Learning -I."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2023",
+                "university": "LAHORE UNIVERSITY OF MANAGEMENT SCIENCES",
+                "degree_title": "Master of Business Administration"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "UNIVERSITY OF THE PUNJAB",
+                "degree_title": "Bachelor of Science in Chemical Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Google Data Analytics Certificate",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "MBA Business Games 2023 (Strategic Marketing Simulation by Markstrat)",
+                "issuing_organization": "LUMS",
+                "date_of_issuance": "01-2023"
+            },
+            {
+                "certification_name": "SAP Training",
+                "issuing_organization": "IT services by FFCL",
+                "date_of_issuance": "10-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mkalim70",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Kalim is a skilled professional with a strong background in data visualization and reporting, proficient in tools such as Microsoft Office and Tableau, as well as programming languages SQL and R. He has experience in market research and operations management, demonstrating a commitment to delivering actionable insights and improving operational efficiency.",
+        "employment_history": [
+            {
+                "details": "Researched, interviewed, and analyzed the collected data regarding the potential demand for the Interpon brand of AkzoNobel and the powder coating requirements of Consumer Electronics manufacturers. Provided actionable insights to AkzoNobel regarding exploring the powder coating vertical.",
+                "end_date": "05-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Market Research Consultant",
+                "start_date": "01-2023",
+                "company_name": "AKZONOBEL PAKISTAN"
+            },
+            {
+                "details": "Developed emergency evacuation plans for ten Fatima Groups warehouses located in North Zone of Pakistan to reduce the safety incidents that might affect more than 20 employees. Conducted training of the 10 Warehouse officers in collaboration with HSE department to ensure implementation of the evacuation plan. Observed and Conducted audits of the warehouse operations.",
+                "end_date": "08-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Intern",
+                "start_date": "07-2022",
+                "company_name": "FATIMA GROUP"
+            },
+            {
+                "details": "Led a team of five people to conduct research regarding the reduction of sales of PEL appliances in the major appliance market of Lahore and proposed possible solutions to improve the sales. Conducted routine visits to the retailers to understand the challenges faced by the retailers.",
+                "end_date": "07-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Marketing Intern",
+                "start_date": "06-2022",
+                "company_name": "PAK ELEKTRON LIMITED"
+            },
+            {
+                "details": "Performed in depth analysis of the cooling tower that resulted in 14% cost savings in terms of chemical dosing in the cooling tower. Worked as Shift lead managing a team of 12 people on the field, performed routine tasks such as preparation of work permits and reporting of daily status and maintenance activities on SAP. Conducted Weekly Safety talks with the shift operators on how to perform tasks in accordance with the HSE principles. Conducted training sessions for the 12 Non-Management Associates and 4 Summer Interns.",
+                "end_date": "05-2020",
+                "location": "Karachi, Pakistan",
+                "job_title": "Management Associate (Operations: Utilities)",
+                "start_date": "04-2019",
+                "company_name": "FAUJI FERTILISER BIN QASIM LIMITED"
+            }
+        ]
+    }
+}

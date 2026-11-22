@@ -1,39 +1,52 @@
 \section{Experimental Setup}
 
-\subsection{Datasets and Annotation Protocols}
-To rigorously assess the generalizability and robustness of the proposed matching architecture without risk of insular evaluation, experiments are conducted across \textbf{two distinct benchmarks}:
+\subsection{Benchmark Dataset and Annotation Protocol}
+To evaluate the proposed section-aware matching architecture on reproducible, open-science foundations without insular corporate bias, all experiments are conducted on the standardized international benchmark \textsc{resume-job-description-fit}~\cite{huggingface_resume_fit}.
 
-\begin{enumerate}
-    \item \textbf{Frevia-Bench (Bilingual Production Benchmark)}: Extracted from the Frevia recruitment platform, comprising $169$ anonymized freelancer CVs and $210$ real-world project descriptions (JDs) in Vietnamese and English. To model realistic multilingual platform behavior where early database seeds are often skewed toward English technical documentation, a structured subset of documents was translated into Vietnamese and code-mixed representations using neural machine translation followed by manual validation by bilingual recruitment specialists. Relevance judgments ($\mathcal{Q}_{rels}$) span $47$ standard queries ($27$ JD $\rightarrow$ CV and $20$ CV $\rightarrow$ JD) across a $4$-level rubric:
+The benchmark comprises:
+\begin{itemize}
+    \item \textbf{Corpus Scale}: $1,759$ authentic candidate resume and job description pairs spanning $71$ unique job queries and $477$ distinct candidate resumes across diverse technology and business domains.
+    \item \textbf{Graded Relevance Rubric}: Each pair is annotated under a 3-tier graded relevance scale:
     \begin{itemize}
-        \item \textbf{Grade 3 (Highly Relevant)}: Strong skill coverage ($\ge 75\%$), exact domain alignment, and verified experience compliance.
-        \item \textbf{Grade 2 (Relevant)}: Moderate skill coverage ($45\%$--$74\%$) or transferable domain experience.
-        \item \textbf{Grade 1 (Partially Relevant)}: Low skill overlap ($20\%$--$44\%$) or secondary skill adjacency.
-        \item \textbf{Grade 0 (Irrelevant)}: Disjoint technical domain or conflicting seniority.
+        \item \textbf{Grade 0 (\textit{No Fit})}: $857$ pairs ($48.7\%$) representing negative distractors where candidate competencies fail core prerequisites.
+        \item \textbf{Grade 1 (\textit{Potential Fit})}: $444$ pairs ($25.2\%$) indicating partial competency overlap where candidate exhibits transferable skills but lacks secondary requirements.
+        \item \textbf{Grade 2 (\textit{Good Fit})}: $458$ pairs ($26.1\%$) denoting high alignment with mandatory experience and technical prerequisites.
     \end{itemize}
-    
-    Table~\ref{tab:lang_dist} details the linguistic composition of Frevia-Bench. A document is categorized as \textit{Code-Mixed} if informative tokens from both English and Vietnamese each constitute at least $20\%$ of total language tokens ($\rho_{vi} \ge 0.20$ and $\rho_{en} \ge 0.20$); otherwise, it is categorized as purely Vietnamese ($\rho_{vi} \ge 0.80$) or English ($\rho_{en} \ge 0.80$).
+\end{itemize}
 
-    \input{tables/tab_language_distribution.tex}
-
-    \item \textbf{Public Benchmark (\texttt{resume-job-description-fit})}: To provide an independent, un-biased external validation and eliminate concerns of circularity, we evaluate on the public benchmark by \cite{huggingface_resume_fit} comprising $1,759$ test candidate-job pairs spanning $71$ unique job queries and $477$ candidate resumes. Relevance ground-truth is independently categorized into $3$ tiers: \textit{No Fit} (Grade 0), \textit{Potential Fit} (Grade 1), and \textit{Good Fit} (Grade 2).
-\end{enumerate}
-
-\subsection{Baseline Configurations}
-We benchmark eight distinct algorithmic variants:
-\begin{enumerate}
-    \item \textbf{Baseline 1 (BM25 / TF-IDF)}: Lexical retrieval using Okapi BM25 and sublinear TF-IDF term weighting. To guarantee a fair baseline for Vietnamese text, raw text is normalized to Unicode NFC and segmented into compound words using \texttt{pyvi} (\textit{e.g.}, ``lap\_trinh\_vien'', ``kinh\_nghiem'') alongside bilingual character tokenization.
-    \item \textbf{Baseline 2 (Single-Vector)}: Dense bi-encoder Cosine similarity over the full document embedding $\mathbf{v}_{full}$.
-    \item \textbf{Baseline 3 (Chunk Max-Sim)}: Documents segmented into overlapping 64-token chunks; score computed via maximum pairwise token similarity.
-    \item \textbf{Baseline 4 (Cross-Encoder)}: Deep cross-attention scoring via \texttt{ms-marco-MiniLM-L-6-v2}.
-    \item \textbf{Section-Aware (Fixed)}: Same-named section matching with mean aggregation.
-    \item \textbf{Section-Aware (Cross)}: Cross-section maximal pairing with mean aggregation.
-    \item \textbf{Section-Aware (Weighted)}: Cross-section pairing with non-uniform domain weights.
-    \item \textbf{Hybrid \& Full Cascade}: Hybrid fusion ($\alpha \cdot S_{sem} + (1-\alpha) \cdot S_{rules}$) followed by top-$K$ local LLM reranking.
+\subsection{Baseline Configurations and Model Deployments}
+We benchmark a comprehensive suite of algorithmic configurations across lexical, flat dense, chunk-based, multi-vector, hybrid, long-context, and cross-attention paradigms:
+\begin{enumerate}\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}
+    \item \textbf{Lexical Baseline (BM25 / TF-IDF)}: Standard Okapi BM25 with English stop-word removal and sublinear term frequency scaling over raw document text.
+    \item \textbf{Flat Dense Bi-Encoder (MiniLM)}: Dense bi-encoder Cosine similarity over whole-document text mapped via \texttt{sentence-transformers/\allowbreak{}all-MiniLM-L6-v2} ($384$-dimensional embedding, $256$ maximum sequence length, leading to truncation of longer resumes).
+    \item \textbf{Chunk-Mean (MiniLM)}: Fixed-size sliding-window tokenization ($128$-word window, $64$-word stride) where chunk embeddings are mean-pooled into a single representation prior to cosine scoring.
+    \item \textbf{Chunk-MaxSim (ColBERT Late Interaction)}: Fine-grained token/chunk interaction computing $\frac{1}{|Q|}\sum_{q \in Q} \max_{d \in D} \cos(q, d)$ across sliding-window chunks.
+    \item \textbf{Section-Aware Multi-Vector (Ours)}: Functional section parsing via the frozen parser (commit \texttt{41e1d27}) with section-specific vector representations and cross-section alignment. We evaluate three variants: Pure ($0\%$ single-vector), Fallback (single-vector only if $0$ sections recognized), and Mixed ($0.65$ section + $0.35$ single-vector).
+    \item \textbf{Long-Context Encoder (\textsc{BAAI/bge-m3})}: State-of-the-art multilingual model with an $8,192$-token context window ($1,024$-dim embedding), evaluated in both Flat and Section-Aware configurations.
+    \item \textbf{Calibrated Hybrid Fusion (Ours)}: Two-tier fusion integrating min-max normalized section-aware semantic retrieval ($\alpha = 0.60$), BM25 lexical precision ($1 - \alpha = 0.40$), and structured 3-tier skill taxonomy coverage.
+    \item \textbf{Parameter-Free RRF + Taxonomy (Ours)}: Reciprocal Rank Fusion ($k=60$) between dense section-aware and lexical BM25 ranks, combined with structured taxonomy coverage without hyperparameter tuning.
+    \item \textbf{Zero-Shot Cross-Encoder}: Deep cross-attention ranking over concatenation $(D_q, D_c)$ via \texttt{cross-encoder/\allowbreak{}ms-marco-MiniLM-L-6-v2}.
+    \item \textbf{Cascaded 2-Stage Retrieval}: Practical two-stage pipeline where Calibrated Hybrid retrieves Top-$K$ candidates ($K \in \{10, 20\}$) which are then reranked by the Cross-Encoder.
 \end{enumerate}
 
 \subsection{Evaluation Metrics and Significance Testing}
-Following standard TREC and RecSys conventions, we report \textbf{nDCG@5}, \textbf{nDCG@10}, Mean Reciprocal Rank (\textbf{MRR}), Mean Average Precision (\textbf{MAP}), \textbf{Recall@10}, and Spearman rank correlation ($\rho$). To verify that performance gains are statistically meaningful and not artifacts of query sampling variance, pairwise differences are evaluated via two-tailed \textbf{paired $t$-tests} and \textbf{Wilcoxon signed-rank tests} at significance level $\alpha = 0.01$. We further report $95\%$ empirical confidence intervals derived from $1,000$ bootstrap resamples.
+Following standard Information Retrieval (TREC) and Recommender Systems conventions, ranking quality is evaluated across multiple complementary dimensions:
+\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}
+    \item \textbf{Discounted Cumulative Gain (nDCG@K)}: Primary graded evaluation metric at cutoff thresholds $K \in \{5, 10\}$:
+    \begin{equation}
+        \text{DCG}@K = \sum_{i=1}^{\min(K, N_q)} \frac{2^{y_i} - 1}{\log_2(i + 1)}, \quad \text{nDCG}@K = \frac{\text{DCG}@K}{\text{IDCG}@K},
+        \label{eq:ndcg}
+    \end{equation}
+    where $y_i \in \{0, 1, 2\}$ is the ground-truth relevance grade at rank $i$, rewarding top-ranked Grade 2 candidates via exponential gain $2^{y_i} - 1$, and $\text{IDCG}@K$ represents ideal DCG under monotonic ground-truth sorting.
+    \item \textbf{Reciprocal Rank \& Precision}: Mean Reciprocal Rank (MRR), Mean Average Precision (MAP), and Precision@5 (P@5) evaluated at binary thresholds $\tau \in \{1, 2\}$.
+    \item \textbf{Rank Correlation}: Spearman rank correlation coefficient with tied midranks evaluated as Macro-Spearman ($\rho_{\text{mac}}$, excluding zero-variance queries) and Micro-Spearman ($\rho_{\text{mic}}$).
+    \item \textbf{Fair Tie-Breaking Protocol}: To eliminate random positional bias among tied candidate scores, all metric scores are computed as the expected average over $N_{\text{shuffles}} = 50$ random permutations perturbed by microscopic jitter $z \sim \text{Uniform}(-10^{-9}, 10^{-9})$.
+    \item \textbf{Significance Testing \& Holm-Bonferroni Correction}: Paired Student's $t$ and Wilcoxon signed-rank tests with $B=10{,}000$ bootstrap percentile $95\%$ confidence intervals, adjusted via step-down Holm-Bonferroni across the family of $L=15$ pre-specified hypothesis tests at $\alpha_{\text{stat}} = 0.05$.
+    \item \textbf{Operational Latency Profile}: Decomposed into offline indexing time ($T_{\text{index}}$), online query encoding ($T_{\text{query}}$), and candidate scoring/ranking latency ($T_{\text{rank}}$) for pool size $N=25$ candidates on commodity multi-core CPUs.
+\end{itemize}
 
-\subsection{Reproducibility and Execution Environment}
-Experiments execute entirely on standard commodity hardware (Intel Core i7 CPU, 16\,GB RAM) without requiring GPU accelerators. Dense representations are produced via \texttt{BAAI/bge-m3} ($1024$-d) and \texttt{all-MiniLM-L6-v2} ($384$-d). Vector indexing is handled by ChromaDB (HNSW, space=cosine, $M=16, efConstruction=100$). The local LLM reranker utilizes Qwen 4B / DeepSeek via Ollama with greedy decoding ($T=0$) enforcing strict JSON schemas.
+\subsection{Section Parser Fidelity Evaluation Protocol}
+To evaluate section parser fidelity without data contamination, heading boundaries on $50$ held-out development documents ($25$ CVs, $25$ JDs, sampled from \texttt{train\_eval} with fixed seed $42$) were independently reviewed against raw document text. We evaluate rule-consistency precision, recall, and false positive rates before freezing the parser (commit \texttt{41e1d27}) for all downstream test benchmark experiments.
+
+\subsection{Reproducibility Environment}
+All benchmarks execute on an Intel Core i7 multi-core CPU (16\,GB RAM) under Python 3.13 without specialized GPU hardware. All code, frozen taxonomy configurations ($70+$ canonical technologies with verified relational weights), and evaluation scripts are open-sourced for complete scientific auditability.

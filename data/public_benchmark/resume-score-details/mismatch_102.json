@@ -1,0 +1,120 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has extensive experience in leadership roles but lacks direct marketing and digital marketing experience, which is crucial for the role at InnovateTech Corp.",
+            "Strong business acumen and strategic thinking are highlighted in the resume, which aligns with client relationship management but not digital marketing deliverables.",
+            "Email, phone, and URLs were not provided, limiting complete contact information."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 1
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 1
+                },
+                {
+                    "criteria": "seo/sem",
+                    "score": 1
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 1
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                },
+                {
+                    "criteria": "content development",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.84,
+                "micro_scores": 1.2999999999999998
+            }
+        },
+        "personal_info": {
+            "name": "Not available",
+            "email": "Not available",
+            "phone": "Not available",
+            "current_position": "Team Lead",
+            "current_company": "Not available",
+            "employment_start_date_current_company": "Not available",
+            "first_company_start_date": "Not available",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "digital marketing experience": 4,
+            "client relationship": 96
+        },
+        "micro_dict": {
+            "social media marketing": 3,
+            "seo/sem": 29,
+            "google analytics": 31,
+            "project management": 5,
+            "content development": 32
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "2+ years of experience in digital marketing",
+            "Familiarity with Google Analytics and CRM tools"
+        ],
+        "resume": "Team Lead  \n\uf0b7 Experience Required:  10 to 15 years of relevant experience.  \n\uf0b7 Basic Salary Range:  401,000 to 500,000.  \n\uf0b7 Key Responsibilities:  \no Lead the overall engineering department and its strategic initiatives.  \no Coordinate all project elements, including design, quality planning, and installation.  \no Ensure efficient resource allocation and project success.  \no Foster a collaborative and innovative work environment.  \no Provide strategic direction and guidance to teams.  \n\uf0b7 Key Skills:  \no Strong business acumen and strategic thinking.  \no Excellent communication and interpersonal skills.  \no Extensive experience in team management.  \n\uf0b7 Eligibility:  Bachelor's or Master's degree in electrical engineering. A Master\u2019s degree in \nmanagement is preferable.  \n "
+    },
+    "details": {
+        "name": "John Doe",
+        "number": "03124843384",
+        "skills": [
+            "Python",
+            "Excel"
+        ],
+        "email_id": "john.doe@example.com",
+        "location": "New York, NY",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "John Doe is a seasoned software engineer with extensive experience in Python and Excel, demonstrating strong technical skills and a commitment to excellence.",
+        "employment_history": [
+            {
+                "details": "Software Engineer at XYZ Corp",
+                "end_date": "11-2024",
+                "location": "New York, NY",
+                "job_title": "Software Engineer",
+                "start_date": "01-2020",
+                "company_name": "XYZ Corp"
+            }
+        ]
+    }
+}

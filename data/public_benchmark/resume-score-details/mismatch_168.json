@@ -1,0 +1,162 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks specific experience in B2B sales, which is a core requirement for the role, affecting the relevant experience score.",
+            "The candidate does not have a leadership track record in their career so far, leading to a moderate leadership score.",
+            "Their experience is primarily in communication and PR roles, with limited market research exposure, leading to lower scores in strategic thinking.",
+            "Specific skills required for the role, particularly market research and IT knowledge, are not prominent, affecting micro scores."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.4699999999999998,
+                "micro_scores": 2.49
+            }
+        },
+        "personal_info": {
+            "name": "Malik Haseeb Shahid",
+            "email": "haseebmalik10@gmail.com",
+            "phone": "+923174493966",
+            "current_position": "Public Relations Officer",
+            "current_company": "Zameen.com",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "04-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/haseeb-shahid-55a1a7157"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 14,
+            "experience": 67,
+            "strategic thinking": 19
+        },
+        "micro_dict": {
+            "market research": 37,
+            "communication skills": 3,
+            "it and manufacturing sector knowledge": 60
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "Malik Haseeb Shahid \nCommunications and Public Relations \nA passionate individual with a broad vision of creative strategy and communications. I am a \ufb01rm believer in the\npower of branding, communication, and strategic image building. Hence, my learning goes beyond borders and is\ndriven by intellectual curiosity and creative expression. I have experience in Fintech, Content and PR. \nhaseebmalik10@gmail.com \n+923174493966 \nLahore, Pakistan \nlinkedin.com/in/haseeb-shahid-55a1a7157 \nEDUCATION \nBA (Hons) Media Studies with Social Sciences \nBeaconHouse National University (BNU) \n09/2017 - 06/2021\n, \n \nLahore, Pakistan \nThesis - Political Opinion\nFormation in Post-Truth Era \nMajor - PR and Digital\nCommunication \nExchange Program \nOslo Metropolitan University \n08/2019 - 01/2020\n, \n \nOslo, Norway \nWORK EXPERIENCE \nPublic Relations O\ufb03cer \nZameen.com \n04/2022 - Present\n, \n \nClient Servicing Associate \ni2c Inc \n05/2021 - 04/2022\n, \n \nLahore \nCustomer Support of Financial Tech Clients \nHandle customer concerns/complaints in a courteous and\nprofessional manner. \nDemonstrate strong domain knowledge and communicate accurate\ninformation to the customers. \nCoordinate and follow up on customer inquiries with relevant\nstakeholders to timely close open tickets. \nMeet all performance metrics on regular basis and maintain data\ncon\ufb01dentiality. \nBUD (Logistic communication) \nSchibsted \n07/2019 - 01/2020\n, \n \nOslo, Norway \nNewspaper agency, logistic management with Norwegian team \nManaged Delivery campaigns for media clients. \nManaged delivery routes of enrolled customers. \nTook care of advertisement placement of media clients. \nContent Writer, Client Servicing \nCognitio Systems \n04/2018 - 03/2021\n, \n \nLahore \nClient's Business portfolio handling, Client Communication \nCommunication with US based clients, Virtual Assistantship. \nWritten communication through social media posts, blog posts and\narticles. \nDeveloped and fostered relationships with over 25 clients spanning\nindustries such as info-technology, business, and academia. \nParticipated in client campaign calls to advance the mission of the\nclients. \nSKILLS \nCommunication \nCSR \nCustomer service \nClient relationship \nPublic Relation \nFinTech \nPresentation \nDigital Media \nResearch \nCrisis-Management \nPERSONAL PROJECTS \nData Visualization \nContent Writing \nVirtual Assistant for US based client \nClimate change campaign \nORGANIZATIONS \nImpact Revolution\n (03/2021 - Present)\n \nMedia Relations Manager for European NGO \non Climate Change \nSOCIAL ACTIVITY \nClimate Change Activist \nWorked as a climate change activist to raise awareness and promote action-driven\nchange in societal behavior and to combat environmental challenges \nPublic Speaker \nHosted di\ufb00erent conferences, business events, social media talk and \nmodel united\nnations \nLANGUAGES \nEnglish \nNative or Bilingual Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nNorwegian \nLimited Working Pro\ufb01ciency \nCourses \nClients;  BENTO, FairFInTech, Master, Visa, \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Malik Haseeb Shahid",
+        "number": "923174493966",
+        "skills": [
+            "FinTech",
+            "Digital Media",
+            "Content Writing",
+            "Public Relation"
+        ],
+        "email_id": "haseebmalik10@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Data Visualization",
+                "description": "Project focused on visual representation of data."
+            },
+            {
+                "title": "Climate change campaign",
+                "description": "Campaign aimed at raising awareness about climate change."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "BeaconHouse National University (BNU)",
+                "degree_title": "BA (Hons) Media Studies with Social Sciences"
+            },
+            {
+                "end_date": "01-2020",
+                "university": "Oslo Metropolitan University",
+                "degree_title": "Exchange Program"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/haseeb-shahid-55a1a7157",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Malik Haseeb Shahid is a dedicated professional with a strong background in FinTech and Public Relations, possessing expertise in digital media and content writing. He has demonstrated his capabilities through various roles in client servicing and public relations, showcasing his commitment to effective communication and strategic image building.",
+        "employment_history": [
+            {
+                "details": "Customer Support of Financial Tech Clients, handling customer concerns and maintaining data confidentiality.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Public Relations Officer",
+                "start_date": "04-2022",
+                "company_name": "Zameen.com"
+            },
+            {
+                "details": "Managed client communications and content writing for US-based clients, fostering relationships across various industries.",
+                "end_date": "04-2022",
+                "location": "Lahore",
+                "job_title": "Client Servicing Associate",
+                "start_date": "05-2021",
+                "company_name": "i2c Inc"
+            },
+            {
+                "details": "Managed delivery campaigns and advertisement placements for media clients in collaboration with a Norwegian team.",
+                "end_date": "01-2020",
+                "location": "Oslo, Norway",
+                "job_title": "BUD (Logistic communication)",
+                "start_date": "07-2019",
+                "company_name": "Schibsted"
+            },
+            {
+                "details": "Handled client business portfolios and communication, including social media and blog content.",
+                "end_date": "03-2021",
+                "location": "Lahore",
+                "job_title": "Content Writer, Client Servicing",
+                "start_date": "04-2018",
+                "company_name": "Cognitio Systems"
+            }
+        ]
+    }
+}

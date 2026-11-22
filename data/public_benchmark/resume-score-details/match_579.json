@@ -1,0 +1,209 @@
+{
+    "output": {
+        "justification": [
+            "Resume does not meet the requirement of 5+ years of experience in business development or related role. The business analyst role listed does not specify sufficient relevant details.",
+            "Does not have the necessary experience managing a team or leading business development executives.",
+            "Has proficient skills in Microsoft Office, but lacks further evidence of its application in a business development and strategic context.",
+            "No evidence of managing complex sales cycles or strategic thinking as required by the job role.",
+            "The candidate has a degree from a respected university (NUST) but in a non-business related major, which is not aligned with the preferred fields."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 7
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 2
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 2
+                },
+                {
+                    "criteria": "account management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.0,
+                "micro_scores": 3.5999999999999996
+            }
+        },
+        "personal_info": {
+            "name": "Maham Ahmad",
+            "email": "maham.ahmad581@gmail.com",
+            "phone": "+92 333 1425589",
+            "current_position": "Bioinformatician/ Business Analyst",
+            "current_company": "Soliton Technologies (Persivia)",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "2018",
+            "urls": [
+                {
+                    "website_name": "Fiverr",
+                    "url": "https://www.fiverr.com/maham_ahmad/do-bioinformatics-analysis-related-to-computational-drug-design"
+                },
+                {
+                    "website_name": "Upwork",
+                    "url": "https://www.upwork.com/freelancers/~019a12c465cc8262dc"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 53,
+            "strategic thinking": 47
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 27,
+            "sales process management": 32,
+            "negotiation skills": 16,
+            "account management": 25
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proficiency in Microsoft Office Suite",
+            "5+ years of experience in business development or a related role",
+            "Proven track record in managing complex sales cycles",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "Askari XI, Lahore\nE-mail\n:\n \nmaham.ahmad581@gmail.com\nPhone\n:\n \n+92 333 1425589\nDESCRIPTION\nBioinformatician/ Business Analyst\nSeeking a position as a Bioinformatician/Business Analyst where I can\napply my skills and knowledge in this field towards the growth and\nprosperity of the country.\nMy aim is towards the continuous intellectual growth, striving for higher achievements\nand accepting the new endeavors with high morale and persistence. As a bioinformatician,\nI will be obliged to put my passion and hard work in ground for the success of esteemed\norganizations and as a Business Analyst I will be dedicated towards the successful\ncompletion of projects using targeted user stories.\nEDUCATION\nMaster's in \nBioinformatics\n(Computational Drug Design)\n2019 \u2014 2021\nBachelor's in Bioinformatics\n2015 \u2014 2019\nNational University of Sciences and Technology (NUST) - Islamabad\nCGPA = 3.89/4.00\nProject: Combined ligand and structure guided protocols to target the gain-of-\nfunction mutations of Gardos Channel in red cell deformability. \nGovernment College University Faisalabad\nCGPA = 3.97/4.00\nGold Medalist\nProject:\n In-silico\n \nidentification\n of novel putative druggable targets against\nBordetella pertussis\n. \nWORK\nEXPERIENCE\nSoliton Technologies (Persivia)\nJune 2022 \u2014 Present\nLahore University of Management\nSciences (LUMS)\nApril 2022 \u2014 May 2022\nUniversity of Agriculture,\nFaisalabad.\n2018 \u2014 2018\nBussiness Analyst\nRA Intern\nInternship - Training course of Bioinformatics\nTrained on:\nBioinformatics file formats\nAccessing and Interpreting biological data (public databases)\nPhylogenetic analysis\nMaham Ahmad\nMaham Ahmad\n1Upwork, Fiverr\n2017 \u2014 Present\nBioinformatics tools\nLinux and Perl for bioinformatics\nFreelance service as Bioinformatician\nProfiles:\nhttps://www.fiverr.com/maham_ahmad/do-bioinformatics-analysis-related-to-\ncomputational-drug-design\nhttps://www.upwork.com/freelancers/~019a12c465cc8262dc\nSKILLS\nBA Skills\nJira\nBacklog Maintainance\nSprint Planning\nClient Requirements\nPO Review of stories\nComputer skills\nMicrosoft Office\nOnline tools and databases (Bioinformatics)\nData Retrieval\nDocking and Simulations\nProgramming\nSoftware/Tools: AutoDock, GOLD, MOE, Vina, Schrodinger, Discover\nStudio,  Pymol, Chimera, GRIND,  WEKA, Modeller, etc.\nAdditional skills\nSEO and content marketing\nWordPress website design/customization and optimization\nContent and technical writing\nACHIEVEMENTS\nPoster competition participation \n\"Pakistan Society For Computational Biology\nPSCB\"\n - 2015 & 2016\nParticipation \n\"1st Episode of IEEE LSYWTC\" \n(Superior University Lahore) -\n2016\nParticipation \n\"National workshop on Basic tools in Bioinformatics\" \n(GCUL) -\n2017\n2nd position in model competition on \n\"World DNA Day\"\n (GCUF) - 2017\nParticipation in \n\"16th Young Leader Summit\"\n \n- 2018\nSeminar participation \n\"Cell culture & protein biology innovations\"\n \n(GCUF) - 2018\nCertificate of Social Media Manager at \nNUST Bioreach Society\n (NUST) - 2019\nCertificate of Admin Events at\n \nNUST Quiz Club\n (NUST) - 2019\nParticipation in the \n\"Rational Computational Drug Design Approaches\"\ncloud\nbased hands-on workshop, co-organized by National University of Sciences and\nTechnology (NUST) - Pakistan, and Schr\u00f6dinger - 2021\nRunner-up for\n \n\"Intelligent Signal project\" \nat FICS 2021.\nLANGUAGES\nEnglish\nUrdu\nMaham Ahmad\n2INTERESTS\nResearch\nCommunication/Interaction\nSports (Badminton)\nMaham Ahmad\n3"
+    },
+    "details": {
+        "name": "Maham Ahmad",
+        "number": "923331425589",
+        "skills": [
+            "Bioinformatics",
+            "Linux",
+            "Perl",
+            "AutoDock",
+            "GOLD",
+            "MOE",
+            "Vina",
+            "Schrodinger",
+            "Discover Studio",
+            "Pymol",
+            "Chimera",
+            "GRIND",
+            "WEKA",
+            "Modeller",
+            "Jira",
+            "Microsoft Office",
+            "Online tools and databases (Bioinformatics)",
+            "Data Retrieval",
+            "Docking and Simulations"
+        ],
+        "email_id": "maham.ahmad581@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Combined ligand and structure guided protocols to target the gain-of-function mutations of Gardos Channel in red cell deformability",
+                "description": "Master's project in Bioinformatics."
+            },
+            {
+                "title": "In-silico identification of novel putative druggable targets against Bordetella pertussis",
+                "description": "Bachelor's project in Bioinformatics."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "National University of Sciences and Technology (NUST) - Islamabad",
+                "degree_title": "Master's in Bioinformatics (Computational Drug Design)"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "Government College University Faisalabad",
+                "degree_title": "Bachelor's in Bioinformatics"
+            }
+        ],
+        "achievements": [
+            "Gold Medalist in Bachelor's in Bioinformatics",
+            "Runner-up for Intelligent Signal project at FICS 2021",
+            "Certificate of Social Media Manager at NUST Bioreach Society - 2019",
+            "Certificate of Admin Events at NUST Quiz Club - 2019"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Social Media Manager",
+                "issuing_organization": "NUST Bioreach Society",
+                "date_of_issuance": "2019"
+            },
+            {
+                "certification_name": "Admin Events",
+                "issuing_organization": "NUST Quiz Club",
+                "date_of_issuance": "2019"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "fiverr.com/maham_ahmad/do-bioinformatics-analysis-related-to-computational-drug-design",
+                "website_name": "Fiverr"
+            },
+            {
+                "url": "upwork.com/freelancers/~019a12c465cc8262dc",
+                "website_name": "Upwork"
+            }
+        ],
+        "executive_summary": "Maham Ahmad is a dedicated Bioinformatician and Business Analyst with a strong academic background in Bioinformatics. She has demonstrated expertise in various bioinformatics tools and programming languages, and has a proven track record of successful project completion and participation in competitive events. Maham is committed to leveraging her skills for the advancement of her field.",
+        "employment_history": [
+            {
+                "details": "Business Analyst at Soliton Technologies (Persivia)",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Analyst",
+                "start_date": "06-2022",
+                "company_name": "Soliton Technologies"
+            },
+            {
+                "details": "RA Intern at Lahore University of Management Sciences (LUMS)",
+                "end_date": "05-2022",
+                "location": "Lahore",
+                "job_title": "Research Assistant Intern",
+                "start_date": "04-2022",
+                "company_name": "Lahore University of Management Sciences"
+            },
+            {
+                "details": "Internship - Training course of Bioinformatics at University of Agriculture, Faisalabad",
+                "end_date": "12-2018",
+                "location": "Faisalabad",
+                "job_title": "Intern",
+                "start_date": "01-2018",
+                "company_name": "University of Agriculture, Faisalabad"
+            }
+        ]
+    }
+}

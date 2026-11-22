@@ -1,0 +1,206 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks leadership roles in past job experiences, impacting the leadership macro score.",
+            "Experience in sales-related positions is insufficient with under 2 years, affecting the Experience macro score crucial for the B2B Sales focus of the JD.",
+            "Candidate shows moderate strategic thinking in the sales role but lacks a direct link to overarching strategy implementation.",
+            "Proficiency in data-related tasks evident but lacks clear demonstration in market research domain.",
+            "Limited direct experience in B2B sales specifically, despite moderate sales experience in various fields.",
+            "Communication skills are only alluded to and not highlighted with strong examples.",
+            "Data analysis skillset is implied through data entry but lacks explicit advanced analytics experience, reflected in micro scores.",
+            "No demonstrative experience or explicit sector knowledge mentioned specific to IT and Manufacturing."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 4
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 4
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.13,
+                "micro_scores": 3.54
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza",
+            "email": "alir7566@gmail.com",
+            "phone": "+92 302-4640546",
+            "current_position": "Lead generation Analyst",
+            "current_company": "LDS Company",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "2019",
+            "urls": [
+                {
+                    "website_name": "Skype",
+                    "url": "live:.cid.132e7928549ddae4"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 17,
+            "experience": 53,
+            "strategic thinking": 30
+        },
+        "micro_dict": {
+            "market research": 20,
+            "b2b sales": 33,
+            "communication skills": 16,
+            "data analysis": 0,
+            "it and manufacturing sector knowledge": 31
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales",
+            "Strong understanding of IT and manufacturing industries",
+            "Proven ability to develop and implement successful business strategies",
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": " \n \n \n \n \n \n  \n \n \n \n \n \n \n \n \n ALI RAZA  \nFirst  Lastname  Phone  : +92 302-4640546  \nE-mail:  alir7566@gmail.com  \nSkype  : live:.cid.132e7928549ddae4  \nSkype Name  ( Alee Raza)  \nAddress: Lahore  Pakistan  \n \n  \nObjective  Accurate,  Lead Generation  & Data Entry skills and Sound \nknowledge of Computer Applications. Proven ability to collect \nand manage information Efficiently and Accurately. Ability to \nwork with well People & Gain Practical Experience for Today's \nCompetitive Environment and Apply my best  Skills . \nExperience  \nReferences  \uf076 Available at your demand.   \n  \n\uf076 Currently  remote  working as a Lead generation Analyst in LDS Company . \n(US based ) \n\uf076 1.5 years almost at Westend Enterprises as a Sales representative o n GSA \nEbuy Bid Portal and Unison bid place .( US Based)   \n\uf076 8 months at Westend Enterprises as a Data Entry operator, after that I was \npromoted to Sales Dep artment as Sales representative . \n\uf076 1 year as a data entry operator at Bitsclan Solution Company  in 2019 \nto 2020.  \n\uf076 1 year as a Lead & web researcher at Senew Tech Company in  2019 . \n \nEducation   \n\uf076 BSIT from  University of South Asia Lahore.  \n\uf076 Inter from (BISE Lahore).  \n\uf076 Matric 2015 from Rana Pre Cadet School (BISE Lahore).  \n \n \n Skills  \uf076 Sales Experience As on GSA Ebuy  bid portal,  Unison market \nplace.  \n\uf076 Fulfilled the requirements on GSA Ebuy portal of our customers.  \n\uf076 Lead Generation. ( Linkedin & Sales Navigator, Sales Automation)  \n\uf076 Worked on CRM Softwares ( Zoho acounts, Overloop)  \n\uf076 Email Mangement. ( Email marketing, Email Campaign s, Google \nAds ) \n\uf076 Data Mining & Data Extract ion. \n\uf076 Data Entry Tasks.  \n\uf076 E-commerce Data Entry  \n\uf076 Web Searching.  \n\uf076 Attention to Detail.  \n\uf076 Data Collection and Management.  \n\uf076 Computer literate with IT knowledge.  \n\uf076 Excellent use of MS.Office.(Ms Word,Excel,PowerPoint)  \n\uf076 Certified in MS.Office  \n\uf076 Comfortable to work in a team  environment with team spirit.  \n\uf076 Having communication skills.  \n\uf076 Positive attitude.  \n\uf076 Patience.  \n "
+    },
+    "details": {
+        "name": "Ali Raza",
+        "number": "923024640546",
+        "skills": [
+            "Lead Generation",
+            "Data Entry",
+            "Sales Experience",
+            "CRM Software (Zoho accounts, Overloop)",
+            "Email Management",
+            "Data Mining",
+            "E-commerce Data Entry",
+            "Web Searching",
+            "MS Office (Word, Excel, PowerPoint)"
+        ],
+        "email_id": "alir7566@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "University of South Asia Lahore",
+                "degree_title": "BSIT"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "BISE Lahore",
+                "degree_title": "Inter"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "Rana Pre Cadet School (BISE Lahore)",
+                "degree_title": "Matric"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Certified in MS Office",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/aliraza",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ali Raza is a skilled lead generation analyst with extensive experience in data entry and sales. He has a strong background in CRM software and email management, demonstrating proficiency in MS Office and various data management tasks.",
+        "employment_history": [
+            {
+                "details": "Currently working as a Lead Generation Analyst, focusing on lead generation and data management.",
+                "end_date": "Present",
+                "location": "Remote",
+                "job_title": "Lead Generation Analyst",
+                "start_date": "01-2023",
+                "company_name": "LDS Company"
+            },
+            {
+                "details": "Worked as a Sales Representative on GSA Ebuy Bid Portal and Unison bid place, fulfilling customer requirements.",
+                "end_date": "06-2024",
+                "location": "Remote",
+                "job_title": "Sales Representative",
+                "start_date": "01-2022",
+                "company_name": "Westend Enterprises"
+            },
+            {
+                "details": "Promoted from Data Entry Operator to Sales Representative after 8 months of service.",
+                "end_date": "01-2022",
+                "location": "Remote",
+                "job_title": "Data Entry Operator",
+                "start_date": "05-2021",
+                "company_name": "Westend Enterprises"
+            },
+            {
+                "details": "Performed data entry tasks and managed data efficiently.",
+                "end_date": "12-2020",
+                "location": "Remote",
+                "job_title": "Data Entry Operator",
+                "start_date": "01-2019",
+                "company_name": "Bitsclan Solution Company"
+            },
+            {
+                "details": "Conducted lead and web research to support business development.",
+                "end_date": "12-2019",
+                "location": "Remote",
+                "job_title": "Lead & Web Researcher",
+                "start_date": "01-2019",
+                "company_name": "Senew Tech Company"
+            }
+        ]
+    }
+}

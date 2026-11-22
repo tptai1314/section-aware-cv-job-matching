@@ -1,0 +1,180 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks a major in Computer Science, instead holding a Bachelors in Business Administration with a major in Marketing.",
+            "No clear evidence of proficiency in a programming language, which is a minimum requirement.",
+            "Has over 3 years of experience in roles consistent with lead generation and business intelligence but lacks specific BI tool experience.",
+            "Strong communication skills demonstrated through role descriptions indicating stakeholder management and relationship-building.",
+            "No direct mention of experience with Power BI, SQL, or Tableau as required for the job."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm and data management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.5600000000000005,
+                "micro_scores": 4.1
+            }
+        },
+        "personal_info": {
+            "name": "Usman Hanif",
+            "email": "Usman.hanif9@gmail.com",
+            "phone": "+923214580128",
+            "current_position": "Business Development Analyst",
+            "current_company": "Siddiq Agricoze (Pvt). Limited",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "08-2016",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/usman -hanif -53858460/"
+                },
+                {
+                    "website_name": "YouTube (company profile video)",
+                    "url": "https://www.youtube.com/watch?v=j8jxDOjX1Ww&t=5s"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "experience": 44,
+            "innovation and adaptability": 56
+        },
+        "micro_dict": {
+            "business intelligence tools (power bi, sql, tableau)": 45,
+            "crm and data management": 55
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Proficiency in at least one programming language",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "3+ years of experience in lead generation or business intelligence",
+            "Strong communication and interpersonal skills",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau"
+        ],
+        "resume": " \n \nUSMAN HANIF  \nUsman.hanif9@gmail.com  \nH# 878-C, Usama Block, Nishter Colony, Lahore . \n+923214580128  \nhttps://www.linkedin.com/in/usman -hanif -53858460/  \n \nOBJECTIVE  \n\u201cPursuing a development oriented position where my skills, knowledge and abilities add meaningful value to the \norganization\u201d   \nEDUCATION  \nSuperior University, Lahore  \n(2011 -2015)  Bachelors  in Business Administration  \n\uf0b7 Major in Marketing  \nStandard College, Lahore  \n(2010 -2011)  F.Sc Pre-Engineering  \nEXPERIENCE  \nSiddiq Agricoze (Pvt). Limited  | Muridke Punjab, PK  \nBusiness Development  Analyst  January 2022  \u2013 Present  \n\uf0b7 Engaged and formed business relationship with the international clients in US and  EU etc. \n\uf0b7 Lead generation through international exhibitions and events.  \n\uf0b7 Made the exhibitions visit plans and set up meetings with international potential distributors & \nclients.  \n\uf0b7 Suggested to set up stand & display the products at international exhibitions.  \n\uf0b7 Communication with existing customers and fulfill their business quires.  \n\uf0b7 Analyzing the competition and devising the strategies accordingly.  \n\uf0b7 Prepare the product samples and dispatch to the clients.  \n\uf0b7 Devised the sales contract with agents/suppliers and cl osing the deals.  \n\uf0b7 Coordination with all internal departments for smooth shipments and new clients acquisition.  \n   \n Business Development Executive  February 2021 \u2013 December 2021  \n\uf0b7 Developed the distribution network in all over the Pakistan.  \n\uf0b7 Designed the sales contracts with distributors and sales targets.  \n\uf0b7 Established B2B sales linkage and also provided sales support.   \n\uf0b7 Designed the company profile and product broachers.  \n\uf0b7 Write down the script of company profile video and executed the video shoot.  \no Link:  https:// www.youtube.com/watch?v=j8jxDOjX1Ww&t=5s  \n\uf0b7 Devised the warehouse and logistics system of the company.  \n\uf0b7 Provided sales forecasts on monthly/quarterly bases  to Board of Directors and Production Team.  \n\uf0b7 Reported the sales performance on monthly bases to Board of D irectors.  \nSRC Private Limited  | Lahore  Punjab, PK  \nBusiness Development Officer  January 2018 \u2013 December 2021  \n\uf0b7 Analysis of the market and suggest new projects/products for the growth of Company.  \n\uf0b7 Conducted market research and explored the new market opportunities.  \n\uf0b7 Studied the local & international market of Rice based ingredients  \no Demand/supply of Liquid Glucose.  \no Local and international competitors\u2019 analysis.  \no Compiled the local and international po tential distributors/clients data base.  \no Identified the key challenges and market drivers.  \no Proposed Structure and Functions of a Sales & Marketing Department . \no Proposed to board of directors to build rice based ingredients manufacturing company.  \no Board of di rectors approved the project and now company is selling product in local and \ninternational market.  \n\uf0b7 Conducted market analysis of construction chemicals.  \no Proposed the Board of Directors to add Water Reducing Agent Chemicals in the \nproducts line.  \n\uf0b7 Analyzed the Home Care FMCG products market which leads the company to introduce new \nBrand \u201cSaaf & Safe\u201d in Pakistan.  \nYorkshire Trading (Pvt). Limited | Lahore Punjab, PK  \nSales Officer  August 2016 \u2013 January 2018  \n\uf0b7 Sales of Chipboard sheets, imported door panels, and  solid wood P roducts in the Punjab, \nPakistan . \n\uf0b7 Preparation & execution of sales and marketing plan.  \n\uf0b7 Potential customer lead generation and engagement.  \n\uf0b7 Developed B2B sales channel (Haier, Chugtaiz, Torch Furniture, & Mohkam Furniture etc.)  \n\uf0b7 Also developed retails sales channel in Punjab, Pakistan.  \n\uf0b7 Introduced imported (Turkish) UV sheets in the Market.  \n\uf0b7 Recovery  of payments  against sales.   \n \uf0b7 Bank -related matters.  \nSKILLS  \n \nManagement and Leadership Skills  \n \n\uf0b7 Record Management  \n\uf0b7 Multi -tasking  \n\uf0b7 Capacity to work with peo ple from a wide range of cultural and socio -economic backgrounds  \n\uf0b7 Building & Maintaining Good Professional Relationships  \nCommunication and Interpersonal Skills  \n\uf0b7 Strong Experience of Managing Stakeholders and Partners  \n\uf0b7 Email and O\ufb03ce Communication (taking notes, developing blueprints and report writing)  \n\uf0b7 Social Skills (Adaptability, Negotiation and Persuasion)  \nDigital Skills  \n\uf0b7 Microsoft (Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Microsoft Outlook)  \n\uf0b7 Certified Candela RMS Operator  \n\uf0b7 Social Media Management  \n \nLANGUAGES KNOWN  \n \n\uf0b7 Urdu   \n\uf0b7 Punjabi   \n\uf0b7 English  \n \nBEYOND ACADEMICS  \n\uf0b7 Social work  \n\uf0b7 Tourism  \n\uf0b7 Photography  \n\uf0b7 Watching movies  \n "
+    },
+    "details": {
+        "name": "Usman Hanif",
+        "number": "923214580128",
+        "skills": [
+            "Microsoft Excel",
+            "Microsoft PowerPoint",
+            "Microsoft Word",
+            "Microsoft Outlook",
+            "Social Media Management",
+            "Certified Candela RMS Operator"
+        ],
+        "email_id": "Usman.hanif9@gmail.com",
+        "location": "H# 878-C, Usama Block, Nishter Colony, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2015",
+                "university": "Superior University, Lahore",
+                "degree_title": "Bachelors in Business Administration"
+            },
+            {
+                "end_date": "05-2011",
+                "university": "Standard College, Lahore",
+                "degree_title": "F.Sc Pre-Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Certified Candela RMS Operator",
+                "issuing_organization": "Candela",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/usman-hanif-53858460/",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "youtube.com/watch?v=j8jxDOjX1Ww&t=5s",
+                "website_name": "YouTube"
+            }
+        ],
+        "executive_summary": "Usman Hanif is a dedicated business development analyst with a strong background in marketing and business administration. He has extensive experience in engaging with international clients and developing strategic business relationships, showcasing his technical skills in market analysis and sales strategy development.",
+        "employment_history": [
+            {
+                "details": "Engaged and formed business relationship with the international clients in US and EU. Lead generation through international exhibitions and events. Suggested to set up stand & display the products at international exhibitions. Communication with existing customers and fulfill their business queries.",
+                "end_date": "Present",
+                "location": "Muridke Punjab, PK",
+                "job_title": "Business Development Analyst",
+                "start_date": "01-2022",
+                "company_name": "Siddiq Agricoze (Pvt). Limited"
+            },
+            {
+                "details": "Developed the distribution network in all over Pakistan. Designed the sales contracts with distributors and sales targets. Established B2B sales linkage and provided sales support.",
+                "end_date": "12-2021",
+                "location": "Lahore Punjab, PK",
+                "job_title": "Business Development Executive",
+                "start_date": "02-2021",
+                "company_name": "Siddiq Agricoze (Pvt). Limited"
+            },
+            {
+                "details": "Conducted market research and explored new market opportunities. Proposed to board of directors to build rice based ingredients manufacturing company.",
+                "end_date": "12-2021",
+                "location": "Lahore Punjab, PK",
+                "job_title": "Business Development Officer",
+                "start_date": "01-2018",
+                "company_name": "SRC Private Limited"
+            },
+            {
+                "details": "Sales of Chipboard sheets, imported door panels, and solid wood products in Punjab, Pakistan. Developed B2B sales channel and introduced imported UV sheets in the market.",
+                "end_date": "01-2018",
+                "location": "Lahore Punjab, PK",
+                "job_title": "Sales Officer",
+                "start_date": "08-2016",
+                "company_name": "Yorkshire Trading (Pvt). Limited"
+            }
+        ]
+    }
+}

@@ -1,0 +1,177 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has strong technical skills but lacks explicit B2B sales experience, which is a key component of the job description.",
+            "Leadership is primarily demonstrated through project work rather than managing teams or projects at a large scale.",
+            "No mention of strategic thinking related to business development or B2B sales strategies.",
+            "Candidate's technical expertise and education align with requirements in IT sector, but no direct experience in manufacturing sector is noted."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 2
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.91,
+                "micro_scores": 5.390000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Irfan Shahzad",
+            "email": "nnsirfanshah@gmail.com",
+            "phone": "+923476186867",
+            "current_position": "Machine Learning Engineer",
+            "current_company": "Software Alliance",
+            "employment_start_date_current_company": "01-2024",
+            "first_company_start_date": "08-2023",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/muhammad-irfan-shahzad-b31a51174/"
+                },
+                {
+                    "website_name": "GitHub",
+                    "url": "https://github.com/Muhammad-Irfan-Shahzad"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 32,
+            "experience": 27,
+            "strategic thinking": 41
+        },
+        "micro_dict": {
+            "b2b sales": 7,
+            "communication skills": 73,
+            "data analysis": 20
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": "Muhammad Irfan Shahzad    \nLahore, Pakistan \u2022 +923476186867 \u2022nnsirfanshah@gmail.co m \u2022 https://www.linkedin.com/in/mu hamma dirfan-shahzad-b31a 51174/. \nhttps://github.com/Muhammad -Irfan -Shahzad     \nPROFESSIONAL EXPERIENCE    \n       \nAt Software Alliance     \nMachine Learning Engineer                                                                                                                             Jan 2024 \u2013 June 2024    \n                                                                 As a Machine Learning Engineer at S oftware Alliance , I have taken on the following \nresponsibilities:    \n\u2022  Chatbot using Llama  2 : I used hadit custom dataset that scraped from website and deployed model by using FAST API\u2019s \nfinetune Llama 2  different version  and get good results on custom datasets.  \n\u2022 Chatbot using Flan T5 / llama 2 13B / chatgbt 3.5 and 4: I used psychiatrist conversation dataset for chatbot then \nused all  mention LLMs and compare results for chat bot output and factor(Empathy, Fluency, Informative and \ncoherence ).  \n\u2022 Laptop Price Classification : Algorithms  that Used  are KNN, Decision Tree, Random Forest . Accuracy: Achieved 94% \naccuracy in predicting laptop price ranges (small, medium, high)    \n\u2022 Airline Flight Price Prediction by using Regression : Algorithms Used: KNN, Decision Tree, Random Forest (as \nregressors)     \nR Square: Achieved 90% R square using Random Forest Regressor for predicting airline flight prices.    \n\u2022 Plant Disease Detection using CNN : Image Classification . Approach: Employed deep learning CNN  \nPerformance: Achieved perfect accuracy (1.0) in detecting plant diseases across three classes of images.  \n\u2022 Balls detection  \nDescription:  Annotate  the custom  images  of football  and make  labels  and images.  Trained  yolov 8n on my \nown dataset  and get good  result  on validation.   \nAt Selteq    \nMachine Learning Engineer  Intern                                                                                                                Aug 2023 \u2013  Jan 2024   \n                                                                 As a Machine Learning Engineer at Selteq, I have taken on the following responsibilities:    \n\u2022 Developed and deployed two machine learning models. The first model accurately predicts whether a given file is an \ninvoice, bill, or an unknown format, enhancing document categorization efficiency.    \n\u2022 Worked on a hate speech detection model, classifying paragraphs as hate speech, offensive, or normal. This contribution \npromotes online safety and responsible content.    \n\u2022 Utilized Django web framework to deploy these models, making them accessible through a user -friendly web interface.    \n\u2022 Implemented RESTful APIs for seamless integration, allowing external systems to utilize the models' capabilities.    \u2022 Working on Desktop application of attendance system. In which attendance by image.    \nAt FAST National University of Computer and Emerging Science CFD Campus                        2021 \u2013 2022    \nTeaching Assistant at AI lab    \nAs a teaching assistant at the AI lab, your responsibilities include creating tasks for students    \nusing AI algorithms. Here is the requested information presented in equal -sized bullet points:    \n\u2022 Developed and implemented AI -driven curriculum modules, resulting in a 25% increase in student engagement and \na 15% improvement in overall academic performance.    \n\u2022 Created and deployed AI -based learning tasks for 50+ students, resulting in a 40% improvement in comprehension \nand application of AI algorithms within the lab environment.    \n    \nACADEMIC PROJECTS    \n    \n           \nMarket Tempest    \n\u2022 The project aims to integrate multiple E -commerce platforms into a unified solution using runtime scraping.    \n\u2022 Frontend Technologies: HTML, CSS, JavaScript, and React JS are used to develop an intuitive and user -friendly \ninterface.   \n\u2022 Database Integration: MongoDB is utilized as the database management system for storing and managing E -\ncommerce data efficiently.   \n\u2022 Backend Implementation: Node.js is employed as the backend technology to handle server -side operations and \nfacilitate seamless communication between the frontend and database.   \nRating bot    \n\u2022 AI-powered sentiment analysis: The Rating Bot utilizes advanced NLP algorithms to analyze text input and determine \nsentiment .    \n\u2022 Quick, accurate, and scalable: Provides businesses with a fast and precise method of gathering customer feedback at \nscale.    \n\u2022 Seamless integration: The Rating Bot can be easily integrated into existing customer service platforms, enhancing \nthe feedback collection process.    \nAnalyzing Sentiments on Imdb: A Deep Learning Approach with TensorFlow    \n    \n\u2022   Explore the intricate world of sentiment analysis on Imdb dataset using advanced machine learning techniques. This \nproject employs TensorFlow, a powerful deep learning framework, to unravel sentiments embedded in Twitter data. \nGain insights into the emotio nal pulse of tweets, understand public opinions, and unlock the potential of sentiment \nanalysis for diverse applications.       \nEDUCATION   \n   \nFAST National University of Computer and Emerging Science CFD Campus     2018 -2023    \nBachelor of Computer Science    \n\u25cf Studied the foundations of computer science, including algorithms, data structures, and database.    \n    \nSKILLS & COMPETENCIES    \n \n   \nProblem Solving, Communication, Programming, C++, Python, Machine Learning, Database, SQL, Sqlite3, Deep Learning, Data \nScience,  Sklearn  Pandas, Numpy, Django, Rest API, FAST API\u2019s,  Generative AI, LLM, Prompt Engineering, TensorFlow, Spacy, \nmatplotlib.    "
+    },
+    "details": {
+        "name": "Muhammad Irfan Shahzad",
+        "number": "923476186867",
+        "skills": [
+            "C++",
+            "Python",
+            "Machine Learning",
+            "Database",
+            "SQL",
+            "Sqlite3",
+            "Deep Learning",
+            "Data Science",
+            "Sklearn",
+            "Pandas",
+            "Numpy",
+            "Django",
+            "Rest API",
+            "FAST API\u2019s",
+            "Generative AI",
+            "LLM",
+            "Prompt Engineering",
+            "TensorFlow",
+            "Spacy",
+            "matplotlib"
+        ],
+        "email_id": "nnsirfanshah@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Market Tempest",
+                "description": "The project aims to integrate multiple E-commerce platforms into a unified solution using runtime scraping."
+            },
+            {
+                "title": "Rating bot",
+                "description": "AI-powered sentiment analysis that utilizes advanced NLP algorithms to analyze text input and determine sentiment."
+            },
+            {
+                "title": "Analyzing Sentiments on Imdb: A Deep Learning Approach with TensorFlow",
+                "description": "Explore sentiment analysis on Imdb dataset using advanced machine learning techniques."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2023",
+                "university": "FAST National University of Computer and Emerging Science CFD Campus",
+                "degree_title": "Bachelor of Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadirfan-shahzad-b31a51174",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/Muhammad-Irfan-Shahzad",
+                "website_name": "GitHub"
+            }
+        ],
+        "executive_summary": "Muhammad Irfan Shahzad is a skilled Machine Learning Engineer with experience in developing and deploying machine learning models. He has a strong foundation in programming and data science, with proficiency in various technologies and frameworks.",
+        "employment_history": [
+            {
+                "details": "As a Machine Learning Engineer at Software Alliance, responsibilities included developing chatbots using Llama 2 and Flan T5, laptop price classification, airline flight price prediction, and plant disease detection using CNN.",
+                "end_date": "06-2024",
+                "location": "Lahore, Pakistan",
+                "job_title": "Machine Learning Engineer",
+                "start_date": "01-2024",
+                "company_name": "Software Alliance"
+            },
+            {
+                "details": "As a Machine Learning Engineer Intern at Selteq, developed and deployed machine learning models for document categorization and hate speech detection, utilizing Django and RESTful APIs.",
+                "end_date": "01-2024",
+                "location": "Lahore, Pakistan",
+                "job_title": "Machine Learning Engineer Intern",
+                "start_date": "08-2023",
+                "company_name": "Selteq"
+            },
+            {
+                "details": "As a Teaching Assistant at the AI lab, responsibilities included creating AI-driven curriculum modules and deploying AI-based learning tasks for students.",
+                "end_date": "06-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Teaching Assistant",
+                "start_date": "01-2021",
+                "company_name": "FAST National University of Computer and Emerging Science CFD Campus"
+            }
+        ]
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a master's and bachelor's degree, but neither is listed as being in business administration, marketing, nor a related field, so the education requirement is partially met.",
+            "The candidate does not possess any explicit experience in business development or sales in the IT and manufacturing industries, lacking the 5+ years of experience required.",
+            "Macro scores consider broader aspects like leadership and project management, which aren't highlighted in the candidate's profile aligned with the job requirements.",
+            "Micro scores for IT and Manufacturing Sector Knowledge are low due to a disconnect between the candidate's technical skills and the industrial focus of the job requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0000000000000004,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Raja Sanwal Khan",
+            "email": "rajasanwalkhan199@gmail.com",
+            "phone": "+923048253746",
+            "current_position": "ML Engineer",
+            "current_company": "Xeven Solutions (Pvt) Ltd.",
+            "employment_start_date_current_company": "03-2024",
+            "first_company_start_date": "12-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "rajasanwalkhan/"
+                },
+                {
+                    "website_name": "Portfolio",
+                    "url": "rajasanwalkhan/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 35,
+            "experience": 52,
+            "strategic thinking": 13
+        },
+        "micro_dict": {
+            "market research": 29,
+            "it and manufacturing sector knowledge": 71
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong understanding of IT and manufacturing industries",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "RajaSanwal Khan\nData Scientist\nRajaSanwal\n rajasanwalkhan/\n rajasanwalkhan199@gmail.com\n +923048253746\nABOUTME\nData Scientist with 1year experience ofmachine learning and 2years experience of\npython programming. Skilled inleveraging generative models tomeet client business\nneeds and collect large structured/unstructured datasets. Experienced inbuilding ma-\nchine learning algorithms and predictive models todrive actionable insights.\nEXPERIENCE\nXEVENSOLUTIONS(PVT)LTD. | ML ENGINEER\nMar2024\u2013Present|Lahore,Pakistan\n\u00d4Implemented F AST API endpoints that provides user interaction with pdf\ndocument, web content, and images\n\u00d4Tasks such as text extraction, question/answering, image description/OCR,\ntext-to-speech and speech-to-text are deployed.\n\u00d4Endpoints utilizes technologies like Fast API, LangChain, Qdrant, and Google Cloud\nDocument AIfor robust functionality.\nINFORMATIONTECHNOLOGYUNIVERSITY | RESEARCH ASSOCIATE\nDec2022\u2013July2023|Lahore,Pakistan\n\u00d4Data Collection, Cleaning, Transforming and implemented machine learning models\n(DNNs, CNNs, RNN, LSTM)\nPROJECTS\nREALTIMESPEECHANDTEXTCONVERTER | PYTHON, LANGCHAIN, OPENAI, GCP, FASTAPI\n\u00d4 Implemented text-to-speech and speech-to-text conversion inrealtime.\n\u00d4 Uses Langchain tocreate LLM based QA chain. Created endpoints ofthese two\nfunctionalities using Fast API. Uses Google text-to-speech service and whisper\nOpenAI transcription model for speech-to-text.\nCRYPTOCURRENCYTRENDANALYSIS | PYSPARK, BIGQUERY ML, WEB SCRAPING, GCP\n\u00d4 Created ETL pipeline using GCP (Dataflow,Dataproc,Storage).\n\u00d4 Performed price prediction using BigQuery Machine Learning.\n\u00d4 Designed dashboard ofanalytics on Google DataStudio.\nSENTIMENTANALYSIS | PYTHON, MACHINE LEARNING, NATURAL LANGUAGE PROCESSING\n\u00d4 Trained different ML and DL models for sentiment prediction.\n\u00d4 Text retrieval, Text Cleaning and Text Transformation were major tasks.\nMEDICINERECOMMENDATIONSYSTEM | PYTHON, PYTORCH, DEEP LEARNING\n\u00d4 Trained aDense Neural Network that recommend medicine on the basis ofuser\ncondition.\n\u00d4 Deploy trained model on website using flask and heruko.\nVOODOOMIRROR | C++, PYTHON, ML, CV, RASPBERRY PI3 B+\n\u00d4 Implemented different smart modules on the mirror toprovide asmall\nentertainment hub for user.\n\u00d4 Modules that were implemented include:\n\u2022Selfie Maker Mirror \u2022Google Assistant \u2022Time and Weather ForecastSKILLS\nPROGRAMMING\nProficient:\n\u2022Python \u2022SQL \u2022LLM\n\u2022Fast API\nExperienced:\n\u2022SQL \u2022NoSQL \u2022C++ \u2022LATEX\nFamiliar:\n\u2022Flask \u2022JavaScript \u2022Heruko\nTOOLS/PLATFORMS\n\u2022GCP \u2022F AST API \u2022Langchain\n\u2022DataStudio \u2022Power BI\u2022Excel\n\u2022PostgreSQL \u2022Scikit-learn\n\u2022NL TK \u2022Pytorch \u2022Tensorflow\n\u2022Pandas \u2022Matplotlib \u2022Numpy\nEDUCATION\nINFORMATIONTECHNOL\u2011\nOGYUNIVERSITY\nMASTER'S IN COMPUTER SCIENCE\nOct2020\u2011Sep2022|Lahore,Pakistan\nCum. GPA:3.40/4.0\nCOMSATS,SAHIWAL\nBACHELOR'S IN COMPUTER SCIENCE\nSep2015\u2011May2019|Sahiwal,Pakistan\nCum. GPA:3.58/4.0\nCOURSEWORK\nGRADUATE\n\u2022Deep Learning\n\u2022Information Retrieval and Data\nMining\n\u2022Big Data Analytics\n\u2022Cyber Security\n\u2022Advanced Algorithms Analysis\n\u2022Advanced Operating Systems\nUNDERGRADUATE\n\u2022Database Management\nSystems\n\u2022Object Oriented Programming\n\u2022Artificial Intelligence\n\u2022Pattern Recognition"
+    },
+    "details": {
+        "name": "RajaSanwal Khan",
+        "number": "923048253746",
+        "skills": [
+            "Python",
+            "SQL",
+            "Fast API",
+            "C++",
+            "GCP",
+            "Langchain",
+            "DataStudio",
+            "Power BI",
+            "Excel",
+            "PostgreSQL",
+            "Scikit-learn",
+            "NLTK",
+            "Pytorch",
+            "Tensorflow",
+            "Pandas",
+            "Matplotlib",
+            "Numpy"
+        ],
+        "email_id": "rajasanwalkhan199@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "RealTimeSpeechAndTextConverter",
+                "description": "Implemented text-to-speech and speech-to-text conversion in real-time."
+            },
+            {
+                "title": "CryptocurrencyTrendAnalysis",
+                "description": "Created ETL pipeline using GCP and performed price prediction using BigQuery Machine Learning."
+            },
+            {
+                "title": "SentimentAnalysis",
+                "description": "Trained different ML and DL models for sentiment prediction."
+            },
+            {
+                "title": "MedicineRecommendationSystem",
+                "description": "Trained a Dense Neural Network that recommends medicine based on user condition."
+            },
+            {
+                "title": "VoodooMirror",
+                "description": "Implemented different smart modules on the mirror to provide a small entertainment hub for user."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "09-2022",
+                "university": "Information Technology University",
+                "degree_title": "Master's in Computer Science"
+            },
+            {
+                "end_date": "05-2019",
+                "university": "COMSATS, Sahiwal",
+                "degree_title": "Bachelor's in Computer Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "rajasanwalkhan/",
+                "website_name": "X"
+            },
+            {
+                "url": "rajasanwalkhan",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "RajaSanwal Khan is a skilled Data Scientist with one year of experience in machine learning and two years in Python programming. He has a strong background in developing machine learning algorithms and predictive models, leveraging generative models to meet client business needs, and handling large datasets.",
+        "employment_history": [
+            {
+                "details": "Implemented FAST API endpoints for user interaction with PDF documents, web content, and images. Deployed tasks such as text extraction, question/answering, image description/OCR, text-to-speech, and speech-to-text.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "ML Engineer",
+                "start_date": "03-2024",
+                "company_name": "XEVEN SOLUTIONS (PVT) LTD."
+            },
+            {
+                "details": "Data Collection, Cleaning, Transforming and implemented machine learning models (DNNs, CNNs, RNN, LSTM).",
+                "end_date": "07-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Research Associate",
+                "start_date": "12-2022",
+                "company_name": "INFORMATION TECHNOLOGY UNIVERSITY"
+            }
+        ]
+    }
+}

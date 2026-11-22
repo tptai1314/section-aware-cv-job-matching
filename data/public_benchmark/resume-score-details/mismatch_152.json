@@ -1,0 +1,155 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not meet the minimum degree requirement of Telecommunications Engineering but has a Bachelor's degree in Software Engineering, which is not preferred by company insights.",
+            "No relevant experience with wireless telecommunications industry systems or technology as specified by job description.",
+            "The candidate's skills do not align with the specific technologies and experience required, such as Huawei and Nokia equipment or GSM, UMTS, LTE, NR.",
+            "The resume shows no relevant leadership nor project management experience in telecommunication projects."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "huawei technologies",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with Huawei and Nokia equipment",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Telecommunications Engineering",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in GSM, UMTS, LTE, and NR technologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "8+ years of industry experience",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.16,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Ali Arshad",
+            "email": "aliarshad114455@gmail.com",
+            "phone": "(+92) 3021816411",
+            "current_position": "A.I Engineer",
+            "current_company": "Planet Beyond",
+            "employment_start_date_current_company": "02-2023",
+            "first_company_start_date": "02-2023",
+            "urls": [
+                {
+                    "website_name": "COMSATS University Islamabad",
+                    "url": "https://www.comsats.edu.pk/"
+                },
+                {
+                    "website_name": "Coursera",
+                    "url": "https://www.coursera.org/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Job Title: Senior Wireless Integration Engineer\n\n#### Company: FutureNet Solutions\n\n**Location**: Islamabad, Pakistan\n\n**Job Summary**:  \nAs a Senior Wireless Integration Engineer, you will join FutureNet Solutions to lead and oversee telecommunication projects across multiple regions. Your responsibilities will include managing cross-functional teams, integrating wireless networks, and coordinating with field teams to ensure quality and timely delivery.\n\n**Key Responsibilities**:\n- Provide remote delivery services for multiple countries, conducting both pre-integration checks and post-integration validations.\n- Oversee the integration of 2G, 3G, 4G, 5G NR wireless sites using advanced tools such as Web CME, Cloud CME, and MML commands.\n- Coordinate with field teams to supervise installations and resolve on-site technical issues.\n- Prepare and manage project schedules and ensure completion in line with client specifications.\n- Perform site audits and equipment testing, including Huawei BTS and transmission nodes.\n- Act as a key technical support contact for troubleshooting and logical problem resolution.\n\n**Skills & Qualifications**:\n- Bachelor\u2019s degree in Telecommunications Engineering or a related field.\n- 8+ years of experience in wireless and telecommunications engineering.\n- Strong knowledge of GSM, UMTS, LTE, NR technologies, and network troubleshooting.\n- Proficiency in Huawei and Nokia RAN-SRAN equipment.\n- Excellent leadership, communication, and project management skills.\n- Ability to work independently and handle multiple projects under tight deadlines.\n\n**Salary**: Competitive salary with benefits commensurate with experience.\n\n**How to Apply**: Submit your CV and a cover letter detailing your relevant experience to careers@futurenetsolutions.com by [Deadline].",
+        "macro_dict": {
+            "leadership": 50,
+            "project management experience": 28,
+            "communication skills": 22
+        },
+        "micro_dict": {
+            "huawei technologies": 100
+        },
+        "additional_info": "FutureNet Solutions actively seeks candidates from top engineering institutions such as BUITEMS and NUST, with a preference for candidates holding professional engineering certifications. Our hiring process includes technical assessments and multiple interview stages. We offer relocation assistance for qualified candidates and provide both on-site and remote work options based on project needs.",
+        "minimum_requirements": [
+            "Experience with Huawei and Nokia equipment",
+            "Bachelor's degree in Telecommunications Engineering",
+            "Proficiency in GSM, UMTS, LTE, and NR technologies",
+            "8+ years of industry experience"
+        ],
+        "resume": "ABOUT ME\nAs a software engineering graduate, I specialize in AI, computer vision, machine learning, and statistical analysis.\nPro\ufb01cient in full-stack development with Python Flask, MySQL, and React, I excel in crafting robust web applications\nand solving AI challenges, and always eager to explore the latest advancements. \nWORK EXPERIENCE\nA.I Engineer \nPlanet Beyond [ 01/02/2023 \u2013 Current ] \nCity: Islamabad | Country: Pakistan \n\u2022Developed and Implemented LLM Models: Leveraged technologies like GPT, BERT, and PALM2 to create and\ndeploy robust LLM models tailored to solve complex business problems and develop AI-based solutions.\n\u2022Data  Pipeline  Design  and  Optimization:  Engineered  and  optimized  data  pipelines  to  ensure  e\ufb03cient\ncollection, storage, and processing of large NLP datasets, facilitating smooth and scalable data work\ufb02ows.\n\u2022NLP Work\ufb02ow Optimization: Implemented techniques for data preprocessing, feature engineering, and model\nevaluation to streamline NLP work\ufb02ows and improve model performance.\n\u2022Machine Learning and Deep Learning Applications: Applied machine learning and deep learning algorithms\nto extract meaningful insights and patterns from text data, driving data-informed decisions.\n\u2022Addressing NLP Challenges: Tackled issues related to language ambiguity, context understanding, and\nlinguistic nuances, improving the robustness and accuracy of NLP models.\n\u2022Data Augmentation and Transfer Learning: Developed strategies for data augmentation, transfer learning,\nand \ufb01ne-tuning of pre-trained NLP models to enhance their adaptability and performance.\n\u2022Computer Vision Expertise: Integrated computer vision methodologies to analyze and interpret visual data\nwithin NLP applications, enhancing the accuracy and functionality of AI models.\n\u2022Backend Development with Python (Django and Flask): Built and maintained robust backend systems using\nDjango and Flask, integrating various AI, NLP, and computer vision modules.\n\u2022Frontend  Development  with  React:  Developed  and  implemented  user-friendly  interfaces  using  React,\nensuring seamless interaction with backend systems and providing an excellent user experience.\n\u2022REST API Development: Created and managed REST APIs to facilitate communication between frontend and\nbackend systems, ensuring e\ufb03cient data exchange and integration.\n\u2022Database Management: Pro\ufb01ciently managed databases such as MySQL, ensuring data integrity, security, and\naccessibility for various applications.\n\u2022Stripe Payment Integration: Implemented Stripe payment solutions to enable secure and e\ufb03cient transaction\nprocessing in various applications.\n\u2022MailerSend for Transaction Emails: Con\ufb01gured and managed MailerSend for handling transaction emails,\nensuring reliable and e\ufb00ective communication with users.Ali Arshad \n \n \nPhone number: (+92) 3021816411\uf879\nEmail address: aliarshad114455@gmail.com  \uf0e0Other language(s): \nEnglish \nLISTENING B2  READING B2  WRITING C1  \nSPOKEN PRODUCTION C1  SPOKEN INTERACTION C1  \u2022Generative AI Testing: Conducted extensive testing of generative AI responses to ensure accuracy, reliability,\nand quality of system outputs.\n\u2022E\ufb00ective  Communication:  Bridged  the  gap  between  technical  and  non-technical  stakeholders  by  clearly\nexplaining the results and impact of AI systems, facilitating informed decision-making.\n\u2022Continuous Learning and Improvement: Stayed abreast of the latest advancements and research in NLP and\nAI to continuously enhance the performance and capabilities of AI solutions.\n\u2022Cross-functional Collaboration: Worked closely with data scientists, software engineers, and domain experts\nto develop comprehensive NLP solutions that meet diverse needs.\nEDUCATION AND TRAINING\nBachelor of Software Engineering \nCOMSATS University Islamabad  [ 01/02/2019 \u2013 23/01/2023 ] \nCountry: Pakistan | Website: https://www.comsats.edu.pk/  | Final grade: 3.76 / 4.00 \n\u2022 Acquired a strong foundation in software engineering concepts, including design, development, testing, and\nmaintenance.\n\u2022 Developed skills in programming languages such as Java, C++, and Python, as well as databases and software\ndesign patterns.\n\u2022 Studied and excelled in AI, machine learning, computer vision, data warehousing, and data mining, earning\nA grades in these courses.\n\u2022 Participated in team-based projects and individual assignments, honing skills in problem-solving,\ncommunication, and collaboration.\n\u2022 Expanded knowledge through coursework in algorithms, data structures, and more.\n\u2022 Engaged in extracurricular activities, such as hackathons and coding competitions, further re\ufb01ning skills and\nbuilding a network of peers and industry professionals.\nSpecialization in NLP \nCoursera  [ 14/03/2023 \u2013 08/04/2023 ] \nWebsite: https://www.coursera.org/  \nLANGUAGE SKILLS \nMother tongue(s):  Urdu \nLevels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Pro\ufb01cient user\nDIGITAL SKILLS \nPython ML and NLP libraries: Panda, Numpy, Scipy, Scikit-learn, Gensim, Flair, Spacy, TF Hub /  Java /  Flask /\nSoftware testing /  Software Requirement Engineering /  Project management /  Microsoft O\ufb03ce /  MySQL (osnovni\npojmi) "
+    },
+    "details": {
+        "name": "Ali Arshad",
+        "number": "3021816411",
+        "skills": [
+            "Python",
+            "Flask",
+            "MySQL",
+            "React",
+            "Java",
+            "Django",
+            "Machine Learning",
+            "Deep Learning",
+            "NLP",
+            "Computer Vision",
+            "REST API Development",
+            "Data Pipeline Design",
+            "Data Augmentation",
+            "Transfer Learning",
+            "Stripe Payment Integration",
+            "MailerSend"
+        ],
+        "email_id": "aliarshad114455@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2023",
+                "university": "COMSATS University Islamabad",
+                "degree_title": "Bachelor of Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Specialization in NLP",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "04-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/aliarshad",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/aliarshad",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Ali Arshad is a skilled A.I Engineer specializing in AI, computer vision, and machine learning, with a strong foundation in full-stack development. He has demonstrated expertise in developing and optimizing LLM models, data pipelines, and backend systems, showcasing his technical proficiency in various programming languages and frameworks.",
+        "employment_history": [
+            {
+                "details": "Developed and implemented LLM models using GPT, BERT, and PALM2; engineered data pipelines for efficient data processing; applied machine learning and deep learning algorithms; integrated computer vision methodologies; managed databases and developed REST APIs.",
+                "end_date": "Current",
+                "location": "Islamabad, Pakistan",
+                "job_title": "A.I Engineer",
+                "start_date": "02-2023",
+                "company_name": "Planet Beyond"
+            }
+        ]
+    }
+}

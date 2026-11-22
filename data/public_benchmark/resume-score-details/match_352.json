@@ -1,0 +1,132 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has relevant business development experience at multiple banking institutions, aligning well with the job description's requirement for 3-5 years of experience in business development.",
+            "Strong skills in MS Excel noted in the resume, which are required for the role, however, no explicit mention of Stata proficiency.",
+            "The candidate holds a Bachelor's degree in Commerce, which satisfies the educational requirement in the job description.",
+            "Excellent verbal and written communication skill is explicitly stated under the skill section - aligning with job requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 9
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 8
+                },
+                {
+                    "criteria": "stata",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.25,
+                "micro_scores": 4.8
+            }
+        },
+        "personal_info": {
+            "name": "Sayyed Muhammad Ali Shah",
+            "email": "alishah14619@gmail.com",
+            "phone": "03344899892",
+            "current_position": "Business Development Banker",
+            "current_company": "Bank Al Habib Ltd",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "08-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "experience": 75,
+            "communication skills": 25
+        },
+        "micro_dict": {
+            "ms excel": 36,
+            "stata": 64
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Excellent communication skills"
+        ],
+        "resume": " \nObjectives  \n \n \n \nExperience  \n \n \n \n \n \n \n \n \n \n \n \nQualification  \nSAYYED MUHAMMAD ALI SHAH  \n03344899892  \nEmail: alishah14619@gmail.com  \nVillage and Post Office Jalalpur Sharif, Tehsil \nPinddadan Khan, District  Jhelum . \n \nTo engage in a career that will allow for progress in terms of \nexperties, socio -economics developments, and in novation \nthrough expo sure to new ideas for professional growth, as well \nas growth for the company.  \n \nBusiness Development Banker at Bank Al Habib Ltd  \nApril 2022 \u2013 Present  \nResponsibilities:  \n\u2022 Bring new Business in bank  \n\u2022 Open New Accounts  \n\u2022 Bring New Deposit  \nRelationship Manager at MCB Bank Ltd  \nOctober 2020 \u2013 April 2022  \nResponsibilities:  \n\u2022 Bring new Business in bank by Converting Remittance \nCustomers to Bank Customers  \n\u2022 Cheque Book and ATM Balancing  \n\u2022 Prepare monthly reports for cheque books.  \n\u2022 Account Opening  \nBusiness Development Officer at BankIslami Pakistan Ltd  \nAugust 2018 \u2013 October 2020  \nResponsibilities:  \n\u2022 Bring new Customers in Bank & Cross Selling  \n\u2022 Sell Autos and deal with all Auto related problems  \n\u2022 Deal with customer insurance problems  \nCMA  \nPresent ICMAP Islamabad  \nMaster s of Commerce  \n2018 NCBA&E  \nBachelor s of Commerce  \n2015 Punjab University  \n Skills  \n\u2022 Financial Reporting  \n\u2022 Data Analysis   \n\u2022 Time Management   \n\u2022 Team Player  \n\u2022 Calculations  \n\u2022 Accounting Skill  \n\u2022 MS Word, Excel & Power \npoint  \n \nLanguages  \n\u2022 English  \n\u2022 Urdu  "
+    },
+    "details": {
+        "name": "SAYYED MUHAMMAD ALI SHAH",
+        "number": "03344899892",
+        "skills": [
+            "Financial Reporting",
+            "Data Analysis",
+            "Accounting Skill",
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint"
+        ],
+        "email_id": "alishah14619@gmail.com",
+        "location": "Village and Post Office Jalalpur Sharif, Tehsil Pinddadan Khan, District Jhelum",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "NCBA&E",
+                "degree_title": "Master's of Commerce"
+            },
+            {
+                "end_date": "12-2015",
+                "university": "Punjab University",
+                "degree_title": "Bachelor's of Commerce"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "SAYYED MUHAMMAD ALI SHAH is a skilled banking professional with experience in business development and relationship management. He has a strong background in financial reporting and data analysis, complemented by proficiency in Microsoft Office applications.",
+        "employment_history": [
+            {
+                "details": "Bring new Business in bank",
+                "end_date": "Present",
+                "location": "Bank Al Habib Ltd",
+                "job_title": "Business Development Banker",
+                "start_date": "04-2022",
+                "company_name": "Bank Al Habib Ltd"
+            },
+            {
+                "details": "Bring new Business in bank by Converting Remittance Customers to Bank Customers",
+                "end_date": "04-2022",
+                "location": "MCB Bank Ltd",
+                "job_title": "Relationship Manager",
+                "start_date": "10-2020",
+                "company_name": "MCB Bank Ltd"
+            },
+            {
+                "details": "Bring new Customers in Bank & Cross Selling",
+                "end_date": "10-2020",
+                "location": "BankIslami Pakistan Ltd",
+                "job_title": "Business Development Officer",
+                "start_date": "08-2018",
+                "company_name": "BankIslami Pakistan Ltd"
+            }
+        ]
+    }
+}

@@ -1,0 +1,120 @@
+{
+    "output": {
+        "justification": [
+            "Resume does not demonstrate leadership experience in a business development context.",
+            "Some experience in business development from current role; however, not explicitly stated as managing key clients or lead generation.",
+            "No explicit MS Office Suite expertise mentioned; however, exposure is likely given academic background.",
+            "No mention of proficiency in verbal and written communication in a business context."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms word",
+                    "score": 2
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.5300000000000002,
+                "micro_scores": 2.65
+            }
+        },
+        "personal_info": {
+            "name": "Shahbaz Joiya",
+            "email": "Shahbazjoiya07@gmail.com",
+            "phone": "+923070504083",
+            "current_position": "Team Lead (Amazon Drop Shipping and Product Hunting)",
+            "current_company": "ADH Sahiwal",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 53,
+            "communication skills": 47
+        },
+        "micro_dict": {
+            "ms word": 35,
+            "verbal and written communication": 65
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Excellent communication skills"
+        ],
+        "resume": "Shahbaz Joiya \nBusiness Development Executive \nTo get a challenging position in growth and career oriented Organization, where challenges are a\nroutine work and where I show the best of my abilities and quali\ufb01cation for the progress of that\norganization and upgrade my career. \nShahbazjoiya07@gmail.com \n+923070504083 \nJohar Town R1 Phase 2,\nLahore, Pakistan \nSKILLS \nBusiness Developement \nProject Management \nCommunication \nHTML \nCSS \nJavaScript \nBootstrap \nQuick Learner \nProblem Solving \nLANGUAGES \nUrdu \nNative or Bilingual Pro\ufb01ciency \nEnglish \nProfessional Working Pro\ufb01ciency \nINTERESTS \nTravelling \nMovies Collection \nEDUCATION \nBachelor's of Science in Computer Science \nGovt. College University Faisalabad, Sahiwal Campus \n09/2017 - 07/2021\n, \n \nIntro to Management \nBusiness Developement \nSoftware Engineering \nObject Oriented Programming \nData Structure and Algorithm \nOperating System \nIntermediate in Computer Science \nPunjab College Haronabad \n04/2015 - 07/2017\n, \n \nWORK EXPERIENCE \nTeam Lead (Amazon Drop Shipping and Product Hunting) \nADH Sahiwal \n01/2022 - Present\n, \n \nPERSONAL PROJECTS \nHome Automation by using Sensors (FYP)\n (09/2020 - 06/2021)\n \nFeatures:- \nIt's a centralized control of lighting, heating, ventilation and air conditioning appliances, and\nother systems, to provide improved convenience, comfort, energy e\ufb03ciency and security. \nSensors:-\n It's includes \nTemperature Sensors & Smart Thermostats, \nLight Sensors, \nMotion Sensors, \nWindow\nand Door Sensors, and \nSmart Smoke and CO Sensors. \nE-Commerce Website \nTools:- \nVisual Studio Code, HTML, CSS, JavaScript, SQL management system and asp.net MVC. \nWeb based Ecommerce site developed in asp.net MVC. \nFeatures:-\n Check the list of Item with category, View the details of item, and List of latest Item \nACHIEVEMENTS \nThe Punjab Education Endowment Fund - PEEF\n (2017 - 2021)\n \nCourses "
+    },
+    "details": {
+        "name": "Shahbaz Joiya",
+        "number": "923070504083",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "email_id": "Shahbazjoiya07@gmail.com",
+        "location": "Johar Town R1 Phase 2, Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Home Automation by using Sensors (FYP)",
+                "description": "It's a centralized control of lighting, heating, ventilation and air conditioning appliances, and other systems, to provide improved convenience, comfort, energy efficiency and security."
+            },
+            {
+                "title": "E-Commerce Website",
+                "description": "Web based Ecommerce site developed in asp.net MVC."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2021",
+                "university": "Govt. College University Faisalabad, Sahiwal Campus",
+                "degree_title": "Bachelor's of Science in Computer Science"
+            },
+            {
+                "end_date": "07-2017",
+                "university": "Punjab College Haronabad",
+                "degree_title": "Intermediate in Computer Science"
+            }
+        ],
+        "achievements": [
+            "The Punjab Education Endowment Fund - PEEF (2017 - 2021)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Shahbaz Joiya is a dedicated Business Development Executive with a strong background in computer science and technical skills in web development technologies such as HTML, CSS, JavaScript, and Bootstrap. He has demonstrated his capabilities through various projects, including a home automation system and an e-commerce website.",
+        "employment_history": [
+            {
+                "details": "Team Lead (Amazon Drop Shipping and Product Hunting)",
+                "end_date": "Present",
+                "location": "ADH Sahiwal",
+                "job_title": "Team Lead",
+                "start_date": "01-2022",
+                "company_name": "ADH Sahiwal"
+            }
+        ]
+    }
+}

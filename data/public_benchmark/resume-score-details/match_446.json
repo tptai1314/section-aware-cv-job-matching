@@ -1,0 +1,170 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks specific mention of client relations experience, which is crucial for the macro score of Client Relations.",
+            "Strategic Planning is not highlighted in the resume, but some experience is present in business development roles, resulting in a moderate score.",
+            "Lead generation experience is implied through business development roles, although specific achievements are not detailed, leading to a moderate score.",
+            "No explicit market research activities are highlighted, but some related tasks might be inferred from business development roles, resulting in a low score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relations",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 6
+                },
+                {
+                    "criteria": "market research",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.63,
+                "micro_scores": 4.92
+            }
+        },
+        "personal_info": {
+            "name": "Iqra Yasin Malik",
+            "email": "iqrayasinmalik@gmail.com",
+            "phone": "0320-8482547",
+            "current_position": "Data Entry Operator",
+            "current_company": "Syed Mart",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "03-2019",
+            "urls": [
+                {
+                    "website_name": "Email",
+                    "url": "mailto:iqrayasinmalik@gmail.com"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "client relations": 37,
+            "strategic planning": 63
+        },
+        "micro_dict": {
+            "lead generation": 64,
+            "market research": 36
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "5+ years of relevant experience in business development",
+            "Proven track record in lead generation and client engagement",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "I Q R A  Y A S I N  M A L I KA b o u t  \nD e d i c a t e d  B u s i n e s s  D e v e l o p m e n t  E x e c u t i v e  w h o  h a s  n e t w o r k e d\nw i t h  s o m e  o f  t h e  m o s t  s i g n i f i c a n t  c o r p o r a t e  e x e c u t i v e s .  A d e p t\na t  d e v e l o p i n g  e f f e c t i v e  m a r k e t i n g  m a t e r i a l ,  n e t w o r k i n g  w i t h\nb u s i n e s s  d e c i s i o n - m a k e r s ,  a n d  t u r n i n g  b u s i n e s s  p r o s p e c t s  i n t o\nb u y i n g  c u s t o m e r s .  S p e c i a l i z e s  i n  m i l i t a r y  c o n t r a c t i n g  a n d  l a r g e -\ns c a l e  c o n s t r u c t i o n  c o n t r a c t i n g .  A l s o  a  G r a p h i c  D e s i g n e r  w i t h\ng o o d  a e s t h e t i c s .\nContact Details\nW o r k  E x p e r i e n c eE d u c a t i o n  H i s t o r y\nB u s i n e s s  D e v e l o p m e n t  E x e c u t i v e  V i r t u a l  U n i v e r s i t y  \nT h e  U n i v e r s i t y  O f  P u n j a b  \nS e n i o r  m a t h e m a t i c s  T e a c h e r  C o n t e n t  w r i t e r  -  C o n t r a c t  B a s e dE - B U I L D  P A K I S T A NG r a p h i c  D e s i g n i n g  \nB S c .  C o m p u t e r  S c i e n c e s  \nN a t i v e  S c h o o l  S y s t e m  S e p  2 0 2 0 -  M a r c h  2 0 2 2 t 2 0 2 1\n 2 0 1 9\nM a r c h  2 0 1 9  -  D e c  2 0 1 9J a n  2 0 2 0  - A u g  2 0 2 0Management\nProblem Solving\nCreativity\nLeadershipLahore Pakistan \n0320-8482547\n@iqrayasinmalikekraymalik7@gmail.com\nLanguages \n  U r d u  \n  E n g l i s h  \n  P u n j a b i\nSkills \nResearch\nCommunication B I S E  L A H O R E  \nB I S E  L A H O R E   I n t e r m e d i a t e  i n  C o m p u t e r  S c i e n c e s   \nM a t r i c u l a t i o n  2 0 1 6\n 2 0 1 3\nA d o b e  P h o t o s h o p\nA d o b e  I l l u s t r a t o r  \nA d o b e  I n - d e s i g n  \nM S  O f f i c eD a t a  E n t r y  O p e r a t o r  -  C o n t r a c t  B a s e d   S Y E D  M A R T M a r  2 0 2 2  -  P r e s e n t  \nD a t a  e n t r y  O p e r a t o r  -  C o n t r a c t  B a s e dD a r a z . p k M a r  2 0 2 1  -  A u g  2 0 2 1P r i v a t e  B u s i n e s sB u s i n e s s  D e v e l o p m e n t  E x e c u t i v e  Z O L A  P A K I S T A N  M a r c h  2 0 2 2 -  J u n e  2 0 2 2 tB u s i n e s s  D e v e l o p m e n t  E x e c u t i v e  9 9 L o g i t e c h  P V T  L T D J u l y  2 0 2 2 -  P r e s e n t\nG r a p h i c  D e s i g n e r  A L P H A  I T M a r c h  2 0 2 1 -  P r e s e n t\nSoftware Skills"
+    },
+    "details": {
+        "name": "Iqra Yasin Malik",
+        "number": "03208482547",
+        "skills": [
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "Adobe InDesign",
+            "MS Office"
+        ],
+        "email_id": "kraymalik7@gmail.com",
+        "location": "Lahore Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "03-2022",
+                "university": "The University Of Punjab",
+                "degree_title": "BSc. Computer Sciences"
+            },
+            {
+                "end_date": "03-2016",
+                "university": "BISE LAHORE",
+                "degree_title": "Intermediate in Computer Sciences"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/iqrayasinmalik",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "x.com/iqrayasinmalik",
+                "website_name": "X"
+            }
+        ],
+        "executive_summary": "Iqra Yasin Malik is a dedicated business development executive with experience in military contracting and large-scale construction contracting. She is also a skilled graphic designer proficient in various design software, showcasing her strong technical abilities in both business development and graphic design.",
+        "employment_history": [
+            {
+                "details": "Data entry operator - Contract Based",
+                "end_date": "Present",
+                "location": "Lahore Pakistan",
+                "job_title": "Data Entry Operator",
+                "start_date": "03-2022",
+                "company_name": "SYED MART"
+            },
+            {
+                "details": "Data entry operator - Contract Based",
+                "end_date": "08-2021",
+                "location": "Lahore Pakistan",
+                "job_title": "Data Entry Operator",
+                "start_date": "03-2021",
+                "company_name": "Daraz.pk"
+            },
+            {
+                "details": "Business Development Executive",
+                "end_date": "06-2022",
+                "location": "Lahore Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "03-2022",
+                "company_name": "ZOLA PAKISTAN"
+            },
+            {
+                "details": "Business Development Executive",
+                "end_date": "Present",
+                "location": "Lahore Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2022",
+                "company_name": "99 Logistech Pvt Ltd"
+            },
+            {
+                "details": "Graphic Designer",
+                "end_date": "Present",
+                "location": "Lahore Pakistan",
+                "job_title": "Graphic Designer",
+                "start_date": "03-2021",
+                "company_name": "ALPHA IT"
+            }
+        ]
+    }
+}

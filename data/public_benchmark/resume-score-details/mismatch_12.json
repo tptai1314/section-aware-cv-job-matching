@@ -1,0 +1,226 @@
+{
+    "output": {
+        "justification": [
+            "The candidate's resume is heavily focused on technical skills in computer science and AI, which are not directly relevant to the Business Development Manager role focused on sales, client relationships, and strategic planning.",
+            "Leadership experience isn't explicitly listed, but there is experience in competition supervision and society head roles, albeit not directly correlated to business development or team leadership in a sales context.",
+            "The resume lacks direct experience in business development, negotiation, and strategic planning as required by the job description.",
+            "Technical skills such as Python, ML, DL, and cloud are listed, but no skill relevant to the business development role like Excel, market research, or negotiation found."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 1
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 0
+                },
+                {
+                    "criteria": "seo",
+                    "score": 0
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.15,
+                "micro_scores": 0.79
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Mujtaba",
+            "email": "muhammadmujtaba161001@gmail.com",
+            "phone": "+92 321 1949672",
+            "current_position": "Student",
+            "current_company": "NUCES FAST Islamabad",
+            "employment_start_date_current_company": "2020",
+            "first_company_start_date": "None",
+            "urls": [
+                {
+                    "website_name": "GitHub",
+                    "url": "https://github.com/Muhammad-Mujtaba-FAST"
+                },
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/muhammad-mujtaba-77b680217/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 55,
+            "business development experience": 40,
+            "strategic planning": 5
+        },
+        "micro_dict": {
+            "market research": 7,
+            "negotiation": 24,
+            "sales strategy": 30,
+            "seo": 15,
+            "data analysis": 24
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Cell: +92 321 1949672\nEmail: muhammadmujtaba161001@gmail.com\nPROJECTS\nMuhammad Mujtaba\nComputer Science\nI am Muhammad Mujtaba, a Computer Science student at NUCES FAST Islamabad. My diverse experience\nspans multiple domains within computing, providing me with a well-rounded perspective. My passion lies in\nthe field of Artificial Intelligence, I am particularly enthusiastic about exploring novel advancements that push\nthe boundaries of AI, constantly seeking to learn and innovate in this exciting field. Currently on the path to\nmaster MERN. PROFILE\nHuman Face Generation from DCGANS.\nWear and Tear Analysis using YOLOv8.\nUber demand and supply prediction model using machine learning.\nCar damage detection with a U-Net model using CNN.\nImage classification using neural networks.\nCNIC Feature Extraction for minimizing human interaction.\nFace detection with MTCNN (Multi-task Cascaded Convolutional Networks) using deep learning.\nHam and spam message classification using machine learning.\nInvestigating Netflix Movies and prediction on the basis of region and genre (a project of Data Camp).\nParallel and distributed computing using MPI, OpenCL and Hadoop with C and Java.\nNetwork Topologies using multiple routing protocols with cisco.\nNetworking monitoring and encryption tool.\nMini CPU using all the concepts of OS with C. \nData compression using Huffman coding scheme with C++. \nClothing Store management system using 3 tire architecture with Eclipse, RSA, UML, Java, JavaFX.\nPost office system using object oriented approach with C++. \nLudo and Word Shooter game with C++github.com/Muhammad-Mujtaba-FAST\nlinkedin.com/in/muhammad-mujtaba-77b680217/\nBS Computer Science\nSociety\nCompetition Supervision NUCES FAST IslamabadCan-do attitude \nHead in Fast Data Science Societylearning aptitude\nI have supervised competitions like DataQuestEDUCATION & SIDE WORK SOFT SKILLS\n2020 - 2024\nResponsibility owning mindsetTime management\nCritical Thinking\nCommunication Skills AdaptabilityPython\nML, DL\nGenerative AIC, C++\nJAVA\nSQLLinux, Gradio\nDocker, Git Hub, Cloud\nDEVOPs, MLOPsTECHNICAL SKILLS\nAchievements\nCertified AWS Microservices and CI/CD Pipeline Builder\nTeacher Assistant of Operating System"
+    },
+    "details": {
+        "name": "Muhammad Mujtaba",
+        "number": "923211949672",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "Deep Learning",
+            "Generative AI",
+            "C++",
+            "Java",
+            "SQL",
+            "Linux",
+            "Gradio",
+            "Docker",
+            "GitHub",
+            "Cloud",
+            "DevOps",
+            "MLOps"
+        ],
+        "email_id": "muhammadmujtaba161001@gmail.com",
+        "location": "Islamabad",
+        "projects": [
+            {
+                "title": "Human Face Generation from DCGANS",
+                "description": "Generating human faces using DCGANs."
+            },
+            {
+                "title": "Wear and Tear Analysis using YOLOv8",
+                "description": "Analyzing wear and tear using YOLOv8."
+            },
+            {
+                "title": "Uber demand and supply prediction model",
+                "description": "Predicting Uber demand and supply using machine learning."
+            },
+            {
+                "title": "Car damage detection with a U-Net model",
+                "description": "Detecting car damage using a U-Net model with CNN."
+            },
+            {
+                "title": "Image classification using neural networks",
+                "description": "Classifying images using neural networks."
+            },
+            {
+                "title": "CNIC Feature Extraction",
+                "description": "Extracting CNIC features to minimize human interaction."
+            },
+            {
+                "title": "Face detection with MTCNN",
+                "description": "Detecting faces using MTCNN and deep learning."
+            },
+            {
+                "title": "Ham and spam message classification",
+                "description": "Classifying messages as ham or spam using machine learning."
+            },
+            {
+                "title": "Investigating Netflix Movies",
+                "description": "Analyzing Netflix movies based on region and genre."
+            },
+            {
+                "title": "Parallel and distributed computing",
+                "description": "Using MPI, OpenCL, and Hadoop with C and Java."
+            },
+            {
+                "title": "Network Topologies",
+                "description": "Implementing network topologies using multiple routing protocols."
+            },
+            {
+                "title": "Networking monitoring and encryption tool",
+                "description": "Developing a networking monitoring and encryption tool."
+            },
+            {
+                "title": "Mini CPU",
+                "description": "Creating a mini CPU using OS concepts with C."
+            },
+            {
+                "title": "Data compression using Huffman coding scheme",
+                "description": "Implementing data compression with Huffman coding in C++."
+            },
+            {
+                "title": "Clothing Store management system",
+                "description": "Developing a clothing store management system using Java."
+            },
+            {
+                "title": "Post office system",
+                "description": "Creating a post office system using object-oriented approach with C++."
+            },
+            {
+                "title": "Ludo and Word Shooter game",
+                "description": "Developing games using C++."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "NUCES FAST",
+                "degree_title": "BS Computer Science"
+            }
+        ],
+        "achievements": [
+            "Certified AWS Microservices and CI/CD Pipeline Builder",
+            "Teacher Assistant of Operating System"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "AWS Microservices and CI/CD Pipeline Builder",
+                "issuing_organization": "AWS",
+                "date_of_issuance": "06-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "github.com/Muhammad-Mujtaba-FAST",
+                "website_name": "GitHub"
+            },
+            {
+                "url": "linkedin.com/in/muhammad-mujtaba-77b680217/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Mujtaba is a dedicated Computer Science student at NUCES FAST Islamabad, with a strong focus on Artificial Intelligence and a diverse range of technical skills. He has undertaken numerous projects in machine learning, deep learning, and software development, showcasing his commitment to innovation and excellence in the field.",
+        "employment_history": []
+    }
+}

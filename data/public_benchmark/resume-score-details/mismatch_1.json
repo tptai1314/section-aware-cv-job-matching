@@ -1,0 +1,194 @@
+{
+    "output": {
+        "justification": [
+            "The resume is primarily focused on Android development with skills specific to that field, which does not align with the business development and B2B sales focus of the job description.",
+            "Candidates are expected to have strategic thinking and leadership capabilities in business development, which are not demonstrated in the resume.",
+            "The job description requires experience in B2B sales, market research, and IT/Manufacturing knowledge which are not evidenced in the current resume.",
+            "The additional info section stresses the importance of attending certain universities and no universities from the preferred list are present in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "experience",
+                    "score": 1
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 0
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 0
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 3
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 2
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 1.07,
+                "micro_scores": 1.31
+            }
+        },
+        "personal_info": {
+            "name": "Abdullah Saeed",
+            "email": "helloabdullah111@gmail.com",
+            "phone": "03068629153",
+            "current_position": "Android Developer",
+            "current_company": "Glowingsoft Technology Lahore,Pakistan",
+            "employment_start_date_current_company": "02-2021",
+            "first_company_start_date": "02-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/abdullah-saeed-76b4ba202"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 7,
+            "experience": 4,
+            "strategic thinking": 89
+        },
+        "micro_dict": {
+            "market research": 30,
+            "b2b sales": 13,
+            "communication skills": 27,
+            "data analysis": 25,
+            "it and manufacturing sector knowledge": 5
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "Abdullah Saeed \nAndroid developer \nhelloabdullah111@gmail.com \n03068629153 \nLahore, Pakistan \nlinkedin.com/in/abdullah-saeed-\n76b4ba202 \nI am professional developer with 1.3 years of experience and I have developed lots of native android apps in MVC, MVP, and MVVM\ndesign pattern that interact with live restful Api's and also have strong debugging skills to improve application performance and I have\nthe passion to learn new technologies and to explore new things. \nWORK EXPERIENCE \nAndroid Developer \nGlowingsoft Technology Lahore,Pakistan \n02/2021 - Present\n, \n \nI worked on xml, SQLite, retro\ufb01lt, mvvm, navigation graph, view\nbinding, data binding, restful Api \nand map integration. \nDevelops di\ufb00erent layers of mobile app \nWork on Realtime project in kotlin and java using\nAndroid Studio \nHelps maintain native Mobile apps \nIntegrate restful Api's in Mobile Apps \nTroubleshoots Bug and documents error \nDirect meeting client and project discussion \nContact \n:\n-\nMuhammad Umar Shakil \n+923219458684 \nEDUCATION \nBachelor's in Computer Science \nPUCIT \n02/2017 - 01/2021\n, \n \nFSC Pre Engineering \nKips College Gujranwala \n02/2015 - 02/2017\n, \n \nMatriculation in Science \nGHMHS Gujranwala \n02/2013 - 02/2015\n, \n \nSKILLS \nKotlin \nJava \nMVVM \nMVP \nRoom Database \nSqlite \nLoopj \nRetro\ufb01t \nRestful Api's \nJson Parsing \nView Biniding \nData Binding \nConstraints Layout \nDebugging \nPostman \nGoogle Map Api \nDependency Injection \nDagger \nNavigation Graph \nHilt \nDagger \nPERSONAL PROJECTS \nSeleckt \nits an employee management and job management app \nEasy Notes \nIts o\ufb04ine notes app with SQLite, xml, drawer navigation, history\nPembroke Food Store \nIts online grocery store app \nWiggin \nits online invoicing system \nOmfs Rounds \nits education app which have multiple choices questions \nStep RIght \nit's medical app for data save \nCareCall \nits app used for Patient, Nurse and Technician for medical use \nLANGUAGES \nEnglish \nNative or Bilingual Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nINTERESTS \nProgramming \nBook Reading \nSearching \nLearning New Things \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Abdullah Saeed",
+        "number": "03068629153",
+        "skills": [
+            "Kotlin",
+            "Java",
+            "MVVM",
+            "MVP",
+            "Room Database",
+            "Sqlite",
+            "Loopj",
+            "Retrofit",
+            "Restful Api's",
+            "Json Parsing",
+            "View Binding",
+            "Data Binding",
+            "Constraints Layout",
+            "Debugging",
+            "Postman",
+            "Google Map Api",
+            "Dependency Injection",
+            "Dagger",
+            "Navigation Graph",
+            "Hilt"
+        ],
+        "email_id": "helloabdullah111@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Seleckt",
+                "description": "its an employee management and job management app"
+            },
+            {
+                "title": "Easy Notes",
+                "description": "Its offline notes app with SQLite, xml, drawer navigation, history"
+            },
+            {
+                "title": "Pembroke Food Store",
+                "description": "Its online grocery store app"
+            },
+            {
+                "title": "Wiggin",
+                "description": "its online invoicing system"
+            },
+            {
+                "title": "Omfs Rounds",
+                "description": "its education app which have multiple choices questions"
+            },
+            {
+                "title": "Step Right",
+                "description": "it's medical app for data save"
+            },
+            {
+                "title": "CareCall",
+                "description": "its app used for Patient, Nurse and Technician for medical use"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "01-2021",
+                "university": "PUCIT",
+                "degree_title": "Bachelor's in Computer Science"
+            },
+            {
+                "end_date": "02-2017",
+                "university": "Kips College Gujranwala",
+                "degree_title": "FSC Pre Engineering"
+            },
+            {
+                "end_date": "02-2015",
+                "university": "GHMHS Gujranwala",
+                "degree_title": "Matriculation in Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/abdullah-saeed-76b4ba202",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Abdullah Saeed is a professional Android developer with over 1.3 years of experience in developing native Android applications using various design patterns such as MVC, MVP, and MVVM. He possesses strong technical skills in Kotlin and Java, and has a proven track record of integrating RESTful APIs and improving application performance through effective debugging. Abdullah is passionate about learning new technologies and exploring innovative solutions.",
+        "employment_history": [
+            {
+                "details": "Worked on XML, SQLite, Retrofit, MVVM, navigation graph, view binding, data binding, RESTful API and map integration. Developed different layers of mobile app, worked on real-time projects in Kotlin and Java using Android Studio, helped maintain native mobile apps, integrated RESTful APIs in mobile apps, troubleshot bugs and documented errors, and conducted client meetings for project discussions.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Android Developer",
+                "start_date": "02-2021",
+                "company_name": "Glowingsoft Technology"
+            }
+        ]
+    }
+}

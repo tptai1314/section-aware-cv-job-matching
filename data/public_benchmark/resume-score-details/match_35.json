@@ -1,0 +1,191 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks the required 10+ years of industry experience in project management and data analytics, having predominantly worked in sales and support roles.",
+            "No evidence of mastery in Agile or SCRUM methodologies present in the resume.",
+            "Educational requirement for a master's degree is unmet with candidate holding only a bachelor's degree in Computer Science.",
+            "Technical expertise such as Pre-Sales Consulting, Solution Architecture, Agile Methodologies, and experience with tools like PowerBI not evident."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 2
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 1
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 1
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 1
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 2
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                },
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.72,
+                "micro_scores": 1.08
+            }
+        },
+        "personal_info": {
+            "name": "Sanam Abbas",
+            "email": "sanam.abbas.90210@gmail.com",
+            "phone": "03034371437",
+            "current_position": "Sales Development Representative Technical Support",
+            "current_company": "Motive (Keeptruckin)",
+            "employment_start_date_current_company": "02-2019",
+            "first_company_start_date": "03-2015",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 16,
+            "project management experience": 32,
+            "technical expertise": 16,
+            "client relationship management": 36
+        },
+        "micro_dict": {
+            "pre-sales consulting": 19,
+            "solution architecture": 35,
+            "agile methodologies": 12,
+            "quality management systems": 8,
+            "powerbi": 26
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Strong understanding of Agile and SCRUM methodologies",
+            "10+ years of industry experience in project management and data analytics",
+            "Master's degree in Computer Science, Business Administration, or related field"
+        ],
+        "resume": "powered\tby\n\t\nsnaphunt.com\nSanam\tAbbas\nsanam.abbas.90210@gmail.com\n(+92)\t03034371437\nSales\tDevelopment\tRepresentative\tTechnical\tSupport\nFeb\t2019\t-\tJan\t2021\nMotive\t(\tKeeptruckin\t)\t\n|\t\nPakistan\nIn\tthis\tcompany\tI\twas\tresponsible\tin\tconsulting\tabout\tGPS\tand\tDashcam\tDevices\tto\tthose\tfirms\twho\twere\teligible\tto\tavail\twith\ta\tgood\nquote\tto\tsecure\ttheir\tvehicles.\nQuality\tAssurance/customer\tSupport\nMay\t2018\t-\tDec\t2019\nUcs\t\n|\t\nPakistan\nOutbound/\tinbound\tand\tas\tQuality\tAssurance\tagent-------In\tthis\tposition\tI\twas\tresponsible\tfor\tcall\tevaluation\tand\tcoaching\tthe\nresprenstatives\tregards\tsales\tand\tquality\tof\ttheir\tcalls.\nCustomer\tService/\tQuality\tAssurance\nJun\t2017\t-\tApr\t2018\nGlobe\tServices\t\n|\t\nPakistan\nDGS-\tDigital\tGlobe\tServices\t/\tibex.\t/\tWestern\tUnion,\t\nIn\tthis\tcompany\tI\tworked\tas\ta\tsales\trepresentative\tfor\tmultiple\tservice\tproviders\tof\nInternet,\tcable\tand\thome\tsecurity\tand\tautomation.\tIt\twas\ta\tU.S\tbased\tcompany\tand\to\twas\tdealing\twith\tinbound\tand\toutbound\tcalls.-------I\nalso\tgot\tpromoted\tas\ta\tQuality\tAssurance\tAdvisor\tfor\tWestern\tUnion\tin\twhich\tI\twas\tassigned\tto\tevaluate\tcalls\tof\tRepresentatives\tand\talso\ncoach\tthem\tfor\tquality\tCalls.\nVisual\tMerchandising\nMar\t2016\t-\tDec\t2016\nMango\t\n|\t\nPakistan\nIn\tthis\tjob\tI\tUse\tto\treplenish\tbags\tapparels\tand\tpresent\ttheme\tin\toutlets\tof\tcompany.\nMar\t2015\t-\tJan\t2016\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd\t\n|\t\nPakistan\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd,\t-------Customer\tservice/Telecommunicator\t\nIn\tthis\tfield\tI\tworked\tas\tcustomer\trelationship\tofficer,\tI\tuse\tto\nforward\tcomplaints\tand\tsuggestions\tRegards\tfabric\tand\tupdate\tcustomers\tabout\tany\tpromotions\tthe\tcould\tavail\tby\tvia\temail\tand\ntelephone.\nBachelor\tof\tScience,\tComputer\tScience,\tComputer\tSciences,\tInformation\nTechnology\n2014\nBachelor\tof\tScience\nA\tLevels,\tUrdu,\tEnglish,\tComputer\tScience\n2012\nBoard\tof\tIntermediate\tand\tSecondary\tEducation\nIntermediate/A-Level\t,\t\nUrdu,\tEnglish,\tComputer\tScience\t\nGrade:\tB\t\nA\tLevels\tfrom\tLahore\nMatriculation,\tEnglish,\tMathematics\n2010\nMatriculation/O-Level\t,\tBoard\tof\tIntermediate\tand\tSecondary\tEducation\t\nEnglish,\tMathematics\t\nGrade:\tB\t\nMatriculation\nMatriculation\n2003\nAga\tkhan\tAcademy\nMatriculation\tfrom\tAga\tkhan\tAcademy\nMatriculation\n1999\nAllen\tGroove\tSchool\nCompleted\tLanguages\t\nMatriculation\tfrom\tAllen\tGroove\tSchool\nEXPERIENCE\nEDUCATIONpowered\tby\n\t\nsnaphunt.com\nLANGUAGES"
+    },
+    "details": {
+        "name": "Sanam Abbas",
+        "number": "03034371437",
+        "skills": [
+            "GPS Devices",
+            "Dashcam Devices",
+            "Quality Assurance",
+            "Customer Support"
+        ],
+        "email_id": "sanam.abbas.90210@gmail.com",
+        "location": "Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2014",
+                "university": "Computer Sciences, Information Technology",
+                "degree_title": "Bachelor of Science"
+            },
+            {
+                "end_date": "01-2012",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "A Levels"
+            },
+            {
+                "end_date": "01-2010",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-2003",
+                "university": "Aga Khan Academy",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-1999",
+                "university": "Allen Groove School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Sanam Abbas is a dedicated professional with experience in technical support and quality assurance, specializing in GPS and dashcam devices. She has a strong background in customer service and has worked in various roles that emphasize her technical skills and commitment to quality.",
+        "employment_history": [
+            {
+                "details": "Responsible for consulting about GPS and Dashcam Devices to firms eligible for securing their vehicles.",
+                "end_date": "01-2021",
+                "location": "Pakistan",
+                "job_title": "Sales Development Representative Technical Support",
+                "start_date": "02-2019",
+                "company_name": "Motive (Keeptruckin)"
+            },
+            {
+                "details": "Responsible for call evaluation and coaching representatives regarding sales and quality of their calls.",
+                "end_date": "12-2019",
+                "location": "Pakistan",
+                "job_title": "Quality Assurance/customer Support",
+                "start_date": "05-2018",
+                "company_name": "Ucs"
+            },
+            {
+                "details": "Worked as a sales representative for multiple service providers and promoted to Quality Assurance Advisor for call evaluation and coaching.",
+                "end_date": "04-2018",
+                "location": "Pakistan",
+                "job_title": "Customer Service/Quality Assurance",
+                "start_date": "06-2017",
+                "company_name": "Globe Services"
+            },
+            {
+                "details": "Replenished bags and apparel and presented themes in outlets of the company.",
+                "end_date": "12-2016",
+                "location": "Pakistan",
+                "job_title": "Visual Merchandising",
+                "start_date": "03-2016",
+                "company_name": "Mango"
+            },
+            {
+                "details": "Worked as a customer relationship officer, forwarding complaints and suggestions regarding fabric and updating customers about promotions.",
+                "end_date": "01-2016",
+                "location": "Pakistan",
+                "job_title": "Customer service/Telecommunicator",
+                "start_date": "03-2015",
+                "company_name": "Al Karam Textile Mills (Pvt) Ltd"
+            }
+        ]
+    }
+}

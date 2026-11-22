@@ -1,0 +1,165 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrates leadership in multiple roles, with experience in managing a sales team and leading a customer care team, indicating strong leadership capabilities which align with the job description's requirement for leading teams.",
+            "The candidate has relevant experience as a Business Development Manager and Executive at several companies, aligning well with the role's requirements of business development and client relationship management.",
+            "The resume does not mention specific proficiency with Salesforce, which is part of the job's necessary skills, impacting the CRM Proficiency score.",
+            "There is no explicit mention of experience with strategic planning or digital marketing tools, which are preferred skills for the role, influencing the strategic planning score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm proficiency",
+                    "score": 4
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 5
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.72,
+                "micro_scores": 4.17
+            }
+        },
+        "personal_info": {
+            "name": "M. Aetsam Rasheed",
+            "email": "maetsam@gmail.com",
+            "phone": "+92 323 8817897",
+            "current_position": "Business Development Manager",
+            "current_company": "Viper Technology",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "2015-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/aetsam-r-0b487aabr"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 43,
+            "strategic planning": 57
+        },
+        "micro_dict": {
+            "salesforce": 26,
+            "crm proficiency": 9,
+            "market research": 20,
+            "proposal writing": 14,
+            "digital marketing": 31
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in CRM tools like Salesforce or HubSpot"
+        ],
+        "resume": "C O N T A C T  M E\nE D U C A T I O N13B, New Canal Garden,\nTajbagh, Lahore\nhttps://www.linkedin.com\n/in/aetsam-r-0b487aabrmaetsam@gmail.com\nHailey College of Banking & Finance\nPunjab University\nPunjab Group of CollegesBBA\nBA Political Science\nICS2020-2022\n2018-2020\n2014-2018\nS K I L L S\nResearch\nBusiness Strategy\nMarketing StrategyB2B SalesCommunicationW O R K  E X P E R I E N C E\nR E F E R E N C E SM. Aetsam\nRasheed\nBusiness Development Manager\n2022 - Continue\nViper Technology l LahoreBusiness Development Manager\nI'm working at Viper Technology since May 2022. It's a leading Hardware and Software\nSolution provider to businesses in Pakistan. I'm dealing with clients by on site meetings, calls/\nemails and offering them our Software Solutions and IT Hardware as well. Recently the\ncompany has started offering its Software & Web Development services in International\nmarket, So I'm also working on that plan and I've hired a sales team for this purpose.\n2019 - 2022\nInternational Petrochemical (PVT) LTD l UAE/LahoreBusiness Development Executive\nI've worked in IPC as Business Development Executive for 3 years. My duty was to expand\nthe business to the markets assigned to me and procuring different chemicals for customers.\nOther than that Research & Development was also part of my JDs, like searching for new\npetrochemical raw materials used in several industries like Paint, Cleaning Products, Rubber &\nTires, Pharmaceutical etc. It was a pure B2b Sales role. Our most customers were\nIndustrialists and International Traders. During my 3 years experience I worked in almost 25\ncountries from different regions like Latin America, Europe, Asia, Middle East and CIS. I was\ndealing with clients through outbound/inbound calls, emails and video conferencing.\n2018 - 2019\n7-Continents Travel l UK/LahoreInternational Sales Executive\nI've worked in 7-Continents Travel for 1 year as Sales executive, my duties were to deal with\nthe inbound inquiries from clients related to Holidays plan, Umrah and Hajj and converting\ninquiries into sales by preparing and offering tailor made travel plans to clients. I was also\nleading the retention and complaints department. It was a UK based company so I was\ndealing with clients through outbound/inbound calls and emails.\n2015 - 2018\nLMTS l UK/LahoreBusiness Development Executive\nI've worked in LMTS for 3 years as Business Development Executive, My duty was to expand\nthe business as well as leading the customer care team, It was a UK based company, so I was\ndealing with clients through outbound/inbound calls, emails and video conferencing.\n+92 323 8817897Ameer Hamza\nPhone: BDM, IPC\n+92 321 7887404Malik Usman Ghani\nPhone: BDM, TCS+92 323 5986453"
+    },
+    "details": {
+        "name": "M. Aetsam Rasheed",
+        "number": "923238817897",
+        "skills": [
+            "B2B Sales"
+        ],
+        "email_id": "maetsam@gmail.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Hailey College of Banking & Finance, Punjab University",
+                "degree_title": "BBA"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "Punjab Group of Colleges",
+                "degree_title": "BA Political Science"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "ICS",
+                "degree_title": "ICS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/aetsam-r-0b487aa",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "M. Aetsam Rasheed is a Business Development Manager with extensive experience in B2B sales and business expansion across various industries. He has a strong background in client relations and has successfully contributed to the growth of companies in both local and international markets.",
+        "employment_history": [
+            {
+                "details": "Working at Viper Technology, dealing with clients through onsite meetings, calls, and emails, offering Software Solutions and IT Hardware. Involved in expanding services to the international market and managing a sales team.",
+                "end_date": "Continue",
+                "location": "Lahore",
+                "job_title": "Business Development Manager",
+                "start_date": "05-2022",
+                "company_name": "Viper Technology"
+            },
+            {
+                "details": "Worked as Business Development Executive, responsible for expanding business in assigned markets and procuring chemicals for customers. Engaged in research and development for new petrochemical raw materials.",
+                "end_date": "04-2022",
+                "location": "UAE/Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2019",
+                "company_name": "International Petrochemical (PVT) LTD"
+            },
+            {
+                "details": "Handled inbound inquiries related to travel plans and converted them into sales. Led the retention and complaints department.",
+                "end_date": "12-2019",
+                "location": "UK/Lahore",
+                "job_title": "International Sales Executive",
+                "start_date": "01-2018",
+                "company_name": "7-Continents Travel"
+            },
+            {
+                "details": "Expanded business and led the customer care team, dealing with clients through various communication channels.",
+                "end_date": "12-2018",
+                "location": "UK/Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2015",
+                "company_name": "LMTS"
+            }
+        ]
+    }
+}

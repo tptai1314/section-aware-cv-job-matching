@@ -1,0 +1,138 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not meet the education qualification as the candidate holds a Master's in Physical Education, not a related business field.",
+            "The candidate has a total of 3 years of work experience, insufficient for the 5+ years requirement.",
+            "The resume does not demonstrate experience with CRM and ERP systems or tools like SAP, Vistex, and Salesforce which is a required skill.",
+            "There is no mention of data analysis and forecasting tool proficiency, needed for this role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3.0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sap erp",
+                    "score": 0.0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "CRM and ERP systems experience",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years experience",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's in relevant field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in data analysis tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza",
+            "email": "razaa694@gmail.com",
+            "phone": "+92-332-8707574",
+            "current_position": "Accountant",
+            "current_company": "Continental Biscuits",
+            "employment_start_date_current_company": "2022",
+            "first_company_start_date": "2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "sap erp": 100
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce",
+            "5+ years of experience in sales or key account management",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in data analysis and forecasting tools"
+        ],
+        "resume": " \n \n \nObjective: - \nTo pursue  career  in a progressive  organization  that  provides  opportunities  \nfor career growth and professional development in order to groom the overall  \npersonality.  \n Personal  Information: - \nFather\u2019s  Name  Muhammad  Essa  \nDate  of Birth  10-02-1993  \nCNIC  No. 35102 -2529071 -3 \n \nDomicile  Kasur  (Punjab)  \n \nReligion  Islam  \n \nGender  Male  \n \nMarital  Status  Married  \n \n \nAcademic  Record: - \n \nDegree  Division  Year  Passing  Board/University  \nMatriculation  2nd 2009  BISE  Lahore  \nI.Com  1st 2012  BISE  Lahore  \nB.Com  2nd 2014  Punjab  University  \nM.A  Physical  Education  1st 2017  University  of Sargodha  \nURRICULUM  \nITAE  \nAAALLLIII RRRAAAZZZAAA \nPostal  Address:  Bahmani  Wala  Khurd,  Kasur  \nCell:  +92 -332 -8707574  \nE-Mail:  razaa694@gmail.com  \nComputer  Skills: - \n \n\u27a2 Diploma  in Computer  Sciences  DOM  \n \n\u27a2 Typing  Speed  40wpm  \n \nExperience: - \n \n\u27a2 . 02 Years  experience  as \u201cBusiness  Development  Officer\u201d  at Allied  Bank Kasur.  \n \n\u27a2 01 Year  experience  as a \u201cRelationship  Manager\u201d  at JS Bank  Kasur.  \n \n\u27a2 01 Year  experience        as  a  \u201c ACCOUNTANT     \u201don word       at  C ontinental Biscuits in \nkasur . \n \nLanguage: - \n \n\u27a2 English  \n \n\u27a2 Urdu  \n \n\u27a2 Punjabi  \n \nPersonal  Qualities: - \n \n\u27a2 Work  well  under  pressure  \n \n\u27a2 Work  well  as team  member  \n \n\u27a2 Strong  Organization,  Problem  Solving  \n \nReference: - \n \n\u27a2 Will  be furnished  on demand  \n"
+    },
+    "details": {
+        "name": "Raza Ali",
+        "number": "923328707574",
+        "skills": [
+            "Computer Sciences",
+            "Typing Speed 40wpm"
+        ],
+        "email_id": "razaa694@gmail.com",
+        "location": "Bahmani Wala Khurd, Kasur",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "University of Sargodha",
+                "degree_title": "M.A Physical Education"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Punjab University",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "BISE Lahore",
+                "degree_title": "I.Com"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "BISE Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Raza Ali is a dedicated professional with a background in business development and relationship management, possessing strong technical skills in computer sciences and typing. He has accumulated valuable experience in the banking sector and is committed to furthering his career in a progressive organization.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer at Allied Bank, responsible for client acquisition and relationship management.",
+                "end_date": "11-2024",
+                "location": "Kasur",
+                "job_title": "Business Development Officer",
+                "start_date": "11-2022",
+                "company_name": "Allied Bank"
+            },
+            {
+                "details": "Relationship Manager at JS Bank, focusing on customer service and account management.",
+                "end_date": "11-2021",
+                "location": "Kasur",
+                "job_title": "Relationship Manager",
+                "start_date": "11-2020",
+                "company_name": "JS Bank"
+            },
+            {
+                "details": "Accountant at Continental Biscuits, managing financial records and transactions.",
+                "end_date": "11-2020",
+                "location": "Kasur",
+                "job_title": "Accountant",
+                "start_date": "11-2019",
+                "company_name": "Continental Biscuits"
+            }
+        ]
+    }
+}

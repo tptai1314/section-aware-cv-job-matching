@@ -1,0 +1,244 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has no relevant B2B sales or business development experience aligned with the job description.",
+            "There is no mention of market research or data analysis skills needed for the role.",
+            "The resume does not demonstrate any experience in the IT and manufacturing sectors as required in the job description.",
+            "The candidate's experiences are mainly focused on software development, particularly in Android applications, which is not relevant to the role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 2
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.0,
+                "micro_scores": 1.87
+            }
+        },
+        "personal_info": {
+            "name": "Zeshan Ashraf",
+            "email": "zeshanashraf829@gmail.com",
+            "phone": "(+92) 300-9671829",
+            "current_position": "Sr. Software Engineer (Android)",
+            "current_company": "ArhamSoft",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "09-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "market research": 11,
+            "communication skills": 20,
+            "data analysis": 7,
+            "it and manufacturing sector knowledge": 62
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "Zeshan Ashraf\nAndroid Application Developer\n281-D3, Wapda Town, Lahore, 64000\n(+92) 300-9671829\nzeshanashraf829@gmail.com\nPortfolio\nDate of Joining:\n1 month notice period\nSKILLS\nAndroid Development, Java, Kotlin, MVC, MVVM, Clean Architecture, Android\nJetPack, Dependency Injection, Firebase, Version Controlling Systems/Tools,\nGoogle Maps, MapBox, In-app Purchasing(GooglePay), Payment Gateways, ML\nKit, TensorFlow, Retro\ufb01t, ANL, Socket.IO, SQLite, ROOM\nEXPERIENCE\nArhamSoft,  Lahore, Pakistan\n- Sr. Software Engineer\n(Android)\nSEPTEMBER 2021 - PRESENT\nWorking as an Android Application Developer. Hired for a UK based client for\nmanaging all their applications which are operating in the UK. My job is to\nmanage all applications of that client\u2019s business.Developing, Modifying and\nUpgrading all the applications. Applications are based on CRM.\nI\u2019ve to manage all their apps which are mentioned below\n\u25cf\nTablet Solutions CRM Live (Charity Collection App for \ufb01eld agents)\n\u25cf\nTablet Solutions CRM Live Spanish (For Spanish only)\n\u25cf\nRecruitment (Spanish and General for Managers)\n\u25cf\nCRM Orders(Order Taking for multi purposes)\nXint Solutions,  Lahore, Pakistan\n- Sr. Software Engineer\n(Android)\nJANUARY 2018 - SEPTEMBER 2021\nWorking as an Android Application Developer. My job is to design and develop\nandroid applications according to the client's demand. I am working on api\nintegration, UI development and many things which an app requires.\nI've developed apps related to or have features\n\u25cf\nTicketing/Booking Apps (Air, Buses, Cinema & Events)\n\u25cf\nBanking system Apps\n\u25cf\nE-Commerce apps\n\u25cf\nPayment Integrations (Micro\ufb01nance Banks, Stripe, PayPal & PayPro)\n\u25cf\nFace & Voice detecting/recognizer apps\n\u25cf\nSocial Media Apps\n\u25cf\nOnline/O\ufb04ine base apps\n\u25cf\nEducation apps (Read & Learning with Audio/Video Streaming)\n\u25cf\nSocket I/O implementations\n\u25cf\nMaps\n\u25cf\nWeb Scraping\n\u25cf\nFirebase and MLKIT\n\u25cf\nGoogle/FaceBook Ads\nMatrix Solutions, Lahore, Pakistan\n- Software Developer\nInternee\nSEPTEMBER 2017 - DECEMBER 2017\n3 months of Internship, Where I have experienced and my responsibilities is to\ndevelop websites in .NET MVC, Umbraco CMS and WordPress CMS\nFrameworks.\nEDUCATION\nThe University of Lahore, Lahore, Pakistan\n- Bachelor\u2019s\nof Science in \nComputer Science\nOCTOBER 2013 - JULY 2017\nAWARDS\nWork Recognition Award\n- Xint Solutions\nMarch 2019\nA Work Recognition Award and Appreciation Certi\ufb01cate given by MYTM ( Xint \nSolutions, Lahore ) Powered by Rentracks In the Annual Conference held in\nLahore, Pakistan - March 10, 2019.\nAppreciation Certi\ufb01cate\n- Xint Solutions\nNovember 2020 \nWinning Appreciation Certi\ufb01cate for Good Performance & Deliverance\nAppreciation Certi\ufb01cate and Titles\n- ArhamSoft\nApril 2022 \nWinning Appreciation Certi\ufb01cate for Good Performance & Deliverance and\nTitle of Rising Star in the Annual Dinner held in Nishat Hotel, Lahore, Pakistan\nPROJECTS\nTablet Solutions (CRM Live General and Spanish Speci\ufb01c)\nAndroid, Kotlin, Retro\ufb01t, MVVM, Multi Language, Graphs, Totally Dynamic\nRecruitment (General and Spanish Speci\ufb01c)\nAndroid, Kotlin, Retro\ufb01t, MVVM, Multi Language, Scanning Documents\nOrders\nAndroid, Kotlin, Retro\ufb01t, MVC\nMYTM Corporate\nAndroid Studio, JAVA, MVC\nMYTM\nAndroid Studio, JAVA, MVC, ANL, Payment Integration, AdMob, FireBase\nDubai Islamic Bank (Dummy App)\nAndroid, JAVA, ANL, MVC\nVirtual Assistant\nAndroid, JAVA, Firebase, MLKit (Translation Api), MVVM\nSindh Solid Waste Management Board - Supervisor Karachi\nAndroid, MVVM, ANL, JAVA,  SQLite\nSindh Solid Waste Management Board - Complaint Karachi\nAndroid, MVVM, ANL, JAVA, Google Maps\nKangjie AMS ( Attendance Management System)\nAndroid, MVVM, ANL, JAVA, SQLite, OpenCV, MLKIT\nKangjie CMS (Complaint Management System)\nAndroid, Java, ANL, MVVM\nCovid Q (CQ)\nAndroid Studio, JAVA, MVC, Retro\ufb01t, Firebase, Google Map\nTRAFCO TRACKING\nAndroid, ANL, MVC, JAVA, MapBox\nSalon Apps\nAndroid, ANL, MVC, JAVA\nNI'MAT\nE-Commerce, Android, JAVA, MVC, ANL, Payment integration\nYems\nAndroid, MVC, Retro\ufb01t, JAVA, Socket i.o\nSubho\nShaam\nKE\nAzkar\n:\n\ufebb\ufe91\ufea2\n\u0648\n\ufeb7\ufe8e\u0645\n\ufb90\ufbaf\n\u0627\u0630\ufb90\ufe8e\u0631\nO\ufb04ine base App,, Android, ANL, MVC, JAVA, Firebase\nRamadan Ride\nO\ufb04ine base App, Education, Android, ANL, JAVA, MVC, Firebase\nQuickSta\nAndroid, JAVA, ANL, MVC, FireBase, In-app Purchasing, AdMob\nUVDOWN (Youtube Video Downloader)\nAndroid, JAVA, ANL, MVC, FireBase, In-app Purchasing, AdMob, FaceBook\nAds\nGOLDACRE\nWeb Application .net CMS Umbraco.\nCAPREON\nA Web Application PHP CMS Wordpress.\n"
+    },
+    "details": {
+        "name": "Zeshan Ashraf",
+        "number": "923009671829",
+        "skills": [
+            "Android Development",
+            "Java",
+            "Kotlin",
+            "MVC",
+            "MVVM",
+            "Clean Architecture",
+            "Android JetPack",
+            "Dependency Injection",
+            "Firebase",
+            "Version Controlling Systems/Tools",
+            "Google Maps",
+            "MapBox",
+            "In-app Purchasing(GooglePay)",
+            "Payment Gateways",
+            "ML Kit",
+            "TensorFlow",
+            "Retrofit",
+            "ANL",
+            "Socket.IO",
+            "SQLite",
+            "ROOM"
+        ],
+        "email_id": "zeshanashraf829@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Tablet Solutions (CRM Live General and Spanish Specific)",
+                "description": "Android, Kotlin, Retrofit, MVVM, Multi Language, Graphs, Totally Dynamic"
+            },
+            {
+                "title": "Recruitment (General and Spanish Specific)",
+                "description": "Android, Kotlin, Retrofit, MVVM, Multi Language, Scanning Documents"
+            },
+            {
+                "title": "Orders",
+                "description": "Android, Kotlin, Retrofit, MVC"
+            },
+            {
+                "title": "MYTM Corporate",
+                "description": "Android Studio, JAVA, MVC"
+            },
+            {
+                "title": "MYTM",
+                "description": "Android Studio, JAVA, MVC, ANL, Payment Integration, AdMob, FireBase"
+            },
+            {
+                "title": "Dubai Islamic Bank (Dummy App)",
+                "description": "Android, JAVA, ANL, MVC"
+            },
+            {
+                "title": "Virtual Assistant",
+                "description": "Android, JAVA, Firebase, MLKit (Translation Api), MVVM"
+            },
+            {
+                "title": "Sindh Solid Waste Management Board - Supervisor Karachi",
+                "description": "Android, MVVM, ANL, JAVA, SQLite"
+            },
+            {
+                "title": "Sindh Solid Waste Management Board - Complaint Karachi",
+                "description": "Android, MVVM, ANL, JAVA, Google Maps"
+            },
+            {
+                "title": "Kangjie AMS (Attendance Management System)",
+                "description": "Android, MVVM, ANL, JAVA, SQLite, OpenCV, MLKIT"
+            },
+            {
+                "title": "Kangjie CMS (Complaint Management System)",
+                "description": "Android, Java, ANL, MVVM"
+            },
+            {
+                "title": "Covid Q (CQ)",
+                "description": "Android Studio, JAVA, MVC, Retrofit, Firebase, Google Map"
+            },
+            {
+                "title": "TRAFCO TRACKING",
+                "description": "Android, ANL, MVC, JAVA, MapBox"
+            },
+            {
+                "title": "Salon Apps",
+                "description": "Android, ANL, MVC, JAVA"
+            },
+            {
+                "title": "NI'MAT",
+                "description": "E-Commerce, Android, JAVA, MVC, ANL, Payment integration"
+            },
+            {
+                "title": "Yems",
+                "description": "Android, MVC, Retrofit, JAVA, Socket i.o"
+            },
+            {
+                "title": "Subho Shaam KE Azkar",
+                "description": "Offline base App, Android, ANL, MVC, JAVA, Firebase"
+            },
+            {
+                "title": "Ramadan Ride",
+                "description": "Offline base App, Education, Android, ANL, JAVA, MVC, Firebase"
+            },
+            {
+                "title": "QuickSta",
+                "description": "Android, JAVA, ANL, MVC, FireBase, In-app Purchasing, AdMob"
+            },
+            {
+                "title": "UVDOWN (Youtube Video Downloader)",
+                "description": "Android, JAVA, ANL, MVC, FireBase, In-app Purchasing, AdMob, FaceBook Ads"
+            },
+            {
+                "title": "GOLDACRE",
+                "description": "Web Application .net CMS Umbraco."
+            },
+            {
+                "title": "CAPREON",
+                "description": "A Web Application PHP CMS Wordpress."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2017",
+                "university": "The University of Lahore",
+                "degree_title": "Bachelor\u2019s of Science in Computer Science"
+            }
+        ],
+        "achievements": [
+            "Work Recognition Award - Xint Solutions, March 2019",
+            "Appreciation Certificate - Xint Solutions, November 2020",
+            "Appreciation Certificate and Titles - ArhamSoft, April 2022"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zeshanashraf",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/zeshanashraf",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Zeshan Ashraf is an accomplished Android Application Developer with extensive experience in developing and managing applications for various clients. He possesses strong technical skills in Android Development, Java, and Kotlin, and has a proven track record of delivering high-quality applications across multiple domains including e-commerce, banking, and education. His dedication to excellence is reflected in his numerous awards and recognitions throughout his career.",
+        "employment_history": [
+            {
+                "details": "Working as an Android Application Developer. Hired for a UK based client for managing all their applications which are operating in the UK. My job is to manage all applications of that client\u2019s business. Developing, Modifying and Upgrading all the applications. Applications are based on CRM.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sr. Software Engineer (Android)",
+                "start_date": "09-2021",
+                "company_name": "ArhamSoft"
+            },
+            {
+                "details": "Working as an Android Application Developer. My job is to design and develop android applications according to the client's demand. I am working on API integration, UI development and many things which an app requires.",
+                "end_date": "09-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sr. Software Engineer (Android)",
+                "start_date": "01-2018",
+                "company_name": "Xint Solutions"
+            },
+            {
+                "details": "3 months of Internship, Where I have experienced and my responsibilities is to develop websites in .NET MVC, Umbraco CMS and WordPress CMS Frameworks.",
+                "end_date": "12-2017",
+                "location": "Lahore, Pakistan",
+                "job_title": "Software Developer Intern",
+                "start_date": "09-2017",
+                "company_name": "Matrix Solutions"
+            }
+        ]
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "output": {
+        "justification": [
+            "The candidate's experience in business development roles aligns with the role's requirements for leadership and implementing strategies, providing detailed knowledge of the field.",
+            "While the candidate does not have a formal degree in Business Administration, their extensive work experience in business roles could be considered equivalent.",
+            "Strategic Planning is not directly evidenced in the resume; while experience in business development roles suggests some exposure, it is not explicitly mentioned or quantified.",
+            "There is basic digital marketing experience from working as an Assistant Marketing Manager, but the level of expertise is not clear."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 4
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 4.529999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Shahbaz Akmal",
+            "email": "Sb144368@gmail.com",
+            "phone": "+923425245234",
+            "current_position": "Senior Business Development Executive",
+            "current_company": "Aspire Analytica Software Company Private Limited",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "strategic planning": 100
+        },
+        "micro_dict": {
+            "salesforce": 47,
+            "digital marketing": 53
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "OBJECTIVE\nToenhancemyskillsthroughpassionate,Challenges,Careerorientedand\nmotivationaltasksbyworkinginadynamicenvironmentinpursuitofmywork\nexperience.Toworkasaspirited,competitiveandgrowasaproficient,innovative,\ncommittedpersonandtocontributemyprofessionalskillsasateamplayertoan\nesteemedorganizationwithaneverlearninganddynamicpropensityservingforself-\nactualization\u2019sprestige.\nPROFILE\nFatherName:MushtaqHussain\nDateofBirth.:15-12-1993\nCNICNo. :34301-4668599-1\nNationality :Pakistani\nMaritalStatus:Single\nReligion. :Islam\nEDUCATION\nQUALIFICATION YEARS. BOARD/UNIVERSITY\nLLB. 2021 UniversityofthePunjab\nI.R. 2021 UniversityoftheSargodha\nB.Com. 2017 UniversityofthePunjab\nI.Com 2014 BISEGujranwala\nMatric 2012 BISEGujranwala\nSKILLS\n\uf0b2BusinessDevelopment\n\uf0b2Communication\n\uf0b2Interpersonal\n\uf0b2MSOffice,BasicsComputer,windowsInstallation,internetBrowser&etc\u2026\u2026\n\uf0b2TeamPlayer\n\uf0b2AdaptabilityandFlexibility\n\uf0b2TimeManagement\n\uf0b2CustomerServiceandActiveListeningCURICULUMVITAE\nSHAHBAZAKMAL\nWORKINGEXPERIENCE\n\uf0762YearsworkingExperienceasa\u2018\u2019MarketingAssistantManager\u2019\u2019inOrbit\nMarketingConsultingCompany,Lahore&Islamabad.\n\uf0762YearsworkingExperienceasa\u201cAssistantManager\u201dinDominos,Hafizabad.\n\uf0761YearworkingExperienceasa\u201cAdmin\u201dinAspireGroupofCollege,Lahore.\n\uf0761YearworkingExperienceasa\u201cBusinessDevelopmentExecutive\u201datsyber\nadvancesolutionsandtechnologies.\n\uf0761YearWorkingExperienceasa\u201cSeniorBusinessDevelopmentExecutive\u201dat\nAspireAnalyticaSoftwareCompanyPrivateLimited\nLANGUAGE\n\uf076English,Urdu,Punjabi\nCONTACT\nSb144368@gmail.com\n+923425245234\n+923024299315\nNewGardenTownLahore\nHOBBIES\nPhotography Reading\nMusic Writing\nREFERENCE\nWillbefurnishedondemand\n"
+    },
+    "details": {
+        "name": "Shahbaz Akmal",
+        "number": "923425245234",
+        "skills": [
+            "MS Office",
+            "Basics Computer",
+            "Windows Installation",
+            "Internet Browser"
+        ],
+        "email_id": "Sb144368@gmail.com",
+        "location": "New Garden Town, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "University of the Punjab",
+                "degree_title": "LLB"
+            },
+            {
+                "end_date": "06-2021",
+                "university": "University of Sargodha",
+                "degree_title": "I.R."
+            },
+            {
+                "end_date": "06-2017",
+                "university": "University of the Punjab",
+                "degree_title": "B.Com."
+            },
+            {
+                "end_date": "06-2014",
+                "university": "BISE Gujranwala",
+                "degree_title": "I.Com"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "BISE Gujranwala",
+                "degree_title": "Matric"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Shahbaz Akmal is a dedicated professional with diverse experience in marketing and business development, having worked in various roles across multiple companies. He possesses strong technical skills in MS Office and computer operations, contributing effectively to team environments and organizational goals.",
+        "employment_history": [
+            {
+                "details": "Worked as a Marketing Assistant Manager, overseeing marketing strategies and team management.",
+                "end_date": "11-2024",
+                "location": "Lahore & Islamabad",
+                "job_title": "Marketing Assistant Manager",
+                "start_date": "11-2022",
+                "company_name": "Orbit Marketing Consulting Company"
+            },
+            {
+                "details": "Assisted in managing operations and customer service at a fast-paced environment.",
+                "end_date": "11-2022",
+                "location": "Hafizabad",
+                "job_title": "Assistant Manager",
+                "start_date": "11-2020",
+                "company_name": "Dominos"
+            },
+            {
+                "details": "Managed administrative tasks and supported college operations.",
+                "end_date": "11-2020",
+                "location": "Lahore",
+                "job_title": "Admin",
+                "start_date": "11-2019",
+                "company_name": "Aspire Group of College"
+            },
+            {
+                "details": "Engaged in business development activities and client relations.",
+                "end_date": "11-2019",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2018",
+                "company_name": "Cyber Advance Solutions and Technologies"
+            },
+            {
+                "details": "Led business development initiatives and client engagement strategies.",
+                "end_date": "11-2018",
+                "location": "",
+                "job_title": "Senior Business Development Executive",
+                "start_date": "11-2017",
+                "company_name": "Aspire Analytica Software Company Private Limited"
+            }
+        ]
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "output": {
+        "justification": [
+            "Leadership experience is lacking as roles are entry-level positions, unable to demonstrate needed leadership capability.",
+            "Relevant experience in sales and marketing is under 5 years with no single position showcasing a senior role or CRM usage.",
+            "No evidence of proficiency in Salesforce or HubSpot which are crucial to meeting CRM proficiency requirements.",
+            "No data visualization or analytical skills evidenced which are critical in informing business strategies."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "sales experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "marketing expertise",
+                    "score": 3
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 1
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 0
+                },
+                {
+                    "criteria": "hubspot",
+                    "score": 0
+                },
+                {
+                    "criteria": "email marketing",
+                    "score": 2
+                },
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data visualization",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.12,
+                "micro_scores": 1.12
+            }
+        },
+        "personal_info": {
+            "name": "Shoaib Salman",
+            "email": "Shoaibsalman.network@gmail.com",
+            "phone": "03209495779",
+            "current_position": "Sales & Marketing",
+            "current_company": "AMCO PAINT INDUSTRIES",
+            "employment_start_date_current_company": "07-2022",
+            "first_company_start_date": "04-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "leadership": 10,
+            "sales experience": 17,
+            "marketing expertise": 34,
+            "analytical skills": 39
+        },
+        "micro_dict": {
+            "salesforce": 15,
+            "hubspot": 20,
+            "email marketing": 19,
+            "market research": 28,
+            "seo": 3,
+            "data visualization": 15
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Demonstrated ability in team leadership and mentoring",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": "70-2-C1 COLLEGE ROAD\nTOWNSHIP LAHORE\nE-mail\n:\n \nShoaibsalman.network@gmail.com\nPhone\n:\n \n03209495779\nWORK\nEXPERIENCE\nAMCO PAINT INDUSTRIES\nJULY 2022 \u2014 SEPTEMBER 2022\nBOURBON CLOTHING\nDECEMBER 2021 \u2014 MARCH 2022\nKarvan-e-News Agency\nApril 2021 \u2014 June 2021\nSales & Marketing\nMaintain relationship with clients\nManage company image in a cohesive way to achieve our marketing goals.\nUnderstand business objectives and design.\nSocial Media Strategist\nDesign and implement social media strategy to align with business goals.\nSupport scheduling and posting content on all platforms.\nProduct marketing copy to promote our products.\nDevelop related content for multiple platforms, such as product descriptions and\nvideo marketing.\nJunior Business Developer\nMaintain relationship with clients\nManage company image in a cohesive way to achieve our marketing goals.\nUnderstand business objectives and design.\nProvide competitive analysis on various companies marketing offerings.\nUnderstand company business model.\nCERTIFICATION\nHAFIZ-E-QURAN      (2007-2010)\nEDUCATION\nBACHELOR IN BUSINESS\nADMINISTRATION\n2018 \u2014 2022\nICS\n2016 \u2014 2018\nMATRICULATION (SCIENCE)\n2014 \u2014 2016\nUNIVERSITY OF CENTRAL PUNJAB\nCONCORDIA COLLEGE\nKIPSCHOOL\nSKILLS\nMarketing Management\nSocial Media Marketing\nSocial Media Strategist\nBusiness Development\nREFERENCES\nReferences available upon request.\nSHOAIB SALMAN\nSHOAIB SALMAN\n1SHOAIB SALMAN\n2"
+    },
+    "details": {
+        "name": "Shoaib Salman",
+        "number": "03209495779",
+        "skills": [
+            "Marketing Management",
+            "Social Media Marketing",
+            "Social Media Strategist",
+            "Business Development"
+        ],
+        "email_id": "shoaibsalman.network@gmail.com",
+        "location": "70-2-C1 College Road Township Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "University of Central Punjab",
+                "degree_title": "Bachelor in Business Administration"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "Concordia College",
+                "degree_title": "ICS"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Kipschool",
+                "degree_title": "Matriculation (Science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Hafiz-e-Quran",
+                "issuing_organization": "",
+                "date_of_issuance": "2010"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Shoaib Salman is a skilled marketing professional with experience in social media strategy and business development, demonstrating a strong ability to manage client relationships and align marketing goals with business objectives.",
+        "employment_history": [
+            {
+                "details": "Maintain relationship with clients and manage company image to achieve marketing goals.",
+                "end_date": "09-2022",
+                "location": "",
+                "job_title": "Sales & Marketing",
+                "start_date": "07-2022",
+                "company_name": "Amco Paint Industries"
+            },
+            {
+                "details": "Design and implement social media strategy to align with business goals and support content scheduling and posting.",
+                "end_date": "03-2022",
+                "location": "",
+                "job_title": "Social Media Strategist",
+                "start_date": "12-2021",
+                "company_name": "Bourbon Clothing"
+            },
+            {
+                "details": "Maintain client relationships and provide competitive analysis on marketing offerings.",
+                "end_date": "06-2021",
+                "location": "",
+                "job_title": "Junior Business Developer",
+                "start_date": "04-2021",
+                "company_name": "Karvan-e-News Agency"
+            }
+        ]
+    }
+}

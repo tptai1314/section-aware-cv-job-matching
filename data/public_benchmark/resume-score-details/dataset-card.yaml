@@ -1,0 +1,98 @@
+---
+annotations_creators:
+- machine-generated
+language_creators:
+- machine-generated
+language:
+- en
+license:
+- unknown
+multilinguality:
+- monolingual
+size_categories:
+- 1K<n<10K
+source_datasets:
+- original
+task_categories:
+- text-classification
+task_ids:
+- text-scoring
+paperswithcode_id: null
+pretty_name: Resume and Job Description Matching Dataset
+tags:
+- resume-scoring
+- job-matching
+- recruitment
+dataset_info:
+  features:
+  - name: input
+    dtype: dict
+    description: Contains job description, scoring criteria, and resume text
+  - name: output  
+    dtype: dict
+    description: Contains scoring results, justifications and candidate info
+  - name: details
+    dtype: dict
+    description: Detailed resume analysis and extracted information
+  config:
+    default:
+      splits:
+      - name: train
+        num_examples: 1031
+  splits:
+  - name: train
+    num_examples: 1031
+  download_size: null
+  dataset_size: null
+---
+
+### Dataset Summary
+
+Dataset containing 1,031 samples of resumes and job descriptions with detailed scoring and matching analysis. Includes matched pairs, mismatched pairs, and invalid samples to support research in AI-driven recruitment and job matching.
+
+### Languages
+English
+
+### Dataset Structure
+
+The dataset contains JSON files with resume-JD pairs and their matching analysis:
+- 201 Mismatched samples
+- 648 Matched samples  
+- 142 Invalid samples
+- 40 samples missing additional info
+
+Each sample includes:
+- Input: Job description, scoring criteria, resume
+- Output: Scores, justifications, candidate info  
+- Details: Detailed resume analysis
+
+### Data Fields
+
+Input:
+- job_description: Full job description text
+- macro_dict: High-level scoring criteria weights
+- micro_dict: Detailed scoring criteria weights
+- additional_info: Extra requirements
+- minimum_requirements: Core qualifications
+- resume: Resume text
+
+Output:
+- justification: Score reasoning
+- scores: Detailed scoring breakdown
+- personal_info: Candidate details
+- valid_resume_and_jd: Validity flag
+
+Details:
+- Resume component analysis (education, skills, etc)
+
+### Data Splits
+
+Single training split with 1,031 samples
+
+### Source Data
+
+Generated using GPT-4o based on resume samples
+
+### Licensing Information
+
+Please cite: Dataset generated using GPT-4o by [rohan/netsol]

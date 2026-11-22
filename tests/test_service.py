@@ -13,7 +13,7 @@ from cvjd.storage import chroma
 REPO_SRC = str(Path(__file__).resolve().parents[1] / "src")
 
 
-@pytest.fixture(scope="module")
+@pytest.fixture
 def client():
     c = chroma.build_client(None)
     chroma.ensure_collections(c)

@@ -1,0 +1,207 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has relevant management experience but lacks direct key account management in Retail & Hospitality sectors, thus a lower macro score on Experience.",
+            "Demonstrated strategic thinking through developing marketing strategies and managing financial strategies, but not directly related to driving sales growth or targeting revenue, minor alignment.",
+            "Candidate has stakeholder management experience, especially in roles involving customer service and team liaison, hence a moderate micro score in Stakeholder Management.",
+            "No direct experience with SAP ERP or Vistex, reflected in the micro scores.",
+            "Candidate possesses Excel skills but not specifically mentioned as data analysis, thus no rating in Excel or Python.",
+            "Education does not align with preferred institutions as per additional info, affecting overall relevance and impression."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "stakeholder management",
+                    "score": 5
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 2
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.68,
+                "micro_scores": 1.23
+            }
+        },
+        "personal_info": {
+            "name": "MUHAMMAD TABISH",
+            "email": "tabishakhtar56@gmail.com",
+            "phone": "+923214049093",
+            "current_position": "Senior Analyst \u2013 Business Development & Marketing",
+            "current_company": "The Pakistan Credit Rating Agency (PACRA)",
+            "employment_start_date_current_company": "08-2020",
+            "first_company_start_date": "09-2015",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/tabish-akhtar-229527a7/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "experience": 68,
+            "strategic thinking": 32
+        },
+        "micro_dict": {
+            "stakeholder management": 4,
+            "sap erp": 7,
+            "vistex": 89
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Proficiency in data analysis and forecasting tools"
+        ],
+        "resume": "1 \n \nMUHAMMAD TABISH  \nAddress: House No.  180, Askari 9 , Lahore Cantt, Lahore   \nCell:+923 214049093  | tabishakhtar56 @gmail .com  \nDate of Birth: 01 /08/92  \nLinkedin Profile: https://www.linkedin.com/in/tabish -akhtar -229527a7/  \nEDUCATION & QUALIFICATIONS  \nMasters of Practic ing Accounting   2017 \nSwinburne University of Technology  \nMelbourne, Australia  \nBachelors in Business Administration  (Honors)    2014  \nMarketing  and Media Studies   \nLahore School of Economics  \nLahore, Pakistan           \nPROFESSIONAL EXPERIENCE         \n \nThe Pakistan Credit Rating Agency (PACRA)  \nLahore, Pakistan  August 2020  \u2013 Present  \nSenior Analyst \u2013 Business Development & Marketing  \n\u2022 Assist in generating new leads, identify and contact decision -makers and screen potential business opportunities.  \n\u2022 Assist in managing existing sales pipeline.  \n\u2022 Manage proposal response process, including RFP requirements, content creation, and inputs from various inpu ts \n\u2022 Assist in coordination and implementation of marketing strategies   \n\u2022 Assist in tracking performance metrics and related reporting  \n\u2022 Establishing rapport with clients  \n\u2022 Uploading and making article contributions to external public knowledge platforms  \n\u2022 Assist in  handling social media platforms like LinkedIn and Facebook for the company  \n\u2022 Assist in handling the Print media portfolio of the company  \n \n \nBe Branded  \nLahore, Pakistan  November 2019  \u2013 September 2020  \nPartner (Winter Collection) & Finance Manager  \n\u2022 Introduced winter collection (Men & Women)  \n\u2022 Devising financial strategies to improve the cash flow  \n\u2022 Managing daily accounts and close outs  \n\u2022 Connecting with  and handling potential clients and ensuring smooth sales  \n\u2022 Ensuring the accuracy of book keeping according to the invoicing   \n\u2022 Establishing rapport with clients  \n\u2022 Following up with new customers  on their experience and feedback  \n\u2022 Procurement of items for new collection  \n \nAllianz Insurance  \nMelbourne, Australia  June 2018  \u2013 Sep 2019  \nAssistant Underwriter  \nPolicy Services Team        \n\u2022 Responsible for d elivering high level of customer service to inte rnal and external stakeholders  \n\u2022 Providing underw riting support on transactions  \n\u2022 Building relationships with customers whilst adhering to company as well as under writing policies and procedures   \n\u2022 Liaison with customers in relation to return cheques and updating company database.  \nFarm Stamp Duty Remediation Project  \n\u2022 Farm underwriting  \n\u2022 Making alterations to farm policies to refund the farm stamp duty according to the Victoria and New South Wales \ngovernment  \n\u2022 Calculating premiums for endorsements  \n\u2022 Liaise with brokers to find out information about the policies  \nCredit Services  \n\u2022 Responsible for  refunds, policy cancellations, chasing debt via emails and letters regarding extra premium, new b usiness \nand other endorsements  2 \u2022 Liaise with  brokers to ask about the end of month under writer payments and remittances  \n \nRecoveriesCorp  \nMelbourne, Australia  Sep 2015  \u2013 Nov 2017  \nDebt Collection Officer  \nNational Australia Bank            Jun 2016 \u2013 Nov 201  \n\u2022 Collection of  revenue from National Australian Bank\u2019s debtors making use of knowledge and principles of \nRecoveriesCorp coll ection processes and procedure  \n\u2022 Meeting cli ents\u2019 Service Level Agreements  \n\u2022 Understanding of legislat ion relevant to the role  \n\u2022 Best pra ctice models of debt collection  \nCentrelink             Sep 2015 \u2013 Jun 2016  \n\u2022 Collection of  revenue from Centrelink\u2019s  debtors using knowledge and principles in RecoveriesCorp collection processes \nand procedures  \n\u2022 Meeting cli ents\u2019 Service Level Agreements  \n\u2022 Understanding of le gislation relevant to the role  \n\u2022 Best pra ctice models of debt collection  \n \nLahore University of Manageme nt and Sciences  \nLahore, Pakistan  Mar 2015  \u2013 Jun 2015  \nCareer Services Intern  \n\u2022 Participating in outreach i nitiatives by servicing events  \n\u2022 Connecting with alumni  \n\u2022 Assisting in holding recruitm ent drives & interview sessions   \n\u2022 Assisting in editin g of departmental publications  \n\u2022 Maintaini ng and updating placement data  \n\u2022 Setting up ar rangements for events  \n \nMindbridge  (Pvt) Ltd.                                                                                               Nov 2014 - Feb 2015 \nLahore, Pakistan  \nCustomer Service Executive  \n\u2022 Providin g consulting services for ePay  \n\u2022 Communicating and corresponding with internation al customers  \nPROJECTS  \nServices Marketing : Prepared a report on a service industry company (McDonald\u2019s)  \nVisual Communication : Prepared and managed an attractive and creative photo booth  \nAdvertising : Re-launching an existing brand (Sufi water), doing market research and making print ads, TV and radio ads, \nbillboards and banners and website.  \nPrinciples of Marketing : Introduction of  a new product in the market (Women bus service)  \nVideo Production : Made a 15 minutes short film (The Ring)  \nResearch Project: Submitted a paper on \u201cBrand switching behavior in the banking sector of Pakistan\u201d  \nADDITIONAL EXPERIENCE  \nSwinburne University of Technology  \nMelbourne, Australia   Aug 2016 - Nov 2016  \nSwin-Mentor  \n\u2022 Major responsibilities in the Swin -Mentors Program comprised of guiding new Swinburne students (mentees) regarding \nmanagi ng studies and university life  \n\u2022 Providing mentees with information regarding the campus   \nHONORS & AWARDS  \n\u2022 Handled the online and financial operations of the social entrepreneur program held by Pakistan Crescent Youth \nOrgani zation, 2014  \n\u2022 Captain of one of the best football teams in Lahore School of Economics  \n\u2022 Captain of the Askari 9 football team  \n\u2022 Senior management of the charitable Hal loween/concert held in LSE  \n\u2022 Disciplinary in charge inside the hall at Lahore theatre festival , 2013  \n\u2022 Awarded the best player of the LS E football league  \n\u2022 Junior manager and a member of the marketing team of the  Lahore School Social Welfare Society  \n\u2022 Awarded the most powerful actor in th e video production project, 2013  \n\u2022 Two times Player of the tournament in GAB football fest, 2012/ 2013                       \n\u2022 Highest goal scorer and the winning captain in Soccer frenzy , 2010 \n\u2022 Gold medalist football team L ACAS (highest goal scorer) , 2009  \n\u2022 Sportsman of the year National Grammar School , 2007  \n\u2022 Best Table tennis player award NGS , 2006  3 \u2022 Won the swimming gala held at PC (Pearl Continental) , 2006  \n \nSKILLS & INTERESTS  \n\u2022 Excellent oral and written presentation skills  \n\u2022 Excellent communication and interpersonal skills  \n\u2022 Hardworking and reliable  \n\u2022 Exceptional leadership skills and persuasive skills  \n\u2022 Comfortable working independently as well as in a group  \n\u2022 Adaptive and flexible  \n\u2022 Able to work under minimal supervision and prepared to encounter any possibilities during work completion  \n\u2022 Motivated and determined to complete tasks on time  \n\u2022 Excellent team player and a leader  \n\u2022 Adept at using Microsoft Excel, Microsoft PowerPoint, Microsoft Word  \n\u2022 Adept at using Omnia, Polisy and BPM  "
+    },
+    "details": {
+        "name": "MUHAMMAD TABISH",
+        "number": "9214049093",
+        "skills": [
+            "Microsoft Excel",
+            "Microsoft PowerPoint",
+            "Microsoft Word",
+            "Omnia",
+            "Polisy",
+            "BPM"
+        ],
+        "email_id": "tabishakhtar56@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Services Marketing",
+                "description": "Prepared a report on a service industry company (McDonald\u2019s)"
+            },
+            {
+                "title": "Visual Communication",
+                "description": "Prepared and managed an attractive and creative photo booth"
+            },
+            {
+                "title": "Advertising",
+                "description": "Re-launching an existing brand (Sufi water), doing market research and making print ads, TV and radio ads, billboards and banners and website."
+            },
+            {
+                "title": "Principles of Marketing",
+                "description": "Introduction of a new product in the market (Women bus service)"
+            },
+            {
+                "title": "Video Production",
+                "description": "Made a 15 minutes short film (The Ring)"
+            },
+            {
+                "title": "Research Project",
+                "description": "Submitted a paper on 'Brand switching behavior in the banking sector of Pakistan'"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2017",
+                "university": "Swinburne University of Technology",
+                "degree_title": "Masters of Practicing Accounting"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelors in Business Administration (Honors)"
+            }
+        ],
+        "achievements": [
+            "Handled the online and financial operations of the social entrepreneur program held by Pakistan Crescent Youth Organization, 2014",
+            "Captain of one of the best football teams in Lahore School of Economics",
+            "Captain of the Askari 9 football team",
+            "Senior management of the charitable Halloween/concert held in LSE",
+            "Awarded the best player of the LSE football league",
+            "Junior manager and a member of the marketing team of the Lahore School Social Welfare Society",
+            "Awarded the most powerful actor in the video production project, 2013",
+            "Two times Player of the tournament in GAB football fest, 2012/2013",
+            "Highest goal scorer and the winning captain in Soccer frenzy, 2010",
+            "Gold medalist football team LACAS (highest goal scorer), 2009",
+            "Sportsman of the year National Grammar School, 2007",
+            "Best Table tennis player award NGS, 2006",
+            "Won the swimming gala held at PC (Pearl Continental), 2006"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/tabish-akhtar-229527a7/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Tabish is a skilled professional with a strong background in business development and marketing, holding a Master's degree in Practicing Accounting. He has demonstrated expertise in managing sales pipelines, proposal processes, and marketing strategies, along with a solid foundation in financial management and customer service. His diverse experience across various roles showcases his adaptability and commitment to achieving results.",
+        "employment_history": [
+            {
+                "details": "Assist in generating new leads, identify and contact decision-makers and screen potential business opportunities. Manage proposal response process, including RFP requirements, content creation, and inputs from various sources.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Senior Analyst \u2013 Business Development & Marketing",
+                "start_date": "08-2020",
+                "company_name": "The Pakistan Credit Rating Agency (PACRA)"
+            },
+            {
+                "details": "Introduced winter collection (Men & Women). Devising financial strategies to improve cash flow. Managing daily accounts and close outs.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Partner (Winter Collection) & Finance Manager",
+                "start_date": "11-2019",
+                "company_name": "Be Branded"
+            },
+            {
+                "details": "Responsible for delivering high level of customer service to internal and external stakeholders. Providing underwriting support on transactions.",
+                "end_date": "09-2019",
+                "location": "Melbourne, Australia",
+                "job_title": "Assistant Underwriter",
+                "start_date": "06-2018",
+                "company_name": "Allianz Insurance"
+            },
+            {
+                "details": "Collection of revenue from National Australian Bank\u2019s debtors making use of knowledge and principles of RecoveriesCorp collection processes and procedures.",
+                "end_date": "11-2017",
+                "location": "Melbourne, Australia",
+                "job_title": "Debt Collection Officer",
+                "start_date": "06-2016",
+                "company_name": "RecoveriesCorp"
+            },
+            {
+                "details": "Participating in outreach initiatives by servicing events. Connecting with alumni and assisting in holding recruitment drives & interview sessions.",
+                "end_date": "06-2015",
+                "location": "Lahore, Pakistan",
+                "job_title": "Career Services Intern",
+                "start_date": "03-2015",
+                "company_name": "Lahore University of Management and Sciences"
+            },
+            {
+                "details": "Providing consulting services for ePay. Communicating and corresponding with international customers.",
+                "end_date": "02-2015",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Executive",
+                "start_date": "11-2014",
+                "company_name": "Mindbridge (Pvt) Ltd."
+            }
+        ]
+    }
+}

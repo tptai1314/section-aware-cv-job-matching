@@ -1,0 +1,28 @@
+% Bảng kết quả trên các truy vấn chuẩn TREC đã lọc (Setting B: N=61 truy vấn có ít nhất 1 ứng viên phù hợp rel >= 1)
+\begin{table*}[t]
+\centering
+\caption{Hiệu năng truy xuất trên tập truy vấn đã lọc theo chuẩn TREC có ít nhất một ứng viên phù hợp (Kịch bản Setting B: $N=61$ truy vấn tại ngưỡng $\text{rel} \ge 1$). $T_{\text{rank}}$ là độ trễ tính điểm trực tuyến trên CPU cho tập ứng viên $N=25$.}
+\label{tab:main_benchmark_filtered}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrr}
+\hline
+\textbf{Phương pháp / Kiến trúc} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{P@5} & \textbf{Spearman} & \textbf{$T_{\text{rank}}$ ($N=25$)} \\
+\hline
+Xếp hạng Ngẫu nhiên (Floor) & 0.5280 & 0.5743 & 0.6639 & 0.5741 & 0.4877 & -0.026 & -- \\
+BM25 / TF-IDF (Từ vựng) & 0.6439 & 0.6720 & 0.7441 & 0.6903 & 0.5344 & 0.209 & 0.16\,ms \\
+Đơn Vector Phẳng MiniLM (Flat) & 0.6854 & 0.7153 & 0.8211 & 0.7228 & 0.5639 & 0.256 & $<0.10$\,ms \\
+Chunk-Mean (MiniLM, cửa sổ 128 từ) & 0.7127 & 0.7208 & 0.8126 & 0.7398 & 0.5934 & 0.306 & $<0.10$\,ms \\
+Chunk-MaxSim (Tương tác trễ ColBERT) & 0.6702 & 0.6974 & 0.7898 & 0.7122 & 0.5607 & 0.267 & 0.39\,ms \\
+Đa Vector Nhận biết Mục (Ours) & 0.7046 & 0.7182 & 0.8253 & 0.7365 & 0.5803 & 0.283 & 0.12\,ms \\
+BGE-M3 Phẳng (Ngữ cảnh 8.192 tokens) & 0.6620 & 0.6910 & 0.7630 & 0.7178 & 0.5574 & 0.248 & $<0.10$\,ms \\
+BGE-M3 Nhận biết Phân mục & 0.6907 & 0.7084 & 0.8294 & 0.7181 & 0.5705 & 0.257 & 0.13\,ms \\
+Dense + BM25 ($L_0$: Không Taxonomy) & 0.6994 & 0.7127 & 0.7916 & 0.7376 & 0.5672 & 0.276 & 0.28\,ms \\
+Mô hình Lai Hiệu chuẩn (Calibrated Hybrid) & 0.6981 & 0.7173 & 0.7873 & 0.7410 & 0.5607 & 0.295 & 2.69\,ms \\
+RRF + Taxonomy ($k=60$) & 0.6960 & 0.7109 & 0.7996 & 0.7332 & 0.5672 & 0.293 & 2.83\,ms \\
+Tái xếp hạng 2 Chặng: Hybrid $\rightarrow$ CE (Top-10) & 0.6416 & 0.6711 & 0.7459 & 0.6712 & 0.5541 & 0.212 & 426.9\,ms \\
+Cross-Encoder Toàn phần (ms-marco-MiniLM) & 0.6160 & 0.6437 & 0.7473 & 0.6577 & 0.5344 & 0.167 & 1178.0\,ms \\
+Xếp hạng Hoàn hảo Oracle (Ceiling) & 1.0000 & 1.0000 & 1.0000 & 1.0000 & 0.8098 & 0.791 & -- \\
+\hline
+\end{tabular}%
+}
+\end{table*}

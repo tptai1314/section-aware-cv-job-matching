@@ -1,0 +1,164 @@
+{
+    "output": {
+        "justification": [
+            "- The candidate has over 3 years of experience in business development and sales roles, marginally short of the 5+ year requirement.",
+            "- Experience with CRM tools like Salesforce is noted, but limited experience with ERP systems like SAP.",
+            "- Proven track record in lead generation and managing key accounts, though less emphasis on retail and hospitality sectors.",
+            "- Strong communication skills are highlighted, and past leadership roles are mentioned. No explicit mention of Vistex."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 6
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 4
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 7
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 4.8
+            }
+        },
+        "personal_info": {
+            "name": "Reham Shah",
+            "email": "reham.altaf2@gmail.com",
+            "phone": "+923328079859",
+            "current_position": "Business Development Executive",
+            "current_company": "THD Infinity",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "07-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/reham-shah-a72b46172"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "sales management": 9,
+            "data analysis": 4,
+            "sap erp": 21,
+            "salesforce": 31,
+            "vistex": 35
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce",
+            "Proficiency in data analysis and forecasting tools",
+            "5+ years of experience in sales or key account management"
+        ],
+        "resume": "Reham Shah  \n \n \n             +923328079859                                          reham.altaf2@gmail.com @gmail.com  \nValencia  Town Lahore, Pakistan                    linkedin.com/in/reham -shah -a72b46172  \n \nB2B Sales Development        Client Liaison                            Online Bidding  \n \nBusiness Development Executive    July 2020 \u2013 Current  \n \n\u2756 Building and maintaining  successful  relationships with prospects and existing  clients . \n\u2756 Collaborating with executives on business Strategy to determine objectives . \n\u2756 Generated Top rated Client\u2019s Leads through freelancing Platforms like Upwork, \nFreelancers, Fiverr,   LinkedIn.  \n\u2756 Maximized productivity by analyzing protocols and identifying areas for improvement.  \n\u2756 Engaged with customers to effectively build rapport and lasting relationships. Solved \ncustomer challenges by  offering relevant products and services.  \n\u2756 Provided positive first impressions to welcome existing, new and potential customers.  \n\u2756 Helped develop ed Sales Automation process & Lead generation automation  \n\u2756 Handl ed Client Projects related to Software Development.  \n\u2756 Worked with CRM's like Salesforce  & Odoo . \n \nExperiences : \n \n Business Development officer at Kodex Technologies        (July 2020 to Sep 2020)  \n \n\u2756 Worked as a Bidder on multiple freelancing platform . \n\u2756 Worked on Linkedin Lead Generation . \n\u2756 Handled Client Projects related to Software Development . \n \nBusiness Development Executive at S.T.A.R.S Pvt.(.Ltd )      (Oct 2020 to April 2021)  \n \n\u2756 Worked as Bidder on multiple freelancing platform . \n\u2756 Worked on LinkedIn  Lead Generation . \n\u2756 Handled Client Projects related to Software Development.  \n\u2756 Technical  Required Gathering.  \n\u2756 Created Scope of Documents, DTLs . \n \nSales Development Representative at TkXel                        (May 2021 to October 2021)  \n \u2756 Sending  email to Market Qualif ied Leads.  \n\u2756 Converting MQLS into Discovery Call.  \n\u2756 Scheduling Zoom Meeting with clients.  \n\u2756 Maintain client\u2019s data on Salesforce CRM.  \n\u2756 Follow Ups to existing Leads.  \n \nBusiness Development Executive at THD Infinity   (Nov 2021 to present)  \n \n\u2756 Bidding on software development projects  over  Upwork  platfrom . \n\u2756 Scheduling Discovery call.  \n\u2756 Technical Requirement Gathering, Product analysis.  \n\u2756 Creating SOW  Document . \n\u2756 Creating DTLS and helping developer understand the client needs.  \n\u2756 Follow ups  with existing clients and generating new Leads.    \n \nAcademic Qualification:  \n \nComputer sciences - Bahria  University,  Lahore - 2016 -2020  \n \nSoft & Tech Skills:  \n\u2756 Good Communication Skills , verbal & written . \n\u2756 Experienced in dealing with US based clients . \n\u2756 Team Leader  at S.T.A.R.S Corporation.  \n\u2756 Familiar  in variety of development technologies and concepts including C++, Java, \nHTML/CSS, Agile/Scrum, Busines s Intelligence . \n\u2756 Web & Graphics Course  (NexxusBerry) . \n\u2756 Team lead for the Final Year  Project . \n \nAchievements : \n \n\u2756 Bahria Got Talent bulc  (Singing) . \n\u2756 Secured 2nd Position in Debate  Competition at Bahria University . \n\u2756 Employee of the Month at S.T.A.R.S . \n \nReferences:  \n \nUsman Farooqi, Business Manager at Kodex Technologies  \nUsmanfarooqi22@email,  +92 3214445372  \n \n "
+    },
+    "details": {
+        "name": "Reham Shah",
+        "number": "923328079859",
+        "skills": [
+            "C++",
+            "Java",
+            "HTML/CSS",
+            "Agile/Scrum",
+            "Business Intelligence",
+            "Salesforce",
+            "Odoo"
+        ],
+        "email_id": "reham.altaf2@gmail.com",
+        "location": "Valencia Town Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2020-12",
+                "university": "Bahria University",
+                "degree_title": "Computer Sciences"
+            }
+        ],
+        "achievements": [
+            "Secured 2nd Position in Debate Competition at Bahria University",
+            "Employee of the Month at S.T.A.R.S"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/reham-shah-a72b46172",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Reham Shah is a skilled business development executive with a strong background in software development and client relations. She has demonstrated expertise in various programming languages and tools, contributing to successful project management and lead generation efforts across multiple freelancing platforms.",
+        "employment_history": [
+            {
+                "details": "Building and maintaining successful relationships with prospects and existing clients. Collaborating with executives on business strategy to determine objectives. Generated top-rated client leads through freelancing platforms like Upwork, Freelancers, Fiverr, LinkedIn. Maximized productivity by analyzing protocols and identifying areas for improvement. Engaged with customers to effectively build rapport and lasting relationships. Solved customer challenges by offering relevant products and services. Provided positive first impressions to welcome existing, new and potential customers. Helped develop sales automation process & lead generation automation. Handled client projects related to software development. Worked with CRMs like Salesforce & Odoo.",
+                "end_date": "Current",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "07-2020",
+                "company_name": "THD Infinity"
+            },
+            {
+                "details": "Worked as a Bidder on multiple freelancing platforms. Worked on LinkedIn lead generation. Handled client projects related to software development.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Officer",
+                "start_date": "07-2020",
+                "company_name": "Kodex Technologies"
+            },
+            {
+                "details": "Worked as Bidder on multiple freelancing platforms. Worked on LinkedIn lead generation. Handled client projects related to software development. Technical requirement gathering. Created scope of documents, DTLs.",
+                "end_date": "04-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "10-2020",
+                "company_name": "S.T.A.R.S Pvt.(Ltd)"
+            },
+            {
+                "details": "Sending email to market qualified leads. Converting MQLs into discovery calls. Scheduling Zoom meetings with clients. Maintain client\u2019s data on Salesforce CRM. Follow-ups to existing leads.",
+                "end_date": "10-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Development Representative",
+                "start_date": "05-2021",
+                "company_name": "TkXel"
+            }
+        ]
+    }
+}

@@ -1,0 +1,219 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has experience in managing projects and collaborating with cross-functional teams, supporting good project management and communication skills.",
+            "No direct CRM Software expertise mentioned in either experience or skills, resulting in a low score for this criterion.",
+            "Lack of clear direct leadership experience or management of teams in resume, thus affecting leadership and management score.",
+            "All education and skills meet diversity and educational preferences but not explicitly listed as from Lahore School of Economics or University of Central Punjab."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm software expertise",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Haseeb Farooq",
+            "email": "hf.haseebfarooq@gmail.com",
+            "phone": "+923444423443",
+            "current_position": "Data Scientist",
+            "current_company": "Royal Cyber Inc.",
+            "employment_start_date_current_company": "10-2023",
+            "first_company_start_date": "10-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/haseeb-farooq-18785b1a1"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 100
+        },
+        "micro_dict": {
+            "crm software expertise": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills"
+        ],
+        "resume": "Haseeb Farooq Data Scientist Resume - page 1  Haseeb Farooq   \nLahore District, Punjab, Pakistan   \n hf.haseebfarooq@gmail.c om   +923444423443   \nlinkedin.com/in/haseeb -farooq -18785b1a1   \nSummary  \nAs a data scientist with 2+ years of experience in A zure, Spark, Databricks, Data Engineering, and Machine \nlearni ng, I have completed multiple projects while w orking in an innovative team. My expertise in these areas has \nallowed me to work on various domains such as Real Estate, E -Commerce, Retail, Chemical, Construction, and \nInsurance. I am proficient in designing and implementing data solutions that use Micros oft Azure data services. I \nam also proficient in the Databricks platform and have expertise in advanced data pipeline design and \ndevelopment, data quality and governance, machine learning model development and maintenance, data \nintegration processes, data security and privacy regulations, data visualization tools development, and data \nwarehouse and data mart design and development. I can use Azure Databricks to implement machine learning \nsolutions at scale.   \n   \nI am passionate about using data to drive business decisions and have a proven track record of delivering \nactionable insights that have helped organizations achieve their goals. I am proficient in Python, SQL, Spark, \nTensorFlow, NLP, Classification, Regres sion, Time series Analysis, Geo Spatial Analysis, and Big Data. I am \nalso an avid reader and enjoy keeping up with the latest developments in the field of data science.   \n   \nIf you're looking for someone who can help you make sense of your data and drive results for your company, I'd \nlove to chat. Let's talk about how we can turn your data into a competitive advantage.   \nExperience  \n Data Scientist  \nRoyal Cyber Inc.   \nOct 2023 - Present (8 months)   \nAs a Data Scientist, I specialize in applying advanced machine learning algorithms and developing robust \ndata pipelines to solve complex business problems. My collaborative approach with crossfunctional teams \nenhances decision -making and drives strategic i nitiatives. I am proficient in data engineering, NLP, and \nmanaging full ML lifecycle governance using Python, Azure, Spark and Databricks.   \n   \n  \nProjects:   \nHaseeb Farooq Data Scientist Resume - page 2     \nAI-Driven Product Formulation Optimization: -  \nAs a Data Scientist, I significantly contributed to developing an AI and ML -based system for a prominent \nMiddle Eastern client, aimed at optimizing product formulation processes. I was instrumental in designing a \nuser-friendly web interface and implementing robust security measu res including data encryption and multi -\nfactor authentication. My expertise in machine learning and genetic algorithms played a key role in \noptimizing raw material mixes to achieve desired properties efficiently, addressing complex nonlinear \noptimization c hallenges. I was instrumental in quality assurance efforts to maintain high standards in \nsystem accuracy and performance.   \n   \nTechnologies & Skills: Python, Machine Learning, Genetic Algorithms, Data Security, Data Engineering, \nUser Interface Design, Real -Time Analytics, Optimization Algorithms, Azure, Databricks.   \n   \nAI-Based Next Best Personalized Offers (E -Commerce): -  \nAs a Data Scientist, I spearheaded an AI initiative to enhance e -commerce sales through personalized \npromotional emails. Utilizing generative AI, I analyzed customer data and predicted order patterns to craft \npromotions tailored to individual preferences, significantly boosting potential sales. This project \nsuccessfully leveraged machine learning and data engineering techniques, improving the client\u2019s marketing \nstrategies and sales outcomes by creating highly targeted communication.   \n   \nTechnologies & Skills: Python, Scikit -Learn, TimeSeries Forecasting, Regression, Feature Engineering, \nETL, Data Engineering, Machine Learning, Azure.   \n Junior Data Scientist Royal \nCyber Inc.   \nOct 2022 - Oct 2023 (1 year 1 month)   \nAs a member of an innovative data analytics team, I utilize Data Science technologies and Microsoft Azure \nto perform daily tasks. Some key responsibilities include:   \n\u2022 Developing and implementing advanced machine learning algorithms and statistical models to \nderiveactionable insights from complex data sets.   \n\u2022 Collaborating with cross -functional teams to identify business challenges and deliver data \ndrivensolutions that optimize processes, improve decision -making, and drive strategic initiatives.  \u2022 \n Designing and constructing scalable data pipelines and infrastructure to efficiently handle \nlargevolumes of structured and unstructured data.   \n   \nProjects:   \nHaseeb Farooq Data Scientist Resume - page 3  Spot Price Prediction \u2013 Bid price prediction along with lower & upper bounds to capture associated \nuncertainty for one of U.S\u2019 leading water & soft drink companies. It assist them to negotiate supply cost \nwith transporters within the provided range and max imize the profitability.   \nTechnologies: Python, Scikit -Learn, CatBoost, Bayesian, LGBM, Azure ML Studio.   \n   \nDRPP (Dynamic Real estate Price Prediction) \u2013 Real estate price prediction along with geospatial analysis \nbased on many dynamic external factors such as Schools, Hospitals, Pools and other facilities near the \nproperty for one of U.S\u2019 leading real estate co mpanies. It assists them to determine the price of property \nwithin the provided range and maximize the profitability.   \nTechnologies: Python, Scikit -Learn, Folium, CatBoost, Linear Regressor, LGBM, Azure ML Studio.   \n Technical Intern - Data Science Royal \nCyber Inc.   \nJun 2022 - Sep 2022 (4 months)   \nWorked as Data Science Intern in a team of Artificial intelligence and Data Science experts, my \nresponsibilities included:   \n\u2022 Research and development of state -of-the-art deep learning techniques, model deployment for Proofof  \nConcepts (POC)   \n\u2022 Analyzing the errors of the model and designing strategies to overcome them   \n\u2022 Development of API to integrate AI -based models into web applications   \n\u2022 Development of different Proof of Concepts (POC).   \n   \nProjects:   \nStocks Price Predictions - Developed deep learning based system to predict stock prices of different \ncommodities   \nTechnologies: Python, Pandas, Tensorflow, Docker, InfluxDB, Flask   \n   \nInsurance Premium Prediction \u2013 Developed a machine learning based system to predict the premium of an \ninsured person. Technologies: Python, Tensorflow, Scikit - Learn, Flask   \nA.I Fitness Trainer - Developed deep learning based system to correct workout poses using computer \nvision.   \nTechnologies: Python, Pandas, Tensorflow, Mediapipe, Flask   \n Cloud and Infrastructure - Intern   \nSystems Limited   \nHaseeb Farooq Data Scientist Resume - page 4  Oct 2021 - Apr 2022 (7 months)   \n Software Developer Intern   \nArfa Kareem Technologies   \nAug 2019 - Sep 2019 (2 months)   \nEducation  \n Lahore Garrison University   \nBachelor of Science - BS, Computer Software Engineering   \n2017 - 2021   \nBreast Cancer Detector (BCD) \u2013 The main components are extraction of ROI from Mammography, \npreprocessing, thresholding, development of deep learning model for classification. Technologies:  \nPython, OpenCV, Tensorflow, Scikit -Learn, Numpy, PyQT5   \nLicenses & Certifications  \n Microsoft Certified: Azure Developer Associate  - Microsoft   \n Microsoft Certified: Azure AI Fundamentals  - Microsoft   \n Microsoft Certified: DevOps Engineer Expert  - Microsoft   \n Databricks Lakehouse Fundamentals  - Databricks   \n Databricks Certified Associate Developer for Apache Spark 3.0  - Databricks   \n76574247   \n Academy Accreditation - Generative AI Fundamentals  - Databricks   \nIssued Jul 2023 - Expires Jul 2025   \n77091416   \nSkills  \nExtract, Transform, Load (ETL)   \u2022   Geospatial Analysis    \u2022   Data Engineering   \u2022   PyTorch   \u2022   Feature   \nEngineering   \u2022   Convolutional Neural Networks (CNN)   \u2022   Information Retrieval   \u2022   Predictive Modeling   \u2022    \nModel Development   \u2022   Communication   \n"
+    },
+    "details": {
+        "name": "Haseeb Farooq",
+        "number": "923444423443",
+        "skills": [
+            "Python",
+            "Azure",
+            "Spark",
+            "Databricks",
+            "Machine Learning",
+            "NLP",
+            "Classification",
+            "Regression",
+            "Time Series Analysis",
+            "Geo Spatial Analysis",
+            "Big Data",
+            "Scikit-Learn",
+            "Feature Engineering",
+            "ETL",
+            "Data Engineering",
+            "Genetic Algorithms",
+            "Data Security",
+            "User Interface Design",
+            "Real-Time Analytics",
+            "Optimization Algorithms",
+            "Pandas",
+            "TensorFlow",
+            "Docker",
+            "Flask",
+            "OpenCV",
+            "Numpy",
+            "PyQT5"
+        ],
+        "email_id": "hf.haseebfarooq@gmail.com",
+        "location": "Lahore District, Punjab, Pakistan",
+        "projects": [
+            {
+                "title": "AI-Driven Product Formulation Optimization",
+                "description": "Developed an AI and ML-based system for optimizing product formulation processes."
+            },
+            {
+                "title": "AI-Based Next Best Personalized Offers (E-Commerce)",
+                "description": "Spearheaded an AI initiative to enhance e-commerce sales through personalized promotional emails."
+            },
+            {
+                "title": "Spot Price Prediction",
+                "description": "Bid price prediction for a leading water & soft drink company."
+            },
+            {
+                "title": "DRPP (Dynamic Real Estate Price Prediction)",
+                "description": "Real estate price prediction based on dynamic external factors."
+            },
+            {
+                "title": "Stocks Price Predictions",
+                "description": "Developed a deep learning system to predict stock prices."
+            },
+            {
+                "title": "Insurance Premium Prediction",
+                "description": "Developed a machine learning system to predict insurance premiums."
+            },
+            {
+                "title": "A.I Fitness Trainer",
+                "description": "Developed a system to correct workout poses using computer vision."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2021",
+                "university": "Lahore Garrison University",
+                "degree_title": "Bachelor of Science - BS, Computer Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Microsoft Certified: Azure Developer Associate",
+                "issuing_organization": "Microsoft",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Microsoft Certified: Azure AI Fundamentals",
+                "issuing_organization": "Microsoft",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Microsoft Certified: DevOps Engineer Expert",
+                "issuing_organization": "Microsoft",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Databricks Lakehouse Fundamentals",
+                "issuing_organization": "Databricks",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Databricks Certified Associate Developer for Apache Spark 3.0",
+                "issuing_organization": "Databricks",
+                "date_of_issuance": "07-2023"
+            },
+            {
+                "certification_name": "Academy Accreditation - Generative AI Fundamentals",
+                "issuing_organization": "Databricks",
+                "date_of_issuance": "07-2023"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/haseeb-farooq-18785b1a1",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Haseeb Farooq is a skilled data scientist with over 2 years of experience specializing in Azure, Spark, Databricks, and machine learning. He has a proven track record of developing advanced data solutions and optimizing business processes across various industries.",
+        "employment_history": [
+            {
+                "details": "Specializes in applying advanced machine learning algorithms and developing robust data pipelines to solve complex business problems.",
+                "end_date": "Present",
+                "location": "Royal Cyber Inc.",
+                "job_title": "Data Scientist",
+                "start_date": "10-2023",
+                "company_name": "Royal Cyber Inc."
+            },
+            {
+                "details": "Utilized Data Science technologies and Microsoft Azure to perform daily tasks, developing advanced machine learning algorithms and statistical models.",
+                "end_date": "10-2023",
+                "location": "Royal Cyber Inc.",
+                "job_title": "Junior Data Scientist",
+                "start_date": "10-2022",
+                "company_name": "Royal Cyber Inc."
+            },
+            {
+                "details": "Worked as Data Science Intern in a team of AI and Data Science experts, focusing on research and development of deep learning techniques.",
+                "end_date": "09-2022",
+                "location": "Royal Cyber Inc.",
+                "job_title": "Technical Intern - Data Science",
+                "start_date": "06-2022",
+                "company_name": "Royal Cyber Inc."
+            },
+            {
+                "details": "Internship focused on cloud and infrastructure.",
+                "end_date": "04-2022",
+                "location": "Systems Limited",
+                "job_title": "Cloud and Infrastructure - Intern",
+                "start_date": "10-2021",
+                "company_name": "Systems Limited"
+            },
+            {
+                "details": "Internship as a software developer.",
+                "end_date": "09-2019",
+                "location": "Arfa Kareem Technologies",
+                "job_title": "Software Developer Intern",
+                "start_date": "08-2019",
+                "company_name": "Arfa Kareem Technologies"
+            }
+        ]
+    }
+}

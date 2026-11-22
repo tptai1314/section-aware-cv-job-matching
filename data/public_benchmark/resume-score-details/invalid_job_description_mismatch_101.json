@@ -1,0 +1,50 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Shahbaz Joiya \nBusiness Development Executive \nTo get a challenging position in growth and career oriented Organization, where challenges are a\nroutine work and where I show the best of my abilities and quali\ufb01cation for the progress of that\norganization and upgrade my career. \nShahbazjoiya07@gmail.com \n+923070504083 \nJohar Town R1 Phase 2,\nLahore, Pakistan \nSKILLS \nBusiness Developement \nProject Management \nCommunication \nHTML \nCSS \nJavaScript \nBootstrap \nQuick Learner \nProblem Solving \nLANGUAGES \nUrdu \nNative or Bilingual Pro\ufb01ciency \nEnglish \nProfessional Working Pro\ufb01ciency \nINTERESTS \nTravelling \nMovies Collection \nEDUCATION \nBachelor's of Science in Computer Science \nGovt. College University Faisalabad, Sahiwal Campus \n09/2017 - 07/2021\n, \n \nIntro to Management \nBusiness Developement \nSoftware Engineering \nObject Oriented Programming \nData Structure and Algorithm \nOperating System \nIntermediate in Computer Science \nPunjab College Haronabad \n04/2015 - 07/2017\n, \n \nWORK EXPERIENCE \nTeam Lead (Amazon Drop Shipping and Product Hunting) \nADH Sahiwal \n01/2022 - Present\n, \n \nPERSONAL PROJECTS \nHome Automation by using Sensors (FYP)\n (09/2020 - 06/2021)\n \nFeatures:- \nIt's a centralized control of lighting, heating, ventilation and air conditioning appliances, and\nother systems, to provide improved convenience, comfort, energy e\ufb03ciency and security. \nSensors:-\n It's includes \nTemperature Sensors & Smart Thermostats, \nLight Sensors, \nMotion Sensors, \nWindow\nand Door Sensors, and \nSmart Smoke and CO Sensors. \nE-Commerce Website \nTools:- \nVisual Studio Code, HTML, CSS, JavaScript, SQL management system and asp.net MVC. \nWeb based Ecommerce site developed in asp.net MVC. \nFeatures:-\n Check the list of Item with category, View the details of item, and List of latest Item \nACHIEVEMENTS \nThe Punjab Education Endowment Fund - PEEF\n (2017 - 2021)\n \nCourses ",
+        "macro_dict": {
+            "leadership and management": 49,
+            "client relationship": 51
+        },
+        "micro_dict": {
+            "social media marketing": 20,
+            "seo/sem": 22,
+            "google analytics": 6,
+            "project management": 22,
+            "crm software expertise": 21,
+            "content development": 9
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Familiarity with Google Analytics and CRM tools",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Shahbaz Joiya \nBusiness Development Executive \nTo get a challenging position in growth and career oriented Organization, where challenges are a\nroutine work and where I show the best of my abilities and quali\ufb01cation for the progress of that\norganization and upgrade my career. \nShahbazjoiya07@gmail.com \n+923070504083 \nJohar Town R1 Phase 2,\nLahore, Pakistan \nSKILLS \nBusiness Developement \nProject Management \nCommunication \nHTML \nCSS \nJavaScript \nBootstrap \nQuick Learner \nProblem Solving \nLANGUAGES \nUrdu \nNative or Bilingual Pro\ufb01ciency \nEnglish \nProfessional Working Pro\ufb01ciency \nINTERESTS \nTravelling \nMovies Collection \nEDUCATION \nBachelor's of Science in Computer Science \nGovt. College University Faisalabad, Sahiwal Campus \n09/2017 - 07/2021\n, \n \nIntro to Management \nBusiness Developement \nSoftware Engineering \nObject Oriented Programming \nData Structure and Algorithm \nOperating System \nIntermediate in Computer Science \nPunjab College Haronabad \n04/2015 - 07/2017\n, \n \nWORK EXPERIENCE \nTeam Lead (Amazon Drop Shipping and Product Hunting) \nADH Sahiwal \n01/2022 - Present\n, \n \nPERSONAL PROJECTS \nHome Automation by using Sensors (FYP)\n (09/2020 - 06/2021)\n \nFeatures:- \nIt's a centralized control of lighting, heating, ventilation and air conditioning appliances, and\nother systems, to provide improved convenience, comfort, energy e\ufb03ciency and security. \nSensors:-\n It's includes \nTemperature Sensors & Smart Thermostats, \nLight Sensors, \nMotion Sensors, \nWindow\nand Door Sensors, and \nSmart Smoke and CO Sensors. \nE-Commerce Website \nTools:- \nVisual Studio Code, HTML, CSS, JavaScript, SQL management system and asp.net MVC. \nWeb based Ecommerce site developed in asp.net MVC. \nFeatures:-\n Check the list of Item with category, View the details of item, and List of latest Item \nACHIEVEMENTS \nThe Punjab Education Endowment Fund - PEEF\n (2017 - 2021)\n \nCourses "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

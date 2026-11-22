@@ -1,0 +1,203 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks digital marketing experience outlined in the job requirements.",
+            "No experience listed in SEO/SEM or social media marketing, which are crucial to the role.",
+            "Lack of relevant familiarity with Google Analytics and CRM tools.",
+            "Bachelor's degree is not in a related field such as Business Administration or Marketing."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 4
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 2
+                },
+                {
+                    "criteria": "seo/sem",
+                    "score": 1
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 1
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.66,
+                "micro_scores": 1.28
+            }
+        },
+        "personal_info": {
+            "name": "Shahid Hussain",
+            "email": "sainkan001@gmail.com",
+            "phone": "(+92) 3474898122",
+            "current_position": "Data analyst",
+            "current_company": "Worklyrow",
+            "employment_start_date_current_company": "02-2024",
+            "first_company_start_date": "07-2023",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/shahid-ai"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 1,
+            "digital marketing experience": 35,
+            "client relationship": 64
+        },
+        "micro_dict": {
+            "social media marketing": 8,
+            "seo/sem": 38,
+            "google analytics": 42,
+            "project management": 5,
+            "crm software expertise": 7
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Strong project management and communication skills",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "2+ years of experience in digital marketing",
+            "Familiarity with Google Analytics and CRM tools"
+        ],
+        "resume": "ABOUT ME\nAs  a  dedicated  ML  Engineer  with  a  fresh  perspective  and  a  strong  foundation  in\nprogramming, I am committed to leveraging my enthusiasm for machine learning to drive\nimpactful solutions and continuously expand my expertise in the \ufb01eld.My com mitment to\nexcellence  and  teamwork  makes  me  an  ideal  candidate  for  roles  requiring  skills  in\nmachine learning, Flutter development, and e\ufb00ective problem solving\n \nEDUCATION AND TRAIN\u2010\nING\n[ 1 Sep 2019 \u2013 1 Jul 2023 ]  Bachelor of Science in Software Engineering  \nHazara University Mansehra www.hu.edu.pk  \nCity: Mansehra | Country: Pakistan | Field(s) of study: Information and\nCommunication Technologies | Final grade: CGPA 3.29/4.0 | Thesis: Voice Based Train\nAutomatic System \nDIGITAL SKILLS \nMy Digital Skills  \nPython Language - Basic knowledge |  Numpy, pandas, matplotlib, seaborn |  Data\nScience, Data Analytics, Data Visualization |  Tensor\ufb02ow, Keras, Pytorch, sklearn |\nMachine Learing |  Deep learning/Neural networks |  Natural language Processing |\nComputer vision \nWORK EXPERIENCE\n[ 6 Jul 2023 \u2013 31 Jan 2024 ]  Flutter Developer  \nMetex Labz \nCity: Mini Commercial Phase 7 Bahria Town, Islamabad | Country: Pakistan | Business\nor sector: Information and communication \n\u2022 Collaborate on Flutter app with seniors developers\n\u2022 Develop clean, e\ufb03cient code and contribute to reviews.\n\u2022 Enhance existing apps and add new features.\n\u2022 Stay updated on Flutter trends and actively engage in team meetings\n[ 10 Feb 2024 \u2013 Current ]  Data analyst  \nWorklyrow \nCity: Islamabad | Country: Pakistan | Business or sector: Information and\ncommunication \n\u2022 Data Cleaning\n\u2022 Exploratory Data Analysis\n\u2022 Data Visualization\n\u2022 Statistical Analysis\n\u2022 Predictive ModelShahid Hussain \n \n \n  \n  \nGender: Male Date of birth: 3 Jan 2000 Nationality: Pakistani  \nHome : Swabi, KPK, Pakistan, 23430, Swabi, Pakistan \uf3c5\nWork : Metex Labz, Mini Commerical Phase 7, Bahria Town, Islamabad, Pakistan \uf3c5\nEmail: sainkan001@gmail.com  \uf0e0 Phone: (+92) 3474898122\uf879\nLinkedIn: www.linkedin.com/in/shahid-ai  \uf08cPROJECTS \n[ 20 Jun 2024 \u2013 30 Jun 2024 ]  Plant Disease Prediction Using CNN  \n\u2022Objective: Develop a CNN model to predict plant diseases from images.\n\u2022Dataset: Images of healthy and diseased plants.\n\u2022Model: CNN for image classi\ufb01cation.\n\u2022Evaluation: Accuracy, precision, recall, F1-score.\n\u2022Deployment: App for real-time disease diagnosis.\n\u2022Impact: Early disease detection for better crop management.\n[ 7 Jul 2024 \u2013 8 Jul 2024 ]  RAGWithOllama(Q&A bot)  \n\u2022Objective: Developed a Streamlit app for answering questions about PDF\ndocuments.\n\u2022LLM: Used gemma:2b model from Ollama.\n\u2022Embedding: Employed HuggingFaceEmbeddings.\n\u2022Functionality:\n\u2022 Upload PDFs\n\u2022 Ask questions\n\u2022 Receive real-time answers\n\u2022Components:\n\u2022 UnstructuredFileLoader: Load documents\n\u2022 CharacterTextSplitter: Split text\n\u2022 FAISS: Vector store\n\u2022 RetrievalQA: Generate responses\n\u2022Impact: Enhanced document accessibility and user experience.[ 27 Mar 2023 \u2013 20 May 2023 ]  Diabetes prediction system  \nDiabetes  prediction  System  Empowering  individuals  with  advanced  AI  technology  to\nforecast potential diabetic risks based on personalized health data. Stay ahead of your\nhealth with proactive insights and tailored recommendations for a healthier lifestyle.\n\u2022 EDA\n\u2022 Model training\n\u2022 Model saving\n\u2022 Streamlit Application\n\u2022 API development\n\u2022 Flutter app integration\nCERTIFICATIONS \n[ 4 Jun 2023 \u2013 6 Oct 2023 ]  Introduction to Generative AI, Google Clouding training by Google Cloud  \nThis was an introductory level microlearning course aimed at explaining what Generative\nAI is, how it is used, and how it di\ufb00ers from traditional machine learning methods. It also\ncovers Google Tools to help you develop your own Gen AI apps.\n[ 14 Jul 2023 \u2013 24 Dec 2023 ]  IBM Data Science Professional Certi\ufb01cate  \n\u2022 What is Data Science?\n\u2022 Tools for Data Science\n\u2022 Data Science Methodology\n\u2022 Python for Data Science, AI & Development\n\u2022 Python Project for Data Science\n\u2022 Databases and SQL for Data Science with Python\n\u2022 Data Analysis with pythonOther language(s): \nEnglish \nLISTENING B2 READING C1 WRITING B2 \nSPOKEN PRODUCTION B1 SPOKEN INTERACTION B1 \nUrdu \nLISTENING A2 READING A2 WRITING B2 \nSPOKEN PRODUCTION B1 SPOKEN INTERACTION B2 \u2022 Data Visualization with python\n\u2022 Machine Learning with Python\n\u2022 Applied Data Science Capstone\n[ 16 Jan 2024 \u2013 3 Apr 2024 ]  IBM AI Engineering Professional Certi\ufb01cate  \n\u2022 Machine Learning with Python\n\u2022 Introduction to Deep Learning & Neural Networks with Keras\n\u2022 Introduction to Computer Vision and Image Processing\n\u2022 Deep Neural Networks with PyTorch\n\u2022 Building Deep Learning Models with TensorFlow\n\u2022 AI Capstone Project with Deep Learning\nLANGUAGE SKILLS \nMother tongue(s): Pashto   \nLevels: A1 and A2: Basic user; B1 and B2: Independent user; C1 and C2: Pro\ufb01cient user"
+    },
+    "details": {
+        "name": "Shahid Hussain",
+        "number": "03474898122",
+        "skills": [
+            "Python",
+            "Numpy",
+            "pandas",
+            "matplotlib",
+            "seaborn",
+            "Tensorflow",
+            "Keras",
+            "Pytorch",
+            "sklearn",
+            "Machine Learning",
+            "Deep learning",
+            "Natural language Processing",
+            "Computer vision",
+            "Data Science",
+            "Data Analytics",
+            "Data Visualization"
+        ],
+        "email_id": "sainkan001@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [
+            {
+                "title": "Plant Disease Prediction Using CNN",
+                "description": "Develop a CNN model to predict plant diseases from images."
+            },
+            {
+                "title": "RAGWithOllama(Q&A bot)",
+                "description": "Developed a Streamlit app for answering questions about PDF documents."
+            },
+            {
+                "title": "Diabetes prediction system",
+                "description": "Empowering individuals with advanced AI technology to forecast potential diabetic risks."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2023",
+                "university": "Hazara University Mansehra",
+                "degree_title": "Bachelor of Science in Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Introduction to Generative AI",
+                "issuing_organization": "Google Cloud",
+                "date_of_issuance": "10-2023"
+            },
+            {
+                "certification_name": "IBM Data Science Professional Certificate",
+                "issuing_organization": "IBM",
+                "date_of_issuance": "12-2023"
+            },
+            {
+                "certification_name": "IBM AI Engineering Professional Certificate",
+                "issuing_organization": "IBM",
+                "date_of_issuance": "04-2024"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/shahid-ai",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Shahid Hussain is a dedicated ML Engineer with a strong foundation in programming and a commitment to leveraging machine learning for impactful solutions. He possesses extensive technical skills in Python, data science, and various machine learning frameworks, making him an ideal candidate for roles in the field.",
+        "employment_history": [
+            {
+                "details": "Collaborate on Flutter app with seniors developers, develop clean, efficient code and contribute to reviews, enhance existing apps and add new features, stay updated on Flutter trends and actively engage in team meetings.",
+                "end_date": "01-2024",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Flutter Developer",
+                "start_date": "07-2023",
+                "company_name": "Metex Labz"
+            },
+            {
+                "details": "Data Cleaning, Exploratory Data Analysis, Data Visualization, Statistical Analysis, Predictive Modeling.",
+                "end_date": "Current",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Data Analyst",
+                "start_date": "02-2024",
+                "company_name": "Worklyrow"
+            }
+        ]
+    }
+}

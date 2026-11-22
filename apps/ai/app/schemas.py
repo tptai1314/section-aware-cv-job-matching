@@ -108,7 +108,7 @@ class JobResponse(BaseModel):
 class EmbeddingsRequest(BaseModel):
     model_config = ConfigDict(extra="forbid")
 
-    texts: list[str] = Field(min_length=1, max_length=100)
+    texts: list[str] = Field(min_length=1, max_length=200)
 
 
 class EmbeddingsResponse(BaseModel):

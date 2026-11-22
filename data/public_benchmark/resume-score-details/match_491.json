@@ -1,0 +1,204 @@
+{
+    "output": {
+        "justification": [
+            "Leadership roles were evident in several positions, notably as Regional Team Lead and Team Lead Operation, indicating experience in managing teams and projects.",
+            "Relevant experience is more aligned with telecommunications engineering rather than control systems specifically necessary for the job description.",
+            "No explicit mention of DCS/PLC programming skills or HMI development experience, essential for the role.",
+            "Proficiency in Excel and analytical tools relevant to the job role is not evident."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "dcs/plc programming",
+                    "score": 3
+                },
+                {
+                    "criteria": "data analysis (excel, power bi)",
+                    "score": 4
+                },
+                {
+                    "criteria": "customer communication",
+                    "score": 7
+                },
+                {
+                    "criteria": "hmi development",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Excellent communication and documentation skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience in project management and team leadership",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Electrical or Electronics Engineering",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in DCS/PLC programming and HMI development",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.359999999999999,
+                "micro_scores": 4.119999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Saeed Iqbal",
+            "email": "saeed09.engr1@gmail.com",
+            "phone": "+923139917010",
+            "current_position": "Wireless Integration Engineer",
+            "current_company": "Prime -Hr. Huawei Client",
+            "employment_start_date_current_company": "07-2024",
+            "first_company_start_date": "01-2014",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Prestige Automations as Robotics & Automation Engineer!\n\n### Overview\nPrestige Automations is seeking a highly skilled Robotics & Automation Engineer to join our cutting-edge engineering team. The ideal candidate will leverage their expertise in control systems to integrate and innovate within the Oil and Gas sectors. Embrace the opportunity to work across multiple geographical locations and lead projects crafting efficient, reliable systems that push industry standards.\n\n### Key Responsibilities\n- Develop, program, and test DCS/PLC systems, refining designs for maximum efficiency.\n- Lead projects focusing on pre-commissioning and commissioning, ensuring robust integration with existing infrastructure.\n- Design and evaluate control system architectures, including hardware and software components.\n- Collaborate closely with cross-functional teams to ensure optimal project planning and resource management.\n- Prepare detailed project documentation to support project outcomes and client specifications.\n\n### Core Competencies\n- Expertise in control system programming (PLC/DCS, HMI) and development.\n- Strong analytical skills with proficiency in data analysis tools such as Power BI and Excel.\n- Proven leadership skills with the ability to manage complex projects and teams across multiple disciplines.\n- Excellence in customer communication to ensure effective system implementation and support.\n\n### Why Join Us?\nAt Prestige Automations, we are not just innovating technology; we are redefining the possibilities in automation. Our culture of continuous learning and improvement aims to foster personal growth and professional development in a supportive and inclusive environment.",
+        "macro_dict": {
+            "leadership": 36,
+            "project management": 64
+        },
+        "micro_dict": {
+            "dcs/plc programming": 0,
+            "data analysis (excel, power bi)": 18,
+            "customer communication": 43,
+            "hmi development": 39
+        },
+        "additional_info": "Preferred candidates have degrees from top universities such as MIT or Stanford. Prestige Automations supports relocation for international candidates with relevant experience, offering competitive relocation packages. Skill assessments are conducted through technical interviews and simulations to gauge hands-on abilities and problem-solving skills.",
+        "minimum_requirements": [
+            "Excellent communication and documentation skills",
+            "Experience in project management and team leadership",
+            "Bachelor's degree in Electrical or Electronics Engineering",
+            "Proficiency in DCS/PLC programming and HMI development"
+        ],
+        "resume": " \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n SAEED IQBAL  \n \nWireless Integration Engineer  \nPrime -Hr. Huawei Client  | Islamabad, Pakistan                                          July  2024 \u2013 Present  \n \n\u2022 Having responsibilities in Pakistan Remote Service Delivery Team as wireless services \nengineer  \n\u2022 Providing remote delivery to different countries.  \n\u2022 Having responsibilities of taking Pre -check before integration and Post -check of the sites after \nintegration.  \n\u2022 Wireless Sites 2G, 3G, 4G, 5G NR, scripts preparation using tools Web CME, Cloud CME, \nand MML commands.  \n\u2022 Integration for wireless sites using Huawei OSS 2020, OSS MAE and coordination with field \nteams to properly installed the hardware as per design and alarms clearance.  \nRegional Team Lead  \nHi-Tech Network limited  \u2013 Peshawar -N2 \nProject  Name:  Jazz -Mobilink -Huawei  MS Region  II                  September 2023 To June 2024 \n \n\u2022 Supervise all operations to ensure that all operations are completed in accordance with \ncustomer and industry specifications. \n\u2022 Troubleshooting and providing logical technical solutions to problems supporting client site by \nadhering strictly to maintenance c hecklist, site reporting and maintaining records of each site.  \n\u2022 Responsible for the effective management of all designated projects and their associated \nschedules, including coordinating all deliverables and requirements of the entire cross -\nfunctional proje ct team.  College Colony Saidu Sharif Swat.          +923139917010                 saeed09.engr1@gmail.com          \n \n \nProfessional summary  \n \nExperienced Telecommunications Engineer with a demonstrated history of working in the \ntelecommunications industry. Skilled in Internet Protocol (IP), wireless and Microwave \ncommunication technologies, Ethernet, and Troubleshooting. Strong engineering \nprofessional with a BSECE focused in Electronics and Communications Engineering from \nBUITEMS University . \n \nWork history   \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n Team  Lead  Operation  \nGulf  Business Horizon  \u2013 Riyadh, Kingdom  of Saudi  Arabia.                    January,2020 To August,2023 \nProject:  MS-STC -Huawei/Nokia Western Region:  \n \n\u2022 Dealing and managing the whole region as Regional O &M Team Lead.  \n\u2022 Planning &amp; co -ordination with team for the Huawei implementation wireless and \nMicrowave  \n\u2022 transmission equipment RTN 900 and 300 series, 905,910,950,980 and latest 2, 3,5XMC D -link \noutdoor  \n\u2022 310, 380 and rectifiers and all other equipment\u2019s in the equipment room.  \n\u2022 Worked on Huawei BTS 3900, 3900A and new version BTS 5900 and their commis sioning and \ncard up \ngradation. \n\u2022 Planning & co- ordination with team for the maintenance of Nokia RAN -SRAN and Microwave \ntransmission equipment MPR9500, MSS8 and MSS4 microwave nodes, rectifiers and all other \nequipment\u2019s in the equipment room . \n           \n            \nFieldMaintenanceEngineer  \nSederGroupAPD --Riyadh, Kingdom of SaudiArabia  \nProjectName: Zain -HuaweiMSRegion II                                                     July, 2015 To August,2016 \n \n\u2022 Planningandco- ordinationwithequipmentinstallationteamfortheinstallationofHuaweiBSSand \ntransmission, rectifiers and all other equipment\u2019s in the equipment room.  \n\u2022 Site audit for different vendors (STC,Mobily, Zain,Huawei,Ericsson,Alcatel).  \n\u2022 MDT,PMR,PAT,PATAcceptance,Alarm, Implementationauditing.  \n\u2022 BTS commissioning and installation experience, installingandcommissioningforLTE,3Gand4G \nsites, SDR Preparations. \n\u2022 Prompt regular preventive Maintenance,Corrective  and scheduled  maintenance.  \n\u2022 Troubleshootingandprovidinglogicaltechnicalsolutionstoproblemssupportingclientsitebyadhering  \n\u2022 Strictly to maintenance checklist, site reporting and maintaining record so  each  site.  \n \n \n \n  \n Project Coordinator/Cluster Owner                                                   January, 2017 T o December,2019  \nHRSG Outsourcing (Pvt), Lt -- Islamabad, Paksitan .  \nWorking as Coordinator Operations in HRDS central Region and managing the field operations \nactivities in the region independently which includes as:  \n \n\u2022 Responsible for Operation & Maintenance of Telecommunication cellular network. \n\u2022 Responsible for installation, Integration, Commissioning of all cellular network equipment. 2G, \n3G, 4G -LTE and MW  (Huawei Technologies).  \n\u2022 Responsible for maintaining network availability targets, resolving complex Hardware/Software problems that affect network performance and responding directly to manager BSS and O & M \naccess network (Huawei Technologies).  \n\u2022 Preparing daily, weekly and monthly reports of Preventive maintenance and corrective \nmaintenance . \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n  Transmission  Engineer.  \nEgyptian  Pakistani  Telecommunication  Services  Company  Pvt Ltd \u2013 Islamabad,  Pakistan  \nProject Name: Smart Huawei Modernization Project / Chan ge-Out.   January 2014-  May 2015  \n\u2022 Experience of Huawei BTS 3900, 3900L  (Outdoor)  installation  and Commissioning with complete \ninstallation  of sites included RF  antennas and feeder  Cable. \n\u2022 Experience of Huawei  Transmission  Nodes  RTN-905,910,950 and 980 and its  (Indoor)  installation  \nand Commissioning. \n\u2022 Perform  VSWR  test,  \n\u2022 TSSR  Documentation. \n\u2022 Preliminary  acceptance  Test (PAT).  \n \nTechnical Skills  \n \n\u2022 Resolving  Telecommunication \nEquipment Hardware Issue.  \n\u2022 Customer  Support.  \n\u2022 Technical Support  \n\u2022 Network  Operation Center  (NOC)  \n\u2022 Information Technology (IT)  \n\u2022 GSM, UMTS, LTE, New Radio \n(NR),  \n\u2022 SRAN Scripting.  \n\u2022 SM, NodeB, ENodeB, GNodeB Integration  \n\u2022 Radio Access Network (RAN)  \n\u2022 MW \n Management Skills  \n \n\u2022 Effective team member with strong  communication  \nskills  and problem  solving capability. \n\u2022 Excellent ability for attention to detail,  problem  \nsolving, and time management. \n\u2022 Possess analytical  ability  and high level  of initiative.  \n\u2022 Strong organizational  and leadership quality. \n\u2022 Good decision  making skills.  \n\u2022 Ability  to priorities  and handle  multiple  tasks  in a \nhigh pressure environment. \n\u2022 Goal oriented, self -motivated and committed  to the \nsuccessful  outcome  of the task. \n \nEducation  \nBachelor of Science : Telecommunication Engineering.                                                            12/2013  \nBUITEMS \u2013 Quetta  \n \nMembership  \n \nPakistan Engineering Councils ( PEC)  \nRegistration Number (Tele05325)  \n \nSaudi Engineering Councils (SEC)  \nRegistration Number (67 4657) \n \n \n \n "
+    },
+    "details": {
+        "name": "Saeed Iqbal",
+        "number": "923139917010",
+        "skills": [
+            "Wireless Integration",
+            "2G",
+            "3G",
+            "4G",
+            "5G NR",
+            "Web CME",
+            "Cloud CME",
+            "MML commands",
+            "Huawei OSS 2020",
+            "OSS MAE",
+            "GSM",
+            "UMTS",
+            "LTE",
+            "New Radio (NR)",
+            "SRAN Scripting",
+            "SM",
+            "NodeB",
+            "ENodeB",
+            "GNodeB Integration",
+            "Radio Access Network (RAN)",
+            "MW"
+        ],
+        "email_id": "saeed09.engr1@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [
+            {
+                "title": "Jazz -Mobilink -Huawei MS Region II",
+                "description": "Supervised operations for wireless integration."
+            },
+            {
+                "title": "MS-STC -Huawei/Nokia Western Region",
+                "description": "Managed regional operations and maintenance."
+            },
+            {
+                "title": "Smart Huawei Modernization Project / Change-Out",
+                "description": "Involved in installation and commissioning of Huawei equipment."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "12-2013",
+                "university": "BUITEMS",
+                "degree_title": "Bachelor of Science : Telecommunication Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/saeed-iqbal",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saeed Iqbal is an experienced Wireless Integration Engineer with a strong background in telecommunications, specializing in wireless services and integration across multiple generations of mobile technology. He has demonstrated expertise in managing complex projects and ensuring operational excellence in various roles within the industry.",
+        "employment_history": [
+            {
+                "details": "Responsibilities include providing remote delivery of wireless services and conducting pre-checks and post-checks for site integration.",
+                "end_date": "Present",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Wireless Integration Engineer",
+                "start_date": "07-2024",
+                "company_name": "Prime -Hr. Huawei Client"
+            },
+            {
+                "details": "Supervised operations and provided technical solutions for wireless integration projects.",
+                "end_date": "06-2024",
+                "location": "Peshawar, Pakistan",
+                "job_title": "Regional Team Lead",
+                "start_date": "09-2023",
+                "company_name": "Hi-Tech Network limited"
+            },
+            {
+                "details": "Managed regional operations and maintenance for Huawei and Nokia equipment.",
+                "end_date": "08-2023",
+                "location": "Riyadh, Kingdom of Saudi Arabia",
+                "job_title": "Team Lead Operation",
+                "start_date": "01-2020",
+                "company_name": "Gulf Business Horizon"
+            },
+            {
+                "details": "Coordinated field operations and managed installation and commissioning of cellular network equipment.",
+                "end_date": "12-2019",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Project Coordinator/Cluster Owner",
+                "start_date": "01-2017",
+                "company_name": "HRSG Outsourcing (Pvt), Ltd"
+            },
+            {
+                "details": "Involved in installation and commissioning of Huawei BTS and transmission nodes.",
+                "end_date": "08-2016",
+                "location": "Riyadh, Kingdom of Saudi Arabia",
+                "job_title": "Field Maintenance Engineer",
+                "start_date": "07-2015",
+                "company_name": "Seder Group APD"
+            },
+            {
+                "details": "Experience in installation and commissioning of Huawei equipment for modernization projects.",
+                "end_date": "05-2015",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Transmission Engineer",
+                "start_date": "01-2014",
+                "company_name": "Egyptian Pakistani Telecommunication Services Company Pvt Ltd"
+            }
+        ]
+    }
+}

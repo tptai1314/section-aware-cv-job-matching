@@ -1,0 +1,119 @@
+{
+    "output": {
+        "justification": [
+            "The resume is not relevant to the job description as the candidate's experience is in game development, not business development.",
+            "The candidate does not have relevant experience in business development or strategic planning, which are critical for the job role.",
+            "The candidate lacks skills in business analytics, sales strategy, CRM tools, and digital marketing, which are specified in the job description.",
+            "The degree in Software Engineering does not meet the requirement for Business Administration or a related field as per the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 0
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales strategy",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 0.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Ehtesham",
+            "email": "ehtesham@gmail.com",
+            "phone": "0341-2182454",
+            "current_position": "Unity Developer",
+            "current_company": "Brain Game Studio",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "01-2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 32,
+            "strategic planning": 68
+        },
+        "micro_dict": {
+            "sales strategy": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "PYTHON\nPROBLEM SOLVING\nUNITY \nGAME DEVELOPMENT \nGAME DESIGNING C++\nP :  0 3 4 1 - 2 1 8 2 4 5 4  \nE :  g d . e h t e s h a m @ g m a i l . c o m  P E R S O N A L S K I L L S \nC r e a t i v e  s p i r i t\n R e l i a b l e  a n d  p r o f e s s i o n a l\n O r g a n i z e d\nT i m e  m a n a g e m e n t\n T e a m  p l a y e r  \nF a s t  l e a r n e r  \nM o t i v a t e d  P R O F E S S I O N A L \nS K I L L S \nCONTACTE H T E S H A M\nU  N  I  T  Y  D  E  V  E  L  O  P  E  R\nI  i n t e n d  t o  c o n t i n u e  w o r k  i n  a  c r e a t i v e  t e a m  u s i n g  a s  m a n y  o f  \nm y  s k i l l s  a s  p o s s i b l e  t o  m a x i m i z e  m y  p o t e n t i a l  a n d  f u r t h e r  m y  \ne x p e r i e n c e  .  A s  a  s o f t w a r e  e n g i n e e r  a n d  s e a s o n e d  U n i t y  \nd e v e l o p e r , I  h a v e  t h e  e x p e r i e n c e  t o  p r o d u c e  a  q u a l i t y  \np r o d u c t  e f f i c i e n t l y  .  I  a m  a  v e r s a t i l e ,  e n t h u s i a s t i c ,  p a s s i o n a t e  \nD e v e l o p e r  I  h a v e  e x p e r i e n c e  w i t h  b o t h  U n i t y  2 D  a n d  3 D  \nd e v e l o p m e n t  a n d  o n  b o t h  d e s k t o p  a n d  m o b i l e  a p p l i c a t i o n s .\nEDUCATIONS u p e r M o o p s  G a m e  \nW i n g s  o f  F u r y  \nI n t e r g r a t i o n  l i k e  f i r e b a s e , a d s , p l a y f a b  \nC a r  S t u n t\n O f f R o a d  T r u c k\n P o l i c e  F l y i n g  R o b o t  C a r  \nS c o r p i a n  R o b o t  T r a n s f o r m\nF a i r y L a n d\nC a r d  G a m e\nR e s t u r a n t  t y c o nGAME DEVELOPER\nB r a i n  G a m e  S t u d i o\nM a s s  G a m e s  S t u d i oGAME DEVELOPEREXPERIENCE\n J a n  0 1 , 2 0 2 1  - A p r i l\nA p r   0 1 , 2 0 2 1  \nN o w\nGARRISON UNIVERSITY LAHORE\nB A C H E L O R  O F  S O F T W A R E  E N G I N E E R I N G2 0 1 6  -  2 0 2 0"
+    },
+    "details": {
+        "name": "Htesham",
+        "number": "03412182454",
+        "skills": [
+            "Python",
+            "C++",
+            "Unity",
+            "Game Development",
+            "Game Designing"
+        ],
+        "email_id": "gd.ehtesham@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "Garrison University Lahore",
+                "degree_title": "Bachelor of Software Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/htesham",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/htesham",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Htesham is a dedicated Unity developer with a Bachelor of Software Engineering from Garrison University Lahore. He possesses strong technical skills in Python, C++, and game development, with experience in both 2D and 3D development for desktop and mobile applications. Htesham is passionate about producing quality products efficiently.",
+        "employment_history": [
+            {
+                "details": "Worked as a Game Developer at Brain Game Studio and Mass Games Studio, focusing on game design and development.",
+                "end_date": "04-2021",
+                "location": "",
+                "job_title": "Game Developer",
+                "start_date": "01-2021",
+                "company_name": "Brain Game Studio"
+            }
+        ]
+    }
+}

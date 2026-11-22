@@ -1,0 +1,138 @@
+{
+    "output": {
+        "justification": [
+            "Despite having over 10 years of experience in business development, the resume lacks specific leadership roles, hence a moderate leadership score.",
+            "The candidate has extensive experience in business development roles but lacks explicit mention of managing complex sales cycles consistently.",
+            "Quite strategic experience visibly addressing key business decisions, negotiations and team leadership.",
+            "Candidate has extensive experience in sales roles, evidencing a strategic approach to managing sales processes."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales process management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in managing complex sales cycles",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.6000000000000005,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "Zain Younas",
+            "email": "zainyounas@gmail.com",
+            "phone": "+966544352196",
+            "current_position": "Business Development Manager",
+            "current_company": "FINLOYD",
+            "employment_start_date_current_company": "2012-01-01",
+            "first_company_start_date": "2009-01-01",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "leadership": 57,
+            "experience": 17,
+            "strategic thinking": 26
+        },
+        "micro_dict": {
+            "sales process management": 100
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Proven track record in managing complex sales cycles",
+            "Strong negotiation and strategic thinking skills",
+            "5+ years of experience in business development or a related role"
+        ],
+        "resume": " \n \nEXPERIENCE  \nBusiness Development Manager  @FINLOYD  (2012  > Present)  \nI. Develop ing growth strategies by analyzing market strategies.  \nII. Making N egotiating strategies by integration of new venture \nwith company strategies.  \nIII. To Secure & Protect the company\u2019s confidential information.  \nIV. Managing & Retaining Relationship with existing Clien ts. \nV. Developing Sales goals for team & ensure they met.  \nVI. Making q uotes & Proposals  \n \n \n Sales Team Mentor  @ALPHA Group (2010 -2012 ) \n I. To evaluate new opportunities by quantifies  business \nintelligence.  \nII. Promotes a professional company image by excellent services, \nsales & Communication skills.  \nIII. Possess a strong knowledge of product  & our competitors in the \nindustry.  \nIV. Ability to solve the tough problems with creative talents.  \n \n Sales Executive @ALPHA Group (2009-2010 ) \n I. Planning & Organizing d aily work schedule on potential clients  \nII. Making Business Presentations according to the industry.  \nIII. Organizational skills are important in order to pri oritize tasks & \nmeet deadlines.  \nIV. To Expand the clients, teamwork skills are very much efficient.  \nEDUCATION  \nSikkim Manipal University  (2009 -2013) \nBBA- Bachelor in Business Administrations.  \nWESTECH COLLEGE, UK  (2006-2007)  \nDiploma in Business Administrations, DBA  ABOUT ME  \n1. I am always into maintaining fruitful \nrelationships with existing clients.  \n2. Ability to handle pressure & meet \ndeadlines.  \n3. In depth knowledge of security \nindustry fields.  \n4. Excellent time management & \norganizations.  \n5. Strong Proficiency in Microsoft \nword, Excel, Power Point & E -media \nCS, ZOHO, Card Presso.  \n6. Ability to communicate informations \nwith the technical client in a concise \nmanner.  \n7. Technical skills of providing the \nclients with the better & convincin g \nsolutions.  \n8. Excellent organizational skills with \nemphasis on priorities & goal \nsetting.  \n9. Experiences working to & exceeding \ntargets.  \n10. Able to provide quality leadership to \na large team of sales people.  Zain Younas  \nSenior Business development/ Business \ndevelopment Specialist/ Sales Team Leader/ Sr. \nSecurity Consultant/ Sales Specialist.  \nMob# +966544352196  ---- zainyounas@gmail.com  \nEXPER TISE \nSales  Goals  \nMarket Knowledge  \nTerritory M anagement  \nCommunication  Skills  \nManagement Skills  \nNegotiation Skills  "
+    },
+    "details": {
+        "name": "Zain Younas",
+        "number": "966544352196",
+        "skills": [
+            "Microsoft Word",
+            "Excel",
+            "PowerPoint",
+            "E-media",
+            "CS",
+            "ZOHO",
+            "Card Presso"
+        ],
+        "email_id": "zainyounas@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2013",
+                "university": "Sikkim Manipal University",
+                "degree_title": "BBA- Bachelor in Business Administrations"
+            },
+            {
+                "end_date": "05-2007",
+                "university": "WESTECH COLLEGE, UK",
+                "degree_title": "Diploma in Business Administrations, DBA"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Zain Younas is a seasoned business development manager with extensive experience in sales and client relationship management. He possesses strong technical skills in various software applications and has a proven track record in developing growth strategies and achieving sales goals.",
+        "employment_history": [
+            {
+                "details": "Developing growth strategies by analyzing market strategies, negotiating strategies, securing company\u2019s confidential information, managing client relationships, and developing sales goals for the team.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2012",
+                "company_name": "FINLOYD"
+            },
+            {
+                "details": "Evaluating new opportunities by quantifying business intelligence and promoting a professional company image through excellent services.",
+                "end_date": "12-2012",
+                "location": "",
+                "job_title": "Sales Team Mentor",
+                "start_date": "01-2010",
+                "company_name": "ALPHA Group"
+            },
+            {
+                "details": "Planning and organizing daily work schedules for potential clients and making business presentations according to the industry.",
+                "end_date": "12-2010",
+                "location": "",
+                "job_title": "Sales Executive",
+                "start_date": "01-2009",
+                "company_name": "ALPHA Group"
+            }
+        ]
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not possess 5+ years of experience in sales or key account management, having only worked approximately 4 years combined in different roles, not specifically in key account management.",
+            "No mention of proficiency in data analysis and forecasting tools, which is crucial for the role.",
+            "Educational background meets the Bachelor\u2019s degree requirement but not from preferred institutions.",
+            "The candidate lacks specific experience with CRM and ERP systems like SAP or Salesforce, which are vital for this position."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "stakeholder management",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.54,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Sheraz Imtiaz",
+            "email": "sherazb35@gmail.com",
+            "phone": "03214501033",
+            "current_position": "Marketing Officer",
+            "current_company": "Asian Calibration Services Pvt Ltd.",
+            "employment_start_date_current_company": "10-2021",
+            "first_company_start_date": "07-2016",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 12,
+            "experience": 54,
+            "strategic thinking": 34
+        },
+        "micro_dict": {
+            "stakeholder management": 100
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "5+ years of experience in sales or key account management",
+            "Proficiency in data analysis and forecasting tools",
+            "Bachelor's degree in Business Administration or related field",
+            "Experience with CRM and ERP systems such as SAP and Salesforce"
+        ],
+        "resume": "\uf095  03214501033 \uf0e0sherazb35@gmail.com \uf041  Lahore | Pakistan\nEducation\nNational College Of Business\nAdministration & Economics\nBBA (Hon's), Management  |\nLahore\nSeptember 2019\nKIPS COLLEGE\nI.COM , Accounting  | Lahore\nMay 2015\nAmerican International School\nMatriculation , Science  | Lahore\nJune 2013\nCertifications\nInternship Certificate\nThe Bank of Punjab\nStarting September 2015\nInternship certificate\nLasani Goods & company\nStarting March 2015\nSkills\nproblem solving skills.\nSocial Media\nMarketing\nAwards\nBest Quran Recitation Award ,\nKIPS college society\nBest speech Award\nMay 2009\nIndustry\nManufacturing\nFunctional Area\nMarketing\nOperations\nAdministration And Office\nSupport\nAccounts, Finance & Financial\nServices\nLanguages\nEnglish - Native\nUrdu - Native\nGan Chinese - Beginner\nHobbies\nSheraz Imtiaz\n27 years old\nMarketing Officer @ Asian Calibration Services Pvt Ltd.\nSummary\nI am highly motivated and proactive person. I am currently looking to resume my professional\ncareer Where i could be able to utilize my analytical skills and business knowledge.\nSpecialities\nAnalytical Skills100%\ncommunication\nskills100%\ninterpersonal\nskills100%\nproblem\nsolving skills.100%\nleadership\nskills80%\n\u2192 Work Experience\n10MonthsOct 2021 - PresentMarketing Officer\nAsian Calibration Services Pvt Ltd.\nAs a Marketing Officer my core domain is to find & mature clients through social media\nplatfroms or through direct meetings.\nHandle Marketing Campaigns.\nListen Client inquiry and share the Proposal with Client.\nOnce Client aprroved our Proposal, my job is to confirm when our technical team visit client\nsite to perform Calibration work.\nAfter Calibration work my job is to share the invoice with Client.\nI am also responsible for payment recoveries.\n12MonthsSep 2020 - Sep 2021Bank Finance Coordinator\nPantera Energy Pvt Ltd\nAs a Bank Finance Coordinator, i gather all the necessary information from our client's to\npursue solar Financing Case.\nAfter that i prepare Solar financing case and send to the Bank which are on our Company\nPanel.\nI call Banker and ask him about the financing cases progress and update our client's.\nI was also responsible for recover the payment from Bank.\nAs a Bank Finance Coordinator my job is to Facilitate the clients who wants install solar on Bank\nFinancing.\n6MonthsFeb 2020 - Aug 2020Account Executive\nPantera Energy (pvt) Ltd\nAs an Account Executive my job is to Maintain data in Quick book & Bizz Trax\nEnter Petty Cash Bills in both Softwares\nEnter Receipt  & Expense voucher in Quick book\nReconsile all Payable & Receivable data\n21MonthsApr 2017 - Jan 2019Assistant Marketing Executive\nQamer Oil Mills\nBadminton\nArticle Reading\nSnooker\nActingI promote company products through Social media platforms and also launch campaign in\ntargeted areas.\nAs an assistant marketing executive i also develop sale strategies.\ni also collect petty cash from our client's\ni was also responsible for organizing the event in different public places.\n\u2192 Work Experience\n7MonthsJul 2016 - Feb 2017Product sale executive\nFuture Now (Pvt) Limited\nAs a product sale executive my job was to take order from our Canadian based customers.\nI also offer some add-ons to our customer according to company policies.\nI send his order to the nearest shop of customer location & my campaign name was Pizza 73.\n\u2192 Projects\nMar 2019 - Aug 2019How can celebrities influence on consumer buying decision\n"
+    },
+    "details": {
+        "name": "Sheraz Imtiaz",
+        "number": "03214501033",
+        "skills": [
+            "Social Media Marketing",
+            "QuickBooks",
+            "Bizz Trax"
+        ],
+        "email_id": "sherazb35@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "How can celebrities influence on consumer buying decision",
+                "description": "Research project on the impact of celebrities on consumer behavior."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "09-2019",
+                "university": "National College Of Business Administration & Economics",
+                "degree_title": "BBA (Hon's), Management"
+            },
+            {
+                "end_date": "05-2015",
+                "university": "KIPS COLLEGE",
+                "degree_title": "I.COM , Accounting"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "American International School",
+                "degree_title": "Matriculation , Science"
+            }
+        ],
+        "achievements": [
+            "Best Quran Recitation Award, KIPS college society",
+            "Best speech Award, May 2009"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Internship Certificate",
+                "issuing_organization": "The Bank of Punjab",
+                "date_of_issuance": "09-2015"
+            },
+            {
+                "certification_name": "Internship certificate",
+                "issuing_organization": "Lasani Goods & company",
+                "date_of_issuance": "03-2015"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sheraz-imtiaz",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sheraz Imtiaz is a motivated marketing officer with experience in social media marketing and financial coordination. He has a strong background in managing client relationships and facilitating financial processes, demonstrating his technical skills in various software applications.",
+        "employment_history": [
+            {
+                "details": "As a Marketing Officer, responsible for finding and maturing clients through social media platforms and direct meetings, handling marketing campaigns, and managing client inquiries and proposals.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Marketing Officer",
+                "start_date": "10-2021",
+                "company_name": "Asian Calibration Services Pvt Ltd"
+            },
+            {
+                "details": "Gathered necessary information from clients to pursue solar financing cases, prepared cases for banks, and facilitated client interactions with bankers.",
+                "end_date": "09-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Bank Finance Coordinator",
+                "start_date": "09-2020",
+                "company_name": "Pantera Energy Pvt Ltd"
+            },
+            {
+                "details": "Maintained data in QuickBooks and Bizz Trax, entered petty cash bills, receipts, and expense vouchers, and reconciled payable and receivable data.",
+                "end_date": "08-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Account Executive",
+                "start_date": "02-2020",
+                "company_name": "Pantera Energy (pvt) Ltd"
+            },
+            {
+                "details": "Promoted company products through social media, developed sales strategies, and organized events in public places.",
+                "end_date": "01-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Marketing Executive",
+                "start_date": "04-2017",
+                "company_name": "Qamer Oil Mills"
+            },
+            {
+                "details": "Took orders from Canadian customers, offered add-ons, and coordinated order fulfillment.",
+                "end_date": "02-2017",
+                "location": "Lahore, Pakistan",
+                "job_title": "Product Sale Executive",
+                "start_date": "07-2016",
+                "company_name": "Future Now (Pvt) Limited"
+            }
+        ]
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "output": {
+        "justification": [
+            "The resume indicates experience in enterprise sales, key account management, and business development, aligning well with the job's focus on strategic growth.",
+            "Specific skills in CRM tools and proposal development are mentioned, covering required CRM proficiency.",
+            "Education in MBA from COMSATS Lahore provides a strong foundation for strategic business roles, enhancing analytical capabilities.",
+            "However, the resume lacks specific mention of data visualization tools like Power BI or Tableau, which are critical for the job role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm tools",
+                    "score": 8
+                },
+                {
+                    "criteria": "data visualization (power bi, tableau)",
+                    "score": 4
+                },
+                {
+                    "criteria": "excel",
+                    "score": 7
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong analytical skills with experience in SQL and Excel",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in CRM software and data visualization tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.98,
+                "micro_scores": 6.88
+            }
+        },
+        "personal_info": {
+            "name": "Akif Chaudhry",
+            "email": "m.akifchaudhry@gmail.com",
+            "phone": "+92 334 7050 922",
+            "current_position": "None",
+            "current_company": "None",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "/akif-chaudhry-021320223"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Position:** Senior Business Development Executive\n\n**Company:** NextGen Solutions Inc.\n\n**Location:** Remote\n\n**Overview:**\nJoin NextGen Solutions Inc. as a Senior Business Development Executive, where you will lead efforts to identify, develop, and manage strategic business opportunities. Engage in creating and implementing customized business strategies that foster customer relationships and drive revenue growth.\n\n**Key Responsibilities:**\n- Develop and execute strategic business development initiatives to drive company sales and market expansion.\n- Lead and mentor the business development team, providing guidance and motivation.\n- Utilize CRM tools to manage leads and maintain communications with potential clients.\n- Conduct market research to identify new leads and monitor industry trends.\n- Develop compelling business proposals and presentations for new and existing clients.\n- Enhance existing client relationships and expand contacts in relevant markets.\n- Analyze data using analytical tools such as Power BI and Tableau to inform strategic decisions.\n- Collaborate with cross-functional teams to improve product development and business strategies.\n\n**Required Skills:**\n- Proven experience in business development and sales management.\n- Exceptional skills in data analytics and strategic planning.\n- Proficiency with CRM tools, Excel, SQL, and data visualization platforms such as Power BI and Tableau.\n- Strong communication and negotiation skills.\n- Ability to manage multiple projects simultaneously and meet tight deadlines.\n\n**Qualities:**\n- Self-motivated and results-driven with a passion for business growth.\n- Demonstrates leadership skills with the ability to guide and inspire teams.\n- Excellent decision-making and problem-solving abilities.\n\n**Why Join Us:**\n- Be a part of an innovative company focused on driving positive change in the industry.\n- Opportunities for career advancement and professional development.\n- Collaborative and inclusive work environment.",
+        "macro_dict": {
+            "leadership": 14,
+            "business development experience": 42,
+            "analytical skills": 44
+        },
+        "micro_dict": {
+            "crm tools": 12,
+            "data visualization (power bi, tableau)": 25,
+            "excel": 12,
+            "communication skills": 51
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Strong analytical skills with experience in SQL and Excel",
+            "Proficiency in CRM software and data visualization tools"
+        ],
+        "resume": "ENTERPRISE SALES\nPAIN POINTS/REQUIREMENT ANALYSIS\nKEY ACCOUNT MANAGEMENT\nPROPOSAL DEVELOPMENT\nDIGITAL MARKETING\nGRAPHIC DESIGNING\nLEAD GENERATION\nBUSINESS DEVELOPMENTPRO SKILLSAddres\nJohar Town, Lahore\nPhone\n+92 334 7050 922\nEmail\nm.akifchaudhry@gmail.com  \n/akif-chaudhry-021320223CONTACT ME/gid00002/gid00038/gid00036/gid00033/gid00001/gid00004/gid00035/gid00028/gid00048/gid00031/gid00035/gid00045/gid00052\n/gid00006/gid00019/gid00017/gid00001/gid00010/gid00001/gid00004/gid00019/gid00014/gid00001/gid00010/gid00001/gid00020/gid00002/gid00013/gid00006/gid00020/gid00001/gid00010/gid00001/gid00005/gid00010/gid00008/gid00010/gid00021/gid00002/gid00013/gid00001/gid00014/gid00002/gid00019/gid00012/gid00006/gid00021/gid00010/gid00015/gid00008\nTHE BACHELOR OF COMMERCE /parenleft.capB.COM/parenright.cap\nB.Z.U Multan2005 - 2007\nINTERMEDIATE IN COMPUTER SCIENCE\nB.I.S.E Multan2002 - 2005\nMATRICULATION\nB.I.S.E Multan1998 - 2002MASTER IN BUSINESS ADMINISTRATION\nCOMSATS Lahore2007 - 2009EDUCATIONCAREER SUMMARY\n/gid00006/gid00051/gid00043/gid00032/gid00045/gid00036/gid00032/gid00041/gid00030/gid00032/gid00031/gid00001/gid00036/gid00041/gid00001/gid00042/gid00514/gid00032/gid00045/gid00036/gid00041/gid00034/gid00001/gid00043/gid00042/gid00050/gid00032/gid00045/gid00033/gid00048/gid00039/gid00001/gid00036/gid00041/gid00031/gid00048/gid00046/gid00047/gid00045/gid00052/gid00001/gid00046/gid00042/gid00039/gid00048/gid00047/gid00036/gid00042/gid00041/gid00046/gid00001/gid00036/gid00041/gid00001/gid00033/gid00042/gid00039/gid00039/gid00042/gid00050/gid00036/gid00041/gid00034/gid00001/gid00028/gid00045/gid00032/gid00028/gid00046\n/gid00007/gid00036/gid00041/gid00028/gid00041/gid00030/gid00032\n/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047/gid00020/gid00048/gid00043/gid00043/gid00039/gid00052/gid00001/gid00004/gid00035/gid00028/gid00036/gid00041\n/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047/gid00017/gid00045/gid00042/gid00031/gid00048/gid00030/gid00047/gid00036/gid00042/gid00041\n/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047/gid00009/gid00019/gid00001/gid00464/gid00001/gid00017/gid00028/gid00052/gid00045/gid00042/gid00039/gid00039\n/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047/gid00020/gid00028/gid00039/gid00032/gid00046/gid00001/gid00464\n/gid00014/gid00028/gid00045/gid00038/gid00032/gid00047/gid00036/gid00041/gid00034\n/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00043/gid00045/gid00042/gid00030/gid00032/gid00046/gid00046/gid00032/gid00046/gid00001/gid00028/gid00041/gid00031/gid00001/gid00043/gid00028/gid00036/gid00041/gid00001/gid00043/gid00042/gid00036/gid00041/gid00047/gid00046/gid00001/gid00048/gid00041/gid00031/gid00032/gid00045/gid00046/gid00047/gid00028/gid00041/gid00031/gid00036/gid00041/gid00034/gid00001/gid00042/gid00033/gid00001/gid00040/gid00028/gid00037/gid00042/gid00045/gid00001/gid00029/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00046/gid00032/gid00030/gid00047/gid00042/gid00045/gid00046/gid00001\n/gid00009/gid00028/gid00041/gid00031/gid00046/gid00001/gid00042/gid00041/gid00001/gid00032/gid00051/gid00043/gid00032/gid00045/gid00036/gid00032/gid00041/gid00030/gid00032/gid00001/gid00028/gid00041/gid00031/gid00001/gid00033/gid00048/gid00041/gid00030/gid00047/gid00036/gid00042/gid00041/gid00028/gid00039/gid00001/gid00034/gid00045/gid00036/gid00043/gid00001/gid00042/gid00041/gid00001/gid00006/gid00019/gid00017/gid01181/gid00004/gid00019/gid00014/gid00001/gid00046/gid00042/gid00039/gid00048/gid00047/gid00036/gid00042/gid00041/gid00046\n/gid00020/gid00002/gid00017/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00016/gid00041/gid00032Microsoft\n/gid00002/gid00036/gid00020/gid00002/gid00013/gid00006/gid00020/gid00001/gid00015/gid00002/gid00023/gid00010/gid00008/gid00002/gid00021/gid00016/gid00019\nManufactuering\n/gid00019/gid00032/gid00047/gid00028/gid00036/gid00039 /gid00014/gid00028/gid00041/gid00048/gid00033/gid00028/gid00030/gid00047/gid00048/gid00032/gid00045/gid00036/gid00041/gid00034 /gid00021/gid00045/gid00028/gid00031/gid00036/gid00041/gid00034 /gid00020/gid00032/gid00045/gid00049/gid00036/gid00030/gid00032/gid00046\n/gid00010/gid00041/gid00049/gid00032/gid00041/gid00047/gid00042/gid00045/gid00052/gid00001/gid00014/gid00034/gid00047/gid01141\n/gid00007/gid00045/gid00042/gid00041/gid00047/gid00001/gid00042/gid00514/gid00036/gid00030/gid00032\n/gid00003/gid00028/gid00030/gid00038/gid00001/gid00042/gid00514/gid00036/gid00030/gid00032\n/gid00017/gid00016/gid00020\n/gid00006/gid00001/gid00030/gid00042/gid00040/gid00040/gid00032/gid00045/gid00030/gid00032/gid00003/gid00016/gid00014/gid00001/gid00040/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047\n/gid00024/gid00028/gid00046/gid00047/gid00032/gid00001/gid00040/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047\n/gid00004/gid00042/gid00046/gid00047/gid00001/gid00042/gid00033/gid00001/gid00034/gid00042/gid00042/gid00031/gid00046/gid00001/gid00046/gid00042/gid00039/gid00031\n/gid00019/gid00028/gid00050/gid00001/gid00040/gid00028/gid00047/gid00032/gid00045/gid00036/gid00028/gid00039/gid00001/gid00043/gid00039/gid00028/gid00041/gid00041/gid00036/gid00041/gid00034\n/gid00016/gid00045/gid00031/gid00032/gid00045/gid00001/gid00031/gid00032/gid00039/gid00036/gid00049/gid00032/gid00045/gid00052/gid00005/gid00036/gid00046/gid00047/gid00045/gid00036/gid00029/gid00048/gid00047/gid00036/gid00042/gid00041/gid00001/gid00041/gid00032/gid00047/gid00050/gid00042/gid00045/gid00038/gid00001/gid00014/gid00034/gid00047/gid01141\n/gid00017/gid00045/gid00042/gid00031/gid00048/gid00030/gid00047/gid00001/gid00040/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047\n/gid00020/gid00028/gid00039/gid00032/gid00046/gid00001/gid00040/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047\n/gid00016/gid00045/gid00031/gid00032/gid00045/gid00001/gid00040/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047/gid00021/gid00036/gid00040/gid00032/gid00001/gid00046/gid00035/gid00032/gid00032/gid00047/gid00046\n/gid00043/gid00045/gid00042/gid00037/gid00032/gid00030/gid00047/gid00001/gid00047/gid00036/gid00040/gid00032/gid00039/gid00036/gid00041/gid00032/gid00046\n/gid00024/gid00042/gid00045/gid00038/gid00001/gid00033/gid00042/gid00045/gid00030/gid00032/gid00001/gid00014/gid00034/gid00047/gid01141\n/gid00004/gid00042/gid00046/gid00047/gid00036/gid00041/gid00034\n/gid00021/gid00036/gid00040/gid00032/gid00001/gid01086/gid00001/gid00040/gid00028/gid00047/gid00032/gid00045/gid00036/gid00028/gid00039/gid00001/gid00040/gid00034/gid00047/gid01141\n/gid00003/gid00042/gid00031/gid00052/gid00001/gid00046/gid00032/gid00039/gid00039/gid00036/gid00041/gid00034TradingPROFESSIONAL EXPERIENCE\n/gid00002/gid00038/gid00036/gid00033/gid00001/gid00004/gid00035/gid00028/gid00048/gid00031/gid00035/gid00045/gid00052\n/gid00006/gid00019/gid00017/gid00001/gid00010/gid00001/gid00004/gid00019/gid00014/gid00001/gid00010/gid00001/gid00020/gid00002/gid00013/gid00006/gid00020/gid00001/gid00010/gid00001/gid00005/gid00010/gid00008/gid00010/gid00021/gid00002/gid00013/gid00001/gid00014/gid00002/gid00019/gid00012/gid00006/gid00021/gid00010/gid00015/gid00008\n/gid00004/gid00016/gid00015/gid00007/gid00010/gid00027/gid00001/gid00013/gid00021/gid00005/gid00001/gid01162/gid00001/gid00013/gid00002/gid00009/gid00016/gid00019/gid00006/gid00001/gid00017/gid00012\n/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00005/gid00032/gid00049/gid00032/gid00039/gid00042/gid00043/gid00040/gid00032/gid00041/gid00047/gid00001/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00045\n/gid00016/gid00514/gid00032/gid00045/gid00036/gid00041/gid00034/gid00001/gid00043/gid00042/gid00050/gid00032/gid00045/gid00033/gid00048/gid00039/gid00001/gid00036/gid00041/gid00031/gid00048/gid00046/gid00047/gid00045/gid00052/gid00001/gid00046/gid00043/gid00032/gid00030/gid00036/gid00033/gid00036/gid00030/gid00001/gid00046/gid00042/gid00039/gid00048/gid00047/gid00036/gid00042/gid00041/gid00046/gid00001/gid00029/gid00028/gid00046/gid00032/gid00031/gid00001/gid00042/gid00041/gid00001/gid00014/gid00036/gid00030/gid00045/gid00042/gid00046/gid00042/gid00517\n/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00043/gid00039/gid00028/gid00047/gid00033/gid00042/gid00045/gid00040/gid00001/gid00028/gid00046/gid00001/gid00033/gid00042/gid00039/gid00039/gid00042/gid00050/gid00036/gid00041/gid00034/gid01143\n/gid01755/gid00001/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00007/gid00036/gid00041/gid00028/gid00041/gid00030/gid00032/gid00001/gid01086/gid00001/gid00016/gid00043/gid00032/gid00045/gid00028/gid00047/gid00036/gid00042/gid00041/gid00046/gid00001/gid01175/gid00006/gid00019/gid00017/gid01176\n/gid01755/gid00001/gid00014/gid00036/gid00030/gid00045/gid00042/gid00046/gid00042/gid00517/gid00001/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00004/gid00032/gid00041/gid00047/gid00045/gid00028/gid00039/gid00001/gid01175/gid00006/gid00019/gid00017/gid01176\n/gid01755/gid00001/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00004/gid00019/gid00014/gid00001/gid01175/gid00007/gid00036/gid00032/gid00039/gid00031/gid00001/gid00020/gid00032/gid00045/gid00049/gid00036/gid00030/gid00032/gid00046/gid01142/gid00001/gid00020/gid00028/gid00039/gid00032/gid00046/gid01142/gid00001/gid00004/gid00048/gid00046/gid00047/gid00042/gid00040/gid00032/gid00045/gid00001/gid00020/gid00032/gid00045/gid00049/gid00036/gid00030/gid00032/gid00046/gid01142/gid00001/gid00014/gid00028/gid00045/gid00038/gid00032/gid00047/gid00036/gid00041/gid00034/gid01176\n/gid01755/gid00001/gid00017/gid00042/gid00050/gid00032/gid00045/gid00001/gid00003/gid00010/gid00005/gid00032/gid00030/gid00001/gid01089/gid01087/gid01089/gid01087/gid00001/gid01162/gid00001/gid00011/gid00028/gid00041/gid00001/gid01089/gid01087/gid01089/gid01089/gid00005/gid00026/gid00015/gid00002/gid00014/gid00010/gid00004/gid00020/gid00001/gid00020/gid00021/gid00019/gid00006/gid00002/gid00014/gid00001/gid01162/gid00001/gid00005/gid00025/gid00003/gid00001/gid00022/gid00002/gid00006\n/gid00020/gid00028/gid00039/gid00032/gid00046/gid00001/gid00002/gid00030/gid00030/gid00042/gid00048/gid00041/gid00047/gid00001/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00045\n/gid00016/gid00514/gid00032/gid00045/gid00036/gid00041/gid00034/gid00001/gid00043/gid00042/gid00050/gid00032/gid00045/gid00033/gid00048/gid00039/gid00001/gid00036/gid00041/gid00031/gid00048/gid00046/gid00047/gid00045/gid00052/gid00001/gid00046/gid00043/gid00032/gid00030/gid00036/gid00033/gid00036/gid00030/gid00001/gid00046/gid00042/gid00039/gid00048/gid00047/gid00036/gid00042/gid00041/gid00046/gid00001/gid00029/gid00028/gid00046/gid00032/gid00031/gid00001/gid00042/gid00041/gid00001/gid00014/gid00036/gid00030/gid00045/gid00042/gid00046/gid00042/gid00517\n/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00043/gid00039/gid00028/gid00047/gid00033/gid00042/gid00045/gid00040/gid00001/gid00028/gid00046/gid00001/gid00033/gid00042/gid00039/gid00039/gid00042/gid00050/gid00036/gid00041/gid00034/gid01143\n/gid01755/gid00001/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00007/gid00036/gid00041/gid00028/gid00041/gid00030/gid00032/gid00001/gid01086/gid00001/gid00016/gid00043/gid00032/gid00045/gid00028/gid00047/gid00036/gid00042/gid00041/gid00046/gid00001/gid01175/gid00006/gid00019/gid00017/gid01176\n/gid01755/gid00001/gid00014/gid00036/gid00030/gid00045/gid00042/gid00046/gid00042/gid00517/gid00001/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00004/gid00032/gid00041/gid00047/gid00045/gid00028/gid00039/gid00001/gid01175/gid00006/gid00019/gid00017/gid01176\n/gid01755/gid00001/gid00005/gid00052/gid00041/gid00028/gid00040/gid00036/gid00030/gid00046/gid00001/gid01090/gid01093/gid01092/gid00001/gid00004/gid00019/gid00014/gid00001/gid01175/gid00007/gid00036/gid00032/gid00039/gid00031/gid00001/gid00020/gid00032/gid00045/gid00049/gid00036/gid00030/gid00032/gid00046/gid01142/gid00001/gid00020/gid00028/gid00039/gid00032/gid00046/gid01142/gid00001/gid00004/gid00048/gid00046/gid00047/gid00042/gid00040/gid00032/gid00045/gid00001/gid00020/gid00032/gid00045/gid00049/gid00036/gid00030/gid00032/gid00046/gid01142/gid00001/gid00014/gid00028/gid00045/gid00038/gid00032/gid00047/gid00036/gid00041/gid00034/gid01176\n/gid01755/gid00001/gid00017/gid00042/gid00050/gid00032/gid00045/gid00001/gid00003/gid00010/gid00007/gid00032/gid00029/gid00001/gid01089/gid01087/gid01089/gid01089/gid00001/gid01162/gid00001/gid00017/gid00045/gid00032/gid00046/gid00032/gid00041/gid00047\n/gid00009/gid00002/gid00020/gid00009/gid00016/gid00016/gid00001/gid00008/gid00019/gid00016/gid00022/gid00017/gid00001/gid01162/gid00001/gid00013/gid00002/gid00009/gid00016/gid00019/gid00006/gid00001/gid00017/gid00012\n/gid00019/gid00032/gid00034/gid00036/gid00042/gid00041/gid00028/gid00039/gid00001/gid00020/gid00028/gid00039/gid00032/gid00046/gid00001/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00045\n/gid00019/gid00032/gid00034/gid00036/gid00042/gid00041/gid00028/gid00039/gid00001/gid00014/gid00028/gid00041/gid00028/gid00034/gid00032/gid00045/gid00001/gid00042/gid00033/gid00001/gid00017/gid00048/gid00041/gid00037/gid00028/gid00029/gid00001/gid00033/gid00042/gid00045/gid00001/gid00004/gid00045/gid00042/gid00038/gid00032/gid00045/gid00052/gid00001/gid00020/gid00028/gid00039/gid00032/gid00046/gid01143/gid00020/gid00032/gid00043/gid00001/gid01089/gid01087/gid01088/gid01092/gid00001/gid01162/gid00001/gid00002/gid00048/gid00034/gid00001/gid01089/gid01087/gid01089/gid01087\n/gid01755/gid00001/gid00019/gid00032/gid00034/gid00036/gid00042/gid00041/gid00028/gid00039/gid00001/gid00020/gid00028/gid00039/gid00032/gid00046/gid00001/gid00033/gid00042/gid00045/gid00001/gid00004/gid00045/gid00042/gid00030/gid00038/gid00032/gid00045/gid00052/gid00001/gid00010/gid00047/gid00032/gid00040/gid00046/gid00001/gid00050/gid00036/gid00047/gid00035/gid00001/gid00031/gid00036/gid00046/gid00047/gid00036/gid00001/gid00040/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047\n/gid01755/gid00001/gid00012/gid00032/gid00052/gid00001/gid00002/gid00030/gid00030/gid00042/gid00048/gid00041/gid00047/gid00046/gid00001/gid00040/gid00028/gid00041/gid00028/gid00034/gid00032/gid00040/gid00032/gid00041/gid00047/gid00001/gid01175/gid00014/gid00032/gid00047/gid00045/gid00042/gid01142/gid00001/gid00004/gid00028/gid00045/gid00045/gid00032/gid00033/gid00042/gid00048/gid00045/gid01142/gid00001/gid00008/gid00042/gid00049/gid00047/gid00001/gid00014/gid00036/gid00041/gid00036/gid00046/gid00047/gid00045/gid00036/gid00032/gid00046/gid01142/gid00001/gid00002/gid00045/gid00040/gid00052/gid01142/gid00009/gid00042/gid00047/gid00032/gid00039/gid00046/gid01176\n/gid00004/gid00016/gid00020/gid00014/gid00016/gid00020/gid00001/gid00020/gid00021/gid00019/gid00002/gid00021/gid00001/gid00004/gid00016/gid00015/gid00020/gid00022/gid00013/gid00021/gid00002/gid00015/gid00021/gid00020\n/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00005/gid00032/gid00049/gid00032/gid00039/gid00042/gid00043/gid00040/gid00032/gid00041/gid00047/gid00001/gid00006/gid00051/gid00032/gid00030/gid00048/gid00047/gid00036/gid00049/gid00032\n/gid00020/gid00028/gid00039/gid00032/gid00046/gid00001/gid01086/gid00001/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00005/gid00032/gid00049/gid00032/gid00039/gid00042/gid00043/gid00040/gid00032/gid00041/gid00047/gid00001/gid00033/gid00042/gid00045/gid00001/gid00005/gid00036/gid00034/gid00036/gid00047/gid00028/gid00039/gid00001/gid00014/gid00028/gid00045/gid00038/gid00032/gid00047/gid00036/gid00041/gid00034/gid00001/gid00020/gid00032/gid00045/gid00049/gid00036/gid00030/gid00032/gid00046/gid00007/gid00032/gid00029/gid00001/gid01089/gid01087/gid01088/gid01090/gid00001/gid01162/gid00001/gid00011/gid00048/gid00041/gid00001/gid01089/gid01087/gid01088/gid01092\n/gid00014/gid00028/gid00052/gid00001/gid01089/gid01087/gid01089/gid01089/gid01755/gid00001/gid00020/gid00006/gid00016\n/gid01755/gid00001/gid00024/gid00032/gid00029/gid00046/gid00036/gid00047/gid00032/gid00001/gid00005/gid00032/gid00049/gid00032/gid00039/gid00042/gid00043/gid00040/gid00032/gid00041/gid00047\n/gid01755/gid00001/gid00006/gid00001/gid00030/gid00042/gid00040/gid00040/gid00032/gid00045/gid00030/gid00032/gid00001\n/gid01755/gid00001/gid00014/gid00032/gid00031/gid00036/gid00028/gid00001/gid00002/gid00031/gid00046\n/gid01755/gid00001/gid00008/gid00042/gid00042/gid00034/gid00039/gid00032/gid00001/gid00002/gid00031/gid00046\n/gid01755/gid00001/gid00020/gid00042/gid00030/gid00036/gid00028/gid00039/gid00001/gid00014/gid00032/gid00031/gid00036/gid00028/gid00001/gid00014/gid00028/gid00045/gid00038/gid00032/gid00047/gid00036/gid00041/gid00034\nPROFESSIONAL TRAININGS\n/gid00020/gid00002/gid00017/gid00003/gid00048/gid00046/gid00036/gid00041/gid00032/gid00046/gid00046/gid00001/gid00016/gid00041/gid00032\n/gid00007/gid00048/gid00041/gid00030/gid00047/gid00036/gid00042/gid00041/gid00028/gid00039/gid00001/gid00021/gid00045/gid00028/gid00036/gid00041/gid00036/gid00041/gid00034/gid00001/gid00042/gid00033/gid00001/gid00020/gid00002/gid00017/gid00001/gid00003/gid00001/gid00016/gid00041/gid00032/gid00001/gid00033/gid00045/gid00042/gid00040/gid00001/gid00016/gid00045/gid00028/gid00001/gid00015/gid00032/gid00047/gid00001/gid00013/gid00028/gid00035/gid00042/gid00045/gid00032\n/gid00014/gid00028/gid00045/gid00001/gid01089/gid01087/gid01089/gid01088\n/gid00004/gid00019/gid00014/gid00001/gid00007/gid00048/gid00041/gid00030/gid00047/gid00036/gid00042/gid00041/gid00028/gid00039/gid00001/gid00021/gid00045/gid00028/gid00036/gid00041/gid00036/gid00041/gid00034/gid00001/gid01086/gid00001/gid00006/gid00041/gid00047/gid00032/gid00045/gid00043/gid00045/gid00036/gid00046/gid00032/gid00001/gid00020/gid00028/gid00039/gid00032/gid00046/gid00001/gid00021/gid00032/gid00030/gid00035/gid00041/gid00036/gid00044/gid00048/gid00032/gid00046\n/gid00005/gid00036/gid00034/gid00036/gid00047/gid00028/gid00039/gid00001/gid00014/gid00028/gid00045/gid00038/gid00032/gid00047/gid00036/gid00041/gid00034/gid00001/gid01086/gid00001/gid00008/gid00045/gid00028/gid00043/gid00035/gid00036/gid00030/gid00001/gid00005/gid00032/gid00046/gid00036/gid00034/gid00041/gid00036/gid00041/gid00034/gid00001/gid00045/gid00028/gid00036/gid00041/gid00036/gid00041/gid00034/gid00001/gid00033/gid00045/gid00042/gid00040\n/gid00004/gid00042/gid00046/gid00040/gid00042/gid00046/gid00001/gid00020/gid00047/gid00028/gid00045/gid00001/gid00004/gid00042/gid00041/gid00046/gid00048/gid00039/gid00047/gid00028/gid00041/gid00047/gid00046/gid00001/gid01162/gid00001/gid00005/gid00048/gid00029/gid00028/gid00036/gid00001/gid00022/gid00002/gid00006/gid00002/gid00036/gid00007/gid00032/gid00029/gid00001/gid01089/gid01087/gid01088/gid01091"
+    },
+    "details": {
+        "name": "Akif Chaudhry",
+        "number": "923347050922",
+        "skills": [
+            "Enterprise Sales",
+            "Pain Points/Requirement Analysis",
+            "Key Account Management",
+            "Proposal Development",
+            "Digital Marketing",
+            "Graphic Designing",
+            "Lead Generation",
+            "Business Development"
+        ],
+        "email_id": "m.akifchaudhry@gmail.com",
+        "location": "Johar Town, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2009",
+                "university": "COMSATS Lahore",
+                "degree_title": "Master in Business Administration"
+            },
+            {
+                "end_date": "06-2007",
+                "university": "B.Z.U Multan",
+                "degree_title": "Bachelor of Commerce"
+            },
+            {
+                "end_date": "06-2005",
+                "university": "B.I.S.E Multan",
+                "degree_title": "Intermediate in Computer Science"
+            },
+            {
+                "end_date": "06-2002",
+                "university": "B.I.S.E Multan",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/akif-chaudhry-021320223",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Akif Chaudhry is a skilled professional with expertise in enterprise sales, digital marketing, and business development. He has a strong background in key account management and proposal development, demonstrating a commitment to driving business success.",
+        "employment_history": []
+    }
+}

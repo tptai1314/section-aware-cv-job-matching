@@ -1,0 +1,166 @@
+{
+    "output": {
+        "justification": [
+            "Macro score for leadership is 7.5 due to experience leading a large team during extracurricular activity at university but lacks significant professional leadership role.",
+            "Macro score for Business Development Experience is 6 since the candidate has been involved in business development tasks during undergraduate activities but lacks substantial professional experience in business development.",
+            "Micro score for Market Research is 5 due to limited direct experience mentioned, though some skills from data science role might be applicable.",
+            "Micro score for Negotiation is 7 as sponsorship acquisition in extracurricular activity suggests negotiation skills, but lacks in a professional context.",
+            "Micro score for Sales Strategy is 5 because the candidate has indirect experience through extracurricular activities but not in a professional setting.",
+            "Micro score for SEO is 4 due to very limited direct involvement.",
+            "Micro score for Data Analysis is 8 based on extensive data analysis skills from current role as a Data Scientist."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7.5
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 5
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 7
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 5
+                },
+                {
+                    "criteria": "seo",
+                    "score": 4
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in business analytics and digital strategy",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.285,
+                "micro_scores": 6.109999999999999
+            }
+        },
+        "personal_info": {
+            "name": "HASAN REHMAN",
+            "email": "hasanrehman@yahoo.com",
+            "phone": "+92 3340298469",
+            "current_position": "Data Scientist II",
+            "current_company": "AFINITI",
+            "employment_start_date_current_company": "05-2021",
+            "first_company_start_date": "11-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/hasanrehman"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 19,
+            "business development experience": 81
+        },
+        "micro_dict": {
+            "market research": 6,
+            "negotiation": 44,
+            "sales strategy": 41,
+            "seo": 1,
+            "data analysis": 8
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "5+ years of business development experience in a leadership role",
+            "Proficiency in business analytics and digital strategy"
+        ],
+        "resume": "HASAN  REHMAN  \nKarachi,  Pakistan  | +92 3340298469  | hasanrehman@yahoo.com  | linkedin.com/in/hasanrehman  \nEXPERIENCE  \n \nAFINITI  Karachi,  Pakistan  \nData Scientist II                                                                                                                            May 2021  - Present  \n\u2022 Primary owner of statistical models responsible for generating incremental monthly sales  for leading Korean \ntelecommunications companies through contact center pairing optimization.  \n\u2022 Conducted comprehensive  exploratory data analysis  and feature engineering  using Python (NumPy and \npandas) , R, and SQL, ensuring robust data preparation for machine le arning models.  \n\u2022 Performed feature selection using random forests and lasso, and trained and evaluated supervised machine \nlearning models using scikit -learn.  \n\u2022 Wrote and optimized  data pipeline scripts  in SQL  to automate creation of CRM tables for models.  \n\u2022 Ensu red integrity and quality of historical data obtained from client sources and validated that data satisfies \nrequirements for machine learning and performance reporting.  \n\u2022 Utilized seaborn and matplotlib for data visualization to enhance analysis and reportin g, enabling clear and \nactionable insights for stakeholders.  \n\u2022 Deployed feature monitoring tools such as \u2018deepchecks\u2019 and \u2018evidently\u2019 to efficiently detect data drifts and \nabnormal values in important features.  \n\u2022 Contributed to design and successful deployment of three new accounts for Afiniti, enhancing the company\u2019s \nportfolio and client base.  \n \nWAVETEC  PRIVATE  LIMITED  Karachi,  Pakistan  \nCustomer  Support  Engineer                                                                                                        Nov 2020  \u2013 Apr 2021  \n\u2022 Performed R&D and troubleshooting of various hardware components used in the kiosks such as: bulk cash \nacceptors, passport scanners, electronic PCBs, etc.  \n\u2022 Tested firmware for the kiosks and rolling out patches on the online devices after updates by the software \ndevelopment team.  \n \n  ENGRO  FERTILIZERS  Daharki,  Pakistan                          \n  Instruments  Intern                                                                                                                       Aug 2019 \u2013 Sep 2019  \n\u2022 Identified  and studied  different  measurement  technologies  implemented  in a fertilizer  plant . \n\u2022 Implemented  PLC (Programmable  Logic  Controller)  programs  to automate  basic  processes . \n \nEDUCATION  \n \nNATIONAL  UNIVERSITY  OF SCIENCES  AND  TECHNOLOGY  Karachi,  Pakistan \nBachelor  of Electrical  and Electronics  Engineering  2016 - 2020  \n  Cumulative  GPA:  3.58/4. 0 \n  EXTRA -CURRICULAR  \n \nPRESIDENT  \u2013 NUST  PROWARS  \n\u2022 Led a team of 80 individuals to organize an event comprising of engineering, science, art, literature and  \ngaming  competitions  \n \nMARKETING  AND  BUSINESS  PLANNING  MEMBER  \u2013 NUST  FORMULA  STUDENT  TEAM  \n\u2022 Secured  sponsorships  for the team  by devising  marketing strategies  and proposals  \n\u2022 Won 10th position  out of 81 teams  in Business  Plan Presentation  at Formula  Student  UK 2019  \nADDITIONAL  SKILLS  \n \nProgramming  Languages:  Python,  R, SQL, C++, Ladder  Logic  (PLC)  \nSoftware : Greenplum , RStudio, Git , MS Office, MATLAB,  RS Logix  500, Arduino  \nGraphics : Adobe  Lightroom,  Photoshop  and Adobe  Premier  "
+    },
+    "details": {
+        "name": "Hasan Rehman",
+        "number": "923340298469",
+        "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "C++",
+            "Ladder Logic (PLC)",
+            "Greenplum",
+            "RStudio",
+            "Git",
+            "MS Office",
+            "MATLAB",
+            "RS Logix 500",
+            "Arduino",
+            "Adobe Lightroom",
+            "Photoshop",
+            "Adobe Premier"
+        ],
+        "email_id": "hasanrehman@yahoo.com",
+        "location": "Karachi, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2020",
+                "university": "NATIONAL UNIVERSITY OF SCIENCES AND TECHNOLOGY",
+                "degree_title": "Bachelor of Electrical and Electronics Engineering"
+            }
+        ],
+        "achievements": [
+            "Won 10th position out of 81 teams in Business Plan Presentation at Formula Student UK 2019"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hasanrehman",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hasan Rehman is a skilled data scientist with a strong background in statistical modeling and machine learning. He has experience in data analysis using Python, R, and SQL, and has successfully contributed to projects that enhance client portfolios and optimize sales processes. Hasan has also demonstrated leadership in extracurricular activities, showcasing his ability to manage teams and secure sponsorships.",
+        "employment_history": [
+            {
+                "details": "Primary owner of statistical models responsible for generating incremental monthly sales for leading Korean telecommunications companies through contact center pairing optimization. Conducted comprehensive exploratory data analysis and feature engineering using Python (NumPy and pandas), R, and SQL, ensuring robust data preparation for machine learning models. Performed feature selection using random forests and lasso, and trained and evaluated supervised machine learning models using scikit-learn. Wrote and optimized data pipeline scripts in SQL to automate creation of CRM tables for models. Ensured integrity and quality of historical data obtained from client sources and validated that data satisfies requirements for machine learning and performance reporting. Utilized seaborn and matplotlib for data visualization to enhance analysis and reporting, enabling clear and actionable insights for stakeholders. Deployed feature monitoring tools such as \u2018deepchecks\u2019 and \u2018evidently\u2019 to efficiently detect data drifts and abnormal values in important features. Contributed to design and successful deployment of three new accounts for Afiniti, enhancing the company\u2019s portfolio and client base.",
+                "end_date": "Present",
+                "location": "Karachi, Pakistan",
+                "job_title": "Data Scientist II",
+                "start_date": "05-2021",
+                "company_name": "AFINITI"
+            },
+            {
+                "details": "Performed R&D and troubleshooting of various hardware components used in the kiosks such as: bulk cash acceptors, passport scanners, electronic PCBs, etc. Tested firmware for the kiosks and rolling out patches on the online devices after updates by the software development team.",
+                "end_date": "04-2021",
+                "location": "Karachi, Pakistan",
+                "job_title": "Customer Support Engineer",
+                "start_date": "11-2020",
+                "company_name": "WAVETEC PRIVATE LIMITED"
+            },
+            {
+                "details": "Identified and studied different measurement technologies implemented in a fertilizer plant. Implemented PLC (Programmable Logic Controller) programs to automate basic processes.",
+                "end_date": "09-2019",
+                "location": "Daharki, Pakistan",
+                "job_title": "Instruments Intern",
+                "start_date": "08-2019",
+                "company_name": "ENGRO FERTILIZERS"
+            }
+        ]
+    }
+}

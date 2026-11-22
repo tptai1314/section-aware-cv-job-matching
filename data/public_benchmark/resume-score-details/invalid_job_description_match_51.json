@@ -1,0 +1,49 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "ABOUT ME\nResults-oriented Sales\nProfessional con\u0000nuing to reach or\nexceed quota and lead\nexpecta\u0000ons by e\ufb00ec\u0000vely\nbuilding rapport, resul\u0000ng in\nincreased market share. Detail-\noriented and me\u0000culously\norganized. Self-mo\u0000vated team\nplayer who is adaptable, energe\u0000c\nand eager to grow the business.\nLANGUAGES\nENGLISH\nURDUWORK EXPERIENCE\nHamburg, Germany\nOct 2021 - PresentResearching, iden\u0000fying and qualifying new sales opportuni\u0000es\nReaching out to poten\u0000al customers and being the \ufb01rst contact\nperson to drive the outbound sales ac\u0000vi\u0000es (phone calls, emails,\nnetworks)\nPreselec\u0000ng and iden\u0000fying decision-makers, demonstra\u0000ng the\nvalue proposi\u0000on and se\u0000ng up demo calls with the sales team\nDeveloping a deep understanding of the customer\u2019s needs and\nworking on the con\u0000nuous op\u0000miza\u0000on of the lead quali\ufb01ca\u0000on\nand customer approach together with the marke\u0000ng team\nWorking together with the Sales Managers mastering the CRM\nsystem (Pipedrive) to report on all important ac\u0000vi\u0000es and\ninsights gathered throughout the whole sales process\nLehi, UT\nJun 2020 - Aug 2021Cold dialing Canada and US states to provide text message\nmarke\u0000ng along with other related features.\nChicago, IL\nSep 2019 - May 2020Cold dialing US and Canada states to provide Social media\nmanagement tool Bringing poten\u0000al customers on the table by\ncrea\u0000ng need of the product, booking demo appointments and\ndeveloping an opportunity for the Account Execu\u0000ves\nLahore, Pakistan\nSep 2018 - Aug 2019B2C\nHandled phone calls and sold cable, phone, internet, and home\nsecurity such as premium channels, and interna\u0000onal calling,\nachieving sales goals and milestones for US home services.\nEDUCATION\nLahore, Pakistan\n2019Majors in Adver\u0000sement and Public Rela\u0000ons\nSKILLS\nSTRONG COMMUNICATION STRATEGIC ACCOUNT DEVELOPEMNET\nLEAD PROSPECTING CUSTOMER HANDLING\nPROJECT MANAGEMENTCONTAINER\nXCHANGESales Development Representa\u0000ve\nPODIUM Sales Development Representa\u0000ve\nSPROUT SOCIAL Sales Devlopment Representa\u0000ve\nIBEX GLOBAL Inbound Sales Execu\u0000ve\nFORMAN CHRISTIAN\nCOLLEGEBachelor of ArtsMARIAM\nHASSAN\nSALES SPECIALISTHouse 20, Block D Gulshan E Lahore.\nLahore, Pakistan, Lahore, 54770,\nPakistan\n+92 335 0622804\nmaryamnaqvi31@gmail.com",
+        "macro_dict": {
+            "leadership": 40,
+            "experience": 4,
+            "communication skills": 56
+        },
+        "micro_dict": {
+            "ms excel": 43,
+            "ms word": 32,
+            "stata": 19,
+            "linkedin sales navigator": 6
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Ability to manage multiple projects simultaneously",
+            "3-5 years of experience in business development or related fields",
+            "Excellent communication skills"
+        ],
+        "resume": "ABOUT ME\nResults-oriented Sales\nProfessional con\u0000nuing to reach or\nexceed quota and lead\nexpecta\u0000ons by e\ufb00ec\u0000vely\nbuilding rapport, resul\u0000ng in\nincreased market share. Detail-\noriented and me\u0000culously\norganized. Self-mo\u0000vated team\nplayer who is adaptable, energe\u0000c\nand eager to grow the business.\nLANGUAGES\nENGLISH\nURDUWORK EXPERIENCE\nHamburg, Germany\nOct 2021 - PresentResearching, iden\u0000fying and qualifying new sales opportuni\u0000es\nReaching out to poten\u0000al customers and being the \ufb01rst contact\nperson to drive the outbound sales ac\u0000vi\u0000es (phone calls, emails,\nnetworks)\nPreselec\u0000ng and iden\u0000fying decision-makers, demonstra\u0000ng the\nvalue proposi\u0000on and se\u0000ng up demo calls with the sales team\nDeveloping a deep understanding of the customer\u2019s needs and\nworking on the con\u0000nuous op\u0000miza\u0000on of the lead quali\ufb01ca\u0000on\nand customer approach together with the marke\u0000ng team\nWorking together with the Sales Managers mastering the CRM\nsystem (Pipedrive) to report on all important ac\u0000vi\u0000es and\ninsights gathered throughout the whole sales process\nLehi, UT\nJun 2020 - Aug 2021Cold dialing Canada and US states to provide text message\nmarke\u0000ng along with other related features.\nChicago, IL\nSep 2019 - May 2020Cold dialing US and Canada states to provide Social media\nmanagement tool Bringing poten\u0000al customers on the table by\ncrea\u0000ng need of the product, booking demo appointments and\ndeveloping an opportunity for the Account Execu\u0000ves\nLahore, Pakistan\nSep 2018 - Aug 2019B2C\nHandled phone calls and sold cable, phone, internet, and home\nsecurity such as premium channels, and interna\u0000onal calling,\nachieving sales goals and milestones for US home services.\nEDUCATION\nLahore, Pakistan\n2019Majors in Adver\u0000sement and Public Rela\u0000ons\nSKILLS\nSTRONG COMMUNICATION STRATEGIC ACCOUNT DEVELOPEMNET\nLEAD PROSPECTING CUSTOMER HANDLING\nPROJECT MANAGEMENTCONTAINER\nXCHANGESales Development Representa\u0000ve\nPODIUM Sales Development Representa\u0000ve\nSPROUT SOCIAL Sales Devlopment Representa\u0000ve\nIBEX GLOBAL Inbound Sales Execu\u0000ve\nFORMAN CHRISTIAN\nCOLLEGEBachelor of ArtsMARIAM\nHASSAN\nSALES SPECIALISTHouse 20, Block D Gulshan E Lahore.\nLahore, Pakistan, Lahore, 54770,\nPakistan\n+92 335 0622804\nmaryamnaqvi31@gmail.com"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

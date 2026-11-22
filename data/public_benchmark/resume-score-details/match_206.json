@@ -1,0 +1,127 @@
+{
+    "output": {
+        "justification": [
+            "Macro scores are 0 due to lack of strategic thinking experience in relevant sales management domain.",
+            "Micro scores are 0 due to no experience or skills in sales management or SAP ERP as required by the job description.",
+            "The resume doesn't align with the job description as it focuses on lead generation and technical skills unrelated to key account management.",
+            "Minimum requirements are not met as the candidate has a computer science background and less relevant work experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 0
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 0.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Maryam Khalid",
+            "email": "Maryamkhalid162@gmail.com",
+            "phone": "+92-312-411-3981",
+            "current_position": "Lead Generation Specialist",
+            "current_company": "Lead IQ Agency",
+            "employment_start_date_current_company": "2021-Present",
+            "first_company_start_date": "2018-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "sales management": 28,
+            "sap erp": 72
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "5+ years of experience in sales or key account management"
+        ],
+        "resume": "LEAD GENERATION\nSPECIALISTMARYAM\nKHALID\nSKILLSEXPERIENCE\n2021_Present\n2018 _ 2019\n2021_PresentLead Generation\nVirtual Assistant\nTeam Work  \nProgramming\nEmail Marketing\nData Managment\nCONTACT\n+92-312-411-3981\nMaryamkhalid162@gmail.comLEAD GENERATION SPECIALIST\nManaging Director\nLead _IQ Agency\nFreelancer \nFiverr & UpworkDeveloped Sales Leads through cold calling,\nmarketing lists and internet leads Etc.\nWorking in CRM  made initial contacts with\ndecision-makers, collected qualifying\ninformation & coordinated.\nPlanned and Organized routes within\nterritory to maximize efficiency and time\nin the field.\nManage Large amount  of data base and\nable to Lead Team and can do multiple\nwork at the same time.\nI am a  part time freelancer and working\nas a  Lead Generation ,Internet Research,\nWeb Scrapper, beginner Programmer   \n having    Expertise in  C++ ,HTML & CSS\ndoing projects. I am keen to Learn new\nand advance Technology and Exploring\nthe things.EDUCATION\nUniversity Of Management & Technology \n2020 - 2024 | BS-Computer Science\nPunjab Group Of Colleges\n2017-2019 | ICSABOUT ME\nI am an enthusiastic, talented, ambitious, and\nhardworking individual, with broad skills and\nexperience in Lead Generation & social media,\nand leading projects.\nFurthermore, I am adept at handling multiple\ntasks on a daily basis competently and at working\nwell under pressure.\nA key strength is a communication; building\nstrong relationships with people in order to\ndeliver the best results."
+    },
+    "details": {
+        "name": "Maryam Khalid",
+        "number": "923124113981",
+        "skills": [
+            "C++",
+            "HTML",
+            "CSS",
+            "Email Marketing",
+            "Data Management"
+        ],
+        "email_id": "Maryamkhalid162@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "04-2024",
+                "university": "University Of Management & Technology",
+                "degree_title": "BS-Computer Science"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "Punjab Group Of Colleges",
+                "degree_title": "ICS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maryamkhalid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/maryamkhalid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Maryam Khalid is a dedicated Lead Generation Specialist with a strong background in programming and data management. She has experience in developing sales leads and managing large databases, showcasing her technical skills in C++, HTML, and CSS. Maryam is also a part-time freelancer, demonstrating her ability to handle multiple tasks efficiently.",
+        "employment_history": [
+            {
+                "details": "Developed Sales Leads through cold calling, marketing lists and internet leads. Worked in CRM, made initial contacts with decision-makers, collected qualifying information & coordinated. Planned and organized routes within territory to maximize efficiency and time in the field.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Lead Generation Specialist",
+                "start_date": "01-2021",
+                "company_name": "Lead IQ Agency"
+            },
+            {
+                "details": "Worked as a freelancer providing services in Lead Generation, Internet Research, and Web Scraping. Gained experience in programming as a beginner.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Virtual Assistant",
+                "start_date": "01-2018",
+                "company_name": "Fiverr & Upwork"
+            }
+        ]
+    }
+}

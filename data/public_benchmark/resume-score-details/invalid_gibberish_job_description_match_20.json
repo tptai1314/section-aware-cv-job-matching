@@ -1,0 +1,46 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Zerbits the clownfish floated gracefully through the coral reef, marveling at the vibrant colors surrounding him. Meanwhile, somewhere in a bustling city, a small cat named Lilo tiptoed across a row of potted plants, her eyes set on a sparrow singing on the window ledge.\n\nIn another part of the world, an inventor named Dr. Fizzleton tinkered with his latest contraption: a hat that could translate the thoughts of cats into human language. His assistant, Widget the robot, handed him a screwdriver and beeped encouragingly.\n\nMeanwhile, a sentient AI named Nexlo pondered the meaning of creativity and decided to compose a symphony in binary code, just for the challenge. The result was surprisingly harmonious\u2014or at least, that\u2019s what the data suggested.\n\nBack on the reef, Zerbits encountered a dolphin who claimed that it had once seen a spaceship powered entirely by seaweed. Zerbits was skeptical but intrigued, and thus began his quest for the mythical seaweed spaceship.\n\nIn yet another dimension, a group of philosophers debated whether existence could truly be defined or if it forever remained an enigma lost in the abstract tapestry of thoughts and stars. \n\nElsewhere, a man named Harold realized that he had just enough lint in his pockets to sculpt a passable model of the Eiffel Tower, and he began to sketch out an idea for exhibiting his lint sculptures worldwide.\n\nThe digital clock on the wall began to spell out a message in the secret language of time, revealing nothing but the eternal mystery of the ticking seconds.\n\nBack to the reef, Zerbits resumed his search, now accompanied by a curious jellyfish who promised enlightenment in exchange for stories of distant lands.\n\nAnd so, life went on, an endless cycle of curiosity and wonderment, each creature, human or otherwise, surfing the waves of their imagination, one delightful mystery at a time.",
+        "macro_dict": {
+            "leadership": 69,
+            "experience": 31
+        },
+        "micro_dict": {
+            "ms excel": 33,
+            "ms word": 8,
+            "stata": 59
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "3-5 years of experience in business development or related fields",
+            "Proficiency in MS Office Suite and data analysis tools"
+        ],
+        "resume": "  MUHAMMAD  EHTISHAM  \nAddress: 20/B Railway Officers Colony Walton Cantt Lahore  \nCell: 03214334386 |ehtishamrana246@gmail.com  \nDate of Birth: 01/11/1996  \nLinkedIn  Profile: https://www.linkedin.com/in/muhammad -ehtisham -\n7966b7100  \nEDUCATION & QUALIFICATIONS  \nMaster of Business Administration  May 2022  \nMajor (Marketing & Finance)   \nLahore School of Economics  \nBach elor of Business Administration  (Honors)  May 2019 \nMajor (Marketing ) Minor ( Media)  \nLahore School of Economics   \nPROFESSIONAL EXPERIENCE         \nAccess Retail Private Limited  October 2022 \u2013Present  \nResearch Executive \u2013 Client Sales & Services  \n\u2022 Managing one of the key accounts.  \n\u2022 Communication with the client.  \n\u2022 Prepare retail audit reports and decks for the client.  \nImpex Advertisers  July 2019\u2013March 2020  \nKey Accounts Manager  \n\u2022 Managing Key Accounts.  \n\u2022 Contact and meet clients.  \n\u2022 Contact potential clients.  \n \nPROJECTS  \nMarketing Research: This project focused on finding the impact of seasonality on the consumption of coffee in Pakistani \nmarket and how can Nescafe reduce its impact.  \nMarketing Management Practices : The project focused on the key issues with the brand and why its perception has \nchanged over the period of time.  \nExport Marketing: Our research focused on the launch of Jafferjees a Pakistan brand in US market. The macroeconomic \nand m icroeconomic factors which will affect the brand in the US market and how they can cope up with that market and \nestablish their brand.  \nSales Force Management : The project had four phases. In first phase we visited a wholesale market (Akbari Mandi), then \nwe visited a manufacturer (Rinkoli). In third phase we visited a distributor (Halaros). In the final phase we chose a small \nbusiness and revamped it by implementing the strategies we learned throughout the course  \nAdditional Experience  \n\u2022 Teaching Assistant, Lahore School of Economics  \nHONORS & AWARDS  \n\u2022 Got second position in LACAS Urain Ge 2017 Youth Studio Singing Competition  \n\u2022 Participated in Annual Play of Lahore School Dramatics Society  \nSKILLS & INTERESTS  \n\u2022 Fluent in English, Urdu  \n\u2022 Adept at using MS Office.  \n\u2022 Excellent communication skills and comfortable with working in a team  \n\u2022 Event Management  \n\u2022 Singing, Reading, Traveling, Cooking and Acting.  \n"
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

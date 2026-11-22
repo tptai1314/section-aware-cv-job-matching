@@ -1,0 +1,199 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has demonstrated technical expertise with MATLAB, relevant to the job description.",
+            "He has two internship experiences, but not directly in automation or control systems, thus providing limited project experience.",
+            "Innovation and problem-solving skills are inferred from project work but not explicitly linked to automation.",
+            "Strong control systems and IoT application skills, with proficiency in Arduino but only an intermediate level with Python."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "technical expertise",
+                    "score": 7
+                },
+                {
+                    "criteria": "project experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "innovation and problem-solving",
+                    "score": 6
+                },
+                {
+                    "criteria": "team collaboration",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "matlab",
+                    "score": 8
+                },
+                {
+                    "criteria": "python",
+                    "score": 6
+                },
+                {
+                    "criteria": "arduino",
+                    "score": 7
+                },
+                {
+                    "criteria": "circuit designing",
+                    "score": 6
+                },
+                {
+                    "criteria": "iot applications",
+                    "score": 5
+                },
+                {
+                    "criteria": "pcb designing",
+                    "score": 4
+                },
+                {
+                    "criteria": "control systems",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in MATLAB and basic programming (Python/C++)",
+                    "meets": true
+                },
+                {
+                    "criteria": "Relevant internship experience in automation or control systems",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Electrical Engineering or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.67,
+                "micro_scores": 5.78
+            }
+        },
+        "personal_info": {
+            "name": "Adeel Ghaffar",
+            "email": "adeelghaffar81@gmail.com",
+            "phone": "+923495470821",
+            "current_position": "Biomedical Internee Engineer",
+            "current_company": "Rawalpindi Institute of Cardiology",
+            "employment_start_date_current_company": "06-2023",
+            "first_company_start_date": "06-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "# Job Title: Electrical Engineer - Automation and Control Systems\n\n## Company: Innovate Solutions Inc.\n\n### Location: Lahore, Pakistan  \n\n---\n\n### Job Overview\nJoin Innovate Solutions Inc. as an Electrical Engineer specializing in Automation and Control Systems. This role is perfect for someone with a deep interest in developing smart solutions using cutting-edge technologies. You will be responsible for designing, developing, and testing electrical systems and components, working closely with interdisciplinary teams to drive innovative solutions.\n\n### Key Responsibilities\n- Design and implement control systems for automation in projects.\n- Collaborate in multidisciplinary teams to integrate smart technology, enhancing product efficiency and performance.\n- Develop and optimize algorithms for smart switches and IoT devices.\n- Perform simulation and modeling of electrical systems using MATLAB and other relevant tools.\n- Assist in the calibration and testing of electrical devices, ensuring compliance with industry standards.\n- Engage in continual learning to enhance technical skills in Python, MATLAB, and other relevant programming languages.\n\n### Skills & Competencies\n- Strong foundation in Electrical Engineering principles.\n- Proficiency in MATLAB, Arduino, and basic programming (Python, C++).\n- Excellent analytical skills with a focus on innovation and creative problem-solving.\n- Solid understanding of IoT applications and their integration.\n- Familiarity with industry standards for hardware testing and analysis.\n\n### Educational Requirements\n- Bachelor\u2019s degree in Electrical Engineering or a related field from an accredited university.\n- A Master\u2019s degree is preferred but not mandatory.\n\n### Work Experience\n- Relevant internship experience in electrical engineering practices and software development.\n- Demonstrated project experience in automation or control systems.\n\n### Why Join Us?\n- Dynamic and inclusive team culture\n- Opportunities for professional development and career growth\n- Work on innovative projects with the latest technology\n- Collaborative, supportive working environment\n\n---",
+        "macro_dict": {
+            "technical expertise": 21,
+            "project experience": 16,
+            "innovation and problem-solving": 25,
+            "team collaboration": 38
+        },
+        "micro_dict": {
+            "matlab": 12,
+            "python": 4,
+            "arduino": 18,
+            "circuit designing": 22,
+            "iot applications": 5,
+            "pcb designing": 20,
+            "control systems": 19
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "Proficiency in MATLAB and basic programming (Python/C++)",
+            "Relevant internship experience in automation or control systems",
+            "Bachelor's degree in Electrical Engineering or a related field"
+        ],
+        "resume": "Bachelor's Degree in Electrical engineering   \nCGPA  3.3/4  (2020-2024)\n                   \nDAE Electrical   88% International Islamic universty Islamabad\nGovernment College OF Technology Rawalpindi\nBlue Star Public School\nMatric   72%SUMMARY\nWORK EXPERIENCE EDUCATION\n SKILLSst #11 Madina Colony Misrial Road, Rawalpindiadeelghaffar81@gmail.com+923495470821ADEEL GHAFFAR\nElectrical Engineer\nElectrical Engineer with hands-on experience in electrical and electronics systems, including biomedical appliances.\nProficient in troubleshooting, repair, and maintenance. Passionate about inverters and converters, and seeking a role to\napply my expertise in this area within a forward-thinking company. Eager to leverage my knowledge in innovative power\nconversion technologies to drive advancements in the field.\nProteus\nCircuit Analysis\nMatlab/ Simulink\nArduino\nESP Controllers\nSensor Interfacing\nElectronic circuits\n ADDITIONAL SKILLS\n    \n      Soft Skill\n 3d Modeling/Animation\nAdobe After Affect\nMS word \nMendely\nReport Writing\n     Hard Skill\nElectrical Wiring\nmotor winding (basic)\nRepearing of appliances\nwelding  Biomedical InterneeEngineer (June 2023 \u2013 Sep 2023)Electrical InterneeEngineer (June 2022 \u2013Sep 2022)\nDuring my internship at Rawalpindi Institute of Cardiology as a\nBiomedical Engineering intern:\nGained hands-on experience in medical device maintenance\nand repair.\nAcquired valuable insights into healthcare technology\nmanagement.Gained extensive hands-on experience with distribution boards\n(DB), electric lines, and safety equipment.\nActively involved in the installation, maintenance, and\ntroubleshooting of electrical systems.\nEnhanced practical knowledge of electrical components.\nEnsured compliance with safety standards and regulations.\nImproved technical skills.\nPROJECTS\nEmbedded Intelligence-based Innovative Smart Stick for\nVisuallyImpaired Individuals (FYDP)\nArduino-based Heart rate and Oxygen Level smart monitoring\nsystem\nSuspension Systemof vehicals\nUninterruptible powersupply\nDC to AC  Inverte\nH Bridge  converter\nREFERENCES\n zeshan.aslam@ilu.edu.pkDr. Zeshan Aslam Khan\nEmail:  khizer.mehmood@ilu.edu.pkDr. Khizer Mehmood\nEmail :Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad.Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad."
+    },
+    "details": {
+        "name": "Adeel Ghaffar",
+        "number": "92349547082",
+        "skills": [
+            "Proteus",
+            "Circuit Analysis",
+            "Matlab/Simulink",
+            "Arduino",
+            "ESP Controllers",
+            "Sensor Interfacing",
+            "Electronic circuits",
+            "Electrical Wiring",
+            "Motor winding",
+            "Repairing of appliances",
+            "Welding"
+        ],
+        "email_id": "adeelghaffar81@gmail.com",
+        "location": "Rawalpindi",
+        "projects": [
+            {
+                "title": "Embedded Intelligence-based Innovative Smart Stick for Visually Impaired Individuals",
+                "description": "A smart stick designed to assist visually impaired individuals."
+            },
+            {
+                "title": "Arduino-based Heart rate and Oxygen Level smart monitoring system",
+                "description": "A monitoring system for heart rate and oxygen levels using Arduino."
+            },
+            {
+                "title": "Suspension System of vehicles",
+                "description": "Project focused on the suspension system design for vehicles."
+            },
+            {
+                "title": "Uninterruptible power supply",
+                "description": "Development of a system to provide backup power."
+            },
+            {
+                "title": "DC to AC Inverter",
+                "description": "Conversion of DC power to AC power."
+            },
+            {
+                "title": "H Bridge converter",
+                "description": "Design of an H Bridge converter for motor control."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2024",
+                "university": "International Islamic University Islamabad",
+                "degree_title": "Bachelor's Degree in Electrical Engineering"
+            },
+            {
+                "end_date": "05-2020",
+                "university": "Government College of Technology Rawalpindi",
+                "degree_title": "DAE Electrical"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/adeelghaffar",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Adeel Ghaffar is an electrical engineer with hands-on experience in electrical and electronics systems, particularly in biomedical appliances. He is proficient in troubleshooting, repair, and maintenance, with a passion for inverters and converters. Adeel seeks to leverage his expertise in innovative power conversion technologies within a forward-thinking company.",
+        "employment_history": [
+            {
+                "details": "Gained hands-on experience in medical device maintenance and repair, and insights into healthcare technology management.",
+                "end_date": "09-2023",
+                "location": "Rawalpindi Institute of Cardiology",
+                "job_title": "Biomedical Engineering Intern",
+                "start_date": "06-2023",
+                "company_name": "Rawalpindi Institute of Cardiology"
+            },
+            {
+                "details": "Involved in the installation, maintenance, and troubleshooting of electrical systems, ensuring compliance with safety standards.",
+                "end_date": "09-2022",
+                "location": "Rawalpindi",
+                "job_title": "Electrical Engineering Intern",
+                "start_date": "06-2022",
+                "company_name": "Rawalpindi Institute of Cardiology"
+            }
+        ]
+    }
+}

@@ -1,0 +1,154 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not possess a degree from the preferred business school as per additional info, limiting the score for macro criteria.",
+            "The candidate lacks detailed experience specifically working with CRM systems which is a key requirement, restricting the micro score.",
+            "The candidate has extensive experience in different roles, however, lacks specificity related to business development as required.",
+            "The resume lacks clear dates and durations for experience, making it difficult to assess the macro scoring accurately."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 3
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven track record in lead generation and client engagement",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 3.75
+            }
+        },
+        "personal_info": {
+            "name": "Usama Ali",
+            "email": "usamaa017@gmail.com",
+            "phone": "03041281062",
+            "current_position": "Business Development Executive",
+            "current_company": "Arhamsoft Pvt Ltd",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "crm systems": 75,
+            "project management": 25
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "5+ years of relevant experience in business development",
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "Proven track record in lead generation and client engagement"
+        ],
+        "resume": "Usama Ali  \nA Block, PIA Colony, Lahore  \nCell: 03041281062,  03319746862  \nEmail: usamaa017@gmail.com    \nOBJECTIVE  \nSeeking a challenging and growth -oriented position in a well -reputed organization, \nwhere I can make an effective use of my knowledge and capabilities, to utilize my \ntalent, experience and qualification in a most effective manner towards building up a \ncareer in corporate.   \nPERSONAL DETAIL    \n Father\u2019s Name  : Muhammad Nawaz  \n Date of birth  : 21-02-1995  \n CNIC No.  : 36201 -8598268 -9 \n Domicile  : Lodhran (Punjab)  \n Nationality  : Pakistani  \n Religion  : Islam  \n Marital Status  : Single  \n Gender  : Male  \nQUAL  FICATION     \n DEGREE   CGPA /DIVISION  YEAR  BOARD /UNIVERSITY  \n B.S ( IT )   CGPA (3.67/4.00)  2018  BZU Multan  \n F.S.C   2nd   division  2013  BISE Multan  \n Matric  1st division  2011  BISE Multan  \nExperience   \n \n\u25cf Business Development Executive Arhamsoft Pvt Ltd ( Present)  \n\u25cf Sales Executive Mindbridge Pvt Lahore  \n\u25cf  Govt  Post Graduate College, Dunyapur, Lodhran  \n\u25cf Visiting Lecturer Govt Emerson College Multan  \n\u25cf IELTs Instructor at ACE School of Languages, Multan  \n \n\u25cf Amazon Product Research and Manager FBA.  \n\u25cf Amazon VA at Techtiks Multan  \n\u25cf Associate Producer 24 News HD.  \n\u25cf Former Th eatre Arts Director at Arts Council Multan  \n\u25cf Former Script Writer at Arts Council Multan  \n\u25cf Former Content Producer at Spotlights Productions  \n\u25cf Former Assistant Director MAATI TV Lahore  \n\u25cf Worked for various Web TVs.  \n\u25cf Worked for Utility Masters as Call Center Ag ent.  \n\u25cf Run own YouTube Channels including the Vlogs Shooting and Content Creation.  \n\u25cf Worked as Public awareness speaker in British Council  \n\u25cf Top Debater Multan Division 2016 -2017 in CM Punjab Competition.  \n\u25cf Announcer at Radio Pakistan Multan.  \n\u25cf Worked as a volunteer Media Coordinator with Punjab Police   \n\u25cf Worked as Content Producer at MWeb IT Solutions, Multan  \n\u25cf Worked as  Content Manager at Sharpc ore Inc, Multan  \n\u25cf Worked as Social Media Marketer at SE Software's Technologies, Multan  \n\u25cf Intellectual  SKILLS  \n\u25cf Fluency in English Language  \n\u25cf Influential public speaking and dealing.            \n\u25cf Remarkable marketing and sales potential.  \n\u25cf Working under pressure   \n\u25cf Team work and coordination  \n\u25cf Great writing experience and potential  \n\u25cf Creative and out of the box innovative thinking  \n\u25cf Problem solving/ Troubleshooting   \n\u25cf IELTS with 7.5 bands  \n\u25cf COMPUTER SKILLS  \n\u25cf Windows  \n\u25cf Android  \n\u25cf Email  \n\u25cf Internet Use  \n\u25cf MS Office (Word, PowerPoint)  \n\u25cf Good Knowledge about Computer Application   \n\u25cf Web design   \u25cf Web development   \n\u25cf Database Management   \n\u25cf Networking expert  \n\u25cf (U.S.P)  \n\u25cf Critically Analysis of every situation   \n\u25cf Reading Books & Newspapers  \n\u25cf Discovering and research  \n\u25cf LANGUA GES   \n\u25cf English  \n\u25cf Urdu  \n\u25cf Punjabi   \n\u25cf Sariki  \n      \n \n REFERENCE  \nWill be provided on demand.   \n  "
+    },
+    "details": {
+        "name": "Usama Ali",
+        "number": "03041281062",
+        "skills": [
+            "Windows",
+            "Android",
+            "Email",
+            "Internet Use",
+            "MS Office (Word, PowerPoint)",
+            "Web design",
+            "Web development",
+            "Database Management",
+            "Networking expert"
+        ],
+        "email_id": "usamaa017@gmail.com",
+        "location": "A Block, PIA Colony, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "BZU Multan",
+                "degree_title": "B.S ( IT)"
+            }
+        ],
+        "achievements": [
+            "Top Debater Multan Division 2016 -2017 in CM Punjab Competition"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/usamaali",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/usamaali",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Usama Ali is a skilled IT professional with a strong background in software and web development, proficient in various technical skills including Windows, Android, and MS Office. He has demonstrated his capabilities through his educational achievements and professional experiences in business development and content production.",
+        "employment_history": [
+            {
+                "details": "Business Development Executive",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2022",
+                "company_name": "Arhamsoft Pvt Ltd"
+            },
+            {
+                "details": "Sales Executive",
+                "end_date": "12-2021",
+                "location": "Lahore",
+                "job_title": "Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Mindbridge Pvt"
+            },
+            {
+                "details": "Visiting Lecturer",
+                "end_date": "12-2020",
+                "location": "Dunyapur, Lodhran",
+                "job_title": "Visiting Lecturer",
+                "start_date": "01-2019",
+                "company_name": "Govt Post Graduate College"
+            },
+            {
+                "details": "IELTs Instructor",
+                "end_date": "12-2019",
+                "location": "Multan",
+                "job_title": "IELTs Instructor",
+                "start_date": "01-2018",
+                "company_name": "ACE School of Languages"
+            }
+        ]
+    }
+}

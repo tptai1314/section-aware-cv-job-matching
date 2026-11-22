@@ -1,0 +1,178 @@
+{
+    "output": {
+        "justification": [
+            "The resume lacks significant leadership experience or strategic planning roles, critical for a Business Development Manager.",
+            "Relevant experience in business development or sales strategy is missing; the candidate is primarily an Android Developer.",
+            "Microsoft Excel skills or data analysis tools like GA4 and Power BI are not mentioned.",
+            "Programming skills such as Java and Android development are unrelated to the job's preferred skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 1
+                },
+                {
+                    "criteria": "sales strategy",
+                    "score": 1
+                },
+                {
+                    "criteria": "seo",
+                    "score": 1
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.0,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Ali",
+            "email": "alirajpooot0901@gmail.com",
+            "phone": "03471049961",
+            "current_position": "Android Developer",
+            "current_company": "Mauj Group",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "02-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/muhammad-ali-212197175"
+                }
+            ]
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 23,
+            "strategic planning": 77
+        },
+        "micro_dict": {
+            "negotiation": 24,
+            "sales strategy": 28,
+            "seo": 4,
+            "data analysis": 44
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field",
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": "Muhammad Ali \nJunior Android Developer \nA forward-thinking developer with more than 6 months of experience building, integrating, testing, and\nsupporting Android applications for mobile. \nalirajpooot0901@gmail.com \n03471049961 \nLahore, Pakistan \nlinkedin.com/in/muhammad-ali-212197175 \nEDUCATION \nSoftware Engineering \nLahore Garrison University, Lahore \n03/2015 - 10/2021\n, \n \nFSc. (Mathematics) \nPGC, Sialkot \n08/2015 - 09/2017\n, \n \nWORK EXPERIENCE \nData Entry Operator (BPO) \nSystem Limited, Lahore \n02/2021 - 04/2021\n, \n \nE-commerce Specialist \nMauj Group, Lahore \n01/2022 - 03/2022\n, \n \nDaraz and Shopify Store Handler \nAdd new products on both Platforms \nCalling to customers for order con\ufb01rmation and check\nAbandoneds \nAndroid Developer \nMauj Group \n03/2022 - Present\n, \n \nSKILLS \nMS O\ufb03ce \nFirebase Database \nJava \nXML \nSDLC \nAndroid Life Cycle \nUnit Testing \nSDK \nNDK \nAPIs \nDesign Patters \nPROJECTS \nCotton Disease Detection App \nTranslator App \nAd Blocker for Blogs \nOnline Ballot Committee App (Working) \nORGANIZATIONS \nMauj Group (Jolta Electric)\n (01/2022 - Present)\n \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nPunjabi \nNative or Bilingual Pro\ufb01ciency \nINTERESTS \nCricket \nVideo Gaming \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Muhammad Ali",
+        "number": "03471049961",
+        "skills": [
+            "Java",
+            "XML",
+            "Firebase Database",
+            "SDLC",
+            "Android Life Cycle",
+            "Unit Testing",
+            "SDK",
+            "NDK",
+            "APIs",
+            "Design Patterns"
+        ],
+        "email_id": "alirajpooot0901@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Cotton Disease Detection App",
+                "description": "An application to detect cotton diseases."
+            },
+            {
+                "title": "Translator App",
+                "description": "An application for language translation."
+            },
+            {
+                "title": "Ad Blocker for Blogs",
+                "description": "A tool to block ads on blogs."
+            },
+            {
+                "title": "Online Ballot Committee App",
+                "description": "An app for managing online ballots."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "10-2021",
+                "university": "Lahore Garrison University, Lahore",
+                "degree_title": "Software Engineering"
+            },
+            {
+                "end_date": "09-2017",
+                "university": "PGC, Sialkot",
+                "degree_title": "FSc. (Mathematics)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-ali-212197175",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Ali is a forward-thinking Junior Android Developer with over 6 months of experience in building, integrating, testing, and supporting Android applications. He possesses strong technical skills in Java, XML, and various Android development tools, demonstrating a commitment to delivering high-quality mobile solutions.",
+        "employment_history": [
+            {
+                "details": "Handled data entry tasks and supported BPO operations.",
+                "end_date": "04-2021",
+                "location": "Lahore",
+                "job_title": "Data Entry Operator",
+                "start_date": "02-2021",
+                "company_name": "System Limited"
+            },
+            {
+                "details": "Managed e-commerce operations and customer interactions for online platforms.",
+                "end_date": "03-2022",
+                "location": "Lahore",
+                "job_title": "E-commerce Specialist",
+                "start_date": "01-2022",
+                "company_name": "Mauj Group"
+            },
+            {
+                "details": "Developed and maintained Android applications, ensuring functionality and user experience.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Android Developer",
+                "start_date": "03-2022",
+                "company_name": "Mauj Group"
+            }
+        ]
+    }
+}

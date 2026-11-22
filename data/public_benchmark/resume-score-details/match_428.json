@@ -1,0 +1,196 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has leadership experience through managing a data analytics team and digital marketing campaigns, though not significantly extensive.",
+            "The candidate has approximately 1 year of directly relevant experience in business development, most closely aligned at ProntoDigital, LLC. Thus, partially meets the experience criteria.",
+            "The candidate has demonstrated proficiency with Microsoft Office, but lacks explicit mention of using LinkedIn Sales Navigator or data analysis tools.",
+            "The candidate holds the required Bachelor's degree in Business Administration."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "linkedin sales navigator",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": false
+                },
+                {
+                    "criteria": "Ability to manage multiple projects simultaneously",
+                    "meets": true
+                },
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in MS Office Suite and data analysis tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.52,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "SAAD BIN HASSAN",
+            "email": "saadbinhassan000@gmail.com",
+            "phone": "923133162249",
+            "current_position": "Junior Project Associate",
+            "current_company": "ProntoDigital, LLC",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "06-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/saad-bin-hassan-096118183/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 52,
+            "experience": 48
+        },
+        "micro_dict": {
+            "linkedin sales navigator": 100
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "3-5 years of experience in business development or related fields",
+            "Ability to manage multiple projects simultaneously",
+            "Excellent communication skills",
+            "Proficiency in MS Office Suite and data analysis tools",
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "  SAAD BIN HASSAN  \nHometown: Lahore  \nCell: 923133162249  | saadbinhassan000@gmail.com  \nDate of Birth: 0 7/04/1998  \nLinkedin Profile: https://www.linkedin.com/in/saad -bin-hassan -096118183/  \nEDUCATION & QUALIFICATIONS  \nMasters of Business Administration  May 2022 \nLahore School of Economics  \nBachelors in Business Administration  (Honors)   June  2021  \nMajor (Marketing) Minor (Media Studies)  \nLahore School of Economics           \nPROFESSIONAL EXPERIENCE         \nProntoDigital, LLC                                                                                               June  2021 \u2013 February 2022  \nBusiness Development Executive  \n\uf0b7 Responsible for finding and retaining new clients, Handling Upwork profiles.  \n\uf0b7 Maintained relationships with clients by providing them information and guidance.  \n\uf0b7 Generated weekly sales reports and provided useful insights.  \nProntoDigital, LLC                                                                        March  2022 \u2013 May 2022  \nJunior Project Associate  \n\uf0b7 Managed and build a Data Analytics team.  \n\uf0b7 Managed to achieve the target of $20,000 in 3 months.  \nBank of Punjab                       June-August  2018 \nOperations Intern, Operations  \n\uf0b7 Responsible to deal with branch daily operations and Opening of new accounts.  \nDetechgear  \nMarketing Executive                                                                                                                                                     July- Dec 2020  \n\uf0b7 Managed all Digital Marketing  of the business.  \n\uf0b7 Achieved sales of 500,000 in 5 months.  \nPROJECTS  \nStrategic Management : Strategic decision making and analyzing a company\u2019s performance by looking at different factors. \nUsing tools like IFE, EFE, CPM, QSPM , etc.  \nAdvertising:  Product adaption of Clear Shampoo according to Pakistani Market. Devised the entire advertising plan \nincorporating all the strategies and storyboard . \nSales Force Management : Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce  \nchannel.  \nMarketing Research: Conducted qualitative and quantita tive research on Nokia Pakistan.  \nADDITIONAL EXPERIENCE  \nTeacher Assistant , Lahore School of Economics                                                                                                2021 \u2013 2022 \nMarketing Intern , Signature Lifestyle.  \n\uf0b7 Managed all Digital Marketing campaigns and marketing strategies.              March -July 2022   \nHONORS & AWARDS  \n\uf0b7 Winner of LSE Business Fiesta 2021  \n\uf0b7 25% Scholarship in Lahore  School of Economics  \nSKILLS & INTERESTS  \n\uf0b7 Competent user of M icrosoft Office , Vegas Pro, SPSS, Smar t PLS , Shopify, and Ecommerce \nManagement.  \n\uf0b7     Digital Marketing, Upwork , Click Up, Slack, FB Ads, Google AdWords , Google Analytics, Canva.  \n       \uf0b7     Strategic Planning, Leadership, Comfortable in Team work.  \n"
+    },
+    "details": {
+        "name": "Saad Bin Hassan",
+        "number": "923133162249",
+        "skills": [
+            "Microsoft Office",
+            "Vegas Pro",
+            "SPSS",
+            "Smart PLS",
+            "Shopify",
+            "Ecommerce Management",
+            "Digital Marketing",
+            "Upwork",
+            "Click Up",
+            "Slack",
+            "FB Ads",
+            "Google AdWords",
+            "Google Analytics",
+            "Canva"
+        ],
+        "email_id": "saadbinhassan000@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Strategic Management",
+                "description": "Strategic decision making and analyzing a company\u2019s performance by looking at different factors."
+            },
+            {
+                "title": "Advertising",
+                "description": "Product adaption of Clear Shampoo according to Pakistani Market."
+            },
+            {
+                "title": "Sales Force Management",
+                "description": "Analyzed the Sales channel of FFC and developed the strategy to strengthen the Salesforce channel."
+            },
+            {
+                "title": "Marketing Research",
+                "description": "Conducted qualitative and quantitative research on Nokia Pakistan."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration"
+            },
+            {
+                "end_date": "06-2021",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelors in Business Administration (Honors)"
+            }
+        ],
+        "achievements": [
+            "Winner of LSE Business Fiesta 2021",
+            "25% Scholarship in Lahore School of Economics"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/saad-bin-hassan-096118183/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Saad Bin Hassan is a skilled professional with a strong background in business development and digital marketing, holding an MBA and a Bachelor's in Business Administration. He has demonstrated success in managing teams and achieving sales targets, showcasing his technical proficiency in various software and marketing tools.",
+        "employment_history": [
+            {
+                "details": "Responsible for finding and retaining new clients, Handling Upwork profiles. Maintained relationships with clients by providing them information and guidance. Generated weekly sales reports and provided useful insights.",
+                "end_date": "02-2022",
+                "location": "ProntoDigital, LLC",
+                "job_title": "Business Development Executive",
+                "start_date": "06-2021",
+                "company_name": "ProntoDigital, LLC"
+            },
+            {
+                "details": "Managed and build a Data Analytics team. Managed to achieve the target of $20,000 in 3 months.",
+                "end_date": "05-2022",
+                "location": "ProntoDigital, LLC",
+                "job_title": "Junior Project Associate",
+                "start_date": "03-2022",
+                "company_name": "ProntoDigital, LLC"
+            },
+            {
+                "details": "Responsible to deal with branch daily operations and Opening of new accounts.",
+                "end_date": "08-2018",
+                "location": "Bank of Punjab",
+                "job_title": "Operations Intern, Operations",
+                "start_date": "06-2018",
+                "company_name": "Bank of Punjab"
+            },
+            {
+                "details": "Managed all Digital Marketing of the business. Achieved sales of 500,000 in 5 months.",
+                "end_date": "12-2020",
+                "location": "Detechgear",
+                "job_title": "Marketing Executive",
+                "start_date": "07-2020",
+                "company_name": "Detechgear"
+            },
+            {
+                "details": "Managed all Digital Marketing campaigns and marketing strategies.",
+                "end_date": "07-2022",
+                "location": "Signature Lifestyle",
+                "job_title": "Marketing Intern",
+                "start_date": "03-2022",
+                "company_name": "Signature Lifestyle"
+            }
+        ]
+    }
+}

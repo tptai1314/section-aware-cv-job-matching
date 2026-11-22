@@ -1,0 +1,203 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has no specific business development experience, indicating a lack of relevant experience for the macro score.",
+            "The resume reflects a strong background in machine learning and algorithms, aligning poorly with the business development role.",
+            "The leadership experience is somewhat covered by the AIESEC role, but this is not strong enough for a high score in leadership.",
+            "The candidate's skills don't align with the specific tools and requirements outlined in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of business development experience in a leadership role",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.3,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Syed Ali Ammar Raza",
+            "email": "aliammarraza@gmail.com",
+            "phone": "+923136064123",
+            "current_position": "Data Annotator",
+            "current_company": "CNTXT FZCo",
+            "employment_start_date_current_company": "04-2024",
+            "first_company_start_date": "06-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/syed-ali-ammar-raza-b81744171/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 37,
+            "business development experience": 44,
+            "strategic planning": 19
+        },
+        "micro_dict": {
+            "negotiation": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "5+ years of business development experience in a leadership role"
+        ],
+        "resume": "Syed  Ali Ammar  Raza  \nIslamabad|+923136064123 | aliammarraza@gmail.com | LinkedIn:  \nhttps: //www.l inkedin.com/in/syed -ali-ammar -raza-b81744171/  \n \nSUMMARY  \n \n \nAs a Machine Learning Engineer, I specialize in researching, designing, and developing advanced algorithms and \nmodels for diverse applications. My collaborative approach involves working closely with cross -functional teams to \nidentify opportunities for machine learning solutions and implement them in production envi ronments. With a rich \nportfolio of freelance projects, I've honed my skills in supervised and unsupervised learning, computer vision, and \nthe application of Large Language Models (LLMs) and Retrieval -Augmented Generation (RAG) techniques. These \ncontributio ns have led to tangible outcomes, including a notable increase in efficiency and accuracy of models. I \nremain dedicated to staying current with the latest machine learning techniques, actively participate in code \nreviews, and skillfully communicate finding s through technical reports.  \n \nWORK  EXPERIENCE  \n  \nCNTXT FZCo                                                                                                                                                Dubai Silicon Oasis UAE  \nData Annotator     Apr 2024  \u2013 Present  \n\uf0b7 Proficient in annotating diverse data types, including images, text, audio, and video, adhering to predefined \ncriteria and standards.  \n\uf0b7 Conduct thorough quality assurance checks to ensure accuracy and consistency in annotations, employing \nmeticulous attention to detail and error identification techniques.  \n\uf0b7 Collaborate seamlessly with cross -functional teams to meet project objectives and deadlines, ensuring clear \ncommunication and swift resolution of annotation -related challenges.  \n\uf0b7 Perform ext ensive data research and collection to support the development of large language models \n(LLMs). This involves identifying, gathering, and curating high -quality data from various sources to ensure \nthe models have diverse and accurate inputs, which is crucia l for their performance and reliability.  \n\uf0b7 Label images and videos accurately as per project requirements, enhancing the datasets used for training \nmachine learning and AI models. This includes categorizing and tagging visual data based on specific \nattribute s, ensuring that the labels are precise and relevant to the training objectives of the models.  \n\uf0b7 Maintain detailed documentation of annotation processes and outcomes, providing regular reports to \nproject managers and stakeholders. This includes keeping compr ehensive records of data sources, \nannotation guidelines followed, any deviations or issues encountered, and the steps taken to resolve them. \nRegular reporting helps in tracking progress, assessing quality, and making informed decisions.  \n\uf0b7 Utilize various dat a annotation tools and software efficiently, adapting quickly to new technologies and \nmethodologies. This involves staying proficient with industry -standard annotation platforms, learning new \ntools as they are introduced, and applying them effectively to e nhance productivity and accuracy in \nannotations . \n\uf0b7 Participate in ongoing training and development sessions to improve annotation skills and stay updated \nwith industry best practices. Engaging in continuous learning ensures that annotation techniques are \nrefined, new strategies are adopted for better efficiency, and the latest trends and standards in data \nannotation are implemented to maintain high -quality outputs.  \nExperts  Online  Limited  Pakistan  \nMachine  Learning  Intern  Jun 2022  \u2013 Nov 2022  \n\uf0b7 Successfully  completed  a diverse  range  of machine  learning  projects,  showcasing  proficiency  in applying  \nalgorithms like K -Nearest Neighbors (KNN), Artificial Neural Networks (ANN), Random Forest Classifier and  \nRegression,  and various  Classification  algorithms,  resultin g in an average  model  accuracy  improvement.  \n\uf0b7 Demonstrated data prowess by efficiently collecting, preprocessing, and analyzing data, enhancing the quality of  \ndatasets,  and achieving  reduction in model  training  time.  \uf0b7 Excelled in deep learning frameworks such  as TensorFlow, Keras, and PyTorch, contributing to the development  \nof state -of-the-art models  that achieved  boost  in prediction accuracy.  \n\uf0b7 Displayed  exceptional  problem -solving  skills,  proactively  identifying  and resolving  bottlenecks  in machine  \nlearning  projects, leading  to a streamlined  workflow  and on-time project  completion.  \n \nRegional  Head  Pakistan  \nAIESEC in  Multan  April  2020  \u2013 March  2021  \n\uf0b7 Led as Regional Head for AIESEC in Multan, overseeing a team of 80 dedicated members, and successfully  \nexecuted  international  exchange  internship  opportunities  aligned  with  the Sustainable  Development  Goals  \n(SDGs).  \n\uf0b7 Provided effective mentorship and support to team members, aiding in their professional development and  \nleadership  growth,  resulting  in 75% improvement  in team  performance and  project  outcomes.  \n\uf0b7 Acted  as a prominent  representative  of AIESEC  at various  national  conferences  and forums,  passionately  \nadvocating  for the organization's  mission  and values,  and actively  contributing  to a 100%  increase  in the \norganization's  visibility and  impact  on a national level.  \nThermal  Power  plant  Muzaffargarh  Pakistan  \nSummer  Intern  June  2018  \u2013 Aug 2018  \n\uf0b7 Diligently  monitored  the operations  of boilers,  turbines,  and other  power  generating  equipment,  ensuring  \nconsistent  and reliable plant  performance.  \n\uf0b7 Actively  participated  in comprehensive  training  sessions  focused  on plant  operations  and maintenance  \npractices,  enhancing  knowledge and skills.  \n \n \nEDUCATION   \n \nNational  University  of Science  & Technology  (NUST)  Islamabad,  Pakistan  \nMSc.  Artificial  Intelligence  & Autonomous  Systems  2021 \u2013 Present  \n \nInstitute  of Engineering  & Technology  (NFC)  Multan,  Pakistan  \nBS Electrical  (Electronics)  Engineering  2017 \u2013 2021  \nCertifications  & Projects:   \nProjects:  \n1. Real -Time Web Data Retrieval with LLM -RAG Chatbot  \n\uf0b7 Developed an innovative real -time web data retrieval chatbot using Langchain, OpenAI's GPT -4, and \nStreamlit.  \n\uf0b7 Utilized advanced LLM -RAG architecture to enhance the chatbot\u2019s  knowledge base for precise and relevant \nanswers.  \n\uf0b7 Designed a user -friendly interface with Streamlit, making the solution accessible to users with varying \ntechnical expertise.  \n2. Yeast Classification Using Machine Learning Algorithms  \n\uf0b7 Implemented and Compared Algorithms: Utilized SVM, Random Forest, and Logistic Regression for yeast \nclassification using Python's scikit -learn.  \n\uf0b7 Data Handling and Model Training: Conducted data preprocessing, split dataset into training/testing sets, \nand fi ne-tuned hyper parameters.  \n\uf0b7 Performance Evaluation: Evaluated models using ROC curves, accuracies, and confusion matrices, providing a \ndetailed comparison of each algorithm.  \n3. Computer Vision Project - Stroke Detection using YOLOv4 -Tiny  \n\uf0b7 Developed a real -time Stroke Detection system using YOLOv4 -Tiny and computer vision  \n\uf0b7 Trained the model with curated datasets, achieving high accuracy and mAP . \n4. Deep Learning Time Series Forecasting with LSTM  \n\uf0b7 Developed LSTM Model: Implemented a Long Short -Term Memory (LSTM) neural  network for time series \nforecasting using PyTorch.  \n\uf0b7 Data Preprocessing: Processed dataset from an Excel file and normalized it using Min -Max scaling.  \uf0b7 Model Training and Evaluation: Trained the LSTM model to predict multiple features simultaneously and \nevaluated performance using Mean Squared Error.  \n\uf0b7 Baseline Comparison: Compared LSTM model performance with a baseline model using the 'Thinking Fast \nand Slow' algorithm.  \n5. Car Bike Classifier Project  \n\uf0b7 Developed a Python -based Car Bike Classifier using Hugging Face  and Gradio for precise image classification.  \n\uf0b7 Designed a user -friendly interface that enables real -time image classification with confidence scores  \n\uf0b7 My contributions involved model training and fine -tuning using Hugging Face and UI design with Gradio.  \n6. Autom ated Call Transcription Integration Project  \n\uf0b7 Seamlessly integrated OpenAI's WhisperAI with Google Sheets to create an automated call transcription \nsolution for a busy call center.  \n\uf0b7 Addressed the challenge of manually transcribing a high volume of daily call recordings with an AI -powered \nsolution  \n7. Credit Card Loan Eligibility Prediction using Logistic Regression and Exploratory Data Analysis  \n\uf0b7 Exploratory Data Analysis (EDA):  Conducted EDA to understand the dataset and its variables.  \n\uf0b7 Model Implementation:  Used logistic regression to predict credit card loan eligibility.  \n\uf0b7 Data Processing:  Encoded 'Loan_Status' target variable, split data into features (X) and target variable (y), \nand divided it into training/testing sets.  \n\uf0b7 Model Training and Evaluation:  Train ed the logistic regression model, made predictions on test data, and \nevaluated performance using accuracy metrics and classification report.  \n \nCertifications:  \n\uf0b7 Getting Started with Pytho n (Specialization ) \u2013 University of Michigan    \n\uf0b7 Python for Dat a Science and AI - IBM \n\uf0b7 Python - Kaggle  \n\uf0b7 Pandas - Kaggle  \nSKILLS   \nDeep Learning, Neural Networks, Computer Vision, Python Programming, TensorFlow, PyTorch, Data Preprocessing,  \nFeature Engineering, Model Evaluation, Statistical Analysis, Time Series Forecastin g, Data Visualization, MATLAB,  \nCircuit  Design.  "
+    },
+    "details": {
+        "name": "Syed Ali Ammar Raza",
+        "number": "923136064123",
+        "skills": [
+            "Deep Learning",
+            "Neural Networks",
+            "Computer Vision",
+            "Python Programming",
+            "TensorFlow",
+            "PyTorch",
+            "Data Preprocessing",
+            "Feature Engineering",
+            "Model Evaluation",
+            "Statistical Analysis",
+            "Time Series Forecasting",
+            "Data Visualization",
+            "MATLAB",
+            "Circuit Design"
+        ],
+        "email_id": "aliammarraza@gmail.com",
+        "location": "Islamabad",
+        "projects": [
+            {
+                "title": "Real-Time Web Data Retrieval with LLM -RAG Chatbot",
+                "description": "Developed an innovative real-time web data retrieval chatbot using Langchain, OpenAI's GPT-4, and Streamlit."
+            },
+            {
+                "title": "Yeast Classification Using Machine Learning Algorithms",
+                "description": "Implemented and Compared Algorithms: Utilized SVM, Random Forest, and Logistic Regression for yeast classification using Python's scikit-learn."
+            },
+            {
+                "title": "Computer Vision Project - Stroke Detection using YOLOv4 -Tiny",
+                "description": "Developed a real-time Stroke Detection system using YOLOv4-Tiny and computer vision."
+            },
+            {
+                "title": "Deep Learning Time Series Forecasting with LSTM",
+                "description": "Implemented a Long Short-Term Memory (LSTM) neural network for time series forecasting using PyTorch."
+            },
+            {
+                "title": "Car Bike Classifier Project",
+                "description": "Developed a Python-based Car Bike Classifier using Hugging Face and Gradio for precise image classification."
+            },
+            {
+                "title": "Automated Call Transcription Integration Project",
+                "description": "Seamlessly integrated OpenAI's WhisperAI with Google Sheets to create an automated call transcription solution."
+            },
+            {
+                "title": "Credit Card Loan Eligibility Prediction using Logistic Regression and Exploratory Data Analysis",
+                "description": "Used logistic regression to predict credit card loan eligibility."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2023",
+                "university": "National University of Science & Technology (NUST)",
+                "degree_title": "MSc. Artificial Intelligence & Autonomous Systems"
+            },
+            {
+                "end_date": "06-2021",
+                "university": "Institute of Engineering & Technology (NFC)",
+                "degree_title": "BS Electrical (Electronics) Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Getting Started with Python (Specialization)",
+                "issuing_organization": "University of Michigan",
+                "date_of_issuance": "06-2022"
+            },
+            {
+                "certification_name": "Python for Data Science and AI",
+                "issuing_organization": "IBM",
+                "date_of_issuance": "06-2022"
+            },
+            {
+                "certification_name": "Python",
+                "issuing_organization": "Kaggle",
+                "date_of_issuance": "06-2022"
+            },
+            {
+                "certification_name": "Pandas",
+                "issuing_organization": "Kaggle",
+                "date_of_issuance": "06-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/syed-ali-ammar-raza-b81744171/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Syed Ali Ammar Raza is a dedicated Machine Learning Engineer with expertise in developing advanced algorithms and models for various applications. He has a strong background in supervised and unsupervised learning, computer vision, and the implementation of Large Language Models (LLMs). His collaborative approach and commitment to continuous learning have led to significant improvements in model efficiency and accuracy.",
+        "employment_history": [
+            {
+                "details": "Proficient in annotating diverse data types, conducting quality assurance checks, and collaborating with cross-functional teams.",
+                "end_date": "Present",
+                "location": "Dubai Silicon Oasis, UAE",
+                "job_title": "Data Annotator",
+                "start_date": "04-2024",
+                "company_name": "CNTXT FZCo"
+            },
+            {
+                "details": "Successfully completed a range of machine learning projects, showcasing proficiency in various algorithms and deep learning frameworks.",
+                "end_date": "11-2022",
+                "location": "Pakistan",
+                "job_title": "Machine Learning Intern",
+                "start_date": "06-2022",
+                "company_name": "Experts Online Limited"
+            },
+            {
+                "details": "Led a team overseeing international exchange internship opportunities, resulting in improved team performance and visibility.",
+                "end_date": "03-2021",
+                "location": "Pakistan",
+                "job_title": "Regional Head",
+                "start_date": "04-2020",
+                "company_name": "AIESEC in Multan"
+            },
+            {
+                "details": "Monitored operations of power generating equipment and participated in training sessions focused on plant operations.",
+                "end_date": "08-2018",
+                "location": "Muzaffargarh, Pakistan",
+                "job_title": "Summer Intern",
+                "start_date": "06-2018",
+                "company_name": "Thermal Power Plant"
+            }
+        ]
+    }
+}

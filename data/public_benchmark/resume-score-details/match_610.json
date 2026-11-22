@@ -1,0 +1,169 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has led a report development team showcasing strong leadership.",
+            "Experience as Azure Data Engineer and Software Developer aligns with Business Intelligence requirements.",
+            "Skills in Power BI, SQL fulfill technical requirements but lacks C++, HTML, CSS confirmed knowledge.",
+            "Over 3 years in business intelligence roles aligns with experience requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.04,
+                "micro_scores": 5.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Tayyab Aftab",
+            "email": "tayyab.aftab5@gmail.com",
+            "phone": "+923224893943",
+            "current_position": "Azure Data Engineer",
+            "current_company": "Murkez Technologies",
+            "employment_start_date_current_company": "03-2022",
+            "first_company_start_date": "04-2017",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/muhammad-tayyab-aftab-80030321b/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 4,
+            "experience": 65,
+            "innovation and adaptability": 31
+        },
+        "micro_dict": {
+            "c++, html, css": 100
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Strong communication and interpersonal skills",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "3+ years of experience in lead generation or business intelligence",
+            "Proficiency in at least one programming language"
+        ],
+        "resume": " \nMuhammad Tayyab  Aftab  \n  \nPROFESSIONAL OBJECTIVE  \nDedicated IT professional with a history of meeting company goals \nutilizing consistent and organized practices. Skilled in working under \npressure and adapting to new situations and challenges to best \nenhance the organizational brand.  \n  \n  \nWORK HISTORY  \nMurkez Technologies  \u2013 Azure Data  Engineer \nLahore, Pakistan   \n03/2022 - Current  \n\u2022 Leading Report Development Team which is working on a highly \nscalable third -party tool 'Logi  Analytics', 'Microsoft Power BI' and \n'SSRS' to design dynamic, customizable, and data -driven  \nFinancial/Accounting  reports for the Client.  \n\u2022 Writing complex and optimized queries, Stored Procedures, \nTriggers, Views and Built -in functions to bind with the report or, as \nif, required by the stakeholders.  \n\u2022 Index Creations and Management.  \n\u2022 Experiencin g Data Warehousin g Processes and working on \ndatabase structures  like \u2018Star Schema \u2019 and \u2018Snowflake  schema\u2019. \n\u2022 Hands -on Experience in managing Azure Dev Ops to communicate \nwith the clients through User Stories, Generate tickets, and provide \npossible and exceptional solutions.  \n\u2022 Experiencing Scrum to comple te specific tasks, milestones, or \ndeliverables.  \n\u2022 Preparing variety of different written communications, reports and \ndocuments.  \n\u2022 Actively listened to Clients' requests, confirming full understanding \nbefore addressing concerns.  \n\u2022 Developing and implementing perf ormance improvement \nstrategies and plans to promote continuous improvement.  \n\u2022 Maintaining energy and enthusiasm in a fast -paced environment.  \n\u2022 Creating spreadsheets using Microsoft Excel for daily, weekly and \nmonthly reporting.  \n\u2022 Developing team communications a nd information for meetings.  \n\u2022 Proving successful working within tight deadlines and a fast -paced \natmosphere.  \n\u2022 Providing 24x7 operational support to the Client.  \n\u2022 Familiar with Basic Linux Commands.  \n \n \n  \nLahore, 54000 Pakistan  \n+923224893943  \ntayyab.aftab5@gmail.com  \n  \nLINKS  \n\u2022 https://www.linkedin.com/in/m\nuhammad -tayyab -aftab -\n80030321b/  \n  \n  \nTECHNICAL SKILLS  \nIDE's:  \n\u2022 Azure Dev Ops  \n\u2022 Microsoft SQL Server \nManagement Studio  \n\u2022 Microsoft SQL Server Reporting \nServices  \n\u2022 PostgreSQL  \n\u2022 MySQL Frontbench  \n\u2022 Logi Report Designer  \n\u2022 Microsoft Power BI  \n\u2022 Microsoft Visual Studio  \n\u2022 WebStorm  \nComputer Languages:  \n\u2022 SQL \n\u2022 PL/SQL  \n\u2022 C# \n\u2022 PHP \n\u2022 TypeScript  \n\u2022 HTML/CSS  \nFrameworks:  \n\u2022 .Net MVC  \n\u2022 .Net Core  \n\u2022 Angular  \n \nSOFT SKILLS  \n\u2022 Collaboration & Teamwork  \n\u2022 Excellent Communication  \n\u2022 Problem Solving and Creativity  \n\u2022 Self-Learning  \n\u2022 Time Management  \n \n  \n  \n \n Primary and Secondary HealthCare Department  - Senior \nSoftware Developer  \nLahore, Pakistan   \n01/2020 - 03/2022  \n\u2022 Developed Databases, Web/Mobile Applications including APIs for \nintegration and implementation.  \n\u2022 Developed  and Published a variety of Reports using SSRS and also \nhave ample experience with Crystal Reports.  \n\u2022 Wrote complex and optimized queries, Stored Procedures, \nTriggers, Views and Built -in functions to bind with the report or, as \nif, required by the stakeholders.  \n\u2022 Monitored ongoing operation of assigned program s and \nresponded to problems by diagnosing and correcting logic and \ncoding errors.  \n\u2022 Updated old code bases to modern development standards, \nimproving functionality.  \n\u2022 Collaborated with project managers to select realistic coding \nmilestones on pre-release software project development.  \n\u2022 Designed reusable and reliable code for use within distributed \ncloud environments.  \n\u2022 Met with stakeholders to provide detailed project reports and \nmilestone updates.  \n\u2022 Trained new developers and programmers on company standards \nfor design and review.  \n\u2022 Documented technical workflows and knowledge to educate newly \nhired employees.  \n\u2022 Consulted with engineering team members to determine system \nloads and develop improvement plans.  \n\u2022 Provided 24x7 operational support to the Client . \nPunjab Aids Control Program  - Software and Database \nDeveloper  \nLahore, Pakistan   \n04/2017 - 12/2021  \n\u2022 Developed and Managed  the whole Database of the Punjab Aids \nControl Program single -handedly covering the 36 districts.  \n\u2022 Developed the first version of Desktop Enterprise Solution to keep \na biometric identification and record of HIV patients all over \nPunjab SQL/MySQL scripting c omprising of complex queries for \nReporting.  \n\u2022 Provided remarkable patterns through optimized stored \nprocedures and Views to the company.  \n\u2022 Identification, Analysis and Resolution of all technical bugs related \nto Web/Mobile/Desktop Applications and Databases.  \n\u2022 Supervised and Assisted in the development of an Enterprise \nSolution for the department.  \n\u2022 Evaluate User Interfaces, Database structures and Applications' \nback -end functionalities using test cases.  EDUCATION  \n10/2016  \nSuperior University  \nPakistan   \nBachelor of Science : Computer \nAnd Information Sciences   \n08/2011  \nMusa'b  School System  \nPakistan   \nA Levels : Sciences   \n08/2009  \nGrand Charter School  \nPakistan   \nO-Levels : Sciences   \n  "
+    },
+    "details": {
+        "name": "Muhammad Tayyab Aftab",
+        "number": "923224893943",
+        "skills": [
+            "Azure Dev Ops",
+            "Microsoft SQL Server Management Studio",
+            "Microsoft SQL Server Reporting Services",
+            "PostgreSQL",
+            "MySQL Frontbench",
+            "Logi Report Designer",
+            "Microsoft Power BI",
+            "Microsoft Visual Studio",
+            "WebStorm",
+            "SQL",
+            "PL/SQL",
+            "C#",
+            "PHP",
+            "TypeScript",
+            "HTML/CSS",
+            ".Net MVC",
+            ".Net Core",
+            "Angular"
+        ],
+        "email_id": "tayyab.aftab5@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "10-2016",
+                "university": "Superior University",
+                "degree_title": "Bachelor of Science : Computer And Information Sciences"
+            },
+            {
+                "end_date": "08-2011",
+                "university": "Musa'b School System",
+                "degree_title": "A Levels : Sciences"
+            },
+            {
+                "end_date": "08-2009",
+                "university": "Grand Charter School",
+                "degree_title": "O-Levels : Sciences"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-tayyab-aftab-80030321b",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Tayyab Aftab is a dedicated IT professional with extensive experience as an Azure Data Engineer and Senior Software Developer. He has a strong background in database management, report development, and software engineering, showcasing his technical skills in various programming languages and tools.",
+        "employment_history": [
+            {
+                "details": "Leading Report Development Team which is working on a highly scalable third-party tool 'Logi Analytics', 'Microsoft Power BI' and 'SSRS' to design dynamic, customizable, and data-driven Financial/Accounting reports for the Client. Writing complex and optimized queries, Stored Procedures, Triggers, Views and Built-in functions to bind with the report or, as if, required by the stakeholders. Index Creations and Management. Experiencing Data Warehousing Processes and working on database structures like \u2018Star Schema\u2019 and \u2018Snowflake schema\u2019. Hands-on Experience in managing Azure Dev Ops to communicate with the clients through User Stories, Generate tickets, and provide possible and exceptional solutions. Experiencing Scrum to complete specific tasks, milestones, or deliverables. Preparing variety of different written communications, reports and documents. Actively listened to Clients' requests, confirming full understanding before addressing concerns. Developing and implementing performance improvement strategies and plans to promote continuous improvement. Maintaining energy and enthusiasm in a fast-paced environment. Creating spreadsheets using Microsoft Excel for daily, weekly and monthly reporting. Developing team communications and information for meetings. Proving successful working within tight deadlines and a fast-paced atmosphere. Providing 24x7 operational support to the Client. Familiar with Basic Linux Commands.",
+                "end_date": "Current",
+                "location": "Lahore, Pakistan",
+                "job_title": "Azure Data Engineer",
+                "start_date": "03-2022",
+                "company_name": "Murkez Technologies"
+            },
+            {
+                "details": "Developed Databases, Web/Mobile Applications including APIs for integration and implementation. Developed and Published a variety of Reports using SSRS and also have ample experience with Crystal Reports. Wrote complex and optimized queries, Stored Procedures, Triggers, Views and Built-in functions to bind with the report or, as if, required by the stakeholders. Monitored ongoing operation of assigned programs and responded to problems by diagnosing and correcting logic and coding errors. Updated old code bases to modern development standards, improving functionality. Collaborated with project managers to select realistic coding milestones on pre-release software project development. Designed reusable and reliable code for use within distributed cloud environments. Met with stakeholders to provide detailed project reports and milestone updates. Trained new developers and programmers on company standards for design and review. Documented technical workflows and knowledge to educate newly hired employees. Consulted with engineering team members to determine system loads and develop improvement plans. Provided 24x7 operational support to the Client.",
+                "end_date": "03-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Senior Software Developer",
+                "start_date": "01-2020",
+                "company_name": "Primary and Secondary HealthCare Department"
+            },
+            {
+                "details": "Developed and Managed the whole Database of the Punjab Aids Control Program single-handedly covering the 36 districts. Developed the first version of Desktop Enterprise Solution to keep a biometric identification and record of HIV patients all over Punjab SQL/MySQL scripting comprising of complex queries for Reporting. Provided remarkable patterns through optimized stored procedures and Views to the company. Identification, Analysis and Resolution of all technical bugs related to Web/Mobile/Desktop Applications and Databases. Supervised and Assisted in the development of an Enterprise Solution for the department. Evaluate User Interfaces, Database structures and Applications' back-end functionalities using test cases.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Software and Database Developer",
+                "start_date": "04-2017",
+                "company_name": "Punjab Aids Control Program"
+            }
+        ]
+    }
+}

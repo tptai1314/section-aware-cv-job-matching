@@ -1,0 +1,129 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 3+ years of business development experience which aligns well, but no direct experience with Stata, a preferred tool in the job description, impacts the expertise relevance.",
+            "The resume highlights leadership in business development, generating leads, and managing key accounts, matching well with the leadership criteria.",
+            "Proficiency in MS Office Suite is implied through roles and responsibilities, and communication skills are highlighted but with no explicit mention of working with data analysis tools beyond sales metrics.",
+            "Educational background from the University of Sargodha is not from a specified top-tier university, but it nonetheless provides a relevant foundation for the role."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 6
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in MS Office Suite and data analysis tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Ability to manage multiple projects simultaneously",
+                    "meets": true
+                },
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 7.9399999999999995
+            }
+        },
+        "personal_info": {
+            "name": "Zohaib Shehzad",
+            "email": "zshehzad28@gmail.com",
+            "phone": "+923021678782",
+            "current_position": "Sr. Business Development Manager",
+            "current_company": "Cherry Bytes Technologies",
+            "employment_start_date_current_company": "2022-00",
+            "first_company_start_date": "2019-00",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "ms excel": 3,
+            "verbal and written communication": 97
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Proficiency in MS Office Suite and data analysis tools",
+            "Ability to manage multiple projects simultaneously",
+            "Excellent communication skills"
+        ],
+        "resume": "C o n t a c t\n+923021678782P h o n e\nzshehzad28@gmail.comE m a i lZohaib Shehzad\nBusiness Development Manager\nSkilled Business Development leader offering 3+ years of experience in leading operations and\nenhancing revenue. Bringing expertise in client acquisition and contract negotiation, along with\nexcellent interpersonal communication, relationship-building and team leadership abilities. Results-\ndriven and proactive with demonstrated record of accomplishment in meeting and exceeding sales\nand revenue objectives.\nE x p e r i e n c e\nEstablished relationships with key decision-makers within the customer's organization\nto promote growth and retention.\nIdentified and pursued valuable business opportunities to generate new company\nrevenue and improve bottom-line profitability.\nNegotiated and closed long-term agreements with new clients in assigned\nterritories.\nGenerated new business with marketing initiatives and strategic plans.\nGenerated new business with marketing initiatives and strategic plans.\nReached out to potential customers via telephone, email, and in-person inquiries.\nKept meticulous client notes and updated account information in company databases.\nEstablished key performance indicators to track and analyze business progress and\nadjust strategies accordingly.\nDeveloped process to analyze customer feedback to incorporate insights into product\ndevelopment strategies.\nServed as technical liaison, supporting engineering, management, procurement, sales\nand marketing, quality assurance and supply base.\nCommunicated project plans and progress to key stakeholders and project\ncontributors.\nCollaborated with business users, technical teams, database administrators and testing\nteams during kickoff meetings, joint application designing, and planning sessions to\nvalidate requirements.\nPartnered with project team members to identify and quickly address problems.Sr. Business Development Manager\nBusiness Development Manager\nTechnical Project Manager2022 - Current\n2021 - 2022\n2019 - 2021Cherry Bytes Technologies \nAmrood Labs\nKP Leads\nReference will be furnished on demandR e f e r e n c eE d u c a t i o n\nUniversity of SargodhaMaster in Information Technologies2017-2019Research\nBusiness development and planning\nProduct and service sales\nRelationship building and management\nNew Business Development\nGoal-setting\nOrder management\nPerformance metrics\nQuality control\nStaff Management\nRevenue Generation\nEnglish\nUrduL a n g u a g eE x p e r t i s e"
+    },
+    "details": {
+        "name": "Zohaib Shehzad",
+        "number": "923021678782",
+        "skills": [
+            "Business development",
+            "Client acquisition",
+            "Contract negotiation",
+            "New Business Development",
+            "Order management",
+            "Performance metrics",
+            "Quality control",
+            "Revenue Generation"
+        ],
+        "email_id": "zshehzad28@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "University of Sargodha",
+                "degree_title": "Master in Information Technologies"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Zohaib Shehzad is a skilled Business Development Manager with over 3 years of experience in leading operations and enhancing revenue. He possesses expertise in client acquisition and contract negotiation, demonstrating a strong ability to generate new business and improve profitability.",
+        "employment_history": [
+            {
+                "details": "Established relationships with key decision-makers within the customer's organization to promote growth and retention. Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories. Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly. Developed process to analyze customer feedback to incorporate insights into product development strategies. Served as technical liaison, supporting engineering, management, procurement, sales and marketing, quality assurance and supply base. Communicated project plans and progress to key stakeholders and project contributors. Collaborated with business users, technical teams, database administrators and testing teams during kickoff meetings, joint application designing, and planning sessions to validate requirements. Partnered with project team members to identify and quickly address problems.",
+                "end_date": "Current",
+                "location": "",
+                "job_title": "Technical Project Manager",
+                "start_date": "01-2022",
+                "company_name": "Cherry Bytes Technologies"
+            },
+            {
+                "details": "Generated new business with marketing initiatives and strategic plans. Reached out to potential customers via telephone, email, and in-person inquiries. Kept meticulous client notes and updated account information in company databases. Established key performance indicators to track and analyze business progress and adjust strategies accordingly.",
+                "end_date": "12-2022",
+                "location": "",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2021",
+                "company_name": "Amrood Labs"
+            },
+            {
+                "details": "Identified and pursued valuable business opportunities to generate new company revenue and improve bottom-line profitability. Negotiated and closed long-term agreements with new clients in assigned territories.",
+                "end_date": "12-2021",
+                "location": "",
+                "job_title": "Sr. Business Development Manager",
+                "start_date": "01-2019",
+                "company_name": "KP Leads"
+            }
+        ]
+    }
+}

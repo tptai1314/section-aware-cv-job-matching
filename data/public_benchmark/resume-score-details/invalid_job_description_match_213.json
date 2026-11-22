@@ -1,0 +1,50 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Zarwa  Shahid  \nBusiness  Development  Executive  \n \n \n \nContact  \nJohar Town,  \nLahore  \n0306 -1538612  \nshahidzarwa4@gmail.com  \nhttps://www.linkedin.com/in/zarwa - \nshahid -926986208/  \n \n \nEducation  \nFast  University  (2022)  \nSuperior  Group  of colleges  (2017)  \n \n \n \nLicense and  \nCertification  \ne-commerce  Affiliate  Marketing  \n(Ecommerce Pro)  \neCommerce  Sales  & Marketing  Funnels  \n(Ecommerce Pro)  \nFacebook  Advertising  for eCommerce  \n(Ecommerce Pro)  \neCommerce Google Ads  \n(Ecommerce Pro)  \nWordPress  WooCommerce  \n(Ecommerce  Pro)  \n \n \n \nKey  Skills  \nMarketing  \nLead Generation  \nProposal Writing  \nSocial  Media  \nPlanning  \nWordPress  \nExcellent  Communication  \nIT Sales  Objective  \nI am a dedicated team member who tries his best to achieve revenue  \nexpectations and aims to reach his goals. I take great pride in my  \ncommunication skills, attention to detail, ability to multitask, and  \nreliability. I am hard -working and punctual. I can make prob lem-solving  \ndecisions swiftly. I'm looking for opportunities to learn and acquire new  \nskills  so I can improve  my skills for  a thriving  career  in the IT industry.  \n \n \nExperience  \n2022  \u2013 2023  \nBusiness  Development  Executive  @ Software  Pro \nSoftware Pro is part of a leading technology group from New York USA. \nAs their  BD executive,  I am responsible  for driving  company  sales  by \nsourcing  new clients  and creating  long -term  value  for their  business  via \nBD platforms.  \n \n2023  \u2013 (part  time)  \nBusiness  Development  Executive  @ IT Cado  LLC  \n\u2022 Hired  as an experienced  then  promoted  to business  development  \nexecutive as Team lead.  \n\u2022 Trained  internees  for lead  generation  and Upwork  bidding  \n\u2022 Used  HubSpot  and Salesforce  to manage  leads  \n\u2022 Canva  expert  | Designed  various  proposals  for clients  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira  for client  \ncommunication  \n \n     (2023 - full time)  \n    Business  Development  Executive  @Tecspine  \n      \n\u2022 Hired  as an experienced  then  promoted  to business  development \nexecutive as Team lead.  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira for client  \n \n             ",
+        "macro_dict": {
+            "leadership": 38,
+            "experience": 10,
+            "innovation and adaptability": 52
+        },
+        "micro_dict": {
+            "c++, html, css": 26,
+            "crm and data management": 52,
+            "project management": 22
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Strong communication and interpersonal skills",
+            "Proficiency in at least one programming language",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "3+ years of experience in lead generation or business intelligence",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau"
+        ],
+        "resume": "Zarwa  Shahid  \nBusiness  Development  Executive  \n \n \n \nContact  \nJohar Town,  \nLahore  \n0306 -1538612  \nshahidzarwa4@gmail.com  \nhttps://www.linkedin.com/in/zarwa - \nshahid -926986208/  \n \n \nEducation  \nFast  University  (2022)  \nSuperior  Group  of colleges  (2017)  \n \n \n \nLicense and  \nCertification  \ne-commerce  Affiliate  Marketing  \n(Ecommerce Pro)  \neCommerce  Sales  & Marketing  Funnels  \n(Ecommerce Pro)  \nFacebook  Advertising  for eCommerce  \n(Ecommerce Pro)  \neCommerce Google Ads  \n(Ecommerce Pro)  \nWordPress  WooCommerce  \n(Ecommerce  Pro)  \n \n \n \nKey  Skills  \nMarketing  \nLead Generation  \nProposal Writing  \nSocial  Media  \nPlanning  \nWordPress  \nExcellent  Communication  \nIT Sales  Objective  \nI am a dedicated team member who tries his best to achieve revenue  \nexpectations and aims to reach his goals. I take great pride in my  \ncommunication skills, attention to detail, ability to multitask, and  \nreliability. I am hard -working and punctual. I can make prob lem-solving  \ndecisions swiftly. I'm looking for opportunities to learn and acquire new  \nskills  so I can improve  my skills for  a thriving  career  in the IT industry.  \n \n \nExperience  \n2022  \u2013 2023  \nBusiness  Development  Executive  @ Software  Pro \nSoftware Pro is part of a leading technology group from New York USA. \nAs their  BD executive,  I am responsible  for driving  company  sales  by \nsourcing  new clients  and creating  long -term  value  for their  business  via \nBD platforms.  \n \n2023  \u2013 (part  time)  \nBusiness  Development  Executive  @ IT Cado  LLC  \n\u2022 Hired  as an experienced  then  promoted  to business  development  \nexecutive as Team lead.  \n\u2022 Trained  internees  for lead  generation  and Upwork  bidding  \n\u2022 Used  HubSpot  and Salesforce  to manage  leads  \n\u2022 Canva  expert  | Designed  various  proposals  for clients  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira  for client  \ncommunication  \n \n     (2023 - full time)  \n    Business  Development  Executive  @Tecspine  \n      \n\u2022 Hired  as an experienced  then  promoted  to business  development \nexecutive as Team lead.  \n\u2022 Responsible  for designing  and managing  company  portfolios  \n\u2022 Used  Skype,  Slack,  Basecamp  and Jira for client  \n \n             "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

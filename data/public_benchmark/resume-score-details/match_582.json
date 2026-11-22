@@ -1,0 +1,137 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not demonstrate any experience related to project management or leadership roles, which are crucial for the job description.",
+            "The resume lacks mention of relevant skills in pre-sales consulting or expertise in using analytical software like PowerBI or Oracle DV, making it unsuitable for the position.",
+            "Educational background is ongoing in a non-preferred university, and professional experience is limited to lead generation, which is not directly relevant.",
+            "The candidate does not meet the minimum requirement of 10+ years in project management and data analytics."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 2
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 1
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.07,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Maryam Khalid",
+            "email": "Maryamkhalid162@gmail.com",
+            "phone": "+92-312-411-3981",
+            "current_position": "Lead Generation Specialist",
+            "current_company": "Lead IQ Agency",
+            "employment_start_date_current_company": "2021-01",
+            "first_company_start_date": "2021-01",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 31,
+            "project management experience": 31,
+            "client relationship management": 38
+        },
+        "micro_dict": {
+            "pre-sales consulting": 100
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "10+ years of industry experience in project management and data analytics",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+            "Experience in managing enterprise data warehouse projects"
+        ],
+        "resume": "LEAD GENERATION\nSPECIALISTMARYAM\nKHALID\nSKILLSEXPERIENCE\n2021_Present\n2018 _ 2019\n2021_PresentLead Generation\nVirtual Assistant\nTeam Work  \nProgramming\nEmail Marketing\nData Managment\nCONTACT\n+92-312-411-3981\nMaryamkhalid162@gmail.comLEAD GENERATION SPECIALIST\nManaging Director\nLead _IQ Agency\nFreelancer \nFiverr & UpworkDeveloped Sales Leads through cold calling,\nmarketing lists and internet leads Etc.\nWorking in CRM  made initial contacts with\ndecision-makers, collected qualifying\ninformation & coordinated.\nPlanned and Organized routes within\nterritory to maximize efficiency and time\nin the field.\nManage Large amount  of data base and\nable to Lead Team and can do multiple\nwork at the same time.\nI am a  part time freelancer and working\nas a  Lead Generation ,Internet Research,\nWeb Scrapper, beginner Programmer   \n having    Expertise in  C++ ,HTML & CSS\ndoing projects. I am keen to Learn new\nand advance Technology and Exploring\nthe things.EDUCATION\nUniversity Of Management & Technology \n2020 - 2024 | BS-Computer Science\nPunjab Group Of Colleges\n2017-2019 | ICSABOUT ME\nI am an enthusiastic, talented, ambitious, and\nhardworking individual, with broad skills and\nexperience in Lead Generation & social media,\nand leading projects.\nFurthermore, I am adept at handling multiple\ntasks on a daily basis competently and at working\nwell under pressure.\nA key strength is a communication; building\nstrong relationships with people in order to\ndeliver the best results."
+    },
+    "details": {
+        "name": "Maryam Khalid",
+        "number": "923124113981",
+        "skills": [
+            "C++",
+            "HTML",
+            "CSS",
+            "Email Marketing",
+            "Data Management"
+        ],
+        "email_id": "Maryamkhalid162@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "04-2024",
+                "university": "University Of Management & Technology",
+                "degree_title": "BS-Computer Science"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "Punjab Group Of Colleges",
+                "degree_title": "ICS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maryamkhalid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/maryamkhalid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Maryam Khalid is a dedicated Lead Generation Specialist with a strong background in programming and data management. She has experience in developing sales leads and managing large databases, showcasing her technical skills in C++, HTML, and CSS. Maryam is also a part-time freelancer, demonstrating her ability to handle multiple tasks efficiently.",
+        "employment_history": [
+            {
+                "details": "Developed Sales Leads through cold calling, marketing lists and internet leads. Managed CRM, made initial contacts with decision-makers, collected qualifying information, and coordinated efforts. Planned and organized routes within territory to maximize efficiency and time in the field.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Lead Generation Specialist",
+                "start_date": "01-2021",
+                "company_name": "Lead_IQ Agency"
+            },
+            {
+                "details": "Worked as a Virtual Assistant, providing support in various administrative tasks and managing data effectively.",
+                "end_date": "12-2019",
+                "location": "",
+                "job_title": "Virtual Assistant",
+                "start_date": "01-2018",
+                "company_name": "Freelancer"
+            }
+        ]
+    }
+}

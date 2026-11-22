@@ -1,0 +1,274 @@
+{
+    "output": {
+        "justification": [
+            "Not from a top-tier institute as per additional info documentation.",
+            "No direct experience in B2B sales or IT and manufacturing sector mentioned.",
+            "Lacks proven leadership experience as required.",
+            "Missing experience in market research, data analysis related to IT and manufacturing.",
+            "Education in Computer Science lacks direct business or marketing angle as required."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 1
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 2.25
+            }
+        },
+        "personal_info": {
+            "name": "Hassan Rauf",
+            "email": "malikhassan22212@gmail.com",
+            "phone": "+92 307 8940354",
+            "current_position": "Project Management Executive",
+            "current_company": "Mobilink Microfinance Bank Limited",
+            "employment_start_date_current_company": "02-2021",
+            "first_company_start_date": "06-2015",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "market research": 17,
+            "b2b sales": 30,
+            "communication skills": 11,
+            "data analysis": 32,
+            "it and manufacturing sector knowledge": 10
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Proven ability to develop and implement successful business strategies",
+            "Strong proficiency in Microsoft Office Suite",
+            "Strong understanding of IT and manufacturing industries"
+        ],
+        "resume": "HASSAN \nRAUF\nProject Manager\n (+92)307 8940354 malikhassan22212@gmail. com\nPWD Housing Society , RWP 03/30/1993\nMobile App Int ernet Banking.  \nIVR Call Cent er Upgrade. \nTLX Food PandaPROJEC TSJanuary 20 20 - Jan 20 21 \nFull Stack Developer \nMobilink Micr ofinance Bank Limit ed Head O\n\ufb03\nce Islamabad\nAccount Opening Rev amp \nNADRA Billers Int egrations \nCDOB Application \nFinalter Integration \nJIRA Clone \nMVP Mobile App & IB \n(Revamp) \nInstant Card Ordering \nCard Management \nDost App \nGold Repeat L oan \nPeople Hub IHA \nBVS ApplicationRaast: P2P SBP - Ja zz Cash \nRisk Nucleaus SBP \nSIEM & W AF Integrations \nAutomation of r econciliation \nBekhabar Kisaan \nWeb Doc - Health insur ance \nTLX Merchant lending \nUSSD - VRG \nLoan Management \nRaast SBP \nDirect Clearing SBP \nRevamping of Mobile App & IBPROJEC TSFebruary 20 21 - Present  \nProject Management Ex ecutive \nMobilink Micr ofinance Bank Limit ed Head O\n\ufb03\nce IslamabadWORK EXPERIENCE\nDoing emplo yment with Oper ational Sustainability, as a Project Manager \nto oversee project scope,  goals and Int erested in obtaining a UX Designer \nposition with Fr omm Group; to apply outstanding communication and \ntechnical skills,  and excellent UI/UX.PROFILE\nInfrastructur e Network \nAdministration and Sy stem \nAdministration\n \nLeadership , Managing Stake \nholders,  \nCommunication ,Scheduling,  Risk \nMgt ,Quality Mgt,  Cost Mgt et c \nManaging people. \nAgility. Tech Savvy . \nDomain knowledge.   \nCritical thinking Negotiation\nSDLC Frame work \nAgile \nScrum \nWater fallSKILLSEDUCATION\nMarch 2012 to April 20 16 \nBS Comput er Sciences  \nFederal Urdu University Islamabad \nObject Orient ed Language,  \nSoftware, Arti\ufb01cial Int elligence and \nComputer Architecture with \nPercentage 69 %Tra \ufb03c Violation,  Tracking and R eporting Sys App FYP .PROJEC TS\nFrom June 20 15 to November 20 16 \nAndroid Application Int ern \nDeveloper Desk Softw are Tech Park (STP 1) SECOND FL OOR F5 secr etariat Isb\nITP (Islamabad T ra\n\ufb03\nc Police App),Vehicle Record Rawalpindi App Islamabad \nExcise and Taxation App , \nJSAMS App (JS BANK A GENT MANA GEMENT SYSTEM) \nEWatch by Public User Raw alpindi App (Liv e on Play st ore) Company EA CT360 \nOutSource Project \nICCI App  Islamabad Chamber Of Commer ce And Industry (icci) Liv e on play st orePROJEC TSFrom January 20 18 to December 20 18 \nAndroid App Developer \nAPPINSNAP Chaklala Scheme Number Thr ee, Pakistan Adnan Heights Second FloorPoetry edit or app the phot o contest \nMy route map (google map based)PROJEC TSFrom January 20 19 to May 2019 \nSenior Andr oid Developer \nThe X Solutions Islamabad E11/4 STREET # 5 HOUSE # 52Language Andr oid, JavaSince February 20 19 \nAndroid Application De velopment Instruct or \nSuper Tech Institut e Of Comput er Science Saddar Raw alpindiPROJEC TSSince August 2019 \nSr. Android Developer \nNorth Cloud Limit ed Manchester, GMC Islamabad F11/3\nCloud Wall Vpn (Establishing V pn Connection of diff erent servers) \nMobile App\nINTERESTS\nTraveling Music Photography\nLANGUAGES\nUrdu\nEnglishLANGUAGE\nAndroid , Java , Kotlin , Dart) Tech \nIntegration Channel: Middlew are \nOpen Connect | IRIS\nUser Interface Responsiv e Design \nand Functionality , Android \nJetPack. \nRelative Layouts, Linear Lay outs, \nConstraint Layouts Drawable \nResources, AssetsRecy cler View \nCard View, Custom Apps designs. \nShared Preferences,SQLITE ,  \nREALM Andr oid Dimensions \nGoogle API.  Web based Apps \n(using network lib).  Retro\ufb01t, Volley, \nAsyncTask"
+    },
+    "details": {
+        "name": "Hassan Rauf",
+        "number": "923078940354",
+        "skills": [
+            "Android",
+            "Java",
+            "Kotlin",
+            "Dart",
+            "SDLC Framework",
+            "Agile",
+            "Scrum",
+            "Waterfall",
+            "User Interface Responsive Design",
+            "Android JetPack",
+            "Relative Layouts",
+            "Linear Layouts",
+            "Constraint Layouts",
+            "Drawable Resources",
+            "Assets",
+            "Recycler View",
+            "Card View",
+            "Custom Apps designs",
+            "Shared Preferences",
+            "SQLITE",
+            "REALM",
+            "Google API",
+            "Web based Apps",
+            "Retrofit",
+            "Volley",
+            "AsyncTask"
+        ],
+        "email_id": "malikhassan22212@gmail.com",
+        "location": "PWD Housing Society, RWP",
+        "projects": [
+            {
+                "title": "Mobile App Internet Banking",
+                "description": "Development of mobile banking application."
+            },
+            {
+                "title": "IVR Call Center Upgrade",
+                "description": "Upgrade of IVR system for call center."
+            },
+            {
+                "title": "Account Opening Revamp",
+                "description": "Revamping the account opening process."
+            },
+            {
+                "title": "NADRA Billers Integrations",
+                "description": "Integration of NADRA billers."
+            },
+            {
+                "title": "CDOB Application",
+                "description": "Development of CDOB application."
+            },
+            {
+                "title": "Finalter Integration",
+                "description": "Integration of Finalter system."
+            },
+            {
+                "title": "JIRA Clone",
+                "description": "Development of a JIRA clone."
+            },
+            {
+                "title": "MVP Mobile App & IB (Revamp)",
+                "description": "Revamping of MVP mobile app and internet banking."
+            },
+            {
+                "title": "Instant Card Ordering",
+                "description": "Implementation of instant card ordering feature."
+            },
+            {
+                "title": "Card Management",
+                "description": "Development of card management system."
+            },
+            {
+                "title": "Dost App",
+                "description": "Development of Dost application."
+            },
+            {
+                "title": "Gold Repeat Loan",
+                "description": "Implementation of gold repeat loan feature."
+            },
+            {
+                "title": "People Hub IHA",
+                "description": "Development of People Hub IHA."
+            },
+            {
+                "title": "BVS Application",
+                "description": "Development of BVS application."
+            },
+            {
+                "title": "Raast: P2P SBP - Jazz Cash",
+                "description": "Development of Raast P2P system."
+            },
+            {
+                "title": "Risk Nucleus SBP",
+                "description": "Implementation of risk nucleus system."
+            },
+            {
+                "title": "SIEM & WAF Integrations",
+                "description": "Integration of SIEM and WAF."
+            },
+            {
+                "title": "Automation of reconciliation",
+                "description": "Automation of reconciliation processes."
+            },
+            {
+                "title": "Bekhabar Kisaan",
+                "description": "Development of Bekhabar Kisaan application."
+            },
+            {
+                "title": "Web Doc - Health insurance",
+                "description": "Development of web document for health insurance."
+            },
+            {
+                "title": "TLX Merchant lending",
+                "description": "Development of TLX merchant lending system."
+            },
+            {
+                "title": "USSD - VRG",
+                "description": "Implementation of USSD VRG."
+            },
+            {
+                "title": "Loan Management",
+                "description": "Development of loan management system."
+            },
+            {
+                "title": "Raast SBP",
+                "description": "Development of Raast system for SBP."
+            },
+            {
+                "title": "Direct Clearing SBP",
+                "description": "Implementation of direct clearing for SBP."
+            },
+            {
+                "title": "Revamping of Mobile App & IB",
+                "description": "Revamping of mobile app and internet banking."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "04-2016",
+                "university": "Federal Urdu University Islamabad",
+                "degree_title": "BS Computer Sciences"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hassanrauf",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/hassanrauf",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Hassan Rauf is a skilled project manager and full stack developer with extensive experience in mobile application development and project management. He has a strong technical background in Android, Java, and various integration systems, demonstrating a commitment to delivering high-quality solutions in the fintech sector.",
+        "employment_history": [
+            {
+                "details": "Overseeing project scope, goals, and execution as a Project Manager.",
+                "end_date": "01-2021",
+                "location": "Islamabad",
+                "job_title": "Project Management Executive",
+                "start_date": "02-2021",
+                "company_name": "Mobilink Microfinance Bank Limited"
+            },
+            {
+                "details": "Developed various applications and integrations for the bank.",
+                "end_date": "01-2021",
+                "location": "Islamabad",
+                "job_title": "Full Stack Developer",
+                "start_date": "01-2020",
+                "company_name": "Mobilink Microfinance Bank Limited"
+            }
+        ]
+    }
+}

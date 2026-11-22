@@ -1,0 +1,226 @@
+{
+    "output": {
+        "justification": [
+            "Candidate possesses extensive experience (over 10 years) in sales and marketing, aligning with the 2+ years requirement in digital marketing.",
+            "Strong leadership demonstrated in roles managing teams and projects, notably at Futurealiti and Goto.com.pk.",
+            "Proven work in digital marketing aspects like affiliate marketing and B2C sales, but lacks specificity in SEO/SEM and Google Analytics.",
+            "Educational background in Business Administration albeit not from the top universities mentioned; 2.8 CGPA might not stand out compared to candidates from desired universities."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 8
+                },
+                {
+                    "criteria": "seo/sem",
+                    "score": 5
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 4
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 4.680000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Kashif Iqbal Farooqui",
+            "email": "cashifiqbal@live.com",
+            "phone": "92(300)-8222497",
+            "current_position": "Manager Sales",
+            "current_company": "Futurealiti",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "04-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "client relationship": 100
+        },
+        "micro_dict": {
+            "social media marketing": 5,
+            "seo/sem": 36,
+            "google analytics": 55,
+            "project management": 4
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Familiarity with Google Analytics and CRM tools",
+            "Strong project management and communication skills",
+            "2+ years of experience in digital marketing",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Proven work experience in social media marketing and SEO/SEM"
+        ],
+        "resume": "Kashif Iqbal  Farooqui  \n7/1 Tower 5 NHS Karsaz  Phase  4. Karachi  \n92(300)-8222497 (Cell)  \ncashifiqbal@live.com  \n  \nSummary  \n  \nWith over 10  years of experience in marketing and sales with  industries  such as security & surveillance, VPN, Ecommerce \nand fashion brands  , mobile gaming etc  has given me a diverse set of competencies in user experience, analytics, lead \ngeneration and Solution Se lling. Building and nurturing brand s has always been my passion and point of study. During this \ntenure have also harnessed my expertise in B2B , B2C , D2C etc selling, Relationship Management, Customer Management, \nBusiness Modeling and Training. I believe learning is a lifelong process and one should keep on innovating creatively and \nrelearn the art of selling to the ever changing customer orientations.   \n \nProjects  \n  \n\u00b7 Accomplished a web -based metaverse solution to a consortium of European Universities  \n\u00b7 Ran partnerships campaig ns with Careem,  Bank Alfalah,  Bykea,  FoodPanda,  Hysab Kytab,  Goto Affiliates.  \n\u00b7 Established strategic partnerships with industry leading publishers (PCMag, TheNextWeb,  PCWorld)   \n\u00b7 Developed and implemented digital marketing strategy to increase  affiliate  revenue generation.   \n\u00b7 Devised and initiated a project with Indus Motor Company Pakistan for their loyalty card customers . \n\u00b7 Lead my team into a strategic alliance with Khaadi  for application of crystals on their various SKUs.   \n  \nWork Experience  \n \nFuturealiti (Manager Sales) Nov 2021 \u2013 Present  \n  \n\u00b7 Developed sales channels and teams  , monitored team performance to achieve goals  \n\u00b7 Handled clients and grew sales fro m the local as well as the international clientele  \n\u00b7 Proficient  with client retention and upselling various solutions  \n\u00b7 Locked  clients with bespoke solutions to realize their projects  \n\u00b7 Setup Automated Marketing Campaigns for Lead Generation  \n2D, 3D Animations, Mobile Games,  Digital Touch Screens, Augmented Reality & Virtual Reality solutions  \n\u00b7 Industrial Automation solutions, A ssisted learning with virtual tours  \n\u00b7 Constantly keeping abreast with market trends and offer functional solutions to C level executives   \n \nConsoliAds Pte Ltd (Assistant  Manager \u2013 Business Development)  Dec 2020 \u2013 Sep 2021  \n  \n\u00b7 Generating leads specifically looking for Ad mediation and across promotion services  \n\u00b7 On boarde d mobile game / app publishers to increase their monthly revenue streams  \n\u00b7 Achieved great results for mobile game publishers in scaling their mediation needs.  \n\u00b7 Involved in business development across APAC and MENA regions.  \nGoto.com.pk (Affiliate Marketing Team Lead ) Partnerships  + Affiliations  October 2018  \u2013 March 2020  \n  \nKey Projects/Achievements   \n   \n\u00b7 Devised and implemented Goto's Affiliate program , end to end setup.  \n\u00b7 Got partners on boarded  like Careem, FoodPanda , Bank Alfalah  for new customer  campaigns  \n\u00b7 Consistently achieved  and grew  sales targets month over month  ($400,000 revenue generated for the year)  \n\u00b7 Provided technical assistance to partners as and when required working with internal teams  \n\u00b7 Built rapport with international agencies and local publishers for various projects to create sales pipeline  \n\u00b7 On boarded  programmatic and RTB players for Pakistani tr affic and consistently exceeded  conversion targets month \nover month ( City Ads, RTBhouse, Rocket10)  \n\u00b7 Analyzed  the data & trends to optimize and increase  conversions on a regular basis  \n\u00b7 On boarded  and engaged  with affiliates for desktop, mobile  web and app campaigns  \n\u00b7 Proficient with various onl ine tools digital marketing and prospect  management  \n\u00b7 Worked  on Goto App for mobile measurement partners and 3rd party install campaigns.  \n Gaditek \u2013 A Disrupt.com Company (Busines s Development Manager) June 2016  \u2013 June 2018 )  \n  \nKey Projects/Achievements   \n   \n\u00b7 Managed the Affiliate  Marketing portfolio of Cybersecurity division. ( Purevpn & Ivacy)   \n\u00b7 Handled  marketing budget of more than $50,000 per month .  \n\u00b7 Created partnerships with industry leading technology publishers and affiliate relationships to drive incremental \nrevenues for the company   \n\u00b7 Generated  ROI of more than 60% and constantly increasing it.   \n\u00b7 Consulted affiliates on CPA, CPC , content optimization, display ads  and standard commission structures.   \n\u00b7  Worked on platforms like Linkshare, Admitad,  and Cityads  and various other platforms.  \n\u00b7 Achieved highest ever sales for Black Friday and Cyber Monday (2017)  \n\u00b7 Maintained performance records of all the  affiliates through in -house affiliate program   \n Fifth Element \u2013 Swarovski (Business Development Manager) Oct 2014  \u2013 June 2016)   \n  \nKey Projects   \n\u00b7 Headed networking events for the d evelopment of crystal market in Pakistan.   \n\u00b7 Working with the leading designers and clothing manufacturers in   \n\u00b7 Successfully met the target of Euro 1 Million for the year 2015 .  \n\u00b7 Representing the company in fashion shows, industry functions and networking events.  \n\u00b7 Liaison between the bank s and my company for the banks rewards program.   \n\u00b7 Lead our brand into participating in the  Fashion Shows  across the year.  \n\u00b7 PIA new uniform unveiling 2015  \n\u00b7 Collaborate with internal and external stakeholders to achieve objectives. These groups include  external customers \nand consumers, external vendors and agencies, Field Sales, R&D, Regulatory Affairs, Manufacturing, Logistics,  Public \nAffairs, Marketing, and Executive Management.  \n   \nGCS Pvt Ltd (Client Service Executive November 2013  \u2013 October 2014)   \n Key responsibilities   \n\u00b7 Held key company accounts and analyzed the specific requirements of the client and coordinated it to \nthe concerned departments.   \n\u00b7 Provided enterprise solutions ranging from IPBAX, Data Centers and Access Control Systems  etc.  \n\u00b7 Managed teams all across Pakistan  for the dispensation of work.   \n\u00b7 Headed the team at  National Bank of Pakistan  for security & surveillance solutions for  100+branches  across Pakistan.   \n\u00b7 Provided  building management systems and visitor management systems  to clients ranging from  Armed  Forces, \nGovernment agencies and corporate clients.  \n   \nVectraCom Pvt Ltd (Sales Executive April 2013  \u2013 October 2013)   \nKey responsibilities   \n\u00b7 Managed key accounts of the company, dealt with specified clients and provided them with the IVR  services the \ncompany was offering.   \n\u00b7 Looked after the online portal \u201c Totkaz.com \u201d looking after marketing and sales activities for the web  portal.   \n\u00b7 Devised and implemented promotional campaigns.   \n\u00b7 Generated leads for the company by referrals, face to face interactions and attending exhibitions and seminars .  \nEducation  \n \nQualification  Year  Institute  CGPA/Grade  \nBBA* (Marketing)  2011   Greenwich University, Karachi    2.8  \nA Levels  2005  The Avicenna School , Karachi  1C 1D  \n  O Levels  \n  2000  Beacon house School System, Karachi  1A 4B 2C 1D  \n*Electives taken in BBA: Advertising, Consumer Behavior, Sales Management, Integrated Marketing Communication, Entrepreneurship,   \n  Production & Operations Management  "
+    },
+    "details": {
+        "name": "Kashif Iqbal Farooqui",
+        "number": "923008222497",
+        "skills": [
+            "Digital Marketing",
+            "Affiliate Marketing",
+            "Sales Management",
+            "Lead Generation",
+            "Client Retention",
+            "Business Development",
+            "B2B Sales",
+            "B2C Sales",
+            "D2C Sales",
+            "Project Management",
+            "Market Analysis",
+            "Strategic Partnerships",
+            "Automated Marketing Campaigns",
+            "3D Animations",
+            "Mobile Games",
+            "Augmented Reality",
+            "Virtual Reality",
+            "Industrial Automation",
+            "Data Analysis"
+        ],
+        "email_id": "cashifiqbal@live.com",
+        "location": "Karachi",
+        "projects": [
+            {
+                "title": "Web-based Metaverse Solution",
+                "description": "Accomplished a web-based metaverse solution to a consortium of European Universities."
+            },
+            {
+                "title": "Partnership Campaigns",
+                "description": "Ran partnerships campaigns with Careem, Bank Alfalah, Bykea, FoodPanda, Hysab Kytab, Goto Affiliates."
+            },
+            {
+                "title": "Digital Marketing Strategy",
+                "description": "Developed and implemented digital marketing strategy to increase affiliate revenue generation."
+            },
+            {
+                "title": "Loyalty Card Project",
+                "description": "Devised and initiated a project with Indus Motor Company Pakistan for their loyalty card customers."
+            },
+            {
+                "title": "Strategic Alliance with Khaadi",
+                "description": "Lead my team into a strategic alliance with Khaadi for application of crystals on their various SKUs."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "2011",
+                "university": "Greenwich University, Karachi",
+                "degree_title": "BBA (Marketing)"
+            }
+        ],
+        "achievements": [
+            "Generated $400,000 revenue for Goto.com.pk in one year",
+            "Achieved highest ever sales for Black Friday and Cyber Monday (2017)",
+            "Generated ROI of more than 60% for Gaditek's Cybersecurity division"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/kashif-farooqui",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/kashif-farooqui",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Kashif Iqbal Farooqui is a seasoned professional with over 10 years of experience in marketing and sales across various industries including security, surveillance, and e-commerce. He has a proven track record in digital marketing, affiliate marketing, and business development, demonstrating strong technical skills and a commitment to driving revenue growth.",
+        "employment_history": [
+            {
+                "details": "Developed sales channels and teams, monitored team performance to achieve goals, handled clients and grew sales from local and international clientele.",
+                "end_date": "Present",
+                "location": "Karachi",
+                "job_title": "Manager Sales",
+                "start_date": "11-2021",
+                "company_name": "Futurealiti"
+            },
+            {
+                "details": "Generating leads specifically looking for Ad mediation and cross promotion services, onboarded mobile game/app publishers to increase their monthly revenue streams.",
+                "end_date": "09-2021",
+                "location": "Karachi",
+                "job_title": "Assistant Manager \u2013 Business Development",
+                "start_date": "12-2020",
+                "company_name": "ConsoliAds Pte Ltd"
+            },
+            {
+                "details": "Devised and implemented Goto's Affiliate program, onboarded partners like Careem and FoodPanda for new customer campaigns, consistently achieved and grew sales targets.",
+                "end_date": "03-2020",
+                "location": "Karachi",
+                "job_title": "Affiliate Marketing Team Lead",
+                "start_date": "10-2018",
+                "company_name": "Goto.com.pk"
+            },
+            {
+                "details": "Managed the Affiliate Marketing portfolio of Cybersecurity division, created partnerships with industry leading technology publishers, generated ROI of more than 60%.",
+                "end_date": "06-2018",
+                "location": "Karachi",
+                "job_title": "Business Development Manager",
+                "start_date": "06-2016",
+                "company_name": "Gaditek \u2013 A Disrupt.com Company"
+            },
+            {
+                "details": "Headed networking events for the development of crystal market in Pakistan, successfully met the target of Euro 1 Million for the year 2015.",
+                "end_date": "06-2016",
+                "location": "Karachi",
+                "job_title": "Business Development Manager",
+                "start_date": "10-2014",
+                "company_name": "Fifth Element \u2013 Swarovski"
+            },
+            {
+                "details": "Held key company accounts, provided enterprise solutions ranging from IPBAX, Data Centers and Access Control Systems, managed teams across Pakistan.",
+                "end_date": "10-2014",
+                "location": "Karachi",
+                "job_title": "Client Service Executive",
+                "start_date": "11-2013",
+                "company_name": "GCS Pvt Ltd"
+            },
+            {
+                "details": "Managed key accounts, generated leads for the company by referrals, face to face interactions and attending exhibitions and seminars.",
+                "end_date": "10-2013",
+                "location": "Karachi",
+                "job_title": "Sales Executive",
+                "start_date": "04-2013",
+                "company_name": "VectraCom Pvt Ltd"
+            }
+        ]
+    }
+}

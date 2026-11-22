@@ -1,0 +1,147 @@
+{
+    "output": {
+        "justification": [
+            "Leadership: Demonstrated leadership as Business Development Manager at IKONIC, managing a team - scored high.",
+            "Experience: Over 5 years of experience in business development and sales, suitable for the role requirements - strong score.",
+            "Market Research: Experience in probing and understanding client needs but minimal direct research experience - average score.",
+            "Digital Marketing: Mention of managing LinkedIn campaigns shows some experience - moderate score.",
+            "Meets minimum requirement of 5+ years of cumulative experience in business development roles, including significant contribution at IKONIC and E-Sparks."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 5
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.809999999999999,
+                "micro_scores": 5.16
+            }
+        },
+        "personal_info": {
+            "name": "Ali Ahmad",
+            "email": "aliahmed2312@gmail.com",
+            "phone": "03128800078",
+            "current_position": "Business Development Manager",
+            "current_company": "IKONIC",
+            "employment_start_date_current_company": "04-2023",
+            "first_company_start_date": "07-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 35,
+            "experience": 23,
+            "strategic planning": 42
+        },
+        "micro_dict": {
+            "market research": 84,
+            "digital marketing": 16
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "5+ years of experience in business development or sales management"
+        ],
+        "resume": "Ali Ahmad \nBusiness Development Manager \nI am a skilled business development manager with expertise in strategy, sales, negotiations, and\nmanaging the complete sales cycle. I am also experienced in key account management. I am seeking a\nchallenging position in an organization where I can contribute to achieving organizational goals while\nfurther developing my professional skills to reach my full potential. \naliahmed2312@gmail.com \n03128800078 \nLahore, Pakistan \nEDUCATION \nBachelor of Business Administration \nFAST NUCES \n08/2016 - 08/2020\n, \n \nLahore \nWORK EXPERIENCE \nBusiness Development Manager \nIKONIC \n04/2023 - Present\n, \n \nMy role includes managing the Business Development team,\nhandling the meetings that they book & e\ufb00ectuation of the\ncomplete sales cycle as well as handling active LinkedIn\ncampaigns. \nSenior Business Development Executive \nE-Sparks \n01/2021 - 04/2023\n, \n \nMy role included reaching out to prospects on Freelancing\nwebsites (Upwork, Freelancer etc) as well as LinkedIn,\nprobing to understand their pain points. Managing elements\nof strategy, sales, negotiations & e\ufb00ectuation of the\ncomplete sales cycle. \nWelcome Team Advisor \nGiant Group \n09/2020 - 12/2020\n, \n \nLahore, Pakistan \nMy role was to answer all in-bound queries via call or live\nchat, \nprovide best advice and promote the bene\ufb01ts of Giant\nGroup's range of services in line with agreed parameters as\nwell as following up with prospects. \nIntern \nICI Pakistan Limited \n07/2019 - 08/2019\n, \n \nLahore \nInterned in the Polyester wing of ICI in the \ufb01nance\ndepartment & reconciled their balance sheets as well as did\ncomplete \ufb01nancial analysis of their competitors. \nIntern \nCoca Cola \n07/2018 - 08/2018\n, \n \nLahore \nInterned in the commercial department & learned about\ncampaign strategies including product speci\ufb01c campaigns as\nwell as product placement in the racks & the usage of\nbillboards \nSKILLS \nMicrosoft O\ufb03ce (Word/Excel/PowerPoint) \nProject Bidding \nRequirement Gathering \nAccount Management \nBusiness Development \nSales Process \nLeadership \nSales Strategies \nNegotiation Skills \nProblem Solving Skills \nPressure Handling \nResearch \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nFull Professional Pro\ufb01ciency \nTasks \nTasks \nTasks \nTasks \nTasks "
+    },
+    "details": {
+        "name": "Ali Ahmad",
+        "number": "03128800078",
+        "skills": [
+            "Microsoft Office (Word/Excel/PowerPoint)",
+            "Project Bidding",
+            "Requirement Gathering",
+            "Account Management",
+            "Business Development",
+            "Sales Process",
+            "Sales Strategies",
+            "Negotiation Skills",
+            "Research"
+        ],
+        "email_id": "aliahmed2312@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2020",
+                "university": "FAST NUCES",
+                "degree_title": "Bachelor of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Ali Ahmad is a skilled business development manager with expertise in managing sales cycles, strategy, and negotiations. He has a strong background in business development and account management, seeking to contribute to organizational goals while furthering his professional skills.",
+        "employment_history": [
+            {
+                "details": "Managing the Business Development team, handling meetings, and executing the complete sales cycle as well as managing active LinkedIn campaigns.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "04-2023",
+                "company_name": "IKONIC"
+            },
+            {
+                "details": "Reaching out to prospects on freelancing websites and LinkedIn, managing strategy, sales, negotiations, and the complete sales cycle.",
+                "end_date": "04-2023",
+                "location": "Lahore, Pakistan",
+                "job_title": "Senior Business Development Executive",
+                "start_date": "01-2021",
+                "company_name": "E-Sparks"
+            },
+            {
+                "details": "Answering inbound queries via call or live chat, providing advice, and promoting services.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Welcome Team Advisor",
+                "start_date": "09-2020",
+                "company_name": "Giant Group"
+            },
+            {
+                "details": "Interned in the finance department, reconciling balance sheets and conducting financial analysis.",
+                "end_date": "08-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2019",
+                "company_name": "ICI Pakistan Limited"
+            },
+            {
+                "details": "Interned in the commercial department, learning about campaign strategies and product placement.",
+                "end_date": "08-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2018",
+                "company_name": "Coca Cola"
+            }
+        ]
+    }
+}

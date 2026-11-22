@@ -1,0 +1,167 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a Bachelors of Commerce, which partially aligns with the requirement of a Bachelor's degree in Business, though not specifically in Computer Science. Hence, some relevant experience but not exactly meeting the educational requirement fully.",
+            "While the candidate exhibits strong interpersonal and communication skills as per the listed skills, there is no explicit evidence of programming skills; however, they demonstrate lead generation and business development experience, fulfilling the experience requirement.",
+            "There is no explicit mention of use of business intelligence tools such as Power BI, SQL, or Tableau on the resume, which is a specific job requirement.",
+            "However, the resume contains relevant experiences in lead generation and business intelligence through leading teams, which shows capability in strategic insights."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm and data management",
+                    "score": 7
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.77,
+                "micro_scores": 6.54
+            }
+        },
+        "personal_info": {
+            "name": "Muzamil Qamar",
+            "email": "muzamil qamar19@gmail.com",
+            "phone": "03091999966",
+            "current_position": "Business Development Lead",
+            "current_company": "Trans Data",
+            "employment_start_date_current_company": "-",
+            "first_company_start_date": "01-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 77,
+            "innovation and adaptability": 23
+        },
+        "micro_dict": {
+            "business intelligence tools (power bi, sql, tableau)": 10,
+            "crm and data management": 84,
+            "project management": 6
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Proficiency in at least one programming language",
+            "Strong communication and interpersonal skills",
+            "3+ years of experience in lead generation or business intelligence",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "Bachelor's degree in Computer Science, Business, or a related field"
+        ],
+        "resume": " \nMUZAMIL  QAMAR  \n03091999966  Lahore /Pakistan  \nEmail  \u00b7 muzamil qamar19@gmail.com  \u00b7  \n \nI Seek to work in a  competitive & challenging environment where I can learn and polish my abilities \nResult -oriented , organized, and motivated individual Who seek  an available management position in an \neffort to utilize years of experience to fulfill the company's strategic requirements.  \n \nPROFESSIONAL EXPERIENCE  \nTRANS DATA  \u2022 Lahore  \nBusiness  Development  Lead  \u2013 Present  \n \n\u2022 Increased  sales  by implementing  a new sales  process  and creating  new sales  materials  \n\u2022 Reviewed  and evaluated  prospect  data and lead generation  techniques,  resulting  in new sales  opportunities  \n\u2022 Implemented  a new sales  training  program  for new and existing  employees,  increasing  the average  sales  \nvolume  \n\u2022 Proactively  addressed  potential  sales  issues,  leading  to a reduction  in sales  force  turnover  \n \nCAR FIRST (Lahore)  \nManager C ustomer Services . (Sep 22 )  \n \n\u2022 Ensure High levels of customer service in the respective division/section to achieve a positive brand image \nand customer experience  \n\u2022 Present suggestions and Recommendations in the most decision made by senior management with the \nregard to sales/ promotiona l activities  \n\u2022 Achieve/exceed assigned organization targets to maintain the profitable business trend  \n\u2022 Involved in Brand movements/department performance/sales performance/ costing /quarterly performance \nanalysis and engaged to prompt the consumer databas e for a profitable future.  \n\u2022 Executing and maintaining the customer service standards  \n\u2022 Coordination with Quality control and setting the new process and policy to obtain the maximum growth in \nthe lead generation business  \n\u2022 Shift plan\u2019s/Rotations/Target alloca tions/ Team segregation  \n\u2022 Engaged in planning out a new strategy and new rotation which has an immense effect on the brand \nretention rate  \n\u2022 Designed the Employee development and grooming mechanisms to ensure proficiency and higher numbers \nof productivity  \n\u2022 Building customer relations and planning out new initiatives to build customer experience with the correlation \nof target market and business theme  \n\u2022 Designed the P -O-L-C-A Framework to provide useful guidance . \n\u2022 Setting and reviewing budgets and managing costs . \n \nABACUS CONSULTING (Lahore)  \nCAREEM - NOW OPERATIONS LEAD ( Oct 21) \n \n\u2022 Produced the highest customer satisfaction rating of the year with the cooperation of my team by providing \npersonalized follow -up and service.     \n\u2022 Worked under the direct supervision of the Customer Services Manager.  \n\u2022 Lead merchandise presentations about pr oduct features.  \n\u2022 Used strong product knowledge and problem -solving skills to assist customers with their concerns.  \n\u2022 Ensured the accuracy of data by keeping track of all customer calls via spreadsheets and company \nsoftware.  \n\u2022 Maintain relationships with suppliers and both internal and external clients.  \n 2 WASTE BUSTERS SOLID WASTE MANAGEMENT PVT  \nBUSINESS DEVELOPMENT EXECUTIVE ( Jan 19) \n \n\u2022 Follow Key Performance Indicators and achieve performance benchmarks set by the company and \nstakeholders  \n\u2022 Customer's issue understanding , Ownership  of fixtures,  and Personalization with customer  \n\u2022 Fulfilling the company\u2019s policies in order to ensure smooth operations.  \n\u2022 Analyzing KPIs to identify weaknesses, proposing and implementing robust solutions, and managing senior \nexecutive and operational team expectations, under tight deadlines to deliver transformational changes.  \n\u2022 Direct Coordination with the Sales team to ensu re the perfect clientage  \n \n \n \nSKILLS  \n\u2022 Strong Interpersonal and communication skills  \n\u2022 Possess firm administrative and organizational skills  \n\u2022 Open to the challenges of change and learning  \n\u2022 Ability to adapt to tomorrow\u2019s changes  \n\u2022 Emphasis on high -quality work and job completion  \u2022 Proficient in Microsoft Office (MS Word, \nPowerPoint, Excel)  \n\u2022 Highly organized & efficient  \n\u2022 Ability to work independently or as a part of the \nTeam   \n\u2022 Ability to train an d groom in order to maintain a \nhealthy environment   \nACHIEVEMENTS | RESPONSIBILITIES  \n\u2022 Scholarships.  \n\u2022 Honor Roll inclusion for high grades.  \n\u2022 Perfect attendance awards  \n\u2022 Earned Excellence Award for Art Work, 20014 -2016  \n\u2022 IELTS scored Band 6.5, 2018  \n\u2022 German language level (A1) at LUMS  \n \n EDUCATION  \n \n2021  \nBACHELORS OF COMMERCE  \n2018  \nHSSC, INTERMEDIATE  \ni.com (intermediate in commerce)  \n \n2016  \nMATRICULATION  \n \n "
+    },
+    "details": {
+        "name": "MUZAMIL QAMAR",
+        "number": "03091999966",
+        "skills": [
+            "Microsoft Office (MS Word, PowerPoint, Excel)"
+        ],
+        "email_id": "muzamil qamar19@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "",
+                "degree_title": "Bachelors of Commerce"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "",
+                "degree_title": "HSSC, Intermediate"
+            },
+            {
+                "end_date": "05-2016",
+                "university": "",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [
+            "Scholarships",
+            "Honor Roll inclusion for high grades",
+            "Perfect attendance awards",
+            "Earned Excellence Award for Art Work, 2014-2016",
+            "IELTS scored Band 6.5, 2018",
+            "German language level (A1) at LUMS"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "MUZAMIL QAMAR is a dedicated professional with extensive experience in business development and customer service management. He has a proven track record of increasing sales and enhancing customer satisfaction through effective strategies and training programs. His technical proficiency in Microsoft Office complements his strong organizational skills, making him a valuable asset in any competitive environment.",
+        "employment_history": [
+            {
+                "details": "Increased sales by implementing a new sales process and creating new sales materials. Reviewed and evaluated prospect data and lead generation techniques, resulting in new sales opportunities. Implemented a new sales training program for new and existing employees, increasing the average sales volume. Proactively addressed potential sales issues, leading to a reduction in sales force turnover.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Business Development Lead",
+                "start_date": "",
+                "company_name": "TRANS DATA"
+            },
+            {
+                "details": "Ensured high levels of customer service in the respective division/section to achieve a positive brand image and customer experience. Achieved/exceeded assigned organization targets to maintain the profitable business trend. Engaged in planning out a new strategy and new rotation which has an immense effect on the brand retention rate.",
+                "end_date": "09-2022",
+                "location": "Lahore",
+                "job_title": "Manager Customer Services",
+                "start_date": "",
+                "company_name": "CAR FIRST"
+            },
+            {
+                "details": "Produced the highest customer satisfaction rating of the year with the cooperation of my team by providing personalized follow-up and service. Ensured the accuracy of data by keeping track of all customer calls via spreadsheets and company software.",
+                "end_date": "10-2021",
+                "location": "Lahore",
+                "job_title": "Operations Lead",
+                "start_date": "",
+                "company_name": "ABACUS CONSULTING"
+            },
+            {
+                "details": "Followed Key Performance Indicators and achieved performance benchmarks set by the company and stakeholders. Analyzed KPIs to identify weaknesses, proposing and implementing robust solutions.",
+                "end_date": "01-2019",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "",
+                "company_name": "WASTE BUSTERS SOLID WASTE MANAGEMENT PVT"
+            }
+        ]
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has shown leadership skills through their experience in banking and supervision roles, however, lacks explicit leadership or strategic positions.",
+            "Has relevant experience in a business development role but lacks over 5+ years necessary as per the job description.",
+            "Possesses a strong understanding of Microsoft Office Suite, indicated by proficiency in MS Word, Excel, PowerPoint.",
+            "No explicit indication of experience in IT or manufacturing sectors is present."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.67,
+                "micro_scores": 4.47
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Ahsan Ullah",
+            "email": "malikahsanlidhal@gmail.com",
+            "phone": "+923123927003",
+            "current_position": "Role in Banking",
+            "current_company": "Telenor Microfinance Bank Ltd",
+            "employment_start_date_current_company": "05-2019",
+            "first_company_start_date": "02-2012",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 67,
+            "strategic thinking": 33
+        },
+        "micro_dict": {
+            "communication skills": 49,
+            "it and manufacturing sector knowledge": 51
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite",
+            "Strong understanding of IT and manufacturing industries",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "   \nMUHAMMAD AHSAN ULLAH   \nMohallah Lidhal Chakrala, tehsil and district Mianwali   \n+923123927003  \nmalikahsanlidhal@gmail.com   \n    \nOBJECTIVE   \nTo secure a position where I can efficiently contribute my skills and abilities to the growth of the \norganization and build my professional career.   \nPERSONAL INFORMATION`   \n\u2022 Father Name: Muhammad Nasrullah   \n\u2022 Date of Birth: 1st November 1987   \n\u2022 CNIC: 38302 -5730950 -7   \n\u2022 Nationality: Pakistani   \n\u2022 Marital status: Married   \nEXPERIENCE   \nTelenor Microfinance Bank Ltd , (MAY 2019 \u2013 TILL DATE)  \nMobilizing CASA deposit and TD accounts. Providing priority services to bank liability customers. On \nboarding Individual and Corporate customers.  Understand Customer Needs and requirements .Research \nAccounts, Identify Key Players and Generate Interest.  \nMCB, (DEC 2016 \u2013 MAY 2018)    \nI have doing this job as a Business development officer. I was satisfying the custom er about the \nservices of Muslim commercial Bank (Ex -NIB).  \nNIFT, (SEP 2013 \u2013 AUG 2016)    \nI have doing this job as a verification supervisor of Punjab land record system.   \n \nTELENOR NOC, (FEB 2012 \u2013 AUG 2012)    \nI was doing job as a metro security supervisor. If any site has an issue in the Rawalpindi region, \nthen I have forward the complaint to the head office (Islamabad).   \n EDUCATION   \nB.COM, UNIVERISITY OF PUNJAB .   \nI GOT 49% MARKS IN B.COM. AND I WAS COMPLETE MY BACHLOR DEGREE IN 2012.    \n   \nSKILLS   \n  Languages: Urdu, English, Punjabi, Saraiki       \nOperating System:  Windows 7, Ubuntu   \n18.04   \n          \nMicrosoft office:  MS word, MS excel, MS Power  \nPoint.   \nACTIVITIES   \n      My extra -curricular activ ities are   \n\u2022 Playing football   \n\u2022 Playing cricket   \n\u2022 Internet browsing   "
+    },
+    "details": {
+        "name": "MUHAMMAD AHSAN ULLAH",
+        "number": "923123927003",
+        "skills": [
+            "Windows 7",
+            "Ubuntu 18.04",
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint"
+        ],
+        "email_id": "malikahsanlidhal@gmail.com",
+        "location": "Mohallah Lidhal Chakrala, tehsil and district Mianwali",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2012",
+                "university": "UNIVERSITY OF PUNJAB",
+                "degree_title": "B.COM"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Muhammad Ahsan Ullah is a dedicated professional with experience in business development and customer service within the banking sector. He has a solid educational background with a B.COM from the University of Punjab and possesses technical skills in various operating systems and Microsoft Office applications. His work experience spans roles in Telenor Microfinance Bank, MCB, and NIFT, showcasing his ability to understand customer needs and provide effective solutions.",
+        "employment_history": [
+            {
+                "details": "Mobilizing CASA deposit and TD accounts. Providing priority services to bank liability customers. Onboarding Individual and Corporate customers. Understand Customer Needs and requirements. Research Accounts, Identify Key Players and Generate Interest.",
+                "end_date": "Present",
+                "location": "Mianwali",
+                "job_title": "Business Development Officer",
+                "start_date": "05-2019",
+                "company_name": "Telenor Microfinance Bank Ltd"
+            },
+            {
+                "details": "Satisfying the customer about the services of Muslim Commercial Bank (Ex -NIB).",
+                "end_date": "05-2018",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "12-2016",
+                "company_name": "MCB"
+            },
+            {
+                "details": "Verification supervisor of Punjab land record system.",
+                "end_date": "08-2016",
+                "location": "",
+                "job_title": "Verification Supervisor",
+                "start_date": "09-2013",
+                "company_name": "NIFT"
+            },
+            {
+                "details": "Metro security supervisor, forwarding complaints to the head office for site issues in the Rawalpindi region.",
+                "end_date": "08-2012",
+                "location": "",
+                "job_title": "Metro Security Supervisor",
+                "start_date": "02-2012",
+                "company_name": "TELENOR NOC"
+            }
+        ]
+    }
+}

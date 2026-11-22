@@ -1,0 +1,147 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrates leadership experience as a co-founder of an NGO and project lead at LEAF, showing ability to lead teams and manage projects.",
+            "Relevant sales experience is apparent through his role as a co-founder of DRIPSTERZ and consultant roles that focused on increasing sales through marketing strategies.",
+            "Candidate has experience in market research as seen in projects conducted during his education and independent consulting roles.",
+            "No mention of specific CRM software experience such as HubSpot or Salesforce, although other software tools are noted."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "sales experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+                    "meets": false
+                },
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.58,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "Ali Rehman Bhutta",
+            "email": "23110213@lums.edu.pk",
+            "phone": "+923451030599",
+            "current_position": "Independent Marketing & Sales Consultant",
+            "current_company": "E-Commerce Centric",
+            "employment_start_date_current_company": "09-2020",
+            "first_company_start_date": "10-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/alirehmanbhutta/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "leadership": 58,
+            "sales experience": 42
+        },
+        "micro_dict": {
+            "market research": 100
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+            "Demonstrated ability in team leadership and mentoring",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": "Ali Rehman Bhutta  \n+923451030599  | 23110213@lums.edu.pk  | https://www.linkedin.com/in/alirehmanbhutta/  \nEDUCATION  \nLahore University of Management Sciences                                                     \nBSc (Honors) in Management Science            \n- Key Courses: Integrated Marketing Communication , Supply Chain Management , Operation Management , Strategic \nBusiness Management , Sales Force Management , Business Ana lytics , Consumer Behavior . \nUniversity of Baltistan  (UOBS)                                                                                                                            \nSummer Exchange Semester  \n\u2022 Course: Introduction to E -commerce  \nIntermediate (FSc.)  \u2013 Pre-Engineering                                                                                  \n\u2022 Engineering Mathematics, Physics, Chemistry  \nPROFESSIONAL EXPERIENCE  \nDRIPSTERZ  \u2013 Co-Founder                                                                                                                                                                       Oct 20 22 \u2013 Feb 2023  \n\u2022 Co-founded a preloved premium -quality sneakers brand  named DRIPSTERZ , taking a proactive approach to make fashion \nand quality accessible to everyone.  \n\u2022 Streamlined the supply chain and established partnerships with 10 suppliers, procuring 400 unique pairs of premium \nsneakers within the first two months of operations.  \n\u2022 Boosted sales by 30% through effective utilization of social media channels, leveraging targeted strategies to engage with \nthe target audience.  \nRetail E -Commerce Venture (REV)  \u2013 Business  Development Intern                                                                           May  2022 \u2013 June  2022  \n\u2022 Managed end to end client relationships and increased pre -acquisition client satisfaction by 20% through effective \nstakeholder management and engagement practices.  \n\u2022 Developed the optimal customer journey map for the marketing function to increase flexibility of the marketing \nengagement strategy leading to a 25% increase in lead generation and 5% increase in client acquisition.  \nIndependent Marketing & Sales Consultant  \u2013 E-Commerce Centric                                  Sep 20 20 \u2013 Mar 2023  \n\u2022 Increased average sales  by 20%  for a retail focused e -commerce client by providing end to end  solutions on demand & \nsupply planning, operations management, and driving product sales.   \n\u2022 Helped my clients find new products, managed social media advertisements, and created stores which later scaled to more \nthan $20,000 individually.  \n\u2022  Automated company operations for 4 clients impr oving task completion rates by 60% by partnering up with Trello, Slack, \nand click funnel software .  \n\u2022 Improved the store conversion  rate to 4% (1-2 % aver age) by taking a customer centric approach \u2013 using google analytics \nand A/B testing on optimized product portfolio of the store.   \nLEADERSHIP EXPERIENCE  \nSahara Foundation  - Co-Founder                                                                                                                                      Jun 2020 \u2013 Present  \n\u2022 Sahara is an NGO aiming to bridge the gap between the poor and the rich.  \n\u2022 Launched the foundation during the pandemic and distributed ration to more than 100 de serving families.  \n\u2022 Raised 1.5 million PKR through developing marketing and sponsorships proposals increasing historical fund raising by 30%.  \nLUMS Environmental Action Forum  (LEAF)  - Project Lead                                                                                     Oct 2022 \u2013 Mar 2023  \n\u2022 Led two engagement teams for local SMEs by conducting product portfolio analysis and developing growth strategy \nbringing in 0.1 million in PKR for LEAF.  \nProjects & Research Experience  \n\u2022 EcoSprings - Marketing Campaign for Eco -friendly Water Bottles : Wrote a case study for product entry of an eco -friendly \nbottled water brand  named EcoSprings. Forecasted entry level demand using bass diffusion model and projected \nprofitability for the next two m onths .  \n\u2022 Stock Valuation - Honda Cars Pakistan : Projected the sales of Honda Cars Pakistan for the next five years based on its past \nvariation with inflation, GDP growth, Exchange rate, and automobile industry growth. The insights were used for \ninvestment perspectives .  \nSKILLS & PERSONAL  \nLanguages : Urdu  (native), English (fluent), Punjabi (native)  \nIT: MS Office (Complete), Facebook Advertising, Digital Marketing, Power BI  \u2013 Intermediate , JIRA , SQL \u2013 Advanced . \nInterests : Hiking & Mountaineering, Folk Music,  Singing ( Hip-hop/Rap), Travelling  "
+    },
+    "details": {
+        "name": "Ali Rehman Bhutta",
+        "number": "923451030599",
+        "skills": [
+            "MS Office (Complete)",
+            "Facebook Advertising",
+            "Digital Marketing",
+            "Power BI \u2013 Intermediate",
+            "JIRA",
+            "SQL \u2013 Advanced"
+        ],
+        "email_id": "23110213@lums.edu.pk",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2023",
+                "university": "Lahore University of Management Sciences",
+                "degree_title": "BSc (Honors) in Management Science"
+            },
+            {
+                "end_date": "06-2022",
+                "university": "University of Baltistan (UOBS)",
+                "degree_title": "Summer Exchange Semester"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/alirehmanbhutta",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ali Rehman Bhutta is a dynamic entrepreneur and business development professional with a strong background in management science and e-commerce. He has co-founded a successful sneaker brand and has experience in enhancing client relationships and driving sales through innovative marketing strategies. His technical skills include proficiency in various software and tools essential for digital marketing and data analysis.",
+        "employment_history": [
+            {
+                "details": "Co-founded a preloved premium-quality sneakers brand named DRIPSTERZ, streamlining the supply chain and establishing partnerships with suppliers.",
+                "end_date": "02-2023",
+                "location": "",
+                "job_title": "Co-Founder",
+                "start_date": "10-2022",
+                "company_name": "DRIPSTERZ"
+            },
+            {
+                "details": "Managed end to end client relationships and increased pre-acquisition client satisfaction through effective stakeholder management.",
+                "end_date": "06-2022",
+                "location": "",
+                "job_title": "Business Development Intern",
+                "start_date": "05-2022",
+                "company_name": "Retail E-Commerce Venture (REV)"
+            },
+            {
+                "details": "Increased average sales for a retail-focused e-commerce client by providing end to end solutions on demand & supply planning, operations management, and driving product sales.",
+                "end_date": "03-2023",
+                "location": "",
+                "job_title": "Independent Marketing & Sales Consultant",
+                "start_date": "09-2020",
+                "company_name": "E-Commerce Centric"
+            }
+        ]
+    }
+}

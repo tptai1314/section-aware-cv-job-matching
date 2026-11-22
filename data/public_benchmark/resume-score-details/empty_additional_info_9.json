@@ -1,0 +1,252 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not have 8+ years of experience in telecom engineering or related work; they have 5+ years but in the Oil and Gas industry, which is not directly relevant.",
+            "The candidate does not hold a Bachelor's degree in Telecommunications Engineering; they have a degree in Electrical & Electronics Engineering.",
+            "Proficiency in wireless communication technologies specific to the telecom industry, such as GSM, UMTS, LTE, and NR, is not demonstrated in the resume.",
+            "Demonstrated ability in leading technical teams is limited to project management within the Oil and Gas sector.",
+            "The candidate does not specify experience with Huawei OSS or telecom integration tools."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "project management",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "8+ years of experience in telecom engineering or related work",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Telecommunications Engineering or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in wireless communication technologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Demonstrated ability in leading technical teams",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with Huawei OSS and telecom integration tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.449999999999999,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Mudasir",
+            "email": "muhammadmudasir001@gmail.com",
+            "phone": "+923065400762",
+            "current_position": "Project Engineer /Site Services Engineer",
+            "current_company": "INTECH Automation. Intelligence",
+            "employment_start_date_current_company": "09-2022",
+            "first_company_start_date": "05-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/muhammadmudasir/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Lead Telecommunications Engineer\n\n**Location:** Islamabad, Pakistan  \n**Company:** TechWave Solutions\n\n**About Us:**\nTechWave Solutions is a leading provider of innovative telecom solutions, catering to global clients with precision and commitment. Our team of engineers generate solutions that power connectivity world-wide.\n\n**Role Overview:**\nJoin TechWave Solutions as a Lead Telecommunications Engineer responsible for managing and mentoring cross-functional teams to deploy state-of-the-art wireless solutions. This role involves technical oversight, strategic planning, and direct interaction with international teams to ensure optimal performance and reliability.\n\n**Key Responsibilities:**\n- Lead and manage a team specializing in telecom network operations.\n- Oversee system integrations for 2G, 3G, 4G, and 5G technologies.\n- Coordinate with global technical teams to implement and troubleshoot network systems.\n- Provide training to enhance the technical skills of engineering teams.\n- Develop and optimize scripts for system integrations.\n- Ensure projects meet both internal standards and industry regulations.\n\n**Key Skills:**\n- Proficiency in wireless technologies including GSM, UMTS, LTE, and NR.\n- Strong leadership and project management skills.\n- Advanced technical knowledge in telecom network equipment and operational management.\n\n**Benefits:**\n- Competitive salary ranging from PKR 301,000 to 400,000.\n- Opportunities for international relocation.\n- Continuous learning and professional development programs.",
+        "macro_dict": {
+            "leadership": 23,
+            "technical expertise": 24,
+            "experience": 42,
+            "project management": 11
+        },
+        "micro_dict": {
+            "project management": 100
+        },
+        "additional_info": null,
+        "minimum_requirements": [
+            "8+ years of experience in telecom engineering or related work",
+            "Bachelor's degree in Telecommunications Engineering or related field",
+            "Proficiency in wireless communication technologies",
+            "Demonstrated ability in leading technical teams",
+            "Experience with Huawei OSS and telecom integration tools"
+        ],
+        "resume": "Aug. 8, 24  1  \nMuhammad Mudasir  \u2013 Project Engineer /Site Services Engineer  \nContact# +923065400762 /+923496164540  \nEmail: muhammadmudasir001@gmail.com  \nLinkedIn: https://www.linkedin.com/in/muhammadmudasir/  \nProfile  # Ro b o tics # Io T # Data Scien tist # Mach in e Learn in g  # Artificial In tellig en ce # Co mp u ter Visio n  # Au to matio n  # Man ag emen t # Desig n  & Ap p licatio n  En g in eer  \nExperienced professional with 5+ years in the Oil and Gas industry, focused on Control System integration services. Seeking l eadership \nopportunities in top -tier companies like Saudi Aramco, Chevron, Total, Sabic, Schlumberger, and Baker Hughes. Skilled in improving \ncustomer satisfaction, ensuring project excellence, maximizing profitability, and cultivating effective team relationships. D edicated to \ndelivering excellence and innovation, aiming to drive significant contributions to organizational success and  growth.  Passionate about \nadopting new technologies and eager to advance my career.  \nIndustrial  Experience  \n\u2022 Project  Engineer/Design and Application \nEngineer  INTECH Automation. Intelligence  Sep.2022 \u2013 Continue  \nResponsibilities  \no Pre-Commissioning & Commissioning  \no DCS/PLC programming and HMI develop ment and Testing  \no System design, hardware (panel, hydraulic, pneumatic, instrumentation,  electrical , network etc ) design and \nsoftware design under supervision of PM/Project Lead  \no Develop and use engineering tools/processes to ensure efficient development  and quality of project deliverables \nunder supervision of PM/Project Lead  \no Develops project related documentation.  \no Provides support remotely or in person for internal testing and FAT in US /UAE/KSA/Nigeria  office or any other  \npart of the world, independently or under direct/remote support of PM/Project Lead  \nCustomers/End Users  \nRyze Renewable, LLC. , Chevron , TOTAL  \n\u2022 Execution & Control Engineer  INTECH Automation. Intelligence  May.2020 \u2013 Aug.2022  \nResponsibilities  \no Maintain/Develop Dashboards for Cost/Resource usage (Power BI/MS Excel)  \no Analyze Planned VS projected Cost & Planned VS Actual resource usage (MS Excel/MSP)  \no Develop VBA/MS Flows for efficient flow of process  \no Execute Project Planning function to ensure that appropriate planning of all Projects  \no Impart and develop Planning culture and mindset in PMs and Project Leads to ensure that risk free execution of \nprojects is being carried out  \no Work closely with PM\u2019s for all projects to ensure effective planning and execution of jobs is being carried out  \no Ensure that all Project Schedule are  developed and  updated on regular basis. Carrying out timely reporting for \nrunning projects  \no Carry out Project Progress Reporting to PM\u2019s as per client\u2019s requirements  \nCustomers/End Users  \nEDG Inc., B aker Hughes , Saudi Aramco , SABIC , Chevron,  TASNEE, Saudi Electric Company, Farabi \nPetrochemicals, Schlumberger  \n\u2022 Trainee Engineer  INTECH Automation. Intelligence  May.2019 \u2013 Apr.2020  \nTraining incudes:  \no PLCs Programming  \no DCS & SCADA  \no Control System Panels  \no Software and HMI  (Human Machine Interface) designing  \no Documentation  \no Project Execution Cycle  \nWorking Field:  \no Automation Industry  \no Oil & Gas and Process Companies  \no Process Control System  \no Safety Instrumented System  \n \nMuhammad Mudasir  \n                      2 Certifications  \n\u2022 PMP -Basics (CLICK)  SimpliLearn  Jan. 30, 2024  \n\u2022 Introduction to Developing with the PI \nSystem  (CLICK)  OSISoft Learning  Jan. 19, 2024  \n\u2022 Data Visualization with Tableau \nSpecialization  (CLICK ) University of California  Mar. 21, 2023  \n\u2022 Digital Skills: Artificial Intelligence (CLICK ) Accenture  Jun. 09, 2022  \n\u2022 Excel Skills for Business: Advanced  (CLICK ) Macquarie University  Jan. 05, 2022  \n\u2022 CCP151: Studio 5000 Logix Designer Level 2 \nBasic Ladder Logic Programming  RockwellA utomation  Jun. 19, 2020  \n\u2022 CCV204A FactoryTalk View ME and Panel \nView Plus Programming  RockwellA utomation  Jun. 15, 2020  \n\u2022 PI System Basics  (CLICK ) OSISoft L earning  Jun. 15, 2020  \n\u2022 What is Data Science? (CLICK)  IBM  Sep. 10, 2019  \n\u2022 Python for absolute beginners  (CLICK)  Udemy   Nov. 14, 2017  \nEducation  \n\u2022 Namal College, Mianwali (University of Bradford, UK)  2014 -2018  \nBE (Electrical & Electronics Engineering)  3.83/4.0     \n\u2022 Al-Suffah College Mianwali  (Federal Board Islamabad)  2012 -2014  \nFSc (Pre -Engineering)  70.45%  \n\u2022 Al-Suffah School (Sargodha Board)  2010 -2012  \nSecondary School Certificate  82% \nIndustrial Projects  \nMWIP Source Water - ICSS & \nPAGA  Upgrade  \n(Chevron -Nigeria)  \nSenior Project  Engineer  \n Responsibilities:  \nSystem Selection  \nPanel and System Architecture Design  \nDocumentation  \nLogic & HMI Verification  \nCustomer Communication  2024  \nSoftware/System: Rockwell ControlLogix, \nWonderware InTouch  \nEPWD Offshore ICS SOWIP Tie -\nIn \n(Chevron -Nigeria)  \nDesign and Application  Engineer  \n Responsibilities:  \nDesign Verification  \nLogic & HMI Verification  \nDocumentation  \nInternal Testing  \nSupervision of Rockwell FSRs \u2013 \nCommissioning of LV & MV MCC  \n 2024  \nSoftware/System: Rockwell ControlLogix, \nWonderware InTouch, Rockwell LV and MV \nMCC  Professional Skills  \n\u2022 Programming Languages  \n Ladder Logics, VBA, C, C++, Arduino, Java, Html, Python, Scratch, Html, VHDL, Assembly language  \n\u2022 Tools  \nYokogawa Centum VP, Archestra, Wonderware Intouch, AB-FactoryTalk RSView ME , AB-FactoryTalk RSView S E, \nRSLogix 5000 , Siemens -WinCC Explorer , Siemens TIA portal ,OSISoft PI,  Tableau, PowerBI , LaTeX, Code Block, \nProteus , MATLAB , Cisco Packet Tracer, Minitab, Arduino  IDE, Android Studio , Scratch, Fritizing, Balsamiq, Altera \nQuartus , Microsoft Project, Microsoft Office , MikroC Pro  \n\u2022 Operating Environments  \nWindow 10 + All previous  \n\u2022 Others   \nProject Commissioning, Project Pre -Commissioning, Instruments Calibration, Safety Instrumented System  \n\u2022 Language Skills \nEnglish, Urdu a nd Punjabi Muhammad Mudasir  \n                      3 ICSS Upgrade Services for \nOML58  \n(TOTAL -Nigeria)  \nDesign and Application Engineer  \n Responsibilities:  \nLogic & HMI Development  \nPanel Design  \nDocumentation  \nDrawings review  \nProcurement Management  \n 2023 -2024  \nSoftware/System: YOKOGAWA CENTUM VP  \nSupply & Engineering Services \nfor EVTM Control System \nIntegration  \n(Chevron -Nigeria)  \nDesign and Application Engineer  \n Responsibilities:  \nInstruments Installation and Cable \nTermination Supervision  \nInstruments Calibration  \nCommunication between PCS, SIS and \nF&G Panel  \nPre-Commissioning and \nCommissioning  \n 2023  \nSoftware/System: Rockwell ControlLogix, \nWonderware InTouch  \nTAPA F&G and PAGA  \n(Chevron -Nigeria)  \nDesign and Application Engineer  Responsibilities:  \nF&G and PAGA Panels, Instruments \nand Cable Installation Supervision  \nInstruments Calibration  \nCommunication between F&G and \nPAGA Panels  \nPre-Commissioning & Commissioning  \n 2023  \nSoftware/System: Rockwell ControlLogix, GAI -\nTronics  \nFox Complex Upgrade  \n(Chevron -Angola)  \nDesign and Application Engineer  Responsibilities:  \nLogic Development  \nHMI Integration with logic & Bulk \nEditing  \nProcurement Management  \nPanel Drawings including General \nArrangements, Power Distribution, IO \nWirring Review  \nIO List \nElectrical and Heat Load calculation  \n 2022 -2024  \nSoftware/System: Rockwell ControlLogix, \nWonderware Archestra  \nSupply of Four Multi -Well \nIntelligent Completions Panels \nfor CNOOC  \n(CNOOC -China)  \nExecution & Control Engineer  Responsibilities:  \nCost Control and Schedule Update  \nProgress Report  \nCost Analysis  \nResource Management  \nRisk and Issue Management  \nProcurement Management  \nS-Curve Preparation  and Update  \n 2022  \nSoftware/System: Microsoft Project, Miscosoft \nExcel (VBA) , Tableau , PowerBI  \nSupply of zone 1 certified \nmodular intelligent completions \nsurface panels  \n(ADNOC -UAE)  \nExecution & Control Engineer  \n Same as above  2021 -2022  \nSame as above  \nHydrocarbon Analyzer Walk -In \nIntegrated Solution For BH \nNorth America  \n(Baker Hughes \u2013 USA)  \nExecution & Control Engineer  \n Same as above  2021 -2022  \nSame as above  \nSupply of 4FCV and 9FCV \nWHCPs  \n(Schlumberger \u2013 KSA)  \nExecution & Control Engineer  Same as above  2020 -2021  \nSame as above  Muhammad Mudasir  \n                      4  \nSABIC OSI PI System Support  \n(SABIC \u2013 KSA)  \nExecution & Control Engineer  \n Same as above  2020 -2021  \nSame as above  \nReferences  \nReferences will be provided on demand . \n \n "
+    },
+    "details": {
+        "name": "Muhammad Mudasir",
+        "number": "923065400762",
+        "skills": [
+            "Python",
+            "VBA",
+            "C",
+            "C++",
+            "Arduino",
+            "Java",
+            "HTML",
+            "VHDL",
+            "Assembly language",
+            "Ladder Logic",
+            "Power BI",
+            "MATLAB",
+            "Wonderware Intouch",
+            "Rockwell ControlLogix",
+            "OSISoft PI",
+            "Tableau",
+            "Microsoft Project",
+            "Microsoft Office"
+        ],
+        "email_id": "muhammadmudasir001@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "MWIP Source Water - ICSS & PAGA Upgrade",
+                "description": "Senior Project Engineer for system selection and architecture design."
+            },
+            {
+                "title": "EPWD Offshore ICS SOWIP Tie-In",
+                "description": "Design and Application Engineer for design verification and internal testing."
+            },
+            {
+                "title": "ICSS Upgrade Services for OML58",
+                "description": "Design and Application Engineer for logic and HMI development."
+            },
+            {
+                "title": "Supply & Engineering Services for EVTM Control System Integration",
+                "description": "Design and Application Engineer for instruments installation supervision."
+            },
+            {
+                "title": "Fox Complex Upgrade",
+                "description": "Design and Application Engineer for logic development and panel drawings."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "Namal College, Mianwali (University of Bradford, UK)",
+                "degree_title": "BE (Electrical & Electronics Engineering)"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Al-Suffah College Mianwali (Federal Board Islamabad)",
+                "degree_title": "FSc (Pre-Engineering)"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Al-Suffah School (Sargodha Board)",
+                "degree_title": "Secondary School Certificate"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "PMP -Basics",
+                "issuing_organization": "SimpliLearn",
+                "date_of_issuance": "01-2024"
+            },
+            {
+                "certification_name": "Introduction to Developing with the PI System",
+                "issuing_organization": "OSISoft Learning",
+                "date_of_issuance": "01-2024"
+            },
+            {
+                "certification_name": "Data Visualization with Tableau Specialization",
+                "issuing_organization": "University of California",
+                "date_of_issuance": "03-2023"
+            },
+            {
+                "certification_name": "Digital Skills: Artificial Intelligence",
+                "issuing_organization": "Accenture",
+                "date_of_issuance": "06-2022"
+            },
+            {
+                "certification_name": "Excel Skills for Business: Advanced",
+                "issuing_organization": "Macquarie University",
+                "date_of_issuance": "01-2022"
+            },
+            {
+                "certification_name": "CCP151: Studio 5000 Logix Designer Level 2 Basic Ladder Logic Programming",
+                "issuing_organization": "Rockwell Automation",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "CCV204A FactoryTalk View ME and Panel View Plus Programming",
+                "issuing_organization": "Rockwell Automation",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "PI System Basics",
+                "issuing_organization": "OSISoft Learning",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "What is Data Science?",
+                "issuing_organization": "IBM",
+                "date_of_issuance": "09-2019"
+            },
+            {
+                "certification_name": "Python for absolute beginners",
+                "issuing_organization": "Udemy",
+                "date_of_issuance": "11-2017"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadmudasir/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Mudasir is a skilled Project Engineer and Site Services Engineer with over 5 years of experience in the Oil and Gas industry, specializing in Control System integration services. He possesses a strong technical background in programming, automation, and project management, and is dedicated to delivering innovative solutions and driving organizational success.",
+        "employment_history": [
+            {
+                "details": "Pre-Commissioning & Commissioning, DCS/PLC programming and HMI development and Testing, System design, hardware and software design under supervision of PM/Project Lead.",
+                "end_date": "Continue",
+                "location": "",
+                "job_title": "Project Engineer/Design and Application Engineer",
+                "start_date": "09-2022",
+                "company_name": "INTECH Automation. Intelligence"
+            },
+            {
+                "details": "Maintain/Develop Dashboards for Cost/Resource usage, Analyze Planned VS projected Cost & Planned VS Actual resource usage, Develop VBA/MS Flows for efficient flow of process.",
+                "end_date": "08-2022",
+                "location": "",
+                "job_title": "Execution & Control Engineer",
+                "start_date": "05-2020",
+                "company_name": "INTECH Automation. Intelligence"
+            },
+            {
+                "details": "Training includes PLCs Programming, DCS & SCADA, Control System Panels, Software and HMI designing.",
+                "end_date": "04-2020",
+                "location": "",
+                "job_title": "Trainee Engineer",
+                "start_date": "05-2019",
+                "company_name": "INTECH Automation. Intelligence"
+            }
+        ]
+    }
+}

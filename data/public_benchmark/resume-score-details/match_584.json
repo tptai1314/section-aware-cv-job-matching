@@ -1,0 +1,127 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has extensive experience in client relationship management across multiple banking roles.",
+            "The resume shows 5+ years of experience in business development and client relationship management, meeting the sales-related criteria.",
+            "While SEO experience is not apparent, the candidate shows proficiency in Microsoft Office from skills like MS Word and Excel.",
+            "The candidate holds a relevant degree from Punjab University, aligning with company preferences."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relationship management",
+                    "score": 9
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "client engagement",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven track record in sales and client relationship management",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in SEO and digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in Microsoft Office and CRM systems",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 9.0,
+                "micro_scores": 7.0
+            }
+        },
+        "personal_info": {
+            "name": "SAYYED MUHAMMAD ALI SHAH",
+            "email": "alishah14619@gmail.com",
+            "phone": "03344899892",
+            "current_position": "Business Development Banker",
+            "current_company": "Bank Al Habib Ltd",
+            "employment_start_date_current_company": "04-2022",
+            "first_company_start_date": "08-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "client relationship management": 100
+        },
+        "micro_dict": {
+            "client engagement": 100
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Proven track record in sales and client relationship management",
+            "3+ years of experience in SEO and digital marketing",
+            "Proficiency in Microsoft Office and CRM systems"
+        ],
+        "resume": " \nObjectives  \n \n \n \nExperience  \n \n \n \n \n \n \n \n \n \n \n \nQualification  \nSAYYED MUHAMMAD ALI SHAH  \n03344899892  \nEmail: alishah14619@gmail.com  \nVillage and Post Office Jalalpur Sharif, Tehsil \nPinddadan Khan, District  Jhelum . \n \nTo engage in a career that will allow for progress in terms of \nexperties, socio -economics developments, and in novation \nthrough expo sure to new ideas for professional growth, as well \nas growth for the company.  \n \nBusiness Development Banker at Bank Al Habib Ltd  \nApril 2022 \u2013 Present  \nResponsibilities:  \n\u2022 Bring new Business in bank  \n\u2022 Open New Accounts  \n\u2022 Bring New Deposit  \nRelationship Manager at MCB Bank Ltd  \nOctober 2020 \u2013 April 2022  \nResponsibilities:  \n\u2022 Bring new Business in bank by Converting Remittance \nCustomers to Bank Customers  \n\u2022 Cheque Book and ATM Balancing  \n\u2022 Prepare monthly reports for cheque books.  \n\u2022 Account Opening  \nBusiness Development Officer at BankIslami Pakistan Ltd  \nAugust 2018 \u2013 October 2020  \nResponsibilities:  \n\u2022 Bring new Customers in Bank & Cross Selling  \n\u2022 Sell Autos and deal with all Auto related problems  \n\u2022 Deal with customer insurance problems  \nCMA  \nPresent ICMAP Islamabad  \nMaster s of Commerce  \n2018 NCBA&E  \nBachelor s of Commerce  \n2015 Punjab University  \n Skills  \n\u2022 Financial Reporting  \n\u2022 Data Analysis   \n\u2022 Time Management   \n\u2022 Team Player  \n\u2022 Calculations  \n\u2022 Accounting Skill  \n\u2022 MS Word, Excel & Power \npoint  \n \nLanguages  \n\u2022 English  \n\u2022 Urdu  "
+    },
+    "details": {
+        "name": "SAYYED MUHAMMAD ALI SHAH",
+        "number": "03344899892",
+        "skills": [
+            "Financial Reporting",
+            "Data Analysis",
+            "Accounting Skill",
+            "MS Word",
+            "MS Excel",
+            "MS PowerPoint"
+        ],
+        "email_id": "alishah14619@gmail.com",
+        "location": "Village and Post Office Jalalpur Sharif, Tehsil Pinddadan Khan, District Jhelum",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2018",
+                "university": "NCBA&E",
+                "degree_title": "Master's of Commerce"
+            },
+            {
+                "end_date": "12-2015",
+                "university": "Punjab University",
+                "degree_title": "Bachelor's of Commerce"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "SAYYED MUHAMMAD ALI SHAH is a skilled banking professional with experience in business development and relationship management. He has a strong background in financial reporting and data analysis, complemented by proficiency in Microsoft Office applications.",
+        "employment_history": [
+            {
+                "details": "Bring new Business in bank",
+                "end_date": "Present",
+                "location": "Bank Al Habib Ltd",
+                "job_title": "Business Development Banker",
+                "start_date": "04-2022",
+                "company_name": "Bank Al Habib Ltd"
+            },
+            {
+                "details": "Bring new Business in bank by Converting Remittance Customers to Bank Customers",
+                "end_date": "04-2022",
+                "location": "MCB Bank Ltd",
+                "job_title": "Relationship Manager",
+                "start_date": "10-2020",
+                "company_name": "MCB Bank Ltd"
+            },
+            {
+                "details": "Bring new Customers in Bank & Cross Selling",
+                "end_date": "10-2020",
+                "location": "BankIslami Pakistan Ltd",
+                "job_title": "Business Development Officer",
+                "start_date": "08-2018",
+                "company_name": "BankIslami Pakistan Ltd"
+            }
+        ]
+    }
+}

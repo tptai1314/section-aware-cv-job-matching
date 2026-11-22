@@ -1,0 +1,145 @@
+{
+    "output": {
+        "justification": [
+            "Leadership roles not explicitly detailed, impacting leadership score.",
+            "Relevant experience with lead generation and client relations evident but not industry-specific, slightly reducing the experience score.",
+            "Excel skills mentioned; however, proficiency level not clear from the resume.",
+            "Project management experience not evidently demonstrated."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "client relations",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 8
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.84,
+                "micro_scores": 6.95
+            }
+        },
+        "personal_info": {
+            "name": "Hijab Malik",
+            "email": "hijabmalik28@gmail.com",
+            "phone": "Phone Number",
+            "current_position": "Business Development Manager",
+            "current_company": "Dr.Najeeb Lectures",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 32,
+            "client relations": 10,
+            "strategic planning": 58
+        },
+        "micro_dict": {
+            "lead generation": 65,
+            "project management": 35
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "5+ years of relevant experience in business development"
+        ],
+        "resume": "Hijab Malik\nBusiness Developer\nHelp you sky-rocket your revenue through generating leads\nhijabmalik28@gmail.com\nPhone Number\n160 A Ahmed block new garden town, LAHORE, Pakistan\nWORK EXPERIENCE\nBusiness Development Manager\nDr.Najeeb Lectures\nGenerating leads for his Medical Lectures\nBusiness Development Managers\nWorth IT Solutions\nGenerating leads for the marketing services\nFreelancers\nUpwork\nBusiness Development Executive\nThe Hexaa\nGenerating leads for di\ufb00erent niches(Software Development and\nOutsourcing)\nCERTIFICATES\nActive Citizenship Project-British Counsil\nComptetion Of Public Policy\nEDUCATION\nBachelors in Economics\nKinnaird College for Women University\n2015 - 2019\n, \nCGPA:3.50\nA'levels\nLahore Grammer School 1A1\nO'LEVELS\nSalamat School System(Sicas)\nSKILLS\n\u2022 MS Word\nMS Excel\n\u2022 Stata\n\u2022 Possess excellent verbal and written communication\nskills.\nAbility to Handle Multiple Tasks.\nLinkedIn Sales Navigator Expert\nBiding Expert\nVOLUNTEER EXPERIENCE\nActive Citizenship\nBritish Council\nWorked on Sustainable Development Goals\nVolunteer ship\nShaukat Khanum Memorial Cancer Hospital\nACHIEVEMENTS\nPolicy Case Competition(2018)\nParticipated in an economics tutorial at Kinnaird College for\nWomen\nActive Citizens(2018)\nCommunity service programme by british council\nShaukat Khanum Cancer Hospital\nVoluntary worl\nHONOR AWARDS\nTitle/Award Name\nName of the institution that issued/awarded it\nLANGUAGES\nENGLISH\nNative or Bilingual Pro\ufb01ciency\nURDU\nFull Professional Pro\ufb01ciency\nPERSONAL PROJECTS\nImpact Of Structural Adjustment Program on\nPakistan Economy"
+    },
+    "details": {
+        "name": "Hijab Malik",
+        "number": "160AAhmedblocknewgardentownLAHOREPakistan",
+        "skills": [
+            "MS Word",
+            "MS Excel",
+            "Stata",
+            "LinkedIn Sales Navigator Expert",
+            "Bidding Expert"
+        ],
+        "email_id": "hijabmalik28@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Impact Of Structural Adjustment Program on Pakistan Economy",
+                "description": "A study on the economic impacts of structural adjustments."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Kinnaird College for Women University",
+                "degree_title": "Bachelors in Economics"
+            }
+        ],
+        "achievements": [
+            "Policy Case Competition (2018) - Participated in an economics tutorial at Kinnaird College for Women",
+            "Active Citizens (2018) - Community service programme by British Council"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Active Citizenship Project",
+                "issuing_organization": "British Council",
+                "date_of_issuance": "01-2018"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hijabmalik",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hijab Malik is a dedicated business development professional with a strong background in generating leads and marketing services. She has demonstrated her expertise in various roles, contributing to the growth of organizations through effective business strategies and community engagement.",
+        "employment_history": [
+            {
+                "details": "Generating leads for Medical Lectures",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2020",
+                "company_name": "Dr.Najeeb Lectures"
+            },
+            {
+                "details": "Generating leads for marketing services",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2020",
+                "company_name": "Worth IT Solutions"
+            },
+            {
+                "details": "Generating leads for different niches (Software Development and Outsourcing)",
+                "end_date": "Present",
+                "location": "Remote",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2020",
+                "company_name": "The Hexaa"
+            }
+        ]
+    }
+}

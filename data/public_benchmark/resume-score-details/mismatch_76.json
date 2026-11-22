@@ -1,0 +1,175 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not have any direct experience in Google Analytics which is a key requirement in the job description for a Digital Marketing Strategist role.",
+            "The experience listed on the resume is focused on Android development which is not relevant for a digital marketing position.",
+            "The candidate's degree in Information Technology does not align directly with the Business Administration, Marketing, or related field required.",
+            "None of the macro_scores criteria were met as there is no evidence of leadership or client relationship management."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 0
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "google analytics",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 0.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Abdul Rehman Hassan",
+            "email": "malikabdulrahmanhassan@gmail.com",
+            "phone": "+92 3495576970",
+            "current_position": "Android developer",
+            "current_company": "Devcrew",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/abdulrehmanhassan"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 40,
+            "client relationship": 60
+        },
+        "micro_dict": {
+            "google analytics": 100
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Familiarity with Google Analytics and CRM tools",
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "Abdul Rehman Hassan \nAndroid developer \nI am passionate about designing mobile apps. Certi\ufb01ed android developer, good ability to transcribe any\nUI on android, good command of modern tools / technologies in android development, meticulous,\nrespect the rules of good development. Experience developing mobile applications on android platform,\nbuilding custom UI using views, Layouts, Widgets and graphics that scale based on the screen size. \nmalikabdulrahmanhassan@gmail.com \n+92 3495576970 \nSargodha, Pakistan \nlinkedin.com/in/abdulrehmanhassan \nWORK EXPERIENCE \nAndroid developer \nDevDiv.co \n01/2021 - 04/2021\n, \n \nsargodha \nI started my Android development career at devdiv as junior\ndeveloper. \ne-commerce grocery stores I developed grocery app using\nAPI and materials design library. And others animation that\nmake app more attractive and e\ufb00ective \nLottery app. Developed lottery app using Firebase ( RTDB )\nWorked on di\ufb00erent libraries .Updating and bug \ufb01xing in\nandroid application \nAndroid developer \nEnfotrix \n05/2021 - 12/2021\n, \n \nSargodha \nProduct for School \u0000 \nbased on four categories: \n1. Student\nportal 2. Principal Portal \n3. Director Portal \n4 .Teacher Portal \nOnline Earning App using Firebase (Firestore) \nRental App using Firebase (Firestore) \nAndroid developer \nDevcrew \n01/2022 - Present\n, \n \nIslamabad \nOnline bike and car booking app like Careem. Using \nGoogle\nmap API \nWhatsApp status app \nwallpaper app using API ( Retro\ufb01t ) \nQr code & Bar code scanner and generator \nEDUCATION \nBachelor Degree in Information Technology \nGc University Faisalabad \n08/2018 - 08/2021\n, \n \nFaisalabad \nInformation Technology \nMobile App Development \nSKILLS \nWindows \nSql \nFirebase \nRoom Datebase \nLive Data \nMvvm \nDebugging \nJava \nKotlin \nAndroid development \nGit & Github \nOop \nRest Api \nRetro\ufb01t \nVolley \nPERSONAL PROJECTS \nTutor Appointment \nTutor app using Firebase (Firetore). fyp project \nDoctor appointment \nDoctor appointment Firebase (Firestore). fyp project \nVideo Downloader \nyou can download videos i.e Fb, ints, likee, snack, twitter,youtube\nand much more \nPROGRAMMING LANGUAGES \nJava \nProfessional Working Pro\ufb01ciency \nKotlin \nLimited Working Pro\ufb01ciency \nINTERESTS \nProblem \nsolving \nwatch science \ufb01ction \nlistening music \nwatch cricket \nmachine \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Abdul Rehman Hassan",
+        "number": "923495576970",
+        "skills": [
+            "Android development",
+            "Java",
+            "Kotlin",
+            "Firebase",
+            "Room Database",
+            "Live Data",
+            "MVVM",
+            "Debugging",
+            "Git & Github",
+            "OOP",
+            "REST API",
+            "Retrofit",
+            "Volley",
+            "SQL",
+            "Windows"
+        ],
+        "email_id": "malikabdulrahmanhassan@gmail.com",
+        "location": "Sargodha, Pakistan",
+        "projects": [
+            {
+                "title": "Tutor Appointment",
+                "description": "Tutor app using Firebase (Firestore). fyp project"
+            },
+            {
+                "title": "Doctor appointment",
+                "description": "Doctor appointment Firebase (Firestore). fyp project"
+            },
+            {
+                "title": "Video Downloader",
+                "description": "You can download videos i.e Fb, Instagram, Likee, Snack, Twitter, YouTube and much more."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "08-2021",
+                "university": "Gc University Faisalabad",
+                "degree_title": "Bachelor Degree in Information Technology"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Certified Android Developer",
+                "issuing_organization": "Google",
+                "date_of_issuance": "04-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/abdulrehmanhassan",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Abdul Rehman Hassan is a passionate Android developer with experience in designing mobile applications. He has a strong command of modern tools and technologies in Android development, showcasing his ability to transcribe UI designs effectively. His work includes developing various applications using Firebase and other libraries, demonstrating his technical proficiency in the field.",
+        "employment_history": [
+            {
+                "details": "Started career as a junior developer, developed grocery app using API and materials design library, created lottery app using Firebase, and worked on updating and bug fixing in Android applications.",
+                "end_date": "04-2021",
+                "location": "Sargodha",
+                "job_title": "Android Developer",
+                "start_date": "01-2021",
+                "company_name": "DevDiv.co"
+            },
+            {
+                "details": "Developed a product for schools with multiple portals and created online earning and rental apps using Firebase.",
+                "end_date": "12-2021",
+                "location": "Sargodha",
+                "job_title": "Android Developer",
+                "start_date": "05-2021",
+                "company_name": "Enfotrix"
+            },
+            {
+                "details": "Developed an online bike and car booking app, WhatsApp status app, wallpaper app, and QR code & barcode scanner and generator.",
+                "end_date": "Present",
+                "location": "Islamabad",
+                "job_title": "Android Developer",
+                "start_date": "01-2022",
+                "company_name": "Devcrew"
+            }
+        ]
+    }
+}

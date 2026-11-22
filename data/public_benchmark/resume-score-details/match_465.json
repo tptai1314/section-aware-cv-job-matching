@@ -1,0 +1,143 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has experience in sales development which involves lead generation activities, crucial for the Business Development Manager role focusing on expanding market presence.",
+            "No explicit strategic planning experience mentioned, but the strategic account development skill indicates some level of experience in planning and strategizing sales, aligning partially with strategic business development duties.",
+            "Experience with CRM systems (Pipedrive) aligns well with the job's requirements for client relationship management, scoring high on CRM Systems usage.",
+            "The candidate's education, a Bachelor's degree in Advertisement and Public Relations aligns with the job requirement of a related business degree, meeting the minimum education requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 8
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 9
+                },
+                {
+                    "criteria": "market research",
+                    "score": 5
+                },
+                {
+                    "criteria": "project management",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.9,
+                "micro_scores": 6.89
+            }
+        },
+        "personal_info": {
+            "name": "Mariam Hassan",
+            "email": "maryamnaqvi31@gmail.com",
+            "phone": "+92 335 0622804",
+            "current_position": "Sales Development Representative",
+            "current_company": "Container Exchange",
+            "employment_start_date_current_company": "10-2021",
+            "first_company_start_date": "09-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "experience": 45,
+            "strategic planning": 55
+        },
+        "micro_dict": {
+            "lead generation": 23,
+            "crm systems": 18,
+            "market research": 11,
+            "project management": 48
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "ABOUT ME\nResults-oriented Sales\nProfessional con\u0000nuing to reach or\nexceed quota and lead\nexpecta\u0000ons by e\ufb00ec\u0000vely\nbuilding rapport, resul\u0000ng in\nincreased market share. Detail-\noriented and me\u0000culously\norganized. Self-mo\u0000vated team\nplayer who is adaptable, energe\u0000c\nand eager to grow the business.\nLANGUAGES\nENGLISH\nURDUWORK EXPERIENCE\nHamburg, Germany\nOct 2021 - PresentResearching, iden\u0000fying and qualifying new sales opportuni\u0000es\nReaching out to poten\u0000al customers and being the \ufb01rst contact\nperson to drive the outbound sales ac\u0000vi\u0000es (phone calls, emails,\nnetworks)\nPreselec\u0000ng and iden\u0000fying decision-makers, demonstra\u0000ng the\nvalue proposi\u0000on and se\u0000ng up demo calls with the sales team\nDeveloping a deep understanding of the customer\u2019s needs and\nworking on the con\u0000nuous op\u0000miza\u0000on of the lead quali\ufb01ca\u0000on\nand customer approach together with the marke\u0000ng team\nWorking together with the Sales Managers mastering the CRM\nsystem (Pipedrive) to report on all important ac\u0000vi\u0000es and\ninsights gathered throughout the whole sales process\nLehi, UT\nJun 2020 - Aug 2021Cold dialing Canada and US states to provide text message\nmarke\u0000ng along with other related features.\nChicago, IL\nSep 2019 - May 2020Cold dialing US and Canada states to provide Social media\nmanagement tool Bringing poten\u0000al customers on the table by\ncrea\u0000ng need of the product, booking demo appointments and\ndeveloping an opportunity for the Account Execu\u0000ves\nLahore, Pakistan\nSep 2018 - Aug 2019B2C\nHandled phone calls and sold cable, phone, internet, and home\nsecurity such as premium channels, and interna\u0000onal calling,\nachieving sales goals and milestones for US home services.\nEDUCATION\nLahore, Pakistan\n2019Majors in Adver\u0000sement and Public Rela\u0000ons\nSKILLS\nSTRONG COMMUNICATION STRATEGIC ACCOUNT DEVELOPEMNET\nLEAD PROSPECTING CUSTOMER HANDLING\nPROJECT MANAGEMENTCONTAINER\nXCHANGESales Development Representa\u0000ve\nPODIUM Sales Development Representa\u0000ve\nSPROUT SOCIAL Sales Devlopment Representa\u0000ve\nIBEX GLOBAL Inbound Sales Execu\u0000ve\nFORMAN CHRISTIAN\nCOLLEGEBachelor of ArtsMARIAM\nHASSAN\nSALES SPECIALISTHouse 20, Block D Gulshan E Lahore.\nLahore, Pakistan, Lahore, 54770,\nPakistan\n+92 335 0622804\nmaryamnaqvi31@gmail.com"
+    },
+    "details": {
+        "name": "Mariam Hassan",
+        "number": "923350622804",
+        "skills": [
+            "Pipedrive",
+            "Sales Development",
+            "Social Media Management",
+            "Text Message Marketing"
+        ],
+        "email_id": "maryamnaqvi31@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2019",
+                "university": "Forman Christian College",
+                "degree_title": "Bachelor of Arts"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mariam-hassan",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Mariam Hassan is a results-oriented sales specialist with a strong background in sales development and customer handling. She has demonstrated her ability to exceed quotas and effectively build rapport with clients, contributing to increased market share. With experience in various sales roles, she is adept at utilizing CRM systems and optimizing lead qualification processes.",
+        "employment_history": [
+            {
+                "details": "Researching, identifying and qualifying new sales opportunities, reaching out to potential customers, and driving outbound sales activities.",
+                "end_date": "Present",
+                "location": "Hamburg, Germany",
+                "job_title": "Sales Development Representative",
+                "start_date": "10-2021",
+                "company_name": "Unknown"
+            },
+            {
+                "details": "Cold dialing Canada and US states to provide text message marketing along with other related features.",
+                "end_date": "08-2021",
+                "location": "Lehi, UT",
+                "job_title": "Sales Development Representative",
+                "start_date": "06-2020",
+                "company_name": "Unknown"
+            },
+            {
+                "details": "Cold dialing US and Canada states to provide social media management tools, booking demo appointments and developing opportunities for Account Executives.",
+                "end_date": "05-2020",
+                "location": "Chicago, IL",
+                "job_title": "Sales Development Representative",
+                "start_date": "09-2019",
+                "company_name": "Unknown"
+            },
+            {
+                "details": "Handled phone calls and sold cable, phone, internet, and home security services, achieving sales goals for US home services.",
+                "end_date": "08-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Inbound Sales Executive",
+                "start_date": "09-2018",
+                "company_name": "IBEX Global"
+            }
+        ]
+    }
+}

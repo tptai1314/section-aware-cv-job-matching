@@ -1,0 +1,198 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is low as the candidate has been leading design and production teams which does not align with the business development focus required.",
+            "Strategic Thinking score is very low as the resume does not illustrate strategic business planning.",
+            "Market Research skills are poorly matched as there's no specific mention of market analysis in context with the job description.",
+            "B2B Sales is not mentioned; candidate has a creative design focus which is irrelevant for the job.",
+            "Candidate lacks experience in IT and manufacturing sectors as required by job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 1
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.93,
+                "micro_scores": 1.85
+            }
+        },
+        "personal_info": {
+            "name": "Rameez Ali",
+            "email": "Rameez.Ali@spglobal.com",
+            "phone": "",
+            "current_position": "Assistant Production Manager",
+            "current_company": "S&P Global",
+            "employment_start_date_current_company": "04-2021",
+            "first_company_start_date": "11-2010",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/rameez-ali-53312886/"
+                },
+                {
+                    "website_name": "Portfolio",
+                    "url": "rameezali.myportfolio.com"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 93,
+            "strategic thinking": 7
+        },
+        "micro_dict": {
+            "market research": 33,
+            "b2b sales": 15,
+            "it and manufacturing sector knowledge": 52
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Strong proficiency in Microsoft Office Suite",
+            "Proven ability to develop and implement successful business strategies",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "RAMEEZ ALI  \nDESIGN/PRODUCTION  MANAGER  \n2010 -current  \n \u2022 Manage a  global  team of design and creative experts at S&P Global  \n\u2022 11+ years of experience in the fields of design, production,  data storytelling,  creative  thinking,  product  and brand  support  \n\u2022 Produce highest quality design/creative deliverables with an  eye for aesthetic  \n\u2022 Experience working with visualization tools such as Tab leau, Power BI and Excel  \n\u2022 Experience in coding languages (Python, R, SQL, VBA and Wordsmith)  \n\u2022 Experience in managing and creating social media advertisements  \n\u2022 Experience in e nhanc ing policy and product features by setting up feedback loops  and monitoring  \n\u2022 Experience in crafting campaigns for S&P  Global  products  while adhering to  brand guidelines  \n\u2022 Able to work under pressure, possess an aesthetic sense, detail -oriented and a distinguishe d ability to  create and  deliver \ncaptivating present ations  \nEducation  \nAir University (2006 \u2013 2010)   \nBachelor\u2019s in Electrical (Telecom) Engineering  | \nDepartment of Electronics Engineering  Work Experience  \nApril 2021 \u2013 Present  \nAssistant Production Manager  \nS&P Global  \n\u2022 Manag ing a design/production team , supervising daily \noperations, and providing thought leadership  \n\u2022 Working with project managers and marketing to \ndevelop and enhance product features  \n\u2022 Support process  automation workflows using Python \nand Microsoft Visual Basic  \n\u2022 Provide technical leadership, mentoring , and  coaching to \nteam members  \n\u2022 Handling client requests timely and accurately  \n\u2022 Championing Lean methodology  \n\u2022 Safeguarding company\u2019s corporate image  \n\u2022 Manage and communicate policy changes  to leadership  \n\u2022 Developing brand strategies  \n\u2022 Working with the S&P Global Editori al Council to \ndevelop Corporate Guidelines  \n\u2022 Experience working with acquired/merged companies to \nalign  product features as well as  visual, editorial and \nbrand principles  \nSoftware Skills  \nMS Office Suite | Adobe Creative Suite  \nHTML | Python | Microsoft VBA  \nTableau  | Power BI   \n \nAwards  \n\u2022 Research Excellence \nAward for Spearheading \nCollaboration  \n\u2022 S&P Global Ace Silver \nand Bronze Awards  \n\u2022 Research Excellence \nAward for Research \nExpansion  August 2019 \u2013 April 2021  \nData Visualization Specialist II I \nS&P Globa l \n\u2022 Providing web & graphic design, data visualization and \nUI/UX services for individuals and business clients  \n\u2022 Drives development of and adherence to data visualization \nstandards  \n\u2022 Creating and managing data pipelines  \n\u2022 Collaborate  with analysts  to develop evidence -based \nanalytics  that make data interesting and accessible  \nOctober 2015 \u2013 August 2019 \nData Visualization Specialist II  \nS&P Global  \n \u2022 Creating and editing  data visualizations,  infographics, maps, \nanimations, banners and logos  \n\u2022 Evaluating new data visualization tools and perform ing \nresearch on best practices  Key Skills  \n\u2022 Design  \n\u2022 Art/creative direction  \n\u2022 Social media advertising  \n\u2022 Animation and video \nproduction  \n\u2022 Project management  \n\u2022 Lean facilitation  \n\u2022 Product  support  \n\u2022 Brand  support  August 2013 \u2013 October 2015  \nSenior Graphic Designer  \nSNL Financi al \n\u2022 Creating art/design/creative deliverables  \n\u2022 Provide assistance in developing animations as well as \nvideo edi ting/production for the product  \n\u2022 Collaborating with marketing on advertising campaigns for \nnew/social media  \nNovember 2010 \u2013 August 2013 \nGraphic Artist  \nSNL Financial  \n\u2022 Setup data visualization, layout templates that adhere to \nthe brand guidelines  \n\u2022 Develop infographics, layouts as well as develop brand \napproved icons  \n\u2022 Present work to team leaders , marketing and senior \ncreative staff   \n \nRameez.Ali@spglobal.com    \nwww.linkedin.com/in/rameez -ali-53312886/  \n rameezali.myportfolio.com  "
+    },
+    "details": {
+        "name": "Rameez Ali",
+        "number": "03124843384",
+        "skills": [
+            "Python",
+            "R",
+            "SQL",
+            "VBA",
+            "Wordsmith",
+            "Tableau",
+            "Power BI",
+            "MS Office Suite",
+            "Adobe Creative Suite",
+            "HTML"
+        ],
+        "email_id": "Rameez.Ali@spglobal.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2010",
+                "university": "Air University",
+                "degree_title": "Bachelor\u2019s in Electrical (Telecom) Engineering"
+            }
+        ],
+        "achievements": [
+            "Research Excellence Award for Spearheading Collaboration",
+            "S&P Global Ace Silver and Bronze Awards",
+            "Research Excellence Award for Research Expansion"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/rameez-ali-53312886/",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "rameezali.myportfolio.com",
+                "website_name": "Portfolio"
+            }
+        ],
+        "executive_summary": "Rameez Ali is a skilled Design/Production Manager with over 11 years of experience in design, production, and data storytelling. He has a strong technical background in various coding languages and visualization tools, demonstrating expertise in managing creative teams and delivering high-quality design solutions.",
+        "employment_history": [
+            {
+                "details": "Manage a global team of design and creative experts, produce high-quality design deliverables, and enhance product features.",
+                "end_date": "current",
+                "location": "",
+                "job_title": "Design/Production Manager",
+                "start_date": "01-2010",
+                "company_name": "S&P Global"
+            },
+            {
+                "details": "Managing a design/production team, supervising daily operations, and providing thought leadership while supporting process automation workflows using Python and Microsoft Visual Basic.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Assistant Production Manager",
+                "start_date": "04-2021",
+                "company_name": "S&P Global"
+            },
+            {
+                "details": "Providing web & graphic design, data visualization, and UI/UX services, driving adherence to data visualization standards, and creating data pipelines.",
+                "end_date": "04-2021",
+                "location": "",
+                "job_title": "Data Visualization Specialist III",
+                "start_date": "08-2019",
+                "company_name": "S&P Global"
+            },
+            {
+                "details": "Creating and editing data visualizations, infographics, and animations while evaluating new data visualization tools.",
+                "end_date": "08-2019",
+                "location": "",
+                "job_title": "Data Visualization Specialist II",
+                "start_date": "10-2015",
+                "company_name": "S&P Global"
+            },
+            {
+                "details": "Creating art/design deliverables and assisting in developing animations and video editing for products.",
+                "end_date": "10-2015",
+                "location": "",
+                "job_title": "Senior Graphic Designer",
+                "start_date": "08-2013",
+                "company_name": "SNL Financial"
+            },
+            {
+                "details": "Setting up data visualization and layout templates, developing infographics, and presenting work to team leaders.",
+                "end_date": "08-2013",
+                "location": "",
+                "job_title": "Graphic Artist",
+                "start_date": "11-2010",
+                "company_name": "SNL Financial"
+            }
+        ]
+    }
+}

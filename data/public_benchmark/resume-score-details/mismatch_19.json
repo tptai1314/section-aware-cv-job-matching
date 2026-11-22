@@ -1,0 +1,192 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks the preferred 5+ years of experience in business development or sales; they have 3 years.",
+            "No specific evidence of experience in B2B sales related to IT and manufacturing is mentioned.",
+            "Strong skills in digital marketing and social media but lacks specifics related to traditional market research and data analysis.",
+            "The candidate did not attend a top-tier institute as per recruitment preference."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 4
+                },
+                {
+                    "criteria": "b2b sales",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.16,
+                "micro_scores": 4.85
+            }
+        },
+        "personal_info": {
+            "name": "Syed Ali Sher Rizvi",
+            "email": "sahibzadaali666@gmail.com",
+            "phone": "03015062755",
+            "current_position": "Businness Development Manager",
+            "current_company": "Happy Tenant",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "08-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 8,
+            "experience": 92
+        },
+        "micro_dict": {
+            "market research": 3,
+            "b2b sales": 28,
+            "data analysis": 42,
+            "it and manufacturing sector knowledge": 27
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Proven ability to develop and implement successful business strategies",
+            "5+ years of experience in business development or sales",
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": "Syed Ali Sher Rizvi \nBusiness Development Manager \nAn organized and creative professional with proven marketing skills and a desire to learn more. Possess\n3+ years of experience working for a diverse group of organizations and clients. Gained expertise in data\nanalysis, publication marketing, and web-based advertising. Looking to utilize my existing skill set to\nincrease company pro\ufb01tability at Spleen Manufacturing (Pvt) Ltd. \nsahibzadaali666@gmail.com \n03015062755 \nLahore, Pakistan \nlinkedin.com/in/syed-ali-shair-rizvi-7bb859171 \nWORK EXPERIENCE \nBusinness Development Manager \nHappy Tanent \n01/2022 - Present\n, \n \nDubai, UAE \nContacting potential clients to establish rapport and arrange\nmeetings. \nPlanning and overseeing new marketing initiatives. \nIncreasing the value of current customers while attracting\nnew ones. \nAttending conferences, meetings, and industry events. \nAsst. Manager Marketing \nSpleen Manufacturing (Pvt) Ltd 08/2018 -\nPresent, \n10/2018 - Present\n, \n \nLahore, Pakistan \nProviding Engineering Solutions For All Kind Of Light & Heavy\nFabrications \nHolds full responsibility for all marketing and communication\nmatters \nMaintains and updates company website, intranet site and\ninternal marketing pages \nSuccessfully spearhead campaigns on social media platforms\nincluding Facebook, Twitter, and Instagram \nContact \n:\n-\nRana Shahbaz Ahmed (Head BD & marketing) \n0300 8463927 \nEDUCATION \nMSC Marketing \nNational Collage of Business Administration &\nEconomics \n2020 - Present\n, \n \nLahore. Pakistan \nGlobal Outsourcing \nContract Management \nEntrepreneurship \nFinical Management \nBachelor in Commerce \nUniversity Of Punjab \n12/2016 - 05/2018\n, \n \nLahore Pakistan \nIntermediate in Commerce \nPunjab Group Of Collages \n05/2016\n, \n \nLahore Pakistan \nSKILLS \nTeamwork \nNegotiation \nStress Management \nCommunication \nAnalytics \nSocial Media Marketing \nHootsuit \nPost Planner \nGoogle Ad Word \nBu\ufb00er \nDigital advertising \nPERSONAL PROJECTS \nPCCC - Dasu, Upper Koistan, Project\n (09/2021 - Present)\n \nHydro International China - ZHENFA 100MW Solar\nProject\n (09/2021 - 11/2021)\n \nOrient - Double Circuit Angle Towers\n (06/2021 - Present)\n \n220 kV Dhabji Transmission Line Projects\n (09/2021 - 11/2021)\n \nHuawei Projects (CMPAK, JAZZ, Ufone Telenor)\n (02/2021 - Present)\n \nACHIEVEMENTS \nDigital Marketing Course From PNY Institute\n (09/2021)\n \nSocial Media Marketing, Google Ad words, SMM, Mobile Marketing \nHuawei Managment\n (2018 - Present)\n \nFull handling Huawei portal \nfully coordinate with their team for recent\ncontracts and future negotiation in cotracts \nERP (SARP) \nFull handle ERP Software and have enough awareness that can handle\neach department through it. \nLANGUAGES \nEnglish \nProfessional Working Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nINTERESTS \nAdvertising \nSMM \nLearning Techniques \nBook Reading \nFood \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Syed Ali Sher Rizvi",
+        "number": "03015062755",
+        "skills": [
+            "Data Analysis",
+            "Publication Marketing",
+            "Web-based Advertising",
+            "Social Media Marketing",
+            "Hootsuite",
+            "Post Planner",
+            "Google AdWords",
+            "Buffer",
+            "Digital Advertising"
+        ],
+        "email_id": "sahibzadaali666@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "PCCC - Dasu, Upper Koistan, Project",
+                "description": ""
+            },
+            {
+                "title": "Hydro International China - ZHENFA 100MW Solar Project",
+                "description": ""
+            },
+            {
+                "title": "Orient - Double Circuit Angle Towers",
+                "description": ""
+            },
+            {
+                "title": "220 kV Dhabji Transmission Line Projects",
+                "description": ""
+            },
+            {
+                "title": "Huawei Projects (CMPAK, JAZZ, Ufone Telenor)",
+                "description": ""
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2018",
+                "university": "University Of Punjab",
+                "degree_title": "Bachelor in Commerce"
+            },
+            {
+                "end_date": "Present",
+                "university": "National College of Business Administration & Economics",
+                "degree_title": "MSC Marketing"
+            }
+        ],
+        "achievements": [
+            "Digital Marketing Course From PNY Institute (09-2021)",
+            "Huawei Management (2018 - Present)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing Course",
+                "issuing_organization": "PNY Institute",
+                "date_of_issuance": "09-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Syed Ali Sher Rizvi is a business development manager with over 3 years of experience in marketing and data analysis. He has a proven track record in web-based advertising and social media marketing, demonstrating a strong ability to enhance company profitability through innovative marketing strategies.",
+        "employment_history": [
+            {
+                "details": "Contacting potential clients to establish rapport and arrange meetings. Planning and overseeing new marketing initiatives. Increasing the value of current customers while attracting new ones. Attending conferences, meetings, and industry events.",
+                "end_date": "Present",
+                "location": "Dubai, UAE",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2022",
+                "company_name": "Happy Tanent"
+            },
+            {
+                "details": "Providing Engineering Solutions For All Kind Of Light & Heavy Fabrications. Holds full responsibility for all marketing and communication matters. Maintains and updates company website, intranet site and internal marketing pages. Successfully spearhead campaigns on social media platforms including Facebook, Twitter, and Instagram.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Asst. Manager Marketing",
+                "start_date": "10-2018",
+                "company_name": "Spleen Manufacturing (Pvt) Ltd"
+            }
+        ]
+    }
+}

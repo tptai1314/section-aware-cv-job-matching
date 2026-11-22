@@ -1,0 +1,22 @@
+% Bảng phân tích các biến thể Section-Aware và Chunking
+\begin{table}[t]
+\centering
+\caption{So sánh các biến thể Nhận biết Phân mục với Đơn Vector và Chunking, kèm báo cáo tỷ lệ Fallback ($T_{\text{rank}}$ đo trên tập ứng viên $N=25$).}
+\label{tab:section_variants}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\hline
+\textbf{Biến thể / Cấu hình} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{Fallback \%} & \textbf{$T_{\text{rank}}$ ($N=25$)} \\
+\hline
+Đơn Vector Phẳng (256 tokens) & 0.6146 & 0.7055 & 0.6210 & 0.0\% & $<0.10$\,ms \\
+Chunk-Mean (128w, stride 64) & 0.6193 & 0.6982 & 0.6356 & 0.0\% & $<0.10$\,ms \\
+Chunk-MaxSim (Kiểu ColBERT) & 0.5992 & 0.6785 & 0.6119 & 0.0\% & 0.39\,ms \\
+Section-Aware (Biến thể 1: Thuần 100\%) & 0.6170 & 0.7091 & 0.6328 & 0.00\% & 0.12\,ms \\
+Section-Aware (Biến thể 2: Có Fallback) & 0.6170 & 0.7091 & 0.6328 & 0.00\% & 0.12\,ms \\
+Section-Aware (Biến thể 3: Trộn 0.65/0.35) & 0.6172 & 0.7038 & 0.6321 & 0.00\% & 0.12\,ms \\
+BGE-M3 Phẳng (Ngữ cảnh 8.192 tokens) & 0.5937 & 0.6555 & 0.6167 & 0.0\% & $<0.10$\,ms \\
+BGE-M3 Nhận biết Phân mục & 0.6086 & 0.7126 & 0.6169 & 0.00\% & 0.13\,ms \\
+\hline
+\end{tabular}%
+}
+\end{table}

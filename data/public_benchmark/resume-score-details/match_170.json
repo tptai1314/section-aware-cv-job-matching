@@ -1,0 +1,155 @@
+{
+    "output": {
+        "justification": [
+            "Client relations is rated highly due to extensive experience in business development and client engagement across multiple positions.",
+            "Strategic Planning score is moderate due to involvement in designing strategic sales contracts, yet limited explicit evidence of planning at a broader organizational level.",
+            "CRM Systems proficiency is marked high due to certified RMS operator experience, indicating familiarity with CRM systems.",
+            "Market research is rated high from substantial market analysis experience documented in previous roles."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "client relations",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm systems",
+                    "score": 8
+                },
+                {
+                    "criteria": "market research",
+                    "score": 9
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.6000000000000005,
+                "micro_scores": 8.8
+            }
+        },
+        "personal_info": {
+            "name": "Usman Hanif",
+            "email": "Usman.hanif9@gmail.com",
+            "phone": "+923214580128",
+            "current_position": "Business Development Analyst",
+            "current_company": "Siddiq Agricoze (Pvt). Limited",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "08-2016",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/usman-hanif-53858460/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "client relations": 80,
+            "strategic planning": 20
+        },
+        "micro_dict": {
+            "crm systems": 20,
+            "market research": 80
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools and Microsoft Office Suite"
+        ],
+        "resume": " \n \nUSMAN HANIF  \nUsman.hanif9@gmail.com  \nH# 878-C, Usama Block, Nishter Colony, Lahore . \n+923214580128  \nhttps://www.linkedin.com/in/usman -hanif -53858460/  \n \nOBJECTIVE  \n\u201cPursuing a development oriented position where my skills, knowledge and abilities add meaningful value to the \norganization\u201d   \nEDUCATION  \nSuperior University, Lahore  \n(2011 -2015)  Bachelors  in Business Administration  \n\uf0b7 Major in Marketing  \nStandard College, Lahore  \n(2010 -2011)  F.Sc Pre-Engineering  \nEXPERIENCE  \nSiddiq Agricoze (Pvt). Limited  | Muridke Punjab, PK  \nBusiness Development  Analyst  January 2022  \u2013 Present  \n\uf0b7 Engaged and formed business relationship with the international clients in US and  EU etc. \n\uf0b7 Lead generation through international exhibitions and events.  \n\uf0b7 Made the exhibitions visit plans and set up meetings with international potential distributors & \nclients.  \n\uf0b7 Suggested to set up stand & display the products at international exhibitions.  \n\uf0b7 Communication with existing customers and fulfill their business quires.  \n\uf0b7 Analyzing the competition and devising the strategies accordingly.  \n\uf0b7 Prepare the product samples and dispatch to the clients.  \n\uf0b7 Devised the sales contract with agents/suppliers and cl osing the deals.  \n\uf0b7 Coordination with all internal departments for smooth shipments and new clients acquisition.  \n   \n Business Development Executive  February 2021 \u2013 December 2021  \n\uf0b7 Developed the distribution network in all over the Pakistan.  \n\uf0b7 Designed the sales contracts with distributors and sales targets.  \n\uf0b7 Established B2B sales linkage and also provided sales support.   \n\uf0b7 Designed the company profile and product broachers.  \n\uf0b7 Write down the script of company profile video and executed the video shoot.  \no Link:  https:// www.youtube.com/watch?v=j8jxDOjX1Ww&t=5s  \n\uf0b7 Devised the warehouse and logistics system of the company.  \n\uf0b7 Provided sales forecasts on monthly/quarterly bases  to Board of Directors and Production Team.  \n\uf0b7 Reported the sales performance on monthly bases to Board of D irectors.  \nSRC Private Limited  | Lahore  Punjab, PK  \nBusiness Development Officer  January 2018 \u2013 December 2021  \n\uf0b7 Analysis of the market and suggest new projects/products for the growth of Company.  \n\uf0b7 Conducted market research and explored the new market opportunities.  \n\uf0b7 Studied the local & international market of Rice based ingredients  \no Demand/supply of Liquid Glucose.  \no Local and international competitors\u2019 analysis.  \no Compiled the local and international po tential distributors/clients data base.  \no Identified the key challenges and market drivers.  \no Proposed Structure and Functions of a Sales & Marketing Department . \no Proposed to board of directors to build rice based ingredients manufacturing company.  \no Board of di rectors approved the project and now company is selling product in local and \ninternational market.  \n\uf0b7 Conducted market analysis of construction chemicals.  \no Proposed the Board of Directors to add Water Reducing Agent Chemicals in the \nproducts line.  \n\uf0b7 Analyzed the Home Care FMCG products market which leads the company to introduce new \nBrand \u201cSaaf & Safe\u201d in Pakistan.  \nYorkshire Trading (Pvt). Limited | Lahore Punjab, PK  \nSales Officer  August 2016 \u2013 January 2018  \n\uf0b7 Sales of Chipboard sheets, imported door panels, and  solid wood P roducts in the Punjab, \nPakistan . \n\uf0b7 Preparation & execution of sales and marketing plan.  \n\uf0b7 Potential customer lead generation and engagement.  \n\uf0b7 Developed B2B sales channel (Haier, Chugtaiz, Torch Furniture, & Mohkam Furniture etc.)  \n\uf0b7 Also developed retails sales channel in Punjab, Pakistan.  \n\uf0b7 Introduced imported (Turkish) UV sheets in the Market.  \n\uf0b7 Recovery  of payments  against sales.   \n \uf0b7 Bank -related matters.  \nSKILLS  \n \nManagement and Leadership Skills  \n \n\uf0b7 Record Management  \n\uf0b7 Multi -tasking  \n\uf0b7 Capacity to work with peo ple from a wide range of cultural and socio -economic backgrounds  \n\uf0b7 Building & Maintaining Good Professional Relationships  \nCommunication and Interpersonal Skills  \n\uf0b7 Strong Experience of Managing Stakeholders and Partners  \n\uf0b7 Email and O\ufb03ce Communication (taking notes, developing blueprints and report writing)  \n\uf0b7 Social Skills (Adaptability, Negotiation and Persuasion)  \nDigital Skills  \n\uf0b7 Microsoft (Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Microsoft Outlook)  \n\uf0b7 Certified Candela RMS Operator  \n\uf0b7 Social Media Management  \n \nLANGUAGES KNOWN  \n \n\uf0b7 Urdu   \n\uf0b7 Punjabi   \n\uf0b7 English  \n \nBEYOND ACADEMICS  \n\uf0b7 Social work  \n\uf0b7 Tourism  \n\uf0b7 Photography  \n\uf0b7 Watching movies  \n "
+    },
+    "details": {
+        "name": "Usman Hanif",
+        "number": "923214580128",
+        "skills": [
+            "Microsoft Excel",
+            "Microsoft PowerPoint",
+            "Microsoft Word",
+            "Microsoft Outlook",
+            "Social Media Management",
+            "Certified Candela RMS Operator"
+        ],
+        "email_id": "Usman.hanif9@gmail.com",
+        "location": "H# 878-C, Usama Block, Nishter Colony, Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2015",
+                "university": "Superior University, Lahore",
+                "degree_title": "Bachelors in Business Administration"
+            },
+            {
+                "end_date": "05-2011",
+                "university": "Standard College, Lahore",
+                "degree_title": "F.Sc Pre-Engineering"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Certified Candela RMS Operator",
+                "issuing_organization": "Candela",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/usman-hanif-53858460/",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "youtube.com/watch?v=j8jxDOjX1Ww&t=5s",
+                "website_name": "YouTube"
+            }
+        ],
+        "executive_summary": "Usman Hanif is a dedicated business development analyst with a strong background in marketing and business administration. He has extensive experience in engaging with international clients and developing strategic business relationships, showcasing his technical skills in market analysis and sales strategy development.",
+        "employment_history": [
+            {
+                "details": "Engaged and formed business relationship with the international clients in US and EU. Lead generation through international exhibitions and events. Suggested to set up stand & display the products at international exhibitions. Communication with existing customers and fulfill their business queries.",
+                "end_date": "Present",
+                "location": "Muridke Punjab, PK",
+                "job_title": "Business Development Analyst",
+                "start_date": "01-2022",
+                "company_name": "Siddiq Agricoze (Pvt). Limited"
+            },
+            {
+                "details": "Developed the distribution network in all over Pakistan. Designed the sales contracts with distributors and sales targets. Established B2B sales linkage and provided sales support.",
+                "end_date": "12-2021",
+                "location": "Lahore Punjab, PK",
+                "job_title": "Business Development Executive",
+                "start_date": "02-2021",
+                "company_name": "Siddiq Agricoze (Pvt). Limited"
+            },
+            {
+                "details": "Conducted market research and explored new market opportunities. Proposed to board of directors to build rice based ingredients manufacturing company.",
+                "end_date": "12-2021",
+                "location": "Lahore Punjab, PK",
+                "job_title": "Business Development Officer",
+                "start_date": "01-2018",
+                "company_name": "SRC Private Limited"
+            },
+            {
+                "details": "Sales of Chipboard sheets, imported door panels, and solid wood products in Punjab, Pakistan. Developed B2B sales channel and introduced imported UV sheets in the market.",
+                "end_date": "01-2018",
+                "location": "Lahore Punjab, PK",
+                "job_title": "Sales Officer",
+                "start_date": "08-2016",
+                "company_name": "Yorkshire Trading (Pvt). Limited"
+            }
+        ]
+    }
+}

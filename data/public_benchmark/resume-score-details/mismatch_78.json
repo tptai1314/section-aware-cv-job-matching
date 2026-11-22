@@ -1,0 +1,137 @@
+{
+    "output": {
+        "justification": [
+            "Resume and job description are available and valid.",
+            "Candidate lacks direct business development experience but shows leadership in solar system projects.",
+            "Negotiation skills not explicitly stated in the resume.",
+            "Candidate doesn't meet the minimum requirements for business understanding and key negotiation skills.",
+            "No evidence of knowledge or proficiency in preferred tools like GA4, Power BI, CRM, or digital marketing strategies."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "negotiation",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "FAREHA KHAN",
+            "email": "farehakhan1909@gmail.com",
+            "phone": "+923 229675954",
+            "current_position": "Student",
+            "current_company": "N/A",
+            "employment_start_date_current_company": "N/A",
+            "first_company_start_date": "07-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/fareha-khan3b26a02a7/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 100
+        },
+        "micro_dict": {
+            "negotiation": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "                                           FAREHA KHAN  \n+923 229675954  farehakhan1909@gmail.com  https://www.linkedin.com/in/fareha -khan3b26a02a7/  \nSummary  \nElectrical Engineer with a robust background in power systems and a specialization in solar energy \nsolutions. Graduated from U niversity of Engineering and Technology, Taxila with a 3.5 2 CGPA, \ncomplemented by hands -on internship experiences at Islamabad Electric Supply Company \n(IESCO ) and Water And Power Development Authority ( WAPDA ). Skilled in load analysis and \nsolar system design, with p roficiency in MATLAB and Helio Scope . Dedicated to advancing \nsustainable energy solutions through innovative and efficient solar technologies.  \nEducation  \nUNIVERSITY OF ENGINEERING AND TECHNOLOGY  (3.52/4.00)               Taxila,  Pakistan  \nBachelor of Science in  Electrical Engineering                                                                   2020 -2024  \nF.G. POST GRADUATE COLLEGE FOR WOMEN (957/1100)                  Wah Cantt, Pakistan  \nF.Sc Pre -Engineering                                                                                                          2018 -2020  \nSIR SYED COLLEGE (1041/1100 )                                                                   Wah Cantt, Pakistan  \nMatriculation in Science Group                                                                                         2016 -2018  \nInternship  Experience  \nISLAMABAD ELECTRIC SUPPLY COMPANY (IESCO)                       (Jul 2022 -Aug 2022) \n\uf0b7 Gained comprehensive understanding of all equipment . \n\uf0b7 Studied and analyzed the working principles of distance and overcurrent relays.  \n\uf0b7 Gained insight into distribution feeders and their role in power distribution.  \n\uf0b7 Participated in sessions in the operations department, enhancing knowledge of grid operations \nand ma intanence . \nWATER AND POWER DEVELOPMENT AUTHORITY  (WAPDA )      (Jul 2023 -Aug2023)  \n\uf0b7 Acquired in -depth knowledge of power generation processes at Tarbela Power Station.  \n\uf0b7 Partici pated in sessions in the control room, gaining hands -on experience with SCADA \nsystems and operations management.  \n\uf0b7 Developed understanding of generator synchronization and maintenance procedures.  \n\uf0b7 Assisted in the analysis and improvement of energy distributio n systems to enhance overall \nefficiency.  \n \n Academic Experience  \nDistributive  Cell Balancing in Electric V ehicles  \n\uf0b7 Designed and implemented a hybrid approach to cell balancing using MATLAB.  \n\uf0b7 Achieved efficient and less complex solutions for energy storage systems.  \n\uf0b7 Ensured the system's reliability and effectiveness in various operating conditions.  \nSolar System Design  \n\uf0b7 Led a team in designing solar power solutions for residential and commercial use.  \n\uf0b7 Utilized Helioscope for accurate and efficient solar system design and simulation.  \n\uf0b7 Conducted detailed performance and feasibility analysis to optimize energy output.  \nExtracurricular Experience  \nInstitute of Electrical and  Electronics Engineer UET Taxila Student Branch      Taxila,Pakistan  \n\uf0b7 As a general member hosted the seminar and webinars and as a deputy director done the \ndocumentation.  \nInternship Management Team                                    UET  Taxila,Pakistan  \n\uf0b7 Led the management team and organized seminars to support and mentor junior students.  \nAdditional  \n\uf0b7 Skills:  Project Management , Good Communication , Leadership, Time Management , NI \nMult iSim, PSS/E.  \n\uf0b7 Languages:  English, Urdu . "
+    },
+    "details": {
+        "name": "Fareha Khan",
+        "number": "9229675954",
+        "skills": [
+            "MATLAB",
+            "Helio Scope",
+            "NI MultiSim",
+            "PSS/E"
+        ],
+        "email_id": "farehakhan1909@gmail.com",
+        "location": "Taxila, Pakistan",
+        "projects": [
+            {
+                "title": "Distributive Cell Balancing in Electric Vehicles",
+                "description": "Designed and implemented a hybrid approach to cell balancing using MATLAB."
+            },
+            {
+                "title": "Solar System Design",
+                "description": "Led a team in designing solar power solutions for residential and commercial use."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "04-2024",
+                "university": "University of Engineering and Technology",
+                "degree_title": "Bachelor of Science in Electrical Engineering"
+            },
+            {
+                "end_date": "04-2020",
+                "university": "F.G. Post Graduate College for Women",
+                "degree_title": "F.Sc Pre-Engineering"
+            },
+            {
+                "end_date": "04-2018",
+                "university": "Sir Syed College",
+                "degree_title": "Matriculation in Science Group"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/fareha-khan3b26a02a7",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Fareha Khan is an electrical engineer with a strong background in power systems and a specialization in solar energy solutions. She has hands-on internship experience with Islamabad Electric Supply Company and Water And Power Development Authority, showcasing her technical skills in load analysis and solar system design.",
+        "employment_history": [
+            {
+                "details": "Gained comprehensive understanding of all equipment and studied the working principles of distance and overcurrent relays.",
+                "end_date": "08-2022",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2022",
+                "company_name": "Islamabad Electric Supply Company (IESCO)"
+            },
+            {
+                "details": "Acquired in-depth knowledge of power generation processes and gained hands-on experience with SCADA systems.",
+                "end_date": "08-2023",
+                "location": "Tarbela, Pakistan",
+                "job_title": "Intern",
+                "start_date": "07-2023",
+                "company_name": "Water and Power Development Authority (WAPDA)"
+            }
+        ]
+    }
+}

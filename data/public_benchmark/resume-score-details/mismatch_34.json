@@ -1,0 +1,175 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has experience as a Business Development Manager for one month at Nuhraan, but it lacks the depth and duration that typically align with senior-level roles.",
+            "The resume shows diverse roles including social media marketing and customer support, but lacks specific evidence of leading teams or strategic negotiations.",
+            "The educational background does not include a top-tier university, but the CGPA is good.",
+            "Skills listed include project management and social media marketing, but lack specific mention of business analytics tools or CRM tools preferred in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "business development experience",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Sadia Aziz",
+            "email": "sadiaaziz1025@gmail.com",
+            "phone": "0309-0511392",
+            "current_position": "Business Development Manager",
+            "current_company": "NUHRAAN",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "07-2021",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/sadia-aziz-1b25a6175/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "business development experience": 100
+        },
+        "micro_dict": {
+            "data analysis": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": "WORK HISTORY\nCustomized Email Marketing & Lead Generation.\nWorked with Business Development Manager.\n Graphics designing for the company posts and videos.\nEvent management inside software house. \nManaging Social Accounts.\nBright Network Powered Virtual Internship Experience\nUK. \nSuccessfully Completed Internship in \"Business,\nOperations & Marketing.\"\nSuccessfully Completed Internship in \"Front-End\nDevelopment\" from Interns Pakistan. BUSINESS DEVELOPMENT MANAGER\nNUHRAAN | 1st November 2021 - 1st December 2021\nSOCIAL MEDIA MARKETING SPECIALIST \nW Group | 12 July 2021 - 22 August 2021 \nINTERNSHIP | 12th July 2021 - 15th July 2021 \nINTERNSHIP | 1st August 2021 - 31 August 2021\nEDUCATIONAL BACKGROUND\nBACHELORS\n BBIT (Hons.) Marketing Specialization | 2018 - 2022 \nInstitute of Business and Information Technology, University\nof the Punjab New Campus, Lahore.\n Current CGPA : 3.54\n INTERMEDIATE \nFSC PRE-ENGINEERING | 2016 - 2018 \nAspire College for Girls, 23-D-A/I Gulberg III, Lahore. Secured\n944/1100 with A+ Grade. \nMATRICULATION \nCOMPUTER SCIENCES | 2014 - 2016\n Ibtisam Grammar High School for Girls, 1-S-1 Saddique Akbar\nRoad, Near Aab Para Stop, Wahdat Road, Lahore. Secured\n1025/1100 with A+ Grade.ABOUT ME\nTo seek a challenging job where I could use my skills\nunder the guidance of my seniors and could improve\nmy personality through social media marketing\nSKILLS & PROFICIENCIES\nSocial Media Marketing. \nCustomer Support Service.\nMarketing Researcher.\nProject Management. \nMicrosoft Office. \nCanva Expert. \nCERTIFICATIONS0309-0511392\nsadiaaziz1025@gmail.com\nhttps://www.linkedin.com\n/in/sadia-aziz-1b25a6175/Sadia Aziz\nHOUSE # 03, BLOCK-B,REHMAN\nPURA LAHORE. \nParticipated in Painting/Photography Competition\nConducted by Tourism Development of Punjab. \nParticipated and Successfully Completed Training\nProgram Organized by \u201cASIF KHAN GROUP\u201d \nParticipated in the Event of \u201cMicrosoft Dynamics 365\u201d by\nMaison Consulting & Solutions. \nCompleted Training Course of \"Freelancing\" from Digi-\nSkills.\n Completed Training Course of \"Introduction to Social\nMedia Marketing\" from Coursera. \nCompleted Training Course of \"Fundamentals of Social\nMedia Advertising\" from Coursera. \nCompleted Training Course of \"Measure and Optimize\nSocial Media Marketing Campaigns\" from Coursera. \nCompleted Training Course of \"Social Media\nManagement\" from Coursera. \nCompleted Training Course of \"Advertising with\nFacebook\" from Coursera. \nCompleted Training Course of \"An Introduction to\nNeuroscience & Neuromarketing\" from Coursera. \u201cLIVE LIKE A CHAMPION\u201d. \nDISTINCTIONS &\nAWARDS\nAwarded with medal for overall 2nd position in \"SEND-UP\nEXAMS\" for FSC Pre Engineering Group in Aspire Group of\nColleges.\nWon medal of Cricket Winner at \"IBIT SPORTS FEST\"\n2022.PROJECTS WORK\nConducted Qualitative Research on \"Impact of\nInfluencer's Marketing on Consumer Buying\nBehavior\".\nWork on the Final Year Project of \"Paw World\" A Pet's \n Day-Care Centre . "
+    },
+    "details": {
+        "name": "Sadia Aziz",
+        "number": "03090511392",
+        "skills": [
+            "Social Media Marketing",
+            "Microsoft Office",
+            "Canva Expert"
+        ],
+        "email_id": "sadiaaziz1025@gmail.com",
+        "location": "House # 03, Block-B, Rehman Pura Lahore",
+        "projects": [
+            {
+                "title": "Impact of Influencer's Marketing on Consumer Buying Behavior",
+                "description": "Conducted Qualitative Research on the impact of influencer marketing."
+            },
+            {
+                "title": "Paw World",
+                "description": "Final Year Project of a Pet's Day-Care Centre."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Institute of Business and Information Technology, University of the Punjab New Campus, Lahore",
+                "degree_title": "BBIT (Hons.) Marketing Specialization"
+            }
+        ],
+        "achievements": [
+            "Secured 2nd position in SEND-UP EXAMS for FSC Pre Engineering Group in Aspire Group of Colleges.",
+            "Won medal of Cricket Winner at IBIT SPORTS FEST 2022."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Freelancing",
+                "issuing_organization": "Digi-Skills",
+                "date_of_issuance": "06-2021"
+            },
+            {
+                "certification_name": "Introduction to Social Media Marketing",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2021"
+            },
+            {
+                "certification_name": "Fundamentals of Social Media Advertising",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2021"
+            },
+            {
+                "certification_name": "Measure and Optimize Social Media Marketing Campaigns",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2021"
+            },
+            {
+                "certification_name": "Social Media Management",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2021"
+            },
+            {
+                "certification_name": "Advertising with Facebook",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2021"
+            },
+            {
+                "certification_name": "An Introduction to Neuroscience & Neuromarketing",
+                "issuing_organization": "Coursera",
+                "date_of_issuance": "06-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sadia-aziz-1b25a6175",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sadia Aziz is a dedicated marketing professional with a strong background in social media marketing and project management. She has successfully completed multiple internships and training programs, showcasing her commitment to continuous learning and professional development. Sadia has also demonstrated her skills through various projects and has received recognition for her academic achievements.",
+        "employment_history": [
+            {
+                "details": "Customized Email Marketing & Lead Generation, worked with Business Development Manager, graphics designing for company posts and videos, event management, managing social accounts.",
+                "end_date": "12-2021",
+                "location": "Lahore",
+                "job_title": "Business Development Manager",
+                "start_date": "11-2021",
+                "company_name": "NUHRAAN"
+            },
+            {
+                "details": "Social Media Marketing Specialist, responsible for managing social media accounts and marketing strategies.",
+                "end_date": "08-2021",
+                "location": "Lahore",
+                "job_title": "Social Media Marketing Specialist",
+                "start_date": "07-2021",
+                "company_name": "W Group"
+            },
+            {
+                "details": "Internship focused on business operations and marketing.",
+                "end_date": "07-2021",
+                "location": "Lahore",
+                "job_title": "Internship",
+                "start_date": "07-2021",
+                "company_name": "Bright Network"
+            },
+            {
+                "details": "Internship in Front-End Development.",
+                "end_date": "08-2021",
+                "location": "Lahore",
+                "job_title": "Internship",
+                "start_date": "08-2021",
+                "company_name": "Interns Pakistan"
+            }
+        ]
+    }
+}

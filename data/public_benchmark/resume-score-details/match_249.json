@@ -1,0 +1,143 @@
+{
+    "output": {
+        "justification": [
+            "- Leadership score is moderate due to limited direct leadership roles in career experiences listed.",
+            "- Relevant experience score is moderate as roles align more with Business Development and Market Analysis rather than Key Account Management.",
+            "- Data Analysis proficiency is strong with explicit mention of using Power BI, SQL, and Excel for analysis.",
+            "- Candidate has a Bachelor's degree in Management Science which fits the requirements though from a non-preferred university.",
+            "- Skills like Salesforce and Power BI mentioned, enhancing alignment with essential skills."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.94,
+                "micro_scores": 8.0
+            }
+        },
+        "personal_info": {
+            "name": "Zubair Ahmed",
+            "email": "za05760@gmail.com",
+            "phone": "03310211624",
+            "current_position": "Business Development Executive",
+            "current_company": "Paymob",
+            "employment_start_date_current_company": "2021",
+            "first_company_start_date": "2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 19,
+            "experience": 68,
+            "strategic thinking": 13
+        },
+        "micro_dict": {
+            "data analysis": 100
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in data analysis and forecasting tools"
+        ],
+        "resume": "Zubair Ahmed \nBusiness Development Executive \nA prospective Marketing and Business Analyst, a recipient of Management Sciences from NED University of Engineering & Technology,\nwho endeavors to pose and respond with a results-oriented business attitude in developing creative marketing collateral for diverse\nprojects. Establishes clear standards and enforces protocols for consistent, high-quality results by utilizing interpersonal skills, data\nanalytical skills, excellent time management and problem-solving skills. \nza05760@gmail.com \n03310211624 \nR-280, Sheet 51, Block B, Saima Arabian Villas, Karachi. \nWORK EXPERIENCE \nBusiness Development Executive \nPaymob \n2021 - Present\n, \n \nKarachi \nDe\ufb01ned and integrated roles, responsibilities and processes for\nbusiness team and data management organization. \nCreated spreadsheets using Microsoft Excel for daily, weekly and\nmonthly reporting. \nDeveloped and executed strategic initiatives to implement key\nchanges and improvements in business development and sales\nprograms. \nUsed critical thinking to break down problems, evaluate solutions\nand make decisions. \nMarket Research Analyst \nPrecision Engineering Equipment FZE \n2019 - 2021\n, \n \nKarachi \nWorked closely with product development teams to create and\nmaintain marketing materials for sales presentations and client\nmeetings in the industry. \nAnalyzed pre-season marketing plans to generate better sales and\ncommunicate with customers through calling/emailing. \nDeveloped marketing strategies and resolved problems to drive\nsales, through CRM and managed database information of market. \nUtilized di\ufb00erent tools to analyze marketing and \ufb01nancial trends such\nas, SQL, Excel, & Power BI and suggested measures to reduce costs\nand improve business processes. \nInternship \nUnilever Pakistan \n2019\n, \n \nKarachi \nAnalyzing and scrutinizing the company's requirements for ongoing\nprojects and contracts. \nUpdate and manage internal database for future vendor\u2019s selection\nand their terms, this information is helpful for upcoming projects. \nDeveloped and strengthened supplier relationships. \nEDUCATION \nBS - Management Science \nNED University of Engineering & Technology \n2022\n, \n \nKarachi \nSKILLS \nProblem Solving & Business Analytics \nProduct Development & Strategist \nCRM \nBusiness Communication & Reporting \nSQL \nDigital Marketing \nMarket Research Analyst \nData Science Enthusiast \nLeadership skill \nProject & Brand Management \nHubSpot \nSalesforce \nGood Negociation \nPython \nData Visualization \nTableau \nPower BI \nPERSONAL PROJECTS \nCPEC \n- \nFinal Year Project \nAnalyzing the logistic infrastructure development of Pakistan\nafter CPEC and how it will revamp or rehabilitate the\ninfrastructure of Pakistan by developing the Special\nEconomic Zones. We analyze the di\ufb00erent industrial data in\neach province of Pakistan and the impact of SEZs that will\nreshape the industry economy in Pakistan \nMidas Safety Pakistan \n- \nCourse Project \nProject in Midas Safety Pakistan (Karachi Unit) where I\nidenti\ufb01ed the process involved in manufacturing their\nproducts i.e., Gloves and Safety Sleeves. I basically analyzed\nMidas\u2019s supply chain drivers and examined the use \nof\ninformation technology. \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Zubair Ahmed",
+        "number": "03310211624",
+        "skills": [
+            "SQL",
+            "Excel",
+            "Python",
+            "Power BI",
+            "Tableau",
+            "HubSpot",
+            "Salesforce"
+        ],
+        "email_id": "za05760@gmail.com",
+        "location": "Karachi",
+        "projects": [
+            {
+                "title": "CPEC - Final Year Project",
+                "description": "Analyzing the logistic infrastructure development of Pakistan after CPEC."
+            },
+            {
+                "title": "Midas Safety Pakistan - Course Project",
+                "description": "Analyzed Midas\u2019s supply chain drivers and examined the use of information technology."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "NED University of Engineering & Technology",
+                "degree_title": "BS - Management Science"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/zubairahmed",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Zubair Ahmed is a dedicated Business Development Executive with a strong background in marketing and business analysis. He has demonstrated expertise in SQL, Excel, and Python, and has successfully contributed to strategic initiatives in business development and sales programs.",
+        "employment_history": [
+            {
+                "details": "Defined and integrated roles, responsibilities and processes for business team and data management organization. Created spreadsheets using Microsoft Excel for daily, weekly and monthly reporting. Developed and executed strategic initiatives to implement key changes and improvements in business development and sales programs.",
+                "end_date": "Present",
+                "location": "Karachi",
+                "job_title": "Business Development Executive",
+                "start_date": "01-2021",
+                "company_name": "Paymob"
+            },
+            {
+                "details": "Worked closely with product development teams to create and maintain marketing materials for sales presentations and client meetings. Analyzed pre-season marketing plans to generate better sales and communicate with customers through calling/emailing. Developed marketing strategies and resolved problems to drive sales, through CRM and managed database information of market.",
+                "end_date": "12-2021",
+                "location": "Karachi",
+                "job_title": "Market Research Analyst",
+                "start_date": "01-2019",
+                "company_name": "Precision Engineering Equipment FZE"
+            },
+            {
+                "details": "Analyzing and scrutinizing the company's requirements for ongoing projects and contracts. Update and manage internal database for future vendor\u2019s selection and their terms, this information is helpful for upcoming projects. Developed and strengthened supplier relationships.",
+                "end_date": "12-2019",
+                "location": "Karachi",
+                "job_title": "Internship",
+                "start_date": "01-2019",
+                "company_name": "Unilever Pakistan"
+            }
+        ]
+    }
+}

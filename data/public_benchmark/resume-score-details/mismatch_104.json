@@ -1,0 +1,149 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has a Master's degree in Computer Engineering instead of the preferred Business Administration background.",
+            "The candidate's professional experience is focused more on AI/ML engineering rather than B2B sales.",
+            "No direct experience in B2B sales roles as required by the job description.",
+            "Strong technical skills but no evidence of proficiency in Microsoft Office Suite, which is a minimum requirement."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Microsoft Office Suite proficiency",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 1.0
+            }
+        },
+        "personal_info": {
+            "name": "Safyan Tariq Butt",
+            "email": "safyantariq.93@gmail.com",
+            "phone": "+923005905732",
+            "current_position": "AI/ML Engineer",
+            "current_company": "Freelancing",
+            "employment_start_date_current_company": "05-2023",
+            "first_company_start_date": "10-2019",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "b2b sales": 100
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite",
+            "Bachelor's degree in Business Administration, Marketing, or a related field"
+        ],
+        "resume": " \n Safyan Tariq Butt  \nAI/M L Engineer   \n    Gujranw ala, Pak istan  \n  \n   +923005905732  \n \n  \n     \n EDUCATION  \n Sep 2017 - \nSep 2020  \n \n \nAug 2011 - \nJuly 2015   MS Computer E ngineering  \nNUST  - Pakistan \n\u2022 CGP A - 3.85  \n \nBS Electrical  (Computer ) Engineering  \nNUCES - Pakistan \n\u2022 CGP A - 2.9 \n  \n      \n PROFESSIONAL \nEXPERIENCE  May 2023 - \nPresent   AI/ML Engineer , Remote Freelancing  \n\u2022 Developed a GPU enhanced CNN for  floral recognition  with th e \npower of pyTorch  \n\u2022 Designed  and continuo usly improving  a LSTM neural network  \nbased  stock prediction system through GPU powere d \nTensorFlow  \n\u2022 Implemented a numeral digit detection  system  by employing  a \nGPU backed CNN through  pyTorch  \n\u2022 Presently working on a n AI chatbot which is  under  development   \n  \n  Feb 202 1- \nJuly 2021  \n  \n Lab Engineer, NUCES \u2013 FAST  \n\u2022 Designed a thoro ugh assembly language curriculum to engage \nand improve students  \n\u2022 Responsible for the  individual skill assessm ent of 40+ stud ents \n  \n  Oct 2019 - \nFeb 2020    Resea rch Assistant, NUST  \n\u2022 Successfully  design ed and implement ed a cost-effective  \nmuscular dystr ophy detector  to facilitate  the rehabilitation  of \npatients with mot or dysfunction  by employing Python, C a nd an  \nArduino  \n  \n      \n SKILLS & \nABILITIES  \u2022 Python  \n\u2022 pyTorch  \n\u2022 Tenso rFlow  \n\u2022 Panda  \n\u2022 Numpy  \n\u2022 Scikit -learn  \n\u2022 OpenCV  \n  \n      \n ACCOMPLISHMENTS,  \nAWARDS & CERTIFICAT ION S \n \n  \u2022 PEC Certified Registered E lectrical  and Computer  Engi neer \n\u2022 Awarded  full Merit Schol arship for great academic ac hievement  \nduring MS by NUST  \n\u2022 IELTS Certified with 8.5 /9.0 band  \n\u2022 Certified Word Developer by e -Rozgar   \n \nsafyantariq. 93@gmail. com  \n\u2022 TabPy -Tableau  \n\u2022 Matplotli b \n\u2022 Seaborn  \n\u2022 RegEx \n\u2022 Jupyter  Notebook  \n\u2022 Google Colab  \n\u2022 Anacon da \u2022 GitBash  \n\u2022 Grea t documentat ion skill \n\u2022 Critica l thinking  \n\u2022 Strong p roblem solving  \n\u2022 C++   \n\u2022 Assembly language  \n\u2022 HTML/C SS "
+    },
+    "details": {
+        "name": "Safyan Tariq Butt",
+        "number": "923005905732",
+        "skills": [
+            "Python",
+            "pyTorch",
+            "TensorFlow",
+            "Panda",
+            "Numpy",
+            "Scikit-learn",
+            "OpenCV",
+            "C++",
+            "Assembly language",
+            "HTML/CSS",
+            "Matplotlib",
+            "Seaborn",
+            "RegEx",
+            "Jupyter Notebook",
+            "Google Colab",
+            "Anaconda",
+            "GitBash"
+        ],
+        "email_id": "safyantariq.93@gmail.com",
+        "location": "Gujranwala, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "09-2020",
+                "university": "NUST - Pakistan",
+                "degree_title": "MS Computer Engineering"
+            },
+            {
+                "end_date": "07-2015",
+                "university": "NUCES - Pakistan",
+                "degree_title": "BS Electrical (Computer) Engineering"
+            }
+        ],
+        "achievements": [
+            "PEC Certified Registered Electrical and Computer Engineer",
+            "Awarded full Merit Scholarship for great academic achievement during MS by NUST",
+            "IELTS Certified with 8.5/9.0 band",
+            "Certified Word Developer by e-Rozgar"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Certified Word Developer",
+                "issuing_organization": "e-Rozgar",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/safyan-tariq-butt",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Safyan Tariq Butt is an AI/ML Engineer with a strong background in computer engineering and extensive experience in developing machine learning models and systems. He has demonstrated proficiency in various programming languages and frameworks, contributing to innovative projects in the field of artificial intelligence and machine learning.",
+        "employment_history": [
+            {
+                "details": "Developed a GPU enhanced CNN for floral recognition with the power of pyTorch. Designed and continuously improving a LSTM neural network based stock prediction system through GPU powered TensorFlow. Implemented a numeral digit detection system by employing a GPU backed CNN through pyTorch. Presently working on an AI chatbot which is under development.",
+                "end_date": "Present",
+                "location": "Remote Freelancing",
+                "job_title": "AI/ML Engineer",
+                "start_date": "05-2023",
+                "company_name": "Freelancing"
+            },
+            {
+                "details": "Designed a thorough assembly language curriculum to engage and improve students. Responsible for the individual skill assessment of 40+ students.",
+                "end_date": "07-2021",
+                "location": "NUCES \u2013 FAST",
+                "job_title": "Lab Engineer",
+                "start_date": "02-2021",
+                "company_name": "NUCES \u2013 FAST"
+            },
+            {
+                "details": "Successfully designed and implemented a cost-effective muscular dystrophy detector to facilitate the rehabilitation of patients with motor dysfunction by employing Python, C and an Arduino.",
+                "end_date": "02-2020",
+                "location": "NUST",
+                "job_title": "Research Assistant",
+                "start_date": "10-2019",
+                "company_name": "NUST"
+            }
+        ]
+    }
+}

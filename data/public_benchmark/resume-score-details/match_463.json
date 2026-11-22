@@ -1,0 +1,128 @@
+{
+    "output": {
+        "justification": [
+            "Macro Experience Score: Candidate has 5 years experience in FMCG industry, with 4 years at Coca-Cola, matching relevant experience in sales but not directly in SEO.",
+            "Leadership Score: No direct leadership roles or experience leading a team is mentioned.",
+            "The degree is from a less preferred local university, though candidate possesses relevant experience.",
+            "Micro PPC Campaigns Score: There is no mention of PPC campaign management skills or experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ppc campaigns",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 2.0
+            }
+        },
+        "personal_info": {
+            "name": "Hassan Ishaq",
+            "email": "hassanch4686@outlook.com",
+            "phone": "0301-7706019",
+            "current_position": "CoCa Cola Beverages Company (Sales)",
+            "current_company": "CoCa Cola Beverages Company",
+            "employment_start_date_current_company": "07-2019",
+            "first_company_start_date": "07-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "ppc campaigns": 100
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field"
+        ],
+        "resume": "Muhammad Hassan  Ishaq  \n hassanch4686@outlook.com  \nShujaAbad,Multan  \nCell  # 0301 -7706019  \nAbridge  \nTo learn more and polish my skills in an environment that can \nhelp to achieve organization goals.  To become an efficient part \nof management so as to contribute towards the achievement \nof its goals as well as nourishing and nurturing my skills to make \nme a real asset for the organization.  \nPersonal Information  \nFull Name      Hassan  Ishaq  \nFather Name                                      Muhammad Ishaq  \nDate of Birth              20 March 1992  \nMarital Status              Single  \nGender               Male  \nReligious               Islam  \nNationality              Pakistan  \nWork Experiences   \n\u2756 Total 5 Years Of working experience  in FMCG  Industry  \n\u2756 4 Years In Distribution of (CoCa Cola Beverages Company) \nMultan, Continue \u2026 \n\u2756 Having 5 Years of Working in Distribution sales Matters  \n\u2756 Also  Having Internship Certificate In Finance  Department  at \nPEL Company  Education / Course  \n\u2756 M.Sc (Eco)                \n\u2756  From, Bahauddin Zakariya  University Multan, Pakistan  \n\u2756 Bachelor Degree  \nFrom, Bahauddin Zakariya University Multan , Pakistan  \n\u2756 Intermediate   (F.Sc ) \nFrom, Punjab College of Information Technology, Multan  \n\u2756 High School Certificate  \nBISE, Multan, Pakistan  \nTrainings/ Cerificates  \n\u2756 Internship in Finance  by (PEL) \n\u2756 Freelancing ( DigiSkills.pk ) by (MITT )(VU) \n\u2756 Digital Marketing  (DigiSkills .pk) by (MITT) (VU)  \n\u2756 Red Recognition Award (CCI)  \nStrength / Skills  \no Strong inter -personal and Concentrate communication skills  \no Demonstrate ability to present ideas  \no Ability to easily understand new concepts in minimum \nrefractory time.  \no High motivation  & adaptability  \no Self Starter and quick learner  \no Well known about MS Office ,G-suite,CRM,Salesforce & \nERP Software  \no Well Known about Sales & Marketing Operations     \nLanguages  \nUrdu,English,Punjabi  \n\u25aa I hereby declare that the information furnished \nabove is true to the best of my knowledge.   \n\u25aa Reference Should be furnished on demand  "
+    },
+    "details": {
+        "name": "Hassan Ishaq",
+        "number": "03017706019",
+        "skills": [
+            "MS Office",
+            "G-suite",
+            "CRM",
+            "Salesforce",
+            "ERP Software"
+        ],
+        "email_id": "hassanch4686@outlook.com",
+        "location": "ShujaAbad, Multan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2015",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "M.Sc (Eco)"
+            },
+            {
+                "end_date": "06-2013",
+                "university": "Bahauddin Zakariya University Multan, Pakistan",
+                "degree_title": "Bachelor Degree"
+            },
+            {
+                "end_date": "06-2010",
+                "university": "Punjab College of Information Technology, Multan",
+                "degree_title": "Intermediate (F.Sc)"
+            },
+            {
+                "end_date": "06-2008",
+                "university": "BISE, Multan, Pakistan",
+                "degree_title": "High School Certificate"
+            }
+        ],
+        "achievements": [
+            "Red Recognition Award (CCI)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Internship in Finance",
+                "issuing_organization": "PEL",
+                "date_of_issuance": "06-2019"
+            },
+            {
+                "certification_name": "Freelancing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            },
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "DigiSkills.pk (MITT)(VU)",
+                "date_of_issuance": "06-2020"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Hassan Ishaq is a dedicated professional with 5 years of experience in the FMCG industry, specializing in distribution sales. He holds a Master's degree in Economics and has completed various certifications in finance and digital marketing. Hassan is proficient in several software tools including MS Office, G-suite, CRM, Salesforce, and ERP Software, making him a valuable asset in sales and marketing operations.",
+        "employment_history": [
+            {
+                "details": "Worked in distribution sales for Coca Cola Beverages Company, managing sales operations and client relationships.",
+                "end_date": "Present",
+                "location": "Multan",
+                "job_title": "Sales Executive",
+                "start_date": "01-2019",
+                "company_name": "Coca Cola Beverages Company"
+            }
+        ]
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "output": {
+        "justification": [
+            "Lack of direct experience in digital marketing strategies results in low score for relevant experience.",
+            "Experience in managing CRM and data suggests some client relationship management skills.",
+            "No explicit leadership or management experience mentioned.",
+            "Lack of SEO/SEM experience results in lower score for micro-level digital marketing capabilities."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 4
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "client relationship",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "social media marketing",
+                    "score": 3
+                },
+                {
+                    "criteria": "seo/sem",
+                    "score": 2
+                },
+                {
+                    "criteria": "google analytics",
+                    "score": 1
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 5
+                },
+                {
+                    "criteria": "content development",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.3200000000000003,
+                "micro_scores": 2.6799999999999997
+            }
+        },
+        "personal_info": {
+            "name": "Maryam Khalid",
+            "email": "maryamkhalid162@gmail.com",
+            "phone": "+92-312-411-3981",
+            "current_position": "Lead Generation Specialist",
+            "current_company": "Lead IQ Agency",
+            "employment_start_date_current_company": "2021-Present",
+            "first_company_start_date": "2021",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 27,
+            "digital marketing experience": 47,
+            "client relationship": 26
+        },
+        "micro_dict": {
+            "social media marketing": 29,
+            "seo/sem": 19,
+            "google analytics": 15,
+            "crm software expertise": 18,
+            "content development": 19
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "2+ years of experience in digital marketing",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Familiarity with Google Analytics and CRM tools"
+        ],
+        "resume": "LEAD GENERATION\nSPECIALISTMARYAM\nKHALID\nSKILLSEXPERIENCE\n2021_Present\n2018 _ 2019\n2021_PresentLead Generation\nVirtual Assistant\nTeam Work  \nProgramming\nEmail Marketing\nData Managment\nCONTACT\n+92-312-411-3981\nMaryamkhalid162@gmail.comLEAD GENERATION SPECIALIST\nManaging Director\nLead _IQ Agency\nFreelancer \nFiverr & UpworkDeveloped Sales Leads through cold calling,\nmarketing lists and internet leads Etc.\nWorking in CRM  made initial contacts with\ndecision-makers, collected qualifying\ninformation & coordinated.\nPlanned and Organized routes within\nterritory to maximize efficiency and time\nin the field.\nManage Large amount  of data base and\nable to Lead Team and can do multiple\nwork at the same time.\nI am a  part time freelancer and working\nas a  Lead Generation ,Internet Research,\nWeb Scrapper, beginner Programmer   \n having    Expertise in  C++ ,HTML & CSS\ndoing projects. I am keen to Learn new\nand advance Technology and Exploring\nthe things.EDUCATION\nUniversity Of Management & Technology \n2020 - 2024 | BS-Computer Science\nPunjab Group Of Colleges\n2017-2019 | ICSABOUT ME\nI am an enthusiastic, talented, ambitious, and\nhardworking individual, with broad skills and\nexperience in Lead Generation & social media,\nand leading projects.\nFurthermore, I am adept at handling multiple\ntasks on a daily basis competently and at working\nwell under pressure.\nA key strength is a communication; building\nstrong relationships with people in order to\ndeliver the best results."
+    },
+    "details": {
+        "name": "Maryam Khalid",
+        "number": "923124113981",
+        "skills": [
+            "C++",
+            "HTML",
+            "CSS",
+            "Email Marketing",
+            "Data Management"
+        ],
+        "email_id": "Maryamkhalid162@gmail.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "04-2024",
+                "university": "University Of Management & Technology",
+                "degree_title": "BS-Computer Science"
+            },
+            {
+                "end_date": "06-2019",
+                "university": "Punjab Group Of Colleges",
+                "degree_title": "ICS"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/maryamkhalid",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/maryamkhalid",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Maryam Khalid is a dedicated Lead Generation Specialist with a strong background in programming and data management. She has experience in developing sales leads and managing large databases, showcasing her technical skills in C++, HTML, and CSS. Maryam is also a part-time freelancer, demonstrating her ability to handle multiple tasks efficiently.",
+        "employment_history": [
+            {
+                "details": "Developed Sales Leads through cold calling, marketing lists and internet leads. Managed CRM, made initial contacts with decision-makers, collected qualifying information, and coordinated efforts. Planned and organized routes within territory to maximize efficiency and time in the field.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Lead Generation Specialist",
+                "start_date": "01-2021",
+                "company_name": "Lead_IQ Agency"
+            },
+            {
+                "details": "Worked as a Virtual Assistant, providing support in various administrative tasks and managing data effectively.",
+                "end_date": "12-2019",
+                "location": "",
+                "job_title": "Virtual Assistant",
+                "start_date": "01-2018",
+                "company_name": "Freelancer"
+            }
+        ]
+    }
+}

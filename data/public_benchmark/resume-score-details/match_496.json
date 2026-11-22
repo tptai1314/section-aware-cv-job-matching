@@ -1,0 +1,141 @@
+{
+    "output": {
+        "justification": [
+            "The resume was not provided, making it impossible to evaluate against the job description.",
+            "The job description specifies requirements for a Senior Project Manager at TechVentures Inc.",
+            "Preferred educational institutions and desired skills like Agile and SCRUM were noted.",
+            "Without a resume, I can't compare qualifications or extract URLs."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 0
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 0
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 0
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 0
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 0
+                },
+                {
+                    "criteria": "solution architecture",
+                    "score": 0
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 0
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 0
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of Agile and SCRUM methodologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience in managing enterprise data warehouse projects",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 0.0,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "",
+            "email": "",
+            "phone": "",
+            "current_position": "",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "leadership": 18,
+            "project management experience": 42,
+            "technical expertise": 14,
+            "client relationship management": 26
+        },
+        "micro_dict": {
+            "data management": 14,
+            "pre-sales consulting": 5,
+            "solution architecture": 23,
+            "agile methodologies": 9,
+            "quality management systems": 23,
+            "powerbi": 26
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Master's degree in Computer Science, Business Administration, or related field",
+            "Strong understanding of Agile and SCRUM methodologies",
+            "Experience in managing enterprise data warehouse projects"
+        ],
+        "resume": ""
+    },
+    "details": {
+        "name": "John Doe",
+        "number": "03124843384",
+        "skills": [
+            "Python",
+            "Excel"
+        ],
+        "email_id": "john.doe@example.com",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "John Doe is a seasoned software engineer with extensive experience in Python and Excel, demonstrating strong technical skills and a commitment to excellence.",
+        "employment_history": [
+            {
+                "details": "Software Engineer at XYZ Corp",
+                "end_date": "11-2024",
+                "location": "",
+                "job_title": "Software Engineer",
+                "start_date": "01-2020",
+                "company_name": "XYZ Corp"
+            }
+        ]
+    }
+}

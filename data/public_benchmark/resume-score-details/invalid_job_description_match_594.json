@@ -1,0 +1,48 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "Bachelor's Degree in Electrical engineering   \nCGPA  3.3/4  (2020-2024)\n                   \nDAE Electrical   88% International Islamic universty Islamabad\nGovernment College OF Technology Rawalpindi\nBlue Star Public School\nMatric   72%SUMMARY\nWORK EXPERIENCE EDUCATION\n SKILLSst #11 Madina Colony Misrial Road, Rawalpindiadeelghaffar81@gmail.com+923495470821ADEEL GHAFFAR\nElectrical Engineer\nElectrical Engineer with hands-on experience in electrical and electronics systems, including biomedical appliances.\nProficient in troubleshooting, repair, and maintenance. Passionate about inverters and converters, and seeking a role to\napply my expertise in this area within a forward-thinking company. Eager to leverage my knowledge in innovative power\nconversion technologies to drive advancements in the field.\nProteus\nCircuit Analysis\nMatlab/ Simulink\nArduino\nESP Controllers\nSensor Interfacing\nElectronic circuits\n ADDITIONAL SKILLS\n    \n      Soft Skill\n 3d Modeling/Animation\nAdobe After Affect\nMS word \nMendely\nReport Writing\n     Hard Skill\nElectrical Wiring\nmotor winding (basic)\nRepearing of appliances\nwelding  Biomedical InterneeEngineer (June 2023 \u2013 Sep 2023)Electrical InterneeEngineer (June 2022 \u2013Sep 2022)\nDuring my internship at Rawalpindi Institute of Cardiology as a\nBiomedical Engineering intern:\nGained hands-on experience in medical device maintenance\nand repair.\nAcquired valuable insights into healthcare technology\nmanagement.Gained extensive hands-on experience with distribution boards\n(DB), electric lines, and safety equipment.\nActively involved in the installation, maintenance, and\ntroubleshooting of electrical systems.\nEnhanced practical knowledge of electrical components.\nEnsured compliance with safety standards and regulations.\nImproved technical skills.\nPROJECTS\nEmbedded Intelligence-based Innovative Smart Stick for\nVisuallyImpaired Individuals (FYDP)\nArduino-based Heart rate and Oxygen Level smart monitoring\nsystem\nSuspension Systemof vehicals\nUninterruptible powersupply\nDC to AC  Inverte\nH Bridge  converter\nREFERENCES\n zeshan.aslam@ilu.edu.pkDr. Zeshan Aslam Khan\nEmail:  khizer.mehmood@ilu.edu.pkDr. Khizer Mehmood\nEmail :Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad.Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad.",
+        "macro_dict": {
+            "experience": 79,
+            "learning and adaptability": 21
+        },
+        "micro_dict": {
+            "helioscope": 47,
+            "project management": 49,
+            "load analysis": 4
+        },
+        "additional_info": "Our company values diversity in educational backgrounds and considers candidates from all accredited universities. Remote work options are available; however, relocation support is not provided. Skills and technical proficiency are assessed through a combination of online assessments and virtual interviews. We focus on the candidate's ability to learn new technologies and integrate into our team culture.",
+        "minimum_requirements": [
+            "Basic understanding of solar energy systems",
+            "Proficiency in MATLAB",
+            "Good communication skills",
+            "Pursuing a Bachelor's degree in Electrical Engineering"
+        ],
+        "resume": "Bachelor's Degree in Electrical engineering   \nCGPA  3.3/4  (2020-2024)\n                   \nDAE Electrical   88% International Islamic universty Islamabad\nGovernment College OF Technology Rawalpindi\nBlue Star Public School\nMatric   72%SUMMARY\nWORK EXPERIENCE EDUCATION\n SKILLSst #11 Madina Colony Misrial Road, Rawalpindiadeelghaffar81@gmail.com+923495470821ADEEL GHAFFAR\nElectrical Engineer\nElectrical Engineer with hands-on experience in electrical and electronics systems, including biomedical appliances.\nProficient in troubleshooting, repair, and maintenance. Passionate about inverters and converters, and seeking a role to\napply my expertise in this area within a forward-thinking company. Eager to leverage my knowledge in innovative power\nconversion technologies to drive advancements in the field.\nProteus\nCircuit Analysis\nMatlab/ Simulink\nArduino\nESP Controllers\nSensor Interfacing\nElectronic circuits\n ADDITIONAL SKILLS\n    \n      Soft Skill\n 3d Modeling/Animation\nAdobe After Affect\nMS word \nMendely\nReport Writing\n     Hard Skill\nElectrical Wiring\nmotor winding (basic)\nRepearing of appliances\nwelding  Biomedical InterneeEngineer (June 2023 \u2013 Sep 2023)Electrical InterneeEngineer (June 2022 \u2013Sep 2022)\nDuring my internship at Rawalpindi Institute of Cardiology as a\nBiomedical Engineering intern:\nGained hands-on experience in medical device maintenance\nand repair.\nAcquired valuable insights into healthcare technology\nmanagement.Gained extensive hands-on experience with distribution boards\n(DB), electric lines, and safety equipment.\nActively involved in the installation, maintenance, and\ntroubleshooting of electrical systems.\nEnhanced practical knowledge of electrical components.\nEnsured compliance with safety standards and regulations.\nImproved technical skills.\nPROJECTS\nEmbedded Intelligence-based Innovative Smart Stick for\nVisuallyImpaired Individuals (FYDP)\nArduino-based Heart rate and Oxygen Level smart monitoring\nsystem\nSuspension Systemof vehicals\nUninterruptible powersupply\nDC to AC  Inverte\nH Bridge  converter\nREFERENCES\n zeshan.aslam@ilu.edu.pkDr. Zeshan Aslam Khan\nEmail:  khizer.mehmood@ilu.edu.pkDr. Khizer Mehmood\nEmail :Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad.Department of Electrical and\nComputer Engineering.\nInternational University.\nPakistan. Islamic Islamabad."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

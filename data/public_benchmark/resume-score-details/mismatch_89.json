@@ -1,0 +1,152 @@
+{
+    "output": {
+        "justification": [
+            "Resume does not reflect any direct experience in digital marketing, which is crucial for the relevant experience score.",
+            "Leadership skills are not explicitly mentioned or demonstrated in the resume, affecting the leadership macro score.",
+            "Excel is mentioned as a skill but no specifics on proficiency level, impacting the micro score for Excel.",
+            "Python is listed in skills but not used in a professional context, impacting the micro score for Python."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 0
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo/sem",
+                    "score": 0
+                },
+                {
+                    "criteria": "project management",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 0.0,
+                "micro_scores": 1.56
+            }
+        },
+        "personal_info": {
+            "name": "Munazza Javed",
+            "email": "",
+            "phone": "",
+            "current_position": "Electrical Engineer",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "digital marketing experience": 100
+        },
+        "micro_dict": {
+            "seo/sem": 16,
+            "project management": 52,
+            "crm software expertise": 32
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Familiarity with Google Analytics and CRM tools"
+        ],
+        "resume": "Munazza Javed  - CV \nElectrical Engineer  \n(Communication ) \n \n   \n  \nPage  1  \n  \nElectrical Engineer with CGPA 3.4 2 I\u2019m a dedicated  and innovative Electrical \nEngineer with a proven track record of excellence in designing, developing, \nand implementing electrical systems and solutions. With a strong foundation \nin both theoretical and practical aspects of electrical engineering, my \ncombi nes technical expertise with a passion for advancing sustainable and \nefficient energy solutions. My experience spans across various industries, \nincluding power generation, renewable energy, and telecommunications, \nwhere I have consistently delivered high -quality results. I excel in dynamic \nenvironments, driving projects from conception to completion with \nmeticulous attention to detail and a commitment to exceeding client \nexpectations.  \nEducation:  \n\uf0b7 BS (Electrical  Engineering)  from University  of Engineering  & \nTechnology, Taxila,  Pakistan  (2020-2024). \n\uf0b7 FSC ( Pre-Engineering ) From HARVARD College of Commerce & Sciences \nRawalpindi  (2018 -2020) \n\uf0b7 Matric ( Scienes ) from Bab -ul-Elm Model Secondary School Garden Town \nIslamabad  (2016 -2018) \nSoftware(s)  Skills:  \n\uf076 MATLAB  \n\uf076 DevC++ \n\uf076 AutoCAD  \n\uf076 Python  \n\uf076 Excel \n\uf076 Modelsim  \n\uf076 Multisim \n\uf076 Canva  \n\uf076 Proteus  \n \nCertificates  & Achievements : \n\uf0a7 Participation Certificate on SOFT SKILLS  \n\uf0a7 Participation Certificate on Workshop Of MATLAB   \n\uf0a7 Participation Certificate on CAREER PATHWAY TO INDUSTRY  \n\uf0a7 Participation Certificate on Pakistan Energy Policy And Future Aspects   \n \nVolunteering Experience Positions:  \n\uf0b7 Member of Society of Innovative Electrical professionals (SIEP)  \n\uf0b7 Member of IEEE  \n \n \n Munazza Javed  - CV \nElectrical Engineer  \n(Communication ) \n \n   \n  \nPage  2  \n List of Projects:  \n\uf0b7 IOT Based Smart Glass glazing for residential use  (Final Year Project)  \n\uf0b7 Design For Agriculture Irrigation  \n\uf0b7 Aurdino Based Temperature Sensor \n\uf0b7 Digital Image Processing  Project  Extraction Of Image. \n\uf0b7 Digital Signal Processing Noise Filtering  \nTrainings:  \n\uf0b7 Internship at Kohinoor Textile Mills  \nHobbies:  \n\uf0d8 Book Reading  \n\uf0d8 Playing Badminton  \n \n "
+    },
+    "details": {
+        "name": "Munazza Javed",
+        "number": "",
+        "skills": [
+            "MATLAB",
+            "DevC++",
+            "AutoCAD",
+            "Python",
+            "Excel",
+            "Modelsim",
+            "Multisim",
+            "Canva",
+            "Proteus"
+        ],
+        "email_id": "",
+        "location": "",
+        "projects": [
+            {
+                "title": "IOT Based Smart Glass glazing for residential use",
+                "description": "Final Year Project"
+            },
+            {
+                "title": "Design For Agriculture Irrigation",
+                "description": ""
+            },
+            {
+                "title": "Aurdino Based Temperature Sensor",
+                "description": ""
+            },
+            {
+                "title": "Digital Image Processing Project Extraction Of Image",
+                "description": ""
+            },
+            {
+                "title": "Digital Signal Processing Noise Filtering",
+                "description": ""
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2024",
+                "university": "University of Engineering & Technology, Taxila, Pakistan",
+                "degree_title": "BS (Electrical Engineering)"
+            },
+            {
+                "end_date": "06-2020",
+                "university": "HARVARD College of Commerce & Sciences Rawalpindi",
+                "degree_title": "FSC (Pre-Engineering)"
+            },
+            {
+                "end_date": "06-2018",
+                "university": "Bab-ul-Elm Model Secondary School Garden Town Islamabad",
+                "degree_title": "Matric (Sciences)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Participation Certificate on SOFT SKILLS",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Participation Certificate on Workshop Of MATLAB",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Participation Certificate on CAREER PATHWAY TO INDUSTRY",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Participation Certificate on Pakistan Energy Policy And Future Aspects",
+                "issuing_organization": "",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Munazza Javed is a dedicated and innovative Electrical Engineer with a strong foundation in both theoretical and practical aspects of electrical engineering. With a proven track record in designing, developing, and implementing electrical systems and solutions, she has experience across various industries, including power generation, renewable energy, and telecommunications. Munazza consistently delivers high-quality results and excels in dynamic environments, driving projects from conception to completion with meticulous attention to detail.",
+        "employment_history": []
+    }
+}

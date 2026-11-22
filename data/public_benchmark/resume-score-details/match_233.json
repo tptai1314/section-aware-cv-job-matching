@@ -1,0 +1,174 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 8 years of relevant experience which exceeds the requirement of 5+ years, especially in sales and business development.",
+            "The candidate has demonstrated leadership by managing teams and being promoted from BDA to AMBD in a short period.",
+            "The candidate's experience with CRM systems (Propforce, Monday.com) and Microsoft Office is highlighted in their work history, aligning with job needs.",
+            "The educational background meets the requirement, but none are from the preferred institution; however, the candidate holds an MBA."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "lead generation",
+                    "score": 9
+                },
+                {
+                    "criteria": "crm systems",
+                    "score": 9
+                },
+                {
+                    "criteria": "market research",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "5+ years of relevant experience in business development",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in CRM tools and Microsoft Office Suite",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.52,
+                "micro_scores": 8.16
+            }
+        },
+        "personal_info": {
+            "name": "SULTAN MOUZAM CHUGHTAI",
+            "email": "sultanmouzam@yahoo.com",
+            "phone": "+923074234065",
+            "current_position": "Sales Manager",
+            "current_company": "Star Sterling",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "07-2014",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/sultanchughtaiali/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\nJoin **InnovateCorp** as a Business Development Manager to contribute to our growing team and drive strategic initiatives in the technology services sector. The ideal candidate will leverage their extensive experience in business development, client relations, and project management to expand our market presence and build lasting partnerships.\n\n#### Key Responsibilities:\n- Develop and implement strategic business development plans to achieve company goals.\n- Lead generation and relationship building with potential clients.\n- Oversee client acquisition strategies, including exploration beyond freelance markets.\n- Collaborate with cross-functional teams to ensure smooth project delivery.\n- Utilize CRM software for tracking client engagement and development progress.\n- Conduct market research to stay abreast of industry trends and inform business strategies.\n- Manage and report on business development metrics.\n\n#### Skills and Competencies:\n- Strong communication and interpersonal skills for client engagement and collaboration.\n- Excellent analytical abilities to inform proposals and strategic decisions.\n- Experience with Microsoft Office for documentation and presentations.\n- Proficiency in CRM software for managing client relationships.\n\n#### Benefits:\n- Competitive salary with bonus incentives.\n- Opportunities for professional development and career advancement.\n- Health and dental insurance packages.\n- Flexible working hours and a positive, team-oriented environment.",
+        "macro_dict": {
+            "leadership": 23,
+            "experience": 29,
+            "strategic planning": 48
+        },
+        "micro_dict": {
+            "lead generation": 39,
+            "crm systems": 19,
+            "market research": 42
+        },
+        "additional_info": "InnovateCorp prefers candidates from leading business schools such as COMSATS Institute of Information and Technology. We support relocation for the right candidate and offer remote work opportunities. Skills are assessed through a combination of technical interviews and practical case studies, ensuring candidates meet our high standards of performance before offering a position.",
+        "minimum_requirements": [
+            "5+ years of relevant experience in business development",
+            "Proficiency in CRM tools and Microsoft Office Suite",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "SULTAN MOUZAM\nCHUGHTAI \nB2B|B2C SALES & MARKETING\n|BUSINESS DEVELOPER\nOBJECTIVE\nResult oriented professional with 8 years of experience in Sales, Customer Services and\nBusiness Development with organizations & Corporates. Develop strategies in creating\nSales plan & resolving problems. Enthusiastic in Developing and administering the\nCustomer relationships and Team performance.\nWORK EXPERIENCE\nSKILLSCONTACT\nSales Manager / Star Sterling \n\u25cfDeveloped and maintained good   relationships with Estate agents for continuous Business.\n\u25cfMonitored  & recommended Improvement in Sales plans to achieve all key business\nobjectives.\n\u25cf Maintaining an efficient relationship with Directors & Customers.\n\u25cf I have excellent grip in onboarding   resources for the required projects and objectives.\n\u25cf I have gained optimum results in Market handling.\n\u25cf Built the high performing team to sustainably deliver the business plans.\n\u25cf Provided proactive support to customers, to drive high levels of customer satisfaction,\ndeep engagement, and mutual success.\n\u25cf Analyzing sales KPIs and taking productive actions.\n\u25cf Administer sales pipeline and improve opportunities for sales.\n\u25cfDeveloped processes on CRM   and have mastered Monday.com.\n\u25cfEfficient command on MS Office specificall y MS Word, Excel, Powerpoint, Google docs,\nGoogle drive.\n \ndjJanuary 2022 - Present\nAssistant Manager Business Sales / Zameen.com\nAchieved 96%   monthly targets at an average.\nClosed Sales of 110 million PKR and generated the revenue of 13 million for\nzameen.com\nMy biggest sale was about 23 million in the month of July.\nI have trained a team of 6 BDO's & managed 30 projects in Lahore.\nGot promoted within 6 months from BDA to AMBD\nManaged Propforce CRM on a daily basisMarch 2020 - November 2021+923074234065\nsultanmouzam@yahoo.com\nhttps://www.linkedin.com/i\nn/sultanchughtaiali/\nLahore, Pakistan\n\u25cf      Leadership and Management\n\u25cf      Emotional Intelligence\n\u25cf      Business Intelligence\n\u25cf      Communication & Negotiations\n\u25cf      Entrepreneurial spirit\n\u25cf      Training and mentoring\n\u25cf      Team Player Attitude\n\u25cf       Work Ethic\n\u25cf       Strategy Development\n\u25cf       Active Listening\nCustomer Service Representative / Mindbridge\nJanuary 2019 - November 2019\nWorked on International Campaign (Uber Eats - EMEA Region).\nResponded to 60 calls and tickets per day on average.\nWorked on Zendesk for help desk management system.\nConsistently Improved customer satisfaction through expert resolution of conflicts, Issues\nand concerns..EDUCATION\nMBA / Master of Business Administration CGPA 3.03Owner & Fitness Instructor / Platinum Gym\nJuly 2014 - November 2018\nStarted from core and within 6 month's tool the business to the Summit.\nAfter 1 year business grew up to 20 % in-terms of net profit.\nIntroduced multiple training sessions & maintained average customers of 200 per month.\nAt the time of business liquidation earning was 50 % in terms of net profit.\nCustomer Service Representative / Mindbridge Pvt LTD\nJanuary 2013 - Feburary 2014\nWorked on 5 Projects at the same time i.e. Simple Mobile, T-Mobile, Faveriotel & Shah\nTel.\nUsed to manage their CRM to answer client queries.\nGive Accurate and appro priate information to answer questions, troubleshoot issues, and\nresolve complaints.\nAchieved 96% of customer satisfaction rating.\nAchieved and maintained 97 % of customer satisfaction rating.\nDeveloped highly empathetic client relationships and earned reputation for delivering\nexceptional customer service.\nUniversity of Central Punjab 2017 - 2019\nUniversity of South Asia 2012 - 2016\nBBA / Bachelors in Business Administration CGPA 3.44\nACTIVITIES\n\u25cf  Volunteered at Sunshine Rising school as Admin Executive  \n\u25cf  IELTS with 7 Band over all\n\u25cf  Duolingo English testEnglish\nUrdu\nArabic\nPunjabiBUSINESS TOOLS\nSales Force \nPipe Drive \nMonday.com \nBitrix 24\nPipelinepro \nPropforce\nConnecteams\nRingCentral \nZendesk\nGoogle Docs\nLANGUAGE'SLANGUAGE'S\nINTO Common Purpose Leadership course 2010 - 2011\nManchester United kingdom "
+    },
+    "details": {
+        "name": "Sultan Mouzam Chughtai",
+        "number": "923074234065",
+        "skills": [
+            "Sales Force",
+            "Pipe Drive",
+            "Monday.com",
+            "Bitrix 24",
+            "Pipelinepro",
+            "Propforce",
+            "Connecteams",
+            "RingCentral",
+            "Zendesk",
+            "Google Docs"
+        ],
+        "email_id": "sultanmouzam@yahoo.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "11-2018",
+                "university": "University of Central Punjab",
+                "degree_title": "MBA / Master of Business Administration"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "University of South Asia",
+                "degree_title": "BBA / Bachelors in Business Administration"
+            }
+        ],
+        "achievements": [
+            "Achieved 96% monthly targets at Zameen.com",
+            "Closed Sales of 110 million PKR and generated revenue of 13 million for Zameen.com",
+            "Promoted within 6 months from BDA to AMBD at Zameen.com",
+            "Achieved 96% customer satisfaction rating at Mindbridge"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/sultanchughtaiali/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Sultan Mouzam Chughtai is a results-oriented professional with 8 years of experience in sales, customer services, and business development. He has a proven track record of achieving sales targets and developing strong customer relationships, demonstrating expertise in various business tools and CRM systems.",
+        "employment_history": [
+            {
+                "details": "Developed and maintained good relationships with Estate agents for continuous business. Monitored & recommended improvement in sales plans to achieve all key business objectives. Built a high-performing team to sustainably deliver business plans.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sales Manager",
+                "start_date": "01-2022",
+                "company_name": "Star Sterling"
+            },
+            {
+                "details": "Achieved 96% monthly targets at an average. Closed sales of 110 million PKR and generated revenue of 13 million for Zameen.com. Managed Propforce CRM on a daily basis.",
+                "end_date": "11-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Assistant Manager Business Sales",
+                "start_date": "03-2020",
+                "company_name": "Zameen.com"
+            },
+            {
+                "details": "Worked on International Campaign (Uber Eats - EMEA Region). Responded to 60 calls and tickets per day on average. Worked on Zendesk for help desk management system.",
+                "end_date": "11-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Representative",
+                "start_date": "01-2019",
+                "company_name": "Mindbridge"
+            },
+            {
+                "details": "Worked on 5 projects at the same time. Managed their CRM to answer client queries. Achieved and maintained 97% customer satisfaction rating.",
+                "end_date": "02-2014",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Representative",
+                "start_date": "01-2013",
+                "company_name": "Mindbridge Pvt LTD"
+            }
+        ]
+    }
+}

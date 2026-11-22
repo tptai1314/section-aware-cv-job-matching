@@ -1,0 +1,148 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not meet the requirement of 3+ years experience in lead generation or business intelligence as the current role is in Amazon Drop Shipping and Product Hunting from 01/2022, which is insufficient duration and does not match the domain.",
+            "The resume fulfills the bachelor's degree requirement but not from the preferred university listed in the additional info.",
+            "Experience with business intelligence tools such as Tableau, Power BI, and SQL is not demonstrated in the resume.",
+            "Lack of mention of digital marketing skills explicitly in the resume which are key for the business intelligence role.",
+            "Proficiency in C++, HTML, CSS mentioned however does not cover listed programming exposure.",
+            "Some project management experience indicated but not clearly aligned with job description requirements.",
+            "No evidence that the candidate has worked in any company matching criteria outlined by recruiter history documentation."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 5
+                },
+                {
+                    "criteria": "business intelligence tools (power bi, sql, tableau)",
+                    "score": 0
+                },
+                {
+                    "criteria": "digital marketing skills",
+                    "score": 3
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Computer Science, Business, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.47,
+                "micro_scores": 3.61
+            }
+        },
+        "personal_info": {
+            "name": "Shahbaz Joiya",
+            "email": "Shahbazjoiya07@gmail.com",
+            "phone": "+923070504083",
+            "current_position": "Team Lead (Amazon Drop Shipping and Product Hunting)",
+            "current_company": "ADH Sahiwal",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "01-2022",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 45,
+            "experience": 36,
+            "innovation and adaptability": 19
+        },
+        "micro_dict": {
+            "c++, html, css": 4,
+            "business intelligence tools (power bi, sql, tableau)": 9,
+            "digital marketing skills": 47,
+            "project management": 40
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+            "Bachelor's degree in Computer Science, Business, or a related field",
+            "3+ years of experience in lead generation or business intelligence"
+        ],
+        "resume": "Shahbaz Joiya \nBusiness Development Executive \nTo get a challenging position in growth and career oriented Organization, where challenges are a\nroutine work and where I show the best of my abilities and quali\ufb01cation for the progress of that\norganization and upgrade my career. \nShahbazjoiya07@gmail.com \n+923070504083 \nJohar Town R1 Phase 2,\nLahore, Pakistan \nSKILLS \nBusiness Developement \nProject Management \nCommunication \nHTML \nCSS \nJavaScript \nBootstrap \nQuick Learner \nProblem Solving \nLANGUAGES \nUrdu \nNative or Bilingual Pro\ufb01ciency \nEnglish \nProfessional Working Pro\ufb01ciency \nINTERESTS \nTravelling \nMovies Collection \nEDUCATION \nBachelor's of Science in Computer Science \nGovt. College University Faisalabad, Sahiwal Campus \n09/2017 - 07/2021\n, \n \nIntro to Management \nBusiness Developement \nSoftware Engineering \nObject Oriented Programming \nData Structure and Algorithm \nOperating System \nIntermediate in Computer Science \nPunjab College Haronabad \n04/2015 - 07/2017\n, \n \nWORK EXPERIENCE \nTeam Lead (Amazon Drop Shipping and Product Hunting) \nADH Sahiwal \n01/2022 - Present\n, \n \nPERSONAL PROJECTS \nHome Automation by using Sensors (FYP)\n (09/2020 - 06/2021)\n \nFeatures:- \nIt's a centralized control of lighting, heating, ventilation and air conditioning appliances, and\nother systems, to provide improved convenience, comfort, energy e\ufb03ciency and security. \nSensors:-\n It's includes \nTemperature Sensors & Smart Thermostats, \nLight Sensors, \nMotion Sensors, \nWindow\nand Door Sensors, and \nSmart Smoke and CO Sensors. \nE-Commerce Website \nTools:- \nVisual Studio Code, HTML, CSS, JavaScript, SQL management system and asp.net MVC. \nWeb based Ecommerce site developed in asp.net MVC. \nFeatures:-\n Check the list of Item with category, View the details of item, and List of latest Item \nACHIEVEMENTS \nThe Punjab Education Endowment Fund - PEEF\n (2017 - 2021)\n \nCourses "
+    },
+    "details": {
+        "name": "Shahbaz Joiya",
+        "number": "923070504083",
+        "skills": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Bootstrap"
+        ],
+        "email_id": "Shahbazjoiya07@gmail.com",
+        "location": "Johar Town R1 Phase 2, Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Home Automation by using Sensors (FYP)",
+                "description": "It's a centralized control of lighting, heating, ventilation and air conditioning appliances, and other systems, to provide improved convenience, comfort, energy efficiency and security."
+            },
+            {
+                "title": "E-Commerce Website",
+                "description": "Web based Ecommerce site developed in asp.net MVC."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "07-2021",
+                "university": "Govt. College University Faisalabad, Sahiwal Campus",
+                "degree_title": "Bachelor's of Science in Computer Science"
+            },
+            {
+                "end_date": "07-2017",
+                "university": "Punjab College Haronabad",
+                "degree_title": "Intermediate in Computer Science"
+            }
+        ],
+        "achievements": [
+            "The Punjab Education Endowment Fund - PEEF (2017 - 2021)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Shahbaz Joiya is a dedicated Business Development Executive with a strong background in computer science and technical skills in web development technologies such as HTML, CSS, JavaScript, and Bootstrap. He has demonstrated his capabilities through various projects, including a home automation system and an e-commerce website.",
+        "employment_history": [
+            {
+                "details": "Team Lead (Amazon Drop Shipping and Product Hunting)",
+                "end_date": "Present",
+                "location": "ADH Sahiwal",
+                "job_title": "Team Lead",
+                "start_date": "01-2022",
+                "company_name": "ADH Sahiwal"
+            }
+        ]
+    }
+}

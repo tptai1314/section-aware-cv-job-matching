@@ -1,0 +1,215 @@
+{
+    "output": {
+        "justification": [
+            "Iqra Shaheen has 5 years of experience in roles such as Product Specialist and Operations Lead, which lack specific wireless and telecommunications experience required for this role.",
+            "Her educational background in EMBA Corporate Strategy is not a match compared to the required Bachelor's degree in Telecommunications Engineering.",
+            "Despite involvement in technical and management roles, there is no explicit mention of experience with GSM, UMTS, LTE, and NR technologies.",
+            "Although she possesses skills in technical support and problem solving, the use of Huawei Technologies or specific telecommunications network troubleshooting is not evident."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 6
+                },
+                {
+                    "criteria": "technical expertise",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "huawei technologies",
+                    "score": 2
+                },
+                {
+                    "criteria": "network troubleshooting",
+                    "score": 3
+                },
+                {
+                    "criteria": "project scheduling",
+                    "score": 5
+                },
+                {
+                    "criteria": "site audit",
+                    "score": 2
+                },
+                {
+                    "criteria": "5g nr integration",
+                    "score": 1
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 7
+                },
+                {
+                    "criteria": "problem solving",
+                    "score": 6
+                },
+                {
+                    "criteria": "team coordination",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in GSM, UMTS, LTE, and NR technologies",
+                    "meets": false
+                },
+                {
+                    "criteria": "8+ years of industry experience",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Telecommunications Engineering",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.84,
+                "micro_scores": 3.34
+            }
+        },
+        "personal_info": {
+            "name": "Iqra Shaheen",
+            "email": "iqrashaheen1309@gmail.com",
+            "phone": "03020410952",
+            "current_position": "Product Specialist - Tech",
+            "current_company": "EMPG Labs",
+            "employment_start_date_current_company": "10-2022",
+            "first_company_start_date": "05-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/iqra-shaheen-430667162"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Job Title: Senior Wireless Integration Engineer\n\n#### Company: FutureNet Solutions\n\n**Location**: Islamabad, Pakistan\n\n**Job Summary**:  \nAs a Senior Wireless Integration Engineer, you will join FutureNet Solutions to lead and oversee telecommunication projects across multiple regions. Your responsibilities will include managing cross-functional teams, integrating wireless networks, and coordinating with field teams to ensure quality and timely delivery.\n\n**Key Responsibilities**:\n- Provide remote delivery services for multiple countries, conducting both pre-integration checks and post-integration validations.\n- Oversee the integration of 2G, 3G, 4G, 5G NR wireless sites using advanced tools such as Web CME, Cloud CME, and MML commands.\n- Coordinate with field teams to supervise installations and resolve on-site technical issues.\n- Prepare and manage project schedules and ensure completion in line with client specifications.\n- Perform site audits and equipment testing, including Huawei BTS and transmission nodes.\n- Act as a key technical support contact for troubleshooting and logical problem resolution.\n\n**Skills & Qualifications**:\n- Bachelor\u2019s degree in Telecommunications Engineering or a related field.\n- 8+ years of experience in wireless and telecommunications engineering.\n- Strong knowledge of GSM, UMTS, LTE, NR technologies, and network troubleshooting.\n- Proficiency in Huawei and Nokia RAN-SRAN equipment.\n- Excellent leadership, communication, and project management skills.\n- Ability to work independently and handle multiple projects under tight deadlines.\n\n**Salary**: Competitive salary with benefits commensurate with experience.\n\n**How to Apply**: Submit your CV and a cover letter detailing your relevant experience to careers@futurenetsolutions.com by [Deadline].",
+        "macro_dict": {
+            "leadership": 42,
+            "technical expertise": 58
+        },
+        "micro_dict": {
+            "huawei technologies": 20,
+            "network troubleshooting": 21,
+            "project scheduling": 12,
+            "site audit": 6,
+            "5g nr integration": 18,
+            "communication skills": 9,
+            "problem solving": 8,
+            "team coordination": 6
+        },
+        "additional_info": "FutureNet Solutions actively seeks candidates from top engineering institutions such as BUITEMS and NUST, with a preference for candidates holding professional engineering certifications. Our hiring process includes technical assessments and multiple interview stages. We offer relocation assistance for qualified candidates and provide both on-site and remote work options based on project needs.",
+        "minimum_requirements": [
+            "Proficiency in GSM, UMTS, LTE, and NR technologies",
+            "8+ years of industry experience",
+            "Bachelor's degree in Telecommunications Engineering"
+        ],
+        "resume": "Iqra Shaheen \nCorporate Professional \nI'm a self-motivated professional passionate about quality and product\nmanagement. I have solid understanding of technical product management\nprocesses and QA methodologies used in industry and have the ability to\nwork in minimal supervision. \niqrashaheen1309@gmail.com \n03020410952 \nLahore, Pakistan \nlinkedin.com/in/iqra-shaheen-430667162 \nWORK EXPERIENCE \nProduct Specialist - Tech \nEMPG Labs \n10/2022 - Present\n, \n \nStrategized, prototyped and managed various digital products. \nResolved technical issues of end-users and conducted\ntroubleshooting operations for system failures and wrote\nresolution reports. \nDe\ufb01ned the product strategy, roadmap, and prepared\nPRDs/Specs with prioritized features. \nDid data analysis and pain point analysis. Expert on wireframing\nand prototyping using AdobeXD. \nAnalyzed data on SDLC, Google Analytics, Firebase, Data Studio,\nand Databases while following the SCRUM framework. \nManaged clients independently and bridged gaps between\nengineering, marketing, sales, customer support, and end-users. \nHelped the QA group in testing of several major and minor\nsoftware releases to ensure smooth delivery of the features. \nOperations Lead \nAirlift Technologies \n10/2021 - 06/2022\n, \n \nManaged end-to-end inventory & WH operations \ufb02ow to ensure\nsmoothness in line with strategic target. \nTesting of apps available for store operators team and providing\ntechnical support. \nAnalyzing data using metabase to review warehouse(s)\nperformance. \nE-Commerce Specialist/Project Manager \nVivid Ads Australia \n12/2019 - 05/2020\n, \n \nLahore \n(www.vividads.com.au) \nSEO, brand guidelines, inventory allocation processes and testing\nfor quality assurance and overall Web management. \nResource allocation, vendor coordination, pro\ufb01tability\nmanagement and control while providing technical direction to\ndesign & dispatch team. \nCredit Risk Analyst \nEpay Worldwide \n05/2018 - 05/2019\n, \n \nLahore \nChecking customer's credit ratings with banks and performing\ncredit checks. \nManaging commercial and consumer debt recoveries and bad\ndebts. \nEDUCATION \nEMBA Corporate Strategy (2023) \nUMT(University of Management and Technology) \nSKILLS \nTesting Tools and frameworks: Cypress, Mocha, Chai\nAssertions, Page Object Model \nLanguages: Javascript \nDatabases: SQL Server, Management Studio, SQL Queries \nTechnical support & writings \nPM Tools: Asana, Jira \nExcellent Analytical and Problem Solving Skills \nAbility to drive test scenarios and test cases \nAPI Testing Tools: Postman \nSCRUM/Agile \nAdobe XD \nACHIEVEMENTS \nDean's Merit Award \nI was awarded with Dean's Merit Award for scoring 3.8/4.00 SGPA in my\nMaster's Degree Program. \n7th International Conference on Business Management \nPresented my paper online in an International Conference and received\ncerti\ufb01cation of presentation . \nPERSONAL PROJECTS \nFinal Year Project - MSCM\n (05/2021 - 09/2021)\n \nPRISMA Protocol and R Programming in the systematic literature review of\nimplementing green supply chain practices in the textile manufacturing\n\ufb01rms of Pakistan. \nCERTIFICATIONS \nUdemy, Inc \nThe Complete SQL Bootcamp 2022\n \nBlueLime Learning Solutions \nData Analyst | Business Intelligence | \nPython | Pandas | SQL\n \nTest Automation University \nPROGRAMMING LANGUAGE - JAVASCRIPT \nUdemy, Inc \nAdobe Xd Design Mode Complete Guide and Walkthrough \nLANGUAGES \nEnglish \nUrdu \nPunjabi \nINTERESTS \nGaming \nKeeping up with the current a\ufb00airs \nTravelling/Road Trips \nCricket \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks "
+    },
+    "details": {
+        "name": "Iqra Shaheen",
+        "number": "03020410952",
+        "skills": [
+            "Cypress",
+            "Mocha",
+            "Chai Assertions",
+            "Javascript",
+            "SQL Server",
+            "Management Studio",
+            "SQL Queries",
+            "Asana",
+            "Jira",
+            "Postman",
+            "SCRUM",
+            "Adobe XD"
+        ],
+        "email_id": "iqrashaheen1309@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Final Year Project - MSCM",
+                "description": "PRISMA Protocol and R Programming in the systematic literature review of implementing green supply chain practices in the textile manufacturing firms of Pakistan."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2023",
+                "university": "UMT(University of Management and Technology)",
+                "degree_title": "EMBA Corporate Strategy"
+            }
+        ],
+        "achievements": [
+            "Dean's Merit Award for scoring 3.8/4.00 SGPA in Master's Degree Program",
+            "Presented paper online in the 7th International Conference on Business Management and received certification of presentation."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "The Complete SQL Bootcamp",
+                "issuing_organization": "Udemy, Inc",
+                "date_of_issuance": "2022"
+            },
+            {
+                "certification_name": "Data Analyst | Business Intelligence | Python | Pandas | SQL",
+                "issuing_organization": "BlueLime Learning Solutions",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "PROGRAMMING LANGUAGE - JAVASCRIPT",
+                "issuing_organization": "Test Automation University",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "Adobe Xd Design Mode Complete Guide and Walkthrough",
+                "issuing_organization": "Udemy, Inc",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/iqra-shaheen-430667162",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Iqra Shaheen is a self-motivated corporate professional with a strong passion for quality and product management. She possesses a solid understanding of technical product management processes and QA methodologies, demonstrating the ability to work with minimal supervision. Iqra has extensive experience in strategizing, prototyping, and managing digital products, along with a proven track record in technical support and data analysis.",
+        "employment_history": [
+            {
+                "details": "Strategized, prototyped and managed various digital products. Resolved technical issues of end-users and conducted troubleshooting operations for system failures and wrote resolution reports. Defined the product strategy, roadmap, and prepared PRDs/Specs with prioritized features. Did data analysis and pain point analysis. Expert on wireframing and prototyping using AdobeXD. Analyzed data on SDLC, Google Analytics, Firebase, Data Studio, and Databases while following the SCRUM framework. Managed clients independently and bridged gaps between engineering, marketing, sales, customer support, and end-users. Helped the QA group in testing of several major and minor software releases to ensure smooth delivery of the features.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Product Specialist - Tech",
+                "start_date": "10-2022",
+                "company_name": "EMPG Labs"
+            },
+            {
+                "details": "Managed end-to-end inventory & WH operations flow to ensure smoothness in line with strategic target. Testing of apps available for store operators team and providing technical support. Analyzing data using metabase to review warehouse(s) performance.",
+                "end_date": "06-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Operations Lead",
+                "start_date": "10-2021",
+                "company_name": "Airlift Technologies"
+            },
+            {
+                "details": "SEO, brand guidelines, inventory allocation processes and testing for quality assurance and overall Web management. Resource allocation, vendor coordination, profitability management and control while providing technical direction to design & dispatch team.",
+                "end_date": "05-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "E-Commerce Specialist/Project Manager",
+                "start_date": "12-2019",
+                "company_name": "Vivid Ads Australia"
+            },
+            {
+                "details": "Checking customer's credit ratings with banks and performing credit checks. Managing commercial and consumer debt recoveries and bad debts.",
+                "end_date": "05-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Credit Risk Analyst",
+                "start_date": "05-2018",
+                "company_name": "Epay Worldwide"
+            }
+        ]
+    }
+}

@@ -1,0 +1,176 @@
+{
+    "output": {
+        "justification": [
+            "Candidate holds an MBA from Lahore School of Economics which is a reputable institution but not highlighted in preferred schools, partial credit awarded for 'Experience'.",
+            "Experience managing a sales force and strategic role in a bank align with job description to some degree.",
+            "Demonstrates significant project management and strategic planning skills which justify a moderate score for Strategic Thinking.",
+            "Excellent mastery of Microsoft Office suite tools as evident in experience and skill section, aligning well with job requirements, thus high score on Microsoft Office."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 9
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.8999999999999995,
+                "micro_scores": 7.24
+            }
+        },
+        "personal_info": {
+            "name": "Ahmad Noor-ud-Din",
+            "email": "ahmad.noorudin@yahoo.com",
+            "phone": "+92-345-4536653",
+            "current_position": "Sr. Manager - Projects Implementation, Retail Banking Group",
+            "current_company": "MCB Bank Limited",
+            "employment_start_date_current_company": "10-2018",
+            "first_company_start_date": "07-2015",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/ahmad-noor-ud-din-02934391"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 10,
+            "strategic thinking": 90
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 56,
+            "sales process management": 44
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field"
+        ],
+        "resume": "  \n \n \nPersonal Summary  \nAn MBA educated High performing and \nstrategic thinking professional with three \nyears of diversified experience in Business \nand Financ ial Analytics, S ales Support and \nClient M anagement  with exposure to \nnational, international, and multicultural \norganizations  \n \nWell versed in using various business \nintelligence soft ware . A data scientist in the \nmaking.  I am adaptable, innovative leader \ncommitted to honesty, transparency and \nimprovement of  processes  \n \nContact  \nAddress: 208 A -1 Tufail Road, Lahore Cantt  \nPhone: +92-345-4536653  \nEmail:  ahmad.noorudin@yahoo.com  \nDate of Birth:  28-Aug-1994  \n \nLinkedin Profile:  \nlinkedin.com/in/ahmad -noor -ud-din-\n02934391  \n \n \nSkills Highlight  \n \n\uf0b7 Microsoft Excel  \uf0b7 Microsoft Visio  \n\uf0b7 Microsoft Access  \uf0b7 Microsoft Project  \n\uf0b7 Microsoft PP \uf0b7 Corel Draw  \n\uf0b7 Microsoft Word  \uf0b7 Power BI  \n\uf0b7 Adobe Photoshop  \uf0b7 Tableau  \n\uf0b7 Adobe Illustrator  \uf0b7 Python  \n\uf0b7 Adobe Premier  \uf0b7 SQL \n\uf0b7 Digital Marketing  \uf0b7 Account Mgt.  \n \nProfessional  Experience  \nMCB Bank Limited \u2013 (October 2018 \u2013 Present ) \nSr. Manager  - Projects Implementation , Retail Banking Group  \n\uf0b7 Main point of contact for all ongoing projects  at a group level.  \n\uf0b7 Provide project updates on a consistent basis to various stakeholders about strategy, \nadjustments, and progress . \n\uf0b7 Develop and manage a detailed proj ect schedule and work plan . \n\uf0b7 Utilize industry best prac tices, techniques, &  standards throughout project execution  \n\uf0b7 Determine and define project scope and objectives . \n\uf0b7 Measure project performance to identify areas for improvement  \nManager - Business Intelligence Unit (BIU), Retail Banking Group  \n\uf0b7 Sales Coordination \u2013 Managing a sales force of 500+ Relationship Managers . \n\uf0b7 Financial Modeling and Budgeting \u2013 Creating yearly budgets for business areas . \n\uf0b7 Monitoring and Evaluating performance against assigned budgets periodically.  \n\uf0b7 Strategy Development \u2013 Creating business growth strategies . \n\uf0b7 Data Analytics and MIS development for business (Excel, Power BI, SQL, Tableau) . \n\uf0b7 Creating campaigns to increa se business performance.  \n\uf0b7 Develop reports, system modules  and conduct UAT . \n \nUber Technologies \u2013 (January 2017 \u2013 August 2017)  \nGreenlight Expert - II, Operations  \n\uf0b7 Partner Driver Coordination - Resolving day to day problems faced.  \n\uf0b7 Training and Onboarding \u2013 Lead Trainer for existing  and new partner drivers.  \n\uf0b7 Redesigned and Improved the training process.  \n\uf0b7 Creating campaigns to increase partner productivity through incentives schemes.  \n\uf0b7 Integral part of the Launch Team for Islamabad and Gu jranwala  \n \nMarksman Marketing Consultancy  \u2013 (July 2016 \u2013 January 2017)  \nIntern \u2013 PMI (Trade Tracker),  Operations  \n\uf0b7 Data analytics and Report Development for and performance dashboards and r eal-time \ndata tracking (Excel and Power BI).  \n\uf0b7 Client Coordination \u2013 Resolve problems an d provide the relevant reports.  \n\uf0b7 Spearheaded the  Launch Team for the census and the merchandising project.  \n \nFINCA Microfinance Bank Ltd  \u2013 (April 2016 \u2013 June 2016 ) \nIntern,  Marketing and Customer Experience  \n\uf0b7 Worked on the Mission Monitor Project, ensuring compliance of FINCA guidelines and \ngain insights into the customers and their banking  experience.  \n \nBank Alfalah Ltd  \u2013 (July 2015 \u2013 September 2015 ) \nProject Intern,  Finance  \n\uf0b7 Worked alongside the regional teams to gain insights into industry standards and \nposition of Bank Alfalah Limited vs the industry.  \n \nEducation  \nMasters of Business Administration (MBA)  \u2013 (2017 \u2013 2018)  \nGeneral - (Finance and Marketing)  \nLahore School of Economics  - (CGPA 3.27)  \nBachelors in Business Administration (BBA - Honors)  \u2013 (2012  \u2013 2016 ) \nDouble Majors - (Finance and Marketing)  \nLahore School of Economics - (CGPA 3.48)  \nO and A Levels  (Engineering ) \u2013 (2007  \u2013 2012 ) \nAitchison College Lahore  \n \nCertifications  \nSocial Media Marketing:  Google AdWords and Analytics Certified  \n \nAdditional Experience  \nDigital Marketing Head,  Noor\u2019s Party and Event Plan ning \u2013 (September 2015 \u2013 Present)  \nVolunteer (Rahbar) , The Citizens Foundation Pakistan \u2013 (September 2019 \u2013 November 2019)  \nSociety President,  Aitchison College Computing Society \u2013 (August 2011 \u2013 July 2012)  Ahmad Noor -ud- Din "
+    },
+    "details": {
+        "name": "Ahmad Noor-ud-Din",
+        "number": "923454536653",
+        "skills": [
+            "Microsoft Excel",
+            "Microsoft Visio",
+            "Microsoft Access",
+            "Microsoft Project",
+            "Microsoft PowerPoint",
+            "Corel Draw",
+            "Microsoft Word",
+            "Power BI",
+            "Adobe Photoshop",
+            "Tableau",
+            "Adobe Illustrator",
+            "Python",
+            "Adobe Premiere",
+            "SQL",
+            "Digital Marketing"
+        ],
+        "email_id": "ahmad.noorudin@yahoo.com",
+        "location": "208 A -1 Tufail Road, Lahore Cantt",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2018",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration (MBA)"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelors in Business Administration (BBA - Honors)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Social Media Marketing",
+                "issuing_organization": "Google AdWords and Analytics",
+                "date_of_issuance": "01-2018"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ahmad-noor-ud-din-02934391",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahmad Noor-ud-Din is a highly skilled professional with an MBA and extensive experience in business and financial analytics, sales support, and client management. He has a strong technical background in various business intelligence software and data analytics tools, demonstrating a commitment to process improvement and project management.",
+        "employment_history": [
+            {
+                "details": "Main point of contact for all ongoing projects at a group level. Provide project updates on a consistent basis to various stakeholders about strategy, adjustments, and progress. Develop and manage a detailed project schedule and work plan. Utilize industry best practices, techniques, & standards throughout project execution. Determine and define project scope and objectives. Measure project performance to identify areas for improvement.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Sr. Manager - Projects Implementation",
+                "start_date": "10-2018",
+                "company_name": "MCB Bank Limited"
+            },
+            {
+                "details": "Sales Coordination \u2013 Managing a sales force of 500+ Relationship Managers. Financial Modeling and Budgeting \u2013 Creating yearly budgets for business areas. Monitoring and Evaluating performance against assigned budgets periodically. Strategy Development \u2013 Creating business growth strategies. Data Analytics and MIS development for business (Excel, Power BI, SQL, Tableau). Creating campaigns to increase business performance. Develop reports, system modules and conduct UAT.",
+                "end_date": "Present",
+                "location": "Lahore",
+                "job_title": "Manager - Business Intelligence Unit (BIU)",
+                "start_date": "10-2018",
+                "company_name": "MCB Bank Limited"
+            },
+            {
+                "details": "Partner Driver Coordination - Resolving day to day problems faced. Training and Onboarding \u2013 Lead Trainer for existing and new partner drivers. Redesigned and Improved the training process. Creating campaigns to increase partner productivity through incentives schemes. Integral part of the Launch Team for Islamabad and Gujranwala.",
+                "end_date": "08-2017",
+                "location": "Islamabad",
+                "job_title": "Greenlight Expert - II",
+                "start_date": "01-2017",
+                "company_name": "Uber Technologies"
+            },
+            {
+                "details": "Data analytics and Report Development for performance dashboards and real-time data tracking (Excel and Power BI). Client Coordination \u2013 Resolve problems and provide the relevant reports. Spearheaded the Launch Team for the census and the merchandising project.",
+                "end_date": "01-2017",
+                "location": "Lahore",
+                "job_title": "Intern \u2013 PMI (Trade Tracker)",
+                "start_date": "07-2016",
+                "company_name": "Marksman Marketing Consultancy"
+            },
+            {
+                "details": "Worked on the Mission Monitor Project, ensuring compliance of FINCA guidelines and gain insights into the customers and their banking experience.",
+                "end_date": "06-2016",
+                "location": "Lahore",
+                "job_title": "Intern",
+                "start_date": "04-2016",
+                "company_name": "FINCA Microfinance Bank Ltd"
+            },
+            {
+                "details": "Worked alongside the regional teams to gain insights into industry standards and position of Bank Alfalah Limited vs the industry.",
+                "end_date": "09-2015",
+                "location": "Lahore",
+                "job_title": "Project Intern",
+                "start_date": "07-2015",
+                "company_name": "Bank Alfalah Ltd"
+            }
+        ]
+    }
+}

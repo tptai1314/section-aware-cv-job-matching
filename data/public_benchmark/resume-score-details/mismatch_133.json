@@ -1,0 +1,140 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is low due to lack of clear leadership roles or team management experience.",
+            "Relevant experience in business development is lacking as the experience listed is primarily in graphic design freelancing.",
+            "Strong Excel skills are evident, with mention of proficiency and usage.",
+            "Negotiation skills are not evidenced in the resume, leading to a low score."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 2
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "market research",
+                    "score": 2
+                },
+                {
+                    "criteria": "negotiation",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.07,
+                "micro_scores": 1.21
+            }
+        },
+        "personal_info": {
+            "name": "Syed Rutab Gillani",
+            "email": "rutabshah@rutabshah@gmail.com",
+            "phone": "+92345-0235147",
+            "current_position": "Freelancer Graphic Designer",
+            "current_company": "Fiverr, Upwork",
+            "employment_start_date_current_company": "01-2019",
+            "first_company_start_date": "01-2019",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "@rutabshah"
+                },
+                {
+                    "website_name": "Upwork",
+                    "url": "@rutabshah"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 7,
+            "business development experience": 51,
+            "strategic planning": 42
+        },
+        "micro_dict": {
+            "market research": 21,
+            "negotiation": 79
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "C O N T A C T  M E\nE D U C A T I O NJohar Town, Block H3\nPhase 2, Lahore Pakistan\n@syedrutabgillanishahrutab@gmail.com\nUniversity of South Asia\nNational College of Commerce\nNew Beacon HouseBachelors in Business Administration\nInter Commerce\nMatric  (Computer Science)2019 - 2023 (expected)\n2017 - 2019\n2015 - 2017\nS K I L L S\nExcel\nGraphic Designing\nAdobe PhotoshopPowerPointMS WordW O R K  E X P E R I E N C E\nR E F E R E N C E SS y e d\nRutab Gillani\nFiverr.F r e e l a n c e r\nI've had the privilege to design logos (Coffee Cup Design) for\nan international brand. I've recently created my own profile\nhere on UpWork to create a difference with what I offer.\nMoreover, I'm an expert in Photoshop and Canva.\nAbout me\nI am a freelancer graphic Designer on fiverr and Upwork i am\nable to do creative designing on adobe photoshop in all formats\nPSD PDF and JPG moreover i can make editable canva\ntemplates and short video for your advertisement can make\neditable banner, infographic and poster/flyers. on the other hand\ni'm a student of Business Administration 7th semester i'm a\nmember of University Management Society.@rutabshah@rutabshah\n I E L T S (2021)\nSpeaking\nWriting\nListening\nReading 6.5\n6.0\n5.5\n4.5\nCanvaAvailable upon request+92345-0235147"
+    },
+    "details": {
+        "name": "Rutab Gillani",
+        "number": "923450235147",
+        "skills": [
+            "Excel",
+            "Graphic Designing",
+            "Adobe Photoshop",
+            "PowerPoint",
+            "MS Word"
+        ],
+        "email_id": "shahrutab@gmail.com",
+        "location": "Johar Town, Block H3 Phase 2, Lahore Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2023",
+                "university": "University of South Asia",
+                "degree_title": "Bachelors in Business Administration"
+            },
+            {
+                "end_date": "05-2019",
+                "university": "National College of Commerce",
+                "degree_title": "Inter Commerce"
+            },
+            {
+                "end_date": "05-2017",
+                "university": "New Beacon House",
+                "degree_title": "Matric (Computer Science)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "IELTS",
+                "issuing_organization": "British Council",
+                "date_of_issuance": "01-2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "fiverr.com",
+                "website_name": "Fiverr"
+            },
+            {
+                "url": "upwork.com",
+                "website_name": "UpWork"
+            }
+        ],
+        "executive_summary": "Rutab Gillani is a talented graphic designer and freelancer with expertise in Adobe Photoshop and Canva. Currently pursuing a Bachelor's degree in Business Administration, Rutab has successfully designed logos for international brands and is committed to delivering high-quality creative designs.",
+        "employment_history": []
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": " \n \nAFNAN FAIZ \n  \n  \n  \nPROFESSIONAL SUMMARY  \nA goal -directed, skilled communicator , team -spirited, persuasive, \nadaptable, self -motivated , and career -oriented individual seeking to \nutilize analytical skills and experience to contribute to your \norganization's growth and objectives.  \n  \n  \n  \nWORK HISTORY  \n \nBusiness Development Executive (March 202 2\u2013 July 2022 )   \nTechNerds Inc. - Lahore, Punjab   \n   \n\u00b7 Upwork bids management.  \n\u00b7 LinkedIn with Sales Navigator to target prospects.   \n\u00b7 Projects analysis and Proposals development.    \n\u00b7 Monthly and weekly development team success reporting.   \n\u00b7 Email marketing.  \n \n \nSenior Business Development Officer (Oct  2021 \u2013 Feb 2022  ) \nCybexo Inc.  - Lahore, Punjab  \n \n\u00b7 Upwork bids management.  \n\u00b7 LinkedIn with Sales Navigator to target prospects.  \n\u00b7 Website Development  and Application Development client handling.   \n\u00b7 Projects development management and client meetings \nmanagement.  \n\u00b7 Projects analysis and Proposals development.  \n\u00b7 Monthly and weekly development team success reporting.  \n\u00b7 Collaborate with the development team and provide them with all \nthe information for the project\u2019s development . \n\u00b7 Email Marketing Via Sendy.  \n \n \nBusiness Development Officer ( Oct 2019 \u2013 Oct 2021  ) \nWebSouls - Lahore, Punjab  \n \n\u00b7 Website development, SEO , and SMM client  handling.   \n\u00b7 Projects development management and client  meetings \nmanagement.  \n\u00b7 Projects analysis and Proposals development.  \n\u00b7 Monthly weekly development team success reporting.  \n\u00b7 Collaborate with the development team and provide them with all \nthe information for the project\u2019s development . \n\u00b7 Email Marketing . \n\u00b7 Fiver, Upwork, and Freelancer ac counts and bids management.  \n \nEmail Support Executive - Systems Limited (Jan 2019 -March, 2019):   \n\u00b7 Handling chats and emails of international  clients.     \nCONTACT  \nAddress : Lahore, PB 54000   \nPhone : +92 (304) (1418484)  \nEmail : afnanfaiz273@gmail.com  \nLinkedIn: https://www.linkedin.com/in\n/afnanfaiz/  \n  \n  \n  \nSKILLS  \n\u25cf Microsoft Office.  \n\u25cf Research Work.  \n\u25cf Quick Learner.  \n\u25cf Presentations  designing & \ndevelopment . \n\u25cf Business Development.  \n\u25cf Building Customer Relations.  \n\u25cf Client Engagement.  \n\u25cf Analysis Reports.  \n\u25cf Projects Management . \n\u25cf Proposal development.  \n\u25cf Email Marketing.  \n  \u00b7 Assistance includes tracking clients\u2019 orders from different courier \nportals and providing the right information and solutions to the \nclients as per the organization\u2019s policies.  \n \nEmail Support Executive  - Mindbridge (May  2017 - Dec 2018):  \n                 \n\u00b7 Handling emails of the international  clients of Uber.  \n\u00b7 Assistance includes tracking clients\u2019  records and providing the right \ninformation and solutions to the clients as per the organization\u2019s \npolicies.  \n \n \n  \n  \n  \nEDUCATION  \n(2020 -2022)              Masters in Business Administration  (MBA) from  \nFAST -NUCES Lahore.          \n(2015 -2019)              Bachelors in Business Administration  (BBA Hons) \nfrom NCBA&E . \n(2012 -2014)              Intermediate in Computer Sciences (ICS) from \nPunjab Group of Colleges . \n(2010 -2012)              Matriculation  \nGovt. Pilot High Secondary Girls  School .  \n  \n \n  \n  \n ",
+        "macro_dict": {
+            "leadership": 38,
+            "sales experience": 20,
+            "marketing expertise": 14,
+            "analytical skills": 28
+        },
+        "micro_dict": {
+            "salesforce": 34,
+            "market research": 21,
+            "seo": 45
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Demonstrated ability in team leadership and mentoring",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": " \n \nAFNAN FAIZ \n  \n  \n  \nPROFESSIONAL SUMMARY  \nA goal -directed, skilled communicator , team -spirited, persuasive, \nadaptable, self -motivated , and career -oriented individual seeking to \nutilize analytical skills and experience to contribute to your \norganization's growth and objectives.  \n  \n  \n  \nWORK HISTORY  \n \nBusiness Development Executive (March 202 2\u2013 July 2022 )   \nTechNerds Inc. - Lahore, Punjab   \n   \n\u00b7 Upwork bids management.  \n\u00b7 LinkedIn with Sales Navigator to target prospects.   \n\u00b7 Projects analysis and Proposals development.    \n\u00b7 Monthly and weekly development team success reporting.   \n\u00b7 Email marketing.  \n \n \nSenior Business Development Officer (Oct  2021 \u2013 Feb 2022  ) \nCybexo Inc.  - Lahore, Punjab  \n \n\u00b7 Upwork bids management.  \n\u00b7 LinkedIn with Sales Navigator to target prospects.  \n\u00b7 Website Development  and Application Development client handling.   \n\u00b7 Projects development management and client meetings \nmanagement.  \n\u00b7 Projects analysis and Proposals development.  \n\u00b7 Monthly and weekly development team success reporting.  \n\u00b7 Collaborate with the development team and provide them with all \nthe information for the project\u2019s development . \n\u00b7 Email Marketing Via Sendy.  \n \n \nBusiness Development Officer ( Oct 2019 \u2013 Oct 2021  ) \nWebSouls - Lahore, Punjab  \n \n\u00b7 Website development, SEO , and SMM client  handling.   \n\u00b7 Projects development management and client  meetings \nmanagement.  \n\u00b7 Projects analysis and Proposals development.  \n\u00b7 Monthly weekly development team success reporting.  \n\u00b7 Collaborate with the development team and provide them with all \nthe information for the project\u2019s development . \n\u00b7 Email Marketing . \n\u00b7 Fiver, Upwork, and Freelancer ac counts and bids management.  \n \nEmail Support Executive - Systems Limited (Jan 2019 -March, 2019):   \n\u00b7 Handling chats and emails of international  clients.     \nCONTACT  \nAddress : Lahore, PB 54000   \nPhone : +92 (304) (1418484)  \nEmail : afnanfaiz273@gmail.com  \nLinkedIn: https://www.linkedin.com/in\n/afnanfaiz/  \n  \n  \n  \nSKILLS  \n\u25cf Microsoft Office.  \n\u25cf Research Work.  \n\u25cf Quick Learner.  \n\u25cf Presentations  designing & \ndevelopment . \n\u25cf Business Development.  \n\u25cf Building Customer Relations.  \n\u25cf Client Engagement.  \n\u25cf Analysis Reports.  \n\u25cf Projects Management . \n\u25cf Proposal development.  \n\u25cf Email Marketing.  \n  \u00b7 Assistance includes tracking clients\u2019 orders from different courier \nportals and providing the right information and solutions to the \nclients as per the organization\u2019s policies.  \n \nEmail Support Executive  - Mindbridge (May  2017 - Dec 2018):  \n                 \n\u00b7 Handling emails of the international  clients of Uber.  \n\u00b7 Assistance includes tracking clients\u2019  records and providing the right \ninformation and solutions to the clients as per the organization\u2019s \npolicies.  \n \n \n  \n  \n  \nEDUCATION  \n(2020 -2022)              Masters in Business Administration  (MBA) from  \nFAST -NUCES Lahore.          \n(2015 -2019)              Bachelors in Business Administration  (BBA Hons) \nfrom NCBA&E . \n(2012 -2014)              Intermediate in Computer Sciences (ICS) from \nPunjab Group of Colleges . \n(2010 -2012)              Matriculation  \nGovt. Pilot High Secondary Girls  School .  \n  \n \n  \n  \n "
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

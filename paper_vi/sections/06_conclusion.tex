@@ -1,0 +1,12 @@
+\section{Kết luận và Hướng Phát triển}
+
+Bài báo này đã trình bày một kiến trúc toàn diện và khả thi trong sản xuất thực tế cho bài toán ghép cặp hai chiều hồ sơ ứng viên và mô tả công việc, dựa trên biểu diễn đa vector nhận biết phân mục (Section-Aware Multi-Vector) kết hợp động cơ xếp hạng lai (Calibrated Hybrid Engine). Bằng cách bóc tách văn bản thành các đơn vị chức năng độc lập và áp dụng cơ chế ghép cặp chéo có tái chuẩn hóa trọng số động, phương pháp đã loại bỏ triệt để hiện tượng cắt xén văn bản ($>95\%$ CV tránh truncation), khắc phục lỗi dính chữ tiêu đề thực tế, và cho phép tích hợp các ràng buộc tuyển dụng cứng thông qua cây phân loại kỹ năng 3 tầng với độ phủ bất đối xứng.
+
+Thực nghiệm diện rộng trên hai tập chuẩn quốc tế (\textsc{resume-job-description-fit} và \textsc{med2425}) cùng các kiểm định thống kê chặt chẽ có kiểm soát đa so sánh Holm--Bonferroni đã mang lại ba bài học thực tiễn mang tính định hướng cho việc xây dựng hệ sinh thái RecSys tuyển dụng:
+\begin{enumerate}
+    \item \textbf{Độ mịn Phân mục và Ranh giới Tương đương Thống kê}: Biểu diễn đa vector theo phân mục đạt sự tương đương thống kê về độ chính xác với mô hình đơn vector phẳng trên các vị trí hàng đầu. Đóng góp cốt lõi của việc phân mục không nằm ở việc tạo bước nhảy vọt về nDCG trên tập dữ liệu nhỏ, mà nằm ở khả năng kiểm soát độ dài và cung cấp bằng chứng minh bạch phục vụ giải trình với nhà tuyển dụng.
+    \item \textbf{Giá trị của Tri thức Phân loại trong Tập Ứng viên Dày đặc}: Trong các nhóm ứng viên nhỏ ($N=25$), vai trò của cây phân loại kỹ năng chủ yếu mang tính hỗ trợ giải thích. Tuy nhiên, khi đối mặt với nhóm ứng viên cạnh tranh dày đặc ($N \approx 209$ ứng viên/JD trên tập \textsc{med2425}), mô hình Calibrated Hybrid nâng nDCG@10 thêm $+0.0849$ (+15.7\% tương đối) so với đơn vector, khẳng định ưu thế vượt trội của việc kết hợp ngữ nghĩa và quy tắc cấu trúc.
+    \item \textbf{Tối ưu Hóa Hiệu năng Tính toán}: Với độ trễ xếp hạng chỉ $0.12$\,ms cho Section-Aware Dense và $2.69$\,ms cho Calibrated Hybrid trên CPU thông thường, hệ thống hoàn toàn vượt trội so với các mô hình Cross-Encoder cồng kềnh (hơn $1.100$\,ms), đáp ứng xuất sắc cam kết dịch vụ thời gian thực của các nền tảng thương mại.
+\end{enumerate}
+
+Trong tương lai, chúng tôi dự kiến mở rộng kiến trúc sang việc tích hợp mô hình phân tích bố cục thị giác (Vision Document Layout Analysis) cho các định dạng PDF phức tạp, đồng thời nghiên cứu phương pháp tối ưu hóa trọng số phân mục tự động dựa trên học tăng cường hoặc mạng nơ-ron đồ thị (Graph Neural Networks).

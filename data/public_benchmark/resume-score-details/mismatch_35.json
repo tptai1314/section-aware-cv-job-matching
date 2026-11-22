@@ -1,0 +1,134 @@
+{
+    "output": {
+        "justification": [
+            "Candidate lacks required 5+ years of experience in business development or sales, spanning only short internships.",
+            "No evidence suggesting ability to develop and implement successful business strategies as required.",
+            "Candidate has a Bachelor in BBA, meeting the educational qualification.",
+            "No experience or skills explicitly indicating knowledge in IT and manufacturing sectors."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "communication skills",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 2.9499999999999997
+            }
+        },
+        "personal_info": {
+            "name": "Faizan Azam",
+            "email": "faizanghuman336@gmail.com",
+            "phone": "0342-6214325",
+            "current_position": "N/A",
+            "current_company": "N/A",
+            "employment_start_date_current_company": "/",
+            "first_company_start_date": "03-2022",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "@faizan-azam-763549245"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 100
+        },
+        "micro_dict": {
+            "communication skills": 18,
+            "data analysis": 41,
+            "it and manufacturing sector knowledge": 41
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong understanding of IT and manufacturing industries",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "5+ years of experience in business development or sales",
+            "Proven ability to develop and implement successful business strategies"
+        ],
+        "resume": "CONTACT ME\nEDUCATIONshadab colony near police\nline district jhang sadar \n@faizan-azam-763549245Faizanghuman336@gmail.com\nChenab College Jhang\nAgriculture University FaisalabadFSC\nBachelor in BBA2016-2018\n2018-2022\nSKILLS\nMarketingCommunicationMS OfficeOBJECTIVES\nREFERENCESFaizan\nAzam\nMarketing Officer\nI seek challenging opportunities where I can fully use my skills\nfor the success of the organization.\nTo pursue a challenge in a progressive and fully reputed\norganization offering a professional working environment\ncoupled with opportunities for growth and development also to\nwork with a team and provide motivation to contribute towards\nthe success of the organization.\nAbility to work under stress.\n2022-2022\nMasood Textile Mill (MTM) | FaisalabadMarketing Officer\n3 Months Internship\n2022-2022\nTerminal Ctrl | IslamabadMarketing Officer\n2 Months Intership\nAuthentic reference will provided if required.0342-6214325\n     W o r k  E x p e r i e n c e"
+    },
+    "details": {
+        "name": "Faizan Azam",
+        "number": "03426214325",
+        "skills": [
+            "MS Office"
+        ],
+        "email_id": "Faizanghuman336@gmail.com",
+        "location": "shadab colony near police line district jhang sadar",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Agriculture University Faisalabad",
+                "degree_title": "Bachelor in BBA"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "Chenab College Jhang",
+                "degree_title": "FSC"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Faizan Azam is a motivated marketing officer with a background in business administration, seeking to leverage his skills in a challenging role within a reputable organization. He has experience in marketing through internships and is proficient in MS Office.",
+        "employment_history": [
+            {
+                "details": "Marketing Officer",
+                "end_date": "03-2022",
+                "location": "Faisalabad",
+                "job_title": "Marketing Officer",
+                "start_date": "12-2021",
+                "company_name": "Masood Textile Mill (MTM)"
+            },
+            {
+                "details": "Marketing Officer",
+                "end_date": "02-2022",
+                "location": "Islamabad",
+                "job_title": "Marketing Officer",
+                "start_date": "12-2021",
+                "company_name": "Terminal Ctrl"
+            }
+        ]
+    }
+}

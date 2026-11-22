@@ -1,0 +1,176 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has a Bachelor of Science degree, but the job requires a Master's.",
+            "The candidate has extensive experience in customer service, not in sales and SEO management.",
+            "There are no SEO-related skills or experience mentioned in the resume.",
+            "Leadership experience is not evident from the candidate's work history."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "experience",
+                    "score": 3
+                },
+                {
+                    "criteria": "client relationship management",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo strategy development",
+                    "score": 1
+                },
+                {
+                    "criteria": "team management",
+                    "score": 2
+                },
+                {
+                    "criteria": "ppc campaigns",
+                    "score": 1
+                },
+                {
+                    "criteria": "client engagement",
+                    "score": 3
+                },
+                {
+                    "criteria": "market analysis",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0100000000000002,
+                "micro_scores": 1.9000000000000001
+            }
+        },
+        "personal_info": {
+            "name": "Sanam Abbas",
+            "email": "sanam.abbas.90210@gmail.com",
+            "phone": "(+92) 03034371437",
+            "current_position": "Sales Development Representative",
+            "current_company": "Motive (Keeptruckin)",
+            "employment_start_date_current_company": "02-2019",
+            "first_company_start_date": "03-2015",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Job Title: Sales and SEO Management Specialist  \n\n### Location: Lahore, Pakistan  \n\n### Company: Innovate Digital Solutions Inc.  \n\n### Job Summary:  \nJoin Innovate Digital Solutions Inc. as a Sales and SEO Management Specialist. You will be part of a dynamic team responsible for driving client engagement and ensuring optimal performance in digital marketing strategies. Your role will include managing client relationships, improving SEO strategies, and leading your team to achieve sales targets.  \n\n### Key Responsibilities:  \n- Proactively engage with prospective clients to understand their business needs and provide innovative solutions.  \n- Design and execute SEO strategies in alignment with client\u2019s marketing objectives.  \n- Manage and optimize PPC campaigns to maximize ROI and brand visibility.  \n- Develop and maintain strong client relationships through tailored marketing solutions.  \n- Lead a team to achieve and surpass sales targets while providing exceptional customer service.  \n- Analyze market trends and algorithms to tailor SEO strategies accordingly.  \n- Produce reports that track progress and measure success against KPIs.  \n\n### Ideal Candidate Profile:  \nYou are a skilled sales and marketing professional with strong analytical skills suited to identifying and executing SEO opportunities. You excel at client interactions, possessing the ability to transform potential leads into satisfied clients through strategic and well-executed marketing initiatives. Leadership and team management skills will be pivotal to drive sales and motivate your team.  \n\n### Benefits:  \n- Competitive salary package  \n- Health and wellness benefits  \n- Performance bonuses  \n- Opportunities for career advancement  \n\nJoin us to redefine digital engagement and lead market strategies with agility and innovation.",
+        "macro_dict": {
+            "leadership": 29,
+            "experience": 43,
+            "client relationship management": 28
+        },
+        "micro_dict": {
+            "seo strategy development": 28,
+            "team management": 18,
+            "ppc campaigns": 11,
+            "client engagement": 29,
+            "market analysis": 14
+        },
+        "additional_info": "Innovate Digital Solutions Inc. prefers candidates from reputable institutions such as [University of Lahore], [Punjab University]. Remote work options are available subject to roles and responsibilities. We assess skills through a combination of technical tests, interviews, and real-world problem-solving scenarios to gauge practical competency in strategic marketing contexts.",
+        "minimum_requirements": [
+            "Master's degree in Business Administration or related field"
+        ],
+        "resume": "powered\tby\n\t\nsnaphunt.com\nSanam\tAbbas\nsanam.abbas.90210@gmail.com\n(+92)\t03034371437\nSales\tDevelopment\tRepresentative\tTechnical\tSupport\nFeb\t2019\t-\tJan\t2021\nMotive\t(\tKeeptruckin\t)\t\n|\t\nPakistan\nIn\tthis\tcompany\tI\twas\tresponsible\tin\tconsulting\tabout\tGPS\tand\tDashcam\tDevices\tto\tthose\tfirms\twho\twere\teligible\tto\tavail\twith\ta\tgood\nquote\tto\tsecure\ttheir\tvehicles.\nQuality\tAssurance/customer\tSupport\nMay\t2018\t-\tDec\t2019\nUcs\t\n|\t\nPakistan\nOutbound/\tinbound\tand\tas\tQuality\tAssurance\tagent-------In\tthis\tposition\tI\twas\tresponsible\tfor\tcall\tevaluation\tand\tcoaching\tthe\nresprenstatives\tregards\tsales\tand\tquality\tof\ttheir\tcalls.\nCustomer\tService/\tQuality\tAssurance\nJun\t2017\t-\tApr\t2018\nGlobe\tServices\t\n|\t\nPakistan\nDGS-\tDigital\tGlobe\tServices\t/\tibex.\t/\tWestern\tUnion,\t\nIn\tthis\tcompany\tI\tworked\tas\ta\tsales\trepresentative\tfor\tmultiple\tservice\tproviders\tof\nInternet,\tcable\tand\thome\tsecurity\tand\tautomation.\tIt\twas\ta\tU.S\tbased\tcompany\tand\to\twas\tdealing\twith\tinbound\tand\toutbound\tcalls.-------I\nalso\tgot\tpromoted\tas\ta\tQuality\tAssurance\tAdvisor\tfor\tWestern\tUnion\tin\twhich\tI\twas\tassigned\tto\tevaluate\tcalls\tof\tRepresentatives\tand\talso\ncoach\tthem\tfor\tquality\tCalls.\nVisual\tMerchandising\nMar\t2016\t-\tDec\t2016\nMango\t\n|\t\nPakistan\nIn\tthis\tjob\tI\tUse\tto\treplenish\tbags\tapparels\tand\tpresent\ttheme\tin\toutlets\tof\tcompany.\nMar\t2015\t-\tJan\t2016\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd\t\n|\t\nPakistan\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd,\t-------Customer\tservice/Telecommunicator\t\nIn\tthis\tfield\tI\tworked\tas\tcustomer\trelationship\tofficer,\tI\tuse\tto\nforward\tcomplaints\tand\tsuggestions\tRegards\tfabric\tand\tupdate\tcustomers\tabout\tany\tpromotions\tthe\tcould\tavail\tby\tvia\temail\tand\ntelephone.\nBachelor\tof\tScience,\tComputer\tScience,\tComputer\tSciences,\tInformation\nTechnology\n2014\nBachelor\tof\tScience\nA\tLevels,\tUrdu,\tEnglish,\tComputer\tScience\n2012\nBoard\tof\tIntermediate\tand\tSecondary\tEducation\nIntermediate/A-Level\t,\t\nUrdu,\tEnglish,\tComputer\tScience\t\nGrade:\tB\t\nA\tLevels\tfrom\tLahore\nMatriculation,\tEnglish,\tMathematics\n2010\nMatriculation/O-Level\t,\tBoard\tof\tIntermediate\tand\tSecondary\tEducation\t\nEnglish,\tMathematics\t\nGrade:\tB\t\nMatriculation\nMatriculation\n2003\nAga\tkhan\tAcademy\nMatriculation\tfrom\tAga\tkhan\tAcademy\nMatriculation\n1999\nAllen\tGroove\tSchool\nCompleted\tLanguages\t\nMatriculation\tfrom\tAllen\tGroove\tSchool\nEXPERIENCE\nEDUCATIONpowered\tby\n\t\nsnaphunt.com\nLANGUAGES"
+    },
+    "details": {
+        "name": "Sanam Abbas",
+        "number": "03034371437",
+        "skills": [
+            "GPS Devices",
+            "Dashcam Devices",
+            "Quality Assurance",
+            "Customer Support"
+        ],
+        "email_id": "sanam.abbas.90210@gmail.com",
+        "location": "Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2014",
+                "university": "Computer Sciences, Information Technology",
+                "degree_title": "Bachelor of Science"
+            },
+            {
+                "end_date": "01-2012",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "A Levels"
+            },
+            {
+                "end_date": "01-2010",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-2003",
+                "university": "Aga Khan Academy",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-1999",
+                "university": "Allen Groove School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Sanam Abbas is a dedicated professional with experience in technical support and quality assurance, specializing in GPS and dashcam devices. She has a strong background in customer service and has worked in various roles that emphasize her technical skills and commitment to quality.",
+        "employment_history": [
+            {
+                "details": "Responsible for consulting about GPS and Dashcam Devices to firms eligible for securing their vehicles.",
+                "end_date": "01-2021",
+                "location": "Pakistan",
+                "job_title": "Sales Development Representative Technical Support",
+                "start_date": "02-2019",
+                "company_name": "Motive (Keeptruckin)"
+            },
+            {
+                "details": "Responsible for call evaluation and coaching representatives regarding sales and quality of their calls.",
+                "end_date": "12-2019",
+                "location": "Pakistan",
+                "job_title": "Quality Assurance/customer Support",
+                "start_date": "05-2018",
+                "company_name": "Ucs"
+            },
+            {
+                "details": "Worked as a sales representative for multiple service providers and promoted to Quality Assurance Advisor for call evaluation and coaching.",
+                "end_date": "04-2018",
+                "location": "Pakistan",
+                "job_title": "Customer Service/Quality Assurance",
+                "start_date": "06-2017",
+                "company_name": "Globe Services"
+            },
+            {
+                "details": "Replenished bags and apparel and presented themes in outlets of the company.",
+                "end_date": "12-2016",
+                "location": "Pakistan",
+                "job_title": "Visual Merchandising",
+                "start_date": "03-2016",
+                "company_name": "Mango"
+            },
+            {
+                "details": "Worked as a customer relationship officer, forwarding complaints and suggestions regarding fabric and updating customers about promotions.",
+                "end_date": "01-2016",
+                "location": "Pakistan",
+                "job_title": "Customer service/Telecommunicator",
+                "start_date": "03-2015",
+                "company_name": "Al Karam Textile Mills (Pvt) Ltd"
+            }
+        ]
+    }
+}

@@ -1,0 +1,168 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is low as there's limited leadership experience explicitly mentioned, though there are team awards which imply some leadership involvement.",
+            "Relevant experience score reflects a discrepancy in the specific industry required by the job description versus what is demonstrated in the resume.",
+            "The Excel score is not applicable as the resume does not mention it explicitly.",
+            "Communication score is average based on the recognition of best sales person and awards, indicating some level of proficiency."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 0
+                },
+                {
+                    "criteria": "ms word",
+                    "score": 0
+                },
+                {
+                    "criteria": "stata",
+                    "score": 0
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": false
+                },
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in MS Office Suite and data analysis tools",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.42,
+                "micro_scores": 0.24
+            }
+        },
+        "personal_info": {
+            "name": "H A S H A A M J A M A L",
+            "email": "hashaam.butt24@gmail.com",
+            "phone": "+92 302 5464456",
+            "current_position": "Area Sales Manager",
+            "current_company": "Healthwire PVT LTD",
+            "employment_start_date_current_company": "09-2021",
+            "first_company_start_date": "04-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 36,
+            "experience": 11,
+            "communication skills": 53
+        },
+        "micro_dict": {
+            "ms excel": 25,
+            "ms word": 37,
+            "stata": 34,
+            "verbal and written communication": 4
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "3-5 years of experience in business development or related fields",
+            "Excellent communication skills",
+            "Proficiency in MS Office Suite and data analysis tools"
+        ],
+        "resume": "H A S H A A M  J A M A L\nArea Sales Manager\nHealthwire PVT LTD, Lahore, Pakistan\nSep 2021 - Present\nArea Sales Manager\nHealthwire PVT LTD, Karachi, Pakistan\nJan 2021 - Aug 2021\nArea Sales Executive\nHealthwire PVT LTD, Gujranwala, Pakistan\nJan 2020 - Jan 2021\nTerritory Sales Manager\nOliver Skin Science, , Gujranwala, Pakistan\nMay 2019 - Dec 2020\nMerchandiser Officer\nZong Regional Office - Telecom, Gujranwala, Pakistan\nApr 2017 - Apr 2018EXPERIENCEI am a professional salesperson who always strive to be the\nbest that i can be. I have a long and good track record and very\nsuccessful in my field. A goal orientated person with strong\nfocus on team work, development of people and results. My\nmain objectives are; develop my knowledge of the market and\nmy skills, continue learning as a person and as a manager and\nto become more than satisfied in what i do.PROFESSIONAL SUMMARY\n86-C, HIGH COURT SOCIETY\nPHASE 2, COLLEGE ROAD,\nLAHORE.\n+92 302 5464456\nhashaam.butt24@gmail.comMasters in Business Administration (Sales And Marketing)\nSuperior University Lahore\n2015 - 2019EDUCATION\n Top Performance Sales Team Lead 2021, 1.\n       (Healthwire PVT LTD)\n   2. Best Sales Person 2020\n       (Healthwire PVT LTD)ACCOMPLISHMENTS"
+    },
+    "details": {
+        "name": "Hashaam Jamal",
+        "number": "923025464456",
+        "skills": [
+            "Sales Management",
+            "Market Development",
+            "Team Leadership"
+        ],
+        "email_id": "hashaam.butt24@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2019",
+                "university": "Superior University Lahore",
+                "degree_title": "Masters in Business Administration (Sales And Marketing)"
+            }
+        ],
+        "achievements": [
+            "Top Performance Sales Team Lead 2021 (Healthwire PVT LTD)",
+            "Best Sales Person 2020 (Healthwire PVT LTD)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Hashaam Jamal is a dedicated Area Sales Manager with a strong background in sales management and market development. He has a proven track record of success in leading sales teams and achieving outstanding results in competitive environments.",
+        "employment_history": [
+            {
+                "details": "Managed sales operations and developed strategies to increase market share.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "09-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Oversaw sales activities and contributed to team performance.",
+                "end_date": "08-2021",
+                "location": "Karachi, Pakistan",
+                "job_title": "Area Sales Manager",
+                "start_date": "01-2021",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Executed sales strategies and maintained customer relationships.",
+                "end_date": "01-2021",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Area Sales Executive",
+                "start_date": "01-2020",
+                "company_name": "Healthwire PVT LTD"
+            },
+            {
+                "details": "Led territory sales initiatives and managed client accounts.",
+                "end_date": "12-2020",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Territory Sales Manager",
+                "start_date": "05-2019",
+                "company_name": "Oliver Skin Science"
+            },
+            {
+                "details": "Coordinated merchandising efforts and supported sales teams.",
+                "end_date": "04-2018",
+                "location": "Gujranwala, Pakistan",
+                "job_title": "Merchandiser Officer",
+                "start_date": "04-2017",
+                "company_name": "Zong Regional Office - Telecom"
+            }
+        ]
+    }
+}

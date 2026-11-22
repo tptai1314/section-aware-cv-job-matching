@@ -1,0 +1,258 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has 10+ years in electrical design and project management highlighting strong relevant experience.",
+            "Extensive experience leading projects, managing vendors, and ensuring compliance aligns with job description leadership expectations.",
+            "Proficiency in project management, electrical design, and commissioning activities directly aligns with micro scores criteria.",
+            "Education from NED University aligns with the company's preference for candidates with strong engineering backgrounds."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 9
+                },
+                {
+                    "criteria": "project management experience",
+                    "score": 9
+                },
+                {
+                    "criteria": "electrical design expertise",
+                    "score": 8
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "team management",
+                    "score": 8
+                },
+                {
+                    "criteria": "installation and commissioning",
+                    "score": 9
+                },
+                {
+                    "criteria": "technical compliance and safety",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Engineering Management preferred",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.600000000000001,
+                "micro_scores": 8.3
+            }
+        },
+        "personal_info": {
+            "name": "ABDULLAH JAWAID",
+            "email": "abdullahjawaid@hotmail.com",
+            "phone": "+92 334 3664340",
+            "current_position": "Senior Design & Application Engineer",
+            "current_company": "Intech Process Automation, Pakistan",
+            "employment_start_date_current_company": "01-2023",
+            "first_company_start_date": "06-2014",
+            "urls": [
+                {
+                    "website_name": "Intech Process Automation",
+                    "url": "https://www.intechww.com/"
+                },
+                {
+                    "website_name": "Frontier Works Organization",
+                    "url": "https://www.fwo.com.pk/"
+                },
+                {
+                    "website_name": "National Refinery Limited",
+                    "url": "http://www.nrlpak.com/"
+                },
+                {
+                    "website_name": "Lucky Cement Limited",
+                    "url": "https://www.lucky-cement.com/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join ElectroSolutions as a Senior Electrical Project Manager\n\n### Position Overview\n\nElectroSolutions, a leading innovative engineering company, is seeking a Senior Electrical Project Manager to lead and oversee our electrical engineering projects from inception to completion. The ideal candidate will have extensive experience in electrical design, project management, and the installation, testing, and commissioning of electrical systems.\n\n### Key Responsibilities\n- Lead and manage electrical projects ensuring they meet technical standards and business expectations.\n- Coordinate and oversee all project elements, including design, quality planning, and the installation of electrical systems.\n- Collaborate with cross-functional teams and stakeholders to deliver project outcomes effectively.\n- Provide strategic guidance and technical support throughout project execution.\n- Enhance team engagement and manage vendor relationships to drive project success.\n\n### Qualifications and Skills\n- Bachelor\u2019s degree in Electrical Engineering; Master\u2019s degree in Engineering Management or related field is preferred.\n- 10+ years of experience in electrical project management and engineering.\n- Strong skills in electrical design evaluation, project management, and team leadership.\n- Proficiency in progress reporting and vendor management.\n- Excellent communication and analytical skills.\n- Ability to manage multiple projects and prioritize tasks effectively.\n\n### What We Offer\n- Competitive salary package\n- Opportunity to work on cutting-edge engineering projects\n- Collaborative work environment \n- Opportunities for professional growth and development",
+        "macro_dict": {
+            "leadership": 35,
+            "project management experience": 25,
+            "electrical design expertise": 40
+        },
+        "micro_dict": {
+            "team management": 49,
+            "installation and commissioning": 30,
+            "technical compliance and safety": 21
+        },
+        "additional_info": "ElectroSolutions prefers candidates who have graduated from top engineering universities or institutions recognized for electrical engineering programs. Our company supports employee relocation with a comprehensive package for eligible candidates. Skills are primarily assessed through a combination of technical interviews, competency tests, and situational assessments to evaluate problem-solving abilities.",
+        "minimum_requirements": [
+            "Master's degree in Engineering Management preferred"
+        ],
+        "resume": "ABDULLAH JAWAID \nGulshan e Iqbal, block 2, Karachi, 75300 | +92 334 3664340 | abdullahjawaid@hotmail.com  \nSummary Statement \n\uf0b7 Initiative-taking Electrical Engineer with 10+ years of experience excelling in electrical design, project \nmanagement, and Installation, Testing & Commissioning. Proven record in team engagement, \nequipment procurement, and project execution. Effective communicator with expertise in handling \ncontractors, vendors, and clients. Proficient in progress reporting and adept at ensuring project success \nthrough meticulous diligence and efficient procedures. \nProject Based Experience  \n\uf0b7 Testing & Pre-Commissioning Lead  | E-House for DS03 Electrical Power Upgrade at CPS4  for \nRumaila Operating Organization (ROO) \u2013 Iraq | May-Jul 2024  \n\uf0b7 Achievements:  \n\uf0b7 Thoroughly conducted internal testing of ABB ZS1 6.6kV Switchboard (16 panels), including \nmotor and transformer feeders, EATON 400V switchboard, Chloride DC UPS 60A, F&G \nsystem, and auxiliary systems. \n\uf0b7 Successfully led the integrated Factory Acceptance Test (iFAT) with the customer for the entire \nE-house, receiving appreciation for its successful completion. \n \n\uf0b7 Project Lead  | LV Switchboard & Soft Starter Panels for AVINA Clean Hydrogen Inc. \u2013 USA | \nApr-Present 2024  \n\uf0b7 Achievements:  \n\uf0b7 Leading the sourcing and design validation of ABB ReliaGear Switchboard and standalone \nPSTX series soft starters. \n\uf0b7 Ensuring technical compliance and meeting tight deadlines by offering fast delivery products. \n \n\uf0b7 Commissioning Lead  | E-house Commissioning Services at Basrah Natural Gas Liquefaction Plant \n(BNGL), Basrah Gas Company (BGC) \u2013 Iraq | Mar-Apr 2023 & Jan-Apr 2024  \n\uf0b7 Achievements:  \n\uf0b7 Managed multiple vendors and clients from technical, commercial and administrative aspects to \nexecute Site Acceptance Tests, pre-commissioning, and commissioning of 4 E-houses.  \n\uf0b7 Provided technical support for first solo/load runs of the medium and low voltage motors and \ntroubleshooting throughout the project execution. \n\uf0b7 Enhanced my role by conducting mechanical inspections, interlock checks, and making logic \nmodifications to the switchgear, all to accommodate customer budget constraints. \n \n\uf0b7 Installation Supervisor  | Casting of Cast Resin Sandwich Bus ducts \u2013 4000 A \u2013  KM500 Gas \nTreatment Plant (Pearl Petroleum) \u2013 Kurdistan Region of Iraq | Jan 2024  \n\uf0b7 Achievements:  \n\uf0b7 Effectively supervised the casting of Cast Resin Sandwich Bus ducts rated at 4000 A.  \n\uf0b7 Displayed my adaptability by taking on challenges and self-training to meet and exceed \ncustomer requirements. 2  \n\uf0b7 Commissioning Lead  | ABB E-house Commissioning Services at Basrah Natural Gas Liquefaction \nPlant (BNGL), Basrah Gas Company (BGC) \u2013 Iraq  3 Nos. Substations | May \u2013 Dec 2023  \n\uf0b7 Achievements:  \n\uf0b7 Managed multiple vendors and clients from technical, commercial and administrative aspects to \nexecute Site Acceptance Tests, pre-commissioning, and commissioning of 3 ABB E-houses.  \n\uf0b7 Provided technical support for site modifications as per customer requirements. \n \n\uf0b7 Electrical Lead  | Frontier Works Organization 10,000 cubic meter / day SWRO Plant, Karachi \u2013 \nKarachi Nuclear Power Plant |  Apr 2019 \u2013 Jan 2023  \n\uf0b7 Achievements:  \n\uf0b7 Single handedly managed multiple vendors and clients from technical, commercial, and \nadministrative aspects throughout the design, procurement, installation, testing and \ncommissioning phases of the project. \n\uf0b7 Eyed for details to follow stringent nuclear facility requirements such as sourcing of scarcely \navailable Class 1E category power cables. \n\uf0b7 Used my negotiation skills to close out the procurement within budget and ensured deliveries \nahead of schedule. \n \n\uf0b7 Electrical Engineer  | 8.2 MW 18V32 HFO Engine (used) with Switchgear System Engineering \nReview, Procurement, Installation & Commissioning \u2013 National Refinery Limited (NRL), Karachi | \n2017 \u2013 2018.  \n\uf0b7 Achievements:  \n\uf0b7 Supported team in the design, procurement and installation commissioning.  \n \n\uf0b7 Electrical Engineer  | Implementation of Yokogawa DCS in Lube Refinery \u2013 NRL | 2017 \u2013 2018 \n\uf0b7 Achievements:  \n\uf0b7 Successfully devised conceptual circuit for MCC operation from DCS, approved by Yokogawa \nengineering team and implemented. \n\uf0b7 Enhanced site grounding system to follow Yokogawa requirement. \n \n\uf0b7 Project Lead  | Electrical System Upgrade of 4 MW 12V32 HFO Engine (Wartsila) \u2013 NRL | 2016 \u2013 \n2018 \n\uf0b7 Achievements:  \n\uf0b7 Studied existing system and presented to Wartsila team to integrate new system with old system. \n \n\uf0b7 Electrical Engineer  | Replacement of 7.5 MW Steam Turbine, Control System Upgrade, and \nOverhauling of Alternator \u2013 NRL | 2015 \u2013 2017.  \n\uf0b7 Achievements:  \n\uf0b7 Took charge of the project midway to address engineering challenges related to synchronization, \nload sharing, and integrating with the existing system. \n \n 3 \uf0b7 Electrical Engineer  | Revamp of Crude Distillation Unit \u2013 NRL | 2015 \u2013 2016  \n\uf0b7 Achievements:  \n\uf0b7 Reviewed FEED documents and ensured project compliance according to the design. \n \n\uf0b7 Trainee \u2013 Senior Management  | National Refinery Limited  (NRL) | 2014 \u2013 2015  \n\uf0b7 Achievements:  \n\uf0b7 Demonstrated active involvement in troubleshooting in different process areas including power \ngeneration. Was awarded with outstanding appraisal during this period. \n \n\uf0b7 Trainee Engineer  | Installation of Vertical Cement Mills - Lucky Cement Limited  | 2014 \n\uf0b7 Achievements:  \n\uf0b7 Effectively worked on switchgear protection relay testing and power cables testing. \nEducation  \nMaster of Engineering Management (Industrial Management)  | NED university of engineering and \ntechnology, Karachi, Pakistan | 2015 \u2013 2016  \nBachelor of Engineering (Electrical)  | NED university of engineering and technology, Karachi, Pakistan \n| 2010 \u2013 2013  \nSkills & Abilities  \nCertifications  \n\uf0b7 Cast Resin Bus duct Installation and Maintenance | Virtual Training by LINKK | Dec 2023 \n\uf0b7 Professional Engineer (Electrical Engineer) | ANZSCO Skill Level 1| Engineers Australia | Dec 2022 \n\uf0b7 O&M of 3500 Vibration Monitoring & Protection | Bentley Nevada | Lahore 2018 \n\uf0b7 Centum VP R6 (Maintenance, Engineering & PRM) | Yokogawa | Singapore 2017 \n\uf0b7 Advanced Power System Protection (ETAP) | NED University | Karachi 2013 \nExpertise  \n \n\uf0b7 Electrical Design Evaluation \n(FEED) \uf0b7 Project Management \uf0b7 Contractors / Vendors \nManaging \n\uf0b7 Team Engagement \uf0b7 Equipment Procurement / \nSourcing \uf0b7 Communication Skills \n\uf0b7 Installation, Testing & \nCommissioning \uf0b7 Conducting FAT / SAT \uf0b7 Project Costing and \nbudgeting \n\uf0b7 Functional Safety \uf0b7 Preparation of Work \nInstructions and Procedures \uf0b7 Progress Reporting during \nall stages of Project 4  \nExecuted Tasks  \n\uf0b7 Leading Electrical Systems E-house projects including design of Single Line Diagram, design / \nreview / selection MV & LV panels, cable sizing and cable routing, selection of transformers, \nselection of UPS, Fire Alarm System, and earthling system. \n\uf0b7 Managing Installation, Testing and Commissioning of E-houses \n\uf0b7 Planning project baselines \n\uf0b7 Performing design reviews/evaluation including power system studies & presenting it to client for \napproval \n\uf0b7 Conducting procurement of project material such as HV/LV components (XLPE Cables, Switchgear, \nTransformers, Power Factor & Reactors, Lighting System, Earthling /Grounding) \n\uf0b7 Managing multiple stakeholders including consultants, joint-venture partners, national & international \nvendors, and contractors to satisfy client\u2019s requirements. \n\uf0b7 Aligning across functions tasks \n\uf0b7 Initiating and leading activity/job planning sessions. \n\uf0b7 Conducting FAT/SAT and Supervising & assisting Installation, Testing & Commissioning of \nElectrical Equipment \n\uf0b7 Managing all incoming & outgoing documentation \n\uf0b7 Monitoring & Controlling project baselines and keeping track of Project Status \n\uf0b7 Conducting project closeout \nExperience  \n\uf0b7 Senior Design & Application Engineer | Intech Process Automation, Pakistan \n(https://www.intechww.com/ ) | Jan 2023 \u2013 Present  \n\uf0b7 Senior Deputy Manager | Frontier Works Organization, Pakistan ( https://www.fwo.com.pk/ ) | \nApr 2019 \u2013 Jan 2023 \n\uf0b7 Project Engineer | National Refinery Limited (NRL), Pakistan ( http://www.nrlpak.com/ ) | Oct 2014 \n\u2013 Apr 2019  \n\uf0b7 Trainee Engineer | Lucky Cement Limited, Pakistan ( https://www.lucky-cement.com/ ) | Jun 2014 \u2013 \nOct 2014 \n "
+    },
+    "details": {
+        "name": "ABDULLAH JAWAID",
+        "number": "923343664340",
+        "skills": [
+            "Electrical Design Evaluation",
+            "Project Management",
+            "Installation",
+            "Testing & Commissioning",
+            "Conducting FAT / SAT",
+            "Project Costing and budgeting",
+            "Functional Safety"
+        ],
+        "email_id": "abdullahjawaid@hotmail.com",
+        "location": "Gulshan e Iqbal, block 2, Karachi, 75300",
+        "projects": [
+            {
+                "title": "Testing & Pre-Commissioning Lead",
+                "description": "E-House for DS03 Electrical Power Upgrade at CPS4 for Rumaila Operating Organization (ROO) \u2013 Iraq"
+            },
+            {
+                "title": "Project Lead",
+                "description": "LV Switchboard & Soft Starter Panels for AVINA Clean Hydrogen Inc. \u2013 USA"
+            },
+            {
+                "title": "Commissioning Lead",
+                "description": "E-house Commissioning Services at Basrah Natural Gas Liquefaction Plant (BNGL), Basrah Gas Company (BGC) \u2013 Iraq"
+            },
+            {
+                "title": "Installation Supervisor",
+                "description": "Casting of Cast Resin Sandwich Bus ducts \u2013 4000 A \u2013 KM500 Gas Treatment Plant (Pearl Petroleum) \u2013 Kurdistan Region of Iraq"
+            },
+            {
+                "title": "Electrical Lead",
+                "description": "Frontier Works Organization 10,000 cubic meter / day SWRO Plant, Karachi \u2013 Karachi Nuclear Power Plant"
+            },
+            {
+                "title": "Electrical Engineer",
+                "description": "8.2 MW 18V32 HFO Engine (used) with Switchgear System Engineering Review, Procurement, Installation & Commissioning \u2013 National Refinery Limited (NRL), Karachi"
+            },
+            {
+                "title": "Electrical Engineer",
+                "description": "Implementation of Yokogawa DCS in Lube Refinery \u2013 NRL"
+            },
+            {
+                "title": "Project Lead",
+                "description": "Electrical System Upgrade of 4 MW 12V32 HFO Engine (Wartsila) \u2013 NRL"
+            },
+            {
+                "title": "Electrical Engineer",
+                "description": "Replacement of 7.5 MW Steam Turbine, Control System Upgrade, and Overhauling of Alternator \u2013 NRL"
+            },
+            {
+                "title": "Electrical Engineer",
+                "description": "Revamp of Crude Distillation Unit \u2013 NRL"
+            },
+            {
+                "title": "Trainee \u2013 Senior Management",
+                "description": "National Refinery Limited (NRL)"
+            },
+            {
+                "title": "Trainee Engineer",
+                "description": "Installation of Vertical Cement Mills - Lucky Cement Limited"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2016",
+                "university": "NED university of engineering and technology, Karachi, Pakistan",
+                "degree_title": "Master of Engineering Management (Industrial Management)"
+            },
+            {
+                "end_date": "12-2013",
+                "university": "NED university of engineering and technology, Karachi, Pakistan",
+                "degree_title": "Bachelor of Engineering (Electrical)"
+            }
+        ],
+        "achievements": [
+            "Successfully led the integrated Factory Acceptance Test (iFAT) with the customer for the entire E-house, receiving appreciation for its successful completion.",
+            "Awarded outstanding appraisal during Trainee \u2013 Senior Management at National Refinery Limited."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Cast Resin Bus duct Installation and Maintenance",
+                "issuing_organization": "Virtual Training by LINKK",
+                "date_of_issuance": "12-2023"
+            },
+            {
+                "certification_name": "Professional Engineer (Electrical Engineer)",
+                "issuing_organization": "ANZSCO Skill Level 1| Engineers Australia",
+                "date_of_issuance": "12-2022"
+            },
+            {
+                "certification_name": "O&M of 3500 Vibration Monitoring & Protection",
+                "issuing_organization": "Bentley Nevada",
+                "date_of_issuance": "01-2018"
+            },
+            {
+                "certification_name": "Centum VP R6 (Maintenance, Engineering & PRM)",
+                "issuing_organization": "Yokogawa",
+                "date_of_issuance": "01-2017"
+            },
+            {
+                "certification_name": "Advanced Power System Protection (ETAP)",
+                "issuing_organization": "NED University",
+                "date_of_issuance": "01-2013"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "intechww.com",
+                "website_name": "Intech Process Automation"
+            },
+            {
+                "url": "fwo.com.pk",
+                "website_name": "Frontier Works Organization"
+            },
+            {
+                "url": "nrlpak.com",
+                "website_name": "National Refinery Limited"
+            },
+            {
+                "url": "lucky-cement.com",
+                "website_name": "Lucky Cement Limited"
+            }
+        ],
+        "executive_summary": "Abdullah Jawaid is an experienced Electrical Engineer with over 10 years in electrical design, project management, and installation, testing, and commissioning. He has a proven track record of leading complex projects and managing multiple stakeholders effectively, demonstrating strong technical expertise in the electrical engineering domain.",
+        "employment_history": [
+            {
+                "details": "Senior Design & Application Engineer at Intech Process Automation, responsible for leading electrical systems E-house projects and managing installation, testing, and commissioning.",
+                "end_date": "Present",
+                "location": "Pakistan",
+                "job_title": "Senior Design & Application Engineer",
+                "start_date": "01-2023",
+                "company_name": "Intech Process Automation"
+            },
+            {
+                "details": "Senior Deputy Manager at Frontier Works Organization, overseeing project management and vendor coordination for various electrical projects.",
+                "end_date": "01-2023",
+                "location": "Pakistan",
+                "job_title": "Senior Deputy Manager",
+                "start_date": "04-2019",
+                "company_name": "Frontier Works Organization"
+            },
+            {
+                "details": "Project Engineer at National Refinery Limited, involved in the design, procurement, installation, and commissioning of electrical systems.",
+                "end_date": "04-2019",
+                "location": "Pakistan",
+                "job_title": "Project Engineer",
+                "start_date": "10-2014",
+                "company_name": "National Refinery Limited"
+            },
+            {
+                "details": "Trainee Engineer at Lucky Cement Limited, focused on switchgear protection relay testing and power cables testing.",
+                "end_date": "10-2014",
+                "location": "Pakistan",
+                "job_title": "Trainee Engineer",
+                "start_date": "06-2014",
+                "company_name": "Lucky Cement Limited"
+            }
+        ]
+    }
+}

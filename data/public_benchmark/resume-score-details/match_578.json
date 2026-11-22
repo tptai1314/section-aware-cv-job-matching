@@ -1,0 +1,154 @@
+{
+    "output": {
+        "justification": [
+            "The resume does not meet the 5+ years of relevant experience requirement.",
+            "No leadership experience is visible in the resume.",
+            "No CRM proficiency is demonstrated in the resume.",
+            "The resume mentions digital marketing but lacks deep experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "crm proficiency",
+                    "score": 3
+                },
+                {
+                    "criteria": "market research",
+                    "score": 3
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 3.57
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Adnan",
+            "email": "sheikhadna.ali@gmail,com",
+            "phone": "+92 3234600859",
+            "current_position": "Business Development Executive",
+            "current_company": "Triaxo Solutions",
+            "employment_start_date_current_company": "06-2022",
+            "first_company_start_date": "11-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "crm proficiency": 41,
+            "market research": 39,
+            "proposal writing": 17,
+            "digital marketing": 3
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field",
+            "5+ years of experience in business development or sales management"
+        ],
+        "resume": "Lahore  \n \n \n \n \n \n \nSummery:  \nI am a proactive and achievement -oriented Business Development Specialist with 2.5 years of \npractical  experience in cultivating business across various domains, encompassing digital \nmarketing, web development, and both web and mobile app development.  I specialize in \nrecognizing prospects, establishing strategic alliances, and nurturing client connections to \nstimulate revenue expansion.  I am dedicated to utilizing my expertise and background to enhance \nyour organization's ongoing prosperity.  \nExperience:  \n \nTriaxo Solutions                               (June 2022 to Present ) \nBusiness Development Executive  \nCore Responsibilities:  \n\uf0b7 LinkedIn Management  \n\uf0b7 Direct Sales  \n\uf0b7 Staff Augmentation  \n\uf0b7 Data Extraction  \n\uf0b7 Email Marketing  \n\uf0b7 B2B lead generation  \n\uf0b7 Upwok Biding  \n\uf0b7 Client Management  \n \nIverx Solutions                                 (November 2021 to June 2022)  \nBusiness Development Executive  \nCore Responsibilities:  \n\uf0b7 Staff Augmentation  \n\uf0b7 LinkedIn Lead Generation  \n\uf0b7 Lead extraction from other platform like (Angel list, Glassdoor, Dice, Workable, etc)  \n\uf0b7 Upwork Management  \n \nSuperior/Tektiks                              (November 2020 to November 2 021) \nLead Extractor/Business Development  \nCore Responsibilities:  \n\uf0b7 Lead extraction  \n\uf0b7 B2B email Marketing  \n\uf0b7 Upwork biding  \n \n \nMuhammad Adnan  \nEmail : sheikhadna.ali@gmail,com  \nMobile Number:  +92 3234600859  \nAddress: 109 Neelam Block  Allama Iqbal Town Lahore  PERSONAL  INFORMATION  \n\uf0b7 Name  Muhammad Adnan  \n\uf0b7 M-status  Single  \n\uf0b7 Date  of birth  08-06-2000  \n\uf0b7 Nationality  Pakistan  \n\uf0b7 Religion  Islam  \n \n \nSkills Highlights  \n \n\uf0b7 LinkedIn  \n\uf0b7 Sales Navigator  \n\uf0b7 Email Marketing  \n\uf0b7 B2B Lead Generation  \n\uf0b7 Direct Sales  \n\uf0b7 Upwork  \n\uf0b7 PPH \n\uf0b7 Microsoft Office  \n \nEducation  \n\uf0b7 DEGREE  YEAR  \n\uf0b7 Masters             2022  \n\uf0b7 B.com IT          2020  \n\uf0b7 Intermediate     2017  \n\uf0b7 Matriculation    2015 \n \nLANGUAGE  \n \n\uf0b7 ENGLISH  \n\uf0b7 URDU  \n\uf0b7 PUNJABI  \n\uf0b7 ARABIC  \n \nHobbies  \n\uf0b7 Traveling  \n\uf0b7 Music  \n\uf0b7 Cooking  \n\uf0b7 Reading  "
+    },
+    "details": {
+        "name": "Muhammad Adnan",
+        "number": "923234600859",
+        "skills": [
+            "LinkedIn",
+            "Sales Navigator",
+            "Email Marketing",
+            "B2B Lead Generation",
+            "Direct Sales",
+            "Upwork",
+            "PPH",
+            "Microsoft Office"
+        ],
+        "email_id": "sheikhadna.ali@gmail.com",
+        "location": "Lahore",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2022",
+                "university": "Not specified",
+                "degree_title": "Masters"
+            },
+            {
+                "end_date": "2020",
+                "university": "Not specified",
+                "degree_title": "B.com IT"
+            },
+            {
+                "end_date": "2017",
+                "university": "Not specified",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "2015",
+                "university": "Not specified",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Adnan is a proactive and achievement-oriented Business Development Specialist with 2.5 years of practical experience in cultivating business across various domains, including digital marketing, web development, and both web and mobile app development. He specializes in recognizing prospects, establishing strategic alliances, and nurturing client connections to stimulate revenue expansion.",
+        "employment_history": [
+            {
+                "details": "LinkedIn Management, Direct Sales, Staff Augmentation, Data Extraction, Email Marketing, B2B lead generation, Upwork Bidding, Client Management",
+                "end_date": "Present",
+                "location": "Not specified",
+                "job_title": "Business Development Executive",
+                "start_date": "06-2022",
+                "company_name": "Triaxo Solutions"
+            },
+            {
+                "details": "Staff Augmentation, LinkedIn Lead Generation, Lead extraction from platforms like Angel list, Glassdoor, Dice, Workable, etc., Upwork Management",
+                "end_date": "06-2022",
+                "location": "Not specified",
+                "job_title": "Business Development Executive",
+                "start_date": "11-2021",
+                "company_name": "Iverx Solutions"
+            },
+            {
+                "details": "Lead extraction, B2B email Marketing, Upwork bidding",
+                "end_date": "11-2021",
+                "location": "Not specified",
+                "job_title": "Lead Extractor/Business Development",
+                "start_date": "11-2020",
+                "company_name": "Superior/Tektiks"
+            }
+        ]
+    }
+}

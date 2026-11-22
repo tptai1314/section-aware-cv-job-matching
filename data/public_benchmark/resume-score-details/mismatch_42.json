@@ -1,0 +1,132 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 5 years of experience primarily in marketing and lead generation, which aligns moderately with business development but lacks specificity to the job's strategic planning.",
+            "No evidence of leadership role in job history, limited to lead generation, and not business development management.",
+            "Data entry and lead generation roles don\u2019t indicate experience in strategic business development or planning, leading to lower relevant experience score.",
+            "The resume doesn't demonstrate proficiency in business analytics tools or digital marketing strategies that were preferred in the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "business development experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales strategy",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong understanding of sales processes and negotiation skills",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.94,
+                "micro_scores": 3.0
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Sameer",
+            "email": "muhammadsameer2244@gmail.com",
+            "phone": "03224116232",
+            "current_position": "Sr. Marketing & Lead Generation Executive",
+            "current_company": "Virtual Force Inc.",
+            "employment_start_date_current_company": "05-2021",
+            "first_company_start_date": "03-2017",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Business Development Manager**  \nJoin [Fictional Company] as a Business Development Manager, where you will lead strategies for expanding our market presence. Responsibilities include driving sales growth, developing key client relationships, and implementing innovative solutions to improve efficiencies using data-driven insights.\n\n**Key Responsibilities:**\n\n- Identify new business opportunities and potential clients through market research and networking.\n- Develop strategies to enhance business processes, improve workflows, and maximize operational efficiency.\n- Work collaboratively with senior management to provide strategic recommendations based on market analysis.\n- Lead and mentor a team of business development professionals, focusing on achieving company sales targets.\n- Engage in high-stakes negotiation and strategy discussions with existing and potential partners.\n\n**Preferred Skills:**\n\n- Proficiency in business analytics tools like GA4 and Power BI.\n- Strong capability in digital marketing strategies including SEO and influencer marketing.\n- Expertise in using CRM tools such as JIRA and Asana.\n\n**Our Ideal Candidate:**\n\nYou are proactive, strategic, and data-oriented with a firm background in business development and a passion for driving sales excellence. You are eager to lead and inspire a team while focusing on achieving ambitious growth targets.\n\nJoin us and be a part of a collaborative environment driving innovation and success.\n\n[Apply Now]",
+        "macro_dict": {
+            "leadership": 26,
+            "business development experience": 56,
+            "strategic planning": 18
+        },
+        "micro_dict": {
+            "sales strategy": 100
+        },
+        "additional_info": "[Fictional Company] values candidates from top-tier universities such as [University A] and [University B]. We support diversity and inclusion in our hiring processes. Relocation assistance is provided on a case-by-case basis. We assess skills through a combination of technical interviews, case studies, and practical tests to ensure the candidate\u2019s fitment with the organizational culture and job requirements.",
+        "minimum_requirements": [
+            "Strong understanding of sales processes and negotiation skills"
+        ],
+        "resume": "Muhammad Sameer\nSr. Marketing & Lead Generation Executive at Virtual Force Inc.\nTo be a valuable part of a visionary organization and contribute in its success with my\nknowledge, skills and positive abilities. Contact Info\n Strengths & Skills\ue185\n\u2714Business Development \u2714Email Marketing \u2714Lead Generation\n\u2714LinkedIn \u2714Market Research Analyst \u2714Marketing\n\u2714Marketing Automation\nSpecialist/Manager\u2714Research \u2714Sales\n Academics\ue233\nBSCS  / Riphah International University  / 3.5 CGPA 2022\nDAE  / Punjab Board  / 62% 2016\n Experience   5 years \ue067\nVirtual Force Inc. 1.3 years\nSr. Marketing & Lead Generation ExecutiveMay 2021 - Present\nIntagleo Systems Pvt Ltd 2.3 years\nLead Generation SpecialistJan 2019 - Apr 2021\nTkXel 1.8 years\nDate Entry AnalystMar 2017 - Dec 2018\n Work History\ue032\nVirtual Force Inc. May 2021 - Present   (1.3 years)\nSr. Marketing & Lead Generation Executive Lahore, Pakistan\nCreate email marketing campaigns to promote products or services.\nEnsure marketing message is conveyed clearly and delivered properly to prospects.\nEnsure messages are sent in proper form and template.\nProofread emails for clarity, grammar, and spelling.\nDevelop a personalization strategy.\nInclude specific graphics, incentives, and detailed descriptions.\nReview messages for brevity.\nSend messages to those who have opted in for messages.\nEnsure messages are mobile-friendly.\nCreate a database of emails for lead generation.\nFollow up on interested respondents.\nPurge non-deliverable email addresses and opt-outs.\nInclude persuasive 'call-to-actions' in advertisements and promotions.\nPlace orders for products.\nDesign and write press releases.\nTrack and analyze direct and interactive marketing campaigns.\nUse statistical analysis and reports to create campaigns.\nCoordinate and monitor the maintenance, integrity, and security of several databases.\nDevelop and code the list segmentation for all direct and interactive marketing\ncampaigns and communicate requirements to the primary database vendor.Contact Info\n 03224116232\ue145\nmuhammadsameer2244@gmail.com\u2709\nHouse # 464, Street 186\nFarooq Park, Baghbanpura Lahore, Cantt.\nLahore, Pakistan\ue021\n Industries\ue019\nSoftware & Web Development\nBusiness Development\nMarketing\nInformation security\n Functional Areas*\nMarketing\nData Entry\nSales & Business Development\nDigital Marketing\nResearch & Development\n Languages\ue038\nPunjabi - Native\nUrdu - Native\nEnglish - Medium\n Hobbies\ue007\nCricket\nBadminton\nTable Tennis\nReading Books\nInternet Searching\nIntagleo Systems Pvt Ltd Jan 2019 - Apr 2021   (2.3 years)\nLead Generation Specialist Lahore, Pakistan\nEmail Marketing. (Hubspot, Salesforce, MailMerge).\nData collection, prospect analysis.\nPerform all data entry-related tasks including sorting, proofing, updating, mailing and storing.\nMaintain data files accurately.\nCompile, sort, verify and correct data to be entered.\nReview data for completeness and accuracy.\nManage filing and routing of source documents after entry.\nMaintain records of work completed.\nUpdate data in appropriate databases in an accurate and timely manner so as to avoid backlogging.\nProcess and resolve data inquiries by searching and reviewing the databases.\nEnter and update files into Excel spreadsheets.\nPerform administrative duties such as data filing as required\nTkXel Mar 2017 - Dec 2018   (1.8 years)\nDate Entry Analyst Lahore, Pakistan\n1-Data Finding Technique \n2-Email Validation\n3-Finding URL from IP Address \n4-Data Validation Techniques\n5- Email Marketing\n6-Maintain records of work completed.\n7-Perform administrative duties such as data filing as required. \n8-Enter and update files into Excel spreadsheets.\n9-Review data for completeness and accuracy. \n10-Making online Sheets in MS Excel.\n11-Data Find from different Sources Like Zoominfo, LinkedIn, Lead411 Data,\n"
+    },
+    "details": {
+        "name": "Muhammad Sameer",
+        "number": "03224116232",
+        "skills": [
+            "Email Marketing",
+            "Lead Generation",
+            "Marketing Automation",
+            "Market Research",
+            "Data Entry",
+            "Sales"
+        ],
+        "email_id": "muhammadsameer2244@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2022",
+                "university": "Riphah International University",
+                "degree_title": "BSCS"
+            },
+            {
+                "end_date": "06-2016",
+                "university": "Punjab Board",
+                "degree_title": "DAE"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammadsameer",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Sameer is a skilled marketing and lead generation executive with over 5 years of experience in the software and web development industry. He has a strong background in email marketing, lead generation, and marketing automation, demonstrating a commitment to driving business growth through effective marketing strategies.",
+        "employment_history": [
+            {
+                "details": "Create email marketing campaigns to promote products or services. Ensure marketing message is conveyed clearly and delivered properly to prospects. Develop a personalization strategy and track and analyze direct and interactive marketing campaigns.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Sr. Marketing & Lead Generation Executive",
+                "start_date": "05-2021",
+                "company_name": "Virtual Force Inc."
+            },
+            {
+                "details": "Email Marketing using Hubspot, Salesforce, and MailMerge. Data collection and prospect analysis. Maintain data files accurately and manage filing and routing of source documents after entry.",
+                "end_date": "04-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Lead Generation Specialist",
+                "start_date": "01-2019",
+                "company_name": "Intagleo Systems Pvt Ltd"
+            },
+            {
+                "details": "Data finding techniques, email validation, and maintaining records of work completed. Perform administrative duties such as data filing and enter and update files into Excel spreadsheets.",
+                "end_date": "12-2018",
+                "location": "Lahore, Pakistan",
+                "job_title": "Date Entry Analyst",
+                "start_date": "03-2017",
+                "company_name": "TkXel"
+            }
+        ]
+    }
+}

@@ -1,0 +1,186 @@
+{
+    "output": {
+        "justification": [
+            "The candidate does not have explicit leadership roles listed but does mention coaching representatives, which suggests some leadership experience.",
+            "The candidate lacks direct sales management experience but has experience in sales-related roles primarily in customer service and quality assurance.",
+            "The candidate does not have direct experience with the required software, Salesforce, HubSpot, or other CRM tools.",
+            "The candidate has a degree but it is not directly in Business Administration or Marketing."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "sales experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "analytical skills",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 0
+                },
+                {
+                    "criteria": "seo",
+                    "score": 0
+                },
+                {
+                    "criteria": "data visualization",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Demonstrated ability in team leadership and mentoring",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales and marketing roles",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.79,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Sanam Abbas",
+            "email": "sanam.abbas.90210@gmail.com",
+            "phone": "+92 03034371437",
+            "current_position": "Sales Development Representative Technical Support",
+            "current_company": "Motive (Keeptruckin)",
+            "employment_start_date_current_company": "02-2019",
+            "first_company_start_date": "03-2015",
+            "urls": [
+                {
+                    "website_name": "Snaphunt",
+                    "url": "powered by snaphunt.com"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Join Our Dynamic Team as a Senior Sales and Marketing Executive\n\n### Position Overview\n\n[Acme Corp], a leader in providing cutting-edge digital marketing solutions, is on the hunt for a driven **Senior Sales and Marketing Executive** to play a key role in our growing team. You\u2019ll leverage your skills in sales management, business development, and digital marketing to drive business growth and maximize client satisfaction. Use your talent in leadership to mentor our young team, ensuring we hit key business targets while setting new standards in the industry.\n\n### Key Responsibilities\n- Drive sales strategies to achieve performance targets and expand our market reach.\n- Manage end-to-end sales processes including customer prospecting, lead generation, and closing sales. \n- Work collaboratively with the digital marketing team to conceive, manage, and execute marketing campaigns.\n- Utilize CRM tools such as HubSpot for tracking and analytics to boost sales efficiency.\n- Conduct market research and data analysis to inform business strategies.\n- Mentor new hires and facilitate continuous professional development.\n\n### Essential Skills and Experience\n- Proven experience in sales management and digital marketing (5+ years preferred).\n- Strong command over marketing automation tools and CRMs like HubSpot and Salesforce.\n- Ability to set strategic goals with excellent problem-solving and communication skills.\n- Aptitude for data visualization and analytics to drive informed marketing decisions.\n- Familiarity with SEO, SEM, email marketing campaigns, and business intelligence tools.\n- Demonstrated proficiency in leading and supervising a dynamic team environment.\n\n### What We Offer\n- Competitive salary and a comprehensive benefits package.\n- Opportunity to work with an innovative team and environment.\n- Continuous learning opportunities and growth potential within the company.\n\nJoin us to make an impact on the digital landscape and drive success!",
+        "macro_dict": {
+            "leadership": 38,
+            "sales experience": 3,
+            "analytical skills": 59
+        },
+        "micro_dict": {
+            "salesforce": 8,
+            "seo": 39,
+            "data visualization": 53
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Demonstrated ability in team leadership and mentoring",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": "powered\tby\n\t\nsnaphunt.com\nSanam\tAbbas\nsanam.abbas.90210@gmail.com\n(+92)\t03034371437\nSales\tDevelopment\tRepresentative\tTechnical\tSupport\nFeb\t2019\t-\tJan\t2021\nMotive\t(\tKeeptruckin\t)\t\n|\t\nPakistan\nIn\tthis\tcompany\tI\twas\tresponsible\tin\tconsulting\tabout\tGPS\tand\tDashcam\tDevices\tto\tthose\tfirms\twho\twere\teligible\tto\tavail\twith\ta\tgood\nquote\tto\tsecure\ttheir\tvehicles.\nQuality\tAssurance/customer\tSupport\nMay\t2018\t-\tDec\t2019\nUcs\t\n|\t\nPakistan\nOutbound/\tinbound\tand\tas\tQuality\tAssurance\tagent-------In\tthis\tposition\tI\twas\tresponsible\tfor\tcall\tevaluation\tand\tcoaching\tthe\nresprenstatives\tregards\tsales\tand\tquality\tof\ttheir\tcalls.\nCustomer\tService/\tQuality\tAssurance\nJun\t2017\t-\tApr\t2018\nGlobe\tServices\t\n|\t\nPakistan\nDGS-\tDigital\tGlobe\tServices\t/\tibex.\t/\tWestern\tUnion,\t\nIn\tthis\tcompany\tI\tworked\tas\ta\tsales\trepresentative\tfor\tmultiple\tservice\tproviders\tof\nInternet,\tcable\tand\thome\tsecurity\tand\tautomation.\tIt\twas\ta\tU.S\tbased\tcompany\tand\to\twas\tdealing\twith\tinbound\tand\toutbound\tcalls.-------I\nalso\tgot\tpromoted\tas\ta\tQuality\tAssurance\tAdvisor\tfor\tWestern\tUnion\tin\twhich\tI\twas\tassigned\tto\tevaluate\tcalls\tof\tRepresentatives\tand\talso\ncoach\tthem\tfor\tquality\tCalls.\nVisual\tMerchandising\nMar\t2016\t-\tDec\t2016\nMango\t\n|\t\nPakistan\nIn\tthis\tjob\tI\tUse\tto\treplenish\tbags\tapparels\tand\tpresent\ttheme\tin\toutlets\tof\tcompany.\nMar\t2015\t-\tJan\t2016\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd\t\n|\t\nPakistan\nAl\tKaram\tTextile\tMills\t(Pvt)\tLtd,\t-------Customer\tservice/Telecommunicator\t\nIn\tthis\tfield\tI\tworked\tas\tcustomer\trelationship\tofficer,\tI\tuse\tto\nforward\tcomplaints\tand\tsuggestions\tRegards\tfabric\tand\tupdate\tcustomers\tabout\tany\tpromotions\tthe\tcould\tavail\tby\tvia\temail\tand\ntelephone.\nBachelor\tof\tScience,\tComputer\tScience,\tComputer\tSciences,\tInformation\nTechnology\n2014\nBachelor\tof\tScience\nA\tLevels,\tUrdu,\tEnglish,\tComputer\tScience\n2012\nBoard\tof\tIntermediate\tand\tSecondary\tEducation\nIntermediate/A-Level\t,\t\nUrdu,\tEnglish,\tComputer\tScience\t\nGrade:\tB\t\nA\tLevels\tfrom\tLahore\nMatriculation,\tEnglish,\tMathematics\n2010\nMatriculation/O-Level\t,\tBoard\tof\tIntermediate\tand\tSecondary\tEducation\t\nEnglish,\tMathematics\t\nGrade:\tB\t\nMatriculation\nMatriculation\n2003\nAga\tkhan\tAcademy\nMatriculation\tfrom\tAga\tkhan\tAcademy\nMatriculation\n1999\nAllen\tGroove\tSchool\nCompleted\tLanguages\t\nMatriculation\tfrom\tAllen\tGroove\tSchool\nEXPERIENCE\nEDUCATIONpowered\tby\n\t\nsnaphunt.com\nLANGUAGES"
+    },
+    "details": {
+        "name": "Sanam Abbas",
+        "number": "03034371437",
+        "skills": [
+            "GPS Devices",
+            "Dashcam Devices",
+            "Quality Assurance",
+            "Customer Support"
+        ],
+        "email_id": "sanam.abbas.90210@gmail.com",
+        "location": "Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "01-2014",
+                "university": "Computer Sciences, Information Technology",
+                "degree_title": "Bachelor of Science"
+            },
+            {
+                "end_date": "01-2012",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "A Levels"
+            },
+            {
+                "end_date": "01-2010",
+                "university": "Board of Intermediate and Secondary Education",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-2003",
+                "university": "Aga Khan Academy",
+                "degree_title": "Matriculation"
+            },
+            {
+                "end_date": "01-1999",
+                "university": "Allen Groove School",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Sanam Abbas is a dedicated professional with experience in technical support and quality assurance, specializing in GPS and dashcam devices. She has a strong background in customer service and has worked in various roles that emphasize her technical skills and commitment to quality.",
+        "employment_history": [
+            {
+                "details": "Responsible for consulting about GPS and Dashcam Devices to firms eligible for securing their vehicles.",
+                "end_date": "01-2021",
+                "location": "Pakistan",
+                "job_title": "Sales Development Representative Technical Support",
+                "start_date": "02-2019",
+                "company_name": "Motive (Keeptruckin)"
+            },
+            {
+                "details": "Responsible for call evaluation and coaching representatives regarding sales and quality of their calls.",
+                "end_date": "12-2019",
+                "location": "Pakistan",
+                "job_title": "Quality Assurance/customer Support",
+                "start_date": "05-2018",
+                "company_name": "Ucs"
+            },
+            {
+                "details": "Worked as a sales representative for multiple service providers and promoted to Quality Assurance Advisor for call evaluation and coaching.",
+                "end_date": "04-2018",
+                "location": "Pakistan",
+                "job_title": "Customer Service/Quality Assurance",
+                "start_date": "06-2017",
+                "company_name": "Globe Services"
+            },
+            {
+                "details": "Replenished bags and apparel and presented themes in outlets of the company.",
+                "end_date": "12-2016",
+                "location": "Pakistan",
+                "job_title": "Visual Merchandising",
+                "start_date": "03-2016",
+                "company_name": "Mango"
+            },
+            {
+                "details": "Worked as a customer relationship officer, forwarding complaints and suggestions regarding fabric and updating customers about promotions.",
+                "end_date": "01-2016",
+                "location": "Pakistan",
+                "job_title": "Customer service/Telecommunicator",
+                "start_date": "03-2015",
+                "company_name": "Al Karam Textile Mills (Pvt) Ltd"
+            }
+        ]
+    }
+}

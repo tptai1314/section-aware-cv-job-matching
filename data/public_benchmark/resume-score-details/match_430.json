@@ -1,0 +1,172 @@
+{
+    "output": {
+        "justification": [
+            "The candidate demonstrates strong strategic planning skills, implementing business plans for growth and offering advanced budgeting techniques, which aligns with the job's strategic planning requirement.",
+            "Relevant experience in business development, as demonstrated by a strong track record in revenue growth, product line ventures, and market expansion, supports the macro criterion of experience.",
+            "Proficiency in Salesforce is evident through usage of CRM tools (ZOHO CRM), despite the absence of direct Salesforce experience.",
+            "Digital marketing competence is indicated by leading marketing campaigns and improving lead generation through targeted strategies."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 9
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 7
+                },
+                {
+                    "criteria": "market research",
+                    "score": 8
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 8
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 8.72,
+                "micro_scores": 7.279999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Imran Zahoor",
+            "email": "imranzahoor93@gmail.com",
+            "phone": "+92-322-8728772",
+            "current_position": "Sr. Manager Business Development",
+            "current_company": "Rockville Technologies Pvt. Ltd",
+            "employment_start_date_current_company": "08-2019",
+            "first_company_start_date": "02-2013",
+            "urls": [
+                {
+                    "website_name": "Skype",
+                    "url": "imranzahoor5"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "experience": 28,
+            "strategic planning": 72
+        },
+        "micro_dict": {
+            "salesforce": 52,
+            "market research": 5,
+            "proposal writing": 10,
+            "digital marketing": 33
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Strong analytical and strategic planning skills"
+        ],
+        "resume": " \n \n                                   \n                                                                                                                                                                               \n                                                                                                                                             \n                                                                                                                                           \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                                  \n                                                                                                                                                                               \n                                                                                                                                             \n                                                                                                                                           \n \n  IMRAN ZAHOOR  \n                     Sales  Professional  \n                  Skype :                  imranzahoor5  \nMarital Status:  Married  \nCNIC:   31303 -0426361 -1 \n \n \n14 September 1991  \n \nRoyal Apartments, E -11/2, Hill \nRoad Islamabad, Pakistan  \n \nImranzahoor93@gmail .com  \n \n+92-322-8728772  \n \n \n  \n \n \nA Business professional having 10 + years of divers ified experience in  Software  Sales | Cloud Sales| B2B | S aaS| Lead \nGeneration | Project Management | AIOps and Digital Transformation in various facets of industries to drive Business \ngrowth. Having expertise to initiate new ventures in company product line with aggressive Marketing strategies and \nteam building to upsell Technology -Driven solutions. Currently working i n Canada and  US Market to sell different \nsoftware  solutions . \n \n \nRockville Technologies Pvt. Ltd               \nSr. Manager Business Development                                                                           August 2019 \u2013 Till no w \nRockville Techno logies (Pvt.) Ltd  is a leading IT and Software  solution provider company. Rockville  currently \noperating in Pakistan, USA,  Canada,  UAE, KSA, Qatar, Kuwait, Bahrain, Srilanka, Afghanistan and Oman with  \nfocus on expanding our horizons; delivering nothing but the best.  \n\u25fc Achieved a remarkable YoY revenue growth of 30% in Digital Outsourcing, Digital Transformation ,  \n SaaS P latform , ERP solutions,  IBM Cloud Products, ioT -based solutions , and Satellite services . \n\u25fc Increased lead generation by 35% within the first quarter through targeted marketing campaign s  \n and improved lead nurturing strategies . \n\u25fc Achieved a conversion rate of 15% by implementing personalized outreach initiatives based o n  \n lead behavior analysis for different segments . \n\u25fc Expanded market reach by identifying and entering two new lucrative mar kets, resulting in a 40 %  \n revenue growth within six months . \n\u25fc Generated $1.1 million in additional revenue by introducing a new product line  for healthcare  industry  based \non marke t research and customer demand analysis .  \n\u25fc Maintained an outstanding 25% customer satisfaction ra te through Value -Added analyses . \n\u25fc Work closely with our software development team to understand the capabilities and offerings of our company \nand will be responsible for presenting these to potential clients  for revenue growth .   \n\u25fc Successfully managed multiple projects related to Web/App Development, Resource Augmentatio n  \n and Digital Transformation solutions boosting local and international business prospects . \n\u25fc Captured 70% market share in the satellite services sector through partner channel sales wit h  \n Thuraya Telecom, Iridium, SUNMI and Inmarsat in Pakistan . \n\u25fc Developed effective business plans  and sales strategies for consistent growth and profitability . \n\u25fc Leveraging advanced analytics tools  i.e. Zoom info and LinkedIn Sales Navigator  for prospecting  to track lead \nbehavior and optimize lead nurturing activitie s for maximum engagement and sales . \n\u25fc Provided quarterly cost -benefit analyses report to CEO for optimizing project positioning throug h  \n Sales Strategy & Leadership . \n\u25fc Using  ZOHO  CRM for lead management  and day to day performance analytics.  \n\u25fc Led the team of Digital Marketing to give them guideline as per target market to design the emai l  \n Campaign s for lead generation . \n SUMMARY  \nWORK EXPERIENCE  \n \n \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n                      \n                              \n \n \n \n \n \n \n \n \n \n \n \n \n                                                                                                                                                                                                                                                                                      Orenda Systems  Pvt. Ltd  \nManager Busine ss Development                                                            Nov 2016 \u2013 Aug 2019                                                                                                                 \nOrenda Systems is an IT Consulting with Software Development - Accounting & Fin ancial Solutions - \nEcommerce Solutions - Virtual Resources company doing business locally and internationall y. \n \n\u25fc Achieved an impressive 15% lead -to-customer conversion rate, showcasing our exceptional sale s  \n capabilities  through Cold Calling, LinkedIn  Outreach and Email Campaigns . \n\u25fc Demonstrated a track record  of excellence by generating a substantial $500k in revenue annuall y  \n through successful deals and partnerships and increased 20% every year in total revenue . \n\u25fc Established ourselves as a leading  IT Consulting firm  in Middle East region  renowned for our  expertis e in \nWeb/App development services.  \n\u25fc Actively involved in pricing the solution/service and responding to RFPs, ensuring competitive offerings,  \nand winning proposals through Upwork and Fiverr . \n\u25fc Expertise in a wide range of fields, including Software Development, Accounting & Financial Solu tions , E-\ncommerce Solutions, and Virtual Resources  guaranteeing comprehensive support to our clients . \n\u25fc  Utilize cutting -edge tools like Apollo  and HubSpot to drive effective lead generation an d  \n customer acquisition strategies  for more rev enue . \n\u25fc Play a pivota l role in facilitating meetings between clients and our practice leaders, ensuring seamles s \ncommunication,  and understanding of client needs . \n\u25fc Identify and seize new business opportunities through extensive research and networking efforts ,  \n staying ahea d in a competitive market . \n\u25fc Employ continuous follow -up via emails and calls, ensuring we meet and exceed sales target s  \n consistently  by collaborating directly with customers, sales, and cross -functional teams . \n\u25fc Conduct engaging and persuasive product presentations and demonstrations  to the clients , showcasing th e \ninnovation and effectivene ss of our offerings . \n \nProt\u00e9g\u00e9 Global Inc.  \nSr. Negotiation Officer                                                                                         Feb 2013 \u2013 OCT 2016  \nA US-Based Health Care and IT consulting Company offering Practice Management Solution  and AR collection \nServices . \n\u25fc Maintained of relationship with the US Doctors, Practice owners and insurance companies . \n\u25fc Record keeping of all the uncollected liens  and Manage report . \n\u25fc Responsible for negotiating the medical bills with insurance company to close the cases  through outbound \ncalls an d emails . \n\u25fc Responsible to submit the appeals and objections on denied cases via e - mails and e-Fax. \n\u25fc Verifying the patient and justify his medical history  in the light of  Worker compensation  law for bill \npayments . \n\u25fc Follow -up, collection, and monitoring of accounts receivable .  \n\u25fc Respo nd to insuranc e rep  inquiries relating to invoicing and other related requests . \n\u25fc Maintain client credit notes and agreements with collection process . \n\u25fc Reporting of monthly & quarterly billing of assigned task s \n\u25fc Follow -up & escalation with regional & HQ teams  for assigned tasks.   \n\u25fc Coordination with 3rd party/vendors attorneys to collect the bills as well .  \n \n                                                                                                                                            \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\u25fc Software and Technology Industry  \n\u25fc Healthcare  Industry  \n\u25fc Automotive  Industry  \n\u25fc Retail  and Ecommerce  Industry  \n\u25fc Agriculture  Industry  \n\u25fc Logistics  Industry  \n\u25fc Education  Industry  \n\u25fc Manufacturing  Industry  \n\u25fc ERP Solutions  \n\u25fc Web/App Solutions  \n\u25fc Cloud Solutions  \n\u25fc Fleet Management  Solution  \n\u25fc Smart City /Home  Solution  \n\u25fc Point of Sales Solution  \n\u25fc AI based Drone Solution  \n\u25fc Satellite  Solution  \n \n \n \nBBA         |   Bahria University of Management Sciences  Islamabad  \nMBA       |     Preston  University of Management Sciences  Islamabad                    \n                               \nCertifications : Turbonomic by IBM Technical Sales  Cert ified                                            \n \n Reference:  \n \n  Will be flourished upon request.  \n INDUSTRIES /SOLUTIONS  AREAS OF EXPERTISE  \nStrategic Planning:  \n\u25fc Implemented  Business plans that delivered top line \ngrowth and bottom -line improvement.  \n\u25fc Established T raining seminars that improved \nemployee  motivation and Career growth.  \nForecasting & Budgeting:  \n\u25fc Used a wide range of tools and systems to effectively \ndevise a feasi ble budget for all the Business  \noperations and its extra services.  \n\u25fc Conduct a comprehensive analysis by gathering all \nrelated information on the company\u2019s numerous \nfinancial dealings and present the findings often as \nrequired.  \n \n \n Sales Management : \n\u25fc Managing and training  a hardworking, Results -\noriented S ales for ce. Helping them with different \ntools  to perform  sales function .  \n\u25fc Use sales and M arketing -oriented skills in the best \npossible way to achieve the company\u2019s sale  targets . \n \nNegotiation & Collection:  \n\u25fc I used specialized  Techniques to Collect dead \naccount receivables by following up on pending \ninvoices through  bargaining and nego tiations.  \n \n \n \n \nEDUCATION  "
+    },
+    "details": {
+        "name": "IMRAN ZAHOOR",
+        "number": "923228728772",
+        "skills": [
+            "Software Sales",
+            "Cloud Sales",
+            "B2B",
+            "SaaS",
+            "Lead Generation",
+            "Project Management",
+            "AIOps",
+            "Digital Transformation",
+            "Web/App Development",
+            "ERP Solutions",
+            "IBM Cloud Products",
+            "IoT-based solutions",
+            "Satellite services",
+            "Digital Marketing",
+            "ZOHO CRM",
+            "Apollo",
+            "HubSpot",
+            "Zoom info",
+            "LinkedIn Sales Navigator"
+        ],
+        "email_id": "imranzahoor93@gmail.com",
+        "location": "Islamabad, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2010",
+                "university": "Bahria University of Management Sciences Islamabad",
+                "degree_title": "BBA"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "Preston University of Management Sciences Islamabad",
+                "degree_title": "MBA"
+            }
+        ],
+        "achievements": [
+            "Achieved a remarkable YoY revenue growth of 30% in Digital Outsourcing, Digital Transformation, SaaS Platform, ERP solutions, IBM Cloud Products, IoT-based solutions, and Satellite services.",
+            "Increased lead generation by 35% within the first quarter through targeted marketing campaigns and improved lead nurturing strategies.",
+            "Achieved a conversion rate of 15% by implementing personalized outreach initiatives based on lead behavior analysis for different segments.",
+            "Expanded market reach by identifying and entering two new lucrative markets, resulting in a 40% revenue growth within six months.",
+            "Generated $1.1 million in additional revenue by introducing a new product line for the healthcare industry based on market research and customer demand analysis."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Turbonomic by IBM Technical Sales Certified",
+                "issuing_organization": "IBM",
+                "date_of_issuance": "01-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/imranzahoor5",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Imran Zahoor is a seasoned business professional with over 10 years of diversified experience in software sales, cloud sales, and digital transformation. He has a proven track record of driving business growth through innovative marketing strategies and effective team management. Currently working in the Canadian and US markets, he excels in lead generation and project management, showcasing his expertise in technology-driven solutions.",
+        "employment_history": [
+            {
+                "details": "Achieved a remarkable YoY revenue growth of 30% in Digital Outsourcing, Digital Transformation, SaaS Platform, ERP solutions, IBM Cloud Products, IoT-based solutions, and Satellite services. Increased lead generation by 35% within the first quarter through targeted marketing campaigns and improved lead nurturing strategies. Achieved a conversion rate of 15% by implementing personalized outreach initiatives based on lead behavior analysis for different segments. Expanded market reach by identifying and entering two new lucrative markets, resulting in a 40% revenue growth within six months. Generated $1.1 million in additional revenue by introducing a new product line for the healthcare industry based on market research and customer demand analysis. Maintained an outstanding 25% customer satisfaction rate through Value-Added analyses. Work closely with our software development team to understand the capabilities and offerings of our company and will be responsible for presenting these to potential clients for revenue growth. Successfully managed multiple projects related to Web/App Development, Resource Augmentation, and Digital Transformation solutions boosting local and international business prospects. Captured 70% market share in the satellite services sector through partner channel sales with Thuraya Telecom, Iridium, SUNMI, and Inmarsat in Pakistan. Developed effective business plans and sales strategies for consistent growth and profitability. Leveraging advanced analytics tools i.e. Zoom info and LinkedIn Sales Navigator for prospecting to track lead behavior and optimize lead nurturing activities for maximum engagement and sales. Provided quarterly cost-benefit analyses report to CEO for optimizing project positioning through Sales Strategy & Leadership. Using ZOHO CRM for lead management and day to day performance analytics. Led the team of Digital Marketing to give them guideline as per target market to design the email Campaigns for lead generation.",
+                "end_date": "Present",
+                "location": "Pakistan",
+                "job_title": "Sr. Manager Business Development",
+                "start_date": "08-2019",
+                "company_name": "Rockville Technologies Pvt. Ltd"
+            },
+            {
+                "details": "Achieved an impressive 15% lead-to-customer conversion rate, showcasing our exceptional sales capabilities through Cold Calling, LinkedIn Outreach and Email Campaigns. Demonstrated a track record of excellence by generating a substantial $500k in revenue annually through successful deals and partnerships and increased 20% every year in total revenue. Established ourselves as a leading IT Consulting firm in Middle East region renowned for our expertise in Web/App development services. Actively involved in pricing the solution/service and responding to RFPs, ensuring competitive offerings, and winning proposals through Upwork and Fiverr. Expertise in a wide range of fields, including Software Development, Accounting & Financial Solutions, E-commerce Solutions, and Virtual Resources guaranteeing comprehensive support to our clients. Utilize cutting-edge tools like Apollo and HubSpot to drive effective lead generation and customer acquisition strategies for more revenue. Play a pivotal role in facilitating meetings between clients and our practice leaders, ensuring seamless communication, and understanding of client needs. Identify and seize new business opportunities through extensive research and networking efforts, staying ahead in a competitive market. Employ continuous follow-up via emails and calls, ensuring we meet and exceed sales targets consistently by collaborating directly with customers, sales, and cross-functional teams. Conduct engaging and persuasive product presentations and demonstrations to the clients, showcasing the innovation and effectiveness of our offerings.",
+                "end_date": "08-2019",
+                "location": "Pakistan",
+                "job_title": "Manager Business Development",
+                "start_date": "11-2016",
+                "company_name": "Orenda Systems Pvt. Ltd"
+            },
+            {
+                "details": "Maintained of relationship with the US Doctors, Practice owners and insurance companies. Record keeping of all the uncollected liens and Manage report. Responsible for negotiating the medical bills with insurance company to close the cases through outbound calls and emails. Responsible to submit the appeals and objections on denied cases via e-mails and e-Fax. Verifying the patient and justify his medical history in the light of Worker compensation law for bill payments. Follow-up, collection, and monitoring of accounts receivable. Respond to insurance rep inquiries relating to invoicing and other related requests. Maintain client credit notes and agreements with collection process. Reporting of monthly & quarterly billing of assigned tasks. Follow-up & escalation with regional & HQ teams for assigned tasks. Coordination with 3rd party/vendors attorneys to collect the bills as well.",
+                "end_date": "10-2016",
+                "location": "USA",
+                "job_title": "Sr. Negotiation Officer",
+                "start_date": "02-2013",
+                "company_name": "Prot\u00e9g\u00e9 Global Inc."
+            }
+        ]
+    }
+}

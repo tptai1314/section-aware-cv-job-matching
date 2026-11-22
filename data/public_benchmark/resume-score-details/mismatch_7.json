@@ -1,0 +1,117 @@
+{
+    "output": {
+        "justification": [
+            "The job description requires strategic thinking for developing business plans, which was not evident in the detailed tasks described in the resume.",
+            "B2B sales experience is central to the job, and the resume suggests involvement in sales but lacks explicit indicators of B2B focus or achievement.",
+            "Communication is a key requirement, but the focus on internal communications with teams rather than client relationship building in the resume suggests limited external communication skills.",
+            "Strong IT and manufacturing knowledge is required, but the resume content did not clearly outline such experience, which reduced this score.",
+            "Bachelor's degree requirement was not confirmed due to lack of educational background details in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "b2b sales",
+                    "score": 5
+                },
+                {
+                    "criteria": "communication skills",
+                    "score": 3
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong proficiency in Microsoft Office Suite",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.0,
+                "micro_scores": 4.48
+            }
+        },
+        "personal_info": {
+            "name": "",
+            "email": "",
+            "phone": "",
+            "current_position": "",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "",
+            "urls": []
+        },
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "b2b sales": 79,
+            "communication skills": 11,
+            "it and manufacturing sector knowledge": 10
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "5+ years of experience in business development or sales",
+            "Strong understanding of IT and manufacturing industries",
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": "Below are the Expectations and Key Performance Indicators for Inside Sales and/or  as \nAssigned by your Reporting Manager  \n \nEvery individual in inside sales team is required to contribute at least 3 leads (scheduled meetings along with spec \nsheets /company details shared with relevant sales teams) per week. That would be 12 scheduled meetings per \nmonth out of which at least 4 should be qualified.  \nBy definition qualified would mean a lead (scheduled meeting)  should fulfil the ANUM criteria.  \nA- Authority, the person should be relevant to the product/service we\u2019re selling. He/she should either be the \ninfluencer or decision maker  \nN- there should be need for what we\u2019re trying to sell  \nU- urgency, should be a defined timeline for the project  \nM- a budget allocated or at least defined for the project.   \n \nAll individuals should be well - versed on  their respective campaigns ( We\u2019ll schedule their training sessions with the \nrelevant presales). They need to make sure to have the right level of knowledge of the product/service to try to \nconvince a prospect for a meeting and/or to prequalify a meeting.   \nEvery lead source needs to be present in their scheduled meeting as a moderator and share the minutes of \nmeetings after every meeting.   \n \nOnce a meeting is scheduled following measures need to be taken:  \n\uf0b7 Timely handover the lead to the concerned sales/pre sa les team including the spec sheet /company details \nand not just the invite. There should be at least a 48 -hour difference before handing over to sales. So if \nyou get connected with some body this week, you try to schedule a slot with them for the following o ne \nand buy some time to get the prequalification details - Exceptions would be entertained either way.   \n\uf0b7 No lead would be forwarded to sales without any prequalification details from the prospect (following the \nprocess that I've shared and/or take internal c alls and then handover).  We'll still consider the exceptions \nin some cases which shouldn't be more then 15 -20 percent.   \n\uf0b7 Every individual is supposed to maintain a repository of the sales pipeline in terms of important follow ups \nbefore or after the meeting  is scheduled, hot and qualified leads. Hound the individuals and get a \nresponse be it with prospects or sales teams. In case a potential prospect has gone dormant, strategize \nwith me and we'll get it to the table.   \nBelow are the relevant sales teams for r espective campaigns.   \nAI/ML \u2013 Dr. Ali and Rashid Z afar \nFlex - Kamran Khalid and Asad J aved   \nCustom app D ev/PS  - Rashid Z afar \nAWS - Furrukh S ohail and Raj   \nPlease be certain that I am looped in, in all your communications with them, lead  assignments/ spec \nsheets /details.  \n \nTimings are  from 4:30 pm to 1 am  following and overlapping EST and UK time respectively.  \nThe star performers in my team i.e. the ones achieving and/or overachieving their weekly and monthly targets in \nmy team would enjoy a relaxed environment and  flexible timings.  \nThey would have liberty to take long breaks or even leave early, opportunity to work from home - having all this \ndiscussed and approved by me.   \nOn the contrary non performers would not be able to enjoy any perks.  \nAbove all, the culture a nd environment of the team and company is of utmost priority any individual found \ninstilling  negativity to the environment  and/or demotivation effecting team productivity would then and there be \nlaid off.   \n \n "
+    },
+    "details": {
+        "name": "John Doe",
+        "number": "03124843384",
+        "skills": [
+            "Python",
+            "Excel"
+        ],
+        "email_id": "john.doe@example.com",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/johndoe",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "John Doe is a seasoned software engineer with extensive experience in Python and Excel, demonstrating strong technical skills and a commitment to excellence.",
+        "employment_history": [
+            {
+                "details": "Software Engineer at XYZ Corp",
+                "end_date": "11-2024",
+                "location": "",
+                "job_title": "Software Engineer",
+                "start_date": "01-2020",
+                "company_name": "XYZ Corp"
+            }
+        ]
+    }
+}

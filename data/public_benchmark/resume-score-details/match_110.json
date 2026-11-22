@@ -1,0 +1,185 @@
+{
+    "output": {
+        "justification": [
+            "Although the candidate has experience in business development, the experience is mostly at a junior level, which doesn't align with the strategic responsibilities of this role.",
+            "The candidate demonstrates some leadership and strategic planning capabilities, but primarily in task management rather than high-level strategic initiatives.",
+            "CRM Proficiency is demonstrated with HubSpot, but Salesforce is not mentioned, which is a preferred skill in the job description.",
+            "The candidate has strong proposal writing skills as outlined in their responsibilities, but there is limited evidence of strategic planning."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 3
+                },
+                {
+                    "criteria": "crm proficiency",
+                    "score": 5
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.37,
+                "micro_scores": 4.32
+            }
+        },
+        "personal_info": {
+            "name": "Ahsin Yousaf",
+            "email": "ahsiny4@gmail.com",
+            "phone": "03032548705",
+            "current_position": "Business Development Executive",
+            "current_company": "InvoZone",
+            "employment_start_date_current_company": "10-2020",
+            "first_company_start_date": "08-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/ahsin-yousaf-bb3147145"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "experience": 37,
+            "strategic planning": 63
+        },
+        "micro_dict": {
+            "salesforce": 52,
+            "crm proficiency": 30,
+            "proposal writing": 18
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "Ahsin Yousaf\nBusiness Development Executive / Lead Generation\nExpert at InvoZone Technology\nI'm working as Business Development Executive at InvoZone Technologies. I have strong\nknowledge about technologies like Elixir, Phoenix, frameworks (JavaScript, Python, PHP) and\ndifferent freelancing platforms (Upwork & Freelancer) and hands-on experience in Development.\nI want to pursue a career in a growth oriented Organization which provides opportunities for\npersonal learning as well as professional development.Contact Info\n03032548705\ue145\nahsiny4@gmail.com\u2709\nhttps://www.linkedin.com/in/ahsin-yousaf-\nbb3147145\ue135\nMansoora, Near Cakes & Bakes Lahore\nLahore, Pakistan\ue021\n Strengths & Skills\ue185\n\u2714B2B \u2714Business Development \u2714Digital Marketing\n\u2714Fiverr \u2714Freelancer \u2714Google Adwords\n\u2714Proposal writer \u2714Search Engine Optimization (SEO) \u2714Social Media Marketing\n\u2714Upwork \u2714WordPress\n Academics\ue233\nTitle Institute Score Date\nMSc-IT University of Central Punjab (UCP) , Lahore 3.4 CGPA 2019\nADP-IT University of Central Punjab (UCP) , Lahore 2.9 CGPA 2017\n Certifications\ue124\nTitle Authority Date\nWeb Development University of Lahore Starting August 2019\nFreelancing & WordPress E-Rozgaar Starting January 2019\nSEO WSCube Tech\nSMM WSCube Tech\n Experience   Less than 1 Year \ue067\n2 months\n7 months\n11 months\n8 months\n2.3 yearsCompany Designation Duration\nInvoZone Business Development Executive / BDE Oct 2020 - Present\nTryngo Technologies Business Development Executive / BDE Apr 2020 - Nov 2020\nUpwork Freelancer Jan 2020 - Present\nMaxsify WordPress Developer Aug 2019 - Apr 2020\nFiverr Freelancer Aug 2018 - Present\n Work History\ue032\nInvoZone Oct 2020 - Present  (2 months)\nBusiness Development Executive / BDE Lahore, Pakistan\nDescription of my work is\n* Working on preferred freelancer account with recruiter\n* Lead generation.\n* Proposal writing.\n* Writing cover letter for every job.\n* Schedule a meeting.\n* Creating resumes for every job.\n* Creating profiles on different platforms.\n* chat support on email and Skype.\n* Linkedin development.\n* Fetching Emails and data.\n* Create and assigning the task on HubSpot.\n* Project management.\n* Human resource developer for project and job.\n* IT services\nTryngo Technologies Apr 2020 - Nov 2020  (7 months)\nBusiness Development Executive / BDE Lahore, Pakistan\n- Bidding on different Platforms (Upwork, Freelancer).\n- Searching Potential Clients Using Google and Different Directories\n- Email Marketing for Outsourcing Our Services\n- Data Entry\n- Targeting Foreign Market\n- Indoor Marketing\n- Social Media Marketing \n- Digital Marketing \n \nUpwork Jan 2020 - Present  (11 months)\nFreelancer Lahore, Pakistan\nOffering services:\nWordPress Development \nDigital Marketing\nMaxsify Aug 2019 - Apr 2020  (8 months)\nWordPress Developer Lahore, Pakistan\nI am currently working in Maxsify Technology as Junior WordPress Developer. My major responsibly is to convert HTML to WordPress and build\nwebsite using Premium themes and Builders.\nFiverr Aug 2018 - Present  (2.3 years)\nFreelancer Lahore, Pakistan\nI have great experience in freelancing. I offered WordPress, WIX, PSD to HTML, WordPress Speed Optimization, Data Entry and Product Listing\n Industries\ue019\nInformation Technology Functional Areas*\nMarketing\nProject Management\nSales & Business Development\n Languages\ue038\nUrdu - Native\nEnglish - Beginner Hobbies\ue007\nBrowsing\nTraveling\n"
+    },
+    "details": {
+        "name": "Ahsin Yousaf",
+        "number": "03032548705",
+        "skills": [
+            "Elixir",
+            "Phoenix",
+            "JavaScript",
+            "Python",
+            "PHP",
+            "Upwork",
+            "Freelancer",
+            "Fiverr",
+            "Google Adwords",
+            "Search Engine Optimization (SEO)",
+            "Social Media Marketing",
+            "WordPress"
+        ],
+        "email_id": "ahsiny4@gmail.com",
+        "location": "Mansoora, Near Cakes & Bakes Lahore, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "2019",
+                "university": "University of Central Punjab (UCP)",
+                "degree_title": "MSc-IT"
+            },
+            {
+                "end_date": "2017",
+                "university": "University of Central Punjab (UCP)",
+                "degree_title": "ADP-IT"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Web Development",
+                "issuing_organization": "University of Lahore",
+                "date_of_issuance": "08-2019"
+            },
+            {
+                "certification_name": "Freelancing & WordPress",
+                "issuing_organization": "E-Rozgaar",
+                "date_of_issuance": "01-2019"
+            },
+            {
+                "certification_name": "SEO",
+                "issuing_organization": "WSCube Tech",
+                "date_of_issuance": ""
+            },
+            {
+                "certification_name": "SMM",
+                "issuing_organization": "WSCube Tech",
+                "date_of_issuance": ""
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ahsin-yousaf-bb3147145",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ahsin Yousaf is a skilled Business Development Executive with expertise in various technologies including Elixir and Phoenix, as well as proficiency in multiple programming frameworks such as JavaScript, Python, and PHP. He has hands-on experience in development and freelancing platforms, demonstrating a strong commitment to professional growth and development.",
+        "employment_history": [
+            {
+                "details": "Working on preferred freelancer account with recruiter, lead generation, proposal writing, writing cover letters, scheduling meetings, creating resumes, creating profiles on different platforms, chat support on email and Skype, LinkedIn development, fetching emails and data, creating and assigning tasks on HubSpot, project management, human resource development for projects and jobs, IT services.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive / BDE",
+                "start_date": "10-2020",
+                "company_name": "InvoZone"
+            },
+            {
+                "details": "Bidding on different platforms (Upwork, Freelancer), searching potential clients using Google and different directories, email marketing for outsourcing services, data entry, targeting foreign markets, indoor marketing, social media marketing, digital marketing.",
+                "end_date": "11-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive / BDE",
+                "start_date": "04-2020",
+                "company_name": "Tryngo Technologies"
+            },
+            {
+                "details": "Offering services in WordPress Development and Digital Marketing.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Freelancer",
+                "start_date": "01-2020",
+                "company_name": "Upwork"
+            },
+            {
+                "details": "Converting HTML to WordPress and building websites using premium themes and builders.",
+                "end_date": "04-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "WordPress Developer",
+                "start_date": "08-2019",
+                "company_name": "Maxsify"
+            },
+            {
+                "details": "Offering services in WordPress, WIX, PSD to HTML, WordPress Speed Optimization, Data Entry, and Product Listing.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Freelancer",
+                "start_date": "08-2018",
+                "company_name": "Fiverr"
+            }
+        ]
+    }
+}

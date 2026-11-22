@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks the required Master's degree in Computer Science, Business Administration, or a related field, as they hold an M.A. in Physical Education.",
+            "There is insufficient industry experience in project management and data analytics, with most experience in banking business development and accounting roles.",
+            "No relevant skills in analytical tools like PowerBI or Oracle DV are mentioned, with only a basic computer diploma noted.",
+            "The resume lacks details on leadership experience, especially in leading cross-functional teams or pre-sales consulting."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "project management experience",
+                    "score": 2
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data management",
+                    "score": 1
+                },
+                {
+                    "criteria": "pre-sales consulting",
+                    "score": 0
+                },
+                {
+                    "criteria": "agile methodologies",
+                    "score": 0
+                },
+                {
+                    "criteria": "quality management systems",
+                    "score": 0
+                },
+                {
+                    "criteria": "powerbi",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Master's degree in Computer Science, Business Administration, or related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "10+ years of industry experience in project management and data analytics",
+                    "meets": false
+                },
+                {
+                    "criteria": "Proficiency in using analytical software and tools like PowerBI and Oracle DV",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 2.0,
+                "micro_scores": 0.12
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza",
+            "email": "razaa694@gmail.com",
+            "phone": "+92-332-8707574",
+            "current_position": ". ACCOUNTANT",
+            "current_company": "Continental Biscuits",
+            "employment_start_date_current_company": "None",
+            "first_company_start_date": "None",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "Join **TechVentures Inc.** as a **Senior Project Manager** where you'll oversee the delivery of key data management and analytics projects. We are looking for an innovative leader who can set and uphold delivery standards, while managing cross-functional teams to achieve the highest levels of service excellence. Your expertise in pre-sales, solution architecture, and client relationship management will drive our expansion into new markets and optimize existing processes.\n\n### Key Responsibilities:\n- Lead and manage complex data analytics and management projects from inception through completion.\n- Develop and implement quality and project management systems to align with organizational goals.\n- Coordinate solutions architecture and pre-sales activities, including the preparation of RFPs and EOIs.\n- Mentor and guide junior team members in professional development and project execution.\n- Engage with clients to deliver tailored business solutions and improve customer satisfaction.\n- Collaborate with other departments to identify improvement opportunities and streamline processes.\n\n### Preferred Skills:\n- Proficiency in data tools such as PowerBI, Oracle DV, and Tableau.\n- Strong understanding of software development methodologies including Agile and SCRUM.\n- Demonstrated ability to lead large technical teams and handle stakeholder communications effectively.\n- Expertise in business intelligence implementation and enterprise data warehousing.\n\n### Why Join Us?\n- Opportunity to work on impactful projects with global reach.\n- Collaborative and inclusive work environment.\n- Continuous learning and professional development opportunities.\n\nBecome a part of a team that values integrity, excellence, and innovation, and help us redefine what's possible in the tech industry.",
+        "macro_dict": {
+            "project management experience": 100
+        },
+        "micro_dict": {
+            "data management": 12,
+            "pre-sales consulting": 25,
+            "agile methodologies": 27,
+            "quality management systems": 16,
+            "powerbi": 20
+        },
+        "additional_info": "Preferred universities include National University of Computer and Emerging Sciences in Pakistan and equivalent institutions. We offer relocation support for candidates based outside of the hiring city, subject to management approval. Skills are assessed through a combination of technical tests, project management case studies, and panel interviews consisting of departmental heads and HR representatives.",
+        "minimum_requirements": [
+            "Master's degree in Computer Science, Business Administration, or related field",
+            "10+ years of industry experience in project management and data analytics",
+            "Proficiency in using analytical software and tools like PowerBI and Oracle DV"
+        ],
+        "resume": " \n \n \nObjective: - \nTo pursue  career  in a progressive  organization  that  provides  opportunities  \nfor career growth and professional development in order to groom the overall  \npersonality.  \n Personal  Information: - \nFather\u2019s  Name  Muhammad  Essa  \nDate  of Birth  10-02-1993  \nCNIC  No. 35102 -2529071 -3 \n \nDomicile  Kasur  (Punjab)  \n \nReligion  Islam  \n \nGender  Male  \n \nMarital  Status  Married  \n \n \nAcademic  Record: - \n \nDegree  Division  Year  Passing  Board/University  \nMatriculation  2nd 2009  BISE  Lahore  \nI.Com  1st 2012  BISE  Lahore  \nB.Com  2nd 2014  Punjab  University  \nM.A  Physical  Education  1st 2017  University  of Sargodha  \nURRICULUM  \nITAE  \nAAALLLIII RRRAAAZZZAAA \nPostal  Address:  Bahmani  Wala  Khurd,  Kasur  \nCell:  +92 -332 -8707574  \nE-Mail:  razaa694@gmail.com  \nComputer  Skills: - \n \n\u27a2 Diploma  in Computer  Sciences  DOM  \n \n\u27a2 Typing  Speed  40wpm  \n \nExperience: - \n \n\u27a2 . 02 Years  experience  as \u201cBusiness  Development  Officer\u201d  at Allied  Bank Kasur.  \n \n\u27a2 01 Year  experience  as a \u201cRelationship  Manager\u201d  at JS Bank  Kasur.  \n \n\u27a2 01 Year  experience        as  a  \u201c ACCOUNTANT     \u201don word       at  C ontinental Biscuits in \nkasur . \n \nLanguage: - \n \n\u27a2 English  \n \n\u27a2 Urdu  \n \n\u27a2 Punjabi  \n \nPersonal  Qualities: - \n \n\u27a2 Work  well  under  pressure  \n \n\u27a2 Work  well  as team  member  \n \n\u27a2 Strong  Organization,  Problem  Solving  \n \nReference: - \n \n\u27a2 Will  be furnished  on demand  \n"
+    },
+    "details": {
+        "name": "Raza Ali",
+        "number": "923328707574",
+        "skills": [
+            "Computer Sciences",
+            "Typing Speed 40wpm"
+        ],
+        "email_id": "razaa694@gmail.com",
+        "location": "Bahmani Wala Khurd, Kasur",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "05-2017",
+                "university": "University of Sargodha",
+                "degree_title": "M.A Physical Education"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "Punjab University",
+                "degree_title": "B.Com"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "BISE Lahore",
+                "degree_title": "I.Com"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "BISE Lahore",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/razaali",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Raza Ali is a dedicated professional with experience in business development and relationship management, possessing strong technical skills in computer sciences and typing. He has a solid educational background with a Master's degree in Physical Education and has worked in various roles in the banking and accounting sectors.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer at Allied Bank, responsible for client acquisition and relationship management.",
+                "end_date": "11-2024",
+                "location": "Kasur",
+                "job_title": "Business Development Officer",
+                "start_date": "11-2022",
+                "company_name": "Allied Bank"
+            },
+            {
+                "details": "Relationship Manager at JS Bank, focusing on customer service and financial solutions.",
+                "end_date": "11-2021",
+                "location": "Kasur",
+                "job_title": "Relationship Manager",
+                "start_date": "11-2020",
+                "company_name": "JS Bank"
+            },
+            {
+                "details": "Accountant at Continental Biscuits, managing financial records and transactions.",
+                "end_date": "11-2020",
+                "location": "Kasur",
+                "job_title": "Accountant",
+                "start_date": "11-2019",
+                "company_name": "Continental Biscuits"
+            }
+        ]
+    }
+}

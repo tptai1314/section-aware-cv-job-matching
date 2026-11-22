@@ -1,0 +1,186 @@
+{
+    "output": {
+        "justification": [
+            "Hafsa has extensive leadership roles at Odetta.ai, indicating strong leadership skills, though not in a sales environment.",
+            "Experience at Odetta.ai does not directly align with the required key account management in Retail & Hospitality but shows potential.",
+            "No direct mention of Salesforce or SAP ERP experience, but managed CRM systems which might suggest CRM experience; however, Vistex is not mentioned at all.",
+            "Power BI usage indicates good data analysis skills but no specific mention of Python or Excel."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 8
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 5
+                },
+                {
+                    "criteria": "stakeholder management",
+                    "score": 6
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 2
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 3
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.9799999999999995,
+                "micro_scores": 2.9699999999999998
+            }
+        },
+        "personal_info": {
+            "name": "Hafsa Naeem",
+            "email": "hafsa.naeem1024@gmail.com",
+            "phone": "+92 307 7089974",
+            "current_position": "Business Development Professional",
+            "current_company": "Odetta.ai",
+            "employment_start_date_current_company": "11-2018",
+            "first_company_start_date": "11-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/hafsanaeem92"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 98,
+            "strategic thinking": 2
+        },
+        "micro_dict": {
+            "sales management": 16,
+            "stakeholder management": 20,
+            "sap erp": 23,
+            "salesforce": 17,
+            "vistex": 24
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce"
+        ],
+        "resume": "Hafsa Naeem \nBusiness Development\nProfessional \nDynamic BD Professional with a growth mindset\n& B2B expertise across US tech startups \nhafsa.naeem1024@gmail.com \n+92 307 7089974 \nLahore, Pakistan \nlinkedin.com/in/hafsanaeem92 \nWORK EXPERIENCE \nBusiness Development \nOdetta.ai \n11/2018 - Present\n, \n \nLahore, Pakistan \nOdetta is a US-based online outsourcing platform with a mission to empower\nwomen across MESA \nWorking with U.S. tech industry leaders across several sectors, such\nas Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce &\nVCs \nSelling data solutions like lead generation, data annotation,\nmarketing automation, candidate sourcing & more \nClosing deals with Fortune 500 U.S. companies and growing our\nclient base from 35 to 150+ in 2020-2021 \nRecruitment Lead \nOdetta.ai \n03/2019 - 12/2021\n, \n \nLahore, Pakistan \nOdetta ranks #25 on Forbes Best U.S. Startup Employers in 2022,\nunder my leadership \nLead recruitment drives; exploring, shortlisting & interviewing top\ntier talent from the entire MESA region \nMentoring and coaching our team \nLead Virtual Assistant \nOdetta.ai \n05/2019 - 12/2020\n, \n \nLahore, Pakistan \nFirst employee to be promoted to VA role \nLead a team of 2 VAs for our CEO \nQuality Controller/Project Manager \nOdetta.ai \n12/2018 - 12/2020\n, \n \nLahore, Pakistan \nLead a team of 15-20 people for data collection/enrichment\nprojects for US Venture Capital \ufb01rms \nManaged data categorization projects for software companies \nLead a team of 50 annotators for data annotation projects of AI\ncompanies \nRan sales campaigns & CRM for startups in healthcare, aerospace,\n\ufb01ntech, and advisory \ufb01rms \nEDUCATION \nMasters of Business Administration \nNational University of Computer and Emerging\nSciences \n09/2021 - Present\n, \n \nLahore, Pakistan \nMarketing \nBusiness Analytics \nSKILLS \nProject Management \nPower BI \nLeadership \nDigital Marketing \nCRM \nCold Outreach \nLead Generation \nCandidate Sourcing \nB2B Sales \nACHIEVEMENTS \nStar Employee \nOnly Employee at Odetta to be a Sales Lead, First VA, VA\nLead & Recruitment Lead for 2 years \nCERTIFICATES \nBusiness Analysis Foundations: Competencies\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nBusiness Analytics: Sales Data\n (07/2022 - Present)\n \nIssued by The International Institute of Business Analysis\u2122 \nDecision-Making Strategies\n (07/2022 - Present)\n \nIssued by National Association of State Boards of\nAccountancy \nData Analytics for Business Professionals\n (07/2022 - Present)\n \nIssued by LinkedIn Learning \nPERSONAL PROJECT \nYouth Tech\n (10/2021 - Present)\n \nCo-Founder & Business Advisor @ Youth Tech, a growing\nstartup o\ufb00ering outsourcing solutions to tech companies. \nLANGUAGES \nEnglish \nFull Professional Pro\ufb01ciency \nUrdu \nNative or Bilingual Pro\ufb01ciency \nINTERESTS \nData Analytics \nEntrepreneurship \nBusiness Mentoring \nPhotography \nHealth & Fitness \nTech & Innovation \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Hafsa Naeem",
+        "number": "923077089974",
+        "skills": [
+            "Project Management",
+            "Power BI",
+            "Digital Marketing",
+            "CRM",
+            "Cold Outreach",
+            "Lead Generation",
+            "Candidate Sourcing",
+            "B2B Sales"
+        ],
+        "email_id": "hafsa.naeem1024@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Youth Tech",
+                "description": "Co-Founder & Business Advisor @ Youth Tech, a growing startup offering outsourcing solutions to tech companies."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "Present",
+                "university": "National University of Computer and Emerging Sciences",
+                "degree_title": "Masters of Business Administration"
+            }
+        ],
+        "achievements": [
+            "Star Employee",
+            "Only Employee at Odetta to be a Sales Lead, First VA, VA Lead & Recruitment Lead for 2 years"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Business Analysis Foundations: Competencies",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Business Analytics: Sales Data",
+                "issuing_organization": "The International Institute of Business Analysis\u2122",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Decision-Making Strategies",
+                "issuing_organization": "National Association of State Boards of Accountancy",
+                "date_of_issuance": "07-2022"
+            },
+            {
+                "certification_name": "Data Analytics for Business Professionals",
+                "issuing_organization": "LinkedIn Learning",
+                "date_of_issuance": "07-2022"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/hafsanaeem92",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Hafsa Naeem is a dynamic business development professional with extensive experience in B2B sales and project management, particularly within the US tech startup ecosystem. She has demonstrated a strong ability to lead teams and drive growth, significantly expanding client bases and enhancing operational efficiencies.",
+        "employment_history": [
+            {
+                "details": "Working with U.S. tech industry leaders across several sectors, such as Computer Software, Ed-Tech, Fintech, Healthcare, E-commerce & VCs. Selling data solutions like lead generation, data annotation, marketing automation, candidate sourcing & more. Closing deals with Fortune 500 U.S. companies and growing our client base from 35 to 150+ in 2020-2021.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development",
+                "start_date": "11-2018",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead recruitment drives; exploring, shortlisting & interviewing top tier talent from the entire MESA region. Mentoring and coaching our team.",
+                "end_date": "12-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Recruitment Lead",
+                "start_date": "03-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "First employee to be promoted to VA role. Lead a team of 2 VAs for our CEO.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Lead Virtual Assistant",
+                "start_date": "05-2019",
+                "company_name": "Odetta.ai"
+            },
+            {
+                "details": "Lead a team of 15-20 people for data collection/enrichment projects for US Venture Capital firms. Managed data categorization projects for software companies. Lead a team of 50 annotators for data annotation projects of AI companies. Ran sales campaigns & CRM for startups in healthcare, aerospace, fintech, and advisory firms.",
+                "end_date": "12-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Quality Controller/Project Manager",
+                "start_date": "12-2018",
+                "company_name": "Odetta.ai"
+            }
+        ]
+    }
+}

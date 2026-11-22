@@ -1,0 +1,158 @@
+{
+    "output": {
+        "justification": [
+            "No leadership roles explicitly mentioned in the resume although the person has been in roles that could involve leadership such as a Chief Selector.",
+            "Candidate has 3 years of experience in relevant fields (HBL and Ufone), which satisfies the job requirement.",
+            "Candidate does not list any proficiency with Excel or Stata, which are required in the job description.",
+            "No mention of LinkedIn Sales Navigator usage in work experience."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "ms excel",
+                    "score": 4
+                },
+                {
+                    "criteria": "stata",
+                    "score": 3
+                },
+                {
+                    "criteria": "linkedin sales navigator",
+                    "score": 2
+                },
+                {
+                    "criteria": "verbal and written communication",
+                    "score": 6
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in MS Office Suite and data analysis tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "3-5 years of experience in business development or related fields",
+                    "meets": true
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Economics, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Ability to manage multiple projects simultaneously",
+                    "meets": true
+                },
+                {
+                    "criteria": "Excellent communication skills",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.5,
+                "micro_scores": 3.81
+            }
+        },
+        "personal_info": {
+            "name": "Ali Raza Bajwa",
+            "email": "bajwa101@gmail.com",
+            "phone": "205622861",
+            "current_position": "Business Development Officer",
+            "current_company": "HBL",
+            "employment_start_date_current_company": "08-2021",
+            "first_company_start_date": "01-2018",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Executive\n\n**Company:** Innovate Dynamics Ltd.\n\n**Location:** Hyderabad, India\n\n**Role Overview:**\nJoin Innovate Dynamics Ltd. as a Business Development Executive, where you will play a pivotal role in driving business growth by generating leads and managing key client accounts. Leverage your expertise in economic analysis and marketing strategies to enhance our market presence and build strong client relationships.\n\n**Responsibilities:**\n- Develop and execute comprehensive business development plans to achieve company objectives.\n- Identify and engage prospective clients across diverse niches, including software development and outsourcing.\n- Manage and grow relationships with key accounts to drive long-term success.\n- Utilize digital marketing strategies to boost client engagement and retention.\n- Collaborate with cross-functional teams to develop tailored client solutions.\n- Utilize LinkedIn Sales Navigator to identify and approach new business leads.\n\n**Qualifications:**\n- Bachelor\u2019s degree in Business Administration, Economics, or related field.\n- 3-5 years of experience in business development or related fields.\n- Strong proficiency with MS Office Suite and data analysis tools like Stata.\n- Excellent verbal and written communication skills.\n- Ability to multitask and manage multiple projects simultaneously.",
+        "macro_dict": {
+            "leadership": 25,
+            "experience": 75
+        },
+        "micro_dict": {
+            "ms excel": 34,
+            "stata": 41,
+            "linkedin sales navigator": 7,
+            "verbal and written communication": 18
+        },
+        "additional_info": "Innovate Dynamics Ltd. prioritizes applicants from top-tier universities such as [University X] and [University Y]. Relocation assistance is available for candidates willing to move to Hyderabad. Technical skills are assessed through standardized tests and a series of interviews. Our company encourages diversity and inclusivity in the hiring process.",
+        "minimum_requirements": [
+            "Proficiency in MS Office Suite and data analysis tools",
+            "3-5 years of experience in business development or related fields",
+            "Bachelor's degree in Business Administration, Economics, or related field",
+            "Ability to manage multiple projects simultaneously",
+            "Excellent communication skills"
+        ],
+        "resume": " \n \n \nCurriculum Vitae\nPERSONAL INFORMATION\n \nAli \nRaza \n \n \n \nState Life Housing Society\n \n+\n92\n \n03\n205622861\n \nA\nli\nstar\nbajwa\nSex\n \nMale \nNationality \n \n \nEDUCATION AND TRAINING\n \n \n \n \nR\nELEVANT\n \nSKILLS\n \n \nEXPERIENCE\n \n \nH\nOBBIES\n \n \nB.Com (August 2017)\n \nAllama Iqbal Open University\n \nBachelor Of Commerce\nIntermediate (January 2014)\n \nAllama Iqbal Open University\nHigher Secondary School Certification\nMatric (August 2011)\n \nAllama\n \nIqbal Open University\nSecondary\n \nSchool Certification\n \n \n \n \n\uf0b7\n \nProblem Solving \n\uf0b7\n \nHandling Pressure \n\uf0b7\n \nLeadership \n\uf0b7\n \nFriendly\nA\nug\n \n20\n2\n1\n \n-\n \nPresent\n \n \nHBl\n \nBusiness Development Officer\nOct \n2019 \n-\n \nSep \n2020\n \n \n \n \nUfone\n \n \nCustomer \nExecutive\nJan 201\n8\n \n-\n \nJune 20\n1\n9\n \n \nPCB Level 1 Cricket Certified\n \nGarrison College, Model T own Green\nJan 201\n0\n \n-\n \nP\nresent\n \n \nCoaching\n \n \nChief Selector Garrison University\n \n \n \n \nSports\n \nPlaying Cricket, Fast Bowler, Middle Order Batsman\nPlayed\n  \nUnder 19 Cricket  T ournament\nPlayed few matches from Wapda Department\n \nWatching Tv\n \nWatching Sports, Movies, Tv Serials\n \nGames\n \n \nPlaying Games, Grand Theft Auto\nCurriculum Vitae\n \nRaza \nBajwa \n \nState Life Housing Society\n, Lahore, Pakistan\n \n205622861\n \n \nbajwa\n101\n@\ngmail\n.com\n \n \nNationality \nPakistani\n \nLanguages \nEnglish, \nUrdu, Punjabi\n \nAllama Iqbal Open University\n \nBachelor Of Commerce\n \nAllama Iqbal Open University\n \nHigher Secondary School Certification\n \nIqbal Open University\n \nSchool Certification\n \nProblem Solving \n \nHandling Pressure \n \nLeadership \n \nFriendly\n \n\uf0b7\n \nFlexible Exceptional Time Management\n\uf0b7\n \nSelf Confident\n \n\uf0b7\n \nPatience\n \n\uf0b7\n \nCalm\n \nBusiness Development Officer\n \nExecutive\n \nOfficer\n \nPCB Level 1 Cricket Certified\n \nCoach\n \nGarrison College, Model T own Green\ns\n, Punjab Society\n \n \nChief Selector Garrison University\n, Model T own Greens, \nF\nace\n \nFresh\n \nPlaying Cricket, Fast Bowler, Middle Order Batsman\n \nUnder 19 Cricket  T ournament\n \nfrom Lahore Zone \n \nPlayed few matches from Wapda Department\n \nWatching Tv\n \nWatching Sports, Movies, Tv Serials\n \nPlaying Games, Grand Theft Auto\n \n \n \nAli\n \nRaza\n \nBajwa\n \n \n \n \n \n \n \n \n \n \n \nFlexible Exceptional Time Management\n "
+    },
+    "details": {
+        "name": "Ali Raza Bajwa",
+        "number": "03205622861",
+        "skills": [
+            "Business Development",
+            "Customer Service"
+        ],
+        "email_id": "bajwa101@gmail.com",
+        "location": "State Life Housing Society, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "08-2017",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Bachelor Of Commerce"
+            },
+            {
+                "end_date": "01-2014",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Higher Secondary School Certification"
+            },
+            {
+                "end_date": "08-2011",
+                "university": "Allama Iqbal Open University",
+                "degree_title": "Secondary School Certification"
+            }
+        ],
+        "achievements": [
+            "PCB Level 1 Cricket Certified"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "PCB Level 1 Cricket Certified",
+                "issuing_organization": "Garrison College, Model Town Green",
+                "date_of_issuance": "01-2010"
+            }
+        ],
+        "additional_urls": [],
+        "executive_summary": "Ali Raza Bajwa is a dedicated professional with a background in business development and customer service, holding a Bachelor of Commerce degree. He has demonstrated his commitment to excellence through his certification in cricket coaching and has experience in various roles within the corporate sector.",
+        "employment_history": [
+            {
+                "details": "Business Development Officer responsible for driving sales and managing client relationships.",
+                "end_date": "09-2020",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Officer",
+                "start_date": "10-2019",
+                "company_name": "HBL"
+            },
+            {
+                "details": "Customer Executive focused on providing exceptional service and support to customers.",
+                "end_date": "06-2019",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Executive",
+                "start_date": "01-2018",
+                "company_name": "Ufone"
+            }
+        ]
+    }
+}

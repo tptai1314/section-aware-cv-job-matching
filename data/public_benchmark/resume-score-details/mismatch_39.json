@@ -1,0 +1,189 @@
+{
+    "output": {
+        "justification": [
+            "Candidate has experience leading teams and managing projects at the Space and Upper Atmosphere Research Commission, but lacks explicit strategic business development experience for the specified sales manager role.",
+            "No B2B marketing or business development experience documented in resume.",
+            "Communication and data analysis skills not explicitly highlighted in resume; however, technical management role may imply competency.",
+            "Current role in an engineering field doesn't align directly with business management roles in IT and manufacturing described in job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "communication skills",
+                    "score": 4
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 6
+                },
+                {
+                    "criteria": "it and manufacturing sector knowledge",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 5.0,
+                "micro_scores": 4.529999999999999
+            }
+        },
+        "personal_info": {
+            "name": "Asim Raza",
+            "email": "asimraza52 @gmail.com",
+            "phone": "+923136033348",
+            "current_position": "Manager",
+            "current_company": "Space and Upper Atmosphere Research Commission Pakistan",
+            "employment_start_date_current_company": "04-2020",
+            "first_company_start_date": "09-2013",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "strategic thinking": 100
+        },
+        "micro_dict": {
+            "communication skills": 33,
+            "data analysis": 40,
+            "it and manufacturing sector knowledge": 27
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Proven ability to develop and implement successful business strategies",
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "Asim Raza   \nElectrical Engineer  \nSpecialization in Electronics   \n+923136033348  \nasimraza52 @gmail.com  \n \n \n \nCAREER  OBJECTIVE  \nTo work  with dedication in a challenging  environment  and enhance my skills  to explore  and adapt  myself  in different  fields  for \ncontinuous  learning  .My goal is to optimize workflow for greater efficiency and collective success . \n \nPROFESSIONAL  EXPERIENCE  & RESPONSIBILITIES  \n \n \nSpace and Upper Atmosphere Research Commission  Pakistan  April , 2020  \u2013 Present  \nManager              \n\uf0b7 Design  and Development  \n\uf0b7 Product Development  \n\uf0b7 Validation and Improvement in Hardware Design  \n\uf0b7 PCB Designing  and Validation  \n\uf0b7 Hardware Testing and Integration   \n\uf0b7 Giving Know -how Technical Training  to Trainee Engineers  \n\uf0b7 Technical and Office Management  for smooth operation  \n\uf0b7 Estab lishing  Operation Strategy in a Team to  improv e quality of Work   \n  \nSpace and Upper Atmosphere Research Commission Pakistan  Oct, 2014  \u2013 March 2020  \nAssistant Manager           \n\uf0b7 Research and Development  \n\uf0b7 Electronic Circuit Designing  \n\uf0b7 PCB Designing  \n\uf0b7 Harness Design and Testing  \n\uf0b7 Power Electronics Design  \n \nMasood Fabrics and Textile Pakistan   Sep, 2013  \u2013 April 2014  \nTrainee Engineer           \n\uf0b7 Repairing and Testing of Equipment  \n\uf0b7 Routine Check of Electronic Equipment  \n\uf0b7 Maintenance of Inverters and UPS  \n \nTECHNICAL  SKILLS  \n \n \n\uf0b7 Analog Circuit Design  \n\uf0b7 Digital Circ uit Design  \n\uf0b7 Micro -controllers  \n\uf0b7 PCB Designing  \n\uf0b7 DC-DC Converters  \uf0b7 Reliability  Analysis  \n\uf0b7 Failure Mode Engineering Anal ysis  \n\uf0b7 Embedded C Programing  \n\uf0b7 Internet  of Things  \nEDUCATIONAL  QUALIFICATIONS  \n \nBachelor  of Science  in Electr ical Engineering  (3.34 CGPA ) \nUniversity  of Engineering  and Technology  Lahore  Sep 2009  \u2013 Jun 2013  \nIntermediate  (BISE Multan , Percentage  \u2013 90 %) \nMuslim Public Higher Secondary School  Multan Punjab Pakistan                                                                                                Aug 2007  \u2013 Jun 2009  \nMatriculation  (BISE Multan,  Percentage  \u2013 81.5  %) \nNoukhez Public  School  Multan Punjab Pakistan                                                                                                                                Jan 2005  \u2013 Jun 2007  \n \nPROJECTS  \n \nSun Simulation for Solar F lux in Thermal Vacuum Chamber    \nDetails  \n\uf0b7 STM32F micro -controller based  control system capable of providing 20KW  DC power to simulate sola r flux in a \nthermal vacuum  chamber . \n\uf0b7 System is completely controllable  and all its parameters  are adjustable  for custom ized testing . \n\uf0b7 Interfaces with  the user through a GUI designed in Visual BASIC . \n\uf0b7 All communication s between the  system  nodes is done through RS485.  \n\uf0b7 Modular approach makes it easy to enhance power capability for future expansion.          \n  \n   Solar Panel De ployment  Electronics                                                                                                                                                                         \nDetails  \n\uf0b7 A reliable module for the deployment of sol ar panels with three level protections  to avoid false triggering.  \n\uf0b7 The module is designed with 99.98 % reliability  with operating temperature range of -50o  to 125o C. \n\uf0b7 It has a capability of actuating six electro -explosive devices.  \n\uf0b7 Efficient Design  and reduced mass ensures cost savings .  \n \nBattery Management  System                                                                                                                                                                                           \nDetails  \n\uf0b7 Lithium Ion Battery management  capable of providing a 100A of load current . \n\uf0b7 Cell balancing  feature ensures  less than 10mV difference betwe en cells of a string . \n\uf0b7  Over voltage and under voltage protection.  \n\uf0b7 Over heat  protection  and capable of regulating optimum temperature of cells for maximum battery life in cold \nenvironment .    \n \nNo-opto Flyback  Converter    \nDetails  \n\uf0b7 Flyback co nverter capable of providing power  up to 40W.  \n\uf0b7 No opto coupler design makes it very compact.  \n\uf0b7 Very reliable and EMC/EMI qualified  design.  \n\uf0b7 More than 85% peak efficiency reduces thermal  requirements  and save mass and cost .  \n \nPhase Shifted Full Bridge DC-DC Converter    \nDetails  \n\uf0b7 Capable  of delivering 1.5KW power.  \n\uf0b7 Phase shift ed PWM allows zero voltage switching.  \n\uf0b7 EMC/EMI qualified . \n\uf0b7 More than 9 5% peak efficiency.  \n \nHalf  Bridge DC-DC Converter    \nDetails  \n\uf0b7 Capable  of delivering 500W  power.  \n\uf0b7 Good Line and load Regul ation . \n\uf0b7 EMC/EMI qualified  with 89% peak efficiency . \n \nACADEMIC PROJECTS  \nBrain Computer Interface          June 2013  \n\uf0b7 Imp lementation of a system  which helps disabled people to  operate different electronic appliances.  \n   Variable Frequency Drive (VFD) with soft start                    Jan 2013  \n\uf0b7  Constructed a Variable freq uency drive for a single phase 500W ac motor to control its speed with soft start feature to \nlimit the inrush -current of motor      \nSpeed  Control  of Permanent  Magnet  DC Motor          June 2012  \n\uf0b7 Constructed  and designed  microcontroller  based  speed  control  system  for permanent  magnet  DC Motor  \nServo Motor Control with digital interfacing                                                                                                                                       June  2011  \n\uf0b7 Using microcontroller for controlling degree of rotation of servo mo tor with user interface.  \n   4-way Traffic Lights with Control System                    Jan 2010  \n\uf0b7 Implementation of practical traffic lights with timers for soothing traffic system using digital logic.  \n \nACHIEVEMENTS &  PARTICIPATION  \n\uf0b7 Completed technical training of Ground System for satellite and awarded with a certificate from Chinese Association for \nScience and Technology (CAST).  \n\uf0b7 Awarded with  certificate by SUPARCO for  outstanding  services  \n \nHOBBIES   \n \nReading  Books  |  \nInternet  Surfing  |  \nVideo Games   \n|  \nListening  to music   \n      \n "
+    },
+    "details": {
+        "name": "Asim Raza",
+        "number": "923136033348",
+        "skills": [
+            "Analog Circuit Design",
+            "Digital Circuit Design",
+            "Micro-controllers",
+            "PCB Designing",
+            "DC-DC Converters",
+            "Reliability Analysis",
+            "Failure Mode Engineering Analysis",
+            "Embedded C Programming",
+            "Internet of Things"
+        ],
+        "email_id": "asimraza52@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "Sun Simulation for Solar Flux in Thermal Vacuum Chamber",
+                "description": "STM32F micro-controller based control system capable of providing 20KW DC power to simulate solar flux in a thermal vacuum chamber."
+            },
+            {
+                "title": "Solar Panel Deployment Electronics",
+                "description": "A reliable module for the deployment of solar panels with three level protections to avoid false triggering."
+            },
+            {
+                "title": "Battery Management System",
+                "description": "Lithium Ion Battery management capable of providing a 100A of load current."
+            },
+            {
+                "title": "No-opto Flyback Converter",
+                "description": "Flyback converter capable of providing power up to 40W."
+            },
+            {
+                "title": "Phase Shifted Full Bridge DC-DC Converter",
+                "description": "Capable of delivering 1.5KW power."
+            },
+            {
+                "title": "Half Bridge DC-DC Converter",
+                "description": "Capable of delivering 500W power."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2013",
+                "university": "University of Engineering and Technology Lahore",
+                "degree_title": "Bachelor of Science in Electrical Engineering"
+            },
+            {
+                "end_date": "06-2009",
+                "university": "Muslim Public Higher Secondary School Multan Punjab Pakistan",
+                "degree_title": "Intermediate"
+            },
+            {
+                "end_date": "06-2007",
+                "university": "Noukhez Public School Multan Punjab Pakistan",
+                "degree_title": "Matriculation"
+            }
+        ],
+        "achievements": [
+            "Completed technical training of Ground System for satellite and awarded with a certificate from Chinese Association for Science and Technology (CAST).",
+            "Awarded with certificate by SUPARCO for outstanding services."
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Technical Training of Ground System for Satellite",
+                "issuing_organization": "Chinese Association for Science and Technology (CAST)",
+                "date_of_issuance": "04-2020"
+            },
+            {
+                "certification_name": "Outstanding Services Certificate",
+                "issuing_organization": "SUPARCO",
+                "date_of_issuance": "03-2020"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/asimraza",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Asim Raza is an accomplished Electrical Engineer specializing in Electronics, with extensive experience in circuit design, PCB designing, and hardware testing. He has a proven track record in managing technical projects and training engineers, demonstrating a strong commitment to innovation and quality in his work.",
+        "employment_history": [
+            {
+                "details": "Design and Development, Product Development, Validation and Improvement in Hardware Design, PCB Designing and Validation, Hardware Testing and Integration, Giving Know-how Technical Training to Trainee Engineers, Technical and Office Management for smooth operation, Establishing Operation Strategy in a Team to improve quality of Work",
+                "end_date": "Present",
+                "location": "Pakistan",
+                "job_title": "Manager",
+                "start_date": "04-2020",
+                "company_name": "Space and Upper Atmosphere Research Commission"
+            },
+            {
+                "details": "Research and Development, Electronic Circuit Designing, PCB Designing, Harness Design and Testing, Power Electronics Design",
+                "end_date": "03-2020",
+                "location": "Pakistan",
+                "job_title": "Assistant Manager",
+                "start_date": "10-2014",
+                "company_name": "Space and Upper Atmosphere Research Commission"
+            },
+            {
+                "details": "Repairing and Testing of Equipment, Routine Check of Electronic Equipment, Maintenance of Inverters and UPS",
+                "end_date": "04-2014",
+                "location": "Pakistan",
+                "job_title": "Trainee Engineer",
+                "start_date": "09-2013",
+                "company_name": "Masood Fabrics and Textile"
+            }
+        ]
+    }
+}

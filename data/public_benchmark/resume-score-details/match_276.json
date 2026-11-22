@@ -1,0 +1,170 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is low due to lack of explicit leadership roles; experience involved support, not leading teams.",
+            "Relevant experience score is moderate due to general sales roles, but lacks specific key account management experience.",
+            "Sales Management score is moderate given the experience as Business Development Officer, lacking CRM focus.",
+            "Data Analysis score is low as data analysis tools like Power BI are not mentioned.",
+            "Stakeholder Management score is moderate based on client engagement and liaison roles.",
+            "SAP ERP score is very low as there is no mention of SAP ERP experience.",
+            "Salesforce score is moderate because Salesforce is listed as a skill, but no detailed application is evident.",
+            "Vistex score is low due to no mention of Vistex experience.",
+            "The candidate meets minimum requirements to some degree with CRM tool experience (Salesforce), but not ERP (SAP)."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "experience",
+                    "score": 5
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 5
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 2
+                },
+                {
+                    "criteria": "stakeholder management",
+                    "score": 6
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 1
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 4
+                },
+                {
+                    "criteria": "vistex",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.05,
+                "micro_scores": 2.71
+            }
+        },
+        "personal_info": {
+            "name": "Umer Saleem",
+            "email": "umersaleemzaman1308@gmail.com",
+            "phone": "+923475130731",
+            "current_position": "Account Executive",
+            "current_company": "Hired Support",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "07-2020",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/umersaleemzaman/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 32,
+            "experience": 5,
+            "strategic thinking": 63
+        },
+        "micro_dict": {
+            "sales management": 11,
+            "data analysis": 10,
+            "stakeholder management": 6,
+            "sap erp": 6,
+            "salesforce": 29,
+            "vistex": 38
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce"
+        ],
+        "resume": "LANGUAGES SPOKENProspecting, Qualifying, Sales Pipeline Development.\nProduct Demonstrations.\nProduct Owner.\nLead generation and fostering them: Generate the new lead and\nfoster them.\nExamine the requirement of the customer and, maintaining the\ndocuments of requirement.\nSales prospects, maintaining healthy prospects of sales. Acting as a\nliaison between the development team and the business team,\nstaying connected with the Client.\nMonthly demonstration of MVPs to the Clients.\nCold Calling - Cold Emailing: Reaching new clients and taking follow-\nups for future prospects.\nInitiating the relationship with the healthy prospects through\nLinkedIn.\nProduct demonstrations to the clients after setting successful\nmeetings.\nSenior Customer Support Specialist Hired Support | July 2020 - Jan\n2021\nI have joined Hired Support as a Senior Customer Support Specialist\nto foster my written skills.\nReceive and Promptly Respond to Customer Queries.\nDocument Issues and Resolutions.\nLearn About New Products and Services.Keep Truckin\nAccount Executive | Nov 2021 - Present\nViral Square\nBusiness Development Officer | Feb 2021- Nov 2021\nHired Support\nUniversity Of Central Punjab\nMasters of Business Administration 2021 - Present\nI have started my Masters Of Business Administration from the University\nof Central Punjab to foster my expertise even more as per need of the\nmarket, to better understand Sales prospects.\nHazara University\nBachelors of Business Administration 2014 - 2018\nI have done my Bachelors from the University of Hazara securing colorful\ngrades, chose Finance as my major area of research.WORK EXPERIENCE\nEDUCATION HIGHLIGHTSMobile: +923475130731\numersaleemzaman1308@gmail.com\nlinkedin.com/in/umersaleemzaman/ \nJohar Town, Lahore, PakistanUMER SALEEM\nBUSINESS DEVELOPMENT OFFICER\nExperienced Business\nDevelopment & Client\nExecutive with a\ndemonstrated history of\nworking as a sales liaison\nbetween the customer and the\nCompany. I have acuminated\nskills in Client Management,\nRequirement Gathering, and\nConvincing potential\nCustomers, a think-thank who\ndrives execution, highly\nknowledgeable in a wide\nvariety of professional\ndisciplines that maximize\nbrand growth including\nfinance, marketing, and all\nfacets of business operations\nfrom product development to\ncustomer engagement.EXECUTIVE SUMMARY\nLead Generation\nSalesFroce\nSalsLoft\nMicrosoft Office\nZendesk\nTawlk.to\nSales Pipeline\nSales Development\nProduct DemonstrationsSKILLS\nENGLISH\nURDU \nHINDI\n "
+    },
+    "details": {
+        "name": "Umer Saleem",
+        "number": "923475130731",
+        "skills": [
+            "Lead Generation",
+            "SalesFroce",
+            "SalsLoft",
+            "Microsoft Office",
+            "Zendesk",
+            "Tawlk.to",
+            "Sales Pipeline",
+            "Sales Development",
+            "Product Demonstrations"
+        ],
+        "email_id": "umersaleemzaman1308@gmail.com",
+        "location": "Johar Town, Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "12-2021",
+                "university": "University Of Central Punjab",
+                "degree_title": "Masters of Business Administration"
+            },
+            {
+                "end_date": "05-2018",
+                "university": "Hazara University",
+                "degree_title": "Bachelors of Business Administration"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/umersaleemzaman/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Umer Saleem is an experienced Business Development Officer with a strong background in client management and sales. He has demonstrated expertise in lead generation, product demonstrations, and maintaining healthy sales prospects, effectively acting as a liaison between customers and the company.",
+        "employment_history": [
+            {
+                "details": "Acting as a liaison between the development team and the business team, staying connected with the Client. Monthly demonstration of MVPs to the Clients. Cold Calling - Cold Emailing: Reaching new clients and taking follow-ups for future prospects.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Account Executive",
+                "start_date": "11-2021",
+                "company_name": "Keep Truckin"
+            },
+            {
+                "details": "Fostering written skills and responding to customer queries promptly. Documenting issues and resolutions.",
+                "end_date": "01-2021",
+                "location": "",
+                "job_title": "Senior Customer Support Specialist",
+                "start_date": "07-2020",
+                "company_name": "Hired Support"
+            },
+            {
+                "details": "Responsible for business development and client management, focusing on generating new leads and maintaining relationships with prospects.",
+                "end_date": "11-2021",
+                "location": "",
+                "job_title": "Business Development Officer",
+                "start_date": "02-2021",
+                "company_name": "Viral Square"
+            }
+        ]
+    }
+}

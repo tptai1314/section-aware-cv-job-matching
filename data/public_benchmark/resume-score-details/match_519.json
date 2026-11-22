@@ -1,0 +1,187 @@
+{
+    "output": {
+        "justification": [
+            "Leadership score is low as the candidate has limited leadership roles mentioned, mainly coordinating with clients and developing plans which partially reflect leadership potential.",
+            "Relevant experience score is low because the candidate lacks direct experience in sales or key account management, which is crucial for the role.",
+            "Data Analysis score is low because while there is mention of data analysis, there is no mention of advanced tools like Power BI or equivalent which are critical per the job description.",
+            "Salesforce score is low because the candidate lists 'Zoho CRM' but does not mention Salesforce or similar CRM tools required by the job description."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "data analysis",
+                    "score": 3
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.0,
+                "micro_scores": 2.23
+            }
+        },
+        "personal_info": {
+            "name": "Syed Ali Sher Rizvi",
+            "email": "sahibzadaali66@gmail.com",
+            "phone": "03015062755",
+            "current_position": "Business Development Manager",
+            "current_company": "HappyTanent",
+            "employment_start_date_current_company": "01-2022",
+            "first_company_start_date": "08-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 52,
+            "strategic thinking": 48
+        },
+        "micro_dict": {
+            "data analysis": 23,
+            "salesforce": 77
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Proficiency in data analysis and forecasting tools",
+            "Bachelor's degree in Business Administration or related field",
+            "Experience with CRM and ERP systems such as SAP and Salesforce",
+            "5+ years of experience in sales or key account management"
+        ],
+        "resume": "Syed Ali Sher Rizvi \nBusiness Development Manager \nAn organized and creative professional with proven marketing skills and a desire to learn more. Possess\n4+ years of experience working for a diverse group of organizations and clients. Gained expertise in data\nanalysis, publication marketing, and web-based advertising. Looking to utilize my existing skill set to\nincrease company pro\ufb01tability at Spleen Manufacturing (Pvt) Ltd. \nsahibzadaali66@gmail.com \n03015062755 \nLahore, Pakistan \nlinkedin.com/in/syed-ali-shair-rizvi-7bb859171 \nWORK EXPERIENCE \nBusiness Development Manager \nHappyTanent \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nHappyTenant is UAE base company, I'm working here (remotely) to develop their\nbusiness in Pakistan, USA, and UAE as well. \nSetting goals and developing plans for business and revenue\ngrowth. \nPlanning and overseeing new marketing initiatives. \nIncreasing the value of current customers while attracting new\nones. \nAttending conferences, meetings, and industry events. \nSocial Media Coordinator \nMinora Cart \n01/2022 - Present\n, \n \nLahore/Dubai, UAE \nhttps://www.minoracart.com/ \nAnalyzed and reported social media presence, engagement, and\ne\ufb00ectiveness on all platforms \nEngaged in consistent interactions with clients, donors, and fans \nDoubled website tra\ufb03c from 15,000 average visitors to 31,000 \nAsst. Manager Marketing \nSpleen Manufacturing (Pvt) Ltd 08/2018 - Present, \n10/2018 - 02/2022\n, \n \nLahore, Pakistan \nProviding Engineering Solutions For All Kind Of Light & Heavy Fabrications \nSuccessfully spearhead campaigns on social media platforms\nincluding Facebook, Twitter, and Instagram \nContact \n:\n-\nRana Shahbaz Ahmed (Head BD & marketing) \n0300 8463927 \nEDUCATION \nMSC Marketing \nNational Collage of Business Administration &\nEconomics \n2020 - Present\n, \n \nLahore. Pakistan \nGlobal Outsourcing \nContract Management \nEntrepreneurship \nFinical Management \nBachelor in Commerce \nUniversity Of Punjab \n12/2016 - 05/2018\n, \n \nLahore Pakistan \nSKILLS \nMS O\ufb03ce \nZoho CRM \nMailChimp \nNegotiation \nAbility to engage \nExcellent verbal and written communication \nAbility to persuade \nEmail Marketing \nLead Generation \nSales Navigator \nSignalHire \nApollo.io \nBu\ufb00er \nDigital advertising \nACHIEVEMENTS \nDigital Marketing Course From PNY Institute\n (09/2021)\n \nSocial Media Marketing, Google Ad words, SMM, Mobile\nMarketing \nHuawei Managment\n (2018 - Present)\n \nFull handling Huawei portal \nfully coordinate with their team for\nrecent contracts and future negotiation in cotracts \nERP (SARP) \nFull handle ERP Software and have enough awareness that can\nhandle each department through it. \nAchiever of the Year (Spleen Manufacturing)\n (2019 - 2020)\n \nCOMPANY PROJECTS \nMinora cart\n (06/2022 - Present)\n \nSocial Media Advertisement \nProject Name \nDelux - Pest Control Services\n (12/2022 - Present)\n \nSocial Media Marketing (LOW CPC - High Conversions) \n220 kV Dhabji Transmission Line Projects\n (09/2021 - 11/2021)\n \nHuawei Projects (CMPAK, JAZZ, Ufone Telenor)\n (02/2021 - Present)\n \nCERTIFICATES \nDigital Marketing\n (2021 - Present)\n \nYoutube Marketing\n (2021 - Present)\n \nAchievements/Tasks \nAchievements/Tasks \nAchievements/Tasks \nCourses "
+    },
+    "details": {
+        "name": "Syed Ali Sher Rizvi",
+        "number": "03015062755",
+        "skills": [
+            "MS Office",
+            "Zoho CRM",
+            "MailChimp",
+            "Email Marketing",
+            "Lead Generation",
+            "Sales Navigator",
+            "SignalHire",
+            "Apollo.io",
+            "Buffer",
+            "Digital advertising"
+        ],
+        "email_id": "sahibzadaali66@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Minora cart",
+                "description": "Social Media Advertisement"
+            },
+            {
+                "title": "Delux - Pest Control Services",
+                "description": "Social Media Marketing (LOW CPC - High Conversions)"
+            },
+            {
+                "title": "220 kV Dhabji Transmission Line Projects",
+                "description": ""
+            },
+            {
+                "title": "Huawei Projects (CMPAK, JAZZ, Ufone Telenor)",
+                "description": ""
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2018",
+                "university": "University Of Punjab",
+                "degree_title": "Bachelor in Commerce"
+            },
+            {
+                "end_date": "Present",
+                "university": "National Collage of Business Administration & Economics",
+                "degree_title": "MSC Marketing"
+            }
+        ],
+        "achievements": [
+            "Digital Marketing Course From PNY Institute (09-2021)",
+            "Achiever of the Year (Spleen Manufacturing) (2019 - 2020)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "Digital Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            },
+            {
+                "certification_name": "Youtube Marketing",
+                "issuing_organization": "Not specified",
+                "date_of_issuance": "2021"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/syed-ali-shair-rizvi-7bb859171",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Syed Ali Sher Rizvi is a Business Development Manager with over 4 years of experience in marketing and business growth strategies. He has a strong background in data analysis, publication marketing, and web-based advertising, and is currently focused on enhancing profitability for Spleen Manufacturing (Pvt) Ltd.",
+        "employment_history": [
+            {
+                "details": "Developing business in Pakistan, USA, and UAE, setting goals and developing plans for business and revenue growth.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Business Development Manager",
+                "start_date": "01-2022",
+                "company_name": "HappyTanent"
+            },
+            {
+                "details": "Analyzed and reported social media presence, engagement, and effectiveness on all platforms, doubled website traffic.",
+                "end_date": "Present",
+                "location": "Lahore/Dubai, UAE",
+                "job_title": "Social Media Coordinator",
+                "start_date": "01-2022",
+                "company_name": "Minora Cart"
+            },
+            {
+                "details": "Successfully spearheaded campaigns on social media platforms including Facebook, Twitter, and Instagram.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Asst. Manager Marketing",
+                "start_date": "10-2018",
+                "company_name": "Spleen Manufacturing (Pvt) Ltd"
+            }
+        ]
+    }
+}

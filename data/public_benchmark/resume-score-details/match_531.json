@@ -1,0 +1,180 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has 6+ years of relevant experience, which closely aligns with the requirement of 5+ years in business development or a related role.",
+            "The candidate's experience includes roles in financial analysis and client management, indicating strategic thinking and negotiation skills are utilized.",
+            "There isn't substantial evidence of leadership roles in the resume, affecting the leadership score.",
+            "The proficiency in MS Excel is evident, but there is no mention of anything else from Microsoft Office suite which impacts score on just Excel.",
+            "No evidence of experience with sales process management or account management in the resume.",
+            "Candidate did not graduate from a leading business school such as FAST NUCES or LUMS, which affects scoring as per internal document preferences."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "experience",
+                    "score": 7
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "microsoft office (excel, word, powerpoint)",
+                    "score": 5
+                },
+                {
+                    "criteria": "sales process management",
+                    "score": 2
+                },
+                {
+                    "criteria": "negotiation skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "account management",
+                    "score": 3
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong negotiation and strategic thinking skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or a related role",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 7.0,
+                "micro_scores": 4.1499999999999995
+            }
+        },
+        "personal_info": {
+            "name": "Muhammad Abid Awan",
+            "email": "abbe.awan@gmail.com",
+            "phone": "03004434840",
+            "current_position": "Assistant Manager, Enterprise Intelligence",
+            "current_company": "i2c Inc.",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "09-2015",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "www.linkedin.com/in/muhammad-abid-awan-1bb54487"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Business Development Manager\n\n**Fictional Company** is seeking a dynamic and strategic Business Development Manager to join our growing team. In this role, you will develop and execute sales strategies, manage key accounts, and lead business development initiatives to drive organizational growth.\n\n#### Responsibilities:\n- Develop and implement strategies for business development to achieve corporate goals.\n- Oversee the entire sales cycle from lead generation to closing deals.\n- Manage and mentor a team of business development executives, enhancing their potential to optimize company success.\n- Enhance company presence through active engagement in online platforms like LinkedIn and professional network sites.\n- Engage in high-stake negotiations and coordinate with key account stakeholders to ensure client satisfaction and long-term partnerships.\n\n#### Requirements:\n- Utilize analytical skills to identify new opportunities and market trends.\n- Use Microsoft Office Suite effectively for planning, reporting, and presenting sales strategies.\n\nJoin us to play a pivotal role in expanding our business locally and internationally, working alongside a dynamic team in an innovative environment. If you enjoy taking initiative and leading impactful business initiatives, we want to hear from you!",
+        "macro_dict": {
+            "experience": 100
+        },
+        "micro_dict": {
+            "microsoft office (excel, word, powerpoint)": 29,
+            "sales process management": 21,
+            "negotiation skills": 26,
+            "account management": 24
+        },
+        "additional_info": "Preferred candidates will have graduated from leading business schools such as FAST NUCES or LUMS. The company supports employee relocation within Pakistan with necessary logistical assistance. Skills are assessed through a combination of technical interviews and practical case studies aligned with industry challenges.",
+        "minimum_requirements": [
+            "Strong negotiation and strategic thinking skills",
+            "5+ years of experience in business development or a related role"
+        ],
+        "resume": " Muhammad Abid Awan  \n \n \n \nDate of Birth:  30/06/1988  \n \n \nMailing  Address:  \nabbe.awan@gmail.com  \n \nContact Number :  \n03004434840  \n \nLinkedIn:  \nwww.linkedin.com/in/muhammad -\nabid -awan -1bb54487 (LinkedIn)  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n EDUCATION & QUALIFICATIONS   \nCFA Institute  2017   \nCFA Level 1 Passed  \n \nUniversity of Central Punjab  2014  \nMBA (Banking & Finance) CGPA:  3.1  \nEXPERIENCE   \ni2c Inc.                                    Jan 2021 \u2013 Present  \n Assistant Manager , Enterprise Intelligence  \n\u2022 Financial modeling of prospect s and existing clients.  \n\u2022 Assist sales team on (RFP) request for proposal.  \n\u2022 Monthly and quarterly business (MBR/QBR) review of existing clients.  \n\u2022 Provide  investment decision to clients  regarding their fun ds flow.  \n\u2022 Financial Planning & Analysis (FP&A) of cost budgeting and revenue forecasting.  \n\u2022 Propose and maintain the p ricing book for new & existing financial servic es. \n\u2022 Revenue assurance and s upervi se team on monthly billing audit as per client\u2019s agreement.  \n\u2022 Vendor reconciliation & evaluation of third -party -related charges.  \n\u2022 Supervising team with network settlement & reconciliation process.  \n \ni2c Inc.                                    Jul 2018 \u2013 Dec 2020 , 2 Years  6 Months  \nSr. Finan cial Analyst  \n\u2022 Preparation of pricing proposals as per individual deals/requirements.  \n\u2022 Support to sales and internal client management team on pricing requirements.  \n\u2022 Documentation of all pricing assumptions and version control of pricing proposals.  \n\u2022 Provide  investment decision to clients  regarding their funds flow.  \n\u2022 Propose and maintain price book for Financial service products.  \n\u2022 Revenue/billing assurance as  per client contracts.  \n\u2022 Identify the Key Performance Indicator for prospective customers . \n\u2022 Analysis to support product pricing and Sensitivity Analysis.  \n\u2022 Cost budgeting and Revenue forecasting . \n\u2022 Analysis of Financial Statements  (according to GAAP & IFRS) . \n \ni2c Inc.                                   Sep 2015 \u2013 Jun 2018 , 2 Years  10 Months  \nFinancial Analyst   \n\u2022 Support client and partner Financial Institutions on settlement, reconciliation and Billing issues.  \n\u2022 Daily Financial transactions settlement reconciliation for all partner Financial Institution\u2019s using  \nInternal and Network settlement reports.  \n\u2022 Coordination w ith Team in the Monthly client processing Billing process.  \n\u2022 Co-ordination with internal teams to resolve any standing issue with regard to Settlement and  \nReconciliation.  \nRESERCH & PROJECTS   \nFinancial Analytics  \n\u2022 Analyze large amounts of data related to contact center operations to discover trends and \npatterns.  \nReport Delivery Automation to Client s \n\u2022 An automatic report delivery system  \nI2c settlement & Reconciliation Process  \n\u2022 A detail guide for the beginners  \nVisaNet Settlement Service  \n\u2022 Guide to understand the VSS reporting Hierarchy  \nComparative Analysis of Chemical Sector of Pakistan  \n\u2022 Thesis (Final Project - University of Central Punjab)  \n  \n \n HONORS & AWARDS   \n\u2022 Best Performance  Award  (secured twice in FY\u201918 & 20)  \n\u2022 Dashboard of SLA monitoring screen  \n\u2022 Settlement training to clients  \nTRAININGS   \n\u2022 Essentials to Improve Financial Performance  \n\u2022 Understanding of the Visa Settlement Process  \nSKILLS   \n\u2022 Investment decisioning  \n\u2022 Funds Flow process  \n\u2022 Prepaid card processing knowledge (VISA, MasterCard, Discover & FIS)  \n\u2022 ACH Transaction processing system  \n\u2022 ACH Migration Project Lead  \n\u2022 Understanding of Debit & Prepaid card settlement Process  \n\u2022 Funds flow process between Program Manager, Issuing Financial Ins. & Processor  and the role of \nODFI & RDFI.  \n\u2022 Team Player and Proficient in MS E xcel \n\u2022 Fluent in [ English, Urdu & Punjabi ] \n  "
+    },
+    "details": {
+        "name": "Muhammad Abid Awan",
+        "number": "03004434840",
+        "skills": [
+            "Investment decisioning",
+            "Funds Flow process",
+            "Prepaid card processing knowledge (VISA, MasterCard, Discover & FIS)",
+            "ACH Transaction processing system",
+            "ACH Migration Project Lead",
+            "Understanding of Debit & Prepaid card settlement Process",
+            "Funds flow process between Program Manager, Issuing Financial Ins. & Processor and the role of ODFI & RDFI",
+            "Proficient in MS Excel"
+        ],
+        "email_id": "abbe.awan@gmail.com",
+        "location": "",
+        "projects": [
+            {
+                "title": "Financial Analytics",
+                "description": "Analyze large amounts of data related to contact center operations to discover trends and patterns."
+            },
+            {
+                "title": "Report Delivery Automation to Clients",
+                "description": "An automatic report delivery system."
+            },
+            {
+                "title": "I2c settlement & Reconciliation Process",
+                "description": "A detail guide for the beginners."
+            },
+            {
+                "title": "VisaNet Settlement Service",
+                "description": "Guide to understand the VSS reporting Hierarchy."
+            },
+            {
+                "title": "Comparative Analysis of Chemical Sector of Pakistan",
+                "description": "Thesis (Final Project - University of Central Punjab)."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "06-2017",
+                "university": "CFA Institute",
+                "degree_title": "CFA Level 1 Passed"
+            },
+            {
+                "end_date": "06-2014",
+                "university": "University of Central Punjab",
+                "degree_title": "MBA (Banking & Finance) CGPA: 3.1"
+            }
+        ],
+        "achievements": [
+            "Best Performance Award (secured twice in FY\u201918 & 20)"
+        ],
+        "publications": [],
+        "certifications": [
+            {
+                "certification_name": "CFA Level 1",
+                "issuing_organization": "CFA Institute",
+                "date_of_issuance": "06-2017"
+            }
+        ],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/muhammad-abid-awan-1bb54487",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Muhammad Abid Awan is a skilled financial professional with extensive experience in investment decisioning, funds flow processes, and prepaid card processing. He has a strong background in financial modeling and analysis, having worked in various roles at i2c Inc. where he contributed to pricing proposals and revenue assurance. His educational qualifications include an MBA in Banking & Finance and a CFA Level 1 certification.",
+        "employment_history": [
+            {
+                "details": "Financial modeling of prospects and existing clients. Assist sales team on (RFP) request for proposal. Monthly and quarterly business review of existing clients. Provide investment decision to clients regarding their funds flow. Financial Planning & Analysis (FP&A) of cost budgeting and revenue forecasting. Propose and maintain the pricing book for new & existing financial services. Revenue assurance and supervise team on monthly billing audit as per client\u2019s agreement. Vendor reconciliation & evaluation of third-party-related charges. Supervising team with network settlement & reconciliation process.",
+                "end_date": "Present",
+                "location": "",
+                "job_title": "Assistant Manager, Enterprise Intelligence",
+                "start_date": "01-2021",
+                "company_name": "i2c Inc."
+            },
+            {
+                "details": "Preparation of pricing proposals as per individual deals/requirements. Support to sales and internal client management team on pricing requirements. Documentation of all pricing assumptions and version control of pricing proposals. Provide investment decision to clients regarding their funds flow. Propose and maintain price book for Financial service products. Revenue/billing assurance as per client contracts. Identify the Key Performance Indicator for prospective customers. Analysis to support product pricing and Sensitivity Analysis. Cost budgeting and Revenue forecasting. Analysis of Financial Statements (according to GAAP & IFRS).",
+                "end_date": "12-2020",
+                "location": "",
+                "job_title": "Sr. Financial Analyst",
+                "start_date": "07-2018",
+                "company_name": "i2c Inc."
+            },
+            {
+                "details": "Support client and partner Financial Institutions on settlement, reconciliation and Billing issues. Daily Financial transactions settlement reconciliation for all partner Financial Institution\u2019s using Internal and Network settlement reports. Coordination with Team in the Monthly client processing Billing process. Co-ordination with internal teams to resolve any standing issue with regard to Settlement and Reconciliation.",
+                "end_date": "06-2018",
+                "location": "",
+                "job_title": "Financial Analyst",
+                "start_date": "09-2015",
+                "company_name": "i2c Inc."
+            }
+        ]
+    }
+}

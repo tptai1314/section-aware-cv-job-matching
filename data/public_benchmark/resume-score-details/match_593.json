@@ -1,0 +1,169 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has substantial leadership experience as shown by leading teams in multiple roles, including as a Group Leader in projects and managing a workforce at Progressive Traders.",
+            "Relevant experience aligns with the job description, especially with his background in sales development and management, including CRM expertise.",
+            "Salesforce experience is highly relevant as it's a requirement in the job description, showcasing proficiency.",
+            "No evidence of strategic planning per se, but related skills in sales strategy implementation are evident."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "strategic planning",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 9
+                },
+                {
+                    "criteria": "market research",
+                    "score": 6
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 7
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": true
+                },
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.78,
+                "micro_scores": 7.4399999999999995
+            }
+        },
+        "personal_info": {
+            "name": "Mohsin Rasheed",
+            "email": "mohsinrasheedkhan9@gmail.com",
+            "phone": "+92-3222221332",
+            "current_position": "Senior Sales Development Representative",
+            "current_company": "Tkxel",
+            "employment_start_date_current_company": "02-2022",
+            "first_company_start_date": "02-2018",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://linkedin.com/in/mohsinrkhan96"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 78,
+            "strategic planning": 22
+        },
+        "micro_dict": {
+            "salesforce": 41,
+            "market research": 38,
+            "digital marketing": 21
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "Strong analytical and strategic planning skills",
+            "5+ years of experience in business development or sales management"
+        ],
+        "resume": "Mohsin\nRasheed\nC o m m i t t e d\nB u s i n e s s\nD e v e l o p e r\nw i t h\na\nh i s t o r y\no f\nm e e t i n g\nc o m p a n y\nn e e d s\nw i t h\nc o n s i s t e n t\na n d\no r g a n i z e d\np r a c t i c e s .\nS k i l l e d\ni n\nw o r k i n g\nu n d e r\np r e s s u r e\na n d\na d a p t i n g\nt o\nn e w\ns i t u a t i o n s\na n d\nc h a l l e n g e s\nt o\nb e s t\ne n h a n c e\nt h e\no r g a n i z a t i o n a l\nb r a n d .\nDha\nRahbar,\nLahore,\nPakistan\n+92-3222221332\nmohsinrasheedkhan9@gmail.\ncom\nh t t p s : / / l i n k e d i n . c o m / i n / m o h s \ni n r k h a n 9 6\nEXPERIENCE\nT k x e l ,\nP a k i s t a n\n\u2014\nSenior\nSales\nDevelopment\nRepresentative\nF e b r u a r y\n2 0 2 2\n-\nP R E S E N T\nT k x e l\ni s\na\nh i g h - e n d\ns o f t w a r e\nd e v e l o p m e n t\na n d\ni m p l e m e n t a t i o n\nc o m p a n y \nb a s e d\no u t\no f\nR e s t o n ,\nV A ,\nU S A .\nM y\nk e y\nr e s p o n s i b i l i t i e s / a c h i e v e m e n t s \ni n c l u d e : \n. \n-\nU t i l i z e d\nL i n k e d I n\nS a l e s\nN a v i g a t o r ,\nZ o o m I n f o ,\na n d\nA p o l l o . i o\nt o\ni d e n t i f y\na n d \ne x t r a c t\np o t e n t i a l\nl e a d s ,\ne x p a n d i n g\nt h e\np r o s p e c t\nd a t a b a s e .\n-\nE x e c u t e d\nt a r g e t e d\no u t b o u n d\ne m a i l\nc a m p a i g n s\na n d\nc o n d u c t e d\nc o l d\nc a l l s , \nr e s u l t i n g\ni n\na\n3 5 %\ni n c r e a s e\ni n\nl e a d\ne n g a g e m e n t\na n d\nq u a l i \ufb01 e d\nl e a d s\n-\nM a n a g i n g\na\np o r t f o l i o\no f\no v e r\n2 0 0\nc l i e n t\na c c o u n t s ,\ne x c e e d i n g\nm o n t h l y \ns a l e s\nq u o t a s\n-\nP r o a c t i v e l y\ni d e n t i \ufb01 e d\na n d\np u r s u e d\nn e w\nb u s i n e s s\no p p o r t u n i t i e s ,\nd r i v i n g\na n \ne x p a n s i o n\no f\nt h e\ns a l e s\np i p e l i n e\na n d\nc o n t r i b u t i n g\nt o\nr e v e n u e\ng r o w t h .\n-\nC o n s i s t e n t l y\ns u r p a s s e d\nm o n t h l y\nt a r g e t s ,\na c h i e v i n g\na\nt r a c k\nr e c o r d\no f \ne x c e l l e n c e\ni n\ng e n e r a t i n g\nq u a l i \ufb01 e d\nl e a d s\na n d\no p p o r t u n i t i e s ,\np o s i t i o n i n g\na s \na\nc o n s i s t e n t\nt o p\np e r f o r m e r .\n-\nP r o a c t i v e l y\ng e n e r a t i n g\na n d\nm e t i c u l o u s l y\nq u a l i f y i n g\np r o s p e c t i v e\nl e a d s , \nc o n s i s t e n t l y\na d d i n g\n3 - 5\nn e w\nm e e t i n g s\np e r\nw e e k\nt o\nc r e a t e\n2 - 3\nn e w \no p p o r t u n i t i e s\ne a c h\nm o n t h ,\ns i g n i \ufb01 c a n t l y\nb o o s t i n g\nt h e\ns a l e s\nd e p a r t m e n t ' s \np i p e l i n e .\n-\nE x p e r t l y\nm a n a g i n g\nc l i e n t\nd a t a\nu s i n g\nS a l e s f o r c e ,\ne n s u r i n g\nm e t i c u l o u s \nl o g g i n g\no f\na l l\nc o m m u n i c a t i o n s ,\nm a i n t a i n i n g\na c c u r a t e\ni n f o r m a t i o n ,\na n d \nd i l i g e n t l y\na t t a c h i n g\nr e l e v a n t\nd o c u m e n t s\nf o r\ns t r e a m l i n e d\no p e r a t i o n s .\nA u t o m a t e\nA c c e l e r a t o r ,\nA u s t r a l i a\n\u2014\nSDR\nF e b\n2 0 2 3\n-\nJ u l y\n2 0 2 3\nA u t o m a t e\nA c c e l e r a t o r\ni s\na\ng r o w t h\na n d\nt e c h n o l o g y\nc o n s u l t i n g\nc o m p a n y\nt h a t\nH e l p s\nS M B\na n d\nB 2 B\nc o m p a n i e s\na c c e l e r a t e\nb u s i n e s s\ng r o w t h\nu s i n g\np r e d i c t a b l e\ns y s t e m s\na n d\np r o p r i e t a r y\ng r o w t h\ns t r a t e g i e s .\nM y\na c h i e v e m e n t s\ni n c l u d e s :\n-\nS u r p a s s e d\nm o n t h l y\no u t b o u n d\nc a l l\nt a r g e t s\nc o n s i s t e n t l y ,\nd r i v i n g\na \ns i g n i \ufb01 c a n t\ni n c r e a s e\ni n\nl e a d\ng e n e r a t i o n\na n d\np r o s p e c t\ne n g a g e m e n t .\n-\nS u c c e s s f u l l y\ni d e n t i \ufb01 e d\na n d\nq u a l i \ufb01 e d\nh i g h - v a l u e\nl e a d s ,\nr e s u l t i n g\ni n\na \ns u b s t a n t i a l\nb o o s t\ni n\nt h e\ns a l e s\np i p e l i n e\na n d\nc o n t r i b u t i n g\nt o\nr e v e n u e \ng r o w t h .\n-\nD e v e l o p e d\na n d\ni m p l e m e n t e d\na\nh i g h l y\ne \u0000 e c t i v e\no u t b o u n d\ne m a i l\nc a m p a i g n ,\nSKILLS\n-\nB u s i n e s s\nD e v e l o p m e n t :\nP r o s p e c t i n g\n&\nL e a d \nG e n e r a t i o n ,\nB 2 B\nT e c h\nS a l e s , \nS a a S\nS a l e s ,\nE m a i l\nM a r k e t i n g , \nC o l d\nC a l l i n g ,\nM i c r o s o f t\nO\n\ufb03\nc e\n-\nC R M\nS o f t w a r e :\nS a l e s f o r c e ,\nM o n d a y . c o m , \nS u g a r C R M ,\nM i c r o s o f t\n3 6 5\n-\nT o o l s :\nS l a c k ,\nJ i r a ,\nS k y p e ,\nG - S u i t e , \nT r e l l o\nAWARDS/ACHIEVEMENTS\nP e r f o r m e r\no f\nt h e\nM o n t h\na t\nT k x e l\ni n\nA u s t r a l i a n\nR e g i o n\nF e b \u2019 2 3\nP e r f o r m e r\no f\nt h e\nM o n t h\na t\nT k x e l\ni n\nU S\nR e g i o n\nN o v \u2019 2 2\nLANGUAGES\nE n g l i s h ,\nU r d ur e s u l t i n g\ni n\na\nn o t a b l e\ni n c r e a s e\ni n\nr e s p o n s e\nr a t e s\na n d\nc o n v e r s i o n s .\n-\nR e c e i v e d\nr e c o g n i t i o n\nf o r\ne x c e p t i o n a l\nc o m m u n i c a t i o n\na n d\np e r s u a s i o n \ns k i l l s ,\nb u i l d i n g\ns t r o n g\nr a p p o r t\nw i t h\np o t e n t i a l\nc l i e n t s\na n d\nf o s t e r i n g\nl a s t i n g \nr e l a t i o n s h i p s .\nP r o g r e s s i v e\nT r a d e r s ,\nP a k i s t a n\n\u2014\nManager\nSales\nF e b r u a r y\n2 0 1 8\n-\nJ a n u a r y\n2 0 2 2\nP r o g r e s s i v e\nT r a d e r s\ni s\na\nl o c a l\nm a n u f a c t u r i n g\nc o m p a n y\no p e r a t i n g\nl o c a l l y\ni n\nL a h o r e\nt h a t\np r o v i d e s\nb e v e r a g e\np a c k i n g\nm a c h i n e r y\nt o\nv a r i o u s\ni n d u s t r i e s\na c r o s s\nP a k i s t a n .\nM y\na c h i e v e m e n t s\ni n c l u d e d :\n-\nD e s i g n i n g\na n d\nd e v e l o p i n g\na\nc o m p l e t e\na n d\ne\n\ufb00\ne c t i v e\nb u s i n e s s\np l a n\nf o c u s i n g \no n\nb u d g e t i n g ,\nf o r e c a s t i n g ,\n\ufb01 n a n c i a l\na n a l y s i s ,\na n d\nd e t e r m i n i n g\ne x p e c t e d \nr e t u r n s\n-\nM a n a g i n g\na\nw o r k f o r c e\no f\no v e r\n2 0\ne m p l o y e e s\nw i t h\ns t r i c t\nr e w a r d\na n d \nr e t e n t i o n\np o l i c i e s\n-\nE\n\ufb00\ne c t i v e l y\nd e v e l o p i n g\na n d\ni m p l e m e n t i n g\ns a l e s\ns t r a t e g i e s\nt o\no v e r c o m e \ns h o r t c o m i n g s .\nEDUCATION\nU n i v e r s i t y\no f\nC e n t r a l\nP u n j a b ,\nL a h o r e\n\u2014\nMasters\nin\nBusiness \nAdministration\nM a r c h\n2 0 1 8\n-\nJ a n u a r y\n2 0 2 2\nL a h o r e\nG r a m m a r\nS c h o o l ,\nL a h o r e\n\u2014\nHigh\nSchool\nA u g u s t\n2 0 1 3\nPROJECTS\nL a d i e s\nC a b\nR i d e\nH a i l i n g\nA p p\nM a r c h\n2 0 2 1\n-\nS e p t e m b e r\n2 0 2 1\nM y\na c h i e v e m e n t s\na t\nt h i s\np r o j e c t\nw e r e\na s\na\nG r o u p\nL e a d e r / S t r a t e g i s t :\n-\nL e d\na\nt e a m\no f\n4\nm e m b e r s\ni n\nd e v e l o p i n g\na n d\nm a n a g i n g\nt h e\na p p\n-\nM u l t i - t a s k e d\nf o r\na c c o m p l i s h i n g\nt h e\np r o j e c t\nw i t h i n\nt h e\ns t a t e d\nt i m e\n-\nC o m m u n i c a t e d\na m o n g\nc r o s s - f u n c t i o n a l\nt e a m s\nt o\ni n t e g r a t e\nc e r t a i n\nf u n c t i o n a l i t i e s\na n d\ni m p r o v e\nt h e\no v e r a l l\nU X\n-\nD e p l o y e d\nt h e\na p p\nt o\np r o v i d e\na\nd e m o\ni n\nf r o n t\no f\np a n e l i s t s\nC o r p o r a t e\nA n a l y s i s\nM a y\n2 0 1 9\n-\nJ u n e\n2 0 1 9\nM y\na c h i e v e m e n t s\na t\nt h i s\np r o j e c t\nw e r e\na s\na\nG r o u p\nL e a d e r :\n-\nC o n d u c t e d\na\nb r i e f\nr e s e a r c h\no n\nS h a u k a t\nK h a n u m\na n d\ni t s\no p e r a t i n g\ne n v i r o n m e n t\nt o\nf o r m u l a t e\na\ns t r a t e g y .\n-\nA n a l y z e d\nt h r e e\nm a j o r\ne l e m e n t s :\nU n d e r l y i n g\nf o r c e s\nw o r k i n g\ni n\ni n d u s t r y ,\no v e r a l l\na t t r a c t i v e n e s s ,\na n d\nc r i t i c a l\nf a c t o r s\nt h a t\nh e l p e d\ni n\nd e t e r m i n i n g\nt h e\ns u c c e s s\nw i t h i n\nt h e\nc o r p o r a t e\ni n d u s t r y ."
+    },
+    "details": {
+        "name": "Mohsin Rasheed",
+        "number": "923222221332",
+        "skills": [
+            "Business Development",
+            "Prospecting & Lead Generation",
+            "B2B Tech Sales",
+            "SaaS Sales",
+            "Email Marketing",
+            "Cold Calling",
+            "Microsoft Office",
+            "Salesforce",
+            "Monday.com",
+            "Sugar CRM",
+            "Microsoft 365",
+            "Slack",
+            "Jira",
+            "Skype",
+            "G-Suite",
+            "Trello"
+        ],
+        "email_id": "mohsinrasheedkhan9@gmail.com",
+        "location": "Dha Rahbar, Lahore, Pakistan",
+        "projects": [
+            {
+                "title": "Ladies Cab Ride Hailing App",
+                "description": "Led a team in developing and managing the app."
+            },
+            {
+                "title": "Corporate Analysis",
+                "description": "Conducted research and analysis for corporate strategy."
+            }
+        ],
+        "education": [
+            {
+                "end_date": "01-2022",
+                "university": "University of Central Punjab, Lahore",
+                "degree_title": "Masters in Business Administration"
+            }
+        ],
+        "achievements": [
+            "Performer of the Month at Tkxel in Australian Region (02-2023)",
+            "Performer of the Month at Tkxel in US Region (11-2022)"
+        ],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/mohsinrkhan96",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Mohsin Rasheed is a committed business developer with a proven track record in meeting company needs through organized practices. He has demonstrated expertise in business development, lead generation, and sales strategies, consistently exceeding targets and contributing to revenue growth.",
+        "employment_history": [
+            {
+                "details": "Utilized LinkedIn Sales Navigator, ZoomInfo, and Apollo.io to identify and extract potential leads, expanding the prospect database. Executed targeted outbound email campaigns and conducted cold calls, resulting in a 35% increase in lead engagement and qualified leads. Managed a portfolio of over 200 client accounts, exceeding monthly sales quotas. Proactively identified and pursued new business opportunities, driving expansion of the sales pipeline and contributing to revenue growth. Consistently surpassed monthly targets, achieving a track record of excellence in generating qualified leads and opportunities, positioning as a consistent top performer. Expertly managed client data using Salesforce, ensuring meticulous logging of all communications, maintaining accurate information, and diligently attaching relevant documents for streamlined operations.",
+                "end_date": "Present",
+                "location": "Pakistan",
+                "job_title": "Senior Sales Development Representative",
+                "start_date": "02-2022",
+                "company_name": "Tkxel"
+            },
+            {
+                "details": "Surpassed monthly outbound call targets consistently, driving a significant increase in lead generation and prospect engagement. Successfully identified and qualified high-value leads, resulting in a substantial boost in the sales pipeline and contributing to revenue growth. Developed and implemented a highly effective outbound email campaign.",
+                "end_date": "07-2023",
+                "location": "Australia",
+                "job_title": "SDR",
+                "start_date": "02-2023",
+                "company_name": "Automate Accelerator"
+            },
+            {
+                "details": "Designed and developed a complete and effective business plan focusing on budgeting, forecasting, financial analysis, and determining expected returns. Managed a workforce of over 20 employees with strict reward and retention policies. Effectively developing and implementing sales strategies to overcome shortcomings.",
+                "end_date": "01-2022",
+                "location": "Pakistan",
+                "job_title": "Manager Sales",
+                "start_date": "02-2018",
+                "company_name": "Progressive Traders"
+            }
+        ]
+    }
+}

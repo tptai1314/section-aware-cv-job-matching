@@ -1,0 +1,151 @@
+{
+    "output": {
+        "justification": [
+            "The candidate lacks direct experience in lead generation or strategic roles which affects the macro scores.",
+            "No experience mentioned with business intelligence tools such as Power BI, SQL, or Tableau.",
+            "The resume indicates proficiency in communication skills, showcasing experience in customer service and sales roles, which aligns with the strong communication skills requirement.",
+            "There are no indications of proficiency in any programming languages, nor the key demanded C++, HTML, or CSS."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 5
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                },
+                {
+                    "criteria": "innovation and adaptability",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "c++, html, css",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "3+ years of experience in lead generation or business intelligence",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong communication and interpersonal skills",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in at least one programming language",
+                    "meets": false
+                },
+                {
+                    "criteria": "Experience with business intelligence tools such as Power BI, SQL, and Tableau",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.85,
+                "micro_scores": 0.0
+            }
+        },
+        "personal_info": {
+            "name": "Subhan Falak",
+            "email": "Subhanfalak2.0@gmail.com",
+            "phone": "+92 316 458 4589",
+            "current_position": "Business Development Executive",
+            "current_company": "GlobizITech Enterprises Pvt. Ltd.",
+            "employment_start_date_current_company": "05-2022",
+            "first_company_start_date": "04-2020",
+            "urls": []
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "## Lead Generation and Business Intelligence Specialist\n\nJoin **Innovate Connections Inc.** as a Lead Generation and Business Intelligence Specialist. You will play a pivotal role in driving business growth by spearheading lead generation initiatives and providing strategic insights through data analytics. We are looking for a highly skilled professional with a strong background in lead generation, data management, and business intelligence.\n\n### Key Responsibilities:\n- Develop and execute lead generation strategies using digital marketing techniques, cold calling, and data scraping tools.\n- Collaborate with cross-functional teams to optimize customer acquisition strategies.\n- Utilize CRM systems to manage and analyze client data for lead qualification.\n- Create and manage detailed project schedules and work plans, utilizing best practices and standards for project execution.\n- Develop financial models and business growth strategies based on data insights.\n- Utilize tools such as Power BI, SQL, and Tableau for developing comprehensive data reports and dashboards.\n\n### Desired Skills and Experience:\n- Strong programming skills in C++, HTML, and CSS.\n- Proficiency in digital marketing, email marketing, and social media platforms.\n- Experience in managing large data sets and using BI tools (Power BI, Excel, Tableau).\n- Excellent communication skills and ability to develop strong client relationships.\n- Ability to work independently and manage multiple projects simultaneously.\n\n### Why Innovate Connections Inc.?\n- We innovate at the forefront of technology and enable our team members to grow alongside the company.\n- We value data-driven decision-making and empower our teams with the right tools to succeed.\n- Offering a supportive work environment and opportunities for career advancement.\n\n### How to Apply:\nSubmit your resume and cover letter detailing your relevant experience and why you are interested in joining Innovate Connections Inc.",
+        "macro_dict": {
+            "leadership": 25,
+            "experience": 45,
+            "innovation and adaptability": 30
+        },
+        "micro_dict": {
+            "c++, html, css": 100
+        },
+        "additional_info": "Innovate Connections Inc. prefers candidates from recognized universities such as the University of Management & Technology and Lahore School of Economics. We encourage a remote working environment but require physical presence for team-building and strategic sessions twice a quarter. Relocation assistance is available for exceptional candidates. Our comprehensive assessment includes a technical test followed by structured interviews to evaluate both technical and soft skills comprehensively.",
+        "minimum_requirements": [
+            "3+ years of experience in lead generation or business intelligence",
+            "Strong communication and interpersonal skills",
+            "Proficiency in at least one programming language",
+            "Experience with business intelligence tools such as Power BI, SQL, and Tableau"
+        ],
+        "resume": "SubhanFalak\nBusiness Development Executive\nContact Info\nLanguagesProfessional SkillsProfile Info\nEducation History\nWork ExperienceI have worked with different international clients and customers,\nmaintaining a healthy relationship with both. I have vast experience\nin customer services and selling products & services. Moreover, I\nhave expertise in bidding on Upwork & Fiverr, professional email\nwriting, and content writing.\nEmail\nAddressPhone\n+92 316 458 4589\nSubhanfalak2.0@gmail.com\nLahore, Pakistan2019 - Present\nInstitute of Chartered\nAccountants of Pakistan, Lahore2015 - 2017\nMuhammadan Anglo\nOriental College, LahoreChartered Accountancy F.Sc (Pre Engg.)\nI have worked at Premier BPO as a Tele- Sales Representative for a\nUS-based life insurance campaign, briefing the customers about the\ncompany's plans & services and transferring the calls to closers for\ninterested customers.Hobbies\nTraveling\nBadminton\nTable Tennis\nPhotography\nLearning Languages\nUrdu\nEnglish\nSaraiki\nPashto\nPunjabi\nFrenchCreative\nVigilance\nPunctuality\nVersatility\nTeam Work\nProfessionalism\nStrong Work Ethic\nConflict Resolution\nEmail Handling\nWorked as a Customer Service Specialist for a US-based company\n(Speedtalk Mobile), providing assistance to customers by answering\ntheir questions and resolving queries via calls and emails.\nAlso worked as a Parts Ordering Officer for a US-based company\n(NuBrakes). My job was to order the right parts (Brake Shoes & Pads)\nfor any booked appointment.I am currently working as a Business Development Executive for this\nIT start-up. My duties include bidding on Upwork & Fiverr, arranging\n& leading meetings with clients, negotiating, and email handling.\nApart from my duties, I have designed several product catalogs and\nsocial media posts. From writing scripts to voiceovers, I have\ncreated several product videos to give this start-up a boost.May 2022 - Present GlobizITech Enterprises Pvt. Ltd.Business Development Executive\nApr 2020 - May 2021 Mindbridge Pvt. Ltd.Customer Service SpecialistJun 2021 - Feb 2022 Premier BPO, Inc.Tele Sales Representative"
+    },
+    "details": {
+        "name": "Subhan Falak",
+        "number": "923164584589",
+        "skills": [
+            "Bidding on Upwork",
+            "Bidding on Fiverr",
+            "Professional email writing",
+            "Content writing",
+            "Customer service",
+            "Tele-sales"
+        ],
+        "email_id": "Subhanfalak2.0@gmail.com",
+        "location": "Lahore, Pakistan",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2017",
+                "university": "Institute of Chartered Accountants of Pakistan, Lahore",
+                "degree_title": "Chartered Accountancy"
+            },
+            {
+                "end_date": "06-2015",
+                "university": "Muhammadan Anglo Oriental College, Lahore",
+                "degree_title": "F.Sc (Pre Engg.)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/subhanfalak",
+                "website_name": "LinkedIn"
+            },
+            {
+                "url": "github.com/subhanfalak",
+                "website_name": "Github"
+            }
+        ],
+        "executive_summary": "Subhan Falak is a skilled Business Development Executive with extensive experience in customer service and sales. He has a proven track record in bidding on platforms like Upwork and Fiverr, and excels in professional email communication and content writing. His diverse skill set is complemented by his educational background in Chartered Accountancy.",
+        "employment_history": [
+            {
+                "details": "Currently working as a Business Development Executive, responsible for bidding on Upwork & Fiverr, arranging & leading meetings with clients, negotiating, and email handling. Designed product catalogs and social media posts, and created product videos.",
+                "end_date": "Present",
+                "location": "Lahore, Pakistan",
+                "job_title": "Business Development Executive",
+                "start_date": "05-2022",
+                "company_name": "GlobizITech Enterprises Pvt. Ltd."
+            },
+            {
+                "details": "Provided assistance to customers by answering their questions and resolving queries via calls and emails.",
+                "end_date": "05-2021",
+                "location": "Lahore, Pakistan",
+                "job_title": "Customer Service Specialist",
+                "start_date": "04-2020",
+                "company_name": "Mindbridge Pvt. Ltd."
+            },
+            {
+                "details": "Worked as a Tele-Sales Representative for a US-based life insurance campaign, briefing customers about the company's plans & services and transferring calls to closers for interested customers.",
+                "end_date": "02-2022",
+                "location": "Lahore, Pakistan",
+                "job_title": "Tele Sales Representative",
+                "start_date": "06-2021",
+                "company_name": "Premier BPO, Inc."
+            }
+        ]
+    }
+}

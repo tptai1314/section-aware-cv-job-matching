@@ -1,0 +1,169 @@
+{
+    "output": {
+        "justification": [
+            "Leadership experience is minimal, with supervisory roles mentioned but lacking substantial leadership roles in business development.",
+            "Relevant experience in business development is limited to short-term roles; long-term experience is predominantly in finance.",
+            "CRM proficiency is not specifically highlighted, and there's no evidence of Salesforce or HubSpot expertise.",
+            "Market research, digital marketing, and proposal writing skills are not mentioned or evidenced in the resume."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 3
+                },
+                {
+                    "criteria": "experience",
+                    "score": 4
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "salesforce",
+                    "score": 1
+                },
+                {
+                    "criteria": "crm proficiency",
+                    "score": 2
+                },
+                {
+                    "criteria": "market research",
+                    "score": 1
+                },
+                {
+                    "criteria": "proposal writing",
+                    "score": 0
+                },
+                {
+                    "criteria": "digital marketing",
+                    "score": 0
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Proficiency in CRM tools like Salesforce or HubSpot",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales management",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong analytical and strategic planning skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.63,
+                "micro_scores": 0.72
+            }
+        },
+        "personal_info": {
+            "name": "Shahrukh Ali",
+            "email": "shahrukh.ali@descon.com",
+            "phone": "4618452",
+            "current_position": "Business Development Executive",
+            "current_company": "InspecTest (Private) Limited",
+            "employment_start_date_current_company": "02-2022",
+            "first_company_start_date": "08-2009",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "linkedin.com/in/shahrukh-ali-3021ab24a"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "**Title: Business Development Manager**  \n\n**Company: MarketPros Enterprises**  \n\n**Location: Remote with potential travel to client locations**  \n\n**About Us:**  \nMarketPros Enterprises is a leading global provider of innovative business solutions with the aim of maximizing brand growth. We work with diverse industries to enhance their sales infrastructure and provide unparalleled customer engagement strategies.  \n\n**Role Overview:**  \nAs a Business Development Manager at MarketPros Enterprises, you will be responsible for leading strategic initiatives that drive business growth, increase market share, and strengthen client relationships. You will manage cross-functional teams to implement sales strategies, harness market insights, and drive brand expansion.  \n\n**Key Responsibilities:**  \n- Develop and implement comprehensive business strategies to enhance revenue growth.  \n- Lead a team in executing marketing campaigns and optimizing sales pipelines.  \n- Utilize data analytics tools to produce actionable insights improving overall performance.  \n- Conduct market research to identify industry trends and new business opportunities.  \n- Engage with potential clients via presentations and foster long-term relationships.  \n- Manage CRM systems (Salesforce, HubSpot) to streamline operations and enhance productivity.  \n\n**Preferred Skills:**  \n- Proficiency in strategic planning and market analysis.  \n- Strong leadership skills with proven experience in team development.  \n- Advanced knowledge of CRM software and digital marketing tools.  \n- Excellent communication and negotiation skills.  \n\nJoin us to push the boundaries of business innovation and help us achieve our expansion goals.  \n",
+        "macro_dict": {
+            "leadership": 37,
+            "experience": 63
+        },
+        "micro_dict": {
+            "salesforce": 24,
+            "crm proficiency": 6,
+            "market research": 36,
+            "proposal writing": 12,
+            "digital marketing": 22
+        },
+        "additional_info": "MarketPros Enterprises values diversity in hiring and encourages applications from seasoned business professionals with varied backgrounds. Preferred universities include Ivy League institutions and top business schools. We offer relocation benefits for exceptional candidates and facilitate remote working arrangements. Technical and strategic competencies are assessed through a mix of psychometric evaluations and case study interviews.",
+        "minimum_requirements": [
+            "Proficiency in CRM tools like Salesforce or HubSpot",
+            "5+ years of experience in business development or sales management",
+            "Strong analytical and strategic planning skills",
+            "Bachelor's degree in Business Administration or related field"
+        ],
+        "resume": "SHAHRUKH ALI\nshahrukh.ali@descon.com 4618452\nlinkedin.com/in/shahrukh-ali-3021ab24a\nSummary\nA highly motivated and result-driven Business Development Executive who also has served as a Finance &\nAccounts Professional with 12 years of invaluable experience including being skilled in numerous business\ndevelopment, financial & accounting fields. I have the ability to handle complex assignments effectively &\npossessing the confidence to work as part of a team or independently. An established reputation for self\u2010\nmotivation, attention to detail excellent organizational skills, and high ethical conduct. Presently looking for the\nbest opportunity with a goal-oriented company where I can excel, deliver and achieve according to my potential. I\nam enthusiastic to learn keenly about emerging developments in my job sector.\nExperience\nSenior Associate\nKPMG In Pakistan\nAug 2021 - Feb 2022 (7 months)\nTeam Supervision and Training\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst: Processing accounts and incoming payments in compliance.\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nVendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nBusiness Development Executive\nInspecTest (Private) Limited\nFeb 2022 - Present (7 months +)\nBusiness Development Accounting, Finance, and Revenue\nClient Relations\nClient Dealing\nAccounts Executive\nDescon Engineering Limited\nAug 2009 - Jul 2021 (12 years)\nData entry analyst: Update the system as invoices are received.\nBank Payment Analyst\nSAP ERP\nOracle\nFinancial policies and procedures.\nExceptions analyst: Address disputes and payment failure issues.\nSHAHRUKH ALI - page 1Vendor maintenance analyst: Maintain an accurate supplier database.\nFinance Analyst: Performing day-to-day financial transactions, including verifying, classifying,\ncomputing, posting, and recording accounts receivables\u2019 data\nEducation\nUniversity Of Central Punjab\nMBA\nHajvery University\nBachelor of Commerce\nSkills\nabacus  \u00a0 \u2022 \u00a0 accountancy  \u00a0 \u2022 \u00a0 accounts receivable  \u00a0 \u2022 \u00a0 accpac  \u00a0 \u2022 \u00a0 analysis  \u00a0 \u2022 \u00a0 business law  \u00a0 \u2022 \u00a0 ceo  \u00a0 \u2022 \u00a0\nconsulting  \u00a0 \u2022 \u00a0 data entry  \u00a0 \u2022 \u00a0 database administration\nSHAHRUKH ALI - page 2"
+    },
+    "details": {
+        "name": "SHAHRUKH ALI",
+        "number": "4618452",
+        "skills": [
+            "SAP ERP",
+            "Oracle",
+            "abacus",
+            "accountancy",
+            "accounts receivable",
+            "accpac",
+            "data entry",
+            "database administration"
+        ],
+        "email_id": "shahrukh.ali@descon.com",
+        "location": "",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2010",
+                "university": "Hajvery University",
+                "degree_title": "Bachelor of Commerce"
+            },
+            {
+                "end_date": "06-2012",
+                "university": "University Of Central Punjab",
+                "degree_title": "MBA"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/shahrukh-ali-3021ab24a",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "SHAHRUKH ALI is a highly motivated and result-driven Business Development Executive with 12 years of invaluable experience in business development, finance, and accounting. He possesses strong technical skills in SAP ERP and Oracle, and has a proven track record in handling complex assignments effectively.",
+        "employment_history": [
+            {
+                "details": "Team Supervision and Training, Data entry analyst: Update the system as invoices are received, Bank Payment Analyst: Processing accounts and incoming payments in compliance, Exceptions analyst: Address disputes and payment failure issues, Vendor maintenance analyst: Maintain an accurate supplier database, Finance Analyst: Performing day-to-day financial transactions.",
+                "end_date": "02-2022",
+                "location": "Pakistan",
+                "job_title": "Senior Associate",
+                "start_date": "08-2021",
+                "company_name": "KPMG In Pakistan"
+            },
+            {
+                "details": "Business Development Accounting, Finance, and Revenue, Client Relations, Client Dealing.",
+                "end_date": "",
+                "location": "",
+                "job_title": "Business Development Executive",
+                "start_date": "02-2022",
+                "company_name": "InspecTest (Private) Limited"
+            },
+            {
+                "details": "Data entry analyst: Update the system as invoices are received, Bank Payment Analyst, Exceptions analyst: Address disputes and payment failure issues, Vendor maintenance analyst: Maintain an accurate supplier database, Finance Analyst: Performing day-to-day financial transactions.",
+                "end_date": "07-2021",
+                "location": "",
+                "job_title": "Accounts Executive",
+                "start_date": "08-2009",
+                "company_name": "Descon Engineering Limited"
+            }
+        ]
+    }
+}

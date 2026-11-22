@@ -1,0 +1,184 @@
+{
+    "output": {
+        "justification": [
+            "The candidate has leadership experience by leading a management team for school events, but lacks substantial leadership roles in professional settings.",
+            "Relevant digital marketing experience is minimal; most roles and projects focus on academic contexts rather than professional ones.",
+            "The resume does not showcase any direct experience with SEO/SEM or CRM tools, critical for the position.",
+            "The candidate has project experience but not in a digital marketing context. The resume lacks mention of using Google Analytics, which is necessary per job requirements."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership and management",
+                    "score": 4
+                },
+                {
+                    "criteria": "digital marketing experience",
+                    "score": 3
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "seo/sem",
+                    "score": 1
+                },
+                {
+                    "criteria": "project management",
+                    "score": 5
+                },
+                {
+                    "criteria": "crm software expertise",
+                    "score": 1
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Strong project management and communication skills",
+                    "meets": false
+                },
+                {
+                    "criteria": "Familiarity with Google Analytics and CRM tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven work experience in social media marketing and SEO/SEM",
+                    "meets": false
+                },
+                {
+                    "criteria": "2+ years of experience in digital marketing",
+                    "meets": false
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 3.36,
+                "micro_scores": 1.56
+            }
+        },
+        "personal_info": {
+            "name": "Qazi Talha Saud",
+            "email": "qazi.talha10@gmail.com",
+            "phone": "0321-9802246",
+            "current_position": "",
+            "current_company": "",
+            "employment_start_date_current_company": "",
+            "first_company_start_date": "09-2017",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "https://www.linkedin.com/in/talha-qazi-91936915a/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Digital Marketing Strategist at InnovateTech Corp\n\n**Location:** Lahore, Pakistan  \n**Position:** Full-Time  \n**Department:** Marketing \n\n**About Us:**  \nInnovateTech Corp is at the forefront of providing integrated digital solutions tailored to drive business success. Our expertise in leveraging technology to enhance branding and market reach sets us apart in the dynamic world of marketing.\n\n**Role Summary:**  \nWe are seeking a talented and experienced Digital Marketing Strategist to join our team. You will play a crucial role in designing, implementing, and managing digital marketing strategies aligned with our business goals. Your exceptional communication skills and marketing expertise will be pivotal in enhancing our online presence and fostering client relationships.\n\n**Key Responsibilities:**\n- Develop, implement, and manage marketing campaigns that promote the company and its products/services.\n- Enhance brand awareness in the digital space.\n- Drive website traffic and acquire leads/customers.\n- Manage social media strategy and presence.\n- Coordinate with the sales team to create marketing campaigns.\n- Drive strategies to ensure the achievement of marketing targets.\n\n**Skills & Competencies:**\n- Strong analytical and project management skills.\n- Deep understanding of how all digital marketing channels function.\n- Solid knowledge of online marketing tools and best practices.\n- Hands-on experience with SEO/SEM, Google Analytics, and CRM software.\n- Excellent verbal and written communication skills.\n- Strong decision-making and problem-solving skills.\n- Ability to manage multiple projects simultaneously and work collaboratively.\n\n**Why InnovateTech Corp?**\n- Innovative and growth-driven workplace.\n- Opportunities for professional development.\n- Competitive salary and benefits.\n\nJoin us to reshape the future of digital interaction and marketing!",
+        "macro_dict": {
+            "leadership and management": 36,
+            "digital marketing experience": 64
+        },
+        "micro_dict": {
+            "seo/sem": 18,
+            "project management": 14,
+            "crm software expertise": 68
+        },
+        "additional_info": "Our company embraces diversity and is an equal opportunity employer. We encourage candidates from top universities such as Lahore School of Economics and University of Central Punjab. Relocation support is not provided; however, we offer a flexible work-from-home policy. Candidates will be assessed based on a comprehensive online skills test followed by behavioral interviews with the leadership team.",
+        "minimum_requirements": [
+            "Strong project management and communication skills",
+            "Familiarity with Google Analytics and CRM tools",
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Proven work experience in social media marketing and SEO/SEM",
+            "2+ years of experience in digital marketing"
+        ],
+        "resume": "  QAZI TALHA SAUD \nHometown: Lahore  \nCell: 0321-9802246  | qazi.talha10@gmail.com  \nDate of Birth: 03/01/98  \nLinkedin Profile: https://www.linkedin.com/in/talha -qazi-91936915a/  \nEDUCATION & QUALIFICATIONS  \nMasters of Business Administration  Aug 2021 -May 2022 \nLahore School of Economics  \nBachelors in Business Administration  (Honors)  Sep 2017 - May 2021  \nMajor (Marketing) Minor (Media Studies)  \nLahore School of Economics           \nPROFESSIONAL EXPERIENCE         \nLahore School of Economics / Main campus, Burki  Road, Lahore                                                   Sep 2017 -Dec 2018  \nTeachers Assistant  \n\uf0b7 Managed data and records about the books in TRC  \n\uf0b7 Data entry  \nHaashar Association / Head office, Abbottabad                                                                                                                                June 2018 \nIntern/  HR Department  \n\uf0b7 Assistance in preparation of Final Settlements of employees  \n\uf0b7 Assistance in recruitment and compensation benefit section  \n \nPROJECTS  \nMarketing Strategy : Prepared Data on Biscuit Category by the help of Questionnaires, Interviewed Specialized Doctors \nregarding their products and Brand they use . \nMarketing Research : Figured  out an Issue regarding Brand Awareness\u2019 in (Bunnys Ltd).  Conducted an extensive Market \nresearch on different  factors that could effect awareness and came up with a Marketing solution.  \nBranding and Advertisement:  Created a Brand Extension of Nestle into \u201cNestle Instant foods\u201d. Created IMC plans \nincluding TVC, Digital advertisement, packaging of the product with the help of  Photoshop  and Adobe illustrator . \nSales Force Management : Figured out an issue regarding decreasing sales in a caf\u00e9 and i mplemented ways to boost sales \nby various means.  \nManagerial Accounting : Budgeted next Y ears Financial statement and balance sheet for Honda Atlas Cars .  \nAdvanced Corporate Finance : Designed a sustainable business model of Wind Mills in Pakistan with a budget of 600 \nMillion rupees.  \nAdvanced Operations Management:  Performed a detailed analysis of ongoing operational processes in SPEL.   \nResearch Project (Bachelors): Submitted a research paper on \u201c Antecedents of Trust and their impact on Online \nPurchase Intention. A Mediatory study based on the e -Commence sector of Pakistan \u201d.  \n \nADDITIONAL EXPERIENCE  \nManagement Team , Lahore School Convocation                                                              2017 \n\uf0b7 Led the  LSE convocation  management  team . \nLahore School Business Fiesta               2021 \n\uf0b7 Took part in Business fiesta and came up with a Business Plan.   \n \nSKILLS & INTERESTS  \n\uf0b7 Task -oriented and proficient written expression  \n\uf0b7 Adept at Photoshop , Microsoft and Vegas pro  \n\uf0b7 Excellent communication skills and comfortable with working in a team.  \n \n"
+    },
+    "details": {
+        "name": "Qazi Talha Saud",
+        "number": "03219802246",
+        "skills": [
+            "Photoshop",
+            "Microsoft",
+            "Vegas Pro"
+        ],
+        "email_id": "qazi.talha10@gmail.com",
+        "location": "Lahore",
+        "projects": [
+            {
+                "title": "Marketing Strategy",
+                "description": "Prepared Data on Biscuit Category using Questionnaires and interviews."
+            },
+            {
+                "title": "Marketing Research",
+                "description": "Conducted extensive Market research on Brand Awareness for Bunnys Ltd."
+            },
+            {
+                "title": "Branding and Advertisement",
+                "description": "Created a Brand Extension of Nestle into 'Nestle Instant foods'."
+            },
+            {
+                "title": "Sales Force Management",
+                "description": "Implemented strategies to boost sales in a caf\u00e9."
+            },
+            {
+                "title": "Managerial Accounting",
+                "description": "Budgeted next year's Financial statement for Honda Atlas Cars."
+            },
+            {
+                "title": "Advanced Corporate Finance",
+                "description": "Designed a sustainable business model of Wind Mills in Pakistan."
+            },
+            {
+                "title": "Advanced Operations Management",
+                "description": "Performed analysis of ongoing operational processes in SPEL."
+            },
+            {
+                "title": "Research Project (Bachelors)",
+                "description": "Submitted a research paper on 'Antecedents of Trust and their impact on Online Purchase Intention.'"
+            }
+        ],
+        "education": [
+            {
+                "end_date": "05-2022",
+                "university": "Lahore School of Economics",
+                "degree_title": "Masters of Business Administration"
+            },
+            {
+                "end_date": "05-2021",
+                "university": "Lahore School of Economics",
+                "degree_title": "Bachelors in Business Administration (Honors)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/talha-qazi-91936915a/",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Qazi Talha Saud is a dedicated professional with a strong educational background in business administration and hands-on experience in marketing and project management. He has developed technical skills in software such as Photoshop and Microsoft, and has successfully executed various marketing strategies and research projects.",
+        "employment_history": [
+            {
+                "details": "Managed data and records about the books in TRC and performed data entry.",
+                "end_date": "12-2018",
+                "location": "Lahore",
+                "job_title": "Teachers Assistant",
+                "start_date": "09-2017",
+                "company_name": "Lahore School of Economics"
+            },
+            {
+                "details": "Assisted in preparation of Final Settlements of employees and recruitment processes.",
+                "end_date": "06-2018",
+                "location": "Abbottabad",
+                "job_title": "Intern/ HR Department",
+                "start_date": "06-2018",
+                "company_name": "Haashar Association"
+            }
+        ]
+    }
+}

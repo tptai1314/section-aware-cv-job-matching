@@ -1,69 +1,78 @@
 \section{Proposed System Architecture}
 
 \subsection{Formal Problem Formulation}
-Let $\mathcal{D}$ denote the universe of recruitment documents partitioned into job descriptions $\mathcal{J}$ and candidate resumes $\mathcal{C}$. Given a query document $D_q \in \mathcal{D}$ and candidate corpus $\mathcal{C}_{cand} = \{D_1, D_2, \dots, D_N\}$, the objective of bidirectional matching is to compute a ranking permutation $\pi$ over $\mathcal{C}_{cand}$ that maximizes ranking relevance ($nDCG@K$) with respect to ground-truth relevance grades $\mathbf{y}_q \in \{0, 1, 2, 3\}^N$:
+Let $\mathcal{D} = \mathcal{J} \sqcup \mathcal{C}$ denote the universe of recruitment documents partitioned into job descriptions $\mathcal{J}$ and candidate resumes $\mathcal{C}$. Given a query document $q \in \mathcal{J}$ and a candidate pool $\mathcal{P}_q = \{p_1, p_2, \dots, p_{N_q}\} \subset \mathcal{C}$ comprising $N_q$ candidate resumes, each pair $(q, p_i)$ is associated with a ground-truth relevance grade $y_{q, i} \in \{0, 1, 2\}$ across three standardized levels: Unfit ($0$), Potential Fit ($1$), and Good Fit ($2$).
+
+The objective is to optimize a scoring function $s_\theta(q, p)$ such that the permutation $\pi_{s_\theta}$ obtained by sorting candidate scores $s_\theta(q, p_i)$ in descending order maximizes the expected nDCG@K across all evaluation queries $Q$:
 \begin{equation}
-    \pi^* = \arg\max_{\pi} \text{nDCG}@K\big( \pi(\mathcal{C}_{cand}), \mathbf{y}_q \big).
+    \theta^* = \arg\max_\theta \frac{1}{|Q|} \sum_{q \in Q} \text{nDCG}@K\Big( \pi_{s_\theta}(q, \mathcal{P}_q), \, \mathbf{y}_q \Big).
+    \label{eq:objective}
 \end{equation}
 
 \begin{figure}[t]
 \centering
-\includegraphics[width=0.88\textwidth]{figures/fig07_vector_theo_section.png}
-\caption{Section-aware multi-vector representation and alignment between Job Description (JD) and Curriculum Vitae (CV).}
+\includegraphics[width=0.85\textwidth]{figures/fig07_vector_theo_section.png}
+\caption{Section-aware multi-vector representation and cross-alignment architecture between Job Description (JD) and Curriculum Vitae (CV).}
 \label{fig:arch}
 \end{figure}
 
-The architecture decouples processing into two operational pipelines:
+The pipeline decouples into two operational workflows (Fig.~\ref{fig:arch}):
 \begin{itemize}
-    \item \textbf{Offline Pipeline (Indexing \& Sync)}: Extracts canonical metadata, segments raw text into functional sections via rule-based boundary detection, generates frozen dense representations, and updates ChromaDB indexes asynchronously.
-    \item \textbf{Online Pipeline (Serving \& Explanation)}: Executes two-stage candidate retrieval, computes cross-section similarity matrices, applies hybrid constraint fusion, and generates evidence-grounded justifications on demand.
+    \item \textbf{Offline Indexing Pipeline}: Parses raw documents into functional sections using deterministic regex rules, generates dense representations via frozen bi-encoders, and synchronizes vector database collections asynchronously.
+    \item \textbf{Online Serving Pipeline}: Ingests incoming queries in real time, computes cross-section similarity matrices, applies dynamic weight renormalization, executes calibrated hybrid scoring, and produces traceable structural justifications.
 \end{itemize}
 
-\subsection{Section Decomposition and Multi-Vector Representation}
-Given document $D$, the parser segments raw text into $M$ functional sections using heading boundary patterns:
-\begin{equation}
-    D = \Big\{ \big(s_1, T_1\big), \big(s_2, T_2\big), \dots, \big(s_M, T_M\big), \big(\text{full}, T_{raw}\big) \Big\},
-\end{equation}
-where $s_m \in \{\text{skills}, \text{experience}, \text{education}, \text{summary}, \text{projects}\}$. Each section text $T_m$ as well as full text $T_{raw}$ is mapped into a $d$-dimensional vector space via a frozen bi-encoder $\mathcal{E}(\cdot)$:
-\begin{equation}
-    \mathbf{v}_m = \mathcal{E}(T_m) \in \mathbb{R}^d, \quad \mathbf{v}_{full} = \mathcal{E}(T_{raw}) \in \mathbb{R}^d, \quad \|\mathbf{v}\|_2 = 1.
-\end{equation}
+\subsection{Section Segmentation and Frozen Multi-Vector Representation}
+Each document $D$ is segmented into at most $M \le 4$ functional sections: $\mathcal{S}_{domain} = \{\text{skills}, \text{experience}, \text{education}, \text{summary}\}$, alongside full-text $T_{raw}$. The section parser (commit \texttt{41e1d27}) applies regular expressions with word boundaries over 40+ standardized heading synonyms. To resolve concatenated HTML/PDF artifacts (\textit{e.g.}, \texttt{SummaryHighly} or \texttt{EducationGMR}), the parser employs positive lookahead matching capitalized characters, digits, or hyphens immediately following leading heading keywords (\texttt{\textasciicircum(?i:}\textit{keyword}\texttt{)(?=[A-Z0-9\textbackslash-])}), preserving technical acronyms such as \texttt{JavaScript} intact. Documents lacking identifiable headings trigger a safe fallback mapping $T_{raw}$ to a synthetic \texttt{full} section.
 
-\subsection{Section Matching and Dynamic Renormalization}
-For query $D_q$ and candidate $D_c$, section similarity uses cosine metric:
-\begin{equation}
-    \text{sim}(\mathbf{u}, \mathbf{w}) = \frac{\mathbf{u} \cdot \mathbf{w}}{\|\mathbf{u}\|_2 \|\mathbf{w}\|_2}.
-\end{equation}
-To accommodate non-standard document structures where technical proficiencies are described in narrative work history rather than dedicated skill sections, we employ \textbf{Cross-Section Pairing}:
-\begin{equation}
-    c(s_m) = \max_{s_k \in D_c} \text{sim}\big(\mathbf{v}_q^{s_m}, \mathbf{v}_c^{s_k}\big).
-\end{equation}
+Each section text $T_m$ and full text $T_{raw}$ is mapped into dense representations via a frozen bi-encoder $\mathcal{E}(\cdot)$ (\texttt{all-MiniLM-L6-v2}, $d=384$) and $L_2$-normalized onto the unit sphere $\|\mathbf{v}\|_2 = 1.0$, allowing similarity computation via the cosine dot product $\cos(\mathbf{u}, \mathbf{w}) = \mathbf{u} \cdot \mathbf{w} \in [-1, 1]$.
 
-When documents omit optional sections (\textit{e.g.}, junior profiles lacking formal project portfolios, or freelance JDs lacking degree requirements), applying fixed zero-imputation would penalize valid candidates unfairly. We resolve this via \textbf{Dynamic Weight Renormalization}:
+\subsection{Cross-Section Pairing and Dynamic Weight Renormalization}
+Because technical competencies in real resumes are frequently embedded within employment narratives rather than isolated skill sections, the framework executes \textbf{Cross-Section Pairing}: each section $\sigma \in \mathcal{S}(q)$ in the query is aligned against the candidate section exhibiting maximum cosine similarity. Concurrently, to prevent scoring distortion when queries omit optional sections, the system applies \textbf{Dynamic Weight Renormalization}:
 \begin{equation}
-    S_{sem} = \frac{\sum_{m \in \mathcal{S}_{\text{matched}}} w_m \cdot c(s_m)}{\sum_{m \in \mathcal{S}_{\text{matched}}} w_m},
+    S_{\text{dense}}(q, p) = \frac{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma \cdot c_\sigma(q, p)}{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma}, \quad \text{where } c_\sigma(q, p) = \max_{s \in \mathcal{S}(p)} \cos\big(\mathbf{v}_q^\sigma, \mathbf{v}_p^s\big) \in [-1.0, 1.0],
+    \label{eq:cross_dynamic}
 \end{equation}
-where $\mathcal{S}_{\text{matched}}$ is restricted strictly to active query sections, calibrated with baseline domain weights ($w_{\text{skills}} = 0.35, w_{\text{exp}} = 0.35, w_{\text{proj}} = 0.15, w_{\text{edu}} = 0.10, w_{\text{sum}} = 0.05$).
+where $\mathcal{S}(q)$ denotes the active sections extracted from query $q$. The default section weights are manually assigned as design heuristics (\texttt{src/cvjd/models/matching.py:22--27}): $w_{\text{skills}} = 0.40, w_{\text{exp}} = 0.35, w_{\text{edu}} = 0.15$, and $w_{\text{sum}} = 0.10$ ($\sum w_\sigma = 1.00$). When both documents lack recognizable headings ($\mathcal{S}(q)=\emptyset$ or $\mathcal{S}(p)=\emptyset$), the system reverts to full-text cosine similarity: $S_{\text{dense}}(q, p) = \cos(\mathbf{v}_q^{\text{full}}, \mathbf{v}_p^{\text{full}})$.
 
-\subsection{Hybrid Ranking Engine: Two-Tier Separation}
+\subsection{Calibrated Hybrid Ranking Engine}
 \label{sec:hybrid}
-To preserve clear semantics, the system enforces a strict two-tier separation between \textit{eligibility constraints} and \textit{competency ranking}:
-\begin{itemize}
-    \item \textbf{Tier 1: Eligibility Hard Filters}: Candidates are pre-filtered based on non-competency market boundaries (active account status, public privacy permissions, task availability, and budget upper-bound constraints).
-    \item \textbf{Tier 2: Competency Ranking}: Surviving candidates are scored via unified hybrid fusion:
-    \begin{equation}
-        S_{hybrid} = \alpha \cdot S_{sem} + (1 - \alpha) \cdot \big[ w_{skl} S_{skills} + w_{exp} S_{exp} + w_{pref} S_{pref} \big].
-        \label{eq:hybrid}
-    \end{equation}
-\end{itemize}
-
-\textbf{Asymmetric Skill Coverage vs. Symmetric Jaccard}: Rather than penalizing qualified candidates who possess auxiliary skills beyond the job specification, $S_{skills}$ evaluates asymmetric requirement recall over normalized skill aliases:
+Dense semantic retrieval and lexical BM25 matching are combined via a nested two-stage formulation (\texttt{scripts/run\_scientific\_benchmark.py:504--508}):
 \begin{equation}
-    \text{Cov}(\mathcal{T}) = \frac{\sum_{t \in \mathcal{T}} \mathbb{I}(t \in \mathcal{C}_{skills}) \cdot w_t}{\sum_{t \in \mathcal{T}} w_t}, \quad S_{skills} = 0.8 \cdot \text{Cov}(\text{MustHave}) + 0.2 \cdot \text{Cov}(\text{NiceToHave}).
+\begin{aligned}
+    S_{\text{retrieval}}(q, p) &= \alpha \cdot \tilde{S}_{\text{dense}}(q, p) + (1 - \alpha) \cdot \tilde{S}_{\text{bm25}}(q, p), \\
+    S_{\text{hybrid}}(q, p) &= \beta \cdot S_{\text{retrieval}}(q, p) + (1 - \beta) \cdot S_{\text{tax}}(q, p),
+\end{aligned}
+    \label{eq:hybrid_full}
 \end{equation}
-When candidates lack more than $50\%$ of mandatory must-have skills, a multiplicative penalty factor $\gamma = \text{Cov}(\text{MustHave})$ is applied to prevent compensation by non-essential criteria.
+where $\tilde{S}_{\text{dense}}$ and $\tilde{S}_{\text{bm25}}$ are linearly Min-Max normalized within each candidate pool $\mathcal{P}_q$. Calibrating with $\alpha = 0.60$ and $\beta = 0.60$ (heuristically set during early prototyping and verified via grid search on training queries) yields the effective convex formulation:
+\begin{equation}
+    S_{\text{hybrid}}(q, p) = 0.36 \cdot \tilde{S}_{\text{dense}}(q, p) + 0.24 \cdot \tilde{S}_{\text{bm25}}(q, p) + 0.40 \cdot S_{\text{tax}}(q, p),
+    \label{eq:hybrid_effective}
+\end{equation}
+with component weights strictly satisfying $0.36 + 0.24 + 0.40 = 1.00$.
 
-\subsection{Architectural Decisions and Empirical Rationales}
-Table~\ref{tab:design_decisions} summarizes the architectural choices governing the pipeline.
+\subsection{Weights-Free Reciprocal Rank Fusion (RRF)}
+As a hyperparameter-free baseline removing reliance on tuning $\alpha$ and $\beta$, the system integrates Reciprocal Rank Fusion (RRF)~\cite{cormack2009reciprocal} between dense and lexical rankings:
+\begin{equation}
+    S_{\text{RRF}}(q, p) = \sum_{m \in \{\text{Dense}, \text{BM25}\}} \frac{1}{k + r_m(p)} = \frac{1}{60 + r_{\text{dense}}(p)} + \frac{1}{60 + r_{\text{bm25}}(p)},
+    \label{eq:rrf}
+\end{equation}
+where $r_m(p) \in \{1, 2, \dots, N_q\}$ is candidate $p$'s rank position in list $m$, and $k = 60$ is the standard smoothing constant. When combined with ontology constraints (\texttt{RRF + Taxonomy}), $S_{\text{RRF}}$ is Min-Max normalized and fused via $S_{\text{RRF+Tax}} = 0.60 \cdot \tilde{S}_{\text{RRF}} + 0.40 \cdot S_{\text{tax}}$.
+
+\subsection{Asymmetric Skill Coverage on 3-Tier Taxonomy}
+Rather than applying symmetric set metrics like Jaccard similarity that penalize candidates possessing surplus competencies beyond the job post, $S_{\text{tax}}$ computes directional requirement satisfaction from job description to candidate ($\mathcal{K}_q \rightarrow \mathcal{K}_p$). Requirement degree for skill $t \in \mathcal{K}_q$ is defined as $\mu(t, \mathcal{K}_p) = 1.0$ if $t \in \mathcal{K}_p$ (exact match or alias), or $\max_{u \in \mathcal{K}_p} \text{rel}(u, t)$ if an ontology link exists ($0.80$ for $\texttt{is\_superset\_of}$, $0.60$ for $\texttt{framework\_of}$, $[0.25, 0.50]$ for $\texttt{ecosystem\_companion}$), and $0.0$ otherwise.
+
+Asymmetric coverage across skill set $\mathcal{T} \subseteq \mathcal{K}_q$ is $\text{Cov}(\mathcal{T}, \mathcal{K}_p) = \frac{1}{|\mathcal{T}|} \sum_{t \in \mathcal{T}} \mu(t, \mathcal{K}_p)$. The composite taxonomy score differentiates mandatory and preferred proficiencies (\texttt{scripts/run\_scientific\_benchmark.py:483--492}):
+\begin{equation}
+    S_{\text{tax}}(q, p) = \begin{cases} 
+        1.0, & \text{if } |\mathcal{K}_q| = 0 \\ 
+        0.85 \cdot \text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) + 0.15 \cdot \text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p), & \text{otherwise.} 
+    \end{cases}
+    \label{eq:must_nice}
+\end{equation}
+When a job description yields zero extractable skills ($|\mathcal{K}_q| = 0$, occurring in $12.7\%$ of JDs), the system assigns $S_{\text{tax}}(q, p) = 1.0$ as an identity neutral element. In the current benchmark implementation, when a JD lacks mandatory skills, $\text{Cov}(\text{Must}) = 1.0$; when it lacks preferred skills, $\text{Cov}(\text{Nice}) = 0.0$ (capping candidate scores for such JDs at $0.85$). This asymmetric boundary property is critically examined in the Limitations section.
+
+Table~\ref{tab:design_decisions} summarizes key architecture decisions and their empirical justifications.
 
 \input{tables/tab_design_decisions.tex}

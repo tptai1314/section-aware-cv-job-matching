@@ -1,0 +1,45 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "SAMHA\nAHMED\nAddress: Lahore, Pakistan \u2013 Phone: +923324817353\nEmail:\nsamhaahmed39@gmail.com\nOBJECTIVE\nTo work in a challenging environment where I can better utilize my skills and enhance my experience in\nthe domain of sales and business development.\nWORK EXPERIENCE\nBUSINESS DEVELOPMENT EXECUTIVE\nRolustech\n(September 2021 \u2013 Present)\nBUSINESS DEVELOPMENT EXECUTIVE\nTxLabz\n(May 2021 \u2013 September 2021)\nASSOCIATE PROJECT MANAGER\nTxLabz\n(June 2021 \u2013 September 2021)\nEDUCATION\nBS INFORMATION TECHNOLOGY\n(2017\u20132021)\nPunjab University College of Information Technology, Lahore\n(OOP, DSA, DB, Web, Android, SQA)\nF.SC PRE-ENGINEERING\n(2015 \u2013 2017)\nPunjab College of Science, Lahore\n(Chemistry, Physics, Mathematics)\nPercentage: 80%\nMATRICULATION\n(2013 \u2013 2015)\nWapda Girls High School, Lahore\n(Computer, Mathematics, Physics, Chemistry)\nPercentage: 93%PERSONAL SKILLS\n\u25cf\nStrong interpersonal skills\n\u25cf\nE\ufb00ective Listening\n\u25cf\nAbility to negotiate\n\u25cf\nAbility to Multitask\n\u25cf\nAttention to details\n\u25cf\nProfessional behavior\n\u25cf\nTime and resource \nmanagement\n\u25cf\nE\ufb00ective Decision making\nORGANIZATIONAL/ MANAGERIAL SKILLS\n\u25cf\nBusiness intelligence and marketing skills\n\u25cf\nHands-on experience in Upwork bidding and utilization of freelancing platforms for lead\ngeneration\n\u25cf\nKnowledge of all the stages of a sales cycle\n\u25cf\nExperience with CRM systems\n\u25cf\nStrong knowledge of lead generation using email campaigns and popular marketing tools\n\u25cf\nAbility to analyze market trends and suggest new ideas/strategies for improving sales\n\u25cf\nAbility to interact and e\ufb00ectively communicate with people from diverse backgrounds\n\u25cf\nStrong persuasion skills that help in maximizing customer satisfaction\n\u25cf\nGood at creating and goal setting and meeting goals, decision making, managing\nappointments, team management, and strategic thinking\nSEMESTER PROJECTS\nCAMPUS MANAGEMENT SYSTEM\nSubject: Programming Fundamentals, It was developed in C++.\nNGO DATABASE SYSTEM\nSubject: Database System. It was developed in ORACLE using PHP, HTML, and CSS.\nLUDO GAME\nSubject: OOAD (Object-Oriented Analysis and Design). It was developed in JAVA.\nONLINE ART GALLERY\nSubject: Web Development. It was developed using HTML, CSS, Bootstrap, JavaScript, AJAX,\nJQUERY, and JSON.FINAL YEAR PROJECT\nPU E-BUS TRACKING APPLICATION\nIt is an application that will provide Real-time Bus locations to the students. It is an\nAndroid-based project. The application has two modules; one is for drivers, the other for\nstudents. When a driver opens the app, his real-time location in Firebase is saved. When\na student opens the app, nearby buses within a 3km of radius are shown to the student.\nWe have also developed a Website for admins who can remove or add buses.\nTools for Android: Java, XML, Gradle, and Firebase Database.\nTools for Web: HTML5, CSS3, JavaScript, jQuery, React, Python and MySQL.",
+        "macro_dict": {
+            "marketing expertise": 100
+        },
+        "micro_dict": {
+            "email marketing": 100
+        },
+        "additional_info": "At Acme Corp, we prioritize candidates from diverse educational backgrounds with proven experience in high-pressure sales environments. We welcome graduates from reputable institutions but hold no particular preference for any university. Relocation support is available on a case-by-case basis. Skills assessment will include a practical marketing project to gauge capability in real-world scenarios, complemented by personal interviews to evaluate cultural fit and growth potential.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or related field",
+            "Demonstrated ability in team leadership and mentoring",
+            "Proficiency in CRM software (e.g., HubSpot, Salesforce)",
+            "5+ years of experience in sales and marketing roles"
+        ],
+        "resume": "SAMHA\nAHMED\nAddress: Lahore, Pakistan \u2013 Phone: +923324817353\nEmail:\nsamhaahmed39@gmail.com\nOBJECTIVE\nTo work in a challenging environment where I can better utilize my skills and enhance my experience in\nthe domain of sales and business development.\nWORK EXPERIENCE\nBUSINESS DEVELOPMENT EXECUTIVE\nRolustech\n(September 2021 \u2013 Present)\nBUSINESS DEVELOPMENT EXECUTIVE\nTxLabz\n(May 2021 \u2013 September 2021)\nASSOCIATE PROJECT MANAGER\nTxLabz\n(June 2021 \u2013 September 2021)\nEDUCATION\nBS INFORMATION TECHNOLOGY\n(2017\u20132021)\nPunjab University College of Information Technology, Lahore\n(OOP, DSA, DB, Web, Android, SQA)\nF.SC PRE-ENGINEERING\n(2015 \u2013 2017)\nPunjab College of Science, Lahore\n(Chemistry, Physics, Mathematics)\nPercentage: 80%\nMATRICULATION\n(2013 \u2013 2015)\nWapda Girls High School, Lahore\n(Computer, Mathematics, Physics, Chemistry)\nPercentage: 93%PERSONAL SKILLS\n\u25cf\nStrong interpersonal skills\n\u25cf\nE\ufb00ective Listening\n\u25cf\nAbility to negotiate\n\u25cf\nAbility to Multitask\n\u25cf\nAttention to details\n\u25cf\nProfessional behavior\n\u25cf\nTime and resource \nmanagement\n\u25cf\nE\ufb00ective Decision making\nORGANIZATIONAL/ MANAGERIAL SKILLS\n\u25cf\nBusiness intelligence and marketing skills\n\u25cf\nHands-on experience in Upwork bidding and utilization of freelancing platforms for lead\ngeneration\n\u25cf\nKnowledge of all the stages of a sales cycle\n\u25cf\nExperience with CRM systems\n\u25cf\nStrong knowledge of lead generation using email campaigns and popular marketing tools\n\u25cf\nAbility to analyze market trends and suggest new ideas/strategies for improving sales\n\u25cf\nAbility to interact and e\ufb00ectively communicate with people from diverse backgrounds\n\u25cf\nStrong persuasion skills that help in maximizing customer satisfaction\n\u25cf\nGood at creating and goal setting and meeting goals, decision making, managing\nappointments, team management, and strategic thinking\nSEMESTER PROJECTS\nCAMPUS MANAGEMENT SYSTEM\nSubject: Programming Fundamentals, It was developed in C++.\nNGO DATABASE SYSTEM\nSubject: Database System. It was developed in ORACLE using PHP, HTML, and CSS.\nLUDO GAME\nSubject: OOAD (Object-Oriented Analysis and Design). It was developed in JAVA.\nONLINE ART GALLERY\nSubject: Web Development. It was developed using HTML, CSS, Bootstrap, JavaScript, AJAX,\nJQUERY, and JSON.FINAL YEAR PROJECT\nPU E-BUS TRACKING APPLICATION\nIt is an application that will provide Real-time Bus locations to the students. It is an\nAndroid-based project. The application has two modules; one is for drivers, the other for\nstudents. When a driver opens the app, his real-time location in Firebase is saved. When\na student opens the app, nearby buses within a 3km of radius are shown to the student.\nWe have also developed a Website for admins who can remove or add buses.\nTools for Android: Java, XML, Gradle, and Firebase Database.\nTools for Web: HTML5, CSS3, JavaScript, jQuery, React, Python and MySQL."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

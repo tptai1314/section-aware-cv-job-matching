@@ -1,0 +1,200 @@
+{
+    "output": {
+        "justification": [
+            "The resume reflects a history of roles that align with business development but lacks demonstrated leadership capabilities in current or past roles.",
+            "The candidate has a solid foundation in B2B sales as shown in experiences at Motive and Square Nine International, partially fulfilling relevant experience needs.",
+            "Specific skills like communication and data analysis aren't highlighted distinctly in the resume, though communication skills are implied through roles in account management and client interaction."
+        ],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 4
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 6
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "communication skills",
+                    "score": 6
+                },
+                {
+                    "criteria": "data analysis",
+                    "score": 5
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Bachelor's degree in Business Administration, Marketing, or a related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proven ability to develop and implement successful business strategies",
+                    "meets": false
+                },
+                {
+                    "criteria": "Strong understanding of IT and manufacturing industries",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in business development or sales",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 4.9,
+                "micro_scores": 5.3100000000000005
+            }
+        },
+        "personal_info": {
+            "name": "Ersalan Falegh Ali Chowhan",
+            "email": "faleghchowhan@gmail.com",
+            "phone": "+92 331 5231910",
+            "current_position": "Deployment Specialist",
+            "current_company": "Zones LLC",
+            "employment_start_date_current_company": "11-2021",
+            "first_company_start_date": "10-2013",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": "http://linkedin.com/in/ersalan-falegh-ali-chowhan-13727835/"
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "leadership": 55,
+            "strategic thinking": 45
+        },
+        "micro_dict": {
+            "communication skills": 31,
+            "data analysis": 69
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Bachelor's degree in Business Administration, Marketing, or a related field",
+            "Proven ability to develop and implement successful business strategies",
+            "Strong understanding of IT and manufacturing industries",
+            "5+ years of experience in business development or sales"
+        ],
+        "resume": "EDUCATION\n10.2021\n - \npresent\nAl Nafi Pakistan\nData Science and CISSP\n08.2021\n - \npresent\nInstitute of Management Account\nCMA USA Part 1 (In Progress)\n09/2015\n - \n01/2017\nPreston University, Islamabad\nMBA Accounting and Finance (CGPA 3.5)\n01/2009\n - \n01/2013\nNUML, Islamabad\nBBA (Hons) - Finance (CGPA 3.53)\nPROFESSIONAL EXPERIENCE\n11.2021\n - \npresent\nZones LLC\nDeployment Specialist -Starbucks Corporation\nUnderstanding the workflow and management of multiple projects as a deployment specialist.\nCommunicating with Internal/External stakeholders on daily basis through different\norganizational tools.\nManaging deployment processes, project orders, and schedules.\nWork on meeting strict deadlines based on the project deliverables, with a focus on\nwork quality.\nDeveloping a firm understanding of the principles and best practices of inventory\nmanagement.\nResponsible for order processing including quality checking, releasing, and monitoring\nshipment status.\nWorking on different reporting tools such as customer dashboards, Smart sheets, and MS\nExcel\nUnderstanding of software and services renewals\nWorking in a team environment.\nUnderstanding Order Processing and the ability to follow/develop a documented SOP form.\nAny other task assigned by the Lead/Manager\n\ue775\n \nH -1137, St- 41, Sec G-10/4\nIslamabad, 44000\n \n\ue772\n \n28/10/1989\n \n\ue776\n \n+92 331 5231910\nfaleghchowhan@gmail.com\nSOCIAL MEDIA\n\u03e9\nhttp://linkedin.com/in/ersalan-falegh-ali-chowhan-13727835/\nERSALAN FALEGH ALI CHOWHAN\nTo make a sound position in corporate world, to build an innovative career in\nsuch a way, where experience,existing skills and knowledge can be leveraged,\nleading to personal and professional development.07.2021\n - \n10.2021\nMotive\nAccount Executive- Inbound\nDemo Motive software to prospective fleet managers and drivers.\nHigh volume inbound calling, prospecting new business and making followup calls.\nSurvey prospects to understand pain points within their business so that you can align those business needs with\nthe Motive solution.\nEducate fleet managers and drivers about Motive, understand their requirements, and help them get started with\nMotive.\nMaintain a consistent pipeline of qualified prospects and provide accurate forecasts for revenue.\nAchieve daily KPIs and monthly quota.\n10.2020\n - \n06.2021\nSquare Nine International, Islamabad\nInvestment Consultant\nPresent the projects appropriately to make a sale.\nMaintain and develop relationships with existing clients in person, via telephone or e-mail.\nArrange meetings with potential clients to prospect for new business.\nAct as a contact between a company and its existing and potential markets.\nNegotiate the terms of an agreement and close sales deals.\nAdvise on forthcoming product developments and discuss special promotions. \nAttending real estate exhibitions,\nconferences and meetings.\nAiming to achieve monthly or annual sales targets allocated by the team lead.\n07.2020\n - \n09.2020\nGlobal Max Group\nExecutive Business Development Manager\nOversee the sales process to attract new clients. \nWork with senior team members to identify and manage risks. \nMaintain fruitful relationships with clients and address their needs effectively. \nResearch and identify new market opportunities.\n10.2019\n - \n05.2020\nLEHR FUW\nBusiness Support Executive\nCoordinate and support communication / documentation for activities scaling the business.\nDevelop documents for business introductions, meetings, record keeping, business proposals, and other documents.\nPrepare Business presentations for stakeholders.\nWrite emails, call people, attend online / in-person meetings.\nPromote communication between team members to increase information flow and to solve any problem that arises.\nSupport span to more than one team, to grow beyond the responsibilities, to focus on support that touches new\nbusiness, implementation, and client service.\nDriving of Lehr Core values \u200b\u200bthrough a distinctive approach and team, to ensure that team are motivated, inspired,\nand dedicated.\n06/2018\n - \n11/2018\nFinance House PJSC, Dubai UAE\nPersonal Finance Officer\nIdentify potential customers for personal loan and credit card through databases, cold calling, follow up leads and\ntelephone / personal contacts etc.\n01/2017\n - \n05/2018\nDunia Finance LLC ,Dubai, UAE\nRelationship Officer\nIdentify potential customers for personal loan and credit card through databases, cold calling, follow up leads and\ntelephone / personal contacts etc.\n10/2013\n - \n08/2016\nUnited Bank Limited, Islamabad, Pakistan\nCustomer Services Officer\nAccount Opening, Audit Coordination, KYC Updation, Customer Due Diligence, Accounts Debit Blocks, Swift\nPayments, RTGS, IFTT, OFTT, Swift Payments, R Form external Payments, Lockers and all other branch related\noperational activities.\n"
+    },
+    "details": {
+        "name": "Ersalan FaLegh Ali Chowhan",
+        "number": "923315231910",
+        "skills": [
+            "Data Science",
+            "CISSP",
+            "MS Excel",
+            "Smart sheets",
+            "Customer dashboards"
+        ],
+        "email_id": "faleghchowhan@gmail.com",
+        "location": "Islamabad, 44000",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "present",
+                "university": "Al Nafi Pakistan",
+                "degree_title": "Data Science and CISSP"
+            },
+            {
+                "end_date": "present",
+                "university": "Institute of Management Account",
+                "degree_title": "CMA USA Part 1 (In Progress)"
+            },
+            {
+                "end_date": "01-2017",
+                "university": "Preston University, Islamabad",
+                "degree_title": "MBA Accounting and Finance (CGPA 3.5)"
+            },
+            {
+                "end_date": "01-2013",
+                "university": "NUML, Islamabad",
+                "degree_title": "BBA (Hons) - Finance (CGPA 3.53)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [
+            {
+                "url": "linkedin.com/in/ersalan-falegh-ali-chowhan-13727835",
+                "website_name": "LinkedIn"
+            }
+        ],
+        "executive_summary": "Ersalan FaLegh Ali Chowhan is a skilled Deployment Specialist with a strong background in Data Science and project management. He has demonstrated expertise in managing deployment processes and utilizing various reporting tools, showcasing his technical proficiency in the field.",
+        "employment_history": [
+            {
+                "details": "Understanding the workflow and management of multiple projects as a deployment specialist. Communicating with Internal/External stakeholders on daily basis through different organizational tools. Managing deployment processes, project orders, and schedules. Work on meeting strict deadlines based on the project deliverables, with a focus on work quality. Developing a firm understanding of the principles and best practices of inventory management. Responsible for order processing including quality checking, releasing, and monitoring shipment status. Working on different reporting tools such as customer dashboards, Smart sheets, and MS Excel. Understanding of software and services renewals. Working in a team environment. Understanding Order Processing and the ability to follow/develop a documented SOP form. Any other task assigned by the Lead/Manager.",
+                "end_date": "present",
+                "location": "Islamabad",
+                "job_title": "Deployment Specialist - Starbucks Corporation",
+                "start_date": "11-2021",
+                "company_name": "Zones LLC"
+            },
+            {
+                "details": "Demo Motive software to prospective fleet managers and drivers. High volume inbound calling, prospecting new business and making followup calls. Survey prospects to understand pain points within their business so that you can align those business needs with the Motive solution. Educate fleet managers and drivers about Motive, understand their requirements, and help them get started with Motive. Maintain a consistent pipeline of qualified prospects and provide accurate forecasts for revenue. Achieve daily KPIs and monthly quota.",
+                "end_date": "10-2021",
+                "location": "",
+                "job_title": "Account Executive- Inbound",
+                "start_date": "07-2021",
+                "company_name": "Motive"
+            },
+            {
+                "details": "Present the projects appropriately to make a sale. Maintain and develop relationships with existing clients in person, via telephone or e-mail. Arrange meetings with potential clients to prospect for new business. Act as a contact between a company and its existing and potential markets. Negotiate the terms of an agreement and close sales deals. Advise on forthcoming product developments and discuss special promotions. Attending real estate exhibitions, conferences and meetings. Aiming to achieve monthly or annual sales targets allocated by the team lead.",
+                "end_date": "06-2021",
+                "location": "Islamabad",
+                "job_title": "Investment Consultant",
+                "start_date": "10-2020",
+                "company_name": "Square Nine International"
+            },
+            {
+                "details": "Oversee the sales process to attract new clients. Work with senior team members to identify and manage risks. Maintain fruitful relationships with clients and address their needs effectively. Research and identify new market opportunities.",
+                "end_date": "09-2020",
+                "location": "",
+                "job_title": "Executive Business Development Manager",
+                "start_date": "07-2020",
+                "company_name": "Global Max Group"
+            },
+            {
+                "details": "Coordinate and support communication / documentation for activities scaling the business. Develop documents for business introductions, meetings, record keeping, business proposals, and other documents. Prepare Business presentations for stakeholders. Write emails, call people, attend online / in-person meetings. Promote communication between team members to increase information flow and to solve any problem that arises. Support span to more than one team, to grow beyond the responsibilities, to focus on support that touches new business, implementation, and client service. Driving of Lehr Core values through a distinctive approach and team, to ensure that team are motivated, inspired, and dedicated.",
+                "end_date": "05-2020",
+                "location": "",
+                "job_title": "Business Support Executive",
+                "start_date": "10-2019",
+                "company_name": "LEHR FUW"
+            },
+            {
+                "details": "Identify potential customers for personal loan and credit card through databases, cold calling, follow up leads and telephone / personal contacts etc.",
+                "end_date": "11-2018",
+                "location": "Dubai UAE",
+                "job_title": "Personal Finance Officer",
+                "start_date": "06-2018",
+                "company_name": "Finance House PJSC"
+            },
+            {
+                "details": "Identify potential customers for personal loan and credit card through databases, cold calling, follow up leads and telephone / personal contacts etc.",
+                "end_date": "05-2018",
+                "location": "Dubai, UAE",
+                "job_title": "Relationship Officer",
+                "start_date": "01-2017",
+                "company_name": "Dunia Finance LLC"
+            },
+            {
+                "details": "Account Opening, Audit Coordination, KYC Updation, Customer Due Diligence, Accounts Debit Blocks, Swift Payments, RTGS, IFTT, OFTT, Swift Payments, R Form external Payments, Lockers and all other branch related operational activities.",
+                "end_date": "08-2016",
+                "location": "Islamabad, Pakistan",
+                "job_title": "Customer Services Officer",
+                "start_date": "10-2013",
+                "company_name": "United Bank Limited"
+            }
+        ]
+    }
+}

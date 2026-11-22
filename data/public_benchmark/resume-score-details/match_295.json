@@ -1,0 +1,171 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [
+                {
+                    "criteria": "leadership",
+                    "score": 7
+                },
+                {
+                    "criteria": "experience",
+                    "score": 6
+                },
+                {
+                    "criteria": "strategic thinking",
+                    "score": 5
+                }
+            ],
+            "micro_scores": [
+                {
+                    "criteria": "sales management",
+                    "score": 8
+                },
+                {
+                    "criteria": "stakeholder management",
+                    "score": 6
+                },
+                {
+                    "criteria": "sap erp",
+                    "score": 3
+                },
+                {
+                    "criteria": "salesforce",
+                    "score": 2
+                }
+            ],
+            "requirements": [
+                {
+                    "criteria": "Experience with CRM and ERP systems such as SAP and Salesforce",
+                    "meets": false
+                },
+                {
+                    "criteria": "Bachelor's degree in Business Administration or related field",
+                    "meets": true
+                },
+                {
+                    "criteria": "Proficiency in data analysis and forecasting tools",
+                    "meets": false
+                },
+                {
+                    "criteria": "5+ years of experience in sales or key account management",
+                    "meets": true
+                }
+            ],
+            "aggregated_scores": {
+                "macro_scores": 6.0,
+                "micro_scores": 5.42
+            }
+        },
+        "personal_info": {
+            "name": "Ali Meer",
+            "email": "alimir523@gmail.com",
+            "phone": "00923025555924",
+            "current_position": "Sales, Marketing business development and Customer services",
+            "current_company": "LA MARQUISE INTERNATIONAL",
+            "employment_start_date_current_company": "01-2021",
+            "first_company_start_date": "03-2011",
+            "urls": [
+                {
+                    "website_name": "LinkedIn",
+                    "url": ""
+                }
+            ]
+        },
+        "valid_resume_and_jd": true
+    },
+    "input": {
+        "job_description": "### Key Account Manager at LuxoTech Solutions\n\n**Location:** Karachi, Pakistan\n\n**Department:** Sales and Marketing\n\n**Reports to:** Director of Sales\n\n**Role Overview:**\nJoin LuxoTech Solutions as a Key Account Manager where you will be responsible for managing major accounts in the Retail & Hospitality segments across Pakistan. You will drive sales growth by managing existing accounts and developing strategies for new accounts. Your role will involve coordinating with cross-functional teams, analyzing market trends, and leading initiatives to meet revenue targets.\n\n#### Responsibilities:\n- Manage a portfolio of 15+ key accounts, comprising both end-users and channel partners.\n- Drive expansion into new market segments by identifying and engaging with potential leads.\n- Develop and execute account management strategies to achieve 110% target attainment in revenue.\n- Utilize data analysis tools such as Power BI to assess market trends and generate insights.\n- Coordinate with internal teams including marketing and operations to ensure strategic alignment.\n- Lead contract negotiations and manage pricing strategies to optimize profitability.\n- Report on account performance and market opportunities to senior management regularly.\n\n#### Essential Skills:\n- Strong leadership and stakeholder management skills.\n- Proficiency in data analysis and forecasting to inform decision-making.\n- Experience with tools such as Salesforce, Vistex, and SAP ERP for managing sales functions.\n- Excellent communication skills for client interactions and internal collaborations.\n\n#### Qualifications:\n- Master's degree preferred; Bachelor's degree in Business Administration or related field is required.\n- 5+ years of experience in sales management or business development, with a focus on key account management.\n- Demonstrated success in growing accounts and achieving revenue targets.\n\n#### Benefits:\n- Competitive salary with performance bonuses.\n- Professional development opportunities and access to industry seminars.\n- Flexible working hours.",
+        "macro_dict": {
+            "leadership": 33,
+            "experience": 34,
+            "strategic thinking": 33
+        },
+        "micro_dict": {
+            "sales management": 20,
+            "stakeholder management": 51,
+            "sap erp": 18,
+            "salesforce": 11
+        },
+        "additional_info": "LuxoTech Solutions values diversity and seeks candidates from a variety of backgrounds and experiences. Preferred institutions include the Institute of Business Administration, Karachi, and FAST NUCES. The company supports hybrid work arrangements and offers relocation assistance for exceptional candidates. Skills are assessed through a combination of technical tests, case studies, and structured interviews with panel members from various departments.",
+        "minimum_requirements": [
+            "Experience with CRM and ERP systems such as SAP and Salesforce",
+            "Bachelor's degree in Business Administration or related field",
+            "Proficiency in data analysis and forecasting tools",
+            "5+ years of experience in sales or key account management"
+        ],
+        "resume": " \n \n \n \n \nEmployment visa \nPassport #DK099801  \nBirthday 24 -09-1992  Ali Meer  \nContact  \n \n \nDubai  UAE                   E-mail:  Alimir523@gmail.com   \n                                                 Alibutt523@yahoo.com  \nPhone 00923025555924  \n                                                                  00971551797281                                                    \n   OBJECTIVE  \nTo accept a challenging position in a competitive environment that will provide me an opportunity to apply and \nenhance my knowledge and skills. Seeking a position in Field industry of Sales FMCG,  Retail & Horeca, \nmarketing, operations, management supervisi ng, Aviation,  cabin crew , Customer services  and hospitality \ndepartment  where extensive experience will be further developed and utilized  \n  LA MARQUISE INTERNATIONAL                       Jan 2021 to Aug 2022  \nOne of the leading distributo r companies in Professional Equipment, F&B Products and Ingredients for Pastry, Bakery and Gelato in        \nthe UAE.  \nSales,  Marketing  business development and Customer services    \nAfter working in retail want to get some experience in HORECA. Working in La marquise international with di fferent international \nbrands of F&B products as well as  coffee  equipment and Gelateria  dealing with all types of hotels, groups, companies, restaurants, \ncaf\u00e9s, offices and lounges in the territory of DUBAI.  \nWorki ng on given territory and develop a  new  business to find new \nopportunities and customers  B2B, B2C and customer services  \nPrepare schedule for  samples & demos and follow up on it on phone call  \nDeveloping opportunities for existing clients in terms of increasing SKUs  \nFollow up with old customers and giving them new products and recipes of drinks and etc.  \nMeeting with buyers and procurement managers of hotels for brand presentation demos and getti ng business \nFocus  on increasing  the sales  and supervise  the sales  process  by follow  up on orders,  LPO\u2019s  and deliveries  sales \nreport Making daily and weekly plan and achieve the target as per daily  MTD  \n  Working  with key clients like TALABAT (DELIVERY HEROES) as well Dubai Expo 2020 pavilions Food supplier  \n \n  \n  Farm Fresh LLC UAE (GMG Group ) Distributor   Shan, McCain, Emborg, Aashirvad  \n  Jan 2020 to Dec 2020  \nEstablished in 1977 by the visionary Mr . Abdul Aziz Al Baker and backed by a massive group GMG, Farm Fresh is one of the \noldest food companies in UAE. It had expansion plans in branded food distribution business.  \n  Key Account executive  \nHandling Key Accounts, Strategic accounts Such as Carrefour , Lulu, Spinneys, T Choitrams, Al Maya, Safeer, Nesto , Spar(AUH \nCOOPS) & Aswaq Rak (national Markets of Rak) in Northern Emirates.  \nVISA STATUS  \nWORK EXPERIENCE  Work and Responsibilities  \nFocus  on increasing  the sales  and supervise  the sales  process  by follow  up on orders,  LPO\u2019s  and deliveries Implement \nand execute all sales objectives and action plans to reach and exceed targets and distribution set Ensure \nproper implementation of sales campaigns / promotional  activities  \nEnsure payment of receivables in a timely from allocated outlets  \nResponsible for products price increasing in chain of hypermarkets as per the instruction from the management \nResponsible to give extra proposals (PAF) from company to the markets to increase the business and distribution \nMake  sure  the availability  and visibility  of our all SKU\u2019s  in order  to avoid  out of stock  situation  in the outlets.  \nEnsuring availability of the product at the designated territory and monitoring its movement to avoid expiries \nIncrease the products market share on the particular categories.  \nBuild and maintain effective customer relationships in order to build strong loyalty.  \nProviding best services to the customer by giving deliveries on time and response their enquiry at the same time. \nResearching a nd recommending new opportunities and participating in their promotional events by providing \npromotions  \nProvide  market  feedback  to the Sales  Manager  regarding  movement  of Sku\u2019s Responsible for \nopening and renewal of rental  agreements  \nSending daily Sales Report and achievements by brand and customer to sales managers  \nALTADIS (The Imperial Tobacco) October 2019  January  2020   \nSales account executive proud to be work with the imperial tobacco after successful sale of Davidoff and west we \nintroduce a n ew way of smoking called e cigarette Blu which is highly 85% less toxic and having less nicotine then a \nregular smoke  \nResponsibilities and  Duties   \nDeal with retail outlets  \nIntroduce new products with customer  over phone calls, marketing and customer servic es  \nPrepare and plan daily sales target with given outlets \nMonitor and check the price of competitors  \nPlan and implement the sales  promotions  \nUpdate the relevant information from the market to the  manager \nIdentify and maximize sales  opportunities  \nAttend the customer complaints and forward to relevant managers \nDaily Report to manager  \n \n   Mai Dubai LLC September 2017 O c t o b e r  2019   \nSales Executive, Van sales (Merchandiser ) \nVery proud to be the part of this daring venture projected by DEWA to launch Mai Dubai bottled water  \nWork and Responsibilities  \nResponsible for sales and distribution in the assigned territory  \nMerchandising Display all SKUs with Pallanograme and rotating the stock to reduce \nexpiry (FIFO) Insuring brand Di stribution, Coverage and Visibility  \nMerchandising of Rental Pallets Shelves Spaces and coolers maintaining it 100% \nIntegrity. Negotiation for footage, gondolas, podiums, etc.  \nIntroduce new products with customers  \nSales target achievement and making daily, weekly, monthly sales and \nmerchandiser report Responsible for collection  \nKeeping  good relation with the customer  \nFollow up and feedback from the market (Competitors activities)  \n   Market Knowledge:  \nRetail chain like MAF Carrefour, EMKE LULU GROUP, T CHOITRAMS, SPINNEYS, RAK COOPS, ASWAQ RAK, RAMEZ \nGROUP, SAJIDHA GROUP, SAFEER GROUP, NESTO GROUP, KERALA, GULF HYPER AL HOOTH GROUP RAK AND  \nTRADITIONAL TRADE (Groceries and supermarkets in Rak and northern emirates)  \nTRANSMED (P&G) TRANSGUARD  EMIATES  GROUP   \nSales executive (Merchandiser)  \nWork  in Hypermarkets  and supermarkets  like Carrefour,  Lulu,  spinney\u2019s  and other  Markets  in All UAE  work  in Lulu \nHyper Rak Mall Ras al Kamiah UAE Handle All Products of Transmed  (P&G) Both Promotion Normal Beauty, \nBase &  Food  \n \nKey Responsibilities  \nEnsure the Transmed products are shelved with the right visibility of SOS (share of shelves) and Pallanograme \nSuccessfully implements and executes the Monthly Initiatives in store on Time as per the plans deployed by the \nManagers Ensure 100% Availability of all Brands and SKUs  \nSecure the receivables Checks from the store and Deposit in to office  \n \n \nPEPSICOLA ( Lahore Pakistan) March 2011 \u2014 FEBRUARY 2014 ) \nSales Man, Accountant, Key Punch Operator \n(ORACLE) Manage sales accounts o  \nOracle Based VPN Client DSS Software ensures all the \nsales of each outlet and updates it  \nDaily by daily Making Vouchers Free Sampling Of outlets Route vise  \nHandle the Cash from sale s man and Distributors Accounts Closing the month on time  \nSales Man  \nDeals Main Key Accounts Territory of Lahore Pakistan Daily Bases MTD \nTarget Achieving Ensure 100% Availability on Daily Planned Outlets \nEnsure All SKU Availability in Every Outlet Achieve Targets  \nControl and maintain the Cash and coordination\u2019s function of Logistics and Accounts  \nMaintain Pallanogramme on Pepsi Vise Coolers & Freezers  \nExcellent Relations with all Customers & Manag ement  \n \n \nPEPSICO FRITOLAY PAKISTAN  \nJANUARY 2008 MARCH 2011  \nMerchandiser, DSR, SALES MEN, KPO VAN SALESMAN  \nStarted Work as Merchandiser, then  promoted to Sales \nOrder Maker wholesale  / Retail / Key accounts  \nWorked  successfully  on special extrude  (kurkure, \nCheetos , cravys wavy) sales  project Prepare monthly & \nweekly  targets  \nEnsure targets for coverage, volume, distribution & merchandising Manage All Key Accounts Government Bakers \nButt Sweets & shezan bakers  \nMaintain Pallanogramme on all Key Accounts  \nLaunch new Product Of Lays (PepsiCo) Wavy in Lahore Pakistan. Worked in areas (Gulshan E Ravi Special work on \nLahore famous Bus Stands Niazi bus terminal City bus terminal)  \n \n \n \n \n \n \n \n                  Microsoft Office                          \n                  ORACLE  \nVPN CLIENT  \nCisco based accounts data entry  \n \n \n \nF.A (Arts)  \nB.A (Arts)   \nUniversity Of Punjab Pakistan  \nStudent Of ACCA   \n \nDriving Status  \n \nUAE Driving License Holder (Manual Automatic till2025) \nLTV License Holder from Govt. of Pakistan  \n \n        Knowledge and Skills  \n\u27a2 Barista and mixologist F&B  Division  \n\u27a2 Customer services   \n\u27a2 Good knowledge of UAE  Locations  \n\u27a2 Disciplined, Structured and Organized work in any field of hospitality administration customer care & \noperations  \n\u27a2 Problem solving  Skills  \n\u27a2 Capable to work across anywhere in Organization and externally by productive and excellent  working  \n\u27a2 Good knowledge of English & Arabic  written and  speaking  \n\u27a2 Excellent use of ORACLE VPN client based  Software  \n\u27a2 Excellent use  of Microsoft  Office,  Excel, and  PowerPoint,  Excellent  Communication  skills  \n\u27a2 Good Knowledge of IT (software &  Hardware)  \n \nHobbies  \n \nTravelling, Long Driving, Reading, modifying cars  \n \n\u201cLooking for an opportunity where I can grow up my future life\u201d  \n \n \n  \n \n \n \n \nIT QUALIFICATIONS  \nEDUCATION    "
+    },
+    "details": {
+        "name": "Ali Meer",
+        "number": "00923025555924",
+        "skills": [
+            "Microsoft Office",
+            "ORACLE",
+            "VPN CLIENT",
+            "Cisco based accounts data entry"
+        ],
+        "email_id": "Alimir523@gmail.com",
+        "location": "Dubai, UAE",
+        "projects": [],
+        "education": [
+            {
+                "end_date": "06-2010",
+                "university": "University Of Punjab Pakistan",
+                "degree_title": "B.A (Arts)"
+            },
+            {
+                "end_date": "06-2008",
+                "university": "University Of Punjab Pakistan",
+                "degree_title": "F.A (Arts)"
+            }
+        ],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "Ali Meer is a dedicated sales professional with extensive experience in the FMCG and retail sectors, specializing in business development and customer service. He has a proven track record of increasing sales and managing key accounts across various industries in the UAE.",
+        "employment_history": [
+            {
+                "details": "Sales, Marketing business development and Customer services. Worked with different international brands of F&B products as well as coffee equipment and Gelateria dealing with all types of hotels, groups, companies, restaurants, caf\u00e9s, offices and lounges in Dubai.",
+                "end_date": "08-2022",
+                "location": "Dubai, UAE",
+                "job_title": "Sales Executive",
+                "start_date": "01-2021",
+                "company_name": "LA MARQUISE INTERNATIONAL"
+            },
+            {
+                "details": "Handling Key Accounts, Strategic accounts such as Carrefour, Lulu, Spinneys, T Choitrams, Al Maya, Safeer, Nesto, Spar(AUH COOPS) & Aswaq Rak in Northern Emirates. Focus on increasing the sales and supervise the sales process by follow up on orders, LPO\u2019s and deliveries.",
+                "end_date": "12-2020",
+                "location": "UAE",
+                "job_title": "Key Account Executive",
+                "start_date": "01-2020",
+                "company_name": "Farm Fresh LLC UAE (GMG Group)"
+            },
+            {
+                "details": "Sales account executive responsible for introducing new products and managing retail outlets. Prepared and planned daily sales targets and monitored competitor pricing.",
+                "end_date": "01-2020",
+                "location": "UAE",
+                "job_title": "Sales Account Executive",
+                "start_date": "10-2019",
+                "company_name": "ALTADIS (The Imperial Tobacco)"
+            },
+            {
+                "details": "Responsible for sales and distribution in the assigned territory, ensuring brand distribution, coverage, and visibility. Managed sales targets and maintained good relations with customers.",
+                "end_date": "10-2019",
+                "location": "UAE",
+                "job_title": "Sales Executive, Van sales (Merchandiser)",
+                "start_date": "09-2017",
+                "company_name": "Mai Dubai LLC"
+            },
+            {
+                "details": "Worked in Hypermarkets and supermarkets ensuring product visibility and availability. Implemented monthly initiatives and secured receivables from stores.",
+                "end_date": "03-2014",
+                "location": "UAE",
+                "job_title": "Sales Executive (Merchandiser)",
+                "start_date": "01-2014",
+                "company_name": "TRANSMED (P&G)"
+            }
+        ]
+    }
+}

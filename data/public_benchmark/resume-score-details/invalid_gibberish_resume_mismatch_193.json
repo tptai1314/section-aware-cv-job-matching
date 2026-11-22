@@ -1,0 +1,47 @@
+{
+    "output": {
+        "justification": [],
+        "scores": {
+            "macro_scores": [],
+            "micro_scores": [],
+            "requirements": [],
+            "aggregated_scores": {}
+        },
+        "personal_info": {},
+        "valid_resume_and_jd": false
+    },
+    "input": {
+        "job_description": "### Join Apex Global Solutions as a Business Development Manager  \n\nApex Global Solutions is seeking a dedicated Business Development Manager to bolster our B2B sales efforts and enhance our market presence. This role requires a strategic thinker with the ability to forge and maintain robust client relationships, lead market analysis, and drive revenue growth through innovative sales strategies.\n\n#### Key Responsibilities  \n- Develop and implement strategic business development plans to meet organizational goals.\n- Identify and qualify new business opportunities and partnerships.\n- Lead market research to determine new market segments and customer needs.\n- Foster long-term relationships with clients through successful engagement and collaboration.\n- Track and report on key business metrics, providing insights and data-driven recommendations to executive leadership.\n- Collaborate with internal teams to ensure alignment and excellence in service delivery.\n\n#### Required Skills  \n- Exceptional communication and interpersonal abilities.\n- Proven experience in B2B sales and marketing, particularly in IT and manufacturing sectors.\n- Proficient in market research and data analysis.\n- Strong leadership and project management capabilities.\n\n#### Benefits  \n- Competitive salary with performance-based incentives.\n- Opportunities for professional growth and career advancement.\n- Health and wellness benefits package.\n- Collaborative and dynamic work environment.\n\nJoin us to spearhead business growth initiatives that deliver significant value and drive our mission forward.",
+        "macro_dict": {
+            "experience": 39,
+            "strategic thinking": 61
+        },
+        "micro_dict": {
+            "market research": 50,
+            "b2b sales": 18,
+            "communication skills": 21,
+            "data analysis": 5,
+            "it and manufacturing sector knowledge": 6
+        },
+        "additional_info": "Preferred candidates are from top-tier institutes such as COMSATS University Lahore and Superior University Lahore. Apex Global Solutions supports relocation for the right candidate and offers remote working options. Our hiring process includes a detailed assessment of sales strategies, technical skills through practical scenarios, and behavioral interviews to evaluate cultural fit.",
+        "minimum_requirements": [
+            "Strong proficiency in Microsoft Office Suite"
+        ],
+        "resume": "Sure! Here's a random story for you:\n\nIn the quaint village of Willowbrook, nestled between rolling hills and shimmering lakes, an annual event called the \"Festival of Quirks\" enchanted both young and old. Every year, the townspeople celebrated their quirks and idiosyncrasies with great gusto. This year, the highlight of the festival was a peculiar competition called \"Floral Fizz.\"\n\nThe competition required participants to create a sparkling beverage using only flowers and natural ingredients found in the village. Twelve contestants, ranging from the eccentric Professor Glimmer, who claimed to communicate with plants, to young Lily, who dreamt of one day becoming the finest botanist, entered the contest.\n\nThe atmosphere was electric as contestants scrambled around the vast village gardens, armed with baskets and determination. Professor Glimmer, sporting his oversized glasses and a flower-topped hat, moved with the grace of someone at one with nature. Meanwhile, Lily, with her ginger curls bouncing, meticulously selected vibrant marigolds and fragrant lavender sprigs.\n\nAs the day wore on, the air filled with floral fragrances and the soft hum of laughter and chatter. At twilight, the contestants returned to the village square with their concoctions, each more vibrant than the last. The judges\u2014a panel consisting of the wise Mayor Petunia, the jovial baker Mr. Crumble, and the ever-curious schoolteacher Miss Whimsy\u2014took their time savoring each drink.\n\nIn the end, it was young Lily's concoction that triumphed. Her \"Lavender Lullaby\" captivated the judges with its delicate taste and enchanting aroma. Cheers erupted, and Professor Glimmer, with a twinkle in his eye, congratulated Lily, declaring her the \"Botanical Whisperer.\"\n\nAs the festival drew to a close under a canopy of stars, the villagers of Willowbrook danced and toasted to their quirks, ensuring that no matter how peculiar the coming year might be, it would be greeted with open arms and joyous hearts.\n\nAnd that's the story of the Festival of Quirks and the Floral Fizz competition\u2014where a dash of whimsy and a pinch of nature's magic brought a village together in the most delightful way."
+    },
+    "details": {
+        "name": "",
+        "number": "",
+        "skills": [],
+        "email_id": "",
+        "location": "",
+        "projects": [],
+        "education": [],
+        "achievements": [],
+        "publications": [],
+        "certifications": [],
+        "additional_urls": [],
+        "executive_summary": "",
+        "employment_history": []
+    }
+}

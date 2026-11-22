@@ -99,15 +99,15 @@ def test_resplit_document_preserves_identity_fields():
         ],
     ),
     (
-        "TÓM TẮT\nKỹ sư dữ liệu với 3 năm kinh nghiệm.\n\n"
-        "KỸ NĂNG\npython, sql\n\n"
-        "KINH NGHIỆM LÀM VIỆC\n- 2019-2021: Dev tại Viettel\n\n"
-        "TRÌNH ĐỘ HỌC VẤN\n- Cử nhân khoa học máy tính",
+        "PROFESSIONAL SUMMARY\nData engineer with 3 years of experience.\n\n"
+        "SKILLS\npython, sql\n\n"
+        "WORK EXPERIENCE\n- 2019-2021: Dev at TechCorp\n\n"
+        "EDUCATION\n- Bachelor of Computer Science",
         [
-            ("summary", "Kỹ sư dữ liệu với 3 năm kinh nghiệm.", "TÓM TẮT"),
-            ("skills", "python, sql", "KỸ NĂNG"),
-            ("experience", "- 2019-2021: Dev tại Viettel", "KINH NGHIỆM LÀM VIỆC"),
-            ("education", "- Cử nhân khoa học máy tính", "TRÌNH ĐỘ HỌC VẤN"),
+            ("summary", "Data engineer with 3 years of experience.", "PROFESSIONAL SUMMARY"),
+            ("skills", "python, sql", "SKILLS"),
+            ("experience", "- 2019-2021: Dev at TechCorp", "WORK EXPERIENCE"),
+            ("education", "- Bachelor of Computer Science", "EDUCATION"),
         ],
     ),
 ])
