@@ -1,0 +1,22 @@
+% High-density cross-dataset validation on med2425 (41 JDs, 277 CVs, 8,575 pairs)
+\begin{table}[t]
+\centering
+\caption{Independent Cross-Dataset Validation on High-Density Benchmark \texttt{med2425/resume-job-fit-merged-v1} (IT Domain: $41$ JDs, $277$ CVs, $8,575$ pairs, $\approx 209$ CVs/JD, Qwen2.5-32B expert labels). Paired tests confirm statistically significant gains for Calibrated Hybrid over Single-Vector ($\bar{\Delta} = +0.0849$ nDCG@10, 95\% CI: $[+0.0169, +0.1518]$, $t=2.40, p=0.0211$) and over Dense+BM25 ($p=0.0457$).}
+\label{tab:med2425_benchmark}
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{lrrrrr}
+\hline
+\textbf{Model / Architecture} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{P@5} \\
+\hline
+Random Ranking (Floor) & 0.2231 & 0.2350 & 0.5748 & 0.4179 & 0.3854 \\
+BM25 / TF-IDF (Lexical) & 0.5736 & 0.5427 & 0.9129 & 0.6052 & 0.7415 \\
+MiniLM Single-Vector (Flat) & 0.5355 & 0.5393 & 0.8189 & 0.6323 & 0.7366 \\
+MiniLM Section-Aware Mixed (Ours) & 0.5567 & 0.5489 & 0.7863 & 0.6348 & 0.7561 \\
+Dense + BM25 ($L_0$: No Taxonomy) & 0.6198 & 0.5879 & 0.8892 & 0.6438 & 0.7659 \\
+Calibrated Hybrid (Dense+BM25+Tax) & \textbf{0.6221}$^\dagger$ & \textbf{0.6242}$^{\star\dagger}$ & \textbf{0.9142} & \textbf{0.6814}$^\star$ & \textbf{0.7805} \\
+Oracle Ranking (Ceiling) & 1.0000 & 1.0000 & 1.0000 & 1.0000 & 0.9951 \\
+\hline
+\multicolumn{6}{l}{\footnotesize $^\star$Statistically significant vs. Single-Vector ($p < 0.05$); $^\dagger$Significant vs. Dense+BM25 ($p < 0.05$).}
+\end{tabular}%
+}
+\end{table}

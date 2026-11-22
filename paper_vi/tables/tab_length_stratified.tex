@@ -1,0 +1,20 @@
+% Bảng phân tích phân tầng theo độ dài CV (Length-Stratified Analysis)
+\begin{table*}[t]
+\centering
+\caption{Phân tích Hiệu năng Xếp hạng Phân tầng theo Độ dài Hồ sơ (Length-Stratified Analysis trên Setting B): Đánh giá khả năng khắc phục hiện tượng cắt cụt văn bản (Truncation) của biểu diễn đa vector phân mục. Khi độ dài CV vượt ngưỡng cửa sổ $256$ tokens, khoảng cách chiến thắng của Section-Aware so với Single-Vector tăng đơn điệu ($\Delta\text{nDCG@10}: -0.0112 \rightarrow +0.0126 \rightarrow +0.0239$).}
+\label{tab:length_stratified}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrcccccc}
+\hline
+\textbf{Phân tầng Độ dài CV} & \textbf{Số JD} & \textbf{Số cặp} & \textbf{Single-Vector Phẳng} & \textbf{Section-Aware} & \textbf{$\Delta$ Section vs. Flat} & \textbf{Calibrated Hybrid} & \textbf{$\Delta$ Hybrid vs. Flat} & \textbf{Tỷ lệ bị cắt cụt} \\
+ & ($N_q$) & ($N_{\text{pairs}}$) & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{ở Flat 256-tok} \\
+\hline
+CV Ngắn / Trung bình ($\le 350$ từ) & 31 & 189 & 0.8230 / 0.7499 & 0.8118 / 0.7400 & $-0.0112$ / $-0.0099$ & \textbf{0.8263} / \textbf{0.7616} & $+0.0033$ / $+0.0117$ & $18.5\%$ \\
+CV Dài ($> 350$ từ) & 60 & 1,472 & 0.7158 / 0.7317 & 0.7285 / 0.7504 & $+0.0126$ / $+0.0187$ & \textbf{0.7342} / \textbf{0.7593} & $\mathbf{+0.0184}$ / $\mathbf{+0.0276}$ & $100.0\%$ \\
+CV Rất dài ($> 600$ từ) & 47 & 896 & 0.7490 / 0.7688 & \textbf{0.7729} / \textbf{0.7769} & $\mathbf{+0.0239}$ / $\mathbf{+0.0081}$ & 0.7504 / 0.7687 & $+0.0015$ / $-0.0002$ & $100.0\%$ \\
+\hline
+Toàn bộ Hồ sơ (Gộp chung Setting B) & 61 & 1,703 & 0.7153 / 0.7228 & \textbf{0.7182} / 0.7365 & $+0.0029$ / $+0.0137$ & 0.7173 / \textbf{0.7410} & $+0.0020$ / $\mathbf{+0.0182}$ & $91.4\%$ \\
+\hline
+\end{tabular}%
+}
+\end{table*}

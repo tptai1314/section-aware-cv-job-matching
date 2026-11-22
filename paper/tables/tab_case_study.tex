@@ -1,0 +1,24 @@
+% Qualitative structural explainability case study on Test Query #63
+\begin{table*}[t]
+\centering
+\caption{Qualitative Structural Explainability Case Study on Test Query \#63 (\textit{Software Developer: Ansible, Jenkins, CI/CD, Oracle, Automation Testing, Git, Agile/Scrum}). Single-Vector Flat erroneously ranks an unfit candidate (\texttt{CV \#290}, Grade~0) at Rank~\#1 due to high summary similarity ($0.531$), while truncating the $680$-word qualified candidate (\texttt{CV \#293}, Grade~2). Calibrated Hybrid decomposes section scores and resolves \texttt{Jenkins} $\xrightarrow{\text{rel}=0.70}$ \texttt{CI/CD} via ontology relations, promoting \texttt{CV \#293} to Rank~\#1.}
+\label{tab:case_study}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lll}
+\hline
+\textbf{Diagnostic Dimension} & \textbf{Candidate A: \texttt{CV \#290} (Ground Truth: Grade 0 -- \textit{No Fit})} & \textbf{Candidate B: \texttt{CV \#293} (Ground Truth: Grade 2 -- \textit{Good Fit})} \\
+\hline
+\textbf{Document Length \& Truncation} & $535$ words ($>50\%$ truncated under $256$-token Flat encoder) & $680$ words ($>60\%$ truncated under $256$-token Flat encoder) \\
+\textbf{Single-Vector Flat Score \& Rank} & \textbf{Score: 0.610 $\rightarrow$ Rank \#1 (False Positive Error)} & Score: 0.588 $\rightarrow$ Rank \#3 (Truncated Late Experience) \\
+\textbf{Calibrated Hybrid Score \& Rank} & Score: 0.475 $\rightarrow$ \textbf{Demoted to Rank \#12} & \textbf{Score: 0.811 $\rightarrow$ Promoted to Rank \#1 (Correct)} \\
+\hline
+\textbf{Section-Level Cosine Breakdown} & \texttt{skills}: $0.324$ (Low) $|$ \texttt{experience}: $0.482$ & \texttt{skills}: $\mathbf{0.521}$ (High) $|$ \texttt{experience}: $0.418$ \\
+\textit{(Weights: $0.40 / 0.35 / 0.15 / 0.10$)} & \texttt{education}: $0.183$ $|$ \texttt{summary}: $\mathbf{0.531}$ (Inflated Preamble) & \texttt{education}: \textit{omitted (renormalized)} $|$ \texttt{summary}: $0.394$ \\
+\hline
+\textbf{Exact Mandatory Skills ($L_1$)} & Matched $2/8$: \texttt{Database}, \texttt{REST API} & Matched $6/8$: \texttt{Git}, \texttt{Jenkins}, \texttt{Oracle}, \texttt{Database}, \texttt{Agile/Scrum}, \texttt{Automation Testing} \\
+\textbf{Ontology Relational Match ($L_2$)} & None ($0.00$) & \textbf{\texttt{Jenkins} $\xrightarrow{\texttt{ecosystem\_companion}\ (0.70)}$ \texttt{CI/CD}} \\
+\textbf{Missing Mandatory Skills} & Missing $6/8$: \texttt{Ansible}, \texttt{Jenkins}, \texttt{CI/CD}, \texttt{Oracle}, \texttt{Git}, \texttt{Automation} & Missing $1/8$: \texttt{Ansible} (Partial coverage $S_{\text{tax}} = \mathbf{0.700}$ vs. $0.273$) \\
+\hline
+\end{tabular}%
+}
+\end{table*}

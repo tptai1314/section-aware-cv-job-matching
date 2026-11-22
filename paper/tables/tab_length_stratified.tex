@@ -1,0 +1,20 @@
+% Length-stratified analysis table demonstrating truncation mitigation on long resumes
+\begin{table*}[t]
+\centering
+\caption{Length-Stratified Ranking Performance on Filtered Queries (Setting B): Evaluating Context Truncation Mitigation across Resume Word-Length Strata on \texttt{cnamuangtoun/resume-job-description-fit}. As resume length exceeds the $256$-token bi-encoder window, Section-Aware Dense exhibits a monotonically increasing advantage over Flat Single-Vector ($\Delta\text{nDCG@10}: -0.0112 \rightarrow +0.0126 \rightarrow +0.0239$).}
+\label{tab:length_stratified}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrcccccc}
+\hline
+\textbf{Resume Length Stratum} & \textbf{Queries} & \textbf{Pairs} & \textbf{Flat 256-tok} & \textbf{Section-Aware} & \textbf{$\Delta$ Section vs. Flat} & \textbf{Calibrated Hybrid} & \textbf{$\Delta$ Hybrid vs. Flat} & \textbf{Flat Truncation} \\
+ & ($N_q$) & ($N_{\text{pairs}}$) & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{Rate (\%)} \\
+\hline
+Short / Medium ($\le 350$ words) & 31 & 189 & 0.8230 / 0.7499 & 0.8118 / 0.7400 & $-0.0112$ / $-0.0099$ & \textbf{0.8263} / \textbf{0.7616} & $+0.0033$ / $+0.0117$ & $18.5\%$ \\
+Long Resumes ($> 350$ words) & 60 & 1,472 & 0.7158 / 0.7317 & 0.7285 / 0.7504 & $+0.0126$ / $+0.0187$ & \textbf{0.7342} / \textbf{0.7593} & $\mathbf{+0.0184}$ / $\mathbf{+0.0276}$ & $100.0\%$ \\
+Very Long Resumes ($> 600$ words) & 47 & 896 & 0.7490 / 0.7688 & \textbf{0.7729} / \textbf{0.7769} & $\mathbf{+0.0239}$ / $\mathbf{+0.0081}$ & 0.7504 / 0.7687 & $+0.0015$ / $-0.0002$ & $100.0\%$ \\
+\hline
+All Candidates (Pooled Setting B) & 61 & 1,703 & 0.7153 / 0.7228 & \textbf{0.7182} / 0.7365 & $+0.0029$ / $+0.0137$ & 0.7173 / \textbf{0.7410} & $+0.0020$ / $\mathbf{+0.0182}$ & $91.4\%$ \\
+\hline
+\end{tabular}%
+}
+\end{table*}

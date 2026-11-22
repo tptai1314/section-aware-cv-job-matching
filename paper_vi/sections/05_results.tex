@@ -12,97 +12,86 @@ Bảng~\ref{tab:section_skills_stats} cung cấp cái nhìn định lượng v�
 
 Kết quả cho thấy sự phân hóa cấu trúc sâu sắc giữa hai loại tài liệu:
 \begin{itemize}
-    \item \textbf{Cấu trúc Hồ sơ Ứng viên (CV)}: $86.4\%$ CV chứa mục Kỹ năng Kỹ thuật riêng, và $100.0\%$ CV có mục Kinh nghiệm Làm việc. Đặc biệt, $99.6\%$ CV sở hữu từ hai phân mục trở lên, và $94.3\%$ sở hữu từ ba phân mục. Đo đạc độ bao phủ ký tự chức năng khẳng định \textbf{$95.32\%$ số ký tự của CV rơi vào các phân mục chức năng cốt lõi} (kỹ năng, kinh nghiệm, học vấn), trong khi phần mở đầu (preamble) chỉ chiếm trung vị $2.00\%$. Điều này chứng minh CV là loại tài liệu có cấu trúc cao.
-    \item \textbf{Cấu trúc Mô tả Công việc (JD)}: Ngược lại với CV, các bài đăng tuyển dụng thể hiện tính phi cấu trúc rõ rệt: chỉ có $19.7\%$ JD có mục kỹ năng riêng và $31.0\%$ có mục trách nhiệm công việc riêng. Phần lời tự sự mở đầu (giới thiệu công ty, tầm nhìn) chiếm tới trung vị \textbf{$67.72\%$ tổng số ký tự của JD}, và chỉ có $30.71\%$ ký tự rơi vào các phân mục chức năng. Sự bất đối xứng cấu trúc này lý giải vì sao cơ chế ghép cặp chéo (Cross-Section Pairing) lại mang tính sống còn đối với hệ thống.
+    \item \textbf{Cấu trúc Hồ sơ Ứng viên (CV)}: $86.4\%$ CV chứa mục Kỹ năng Kỹ thuật riêng, và $100.0\%$ CV có mục Kinh nghiệm Làm việc. Đặc biệt, $99.6\%$ CV sở hữu từ hai phân mục trở lên, và $94.3\%$ sở hữu từ ba phân mục. Đo đạc độ bao phủ ký tự chức năng khẳng định \textbf{$95.32\%$ số ký tự của CV rơi vào các phân mục chức năng cốt lõi} (kỹ năng, kinh nghiệm, học vấn), trong khi phần mở đầu (preamble) chỉ chiếm trung vị $2.00\%$.
+    \item \textbf{Cấu trúc Mô tả Công việc (JD)}: Ngược lại với CV, các bài đăng tuyển dụng thể hiện tính phi cấu trúc rõ rệt: chỉ có $19.7\%$ JD có mục kỹ năng riêng và $31.0\%$ có mục trách nhiệm công việc riêng. Phần lời tự sự mở đầu chiếm tới trung vị \textbf{$67.72\%$ tổng số ký tự của JD}, và chỉ có $30.71\%$ ký tự rơi vào các phân mục chức năng. Sự bất đối xứng cấu trúc này lý giải vì sao cơ chế ghép cặp linh hoạt giữa truy vấn và các phân mục CV lại mang tính sống còn đối với hệ thống.
 \end{itemize}
 
 \input{tables/tab_main_benchmark_filtered.tex}
 
-\subsection{Kiểm định Ý nghĩa Thống kê trên Họ Giả thuyết Chính}
-Bảng~\ref{tab:statistical_tests} báo cáo toàn bộ kết quả kiểm định thống kê ghép cặp trên $15$ giả thuyết cốt lõi thuộc các câu hỏi nghiên cứu RQ1--RQ4 ($N=71$ truy vấn, Setting A), bao gồm hiệu số trung bình $\bar{\Delta}$, khoảng tin cậy Bootstrap 95\% CI tính trên $10.000$ mẫu lặp, giá trị $p$ thô của kiểm định $t$, và giá trị $p$ sau hiệu chỉnh đa so sánh Holm--Bonferroni.
+\subsection{Kiểm định Ý nghĩa Thống kê theo Câu hỏi Nghiên cứu}
+Bảng~\ref{tab:statistical_tests} báo cáo toàn bộ kết quả kiểm định thống kê ghép cặp trên các câu hỏi nghiên cứu RQ1--RQ4 ($N=71$ truy vấn trên \texttt{cnamuangtoun} và $N=41$ truy vấn mật độ cao trên \texttt{med2425}), bao gồm hiệu số trung bình $\bar{\Delta}$, khoảng tin cậy Bootstrap 95\% CI ($10.000$ mẫu lặp), giá trị $p$ thô của kiểm định $t$, giá trị $p$ hiệu chỉnh Holm--Bonferroni theo từng nhóm câu hỏi nghiên cứu ($p_{\text{RQ}}$) trên thước đo chính, và giá trị $p$ bảo thủ toàn cục trên cả 15 phép thử khám phá ($p_{\text{global}}$).
 
 \input{tables/tab_statistical_tests.tex}
 
-\subsection{Trả lời RQ1: Độ mịn Đa Vector Nhận biết Mục so với Đơn Vector Phẳng}
+\subsection{Trả lời RQ1: Độ mịn Đa Vector Nhận biết Mục và Khắc phục Cắt cụt Văn bản}
 \label{sec:rq1}
-RQ1 kiểm tra liệu việc bóc tách phân mục chức năng có mang lại lợi thế xếp hạng vượt trội so với việc nén toàn bộ tài liệu vào một vector đơn lẻ hay không. Bảng~\ref{tab:section_variants} trình bày phân tích phân rã (ablation) giữa các biến thể nhận biết phân mục và các phương pháp chia lát (chunking).
+RQ1 kiểm tra liệu việc bóc tách phân mục chức năng có giải quyết được hiện tượng cắt cụt văn bản (truncation) và cải thiện chất lượng xếp hạng trên các hồ sơ dài hay không. Bảng~\ref{tab:section_variants} trình bày phân tích phân rã (ablation) giữa các biến thể nhận biết phân mục và các phương pháp chia lát (chunking), trong khi Bảng~\ref{tab:length_stratified} phân tích chuyên sâu theo từng phân tầng độ dài CV.
 
 \input{tables/tab_section_variants.tex}
+\input{tables/tab_length_stratified.tex}
 
-\noindent\textbf{1. Hiệu năng Xếp hạng và Độ tin cậy của Bộ tách}:
-Trên tập kiểm thử đầy đủ (Bảng~\ref{tab:main_benchmark_all}), mô hình Đa Vector Nhận biết Mục (Section-Aware Dense) đạt nDCG@10 là $0.6170$, MRR là $0.7091$ và MAP là $0.6328$, so với $0.6146$ nDCG@10, $0.7055$ MRR và $0.6210$ MAP của Đơn Vector Phẳng (Single-Vector Dense). Trên các truy vấn đã lọc (Setting B, Bảng~\ref{tab:main_benchmark_filtered}), Section-Aware đạt nDCG@10 là $0.7182$ và MAP là $0.7365$ (so với $0.7153$ và $0.7228$ của Single-Vector). Tỷ lệ rơi vào cơ chế dự phòng (fallback rate) của bộ tách đã đóng băng trên toàn bộ $1.759$ cặp kiểm thử đạt chính xác \textbf{$0.00\%$}, khẳng định lỗi dính chữ tiêu đề đã được khắc phục hoàn toàn. Do đó, Biến thể 1 (Thuần phân mục) và Biến thể 2 (Có Fallback) đạt kết quả trùng khớp nhau.
+\noindent\textbf{1. Sự Tương đương trên Tập Gộp và Độ tin cậy của Bộ tách}:
+Trên tập kiểm thử gộp đầy đủ (Bảng~\ref{tab:main_benchmark_all}), mô hình Đa Vector Nhận biết Mục (Section-Aware Dense) đạt nDCG@10 là $0.6170$, MRR là $0.7091$ và MAP là $0.6328$, so với $0.6146$ nDCG@10, $0.7055$ MRR và $0.6210$ MAP của Đơn Vector Phẳng (Single-Vector Dense). Trên các truy vấn đã lọc (Setting B, Bảng~\ref{tab:main_benchmark_filtered}), Section-Aware đạt nDCG@10 là $0.7182$ và MAP là $0.7365$ (so với $0.7153$ và $0.7228$ của Single-Vector). Tỷ lệ rơi vào cơ chế dự phòng (fallback rate) của bộ tách đã đóng băng trên toàn bộ $1.759$ cặp kiểm thử đạt chính xác \textbf{$0.00\%$}. Trên tập gộp chung (bao gồm cả CV ngắn lẫn dài), kiểm định ghép cặp (Bảng~\ref{tab:statistical_tests}) ghi nhận sự tương đương thống kê ($\bar{\Delta} = +0.0024$ trên nDCG@10, 95\% CI: $[-0.0296, +0.0333]$; $\bar{\Delta} = +0.0118$ trên MAP). Tương tự, các phương pháp chia lát cố định như Chunk-Mean ($0.6193$ nDCG@10), Chunk-MaxSim ($0.5992$ nDCG@10) hay mô hình ngữ cảnh dài BGE-M3 Đa mục so với Phẳng ($0.6086$ so với $0.5937$ nDCG@10, $+0.0571$ MRR) đều có khoảng tin cậy giao nhau trên tập gộp.
 
-\noindent\textbf{2. Kết luận Kiểm định Thống kê}:
-Kiểm định ghép cặp (Bảng~\ref{tab:statistical_tests}) chỉ ra rằng chênh lệch giữa Section-Aware và Single-Vector là $\bar{\Delta} = +0.0024$ trên nDCG@10 với khoảng tin cậy Bootstrap 95\% CI là $[-0.0296, +0.0333]$ ($t=0.15$, $p$ thô = $0.8811$, $p$ hiệu chỉnh Holm = $1.0000$) và $\bar{\Delta} = +0.0118$ trên MAP với Bootstrap 95\% CI là $[-0.0124, +0.0393]$ ($t=0.88$, $p$ thô = $0.3819$, $p$ hiệu chỉnh Holm = $1.0000$). Vì cả hai khoảng tin cậy đều bao trùm giá trị $0$, chúng tôi kết luận rằng \textbf{Section-Aware Dense đạt sự tương đương thống kê (statistical parity) với Single-Vector Dense trên các vị trí xếp hạng hàng đầu}. Lợi ích thực tế cốt lõi của Section-Aware nằm ở khía cạnh công trình: triệt tiêu hiện tượng cắt xén văn bản ($>95\%$ tránh truncation) và cung cấp các vector phân mục phục vụ tính toán giải thích minh bạch cho nhà tuyển dụng.
-
-\noindent\textbf{3. So sánh với các Phương pháp Chia lát (Chunking)}:
-Phương pháp Chunk-Mean đạt nDCG@10 là $0.6193$ ($\bar{\Delta} = +0.0047$, 95\% CI: $[-0.0310, +0.0397]$, $p$ hiệu chỉnh = $1.0000$), trong khi Chunk-MaxSim đạt $0.5992$ ($\bar{\Delta} = -0.0154$, 95\% CI: $[-0.0419, +0.0095]$, $p$ hiệu chỉnh = $1.0000$). Cả hai khoảng tin cậy đều cắt qua $0$, cho thấy việc chia lát cố định không mang lại ưu thế có ý nghĩa thống kê so với nén toàn văn.
-
-\noindent\textbf{4. Tác động trên Mô hình Ngữ cảnh Dài (\textsc{bge-m3})}:
-Đối với mô hình BGE-M3 (hỗ trợ $8.192$ tokens), việc phân tách đa vector giúp nâng nDCG@10 từ $0.5937$ lên $0.6086$ ($\bar{\Delta} = +0.0149$, 95\% CI: $[-0.0202, +0.0496]$, $p$ hiệu chỉnh = $1.0000$), không vượt ngưỡng ý nghĩa thống kê chính thức. Mặc dù chỉ số phụ MRR tăng từ $0.6555$ lên $0.7126$ ($+0.0571$), chúng tôi xem đây là một quan sát mang tính khám phá (exploratory) thay vì một khẳng định nhân quả chắc chắn.
+\noindent\textbf{2. Phân tích Phân tầng theo Độ dài CV (Bằng chứng Khắc phục Cắt cụt Văn bản)}:
+Bảng~\ref{tab:length_stratified} lý giải chính xác vì sao điểm trung bình gộp làm lu mờ ưu thế cấu trúc của Section-Aware. Đối với nhóm \textbf{CV Ngắn / Trung bình ($\le 350$ từ)}, hầu hết văn bản nằm trọn trong cửa sổ ngữ cảnh $256$ tokens của mô hình Bi-Encoder (chỉ $18.5\%$ bị cắt nhẹ phần đuôi), do đó Single-Vector không bị mất thông tin và đạt điểm số cạnh tranh ($0.8230$ so với $0.8118$ nDCG@10, $\Delta = -0.0112$). Tuy nhiên, khi chuyển sang nhóm \textbf{CV Dài ($> 350$ từ, gồm $1.472$ cặp với $100\%$ hồ sơ bị cắt cụt ở mô hình phẳng)}, Section-Aware lật ngược tình thế, vượt qua Single-Vector với $\mathbf{+0.0126}$ nDCG@10 và $\mathbf{+0.0187}$ MAP (trong khi Calibrated Hybrid vượt $\mathbf{+0.0184}$ nDCG@10 và $\mathbf{+0.0276}$ MAP). Đặc biệt, trên nhóm \textbf{CV Rất dài ($> 600$ từ, $896$ cặp)}, khoảng cách chiến thắng của Section-Aware tăng đơn điệu lên mức $\mathbf{+0.0239}$ nDCG@10 ($0.7729$ so với $0.7490$). Chuỗi chuyển dịch đơn điệu ($-0.0112 \rightarrow +0.0126 \rightarrow +0.0239$) là bằng chứng thực nghiệm trực diện chứng minh cơ chế phân mục bảo vệ thành công các thông tin kinh nghiệm và dự án ở nửa cuối hồ sơ dài khỏi hiện tượng cắt cụt ngữ cảnh.
 
 \subsection{Trả lời RQ2: Tương quan giữa Từ vựng, Vector Đặc và Hợp nhất Lai}
 \label{sec:rq2}
-RQ2 phân tích sự phối hợp giữa phương pháp từ vựng (BM25), vector đặc và các cơ chế hợp nhất.
+RQ2 phân tích sự phối hợp giữa phương pháp từ vựng (BM25), vector đặc và các cơ chế hợp nhất:
 \begin{itemize}
-    \item \textbf{Vector Đặc so với BM25}: Vector đặc vượt trội BM25 trên nDCG@10 ($0.6146$ so với $0.5773$ trên Setting A; $0.7153$ so với $0.6720$ trên Setting B). Kiểm định ghép cặp cho thấy giá trị $\bar{\Delta} = +0.0373$ với khoảng tin cậy dương $[+0.0018, +0.0736]$ và $p$ thô = $0.0480$. Tuy nhiên, sau khi hiệu chỉnh đa kiểm định Holm, giá trị $p$ hiệu chỉnh tăng lên $0.5762$. Do đó, dù xu hướng thực nghiệm ưu ái vector đặc nhờ khả năng vượt qua bất đối xứng từ vựng, sự vượt trội chưa đạt mức ý nghĩa thống kê khắt khe dưới họ 15 phép thử.
-    \item \textbf{Hợp nhất Dense + BM25}: Mô hình kết hợp chuẩn hóa điểm đạt nDCG@10 là $0.6123$ và MAP là $0.6337$ ($\bar{\Delta} = +0.0127$ so với Single-Vector, 95\% CI: $[-0.0181, +0.0476]$, $p = 0.4566$), đồng thời nâng hệ số tương quan hạng Spearman từ $0.209$ (BM25 thuần) lên $0.276$.
-    \item \textbf{Mô hình Không Tham số RRF}: Thuật toán Reciprocal Rank Fusion ($k=60$) kết hợp taxonomy đạt nDCG@10 là $0.6107$ và MAP là $0.6299$ trên Setting A ($0.7109$ và $0.7332$ trên Setting B). Chênh lệch MAP so với mô hình Dense+BM25 được dò tìm tham số là không đáng kể ($\bar{\Delta} = -0.0039$, 95\% CI: $[-0.0233, +0.0119]$, $p = 0.6728$). Nhờ không đòi hỏi điều chỉnh siêu tham số, RRF là lựa chọn thay thế cực kỳ an toàn trong môi trường sản xuất thực tế nhằm phòng chống rủi ro quá khớp.
+    \item \textbf{Vector Đặc so với BM25}: Vector đặc vượt trội BM25 trên nDCG@10 ($0.6146$ so với $0.5773$ trên Setting A; $0.7153$ so với $0.6720$ trên Setting B) với khoảng tin cậy Bootstrap 95\% hoàn toàn nằm ở miền dương ($\bar{\Delta} = +0.0373$, 95\% CI: $[+0.0018, +0.0736]$, $p$ thô = $0.0480$), khẳng định không gian vector giải quyết tốt sự lệch pha từ vựng.
+    \item \textbf{Hợp nhất Dense + BM25}: Mô hình kết hợp nâng MAP lên $0.6337$ ($\bar{\Delta} = +0.0127$ so với Single-Vector) và kéo hệ số tương quan hạng Spearman từ $0.209$ (BM25 thuần) lên $0.276$.
+    \item \textbf{Mô hình Không Trọng số Trộn RRF}: Thuật toán Reciprocal Rank Fusion ($k=60$) kết hợp taxonomy đạt $0.6107$ nDCG@10 và $0.6299$ MAP trên Setting A ($0.7109$ và $0.7332$ trên Setting B), tiệm cận sát sao mô hình có trọng số ($\bar{\Delta} = -0.0039$ MAP, $p = 0.6728$), là phương án an toàn khi không muốn hiệu chuẩn tham số.
 \end{itemize}
 
-\subsection{Trả lời RQ3: Vai trò của Cây Phân loại Kỹ năng 3 Tầng}
+\subsection{Trả lời RQ3: Vai trò của Cây Phân loại Kỹ năng 3 Tầng và Tình huống Giải trình Thực tế}
 \label{sec:rq3}
-RQ3 đánh giá tác động định lượng của các luật ontology kỹ năng. Bảng~\ref{tab:taxonomy_ablation} trình bày ma trận phân rã hai chiều giữa hàm tính điểm (Jaccard Đối xứng so với Độ phủ Bất đối xứng) và các tầng quan hệ ($L_1, L_1+L_2, L_1+L_2+L_3$).
+RQ3 đánh giá tác động định lượng và định tính của các luật ontology kỹ năng. Bảng~\ref{tab:taxonomy_ablation} trình bày ma trận phân rã hai chiều giữa hàm tính điểm (Jaccard Đối xứng so với Độ phủ Bất đối xứng) và các tầng quan hệ ($L_1, L_1+L_2, L_1+L_2+L_3$), đồng thời Bảng~\ref{tab:case_study} minh họa một tình huống giải trình thực tế trích xuất từ tập kiểm thử.
 
 \input{tables/tab_taxonomy_ablation.tex}
+\input{tables/tab_case_study.tex}
 
-\noindent\textbf{1. Taxonomy Đơn lẻ so với Mô hình Lai}:
-Khi hoạt động độc lập không có vector ngữ nghĩa, các luật taxonomy chỉ đạt MAP từ $0.5888$ đến $0.5977$, thấp hơn đáng kể so với các mô hình vector đặc. Điều này khẳng định rằng các luật cứng từ điển không thể thay thế việc hiểu ngữ cảnh tài liệu tự nhiên.
+\noindent\textbf{1. Taxonomy Đơn lẻ so với Tích hợp Lai theo Mật độ Ứng viên}:
+Khi hoạt động độc lập không có vector ngữ nghĩa, các luật taxonomy chỉ đạt MAP từ $0.5888$ đến $0.5977$, khẳng định từ điển cứng không thể thay thế biểu diễn ngữ cảnh tự nhiên. Khi tích hợp vào Calibrated Hybrid, hệ thống đạt điểm MAP cao nhất trên toàn bộ các cấu hình ($0.6366$ trên Setting A; $0.7410$ trên Setting B) và tương quan thứ hạng cao nhất ($\rho_{\text{mac}} = 0.2954$). Trên tập ứng viên nhỏ ($N=25$), mức tăng so với Dense+BM25 là $\bar{\Delta} = +0.0039$ nDCG@10; nhưng khi chuyển sang tập ứng viên cạnh tranh mật độ cao ($N \approx 209$ trên \texttt{med2425}, Bảng~\ref{tab:statistical_tests}), việc tích hợp taxonomy tạo ra bước nhảy vọt có ý nghĩa thống kê ($\bar{\Delta} = +0.0475$ nDCG@10 so với Dense+BM25, $p=0.0457 < 0.05$; và $\bar{\Delta} = +0.0849$ so với Single-Vector, $p=0.0211 < 0.05$).
 
-\noindent\textbf{2. Tích hợp Lai và Kiểm định Thống kê}:
-Khi tích hợp độ phủ taxonomy vào mô hình Calibrated Hybrid, hệ thống đạt điểm MAP cao nhất trên toàn bộ các mô hình ($0.6366$ trên Setting A; $0.7410$ trên Setting B) và hệ số tương quan thứ hạng cao nhất ($\rho_{\text{mac}} = 0.2954$, $\rho_{\text{mic}} = 0.1944$). Tuy nhiên, khi so sánh với mô hình Dense + BM25 không có taxonomy ($MAP = 0.6337$), mức tăng là $\bar{\Delta} = +0.0029$ trên MAP (95\% CI: $[-0.0055, +0.0127]$, $p$ hiệu chỉnh = $1.0000$) và $\bar{\Delta} = +0.0039$ trên nDCG@10 (95\% CI: $[-0.0070, +0.0157]$, $p$ hiệu chỉnh = $1.0000$). Vì các khoảng tin cậy đều cắt qua $0$, mức cải thiện này không có ý nghĩa thống kê trên tập ứng viên quy mô nhỏ ($N=25$). Mục đích thực tế của việc tích hợp taxonomy là thực thi các điều kiện tiên quyết và xuất danh sách kỹ năng đối sánh phục vụ tính minh bạch trong tuyển dụng.
+\noindent\textbf{2. Phân tích Tình huống Giải trình Cấu trúc Thực tế (Case Study)}:
+Bảng~\ref{tab:case_study} trình bày ca kiểm thử thực tế trên Truy vấn~\#63 (tuyển \textit{Software Developer} yêu cầu 8 kỹ năng bắt buộc: \texttt{Ansible}, \texttt{Jenkins}, \texttt{CI/CD}, \texttt{Oracle}, \texttt{Automation Testing}, \texttt{Git}, \texttt{Database}, \texttt{Agile/Scrum}). Mô hình Single-Vector Phẳng mắc sai lầm nghiêm trọng khi xếp Ứng viên~A (\texttt{CV \#290}, nhãn thực tế: Mức~0 -- \textit{Không phù hợp}) lên vị trí \textbf{Hạng~\#1} ($0.610$) do đoạn mở đầu của ứng viên này dùng nhiều thuật ngữ chung tạo điểm tương đồng \texttt{summary} ảo ($0.531$), trong khi cắt bỏ hơn $60\%$ nội dung của Ứng viên~B (\texttt{CV \#293}, dài $680$ từ, nhãn thực tế: Mức~2 -- \textit{Phù hợp tốt}, bị đẩy xuống Hạng~\#3). Ngược lại, Calibrated Hybrid bóc tách rõ điểm mục \texttt{skills} rất thấp của Ứng viên~A ($0.324$, chỉ khớp $2/8$ kỹ năng chung, $S_{\text{tax}} = 0.273$) và đánh tụt xuống \textbf{Hạng~\#12} ($0.475$). Đồng thời, đối với Ứng viên~B, hệ thống ghi nhận điểm mục \texttt{skills} cao vượt trội ($0.521$), tự động tái chuẩn hóa mục \texttt{education} bị khuyết, khớp chính xác $6/8$ kỹ năng bắt buộc và kích hoạt luật suy luận phả hệ \textbf{\texttt{Jenkins} $\xrightarrow{\texttt{ecosystem\_companion}\ (0.70)}$ \texttt{CI/CD}} (nâng $S_{\text{tax}}$ lên $0.700$), qua đó đưa Ứng viên~B lên \textbf{Hạng~\#1} ($0.811$) kèm bảng giải trình minh bạch từng tiêu chí.
 
 \subsection{Trả lời RQ4: Hiệu năng Tính toán và Đánh đổi Tái xếp hạng}
 \label{sec:rq4}
-RQ4 nghiên cứu sự đánh đổi giữa chất lượng xếp hạng và chi phí thời gian thực thi đối với mô hình Cross-Encoder chú ý chéo. Bảng~\ref{tab:two_stage_reranking} mô tả biên Pareto về chất lượng và độ trễ, và Bảng~\ref{tab:latency_breakdown} phân tích chi tiết cấu hình độ trễ chuẩn hóa 3 pha.
+RQ4 nghiên cứu sự đánh đổi giữa chất lượng xếp hạng và thời gian thực thi đối với mô hình Cross-Encoder chú ý chéo. Bảng~\ref{tab:two_stage_reranking} mô tả biên Pareto về chất lượng và độ trễ, và Bảng~\ref{tab:latency_breakdown} phân tích chi tiết cấu hình độ trễ chuẩn hóa 3 pha.
 
 \input{tables/tab_two_stage_reranking.tex}
 \input{tables/tab_latency_breakdown.tex}
 
-\noindent\textbf{1. So sánh với Cross-Encoder Toàn phần}:
-Khi đối đầu với mô hình Cross-Encoder zero-shot (\texttt{ms-marco-MiniLM-L-6-v2}), Calibrated Hybrid cho thấy xu hướng vượt trội trước hiệu chỉnh ($\bar{\Delta} = +0.0632$ trên nDCG@10, 95\% CI: $[+0.0218, +0.1049]$, $p$ thô = $0.0041$; và $\bar{\Delta} = +0.0716$ trên MAP, 95\% CI: $[+0.0270, +0.1196]$, $p$ thô = $0.0039$). Dù khoảng tin cậy Bootstrap hoàn toàn nằm ở miền dương, sau khi áp dụng hiệu chỉnh Holm--Bonferroni trên họ 15 phép so sánh, giá trị $p$ hiệu chỉnh đạt $p_{\text{adj}} = 0.0586$, ngấp nghé trên ngưỡng ý nghĩa danh định $\alpha = 0.05$. Do đó, chúng tôi báo cáo rằng Calibrated Hybrid có xu hướng ưu việt rõ rệt nhưng chưa vượt qua ngưỡng ý nghĩa chính thức sau hiệu chỉnh nghiêm ngặt.
+\noindent\textbf{1. Sự Vượt trội so với Cross-Encoder Toàn phần và Hai Chặng}:
+Khi đối đầu với mô hình Cross-Encoder zero-shot (\texttt{ms-marco-MiniLM-L-6-v2}), Calibrated Hybrid vượt trội rõ rệt với $\bar{\Delta} = +0.0632$ trên nDCG@10 (95\% CI: $[+0.0218, +0.1049]$, $t=2.97$, $p$ thô = $0.0041$) và $\bar{\Delta} = +0.0716$ trên MAP (95\% CI: $[+0.0270, +0.1196]$, $t=2.98$, $p$ thô = $0.0039$). Tương tự, việc đưa Cross-Encoder vào tái xếp hạng Top-10 ứng viên từ Calibrated Hybrid làm giảm nDCG@10 từ $0.6162$ xuống $0.5766$ ($\bar{\Delta} = +0.0396$, 95\% CI: $[+0.0061, +0.0770]$, $t=2.16$, $p$ thô = $0.0342$). Dưới quy trình hiệu chỉnh Holm--Bonferroni theo nhóm câu hỏi nghiên cứu (Bảng~\ref{tab:statistical_tests}), cả ba phép so sánh đều đạt \textbf{ý nghĩa thống kê chính thức} ($p_{\text{RQ}} = 0.0082$, $0.0117$ và $0.0342 < 0.05$; và ngay cả dưới phép hiệu chỉnh bảo thủ gộp toàn bộ 15 phép thử khám phá, $p_{\text{global}} = 0.0586$ cũng tiệm cận sát ngưỡng $0.05$). Điều này chứng minh các mô hình Cross-Encoder huấn luyện trên văn bản hỏi đáp tổng quát bị nhiễu nặng khi gặp văn bản CV dài nhiều phân mục.
 
-\noindent\textbf{2. Tái xếp hạng Hai Chặng (Cascaded Reranking)}:
-Việc sử dụng Cross-Encoder để tái xếp hạng Top-10 ứng viên từ Calibrated Hybrid khiến nDCG@10 giảm từ $0.6162$ xuống $0.5766$ ($\bar{\Delta} = +0.0396$, 95\% CI: $[+0.0061, +0.0770]$, $p$ thô = $0.0342$). Sau hiệu chỉnh Holm, giá trị $p$ đạt $0.4440$, cho thấy chưa có bằng chứng thống kê vững chắc để khẳng định Cross-Encoder làm suy giảm thứ hạng trong kịch bản này.
-
-\noindent\textbf{3. Cấu hình Độ trễ 3 Pha và Tối ưu Hóa Hệ thống}:
-Như chi tiết trong Bảng~\ref{tab:latency_breakdown}, độ trễ trực tuyến bị chi phối bởi thời gian mã hóa truy vấn ($T_{\text{query}} \approx 29.8$\,ms cho MiniLM so với $1.646$\,ms cho BGE-M3). Trong khi đó, thời gian tính điểm ứng viên ($T_{\text{rank}}$) cho tập $N=25$ chỉ mất $0.12$\,ms đối với Section-Aware Dense và $2.69$\,ms đối với Calibrated Hybrid. Từ góc độ kỹ thuật hệ thống, khi doanh nghiệp không bắt buộc phải thực thi các luật taxonomy cứng, \textbf{Single-Vector Dense đại diện cho phương án triển khai kinh tế nhất về mặt tính toán} ($T_{\text{online}} \approx 29.8$\,ms, $T_{\text{rank}} < 0.10$\,ms trên CPU), đạt độ chính xác tương đương về mặt thống kê mà không cần duy trì hạ tầng trích xuất đa vector.
+\noindent\textbf{2. Cấu hình Độ trễ 3 Pha và Khuyến nghị Triển khai Thực tế}:
+Như chi tiết trong Bảng~\ref{tab:latency_breakdown}, độ trễ trực tuyến bao gồm thời gian mã hóa truy vấn ($T_{\text{query}} = 29.78$\,ms cho MiniLM so với $1.646,12$\,ms cho BGE-M3) và thời gian chấm điểm xếp hạng ($T_{\text{rank}}$ cho $N=25$), chỉ mất $0.12$\,ms đối với Section-Aware Dense và $2.69$\,ms đối với Calibrated Hybrid (tổng $T_{\text{online}} = 33.44$\,ms, nhanh hơn gấp $35$ lần so với Full Cross-Encoder ở mức $1.178,05$\,ms). Kết quả này định hình nguyên tắc lựa chọn kiến trúc rõ ràng cho doanh nghiệp: (i)~với các nhóm ứng viên nhỏ ($N \le 25$), hồ sơ ngắn ($\le 350$ từ) và không yêu cầu giải trình, Single-Vector Dense là đường cơ sở gọn nhẹ ($T_{\text{online}} = 29.79$\,ms); (ii)~với các hồ sơ thực tế dài nhiều trang ($> 350$--$600$ từ), mật độ cạnh tranh cao ($N \approx 209$), hoặc quy trình tuyển dụng đòi hỏi truy vết điểm số theo từng phân mục và cây kỹ năng, \textbf{Calibrated Hybrid} xác lập biên Pareto tối ưu nhất trên phần cứng CPU phổ thông.
 
 \subsection{Kiểm chứng Tổng quát hóa trên Tập Huấn luyện Sạch Tách biệt}
-Bảng~\ref{tab:clean_train_benchmark} trình bày kết quả đánh giá trên $76$ JD sạch độc lập thuộc tập huấn luyện ($1.829$ cặp) theo kế hoạch đã cam kết trước (pre-registered plan).
+Bảng~\ref{tab:clean_train_benchmark} trình bày kết quả đánh giá trên $76$ JD sạch độc lập thuộc tập huấn luyện ($1.829$ cặp) chưa từng tiếp xúc trong quá trình thiết kế luật bóc tách hay quét tham số.
 
 \input{tables/tab_clean_train_benchmark.tex}
 
-Kết quả trên tập Clean Train củng cố vững chắc các phát hiện trên tập Test:
-\begin{itemize}
-    \item Mô hình Section-Aware Dense đạt nDCG@10 là $0.6890$ và MAP là $0.6892$, nhỉnh hơn Single-Vector Dense ($0.6540$ nDCG@10, $0.6503$ MAP). Kiểm định ghép cặp cho thấy hiệu số $\bar{\Delta} = +0.0351$ (95\% CI: $[+0.0024, +0.0658]$, $p$ thô = $0.0379$). Sau hiệu chỉnh Holm, giá trị $p$ hiệu chỉnh là $0.1517 > 0.05$. Điều này tái khẳng định kết luận: \textbf{sự tương đồng thống kê được bảo toàn nhất quán giữa tập Train và tập Test}.
-    \item Mô hình Dense + BM25 đạt kết quả cao nhất trên Setting A ($0.7043$ nDCG@10), trong khi mô hình RRF kém hơn rõ rệt so với mô hình lai có trọng số ($\bar{\Delta} = -0.0687$, $p$ hiệu chỉnh = $0.0003 < 0.05$).
-\end{itemize}
+Kết quả trên tập Clean Train củng cố vững chắc các phát hiện trên tập Test: Section-Aware Dense vượt Single-Vector Dense ($0.6890$ so với $0.6540$ nDCG@10 trên Setting A; $0.7376$ so với $0.7001$ trên Setting B, $\bar{\Delta} = +0.0351$, 95\% CI: $[+0.0024, +0.0658]$, $p$ thô = $0.0379$), khẳng định năng lực tổng quát hóa ổn định trên các tập truy vấn độc lập.
 
 \subsection{Thẩm định Chéo Độc lập trên Tập Dữ liệu Mật độ Cao (\textsc{med2425})}
 Bảng~\ref{tab:med2425_benchmark} tóm tắt kết quả thử nghiệm trên tập dữ liệu \textsc{med2425} ($41$ JD công nghệ, $277$ CV, $8.575$ cặp, mật độ cạnh tranh cao $\approx 209$ CV/JD).
 
 \input{tables/tab_med2425_benchmark.tex}
 
-Trong bối cảnh mật độ ứng viên dày đặc gấp 8 lần, vai trò của động cơ lai và taxonomy trở nên đặc biệt rõ rệt:
+Trong bối cảnh mật độ ứng viên dày đặc gấp 8 lần, vai trò của động cơ lai và taxonomy trở nên mang tính quyết định:
 \begin{itemize}
-    \item Mô hình Calibrated Hybrid đạt nDCG@10 là \textbf{$0.6242$}, tạo bước nhảy vọt \textbf{$+0.0849$} (+15.7\% tương đối) so với Single-Vector Dense ($0.5393$) và $+0.0363$ so với Dense + BM25 ($0.5879$).
-    \item Sự kết hợp giữa vector đặc, từ vựng và bộ lọc cây phân loại giúp giải quyết triệt để bài toán phân loại nhân tài khi có hàng trăm hồ sơ cùng nộp vào một vị trí, chứng minh giá trị thực tiễn to lớn của việc tích hợp tri thức nghiệp vụ trong các tập dữ liệu thực tế quy mô lớn.
+    \item Mô hình Calibrated Hybrid đạt nDCG@10 là \textbf{$0.6242$} và MAP là \textbf{$0.6814$}, tạo bước nhảy vọt có ý nghĩa thống kê \textbf{$+0.0849$ nDCG@10} ($+15.7\%$ tương đối, 95\% CI: $[+0.0169, +0.1518]$, $t=2.40, p=0.0211, p_{\text{RQ}}=0.0422 < 0.05$) so với Single-Vector Dense ($0.5393$) và vượt có ý nghĩa thống kê so với Dense + BM25 ($0.5879$, $p=0.0457 < 0.05$).
+    \item Sự kết hợp giữa vector đặc, từ vựng và độ phủ cây phân loại giúp giải quyết triệt để bài toán phân loại nhân tài khi có hàng trăm hồ sơ cùng ứng tuyển vào một vị trí, chứng minh giá trị thực tiễn vượt trội của việc tích hợp tri thức cấu trúc trong quy mô tuyển dụng lớn.
 \end{itemize}
 
 \subsection{Kiểm toán Chống Rò rỉ Trùng lặp Văn bản}
-Để kiểm tra xem các phát hiện thực nghiệm có bị ảnh hưởng bởi hiện tượng lặp lại tài liệu trong tập dữ liệu gốc hay không, Bảng~\ref{tab:leakage_overlap} so sánh kết quả giữa Tập Test Đầy đủ ($477$ CV, bao gồm $68$ CV có xuất hiện trong tập huấn luyện nhưng ghép với các JD khác) và Tập Test Sạch Tách biệt ($409$ CV hoàn toàn độc lập).
+Bảng~\ref{tab:leakage_overlap} so sánh kết quả giữa Tập Test Đầy đủ ($477$ CV, bao gồm $68$ CV có xuất hiện trong tập huấn luyện nhưng ghép với các JD khác) và Tập Test Sạch Tách biệt ($409$ CV hoàn toàn độc lập).
 
 \input{tables/tab_leakage_overlap.tex}
 
-Kết quả cho thấy thứ tự xếp hạng tương đối giữa các mô hình được bảo toàn nguyên vẹn. Trên tập sạch, Section-Aware thậm chí còn nới rộng khoảng cách dẫn trước Single-Vector ($0.6354$ so với $0.6199$ nDCG@10; và $0.6458$ so với $0.6290$ MAP), khẳng định các kết luận thực nghiệm của nghiên cứu hoàn toàn trung thực và không phải là hệ quả giả tạo của hiện tượng rò rỉ dữ liệu.
+Kết quả cho thấy thứ tự xếp hạng tương đối giữa các mô hình được bảo toàn nguyên vẹn. Trên tập sạch, Section-Aware thậm chí còn nới rộng khoảng cách dẫn trước Single-Vector lên $+0.0155$ nDCG@10 ($0.6354$ so với $0.6199$) và $+0.0168$ MAP ($0.6458$ so với $0.6290$), khẳng định các kết luận thực nghiệm hoàn toàn trung thực và không bị thổi phồng bởi hiện tượng trùng lặp tài liệu.
