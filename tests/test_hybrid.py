@@ -195,3 +195,35 @@ def test_hybrid_score_renormalize_missing():
     # Semantic=0.8, skills=1.0 -> (0.4*0.8 + 0.3*1.0) / (0.4 + 0.3) = 0.62 / 0.7 = 0.8857
     expected = (0.40 * 0.8 + 0.30 * 1.0) / (0.40 + 0.30)
     assert abs(out_renorm["overall"] - expected) < 1e-6
+
+
+def test_hybrid_score_skill_gating():
+    # Job requires React and Python. Candidate only knows Figma (0% skill coverage).
+    job = JobRequirement(
+        required_skills=[SkillItem(name="React"), SkillItem(name="Python")],
+        semantic_base=0.70,
+    )
+    unrelated_cand = CandidateProfile(skills=[SkillItem(name="Figma")])
+
+    # Without gating: semantic 0.70 + default fallbacks would produce artificially high match
+    out_ungated = hybrid_score(job, unrelated_cand, must_have_penalty=False, renormalize_missing=True)
+    assert out_ungated["skills"] == 0.0
+    assert out_ungated["overall"] > 0.30  # ~0.40
+
+    # With skill gating: score is gated by 0.15 + 0.85*(0) = 0.15
+    out_gated = hybrid_score(job, unrelated_cand, must_have_penalty=True, renormalize_missing=True)
+    assert out_gated["overall"] < 0.10  # Plummets down to < 10%
+    assert abs(out_gated["overall"] - out_ungated["overall"] * 0.15) < 1e-6
+
+    # When candidate has >= 50% required skills (e.g. 1 out of 2 = 50%), gate is 1.0 (no penalty)
+    partial_cand = CandidateProfile(skills=[SkillItem(name="React")])
+    out_partial_ungated = hybrid_score(job, partial_cand, must_have_penalty=False, renormalize_missing=True)
+    out_partial_gated = hybrid_score(job, partial_cand, must_have_penalty=True, renormalize_missing=True)
+    assert abs(out_partial_gated["overall"] - out_partial_ungated["overall"]) < 1e-6
+
+    # When candidate has 100% required skills, gate is 1.0 (no penalty)
+    perfect_cand = CandidateProfile(skills=[SkillItem(name="React"), SkillItem(name="Python")])
+    out_perfect_ungated = hybrid_score(job, perfect_cand, must_have_penalty=False, renormalize_missing=True)
+    out_perfect_gated = hybrid_score(job, perfect_cand, must_have_penalty=True, renormalize_missing=True)
+    assert abs(out_perfect_gated["overall"] - out_perfect_ungated["overall"]) < 1e-6
+

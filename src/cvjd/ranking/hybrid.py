@@ -277,12 +277,11 @@ def hybrid_score(
         active_keys = ["semantic", "skills"]
         if job.min_years_experience is not None and job.min_years_experience > 0:
             active_keys.append("experience")
-        if not (
-            (job.budget is None or (job.budget.min is None and job.budget.max is None))
-            and (cv.budget is None or (cv.budget.min is None and cv.budget.max is None))
-        ):
+        has_job_budget = job.budget is not None and (job.budget.min is not None or job.budget.max is not None)
+        has_cv_budget = cv.budget is not None and (cv.budget.min is not None or cv.budget.max is not None)
+        if has_job_budget and has_cv_budget:
             active_keys.append("budget")
-        if bool(job.preferences):
+        if bool(job.preferences) and bool(cv.preferences):
             active_keys.append("preferences")
 
         active_w = {k: w.get(k, 0.0) for k in active_keys}
@@ -296,6 +295,16 @@ def hybrid_score(
         weights_sum = sum(w.values())
         if weights_sum > 0.0:
             overall /= weights_sum
+
+    # Cổng kỹ năng bắt buộc (Hard constraint / Skill Gating):
+    # Chỉ áp dụng phạt khi ứng viên thiếu trên 50% kỹ năng bắt buộc (req < 0.5) theo đúng paper §3.4.
+    # Khi req >= 0.5 (đã đáp ứng phần lớn kỹ năng cốt lõi), không phạt để tránh dìm điểm
+    # tổng thấp hơn mọi tiêu chí thành phần (gây mâu thuẫn hiển thị).
+    if must_have_penalty and job.required_skills:
+        req = _coverage(cv.skills, list(job.required_skills))
+        if req < 0.5:
+            gate = 0.15 + 0.85 * (2.0 * req)
+            overall *= gate
 
     return {"overall": float(min(max(overall, 0.0), 1.0)), **components}
 
