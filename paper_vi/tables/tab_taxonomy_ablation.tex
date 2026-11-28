@@ -1,21 +1,21 @@
-% Bảng phân rã ablation 2 chiều của Taxonomy kỹ năng
-\begin{table*}[t]
+% Ma trận ablation Taxonomy 2x3 (Tiếng Việt)
+\begin{table}[tbp]
 \centering
-\caption{Ma trận phân rã Taxonomy hai chiều: Hàm tính điểm $\times$ Các tầng quan hệ, kiểm định thống kê Holm-Bonferroni so với mốc cơ sở $L_0$ (Dense + BM25).}
+\caption{Ma trận ablation Taxonomy hai chiều: Hàm chấm điểm $\times$ Các tầng quan hệ với hiệu chỉnh thống kê Holm--Bonferroni so với cơ sở $L_0$ (Dense + BM25, Setting~A).}
 \label{tab:taxonomy_ablation}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{llrrrrrc}
-\hline
-\textbf{Tầng quan hệ} & \textbf{Hàm tính điểm} & \textbf{nDCG@10} & \textbf{MAP} & \textbf{$\Delta$ MAP} & \textbf{$p$ thô} & \textbf{$p$ hiệu chỉnh} & \textbf{Ý nghĩa ($\alpha=0.05$)} \\
-\hline
+\toprule
+\textbf{Tầng} & \textbf{Hàm chấm điểm} & \textbf{nDCG@10} & \textbf{MAP} & \textbf{$\Delta$ MAP} & \textbf{$p$ thô} & \textbf{$p$ hiệu chỉnh} & \textbf{Ý nghĩa ($\alpha=0.05$)} \\
+\midrule
 Cơ sở $L_0$ & Dense + BM25 (Không Taxonomy) & 0.6123 & 0.6337 & -- & -- & -- & -- \\
-Tầng $L_1$ & Jaccard Đối xứng & 0.5910 & 0.5977 & -0.0360 & 0.1651 & 0.6393 & Không \\
-Tầng $L_1+L_2$ & Jaccard Đối xứng & 0.5913 & 0.5959 & -0.0378 & 0.1542 & 0.6393 & Không \\
-Tầng $L_1$ & Độ phủ Bất đối xứng & 0.5773 & 0.5888 & -0.0449 & 0.1077 & 0.6393 & Không \\
-Tầng $L_1+L_2$ & Độ phủ Bất đối xứng & 0.5783 & 0.5896 & -0.0441 & 0.1080 & 0.6393 & Không \\
-Tầng $L_1+L_2+L_3$ & Độ phủ Bất đối xứng (Must/Nice) & 0.5775 & 0.5892 & -0.0446 & 0.1066 & 0.6393 & Không \\
-Calibrated Hybrid & 0.60 Truy xuất + 0.40 Độ phủ & 0.6162 & 0.6366 & +0.0029 & 0.5430 & 0.6393 & Không \\
-\hline
+Tầng $L_1$ & Jaccard đối xứng & 0.5910 & 0.5977 & -0.0360 & 0.1651 & 0.6463 & Không \\
+Tầng $L_1+L_2$ & Jaccard đối xứng & 0.5913 & 0.5959 & -0.0378 & 0.1542 & 0.6463 & Không \\
+Tầng $L_1$ & Độ phủ bất đối xứng & 0.5773 & 0.5888 & -0.0449 & 0.1077 & 0.6463 & Không \\
+Tầng $L_1+L_2$ & Độ phủ bất đối xứng & 0.5783 & 0.5896 & -0.0441 & 0.1080 & 0.6463 & Không \\
+Tầng $L_1+L_2+L_3$ & Độ phủ bất đối xứng (Must/Nice) & 0.5788 & 0.5910 & -0.0427 & 0.1137 & 0.6463 & Không \\
+Calibrated Hybrid & 0.60 Truy hồi + 0.40 Độ phủ & \textbf{0.6196} & \textbf{0.6351} & +0.0014 & 0.8038 & 0.8038 & Không \\
+\bottomrule
 \end{tabular}%
 }
-\end{table*}
+\end{table}

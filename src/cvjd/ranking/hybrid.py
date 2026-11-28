@@ -155,11 +155,11 @@ def _coverage(skills: Sequence[SkillItem], targets: Sequence[SkillItem], allow_r
                 matched = True
                 break
 
-        # 2. Khớp kỹ năng theo quan hệ phân cấp trong taxonomy (Lớp 2: is_superset_of, framework_of, companion)
+        # 2. Khớp kỹ năng theo quan hệ phân cấp & ngữ nghĩa trong taxonomy (Lớp 2 + Lớp 3)
         if not matched and tax is not None:
             best_rel_weight = 0.0
             for skill in skills:
-                rel_w = tax.get_relation_weight(skill.name, target.name)
+                rel_w = tax.get_effective_relation_weight(skill.name, target.name)
                 if rel_w > best_rel_weight:
                     best_rel_weight = rel_w
 
@@ -326,10 +326,10 @@ def _extract_skills(text: str) -> list[SkillItem]:
     except Exception:
         pass
 
-    # 2. Hỗ trợ tách bổ sung theo dấu phẩy / chấm phẩy / gạch đầu dòng cho cụm từ tự do
+    # 2. Hỗ trợ tách bổ sung theo dấu phẩy / chấm phẩy / gạch đầu dòng cho cụm từ ngắn tự do
     for raw in text.replace(";", ",").replace("\n", ",").replace("•", ",").replace("-", ",").split(","):
         cleaned = raw.strip()
-        if not cleaned:
+        if not cleaned or len(cleaned.split()) > 4:
             continue
         token = normalize_skill(cleaned)
         if token and len(token) <= 60 and token not in seen:
@@ -352,34 +352,51 @@ def years_from_document(doc: Document) -> float | None:
 
 
 def profile_from_document(doc: Document) -> CandidateProfile:
-    """Bridge từ `Document` nghiên cứu → CandidateProfile (hỗ trợ trích xuất toàn diện)."""
-    skills: list[SkillItem] = []
-    seen = set()
+    """Bridge từ `Document` nghiên cứu → CandidateProfile (trọng số theo bằng chứng section)."""
+    skills_by_name: dict[str, SkillItem] = {}
 
-    # 1. Trích xuất ưu tiên từ section skills
-    section = doc.sections.get("skills")
-    if section is not None and section.text.strip():
-        for s in _extract_skills(section.text):
-            if s.name not in seen:
-                seen.add(s.name)
-                skills.append(s)
+    sec_skills = doc.sections.get("skills")
+    sec_exp = doc.sections.get("experience")
+    in_skills_sec: set[str] = set()
+    in_exp_sec: set[str] = set()
 
-    # 2. Quét bổ sung từ experience và toàn văn bản để không bỏ sót kỹ năng nêu trong quá trình làm việc
+    # 1. Trích xuất từ section skills
+    if sec_skills is not None and sec_skills.text.strip():
+        for s in _extract_skills(sec_skills.text):
+            in_skills_sec.add(s.name)
+            skills_by_name.setdefault(s.name, s)
+
+    # 2. Quét bổ sung từ experience và toàn văn bản để xác định bằng chứng thực tế
     try:
         from ..data.taxonomy import get_taxonomy
         tax = get_taxonomy()
-        exp_text = doc.sections.get("experience").text if doc.sections.get("experience") else ""
-        text_to_scan = f"{exp_text}\n{doc.raw_text}"
-        for c_name in tax.extract_skills_from_text(text_to_scan):
+        if sec_exp is not None and sec_exp.text.strip():
+            for c_name in tax.extract_skills_from_text(sec_exp.text):
+                token = normalize_skill(c_name)
+                if token:
+                    in_exp_sec.add(token)
+                    skills_by_name.setdefault(token, SkillItem(name=token))
+
+        for c_name in tax.extract_skills_from_text(doc.raw_text):
             token = normalize_skill(c_name)
-            if token and token not in seen:
-                seen.add(token)
-                skills.append(SkillItem(name=token))
+            if token and token not in skills_by_name:
+                # Kỹ năng chỉ xuất hiện ở summary/văn bản ngoài có trọng số nhẹ hơn
+                skills_by_name[token] = SkillItem(name=token, weight=0.75)
     except Exception:
         pass
 
+    # Nâng trọng số cho kỹ năng được chứng thực đồng thời ở cả skills và experience
+    weighted_skills: list[SkillItem] = []
+    for name, item in skills_by_name.items():
+        if name in in_skills_sec and name in in_exp_sec:
+            weighted_skills.append(SkillItem(name=name, weight=1.25, level=item.level))
+        elif name in in_skills_sec or name in in_exp_sec:
+            weighted_skills.append(SkillItem(name=name, weight=1.0, level=item.level))
+        else:
+            weighted_skills.append(item)
+
     return CandidateProfile(
-        skills=skills,
+        skills=weighted_skills,
         years_experience=years_from_document(doc),
     )
 

@@ -181,3 +181,89 @@ def test_asymmetric_coverage_with_nice_to_have():
     assert s1 == 0.8
     assert s3 == 0.2
 
+
+def test_classify_jd_skills_single_paragraph_does_not_leak_nice_mode():
+    """Inline 'is a plus' or 'preferred' must not flip subsequent sentences to nice-to-have."""
+    tax = get_taxonomy()
+    jd_text = (
+        "Requirements: 8+ yrs as a Business Analyst. "
+        "Scrum Master experience is a plus. "
+        "Strong knowledge of AWS, Azure, and PostgreSQL is required."
+    )
+    must, nice = tax.classify_jd_skills(jd_text)
+    assert "Business Analysis" in must
+    assert "AWS" in must
+    assert "Azure" in must
+    assert "PostgreSQL" in must
+    assert "Scrum Master" in nice
+
+
+def test_classify_jd_skills_negation_guard():
+    """Explicitly negated requirement clauses must not be extracted as required skills."""
+    tax = get_taxonomy()
+    jd_text = (
+        "Required: Python and Docker.\n"
+        "No prior Kubernetes experience required.\n"
+        "Nice to have: Redis."
+    )
+    must, nice = tax.classify_jd_skills(jd_text)
+    assert "Python" in must
+    assert "Docker" in must
+    assert "Kubernetes" not in must
+    assert "Redis" in nice
+
+
+def test_two_hop_relational_inference_and_non_leakage():
+    """2-hop transitive chains (NestJS -> TypeScript -> JavaScript) give decayed credit,
+    while unrelated pairs (Next.js != Redux, Flutter != React) stay 0.0."""
+    tax = get_taxonomy()
+    w_2hop = tax.get_relation_weight("NestJS", "JavaScript", max_hops=2)
+    assert 0.20 < w_2hop < 0.40
+    assert tax.get_relation_weight("Next.js", "Redux") == 0.0
+    assert tax.get_relation_weight("Flutter", "React") == 0.0
+
+
+def test_score_skills_coverage_boundary_renormalization_and_nice_l2():
+    """Missing nice-to-have renormalizes to must_cov (no 0.85 ceiling), and nice uses L2."""
+    tax = get_taxonomy()
+    # Only must-have present, 100% covered -> must be 1.0 (not 0.85)
+    assert tax.score_skills_coverage(["Python"], [], ["Python"]) == 1.0
+    # Only nice-to-have present, L2 match (Next.js -> React = 0.60) -> 0.60
+    assert abs(tax.score_skills_coverage([], ["React"], ["Next.js"]) - 0.60) < 1e-6
+    # Empty JD skills -> neutral 1.0
+    assert tax.score_skills_coverage([], [], ["Python"]) == 1.0
+
+
+def test_layer3_semantic_skill_bridge_and_idf():
+    """Optional Layer 3 semantic embeddings provide bounded partial credit for OOV/unlinked skills."""
+    import numpy as np
+
+    tax = get_taxonomy()
+
+    def mock_encode(texts):
+        vecs = []
+        for t in texts:
+            tl = t.lower()
+            if "figma" in tl or "adobe xd" in tl or "ui design" in tl or "prototyping" in tl:
+                vecs.append([0.9, 0.43589, 0.0])
+            else:
+                vecs.append([0.0, 0.0, 1.0])
+        return np.asarray(vecs, dtype=np.float32)
+
+    try:
+        tax.attach_skill_embeddings(mock_encode, include_category=False)
+        # Figma and Adobe XD have empty `relations` in JSON, so L2=0.0, L3 > 0.0
+        assert tax.get_relation_weight("Figma", "Adobe XD") == 0.0
+        w_l3 = tax.get_effective_relation_weight("Figma", "Adobe XD", use_layer3=True)
+        assert 0.15 <= w_l3 <= 0.45
+        # OOV skill phrase maps via semantic vector
+        w_oov = tax.get_effective_relation_weight("UI Prototyping Tool", "Figma", use_layer3=True)
+        assert w_oov > 0.0
+
+        idf = tax.compute_skill_idf(["Python and Git", "Python and Git", "Ansible and Git"])
+        assert idf["Ansible"] > idf["Git"]
+    finally:
+        tax._skill_embeddings = None
+        tax._encode_fn = None
+        tax._oov_emb_cache.clear()
+

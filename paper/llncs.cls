@@ -1,4 +1,4 @@
-% LLNCS DOCUMENT CLASS -- version 2.24 (29-Jan-2024)
+% LLNCS DOCUMENT CLASS -- version 2.25 (03-Sep-2026)
 % Springer Verlag LaTeX2e support for Lecture Notes in Computer Science
 %
 %%
@@ -19,7 +19,7 @@
 %%   Right brace   \}     Tilde         \~}
 %%
 \NeedsTeXFormat{LaTeX2e}[1995/12/01]
-\ProvidesClass{llncs}[2024/01/29 v2.24
+\ProvidesClass{llncs}[2026/09/03 v2.25
 ^^J LaTeX document class for Lecture Notes in Computer Science]
 % Options
 \let\if@envcntreset\iffalse
@@ -1239,6 +1239,14 @@ to0pt{\kern0.55\wd0\vrule height0.45\ht0\hss}\box0}}}}
 
 \setlength\arraycolsep{1.4\p@}
 \setlength\tabcolsep{1.4\p@}
+
+\newwrite\DescriptionTexts%
+\immediate\openout\DescriptionTexts=DescriptionTexts.txt%
+\newcounter{Dfigchecks}%
+
+\def\Description#1{\stepcounter{Dfigchecks}\stepcounter{figure}%
+\immediate\write\DescriptionTexts{\arabic{Dfigchecks} (Fig. \thefigure) - \detokenize{#1}}%
+\addtocounter{figure}{-1}}%
 
 \endinput
 %end of file llncs.cls

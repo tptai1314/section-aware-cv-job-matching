@@ -1,0 +1,27 @@
+% Supervised extensions: Leakage-Free CoSENT Fine-Tuned Bi-Encoder & Monotonic LTR
+\begin{table}[tbp]
+\centering
+\caption{Comparison of Training-Free Baselines vs.\ Leakage-Free Supervised Extensions (Section-Aware CoSENT Fine-Tuned \texttt{minilm-cvjd-ft} and Monotonicity-Constrained LTR) on In-Domain Test (Setting~A, $N=71$) and Zero-Shot Cross-Dataset External Benchmarks ($0\%$ CV/JD overlap).}
+\label{tab:ltr_finetune_benchmark}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+ & \multicolumn{3}{c}{\textbf{In-Domain Test ($N=71$, $1{,}759$ pairs)}} & \multicolumn{2}{c}{\textbf{med2425 IT ($0\%$ ovl.)}} & \multicolumn{2}{c}{\textbf{job\_resume\_fit}} & \multicolumn{2}{c}{\textbf{resume-score-details}} \\
+\cmidrule(lr){2-4} \cmidrule(lr){5-6} \cmidrule(lr){7-8} \cmidrule(lr){9-10}
+\textbf{Model / Backbone} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{nDCG@10} & \textbf{MAP} & \textbf{nDCG@10} & \textbf{MAP} & \textbf{nDCG@10} & \textbf{MAP} \\
+\midrule
+Section-Aware Dense (Frozen) & 0.6170 & 0.7091 & 0.6328 & 0.5135 & 0.6019 & 0.7091 & 0.4891 & 0.9018 & 0.7915 \\
+Calibrated Hybrid Heuristic (Frozen) & 0.6196 & 0.6948 & 0.6351 & 0.6237 & 0.6686 & 0.7489 & 0.5463 & 0.9546 & \textbf{0.7917} \\
+LTR-Linear Simplex (Frozen) & 0.6209 & 0.7028 & 0.6493 & 0.5914 & 0.6552 & 0.7526 & 0.5447 & 0.9435 & 0.7915 \\
+LTR-Ensemble (Frozen) & 0.6244 & 0.7253 & 0.6507 & 0.5981 & 0.6587 & 0.7526 & 0.5427 & 0.9473 & 0.7915 \\
+\midrule
+Section-Aware Dense (Fine-Tuned) & \textbf{0.6671} & \textbf{0.7560} & \textbf{0.6885} & 0.5479 & 0.6423 & 0.7187 & 0.4972 & 0.8937 & 0.7915 \\
+Calibrated Hybrid Heuristic (Fine-Tuned) & 0.6285 & 0.6972 & 0.6589 & \textbf{0.6367} & 0.6914 & 0.7565 & \textbf{0.5492} & \textbf{0.9598} & 0.7915 \\
+LTR-Linear Simplex (Fine-Tuned) & 0.6636$^\star$ & 0.7498 & 0.6858$^\star$ & 0.6175 & 0.6833 & 0.7549 & 0.5335 & 0.9320 & 0.7915 \\
+LTR-LambdaMART 5-Fold (Fine-Tuned) & 0.6403 & 0.6986 & 0.6641 & 0.6100 & 0.6905 & \textbf{0.7696} & 0.5378 & 0.9365 & 0.7913 \\
+LTR-Ensemble (Fine-Tuned) & 0.6460 & 0.7378 & 0.6672 & 0.6260 & \textbf{0.6925} & 0.7648 & 0.5354 & 0.9341 & 0.7915 \\
+\bottomrule
+\multicolumn{10}{l}{\footnotesize $^\star$Significant improvement over Frozen Calibrated Hybrid Baseline ($\bar{\Delta} = +0.0439$ nDCG@10, $p = 0.0020$; $\bar{\Delta} = +0.0507$ MAP, $p = 0.0006$; CPU scoring latency $0.0012$\,ms).}
+\end{tabular}%
+}
+\end{table}

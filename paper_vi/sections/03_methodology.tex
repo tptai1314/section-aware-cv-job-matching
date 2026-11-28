@@ -1,77 +1,106 @@
-\section{Kiến trúc Hệ thống và Mô hình hóa Toán học Chi tiết}
+\section{Phương pháp luận}
 
-\subsection{Hình thức hóa Bài toán Ghép cặp Hai chiều}
-Ký hiệu $\mathcal{D} = \mathcal{J} \sqcup \mathcal{C}$ là không gian tài liệu tuyển dụng, là hợp rời giữa tập mô tả công việc $\mathcal{J}$ và tập hồ sơ ứng viên $\mathcal{C}$. Cho trước một tài liệu truy vấn $q \in \mathcal{J}$ và tập ứng viên $\mathcal{P}_q = \{p_1, p_2, \dots, p_{N_q}\} \subset \mathcal{C}$ gồm $N_q$ tài liệu CV. Mỗi cặp $(q, p_i)$ có mức độ phù hợp thực tế $y_{q, i} \in \{0, 1, 2\}$, tương ứng với 3 mức nhãn: Không phù hợp ($0$), Phù hợp một phần ($1$), và Phù hợp tốt ($2$).
-
-Mục tiêu của hệ thống là xác định hàm chấm điểm $s_\theta(q, p)$ sao cho hoán vị $\pi_{s_\theta}$ thu được khi sắp xếp giảm dần điểm số $s_\theta(q, p_i)$ tối đa hóa kỳ vọng chỉ số nDCG@K trên toàn bộ tập truy vấn $Q$:
+\subsection{Phát biểu bài toán hình thức}
+Gọi $\mathcal{D} = \mathcal{J} \sqcup \mathcal{C}$ là tập các mô tả công việc $\mathcal{J}$ và hồ sơ ứng viên $\mathcal{C}$. Cho truy vấn $q \in \mathcal{J}$ và tập ứng viên $\mathcal{P}_q = \{p_1, \dots, p_{N_q}\} \subset \mathcal{C}$ với nhãn phù hợp phân cấp $y_{q,i} \in \{0, 1, 2\}$ (\textit{No Fit}, \textit{Potential Fit}, \textit{Good Fit}), ta cần tìm hàm chấm điểm $s_\theta(q, p)$ tạo ra hoán vị giảm dần $\pi_{s_\theta}(q, \mathcal{P}_q)$ tối đa hóa kỳ vọng $\text{nDCG}@K$:
 \begin{equation}
     \theta^* = \arg\max_\theta \frac{1}{|Q|} \sum_{q \in Q} \text{nDCG}@K\Big( \pi_{s_\theta}(q, \mathcal{P}_q), \, \mathbf{y}_q \Big).
     \label{eq:objective}
 \end{equation}
+Tương tự, ở chiều gợi ý việc làm ngược ($\text{CV} \rightarrow \text{JD}$), một hồ sơ $p \in \mathcal{C}$ truy vấn trên tập công việc hợp lệ $\mathcal{P}_p \subset \mathcal{J}$.
 
-\begin{figure}[t]
+\begin{figure}[tbp]
 \centering
-\includegraphics[width=0.85\textwidth]{figures/fig07_vector_theo_section.png}
-\caption{Kiến trúc biểu diễn đa vector nhận biết phân mục và cơ chế căn chỉnh chéo giữa Mô tả Công việc (JD) và Hồ sơ Ứng viên (CV).}
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[
+    font=\sffamily\small,
+    node distance=0.4cm and 0.65cm,
+    box/.style={draw, rounded corners=3pt, align=center, minimum height=0.78cm, inner sep=4pt, fill=white},
+    branch/.style={draw=teal!60!black, fill=teal!5, rounded corners=3pt, align=center, inner sep=4pt},
+    arrow/.style={-{Stealth[length=2.1mm]}, thick, draw=black!75}
+]
+\node[box, fill=gray!8] (raw) {Văn bản thô\\$T_{\text{raw}}$};
+\node[box, right=of raw] (parser) {Bộ tách theo luật\\(\texttt{41e1d27})};
+\node[box, right=of parser] (secs) {Phân mục $T_\sigma$ + $T_{\text{raw}}$\\(\textit{skills, exp, edu, sum})};
+\node[box, right=of secs] (enc) {Bi-Encoder $\mathcal{E}(\cdot)$\\(Chuẩn $L_2$ $\mathbf{v}^\sigma \in \mathbb{R}^h$)};
+\node[box, fill=orange!8, right=of enc] (idx) {Chỉ mục Đa Vector\\+ BM25 + Skill Cache};
+
+\draw[arrow] (raw) -- (parser);
+\draw[arrow] (parser) -- (secs);
+\draw[arrow] (secs) -- (enc);
+\draw[arrow] (enc) -- (idx);
+\node[above=0.1cm of secs, font=\sffamily\footnotesize\bfseries, text=blue!60!black] {Luồng lập chỉ mục ngoại tuyến ($T_{\text{index}}$)};
+
+\node[box, fill=gray!8, below=1.25cm of raw] (query) {Truy vấn $q$\\+ Tập $\mathcal{P}_q$};
+\node[branch, right=0.7cm of query, yshift=0.82cm, minimum width=4.6cm] (b_dense) {\textbf{1. Section-Aware Dense ($\tilde{S}_{\text{dense}}$)}: Ghép chéo Max + Tái chuẩn hóa};
+\node[branch, right=0.7cm of query, minimum width=4.6cm] (b_lex) {\textbf{2. Từ khóa ($\tilde{S}_{\text{bm25}}$)}: Sublinear TF-IDF / Okapi BM25};
+\node[branch, right=0.7cm of query, yshift=-0.82cm, minimum width=4.6cm] (b_tax) {\textbf{3. Taxonomy 3 tầng ($S_{\text{tax}}$)}: $L_1$ + $L_2$ 2-Hop + $L_3$ Ngữ nghĩa};
+
+\node[box, fill=green!8, right=0.75cm of b_lex, minimum width=3.1cm] (fusion) {\textbf{Dung hợp Hybrid / LTR}\\Calibrated ($\alpha,\beta=0.60$)\\RRF ($k=60$) / Linear LTR};
+\node[box, fill=purple!8, right=0.55cm of fusion] (out) {Danh sách $\pi_{s_\theta}$\\+ Vết giải trình};
+
+\draw[arrow] (query.east) |- (b_dense.west);
+\draw[arrow] (query.east) -- (b_lex.west);
+\draw[arrow] (query.east) |- (b_tax.west);
+\draw[arrow] (b_dense.east) -| ([xshift=-0.3cm]fusion.west) -- (fusion.west);
+\draw[arrow] (b_lex.east) -- (fusion.west);
+\draw[arrow] (b_tax.east) -| ([xshift=-0.3cm]fusion.west) -- (fusion.west);
+\draw[arrow] (fusion) -- (out);
+\node[above=0.08cm of b_dense, font=\sffamily\footnotesize\bfseries, text=teal!60!black] {Luồng chấm điểm trực tuyến ($T_{\text{online}} = T_{\text{query}} + T_{\text{rank}}$)};
+\end{tikzpicture}%
+}
+\caption{Kiến trúc tổng thể tách biệt lập chỉ mục phân mục ngoại tuyến với chấm điểm trực tuyến dưới $35$\,ms trên CPU.}
 \label{fig:arch}
 \end{figure}
 
-Kiến trúc hệ thống (Hình~\ref{fig:arch}) tách biệt thành hai luồng xử lý:
-\begin{itemize}
-    \item \textbf{Luồng Ngoại tuyến (Offline Pipeline)}: Phân đoạn văn bản thô thành các phân mục chức năng thông qua bộ bóc tách quy tắc, tạo vector đặc qua Bi-Encoder đóng băng, và cập nhật chỉ mục cơ sở dữ liệu vector.
-    \item \textbf{Luồng Trực tuyến (Online Pipeline)}: Tiếp nhận truy vấn, tính toán ma trận tương đồng ghép chéo giữa các phân mục, tái chuẩn hóa trọng số động, hợp nhất điểm xếp hạng lai và xuất căn cứ giải trình cấu trúc.
-\end{itemize}
+Hình~\ref{fig:arch} tách biệt hoàn toàn giai đoạn lập chỉ mục đa vector ngoại tuyến khỏi luồng chấm điểm trực tuyến dưới $35$\,ms trên CPU.
 
-\subsection{Bóc tách Phân mục và Biểu diễn Đa Vector Đóng băng}
-Mỗi tài liệu $D$ được phân đoạn thành tối đa $M \le 4$ phân mục chức năng: $\mathcal{S}_{domain} = \{\text{skills}, \text{experience}, \text{education}, \text{summary}\}$, cùng toàn văn $T_{raw}$. Bộ bóc tách phân mục (commit \texttt{41e1d27}) vận hành theo biểu thức chính quy với ranh giới từ và từ điển hơn 40 biến thể tiêu đề chuẩn mực. Để xử lý lỗi dính chữ từ HTML/PDF (như \texttt{SummaryHighly} hay \texttt{EducationGMR}), bộ tách áp dụng lookahead khẳng định nhận diện ranh giới chữ hoa, số hoặc dấu gạch nối ngay sau từ khóa tiêu đề ở đầu dòng (\texttt{\textasciicircum(?i:}\textit{keyword}\texttt{)(?=[A-Z0-9\textbackslash-])}), hoàn toàn không cắt nhầm các danh từ riêng như \texttt{JavaScript} hay \texttt{GitHub}. Khi tài liệu không chứa tiêu đề nhận diện được, cơ chế dự phòng an toàn (Fallback) tự động gán toàn văn $T_{raw}$ vào mục giả định \texttt{full}.
+\subsection{Phân tách phân mục và Biểu diễn đa vector đóng băng}
+Mỗi tài liệu $D$ được phân tách thành tối đa $M \le 4$ phân mục chức năng $\mathcal{S}_{\text{domain}} = \{\text{skills}, \text{experience}, \text{education}, \text{summary}\}$ kèm toàn văn $T_{\text{raw}}$. Bộ tách theo luật đóng băng (commit \texttt{41e1d27}) nhận diện hơn $40$ biến thể tiêu đề và xử lý lỗi dính chữ HTML/PDF (ví dụ \texttt{SummaryHighly}) nhờ ranh giới lookahead dương (\texttt{\textasciicircum(?i:}\textit{keyword}\texttt{)(?=[A-Z0-9\textbackslash-])}), tránh tách nhầm tên riêng camel-case (\texttt{JavaScript}, \texttt{GitHub}). Tài liệu không có tiêu đề nhận diện sẽ dự phòng về \texttt{full}. Mỗi khối văn bản được mã hóa qua Bi-Encoder đóng băng $\mathcal{E}$ (\texttt{all-MiniLM-L6-v2}, $h=384$, $256$ token; hoặc \texttt{BAAI/bge-m3}, $h=1{,}024$, $8{,}192$ token) và chuẩn hóa $L_2$ để độ tương đồng cosine trùng với tích vô hướng $\text{sim}(\mathbf{u}, \mathbf{w}) = \mathbf{u} \cdot \mathbf{w} \in [-1, 1]$.
 
-Mỗi đoạn phân mục $T_m$ và toàn văn $T_{raw}$ được mô hình Bi-Encoder đóng băng $\mathcal{E}(\cdot)$ (\texttt{all-MiniLM-L6-v2}, $d=384$) mã hóa thành vector và chuẩn hóa $L_2$ về mặt cầu đơn vị $\|\mathbf{v}\|_2 = 1.0$, cho phép đo độ tương đồng qua tích vô hướng Cosine $\cos(\mathbf{u}, \mathbf{w}) = \mathbf{u} \cdot \mathbf{w} \in [-1, 1]$.
-
-\subsection{Ghép cặp Chéo và Tái Chuẩn hóa Trọng số Động}
-Do kỹ năng thực tế thường nằm rải rác trong phần mô tả công tác thay vì liệt kê tập trung, hệ thống áp dụng cơ chế \textbf{Ghép cặp Chéo Mục (Cross-Section Pairing)}: mỗi phân mục $\sigma \in \mathcal{S}(q)$ của truy vấn được tìm độ tương đồng lớn nhất trên mọi phân mục hiện diện trong ứng viên $p$. Đồng thời, để xử lý việc JD khuyết thiếu một số phân mục mà không làm méo mó thang điểm, hệ thống thực hiện \textbf{Tái Chuẩn hóa Trọng số Động (Dynamic Weight Renormalization)}:
+\subsection{So khớp chéo phân mục và Tái chuẩn hóa trọng số động}
+Để nắm bắt kỹ năng kỹ thuật lồng trong mô tả kinh nghiệm/dự án đồng thời tránh phạt oan khi thiếu phân mục tùy chọn, mỗi phân mục truy vấn $\sigma \in \mathcal{S}(q)$ ghép cặp với phân mục ứng viên tương đồng nhất và tổng hợp bằng tái chuẩn hóa động:
 \begin{equation}
-    S_{\text{dense}}(q, p) = \frac{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma \cdot c_\sigma(q, p)}{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma}, \quad \text{với } c_\sigma(q, p) = \max_{s \in \mathcal{S}(p)} \cos\big(\mathbf{v}_q^\sigma, \mathbf{v}_p^s\big) \in [-1.0, 1.0],
+    S_{\text{dense}}(q, p) = \frac{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma \cdot c_\sigma(q, p)}{\sum_{\sigma \in \mathcal{S}(q)} w_\sigma}, \quad c_\sigma(q, p) = \max_{s \in \mathcal{S}(p)} \text{sim}\big(\mathbf{v}_q^\sigma, \mathbf{v}_p^s\big),
     \label{eq:cross_dynamic}
 \end{equation}
-trong đó $\mathcal{S}(q)$ là tập các phân mục thực tế có trong bài đăng $q$. Bộ trọng số phân mục cơ sở được đặt tay theo trực giác thiết kế hệ thống (\texttt{src/cvjd/models/matching.py:22--27}): $w_{\text{skills}} = 0.40$, $w_{\text{exp}} = 0.35$, $w_{\text{edu}} = 0.15$, và $w_{\text{sum}} = 0.10$ ($\sum w_\sigma = 1.00$). Khi cả hai tài liệu đều khuyết phân mục ($\mathcal{S}(q)=\emptyset$ hoặc $\mathcal{S}(p)=\emptyset$), hệ thống kích hoạt cơ chế fallback: $S_{\text{dense}}(q, p) = \cos(\mathbf{v}_q^{\text{full}}, \mathbf{v}_p^{\text{full}})$.
+với trọng số cơ sở $w_{\text{skills}} = 0.40$, $w_{\text{experience}} = 0.35$, $w_{\text{education}} = 0.15$ và $w_{\text{summary}} = 0.10$. Nếu $\mathcal{S}(q) = \emptyset$ hoặc $\mathcal{S}(p) = \emptyset$, hệ thống dự phòng về $\text{sim}(\mathbf{v}_q^{\text{full}}, \mathbf{v}_p^{\text{full}})$.
 
-\subsection{Động cơ Xếp hạng Lai Hiệu chuẩn (Calibrated Hybrid Scoring)}
-Hệ thống hợp nhất điểm ngữ nghĩa đặc và điểm từ vựng BM25 thông qua cấu trúc lồng hai chặng (\texttt{scripts/run\_scientific\_benchmark.py:505--508}):
+\subsection{Hệ phân loại kỹ năng 3 tầng nâng cấp và Độ phủ bất đối xứng}
+Nhánh năng lực $S_{\text{tax}}(q, p) \in [0, 1]$ đo độ phủ yêu cầu có hướng ($\mathcal{K}_q \rightarrow \mathcal{K}_p$) trên bộ từ điển đóng băng $615$ khái niệm qua ba tầng:
+\begin{enumerate}
+    \item \textbf{Tầng 1 (Khớp chính xác / Từ đồng nghĩa)}: Biểu thức lookaround theo ranh giới ký tự \texttt{[a-zA-Z0-9\_\#+]} ngăn nhầm lẫn \texttt{Java}/\texttt{JavaScript} hoặc \texttt{C}/\texttt{C++}/\texttt{C\#}, kết hợp bộ tiền lọc chuỗi con chữ thường để tăng tốc trích xuất.
+    \item \textbf{Tầng 2 (Đồ thị quan hệ đa bước)}: Đánh giá các cạnh có hướng có kiểu---\texttt{is\_superset\_of} ($0.80$), \texttt{specialized\_in} ($0.80$), \texttt{framework\_of} ($0.60$) và \texttt{ecosystem\_companion} ($0.25$--$0.50$)---và gán tuyệt đối $0.0$ cho các nhánh anh em không liên kết (ví dụ Next.js $\neq$ Redux). Tìm kiếm BFS giới hạn hỗ trợ chuỗi 2 bước suy giảm ($w_1 \cdot w_2 \cdot 0.85$, chặn trần $0.75$, ví dụ NestJS $\rightarrow$ TypeScript $\rightarrow$ JavaScript).
+    \item \textbf{Tầng 3 (Cầu nối ngữ nghĩa có bộ đệm)}: Khi Tầng~1--2 trả về $0.0$, các vector kỹ năng chuẩn hóa lưu sẵn (kèm vector cụm từ ngoài từ điển OOV) cộng điểm bán phần giới hạn trong $[0.15, 0.45]$ khi $\cos \ge 0.72$.
+\end{enumerate}
+
+Gọi $\mu(t, \mathcal{K}_p) \in [0, 1]$ là mức khớp cao nhất qua Tầng~1--3. Bộ phân loại kỹ năng JD nâng cấp phân biệt tiêu đề mục với tín hiệu câu/mệnh đề (tránh việc cụm từ như \textit{``is a plus''} làm đảo toàn bộ JD một đoạn sang nice-to-have) và loại bỏ mệnh đề phủ định. Với trọng số kỹ năng tùy chọn $w_t$, độ phủ bất đối xứng là $\text{Cov}(\mathcal{T}, \mathcal{K}_p) = \sum_{t \in \mathcal{T}} w_t \mu(t, \mathcal{K}_p) / \sum_{t \in \mathcal{T}} w_t$. Đặt $\text{Cov}_{\text{must}} = \text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p)$ và $\text{Cov}_{\text{nice}} = \text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p)$. Tái chuẩn hóa biên động loại bỏ trần giả $0.85$ khi JD không có kỹ năng ưu tiên:
+\begin{equation}
+    S_{\text{tax}}(q, p) = \begin{cases}
+        1.0, & \text{nếu } \mathcal{K}_{q,\text{must}} = \emptyset \text{ và } \mathcal{K}_{q,\text{nice}} = \emptyset, \\
+        \text{Cov}_{\text{must}}, & \text{nếu } \mathcal{K}_{q,\text{nice}} = \emptyset, \\
+        \text{Cov}_{\text{nice}}, & \text{nếu } \mathcal{K}_{q,\text{must}} = \emptyset, \\
+        0.85\,\text{Cov}_{\text{must}} + 0.15\,\text{Cov}_{\text{nice}}, & \text{trường hợp khác.}
+    \end{cases}
+    \label{eq:stax_renorm}
+\end{equation}
+
+\subsection{Dung hợp Lai Hiệu chỉnh, RRF và Mở rộng có giám sát}
+Điểm cosine đặc và BM25/TF-IDF được hiệu chỉnh bằng chuẩn hóa Min-Max theo từng truy vấn ($\tilde{S}_{\text{dense}}$, $\tilde{S}_{\text{bm25}}$) trên tập $\mathcal{P}_q$ và dung hợp với $\alpha = \beta = 0.60$:
 \begin{equation}
 \begin{aligned}
-    S_{\text{retrieval}}(q, p) &= \alpha \cdot \tilde{S}_{\text{dense}}(q, p) + (1 - \alpha) \cdot \tilde{S}_{\text{bm25}}(q, p), \\
-    S_{\text{hybrid}}(q, p) &= \beta \cdot S_{\text{retrieval}}(q, p) + (1 - \beta) \cdot S_{\text{tax}}(q, p),
+    S_{\text{retrieval}}(q, p) &= \alpha\,\tilde{S}_{\text{dense}}(q, p) + (1 - \alpha)\,\tilde{S}_{\text{bm25}}(q, p), \\
+    S_{\text{hybrid}}(q, p) &= \beta\,S_{\text{retrieval}}(q, p) + (1 - \beta)\,S_{\text{tax}}(q, p) \\
+    &= 0.36\,\tilde{S}_{\text{dense}}(q, p) + 0.24\,\tilde{S}_{\text{bm25}}(q, p) + 0.40\,S_{\text{tax}}(q, p).
 \end{aligned}
-    \label{eq:hybrid_full}
+\label{eq:hybrid_full}
 \end{equation}
-trong đó $\tilde{S}_{\text{dense}}$ và $\tilde{S}_{\text{bm25}}$ được chuẩn hóa Min-Max theo từng candidate pool $\mathcal{P}_q$. Với hệ số hòa trộn $\alpha = 0.60$ và $\beta = 0.60$ (được ấn định từ pha dựng mẫu ban đầu và xác nhận qua quét lưới trên tập huấn luyện), công thức rút gọn thành dạng tổ hợp lồi với các trọng số hiệu dụng:
+Với phương án không cần tinh chỉnh tham số, Reciprocal Rank Fusion (RRF, $k=60$)~\cite{cormack2009reciprocal} tính:
 \begin{equation}
-    S_{\text{hybrid}}(q, p) = 0.36 \cdot \tilde{S}_{\text{dense}}(q, p) + 0.24 \cdot \tilde{S}_{\text{bm25}}(q, p) + 0.40 \cdot S_{\text{tax}}(q, p),
-    \label{eq:hybrid_effective}
+\begin{aligned}
+    S_{\text{RRF}}(q, p) &= \frac{1}{60 + r_{\text{dense}}(p)} + \frac{1}{60 + r_{\text{bm25}}(p)}, \\
+    S_{\text{RRF+Tax}}(q, p) &= 0.60\,\tilde{S}_{\text{RRF}}(q, p) + 0.40\,S_{\text{tax}}(q, p).
+\end{aligned}
+\label{eq:rrf}
 \end{equation}
-đáp ứng tính chất lồi với tổng các trọng số thành phần $0.36 + 0.24 + 0.40 = 1.00$.
 
-\subsection{Xếp hạng Phối hợp Nghịch đảo Không Trọng số Trộn (Weights-Free RRF)}
-Nhằm cung cấp đường cơ sở không phụ thuộc vào việc hiệu chuẩn tham số $\alpha, \beta$, hệ thống hỗ trợ thuật toán Reciprocal Rank Fusion (RRF) \cite{cormack2009reciprocal} phối hợp vị trí thứ hạng giữa hai danh sách Dense và BM25:
-\begin{equation}
-    S_{\text{RRF}}(q, p) = \sum_{m \in \{\text{Dense}, \text{BM25}\}} \frac{1}{k + r_m(p)} = \frac{1}{60 + r_{\text{dense}}(p)} + \frac{1}{60 + r_{\text{bm25}}(p)},
-    \label{eq:rrf}
-\end{equation}
-trong đó $r_m(p) \in \{1, 2, \dots, N_q\}$ là vị trí xếp hạng của ứng viên $p$ trong danh sách $m$, và $k = 60$ là hằng số làm mịn kinh điển. Khi phối hợp cùng taxonomy (\texttt{RRF + Taxonomy}), điểm $S_{\text{RRF}}$ được chuẩn hóa Min-Max theo pool và kết hợp: $S_{\text{RRF+Tax}} = 0.60 \cdot \tilde{S}_{\text{RRF}} + 0.40 \cdot S_{\text{tax}}$.
-
-\subsection{Độ phủ Kỹ năng Bất đối xứng trên Cây Phân loại 3 Tầng}
-Thành phần $S_{\text{tax}}$ đo lường mức độ đáp ứng kỹ năng theo hướng bất đối xứng một chiều từ yêu cầu công việc sang hồ sơ ứng viên ($\mathcal{K}_q \rightarrow \mathcal{K}_p$). Mức độ đáp ứng của ứng viên đối với từng kỹ năng $t \in \mathcal{K}_q$ được tính theo hàm liên tục $\mu(t, \mathcal{K}_p) = 1.0$ nếu $t \in \mathcal{K}_p$ (trùng tên hoặc bí danh), hoặc $\max_{u \in \mathcal{K}_p} \text{rel}(u, t)$ nếu có liên kết quan hệ trong ontology ($0.80$ cho $\texttt{is\_superset\_of}$, $0.60$ cho $\texttt{framework\_of}$, $[0.25, 0.50]$ cho $\texttt{ecosystem\_companion}$), và $0.0$ nếu không có quan hệ.
-
-Độ phủ bất đối xứng trên một tập kỹ năng $\mathcal{T} \subseteq \mathcal{K}_q$ là $\text{Cov}(\mathcal{T}, \mathcal{K}_p) = \frac{1}{|\mathcal{T}|} \sum_{t \in \mathcal{T}} \mu(t, \mathcal{K}_p)$. Điểm Taxonomy tổng hợp kết hợp kỹ năng bắt buộc và ưu tiên (\texttt{scripts/run\_scientific\_benchmark.py:483--492}):
-\begin{equation}
-    S_{\text{tax}}(q, p) = \begin{cases} 
-        1.0, & \text{nếu } |\mathcal{K}_q| = 0 \\ 
-        0.85 \cdot \text{Cov}(\mathcal{K}_{q,\text{must}}, \mathcal{K}_p) + 0.15 \cdot \text{Cov}(\mathcal{K}_{q,\text{nice}}, \mathcal{K}_p), & \text{ngược lại.} 
-    \end{cases}
-    \label{eq:must_nice}
-\end{equation}
-Khi bài đăng JD hoàn toàn không trích xuất được kỹ năng nào ($|\mathcal{K}_q| = 0$, chiếm $12.7\%$ JD), hệ thống gán $S_{\text{tax}}(q, p) = 1.0$ làm phần tử trung tính. Trong mã nguồn thực nghiệm hiện tại, nếu JD không có kỹ năng bắt buộc thì $\text{Cov}(\text{Must}) = 1.0$; nếu không có kỹ năng ưu tiên thì $\text{Cov}(\text{Nice}) = 0.0$ (khiến điểm tối đa của nhóm này đạt $0.85$). Tính chất bất đối xứng này được thảo luận chi tiết trong phần Giới hạn Nghiên cứu.
-
-Bảng~\ref{tab:design_decisions} tổng hợp các quyết định thiết kế kiến trúc, giải pháp thay thế và bằng chứng thực nghiệm của hệ thống.
-
-\input{tables/tab_design_decisions.tex}
+Bên cạnh lõi không cần huấn luyện, chúng tôi đánh giá hai mở rộng có giám sát không rò rỉ dữ liệu: (1)~\textbf{Tinh chỉnh Section-Aware CoSENT} (\texttt{minilm-cvjd-ft}), tối ưu đồng thời \texttt{all-MiniLM-L6-v2} trên cả độ tương đồng toàn văn và theo phân mục qua hàm mất mát cặp trong truy vấn $\mathcal{L}_{\text{CoSENT}}(q) = \log(1 + \sum_{y_{q,i} > y_{q,j}} \omega_{ij} \exp(\tau(s_{q,j} - s_{q,i})))$ ($\tau = 20.0$, $\omega_{ij} \in \{1.0, 1.5\}$); và (2)~\textbf{Học xếp hạng ràng buộc đơn điệu (Monotonic LTR)} trên $16$ đặc trưng phân mục, từ khóa, RRF và taxonomy, so sánh \texttt{MonotonicLinearLTR} chiếu đơn hình (hàm mất mát cặp RankNet kèm điều chuẩn L2 theo tiên nghiệm miền) với tổ hợp $5$-fold \texttt{MonotonicLambdaMART} ràng buộc đơn điệu $+1$.

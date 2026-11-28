@@ -57,3 +57,10 @@ paper_vi/*.out
 paper_vi/*.bbl
 paper_vi/*.blg
 paper_vi/*.toc
+
+# local model weights & raw template archives
+models/
+LaTeX2e+Proceedings+Template+ZIP.zip
+templates/
+paper/DescriptionTexts.txt
+paper_vi/DescriptionTexts.txt

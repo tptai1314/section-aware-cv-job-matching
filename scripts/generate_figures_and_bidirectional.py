@@ -158,22 +158,19 @@ def run_bidirectional_eval():
     j_tax_med = [taxonomy.classify_jd_skills(j) for j in u_jobs_med]
     c_tax_med = [taxonomy.extract_skills_from_text(c) for c in u_cvs_med]
 
-    tax_med = []
-    for j, c in pairs_med:
-        must, nice = j_tax_med[j]
-        all_j = set(must + nice)
-        c_sk = set(c_tax_med[c])
-        if not all_j:
-            tax_med.append(1.0)
-            continue
-        cov_must = sum(1.0 if m in c_sk else max([taxonomy.get_relation_weight(cs, m) for cs in c_sk], default=0.0) for m in must)
-        cov_nice = sum(1.0 if n in c_sk else max([taxonomy.get_relation_weight(cs, n) for cs in c_sk], default=0.0) for n in nice)
-        w_m = 0.85 if must else 0.0
-        w_n = 0.15 if nice else 0.0
-        m_sc = cov_must / len(must) if must else 0.0
-        n_sc = cov_nice / len(nice) if nice else 0.0
-        tax_med.append((w_m * m_sc + w_n * n_sc) / (w_m + w_n))
-    tax_med = np.array(tax_med)
+    tax_med = np.array([
+        taxonomy.score_skills_coverage(
+            j_tax_med[j][0],
+            j_tax_med[j][1],
+            c_tax_med[c],
+            must_weight=0.85,
+            nice_weight=0.15,
+            neutral_score=1.0,
+            use_layer2=True,
+            use_layer3=False,
+        )
+        for j, c in pairs_med
+    ])
 
     # Per-CV-query Min-Max normalization for CV -> JD direction
     norm_sec_cv = np.zeros_like(sec_mixed_med)
@@ -298,9 +295,9 @@ def generate_3panel_figure(lang="en", out_path=None):
         ax2.set_title("(b) Khắc phục Cắt cụt theo Độ dài CV", fontweight="bold")
         ax2.set_ylabel("nDCG@10 (Setting B)")
 
-    v_flat = [0.8230, 0.7158, 0.7490]
-    v_sec = [0.8118, 0.7285, 0.7729]
-    v_hyb = [0.8263, 0.7342, 0.7504]
+    v_flat = [0.8536, 0.7158, 0.7465]
+    v_sec = [0.8357, 0.7285, 0.7776]
+    v_hyb = [0.8693, 0.7353, 0.7585]
 
     x = np.arange(len(strata))
     width = 0.25
@@ -308,13 +305,13 @@ def generate_3panel_figure(lang="en", out_path=None):
     b2 = ax2.bar(x, v_sec, width, label=l_sec, color="#1f77b4", edgecolor="black", linewidth=0.6)
     b3 = ax2.bar(x + width, v_hyb, width, label=l_hyb, color="#2ca02c", edgecolor="black", linewidth=0.6)
 
-    ax2.annotate("+0.0126", xy=(1, 0.7285), xytext=(0.88, 0.742), fontsize=7.8, fontweight="bold", color="#1f77b4")
-    ax2.annotate("+0.0184", xy=(1 + width, 0.7342), xytext=(1.13, 0.750), fontsize=7.8, fontweight="bold", color="#1b7837")
-    ax2.annotate("+0.0239", xy=(2, 0.7729), xytext=(1.85, 0.785), fontsize=8.0, fontweight="bold", color="#1f77b4")
+    ax2.annotate("+0.0127", xy=(1, 0.7285), xytext=(0.88, 0.742), fontsize=7.8, fontweight="bold", color="#1f77b4")
+    ax2.annotate("+0.0195", xy=(1 + width, 0.7353), xytext=(1.13, 0.750), fontsize=7.8, fontweight="bold", color="#1b7837")
+    ax2.annotate("+0.0311", xy=(2, 0.7776), xytext=(1.85, 0.790), fontsize=8.0, fontweight="bold", color="#1f77b4")
 
     ax2.set_xticks(x)
     ax2.set_xticklabels(strata)
-    ax2.set_ylim(0.68, 0.855)
+    ax2.set_ylim(0.68, 0.895)
     ax2.grid(True, axis="y", linestyle="--", alpha=0.4)
     ax2.legend(loc="upper right", frameon=True)
 
@@ -326,9 +323,9 @@ def generate_3panel_figure(lang="en", out_path=None):
             (0.88, 0.5930, "BM25 (0.9ms)", "#7f7f7f", "^"),
             (29.79, 0.6210, "Single-Vector (29.8ms)", "#ff7f0e", "o"),
             (29.90, 0.6328, "Section-Aware (29.9ms)", "#1f77b4", "s"),
-            (33.44, 0.6366, "Calibrated Hybrid (33.4ms)", "#2ca02c", "*"),
-            (33.57, 0.6299, "RRF + Tax. (33.6ms)", "#17becf", "D"),
-            (457.63, 0.5767, "2-Stage CE Top-10 (458ms)", "#9467bd", "v"),
+            (33.44, 0.6351, "Calibrated Hybrid (33.4ms)", "#2ca02c", "*"),
+            (33.57, 0.6307, "RRF + Tax. (33.6ms)", "#17becf", "D"),
+            (457.63, 0.5786, "2-Stage CE Top-10 (458ms)", "#9467bd", "v"),
             (1178.05, 0.5650, "Full Cross-Encoder (1178ms)", "#d62728", "X"),
             (1646.25, 0.6169, "BGE-M3 Sec. (1646ms)", "#8c564b", "P"),
         ]
@@ -340,9 +337,9 @@ def generate_3panel_figure(lang="en", out_path=None):
             (0.88, 0.5930, "BM25 (0.9ms)", "#7f7f7f", "^"),
             (29.79, 0.6210, "Single-Vector (29.8ms)", "#ff7f0e", "o"),
             (29.90, 0.6328, "Section-Aware (29.9ms)", "#1f77b4", "s"),
-            (33.44, 0.6366, "Calibrated Hybrid (33.4ms)", "#2ca02c", "*"),
-            (33.57, 0.6299, "RRF + Tax. (33.6ms)", "#17becf", "D"),
-            (457.63, 0.5767, "2-Stage CE Top-10 (458ms)", "#9467bd", "v"),
+            (33.44, 0.6351, "Calibrated Hybrid (33.4ms)", "#2ca02c", "*"),
+            (33.57, 0.6307, "RRF + Tax. (33.6ms)", "#17becf", "D"),
+            (457.63, 0.5786, "2-Stage CE Top-10 (458ms)", "#9467bd", "v"),
             (1178.05, 0.5650, "Full Cross-Encoder (1178ms)", "#d62728", "X"),
             (1646.25, 0.6169, "BGE-M3 Sec. (1646ms)", "#8c564b", "P"),
         ]
@@ -355,7 +352,7 @@ def generate_3panel_figure(lang="en", out_path=None):
         ax3.scatter(t_ms, map_v, color=col, marker=mk, s=sz, zorder=5, label=lbl, edgecolors="black", linewidths=0.6)
 
     # Pareto frontier line connecting BM25 -> Section-Aware -> Calibrated Hybrid
-    ax3.plot([0.88, 29.90, 33.44], [0.5930, 0.6328, 0.6366], "--", color="#2ca02c", lw=1.6, alpha=0.8, zorder=4)
+    ax3.plot([0.88, 29.90, 33.44], [0.5930, 0.6328, 0.6351], "--", color="#2ca02c", lw=1.6, alpha=0.8, zorder=4)
     ax3.set_xscale("log")
     ax3.set_xlim(0.5, 3000)
     ax3.set_ylim(0.555, 0.648)

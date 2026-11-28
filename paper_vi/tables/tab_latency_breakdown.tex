@@ -1,23 +1,24 @@
-% Bảng cấu hình độ trễ 3 pha chuẩn hóa trên CPU Intel Core i7
-\begin{table*}[t]
+% Phân tách độ trễ CPU 3 pha (Tiếng Việt)
+\begin{table}[tbp]
 \centering
-\caption{Cấu hình Độ trễ Chuẩn hóa qua Các Chặng Truy xuất và Xếp hạng (đo trên CPU đa nhân Intel Core i7, kích thước pool $N=25$ ứng viên). $T_{\text{index}}$: thời gian đánh chỉ mục ngoại tuyến; $T_{\text{query}}$: thời gian mã hóa truy vấn trực tuyến; $T_{\text{rank}}$: thời gian tính điểm và xếp hạng trực tuyến cho $N=25$ ứng viên (trung vị [IQR]); $T_{\text{online}} = T_{\text{query}} + T_{\text{rank}}$: độ trễ trực tuyến toàn trình. Các giá trị nhỏ hơn $0.10$\,ms chạm ngưỡng phân giải bộ đếm thời gian được ký hiệu là $<0.10$\,ms.}
+\caption{Hồ sơ độ trễ CPU 3 pha chuẩn hóa (Intel Core i7, Pool $N=25$) và đánh đổi chất lượng so với bộ xếp hạng lại Cross-Encoder (Setting~A, $N=71$). $T_{\text{online}} = T_{\text{query}} + T_{\text{rank}}$ là tổng độ trễ trực tuyến đầu-cuối.}
 \label{tab:latency_breakdown}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{lrrrrr}
-\hline
-\textbf{Phương pháp / Kiến trúc} & \textbf{$T_{\text{index}}$ (ms/tài liệu)} & \textbf{$T_{\text{query}}$ (ms)} & \textbf{$T_{\text{rank}}$ ($N=25$)} & \textbf{$T_{\text{online}}$ (ms)} & \textbf{Đặc trưng Tính toán} \\
-\hline
-BM25 / TF-IDF (Từ vựng) & 0.64 & 0.72 & 0.16\,ms & 0.88 & Tích vô hướng từ vựng thưa trên inverted index \\
-Đơn Vector Phẳng (MiniLM) & 19.25 & 29.78 & $<0.10$\,ms & 29.79 & Nhân ma trận vector đặc (kích thước 384) \\
-Đa Vector Nhận biết Mục (Ours) & 84.85 & 29.78 & 0.12\,ms & 29.90 & Cosine ghép chéo có tái chuẩn hóa trọng số động \\
-BGE-M3 Phẳng (Ngữ cảnh dài) & 3012.90 & 1646.12 & $<0.10$\,ms & 1646.13 & Nhân ma trận vector đặc kích thước 1024 \\
-BGE-M3 Nhận biết Phân mục & 3314.19 & 1646.12 & 0.13\,ms & 1646.25 & Cosine đa mục có trọng số kích thước 1024 \\
-Mô hình Lai Hiệu chuẩn (Ours) & 85.49 & 30.75 & 2.69\,ms & 33.44 & Hợp nhất điểm MinMax + bao phủ taxonomy \\
-RRF + Taxonomy ($k=60$) & 85.49 & 30.75 & 2.83\,ms & 33.57 & Phối hợp xếp hạng nghịch đảo (k=60) + taxonomy \\
-2 Chặng: Hybrid $\rightarrow$ CE (Top-10) & -- & 30.75 & 426.9\,ms & 457.63 & Sinh ứng viên Chặng 1 + Chú ý chéo Top-10 \\
-Cross-Encoder Toàn phần & -- & -- & 1178.0\,ms & 1178.05 & Nối chuỗi cặp toàn bộ N=25 trên CPU \\
-\hline
+\begin{tabular}{lrrrrrrr}
+\toprule
+\textbf{Phương pháp / Kiến trúc} & \textbf{nDCG@10} & \textbf{MAP} & \textbf{$T_{\text{index}}$ (ms/tài liệu)} & \textbf{$T_{\text{query}}$ (ms)} & \textbf{$T_{\text{rank}}$ ($N=25$)} & \textbf{$T_{\text{online}}$ (ms)} & \textbf{Đặc tính tính toán} \\
+\midrule
+BM25 / TF-IDF (Từ khóa) & 0.5773 & 0.5930 & 0.64 & 0.72 & 0.16\,ms & 0.88 & Tích vô hướng chỉ mục ngược thưa \\
+Single-Vector Dense (MiniLM) & 0.6146 & 0.6210 & 19.25 & 29.78 & $<0.10$\,ms & 29.79 & Nhân ma trận đặc 384 chiều \\
+Section-Aware Dense (Đề xuất) & 0.6170 & 0.6328 & 84.85 & 29.78 & 0.12\,ms & 29.90 & Cosine chéo phân mục động \\
+BGE-M3 Flat (8.192 tok) & 0.5937 & 0.6167 & 3012.90 & 1646.12 & $<0.10$\,ms & 1646.13 & Nhân ma trận đặc 1024 chiều \\
+BGE-M3 Section-Aware & 0.6086 & 0.6169 & 3314.19 & 1646.12 & 0.13\,ms & 1646.25 & Cosine phân mục 1024 chiều \\
+\textbf{Calibrated Hybrid (Đề xuất)} & \textbf{0.6196} & \textbf{0.6351} & 85.49 & 30.75 & \textbf{2.69\,ms} & \textbf{33.44} & Dung hợp MinMax + Taxonomy 3 tầng \\
+RRF + Taxonomy ($k=60$) & 0.6169 & 0.6307 & 85.49 & 30.75 & 2.83\,ms & 33.57 & RRF ($k=60$) + độ phủ taxonomy \\
+2-Stage: Hybrid $\rightarrow$ CE (Top-10) & 0.5770 & 0.5786 & -- & 30.75 & 426.90\,ms & 457.63 & Tầng 1 + cross-attention Top-10 \\
+2-Stage: Hybrid $\rightarrow$ CE (Top-20) & 0.5572 & 0.5681 & -- & 30.75 & 868.02\,ms & 898.77 & Tầng 1 + cross-attention Top-20 \\
+Full Cross-Encoder (\texttt{ms-marco}) & 0.5531 & 0.5650 & -- & -- & 1178.05\,ms & 1178.05 & Cross-attention toàn bộ $N=25$ cặp \\
+\bottomrule
 \end{tabular}%
 }
-\end{table*}
+\end{table}

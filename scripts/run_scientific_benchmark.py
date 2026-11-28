@@ -425,6 +425,7 @@ def main() -> None:
     # 7. Taxonomy 2D Ablation Suite
     print("\n--> [Step 6/8] Building 2D Taxonomy Ablation Matrix ...", flush=True)
     taxonomy = get_taxonomy()
+    taxonomy.attach_skill_embeddings(lambda xs: minilm.encode(xs, batch_size=64, normalize_embeddings=True))
     job_skills_pre = [taxonomy.classify_jd_skills(j) for j in unique_jobs]
     cv_skills_pre = [taxonomy.extract_skills_from_text(c) for c in unique_cvs]
 
@@ -480,16 +481,18 @@ def main() -> None:
                                 cov += max_rel
                         scores.append(cov / len(all_j_skills))
                     elif layer == "L1_L2_L3_must_nice":
-                        cov_must = 0.0
-                        for m in must:
-                            if m in c_skills:
-                                cov_must += 1.0
-                            else:
-                                max_rel = max([taxonomy.get_relation_weight(cs, m) for cs in c_skills], default=0.0)
-                                cov_must += max_rel
-                        must_score = cov_must / len(must) if must else 1.0
-                        nice_score = sum(1.0 for n in nice if n in c_skills) / len(nice) if nice else 0.0
-                        scores.append(0.85 * must_score + 0.15 * nice_score)
+                        scores.append(
+                            taxonomy.score_skills_coverage(
+                                must,
+                                nice,
+                                list(c_skills),
+                                must_weight=0.85,
+                                nice_weight=0.15,
+                                neutral_score=1.0,
+                                use_layer2=True,
+                                use_layer3=True,
+                            )
+                        )
 
             tax_scores_2d[key] = np.array(scores)
 

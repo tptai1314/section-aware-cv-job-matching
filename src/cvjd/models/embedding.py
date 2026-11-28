@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from pathlib import Path
 import re
 import zlib
 from typing import Iterable, Protocol
@@ -97,8 +98,14 @@ def create_embedder(name: str = "mock", **kwargs) -> Embedder:
         kwargs.setdefault("model_name", BGE_M3_MODEL_ID)
         kwargs.setdefault("trust_remote_code", True)
         return SentenceTransformerEmbedder(**kwargs)
-    # Support arbitrary Hugging Face sentence-transformers model names
-    if "/" in name or "minilm" in name.lower() or "bge" in name.lower():
+    # Support arbitrary Hugging Face sentence-transformers model names or local checkpoint paths
+    if (
+        "/" in name
+        or "\\" in name
+        or "minilm" in name.lower()
+        or "bge" in name.lower()
+        or Path(name).exists()
+    ):
         kwargs.setdefault("model_name", name)
         return SentenceTransformerEmbedder(**kwargs)
     raise ValueError(f"unknown embedder: {name!r}")

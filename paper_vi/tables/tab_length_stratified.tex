@@ -1,20 +1,20 @@
-% Bảng phân tích phân tầng theo độ dài CV (Length-Stratified Analysis)
-\begin{table*}[t]
+% Phân tầng theo độ dài CV (Tiếng Việt)
+\begin{table}[tbp]
 \centering
-\caption{Phân tích Hiệu năng Xếp hạng Phân tầng theo Độ dài Hồ sơ (Length-Stratified Analysis trên Setting B): Đánh giá khả năng khắc phục hiện tượng cắt cụt văn bản (Truncation) của biểu diễn đa vector phân mục. Khi độ dài CV vượt ngưỡng cửa sổ $256$ tokens, khoảng cách chiến thắng của Section-Aware so với Single-Vector tăng đơn điệu ($\Delta\text{nDCG@10}: -0.0112 \rightarrow +0.0126 \rightarrow +0.0239$).}
+\caption{Hiệu năng xếp hạng phân tầng theo độ dài CV trên Setting~B (\texttt{cnamuangtoun/resume-job-description-fit}): Khi độ dài CV vượt cửa sổ $256$ token của Bi-Encoder, Section-Aware Dense cho mức tăng đơn điệu so với Flat Single-Vector ($\Delta\text{nDCG@10}: -0.0179 \rightarrow +0.0127 \rightarrow +0.0311$).}
 \label{tab:length_stratified}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lrrcccccc}
-\hline
-\textbf{Phân tầng Độ dài CV} & \textbf{Số JD} & \textbf{Số cặp} & \textbf{Single-Vector Phẳng} & \textbf{Section-Aware} & \textbf{$\Delta$ Section vs. Flat} & \textbf{Calibrated Hybrid} & \textbf{$\Delta$ Hybrid vs. Flat} & \textbf{Tỷ lệ bị cắt cụt} \\
- & ($N_q$) & ($N_{\text{pairs}}$) & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{ở Flat 256-tok} \\
-\hline
-CV Ngắn / Trung bình ($\le 350$ từ) & 31 & 189 & 0.8230 / 0.7499 & 0.8118 / 0.7400 & $-0.0112$ / $-0.0099$ & \textbf{0.8263} / \textbf{0.7616} & $+0.0033$ / $+0.0117$ & $18.5\%$ \\
-CV Dài ($> 350$ từ) & 60 & 1,472 & 0.7158 / 0.7317 & 0.7285 / 0.7504 & $+0.0126$ / $+0.0187$ & \textbf{0.7342} / \textbf{0.7593} & $\mathbf{+0.0184}$ / $\mathbf{+0.0276}$ & $100.0\%$ \\
-CV Rất dài ($> 600$ từ) & 47 & 896 & 0.7490 / 0.7688 & \textbf{0.7729} / \textbf{0.7769} & $\mathbf{+0.0239}$ / $\mathbf{+0.0081}$ & 0.7504 / 0.7687 & $+0.0015$ / $-0.0002$ & $100.0\%$ \\
-\hline
-Toàn bộ Hồ sơ (Gộp chung Setting B) & 61 & 1,703 & 0.7153 / 0.7228 & \textbf{0.7182} / 0.7365 & $+0.0029$ / $+0.0137$ & 0.7173 / \textbf{0.7410} & $+0.0020$ / $\mathbf{+0.0182}$ & $91.4\%$ \\
-\hline
+\toprule
+\textbf{Phân tầng độ dài CV} & \textbf{Truy vấn} & \textbf{Cặp} & \textbf{Flat 256-tok} & \textbf{Section-Aware} & \textbf{$\Delta$ Section vs.\ Flat} & \textbf{Calibrated Hybrid} & \textbf{$\Delta$ Hybrid vs.\ Flat} & \textbf{Tỷ lệ cắt cụt} \\
+ & ($N_q$) & ($N_{\text{pairs}}$) & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{nDCG@10 / MAP} & \textbf{Flat (\%)} \\
+\midrule
+Ngắn / Trung bình ($\le 350$ từ) & 40 & 204 & 0.8536 / 0.7937 & 0.8357 / 0.7735 & $-0.0179$ / $-0.0202$ & \textbf{0.8693} / \textbf{0.8194} & $\mathbf{+0.0157}$ / $\mathbf{+0.0257}$ & $18.5\%$ \\
+CV dài ($> 350$ từ) & 60 & 1,472 & 0.7158 / 0.7317 & 0.7285 / 0.7504 & $+0.0127$ / $+0.0187$ & \textbf{0.7353} / \textbf{0.7580} & $\mathbf{+0.0195}$ / $\mathbf{+0.0263}$ & $100.0\%$ \\
+CV rất dài ($> 600$ từ) & 48 & 898 & 0.7465 / 0.7632 & \textbf{0.7776} / \textbf{0.7816} & $\mathbf{+0.0311}$ / $\mathbf{+0.0184}$ & 0.7585 / 0.7747 & $+0.0120$ / $+0.0115$ & $100.0\%$ \\
+\midrule
+Toàn tập gộp (Setting B) & 61 & 1,703 & 0.7154 / 0.7228 & 0.7182 / 0.7365 & $+0.0028$ / $+0.0137$ & \textbf{0.7212} / \textbf{0.7392} & $\mathbf{+0.0058}$ / $\mathbf{+0.0164}$ & $91.4\%$ \\
+\bottomrule
 \end{tabular}%
 }
-\end{table*}
+\end{table}

@@ -1,24 +1,24 @@
-% Bảng thẩm định chéo hai chiều độc lập trên tập med2425 (JD -> CV và CV -> JD)
-\begin{table*}[t]
+% Kiểm chứng hai chiều trên med2425 (Tiếng Việt)
+\begin{table}[tbp]
 \centering
-\caption{Thẩm định Chéo Hai chiều Độc lập trên Tập Dữ liệu Mật độ Cao \texttt{med2425/resume-job-fit-merged-v1} (Lĩnh vực CNTT: $8.575$ cặp giữa $41$ JD và $277$ CV, nhãn chuyên gia Qwen2.5-32B). Chiều~1 đánh giá Sàng lọc Ứng viên ($\text{JD} \rightarrow \text{CV}$, $N=41$ truy vấn, $\approx 209$ CV/JD); Chiều~2 đánh giá Gợi ý Việc làm Ngược ($\text{CV} \rightarrow \text{JD}$, $N=272$ truy vấn ứng viên hợp lệ, $\approx 31$ JD/CV).}
+\caption{Kiểm chứng hai chiều trên tập mật độ cao \texttt{med2425/resume-job-fit-merged-v1} (Miền CNTT: $8{,}575$ cặp trên $41$ JD và $277$ CV, nhãn chuyên gia Qwen2.5-32B). Chiều~1 đánh giá Sàng lọc ứng viên ($\text{JD} \rightarrow \text{CV}$, $N=41$, $\approx 209$ CV/JD); Chiều~2 đánh giá Gợi ý việc làm ngược ($\text{CV} \rightarrow \text{JD}$, $N=272$, $\approx 31$ JD/CV).}
 \label{tab:med2425_benchmark}
 \resizebox{\textwidth}{!}{%
 \begin{tabular}{lrrrrrrrrr}
-\hline
- & \multicolumn{5}{c}{\textbf{Chiều 1: Sàng lọc Ứng viên ($\text{JD} \rightarrow \text{CV}$, $N=41$)}} & \multicolumn{4}{c}{\textbf{Chiều 2: Gợi ý Việc làm ($\text{CV} \rightarrow \text{JD}$, $N=272$)}} \\
+\toprule
+ & \multicolumn{5}{c}{\textbf{Chiều 1: Sàng lọc ứng viên ($\text{JD} \rightarrow \text{CV}$, $N=41$)}} & \multicolumn{4}{c}{\textbf{Chiều 2: Gợi ý việc làm ($\text{CV} \rightarrow \text{JD}$, $N=272$)}} \\
 \cmidrule(lr){2-6} \cmidrule(lr){7-10}
 \textbf{Mô hình / Kiến trúc} & \textbf{nDCG@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{P@5} & \textbf{nDCG@10} & \textbf{MRR} & \textbf{MAP} & \textbf{P@5} \\
-\hline
-Xếp hạng Ngẫu nhiên (Floor) & 0.2231 & 0.2350 & 0.5748 & 0.4179 & 0.3854 & 0.3304 & 0.5880 & 0.4650 & 0.4088 \\
-BM25 / TF-IDF (Từ vựng) & 0.5736 & 0.5427 & 0.9129 & 0.6052 & 0.7415 & 0.5728 & 0.8162 & 0.6467 & 0.6471 \\
-MiniLM Đơn Vector Phẳng (Flat) & 0.5355 & 0.5393 & 0.8189 & 0.6323 & 0.7366 & 0.5540 & \textbf{0.8324} & 0.6285 & 0.6596 \\
-MiniLM Đa Vector Kết hợp (Section-Mixed) & 0.5567 & 0.5489 & 0.7863 & 0.6348 & 0.7561 & 0.5725$^\star$ & 0.8211 & 0.6400$^\star$ & 0.6743 \\
-Dense + BM25 ($L_0$: Không Taxonomy) & 0.6198 & 0.5879 & 0.8892 & 0.6438 & 0.7659 & 0.5973$^\star$ & 0.8131 & 0.6648$^\star$ & 0.6846 \\
-Calibrated Hybrid (Dense+BM25+Tax) & \textbf{0.6221}$^\dagger$ & \textbf{0.6242}$^{\star\dagger}$ & \textbf{0.9142} & \textbf{0.6814}$^\star$ & \textbf{0.7805} & \textbf{0.6395}$^{\star\dagger}$ & 0.8227 & \textbf{0.6776}$^{\star\dagger}$ & \textbf{0.6934} \\
-Xếp hạng Hoàn hảo Oracle (Ceiling) & 1.0000 & 1.0000 & 1.0000 & 1.0000 & 0.9951 & 1.0000 & 1.0000 & 1.0000 & 0.8419 \\
-\hline
-\multicolumn{10}{l}{\footnotesize $^\star$Ý nghĩa thống kê so với Single-Vector ($p < 0.05$; ở Chiều~2: Section-Mixed $\bar{\Delta}=+0.0185, p=0.0022$; Hybrid $\bar{\Delta}=+0.0855, p<0.0001$). $^\dagger$Ý nghĩa so với Dense+BM25 ($p < 0.05$).}
+\midrule
+Xếp hạng ngẫu nhiên (Sàn) & 0.2231 & 0.2350 & 0.5748 & 0.4179 & 0.3854 & 0.3304 & 0.5880 & 0.4650 & 0.4088 \\
+BM25 / TF-IDF (Từ khóa) & 0.5736 & 0.5427 & \textbf{0.9129} & 0.6052 & 0.7415 & 0.5728 & 0.8162 & 0.6467 & 0.6471 \\
+MiniLM Single-Vector (Flat) & 0.5355 & 0.5393 & 0.8189 & 0.6323 & 0.7366 & 0.5540 & \textbf{0.8324} & 0.6285 & 0.6596 \\
+MiniLM Section-Aware (Đề xuất) & 0.5207 & 0.5136 & 0.7859 & 0.6132 & 0.7171 & 0.5725$^\star$ & 0.8211 & 0.6400$^\star$ & 0.6743 \\
+Dense + BM25 ($L_0$: Không Tax.) & 0.6198 & 0.5879 & 0.8892 & 0.6438 & 0.7659 & 0.5973$^\star$ & 0.8131 & 0.6648$^\star$ & 0.6846 \\
+Calibrated Hybrid (Dense+BM25+Tax) & \textbf{0.6286} & \textbf{0.6249}$^{\star\dagger}$ & 0.9020 & \textbf{0.6833}$^\star$ & \textbf{0.7902} & \textbf{0.6401}$^{\star\dagger}$ & 0.8202 & \textbf{0.6853}$^{\star\dagger}$ & \textbf{0.7000} \\
+Xếp hạng Oracle (Trần) & 1.0000 & 1.0000 & 1.0000 & 1.0000 & 0.9951 & 1.0000 & 1.0000 & 1.0000 & 0.8419 \\
+\bottomrule
+\multicolumn{10}{l}{\footnotesize $^\star$Có ý nghĩa thống kê so với Single-Vector ($p < 0.05$; Chiều~2: Section-Aware Mixed $\bar{\Delta}=+0.0185, p=0.0022$; Hybrid $\bar{\Delta}=+0.0860, p<0.0001$). $^\dagger$Có ý nghĩa so với Dense+BM25 ($p < 0.05$).}
 \end{tabular}%
 }
-\end{table*}
+\end{table}

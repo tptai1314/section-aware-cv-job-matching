@@ -1,0 +1,947 @@
+{
+  "feature_names": [
+    "sim_flat_raw",
+    "sim_flat_norm",
+    "sim_sec_raw",
+    "sim_sec_norm",
+    "sim_skills",
+    "sim_experience",
+    "sim_education",
+    "sim_summary",
+    "sim_sec_max",
+    "sim_sec_mean",
+    "bm25_raw",
+    "bm25_norm",
+    "rrf_norm",
+    "tax_must_cov",
+    "tax_nice_cov",
+    "tax_full_cov"
+  ],
+  "learned_weights_frozen_linear": {
+    "sim_flat_raw": 0.02433,
+    "sim_flat_norm": 0.0,
+    "sim_sec_raw": 0.0,
+    "sim_sec_norm": 0.0,
+    "sim_skills": 0.06358,
+    "sim_experience": 0.06581,
+    "sim_education": 0.0864,
+    "sim_summary": 0.04792,
+    "sim_sec_max": 0.0,
+    "sim_sec_mean": 0.0,
+    "bm25_raw": 0.24141,
+    "bm25_norm": 0.0,
+    "rrf_norm": 0.0,
+    "tax_must_cov": 0.0314,
+    "tax_nice_cov": 0.43915,
+    "tax_full_cov": 0.0
+  },
+  "learned_weights_finetuned_linear": {
+    "sim_flat_raw": 0.02853,
+    "sim_flat_norm": 0.0,
+    "sim_sec_raw": 0.0,
+    "sim_sec_norm": 0.0,
+    "sim_skills": 0.15071,
+    "sim_experience": 0.23456,
+    "sim_education": 0.15773,
+    "sim_summary": 0.02933,
+    "sim_sec_max": 0.06762,
+    "sim_sec_mean": 0.0,
+    "bm25_raw": 0.25009,
+    "bm25_norm": 0.0,
+    "rrf_norm": 0.0,
+    "tax_must_cov": 0.04054,
+    "tax_nice_cov": 0.02998,
+    "tax_full_cov": 0.01091
+  },
+  "learned_importance_frozen_lambdamart": {
+    "sim_flat_raw": 0.00481,
+    "sim_flat_norm": 0.13377,
+    "sim_sec_raw": 0.00127,
+    "sim_sec_norm": 0.35852,
+    "sim_skills": 0.00315,
+    "sim_experience": 0.02035,
+    "sim_education": 0.00707,
+    "sim_summary": 0.0319,
+    "sim_sec_max": 0.01765,
+    "sim_sec_mean": 0.02415,
+    "bm25_raw": 0.04465,
+    "bm25_norm": 0.08359,
+    "rrf_norm": 0.2429,
+    "tax_must_cov": 0.00985,
+    "tax_nice_cov": 0.00488,
+    "tax_full_cov": 0.0115
+  },
+  "learned_importance_finetuned_lambdamart": {
+    "sim_flat_raw": 0.24368,
+    "sim_flat_norm": 0.11496,
+    "sim_sec_raw": 0.03612,
+    "sim_sec_norm": 0.15564,
+    "sim_skills": 0.00783,
+    "sim_experience": 0.11119,
+    "sim_education": 0.01018,
+    "sim_summary": 0.03184,
+    "sim_sec_max": 0.00462,
+    "sim_sec_mean": 0.03816,
+    "bm25_raw": 0.0153,
+    "bm25_norm": 0.09863,
+    "rrf_norm": 0.12392,
+    "tax_must_cov": 0.00619,
+    "tax_nice_cov": 0.0015,
+    "tax_full_cov": 0.00026
+  },
+  "cpu_latency_ms_per_query_N25": {
+    "ltr_linear_ms": 0.0012,
+    "ltr_lambdamart_ms": 1.994
+  },
+  "in_domain_statistical_tests_setting_A": {
+    "LTR-Linear (Frozen) vs Heuristic Hybrid (Frozen)": {
+      "ndcg@10_delta": 0.0013,
+      "ndcg@10_ci95": [
+        -0.0243,
+        0.0255
+      ],
+      "ndcg@10_ttest_p": 0.91595,
+      "ndcg@10_wilcoxon_p": 0.96624,
+      "map_delta": 0.0142,
+      "map_ci95": [
+        -0.0116,
+        0.0421
+      ],
+      "map_ttest_p": 0.29584,
+      "map_wilcoxon_p": 0.02744
+    },
+    "LTR-Ensemble (Frozen) vs Heuristic Hybrid (Frozen)": {
+      "ndcg@10_delta": 0.0048,
+      "ndcg@10_ci95": [
+        -0.0211,
+        0.0302
+      ],
+      "ndcg@10_ttest_p": 0.70094,
+      "ndcg@10_wilcoxon_p": 0.52761,
+      "map_delta": 0.0155,
+      "map_ci95": [
+        -0.011,
+        0.0438
+      ],
+      "map_ttest_p": 0.26645,
+      "map_wilcoxon_p": 0.01884
+    },
+    "LTR-Linear (FT) vs Heuristic Hybrid (FT)": {
+      "ndcg@10_delta": 0.0351,
+      "ndcg@10_ci95": [
+        0.0041,
+        0.0623
+      ],
+      "ndcg@10_ttest_p": 0.02104,
+      "ndcg@10_wilcoxon_p": 0.00072,
+      "map_delta": 0.0269,
+      "map_ci95": [
+        -0.0088,
+        0.0585
+      ],
+      "map_ttest_p": 0.12629,
+      "map_wilcoxon_p": 0.00021
+    },
+    "LTR-Ensemble (FT) vs Heuristic Hybrid (FT)": {
+      "ndcg@10_delta": 0.0176,
+      "ndcg@10_ci95": [
+        -0.0094,
+        0.0376
+      ],
+      "ndcg@10_ttest_p": 0.14547,
+      "ndcg@10_wilcoxon_p": 0.00074,
+      "map_delta": 0.0083,
+      "map_ci95": [
+        -0.0223,
+        0.0279
+      ],
+      "map_ttest_p": 0.53372,
+      "map_wilcoxon_p": 0.00023
+    },
+    "LTR-Linear (FT) vs Heuristic Hybrid (Frozen Baseline)": {
+      "ndcg@10_delta": 0.0439,
+      "ndcg@10_ci95": [
+        0.0179,
+        0.0705
+      ],
+      "ndcg@10_ttest_p": 0.00201,
+      "ndcg@10_wilcoxon_p": 0.00128,
+      "map_delta": 0.0507,
+      "map_ci95": [
+        0.0257,
+        0.0795
+      ],
+      "map_ttest_p": 0.00062,
+      "map_wilcoxon_p": 3e-05
+    },
+    "LTR-Ensemble (FT) vs Heuristic Hybrid (Frozen Baseline)": {
+      "ndcg@10_delta": 0.0264,
+      "ndcg@10_ci95": [
+        0.0026,
+        0.0487
+      ],
+      "ndcg@10_ttest_p": 0.02262,
+      "ndcg@10_wilcoxon_p": 0.00832,
+      "map_delta": 0.0321,
+      "map_ci95": [
+        0.0057,
+        0.0553
+      ],
+      "map_ttest_p": 0.00983,
+      "map_wilcoxon_p": 0.00019
+    }
+  },
+  "in_domain_setting_A_all_71": {
+    "Section-Aware Dense (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6053,
+        "ndcg@10": 0.617,
+        "mrr": 0.7091,
+        "map": 0.6328,
+        "p@5": 0.4986
+      },
+      "spearman_micro": 0.1529,
+      "spearman_macro": 0.2835
+    },
+    "Calibrated Hybrid Heuristic (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6026,
+        "ndcg@10": 0.6196,
+        "mrr": 0.6948,
+        "map": 0.6351,
+        "p@5": 0.4789
+      },
+      "spearman_micro": 0.1831,
+      "spearman_macro": 0.2899
+    },
+    "LTR-Linear Simplex (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6152,
+        "ndcg@10": 0.6209,
+        "mrr": 0.7028,
+        "map": 0.6493,
+        "p@5": 0.4958
+      },
+      "spearman_micro": 0.1947,
+      "spearman_macro": 0.3282
+    },
+    "LTR-LambdaMART 5-Fold (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.5974,
+        "ndcg@10": 0.616,
+        "mrr": 0.6966,
+        "map": 0.6335,
+        "p@5": 0.4761
+      },
+      "spearman_micro": 0.1918,
+      "spearman_macro": 0.2992
+    },
+    "LTR-Ensemble (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6139,
+        "ndcg@10": 0.6244,
+        "mrr": 0.7253,
+        "map": 0.6507,
+        "p@5": 0.4817
+      },
+      "spearman_micro": 0.2187,
+      "spearman_macro": 0.3265
+    },
+    "Section-Aware Dense (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6695,
+        "ndcg@10": 0.6671,
+        "mrr": 0.756,
+        "map": 0.6885,
+        "p@5": 0.5324
+      },
+      "spearman_micro": 0.2752,
+      "spearman_macro": 0.3977
+    },
+    "Calibrated Hybrid Heuristic (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6178,
+        "ndcg@10": 0.6285,
+        "mrr": 0.6972,
+        "map": 0.6589,
+        "p@5": 0.4901
+      },
+      "spearman_micro": 0.2362,
+      "spearman_macro": 0.3669
+    },
+    "LTR-Linear Simplex (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6534,
+        "ndcg@10": 0.6636,
+        "mrr": 0.7498,
+        "map": 0.6858,
+        "p@5": 0.5183
+      },
+      "spearman_micro": 0.3062,
+      "spearman_macro": 0.4051
+    },
+    "LTR-LambdaMART 5-Fold (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6346,
+        "ndcg@10": 0.6403,
+        "mrr": 0.6986,
+        "map": 0.6641,
+        "p@5": 0.5239
+      },
+      "spearman_micro": 0.2904,
+      "spearman_macro": 0.3904
+    },
+    "LTR-Ensemble (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.641,
+        "ndcg@10": 0.646,
+        "mrr": 0.7378,
+        "map": 0.6672,
+        "p@5": 0.5211
+      },
+      "spearman_micro": 0.3012,
+      "spearman_macro": 0.3898
+    }
+  },
+  "in_domain_setting_B_rel_ge_1": {
+    "Section-Aware Dense (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7046,
+        "ndcg@10": 0.7182,
+        "mrr": 0.8253,
+        "map": 0.7365,
+        "p@5": 0.5803
+      },
+      "spearman_micro": 0.1392,
+      "spearman_macro": 0.2835
+    },
+    "Calibrated Hybrid Heuristic (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7014,
+        "ndcg@10": 0.7212,
+        "mrr": 0.8087,
+        "map": 0.7392,
+        "p@5": 0.5574
+      },
+      "spearman_micro": 0.1853,
+      "spearman_macro": 0.2899
+    },
+    "LTR-Linear Simplex (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7161,
+        "ndcg@10": 0.7227,
+        "mrr": 0.818,
+        "map": 0.7558,
+        "p@5": 0.577
+      },
+      "spearman_micro": 0.179,
+      "spearman_macro": 0.3282
+    },
+    "LTR-LambdaMART 5-Fold (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6954,
+        "ndcg@10": 0.717,
+        "mrr": 0.8108,
+        "map": 0.7374,
+        "p@5": 0.5541
+      },
+      "spearman_micro": 0.1941,
+      "spearman_macro": 0.2992
+    },
+    "LTR-Ensemble (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7145,
+        "ndcg@10": 0.7268,
+        "mrr": 0.8442,
+        "map": 0.7573,
+        "p@5": 0.5607
+      },
+      "spearman_micro": 0.2238,
+      "spearman_macro": 0.3265
+    },
+    "Section-Aware Dense (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7792,
+        "ndcg@10": 0.7765,
+        "mrr": 0.8799,
+        "map": 0.8014,
+        "p@5": 0.6197
+      },
+      "spearman_micro": 0.2444,
+      "spearman_macro": 0.3977
+    },
+    "Calibrated Hybrid Heuristic (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.719,
+        "ndcg@10": 0.7315,
+        "mrr": 0.8115,
+        "map": 0.7669,
+        "p@5": 0.5705
+      },
+      "spearman_micro": 0.2371,
+      "spearman_macro": 0.3669
+    },
+    "LTR-Linear Simplex (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7605,
+        "ndcg@10": 0.7723,
+        "mrr": 0.8727,
+        "map": 0.7983,
+        "p@5": 0.6033
+      },
+      "spearman_micro": 0.2774,
+      "spearman_macro": 0.4051
+    },
+    "LTR-LambdaMART 5-Fold (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7386,
+        "ndcg@10": 0.7452,
+        "mrr": 0.8131,
+        "map": 0.773,
+        "p@5": 0.6098
+      },
+      "spearman_micro": 0.2695,
+      "spearman_macro": 0.3904
+    },
+    "LTR-Ensemble (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.746,
+        "ndcg@10": 0.7519,
+        "mrr": 0.8588,
+        "map": 0.7766,
+        "p@5": 0.6066
+      },
+      "spearman_micro": 0.3004,
+      "spearman_macro": 0.3898
+    }
+  },
+  "in_domain_setting_B_rel_eq_2": {
+    "Section-Aware Dense (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7751,
+        "ndcg@10": 0.777,
+        "mrr": 0.8869,
+        "map": 0.7411,
+        "p@5": 0.5571
+      },
+      "spearman_micro": 0.1865,
+      "spearman_macro": 0.3362
+    },
+    "Calibrated Hybrid Heuristic (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7725,
+        "ndcg@10": 0.7848,
+        "mrr": 0.8671,
+        "map": 0.7511,
+        "p@5": 0.5643
+      },
+      "spearman_micro": 0.2161,
+      "spearman_macro": 0.3518
+    },
+    "LTR-Linear Simplex (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7699,
+        "ndcg@10": 0.76,
+        "mrr": 0.8548,
+        "map": 0.7427,
+        "p@5": 0.5571
+      },
+      "spearman_micro": 0.1876,
+      "spearman_macro": 0.3647
+    },
+    "LTR-LambdaMART 5-Fold (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7717,
+        "ndcg@10": 0.7738,
+        "mrr": 0.8973,
+        "map": 0.7481,
+        "p@5": 0.5571
+      },
+      "spearman_micro": 0.2209,
+      "spearman_macro": 0.3501
+    },
+    "LTR-Ensemble (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.78,
+        "ndcg@10": 0.7705,
+        "mrr": 0.8905,
+        "map": 0.7458,
+        "p@5": 0.5571
+      },
+      "spearman_micro": 0.2433,
+      "spearman_macro": 0.3711
+    },
+    "Section-Aware Dense (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.8262,
+        "ndcg@10": 0.814,
+        "mrr": 0.8929,
+        "map": 0.78,
+        "p@5": 0.6143
+      },
+      "spearman_micro": 0.2806,
+      "spearman_macro": 0.4356
+    },
+    "Calibrated Hybrid Heuristic (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7633,
+        "ndcg@10": 0.7729,
+        "mrr": 0.8202,
+        "map": 0.7654,
+        "p@5": 0.5714
+      },
+      "spearman_micro": 0.253,
+      "spearman_macro": 0.4076
+    },
+    "LTR-Linear Simplex (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.8116,
+        "ndcg@10": 0.8129,
+        "mrr": 0.9152,
+        "map": 0.784,
+        "p@5": 0.5786
+      },
+      "spearman_micro": 0.3051,
+      "spearman_macro": 0.4394
+    },
+    "LTR-LambdaMART 5-Fold (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.7863,
+        "ndcg@10": 0.7868,
+        "mrr": 0.8241,
+        "map": 0.7664,
+        "p@5": 0.6
+      },
+      "spearman_micro": 0.2837,
+      "spearman_macro": 0.4404
+    },
+    "LTR-Ensemble (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.8122,
+        "ndcg@10": 0.7997,
+        "mrr": 0.9092,
+        "map": 0.7719,
+        "p@5": 0.6
+      },
+      "spearman_micro": 0.3047,
+      "spearman_macro": 0.4415
+    }
+  },
+  "in_domain_clean_cvs_409": {
+    "Section-Aware Dense (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6213,
+        "ndcg@10": 0.6354,
+        "mrr": 0.7423,
+        "map": 0.6458,
+        "p@5": 0.4871
+      },
+      "spearman_micro": 0.1499,
+      "spearman_macro": 0.2838
+    },
+    "Calibrated Hybrid Heuristic (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6094,
+        "ndcg@10": 0.6286,
+        "mrr": 0.6973,
+        "map": 0.6452,
+        "p@5": 0.47
+      },
+      "spearman_micro": 0.1822,
+      "spearman_macro": 0.3016
+    },
+    "LTR-Linear Simplex (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6187,
+        "ndcg@10": 0.6307,
+        "mrr": 0.7058,
+        "map": 0.6559,
+        "p@5": 0.4843
+      },
+      "spearman_micro": 0.1945,
+      "spearman_macro": 0.3311
+    },
+    "LTR-LambdaMART 5-Fold (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6032,
+        "ndcg@10": 0.6231,
+        "mrr": 0.7065,
+        "map": 0.6446,
+        "p@5": 0.4671
+      },
+      "spearman_micro": 0.1972,
+      "spearman_macro": 0.306
+    },
+    "LTR-Ensemble (Frozen MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6166,
+        "ndcg@10": 0.6327,
+        "mrr": 0.7292,
+        "map": 0.6567,
+        "p@5": 0.4729
+      },
+      "spearman_micro": 0.2213,
+      "spearman_macro": 0.3306
+    },
+    "Section-Aware Dense (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6804,
+        "ndcg@10": 0.6781,
+        "mrr": 0.7754,
+        "map": 0.6988,
+        "p@5": 0.5214
+      },
+      "spearman_micro": 0.2795,
+      "spearman_macro": 0.396
+    },
+    "Calibrated Hybrid Heuristic (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6249,
+        "ndcg@10": 0.6469,
+        "mrr": 0.705,
+        "map": 0.6723,
+        "p@5": 0.4786
+      },
+      "spearman_micro": 0.2389,
+      "spearman_macro": 0.3732
+    },
+    "LTR-Linear Simplex (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6683,
+        "ndcg@10": 0.6756,
+        "mrr": 0.7653,
+        "map": 0.6991,
+        "p@5": 0.5129
+      },
+      "spearman_micro": 0.3084,
+      "spearman_macro": 0.4099
+    },
+    "LTR-LambdaMART 5-Fold (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6422,
+        "ndcg@10": 0.6516,
+        "mrr": 0.7042,
+        "map": 0.6755,
+        "p@5": 0.5157
+      },
+      "spearman_micro": 0.2991,
+      "spearman_macro": 0.3953
+    },
+    "LTR-Ensemble (Fine-Tuned MiniLM)": {
+      "metrics": {
+        "ndcg@5": 0.6442,
+        "ndcg@10": 0.6568,
+        "mrr": 0.7434,
+        "map": 0.6779,
+        "p@5": 0.5071
+      },
+      "spearman_micro": 0.3131,
+      "spearman_macro": 0.3876
+    }
+  },
+  "external_zeroshot": {
+    "med2425_it_zero_overlap": {
+      "Section-Aware Dense (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.5146,
+          "ndcg@10": 0.5135,
+          "mrr": 0.7775,
+          "map": 0.6019,
+          "p@5": 0.6927
+        },
+        "spearman_macro": 0.3771,
+        "roc_auc": 0.7159
+      },
+      "Calibrated Hybrid Heuristic (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6234,
+          "ndcg@10": 0.6237,
+          "mrr": 0.8823,
+          "map": 0.6686,
+          "p@5": 0.761
+        },
+        "spearman_macro": 0.4716,
+        "roc_auc": 0.7634
+      },
+      "LTR-Linear Simplex (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6122,
+          "ndcg@10": 0.5914,
+          "mrr": 0.85,
+          "map": 0.6552,
+          "p@5": 0.7805
+        },
+        "spearman_macro": 0.4554,
+        "roc_auc": 0.7361
+      },
+      "LTR-Ensemble (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6096,
+          "ndcg@10": 0.5981,
+          "mrr": 0.8503,
+          "map": 0.6587,
+          "p@5": 0.761
+        },
+        "spearman_macro": 0.4601,
+        "roc_auc": 0.6943
+      },
+      "Section-Aware Dense (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.5702,
+          "ndcg@10": 0.5479,
+          "mrr": 0.8148,
+          "map": 0.6423,
+          "p@5": 0.7463
+        },
+        "spearman_macro": 0.4317,
+        "roc_auc": 0.7357
+      },
+      "Calibrated Hybrid Heuristic (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6505,
+          "ndcg@10": 0.6367,
+          "mrr": 0.8793,
+          "map": 0.6914,
+          "p@5": 0.7902
+        },
+        "spearman_macro": 0.5,
+        "roc_auc": 0.7703
+      },
+      "LTR-Linear Simplex (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6221,
+          "ndcg@10": 0.6175,
+          "mrr": 0.8611,
+          "map": 0.6833,
+          "p@5": 0.7707
+        },
+        "spearman_macro": 0.4934,
+        "roc_auc": 0.7791
+      },
+      "LTR-LambdaMART 5-Fold (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6124,
+          "ndcg@10": 0.61,
+          "mrr": 0.8558,
+          "map": 0.6905,
+          "p@5": 0.7707
+        },
+        "spearman_macro": 0.4894,
+        "roc_auc": 0.7716
+      },
+      "LTR-Ensemble (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6284,
+          "ndcg@10": 0.626,
+          "mrr": 0.882,
+          "map": 0.6925,
+          "p@5": 0.7756
+        },
+        "spearman_macro": 0.4996,
+        "roc_auc": 0.7779
+      }
+    },
+    "job_resume_fit": {
+      "Section-Aware Dense (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.6842,
+          "ndcg@10": 0.7091,
+          "mrr": 0.7164,
+          "map": 0.4891,
+          "p@5": 0.5217
+        },
+        "spearman_macro": 0.4321,
+        "roc_auc": 0.8149
+      },
+      "Calibrated Hybrid Heuristic (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.7352,
+          "ndcg@10": 0.7489,
+          "mrr": 0.7446,
+          "map": 0.5463,
+          "p@5": 0.5478
+        },
+        "spearman_macro": 0.5792,
+        "roc_auc": 0.7496
+      },
+      "LTR-Linear Simplex (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.7399,
+          "ndcg@10": 0.7526,
+          "mrr": 0.6754,
+          "map": 0.5447,
+          "p@5": 0.5652
+        },
+        "spearman_macro": 0.5494,
+        "roc_auc": 0.8534
+      },
+      "LTR-Ensemble (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.7449,
+          "ndcg@10": 0.7526,
+          "mrr": 0.6862,
+          "map": 0.5427,
+          "p@5": 0.5739
+        },
+        "spearman_macro": 0.5415,
+        "roc_auc": 0.7486
+      },
+      "Section-Aware Dense (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.715,
+          "ndcg@10": 0.7187,
+          "mrr": 0.7428,
+          "map": 0.4972,
+          "p@5": 0.5565
+        },
+        "spearman_macro": 0.4231,
+        "roc_auc": 0.7988
+      },
+      "Calibrated Hybrid Heuristic (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.7463,
+          "ndcg@10": 0.7565,
+          "mrr": 0.7424,
+          "map": 0.5492,
+          "p@5": 0.5391
+        },
+        "spearman_macro": 0.5816,
+        "roc_auc": 0.7602
+      },
+      "LTR-Linear Simplex (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.7536,
+          "ndcg@10": 0.7549,
+          "mrr": 0.7319,
+          "map": 0.5335,
+          "p@5": 0.5652
+        },
+        "spearman_macro": 0.5232,
+        "roc_auc": 0.8352
+      },
+      "LTR-LambdaMART 5-Fold (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.7699,
+          "ndcg@10": 0.7696,
+          "mrr": 0.7283,
+          "map": 0.5378,
+          "p@5": 0.6087
+        },
+        "spearman_macro": 0.5073,
+        "roc_auc": 0.8374
+      },
+      "LTR-Ensemble (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.7644,
+          "ndcg@10": 0.7648,
+          "mrr": 0.7283,
+          "map": 0.5354,
+          "p@5": 0.6
+        },
+        "spearman_macro": 0.5177,
+        "roc_auc": 0.8178
+      }
+    },
+    "resume_score_details_gpt4o": {
+      "Section-Aware Dense (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.9081,
+          "ndcg@10": 0.9018,
+          "mrr": 0.7917,
+          "map": 0.7915,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.2168,
+        "roc_auc": 0.5598
+      },
+      "Calibrated Hybrid Heuristic (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.9617,
+          "ndcg@10": 0.9546,
+          "mrr": 0.7917,
+          "map": 0.7917,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.3937,
+        "roc_auc": 0.6274
+      },
+      "LTR-Linear Simplex (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.951,
+          "ndcg@10": 0.9435,
+          "mrr": 0.7917,
+          "map": 0.7915,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.3729,
+        "roc_auc": 0.6343
+      },
+      "LTR-Ensemble (Frozen MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.9513,
+          "ndcg@10": 0.9473,
+          "mrr": 0.7917,
+          "map": 0.7915,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.3795,
+        "roc_auc": 0.5904
+      },
+      "Section-Aware Dense (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.8886,
+          "ndcg@10": 0.8937,
+          "mrr": 0.7917,
+          "map": 0.7915,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.1966,
+        "roc_auc": 0.5559
+      },
+      "Calibrated Hybrid Heuristic (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.9682,
+          "ndcg@10": 0.9598,
+          "mrr": 0.7917,
+          "map": 0.7915,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.4102,
+        "roc_auc": 0.6134
+      },
+      "LTR-Linear Simplex (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.932,
+          "ndcg@10": 0.932,
+          "mrr": 0.7917,
+          "map": 0.7915,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.3207,
+        "roc_auc": 0.6137
+      },
+      "LTR-LambdaMART 5-Fold (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.9397,
+          "ndcg@10": 0.9365,
+          "mrr": 0.7917,
+          "map": 0.7913,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.3407,
+        "roc_auc": 0.601
+      },
+      "LTR-Ensemble (Fine-Tuned MiniLM)": {
+        "metrics": {
+          "ndcg@5": 0.9258,
+          "ndcg@10": 0.9341,
+          "mrr": 0.7917,
+          "map": 0.7915,
+          "p@5": 0.7604
+        },
+        "spearman_macro": 0.3437,
+        "roc_auc": 0.5751
+      }
+    }
+  }
+}

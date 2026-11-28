@@ -43,3 +43,20 @@ def test_create_embedder_unknown_raises():
 
     with pytest.raises(ValueError, match="unknown embedder"):
         create_embedder("nope")
+
+
+def test_create_embedder_local_checkpoint_path(monkeypatch, tmp_path):
+    calls: dict = {}
+
+    class Fake(emb.SentenceTransformerEmbedder):
+        def __init__(self, model_name="", device="cpu", trust_remote_code=False):
+            calls["model_name"] = model_name
+            self.dim = 384
+
+    monkeypatch.setattr(emb, "SentenceTransformerEmbedder", Fake)
+    ckpt_dir = tmp_path / "custom_ft_model"
+    ckpt_dir.mkdir()
+
+    embedder = create_embedder(str(ckpt_dir))
+    assert calls["model_name"] == str(ckpt_dir)
+    assert embedder.dim == 384

@@ -96,26 +96,26 @@
     },
     "Calibrated Hybrid (Dense+BM25+Tax)": {
       "metrics": {
-        "ndcg@5": 0.666319802095941,
-        "ndcg@10": 0.6913922341579856,
-        "mrr_th1": 0.7632316084328469,
+        "ndcg@5": 0.6683328771924544,
+        "ndcg@10": 0.6912007587311276,
+        "mrr_th1": 0.7610386259767065,
         "mrr_th2": 0.34619883040935673,
-        "map_th1": 0.6822420898432779,
-        "map_th2": 0.27523192373974986,
-        "p@5_th1": 0.455263157894737,
-        "p@5_th2": 0.1789473684210526
+        "map_th1": 0.680092758651064,
+        "map_th2": 0.27405207018951605,
+        "p@5_th1": 0.4578947368421053,
+        "p@5_th2": 0.18421052631578946
       }
     },
     "Parameter-Free RRF + Taxonomy": {
       "metrics": {
-        "ndcg@5": 0.6128729296626308,
-        "ndcg@10": 0.6227109309592267,
+        "ndcg@5": 0.6112644659395857,
+        "ndcg@10": 0.6249489621750747,
         "mrr_th1": 0.6941624895572264,
-        "mrr_th2": 0.2996963562753036,
-        "map_th1": 0.6047628395769598,
-        "map_th2": 0.2489238732612578,
-        "p@5_th1": 0.4605263157894737,
-        "p@5_th2": 0.17631578947368418
+        "mrr_th2": 0.2931174089068826,
+        "map_th1": 0.606294802902489,
+        "map_th2": 0.2491967271277082,
+        "p@5_th1": 0.46315789473684205,
+        "p@5_th2": 0.18157894736842103
       }
     },
     "Ceiling: Oracle Ranking": {
@@ -218,26 +218,26 @@
     },
     "Calibrated Hybrid (Dense+BM25+Tax)": {
       "metrics": {
-        "ndcg@5": 0.7132437318210072,
-        "ndcg@10": 0.7400818281127732,
-        "mrr_th1": 0.8169803132520614,
+        "ndcg@5": 0.7153985727693879,
+        "ndcg@10": 0.7398768685009254,
+        "mrr_th1": 0.8146328954116857,
         "mrr_th2": 0.3705790297339593,
-        "map_th1": 0.7302844668650261,
-        "map_th2": 0.29461266507174655,
-        "p@5_th1": 0.48732394366197196,
-        "p@5_th2": 0.19154929577464785
+        "map_th1": 0.7279837743212478,
+        "map_th2": 0.29334972324332725,
+        "p@5_th1": 0.4901408450704227,
+        "p@5_th2": 0.19718309859154928
       }
     },
     "Parameter-Free RRF + Taxonomy": {
       "metrics": {
-        "ndcg@5": 0.6560329951318302,
-        "ndcg@10": 0.666563813421144,
+        "ndcg@5": 0.654311259315613,
+        "ndcg@10": 0.668959452469094,
         "mrr_th1": 0.7430471719204115,
-        "mrr_th2": 0.3208017334777898,
-        "map_th1": 0.6473575375292125,
-        "map_th2": 0.26645372349092383,
-        "p@5_th1": 0.49295774647887325,
-        "p@5_th2": 0.18873239436619713
+        "mrr_th2": 0.31375947995666303,
+        "map_th1": 0.6489916200082982,
+        "map_th2": 0.2667457924183919,
+        "p@5_th1": 0.4957746478873239,
+        "p@5_th2": 0.19436619718309858
       }
     },
     "Ceiling: Oracle Ranking": {
@@ -340,26 +340,26 @@
     },
     "Calibrated Hybrid (Dense+BM25+Tax)": {
       "metrics": {
-        "ndcg@5": 0.7255190620602534,
-        "ndcg@10": 0.7327433925469599,
+        "ndcg@5": 0.7311283561453709,
+        "ndcg@10": 0.7328253010207159,
         "mrr_th1": 0.8655913978494625,
         "mrr_th2": 0.8487455197132616,
-        "map_th1": 0.756103613769625,
-        "map_th2": 0.6747574249185471,
-        "p@5_th1": 0.5483870967741936,
-        "p@5_th2": 0.4387096774193548
+        "map_th1": 0.7511122676300858,
+        "map_th2": 0.671864880730877,
+        "p@5_th1": 0.5548387096774194,
+        "p@5_th2": 0.4516129032258064
       }
     },
     "Parameter-Free RRF + Taxonomy": {
       "metrics": {
-        "ndcg@5": 0.6643720444283892,
-        "ndcg@10": 0.6712531652024077,
+        "ndcg@5": 0.666562444868666,
+        "ndcg@10": 0.6740993021068183,
         "mrr_th1": 0.7930107526881721,
-        "mrr_th2": 0.7347394540942928,
-        "map_th1": 0.6935200075278452,
-        "map_th2": 0.6102683310954674,
-        "p@5_th1": 0.5548387096774192,
-        "p@5_th2": 0.4322580645161289
+        "mrr_th2": 0.7186104218362283,
+        "map_th1": 0.6971339270779175,
+        "map_th2": 0.6109339116679299,
+        "p@5_th1": 0.5677419354838709,
+        "p@5_th2": 0.4451612903225806
       }
     },
     "Ceiling: Oracle Ranking": {
@@ -399,20 +399,20 @@
       "t_stat": -0.704,
       "raw_p_val": 0.4836607609164085,
       "wilcoxon_p": 0.5868,
-      "holm_p_val": 0.764,
+      "holm_p_val": 0.7469,
       "significant_05": false
     },
     {
       "hypothesis": "RQ3: Hybrid vs Dense+BM25 (nDCG@10)",
       "model_a": "Calibrated Hybrid (Dense+BM25+Tax)",
       "model_b": "Dense + BM25 (L0: No Taxonomy)",
-      "mean_diff": -0.0129,
-      "ci_lower": -0.0438,
-      "ci_upper": 0.0154,
-      "t_stat": -0.879,
-      "raw_p_val": 0.38199101808071206,
-      "wilcoxon_p": 0.4308,
-      "holm_p_val": 0.764,
+      "mean_diff": -0.0131,
+      "ci_lower": -0.0439,
+      "ci_upper": 0.0156,
+      "t_stat": -0.895,
+      "raw_p_val": 0.37343695307823876,
+      "wilcoxon_p": 0.4343,
+      "holm_p_val": 0.7469,
       "significant_05": false
     },
     {
@@ -445,13 +445,13 @@
       "hypothesis": "RRF vs Calibrated Hybrid",
       "model_a": "Parameter-Free RRF + Taxonomy",
       "model_b": "Calibrated Hybrid (Dense+BM25+Tax)",
-      "mean_diff": -0.0687,
-      "ci_lower": -0.0996,
-      "ci_upper": -0.0387,
-      "t_stat": -4.329,
-      "raw_p_val": 4.56951453182427e-05,
+      "mean_diff": -0.0663,
+      "ci_lower": -0.0972,
+      "ci_upper": -0.036,
+      "t_stat": -4.224,
+      "raw_p_val": 6.661105543087948e-05,
       "wilcoxon_p": 0.0,
-      "holm_p_val": 0.0003,
+      "holm_p_val": 0.0004,
       "significant_05": true
     }
   ],
@@ -479,20 +479,20 @@
       "t_stat": -0.704,
       "raw_p_val": 0.48346827552692256,
       "wilcoxon_p": 0.5868,
-      "holm_p_val": 0.7645,
+      "holm_p_val": 0.7474,
       "significant_05": false
     },
     {
       "hypothesis": "RQ3: Hybrid vs Dense+BM25 (nDCG@10)",
       "model_a": "Calibrated Hybrid (Dense+BM25+Tax)",
       "model_b": "Dense + BM25 (L0: No Taxonomy)",
-      "mean_diff": -0.0138,
-      "ci_lower": -0.0463,
-      "ci_upper": 0.0169,
-      "t_stat": -0.879,
-      "raw_p_val": 0.38224141096841213,
-      "wilcoxon_p": 0.4308,
-      "holm_p_val": 0.7645,
+      "mean_diff": -0.014,
+      "ci_lower": -0.0456,
+      "ci_upper": 0.0168,
+      "t_stat": -0.895,
+      "raw_p_val": 0.3736851628707835,
+      "wilcoxon_p": 0.4343,
+      "holm_p_val": 0.7474,
       "significant_05": false
     },
     {
@@ -525,13 +525,13 @@
       "hypothesis": "RRF vs Calibrated Hybrid",
       "model_a": "Parameter-Free RRF + Taxonomy",
       "model_b": "Calibrated Hybrid (Dense+BM25+Tax)",
-      "mean_diff": -0.0735,
-      "ci_lower": -0.1079,
-      "ci_upper": -0.0439,
-      "t_stat": -4.366,
-      "raw_p_val": 4.2915675598882494e-05,
+      "mean_diff": -0.0709,
+      "ci_lower": -0.1042,
+      "ci_upper": -0.0423,
+      "t_stat": -4.258,
+      "raw_p_val": 6.2931489150954e-05,
       "wilcoxon_p": 0.0,
-      "holm_p_val": 0.0003,
+      "holm_p_val": 0.0004,
       "significant_05": true
     }
   ],
@@ -566,12 +566,12 @@
       "hypothesis": "RQ3: Hybrid vs Dense+BM25 (nDCG@10)",
       "model_a": "Calibrated Hybrid (Dense+BM25+Tax)",
       "model_b": "Dense + BM25 (L0: No Taxonomy)",
-      "mean_diff": -0.0279,
-      "ci_lower": -0.0818,
-      "ci_upper": 0.0185,
-      "t_stat": -1.063,
-      "raw_p_val": 0.2964363298447728,
-      "wilcoxon_p": 0.2627,
+      "mean_diff": -0.0278,
+      "ci_lower": -0.0823,
+      "ci_upper": 0.0159,
+      "t_stat": -1.07,
+      "raw_p_val": 0.2933325307224855,
+      "wilcoxon_p": 0.2768,
       "holm_p_val": 1.0,
       "significant_05": false
     },
@@ -605,13 +605,13 @@
       "hypothesis": "RRF vs Calibrated Hybrid",
       "model_a": "Parameter-Free RRF + Taxonomy",
       "model_b": "Calibrated Hybrid (Dense+BM25+Tax)",
-      "mean_diff": -0.0615,
-      "ci_lower": -0.1017,
-      "ci_upper": -0.0269,
-      "t_stat": -2.958,
-      "raw_p_val": 0.005990615399317208,
-      "wilcoxon_p": 0.0022,
-      "holm_p_val": 0.0359,
+      "mean_diff": -0.0587,
+      "ci_lower": -0.0977,
+      "ci_upper": -0.0244,
+      "t_stat": -2.997,
+      "raw_p_val": 0.005433683879245864,
+      "wilcoxon_p": 0.0036,
+      "holm_p_val": 0.0326,
       "significant_05": true
     }
   ]

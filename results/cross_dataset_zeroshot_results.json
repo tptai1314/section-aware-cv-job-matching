@@ -1,0 +1,681 @@
+{
+  "base_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "finetuned_model": "D:\\Documents\\Book\\Do_an\\Frevia\\section-aware-cv-job-matching\\models\\minilm-cvjd-ft",
+  "benchmarks": {
+    "med2425_it_zero_overlap": {
+      "counts": {
+        "unique_jds": 41,
+        "ranking_queries": 41,
+        "unique_cvs": 240,
+        "pairs": 7418,
+        "cv_fallback_pct": 0.0
+      },
+      "models": {
+        "BM25 / TF-IDF (Lexical)": {
+          "metrics": {
+            "ndcg@5": 0.5641,
+            "ndcg@10": 0.5491,
+            "mrr": 0.8811,
+            "map": 0.605,
+            "p@5": 0.7317
+          },
+          "spearman_micro": 0.3434,
+          "spearman_macro": 0.352,
+          "roc_auc": 0.6956
+        },
+        "Single-Vector Dense (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.5372,
+            "ndcg@10": 0.5483,
+            "mrr": 0.8265,
+            "map": 0.631,
+            "p@5": 0.7366
+          },
+          "spearman_micro": 0.3731,
+          "spearman_macro": 0.4025,
+          "roc_auc": 0.7127
+        },
+        "Single-Vector Dense (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.5549,
+            "ndcg@10": 0.5422,
+            "mrr": 0.8051,
+            "map": 0.6477,
+            "p@5": 0.7366
+          },
+          "spearman_micro": 0.4062,
+          "spearman_macro": 0.4407,
+          "roc_auc": 0.7323
+        },
+        "Section-Aware Dense (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.5146,
+            "ndcg@10": 0.5135,
+            "mrr": 0.7775,
+            "map": 0.6019,
+            "p@5": 0.6927
+          },
+          "spearman_micro": 0.3821,
+          "spearman_macro": 0.3771,
+          "roc_auc": 0.7159
+        },
+        "Section-Aware Dense (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.5702,
+            "ndcg@10": 0.5479,
+            "mrr": 0.8148,
+            "map": 0.6423,
+            "p@5": 0.7463
+          },
+          "spearman_micro": 0.4143,
+          "spearman_macro": 0.4317,
+          "roc_auc": 0.7357
+        },
+        "Dense + BM25 (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.5821,
+            "ndcg@10": 0.576,
+            "mrr": 0.8352,
+            "map": 0.6312,
+            "p@5": 0.7024
+          },
+          "spearman_micro": 0.4036,
+          "spearman_macro": 0.4188,
+          "roc_auc": 0.7264
+        },
+        "Dense + BM25 (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.6298,
+            "ndcg@10": 0.6182,
+            "mrr": 0.8718,
+            "map": 0.6795,
+            "p@5": 0.7854
+          },
+          "spearman_micro": 0.456,
+          "spearman_macro": 0.472,
+          "roc_auc": 0.7578
+        },
+        "Calibrated Hybrid (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.6223,
+            "ndcg@10": 0.6202,
+            "mrr": 0.8831,
+            "map": 0.6673,
+            "p@5": 0.7512
+          },
+          "spearman_micro": 0.4017,
+          "spearman_macro": 0.4739,
+          "roc_auc": 0.7191
+        },
+        "Calibrated Hybrid (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.6487,
+            "ndcg@10": 0.6372,
+            "mrr": 0.88,
+            "map": 0.6926,
+            "p@5": 0.7902
+          },
+          "spearman_micro": 0.4102,
+          "spearman_macro": 0.5031,
+          "roc_auc": 0.7253
+        },
+        "Parameter-Free RRF + Tax (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.6084,
+            "ndcg@10": 0.6071,
+            "mrr": 0.8366,
+            "map": 0.6585,
+            "p@5": 0.7463
+          },
+          "spearman_micro": 0.3834,
+          "spearman_macro": 0.4709,
+          "roc_auc": 0.7097
+        },
+        "Parameter-Free RRF + Tax (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.6284,
+            "ndcg@10": 0.618,
+            "mrr": 0.8781,
+            "map": 0.6827,
+            "p@5": 0.7659
+          },
+          "spearman_micro": 0.4156,
+          "spearman_macro": 0.4974,
+          "roc_auc": 0.73
+        }
+      },
+      "paired_statistical_tests": {
+        "Single-Vector Dense": {
+          "ndcg@10_delta": -0.0061,
+          "ndcg@10_ci95": [
+            -0.0432,
+            0.0309
+          ],
+          "ndcg@10_ttest_p": 0.7593,
+          "ndcg@10_wilcoxon_p": 0.67938,
+          "map_delta": 0.0167,
+          "map_ci95": [
+            -0.0025,
+            0.0372
+          ],
+          "map_ttest_p": 0.13473,
+          "map_wilcoxon_p": 0.17969
+        },
+        "Section-Aware Dense": {
+          "ndcg@10_delta": 0.0344,
+          "ndcg@10_ci95": [
+            -0.0081,
+            0.0748
+          ],
+          "ndcg@10_ttest_p": 0.12843,
+          "ndcg@10_wilcoxon_p": 0.1587,
+          "map_delta": 0.0404,
+          "map_ci95": [
+            0.0138,
+            0.0716
+          ],
+          "map_ttest_p": 0.00997,
+          "map_wilcoxon_p": 0.00432
+        },
+        "Dense + BM25": {
+          "ndcg@10_delta": 0.0422,
+          "ndcg@10_ci95": [
+            0.015,
+            0.0713
+          ],
+          "ndcg@10_ttest_p": 0.00576,
+          "ndcg@10_wilcoxon_p": 0.00877,
+          "map_delta": 0.0483,
+          "map_ci95": [
+            0.0252,
+            0.0744
+          ],
+          "map_ttest_p": 0.00089,
+          "map_wilcoxon_p": 0.00012
+        },
+        "Calibrated Hybrid": {
+          "ndcg@10_delta": 0.017,
+          "ndcg@10_ci95": [
+            -0.0051,
+            0.0415
+          ],
+          "ndcg@10_ttest_p": 0.19103,
+          "ndcg@10_wilcoxon_p": 0.1587,
+          "map_delta": 0.0253,
+          "map_ci95": [
+            0.0094,
+            0.0428
+          ],
+          "map_ttest_p": 0.00932,
+          "map_wilcoxon_p": 0.00395
+        },
+        "Parameter-Free RRF + Tax": {
+          "ndcg@10_delta": 0.0109,
+          "ndcg@10_ci95": [
+            -0.0138,
+            0.0385
+          ],
+          "ndcg@10_ttest_p": 0.44616,
+          "ndcg@10_wilcoxon_p": 0.91111,
+          "map_delta": 0.0242,
+          "map_ci95": [
+            0.0099,
+            0.0395
+          ],
+          "map_ttest_p": 0.00496,
+          "map_wilcoxon_p": 0.00132
+        }
+      }
+    },
+    "job_resume_fit": {
+      "counts": {
+        "unique_jds": 23,
+        "ranking_queries": 23,
+        "unique_cvs": 2383,
+        "pairs": 2385,
+        "cv_fallback_pct": 99.29
+      },
+      "models": {
+        "BM25 / TF-IDF (Lexical)": {
+          "metrics": {
+            "ndcg@5": 0.7863,
+            "ndcg@10": 0.8063,
+            "mrr": 0.7572,
+            "map": 0.6051,
+            "p@5": 0.6261
+          },
+          "spearman_micro": 0.739,
+          "spearman_macro": 0.6625,
+          "roc_auc": 0.8766
+        },
+        "Single-Vector Dense (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.6848,
+            "ndcg@10": 0.7079,
+            "mrr": 0.7164,
+            "map": 0.4875,
+            "p@5": 0.5217
+          },
+          "spearman_micro": 0.5795,
+          "spearman_macro": 0.4341,
+          "roc_auc": 0.8149
+        },
+        "Single-Vector Dense (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.715,
+            "ndcg@10": 0.718,
+            "mrr": 0.7428,
+            "map": 0.4956,
+            "p@5": 0.5565
+          },
+          "spearman_micro": 0.5519,
+          "spearman_macro": 0.4248,
+          "roc_auc": 0.7989
+        },
+        "Section-Aware Dense (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.6842,
+            "ndcg@10": 0.7091,
+            "mrr": 0.7164,
+            "map": 0.4891,
+            "p@5": 0.5217
+          },
+          "spearman_micro": 0.5746,
+          "spearman_macro": 0.4321,
+          "roc_auc": 0.8149
+        },
+        "Section-Aware Dense (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.715,
+            "ndcg@10": 0.7187,
+            "mrr": 0.7428,
+            "map": 0.4972,
+            "p@5": 0.5565
+          },
+          "spearman_micro": 0.5474,
+          "spearman_macro": 0.4231,
+          "roc_auc": 0.7988
+        },
+        "Dense + BM25 (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.7591,
+            "ndcg@10": 0.7753,
+            "mrr": 0.7464,
+            "map": 0.5707,
+            "p@5": 0.6
+          },
+          "spearman_micro": 0.6174,
+          "spearman_macro": 0.5817,
+          "roc_auc": 0.8294
+        },
+        "Dense + BM25 (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.7781,
+            "ndcg@10": 0.7886,
+            "mrr": 0.7428,
+            "map": 0.5755,
+            "p@5": 0.6174
+          },
+          "spearman_micro": 0.6486,
+          "spearman_macro": 0.5878,
+          "roc_auc": 0.8475
+        },
+        "Calibrated Hybrid (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.7439,
+            "ndcg@10": 0.7643,
+            "mrr": 0.7496,
+            "map": 0.5532,
+            "p@5": 0.5391
+          },
+          "spearman_micro": 0.3817,
+          "spearman_macro": 0.5793,
+          "roc_auc": 0.6963
+        },
+        "Calibrated Hybrid (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.76,
+            "ndcg@10": 0.7713,
+            "mrr": 0.7554,
+            "map": 0.5585,
+            "p@5": 0.5565
+          },
+          "spearman_micro": 0.3949,
+          "spearman_macro": 0.583,
+          "roc_auc": 0.7039
+        },
+        "Parameter-Free RRF + Tax (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.7526,
+            "ndcg@10": 0.7679,
+            "mrr": 0.7343,
+            "map": 0.5624,
+            "p@5": 0.5739
+          },
+          "spearman_micro": 0.3036,
+          "spearman_macro": 0.6088,
+          "roc_auc": 0.6475
+        },
+        "Parameter-Free RRF + Tax (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.7716,
+            "ndcg@10": 0.7812,
+            "mrr": 0.7487,
+            "map": 0.5681,
+            "p@5": 0.5739
+          },
+          "spearman_micro": 0.3034,
+          "spearman_macro": 0.6069,
+          "roc_auc": 0.6496
+        }
+      },
+      "paired_statistical_tests": {
+        "Single-Vector Dense": {
+          "ndcg@10_delta": 0.01,
+          "ndcg@10_ci95": [
+            -0.0131,
+            0.0351
+          ],
+          "ndcg@10_ttest_p": 0.45451,
+          "ndcg@10_wilcoxon_p": 0.70901,
+          "map_delta": 0.008,
+          "map_ci95": [
+            -0.0138,
+            0.0366
+          ],
+          "map_ttest_p": 0.54038,
+          "map_wilcoxon_p": 0.84053
+        },
+        "Section-Aware Dense": {
+          "ndcg@10_delta": 0.0096,
+          "ndcg@10_ci95": [
+            -0.0134,
+            0.0346
+          ],
+          "ndcg@10_ttest_p": 0.47163,
+          "ndcg@10_wilcoxon_p": 0.75398,
+          "map_delta": 0.0081,
+          "map_ci95": [
+            -0.014,
+            0.0372
+          ],
+          "map_ttest_p": 0.53978,
+          "map_wilcoxon_p": 0.68737
+        },
+        "Dense + BM25": {
+          "ndcg@10_delta": 0.0134,
+          "ndcg@10_ci95": [
+            -0.0039,
+            0.033
+          ],
+          "ndcg@10_ttest_p": 0.19016,
+          "ndcg@10_wilcoxon_p": 0.23447,
+          "map_delta": 0.0047,
+          "map_ci95": [
+            -0.0052,
+            0.0143
+          ],
+          "map_ttest_p": 0.35952,
+          "map_wilcoxon_p": 0.22733
+        },
+        "Calibrated Hybrid": {
+          "ndcg@10_delta": 0.007,
+          "ndcg@10_ci95": [
+            -0.0035,
+            0.0177
+          ],
+          "ndcg@10_ttest_p": 0.22658,
+          "ndcg@10_wilcoxon_p": 0.17933,
+          "map_delta": 0.0053,
+          "map_ci95": [
+            -0.0027,
+            0.0133
+          ],
+          "map_ttest_p": 0.22967,
+          "map_wilcoxon_p": 0.18408
+        },
+        "Parameter-Free RRF + Tax": {
+          "ndcg@10_delta": 0.0134,
+          "ndcg@10_ci95": [
+            -0.005,
+            0.0319
+          ],
+          "ndcg@10_ttest_p": 0.19505,
+          "ndcg@10_wilcoxon_p": 0.05223,
+          "map_delta": 0.0057,
+          "map_ci95": [
+            -0.0026,
+            0.0143
+          ],
+          "map_ttest_p": 0.2324,
+          "map_wilcoxon_p": 0.14742
+        }
+      }
+    },
+    "resume_score_details_gpt4o": {
+      "counts": {
+        "unique_jds": 26,
+        "ranking_queries": 24,
+        "unique_cvs": 199,
+        "pairs": 851,
+        "cv_fallback_pct": 23.12
+      },
+      "models": {
+        "BM25 / TF-IDF (Lexical)": {
+          "metrics": {
+            "ndcg@5": 0.9675,
+            "ndcg@10": 0.9611,
+            "mrr": 0.7917,
+            "map": 0.7809,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.4461,
+          "spearman_macro": 0.4822,
+          "roc_auc": 0.6288
+        },
+        "Single-Vector Dense (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.9506,
+            "ndcg@10": 0.9393,
+            "mrr": 0.7917,
+            "map": 0.7915,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.2921,
+          "spearman_macro": 0.3161,
+          "roc_auc": 0.5773
+        },
+        "Single-Vector Dense (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.938,
+            "ndcg@10": 0.9231,
+            "mrr": 0.7917,
+            "map": 0.7898,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.2785,
+          "spearman_macro": 0.2171,
+          "roc_auc": 0.5662
+        },
+        "Section-Aware Dense (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.9073,
+            "ndcg@10": 0.9011,
+            "mrr": 0.7917,
+            "map": 0.7915,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.2297,
+          "spearman_macro": 0.2168,
+          "roc_auc": 0.5598
+        },
+        "Section-Aware Dense (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.8886,
+            "ndcg@10": 0.8937,
+            "mrr": 0.7917,
+            "map": 0.7915,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.202,
+          "spearman_macro": 0.1966,
+          "roc_auc": 0.5559
+        },
+        "Dense + BM25 (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.945,
+            "ndcg@10": 0.9407,
+            "mrr": 0.7917,
+            "map": 0.7917,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.364,
+          "spearman_macro": 0.3756,
+          "roc_auc": 0.589
+        },
+        "Dense + BM25 (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.9372,
+            "ndcg@10": 0.9346,
+            "mrr": 0.7917,
+            "map": 0.7915,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.3658,
+          "spearman_macro": 0.3442,
+          "roc_auc": 0.5764
+        },
+        "Calibrated Hybrid (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.9632,
+            "ndcg@10": 0.954,
+            "mrr": 0.7917,
+            "map": 0.7917,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.4008,
+          "spearman_macro": 0.3966,
+          "roc_auc": 0.637
+        },
+        "Calibrated Hybrid (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.9665,
+            "ndcg@10": 0.9566,
+            "mrr": 0.7917,
+            "map": 0.7915,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.4046,
+          "spearman_macro": 0.4128,
+          "roc_auc": 0.6235
+        },
+        "Parameter-Free RRF + Tax (Frozen MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.9742,
+            "ndcg@10": 0.9652,
+            "mrr": 0.7917,
+            "map": 0.788,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.3827,
+          "spearman_macro": 0.4744,
+          "roc_auc": 0.545
+        },
+        "Parameter-Free RRF + Tax (Fine-Tuned MiniLM)": {
+          "metrics": {
+            "ndcg@5": 0.964,
+            "ndcg@10": 0.9569,
+            "mrr": 0.7917,
+            "map": 0.7882,
+            "p@5": 0.7604
+          },
+          "spearman_micro": 0.3806,
+          "spearman_macro": 0.4408,
+          "roc_auc": 0.5503
+        }
+      },
+      "paired_statistical_tests": {
+        "Single-Vector Dense": {
+          "ndcg@10_delta": -0.0162,
+          "ndcg@10_ci95": [
+            -0.0411,
+            0.0145
+          ],
+          "ndcg@10_ttest_p": 0.27281,
+          "ndcg@10_wilcoxon_p": 0.09954,
+          "map_delta": -0.0017,
+          "map_ci95": [
+            -0.005,
+            0.0
+          ],
+          "map_ttest_p": 0.32772,
+          "map_wilcoxon_p": 0.31731
+        },
+        "Section-Aware Dense": {
+          "ndcg@10_delta": -0.0074,
+          "ndcg@10_ci95": [
+            -0.0225,
+            0.0085
+          ],
+          "ndcg@10_ttest_p": 0.35787,
+          "ndcg@10_wilcoxon_p": 0.57006,
+          "map_delta": 0.0,
+          "map_ci95": [
+            0.0,
+            0.0
+          ],
+          "map_ttest_p": NaN,
+          "map_wilcoxon_p": NaN
+        },
+        "Dense + BM25": {
+          "ndcg@10_delta": -0.0061,
+          "ndcg@10_ci95": [
+            -0.0267,
+            0.0088
+          ],
+          "ndcg@10_ttest_p": 0.50941,
+          "ndcg@10_wilcoxon_p": 0.82028,
+          "map_delta": -0.0002,
+          "map_ci95": [
+            -0.0005,
+            0.0
+          ],
+          "map_ttest_p": 0.32772,
+          "map_wilcoxon_p": 0.31731
+        },
+        "Calibrated Hybrid": {
+          "ndcg@10_delta": 0.0026,
+          "ndcg@10_ci95": [
+            -0.0042,
+            0.0116
+          ],
+          "ndcg@10_ttest_p": 0.54095,
+          "ndcg@10_wilcoxon_p": 0.55249,
+          "map_delta": -0.0002,
+          "map_ci95": [
+            -0.0005,
+            0.0
+          ],
+          "map_ttest_p": 0.32772,
+          "map_wilcoxon_p": 0.31731
+        },
+        "Parameter-Free RRF + Tax": {
+          "ndcg@10_delta": -0.0083,
+          "ndcg@10_ci95": [
+            -0.0265,
+            0.0032
+          ],
+          "ndcg@10_ttest_p": 0.29226,
+          "ndcg@10_wilcoxon_p": 0.46307,
+          "map_delta": 0.0002,
+          "map_ci95": [
+            0.0,
+            0.0007
+          ],
+          "map_ttest_p": 0.32772,
+          "map_wilcoxon_p": 0.31731
+        }
+      }
+    }
+  }
+}

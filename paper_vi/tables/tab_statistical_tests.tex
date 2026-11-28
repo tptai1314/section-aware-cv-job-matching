@@ -1,34 +1,32 @@
-% Bảng kiểm định thống kê ghép cặp Bootstrap 95% CI và Holm-Bonferroni (kèm hiệu chỉnh theo từng RQ và tập mật độ cao)
-\begin{table*}[t]
+% Họ 15 kiểm định thống kê Holm-Bonferroni (Tiếng Việt)
+\begin{table}[tbp]
 \centering
-\caption{Kiểm định Thống kê Ý nghĩa Ghép cặp Đầy đủ theo Câu hỏi Nghiên cứu ($N=71$ truy vấn trên \texttt{cnamuangtoun} và $N=41$ truy vấn mật độ cao trên \texttt{med2425}). Khoảng tin cậy Bootstrap 95\% CI tính trên $10{,}000$ mẫu lặp. Báo cáo đồng thời giá trị $p$ hiệu chỉnh Holm-Bonferroni theo từng nhóm câu hỏi nghiên cứu ($p_{\text{RQ}}$) và giá trị $p$ bảo thủ toàn cục trên cả 15 phép thử khám phá ($p_{\text{global}}$) ở ngưỡng $\alpha=0.05$.}
+\caption{Kiểm định ý nghĩa thống kê ghép cặp trên họ giả thuyết chính ($N=71$ truy vấn, Setting~A). Khoảng tin cậy $95\%$ bootstrap tính trên $10{,}000$ lần lấy mẫu lại. Đa kiểm định được kiểm soát bằng hiệu chỉnh Holm--Bonferroni ($\alpha=0.05$).}
 \label{tab:statistical_tests}
 \resizebox{\textwidth}{!}{%
-\begin{tabular}{lllrrrrrrc}
+\begin{tabular}{lllrrrrrc}
 \hline
-\textbf{RQ} & \textbf{Cặp so sánh ($A$ vs. $B$)} & \textbf{Thước đo} & \textbf{Hiệu TB $\bar{\Delta}$} & \textbf{Bootstrap 95\% CI} & \textbf{Thống kê $t$} & \textbf{$p$ thô} & \textbf{$p_{\text{RQ}}$ (Theo RQ)} & \textbf{$p_{\text{global}}$ (15 phép)} & \textbf{Ý nghĩa ($p_{\text{RQ}} < 0.05$)} \\
+\textbf{RQ} & \textbf{Cặp giả thuyết đối sánh ($A$ vs.\ $B$)} & \textbf{Độ đo} & \textbf{TB $\Delta$} & \textbf{95\% CI ghép cặp} & \textbf{$t$-stat} & \textbf{$p$ thô} & \textbf{$p$ hiệu chỉnh} & \textbf{Ý nghĩa} \\
 \hline
-RQ1 & Section-Aware vs. Single-Vector (Gộp) & nDCG@10 & +0.0024 & [-0.0296, +0.0333] & 0.15 & 0.8811 & 1.0000 & 1.0000 & Tương đương \\
-RQ1 & Section-Aware vs. Single-Vector (Gộp) & MAP & +0.0118 & [-0.0124, +0.0393] & 0.88 & 0.3819 & 1.0000 & 1.0000 & Tương đương \\
-RQ1 & BGE-M3 Section vs. BGE-M3 Flat & nDCG@10 & +0.0149 & [-0.0202, +0.0496] & 0.83 & 0.4107 & 1.0000 & 1.0000 & Tương đương \\
-RQ1 & BGE-M3 Section vs. BGE-M3 Flat & MAP & +0.0002 & [-0.0319, +0.0325] & 0.01 & 0.9891 & 1.0000 & 1.0000 & Tương đương \\
-RQ1 & Chunk-Mean vs. Single-Vector & nDCG@10 & +0.0047 & [-0.0310, +0.0397] & 0.26 & 0.7983 & 1.0000 & 1.0000 & Tương đương \\
-RQ1 & Chunk-MaxSim vs. Single-Vector & nDCG@10 & -0.0154 & [-0.0419, +0.0095] & -1.15 & 0.2524 & 1.0000 & 1.0000 & Tương đương \\
+RQ1 & Section-Aware vs.\ Single-Vector & nDCG@10 & +0.0024 & [-0.0296, +0.0333] & 0.15 & 0.8811 & 1.0000 & Không \\
+RQ1 & Section-Aware vs.\ Single-Vector & MAP & +0.0118 & [-0.0124, +0.0393] & 0.88 & 0.3819 & 1.0000 & Không \\
+RQ1 & BGE-M3 Section vs.\ BGE-M3 Flat & nDCG@10 & +0.0149 & [-0.0202, +0.0496] & 0.83 & 0.4107 & 1.0000 & Không \\
+RQ1 & BGE-M3 Section vs.\ BGE-M3 Flat & MAP & +0.0002 & [-0.0319, +0.0325] & 0.01 & 0.9891 & 1.0000 & Không \\
+RQ1 & Chunk-Mean vs.\ Single-Vector & nDCG@10 & +0.0047 & [-0.0310, +0.0397] & 0.26 & 0.7983 & 1.0000 & Không \\
+RQ1 & Chunk-MaxSim vs.\ Single-Vector & nDCG@10 & -0.0154 & [-0.0419, +0.0095] & -1.15 & 0.2524 & 1.0000 & Không \\
 \hline
-RQ2 & Single-Vector vs. BM25 (Từ vựng) & nDCG@10 & +0.0373 & [+0.0018, +0.0736] & 2.01 & 0.0480 & 0.0960 & 0.5762 & CI $>0$ \\
-RQ2 & Single-Vector vs. BM25 (Từ vựng) & MAP & +0.0280 & [-0.0081, +0.0656] & 1.47 & 0.1464 & 0.4392 & 1.0000 & Không \\
-RQ2 & Dense+BM25 vs. Single-Vector & MAP & +0.0127 & [-0.0181, +0.0476] & 0.75 & 0.4566 & 0.9132 & 1.0000 & Không \\
-RQ2 & RRF+Taxonomy vs. Dense+BM25 & MAP & -0.0039 & [-0.0233, +0.0119] & -0.42 & 0.6728 & 0.9132 & 1.0000 & Tương đương \\
+RQ2 & Single-Vector vs.\ BM25 & nDCG@10 & +0.0373 & [+0.0018, +0.0736] & 2.01 & 0.0480 & 0.5762 & Không \\
+RQ2 & Single-Vector vs.\ BM25 & MAP & +0.0280 & [-0.0081, +0.0656] & 1.47 & 0.1464 & 1.0000 & Không \\
+RQ2 & Dense+BM25 vs.\ Single-Vector & MAP & +0.0127 & [-0.0181, +0.0476] & 0.75 & 0.4566 & 1.0000 & Không \\
+RQ2 & RRF+Taxonomy vs.\ Dense+BM25 & MAP & -0.0031 & [-0.0245, +0.0160] & -0.30 & 0.7680 & 1.0000 & Không \\
 \hline
-RQ3 & Calibrated Hybrid vs. Dense+BM25 ($N=25$) & MAP & +0.0029 & [-0.0055, +0.0127] & 0.61 & 0.5430 & 1.0000 & 1.0000 & Tương đương \\
-RQ3 & Calibrated Hybrid vs. Dense+BM25 ($N=25$) & nDCG@10 & +0.0039 & [-0.0070, +0.0157] & 0.67 & 0.5051 & 1.0000 & 1.0000 & Tương đương \\
-RQ3 & Calibrated Hybrid vs. Single-Vec (\texttt{med2425}, $N\approx 209$) & nDCG@10 & +0.0849 & [+0.0169, +0.1518] & 2.40 & 0.0211 & \textbf{0.0422} & -- & \textbf{Có} \\
-RQ3 & Calibrated Hybrid vs. Dense+BM25 (\texttt{med2425}, $N\approx 209$) & nDCG@10 & +0.0475 & [+0.0022, +0.0922] & 2.06 & 0.0457 & \textbf{0.0457} & -- & \textbf{Có} \\
+RQ3 & Calibrated Hybrid vs.\ Dense+BM25 & MAP & +0.0014 & [-0.0089, +0.0124] & 0.25 & 0.8038 & 1.0000 & Không \\
+RQ3 & Calibrated Hybrid vs.\ Dense+BM25 & nDCG@10 & +0.0073 & [-0.0058, +0.0213] & 1.04 & 0.3038 & 1.0000 & Không \\
 \hline
-RQ4 & Calibrated Hybrid vs. Cross-Encoder & nDCG@10 & +0.0632 & [+0.0218, +0.1049] & 2.97 & 0.0041 & \textbf{0.0082} & 0.0586 & \textbf{Có} \\
-RQ4 & Calibrated Hybrid vs. Cross-Encoder & MAP & +0.0716 & [+0.0270, +0.1196] & 2.98 & 0.0039 & \textbf{0.0117} & 0.0586 & \textbf{Có} \\
-RQ4 & Calibrated Hybrid vs. 2-Stage Top10 & nDCG@10 & +0.0396 & [+0.0061, +0.0770] & 2.16 & 0.0342 & \textbf{0.0342} & 0.4440 & \textbf{Có} \\
+RQ4 & Calibrated Hybrid vs.\ Cross-Encoder & nDCG@10 & +0.0666 & [+0.0247, +0.1093] & 3.08 & 0.0029 & 0.0442 & \textbf{Có} \\
+RQ4 & Calibrated Hybrid vs.\ Cross-Encoder & MAP & +0.0701 & [+0.0256, +0.1182] & 2.93 & 0.0046 & 0.0641 & Không \\
+RQ4 & Calibrated Hybrid vs.\ 2-Stage Top10 & nDCG@10 & +0.0426 & [+0.0093, +0.0794] & 2.37 & 0.0206 & 0.2676 & Không \\
 \hline
 \end{tabular}%
 }
-\end{table*}
+\end{table}

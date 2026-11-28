@@ -1,52 +1,15 @@
-\section{Experimental Setup}
+\section{Experimental Setup and Evaluation Protocol}
 
-\subsection{Benchmark Dataset and Annotation Protocol}
-To evaluate the proposed section-aware matching architecture on reproducible, open-science foundations without insular corporate bias, all experiments are conducted on the standardized international benchmark \textsc{resume-job-description-fit}~\cite{huggingface_resume_fit}.
-
-The benchmark comprises:
-\begin{itemize}
-    \item \textbf{Corpus Scale}: $1,759$ authentic candidate resume and job description pairs spanning $71$ unique job queries and $477$ distinct candidate resumes across diverse technology and business domains.
-    \item \textbf{Graded Relevance Rubric}: Each pair is annotated under a 3-tier graded relevance scale:
-    \begin{itemize}
-        \item \textbf{Grade 0 (\textit{No Fit})}: $857$ pairs ($48.7\%$) representing negative distractors where candidate competencies fail core prerequisites.
-        \item \textbf{Grade 1 (\textit{Potential Fit})}: $444$ pairs ($25.2\%$) indicating partial competency overlap where candidate exhibits transferable skills but lacks secondary requirements.
-        \item \textbf{Grade 2 (\textit{Good Fit})}: $458$ pairs ($26.1\%$) denoting high alignment with mandatory experience and technical prerequisites.
-    \end{itemize}
-\end{itemize}
-
-\subsection{Baseline Configurations and Model Deployments}
-We benchmark a comprehensive suite of algorithmic configurations across lexical, flat dense, chunk-based, multi-vector, hybrid, long-context, and cross-attention paradigms:
-\begin{enumerate}\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}
-    \item \textbf{Lexical Baseline (BM25 / TF-IDF)}: Standard Okapi BM25 with English stop-word removal and sublinear term frequency scaling over raw document text.
-    \item \textbf{Flat Dense Bi-Encoder (MiniLM)}: Dense bi-encoder Cosine similarity over whole-document text mapped via \texttt{sentence-transformers/\allowbreak{}all-MiniLM-L6-v2} ($384$-dimensional embedding, $256$ maximum sequence length, leading to truncation of longer resumes).
-    \item \textbf{Chunk-Mean (MiniLM)}: Fixed-size sliding-window tokenization ($128$-word window, $64$-word stride) where chunk embeddings are mean-pooled into a single representation prior to cosine scoring.
-    \item \textbf{Chunk-MaxSim (ColBERT Late Interaction)}: Fine-grained token/chunk interaction computing $\frac{1}{|Q|}\sum_{q \in Q} \max_{d \in D} \cos(q, d)$ across sliding-window chunks.
-    \item \textbf{Section-Aware Multi-Vector (Ours)}: Functional section parsing via the frozen parser (commit \texttt{41e1d27}) with section-specific vector representations and cross-section alignment. We evaluate three variants: Pure ($0\%$ single-vector), Fallback (single-vector only if $0$ sections recognized), and Mixed ($0.65$ section + $0.35$ single-vector).
-    \item \textbf{Long-Context Encoder (\textsc{BAAI/bge-m3})}: State-of-the-art multilingual model with an $8,192$-token context window ($1,024$-dim embedding), evaluated in both Flat and Section-Aware configurations.
-    \item \textbf{Calibrated Hybrid Fusion (Ours)}: Two-tier fusion integrating min-max normalized section-aware semantic retrieval ($\alpha = 0.60$), BM25 lexical precision ($1 - \alpha = 0.40$), and structured 3-tier skill taxonomy coverage.
-    \item \textbf{Parameter-Free RRF + Taxonomy (Ours)}: Reciprocal Rank Fusion ($k=60$) between dense section-aware and lexical BM25 ranks, combined with structured taxonomy coverage without hyperparameter tuning.
-    \item \textbf{Zero-Shot Cross-Encoder}: Deep cross-attention ranking over concatenation $(D_q, D_c)$ via \texttt{cross-encoder/\allowbreak{}ms-marco-MiniLM-L-6-v2}.
-    \item \textbf{Cascaded 2-Stage Retrieval}: Practical two-stage pipeline where Calibrated Hybrid retrieves Top-$K$ candidates ($K \in \{10, 20\}$) which are then reranked by the Cross-Encoder.
+\subsection{Datasets and Leakage-Free Splits}
+We evaluate across four public benchmarks spanning both in-domain screening and zero-shot cross-dataset transfer:
+\begin{enumerate}
+    \item \textbf{Primary Test Split} (\texttt{cnamuangtoun/resume-job-description-fit})~\cite{huggingface_resume_fit}: $1{,}759$ labeled pairs across $71$ unique JDs and $477$ CVs spanning IT and business domains, labeled on a $3$-level graded scale: Grade~$0$ (\textit{No Fit}, $857$ pairs, $48.7\%$), Grade~$1$ (\textit{Potential Fit}, $444$ pairs, $25.2\%$), and Grade~$2$ (\textit{Good Fit}, $458$ pairs, $26.1\%$).
+    \item \textbf{Held-Out Clean Train Split}: From the $280$ JDs in \texttt{train.csv}, $204$ JDs ($72.9\%$) were inspected during rule development or sensitivity sweeps. Per our pre-registered plan (commit \texttt{d22eb66}), we isolate the remaining $76$ untouched JDs ($1{,}829$ pairs, $547$ CVs) to audit out-of-sample generalization.
+    \item \textbf{High-Density Bidirectional Split} (\texttt{med2425/\allowbreak resume-job-fit-\allowbreak merged-v1}): Filtering for IT domains (software, data, AI) yields $8{,}575$ pairs across $41$ JDs and $277$ CVs ($\approx 209$ CVs/JD), annotated by Qwen2.5-32B at temperature $0$. We evaluate both $\text{JD}\rightarrow\text{CV}$ ($N=41$) and $\text{CV}\rightarrow\text{JD}$ ($N=272$ valid queries with $\ge 5$ JDs and $\ge 1$ positive). For zero-shot transfer of supervised models, we also exclude all CVs overlapping with \texttt{train.csv} ($7{,}418$ strictly unseen pairs, $240$ CVs).
+    \item \textbf{External Zero-Shot Benchmarks}: \texttt{job\_resume\_fit} ($23$ JDs, $2{,}385$ pairs, $0\%$ overlap, continuous scores $0$--$100$) and \texttt{resume-score-details} ($24$ ranking JDs, $851$ pairs, $0\%$ overlap, GPT-4o rubric scores).
 \end{enumerate}
 
-\subsection{Evaluation Metrics and Significance Testing}
-Following standard Information Retrieval (TREC) and Recommender Systems conventions, ranking quality is evaluated across multiple complementary dimensions:
-\begin{itemize}\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}
-    \item \textbf{Discounted Cumulative Gain (nDCG@K)}: Primary graded evaluation metric at cutoff thresholds $K \in \{5, 10\}$:
-    \begin{equation}
-        \text{DCG}@K = \sum_{i=1}^{\min(K, N_q)} \frac{2^{y_i} - 1}{\log_2(i + 1)}, \quad \text{nDCG}@K = \frac{\text{DCG}@K}{\text{IDCG}@K},
-        \label{eq:ndcg}
-    \end{equation}
-    where $y_i \in \{0, 1, 2\}$ is the ground-truth relevance grade at rank $i$, rewarding top-ranked Grade 2 candidates via exponential gain $2^{y_i} - 1$, and $\text{IDCG}@K$ represents ideal DCG under monotonic ground-truth sorting.
-    \item \textbf{Reciprocal Rank \& Precision}: Mean Reciprocal Rank (MRR), Mean Average Precision (MAP), and Precision@5 (P@5) evaluated at binary thresholds $\tau \in \{1, 2\}$.
-    \item \textbf{Rank Correlation}: Spearman rank correlation coefficient with tied midranks evaluated as Macro-Spearman ($\rho_{\text{mac}}$, excluding zero-variance queries) and Micro-Spearman ($\rho_{\text{mic}}$).
-    \item \textbf{Fair Tie-Breaking Protocol}: To eliminate random positional bias among tied candidate scores, all metric scores are computed as the expected average over $N_{\text{shuffles}} = 50$ random permutations perturbed by microscopic jitter $z \sim \text{Uniform}(-10^{-9}, 10^{-9})$.
-    \item \textbf{Significance Testing \& Holm-Bonferroni Correction}: Paired Student's $t$ and Wilcoxon signed-rank tests with $B=10{,}000$ bootstrap percentile $95\%$ confidence intervals, adjusted via step-down Holm-Bonferroni across the family of $L=15$ pre-specified hypothesis tests at $\alpha_{\text{stat}} = 0.05$.
-    \item \textbf{Operational Latency Profile}: Decomposed into offline indexing time ($T_{\text{index}}$), online query encoding ($T_{\text{query}}$), and candidate scoring/ranking latency ($T_{\text{rank}}$) for pool size $N=25$ candidates on commodity multi-core CPUs.
-\end{itemize}
+\subsection{Evaluated Models, Metrics, and Statistical Protocol}
+We evaluate $14$ training-free configurations: Random Floor ($100$ permutations), Oracle Ceiling, BM25/TF-IDF~\cite{robertson2009probabilistic}, MiniLM Single-Vector Flat ($256$ tokens), Chunk-Mean ($128$-word windows, stride $64$), Chunk-MaxSim (ColBERT-style~\cite{khattab2020colbert}), BGE-M3 Flat and Section-Aware ($8{,}192$ tokens)~\cite{chen2024bge}, MiniLM Section-Aware variants (Pure, Fallback, Mixed $0.65/0.35$), Dense+BM25 ($L_0$), $2\times 3$ Taxonomy ablations, Calibrated Hybrid ($\alpha=\beta=0.60$), RRF+Taxonomy ($k=60$)~\cite{cormack2009reciprocal}, Full Cross-Encoder (\texttt{ms-marco-MiniLM-L-6-v2}), and Cascaded 2-Stage (Top-$10$/Top-$20$). For supervised comparisons, \texttt{minilm-cvjd-ft} is trained on $230$ clean train JDs ($50$ validation JDs for early stopping, excluding all $68$ test-overlapping CVs), and LTR rankers are fitted on out-of-sample validation queries to prevent stacking leakage.
 
-\subsection{Section Parser Fidelity Evaluation Protocol}
-To evaluate section parser fidelity without data contamination, heading boundaries on $50$ held-out development documents ($25$ CVs, $25$ JDs, sampled from \texttt{train\_eval} with fixed seed $42$) were independently reviewed against raw document text. We evaluate rule-consistency precision, recall, and false positive rates before freezing the parser (commit \texttt{41e1d27}) for all downstream test benchmark experiments.
-
-\subsection{Reproducibility Environment}
-All benchmarks execute on an Intel Core i7 multi-core CPU (16\,GB RAM) under Python 3.13 without specialized GPU hardware. All code, frozen taxonomy configurations ($70+$ canonical technologies with verified relational weights), and evaluation scripts are open-sourced for complete scientific auditability.
+Following TREC/SIGIR standards, we report $\text{nDCG}@K$ ($K\in\{5,10\}$), $\text{MRR}$, $\text{MAP}$, $\text{P}@5$ at threshold $\tau=1$ ($\text{rel}\ge 1$), and Macro-Spearman $\rho$ (tied midranks) averaged over $N_{\text{shuffles}}=50$ tie-breaking permutations ($z\sim\text{Uniform}(-10^{-9},10^{-9})$) across \textbf{Setting~A} (all $71$ queries) and \textbf{Setting~B} ($61$ filtered queries with $\text{rel}\ge 1$). Across $L=15$ primary hypothesis comparisons, we report paired $t$-tests, Wilcoxon tests, $10{,}000$-resample bootstrap $95\%$ CIs, and \textbf{Holm--Bonferroni} adjusted $p$-values ($\alpha_{\text{stat}}=0.05$). All CPU latencies are measured on an Intel Core i7 CPU (PyTorch CPU, $10$ warm-ups, $15$--$20$ repetitions) decomposed into $T_{\text{index}}$, $T_{\text{query}}$, $T_{\text{rank}}$ ($N=25$), and $T_{\text{online}} = T_{\text{query}} + T_{\text{rank}}$.

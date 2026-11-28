@@ -1,9 +1,9 @@
 % !TEX program = pdflatex
 % =====================================================================
-% Hệ thống Truy xuất Đa Vector Nhận biết Phân mục và Xếp hạng Lai cho
-% Ghép cặp Hai chiều Hồ sơ Ứng viên (CV) và Mô tả Công việc (JD)
+% Truy xuất Đa Vector Nhận biết Phân mục và Xếp hạng Lai Hiệu chỉnh
+% cho Ghép cặp Hai chiều CV--Mô tả Công việc
 %
-% Định dạng Springer LNCS Proceedings (Bản Toàn văn Tiếng Việt)
+% Định dạng Springer LNCS Proceedings (Version 2.25, Bản Tiếng Việt)
 % =====================================================================
 \documentclass[runningheads]{llncs}
 
@@ -11,30 +11,39 @@
 \usepackage[T5]{fontenc}
 \usepackage[english,vietnamese]{babel}
 \AtBeginDocument{\shorthandoff{"}}
+\emergencystretch=3em
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{6pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+
 \usepackage{graphicx}
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{multirow}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,calc,backgrounds}
 \usepackage[protrusion=true,expansion=false]{microtype}
 \usepackage{xcolor}
 \usepackage[colorlinks=true,linkcolor=blue!70!black,citecolor=green!50!black,urlcolor=blue!70!black]{hyperref}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+\urlstyle{rm}
 
 \begin{document}
 
-\title{Truy xuất Đa Vector Nhận biết Phân mục và Xếp hạng Lai cho Ghép cặp Hai chiều CV--Mô tả Công việc trên Nền tảng Tuyển dụng}
+\title{Truy xuất Đa Vector Nhận biết Phân mục và Xếp hạng Lai Hiệu chỉnh cho Ghép cặp Hai chiều CV--Mô tả Công việc}
 
 \titlerunning{Ghép cặp CV--JD Đa Vector Nhận biết Phân mục}
 
-\author{Nhóm Tác giả Khuyết danh\inst{1}}
-\authorrunning{Khuyết danh và cộng sự}
+% TODO: Cập nhật đầy đủ danh sách đồng tác giả và địa chỉ đơn vị trước khi nộp.
+\author{Phat Tai\inst{1}}
+\authorrunning{P. Tai}
 
-\institute{Khoa Khoa học và Kỹ thuật Máy tính\\
-\email{research@example.edu}}
+\institute{Khoa Khoa học và Kỹ thuật Máy tính, [Tên Trường / Đơn vị], [Địa chỉ, Thành phố, Quốc gia]\\
+\email{tp.tai1314@gmail.com}}
 
 \maketitle
 
-% --- Các phân đoạn nội dung mô-đun ---
 \input{sections/00_abstract.tex}
 \input{sections/01_introduction.tex}
 \input{sections/02_related_work.tex}
@@ -44,7 +53,14 @@
 \input{sections/05b_ethics_and_limitations.tex}
 \input{sections/06_conclusion.tex}
 
-% --- Tài liệu tham khảo ---
+\begin{credits}
+\subsubsection{\ackname}
+Hệ thống Microsoft CMT được sử dụng để quản lý quy trình phản biện cho hội nghị. Dịch vụ này được Microsoft cung cấp miễn phí và chịu toàn bộ chi phí hạ tầng đám mây Azure cũng như phát triển và hỗ trợ phần mềm.
+
+\subsubsection{\discintname}
+Các tác giả tuyên bố không có xung đột lợi ích nào liên quan đến nội dung bài báo này.
+\end{credits}
+
 \bibliographystyle{splncs04}
 \bibliography{references}
 

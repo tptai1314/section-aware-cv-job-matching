@@ -223,26 +223,23 @@ def main() -> None:
     # 3. Taxonomy & Calibrated Hybrid
     print("--> [3/4] Computing Taxonomy Coverage and Hybrid Fusion ...", flush=True)
     taxonomy = get_taxonomy()
+    taxonomy.attach_skill_embeddings(lambda xs: minilm.encode(xs, batch_size=64, normalize_embeddings=True))
     job_taxonomy_skills = [taxonomy.classify_jd_skills(j) for j in unique_jobs]
     cv_taxonomy_skills = [taxonomy.extract_skills_from_text(c) for c in unique_cvs]
 
-    tax_scores = []
-    for j, c in pairs:
-        j_must, j_nice = job_taxonomy_skills[j]
-        all_j = set(j_must).union(set(j_nice))
-        c_sk = set(cv_taxonomy_skills[c])
-        if not all_j:
-            tax_scores.append(0.0)
-            continue
-        cov = 0.0
-        for js in all_j:
-            if js in c_sk:
-                cov += 1.0
-            else:
-                max_rel = max([taxonomy.get_relation_weight(cs, js) for cs in c_sk], default=0.0)
-                cov += max_rel
-        tax_scores.append(cov / len(all_j))
-    tax_scores = np.array(tax_scores)
+    tax_scores = np.array([
+        taxonomy.score_skills_coverage(
+            job_taxonomy_skills[j][0],
+            job_taxonomy_skills[j][1],
+            cv_taxonomy_skills[c],
+            must_weight=0.85,
+            nice_weight=0.15,
+            neutral_score=1.0,
+            use_layer2=True,
+            use_layer3=True,
+        )
+        for j, c in pairs
+    ])
 
     dense_norm = min_max_norm(sec_scores)
     bm25_norm = min_max_norm(bm25_scores)

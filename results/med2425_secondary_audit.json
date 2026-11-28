@@ -53,18 +53,6 @@
         "p@5_th2": 0.33658536585365856
       }
     },
-    "MiniLM Section-Aware Mixed (Ours)": {
-      "metrics": {
-        "ndcg@5": 0.556702819112451,
-        "ndcg@10": 0.548921048192014,
-        "mrr_th1": 0.7863143631436314,
-        "mrr_th2": 0.4612154150197628,
-        "map_th1": 0.634812401928374,
-        "map_th2": 0.294182014928141,
-        "p@5_th1": 0.7560975609756098,
-        "p@5_th2": 0.3463414634146341
-      }
-    },
     "Dense + BM25 (L0: No Taxonomy)": {
       "metrics": {
         "ndcg@5": 0.6198100172029226,
@@ -79,14 +67,14 @@
     },
     "Calibrated Hybrid (Dense+BM25+Tax)": {
       "metrics": {
-        "ndcg@5": 0.6220786917551762,
-        "ndcg@10": 0.624238984978654,
-        "mrr_th1": 0.9142276422764228,
-        "mrr_th2": 0.555886223617779,
-        "map_th1": 0.6813679921763065,
-        "map_th2": 0.3473901686358477,
-        "p@5_th1": 0.7804878048780488,
-        "p@5_th2": 0.38048780487804873
+        "ndcg@5": 0.6285735128285841,
+        "ndcg@10": 0.6248943789742154,
+        "mrr_th1": 0.9019744483159116,
+        "mrr_th2": 0.5324160161114341,
+        "map_th1": 0.6833410394922738,
+        "map_th2": 0.351398067170926,
+        "p@5_th1": 0.7902439024390243,
+        "p@5_th2": 0.39512195121951216
       }
     },
     "Ceiling: Oracle Ranking": {
@@ -102,26 +90,13 @@
       }
     }
   },
-  "statistical_tests": [
-    {
-      "comparison": "Calibrated Hybrid vs Single-Vector (nDCG@10)",
-      "mean_diff": 0.0849,
-      "ci_lower": 0.0169,
-      "ci_upper": 0.1518,
-      "t_stat": 2.401,
-      "paired_t_p": 0.0211,
-      "holm_adj_p": 0.0422,
-      "significant_05": true
-    },
-    {
-      "comparison": "Calibrated Hybrid vs Dense+BM25 (nDCG@10)",
-      "mean_diff": 0.0475,
-      "ci_lower": 0.0022,
-      "ci_upper": 0.0922,
-      "t_stat": 2.062,
-      "paired_t_p": 0.0457,
-      "holm_adj_p": 0.0457,
-      "significant_05": true
-    }
-  ]
+  "statistical_test": {
+    "comparison": "Section-Aware vs Single-Vector (nDCG@10)",
+    "mean_diff": -0.0257,
+    "ci_lower": -0.078,
+    "ci_upper": 0.0242,
+    "t_stat": -0.928,
+    "paired_t_p": 0.3588,
+    "wilcoxon_p": 0.2316
+  }
 }

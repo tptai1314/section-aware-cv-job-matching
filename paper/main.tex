@@ -1,38 +1,49 @@
 % !TEX program = pdflatex
 % =====================================================================
 % Section-Aware Multi-Vector Retrieval and Hybrid Ranking for
-% Bidirectional CV-Job Matching in Freelance Platforms
+% Bidirectional CV-Job Matching
 %
-% Springer LNCS Proceedings Template
+% Official Springer LNCS Proceedings Template (Version 2.25 of 2026/09/03)
+% Prepared for TAIMMA 2027 (Single-Blind Peer Review)
 % =====================================================================
 \documentclass[runningheads]{llncs}
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amssymb}
+\emergencystretch=3em
+\setlength{\textfloatsep}{8pt plus 2pt minus 2pt}
+\setlength{\floatsep}{6pt plus 2pt minus 2pt}
+\setlength{\intextsep}{8pt plus 2pt minus 2pt}
+
 \usepackage{graphicx}
-\usepackage{amsmath,amssymb}
+\usepackage{amsmath}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{multirow}
-\usepackage{microtype}
-\usepackage{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,shapes.geometric,fit,calc,backgrounds}
 \usepackage[colorlinks=true,linkcolor=blue!70!black,citecolor=green!50!black,urlcolor=blue!70!black]{hyperref}
+\renewcommand\UrlFont{\color{blue}\rmfamily}
+\urlstyle{rm}
 
 \begin{document}
 
-\title{Section-Aware Multi-Vector Retrieval and Hybrid Ranking for Bidirectional CV--Job Matching in Freelance Platforms}
+\title{Section-Aware Multi-Vector Retrieval and Calibrated Hybrid Ranking for Bidirectional CV--Job Matching}
 
-\titlerunning{Section-Aware CV--Job Matching}
+\titlerunning{Section-Aware Multi-Vector CV--Job Matching}
 
-\author{Anonymous Authors\inst{1}}
-\authorrunning{Anonymous et al.}
+% Single-blind peer review: include full author names, complete institutional addresses, and emails.
+% TODO: Verify exact co-authors and complete institutional street address before CMT submission.
+\author{Phat Tai\inst{1}}
+\authorrunning{P. Tai}
 
-\institute{Department of Computer Science and Engineering\\
-\email{research@example.edu}}
+\institute{Department of Computer Science and Engineering, [University / Institution Name], [Street Address, City, Postal Code, Country]\\
+\email{tp.tai1314@gmail.com}}
 
 \maketitle
 
-% --- Modular Content Sections ---
 \input{sections/00_abstract.tex}
 \input{sections/01_introduction.tex}
 \input{sections/02_related_work.tex}
@@ -42,9 +53,15 @@
 \input{sections/05b_ethics_and_limitations.tex}
 \input{sections/06_conclusion.tex}
 
-% --- References ---
+\begin{credits}
+\subsubsection{\ackname}
+The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
+
+\subsubsection{\discintname}
+The authors have no competing interests to declare that are relevant to the content of this article.
+\end{credits}
+
 \bibliographystyle{splncs04}
 \bibliography{references}
 
 \end{document}
-

@@ -227,3 +227,22 @@ def test_hybrid_score_skill_gating():
     out_perfect_gated = hybrid_score(job, perfect_cand, must_have_penalty=True, renormalize_missing=True)
     assert abs(out_perfect_gated["overall"] - out_perfect_ungated["overall"]) < 1e-6
 
+
+def test_profile_from_document_section_evidence_weights():
+    doc = Document(
+        doc_id="c_ev",
+        doc_type="cv",
+        lang="en",
+        raw_text="Summary: Familiar with Docker.\nSkills: React, Python\nExperience: Built APIs with React and AWS.",
+        sections={
+            "skills": Section(name="skills", text="React, Python"),
+            "experience": Section(name="experience", text="Built APIs with React and AWS."),
+        },
+    )
+    profile = profile_from_document(doc)
+    weights = {s.name: s.weight for s in profile.skills}
+    assert weights["react"] == 1.25  # corroborated in both skills & experience
+    assert weights["python"] == 1.0
+    assert weights["aws"] == 1.0
+    assert weights["docker"] == 0.75  # only mentioned outside skills & experience
+
